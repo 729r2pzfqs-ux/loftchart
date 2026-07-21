@@ -1,0 +1,128 @@
+brand: Ping
+brand_slug: ping
+model: G15
+slug: g15-irons
+club_type: irons
+year_introduced: 2009
+year_discontinued: 2011
+category: game-improvement
+construction: investment cast
+material: 17-4 stainless steel
+successor: Ping G20
+predecessor: Ping G10
+description: >
+  The G15 is a wide-soled, high-launch game-improvement iron with a Custom Tuning
+  Port and heavily progressive offset — 0.32 inches in the 3-iron tapering to
+  0.10 inches in the lob wedge. Lofts are strong for the era: the 7-iron is
+  32 degrees, four degrees stronger than the 1980s Ping Eye 2 and 2.3 degrees
+  stronger than the 2003 G2. Ping's colour-code (dot) system sets lie angle
+  relative to standard: gold 4 flat, brown 3 flat, orange 2 flat, red 1 flat,
+  BLACK standard, blue 1 upright, green 2 upright, white 3 upright, silver
+  4 upright, maroon 5 upright. The lies below are the BLACK (standard) lies.
+  Graphite-shafted clubs run one swing-weight point lighter than the steel values
+  shown.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 59.25
+    length: 38.75
+    offset: 0.32
+    bounce: -2.0
+    swing_weight: D0
+  - club: "4"
+    loft: 23.0
+    lie: 60.0
+    length: 38.25
+    offset: 0.30
+    bounce: 0.0
+    swing_weight: D0
+  - club: "5"
+    loft: 26.0
+    lie: 60.75
+    length: 37.75
+    offset: 0.28
+    bounce: 2.0
+    swing_weight: D0
+  - club: "6"
+    loft: 29.0
+    lie: 61.5
+    length: 37.25
+    offset: 0.26
+    bounce: 4.0
+    swing_weight: D0
+  - club: "7"
+    loft: 32.0
+    lie: 62.25
+    length: 36.75
+    offset: 0.24
+    bounce: 6.0
+    swing_weight: D0
+  - club: "8"
+    loft: 36.0
+    lie: 63.0
+    length: 36.25
+    offset: 0.22
+    bounce: 8.0
+    swing_weight: D0
+  - club: "9"
+    loft: 40.0
+    lie: 63.75
+    length: 35.75
+    offset: 0.20
+    bounce: 9.0
+    swing_weight: D0
+  - club: "PW"
+    loft: 45.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.18
+    bounce: 10.0
+    swing_weight: D2
+  - club: "UW"
+    loft: 50.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.15
+    bounce: 11.0
+    swing_weight: D2
+  - club: "SW"
+    loft: 54.0
+    lie: 64.25
+    length: 35.25
+    offset: 0.13
+    bounce: 12.0
+    swing_weight: D4
+  - club: "LW"
+    loft: 58.0
+    lie: 64.5
+    length: 35.0
+    offset: 0.10
+    bounce: 12.0
+    swing_weight: D6
+stock_shafts:
+  - name: "Ping AWT"
+    material: steel
+    weight: "99-117g"
+    flex: ["R", "S", "X"]
+  - name: "Ping TFC 149I"
+    material: graphite
+    weight: "74-86g (44g in L flex)"
+    flex: ["L", "SR", "R", "S"]
+sources:
+  - "Morton Golf Sales PING G15 individual irons spec table (loft, lie, length, offset, bounce, swing weight for 3-iron through LW; reproduces Ping's published chart)"
+  - "Secondary retailer/review spec listings corroborating the 3-iron through PW loft/lie/length/offset/bounce values"
+  - "GolfWorks Ping shaft replacement reference PDF (2010 G15 Irons — AWT steel R/S/X 99/108/117g; TFC 149I graphite SR/R/S 74-86g and L 44g)"
+  - "TGW / PGA Tour Superstore Ping colour code chart guides (black dot = standard lie)"
+related_models:
+  - slug: "ping/g2-irons"
+    label: "Earlier G-series iron: Ping G2"
+  - slug: "ping/g25-irons"
+    label: "Later G-series iron: Ping G25"
+faq:
+  - q: "What is the loft of a Ping G15 7-iron?"
+    a: "The Ping G15 7-iron has a loft of 32 degrees, a standard (black dot) lie of 62.25 degrees and a steel-shaft length of 36.75 inches."
+  - q: "What are the Ping G15 wedge lofts?"
+    a: "The pitching wedge is 45 degrees, the utility wedge 50, the sand wedge 54 and the lob wedge 58 degrees."
+  - q: "How much offset do Ping G15 irons have?"
+    a: "Offset is progressive, running from 0.32 inches in the 3-iron down to 0.10 inches in the lob wedge, with 0.24 inches at the 7-iron."
+confidence: high

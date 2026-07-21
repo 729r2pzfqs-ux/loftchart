@@ -1,0 +1,104 @@
+brand: Callaway
+brand_slug: callaway
+model: X-20
+slug: x-20-irons
+club_type: irons
+year_introduced: 2007
+year_discontinued: 2009
+category: game-improvement
+construction: investment cast
+material: stainless steel
+successor: Callaway X-22
+predecessor: Callaway X-18
+description: >
+  The X-20 was Callaway's 2007 game-improvement iron, replacing the X-18 in the long-running
+  X-series. It combined Variable Face Thickness technology with "Extreme Notch Weighting"
+  perimeter weighting and the S2H2 hosel to push mass low and to the edges of the head.
+  Callaway published a lower centre of gravity than the X-18. The set ran 3-PW with a
+  2-iron, A-wedge, sand wedge and lob wedge available. A separate X-20 Tour model with
+  a smaller head and different lofts was sold alongside it. Specs below are the standard
+  men's steel-shaft numbers.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 60.5
+    length: 38.75
+    bounce: 1.0
+    swing_weight: D2
+  - club: "4"
+    loft: 24.0
+    lie: 61.0
+    length: 38.25
+    bounce: 1.5
+    swing_weight: D2
+  - club: "5"
+    loft: 27.0
+    lie: 61.5
+    length: 37.75
+    bounce: 2.0
+    swing_weight: D2
+  - club: "6"
+    loft: 30.0
+    lie: 62.0
+    length: 37.25
+    bounce: 2.5
+    swing_weight: D2
+  - club: "7"
+    loft: 33.0
+    lie: 62.5
+    length: 36.75
+    bounce: 3.0
+    swing_weight: D2
+  - club: "8"
+    loft: 37.0
+    lie: 63.0
+    length: 36.25
+    bounce: 4.0
+    swing_weight: D2
+  - club: "9"
+    loft: 41.0
+    lie: 64.0
+    length: 35.75
+    bounce: 5.0
+    swing_weight: D2
+  - club: "PW"
+    loft: 45.0
+    lie: 65.0
+    length: 35.25
+    bounce: 7.0
+    swing_weight: D2
+  - club: "AW"
+    loft: 50.0
+    lie: 65.0
+    length: 35.25
+    bounce: 11.0
+    swing_weight: D2
+  - club: "SW"
+    loft: 55.0
+    lie: 65.0
+    length: 35.0
+    bounce: 15.0
+    swing_weight: D4
+  - club: "LW"
+    loft: 60.0
+    lie: 65.0
+    length: 34.75
+    bounce: 11.0
+    swing_weight: D4
+stock_shafts:
+  - name: "Callaway X Steel"
+    material: steel
+    flex: ["R", "S", "Uniflex"]
+  - name: "Callaway X-20 Graphite"
+    material: graphite
+sources:
+  - "Callaway Golf Pre-Owned official product specs page for X-20 irons (callawaygolfpreowned.com, ProductSpecs-Get?productCode=irons-x-20) — primary source for loft, lie, standard length, bounce and swingweight"
+  - "2nd Swing Golf Callaway X-20 iron set spec table (2ndswing.com) — independently corroborates loft, lie, length and bounce"
+faq:
+  - q: "What is the loft of a Callaway X-20 7-iron?"
+    a: "The Callaway X-20 7-iron has a loft of 33 degrees."
+  - q: "What is the loft of a Callaway X-20 pitching wedge and A-wedge?"
+    a: "The Callaway X-20 pitching wedge is 45 degrees and the A-wedge (gap wedge) is 50 degrees."
+  - q: "How long is a standard Callaway X-20 7-iron?"
+    a: "The standard men's steel-shaft Callaway X-20 7-iron is 36.75 inches with a 62.5 degree lie angle."
+confidence: high

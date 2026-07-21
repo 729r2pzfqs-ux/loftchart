@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="LoftChart">
+  <rect width="64" height="64" rx="12" fill="#1B4332"/>
+  <!-- hosel rising out of the heel -->
+  <path d="M25 24 L28 9" stroke="#FAFAF7" stroke-width="7" stroke-linecap="round"/>
+  <!-- blade face: high heel, low toe, rounded corners via stroke-linejoin -->
+  <path d="M21 44 L46 45 L50 30 L23 22 Z"
+        fill="#FAFAF7" stroke="#FAFAF7" stroke-width="4.5" stroke-linejoin="round"/>
+  <!-- grooves, horizontal so they double as chart rules -->
+  <g stroke="#1B4332" stroke-width="2.4" stroke-linecap="round">
+    <path d="M25 30.5 H45"/>
+    <path d="M24 35.5 H45.5"/>
+    <path d="M23.5 40.5 H46"/>
+  </g>
+</svg>

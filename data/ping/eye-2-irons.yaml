@@ -1,0 +1,85 @@
+brand: Ping
+brand_slug: ping
+model: Eye 2
+slug: eye-2-irons
+club_type: irons
+year_introduced: 1982
+year_discontinued: 1993
+category: game-improvement
+construction: investment cast
+material: 17-4 stainless steel
+successor: Ping Zing
+predecessor: Ping Eye
+description: >
+  The Eye 2 is the best-selling iron model in golf history and the club that
+  established Ping's perimeter-weighted, heel-toe balanced cavity back as the
+  standard game-improvement shape. Lofts are traditional by modern standards —
+  the 7-iron sits at 36 degrees, roughly four degrees weaker than a 2010s
+  game-improvement 7-iron. Ping fitted the Eye 2 with its colour-code (dot)
+  system, in which the coloured dot in the cavity denotes the lie angle relative
+  to standard: gold is 4 degrees flat, brown 3 flat, orange 2 flat, red 1 flat,
+  BLACK is standard, blue 1 upright, green 2 upright, white 3 upright, silver
+  4 upright and maroon 5 upright. The lie angles listed below are the BLACK
+  (standard) lies. The square-groove Eye 2 was also the subject of the long-running
+  USGA/PGA Tour groove dispute of the late 1980s.
+specs:
+  - club: "3"
+    loft: 21.5
+    lie: 59.5
+    length: 38.75
+  - club: "4"
+    loft: 24.7
+    lie: 60.0
+    length: 38.25
+  - club: "5"
+    loft: 28.5
+    lie: 61.0
+    length: 37.75
+  - club: "6"
+    loft: 32.0
+    lie: 61.5
+    length: 37.25
+  - club: "7"
+    loft: 36.0
+    lie: 62.5
+    length: 36.75
+  - club: "8"
+    loft: 40.2
+    lie: 63.0
+    length: 36.25
+  - club: "9"
+    loft: 45.0
+    lie: 64.0
+    length: 35.75
+  - club: "PW"
+    loft: 50.7
+    lie: 64.5
+    length: 35.5
+  - club: "SW"
+    loft: 57.7
+    lie: 64.5
+    length: 35.25
+  - club: "LW"
+    loft: 61.0
+    lie: 64.5
+    length: 35.0
+stock_shafts:
+  - name: "Ping ZZ-Lite"
+    material: steel
+sources:
+  - "equip2golf.com Ping Eye2 specification page (lofts and lengths; lie angles not listed)"
+  - "qsponge.com Ping Eye 2 loft/lie table (lofts and black-dot lie angles)"
+  - "GolfWorks Ping shaft replacement reference PDF (1995 Eye 2 Irons — ZZ-Lite, True Temper, 115g, .355 tip)"
+  - "TGW / PGA Tour Superstore Ping colour code chart guides (black dot = standard lie)"
+  - "Note: equip2golf lists the 4-iron at 25.0, PW at 50.5 and SW at 57.5; the values above follow the more widely reproduced Ping chart (24.7 / 50.7 / 57.7). Discrepancies are 0.2-0.3 degrees."
+related_models:
+  - slug: "ping/isi-irons"
+    label: "Later Ping game-improvement iron: Ping ISI"
+faq:
+  - q: "What is the loft of a Ping Eye 2 7-iron?"
+    a: "The Ping Eye 2 7-iron has a loft of 36 degrees, with a standard (black dot) lie of 62.5 degrees and a steel-shaft length of 36.75 inches."
+  - q: "What does the black dot on a Ping Eye 2 mean?"
+    a: "Black is Ping's standard lie angle. Other dot colours shift the lie flatter (gold, brown, orange, red) or more upright (blue, green, white, silver, maroon) in one-degree steps."
+  - q: "Are Ping Eye 2 lofts weak compared to modern irons?"
+    a: "Yes. The Eye 2 7-iron is 36 degrees, whereas the Ping G25 7-iron from 2013 is 32 degrees — four degrees stronger, or roughly one club of difference."
+confidence: medium

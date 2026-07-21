@@ -1,0 +1,86 @@
+brand: Mizuno
+brand_slug: mizuno
+model: JPX-900 Forged
+slug: jpx-900-forged-irons
+club_type: irons
+year_introduced: 2016
+year_discontinued: 2018
+category: players-distance
+construction: forged
+material: 1025E boron-infused carbon steel
+successor: Mizuno JPX-919 Forged
+predecessor: Mizuno JPX-850 Forged
+description: >
+  The JPX-900 Forged is Grain Flow Forged from a boron-infused 1025E carbon steel,
+  which Mizuno used to build a thinner, stronger face while keeping a bendable hosel
+  for loft and lie adjustment. It is a compact players-distance iron with a modest
+  cavity and moderate offset, sold as a 4-PW plus gap wedge set.
+  Lofts are stronger than Mizuno's MP line of the same period, with a 31-degree 7-iron.
+  Lengths and lofts listed are the standard men's steel-shaft specification.
+specs:
+  - club: "4"
+    loft: 21.0
+    lie: 60.0
+    length: 38.25
+    offset: 0.161
+    bounce: 1.0
+  - club: "5"
+    loft: 24.0
+    lie: 60.5
+    length: 37.75
+    offset: 0.152
+    bounce: 2.0
+  - club: "6"
+    loft: 27.0
+    lie: 61.0
+    length: 37.25
+    offset: 0.142
+    bounce: 2.0
+  - club: "7"
+    loft: 31.0
+    lie: 61.5
+    length: 36.75
+    offset: 0.132
+    bounce: 3.0
+  - club: "8"
+    loft: 35.0
+    lie: 62.0
+    length: 36.25
+    offset: 0.122
+    bounce: 4.0
+  - club: "9"
+    loft: 40.0
+    lie: 62.5
+    length: 35.75
+    offset: 0.112
+    bounce: 5.0
+  - club: "PW"
+    loft: 45.0
+    lie: 63.0
+    length: 35.50
+    offset: 0.102
+    bounce: 6.0
+  - club: "GW"
+    loft: 50.0
+    lie: 63.0
+    length: 35.25
+    offset: 0.093
+    bounce: 7.0
+stock_shafts:
+  - name: "True Temper Project X LZ"
+    material: steel
+sources:
+  - "InTheHoleGolf.com Mizuno JPX-900 Forged iron set product spec table (loft/lie/length/offset/bounce, 4-PW+GW set)"
+  - "2ndSwing.com Mizuno JPX 900 Forged iron set specification table (identical figures, independent corroboration)"
+  - "GolfWRX launch article on the JPX-900 Hot Metal and JPX-900 Forged irons (1025 boron material, Grain Flow Forged, Project X LZ stock shaft)"
+related_models:
+  - slug: "mizuno/mp-57-irons"
+    label: "Earlier Mizuno forged players iron: MP-57"
+faq:
+  - q: "What is the loft of a Mizuno JPX-900 Forged 7-iron?"
+    a: "The Mizuno JPX-900 Forged 7-iron has a loft of 31 degrees, with a 61.5-degree lie and a 36.75-inch steel-shaft length."
+  - q: "What is the JPX-900 Forged made of?"
+    a: "It is Grain Flow Forged from 1025E carbon steel infused with boron, which lets Mizuno use a thinner, stronger face while keeping the hosel bendable for loft and lie adjustment."
+  - q: "How strong are the JPX-900 Forged lofts?"
+    a: "They are stronger than Mizuno's MP irons of the same era: 31 degrees at the 7-iron and 45 degrees at the pitching wedge, versus 35 and 47 degrees on the MP-57."
+confidence: high

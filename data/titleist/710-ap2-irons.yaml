@@ -1,0 +1,102 @@
+brand: Titleist
+brand_slug: titleist
+model: 710 AP2
+slug: 710-ap2-irons
+club_type: irons
+year_introduced: 2009
+year_discontinued: 2011
+category: players
+construction: forged, multi-material dual cavity
+material: forged 1025 carbon steel body with high-density tungsten-nickel weighting, elastomer cushion and aluminium cavity plate
+successor: Titleist 712 AP2
+predecessor: Titleist AP2 (2008)
+description: >
+  The 710 AP2 was the second generation of Titleist's multi-material AP2
+  players iron, released for the 2010 season. A forged 1025 carbon steel body
+  carries a laser-welded tungsten-nickel weight box in the heel and toe, an
+  elastomer cushion behind the face and an aluminium cavity plate, which
+  together push mass low and to the perimeter while keeping a compact head.
+  Compared with the AP1 of the same generation it has a thinner topline,
+  smaller blade, less offset and a reduced-bounce sole. Lofts are traditional,
+  with a 35 degree 7-iron.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 60.0
+    length: 39.0
+    offset: 0.160
+    swing_weight: D2
+  - club: "4"
+    loft: 24.0
+    lie: 61.0
+    length: 38.5
+    offset: 0.145
+    bounce: 1.0
+    swing_weight: D2
+  - club: "5"
+    loft: 27.0
+    lie: 62.0
+    length: 38.0
+    offset: 0.130
+    bounce: 3.0
+    swing_weight: D2
+  - club: "6"
+    loft: 31.0
+    lie: 62.5
+    length: 37.5
+    offset: 0.120
+    bounce: 4.0
+    swing_weight: D2
+  - club: "7"
+    loft: 35.0
+    lie: 63.0
+    length: 37.0
+    offset: 0.110
+    bounce: 4.0
+    swing_weight: D2
+  - club: "8"
+    loft: 39.0
+    lie: 63.5
+    length: 36.5
+    offset: 0.100
+    bounce: 5.0
+    swing_weight: D2
+  - club: "9"
+    loft: 43.0
+    lie: 64.0
+    length: 36.0
+    offset: 0.090
+    bounce: 6.0
+    swing_weight: D2
+  - club: "PW"
+    loft: 47.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.085
+    bounce: 7.0
+    swing_weight: D2
+  - club: "GW"
+    loft: 51.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.080
+    bounce: 7.0
+    swing_weight: D2
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+sources:
+  - "2ndSwing.com Titleist 710 AP2 iron set specification table (loft, lie, length, offset, swingweight)"
+  - "Titleist 710 AP2 published spec chart (loft and bounce by club) as reproduced in retailer and spec-database listings"
+  - "Titleist 710 AP2 product description via Golfbidder - forged 1025 carbon steel body, tungsten-nickel box, elastomer cushion, aluminium cavity plate"
+related_models:
+  - slug: "titleist/714-ap2-irons"
+    label: "Later generation: Titleist 714 AP2 (via the 712 AP2)"
+faq:
+  - q: "What is the loft of a Titleist 710 AP2 7-iron?"
+    a: "The Titleist 710 AP2 7-iron has a loft of 35 degrees, with a 63 degree lie and a 37 inch standard steel length."
+  - q: "How do the 710 AP2 lofts compare with the 714 AP2?"
+    a: "From the 6-iron down the 714 AP2 is one degree stronger: the 710 AP2 7-iron is 35 degrees versus 34 degrees in the 714 AP2, and the pitching wedge is 47 degrees versus 46 degrees."
+  - q: "What are the Titleist 710 AP2 irons made of?"
+    a: "The body is forged 1025 carbon steel, with a laser-welded high-density tungsten-nickel weight box, an elastomer cushion behind the face and an aluminium cavity plate."
+confidence: high

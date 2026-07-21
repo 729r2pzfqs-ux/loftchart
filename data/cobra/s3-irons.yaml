@@ -1,0 +1,102 @@
+brand: Cobra
+brand_slug: cobra
+model: S3
+slug: s3-irons
+club_type: irons
+year_introduced: 2011
+year_discontinued: 2012
+category: game-improvement
+construction: investment cast multi-material
+material: 17-4 Hyper Steel (3-7 irons), 17-4 stainless steel (8-iron through LW)
+predecessor: Cobra S2
+description: >
+  The S3 is Cobra's 2011 game-improvement iron, built around E9 Face Technology —
+  a variable-thickness face designed to enlarge the effective hitting zone, with an
+  oval sweet zone in the long irons and a rounder one in the short irons. A hidden
+  internal polymer topline and a full-cavity TPU insert redistribute weight and damp
+  vibration, and a stepped crescent sole narrows at the heel and toe for turf
+  interaction. Long irons (3-7) use 17-4 Hyper Steel while the 8-iron down uses
+  standard 17-4 stainless. Lofts are strong for the era at 31 degrees in the 7-iron
+  and 44 degrees in the pitching wedge, and lengths run long (37.25 inches at the
+  7-iron). The stock men's set is 4-9, PW and GW; a Seniors/Lite set ran 5-9, PW,
+  GW, SW, and iron-hybrid combo sets were also sold. Some secondary listings date the
+  S3 to 2013; that is wrong — Cobra announced it on 15 February 2011 and the
+  manufacturer product page is titled "2011 Cobra S3 Irons". Swing weights shown are
+  the R/S values; Lite-flex clubs run one point lighter.
+specs:
+  - club: "3"
+    loft: 19.0
+    lie: 60.5
+    length: 39.25
+    swing_weight: D3
+  - club: "4"
+    loft: 22.0
+    lie: 61.0
+    length: 38.75
+    swing_weight: D3
+  - club: "5"
+    loft: 25.0
+    lie: 61.5
+    length: 38.25
+    swing_weight: D3
+  - club: "6"
+    loft: 28.0
+    lie: 62.0
+    length: 37.75
+    swing_weight: D3
+  - club: "7"
+    loft: 31.0
+    lie: 62.5
+    length: 37.25
+    swing_weight: D3
+  - club: "8"
+    loft: 35.0
+    lie: 63.0
+    length: 36.75
+    swing_weight: D3
+  - club: "9"
+    loft: 39.0
+    lie: 63.5
+    length: 36.25
+    swing_weight: D3
+  - club: "PW"
+    loft: 44.0
+    lie: 64.0
+    length: 36.0
+    swing_weight: D3
+  - club: "GW"
+    loft: 49.0
+    lie: 64.5
+    length: 35.75
+    swing_weight: D5
+  - club: "SW"
+    loft: 54.0
+    lie: 64.5
+    length: 35.5
+    swing_weight: D5
+  - club: "LW"
+    loft: 59.0
+    lie: 64.5
+    length: 35.5
+    swing_weight: D5
+stock_shafts:
+  - name: "Nippon NS Pro 1030H"
+    material: steel
+    weight: "103g"
+    flex: ["R", "S"]
+  - name: "Aldila NV-3"
+    material: graphite
+    weight: "60-65g"
+    flex: ["Lite", "R", "S"]
+sources:
+  - "Cobra Golf official '2011 Cobra S3 Irons' product page, archived 2011-01-18 via web.archive.org — full Specifications table (model, loft, length, lie, swing weight, stock flex, RH/LH for 3-iron through LW), head materials, stock set composition and the Aldila NV-3 / Nippon NS Pro 1030H shaft tables"
+  - "The Golf Wire press release 'Introducing Cobra S3 Irons And Iron-Hybrid Set', 15 February 2011 — confirms the 2011 release, set composition and stock shafts"
+  - "InTheHoleGolf.com Cobra S3 Iron Set page — corroborates head materials (3-7 17-4 Hyper Steel, 8-LW 17-4 stainless) and stock shafts"
+faq:
+  - q: "What is the loft of a Cobra S3 7-iron?"
+    a: "The Cobra S3 7-iron has a loft of 31 degrees, a lie of 62.5 degrees and a length of 37.25 inches."
+  - q: "What year did the Cobra S3 irons come out?"
+    a: "The Cobra S3 irons were announced on 15 February 2011 and sold as Cobra's 2011 game-improvement iron."
+  - q: "What are the Cobra S3 wedge lofts?"
+    a: "The pitching wedge is 44 degrees, the gap wedge 49 degrees, the sand wedge 54 degrees and the lob wedge 59 degrees."
+confidence: high

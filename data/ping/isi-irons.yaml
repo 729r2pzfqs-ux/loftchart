@@ -1,0 +1,90 @@
+brand: Ping
+brand_slug: ping
+model: ISI
+slug: isi-irons
+club_type: irons
+year_introduced: 1998
+year_discontinued: 2000
+category: game-improvement
+construction: investment cast
+material: stainless steel
+successor: Ping i3 O-Size
+predecessor: Ping Zing 2
+description: >
+  The ISI replaced the Zing 2 as Ping's mainstream cavity-back iron in 1998 and
+  was offered alongside the larger, more forgiving ISI-K. Lofts are noticeably
+  stronger than the Eye 2 of a decade earlier — the 7-iron moved from 36 to
+  34.5 degrees — while lie angles became more upright. Ping offered an unusually
+  deep wedge matrix for the set: W (47), W2 (49.5), S (52), S2 (54.5), S3 (57)
+  and L (61); the table below lists W, W2, S and L. As with all Ping irons of the
+  era, the coloured dot in the cavity encodes lie angle relative to standard —
+  gold 4 flat, brown 3 flat, orange 2 flat, red 1 flat, BLACK standard, blue
+  1 upright, green 2 upright, white 3 upright, silver 4 upright, maroon 5 upright.
+  The lie angles below are the BLACK (standard) lies.
+specs:
+  - club: "3"
+    loft: 20.5
+    lie: 60.5
+    length: 38.75
+  - club: "4"
+    loft: 24.0
+    lie: 61.0
+    length: 38.25
+  - club: "5"
+    loft: 27.0
+    lie: 62.0
+    length: 37.75
+  - club: "6"
+    loft: 30.5
+    lie: 62.5
+    length: 37.25
+  - club: "7"
+    loft: 34.5
+    lie: 63.5
+    length: 36.75
+  - club: "8"
+    loft: 38.5
+    lie: 64.0
+    length: 36.25
+  - club: "9"
+    loft: 42.5
+    lie: 64.0
+    length: 35.75
+  - club: "PW"
+    loft: 47.0
+    lie: 65.5
+    length: 35.5
+  - club: "UW"
+    loft: 49.5
+    lie: 65.5
+    length: 35.5
+  - club: "SW"
+    loft: 52.0
+    lie: 65.5
+    length: 35.25
+  - club: "LW"
+    loft: 61.0
+    lie: 65.5
+    length: 35.0
+stock_shafts:
+  - name: "Ping W54"
+    material: graphite
+sources:
+  - "equip2golf.com Ping ISI specification page (lofts and lengths, including the W2/S2/S3 wedge options)"
+  - "qsponge.com Ping ISI loft/lie table (lofts and black-dot lie angles; lofts match equip2golf exactly)"
+  - "GolfWorks Ping shaft replacement reference PDF (1998 ISI Irons — W54 graphite by G. Loomis)"
+  - "TGW / PGA Tour Superstore Ping colour code chart guides (black dot = standard lie)"
+  - "Note: the steel shaft offering for the ISI is not confirmed in the GolfWorks table (the companion ISI-K is listed with True Temper JZ), so only the verified graphite shaft is recorded."
+related_models:
+  - slug: "ping/eye-2-irons"
+    label: "Earlier Ping game-improvement iron: Ping Eye 2"
+  - slug: "ping/i3-o-size-irons"
+    label: "Successor: Ping i3 O-Size"
+faq:
+  - q: "What is the loft of a Ping ISI 7-iron?"
+    a: "The Ping ISI 7-iron has a loft of 34.5 degrees, a standard (black dot) lie of 63.5 degrees and a steel-shaft length of 36.75 inches."
+  - q: "What wedges came with the Ping ISI set?"
+    a: "Ping offered six wedge options: W at 47 degrees, W2 at 49.5, S at 52, S2 at 54.5, S3 at 57 and L at 61 degrees."
+  - q: "What replaced the Ping ISI?"
+    a: "The Ping i3 O-Size took over as Ping's mainstream game-improvement iron in 2000."
+confidence: medium

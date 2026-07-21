@@ -1,0 +1,94 @@
+brand: Mizuno
+brand_slug: mizuno
+model: MP-32
+slug: mp-32-irons
+club_type: irons
+year_introduced: 2004
+year_discontinued: 2008
+category: players
+construction: forged
+material: 1025E mild carbon steel
+successor: null
+predecessor: Mizuno MP-30
+description: >
+  The MP-32 is a Grain Flow Forged cavity blade that pairs a blade-like profile and
+  very small offset with a shallow cavity and a Cut Muscle pad behind the hitting
+  area. It sits between the MP-33 blade and Mizuno's larger cavity irons, keeping
+  the same 4-degree loft gapping through the short irons but running one degree
+  stronger than the MP-33 in the mid and short irons.
+  Lengths and lofts listed are the standard men's steel-shaft specification.
+specs:
+  - club: "2"
+    loft: 19.0
+    lie: 59.0
+    length: 39.25
+    offset: 0.120
+    bounce: 2.0
+  - club: "3"
+    loft: 21.0
+    lie: 59.5
+    length: 38.75
+    offset: 0.120
+    bounce: 2.0
+  - club: "4"
+    loft: 24.0
+    lie: 60.0
+    length: 38.25
+    offset: 0.120
+    bounce: 2.0
+  - club: "5"
+    loft: 27.0
+    lie: 60.5
+    length: 37.75
+    offset: 0.120
+    bounce: 2.0
+  - club: "6"
+    loft: 31.0
+    lie: 61.0
+    length: 37.25
+    offset: 0.120
+    bounce: 3.0
+  - club: "7"
+    loft: 35.0
+    lie: 61.5
+    length: 36.75
+    offset: 0.110
+    bounce: 3.0
+  - club: "8"
+    loft: 39.0
+    lie: 62.0
+    length: 36.25
+    offset: 0.110
+    bounce: 4.0
+  - club: "9"
+    loft: 43.0
+    lie: 62.5
+    length: 35.75
+    offset: 0.110
+    bounce: 5.0
+  - club: "PW"
+    loft: 47.0
+    lie: 63.0
+    length: 35.50
+    offset: 0.110
+    bounce: 6.0
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+sources:
+  - "golfclubspec.com iron spec database, Mizuno MP-32 entry (full loft/lie/length/offset/bounce table)"
+  - "Secondary retailer/spec listings corroborating the 7-iron at 35 degrees loft and 61.5 degrees lie"
+  - "mizunogolf.com US irons timeline (production years 2004-2008)"
+related_models:
+  - slug: "mizuno/mp-33-irons"
+    label: "Contemporary blade: Mizuno MP-33"
+  - slug: "mizuno/mp-57-irons"
+    label: "Later Cut Muscle design: Mizuno MP-57"
+faq:
+  - q: "What is the loft of a Mizuno MP-32 7-iron?"
+    a: "The Mizuno MP-32 7-iron has a loft of 35 degrees, with a 61.5-degree lie and a 36.75-inch steel-shaft length."
+  - q: "How much offset do the Mizuno MP-32 irons have?"
+    a: "Very little. Offset runs 0.120 inches in the long irons and drops to 0.110 inches from the 7-iron through the pitching wedge."
+  - q: "Is the MP-32 a blade or a cavity back?"
+    a: "It is a cavity blade: a blade-sized head with a shallow cavity and a Cut Muscle pad behind the impact area."
+confidence: high

@@ -1,0 +1,96 @@
+brand: Titleist
+brand_slug: titleist
+model: DCI 990
+slug: dci-990-irons
+club_type: irons
+year_introduced: 1999
+year_discontinued: 2002
+category: players
+construction: investment cast
+material: 431 stainless steel
+successor: Titleist DCI 762
+predecessor: Titleist DCI 962
+description: >
+  The DCI 990 was the better-player model in Titleist's Dynamic Cavity Iron
+  family at the turn of the 2000s. It used a progressive cavity that shifted
+  from a deeper long-iron cavity toward a more muscleback-like short iron,
+  paired with a shallow profile, thin topline and minimal progressive offset.
+  Lofts are traditional by modern standards, with a 36 degree 7-iron and a
+  49 degree pitching wedge. A slightly larger DCI 990B variant was offered
+  alongside it.
+specs:
+  - club: "1"
+    loft: 17.0
+    lie: 58.0
+    length: 39.75
+    offset: 0.179
+    swing_weight: D2
+  - club: "2"
+    loft: 19.0
+    lie: 59.0
+    length: 39.25
+    offset: 0.165
+    swing_weight: D2
+  - club: "3"
+    loft: 22.0
+    lie: 60.0
+    length: 38.75
+    offset: 0.151
+    swing_weight: D2
+  - club: "4"
+    loft: 25.0
+    lie: 61.0
+    length: 38.25
+    offset: 0.140
+    swing_weight: D2
+  - club: "5"
+    loft: 28.0
+    lie: 62.0
+    length: 37.75
+    offset: 0.126
+    swing_weight: D2
+  - club: "6"
+    loft: 32.0
+    lie: 62.5
+    length: 37.25
+    offset: 0.113
+    swing_weight: D2
+  - club: "7"
+    loft: 36.0
+    lie: 63.0
+    length: 36.75
+    offset: 0.103
+    swing_weight: D2
+  - club: "8"
+    loft: 40.0
+    lie: 63.5
+    length: 36.25
+    offset: 0.096
+    swing_weight: D2
+  - club: "9"
+    loft: 44.5
+    lie: 64.0
+    length: 35.75
+    offset: 0.093
+    swing_weight: D2
+  - club: "PW"
+    loft: 49.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.092
+    swing_weight: D2
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+sources:
+  - "equip2golf.com archived Titleist DCI 990 specification sheet (loft, lie, length, offset, swingweight)"
+  - "golfclubspec.com iron specification database, entry 117 (Titleist DCI 990) - corroborates loft/lie/length"
+  - "equip2golf.com Titleist DCI 990 iron review - 431 stainless steel construction, Dynamic Gold stock shaft"
+faq:
+  - q: "What is the loft of a Titleist DCI 990 7-iron?"
+    a: "The Titleist DCI 990 7-iron has a loft of 36 degrees, with a 63 degree lie and a 36.75 inch standard steel length."
+  - q: "What is the pitching wedge loft on the Titleist DCI 990?"
+    a: "The DCI 990 pitching wedge is 49 degrees, which is roughly 3 to 4 degrees weaker than most modern players' irons."
+  - q: "What are the Titleist DCI 990 irons made of?"
+    a: "They are investment cast from 431 stainless steel with a progressive cavity design."
+confidence: high

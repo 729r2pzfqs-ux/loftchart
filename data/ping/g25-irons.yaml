@@ -1,0 +1,117 @@
+brand: Ping
+brand_slug: ping
+model: G25
+slug: g25-irons
+club_type: irons
+year_introduced: 2013
+year_discontinued: 2014
+category: game-improvement
+construction: investment cast
+material: 17-4 stainless steel
+successor: Ping G30
+predecessor: Ping G20
+description: >
+  The G25 refined the G-series formula with a Custom Tuning Port and progressive
+  geometry: wider soles and more offset in the long irons for higher launch,
+  thinner soles and less offset in the scoring clubs for control. Lofts are
+  identical to the 2009 G15 through the set, with the 7-iron at 32 degrees, but
+  bounce was softened in the long irons (the 3-iron moved from -2 to 0 degrees).
+  Ping's colour-code (dot) system sets lie angle relative to standard: gold 4 flat,
+  brown 3 flat, orange 2 flat, red 1 flat, BLACK standard, blue 1 upright, green
+  2 upright, white 3 upright, silver 4 upright, maroon 5 upright. The lies below
+  are the BLACK (standard) lies.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 59.25
+    length: 38.75
+    bounce: 0.0
+    swing_weight: D0
+  - club: "4"
+    loft: 23.0
+    lie: 60.0
+    length: 38.25
+    bounce: 1.0
+    swing_weight: D0
+  - club: "5"
+    loft: 26.0
+    lie: 60.75
+    length: 37.75
+    bounce: 3.0
+    swing_weight: D0
+  - club: "6"
+    loft: 29.0
+    lie: 61.5
+    length: 37.25
+    bounce: 5.0
+    swing_weight: D0
+  - club: "7"
+    loft: 32.0
+    lie: 62.25
+    length: 36.75
+    bounce: 7.0
+    swing_weight: D0
+  - club: "8"
+    loft: 36.0
+    lie: 63.0
+    length: 36.25
+    bounce: 9.0
+    swing_weight: D0
+  - club: "9"
+    loft: 40.0
+    lie: 63.75
+    length: 35.75
+    bounce: 10.0
+    swing_weight: D0
+  - club: "PW"
+    loft: 45.0
+    lie: 64.0
+    length: 35.5
+    bounce: 11.0
+    swing_weight: D2
+  - club: "UW"
+    loft: 50.0
+    lie: 64.0
+    length: 35.5
+    bounce: 11.0
+    swing_weight: D2
+  - club: "SW"
+    loft: 54.0
+    lie: 64.25
+    length: 35.25
+    bounce: 12.0
+    swing_weight: D4
+  - club: "LW"
+    loft: 58.0
+    lie: 64.5
+    length: 35.0
+    bounce: 12.0
+    swing_weight: D6
+stock_shafts:
+  - name: "Ping CFS"
+    material: steel
+    weight: "94-114g"
+    flex: ["SR", "R", "S", "X"]
+  - name: "Ping TFC 189I"
+    material: graphite
+    weight: "70-86g"
+    flex: ["SR", "R", "S"]
+sources:
+  - "qsponge.com Ping G25 iron table (loft, lie, length, bounce and swing weight for 3-iron through LW)"
+  - "golfstorageguide.com PING G25 irons spec chart, corroborating the 7-iron (32 / 62.25 / 36.750 / 7.0) and the UW, SW and LW rows"
+  - "GolfWorks Ping shaft replacement reference PDF (2013 G25 Irons — CFS steel SR/R/S/X 94-114g; TFC 189I graphite SR/R/S 70-86g)"
+  - "TGW / PGA Tour Superstore Ping colour code chart guides (black dot = standard lie)"
+  - "Note: per-club offset values were not found in a reliable published source and are omitted."
+related_models:
+  - slug: "ping/g15-irons"
+    label: "Earlier G-series iron: Ping G15"
+  - slug: "ping/g2-irons"
+    label: "First G-series iron: Ping G2"
+faq:
+  - q: "What is the loft of a Ping G25 7-iron?"
+    a: "The Ping G25 7-iron has a loft of 32 degrees, a standard (black dot) lie of 62.25 degrees and a steel-shaft length of 36.75 inches."
+  - q: "Are Ping G25 lofts stronger than the G15?"
+    a: "No — the two sets share identical lofts, lies and lengths through the bag. The G25 differs mainly in sole width, offset profile and bounce, which was reduced in the long irons."
+  - q: "What shafts came stock in the Ping G25 irons?"
+    a: "Ping CFS steel in SR, R, S and X flexes (94-114 grams) or Ping TFC 189I graphite in SR, R and S flexes (70-86 grams)."
+confidence: medium

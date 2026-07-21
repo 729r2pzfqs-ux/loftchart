@@ -1,0 +1,68 @@
+brands:
+  - name: Ping
+    slug: ping
+    founded: 1959
+    hq: "Phoenix, Arizona, USA"
+    color: "#B01C2E"
+    blurb: >
+      Founded by Karsten Solheim, Ping pioneered perimeter weighting and
+      investment-cast irons. Ping's colour-code lie system and long production
+      runs make its vintage sets among the most searched-for specs in golf.
+
+  - name: Titleist
+    slug: titleist
+    founded: 1932
+    hq: "Fairhaven, Massachusetts, USA"
+    color: "#C8102E"
+    blurb: >
+      Titleist's iron line has run from the DCI and Tour Model era through the
+      AP/CB/MB numbered generations to the current T-Series, with a consistent
+      focus on traditional lofts and tour-validated shaping.
+
+  - name: TaylorMade
+    slug: taylormade
+    founded: 1979
+    hq: "Carlsbad, California, USA"
+    color: "#111111"
+    blurb: >
+      TaylorMade built its name on metalwoods and later drove the strong-loft
+      distance-iron trend with the Burner, RocketBladez and M families.
+
+  - name: Callaway
+    slug: callaway
+    founded: 1982
+    hq: "Carlsbad, California, USA"
+    color: "#00447C"
+    blurb: >
+      Callaway's X-series irons defined mainstream game improvement through the
+      2000s, while the Apex line carries the forged players-distance side of
+      the range.
+
+  - name: Mizuno
+    slug: mizuno
+    founded: 1906
+    hq: "Osaka, Japan"
+    color: "#00447C"
+    blurb: >
+      Mizuno's Grain Flow Forged MP irons are the reference point for forged
+      feel. The MP-series blades and cavity backs of the 2000s remain in
+      active demand on the used market.
+
+  - name: Cleveland
+    slug: cleveland
+    founded: 1979
+    hq: "Huntington Beach, California, USA"
+    color: "#D6001C"
+    blurb: >
+      Best known for wedges, Cleveland's CG and Launcher iron families covered
+      both tour-style cavity backs and high-launch game-improvement designs.
+
+  - name: Cobra
+    slug: cobra
+    founded: 1973
+    hq: "Carlsbad, California, USA"
+    color: "#F5A800"
+    blurb: >
+      Cobra's King line spans forged players-distance irons and oversized
+      game-improvement sets, often with distinctive colourways and
+      progressive set construction.

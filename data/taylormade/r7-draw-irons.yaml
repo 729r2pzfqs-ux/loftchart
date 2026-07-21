@@ -1,0 +1,105 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: r7 Draw
+slug: r7-draw-irons
+club_type: irons
+year_introduced: 2006
+year_discontinued: 2008
+category: game-improvement
+construction: investment cast, multi-material
+material: stainless steel with soft aluminium dampening web
+successor: null
+predecessor: null
+description: >
+  The r7 Draw iron was TaylorMade's draw-biased game-improvement model, launched in
+  November 2006 and sold through the 2007 season. Weight was removed from the toe
+  side of the cavity and repositioned to move the centre of gravity back and toward
+  the heel, encouraging faster face rotation through impact. It pairs maximum offset,
+  a wide cambered sole and an ultra-deep cavity with an aluminium-and-bonding-compound
+  dampening web for feel. Specs below are the men's standard steel-shaft build.
+specs:
+  - club: "3"
+    loft: 19.0
+    lie: 61.0
+    length: 38.75
+    offset: 0.276
+    swing_weight: D1
+  - club: "4"
+    loft: 22.0
+    lie: 61.5
+    length: 38.25
+    offset: 0.264
+    swing_weight: D1
+  - club: "5"
+    loft: 25.0
+    lie: 62.0
+    length: 37.75
+    offset: 0.248
+    swing_weight: D1
+  - club: "6"
+    loft: 28.0
+    lie: 62.5
+    length: 37.25
+    offset: 0.236
+    swing_weight: D1
+  - club: "7"
+    loft: 32.0
+    lie: 63.0
+    length: 36.75
+    offset: 0.224
+    swing_weight: D1
+  - club: "8"
+    loft: 36.0
+    lie: 63.5
+    length: 36.25
+    offset: 0.209
+    swing_weight: D1
+  - club: "9"
+    loft: 40.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.197
+    swing_weight: D1
+  - club: "PW"
+    loft: 44.0
+    lie: 64.5
+    length: 35.5
+    offset: 0.185
+    swing_weight: D2
+  - club: "AW"
+    loft: 49.0
+    lie: 64.5
+    length: 35.5
+    offset: 0.185
+    swing_weight: D2
+  - club: "SW"
+    loft: 54.0
+    lie: 64.5
+    length: 35.25
+    offset: 0.079
+    swing_weight: D4
+  - club: "LW"
+    loft: 59.0
+    lie: 64.5
+    length: 35.0
+    offset: 0.079
+    swing_weight: D5
+stock_shafts:
+  - name: "TaylorMade T-Step 90"
+    material: steel
+    weight: "90 g"
+    flex: ["R", "S"]
+  - name: "TaylorMade re*ax 55"
+    material: graphite
+    weight: "55 g"
+    flex: ["L", "M", "R", "S"]
+sources:
+  - "TaylorMade official r7 Draw Iron men's spec sheet, taylormadegolf.com/docs/productspecs/06_r7DRAW_IRON_SS.pdf"
+faq:
+  - q: "What is the loft of a TaylorMade r7 Draw 7-iron?"
+    a: "The TaylorMade r7 Draw 7-iron has a loft of 32 degrees, with a 63-degree lie and a 36.75-inch steel-shaft length."
+  - q: "What made the r7 Draw irons draw-biased?"
+    a: "TaylorMade removed weight from the toe side of the cavity and repositioned it so the centre of gravity sat further back and closer to the heel. Combined with maximum offset, this helps the clubface rotate closed through impact to promote a draw or a straighter shot."
+  - q: "What is the pitching wedge loft on the r7 Draw?"
+    a: "The r7 Draw pitching wedge is 44 degrees, with a 49-degree approach wedge, 54-degree sand wedge and 59-degree lob wedge available in the set."
+confidence: high

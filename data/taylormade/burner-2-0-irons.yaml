@@ -1,0 +1,108 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: Burner 2.0
+slug: burner-2-0-irons
+club_type: irons
+year_introduced: 2010
+year_discontinued: 2011
+category: game-improvement
+construction: investment cast
+material: stainless steel
+successor: TaylorMade RocketBallz Irons
+predecessor: TaylorMade Burner Irons (2009)
+description: >
+  The Burner 2.0 was TaylorMade's mainstream game-improvement iron for 2010-2011,
+  replacing the 2009 Burner. Each head was individually engineered rather than
+  built from a single blueprint: thin, high-COR faces with Inverted Cone Technology
+  in the long irons for ball speed, and progressively higher-CG short irons for
+  control. TaylorMade positioned it as a 0-30 handicap iron. Lofts are notably
+  strong for the era, with a 31-degree 7-iron and a 45-degree pitching wedge.
+  Specs below are the men's standard steel-shaft build.
+specs:
+  - club: "3"
+    loft: 19.0
+    lie: 60.75
+    length: 39.5
+    offset: 0.256
+    swing_weight: D3.5
+  - club: "4"
+    loft: 21.0
+    lie: 61.5
+    length: 38.875
+    offset: 0.240
+    swing_weight: D3.5
+  - club: "5"
+    loft: 24.0
+    lie: 62.0
+    length: 38.25
+    offset: 0.213
+    swing_weight: D3.5
+  - club: "6"
+    loft: 27.0
+    lie: 62.5
+    length: 37.625
+    offset: 0.189
+    swing_weight: D3.5
+  - club: "7"
+    loft: 31.0
+    lie: 63.0
+    length: 37.0
+    offset: 0.165
+    swing_weight: D3.5
+  - club: "8"
+    loft: 35.0
+    lie: 63.5
+    length: 36.5
+    offset: 0.134
+    swing_weight: D3.5
+  - club: "9"
+    loft: 40.0
+    lie: 64.0
+    length: 36.0
+    offset: 0.106
+    swing_weight: D3.5
+  - club: "PW"
+    loft: 45.0
+    lie: 64.5
+    length: 35.5
+    offset: 0.079
+    swing_weight: D3.5
+  - club: "AW"
+    loft: 50.0
+    lie: 64.5
+    length: 35.5
+    offset: 0.059
+    swing_weight: D3.5
+  - club: "SW"
+    loft: 55.0
+    lie: 64.5
+    length: 35.25
+    offset: 0.039
+    swing_weight: D5
+  - club: "LW"
+    loft: 60.0
+    lie: 64.5
+    length: 35.0
+    offset: 0.039
+    swing_weight: D5
+stock_shafts:
+  - name: "TaylorMade Burner 2.0 85"
+    material: steel
+    weight: "85 g"
+  - name: "TaylorMade SuperFast 65"
+    material: graphite
+    weight: "65 g"
+  - name: "TaylorMade SuperFast 55"
+    material: graphite
+    weight: "55 g"
+sources:
+  - "TaylorMade official Burner 2.0 Irons spec sheet (2011 TaylorMade Irons catalog p.16), taylormadegolf.com/docs/productspecs/Burner_2.0_Irons.pdf"
+  - "TaylorMade 2010 Fall Catalog, Burner 2.0 page, taylormadegolf.com/docs/productspecs/TM_2010_FallCatalog-Burner2-12.pdf"
+faq:
+  - q: "What is the loft of a TaylorMade Burner 2.0 7-iron?"
+    a: "The TaylorMade Burner 2.0 7-iron has a loft of 31 degrees, with a 63-degree lie and a 37-inch steel-shaft length."
+  - q: "Are TaylorMade Burner 2.0 irons strong-lofted?"
+    a: "Yes. The 2010 Burner 2.0 set runs about 3 to 4 degrees stronger than a traditional iron set, with a 31-degree 7-iron and a 45-degree pitching wedge, which is why they carry a full club further than older irons of the same number."
+  - q: "What is the pitching wedge loft on the Burner 2.0?"
+    a: "The Burner 2.0 pitching wedge is 45 degrees. The matching approach wedge is 50 degrees, sand wedge 55 degrees and lob wedge 60 degrees."
+confidence: high

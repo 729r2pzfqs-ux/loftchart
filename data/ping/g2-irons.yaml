@@ -1,0 +1,126 @@
+brand: Ping
+brand_slug: ping
+model: G2
+slug: g2-irons
+club_type: irons
+year_introduced: 2003
+year_discontinued: 2005
+category: game-improvement
+construction: investment cast
+material: stainless steel
+successor: Ping G5
+predecessor: Ping i3 O-Size
+description: >
+  The G2 launched the G-series that has been Ping's game-improvement line ever
+  since; it reached most retail shelves for the 2004 season. It kept the Custom
+  Tuning Port of the i3 while widening the sole and adding progressive offset,
+  and it was also sold in G2 EZ (slower swing speed), G2 HL (higher loft) and
+  G2 L (ladies) variants. Lofts are only marginally stronger than the i3 O-Size,
+  with the 7-iron at 34.3 degrees. Ping's colour-code (dot) system sets lie angle
+  relative to standard: gold 4 flat, brown 3 flat, orange 2 flat, red 1 flat,
+  BLACK standard, blue 1 upright, green 2 upright, white 3 upright, silver
+  4 upright, maroon 5 upright. The lies below are the BLACK (standard) lies.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 59.32
+    length: 38.75
+    offset: 0.300
+    bounce: 2.0
+    swing_weight: D0
+  - club: "4"
+    loft: 23.8
+    lie: 60.02
+    length: 38.25
+    offset: 0.290
+    bounce: 4.0
+    swing_weight: D0
+  - club: "5"
+    loft: 27.0
+    lie: 60.75
+    length: 37.75
+    offset: 0.280
+    bounce: 6.0
+    swing_weight: D0
+  - club: "6"
+    loft: 30.5
+    lie: 61.5
+    length: 37.25
+    offset: 0.260
+    bounce: 7.5
+    swing_weight: D0
+  - club: "7"
+    loft: 34.3
+    lie: 62.28
+    length: 36.75
+    offset: 0.250
+    bounce: 9.0
+    swing_weight: D0
+  - club: "8"
+    loft: 38.3
+    lie: 63.1
+    length: 36.25
+    offset: 0.240
+    bounce: 10.0
+    swing_weight: D0
+  - club: "9"
+    loft: 42.5
+    lie: 63.95
+    length: 35.75
+    offset: 0.230
+    bounce: 11.0
+    swing_weight: D0
+  - club: "PW"
+    loft: 47.0
+    lie: 64.38
+    length: 35.5
+    offset: 0.210
+    bounce: 12.0
+    swing_weight: D2
+  - club: "UW"
+    loft: 50.5
+    lie: 64.38
+    length: 35.5
+    offset: 0.210
+    bounce: 12.0
+    swing_weight: D2
+  - club: "SW"
+    loft: 54.0
+    lie: 64.7
+    length: 35.0
+    offset: 0.200
+    bounce: 13.0
+    swing_weight: D4
+  - club: "LW"
+    loft: 58.0
+    lie: 65.11
+    length: 35.0
+    offset: 0.200
+    bounce: 14.0
+    swing_weight: D6
+stock_shafts:
+  - name: "Ping CS Lite"
+    material: steel
+    weight: "light"
+    flex: ["R", "S"]
+  - name: "Ping TFC 100"
+    material: graphite
+    flex: ["R", "S"]
+sources:
+  - "qsponge.com Ping G2 iron table (loft, lie, length, bounce, offset, swing weight for 3-iron through LW)"
+  - "phil-mickelson.com Ping G2 iron specification page (independently reproduces the same 3-iron through 9-iron loft/lie/length/bounce/offset values)"
+  - "GolfWorks Ping shaft replacement reference PDF (2003 G2 Irons — CS Lite steel by True Temper, 94g R / 107g S; TFC 100 graphite, 71-86g)"
+  - "TGW / PGA Tour Superstore Ping colour code chart guides (black dot = standard lie)"
+related_models:
+  - slug: "ping/i3-o-size-irons"
+    label: "Predecessor: Ping i3 O-Size"
+  - slug: "ping/g15-irons"
+    label: "Later G-series iron: Ping G15"
+faq:
+  - q: "What is the loft of a Ping G2 7-iron?"
+    a: "The Ping G2 7-iron has a loft of 34.3 degrees, a standard (black dot) lie of 62.28 degrees and a steel-shaft length of 36.75 inches."
+  - q: "When were the Ping G2 irons released?"
+    a: "Ping introduced the G2 in 2003 and it was the company's headline game-improvement iron through the 2004 season, before the G5 replaced it in 2005."
+  - q: "What variants of the Ping G2 iron were available?"
+    a: "Besides the standard G2, Ping offered the G2 EZ for slower swing speeds, the G2 HL with higher lofts and the G2 L ladies model."
+confidence: medium
