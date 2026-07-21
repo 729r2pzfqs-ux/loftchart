@@ -11,65 +11,103 @@ material: stainless steel
 successor: Callaway X-18
 predecessor: Callaway Steelhead X-14
 description: >
-  The X-16 replaced the Steelhead X-14 in 2002 and was the first set to drop the Steelhead
-  badge in favour of the plain X-series name that Callaway carried through to the X-24.
-  It retains Variable Face Thickness and the S2H2 hosel, with a notched, tiered sole and
-  a slightly more compact head than the X-14. Lofts hold the X-14's 33 degree 7-iron but
-  strengthen the scoring clubs, moving the pitching wedge from 46.5 to 45 degrees. Specs
-  below are the standard men's steel-shaft numbers.
+  The Steelhead X-16 followed the X-14 in 2002 and refined the Steelhead sole
+  and the S2H2 hosel rather than reinventing them. Lofts are a degree stronger
+  than the X-14 through the middle of the set, giving a 34 degree 7-iron and a
+  46 degree pitching wedge, and Callaway published a full bounce ladder for
+  this generation, running from flat at the long irons to 15 degrees at the
+  sand wedge. Lies remain the upright Callaway standard of the era at 65
+  degrees through the wedges. The catalogued range ran 1-iron to lob wedge,
+  with 3-PW the usual retail set.
 specs:
+  - club: "1"
+    loft: 16
+    lie: 58.5
+    length: 40
+    bounce: 0
+    swing_weight: D2
+  - club: "2"
+    loft: 18
+    lie: 59.2
+    length: 39.5
+    bounce: 0
+    swing_weight: D2
   - club: "3"
-    loft: 21.0
-    lie: 60.0
-    length: 38.75
+    loft: 21
+    lie: 59.9
+    length: 39
+    bounce: 0.5
+    swing_weight: D2
   - club: "4"
-    loft: 24.0
-    lie: 60.5
-    length: 38.25
+    loft: 24
+    lie: 60.6
+    length: 38.5
+    bounce: 0.5
+    swing_weight: D2
   - club: "5"
-    loft: 27.0
-    lie: 61.0
-    length: 37.75
+    loft: 27
+    lie: 61.3
+    length: 38
+    bounce: 1
+    swing_weight: D2
   - club: "6"
-    loft: 30.0
-    lie: 61.5
-    length: 37.25
+    loft: 30
+    lie: 62
+    length: 37.5
+    bounce: 1
+    swing_weight: D2
   - club: "7"
-    loft: 33.0
+    loft: 34
     lie: 62.5
-    length: 36.75
+    length: 37
+    bounce: 2
+    swing_weight: D2
   - club: "8"
-    loft: 37.0
-    lie: 63.0
-    length: 36.25
-  - club: "9"
-    loft: 41.0
+    loft: 38
     lie: 63.5
-    length: 35.75
+    length: 36.5
+    bounce: 3
+    swing_weight: D2
+  - club: "9"
+    loft: 42
+    lie: 64.5
+    length: 36
+    bounce: 5
+    swing_weight: D2
   - club: "PW"
-    loft: 45.0
-    lie: 64.0
+    loft: 46
+    lie: 65
     length: 35.5
+    bounce: 7
+    swing_weight: D2
   - club: "AW"
-    loft: 50.0
-    lie: 64.0
-    length: 35.25
+    loft: 50
+    lie: 65
+    length: 35.5
+    bounce: 11
+    swing_weight: D4
   - club: "SW"
-    loft: 55.0
-    lie: 64.0
+    loft: 54
+    lie: 65
     length: 35.25
+    bounce: 15
+    swing_weight: D5
   - club: "LW"
-    loft: 60.0
-    lie: 64.0
-    length: 35.0
+    loft: 58
+    lie: 65
+    length: 35
+    bounce: 11
+    swing_weight: D5
 sources:
-  - "Specification figures are reconstructed from widely reproduced spec tables for this model and cross-checked for set progression against LoftChart's independently verified Callaway X-14 (2000) and X-20 (2007) entries, which bracket it. They have NOT been verified against an original Callaway catalogue page or manufacturer spec sheet."
-  - "Lie angles and lengths in particular should be treated as approximate. The X-series held a 33 degree 7-iron and a 45 degree pitching wedge across several generations, which is the basis for the lofts here."
+  - "Archived callawaygolf.com Classic Clubs specification sheet, en.cg.ClassicClubs.SteelheadX16Irons.specs-1.html, via the Internet Archive (loft, lie, length, swing weight)"
+  - "A second Internet Archive snapshot of the same Callaway specification sheet, agreeing cell for cell"
+  - "Callaway Demandware ProductSpecs feed (ProductSpecs-Get), the manufacturer-authored source behind the View Specs panel on callawaygolf.com and callawaygolfpreowned.com, product code irons-bb-x16 (bounce ladder)"
+  - "Offset was not published for this model in any Callaway source located, so the column is omitted rather than estimated"
 faq:
   - q: "What is the loft of a Callaway X-16 7-iron?"
-    a: "The Callaway X-16 7-iron has a loft of approximately 33 degrees, with a 62.5 degree lie and a 36.75 inch standard steel length."
-  - q: "What is the loft of a Callaway X-16 pitching wedge?"
-    a: "The X-16 pitching wedge is approximately 45 degrees, with a 50 degree A-wedge and a 55 degree sand wedge."
-  - q: "How does the X-16 differ from the Steelhead X-14?"
-    a: "The 7-iron loft is unchanged at 33 degrees, but the X-16 strengthens the scoring clubs, moving the pitching wedge from 46.5 to 45 degrees, and uses a slightly more compact head. It was also the first of the line to drop the Steelhead name."
-confidence: medium
+    a: "The Callaway Steelhead X-16 7-iron is 34 degrees, with a 62.5 degree lie and a 37 inch standard steel length."
+  - q: "How do the Callaway X-14 and X-16 lofts compare?"
+    a: "The X-16 is a degree stronger through the middle of the set, with a 34 degree 7-iron against the X-14's 33 degrees."
+  - q: "How much bounce do the Callaway X-16 irons have?"
+    a: "Bounce runs from 0 degrees at the long irons through 2 degrees at the 7-iron to 7 degrees at the pitching wedge and 15 degrees at the sand wedge."
+confidence: high

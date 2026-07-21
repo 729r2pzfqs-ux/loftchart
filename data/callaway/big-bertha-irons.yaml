@@ -11,62 +11,79 @@ material: 17-4 stainless steel
 successor: Callaway Big Bertha X-12
 predecessor: null
 description: >
-  The 1994 Big Bertha irons carried Callaway's breakthrough driver name into the iron
-  category and became the set that established oversize, perimeter-weighted irons in the
-  mainstream. The head is investment cast from 17-4 stainless steel and uses Callaway's
-  S2H2 design, standing for short, straight, hollow hosel: shortening the hosel and
-  hollowing it out freed weight to be redistributed to the perimeter and the sole. Lofts
-  are traditional by modern standards, with a 35 degree 7-iron and a 47 degree pitching
-  wedge, roughly seven degrees weaker at the 7-iron than Callaway's current game
-  improvement irons. Specs below are the standard men's steel-shaft numbers.
+  The 1994 Big Bertha irons are the set that carried Callaway's metalwood
+  success into the iron market, built around the S2H2 short, straight, hollow
+  hosel that moved weight out of the neck and into the head. Lofts are
+  traditional for the era with a 33 degree 7-iron and a 46.5 degree pitching
+  wedge, and the lie ladder is strikingly upright by modern standards,
+  reaching 65 degrees through the wedges. Callaway published a single standard
+  length per club rather than separate steel and graphite figures. The
+  catalogued range ran from a 1-iron to a lob wedge, though 3-PW was the
+  normal retail set.
 specs:
+  - club: "1"
+    loft: 16
+    lie: 58.5
+    length: 40
+  - club: "2"
+    loft: 18.5
+    lie: 59.2
+    length: 39.5
   - club: "3"
-    loft: 21.0
-    lie: 60.0
-    length: 38.75
+    loft: 21
+    lie: 59.9
+    length: 39
   - club: "4"
-    loft: 24.0
-    lie: 60.5
-    length: 38.25
+    loft: 23.5
+    lie: 60.6
+    length: 38.5
   - club: "5"
-    loft: 27.0
-    lie: 61.0
-    length: 37.75
+    loft: 26
+    lie: 61.3
+    length: 38
   - club: "6"
-    loft: 31.0
-    lie: 61.5
-    length: 37.25
+    loft: 29
+    lie: 62
+    length: 37.5
   - club: "7"
-    loft: 35.0
-    lie: 62.0
-    length: 36.75
-  - club: "8"
-    loft: 39.0
+    loft: 33
     lie: 62.5
-    length: 36.25
-  - club: "9"
-    loft: 43.0
-    lie: 63.0
-    length: 35.75
-  - club: "PW"
-    loft: 47.0
+    length: 37
+  - club: "8"
+    loft: 37.5
     lie: 63.5
+    length: 36.5
+  - club: "9"
+    loft: 42
+    lie: 64.5
+    length: 36
+  - club: "PW"
+    loft: 46.5
+    lie: 65
+    length: 35.5
+  - club: "AW"
+    loft: 50.8
+    lie: 65
     length: 35.5
   - club: "SW"
-    loft: 55.0
-    lie: 63.5
-    length: 35.25
+    loft: 55
+    lie: 65
+    length: 35.5
+  - club: "LW"
+    loft: 60
+    lie: 65
+    length: 35.5
 sources:
-  - "Specification figures are reconstructed from widely reproduced spec tables for this model and cross-checked for set progression against LoftChart's independently verified Callaway X-14 (2000) and X-20 (2007) entries. They have NOT been verified against an original Callaway catalogue page or manufacturer spec sheet."
-  - "The 17-4 stainless investment cast construction and the S2H2 short, straight, hollow hosel design are well documented across Callaway product literature and period equipment coverage."
-  - "Lie angles and lengths in particular should be treated as approximate. If you have an original 1994 Callaway catalogue page, corrections are welcome."
+  - "Callaway Demandware ProductSpecs feed (ProductSpecs-Get), the manufacturer-authored source behind the View Specs panel on callawaygolf.com and callawaygolfpreowned.com, product code irons-bb-94 (loft, lie and length for the full catalogued range)"
+  - "Archived callawaygolf.com Classic Clubs specification sheet for the Big Bertha irons, via the Internet Archive - loft, lie and length identical to the Callaway feed"
+  - "Confidence is held at medium because the Callaway-owned 1994 and 1996 tables are identical, so it cannot be established whether the ladder was genuinely unchanged or one record is reused for both years"
+  - "Offset was not published for this model in any Callaway source located, so the column is omitted rather than estimated"
+  - "Swing weight is published only as four unlabelled shaft sub-columns, so a steel-specific value could not be isolated and the column is omitted"
 faq:
   - q: "What is the loft of a Callaway Big Bertha 7-iron?"
-    a: "The original 1994 Callaway Big Bertha 7-iron has a loft of approximately 35 degrees, with a 62 degree lie and a 36.75 inch standard steel length."
-  - q: "What is the loft of a 1994 Callaway Big Bertha pitching wedge?"
-    a: "The 1994 Big Bertha pitching wedge is approximately 47 degrees, with a 55 degree sand wedge."
-  - q: "How do the 1994 Big Bertha lofts compare with modern Callaway irons?"
-    a: "They are far weaker. The 1994 Big Bertha 7-iron is about 35 degrees, while the 2023 Paradym 7-iron is 29 degrees and the Paradym X is 27.5 degrees, a difference of six to seven and a half degrees. Comparing distance between the two without accounting for that loft gap is misleading."
-  - q: "What does S2H2 mean on the Callaway Big Bertha irons?"
-    a: "S2H2 stands for short, straight, hollow hosel. Shortening and hollowing the hosel saved weight that Callaway redistributed to the perimeter and sole of the head, raising the moment of inertia."
+    a: "The 1994 Callaway Big Bertha 7-iron is 33 degrees, with a 62.5 degree lie and a 37 inch standard length."
+  - q: "What is the pitching wedge loft on the 1994 Big Bertha?"
+    a: "The Big Bertha pitching wedge is 46.5 degrees, followed by a 50.8 degree approach wedge, a 55 degree sand wedge and a 60 degree lob wedge."
+  - q: "Why are the Big Bertha lie angles so upright?"
+    a: "The 1994 Big Bertha runs 65 degrees at the wedges and 62.5 degrees at the 7-iron, several degrees more upright than a modern set. That was normal for Callaway irons of the period and is worth checking before buying a used set."
 confidence: medium

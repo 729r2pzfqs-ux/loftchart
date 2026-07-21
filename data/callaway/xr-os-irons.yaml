@@ -23,46 +23,55 @@ specs:
     loft: 22.0
     lie: 60.5
     length: 39.125
+    offset: 0.260
     swing_weight: D2
   - club: "5"
     loft: 25.0
     lie: 61.25
     length: 38.5
+    offset: 0.250
     swing_weight: D2
   - club: "6"
     loft: 28.0
     lie: 62.0
     length: 37.875
+    offset: 0.240
     swing_weight: D2
   - club: "7"
     loft: 31.5
     lie: 62.5
     length: 37.25
+    offset: 0.230
     swing_weight: D2
   - club: "8"
     loft: 35.0
     lie: 63.0
     length: 36.625
+    offset: 0.220
     swing_weight: D2
   - club: "9"
     loft: 39.0
     lie: 63.5
     length: 36.0
+    offset: 0.210
     swing_weight: D2
   - club: "PW"
     loft: 44.0
     lie: 64.0
     length: 35.75
+    offset: 0.200
     swing_weight: D2
   - club: "AW"
     loft: 49.0
     lie: 64.0
     length: 35.5
+    offset: 0.175
     swing_weight: D2
   - club: "SW"
     loft: 54.0
     lie: 64.0
     length: 35.25
+    offset: 0.175
     swing_weight: D2
 stock_shafts:
   - name: "True Temper Speed Step 80"
@@ -75,6 +84,7 @@ sources:
   - "Golfstead Callaway XR OS iron review — independently matches the 2nd Swing table on every loft, lie and length"
   - "PR Newswire, 'Callaway Golf Announces XR OS Irons And Hybrids' (12 January 2016) — announcement and 22 January 2016 retail date"
   - "Confidence is medium because Callaway's own XR OS spec page could not be retrieved; the figures rest on two agreeing retailer and review sources rather than a manufacturer table. Note this is a 2016 model: no 2015 XR OS was found in any source."
+  - "Offset ladder added from the Callaway Demandware ProductSpecs feed (ProductSpecs-Get), the manufacturer-authored source behind the View Specs panel, published natively in decimal inches"
 related_models:
   - slug: "callaway/xr-irons"
     label: "Standard model: Callaway XR"

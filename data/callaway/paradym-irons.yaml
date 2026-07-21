@@ -22,46 +22,55 @@ specs:
     loft: 20.0
     lie: 61.0
     length: 38.875
+    offset: 0.150
     swing_weight: D2
   - club: "5"
     loft: 23.0
     lie: 61.5
     length: 38.25
+    offset: 0.135
     swing_weight: D2
   - club: "6"
     loft: 26.0
     lie: 62.0
     length: 37.625
+    offset: 0.120
     swing_weight: D2
   - club: "7"
     loft: 29.0
     lie: 62.5
     length: 37.0
+    offset: 0.110
     swing_weight: D2
   - club: "8"
     loft: 33.0
     lie: 63.0
     length: 36.5
+    offset: 0.100
     swing_weight: D2
   - club: "9"
     loft: 37.0
     lie: 63.5
     length: 36.0
+    offset: 0.090
     swing_weight: D2
   - club: "PW"
     loft: 42.0
     lie: 64.0
     length: 35.75
+    offset: 0.070
     swing_weight: D2
   - club: "AW"
     loft: 47.0
     lie: 64.0
     length: 35.5
+    offset: 0.070
     swing_weight: D2
   - club: "GW"
     loft: 52.0
     lie: 64.0
     length: 35.25
+    offset: 0.070
     swing_weight: D2
 stock_shafts:
   - name: "True Temper Elevate MPH 95"
@@ -73,6 +82,7 @@ sources:
   - "Callaway Golf official Paradym irons spec page (callawaygolf.com/golf-clubs/iron-sets/irons-2023-paradym.html) — loft, lie, length, offset and swingweight, plus the hollow-body Speed Frame, A.I.-designed forged 455 face cup, 67g tungsten and urethane microsphere construction and the stock shafts"
   - "2nd Swing Golf Callaway Paradym iron set spec table (2ndswing.com/golf-clubs/iron-sets/callaway-paradym-iron-set) — independently matches Callaway on every loft, lie and length"
   - "One aggregator publishes the Paradym X lofts under the standard Paradym name; that table is contradicted by both sources above and has not been used."
+  - "Offset ladder added from the Callaway Demandware ProductSpecs feed (ProductSpecs-Get), the manufacturer-authored source behind the View Specs panel; Callaway publishes these in millimetres and the inch figures here are converted"
 related_models:
   - slug: "callaway/paradym-x-irons"
     label: "Sibling: Callaway Paradym X"
