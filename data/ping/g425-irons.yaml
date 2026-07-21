@@ -69,21 +69,21 @@ specs:
     loft: 49.5
     lie: 64.1
     length: 35.5
-    offset: 0.09
+    offset: 0.11
     bounce: 12
     swing_weight: D2
   - club: "SW"
     loft: 54
     lie: 64.4
     length: 35.25
-    offset: 0.07
+    offset: 0.09
     bounce: 13
     swing_weight: D3
   - club: "LW"
     loft: 58
     lie: 64.6
     length: 35
-    offset: 0.06
+    offset: 0.08
     bounce: 13
     swing_weight: D4
 sources:

@@ -12,10 +12,12 @@ successor: Ping ISI
 predecessor: Ping Zing
 description: >
   The Zing 2 was a light refresh of the 1992 Zing, carrying identical lofts and
-  lengths through the set. The only published differences are the 5-iron lie
-  (62.0 degrees against 61.5) and the lob wedge loft, listed at 61.0 degrees
-  against the Zing's 57.0. As with the Zing, Ping published no per-club offset
-  or bounce figures. Ping's colour-code (dot) system sets lie angle relative to standard: gold 4 flat, brown 3 flat, orange 2 flat, red 1 flat, BLACK standard, blue 1 upright, green 2 upright, white 3 upright, silver 4 upright, maroon 5 upright. The lies below are the BLACK (standard) lies.
+  lengths through the set. The published differences sit in the lie column and
+  the wedges: the 5-iron lie is 62.0 degrees against 61.5, the 9-iron and
+  pitching wedge lies are 64.5 and 65.0 where the Zing chart lists 65.0 and
+  64.5, and the Zing 2 chart carries a 57-degree LS wedge alongside a 61-degree
+  lob wedge where the Zing lists only a 57-degree lob wedge. As with the Zing,
+  Ping published no per-club offset or bounce figures. Ping's colour-code (dot) system sets lie angle relative to standard: gold 4 flat, brown 3 flat, orange 2 flat, red 1 flat, BLACK standard, blue 1 upright, green 2 upright, white 3 upright, silver 4 upright, maroon 5 upright. The lies below are the BLACK (standard) lies.
 specs:
   - club: "1"
     loft: 15.5
@@ -51,14 +53,18 @@ specs:
     length: 36.25
   - club: "9"
     loft: 42.5
-    lie: 65
+    lie: 64.5
     length: 35.75
   - club: "PW"
     loft: 47
-    lie: 64.5
+    lie: 65
     length: 35.5
   - club: "SW"
     loft: 52
+    lie: 65.5
+    length: 35.25
+  - club: "LS"
+    loft: 57
     lie: 65.5
     length: 35.25
   - club: "LW"
@@ -66,9 +72,10 @@ specs:
     lie: 65.5
     length: 35
 sources:
-  - "Official Ping specification chart for the Zing 2 irons (ping.com product spec page via archive.org)"
+  - "Official Ping specification chart for the Zing 2 irons, Classics page (http://web.archive.org/web/20050308061211id_/http://www.ping.com/classics/irons/zing2.html)"
+  - "Note: Ping revised this page during 2004. The April 2004 capture lists the 9-iron lie at 65.0 and the pitching wedge at 64.5; the October 2004 and March 2005 captures list 64.5 and 65.0. The later, monotonic figures are used here. Earlier revisions of this file carried the superseded April 2004 values."
   - "Note: Ping did not publish per-club offset or bounce for this model; those keys are omitted."
-  - "Note: the 61.0-degree lob wedge differs from the 57.0 degrees listed for the Zing. Both figures are reproduced as published; the archived charts do not resolve which is correct."
+  - "Note: the Zing 2 chart is a 13-club chart listing both a 57.0-degree LS and a 61.0-degree LW. The Zing chart lists only a 57.0-degree LW. Both are reproduced as published; the archived charts do not resolve whether the Zing's 57.0 lob wedge was itself a duplication of its LS row."
   - "Note: year_discontinued is taken as the year the successor model was introduced, per the Ping model chronology."
 faq:
   - q: "What is the loft of a Ping Zing 2 7-iron?"
@@ -76,5 +83,5 @@ faq:
   - q: "When were Ping Zing 2 irons made?"
     a: "The Zing 2 was introduced in 1994 and was replaced by the ISI in 1996."
   - q: "What is the difference between the Ping Zing and Zing 2?"
-    a: "Lofts and lengths are identical through the set. The published charts differ only at the 5-iron lie (62.0 against 61.5 degrees) and the lob wedge loft."
+    a: "Lofts and lengths are identical through the set. The published charts differ in the lie column and the wedges: the 5-iron lie is 62.0 against 61.5 degrees, the 9-iron and pitching wedge lies are 64.5 and 65.0 against the Zing's 65.0 and 64.5, and the Zing 2 adds a 57-degree LS wedge alongside a 61-degree lob wedge where the Zing lists only a 57-degree lob wedge."
 confidence: high

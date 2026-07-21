@@ -9,7 +9,7 @@ category: blade
 construction: forged
 material: 1025 mild carbon steel
 successor: Mizuno MP-30
-predecessor: Mizuno MP-14
+predecessor: null
 description: >
   The MP-29 is a Grain Flow Forged muscle-back blade with a curved muscle pad, produced
   for most of the 1990s and best known as the long-iron half of the combo set Tiger Woods
@@ -66,13 +66,14 @@ stock_shafts:
   - name: "True Temper Dynamic Gold"
     material: steel
 sources:
+  - "Note: Mizuno's official irons timeline (https://mizunogolf.com/us/irons-timeline/) windows the MP-29 at 1992-2000 and the MP-14 at 1994-1998. The MP-14 was previously recorded as this model's predecessor, which inverted the chronology; the two were concurrent and are now cross-linked as such."
   - "golfclubspec.com iron spec database, Mizuno MP-29 entry id=147 (loft/lie/length table, note that lengths are for steel shafts and that the set was available on a custom basis only)"
   - "equip2golf.com Mizuno MP-29 specifications page via archive.org snapshot 20251026222701 (identical table; same publisher as golfclubspec, so this corroborates the transcription rather than being an independent source)"
   - "mizunogolf.com US irons timeline (production years 1992-2000). Note that the equip2golf/golfclubspec pages head this model 'Year: 1999', which is the catalogue year those pages were compiled from, not the introduction year; several secondary sites repeat 1999 as the release date in error"
   - "No Mizuno spec sheet or archived official product page was found, so confidence is medium; offset, bounce and swing weight were not published and are omitted"
 related_models:
   - slug: "mizuno/mp-14-irons"
-    label: "Predecessor: Mizuno MP-14"
+    label: "Concurrent MP model, introduced 1994: Mizuno MP-14"
   - slug: "mizuno/mp-30-irons"
     label: "Successor: Mizuno MP-30"
 faq:

@@ -78,7 +78,7 @@ specs:
     length: 35.5
     offset: 0.02
     bounce: 13
-    swing_weight: D2
+    swing_weight: D3
 sources:
   - "Official Ping specification chart for the Blueprint irons (ping.com product spec page via archive.org)"
   - "Note: year_discontinued is not recorded — the Blueprint T and S succeeded this model, but the chronology data does not pin down the year."

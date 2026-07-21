@@ -8,7 +8,7 @@ year_discontinued: 2009
 category: players
 construction: forged
 material: 1025E mild carbon steel
-successor: Mizuno MP-53
+successor: Mizuno MP-58
 predecessor: null
 description: >
   The MP-57 was the most forgiving MP iron of its era, combining Mizuno's Grain Flow
@@ -71,6 +71,7 @@ stock_shafts:
   - name: "Project X 5.5"
     material: steel
 sources:
+  - "Note: the successor field previously named the MP-53. Golf Monthly's MP-58 launch coverage describes the MP-58 as the MP-57's replacement, and the MP-53 did not appear until September 2010; the field is corrected to the MP-58."
   - "TheSandTrap.com Mizuno MP-57 irons review, reproducing Mizuno's published spec table (loft/lie/length/offset/bounce), material and stock shafts"
   - "GolfWRX forum thread 'Mizuno MP-57 loft specifications' with a matching loft table"
   - "mizunogolf.com US irons timeline (production years 2008-2009)"

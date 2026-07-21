@@ -3,12 +3,12 @@ brand_slug: mizuno
 model: MP-53
 slug: mp-53-irons
 club_type: irons
-year_introduced: 2009
-year_discontinued: 2010
+year_introduced: 2010
+year_discontinued: 2011
 category: players
 construction: forged
 material: 1025E Pure Select mild carbon steel
-successor: Mizuno MP-63
+successor: null
 predecessor: Mizuno MP-62
 description: >
   The MP-53 is a Grain Flow Forged players cavity back using a Diamond Muscle shape and a
@@ -78,12 +78,13 @@ sources:
   - "2ndswing.com Mizuno MP-53 iron set specification table, corroborating the loft, lie and length columns and the 1025E Pure Select forging"
   - "qsponge.com Mizuno MP-53 spec table, corroborating the same loft, lie and length figures"
   - "Note: golfclubspec dates its MP-53 entry to the 2011 catalogue; the introduction year recorded here follows the MP players cavity-back chronology used across this site."
-  - "Note: year_discontinued is taken as the year the successor model was introduced."
+  - "Note: the MP-53 was revealed alongside the MP-63 on 8 September 2010 (Golf Monthly, 'Mizuno MP-63 and MP-53 irons revealed') and was available from 13 October 2010. This file previously recorded 2009, which contradicted both the MP-63 entry and this file's own description of the two as a simultaneous pair; it is corrected to 2010, consistent with the 2011 catalogue dating noted above."
+  - "Note: the MP-53 and MP-63 were siblings launched the same day, not a succession, so neither is recorded as the other's predecessor or successor."
 related_models:
   - slug: "mizuno/mp-62-irons"
     label: "Predecessor: Mizuno MP-62"
   - slug: "mizuno/mp-63-irons"
-    label: "Successor: Mizuno MP-63"
+    label: "Sibling model launched the same day: Mizuno MP-63"
 faq:
   - q: "What is the loft of a Mizuno MP-53 7-iron?"
     a: "The Mizuno MP-53 7-iron has a loft of 34 degrees, with a 61.5-degree lie and a 36.75-inch steel-shaft length."

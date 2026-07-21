@@ -29,7 +29,7 @@ specs:
     swing_weight: D2
   - club: "6"
     loft: 29.0
-    lie: 60.35
+    lie: 61.5
     length: 37.875
     swing_weight: D2
   - club: "7"
@@ -74,7 +74,9 @@ sources:
   - "2nd Swing Golf, Adams Idea A7 Iron Set page (https://www.2ndswing.com/golf-clubs/iron-sets/adams-idea-a7-iron-set) — retrieved spec table giving loft, lie, length and steel/graphite swing weight for 3H, 4H and the 5-iron through LW, plus the True Temper Player Lite stock steel shaft. Swing weights listed here are the steel-shaft figures."
   - "MyGolfSpy, 'Adams Golf A7 Irons' (2009) — set make-up (two hybrids, hollow-back 5-iron, dual cavity-back short irons) and the note that the 5-iron and 5-hybrid share 25 degrees / 60.5 degrees / 38.5 inches"
   - "Adams Golf press release via GlobeNewswire, 6 August 2009 — 1 August 2009 ship date and 599 USD steel / 699 USD graphite pricing"
-  - "Confidence is medium rather than high: the numbers come from a retailer spec table and period press coverage, not from an Adams spec sheet, which is no longer available since the brand was wound down after TaylorMade's 2012 acquisition."
+  - "InTheHoleGolf.com Adams Idea a7 iron set spec table, 2011 Wayback capture taken while the club was still current (http://web.archive.org/web/20110531003650/http://www.intheholegolf.com:80/AG-A7IS/Adams-Idea-a7-Hybrid-Iron-Set.html) — full loft/lie/length/swing-weight table"
+  - "Note: the 6-iron lie was previously recorded as 60.35, which would have made the lie angle decrease from the 5-iron. That came from the 2ndSwing table, whose raw HTML holds a mangled cell reading '6035' in the lie column. The contemporaneous InTheHole capture gives 61.50, which fits the progression; that value is used here."
+  - "Confidence is medium rather than high: the numbers come from retailer spec tables and period press coverage, not from an Adams spec sheet, which is no longer available since the brand was wound down after TaylorMade's 2012 acquisition."
 related_models:
   - slug: "adams/idea-tech-v4-irons"
     label: "Later Adams hybrid-iron combo: Idea Tech V4"

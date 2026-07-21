@@ -3,13 +3,13 @@ brand_slug: mizuno
 model: MP-58
 slug: mp-58-irons
 club_type: irons
-year_introduced: 2008
+year_introduced: 2009
 year_discontinued: null
 category: players
 construction: forged
 material: 1025E mild carbon steel with a titanium muscle insert
 successor: Mizuno MP-59
-predecessor: Mizuno MP-63
+predecessor: Mizuno MP-57
 description: >
   The MP-58 is a Grain Flow Forged cavity back that uses a titanium muscle insert in place
   of steel behind the face, freeing weight that Mizuno redistributed to the heel and toe.
@@ -74,6 +74,8 @@ stock_shafts:
   - name: "Project X"
     material: steel
 sources:
+  - "Note: the MP-58 was announced on 4 September 2009 alongside the MP-68 (Golf Monthly, 'New Mizuno irons: MX-300, MX-1000, MP-58 and MP-68'); Mizuno's own irons timeline windows it 2010-2011. This file previously recorded 2008, which no source supports and which made the MP-58 predate the MP-63 it was recorded as succeeding. Corrected to 2009."
+  - "Note: the MP-58 succeeded the MP-57 and was followed by the MP-63; the predecessor field previously pointed at the MP-63, inverting the chronology."
   - "golfclubspec.com iron specification database, Mizuno MP-58 entry (loft, lie, length, offset, bounce for 3-PW plus the Dynamic Gold R300/S300 stock shafts)"
   - "qsponge.com Mizuno MP-58 loft table, corroborating the 21-47 degree loft range and 59.5-63.0 degree lie progression"
   - "Golfalot and MyGolfSpy Mizuno MP-58 reviews for the titanium muscle construction and 3-PW / 4-PW stock makeup"
@@ -82,7 +84,7 @@ sources:
   - "Note: year_discontinued is not recorded - the MP-59 succeeded the MP-58, but the chronology data does not pin down the year."
 related_models:
   - slug: "mizuno/mp-63-irons"
-    label: "Predecessor: Mizuno MP-63"
+    label: "Later MP cavity back: Mizuno MP-63"
   - slug: "mizuno/mp-59-irons"
     label: "Successor: Mizuno MP-59"
   - slug: "mizuno/mp-57-irons"

@@ -66,9 +66,10 @@ specs:
     lie: 65.5
     length: 35
 sources:
-  - "Official Ping specification chart for the Zing irons (ping.com product spec page via archive.org)"
+  - "Official Ping specification chart for the Zing irons, Classics page (http://web.archive.org/web/20050308060906id_/http://www.ping.com/classics/irons/zing.html)"
+  - "Note: the 9-iron lie of 65.0 is more upright than the 47-degree pitching wedge's 64.5, which breaks the otherwise monotonic progression. This is verified as exactly what Ping published, in every archived capture of the chart, and is reproduced here rather than smoothed. The Zing 2's revised chart lists these two the other way round (64.5 then 65.0)."
   - "Note: Ping did not publish per-club offset or bounce for this model; those keys are omitted."
-  - "Note: the Zing lob wedge is listed at 57.0 degrees, 4 degrees weaker than the 61.0-degree lob wedge in the otherwise near-identical Zing 2 chart. The discrepancy is reproduced here as published; one of the two figures is likely a Ping typo, but which one is not resolvable from the archived charts."
+  - "Note: the Zing lob wedge is listed at 57.0 degrees, 4 degrees weaker than the 61.0-degree lob wedge in the otherwise near-identical Zing 2 chart. The April 2004 capture of this page listed both an LS and an LW, each at 57.0; Ping's later revision deleted the LS row and left the LW at 57.0. The Zing 2 chart keeps both, at 57.0 and 61.0. Ping never published 61.0 for the Zing, so 57.0 is reproduced here as published."
   - "Note: year_discontinued is taken as the year the successor model was introduced, per the Ping model chronology."
 faq:
   - q: "What is the loft of a Ping Zing 7-iron?"

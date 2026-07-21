@@ -8,8 +8,8 @@ year_discontinued: 2011
 category: players
 construction: forged
 material: 1025E Pure Select mild carbon steel
-successor: Mizuno MP-58
-predecessor: Mizuno MP-53
+successor: null
+predecessor: Mizuno MP-62
 description: >
   The MP-63 is a Grain Flow Forged players cavity back and the smaller, lower-offset half
   of the pair Mizuno released with the MP-53. It shares that model's lofts, lies and
@@ -70,15 +70,16 @@ stock_shafts:
   - name: "True Temper Dynamic Gold S300"
     material: steel
 sources:
+  - "Note: the MP-63 was revealed on 8 September 2010 alongside the MP-53 and was available from 13 October 2010. Golf Monthly's reveal describes it as an evolution of the MP-62, which is recorded as its predecessor; the field previously named the MP-53, a same-day sibling. The successor field previously named the MP-58, which in fact preceded it, and is now left unset."
   - "golfclubspec.com iron specification database, Mizuno MP-63 entry (loft, lie, length, offset, bounce for 3-PW plus the Dynamic Gold S300 stock shaft)"
   - "TheSandTrap.com Mizuno MP-63 irons review, corroborating the loft, lie, length and bounce table and the True Temper Dynamic Gold stock shaft"
   - "Note: golfclubspec dates its MP-63 entry to the 2011 catalogue; the introduction year recorded here follows the MP players cavity-back chronology used across this site."
   - "Note: year_discontinued is taken as the year the successor model was introduced."
 related_models:
   - slug: "mizuno/mp-53-irons"
-    label: "Predecessor: Mizuno MP-53"
+    label: "Sibling model launched the same day: Mizuno MP-53"
   - slug: "mizuno/mp-58-irons"
-    label: "Successor: Mizuno MP-58"
+    label: "Earlier MP cavity back: Mizuno MP-58"
 faq:
   - q: "What is the loft of a Mizuno MP-63 7-iron?"
     a: "The Mizuno MP-63 7-iron has a loft of 34 degrees, with a 61.5-degree lie and a 36.75-inch steel-shaft length."

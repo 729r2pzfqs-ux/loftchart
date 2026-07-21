@@ -80,6 +80,9 @@ stock_shafts:
   - name: "KBS Tour"
     material: steel
 sources:
+  - "TaylorMade's own archived P7MB product page (http://web.archive.org/web/20200821204545id_/https://www.taylormadegolf.com/P7MB-Irons/DW-TA162.html) - full manufacturer loft/lie/offset/length/swing-weight table, identical across the Aug 2020, Jan 2021 and Jun 2021 captures. Independently confirms every loft, lie, length, offset and swing weight recorded here."
+  - "Note: several widely-cited retailer tables (2nd Swing, Miles of Golf, WWGolf, Fairway Jockey) pair the P7MC loft column with the P7MB offset column, which makes them look mutually corroborating when they share a common upstream error. TaylorMade's own page gives the 21/24/27/31/35/39/43/47 lofts used here."
+  - "Note: bounce is the one column no first-party TaylorMade source publishes for this model. The values recorded here are uncontradicted but unsourced."
   - "TaylorMade 2021 Custom Options & Specifications catalogue (updated 03/02/21), 2021 Irons pages - P7MB loft/lie/offset/bounce/length/swing-weight table, cross-identified by the P-Series Combo Guide stock-loft chart (MB column: 21, 24, 27, 31, 35, 39, 43, 47 degrees)"
   - "2ndswing.com TaylorMade P7MB Iron Set page (corroborates lie, length and the 1.9mm to 1.4mm offset progression; note that its loft column reproduces the P7MC values, so lofts here follow the TaylorMade catalogue)"
 related_models:
