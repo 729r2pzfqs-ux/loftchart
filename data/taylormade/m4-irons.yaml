@@ -94,8 +94,8 @@ sources:
 related_models:
   - slug: "taylormade/m2-irons"
     label: "Earlier M-family: TaylorMade M2"
-  - slug: "taylormade/r7-draw-irons"
-    label: "Related: TaylorMade r7 Draw"
+  - slug: "taylormade/r7-irons"
+    label: "Predecessor: TaylorMade r7"
   - slug: "taylormade/m6-irons"
     label: "Successor: TaylorMade M6"
 faq:
