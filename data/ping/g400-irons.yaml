@@ -1,0 +1,99 @@
+brand: Ping
+brand_slug: ping
+model: G400
+slug: g400-irons
+club_type: irons
+year_introduced: 2017
+year_discontinued: 2019
+category: game-improvement
+construction: investment cast
+material: Hyper 17-4 stainless steel with a COR-Eye face
+successor: Ping G410
+predecessor: Ping G
+description: >
+  The G400 strengthened the G by half a degree through the set, putting the 7-iron
+  at 30.0 degrees, and switched to a thinner Hyper 17-4 stainless face. Lengths,
+  lies and bounce are unchanged from the G; offset is marginally tighter in the
+  scoring clubs. Ping's colour-code (dot) system sets lie angle relative to standard: gold 4 flat, brown 3 flat, orange 2 flat, red 1 flat, BLACK standard, blue 1 upright, green 2 upright, white 3 upright, silver 4 upright, maroon 5 upright. The lies below are the BLACK (standard) lies.
+specs:
+  - club: "4"
+    loft: 20.5
+    lie: 59.2
+    length: 38.875
+    offset: 0.29
+    bounce: 5
+    swing_weight: D0
+  - club: "5"
+    loft: 23.5
+    lie: 60.1
+    length: 38.25
+    offset: 0.26
+    bounce: 6
+    swing_weight: D0
+  - club: "6"
+    loft: 26.5
+    lie: 61.1
+    length: 37.625
+    offset: 0.23
+    bounce: 7
+    swing_weight: D0
+  - club: "7"
+    loft: 30
+    lie: 62
+    length: 37
+    offset: 0.2
+    bounce: 8
+    swing_weight: D0
+  - club: "8"
+    loft: 34.5
+    lie: 62.8
+    length: 36.5
+    offset: 0.18
+    bounce: 9
+    swing_weight: D0
+  - club: "9"
+    loft: 39.5
+    lie: 63.5
+    length: 36
+    offset: 0.16
+    bounce: 11
+    swing_weight: D0.5
+  - club: "PW"
+    loft: 44.5
+    lie: 64.1
+    length: 35.5
+    offset: 0.13
+    bounce: 12
+    swing_weight: D2
+  - club: "UW"
+    loft: 49.5
+    lie: 64.1
+    length: 35.5
+    offset: 0.11
+    bounce: 12
+    swing_weight: D2
+  - club: "SW"
+    loft: 54
+    lie: 64.4
+    length: 35.25
+    offset: 0.09
+    bounce: 13
+    swing_weight: D3
+  - club: "LW"
+    loft: 58
+    lie: 64.6
+    length: 35
+    offset: 0.08
+    bounce: 13
+    swing_weight: D4
+sources:
+  - "Official Ping specification chart for the G400 irons (ping.com product spec page via archive.org)"
+  - "Note: year_discontinued is taken as the year the successor model was introduced, per the Ping model chronology."
+faq:
+  - q: "What is the loft of a Ping G400 7-iron?"
+    a: "The Ping G400 7-iron has a loft of 30 degrees, a standard (black dot) lie of 62.0 degrees and a steel-shaft length of 37.0 inches."
+  - q: "When were Ping G400 irons made?"
+    a: "The G400 was introduced in 2017 and was replaced by the G410 in 2019."
+  - q: "Are Ping G400 lofts stronger than the G?"
+    a: "Yes, by half a degree through most of the set. The G400 7-iron is 30 degrees against 30.5 for the G."
+confidence: high

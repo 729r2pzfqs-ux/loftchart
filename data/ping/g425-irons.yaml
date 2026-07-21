@@ -1,0 +1,100 @@
+brand: Ping
+brand_slug: ping
+model: G425
+slug: g425-irons
+club_type: irons
+year_introduced: 2021
+year_discontinued: 2023
+category: game-improvement
+construction: investment cast
+material: Hyper 17-4 stainless steel with a variable-thickness face
+successor: Ping G430
+predecessor: Ping G410
+description: >
+  The G425 is dimensionally identical to the G410 — every published loft, length,
+  lie, offset, bounce and swing weight matches through the set, with the 7-iron at
+  30 degrees. The changes are to the face, which moves to a variable-thickness
+  design, rather than to the geometry. Ping's colour-code (dot) system sets lie angle relative to standard: gold 4 flat, brown 3 flat, orange 2 flat, red 1 flat, BLACK standard, blue 1 upright, green 2 upright, white 3 upright, silver 4 upright, maroon 5 upright. The lies below are the BLACK (standard) lies.
+specs:
+  - club: "4"
+    loft: 20.5
+    lie: 60.5
+    length: 38.875
+    offset: 0.27
+    bounce: 5
+    swing_weight: D0
+  - club: "5"
+    loft: 23.5
+    lie: 61
+    length: 38.25
+    offset: 0.24
+    bounce: 6
+    swing_weight: D0
+  - club: "6"
+    loft: 26.5
+    lie: 61.5
+    length: 37.625
+    offset: 0.21
+    bounce: 7
+    swing_weight: D0
+  - club: "7"
+    loft: 30
+    lie: 62
+    length: 37
+    offset: 0.18
+    bounce: 8
+    swing_weight: D0
+  - club: "8"
+    loft: 34.5
+    lie: 62.8
+    length: 36.5
+    offset: 0.15
+    bounce: 9
+    swing_weight: D0
+  - club: "9"
+    loft: 39.5
+    lie: 63.5
+    length: 36
+    offset: 0.13
+    bounce: 11
+    swing_weight: D0.5
+  - club: "PW"
+    loft: 44.5
+    lie: 64.1
+    length: 35.5
+    offset: 0.11
+    bounce: 12
+    swing_weight: D2
+  - club: "UW"
+    loft: 49.5
+    lie: 64.1
+    length: 35.5
+    offset: 0.09
+    bounce: 12
+    swing_weight: D2
+  - club: "SW"
+    loft: 54
+    lie: 64.4
+    length: 35.25
+    offset: 0.07
+    bounce: 13
+    swing_weight: D3
+  - club: "LW"
+    loft: 58
+    lie: 64.6
+    length: 35
+    offset: 0.06
+    bounce: 13
+    swing_weight: D4
+sources:
+  - "Official Ping specification chart for the G425 irons (ping.com product spec page via archive.org)"
+  - "Note: the archived G425 chart reproduces the G410 figures exactly across every published column; the two sets share identical geometry."
+  - "Note: year_discontinued is taken as the year the successor model was introduced, per the Ping model chronology."
+faq:
+  - q: "What is the loft of a Ping G425 7-iron?"
+    a: "The Ping G425 7-iron has a loft of 30 degrees, a standard (black dot) lie of 62.0 degrees and a steel-shaft length of 37.0 inches."
+  - q: "When were Ping G425 irons made?"
+    a: "The G425 was introduced in 2021 and was replaced by the G430 in 2023."
+  - q: "What is the difference between the Ping G410 and G425 irons?"
+    a: "The published specifications are identical through the set — same lofts, lies, lengths, offsets, bounce and swing weights. The G425 differs in face construction."
+confidence: high

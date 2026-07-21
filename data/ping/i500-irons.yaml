@@ -1,0 +1,92 @@
+brand: Ping
+brand_slug: ping
+model: i500
+slug: i500-irons
+club_type: irons
+year_introduced: 2018
+year_discontinued: null
+category: players-distance
+construction: hollow body
+material: maraging steel face over a forged body
+successor: Ping i525
+predecessor: null
+description: >
+  The i500 was Ping's first hollow-body players-distance iron, pairing a thin maraging
+  steel face with a compact forged body. It launched alongside the i210 and is four
+  degrees stronger at the 7-iron — 30.5 against 33 — while keeping players-iron offset
+  of 0.09 inches at the same club. Ping's colour-code (dot) system sets lie angle relative to standard: gold 4 flat, brown 3 flat, orange 2 flat, red 1 flat, BLACK standard, blue 1 upright, green 2 upright, white 3 upright, silver 4 upright, maroon 5 upright. The lies below are the BLACK (standard) lies.
+specs:
+  - club: "3"
+    loft: 18
+    lie: 60
+    length: 39.5
+    offset: 0.17
+    bounce: 4
+    swing_weight: D1
+  - club: "4"
+    loft: 21
+    lie: 60.5
+    length: 38.875
+    offset: 0.15
+    bounce: 5
+    swing_weight: D1
+  - club: "5"
+    loft: 24
+    lie: 61
+    length: 38.25
+    offset: 0.12
+    bounce: 6
+    swing_weight: D1
+  - club: "6"
+    loft: 27
+    lie: 61.5
+    length: 37.625
+    offset: 0.1
+    bounce: 7
+    swing_weight: D1
+  - club: "7"
+    loft: 30.5
+    lie: 62
+    length: 37
+    offset: 0.09
+    bounce: 8
+    swing_weight: D1
+  - club: "8"
+    loft: 35
+    lie: 62.8
+    length: 36.5
+    offset: 0.07
+    bounce: 9
+    swing_weight: D1
+  - club: "9"
+    loft: 40
+    lie: 63.5
+    length: 36
+    offset: 0.05
+    bounce: 11
+    swing_weight: D1
+  - club: "PW"
+    loft: 45
+    lie: 64.1
+    length: 35.5
+    offset: 0.03
+    bounce: 12
+    swing_weight: D1
+  - club: "UW"
+    loft: 50
+    lie: 64.1
+    length: 35.5
+    offset: 0.02
+    bounce: 12
+    swing_weight: D1
+sources:
+  - "Official Ping specification chart for the i500 irons (ping.com product spec page via archive.org)"
+  - "Note: year_discontinued is not recorded — the i525 succeeded the i500, but the chronology data does not pin down the year."
+faq:
+  - q: "What is the loft of a Ping i500 7-iron?"
+    a: "The Ping i500 7-iron has a loft of 30.5 degrees, a standard (black dot) lie of 62.0 degrees and a steel-shaft length of 37.0 inches."
+  - q: "When were Ping i500 irons made?"
+    a: "The i500 was introduced in 2018 and was succeeded by the i525."
+  - q: "What is the difference between the Ping i210 and i500?"
+    a: "The i500 is a hollow-body distance iron, 2.5 degrees stronger at the 7-iron (30.5 against 33) with the same 0.09 inches of offset at that club."
+confidence: high

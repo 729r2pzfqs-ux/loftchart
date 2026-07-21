@@ -33,6 +33,15 @@ brands:
     founded: 1979
     hq: "Carlsbad, California, USA"
     color: "#111111"
+    families:
+      - "rac"
+      - "r7"
+      - "Burner"
+      - "RSi"
+      - "M-series"
+      - "P-series"
+      - "SIM"
+      - "Stealth"
     blurb: >
       TaylorMade built its name on metalwoods and later drove the strong-loft
       distance-iron trend with the Burner, RocketBladez and M families.
@@ -52,6 +61,10 @@ brands:
     founded: 1906
     hq: "Osaka, Japan"
     color: "#00447C"
+    families:
+      - "MP series"
+      - "JPX"
+      - "Pro series"
     blurb: >
       Mizuno's Grain Flow Forged MP irons are the reference point for forged
       feel. The MP-series blades and cavity backs of the 2000s remain in
@@ -75,3 +88,97 @@ brands:
       Cobra's King line spans forged players-distance irons and oversized
       game-improvement sets, often with distinctive colourways and
       progressive set construction.
+    families:
+      - "King"
+      - "Speedzone"
+      - "Radspeed"
+      - "Aerojet"
+      - "Darkspeed"
+
+  - name: Srixon
+    slug: srixon
+    founded: 1930
+    hq: "Kobe, Japan"
+    color: "#004B8D"
+    families:
+      - "Z-Series"
+      - "ZX"
+      - "ZX MkII"
+    blurb: >
+      Srixon's Z and ZX irons pair Tour-grade forging with a progressive set
+      design, running a compact players head and a wider-soled cavity back off
+      the same generation number.
+
+  - name: Wilson
+    slug: wilson
+    founded: 1914
+    hq: "Chicago, Illinois, USA"
+    color: "#E4002B"
+    families:
+      - "Staff Ci"
+      - "Staff D-series"
+      - "Staff Model"
+      - "Dynapower"
+    blurb: >
+      Wilson Staff has made irons continuously for over a century, from the
+      Dyna-Powered blades of the 1950s to the Staff Model forgings and D-series
+      game-improvement sets on sale today.
+
+  - name: Takomo
+    slug: takomo
+    founded: 2019
+    hq: "Helsinki, Finland"
+    color: "#1D3B32"
+    families:
+      - "101"
+      - "201"
+      - "301"
+      - "MKII"
+    blurb: >
+      Takomo is a Finnish direct-to-consumer brand that sells forged S20C irons
+      without a retail markup. The 101 blades, 201 cavity backs and 301 series
+      built the company a following well beyond the Nordics.
+
+  - name: Nike
+    slug: nike
+    founded: 1984
+    hq: "Beaverton, Oregon, USA"
+    color: "#111111"
+    families:
+      - "VR Pro"
+      - "Covert"
+      - "Vapor"
+    blurb: >
+      Nike Golf made clubs from 2002 until it exited hardware in 2016. Its VR
+      and Vapor irons were built around Tour feedback from Tiger Woods and Rory
+      McIlroy, and the specs are now hard to find outside archives.
+
+  - name: Ben Hogan
+    slug: ben-hogan
+    founded: 1953
+    hq: "Fort Worth, Texas, USA"
+    color: "#000000"
+    families:
+      - "Apex"
+      - "Edge"
+      - "PTx"
+      - "Icon"
+    blurb: >
+      The Ben Hogan Golf Equipment Company was relaunched in 2015 selling
+      direct to consumers, and broke with convention by stamping its irons with
+      loft in degrees rather than a club number.
+
+  - name: Adams
+    slug: adams
+    founded: 1987
+    hq: "Plano, Texas, USA"
+    color: "#0057B8"
+    families:
+      - "Idea"
+      - "Idea Tech"
+      - "XTD"
+      - "Tight Lies"
+    blurb: >
+      Adams Golf built its reputation on the Tight Lies fairway wood and then
+      on hybrid-iron combo sets, where the long irons are replaced by hybrids in
+      the stock make-up. TaylorMade acquired the brand in 2012.

@@ -1,0 +1,113 @@
+brand: Ping
+brand_slug: ping
+model: G10
+slug: g10-irons
+club_type: irons
+year_introduced: 2007
+year_discontinued: 2009
+category: game-improvement
+construction: investment cast
+material: 17-4 stainless steel
+successor: Ping G15
+predecessor: Ping G5
+description: >
+  The G10 carried the G5's lofts and lengths unchanged — the 7-iron stays at 34
+  degrees — while widening the sole and reworking the cavity. Offset is slightly
+  greater in the long irons (0.34 inches at the 2-iron against 0.32) and slightly
+  less in the wedges. Ping's colour-code (dot) system sets lie angle relative to standard: gold 4 flat, brown 3 flat, orange 2 flat, red 1 flat, BLACK standard, blue 1 upright, green 2 upright, white 3 upright, silver 4 upright, maroon 5 upright. The lies below are the BLACK (standard) lies.
+specs:
+  - club: "2"
+    loft: 18.5
+    lie: 58.5
+    length: 39.25
+    offset: 0.34
+    bounce: -3
+    swing_weight: D0
+  - club: "3"
+    loft: 21
+    lie: 59.25
+    length: 38.75
+    offset: 0.32
+    bounce: -2
+    swing_weight: D0
+  - club: "4"
+    loft: 24
+    lie: 60
+    length: 38.25
+    offset: 0.3
+    bounce: 0
+    swing_weight: D0
+  - club: "5"
+    loft: 27
+    lie: 60.75
+    length: 37.75
+    offset: 0.28
+    bounce: 2
+    swing_weight: D0
+  - club: "6"
+    loft: 30.5
+    lie: 61.5
+    length: 37.25
+    offset: 0.26
+    bounce: 4
+    swing_weight: D0
+  - club: "7"
+    loft: 34
+    lie: 62.25
+    length: 36.75
+    offset: 0.24
+    bounce: 6
+    swing_weight: D0
+  - club: "8"
+    loft: 38
+    lie: 63
+    length: 36.25
+    offset: 0.22
+    bounce: 8
+    swing_weight: D0
+  - club: "9"
+    loft: 42
+    lie: 63.75
+    length: 35.75
+    offset: 0.2
+    bounce: 9
+    swing_weight: D0
+  - club: "PW"
+    loft: 46
+    lie: 64
+    length: 35.5
+    offset: 0.18
+    bounce: 10
+    swing_weight: D2
+  - club: "UW"
+    loft: 50
+    lie: 64
+    length: 35.5
+    offset: 0.15
+    bounce: 11
+    swing_weight: D2
+  - club: "SW"
+    loft: 54
+    lie: 64.25
+    length: 35.25
+    offset: 0.13
+    bounce: 12
+    swing_weight: D4
+  - club: "LW"
+    loft: 58
+    lie: 64.5
+    length: 35
+    offset: 0.1
+    bounce: 12
+    swing_weight: D6
+sources:
+  - "Official Ping specification chart for the G10 irons (ping.com product spec page via archive.org)"
+  - "Note: year_discontinued is taken as the year the successor model was introduced, per the Ping model chronology."
+faq:
+  - q: "What is the loft of a Ping G10 7-iron?"
+    a: "The Ping G10 7-iron has a loft of 34 degrees, a standard (black dot) lie of 62.25 degrees and a steel-shaft length of 36.75 inches."
+  - q: "When were Ping G10 irons made?"
+    a: "The G10 was introduced in 2007 and was replaced by the G15 in 2009."
+  - q: "What is the difference between the Ping G5 and G10?"
+    a: "Lofts and lengths are identical. The G10 differs in offset — more in the long irons, less in the wedges — and in sole and cavity design."
+confidence: high

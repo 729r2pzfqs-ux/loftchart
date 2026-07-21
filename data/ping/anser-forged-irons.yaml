@@ -1,0 +1,85 @@
+brand: Ping
+brand_slug: ping
+model: Anser Forged
+slug: anser-forged-irons
+club_type: irons
+year_introduced: 2012
+year_discontinued: null
+category: players
+construction: forged
+material: 8620 carbon steel with a tungsten toe weight and Custom Tuning Port
+successor: Ping Anser V2
+predecessor: null
+description: >
+  The Anser Forged was Ping's first modern forged iron, built from 8620 carbon steel
+  with a tungsten toe weight and a Custom Tuning Port. It runs 3-iron through pitching
+  wedge with a 33.5-degree 7-iron — half a degree stronger than the cast S56 of the
+  same era — and holds a D1 swing weight through the irons. Ping's colour-code (dot) system sets lie angle relative to standard: gold 4 flat, brown 3 flat, orange 2 flat, red 1 flat, BLACK standard, blue 1 upright, green 2 upright, white 3 upright, silver 4 upright, maroon 5 upright. The lies below are the BLACK (standard) lies.
+specs:
+  - club: "3"
+    loft: 21
+    lie: 59.25
+    length: 38.75
+    offset: 0.23
+    bounce: -3
+    swing_weight: D1
+  - club: "4"
+    loft: 24
+    lie: 60
+    length: 38.25
+    offset: 0.2
+    bounce: -2
+    swing_weight: D1
+  - club: "5"
+    loft: 27
+    lie: 60.75
+    length: 37.75
+    offset: 0.17
+    bounce: -1
+    swing_weight: D1
+  - club: "6"
+    loft: 30
+    lie: 61.5
+    length: 37.25
+    offset: 0.14
+    bounce: 3
+    swing_weight: D1
+  - club: "7"
+    loft: 33.5
+    lie: 62.25
+    length: 36.75
+    offset: 0.12
+    bounce: 5
+    swing_weight: D1
+  - club: "8"
+    loft: 37.5
+    lie: 63
+    length: 36.25
+    offset: 0.1
+    bounce: 6
+    swing_weight: D1
+  - club: "9"
+    loft: 41.5
+    lie: 63.75
+    length: 35.75
+    offset: 0.08
+    bounce: 8
+    swing_weight: D1
+  - club: "PW"
+    loft: 46
+    lie: 64
+    length: 35.5
+    offset: 0.07
+    bounce: 9
+    swing_weight: D3
+sources:
+  - "Official Ping specification chart for the Anser Forged irons (ping.com product spec page via archive.org)"
+  - "Note: year_discontinued is not recorded — the Anser V2 succeeded this model, but the chronology data does not pin down the year."
+faq:
+  - q: "What is the loft of a Ping Anser Forged 7-iron?"
+    a: "The Ping Anser Forged 7-iron has a loft of 33.5 degrees, a standard (black dot) lie of 62.25 degrees and a steel-shaft length of 36.75 inches."
+  - q: "When were Ping Anser Forged irons made?"
+    a: "The Anser Forged was introduced in 2012 and was succeeded by the Anser V2."
+  - q: "Was the Ping Anser Forged Ping's first forged iron?"
+    a: "It was Ping's first modern forged iron, made from 8620 carbon steel rather than the investment-cast stainless Ping had used across its earlier lines."
+confidence: high

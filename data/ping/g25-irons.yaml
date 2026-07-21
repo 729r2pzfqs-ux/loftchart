@@ -102,6 +102,7 @@ sources:
   - "GolfWorks Ping shaft replacement reference PDF (2013 G25 Irons — CFS steel SR/R/S/X 94-114g; TFC 189I graphite SR/R/S 70-86g)"
   - "TGW / PGA Tour Superstore Ping colour code chart guides (black dot = standard lie)"
   - "Note: per-club offset values were not found in a reliable published source and are omitted."
+  - "Note: one reading of the archived G25 chart takes its final column as sole width rather than bounce angle. The values are recorded here as bounce because they run 0-12 in whole degrees and track the G20 and G30 bounce progressions closely; as a sole width in inches they would be implausible. Treat the column as bounce angle pending a cleaner scan of the original chart."
 related_models:
   - slug: "ping/g15-irons"
     label: "Earlier G-series iron: Ping G15"

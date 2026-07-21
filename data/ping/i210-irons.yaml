@@ -1,0 +1,92 @@
+brand: Ping
+brand_slug: ping
+model: i210
+slug: i210-irons
+club_type: irons
+year_introduced: 2018
+year_discontinued: null
+category: players
+construction: investment cast
+material: 431 stainless steel with a Custom Tuning Port
+successor: Ping i230
+predecessor: Ping i200
+description: >
+  The i210 is a cast 431 stainless players iron with a softer elastomer insert in the
+  Custom Tuning Port. Lofts sit between Ping's blade and game-improvement lines, with
+  the 7-iron at 33 degrees, and offset is tight through the scoring clubs — 0.09 inches
+  at the 7-iron falling to 0.02 at the utility wedge. Ping's colour-code (dot) system sets lie angle relative to standard: gold 4 flat, brown 3 flat, orange 2 flat, red 1 flat, BLACK standard, blue 1 upright, green 2 upright, white 3 upright, silver 4 upright, maroon 5 upright. The lies below are the BLACK (standard) lies.
+specs:
+  - club: "3"
+    loft: 19
+    lie: 60
+    length: 39
+    offset: 0.21
+    bounce: 5
+    swing_weight: D2
+  - club: "4"
+    loft: 22.5
+    lie: 60.5
+    length: 38.5
+    offset: 0.18
+    bounce: 6
+    swing_weight: D2
+  - club: "5"
+    loft: 26
+    lie: 61
+    length: 38
+    offset: 0.15
+    bounce: 7
+    swing_weight: D2
+  - club: "6"
+    loft: 29.5
+    lie: 61.5
+    length: 37.5
+    offset: 0.12
+    bounce: 8
+    swing_weight: D2
+  - club: "7"
+    loft: 33
+    lie: 62
+    length: 37
+    offset: 0.09
+    bounce: 9
+    swing_weight: D2
+  - club: "8"
+    loft: 37
+    lie: 62.8
+    length: 36.5
+    offset: 0.07
+    bounce: 10.5
+    swing_weight: D2
+  - club: "9"
+    loft: 41
+    lie: 63.5
+    length: 36
+    offset: 0.05
+    bounce: 12
+    swing_weight: D2.5
+  - club: "PW"
+    loft: 45
+    lie: 64.1
+    length: 35.5
+    offset: 0.03
+    bounce: 13
+    swing_weight: D3
+  - club: "UW"
+    loft: 50
+    lie: 64.1
+    length: 35.5
+    offset: 0.02
+    bounce: 13
+    swing_weight: D3
+sources:
+  - "Official Ping specification chart for the i210 irons (ping.com product spec page via archive.org)"
+  - "Note: year_discontinued is not recorded — the i230 succeeded the i210, but the chronology data does not pin down the year."
+faq:
+  - q: "What is the loft of a Ping i210 7-iron?"
+    a: "The Ping i210 7-iron has a loft of 33 degrees, a standard (black dot) lie of 62.0 degrees and a steel-shaft length of 37.0 inches."
+  - q: "When were Ping i210 irons made?"
+    a: "The i210 was introduced in 2018, following the i200, and was later replaced by the i230."
+  - q: "Are Ping i210 irons players irons or game-improvement irons?"
+    a: "They are players irons. The 7-iron is 33 degrees against 30 degrees for the game-improvement G410 of the same era, with roughly half the offset."
+confidence: high

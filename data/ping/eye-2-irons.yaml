@@ -72,6 +72,7 @@ sources:
   - "GolfWorks Ping shaft replacement reference PDF (1995 Eye 2 Irons — ZZ-Lite, True Temper, 115g, .355 tip)"
   - "TGW / PGA Tour Superstore Ping colour code chart guides (black dot = standard lie)"
   - "Note: equip2golf lists the 4-iron at 25.0, PW at 50.5 and SW at 57.5; the values above follow the more widely reproduced Ping chart (24.7 / 50.7 / 57.7). Discrepancies are 0.2-0.3 degrees."
+  - "Note: Ping never officially published per-club offset or bounce figures for the Eye 2; those keys are deliberately omitted rather than sourced from secondary listings."
 related_models:
   - slug: "ping/isi-irons"
     label: "Later Ping game-improvement iron: Ping ISI"
@@ -80,6 +81,10 @@ faq:
     a: "The Ping Eye 2 7-iron has a loft of 36 degrees, with a standard (black dot) lie of 62.5 degrees and a steel-shaft length of 36.75 inches."
   - q: "What does the black dot on a Ping Eye 2 mean?"
     a: "Black is Ping's standard lie angle. Other dot colours shift the lie flatter (gold, brown, orange, red) or more upright (blue, green, white, silver, maroon) in one-degree steps."
+  - q: "When were Ping Eye 2 irons made?"
+    a: "The Eye 2 was introduced in September 1982 and remained in the line until 1993, when the Zing had taken over as Ping's mainstream game-improvement iron. It is the best-selling iron model in golf history."
+  - q: "Are Ping Eye 2 irons conforming?"
+    a: "Square-groove Eye 2 irons manufactured before 1 April 1990 remain conforming for general play under the terms of Ping's 1990 settlement with the USGA and the PGA Tour, which grandfathered those clubs. That settlement stayed in force when the tighter groove rule took effect in 2010, briefly making pre-1990 Eye 2 wedges a talking point on tour. Later Eye 2 production is subject to the normal groove rules."
   - q: "Are Ping Eye 2 lofts weak compared to modern irons?"
     a: "Yes. The Eye 2 7-iron is 36 degrees, whereas the Ping G25 7-iron from 2013 is 32 degrees — four degrees stronger, or roughly one club of difference."
 confidence: medium

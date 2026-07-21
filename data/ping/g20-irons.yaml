@@ -1,0 +1,96 @@
+brand: Ping
+brand_slug: ping
+model: G20
+slug: g20-irons
+club_type: irons
+year_introduced: 2011
+year_discontinued: 2013
+category: game-improvement
+construction: investment cast
+material: 17-4 stainless steel with a Custom Tuning Port
+successor: Ping G25
+predecessor: Ping G15
+description: >
+  The G20 moved the G-series two degrees stronger at the 7-iron, from 34 degrees
+  in the G15 to 32, and dropped the 2-iron from the stock line-up. The set uses a
+  Custom Tuning Port to shift mass low and back. Published bounce figures were not
+  part of the archived G20 chart and are omitted here. Ping's colour-code (dot) system sets lie angle relative to standard: gold 4 flat, brown 3 flat, orange 2 flat, red 1 flat, BLACK standard, blue 1 upright, green 2 upright, white 3 upright, silver 4 upright, maroon 5 upright. The lies below are the BLACK (standard) lies.
+specs:
+  - club: "3"
+    loft: 20
+    lie: 59.25
+    length: 38.75
+    offset: 0.32
+    swing_weight: D0
+  - club: "4"
+    loft: 23
+    lie: 60
+    length: 38.25
+    offset: 0.3
+    swing_weight: D0
+  - club: "5"
+    loft: 26
+    lie: 60.75
+    length: 37.75
+    offset: 0.28
+    swing_weight: D0
+  - club: "6"
+    loft: 29
+    lie: 61.5
+    length: 37.25
+    offset: 0.26
+    swing_weight: D0
+  - club: "7"
+    loft: 32
+    lie: 62.25
+    length: 36.75
+    offset: 0.24
+    swing_weight: D0
+  - club: "8"
+    loft: 36
+    lie: 63
+    length: 36.25
+    offset: 0.22
+    swing_weight: D0
+  - club: "9"
+    loft: 40
+    lie: 63.75
+    length: 35.75
+    offset: 0.2
+    swing_weight: D0
+  - club: "PW"
+    loft: 45
+    lie: 64
+    length: 35.5
+    offset: 0.18
+    swing_weight: D2
+  - club: "UW"
+    loft: 50
+    lie: 64
+    length: 35.5
+    offset: 0.15
+    swing_weight: D2
+  - club: "SW"
+    loft: 54
+    lie: 64.25
+    length: 35.25
+    offset: 0.13
+    swing_weight: D4
+  - club: "LW"
+    loft: 58
+    lie: 64.5
+    length: 35
+    offset: 0.1
+    swing_weight: D6
+sources:
+  - "Official Ping specification chart for the G20 irons (ping.com product spec page via archive.org)"
+  - "Note: the archived G20 specification chart does not list per-club bounce; that key is omitted."
+  - "Note: year_discontinued is taken as the year the successor model was introduced, per the Ping model chronology."
+faq:
+  - q: "What is the loft of a Ping G20 7-iron?"
+    a: "The Ping G20 7-iron has a loft of 32 degrees, a standard (black dot) lie of 62.25 degrees and a steel-shaft length of 36.75 inches."
+  - q: "When were Ping G20 irons made?"
+    a: "The G20 was introduced in 2011 and was replaced by the G25 in 2013."
+  - q: "Are Ping G20 lofts stronger than the G15?"
+    a: "Yes, by two degrees through most of the set. The G20 7-iron is 32 degrees against 34 for the G15."
+confidence: high

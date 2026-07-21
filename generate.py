@@ -181,7 +181,14 @@ def fit_desc(head_part, tails):
 
 def club_sort_key(c):
     c = str(c).upper()
-    return CLUB_ORDER.index(c) if c in CLUB_ORDER else len(CLUB_ORDER)
+    if c in CLUB_ORDER:
+        return float(CLUB_ORDER.index(c))
+    # Loft-numbered wedges ("45W", "50W", as used in the G430 set) sit after
+    # the pitching wedge, ordered by their own loft.
+    m = re.fullmatch(r"(\d{2})W", c)
+    if m:
+        return CLUB_ORDER.index("PW") + int(m.group(1)) / 1000.0
+    return float(len(CLUB_ORDER))
 
 
 def ldjson(obj):
@@ -274,7 +281,9 @@ def year_range(m):
     if a and b:
         return f"{a}–{b}"
     if a:
-        return f"{a}–present"
+        # A model with a known successor is not still in production, even when
+        # the research does not pin down the year it was replaced.
+        return f"from {a}" if m.get("successor") else f"{a}–present"
     return "Year unknown"
 
 
@@ -655,8 +664,9 @@ def brand_page(b, models, brands):
     years = [m["year_introduced"] for m in ms if m.get("year_introduced")]
     names = ", ".join(m["model"] for m in ms[:3])
     title = f"{b['name']} Golf Club Specifications — Loft Charts | {SITE_NAME}"
-    head_part = (f"Complete {b['name']} iron specifications from {min(years)} to "
-                 f"{max(years)}. ")
+    # Compact head leaves room for the family list, which is the part that
+    # carries the searched terms ("Ping G series").
+    head_part = f"{b['name']} iron specifications, {min(years)}–{max(years)}. "
     # Prefer naming model families over a truncated model list — families are
     # what people actually search ("Ping G series", "Ping i series").
     fam = b.get("families")
@@ -976,17 +986,28 @@ def compare_page(a, b, brands):
                  f"{num(b7['loft'])}°. ")
     else:
         lofts = None
+    # Name only the columns at least one of the two sets actually publishes.
+    rows = list(a["specs"]) + list(b["specs"])
+    cmp_cols = ["loft", "lie", "length"]
+    if any(r.get("offset") is not None for r in rows):
+        cmp_cols.append("offset")
+    if any(r.get("swing_weight") is not None for r in rows):
+        cmp_cols.append("swing weight")
+    cols = comma_list(cmp_cols)
+
+    span = (f"{club_noun(a, a['specs'][0]['club'])} to "
+            f"{club_noun(a, a['specs'][-1]['club'])}") if a["specs"] else ""
     if lofts:
         desc = fit_desc(head_part + lofts, [
-            "Compare loft, lie, length, offset and swing weight across the full set.",
-            "Compare all loft, lie and length differences across the full set.",
+            f"Compare {cols} across the full set, {span}." if span else "",
+            f"Compare {cols} across the full set.",
+            f"Compare {cols} for every club.",
             "Compare every loft, lie and length difference.",
         ])
     else:
         desc = fit_desc(head_part, [
-            f"Compare loft, lie, length, offset and swing weight for every club in "
-            f"the {label_a} and {label_b} sets.",
-            "Compare loft, lie, length, offset and swing weight for every club.",
+            f"Compare {cols} for every club in the {label_a} and {label_b} sets.",
+            f"Compare {cols} for every club.",
             "Compare loft, lie and length for every club.",
         ])
     url = f"/compare/{slug}/"
