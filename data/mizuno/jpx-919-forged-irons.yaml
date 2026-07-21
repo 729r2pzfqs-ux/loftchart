@@ -9,7 +9,7 @@ category: players
 construction: forged
 material: Chromoly 4120 (Grain Flow Forged HD)
 successor: JPX-921 Forged
-predecessor: JPX-850 Forged
+predecessor: JPX-900 Forged
 description: >
   The JPX-919 Forged replaced the JPX-900 Forged and was the first Mizuno iron
   Grain Flow Forged in one piece from Chromoly 4120, a harder alloy that allowed
@@ -91,4 +91,4 @@ faq:
     a: "The Forged is about two degrees weaker through the set. Its 7-iron is 32 degrees against 30 degrees for the Hot Metal, and its pitching wedge is 46 degrees against 45 degrees."
   - q: "What clubs came in the stock JPX-919 Forged set?"
     a: "The stock range was 4-iron through gap wedge. The pitching wedge is 46 degrees and the gap wedge 51 degrees; sand and lob wedges were not part of the set."
-confidence: high
+confidence: medium

@@ -24,7 +24,12 @@ OUT = os.path.join(ROOT, "docs")
 
 SITE = "https://loftchart.com"
 SITE_NAME = "LoftChart"
+# Set to a real "G-..." measurement ID to switch analytics on. While it is the
+# placeholder the snippet is omitted entirely rather than shipped dead: a
+# bogus ID still costs every visitor a googletagmanager request and logs a
+# console error, and collects nothing in return.
 GA_ID = "G-XXXXXXXXXX"
+GA_ENABLED = bool(GA_ID) and "X" not in GA_ID
 EMAIL = "info@loftchart.com"
 TODAY = date.today().isoformat()
 
@@ -113,6 +118,21 @@ def num(v):
 
 DESC_MIN = 120
 DESC_MAX = 160
+
+# Google truncates the SERP title around 60 characters. Titles are assembled
+# from a mandatory core plus optional tails ordered most- to least-valuable,
+# and fit_title() drops tails from the right until the whole thing fits, so
+# the brand suffix is what goes first and the keywords are what survive.
+TITLE_MAX = 60
+
+
+def fit_title(core, *tails):
+    out = core
+    for t in tails:
+        if len(out) + len(t) > TITLE_MAX:
+            break
+        out += t
+    return out
 
 # path -> description, filled by head() for every page the build emits.
 DESC_REGISTRY = {}
@@ -306,8 +326,14 @@ def head(title, desc, path, ld=None, og_type="website", noindex=False):
     canon = SITE + path
     # Record the rendered (unescaped) description; noindex pages are tracked
     # but exempted from the audit since they never surface in search.
-    DESC_REGISTRY[path] = {"desc": desc, "noindex": noindex}
+    DESC_REGISTRY[path] = {"desc": desc, "title": title, "noindex": noindex}
     ldblocks = "".join(ldjson(o) for o in (ld or []))
+    analytics = (
+        f'<script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>\n'
+        "<script>window.dataLayer=window.dataLayer||[];"
+        "function gtag(){dataLayer.push(arguments);}"
+        f"gtag('js',new Date());gtag('config','{GA_ID}');</script>"
+    ) if GA_ENABLED else ""
     robots = '<meta name="robots" content="noindex,follow">' if noindex else ""
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -336,8 +362,7 @@ def head(title, desc, path, ld=None, og_type="website", noindex=False):
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
 <link rel="stylesheet" href="/css/style.css">
 {ldblocks}
-<script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','{GA_ID}');</script>
+{analytics}
 </head>
 <body>
 <header class="site-header">
@@ -494,7 +519,7 @@ def spec_table(m, caption=None):
 
 def model_page(m, brands, models_by_key, compares_by_key):
     s7 = seven_iron(m)
-    title = f"{m['title']} Specs — Loft & Lie Chart | {SITE_NAME}"
+    title = fit_title(f"{m['title']} Specs", " — Loft & Lie Chart", f" | {SITE_NAME}")
     # Only advertise columns this model actually carries — several sets (the
     # Eye 2 among them) have no published offset or swing weight, and promising
     # data the chart doesn't show costs more in bounces than it gains in clicks.
@@ -674,7 +699,8 @@ def brand_page(b, models, brands):
     ms = sorted(models, key=lambda m: (m.get("year_introduced") or 0, m["model"]))
     years = [m["year_introduced"] for m in ms if m.get("year_introduced")]
     names = ", ".join(m["model"] for m in ms[:3])
-    title = f"{b['name']} Golf Club Specifications — Loft Charts | {SITE_NAME}"
+    title = fit_title(f"{b['name']} Iron Specs", " — Loft & Lie Charts",
+                      f" | {SITE_NAME}")
     # Compact head leaves room for the family list, which is the part that
     # carries the searched terms ("Ping G series").
     head_part = f"{b['name']} iron specifications, {min(years)}–{max(years)}. "
@@ -855,7 +881,7 @@ def category_page(cat, ms, brands):
     label = CATEGORY_LABEL.get(cat, cat)
     ms = sorted(ms, key=lambda m: (m.get("year_introduced") or 0, m["brand"]))
     short = CATEGORY_SHORT.get(cat, label.replace(" Irons", "").lower())
-    title = f"{label} — Loft Charts & Specs | {SITE_NAME}"
+    title = fit_title(label, " — Loft Charts & Specs", f" | {SITE_NAME}")
     span = loft_span(ms)
     # Lead with the loft figure — it is the number that distinguishes one
     # category from the next, and the reason someone clicks a category page.
@@ -898,7 +924,8 @@ def category_page(cat, ms, brands):
 
 
 def categories_index(by_cat, brands, all_models):
-    title = f"Iron Categories — Blade, Players & Game Improvement | {SITE_NAME}"
+    title = fit_title("Iron Categories — Blade, Players & Game Improvement",
+                      f" | {SITE_NAME}")
     span = loft_span(all_models)
     head_part = (f"Golf iron categories compared: {plural(len(all_models), 'model')} "
                  f"across {plural(len(by_cat), 'category')}, {span}. " if span else
@@ -979,14 +1006,16 @@ def find_pairs(models, by_key):
 
 def compare_page(a, b, brands):
     slug = compare_slug(a, b)
-    title = (f"{a['brand']} {a['model']} vs {b['brand']} {b['model']} — "
-             f"Spec Comparison | {SITE_NAME}")
     # Lead with the two 7-iron lofts: it is the number people are comparing,
     # and it keeps sibling comparisons from reading as near-duplicates.
     a7, b7 = seven_iron(a), seven_iron(b)
     same_brand = a["brand"] == b["brand"]
     label_a = a["model"] if same_brand else f"{a['brand']} {a['model']}"
     label_b = b["model"] if same_brand else f"{b['brand']} {b['model']}"
+    # Sibling comparisons name the brand once — repeating "TaylorMade" twice
+    # pushed most of these titles past the SERP cutoff.
+    title = fit_title(f"{a['brand']} {a['model']} vs {label_b}",
+                      " — Spec Comparison", f" | {SITE_NAME}")
     head_part = f"{a['brand']} {a['model']} vs {label_b}: side-by-side specs. "
     if a7 and b7 and a7.get("loft") == b7.get("loft"):
         # Matching lofts: "34° vs 34°" reads like an error, and the real story
@@ -1298,8 +1327,23 @@ def about_page(brands, models):
 def privacy_page(brands):
     title = f"Privacy Policy | {SITE_NAME}"
     desc = ("How LoftChart.com handles your data: what the site collects, the cookies "
-            "and analytics it uses, and the third-party services involved.")
+            "and analytics it uses, and the third-party services involved."
+            ) if GA_ENABLED else (
+            "How LoftChart.com handles your data: no analytics, no advertising cookies "
+            "and no accounts, plus the third-party services a page load touches.")
     nav, bc = crumbs([("Home", "/"), ("Privacy", None)])
+    # The analytics section has to track what actually ships — claiming we set
+    # GA cookies while the snippet is switched off is its own privacy problem.
+    analytics_section = """  <p>We use Google Analytics 4 to understand which pages are being read. Google Analytics
+  sets cookies and collects information such as your approximate location (derived from IP
+  address), browser and device type, the pages you visit and how you arrived at the site. IP
+  addresses are anonymised by Google Analytics 4 by default. This data is processed by Google
+  and is governed by
+  <a href="https://policies.google.com/privacy" rel="noopener">Google&rsquo;s privacy
+  policy</a>. You can opt out site-wide using the
+  <a href="https://tools.google.com/dlpage/gaoptout" rel="noopener">Google Analytics opt-out
+  browser add-on</a>, or by blocking cookies in your browser settings.</p>""" if GA_ENABLED else """  <p>We do not run analytics on this site. No analytics or advertising cookies are set, and
+  we do not build any profile of you or your visit.</p>"""
     body = f"""{nav}
 <div class="wrap narrow">
   <div class="page-head">
@@ -1311,15 +1355,7 @@ def privacy_page(brands):
   directly, and there are no accounts, logins or newsletter signups.</p>
 
   <h2>Analytics</h2>
-  <p>We use Google Analytics 4 to understand which pages are being read. Google Analytics
-  sets cookies and collects information such as your approximate location (derived from IP
-  address), browser and device type, the pages you visit and how you arrived at the site. IP
-  addresses are anonymised by Google Analytics 4 by default. This data is processed by Google
-  and is governed by
-  <a href="https://policies.google.com/privacy" rel="noopener">Google&rsquo;s privacy
-  policy</a>. You can opt out site-wide using the
-  <a href="https://tools.google.com/dlpage/gaoptout" rel="noopener">Google Analytics opt-out
-  browser add-on</a>, or by blocking cookies in your browser settings.</p>
+{analytics_section}
 
   <h2>Fonts</h2>
   <p>Typefaces are served from Google Fonts, which means your browser makes a request to
@@ -1479,6 +1515,42 @@ def audit_descriptions():
           f"(all unique, {DESC_MIN}-{DESC_MAX} chars)")
 
 
+def audit_titles():
+    """Fail the build on a duplicate or over-long <title>.
+
+    Same contract as audit_descriptions(): every page flows through head(),
+    so new page types are covered without touching this function.
+    """
+    indexed = {p: v["title"] for p, v in DESC_REGISTRY.items() if not v["noindex"]}
+
+    by_text = defaultdict(list)
+    for path, t in indexed.items():
+        by_text[t].append(path)
+    dupes = {t: ps for t, ps in by_text.items() if len(ps) > 1}
+    long_ = {p: t for p, t in indexed.items() if len(t) > TITLE_MAX}
+
+    print(f"  titles: {len(indexed)} indexed pages, {len(by_text)} unique")
+
+    ok = True
+    if dupes:
+        ok = False
+        print("  DUPLICATE titles:", file=sys.stderr)
+        for t, ps in dupes.items():
+            print(f"    {len(ps)}x {t[:70]!r}", file=sys.stderr)
+            for p in ps:
+                print(f"        {p}", file=sys.stderr)
+    if long_:
+        ok = False
+        print(f"  OVER length ({TITLE_MAX}) — {len(long_)} pages:", file=sys.stderr)
+        for p, t in sorted(long_.items(), key=lambda kv: -len(kv[1])):
+            print(f"    {len(t):>3} {p}\n        {t}", file=sys.stderr)
+
+    if not ok:
+        print("\nTitle audit failed.", file=sys.stderr)
+        sys.exit(1)
+    print(f"  title audit passed (all unique, <={TITLE_MAX} chars)")
+
+
 def main():
     brands, models, errors = load()
     if errors:
@@ -1536,6 +1608,7 @@ def main():
     not_found(brands)
 
     audit_descriptions()
+    audit_titles()
 
     search_index(models)
     copy_static()

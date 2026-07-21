@@ -28,7 +28,7 @@ specs:
     lie: 59.5
     length: 38.75
   - club: "4"
-    loft: 24.7
+    loft: 25.0
     lie: 60.0
     length: 38.25
   - club: "5"
@@ -44,7 +44,7 @@ specs:
     lie: 62.5
     length: 36.75
   - club: "8"
-    loft: 40.2
+    loft: 40.0
     lie: 63.0
     length: 36.25
   - club: "9"
@@ -52,11 +52,11 @@ specs:
     lie: 64.0
     length: 35.75
   - club: "PW"
-    loft: 50.7
+    loft: 50.5
     lie: 64.5
     length: 35.5
   - club: "SW"
-    loft: 57.7
+    loft: 57.5
     lie: 64.5
     length: 35.25
   - club: "LW"
@@ -67,11 +67,12 @@ stock_shafts:
   - name: "Ping ZZ-Lite"
     material: steel
 sources:
-  - "equip2golf.com Ping Eye2 specification page (lofts and lengths; lie angles not listed)"
+  - "Ping's own archived Classics spec chart for the Eye 2, pre-January-1998 production (http://web.archive.org/web/20040607003749/http://ping.com:80/classics/irons/eye2.html) — lofts and black-dot lie angles"
+  - "equip2golf.com Ping Eye2 specification page (lofts and lengths; lie angles not listed) — agrees with the Ping chart throughout"
   - "qsponge.com Ping Eye 2 loft/lie table (lofts and black-dot lie angles)"
   - "GolfWorks Ping shaft replacement reference PDF (1995 Eye 2 Irons — ZZ-Lite, True Temper, 115g, .355 tip)"
   - "TGW / PGA Tour Superstore Ping colour code chart guides (black dot = standard lie)"
-  - "Note: equip2golf lists the 4-iron at 25.0, PW at 50.5 and SW at 57.5; the values above follow the more widely reproduced Ping chart (24.7 / 50.7 / 57.7). Discrepancies are 0.2-0.3 degrees."
+  - "Note: earlier revisions of this file carried 24.7 / 40.2 / 50.7 / 57.7 at the 4, 8, PW and SW on the grounds that they were 'the more widely reproduced' figures. Ping's own archived Classics chart lists 25.0 / 40.0 / 50.5 / 57.5, and equip2golf agrees; the manufacturer figures are used here. Ping notes on that chart that loft and lie are rounded to the nearest 0.5 degree, so the true unrounded values may sit slightly off these, but no published Ping source gives them."
   - "Note: Ping never officially published per-club offset or bounce figures for the Eye 2; those keys are deliberately omitted rather than sourced from secondary listings."
 related_models:
   - slug: "ping/isi-irons"
