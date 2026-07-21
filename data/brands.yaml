@@ -4,6 +4,15 @@ brands:
     founded: 1959
     hq: "Phoenix, Arizona, USA"
     color: "#B01C2E"
+    # Families named in the brand-page meta description — these are the terms
+    # people search ("Ping G series"), not individual model names.
+    families:
+      - "Eye 2"
+      - "Zing"
+      - "G-series"
+      - "i-series"
+      - "S-series"
+      - "Blueprint"
     blurb: >
       Founded by Karsten Solheim, Ping pioneered perimeter weighting and
       investment-cast irons. Ping's colour-code lie system and long production

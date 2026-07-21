@@ -45,6 +45,16 @@ CATEGORY_LABEL = {
     "super-game-improvement": "Super Game Improvement Irons",
 }
 
+# Reads naturally mid-sentence ("across 5 blade irons"), where the display
+# label ("Blade / Muscleback") does not.
+CATEGORY_SHORT = {
+    "blade": "blade",
+    "players": "players",
+    "players-distance": "players distance",
+    "game-improvement": "game improvement",
+    "super-game-improvement": "super game improvement",
+}
+
 CATEGORY_BLURB = {
     "blade": "Compact muscleback irons with minimal offset, thin toplines and "
              "the smallest sweet spot — built for shot-shaping over forgiveness.",
@@ -90,6 +100,83 @@ def num(v):
     if isinstance(v, float) and v == int(v):
         return str(int(v))
     return str(v)
+
+
+# --------------------------------------------------------------------------
+# meta descriptions
+#
+# Target 120-160 rendered characters, unique across the whole site, with the
+# most-searched data point (7-iron loft, for iron sets) front-loaded.
+# Every description flows through head(), which records it in DESC_REGISTRY;
+# audit_descriptions() then fails the build on a duplicate or a length miss.
+# --------------------------------------------------------------------------
+
+DESC_MIN = 120
+DESC_MAX = 160
+
+# path -> description, filled by head() for every page the build emits.
+DESC_REGISTRY = {}
+
+
+def comma_list(items):
+    """'a' / 'a and b' / 'a, b, and c' — Oxford comma only where it belongs."""
+    items = list(items)
+    if len(items) <= 1:
+        return "".join(items)
+    if len(items) == 2:
+        return f"{items[0]} and {items[1]}"
+    return ", ".join(items[:-1]) + f", and {items[-1]}"
+
+
+def plural(n, singular, plural_form=None):
+    """'1 iron' / '4 irons' — a stray plural on a count of one reads as a bug."""
+    if n == 1:
+        return f"{n} {singular}"
+    if plural_form is None:
+        if singular.endswith("y") and singular[-2:-1] not in "aeiou":
+            plural_form = singular[:-1] + "ies"
+        elif singular.endswith(("s", "x", "z", "ch", "sh")):
+            plural_form = singular + "es"
+        else:
+            plural_form = singular + "s"
+    return f"{n} {plural_form}"
+
+
+def loft_span(models, label="7-iron"):
+    """'7-iron lofts 28.5°-36°', or the single value when they all match.
+
+    Returns '' when no model in the group carries a 7-iron loft, so callers can
+    fall back to a tail that does not promise a number we do not have.
+    """
+    lofts = [s7["loft"] for s7 in (seven_iron(m) for m in models)
+             if s7 and s7.get("loft") is not None]
+    if not lofts:
+        return ""
+    lo, hi = min(lofts), max(lofts)
+    if lo == hi:
+        return f"{label} loft {num(lo)}°"
+    return f"{label} lofts {num(lo)}°–{num(hi)}°"
+
+
+def fit_desc(head_part, tails):
+    """Pick the richest tail that keeps the description inside the length band.
+
+    `tails` runs longest/most-informative first. We take the first one that
+    lands at or under DESC_MAX, so a page with more data advertises more of it
+    and a page with a long model name degrades gracefully instead of truncating
+    mid-word in the SERP.
+    """
+    cands = [head_part + t for t in tails]
+    # First choice: richest tail that lands fully inside the band.
+    for c in cands:
+        if DESC_MIN <= len(c) <= DESC_MAX:
+            return c
+    # Otherwise the longest that at least does not overflow, so we lose
+    # detail rather than get truncated mid-word in the SERP.
+    under = [c for c in cands if len(c) <= DESC_MAX]
+    if under:
+        return max(under, key=len)
+    return min(cands, key=len)
 
 
 def club_sort_key(c):
@@ -197,6 +284,9 @@ def year_range(m):
 
 def head(title, desc, path, ld=None, og_type="website", noindex=False):
     canon = SITE + path
+    # Record the rendered (unescaped) description; noindex pages are tracked
+    # but exempted from the audit since they never surface in search.
+    DESC_REGISTRY[path] = {"desc": desc, "noindex": noindex}
     ldblocks = "".join(ldjson(o) for o in (ld or []))
     robots = '<meta name="robots" content="noindex,follow">' if noindex else ""
     return f"""<!DOCTYPE html>
@@ -385,14 +475,41 @@ def spec_table(m, caption=None):
 def model_page(m, brands, models_by_key, compares_by_key):
     s7 = seven_iron(m)
     title = f"{m['title']} Specs — Loft & Lie Chart | {SITE_NAME}"
-    if s7:
-        desc = (f"{m['brand']} {m['model']} specifications: {num(s7['loft'])}° loft "
-                f"({s7['club']}-iron), {num(s7['lie'])}° lie, {num(s7['length'])}\" length. "
-                f"Complete loft chart with lie angles, lengths, offsets, and swing weights "
-                f"for every club in the set.")
+    # Only advertise columns this model actually carries — several sets (the
+    # Eye 2 among them) have no published offset or swing weight, and promising
+    # data the chart doesn't show costs more in bounces than it gains in clicks.
+    rows = m["specs"]
+    has_offset = any(r.get("offset") is not None for r in rows)
+    has_sw = any(r.get("swing_weight") is not None for r in rows)
+    extras = ["lie angles", "lengths"]
+    if has_offset:
+        extras.append("offsets")
+    if has_sw:
+        extras.append("swing weights")
+    cols = comma_list(extras)
+
+    if rows:
+        span = f"{club_noun(m, rows[0]['club'])} to {club_noun(m, rows[-1]['club'])}"
     else:
-        desc = (f"{m['brand']} {m['model']} specifications: complete loft chart with lie "
-                f"angles, lengths and swing weights.")
+        span = "every club"
+
+    if s7:
+        head_part = (f"{m['brand']} {m['model']} specifications: {num(s7['loft'])}° loft "
+                     f"({club_noun(m, s7['club'])}), {num(s7['lie'])}° lie, "
+                     f"{num(s7['length'])}\" length. ")
+        desc = fit_desc(head_part, [
+            f"Full loft chart with {cols} for every club, {span}.",
+            f"Full loft chart with {cols} for every club in the set.",
+            f"Full loft chart with lie angles and lengths, {span}.",
+            "Full loft chart for every club in the set.",
+        ])
+    else:
+        head_part = f"{m['brand']} {m['model']} {m['type_label'].lower()} specifications: "
+        desc = fit_desc(head_part, [
+            f"complete loft chart with {cols} for every club, {span}.",
+            f"complete loft chart with {cols} for every club in the set.",
+            "complete loft chart with lie angles and lengths for every club.",
+        ])
 
     nav, bc = crumbs([("Home", "/"),
                       (m["brand"], f"/{m['brand_slug']}/"),
@@ -538,9 +655,29 @@ def brand_page(b, models, brands):
     years = [m["year_introduced"] for m in ms if m.get("year_introduced")]
     names = ", ".join(m["model"] for m in ms[:3])
     title = f"{b['name']} Golf Club Specifications — Loft Charts | {SITE_NAME}"
-    desc = (f"Complete {b['name']} golf club specifications from {min(years)} to "
-            f"{max(years)}. Loft charts, lie angles, and specs for {len(ms)} models "
-            f"including {names}.")
+    head_part = (f"Complete {b['name']} iron specifications from {min(years)} to "
+                 f"{max(years)}. ")
+    # Prefer naming model families over a truncated model list — families are
+    # what people actually search ("Ping G series", "Ping i series").
+    fam = b.get("families")
+    fam_txt = ", ".join(fam) if fam else names
+    all_names = ", ".join(m["model"] for m in ms)
+    span = loft_span(ms)
+    # The loft figure earns its place ahead of a longer model list: it is the
+    # number people search, and it differentiates one brand page from the next.
+    spanned = [
+        f"{span}. Loft charts, lie angles and lengths for "
+        f"{plural(len(ms), 'model')} including {fam_txt}.",
+        f"{span}. Loft charts for {plural(len(ms), 'model')} including {fam_txt}.",
+        f"{span}. Loft charts for {plural(len(ms), 'model')}: {all_names}.",
+        f"{span}. Loft charts, lie angles and lengths for every model.",
+    ] if span else []
+    desc = fit_desc(head_part, spanned + [
+        f"Loft charts, lie angles and lengths for {plural(len(ms), 'model')} "
+        f"including {fam_txt}.",
+        f"Loft charts for {plural(len(ms), 'model')}: {all_names}.",
+        f"Loft charts, lie angles and lengths for all {plural(len(ms), 'model')}.",
+    ])
 
     nav, bc = crumbs([("Home", "/"), ("Brands", "/brands/"), (b["name"], None)])
 
@@ -593,9 +730,16 @@ def brand_page(b, models, brands):
 
 def brands_index(brands, by_brand, all_models):
     title = f"All Golf Club Brands — Specification Archive | {SITE_NAME}"
-    desc = (f"Browse golf club specifications by brand. Loft charts, lie angles and lengths "
-            f"for {len(all_models)} models across {len(brands)} manufacturers including "
-            f"Ping, Titleist, Callaway, TaylorMade and Mizuno.")
+    span = loft_span(all_models)
+    head_part = (f"{plural(len(all_models), 'iron model')} across "
+                 f"{plural(len(brands), 'manufacturer')}, {span}. " if span else
+                 f"{plural(len(all_models), 'iron model')} across "
+                 f"{plural(len(brands), 'manufacturer')}. ")
+    desc = fit_desc(head_part, [
+        "Loft charts, lie angles and lengths for Ping, Titleist, Callaway, "
+        "TaylorMade, Mizuno and more.",
+        "Loft charts, lie angles and lengths for every brand.",
+        "Full loft charts for every brand."])
     nav, bc = crumbs([("Home", "/"), ("Brands", None)])
 
     cards = []
@@ -632,8 +776,19 @@ def brands_index(brands, by_brand, all_models):
 def year_page(year, ms, brands):
     ms = sorted(ms, key=lambda m: (m["brand"], m["model"]))
     title = f"{year} Golf Club Releases — Specifications | {SITE_NAME}"
-    desc = (f"{year} golf club releases: specifications for every iron, driver, wood, and "
-            f"hybrid released in {year}. Compare specs across brands.")
+    brand_names = sorted({m["brand"] for m in ms})
+    blist = comma_list(brand_names)
+    span = loft_span(ms)
+    head = f"{year} golf club releases: {plural(len(ms), 'iron model')}"
+    head_part = f"{head}, {span}. " if span else f"{head}. "
+    desc = fit_desc(head_part, [
+        f"Full specifications from {blist}. Compare loft, lie and length across "
+        f"every model released in {year}.",
+        f"Full specifications from {blist}. Compare loft, lie and length.",
+        f"Specifications from {plural(len(brand_names), 'brand')}. Compare loft, "
+        f"lie and length across every {year} release.",
+        f"Compare loft, lie and length across every {year} release.",
+    ])
     nav, bc = crumbs([("Home", "/"), ("Years", "/years/"), (str(year), None)])
     body = f"""{nav}
 <div class="wrap">
@@ -650,8 +805,13 @@ def year_page(year, ms, brands):
 
 def years_index(by_year, brands, all_models):
     title = f"Golf Clubs by Year of Release | {SITE_NAME}"
-    desc = ("Browse golf club specifications by release year. Find every iron, driver and "
-            "wood introduced in a given year with full loft and lie charts.")
+    yrs = sorted(by_year)
+    desc = fit_desc(
+        f"Golf club specifications by release year, {yrs[0]} to {yrs[-1]}: "
+        f"{plural(len(all_models), 'iron model')} across {plural(len(yrs), 'year')}. ",
+        ["Full loft, lie and length charts for every model.",
+         "Full loft and lie charts.",
+         ""])
     nav, bc = crumbs([("Home", "/"), ("Years", None)])
     cards = "".join(
         f'<a class="card" href="/years/{y}/"><span class="card-title">{y}</span>'
@@ -673,10 +833,21 @@ def years_index(by_year, brands, all_models):
 def category_page(cat, ms, brands):
     label = CATEGORY_LABEL.get(cat, cat)
     ms = sorted(ms, key=lambda m: (m.get("year_introduced") or 0, m["brand"]))
-    short = label.replace(" Irons", "").lower()
+    short = CATEGORY_SHORT.get(cat, label.replace(" Irons", "").lower())
     title = f"{label} — Loft Charts & Specs | {SITE_NAME}"
-    desc = (f"Best {short} irons specifications: compare loft, lie, and length across all "
-            f"{short} irons from every major brand.")
+    span = loft_span(ms)
+    # Lead with the loft figure — it is the number that distinguishes one
+    # category from the next, and the reason someone clicks a category page.
+    if span:
+        head_part = f"{label}: {span} across {plural(len(ms), f'{short} iron')}. "
+    else:
+        head_part = f"{label}: specifications for {plural(len(ms), f'{short} iron')}. "
+    desc = fit_desc(head_part, [
+        "Compare loft, lie, length and swing weight for every club, from every "
+        "major brand.",
+        "Compare loft, lie and length for every club from every major brand.",
+        "Compare loft, lie and length for every club.",
+    ])
     nav, bc = crumbs([("Home", "/"), ("Categories", "/category/"), (label, None)])
 
     rows = "".join(
@@ -707,8 +878,15 @@ def category_page(cat, ms, brands):
 
 def categories_index(by_cat, brands, all_models):
     title = f"Iron Categories — Blade, Players & Game Improvement | {SITE_NAME}"
-    desc = ("Golf iron categories explained, with specification comparisons for blades, "
-            "players irons, players distance irons and game improvement irons.")
+    span = loft_span(all_models)
+    head_part = (f"Golf iron categories compared: {plural(len(all_models), 'model')} "
+                 f"across {plural(len(by_cat), 'category')}, {span}. " if span else
+                 f"Golf iron categories compared: {plural(len(all_models), 'model')} "
+                 f"across {plural(len(by_cat), 'category')}. ")
+    desc = fit_desc(head_part, [
+        "Blades, players, players distance and game improvement irons.",
+        "Blades, players and game improvement irons.",
+        ""])
     nav, bc = crumbs([("Home", "/"), ("Categories", None)])
     order = ["blade", "players", "players-distance", "game-improvement",
              "super-game-improvement"]
@@ -782,9 +960,35 @@ def compare_page(a, b, brands):
     slug = compare_slug(a, b)
     title = (f"{a['brand']} {a['model']} vs {b['brand']} {b['model']} — "
              f"Spec Comparison | {SITE_NAME}")
-    desc = (f"{a['brand']} {a['model']} vs {b['brand']} {b['model']}: side-by-side "
-            f"specification comparison. Compare loft, lie, length, offset, and swing "
-            f"weight for every club.")
+    # Lead with the two 7-iron lofts: it is the number people are comparing,
+    # and it keeps sibling comparisons from reading as near-duplicates.
+    a7, b7 = seven_iron(a), seven_iron(b)
+    same_brand = a["brand"] == b["brand"]
+    label_a = a["model"] if same_brand else f"{a['brand']} {a['model']}"
+    label_b = b["model"] if same_brand else f"{b['brand']} {b['model']}"
+    head_part = f"{a['brand']} {a['model']} vs {label_b}: side-by-side specs. "
+    if a7 and b7 and a7.get("loft") == b7.get("loft"):
+        # Matching lofts: "34° vs 34°" reads like an error, and the real story
+        # is that the difference lives in the other columns.
+        lofts = f"Identical {club_noun(a, a7['club'])} loft at {num(a7['loft'])}°. "
+    elif a7 and b7:
+        lofts = (f"{club_noun(a, a7['club'])} loft {num(a7['loft'])}° vs "
+                 f"{num(b7['loft'])}°. ")
+    else:
+        lofts = None
+    if lofts:
+        desc = fit_desc(head_part + lofts, [
+            "Compare loft, lie, length, offset and swing weight across the full set.",
+            "Compare all loft, lie and length differences across the full set.",
+            "Compare every loft, lie and length difference.",
+        ])
+    else:
+        desc = fit_desc(head_part, [
+            f"Compare loft, lie, length, offset and swing weight for every club in "
+            f"the {label_a} and {label_b} sets.",
+            "Compare loft, lie, length, offset and swing weight for every club.",
+            "Compare loft, lie and length for every club.",
+        ])
     url = f"/compare/{slug}/"
     nav, bc = crumbs([("Home", "/"), ("Compare", "/compare/"),
                       (f"{a['model']} vs {b['model']}", None)])
@@ -878,8 +1082,13 @@ def compare_page(a, b, brands):
 
 def compares_index(pairs_built, brands):
     title = f"Golf Club Spec Comparisons | {SITE_NAME}"
-    desc = ("Side-by-side golf club specification comparisons. Compare loft, lie, length "
-            "and swing weight between iron models generation by generation.")
+    desc = fit_desc(
+        f"{plural(len(pairs_built), 'side-by-side iron comparison')}, generation by "
+        f"generation. ",
+        ["Compare 7-iron loft, lie, length, offset and swing weight for every club "
+         "in each set.",
+         "Compare 7-iron loft, lie, length and swing weight for every club.",
+         "Compare loft, lie and length for every club."])
     nav, bc = crumbs([("Home", "/"), ("Compare", None)])
     cards = "".join(
         f'<a class="card" href="/compare/{slug}/">'
@@ -907,9 +1116,18 @@ def compares_index(pairs_built, brands):
 
 def homepage(brands, models, by_brand):
     title = f"{SITE_NAME} — Golf Club Specifications Database"
-    desc = ("Golf club specifications database — loft charts, lie angles, lengths, and "
-            "swing weights for thousands of models from Ping, Titleist, Callaway, "
-            "TaylorMade, Mizuno, and more.")
+    # Count the real archive rather than claiming "thousands" — the number is
+    # the credibility signal, and an inflated one is trivially disproved.
+    span = loft_span(models)
+    head_part = (f"{plural(len(models), 'iron model')}, {span}: source-attributed "
+                 f"loft charts. " if span else
+                 f"{plural(len(models), 'iron model')}: source-attributed loft "
+                 f"charts. ")
+    desc = fit_desc(head_part, [
+        "Lie angles, lengths and swing weights from Ping, Titleist, Callaway, "
+        "Mizuno and more.",
+        "Lie angles, lengths and swing weights from every major brand.",
+        "Lie angles, lengths and swing weights for every club."])
 
     by_key = {m["key"]: m for m in models}
     featured = [by_key[k] for k in FEATURED if k in by_key]
@@ -991,8 +1209,15 @@ def homepage(brands, models, by_brand):
 
 def about_page(brands, models):
     title = f"About {SITE_NAME} — Golf Club Specification Archive"
-    desc = ("About LoftChart: an independent, source-attributed archive of golf club "
-            "specifications, focused on discontinued and vintage models.")
+    years = [m["year_introduced"] for m in models if m.get("year_introduced")]
+    desc = fit_desc(
+        f"About LoftChart: {plural(len(models), 'iron model')} from "
+        f"{len(brands)} brands, {min(years)}–{max(years)}. ",
+        ["An independent, source-attributed archive of loft, lie and length specs "
+         "for discontinued and current sets.",
+         "An independent, source-attributed archive of discontinued and current "
+         "iron specs.",
+         "An independent archive of golf club specifications."])
     nav, bc = crumbs([("Home", "/"), ("About", None)])
     body = f"""{nav}
 <div class="wrap narrow">
@@ -1040,7 +1265,8 @@ def about_page(brands, models):
 
 def privacy_page(brands):
     title = f"Privacy Policy | {SITE_NAME}"
-    desc = "How LoftChart.com handles data, cookies and analytics."
+    desc = ("How LoftChart.com handles your data: what the site collects, the cookies "
+            "and analytics it uses, and the third-party services involved.")
     nav, bc = crumbs([("Home", "/"), ("Privacy", None)])
     body = f"""{nav}
 <div class="wrap narrow">
@@ -1171,6 +1397,56 @@ def copy_static():
 # main
 # --------------------------------------------------------------------------
 
+def audit_descriptions():
+    """Fail the build on a duplicate or out-of-band meta description.
+
+    Runs over every page head() emitted, so new page types are covered
+    automatically rather than needing to be added here.
+    """
+    indexed = {p: v["desc"] for p, v in DESC_REGISTRY.items() if not v["noindex"]}
+
+    by_text = defaultdict(list)
+    for path, desc in indexed.items():
+        by_text[desc].append(path)
+    dupes = {d: ps for d, ps in by_text.items() if len(ps) > 1}
+
+    long_ = {p: d for p, d in indexed.items() if len(d) > DESC_MAX}
+    short_ = {p: d for p, d in indexed.items() if len(d) < DESC_MIN}
+    missing = {p: d for p, d in indexed.items() if not (d or "").strip()}
+
+    print(f"  meta descriptions: {len(indexed)} indexed pages, "
+          f"{len(by_text)} unique")
+
+    ok = True
+    if dupes:
+        ok = False
+        print("  DUPLICATE descriptions:", file=sys.stderr)
+        for d, ps in dupes.items():
+            print(f"    {len(ps)}x {d[:70]!r}", file=sys.stderr)
+            for p in ps:
+                print(f"        {p}", file=sys.stderr)
+    if missing:
+        ok = False
+        print("  EMPTY descriptions:", file=sys.stderr)
+        for p in missing:
+            print(f"    {p}", file=sys.stderr)
+    for name, bucket in (("OVER", long_), ("UNDER", short_)):
+        if bucket:
+            ok = False
+            limit = DESC_MAX if name == "OVER" else DESC_MIN
+            print(f"  {name} length ({limit}) — {len(bucket)} pages:",
+                  file=sys.stderr)
+            for p, d in sorted(bucket.items(), key=lambda kv: -len(kv[1])):
+                print(f"    {len(d):>3} {p}", file=sys.stderr)
+                print(f"        {d}", file=sys.stderr)
+
+    if not ok:
+        print("\nMeta description audit failed.", file=sys.stderr)
+        sys.exit(1)
+    print("  meta description audit passed "
+          f"(all unique, {DESC_MIN}-{DESC_MAX} chars)")
+
+
 def main():
     brands, models, errors = load()
     if errors:
@@ -1226,6 +1502,8 @@ def main():
     about_page(brands, models)
     privacy_page(brands)
     not_found(brands)
+
+    audit_descriptions()
 
     search_index(models)
     copy_static()
