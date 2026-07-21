@@ -78,7 +78,7 @@ sources:
   - "takomogolf.com Iron 201 MKII product page, Clubs spec tab (retrieved July 2026) - head weight, lie, loft, offset in mm and face-thickness type for 4-iron through PW, 17-4 cast body with machined VFT face plate, and the KBS Tour / KBS Tour Lite stock shaft tables with D2 standard swing weight"
   - "GolfLink 'Takomo MKII Irons' first look - 7 January 2026 launch, 4-PW set makeup, $649 price and the 31-degree 7-iron / 46-degree PW"
   - "Note: golfsource.org lists a different loft set for this model (20/23/27/31/35/40/46); Takomo's own table is used here"
-  - "Club lengths: Takomo does not publish a length row in its own spec table. The 38.5\"-to-35.5\" half-inch progression used here is the one 2nd Swing Golf lists for the Takomo 201 and 301 CB sets, applied across the Takomo iron line; treat lengths as corroborated for the 201/301 and inferred for the other models"
+  - "Club lengths: Takomo's MKII product pages do not publish a length row in their spec table (verified against takomogolf.com July 2026 - the table carries head weight, lie, loft, offset and face thickness only). Note this is specific to the MKII pages: the earlier WooCommerce-era pages for the 101, 101T and 201 did publish lengths. The 38.5\"-to-35.5\" half-inch progression used here is the one 2nd Swing Golf lists for the Takomo 201 and 301 CB sets, applied across the Takomo iron line; treat lengths as corroborated for the 201/301 and inferred for the other models"
 related_models:
   - slug: "takomo/201-irons"
     label: "Predecessor: Takomo 201"
