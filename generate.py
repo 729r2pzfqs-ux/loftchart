@@ -180,15 +180,26 @@ def fit_desc(head_part, tails):
 
 
 def club_sort_key(c):
+    """Total order over club labels.
+
+    Returns a (rank, label) tuple rather than a bare float: anything that
+    compares equal here falls back to set-iteration order in compare_page,
+    which varies per interpreter run and produced churning diffs in the built
+    pages. The trailing label keeps the order total and the build reproducible.
+    """
     c = str(c).upper()
     if c in CLUB_ORDER:
-        return float(CLUB_ORDER.index(c))
+        return (float(CLUB_ORDER.index(c)), "")
     # Loft-numbered wedges ("45W", "50W", as used in the G430 set) sit after
     # the pitching wedge, ordered by their own loft.
     m = re.fullmatch(r"(\d{2})W", c)
     if m:
-        return CLUB_ORDER.index("PW") + int(m.group(1)) / 1000.0
-    return float(len(CLUB_ORDER))
+        return (CLUB_ORDER.index("PW") + int(m.group(1)) / 1000.0, "")
+    # Sets sold by loft rather than club number (the Ben Hogan lines) label
+    # every club with its loft; order them numerically after the named clubs.
+    if re.fullmatch(r"\d{2}(\.\d+)?", c):
+        return (float(len(CLUB_ORDER)) + float(c) / 1000.0, "")
+    return (float(len(CLUB_ORDER)) + 1.0, c)
 
 
 def ldjson(obj):
