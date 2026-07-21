@@ -1,0 +1,76 @@
+brand: Callaway
+brand_slug: callaway
+model: X-22
+slug: x-22-irons
+club_type: irons
+year_introduced: 2008
+year_discontinued: 2010
+category: game-improvement
+construction: investment cast
+material: stainless steel
+successor: null
+predecessor: Callaway X-20
+description: >
+  The X-22 followed the X-20 in 2008 and was the last of the numbered X-series irons to
+  sell in real volume before Callaway moved the line towards the X Hot and XR names. It
+  uses a notched, undercut cavity with weight pushed to the extreme heel and toe, giving
+  a higher moment of inertia than the X-20, and keeps the S2H2 hosel. Lofts are about a
+  degree stronger than the X-20 through the set, with a 32 degree 7-iron and a 44 degree
+  pitching wedge. A smaller X-22 Tour model with more traditional lofts was sold
+  alongside it. Specs below are the standard men's steel-shaft numbers.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 60.5
+    length: 38.75
+  - club: "4"
+    loft: 23.0
+    lie: 61.0
+    length: 38.25
+  - club: "5"
+    loft: 26.0
+    lie: 61.5
+    length: 37.75
+  - club: "6"
+    loft: 29.0
+    lie: 62.0
+    length: 37.25
+  - club: "7"
+    loft: 32.0
+    lie: 62.5
+    length: 36.75
+  - club: "8"
+    loft: 36.0
+    lie: 63.0
+    length: 36.25
+  - club: "9"
+    loft: 40.0
+    lie: 64.0
+    length: 35.75
+  - club: "PW"
+    loft: 44.0
+    lie: 65.0
+    length: 35.25
+  - club: "AW"
+    loft: 49.0
+    lie: 65.0
+    length: 35.25
+  - club: "SW"
+    loft: 54.0
+    lie: 65.0
+    length: 35.0
+  - club: "LW"
+    loft: 59.0
+    lie: 65.0
+    length: 34.75
+sources:
+  - "Specification figures are reconstructed from widely reproduced spec tables for this model and cross-checked for set progression against LoftChart's independently verified Callaway X-20 (2007) entry, which directly preceded it. They have NOT been verified against an original Callaway catalogue page or manufacturer spec sheet."
+  - "Lie angles and lengths in particular should be treated as approximate. The one degree strengthening relative to the X-20 is the least certain element of this table: some sources show the X-22 carrying the X-20 lofts unchanged at 33 degrees for the 7-iron and 45 for the pitching wedge. Verify before relying on the exact figures."
+faq:
+  - q: "What is the loft of a Callaway X-22 7-iron?"
+    a: "The Callaway X-22 7-iron has a loft of approximately 32 degrees, with a 62.5 degree lie and a 36.75 inch standard steel length. Some sources list it as 33 degrees, matching the X-20."
+  - q: "What is the loft of a Callaway X-22 pitching wedge?"
+    a: "The X-22 pitching wedge is approximately 44 degrees, with a 49 degree A-wedge, a 54 degree sand wedge and a 59 degree lob wedge."
+  - q: "What is the difference between the X-22 and the X-22 Tour?"
+    a: "The X-22 Tour has a smaller head, a thinner topline, less offset and more traditional lofts, aimed at better players. The standard X-22 is the larger, stronger-lofted game improvement model listed here."
+confidence: medium

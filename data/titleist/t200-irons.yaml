@@ -1,0 +1,81 @@
+brand: Titleist
+brand_slug: titleist
+model: T200
+slug: t200-irons
+club_type: irons
+year_introduced: 2019
+year_discontinued: 2021
+category: players-distance
+construction: forged face with hollow-body, Max Impact internal support
+material: forged SUP-10 face with high-density tungsten perimeter weighting
+successor: Titleist T200 (2023)
+predecessor: Titleist 718 AP3
+description: >
+  The T200 is the players-distance iron of Titleist's original 2019 T-Series,
+  replacing the 718 AP3. It uses a hollow-body construction with a forged
+  SUP-10 face and Max Impact internal support that stiffens the centre of the
+  face, plus high-density tungsten around the perimeter. Lofts sit four
+  degrees stronger than the T100 through the middle of the set, giving a 30
+  degree 7-iron and a 43 degree pitching wedge, while keeping a compact
+  players-style head. Titleist did not publish offset figures for this
+  generation.
+specs:
+  - club: "4"
+    loft: 21
+    lie: 61
+    length: 38.5
+    swing_weight: D2
+  - club: "5"
+    loft: 24
+    lie: 62
+    length: 38
+    swing_weight: D2
+  - club: "6"
+    loft: 27
+    lie: 62.5
+    length: 37.5
+    swing_weight: D2
+  - club: "7"
+    loft: 30
+    lie: 63
+    length: 37
+    swing_weight: D2
+  - club: "8"
+    loft: 34
+    lie: 63.5
+    length: 36.5
+    swing_weight: D2
+  - club: "9"
+    loft: 38
+    lie: 64
+    length: 36
+    swing_weight: D2
+  - club: "PW"
+    loft: 43
+    lie: 64
+    length: 35.75
+    swing_weight: D2
+  - club: "GW"
+    loft: 48
+    lie: 64
+    length: 35.5
+    swing_weight: D2
+stock_shafts:
+  - name: "True Temper AMT Black"
+    material: steel
+sources:
+  - "2ndSwing.com Titleist T200 (2019) iron set specification table (loft, lie, length, swing weight)"
+  - "TitleistCertified.com 'T200 2019' iron set listing - Titleist-operated site, independently confirming the same loft, lie and length table"
+  - "Offset was not published for the 2019 T200 in any source located, so the column is omitted rather than estimated"
+  - "Titleist does not publish per-club bounce for the T-Series, which uses a variable-bounce sole; the column is absent from every published spec table and is therefore omitted here rather than estimated"
+related_models:
+  - slug: "titleist/t100-irons"
+    label: "Players model: Titleist T100"
+faq:
+  - q: "What is the loft of a Titleist T200 7-iron?"
+    a: "The 2019 Titleist T200 7-iron is 30 degrees, with a 63 degree lie and a 37 inch standard steel length."
+  - q: "How do the 2019 and 2023 Titleist T200 differ?"
+    a: "The 2023 T200 is half a degree weaker in the middle irons, with a 30.5 degree 7-iron against 30, and its long-iron lies are half a degree more upright."
+  - q: "What is the difference between the Titleist T100 and T200?"
+    a: "The T200 is the distance model: its 7-iron is 30 degrees against the T100's 34, and it uses a hollow forged-face construction rather than a solid forged cavity back."
+confidence: medium

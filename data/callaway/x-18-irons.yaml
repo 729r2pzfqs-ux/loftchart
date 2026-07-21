@@ -1,0 +1,76 @@
+brand: Callaway
+brand_slug: callaway
+model: X-18
+slug: x-18-irons
+club_type: irons
+year_introduced: 2004
+year_discontinued: 2007
+category: game-improvement
+construction: investment cast
+material: stainless steel
+successor: Callaway X-20
+predecessor: Callaway X-16
+description: >
+  The X-18 was Callaway's game-improvement iron from 2004 to 2007, sitting between the
+  X-16 and the X-20 in the long-running X-series. It uses Variable Face Thickness and the
+  S2H2 hosel with a deeper undercut cavity and a more upright lie progression through the
+  short irons than the X-16. Lofts are unchanged from the X-16, with a 33 degree 7-iron
+  and a 45 degree pitching wedge, figures the X-20 also carried over. A smaller X-18 Pro
+  Series with different lofts was sold alongside it. Specs below are the standard men's
+  steel-shaft numbers.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 60.5
+    length: 38.75
+  - club: "4"
+    loft: 24.0
+    lie: 61.0
+    length: 38.25
+  - club: "5"
+    loft: 27.0
+    lie: 61.5
+    length: 37.75
+  - club: "6"
+    loft: 30.0
+    lie: 62.0
+    length: 37.25
+  - club: "7"
+    loft: 33.0
+    lie: 62.5
+    length: 36.75
+  - club: "8"
+    loft: 37.0
+    lie: 63.0
+    length: 36.25
+  - club: "9"
+    loft: 41.0
+    lie: 64.0
+    length: 35.75
+  - club: "PW"
+    loft: 45.0
+    lie: 65.0
+    length: 35.25
+  - club: "AW"
+    loft: 50.0
+    lie: 65.0
+    length: 35.25
+  - club: "SW"
+    loft: 55.0
+    lie: 65.0
+    length: 35.0
+  - club: "LW"
+    loft: 60.0
+    lie: 65.0
+    length: 34.75
+sources:
+  - "Specification figures are reconstructed from widely reproduced spec tables for this model and cross-checked for set progression against LoftChart's independently verified Callaway X-20 (2007) entry, which directly succeeded it and shares its loft, lie and length chart. They have NOT been verified against an original Callaway catalogue page or manufacturer spec sheet."
+  - "Lie angles and lengths in particular should be treated as approximate. The X-18 and X-20 are believed to share the same specification chart, so this table mirrors the verified X-20 figures."
+faq:
+  - q: "What is the loft of a Callaway X-18 7-iron?"
+    a: "The Callaway X-18 7-iron has a loft of approximately 33 degrees, with a 62.5 degree lie and a 36.75 inch standard steel length."
+  - q: "What is the loft of a Callaway X-18 pitching wedge?"
+    a: "The X-18 pitching wedge is approximately 45 degrees, with a 50 degree A-wedge and a 55 degree sand wedge."
+  - q: "Are the Callaway X-18 and X-20 lofts the same?"
+    a: "Yes. Both sets run a 21 degree 3-iron, a 33 degree 7-iron and a 45 degree pitching wedge. The X-20 changed the head, adding Extreme Notch Weighting and a lower centre of gravity, rather than the specification chart."
+confidence: medium

@@ -1,0 +1,95 @@
+brand: Callaway
+brand_slug: callaway
+model: XR
+slug: xr-irons
+club_type: irons
+year_introduced: 2015
+year_discontinued: null
+category: game-improvement
+construction: investment cast
+material: two-piece cast stainless steel with dual heat treatment and a 360 Face Cup
+successor: Callaway Steelhead XR
+predecessor: Callaway X2 Hot
+description: >
+  The XR was Callaway's 2015 game-improvement iron, replacing the X2 Hot. It uses a
+  two-piece cast head with dual heat treatment, allowing a thinner 360 Face Cup that wraps
+  around the perimeter of the face, together with an Internal Standing Wave that positions
+  mass low and central. This generation predates the tungsten weighting and urethane
+  microspheres of later Callaway irons. Lofts are strong for the period, with a 30 degree
+  7-iron and a 44 degree pitching wedge, and the published range runs from a 3-iron to a
+  lob wedge. Specs below are the standard men's steel-shaft numbers.
+specs:
+  - club: "3"
+    loft: 18.0
+    lie: 59.8
+    length: 39.5
+    offset: 0.270
+    swing_weight: D2
+  - club: "4"
+    loft: 20.5
+    lie: 60.5
+    length: 38.875
+    swing_weight: D2
+  - club: "5"
+    loft: 23.0
+    lie: 61.3
+    length: 38.25
+    swing_weight: D2
+  - club: "6"
+    loft: 26.0
+    lie: 62.0
+    length: 37.625
+    swing_weight: D2
+  - club: "7"
+    loft: 30.0
+    lie: 62.5
+    length: 37.0
+    swing_weight: D2
+  - club: "8"
+    loft: 34.5
+    lie: 63.0
+    length: 36.5
+    swing_weight: D2
+  - club: "9"
+    loft: 39.0
+    lie: 63.5
+    length: 36.0
+    swing_weight: D2
+  - club: "PW"
+    loft: 44.0
+    lie: 64.0
+    length: 35.75
+    swing_weight: D2
+  - club: "AW"
+    loft: 49.0
+    lie: 64.0
+    length: 35.5
+    swing_weight: D2
+  - club: "SW"
+    loft: 54.0
+    lie: 64.0
+    length: 35.25
+    swing_weight: D2
+  - club: "LW"
+    loft: 59.0
+    lie: 64.0
+    length: 35.0
+    offset: 0.125
+    swing_weight: D2
+stock_shafts:
+  - name: "True Temper Speed Step 80"
+    material: steel
+  - name: "Project X SD"
+    material: graphite
+sources:
+  - "Callaway Golf Pre-Owned XR product specs (callawaygolfpreowned.com/iron-sets/irons-2015-xr.html) — loft, lie, length, offset and swingweight"
+  - "2nd Swing Golf Callaway XR iron set spec table (2ndswing.com/golf-clubs/iron-sets/callaway-xr-iron-set) — independently matches on every loft and length; lie angles differ only in rounding (59.75/61.25 against Callaway's 59.8/61.3)"
+  - "Stock shafts (True Temper Speed Step 80 steel, Project X SD graphite) per 2nd Swing and period retailer catalogue entries"
+faq:
+  - q: "What is the loft of a Callaway XR 7-iron?"
+    a: "The Callaway XR 7-iron has a loft of 30 degrees, with a 62.5 degree lie and a 37 inch standard steel length."
+  - q: "What is the loft of a Callaway XR pitching wedge?"
+    a: "The Callaway XR pitching wedge is 44 degrees, with a 49 degree A-wedge, a 54 degree sand wedge and a 59 degree lob wedge."
+  - q: "What is the difference between the Callaway XR and the Steelhead XR?"
+    a: "The lofts, lies and lengths are almost identical, differing only in the 3-iron lie angle. The heads are genuinely different though: the Steelhead XR has substantially less offset, a hollow bore-through hosel and a steel-infused polyurethane layer behind the face."
+confidence: high

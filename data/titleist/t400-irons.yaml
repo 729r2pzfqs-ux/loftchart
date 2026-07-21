@@ -1,0 +1,88 @@
+brand: Titleist
+brand_slug: titleist
+model: T400
+slug: t400-irons
+club_type: irons
+year_introduced: 2019
+year_discontinued: 2023
+category: super-game-improvement
+construction: hollow-body cast with split-sole and Max Impact support
+material: cast stainless steel with extreme high-density tungsten weighting
+successor: null
+predecessor: null
+description: >
+  The T400 is the most forgiving iron Titleist has built, sitting below the
+  T300 as the super game-improvement option in the 2019 T-Series. It uses a
+  hollow cast body with a split-sole design and up to 100 grams of extreme
+  high-density tungsten to drive the centre of gravity as low as possible.
+  Lofts are the strongest in the range by a wide margin: the 7-iron is 26
+  degrees, three degrees stronger than the T300 and eight stronger than the
+  T100. The set starts at a 5-iron and runs through three wedges to 55
+  degrees.
+specs:
+  - club: "5"
+    loft: 20
+    lie: 62
+    length: 38
+    swing_weight: D2
+  - club: "6"
+    loft: 23
+    lie: 62.5
+    length: 37.5
+    swing_weight: D2
+  - club: "7"
+    loft: 26
+    lie: 63
+    length: 37
+    swing_weight: D2
+  - club: "8"
+    loft: 29
+    lie: 63.5
+    length: 36.5
+    swing_weight: D2
+  - club: "9"
+    loft: 33
+    lie: 64
+    length: 36
+    swing_weight: D2
+  - club: "PW"
+    loft: 38
+    lie: 64
+    length: 35.75
+    swing_weight: D2
+  - club: "W1"
+    loft: 43
+    lie: 64
+    length: 35.5
+    swing_weight: D2
+  - club: "W2"
+    loft: 49
+    lie: 64
+    length: 35.5
+    swing_weight: D2
+  - club: "W3"
+    loft: 55
+    lie: 64
+    length: 35.25
+    swing_weight: D2
+stock_shafts:
+  - name: "True Temper AMT Red"
+    material: steel
+  - name: "Mitsubishi Fubuki MV IR"
+    material: graphite
+sources:
+  - "2ndSwing.com Titleist T400 (2019) iron set specification table (loft, lie, length, swing weight)"
+  - "TGW Titleist T400 irons review, confirming the 7-iron at 26 degrees, 63 degree lie and 37 inch length"
+  - "Offset was not published for the T400 in any source located, so the column is omitted rather than estimated"
+  - "Titleist does not publish per-club bounce for the T-Series, which uses a variable-bounce sole; the column is absent from every published spec table and is therefore omitted here rather than estimated"
+related_models:
+  - slug: "titleist/t300-irons"
+    label: "Less forgiving sibling: Titleist T300"
+faq:
+  - q: "What is the loft of a Titleist T400 7-iron?"
+    a: "The Titleist T400 7-iron is 26 degrees, with a 63 degree lie and a 37 inch standard steel length. It is the strongest-lofted iron Titleist has made."
+  - q: "Why does the Titleist T400 set start at a 5-iron?"
+    a: "The T400 lofts are strong enough that a 5-iron at 20 degrees covers the ground a conventional 4-iron would, so Titleist built the set from the 5-iron down through three wedges at 43, 49 and 55 degrees."
+  - q: "How does the Titleist T400 compare with the T300?"
+    a: "The T400 is three degrees stronger through the set, with a 26 degree 7-iron against 29, and uses a wider split-sole head with more tungsten for a lower centre of gravity."
+confidence: medium

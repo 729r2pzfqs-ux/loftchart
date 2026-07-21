@@ -1,0 +1,76 @@
+brand: Callaway
+brand_slug: callaway
+model: Big Bertha X-12
+slug: x-12-irons
+club_type: irons
+year_introduced: 1998
+year_discontinued: 2000
+category: game-improvement
+construction: investment cast
+material: 17-4 stainless steel
+successor: Callaway Steelhead X-14
+predecessor: Callaway Big Bertha
+description: >
+  The Big Bertha X-12 replaced the original Big Bertha iron in 1998 and was one of the
+  best-selling iron sets of the late 1990s. It kept the S2H2 hosel of its predecessor but
+  moved to a deeper, more pronounced cavity with a multi-tiered sole, pushing the centre
+  of gravity lower and further back. Lofts are about a degree stronger than the 1994 Big
+  Bertha through the mid irons, with a 34 degree 7-iron and a 46 degree pitching wedge.
+  Specs below are the standard men's steel-shaft numbers.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 60.0
+    length: 38.75
+  - club: "4"
+    loft: 24.0
+    lie: 60.5
+    length: 38.25
+  - club: "5"
+    loft: 27.0
+    lie: 61.0
+    length: 37.75
+  - club: "6"
+    loft: 30.0
+    lie: 61.5
+    length: 37.25
+  - club: "7"
+    loft: 34.0
+    lie: 62.0
+    length: 36.75
+  - club: "8"
+    loft: 38.0
+    lie: 62.5
+    length: 36.25
+  - club: "9"
+    loft: 42.0
+    lie: 63.0
+    length: 35.75
+  - club: "PW"
+    loft: 46.0
+    lie: 63.5
+    length: 35.5
+  - club: "AW"
+    loft: 51.0
+    lie: 63.5
+    length: 35.25
+  - club: "SW"
+    loft: 56.0
+    lie: 63.5
+    length: 35.25
+  - club: "LW"
+    loft: 60.0
+    lie: 63.5
+    length: 35.0
+sources:
+  - "Specification figures are reconstructed from widely reproduced spec tables for this model and cross-checked for set progression against LoftChart's independently verified Callaway X-14 (2000) entry, which succeeded it. They have NOT been verified against an original Callaway catalogue page or manufacturer spec sheet."
+  - "The 17-4 stainless investment cast construction and the S2H2 hosel are well documented in Callaway product literature of the period."
+  - "Lie angles and lengths in particular should be treated as approximate, and the wedge lofts are the least certain figures in this table."
+faq:
+  - q: "What is the loft of a Callaway Big Bertha X-12 7-iron?"
+    a: "The Callaway Big Bertha X-12 7-iron has a loft of approximately 34 degrees, with a 62 degree lie and a 36.75 inch standard steel length."
+  - q: "What is the loft of a Callaway X-12 pitching wedge?"
+    a: "The X-12 pitching wedge is approximately 46 degrees, with a 51 degree A-wedge and a 56 degree sand wedge."
+  - q: "What replaced the Callaway Big Bertha X-12?"
+    a: "The Steelhead X-14, introduced in 2000, which moved to a Variable Face Thickness face and strengthened the 7-iron by a degree to 33."
+confidence: medium

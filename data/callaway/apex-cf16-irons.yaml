@@ -1,0 +1,103 @@
+brand: Callaway
+brand_slug: callaway
+model: Apex CF16
+slug: apex-cf16-irons
+club_type: irons
+year_introduced: 2016
+year_discontinued: null
+category: players-distance
+construction: forged
+material: quadruple-net forged 1025 mild carbon steel body with a laser-welded forged cup face
+successor: Callaway Apex 19
+predecessor: Callaway Apex
+description: >
+  Announced in September 2015 for the 2016 model year, the Apex CF16 replaced the original
+  2014 Apex as Callaway's forged players-distance iron. The body is quadruple-net forged
+  from 1025 mild carbon steel including the hosel, with a laser-welded forged cup face.
+  The 360 Face Cup appears only in the 3 through 7 irons; the 8-iron through A-wedge use
+  an engineered face plate instead. Lofts, lies and lengths carry over unchanged from the
+  2014 Apex, with a 31 degree 7-iron and a 45 degree pitching wedge. Specs below are the
+  standard men's steel-shaft numbers.
+specs:
+  - club: "3"
+    loft: 19.0
+    lie: 60.0
+    length: 39.0
+    offset: 0.220
+    swing_weight: D2
+  - club: "4"
+    loft: 21.5
+    lie: 60.5
+    length: 38.5
+    offset: 0.200
+    swing_weight: D2
+  - club: "5"
+    loft: 24.0
+    lie: 61.0
+    length: 38.0
+    offset: 0.180
+    swing_weight: D2
+  - club: "6"
+    loft: 27.0
+    lie: 61.5
+    length: 37.5
+    offset: 0.160
+    swing_weight: D2
+  - club: "7"
+    loft: 31.0
+    lie: 62.0
+    length: 37.0
+    offset: 0.150
+    swing_weight: D2
+  - club: "8"
+    loft: 35.0
+    lie: 62.5
+    length: 36.5
+    offset: 0.140
+    swing_weight: D2
+  - club: "9"
+    loft: 40.0
+    lie: 63.0
+    length: 36.0
+    offset: 0.130
+    swing_weight: D2
+  - club: "PW"
+    loft: 45.0
+    lie: 63.5
+    length: 35.75
+    offset: 0.120
+    swing_weight: D2
+  - club: "AW"
+    loft: 50.0
+    lie: 63.5
+    length: 35.5
+    offset: 0.110
+    swing_weight: D2
+  - club: "SW"
+    loft: 55.0
+    lie: 63.5
+    length: 35.25
+    offset: 0.100
+    swing_weight: D2
+stock_shafts:
+  - name: "True Temper XP 95"
+    material: steel
+  - name: "UST Mamiya Recoil"
+    material: graphite
+sources:
+  - "2nd Swing Golf Callaway Apex CF16 iron set spec table (2ndswing.com/golf-clubs/iron-sets/callaway-apex-cf16-iron-set) — loft, lie, length, offset and swingweight"
+  - "Callaway Golf Pre-Owned Apex CF16 product specs (callawaygolfpreowned.com/iron-sets/irons-2016-apex.html) — independently matches the 2nd Swing table on every loft, lie and length"
+  - "Golfalot, 'Callaway unveil two new Apex irons' (September 2015) — quadruple-net forged 1025 carbon steel construction, 360 Face Cup in the 3-7 irons only, and the True Temper XP 95 stock steel shaft"
+related_models:
+  - slug: "callaway/apex-irons"
+    label: "Predecessor: Callaway Apex (2014)"
+faq:
+  - q: "What is the loft of a Callaway Apex CF16 7-iron?"
+    a: "The Callaway Apex CF16 7-iron has a loft of 31 degrees, with a 62 degree lie and a 37 inch standard steel length."
+  - q: "What is the loft of a Callaway Apex CF16 pitching wedge?"
+    a: "The Apex CF16 pitching wedge is 45 degrees, with a 50 degree A-wedge and a 55 degree sand wedge."
+  - q: "Are the Apex CF16 lofts the same as the 2014 Apex?"
+    a: "Yes. The Apex CF16 carries over the 2014 Apex loft, lie and length chart unchanged, from a 19 degree 3-iron to a 55 degree sand wedge. The differences are in construction, not specification."
+  - q: "Do all the Apex CF16 irons have the 360 Face Cup?"
+    a: "No. The 360 Face Cup is used in the 3 through 7 irons only. The 8-iron, 9-iron, pitching wedge and A-wedge use an engineered face plate instead."
+confidence: high

@@ -1,0 +1,93 @@
+brand: Titleist
+brand_slug: titleist
+model: T150
+slug: t150-irons
+club_type: irons
+year_introduced: 2023
+category: players
+construction: forged, multi-material dual cavity
+material: forged 1025 carbon steel with high-density tungsten weighting
+successor: null
+predecessor: Titleist T100S
+description: >
+  The T150 is the 2023 iron that took over the slot the T100S had occupied,
+  sitting between the T100 and the T200 in Titleist's players range. It
+  carries the same loft ladder as the T100S it replaced, a 32 degree 7-iron
+  and a 44 degree pitching wedge, on a forged 1025 carbon steel head with
+  high-density tungsten weighting. The renaming aligned the line with the
+  numbered T-Series convention rather than signalling a loft change, and lies
+  and lengths match the T100 exactly.
+specs:
+  - club: "3"
+    loft: 19
+    lie: 61
+    length: 39
+    offset: 0.130
+    swing_weight: D2
+  - club: "4"
+    loft: 22
+    lie: 61.5
+    length: 38.5
+    offset: 0.122
+    swing_weight: D2
+  - club: "5"
+    loft: 25
+    lie: 62
+    length: 38
+    offset: 0.110
+    swing_weight: D2
+  - club: "6"
+    loft: 28
+    lie: 62.5
+    length: 37.5
+    offset: 0.102
+    swing_weight: D2
+  - club: "7"
+    loft: 32
+    lie: 63
+    length: 37
+    offset: 0.091
+    swing_weight: D2
+  - club: "8"
+    loft: 36
+    lie: 63.5
+    length: 36.5
+    offset: 0.079
+    swing_weight: D2
+  - club: "9"
+    loft: 40
+    lie: 64
+    length: 36
+    offset: 0.071
+    swing_weight: D2
+  - club: "PW"
+    loft: 44
+    lie: 64
+    length: 35.75
+    offset: 0.059
+    swing_weight: D2
+  - club: "GW"
+    loft: 48
+    lie: 64
+    length: 35.5
+    offset: 0.055
+    swing_weight: D2
+stock_shafts:
+  - name: "Project X LZ"
+    material: steel
+sources:
+  - "2ndSwing.com Titleist 2023 T150 iron set specification table (loft, lie, length, offset, swing weight)"
+  - "GolfHubz Titleist T-Series specification reference (4-iron, 7-iron and pitching wedge loft, lie and length) - independent corroboration"
+  - "Compiled from retailer and press spec tables rather than a Titleist spec sheet"
+  - "Titleist does not publish per-club bounce for the T-Series, which uses a variable-bounce sole; the column is absent from every published spec table and is therefore omitted here rather than estimated"
+related_models:
+  - slug: "titleist/t100-irons"
+    label: "Range sibling: Titleist T100"
+faq:
+  - q: "What is the loft of a Titleist T150 7-iron?"
+    a: "The Titleist T150 7-iron is 32 degrees, with a 63 degree lie and a 37 inch standard steel length."
+  - q: "Is the Titleist T150 the same as the T100S?"
+    a: "They share a loft ladder: both run a 32 degree 7-iron and a 44 degree pitching wedge with identical lies and lengths. The T150 is the 2023 replacement and was renamed to fit the numbered T-Series convention."
+  - q: "Where does the T150 sit in the Titleist range?"
+    a: "Between the T100 and the T200. It is two degrees stronger than the T100 and roughly a degree and a half weaker than the T200 through the middle irons."
+confidence: medium

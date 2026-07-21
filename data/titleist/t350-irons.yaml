@@ -1,0 +1,94 @@
+brand: Titleist
+brand_slug: titleist
+model: T350
+slug: t350-irons
+club_type: irons
+year_introduced: 2023
+category: game-improvement
+construction: hollow-body cast with Max Impact internal support
+material: cast stainless steel with high-density tungsten weighting
+successor: null
+predecessor: Titleist T300
+description: >
+  The T350 is the 2023 game-improvement iron that replaced the T300, keeping
+  its predecessor's loft ladder exactly — a 29 degree 7-iron and a 43 degree
+  pitching wedge — while shrinking the head slightly and moving to a D1 build
+  rather than D2. It retains the hollow cast body with Max Impact internal
+  support and high-density tungsten weighting. It is the most heavily offset
+  iron in the T-Series, running .213 inches at the 4-iron and .146 inches at
+  the 7-iron, roughly 60 percent more than the T200.
+specs:
+  - club: "4"
+    loft: 20
+    lie: 61.5
+    length: 38.5
+    offset: 0.213
+    swing_weight: D1
+  - club: "5"
+    loft: 23
+    lie: 62
+    length: 38
+    offset: 0.185
+    swing_weight: D1
+  - club: "6"
+    loft: 26
+    lie: 62.5
+    length: 37.5
+    offset: 0.165
+    swing_weight: D1
+  - club: "7"
+    loft: 29
+    lie: 63
+    length: 37
+    offset: 0.146
+    swing_weight: D1
+  - club: "8"
+    loft: 33
+    lie: 63.5
+    length: 36.5
+    offset: 0.126
+    swing_weight: D1
+  - club: "9"
+    loft: 38
+    lie: 64
+    length: 36
+    offset: 0.106
+    swing_weight: D1
+  - club: "PW"
+    loft: 43
+    lie: 64
+    length: 35.75
+    offset: 0.087
+    swing_weight: D1
+  - club: "W48"
+    loft: 48
+    lie: 64
+    length: 35.5
+    offset: 0.075
+    swing_weight: D1
+  - club: "W53"
+    loft: 53
+    lie: 63.5
+    length: 35.5
+    offset: 0.063
+    swing_weight: D1
+stock_shafts:
+  - name: "True Temper AMT Red"
+    material: steel
+    flex: ["R300", "S300"]
+sources:
+  - "2ndSwing.com Titleist 2023 T350 iron set specification table (loft, length, offset, swing weight)"
+  - "GolfDiscount.com and GolfHubz Titleist T350 specification tables - used for the lie progression, where they agree with each other and with the rest of the T-Series against a differing 2ndSwing column"
+  - "Lie angles carry a source conflict: 2ndSwing lists the column half a degree lower across the set. The two-source progression used here matches every other T-Series model"
+  - "Titleist does not publish per-club bounce for the T-Series, which uses a variable-bounce sole; the column is absent from every published spec table and is therefore omitted here rather than estimated"
+related_models:
+  - slug: "titleist/t200-2023-irons"
+    label: "Range sibling: Titleist T200 (2023)"
+faq:
+  - q: "What is the loft of a Titleist T350 7-iron?"
+    a: "The Titleist T350 7-iron is 29 degrees, with a 63 degree lie and a 37 inch standard steel length."
+  - q: "Is the Titleist T350 the same loft as the T300?"
+    a: "Yes. The T350 carries the T300 loft ladder unchanged, from 20 degrees at the 4-iron to 53 degrees at the second wedge, including a 29 degree 7-iron."
+  - q: "How much offset does the Titleist T350 have?"
+    a: "The T350 is the most offset iron in the T-Series, at .213 inches in the 4-iron and .146 inches in the 7-iron."
+confidence: medium

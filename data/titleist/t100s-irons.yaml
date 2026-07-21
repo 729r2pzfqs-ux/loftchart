@@ -1,0 +1,94 @@
+brand: Titleist
+brand_slug: titleist
+model: T100S
+slug: t100s-irons
+club_type: irons
+year_introduced: 2021
+year_discontinued: 2023
+category: players
+construction: forged, multi-material dual cavity
+material: forged 1025 carbon steel with high-density tungsten weighting
+successor: Titleist T150
+predecessor: Titleist T100
+description: >
+  The T100S is the strong-lofted variant of the T100, built on the same forged
+  1025 carbon steel head with high-density tungsten weighting but set two
+  degrees stronger through the whole set. That gives a 32 degree 7-iron
+  against the T100's 34, and a 44 degree pitching wedge against 46. Lies,
+  lengths and offsets are identical to the T100, so the S is purely a loft
+  play: the same tour-compact head delivering a lower, longer ball flight. It
+  was replaced by the T150 in 2023.
+specs:
+  - club: "3"
+    loft: 19
+    lie: 61
+    length: 39
+    offset: 0.134
+    swing_weight: D2
+  - club: "4"
+    loft: 22
+    lie: 61.5
+    length: 38.5
+    offset: 0.122
+    swing_weight: D2
+  - club: "5"
+    loft: 25
+    lie: 62
+    length: 38
+    offset: 0.110
+    swing_weight: D2
+  - club: "6"
+    loft: 28
+    lie: 62.5
+    length: 37.5
+    offset: 0.102
+    swing_weight: D2
+  - club: "7"
+    loft: 32
+    lie: 63
+    length: 37
+    offset: 0.091
+    swing_weight: D2
+  - club: "8"
+    loft: 36
+    lie: 63.5
+    length: 36.5
+    offset: 0.079
+    swing_weight: D2
+  - club: "9"
+    loft: 40
+    lie: 64
+    length: 36
+    offset: 0.071
+    swing_weight: D2
+  - club: "PW"
+    loft: 44
+    lie: 64
+    length: 35.75
+    offset: 0.059
+    swing_weight: D2
+  - club: "W"
+    loft: 48
+    lie: 64
+    length: 35.5
+    offset: 0.051
+    swing_weight: D2
+stock_shafts:
+  - name: "Project X LZ"
+    material: steel
+sources:
+  - "2ndSwing.com Titleist 2021 T100S iron set and single-iron specification tables (loft, lie, length, offset, swing weight)"
+  - "Today's Golfer, Titleist T-Series 2021 T100S specification table (loft, lie, length) - independent corroboration"
+  - "Compiled from retailer and press spec tables rather than a Titleist spec sheet: titleist.com serves T-Series specifications client-side and was not retrievable"
+  - "Titleist does not publish per-club bounce for the T-Series, which uses a variable-bounce sole; the column is absent from every published spec table and is therefore omitted here rather than estimated"
+related_models:
+  - slug: "titleist/t100-irons"
+    label: "Weaker-lofted sibling: Titleist T100"
+faq:
+  - q: "What is the loft of a Titleist T100S 7-iron?"
+    a: "The Titleist T100S 7-iron is 32 degrees, with a 63 degree lie and a 37 inch standard steel length."
+  - q: "What is the difference between the Titleist T100 and T100S?"
+    a: "The T100S is two degrees stronger on every club. Its 7-iron is 32 degrees against 34 on the T100, and its pitching wedge is 44 degrees against 46. Lie, length and offset are identical."
+  - q: "What replaced the Titleist T100S?"
+    a: "The T150, launched in 2023, replaced the T100S and carries the same 32 degree 7-iron and 44 degree pitching wedge."
+confidence: medium

@@ -1,0 +1,87 @@
+brand: Titleist
+brand_slug: titleist
+model: T300
+slug: t300-irons
+club_type: irons
+year_introduced: 2019
+year_discontinued: 2023
+category: game-improvement
+construction: hollow-body cast with Max Impact internal support
+material: cast stainless steel with high-density tungsten weighting
+successor: Titleist T350
+predecessor: Titleist 718 AP1
+description: >
+  The T300 is the game-improvement iron of Titleist's 2019 T-Series, taking
+  over from the 718 AP1. It pairs a hollow cast stainless body with Max Impact
+  internal face support and high-density tungsten weighting, in a larger head
+  with more offset than the T200. Lofts are strong for the category with a 29
+  degree 7-iron and a 43 degree pitching wedge, and the set extends through
+  two matching wedges at 48 and 53 degrees. It ran until 2023, when the T350
+  replaced it.
+specs:
+  - club: "4"
+    loft: 20
+    lie: 61
+    length: 38.5
+    swing_weight: D2
+  - club: "5"
+    loft: 23
+    lie: 62
+    length: 38
+    swing_weight: D2
+  - club: "6"
+    loft: 26
+    lie: 62.5
+    length: 37.5
+    swing_weight: D2
+  - club: "7"
+    loft: 29
+    lie: 63
+    length: 37
+    swing_weight: D2
+  - club: "8"
+    loft: 33
+    lie: 63.5
+    length: 36.5
+    swing_weight: D2
+  - club: "9"
+    loft: 38
+    lie: 64
+    length: 36
+    swing_weight: D2
+  - club: "PW"
+    loft: 43
+    lie: 64
+    length: 35.75
+    swing_weight: D2
+  - club: "W1"
+    loft: 48
+    lie: 64
+    length: 35.5
+    swing_weight: D2
+  - club: "W2"
+    loft: 53
+    lie: 64
+    length: 35.5
+    swing_weight: D2
+stock_shafts:
+  - name: "True Temper AMT Red"
+    material: steel
+  - name: "Mitsubishi Tensei AV Red"
+    material: graphite
+sources:
+  - "2ndSwing.com Titleist T300 (2019) iron set specification table (loft, lie, length, swing weight)"
+  - "Offset was not published for the 2019 T300 in any source located, so the column is omitted rather than estimated"
+  - "The source table printed the 9-iron length with a degree symbol rather than an inch mark; it is recorded here as 36 inches"
+  - "Titleist does not publish per-club bounce for the T-Series, which uses a variable-bounce sole; the column is absent from every published spec table and is therefore omitted here rather than estimated"
+related_models:
+  - slug: "titleist/t200-irons"
+    label: "Players distance model: Titleist T200"
+faq:
+  - q: "What is the loft of a Titleist T300 7-iron?"
+    a: "The Titleist T300 7-iron is 29 degrees, with a 63 degree lie and a 37 inch standard steel length."
+  - q: "What replaced the Titleist T300?"
+    a: "The T350, launched in 2023, replaced the T300. It carries an identical loft ladder, including the same 29 degree 7-iron and 43 degree pitching wedge."
+  - q: "How many wedges came with the Titleist T300 set?"
+    a: "The T300 set extended past the 43 degree pitching wedge with two matching wedges, W1 at 48 degrees and W2 at 53 degrees."
+confidence: medium

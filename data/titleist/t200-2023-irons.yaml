@@ -1,0 +1,88 @@
+brand: Titleist
+brand_slug: titleist
+model: T200 (2023)
+slug: t200-2023-irons
+club_type: irons
+year_introduced: 2023
+category: players-distance
+construction: forged face with hollow-body, Max Impact internal support
+material: forged face with high-density tungsten perimeter weighting
+successor: null
+predecessor: Titleist T200
+description: >
+  The second-generation T200 arrived in 2023 with a slimmer profile and a
+  reworked hollow-body build, keeping the forged face and Max Impact internal
+  support of the original but tightening the shaping toward the T150. Lofts
+  move half a degree weaker through the middle irons compared with the 2019
+  T200, giving a 30.5 degree 7-iron, while the pitching wedge stays at 43
+  degrees. Unlike the 2019 model, Titleist published offset figures for this
+  generation, running .122 inches at the 4-iron down to .051 inches at the 48
+  degree wedge.
+specs:
+  - club: "4"
+    loft: 21
+    lie: 61.5
+    length: 38.5
+    offset: 0.122
+    swing_weight: D2
+  - club: "5"
+    loft: 24
+    lie: 62
+    length: 38
+    offset: 0.114
+    swing_weight: D2
+  - club: "6"
+    loft: 27
+    lie: 62.5
+    length: 37.5
+    offset: 0.102
+    swing_weight: D2
+  - club: "7"
+    loft: 30.5
+    lie: 63
+    length: 37
+    offset: 0.091
+    swing_weight: D2
+  - club: "8"
+    loft: 34.5
+    lie: 63.5
+    length: 36.5
+    offset: 0.079
+    swing_weight: D2
+  - club: "9"
+    loft: 38.5
+    lie: 64
+    length: 36
+    offset: 0.075
+    swing_weight: D2
+  - club: "PW"
+    loft: 43
+    lie: 64
+    length: 35.75
+    offset: 0.063
+    swing_weight: D2
+  - club: "W"
+    loft: 48
+    lie: 64
+    length: 35.5
+    offset: 0.051
+    swing_weight: D2
+stock_shafts:
+  - name: "True Temper AMT Black"
+    material: steel
+sources:
+  - "2ndSwing.com Titleist 2023 T200 iron set specification table (loft, lie, length, offset, swing weight)"
+  - "GolfDiscount.com custom Titleist T200 (2023) specification table - independent corroboration of loft, lie and length"
+  - "GolfHubz Titleist T-Series specification reference - third-source corroboration of loft, lie and length"
+  - "Titleist does not publish per-club bounce for the T-Series, which uses a variable-bounce sole; the column is absent from every published spec table and is therefore omitted here rather than estimated"
+related_models:
+  - slug: "titleist/t150-irons"
+    label: "Range sibling: Titleist T150"
+faq:
+  - q: "What is the loft of a 2023 Titleist T200 7-iron?"
+    a: "The 2023 Titleist T200 7-iron is 30.5 degrees, with a 63 degree lie and a 37 inch standard steel length."
+  - q: "Is the 2023 T200 stronger or weaker than the 2019 T200?"
+    a: "Slightly weaker in the middle of the set. The 7-iron moves from 30 to 30.5 degrees and the 8-iron from 34 to 34.5, while the 4-iron and pitching wedge are unchanged."
+  - q: "What is the offset on the 2023 Titleist T200?"
+    a: "Offset runs from .122 inches at the 4-iron down to .051 inches at the 48 degree wedge, with .091 inches at the 7-iron."
+confidence: medium
