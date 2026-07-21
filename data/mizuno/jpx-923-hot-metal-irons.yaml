@@ -1,0 +1,112 @@
+brand: Mizuno
+brand_slug: mizuno
+model: JPX-923 Hot Metal
+slug: jpx-923-hot-metal-irons
+club_type: irons
+year_introduced: 2022
+year_discontinued: 2024
+category: game-improvement
+construction: investment cast
+material: Nickel Chromoly 4335
+successor: null
+predecessor: JPX-921 Hot Metal
+description: >
+  The JPX-923 Hot Metal is the cast, distance-oriented model of the 2022 JPX
+  family, using a Nickel Chromoly 4335 body with a face thinned to 1.8 mm and a
+  redesigned V-Chassis sole. It was sold alongside narrower Hot Metal Pro and
+  weaker-lofted Hot Metal HL variants; the specs here are the standard Hot Metal.
+  It carries the most offset in the family, from 0.233 inches in the 4-iron to
+  0.065 inches in the lob wedge, and the strongest lofts, with a 28.5-degree
+  7-iron and a 42.5-degree pitching wedge against 30 and 44 degrees on the
+  JPX-923 Forged. The stock set is 4-iron through lob wedge.
+  Lofts, lies and lengths listed are the men's standard steel-shaft build.
+specs:
+  - club: "4"
+    loft: 19.0
+    lie: 60.0
+    length: 38.5
+    offset: 0.233
+    bounce: 1.0
+    swing_weight: D2
+  - club: "5"
+    loft: 22.0
+    lie: 60.5
+    length: 38.0
+    offset: 0.220
+    bounce: 2.0
+    swing_weight: D2
+  - club: "6"
+    loft: 25.0
+    lie: 61.0
+    length: 37.5
+    offset: 0.208
+    bounce: 3.0
+    swing_weight: D2
+  - club: "7"
+    loft: 28.5
+    lie: 61.5
+    length: 37.0
+    offset: 0.196
+    bounce: 4.0
+    swing_weight: D2
+  - club: "8"
+    loft: 33.0
+    lie: 62.0
+    length: 36.5
+    offset: 0.180
+    bounce: 5.0
+    swing_weight: D2
+  - club: "9"
+    loft: 37.5
+    lie: 62.5
+    length: 36.0
+    offset: 0.159
+    bounce: 6.0
+    swing_weight: D2
+  - club: "PW"
+    loft: 42.5
+    lie: 63.0
+    length: 35.5
+    offset: 0.135
+    bounce: 7.0
+    swing_weight: D2
+  - club: "GW"
+    loft: 48.0
+    lie: 63.0
+    length: 35.25
+    offset: 0.098
+    bounce: 9.0
+    swing_weight: D2
+  - club: "SW"
+    loft: 54.0
+    lie: 63.0
+    length: 35.25
+    offset: 0.082
+    bounce: 13.0
+    swing_weight: D2
+  - club: "LW"
+    loft: 60.0
+    lie: 63.0
+    length: 35.25
+    offset: 0.065
+    bounce: 10.0
+    swing_weight: D2
+sources:
+  - "tgw.com Golf Guide, Mizuno JPX 923 Hot Metal Irons review specification table (standard Hot Metal column: loft/length/lie/bounce/offset/swingweight, 4-LW)"
+  - "2ndswing.com Mizuno JPX 923 Hot Metal Iron Set specification table (independently corroborates loft/lie/length/offset)"
+  - "todays-golfer.com Mizuno JPX923 Hot Metal, Hot Metal Pro and Hot Metal HL irons review (confirms the 28.5-degree 7-iron for Hot Metal and 31 degrees for the HL variant)"
+related_models:
+  - slug: "mizuno/jpx-923-forged-irons"
+    label: "Same generation, weaker lofts: Mizuno JPX-923 Forged"
+  - slug: "mizuno/jpx-921-hot-metal-irons"
+    label: "Predecessor: Mizuno JPX-921 Hot Metal"
+faq:
+  - q: "What is the loft of a Mizuno JPX-923 Hot Metal 7-iron?"
+    a: "The Mizuno JPX-923 Hot Metal 7-iron has a loft of 28.5 degrees, with a 61.5-degree lie and a 37-inch steel-shaft length."
+  - q: "How do JPX-923 Hot Metal lofts compare with JPX-923 Forged?"
+    a: "The Hot Metal is 1.5 degrees stronger through most of the set. Its 7-iron is 28.5 degrees against 30 degrees for the Forged, and its pitching wedge is 42.5 degrees against 44 degrees."
+  - q: "What is the difference between JPX-923 Hot Metal, Hot Metal Pro and Hot Metal HL?"
+    a: "All three share the same head material. Hot Metal Pro is a more compact head with less offset at the same lofts, while Hot Metal HL is weaker-lofted for higher launch, with a 31-degree 7-iron against 28.5 degrees on the standard Hot Metal."
+  - q: "What wedges were in the JPX-923 Hot Metal set?"
+    a: "The stock range was 4-iron through lob wedge, with a 42.5-degree pitching wedge, 48-degree gap wedge, 54-degree sand wedge and 60-degree lob wedge."
+confidence: high

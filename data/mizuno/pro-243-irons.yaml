@@ -1,0 +1,103 @@
+brand: Mizuno
+brand_slug: mizuno
+model: Pro 243
+slug: pro-243-irons
+club_type: irons
+year_introduced: 2024
+year_discontinued: null
+category: players
+construction: Grain Flow Forged HD, multi-material
+material: 1025E Pure Select mild carbon steel with 4120 Chromoly face in the 4-7 irons
+successor: null
+predecessor: Pro 223
+description: >
+  The Mizuno Pro 243 is the players cavity-back of the 2024 Mizuno Pro series, replacing
+  the Pro 223. The 4-7 irons use a 4120 Chromoly face with a wider, longer flow micro
+  slot, while the 8-iron through gap wedge are 1025E Pure Select mild carbon steel Grain
+  Flow Forged HD from a single billet. Compared with the Pro 223 the short irons were
+  strengthened: the 9-iron went from 41 to 40 degrees, the pitching wedge from 46 to 44
+  and the gap wedge from 51 to 48, while the 7-iron stayed at 32 degrees. Bounce was
+  raised by one degree in the long irons and two in the scoring irons, and the set is
+  right-hand only in 4-GW. Lofts, lies and lengths listed are the men's standard
+  steel-shaft build.
+specs:
+  - club: "4"
+    loft: 22.0
+    lie: 60.0
+    length: 38.5
+    offset: 0.138
+    bounce: 2.0
+  - club: "5"
+    loft: 25.0
+    lie: 60.5
+    length: 38.0
+    offset: 0.134
+    bounce: 3.0
+  - club: "6"
+    loft: 28.0
+    lie: 61.0
+    length: 37.5
+    offset: 0.130
+    bounce: 4.0
+  - club: "7"
+    loft: 32.0
+    lie: 61.5
+    length: 37.0
+    offset: 0.122
+    bounce: 5.0
+  - club: "8"
+    loft: 36.0
+    lie: 62.0
+    length: 36.5
+    offset: 0.114
+    bounce: 6.0
+  - club: "9"
+    loft: 40.0
+    lie: 62.5
+    length: 36.0
+    offset: 0.106
+    bounce: 7.0
+  - club: "PW"
+    loft: 44.0
+    lie: 63.0
+    length: 35.5
+    offset: 0.098
+    bounce: 8.0
+  - club: "GW"
+    loft: 48.0
+    lie: 63.0
+    length: 35.25
+    offset: 0.094
+    bounce: 9.0
+stock_shafts:
+  - name: "Nippon N.S. Pro Modus Tour 120"
+    material: steel
+    weight: "114-120 g"
+    flex: ["S", "X"]
+  - name: "KBS Tour"
+    material: steel
+    weight: "110-130 g"
+    flex: ["R", "S", "X"]
+  - name: "True Temper Dynamic Gold 120"
+    material: steel
+    weight: "118-120 g"
+    flex: ["S300", "X100"]
+sources:
+  - "Mizuno official Mizuno Pro 243 product page, mizunogolf.com/au/golf-clubs/mp-series/mizuno-pro-243/ (Specification tab: club, loft, lie, offset, length, bounce; dexterity RH only), archived 22 April 2024 via archive.org"
+  - "Mizuno official Mizuno Pro 243 club-specification page, mizunogolf.com/us/golf-clubs/mp-series/mizuno-pro-243/club-specification/ (live, corroborating the same table)"
+  - "Same product page, construction section (4120 Chromoly with flow micro slot 4-7 iron, 1025E Pure Select 8-GW, increased bounce angle)"
+related_models:
+  - slug: "mizuno/pro-223-irons"
+    label: "Predecessor: Mizuno Pro 223"
+  - slug: "mizuno/pro-241-irons"
+    label: "Same generation, blade: Mizuno Pro 241"
+  - slug: "mizuno/pro-245-irons"
+    label: "Same generation, players distance: Mizuno Pro 245"
+faq:
+  - q: "What is the loft of a Mizuno Pro 243 7-iron?"
+    a: "The Mizuno Pro 243 7-iron has a loft of 32 degrees, with a 61.5-degree lie and a 37-inch steel-shaft length."
+  - q: "What is the pitching wedge loft on the Mizuno Pro 243?"
+    a: "The Mizuno Pro 243 pitching wedge is 44 degrees and the matching gap wedge is 48 degrees, both 2 to 3 degrees stronger than the Pro 223 they replaced."
+  - q: "Are the Mizuno Pro 243 irons forged?"
+    a: "Yes. The 8-iron through gap wedge are Grain Flow Forged HD from a single billet of 1025E mild carbon steel, and the 4-7 irons combine a forged body with a 4120 Chromoly face and micro slot."
+confidence: high

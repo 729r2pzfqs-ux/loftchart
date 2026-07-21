@@ -1,0 +1,96 @@
+brand: Mizuno
+brand_slug: mizuno
+model: MP-37
+slug: mp-37-irons
+club_type: irons
+year_introduced: 2004
+year_discontinued: 2006
+category: blade
+construction: forged
+material: 1025E mild carbon steel
+successor: Mizuno MP-67
+predecessor: Mizuno MP-30
+description: >
+  The MP-37 is a Grain Flow Forged players iron sold alongside the MP-32 and MP-33,
+  covering the 2-iron through pitching wedge. It shares the loft ladder of the MP-30
+  before it, with a 35-degree 7-iron and a 47-degree pitching wedge, but cuts offset
+  to a flat 0.11 inches through the long and mid irons. Bounce is comparatively high
+  for a blade, starting at 4 degrees in the 2-iron and reaching 7 degrees at the wedge.
+  Lengths and lofts listed are the standard men's steel-shaft specification.
+specs:
+  - club: "2"
+    loft: 18.0
+    lie: 57.5
+    length: 39.25
+    offset: 0.110
+    bounce: 4.0
+  - club: "3"
+    loft: 21.0
+    lie: 58.0
+    length: 38.75
+    offset: 0.110
+    bounce: 5.0
+  - club: "4"
+    loft: 24.0
+    lie: 58.5
+    length: 38.25
+    offset: 0.110
+    bounce: 5.0
+  - club: "5"
+    loft: 27.0
+    lie: 59.0
+    length: 37.75
+    offset: 0.110
+    bounce: 5.0
+  - club: "6"
+    loft: 31.0
+    lie: 60.0
+    length: 37.25
+    offset: 0.110
+    bounce: 6.0
+  - club: "7"
+    loft: 35.0
+    lie: 61.0
+    length: 36.75
+    offset: 0.110
+    bounce: 6.0
+  - club: "8"
+    loft: 39.0
+    lie: 62.0
+    length: 36.25
+    offset: 0.120
+    bounce: 6.0
+  - club: "9"
+    loft: 43.0
+    lie: 62.5
+    length: 35.75
+    offset: 0.120
+    bounce: 6.0
+  - club: "PW"
+    loft: 47.0
+    lie: 63.0
+    length: 35.25
+    offset: 0.120
+    bounce: 7.0
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+sources:
+  - "golfclubspec.com iron spec database, Mizuno MP-37 entry id=197 (full loft/lie/length/offset/bounce table, 2-iron through pitching wedge; noted right handed only)"
+  - "mizunogolf.com US irons timeline (production years 2004-2006)"
+  - "No Mizuno spec sheet or archived official product page was located for this model, so the spec numbers rest on a single secondary spec database and confidence is medium; swing weight was not published and is omitted"
+related_models:
+  - slug: "mizuno/mp-30-irons"
+    label: "Predecessor: Mizuno MP-30"
+  - slug: "mizuno/mp-67-irons"
+    label: "Successor: Mizuno MP-67"
+  - slug: "mizuno/mp-33-irons"
+    label: "Contemporary blade: Mizuno MP-33"
+faq:
+  - q: "What is the loft of a Mizuno MP-37 7-iron?"
+    a: "The Mizuno MP-37 7-iron has a loft of 35 degrees, with a 61-degree lie and a 36.75-inch steel-shaft length."
+  - q: "How do the Mizuno MP-37 and MP-33 lofts compare?"
+    a: "The MP-37 is one degree stronger through the mid and short irons: a 35-degree 7-iron and 47-degree pitching wedge against the MP-33's 36 and 48 degrees."
+  - q: "How much offset do the Mizuno MP-37 irons have?"
+    a: "Offset is 0.110 inches from the 2-iron through the 7-iron and 0.120 inches in the 8-iron, 9-iron and pitching wedge."
+confidence: medium

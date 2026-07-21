@@ -1,0 +1,94 @@
+brand: Ben Hogan
+brand_slug: ben-hogan
+model: Edge
+slug: edge-irons
+club_type: irons
+year_introduced: 2018
+year_discontinued: null
+category: game-improvement
+construction: two-piece forged hollow body, laser welded
+material: forged carbon steel face laser welded to a forged back frame and hosel, filled with polycarbonate foam
+successor: Ben Hogan Edge EX
+predecessor: Ben Hogan PTx
+description: >
+  The Edge is the most forgiving iron in the relaunched Ben Hogan line and
+  revives a name the original company used in the late 1980s. The head is built
+  from two forged parts - a hydraulically hammered face laser welded to a
+  separately forged back frame and hosel - producing a hollow body that is then
+  filled with polycarbonate foam, with a progressively thicker face through the
+  scoring irons. Ben Hogan states the heads are on average 12 percent larger
+  than its PTx irons and carry noticeably more offset, from 0.210 inches at the
+  4-iron down to 0.120 inches at the pitching wedge. It is the model where Ben
+  Hogan abandoned the loft-stamping convention: the company kept the 4-degree
+  PreciseLoft gapping but dropped the four launch profiles down to the single
+  mid-high profile and stamped traditional club numbers, so the set runs 4-iron
+  at 22 degrees through pitching wedge at 46 degrees. Stock sets were sold as
+  4-PW, 5-PW or 6-PW. It was later replaced in the line-up by the Edge EX, which
+  moved to stronger 20-to-44-degree lofts.
+specs:
+  - club: "4"
+    loft: 22.0
+    lie: 60.0
+    length: 39.0
+    offset: 0.210
+  - club: "5"
+    loft: 26.0
+    lie: 61.0
+    length: 38.25
+    offset: 0.195
+  - club: "6"
+    loft: 30.0
+    lie: 62.0
+    length: 37.5
+    offset: 0.180
+  - club: "7"
+    loft: 34.0
+    lie: 62.5
+    length: 37.0
+    offset: 0.165
+  - club: "8"
+    loft: 38.0
+    lie: 63.0
+    length: 36.5
+    offset: 0.150
+  - club: "9"
+    loft: 42.0
+    lie: 63.5
+    length: 36.0
+    offset: 0.135
+  - club: "PW"
+    loft: 46.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.120
+stock_shafts:
+  - name: "KBS Tour V"
+    material: steel
+    flex: ["S", "X"]
+  - name: "KBS Tour 90"
+    material: steel
+    flex: ["R", "S"]
+  - name: "True Temper Dynamic Gold"
+    material: steel
+    flex: ["R", "S", "X"]
+  - name: "UST Recoil 760 / 780"
+    material: graphite
+    flex: ["A", "R", "S"]
+sources:
+  - "Ben Hogan Golf official Edge spec chart image, retrieved from https://cdn.shopify.com/s/files/1/2134/4855/files/EdgeSpecChart_22231e84-6711-444c-b392-84034ad09daa.jpg (the image linked from the archived Edge page) - full table of club number and loft, length, lie, swing weight by shaft, leading/trailing V-Sole bounce and offset"
+  - "Ben Hogan Golf official Edge information page, retrieved from http://web.archive.org/web/20181218064620/https://benhogangolf.com/pages/edge-irons - gives the 22/26/30/34/38/42/46 loft table, the two-piece forged hollow construction, the 12 percent larger head claim, and the statement that the Edge is offered only in the mid-high launch profile and is 'stamped with traditional numbers'"
+  - "Ben Hogan Golf Edge product/ordering page, retrieved from http://web.archive.org/web/20181218044437/https://benhogangolf.com/collections/clubs/products/edge-irons - confirms the 4-PW, 5-PW and 6-PW set make-ups, prices of $735/$660/$575 and the stock shaft list"
+  - "The 2018 introduction date matches MyGolfSpy's '2018 Ben Hogan Edge Irons' first-look article (title seen in search results; the article body was not retrieved) and the 2018 copyright on the archived pages"
+related_models:
+  - slug: "ben-hogan/ptx-irons"
+    label: "Less forgiving stablemate: Ben Hogan PTx"
+  - slug: "ben-hogan/icon-irons"
+    label: "Ben Hogan blade with the same lofts: Icon"
+faq:
+  - q: "Are Ben Hogan Edge irons stamped with the loft or with a club number?"
+    a: "With a club number. The Edge is the model where Ben Hogan stepped back from the loft-stamping convention it used on the Ft. Worth 15 and PTx. The company kept the 4-degree PreciseLoft gapping but reduced the four launch profiles to the single mid-high profile, so the set is simply a 4-iron through pitching wedge running from 22 to 46 degrees."
+  - q: "What is the loft of a Ben Hogan Edge 7-iron?"
+    a: "The Ben Hogan Edge 7-iron has a loft of 34 degrees, a lie of 62.5 degrees and a length of 37.00 inches. That is markedly weaker than most game-improvement 7-irons of the same era, which were commonly 30 degrees or stronger."
+  - q: "What clubs come in a stock Ben Hogan Edge set?"
+    a: "Ben Hogan sold the Edge as a 4-PW seven-piece set, a 5-PW six-piece set or a 6-PW five-piece set, priced at $735, $660 and $575 respectively."
+confidence: high

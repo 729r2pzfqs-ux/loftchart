@@ -1,0 +1,99 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: Qi
+slug: qi-irons
+club_type: irons
+year_introduced: 2024
+year_discontinued: 2024
+category: game-improvement
+construction: investment cast Cap Back design with Thru-Slot Speed Pocket
+material: stainless steel body with 450 stainless steel face
+successor: null
+predecessor: Stealth
+description: >
+  The Qi iron replaced the Stealth as TaylorMade's mainstream game-improvement
+  model for 2024, and is the iron counterpart to the Qi10 metalwoods rather than
+  a set called Qi10. It carries over the Cap Back design and ECHO Damping System
+  and adds flighted centres of gravity, positioned low in the long irons and
+  progressively higher through the short irons, along with a 450 stainless steel
+  face TaylorMade says enlarges the effective hitting area by about 14 per cent
+  over the Stealth. Lofts and lengths are identical to the Stealth, with a
+  28-degree 7-iron and a 43-degree pitching wedge. TaylorMade did not publish
+  offset or bounce figures for the Qi set, so those are omitted here. Specs
+  below are the men's standard steel-shaft build.
+specs:
+  - club: "4"
+    loft: 18.5
+    lie: 61.5
+    length: 39.125
+    swing_weight: D1
+  - club: "5"
+    loft: 21.0
+    lie: 62.0
+    length: 38.5
+    swing_weight: D1
+  - club: "6"
+    loft: 24.0
+    lie: 62.5
+    length: 37.88
+    swing_weight: D1
+  - club: "7"
+    loft: 28.0
+    lie: 63.0
+    length: 37.25
+    swing_weight: D1
+  - club: "8"
+    loft: 32.0
+    lie: 63.5
+    length: 36.75
+    swing_weight: D1
+  - club: "9"
+    loft: 37.0
+    lie: 64.0
+    length: 36.25
+    swing_weight: D1
+  - club: "PW"
+    loft: 43.0
+    lie: 64.5
+    length: 35.75
+    swing_weight: D1
+  - club: "AW"
+    loft: 49.0
+    lie: 64.5
+    length: 35.5
+    swing_weight: D1
+  - club: "SW"
+    loft: 54.0
+    lie: 64.5
+    length: 35.25
+    swing_weight: D2
+  - club: "LW"
+    loft: 59.0
+    lie: 64.5
+    length: 35.0
+    swing_weight: D3
+stock_shafts:
+  - name: "KBS Max 85 MT"
+    material: steel
+    weight: "93 g"
+    flex: ["R", "S"]
+  - name: "Fujikura Ventus TR Blue HB"
+    material: graphite
+    weight: "57-76 g"
+    flex: ["A", "R", "S"]
+sources:
+  - "TaylorMade official Qi Irons product page specifications table, taylormadegolf.com/Qi-Irons/N2797409.html (archived December 2024 via archive.org)"
+  - "TaylorMade Custom Component Booklet updated 7/15/24, '2024 IRONS' spec pages, taylormadegolf.com/.../Sites-tmag-custom-catalog-us/pdf/Custom_Shafts.pdf (archived August 2024 via archive.org)"
+related_models:
+  - slug: "taylormade/stealth-irons"
+    label: "Predecessor: TaylorMade Stealth"
+faq:
+  - q: "What is the loft of a TaylorMade Qi 7-iron?"
+    a: "The TaylorMade Qi 7-iron has a loft of 28 degrees, with a 63-degree lie and a 37.25-inch steel-shaft length."
+  - q: "Is the 2024 TaylorMade iron called Qi or Qi10?"
+    a: "The iron is called Qi. Qi10 is the name TaylorMade used for the 2024 drivers, fairway woods and rescues; the matching irons dropped the number and were sold simply as Qi, with Qi HL as the higher-launching companion set."
+  - q: "Do the Qi irons have the same lofts as the Stealth irons?"
+    a: "Yes. The Qi set matches the Stealth through the whole bag, from an 18.5-degree 4-iron and a 28-degree 7-iron to a 43-degree pitching wedge and a 59-degree lob wedge, and the lengths are identical too."
+  - q: "What is the pitching wedge loft on the Qi irons?"
+    a: "The Qi pitching wedge is 43 degrees. The set also offers a 49-degree approach wedge, a 54-degree sand wedge and a 59-degree lob wedge."
+confidence: high

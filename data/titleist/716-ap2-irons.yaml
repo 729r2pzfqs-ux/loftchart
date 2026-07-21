@@ -1,0 +1,98 @@
+brand: Titleist
+brand_slug: titleist
+model: 716 AP2
+slug: 716-ap2-irons
+club_type: irons
+year_introduced: 2015
+year_discontinued: 2017
+category: players
+construction: co-forged, multi-material dual cavity
+material: forged 1025 carbon steel with extreme high-density tungsten perimeter weighting
+successor: Titleist 718 AP2
+predecessor: Titleist 714 AP2
+description: >
+  The 716 AP2 is the fifth-generation AP2 and the first to use co-forged
+  construction, with extreme high-density tungsten set low and along the
+  perimeter to raise moment of inertia without growing the head. Lofts carry
+  over unchanged from the 714 AP2, giving a 34 degree 7-iron and a 46 degree
+  pitching wedge, and the offset ladder is trimmed slightly to .110 inches at
+  the 7-iron. The sole is a touch wider than the 714 with trailing-edge relief
+  for cleaner turf interaction. Stock shaft was the ascending-mass True Temper
+  Dynamic Gold AMT.
+specs:
+  - club: "3"
+    loft: 21
+    lie: 60
+    length: 39
+    offset: 0.161
+    swing_weight: D2
+  - club: "4"
+    loft: 24
+    lie: 61
+    length: 38.5
+    offset: 0.150
+    swing_weight: D2
+  - club: "5"
+    loft: 27
+    lie: 62
+    length: 38
+    offset: 0.137
+    swing_weight: D2
+  - club: "6"
+    loft: 30
+    lie: 62.5
+    length: 37.5
+    offset: 0.122
+    swing_weight: D2
+  - club: "7"
+    loft: 34
+    lie: 63
+    length: 37
+    offset: 0.110
+    swing_weight: D2
+  - club: "8"
+    loft: 38
+    lie: 63.5
+    length: 36.5
+    offset: 0.098
+    swing_weight: D2
+  - club: "9"
+    loft: 42
+    lie: 64
+    length: 36
+    offset: 0.087
+    swing_weight: D2
+  - club: "PW"
+    loft: 46
+    lie: 64
+    length: 35.75
+    offset: 0.075
+    swing_weight: D2
+  - club: "W"
+    loft: 50
+    lie: 64
+    length: 35.5
+    offset: 0.063
+    swing_weight: D2
+stock_shafts:
+  - name: "True Temper Dynamic Gold AMT"
+    material: steel
+    weight: "112g-130g"
+    flex: ["R300", "S300"]
+  - name: "Project X LZ"
+    material: steel
+    weight: "115g, 120g, 125g"
+    flex: ["5.5", "6.0", "6.5"]
+sources:
+  - "Titleist archived product page, titleist.com/golf-clubs/irons/716-ap2, via the Internet Archive (manufacturer table: loft, lie, offset, length, swing weight; stock shaft and grip listing)"
+related_models:
+  - slug: "titleist/716-cb-irons"
+    label: "Compact sibling: Titleist 716 CB"
+faq:
+  - q: "What is the loft of a Titleist 716 AP2 7-iron?"
+    a: "The Titleist 716 AP2 7-iron is 34 degrees, with a 63 degree lie and a 37 inch standard steel length."
+  - q: "Do the 714 AP2 and 716 AP2 have the same lofts?"
+    a: "Yes. Both carry a 34 degree 7-iron and a 46 degree pitching wedge across an identical 3-iron to gap wedge ladder; the 716 changed construction rather than loft."
+  - q: "What shaft came stock in the Titleist 716 AP2?"
+    a: "The stock steel shaft was the True Temper Dynamic Gold AMT in R300 and S300, an ascending-mass shaft running 112g to 130g through the set, with Project X LZ as a no-charge alternative."
+confidence: high

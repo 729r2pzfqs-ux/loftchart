@@ -1,0 +1,104 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: P770
+slug: p770-irons
+club_type: irons
+year_introduced: 2020
+year_discontinued: null
+category: players
+construction: forged hollow body
+material: forged 1025 carbon steel body with 4140 carbon steel face
+successor: null
+predecessor: M1
+description: >
+  The 2020 P770 is a compact hollow-body forged players iron that sits between
+  the blade-like P7MC and the larger P790 in TaylorMade's P-Series. It uses the
+  same SpeedFoam-filled hollow construction and forged face as the P790 but in a
+  smaller head with a thinner topline, less offset and a narrower sole. Lofts sit
+  roughly two to three degrees weaker than the P790 through the middle of the
+  set, with a 33-degree 7-iron and a 46-degree pitching wedge, and the published
+  range runs 3-iron through approach wedge. Specs below are the men's standard
+  right-handed steel build.
+specs:
+  - club: "3"
+    loft: 19.5
+    lie: 60.5
+    length: 39.0
+    offset: 0.142
+    bounce: 0.0
+    swing_weight: D2
+  - club: "4"
+    loft: 22.5
+    lie: 61.0
+    length: 38.5
+    offset: 0.130
+    bounce: 1.0
+    swing_weight: D2
+  - club: "5"
+    loft: 25.5
+    lie: 61.5
+    length: 38.0
+    offset: 0.118
+    bounce: 3.0
+    swing_weight: D2
+  - club: "6"
+    loft: 29.0
+    lie: 62.0
+    length: 37.5
+    offset: 0.106
+    bounce: 4.0
+    swing_weight: D2
+  - club: "7"
+    loft: 33.0
+    lie: 62.5
+    length: 37.0
+    offset: 0.094
+    bounce: 5.0
+    swing_weight: D2
+  - club: "8"
+    loft: 37.0
+    lie: 63.0
+    length: 36.5
+    offset: 0.087
+    bounce: 7.0
+    swing_weight: D2
+  - club: "9"
+    loft: 41.5
+    lie: 63.5
+    length: 36.0
+    offset: 0.075
+    bounce: 8.0
+    swing_weight: D2
+  - club: "PW"
+    loft: 46.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.063
+    bounce: 10.0
+    swing_weight: D3
+  - club: "AW"
+    loft: 51.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.063
+    bounce: 10.0
+    swing_weight: D3
+stock_shafts:
+  - name: "KBS Tour"
+    material: steel
+sources:
+  - "TaylorMade 2021 Custom Options & Specifications catalogue (updated 03/02/21), 2021 Irons pages - P770 loft/lie/offset/bounce/length/swing-weight table, cross-identified by the P-Series Combo Guide stock-loft chart"
+  - "2ndswing.com TaylorMade 2020 P770 Iron Set spec table (independent corroboration of loft, lie, length and offset; stock shaft and grip)"
+related_models:
+  - slug: "taylormade/p790-2017-irons"
+    label: "Distance sibling: TaylorMade P790 (2017)"
+  - slug: "taylormade/p7mc-irons"
+    label: "Tour cavity sibling: TaylorMade P7MC"
+faq:
+  - q: "What is the loft of a TaylorMade P770 7-iron?"
+    a: "The TaylorMade P770 7-iron has a loft of 33 degrees, with a 62.5-degree lie and a 37.00-inch steel-shaft length."
+  - q: "How do P770 lofts compare with the P790?"
+    a: "The P770 is 2.5 degrees weaker than the P790 through most of the set: a 33-degree 7-iron against 30.5 degrees, and a 46-degree pitching wedge against 45. Lengths and lie angles are the same across the two models."
+  - q: "What is the pitching wedge loft on the P770?"
+    a: "The P770 pitching wedge is 46 degrees, with a 51-degree approach wedge available to complete the 3-iron through approach wedge range."
+confidence: high

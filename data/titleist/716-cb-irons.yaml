@@ -1,0 +1,84 @@
+brand: Titleist
+brand_slug: titleist
+model: 716 CB
+slug: 716-cb-irons
+club_type: irons
+year_introduced: 2015
+year_discontinued: 2017
+category: players
+construction: forged cavity back with tungsten weighting
+material: forged 1025 carbon steel
+successor: Titleist 718 CB
+predecessor: Titleist 714 CB
+description: >
+  The 716 CB is the compact forged cavity back that sits between the AP2 and
+  the MB in Titleist's 2016 range. It is a smaller head with a thinner topline
+  and less offset than the AP2, and it keeps traditional players lofts where
+  the AP2 had moved stronger: the 7-iron is 35 degrees against 34, and the
+  pitching wedge is 47 degrees against 46. High-density tungsten in the toe of
+  the long irons lifts moment of inertia without widening the blade. The stock
+  set ran 2-iron through pitching wedge with no gap wedge.
+specs:
+  - club: "2"
+    loft: 18
+    lie: 59
+    length: 39.5
+    offset: 0.150
+  - club: "3"
+    loft: 21
+    lie: 60
+    length: 39
+    offset: 0.142
+  - club: "4"
+    loft: 24
+    lie: 61
+    length: 38.5
+    offset: 0.130
+  - club: "5"
+    loft: 27
+    lie: 62
+    length: 38
+    offset: 0.122
+  - club: "6"
+    loft: 31
+    lie: 62.5
+    length: 37.5
+    offset: 0.110
+  - club: "7"
+    loft: 35
+    lie: 63
+    length: 37
+    offset: 0.102
+  - club: "8"
+    loft: 39
+    lie: 63.5
+    length: 36.5
+    offset: 0.091
+  - club: "9"
+    loft: 43
+    lie: 64
+    length: 36
+    offset: 0.083
+  - club: "PW"
+    loft: 47
+    lie: 64
+    length: 35.75
+    offset: 0.075
+stock_shafts:
+  - name: "True Temper Dynamic Gold AMT"
+    material: steel
+    weight: "112g-130g"
+    flex: ["R300", "S300"]
+sources:
+  - "Titleist archived product page, titleist.com/golf-clubs/irons/716-cb, via the Internet Archive (manufacturer table: loft, lie, offset, length; stock shaft and grip listing)"
+related_models:
+  - slug: "titleist/716-ap2-irons"
+    label: "Larger sibling: Titleist 716 AP2"
+faq:
+  - q: "What is the loft of a Titleist 716 CB 7-iron?"
+    a: "The Titleist 716 CB 7-iron is 35 degrees, with a 63 degree lie and a 37 inch standard steel length."
+  - q: "What is the difference between the Titleist 716 CB and 716 AP2?"
+    a: "The CB is the more compact head with less offset, .102 inches at the 7-iron against .110 on the AP2, and it is one degree weaker through the middle of the set."
+  - q: "Does the Titleist 716 CB come with a gap wedge?"
+    a: "No. The 716 CB stock set ran 2-iron through a 47 degree pitching wedge; a gap wedge was not part of the set."
+confidence: high

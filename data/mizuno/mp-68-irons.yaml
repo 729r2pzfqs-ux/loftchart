@@ -1,0 +1,93 @@
+brand: Mizuno
+brand_slug: mizuno
+model: MP-68
+slug: mp-68-irons
+club_type: irons
+year_introduced: 2010
+year_discontinued: 2011
+category: blade
+construction: forged
+material: 1025E mild carbon steel
+successor: Mizuno MP-69
+predecessor: Mizuno MP-67
+description: >
+  The MP-68 is a Grain Flow Forged muscle-back blade with a scalloped muscle pad and a
+  shortened hosel, sold in a 3-iron through pitching wedge range. It runs one degree
+  stronger than the MP-67 it replaced, with a 35-degree 7-iron and a 47-degree pitching
+  wedge, and carries very little offset: 0.110 inches through the 7-iron, tapering to
+  0.094 inches at the pitching wedge. Bounce climbs from 2 degrees in the long irons to
+  6 degrees at the wedge.
+  Lengths and lofts listed are the standard men's steel-shaft specification.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 59.5
+    length: 38.75
+    offset: 0.110
+    bounce: 2.0
+  - club: "4"
+    loft: 24.0
+    lie: 60.0
+    length: 38.25
+    offset: 0.110
+    bounce: 2.0
+  - club: "5"
+    loft: 27.0
+    lie: 60.5
+    length: 37.75
+    offset: 0.110
+    bounce: 2.0
+  - club: "6"
+    loft: 31.0
+    lie: 61.0
+    length: 37.25
+    offset: 0.110
+    bounce: 3.0
+  - club: "7"
+    loft: 35.0
+    lie: 61.5
+    length: 36.75
+    offset: 0.110
+    bounce: 3.0
+  - club: "8"
+    loft: 39.0
+    lie: 62.0
+    length: 36.25
+    offset: 0.102
+    bounce: 4.0
+  - club: "9"
+    loft: 43.0
+    lie: 62.5
+    length: 35.75
+    offset: 0.102
+    bounce: 5.0
+  - club: "PW"
+    loft: 47.0
+    lie: 63.0
+    length: 35.50
+    offset: 0.094
+    bounce: 6.0
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+    flex: ["R300", "S300"]
+  - name: "Project X"
+    material: steel
+    flex: ["5.5"]
+sources:
+  - "golfclubspec.com iron spec database, Mizuno MP-68 entry id=268 (full loft/lie/length/offset/bounce table; notes stock shafts as True Temper Dynamic Gold R300, S300 and Project X 5.5)"
+  - "mizunoforum.com thread 'mp-68 specs' reproducing the Mizuno USA MP-68 spec sheet (identical loft, lie, offset, bounce and length figures; also gives European swing weights of D1-D3, which are ranges rather than a single stock value and so are omitted)"
+  - "mizunogolf.com US irons timeline (production years 2010-2011) and Mizuno MP-68 product copy describing the head as forged from a single 1025E Pure Select mild carbon steel billet"
+related_models:
+  - slug: "mizuno/mp-67-irons"
+    label: "Predecessor: Mizuno MP-67"
+  - slug: "mizuno/mp-69-irons"
+    label: "Successor: Mizuno MP-69"
+faq:
+  - q: "What is the loft of a Mizuno MP-68 7-iron?"
+    a: "The Mizuno MP-68 7-iron has a loft of 35 degrees, with a 61.5-degree lie and a 36.75-inch steel-shaft length."
+  - q: "How much offset do the Mizuno MP-68 irons have?"
+    a: "Very little. Offset is 0.110 inches from the 3-iron through the 7-iron, 0.102 inches in the 8-iron and 9-iron, and 0.094 inches at the pitching wedge."
+  - q: "What is the pitching wedge loft on the Mizuno MP-68?"
+    a: "The MP-68 pitching wedge is 47 degrees, with a 63-degree lie, 6 degrees of bounce and a 35.5-inch steel-shaft length."
+confidence: high

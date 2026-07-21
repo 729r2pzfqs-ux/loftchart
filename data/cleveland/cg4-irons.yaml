@@ -1,0 +1,80 @@
+brand: Cleveland
+brand_slug: cleveland
+model: CG4
+slug: cg4-irons
+club_type: irons
+year_introduced: 2007
+year_discontinued: 2009
+category: players
+material: CMM (Cleveland Micro Metal)
+successor: Cleveland CG7
+predecessor: null
+description: >
+  The CG4 is a mid-size cavity-back aimed at the better player, and the model that
+  established the CG naming that ran through the CG7 and CG16. It is cast from
+  Cleveland's CMM alloy, which the company described as carrying substantially more
+  carbon than ordinary stainless for vibration absorption while being around ten
+  percent less dense, freeing roughly 25 grams to be redistributed low in the head.
+  Lofts are traditional for the period, with a 33.5-degree 7-iron and a 45-degree
+  pitching wedge — the same loft ladder Cleveland carried forward into the CG7.
+  The stock set ran 3-iron through pitching wedge, with a 50-degree DW and a
+  55-degree SW available to extend it. The numbers below are the standard men's
+  steel-shaft specification.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 60.25
+    length: 38.75
+  - club: "4"
+    loft: 24.0
+    lie: 60.75
+    length: 38.25
+  - club: "5"
+    loft: 27.0
+    lie: 61.25
+    length: 37.75
+  - club: "6"
+    loft: 30.0
+    lie: 61.75
+    length: 37.25
+  - club: "7"
+    loft: 33.5
+    lie: 62.25
+    length: 36.75
+  - club: "8"
+    loft: 37.0
+    lie: 63.25
+    length: 36.25
+  - club: "9"
+    loft: 41.0
+    lie: 64.0
+    length: 35.75
+  - club: "PW"
+    loft: 45.0
+    lie: 64.5
+    length: 35.5
+  - club: "DW"
+    loft: 50.0
+    lie: 65.0
+    length: 35.25
+  - club: "SW"
+    loft: 55.0
+    lie: 65.0
+    length: 35.0
+sources:
+  - "TheSandTrap.com forum thread 'Cleveland CG4 loft question' (https://thesandtrap.com/forums/topic/41653-cleveland-cg4-loft-question/) — carries a posted CG4 loft/lie table covering 1-iron through SW, which is the source of every loft and lie above. This is a secondary, user-posted table, not a Cleveland spec sheet."
+  - "GolfRoots used-club listing 'Cleveland CG4 6 Iron S Flex 37.25\"' (https://golfroots.com/products/cl-70091) — a stock-length CG4 6-iron measured at 37.25 inches, which matches the length ladder used here."
+  - "HONEST SOURCING NOTE: no Cleveland manufacturer spec page for the CG4 survives in the Wayback Machine — the archived clevelandgolf.com product pages begin with the 2009 site, by which time the CG4 had been replaced. The lengths above other than the 6-iron are the standard Cleveland iron length ladder of that era (identical to the CG7's published steel lengths) rather than figures read from a CG4 document. Offset, bounce and swing weight are omitted because no reliable figures were found. Corrections welcome."
+related_models:
+  - slug: "cleveland/cg7-irons"
+    label: "Successor: Cleveland CG7"
+  - slug: "cleveland/cg7-tour-irons"
+    label: "Later better-player Cleveland iron: CG7 Tour"
+faq:
+  - q: "What is the loft of a Cleveland CG4 7-iron?"
+    a: "The Cleveland CG4 7-iron has a loft of 33.5 degrees, with a 62.25-degree lie and a 36.75-inch steel-shaft length."
+  - q: "What is the pitching wedge loft on the Cleveland CG4?"
+    a: "The CG4 pitching wedge is 45 degrees, roughly 2 degrees weaker than the game-improvement pitching wedges of the same era and 1 degree weaker than a modern set."
+  - q: "How do the Cleveland CG4 lofts compare to the CG7?"
+    a: "They are the same through the set. Both run a 33.5-degree 7-iron and a 45-degree pitching wedge; the CG4 uses slightly flatter lie angles in the mid irons."
+confidence: medium

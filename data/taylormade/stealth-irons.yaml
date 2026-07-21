@@ -1,0 +1,121 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: Stealth
+slug: stealth-irons
+club_type: irons
+year_introduced: 2022
+year_discontinued: 2023
+category: game-improvement
+construction: investment cast Cap Back design with toe wrap and Thru-Slot Speed Pocket
+material: stainless steel body with 450 stainless steel face
+successor: Qi
+predecessor: SIM2 Max
+description: >
+  The Stealth iron replaced the SIM2 Max in 2022 and extended the Cap Back
+  design with a toe wrap construction that moves mass out of the toe and into
+  the perimeter. It uses a 450 stainless steel face with progressive Inverted
+  Cone Technology, a Thru-Slot Speed Pocket in the sole and the ECHO Damping
+  System behind the face. Lofts are half a degree to one degree stronger than
+  the SIM2 Max through the middle of the set: the 7-iron is 28 degrees and the
+  pitching wedge 43 degrees. Specs below are the men's standard steel-shaft
+  build, using TaylorMade's progressive lengths measured on the ground plane.
+specs:
+  - club: "4"
+    loft: 18.5
+    lie: 61.5
+    length: 39.125
+    offset: 0.228
+    bounce: 2.0
+    swing_weight: D1
+  - club: "5"
+    loft: 21.0
+    lie: 62.0
+    length: 38.5
+    offset: 0.197
+    bounce: 3.5
+    swing_weight: D1
+  - club: "6"
+    loft: 24.0
+    lie: 62.5
+    length: 37.88
+    offset: 0.181
+    bounce: 5.0
+    swing_weight: D1
+  - club: "7"
+    loft: 28.0
+    lie: 63.0
+    length: 37.25
+    offset: 0.161
+    bounce: 5.6
+    swing_weight: D1
+  - club: "8"
+    loft: 32.0
+    lie: 63.5
+    length: 36.75
+    offset: 0.134
+    bounce: 6.3
+    swing_weight: D1
+  - club: "9"
+    loft: 37.0
+    lie: 64.0
+    length: 36.25
+    offset: 0.114
+    bounce: 6.8
+    swing_weight: D1
+  - club: "PW"
+    loft: 43.0
+    lie: 64.5
+    length: 35.75
+    offset: 0.102
+    bounce: 7.8
+    swing_weight: D1
+  - club: "AW"
+    loft: 49.0
+    lie: 64.5
+    length: 35.5
+    offset: 0.079
+    bounce: 9.0
+    swing_weight: D1
+  - club: "SW"
+    loft: 54.0
+    lie: 64.5
+    length: 35.25
+    offset: 0.059
+    bounce: 12.5
+    swing_weight: D2
+  - club: "LW"
+    loft: 59.0
+    lie: 64.5
+    length: 35.0
+    offset: 0.059
+    bounce: 9.0
+    swing_weight: D3
+stock_shafts:
+  - name: "KBS Max 85 MT"
+    material: steel
+    weight: "93 g"
+    flex: ["R", "S"]
+  - name: "Fujikura Ventus Red"
+    material: graphite
+    weight: "56-76 g"
+    flex: ["A", "R", "S"]
+sources:
+  - "TaylorMade official Stealth Irons product page specifications table, taylormadegolf.com/Stealth-Irons/DW-TA203.html (archived April 2022 via archive.org)"
+  - "TaylorMade Custom Component Booklet updated 1/10/22, 2022 Irons spec pages, taylormadegolf.com/.../manuals/Custom_Components_Jan.pdf"
+related_models:
+  - slug: "taylormade/sim2-max-irons"
+    label: "Predecessor: TaylorMade SIM2 Max"
+  - slug: "taylormade/stealth-hd-irons"
+    label: "Draw-biased variant: TaylorMade Stealth HD"
+  - slug: "taylormade/qi-irons"
+    label: "Successor: TaylorMade Qi"
+faq:
+  - q: "What is the loft of a TaylorMade Stealth 7-iron?"
+    a: "The TaylorMade Stealth 7-iron has a loft of 28 degrees, with a 63-degree lie and a 37.25-inch steel-shaft length."
+  - q: "Are the Stealth irons stronger lofted than the SIM2 Max?"
+    a: "Slightly. The 4-iron goes from 19 to 18.5 degrees, the 6-iron from 25 to 24, the 7-iron from 28.5 to 28 and the pitching wedge from 43.5 to 43. The wedges are unchanged at 49, 54 and 59 degrees."
+  - q: "What is toe wrap construction in the Stealth irons?"
+    a: "Toe wrap construction removes weight from the toe section of the head and redistributes it low and around the perimeter. TaylorMade used it alongside the Cap Back design to raise forgiveness without widening the sole."
+  - q: "What is the pitching wedge loft on the Stealth irons?"
+    a: "The Stealth pitching wedge is 43 degrees. The set also offers a 49-degree approach wedge, a 54-degree sand wedge and a 59-degree lob wedge, and starts at an 18.5-degree 4-iron."
+confidence: high

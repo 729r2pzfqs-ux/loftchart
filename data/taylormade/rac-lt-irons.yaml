@@ -1,0 +1,107 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: rac LT
+slug: rac-lt-irons
+club_type: irons
+year_introduced: 2003
+year_discontinued: 2005
+category: players
+construction: investment cast
+material: stainless steel with a tungsten Tuned Performance Cartridge
+successor: null
+predecessor: null
+description: >
+  The rac LT was the players cavityback in TaylorMade's rac range, sitting between the
+  rac MB blade and the oversize rac OS. It uses a thin topline, minimal offset and a
+  tour-cambered sole, with a 16-gram Tuned Performance Cartridge relocating weight to
+  the perimeter and rac Feel Pockets managing impact vibration. Lofts are traditional
+  for a players iron, with a 35-degree 7-iron and a 47-degree pitching wedge, and the
+  stock range runs from a 2-iron to a sand wedge. Specs below are the men's standard
+  steel-shaft build.
+specs:
+  - club: "2"
+    loft: 18.0
+    lie: 59.0
+    length: 39.25
+    offset: 0.213
+    swing_weight: D2
+  - club: "3"
+    loft: 21.0
+    lie: 60.0
+    length: 38.75
+    offset: 0.201
+    swing_weight: D2
+  - club: "4"
+    loft: 24.0
+    lie: 61.0
+    length: 38.25
+    offset: 0.185
+    swing_weight: D2
+  - club: "5"
+    loft: 27.0
+    lie: 61.5
+    length: 37.75
+    offset: 0.169
+    swing_weight: D2
+  - club: "6"
+    loft: 31.0
+    lie: 62.0
+    length: 37.25
+    offset: 0.154
+    swing_weight: D2
+  - club: "7"
+    loft: 35.0
+    lie: 62.5
+    length: 36.75
+    offset: 0.134
+    swing_weight: D2
+  - club: "8"
+    loft: 39.0
+    lie: 63.0
+    length: 36.25
+    offset: 0.122
+    swing_weight: D2
+  - club: "9"
+    loft: 43.0
+    lie: 63.5
+    length: 35.75
+    offset: 0.110
+    swing_weight: D2
+  - club: "PW"
+    loft: 47.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.098
+    swing_weight: D3
+  - club: "AW"
+    loft: 51.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.098
+    swing_weight: D3
+  - club: "SW"
+    loft: 55.0
+    lie: 64.0
+    length: 35.25
+    offset: 0.035
+    swing_weight: D5
+stock_shafts:
+  - name: "TaylorMade T-Step Professional"
+    material: steel
+    flex: ["R", "S", "X"]
+sources:
+  - "TaylorMade official rac LT Irons sell sheet, RAC LT SPECIFICATIONS table (loft, lie, offset in mm, steel length, steel swingweight, grip), taylormadegolf.com/docs/productspecs/04_racLT.pdf"
+  - "Same sell sheet, feature table (16-gram Tuned Performance Cartridge, minimal offset, tour-cambered sole, T-Step Professional steel shaft)"
+related_models:
+  - slug: "taylormade/rac-os-irons"
+    label: "Oversize model in the same family: TaylorMade rac OS"
+  - slug: "taylormade/tp-cb-irons"
+    label: "Later TaylorMade players cavity: TP CB"
+faq:
+  - q: "What is the loft of a TaylorMade rac LT 7-iron?"
+    a: "The TaylorMade rac LT 7-iron has a loft of 35 degrees, with a 62.5-degree lie and a 36.75-inch steel-shaft length."
+  - q: "What is the difference between the rac LT and the rac OS?"
+    a: "The rac LT is the players cavityback: a smaller head with a thin topline, minimal offset and traditional lofts such as a 35-degree 7-iron. The rac OS is the oversize game-improvement model with generous offset and lofts two degrees stronger, at 33 degrees in the 7-iron."
+  - q: "What is the pitching wedge loft on the rac LT?"
+    a: "The rac LT pitching wedge is 47 degrees, with a 51-degree approach wedge and a 55-degree sand wedge available. There was no stock lob wedge in the set."
+confidence: high

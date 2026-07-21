@@ -1,0 +1,77 @@
+brand: Nike
+brand_slug: nike
+model: VR_S Covert
+slug: covert-irons
+club_type: irons
+year_introduced: 2013
+year_discontinued: 2014
+category: game-improvement
+construction: investment cast cavity back
+material: stainless steel with a high-strength steel face
+successor: Nike Vapor Fly
+description: >
+  The VR_S Covert irons were the iron half of Nike's 2013 Covert launch, sold alongside
+  the cavity-back Covert driver. They use a deep undercut cavity with a thin,
+  high-strength face and a modified sole, and carry noticeably more offset than Nike's
+  players irons — 0.150 inches at the 7-iron, tapering to 0.040 inches in the gap wedge.
+  Lofts are moderately strong for the period, with a 31-degree 7-iron and a 44-degree
+  pitching wedge. The stock set listed here is 4-iron through gap wedge; a 3-iron and a
+  sand wedge were available as add-ons. Bounce and swing weight were not published in
+  the source table and are omitted rather than inferred.
+specs:
+  - club: "4"
+    loft: 21.0
+    lie: 60.0
+    length: 39.5
+    offset: 0.195
+  - club: "5"
+    loft: 24.0
+    lie: 60.5
+    length: 38.75
+    offset: 0.180
+  - club: "6"
+    loft: 27.0
+    lie: 61.5
+    length: 38.0
+    offset: 0.165
+  - club: "7"
+    loft: 31.0
+    lie: 62.0
+    length: 37.5
+    offset: 0.150
+  - club: "8"
+    loft: 35.0
+    lie: 62.5
+    length: 37.0
+    offset: 0.117
+  - club: "9"
+    loft: 39.0
+    lie: 63.0
+    length: 36.5
+    offset: 0.083
+  - club: "PW"
+    loft: 44.0
+    lie: 63.5
+    length: 36.0
+    offset: 0.050
+  - club: "AW"
+    loft: 48.0
+    lie: 64.0
+    length: 36.0
+    offset: 0.040
+sources:
+  - "2nd Swing Golf 'Nike VR_S Covert Iron Set' specification table (retrieved July 2026) - supplied loft, lie, length and offset for 4-iron through AW."
+  - "An independently published VR_S Covert spec table listing a 3-iron (18 degrees, 59-degree lie, 40.25 inches) and a sand wedge (54 degrees) agrees exactly with the 7-iron figures above (31 degrees, 62-degree lie, 37.5 inches). The 3-iron and SW rows are not included here because they came from that secondary table rather than the retailer table used for the rest of the set."
+  - "GolfWRX 'Tech Talk: Nike's New VR_S Covert Irons' - construction, undercut cavity and 2013 launch. Used for background only, not for spec numbers."
+  - "nikegolf.com product pages for this generation are not retrievable; the Wayback CDX index returns only 2003-2005 redirect entries for the domain. All figures are therefore retailer-sourced, hence confidence: medium."
+related_models:
+  - slug: "nike/vapor-fly-irons"
+    label: "Successor: Nike Vapor Fly"
+faq:
+  - q: "What is the loft of a Nike VR_S Covert 7-iron?"
+    a: "The Nike VR_S Covert 7-iron has a loft of 31 degrees, with a 62-degree lie and a 37.5-inch steel-shaft length."
+  - q: "What is the pitching wedge loft on the Nike VR_S Covert?"
+    a: "The VR_S Covert pitching wedge is 44 degrees, with a 48-degree gap wedge in the stock set to fill the gap below it."
+  - q: "How much offset do the Nike VR_S Covert irons have?"
+    a: "The 7-iron has 0.150 inches of offset. Offset reduces progressively through the set, from 0.195 inches in the 4-iron down to 0.040 inches in the gap wedge."
+confidence: medium

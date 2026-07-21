@@ -1,0 +1,101 @@
+brand: Mizuno
+brand_slug: mizuno
+model: JPX-900 Hot Metal
+slug: jpx-900-hot-metal-irons
+club_type: irons
+year_introduced: 2016
+year_discontinued: 2018
+category: game-improvement
+construction: investment cast
+material: Chromoly 4140M
+successor: JPX-919 Hot Metal
+predecessor: JPX-825
+description: >
+  The JPX-900 Hot Metal is the cast, distance-oriented member of Mizuno's 2016 JPX-900 family,
+  made from Chromoly 4140M so the face could be thinned for ball speed while the head stayed
+  strong enough to be bent for loft and lie. It carries noticeably more offset than the forged
+  JPX-900, at 0.179 inches in the 7-iron against 0.132 inches, and the long irons are listed
+  with zero bounce. Lofts are strong, with a 31-degree 7-iron and a 45-degree pitching wedge.
+  The set runs 4-iron through gap wedge with matching sand and lob wedges available.
+  All figures are the men's standard steel-shaft specification.
+specs:
+  - club: "4"
+    loft: 21.0
+    lie: 60.0
+    length: 38.25
+    offset: 0.230
+    bounce: 0.0
+  - club: "5"
+    loft: 24.0
+    lie: 60.5
+    length: 37.75
+    offset: 0.211
+    bounce: 0.0
+  - club: "6"
+    loft: 27.0
+    lie: 61.0
+    length: 37.25
+    offset: 0.191
+    bounce: 0.0
+  - club: "7"
+    loft: 31.0
+    lie: 61.5
+    length: 36.75
+    offset: 0.179
+    bounce: 1.5
+  - club: "8"
+    loft: 35.0
+    lie: 62.0
+    length: 36.25
+    offset: 0.169
+    bounce: 2.5
+  - club: "9"
+    loft: 40.0
+    lie: 62.5
+    length: 35.75
+    offset: 0.148
+    bounce: 3.5
+  - club: "PW"
+    loft: 45.0
+    lie: 63.0
+    length: 35.50
+    offset: 0.128
+    bounce: 5.0
+  - club: "GW"
+    loft: 50.0
+    lie: 63.0
+    length: 35.25
+    offset: 0.118
+    bounce: 7.0
+  - club: "SW"
+    loft: 55.0
+    lie: 63.0
+    length: 35.25
+    offset: 0.118
+    bounce: 13.0
+  - club: "LW"
+    loft: 60.0
+    lie: 63.0
+    length: 35.25
+    offset: 0.118
+    bounce: 10.0
+sources:
+  - "InTheHoleGolf.com Mizuno JPX-900 Hot Metal Iron Set product page spec table (loft, lie, offset, bounce and length for 4-LW)"
+  - "2ndSwing.com Mizuno JPX 900 Hot Metal Iron Set specification table (independent corroboration of the same figures, stock configuration listed as 4-LW)"
+  - "GolfWRX launch article on the JPX-900 Hot Metal and JPX-900 Forged irons (Chromoly 4140M construction, bendable cast head)"
+  - "Numbers come from retailer spec tables rather than an archived Mizuno spec sheet, so confidence is medium."
+related_models:
+  - slug: "mizuno/jpx-825-irons"
+    label: "Predecessor: Mizuno JPX-825"
+  - slug: "mizuno/jpx-919-hot-metal-irons"
+    label: "Successor: Mizuno JPX-919 Hot Metal"
+  - slug: "mizuno/jpx-900-forged-irons"
+    label: "Forged model in the same family: Mizuno JPX-900 Forged"
+faq:
+  - q: "What is the loft of a Mizuno JPX-900 Hot Metal 7-iron?"
+    a: "The Mizuno JPX-900 Hot Metal 7-iron has a loft of 31 degrees, with a 61.5-degree lie and a 36.75-inch steel-shaft length."
+  - q: "What is the difference between the JPX-900 Hot Metal and the JPX-900 Forged?"
+    a: "They share the same lofts, lies and lengths, but the Hot Metal is cast from Chromoly 4140M and carries much more offset, 0.179 inches at the 7-iron against 0.132 inches for the forged model."
+  - q: "Can JPX-900 Hot Metal irons be bent for loft and lie?"
+    a: "Yes. Mizuno chose Chromoly 4140M partly because the cast head can still be bent for loft and lie adjustment, which is unusual for a cast game-improvement iron."
+confidence: medium

@@ -1,0 +1,97 @@
+brand: Mizuno
+brand_slug: mizuno
+model: MP-58
+slug: mp-58-irons
+club_type: irons
+year_introduced: 2008
+year_discontinued: null
+category: players
+construction: forged
+material: 1025E mild carbon steel with a titanium muscle insert
+successor: Mizuno MP-59
+predecessor: Mizuno MP-63
+description: >
+  The MP-58 is a Grain Flow Forged cavity back that uses a titanium muscle insert in place
+  of steel behind the face, freeing weight that Mizuno redistributed to the heel and toe.
+  It is the largest and most forgiving MP iron of its generation and carries the most
+  offset in the range, 0.161 inches at the 3-iron falling to 0.114 inches at the wedge.
+  Lofts follow the traditional MP progression with a 35-degree 7-iron and a 47-degree
+  pitching wedge, and the stock set was 3-PW or 4-PW.
+  Lengths and lofts listed are the standard men's steel-shaft specification.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 59.5
+    length: 38.75
+    offset: 0.161
+    bounce: 2.0
+  - club: "4"
+    loft: 24.0
+    lie: 60.0
+    length: 38.25
+    offset: 0.154
+    bounce: 2.0
+  - club: "5"
+    loft: 27.0
+    lie: 60.5
+    length: 37.75
+    offset: 0.146
+    bounce: 2.0
+  - club: "6"
+    loft: 31.0
+    lie: 61.0
+    length: 37.25
+    offset: 0.138
+    bounce: 3.0
+  - club: "7"
+    loft: 35.0
+    lie: 61.5
+    length: 36.75
+    offset: 0.130
+    bounce: 3.0
+  - club: "8"
+    loft: 39.0
+    lie: 62.0
+    length: 36.25
+    offset: 0.126
+    bounce: 4.0
+  - club: "9"
+    loft: 43.0
+    lie: 62.5
+    length: 35.75
+    offset: 0.114
+    bounce: 5.0
+  - club: "PW"
+    loft: 47.0
+    lie: 63.0
+    length: 35.50
+    offset: 0.114
+    bounce: 6.0
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+    flex: ["R300", "S300"]
+  - name: "Project X"
+    material: steel
+sources:
+  - "golfclubspec.com iron specification database, Mizuno MP-58 entry (loft, lie, length, offset, bounce for 3-PW plus the Dynamic Gold R300/S300 stock shafts)"
+  - "qsponge.com Mizuno MP-58 loft table, corroborating the 21-47 degree loft range and 59.5-63.0 degree lie progression"
+  - "Golfalot and MyGolfSpy Mizuno MP-58 reviews for the titanium muscle construction and 3-PW / 4-PW stock makeup"
+  - "Note: the golfclubspec table prints the 6-iron length as 32.25 inches, which is a transcription error; 37.25 inches is used here, matching the half-inch progression across the set."
+  - "Note: the MP-58 offset figures match Mizuno's MP-57 chart exactly, so they could not be separated from the MP-57 data by a second independent source."
+  - "Note: year_discontinued is not recorded - the MP-59 succeeded the MP-58, but the chronology data does not pin down the year."
+related_models:
+  - slug: "mizuno/mp-63-irons"
+    label: "Predecessor: Mizuno MP-63"
+  - slug: "mizuno/mp-59-irons"
+    label: "Successor: Mizuno MP-59"
+  - slug: "mizuno/mp-57-irons"
+    label: "Earlier MP cavity back with the same specs: Mizuno MP-57"
+faq:
+  - q: "What is the loft of a Mizuno MP-58 7-iron?"
+    a: "The Mizuno MP-58 7-iron has a loft of 35 degrees, with a 61.5-degree lie and a 36.75-inch steel-shaft length."
+  - q: "What is the titanium muscle in the Mizuno MP-58?"
+    a: "Mizuno replaced the steel muscle pad behind the face with a lighter titanium insert. The weight saved was moved out to the heel and toe, which is why the MP-58 is the most forgiving iron in that MP range."
+  - q: "How does the MP-58 compare with the MP-63?"
+    a: "The MP-58 is the larger head with a full degree more loft in the mid and short irons - 35 degrees at the 7-iron against 34 on the MP-63 - and roughly 0.04 inches more offset through the long irons."
+confidence: medium

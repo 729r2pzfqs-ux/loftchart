@@ -1,0 +1,83 @@
+brand: Mizuno
+brand_slug: mizuno
+model: MP-14
+slug: mp-14-irons
+club_type: irons
+year_introduced: 1994
+year_discontinued: 1998
+category: blade
+construction: forged
+material: 1025 mild carbon steel
+successor: Mizuno MP-29
+predecessor: null
+description: >
+  The MP-14 is a Grain Flow Forged muscle-back blade from Mizuno's mid-1990s MP line,
+  sold as a long 1-iron through sand wedge range. Its lofts are weak even by the
+  standards of its own era, with a 36-degree 7-iron and a 50-degree pitching wedge,
+  and the loft gap widens to 5 degrees between the 8-iron and the wedges.
+  Lie angles start unusually flat at 55 degrees in the 1-iron.
+  Lengths and lofts listed are the standard men's steel-shaft specification.
+specs:
+  - club: "1"
+    loft: 17.0
+    lie: 55.0
+    length: 39.75
+  - club: "2"
+    loft: 20.0
+    lie: 56.0
+    length: 39.25
+  - club: "3"
+    loft: 23.0
+    lie: 57.0
+    length: 38.75
+  - club: "4"
+    loft: 26.0
+    lie: 58.0
+    length: 38.25
+  - club: "5"
+    loft: 29.0
+    lie: 59.0
+    length: 37.75
+  - club: "6"
+    loft: 32.0
+    lie: 60.0
+    length: 37.25
+  - club: "7"
+    loft: 36.0
+    lie: 60.5
+    length: 36.75
+  - club: "8"
+    loft: 40.0
+    lie: 61.0
+    length: 36.25
+  - club: "9"
+    loft: 45.0
+    lie: 61.5
+    length: 36.00
+  - club: "PW"
+    loft: 50.0
+    lie: 62.0
+    length: 35.75
+  - club: "SW"
+    loft: 56.0
+    lie: 63.0
+    length: 35.50
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+sources:
+  - "golfclubspec.com iron spec database, Mizuno MP-14 entry id=145 (loft/lie/length table, note that lengths are for steel shafts and that the standard shaft is True Temper Dynamic Gold)"
+  - "equip2golf.com Mizuno MP-14 specifications page via archive.org snapshot 20180429070447 (identical loft/lie/length table; equip2golf and golfclubspec are the same publisher, so this is corroboration of transcription rather than an independent source)"
+  - "mizunogolf.com US irons timeline (production years 1994-1998)"
+  - "No Mizuno spec sheet or archived official product page was found for this model, so confidence is medium; offset, bounce and swing weight were not published and are omitted"
+related_models:
+  - slug: "mizuno/mp-29-irons"
+    label: "Successor: Mizuno MP-29"
+faq:
+  - q: "What is the loft of a Mizuno MP-14 7-iron?"
+    a: "The Mizuno MP-14 7-iron has a loft of 36 degrees, with a 60.5-degree lie and a 36.75-inch steel-shaft length."
+  - q: "What is the pitching wedge loft on the Mizuno MP-14?"
+    a: "The MP-14 pitching wedge is 50 degrees, about 6 to 8 degrees weaker than a modern game-improvement pitching wedge. The stock sand wedge is 56 degrees."
+  - q: "What clubs came in the Mizuno MP-14 set?"
+    a: "The published range runs from a 1-iron through the pitching wedge, with a matching 56-degree sand wedge."
+confidence: medium

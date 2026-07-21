@@ -1,0 +1,102 @@
+brand: Wilson
+brand_slug: wilson
+model: Staff Model CB
+slug: staff-model-cb-irons
+club_type: irons
+year_introduced: 2020
+year_discontinued: null
+category: players
+construction: forged
+material: forged 8620 carbon steel with tungsten toe weighting
+successor: null
+predecessor: Wilson Staff FG Tour V6
+description: >
+  The Staff Model CB is Wilson's forged players cavity back, announced in
+  October 2020 as the successor to the FG Tour V6 and still in the line through
+  later refreshes. The head is soft-forged 8620 carbon steel with a Tri-Brace
+  stabiliser bracing the cavity in three places and about twenty grams of
+  high-density tungsten in the toe of the long and mid irons. It is a compact
+  players shape with a thin topline and very little offset, tapering from 0.12
+  inches at the 2-iron to 0.04 inches at the gap wedge. Lofts are traditional
+  for a players iron, with a 34-degree 7-iron and a 46-degree pitching wedge.
+  Clubs are built from 2-iron through gap wedge, with 4-PW the stock set.
+specs:
+  - club: "2"
+    loft: 18.0
+    lie: 59.5
+    length: 39.75
+    offset: 0.12
+    swing_weight: D2
+  - club: "3"
+    loft: 20.0
+    lie: 59.5
+    length: 39.25
+    offset: 0.12
+    swing_weight: D2
+  - club: "4"
+    loft: 23.0
+    lie: 60.0
+    length: 38.75
+    offset: 0.11
+    swing_weight: D2
+  - club: "5"
+    loft: 26.0
+    lie: 61.0
+    length: 38.25
+    offset: 0.10
+    swing_weight: D2
+  - club: "6"
+    loft: 30.0
+    lie: 61.5
+    length: 37.75
+    offset: 0.09
+    swing_weight: D2
+  - club: "7"
+    loft: 34.0
+    lie: 62.0
+    length: 37.25
+    offset: 0.075
+    swing_weight: D2
+  - club: "8"
+    loft: 38.0
+    lie: 63.0
+    length: 36.75
+    offset: 0.065
+    swing_weight: D2
+  - club: "9"
+    loft: 42.0
+    lie: 63.5
+    length: 36.25
+    offset: 0.055
+    swing_weight: D2
+  - club: "PW"
+    loft: 46.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.05
+    swing_weight: D2
+  - club: "GW"
+    loft: 50.0
+    lie: 64.25
+    length: 35.5
+    offset: 0.04
+    swing_weight: D2
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+sources:
+  - "2nd Swing Golf 'Wilson Staff Staff Model CB Iron Set' specification table (club, loft, length, lie, offset, swing weight, 2-iron through GW) plus its stock 4-PW / Dynamic Gold / Golf Pride Tour Velvet build sheet — retrieved July 2026. Retailer-published table, not a Wilson spec sheet."
+  - "A matching loft/lie/length/offset ladder appears on Carl's Golfland and golfsource.org Staff Model CB spec listings, corroborating the numbers."
+  - "The Golf News Net, 27 October 2020, 'Wilson Staff Model CB irons are the long-awaited sequel to the FG Tour V6s' — announcement date, FG Tour V6 lineage and the Tri-Brace construction."
+  - "Bounce figures are omitted because the sources available did not agree on them."
+related_models:
+  - slug: "wilson/staff-model-blade-irons"
+    label: "Companion blade: Wilson Staff Model Blade"
+faq:
+  - q: "What is the loft of a Wilson Staff Model CB 7-iron?"
+    a: "The Wilson Staff Model CB 7-iron has a loft of 34 degrees, with a 62-degree lie and a 37.25-inch steel-shaft length."
+  - q: "What clubs come in a stock Wilson Staff Model CB set?"
+    a: "The stock set is 4-iron through pitching wedge. The model is built from 2-iron through a 50-degree gap wedge, so longer irons and the gap wedge can be added."
+  - q: "How is the Staff Model CB different from the Staff Model Blade?"
+    a: "The CB is a forged cavity back with a Tri-Brace stabiliser and tungsten toe weighting for more forgiveness, while the Blade is a muscle-back. They share the same lofts, lies and lengths from the 2-iron through the pitching wedge."
+confidence: medium

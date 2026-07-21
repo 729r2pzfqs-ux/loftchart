@@ -1,0 +1,121 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: r7
+slug: r7-irons
+club_type: irons
+year_introduced: 2006
+year_discontinued: 2007
+category: game-improvement
+construction: investment cast
+material: stainless steel
+successor: M4
+predecessor: rac OS
+description: >
+  The r7 iron was TaylorMade's mainstream game-improvement model for 2006, replacing the
+  rac OS at the centre of the range. It uses a deep undercut cavity and perimeter weighting
+  to place the centre of gravity low and back, with a progressively lighter head build and
+  a T-Step 90 steel shaft. The 7-iron is 32 degrees and the stock range runs from a 2-iron
+  to a 60-degree lob wedge. A separate draw-biased r7 Draw model was sold alongside it.
+  Specs below are the men's standard steel-shaft build.
+specs:
+  - club: "2"
+    loft: 18.0
+    lie: 60.0
+    length: 39.25
+    offset: 0.268
+    swing_weight: D1
+  - club: "3"
+    loft: 20.0
+    lie: 61.0
+    length: 38.75
+    offset: 0.256
+    swing_weight: D1
+  - club: "4"
+    loft: 22.0
+    lie: 61.5
+    length: 38.25
+    offset: 0.244
+    swing_weight: D1
+  - club: "5"
+    loft: 25.0
+    lie: 62.0
+    length: 37.75
+    offset: 0.228
+    swing_weight: D1
+  - club: "6"
+    loft: 28.0
+    lie: 62.5
+    length: 37.25
+    offset: 0.217
+    swing_weight: D1
+  - club: "7"
+    loft: 32.0
+    lie: 63.0
+    length: 36.75
+    offset: 0.205
+    swing_weight: D1
+  - club: "8"
+    loft: 36.0
+    lie: 63.5
+    length: 36.25
+    offset: 0.189
+    swing_weight: D1
+  - club: "9"
+    loft: 40.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.177
+    swing_weight: D1
+  - club: "PW"
+    loft: 45.0
+    lie: 64.5
+    length: 35.5
+    offset: 0.165
+    swing_weight: D2
+  - club: "AW"
+    loft: 50.0
+    lie: 64.5
+    length: 35.5
+    offset: 0.165
+    swing_weight: D2
+  - club: "SW"
+    loft: 55.0
+    lie: 64.5
+    length: 35.25
+    offset: 0.079
+    swing_weight: D4
+  - club: "LW"
+    loft: 60.0
+    lie: 64.5
+    length: 35.0
+    offset: 0.079
+    swing_weight: D5
+stock_shafts:
+  - name: "TaylorMade T-Step 90"
+    material: steel
+    weight: "90 g"
+    flex: ["R", "S", "X"]
+  - name: "TaylorMade re*ax 65"
+    material: graphite
+    weight: "65 g"
+    flex: ["M", "R", "S"]
+sources:
+  - "TaylorMade official r7 Irons sell sheet, R7 IRONS SPECIFICATIONS table (loft, lie, offset in mm, steel length, steel swingweight, grip), taylormadegolf.com/docs/productspecs/06_r7IRON_SS.pdf"
+  - "Same sell sheet, availability and shaft footnote (right-handed available September 2006, left-handed October 2006; T-Step 90 steel, re*ax 65 graphite)"
+related_models:
+  - slug: "taylormade/rac-os-irons"
+    label: "Predecessor: TaylorMade rac OS"
+  - slug: "taylormade/r7-draw-irons"
+    label: "Draw-biased sister model: TaylorMade r7 Draw"
+  - slug: "taylormade/r7-cgb-max-irons"
+    label: "More forgiving r7 model: TaylorMade r7 CGB Max"
+  - slug: "taylormade/m4-irons"
+    label: "Successor: TaylorMade M4"
+faq:
+  - q: "What is the loft of a TaylorMade r7 7-iron?"
+    a: "The TaylorMade r7 7-iron has a loft of 32 degrees, with a 63-degree lie and a 36.75-inch steel-shaft length."
+  - q: "What year did the TaylorMade r7 irons come out?"
+    a: "The r7 irons arrived in 2006. TaylorMade's own sell sheet lists the right-handed set as available in September 2006 and the left-handed set in October 2006."
+  - q: "What is the difference between the r7 and the r7 Draw?"
+    a: "They share the same lofts, lies and lengths, but the r7 Draw moves weight from the toe toward the heel and uses maximum offset to help the face close through impact. The standard r7 is the neutral-bias version with less offset."
+confidence: high

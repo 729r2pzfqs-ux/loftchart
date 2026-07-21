@@ -1,0 +1,100 @@
+brand: Srixon
+brand_slug: srixon
+model: Z 785
+slug: z-785-irons
+club_type: irons
+year_introduced: 2018
+year_discontinued: 2020
+category: players
+construction: forged
+material: 1020 carbon steel forged from a single billet
+successor: Srixon ZX7
+predecessor: Srixon Z 765
+description: >
+  The Z 785 is the players model in Srixon's 2018 two-model Z Series iron line, sitting
+  above the distance-oriented Z 585. It is forged from a single billet of soft 1020 carbon
+  steel and uses a tour cavity that concentrates mass behind the impact area for shot
+  shaping. Lofts are traditional for a modern players iron, with a 32-degree 7-iron and a
+  46-degree pitching wedge. The stock range is 3-iron through pitching wedge in right and
+  left hand, with a 51-degree approach wedge in right hand only. Srixon published this
+  model's offset figures directly in inches, so no unit conversion was applied. The sole is
+  Srixon's Tour V.T. design, for which Srixon lists separate leading- and trailing-edge
+  bounce figures rather than a single bounce number, so bounce is omitted here.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 60.0
+    length: 39.0
+    offset: 0.159
+    swing_weight: D3
+  - club: "4"
+    loft: 22.0
+    lie: 60.5
+    length: 38.5
+    offset: 0.148
+    swing_weight: D3
+  - club: "5"
+    loft: 25.0
+    lie: 61.0
+    length: 38.0
+    offset: 0.132
+    swing_weight: D3
+  - club: "6"
+    loft: 28.0
+    lie: 61.5
+    length: 37.5
+    offset: 0.128
+    swing_weight: D3
+  - club: "7"
+    loft: 32.0
+    lie: 62.0
+    length: 37.0
+    offset: 0.120
+    swing_weight: D3
+  - club: "8"
+    loft: 36.0
+    lie: 62.5
+    length: 36.5
+    offset: 0.108
+    swing_weight: D3
+  - club: "9"
+    loft: 41.0
+    lie: 63.0
+    length: 36.0
+    offset: 0.096
+    swing_weight: D3
+  - club: "PW"
+    loft: 46.0
+    lie: 63.5
+    length: 35.5
+    offset: 0.089
+    swing_weight: D3
+  - club: "AW"
+    loft: 51.0
+    lie: 63.5
+    length: 35.5
+    offset: 0.053
+    swing_weight: D4
+stock_shafts:
+  - name: "Nippon N.S. Pro Modus3 Tour 105"
+    material: steel
+  - name: "Nippon N.S. Pro Modus3 Tour 120"
+    material: steel
+    flex: ["S", "X"]
+sources:
+  - "Srixon official Z 785 irons product page (srixon.com/en/clubs/mens-golf-clubs/irons/z-785-irons/MZ785-EA.html), archived 2020-09-26 via web.archive.org — full specification table (loft, length, lie, leading- and trailing-edge bounce, offset in inches, steel swing weight, 3-iron through AW), the note '3-PW Available in Right Hand and Left Hand. AW Available in Right Hand Only.', and the Nippon N.S. Pro Modus3 Tour 105 / Modus3 Tour 120 stock shaft listings"
+  - "Same archived Srixon page, technology copy: tour cavity and 'a body forged from a single billet of soft 1020 carbon steel'"
+  - "UK launch date of 14 September 2018 reported in Today's Golfer and Golfmagic 2018 Z Series launch coverage"
+related_models:
+  - slug: "srixon/z-585-irons"
+    label: "Distance model in the same line: Srixon Z 585"
+  - slug: "srixon/zx7-irons"
+    label: "Successor: Srixon ZX7"
+faq:
+  - q: "What is the loft of a Srixon Z 785 7-iron?"
+    a: "The Srixon Z 785 7-iron has a loft of 32 degrees, with a 62-degree lie and a 37-inch steel-shaft length."
+  - q: "What clubs come in a stock Srixon Z 785 set?"
+    a: "The stock range is 3-iron through pitching wedge, available in both right and left hand, plus a 51-degree approach wedge offered in right hand only."
+  - q: "Are the Srixon Z 785 irons forged?"
+    a: "Yes. The Z 785 head is forged from a single billet of soft 1020 carbon steel, with a tour cavity behind the impact area."
+confidence: high

@@ -1,0 +1,84 @@
+brand: Mizuno
+brand_slug: mizuno
+model: JPX-825
+slug: jpx-825-irons
+club_type: irons
+year_introduced: 2013
+year_discontinued: 2014
+category: game-improvement
+construction: investment cast
+material: stainless steel
+successor: JPX-900 Hot Metal
+predecessor: null
+description: >
+  The JPX-825 was Mizuno's cast game-improvement iron for 2013 and 2014, sitting below the
+  forged JPX-825 Pro in the same family. It uses a deep pocket cavity and a thin, high-strength
+  face, with a wide sole and a low centre of gravity in the long irons. Lofts are strong for
+  the period, with a 32-degree 7-iron and a 45-degree pitching wedge, and the long irons carry
+  negative measured bounce. The stock set is 4-iron through gap wedge.
+  Lofts, lies and lengths listed are the men's standard steel-shaft specification.
+specs:
+  - club: "4"
+    loft: 22.0
+    lie: 60.0
+    length: 38.25
+    bounce: -1.5
+  - club: "5"
+    loft: 25.0
+    lie: 60.5
+    length: 37.75
+    bounce: -0.5
+  - club: "6"
+    loft: 28.0
+    lie: 61.0
+    length: 37.25
+    bounce: 0.0
+  - club: "7"
+    loft: 32.0
+    lie: 61.5
+    length: 36.75
+    bounce: 1.0
+  - club: "8"
+    loft: 36.0
+    lie: 62.0
+    length: 36.25
+    bounce: 2.0
+  - club: "9"
+    loft: 40.0
+    lie: 62.5
+    length: 35.75
+    bounce: 3.0
+  - club: "PW"
+    loft: 45.0
+    lie: 63.0
+    length: 35.50
+    bounce: 4.0
+  - club: "GW"
+    loft: 50.0
+    lie: 63.0
+    length: 35.25
+    bounce: 5.0
+stock_shafts:
+  - name: "True Temper Dynalite Gold XP"
+    material: steel
+    flex: ["R300", "S300"]
+  - name: "Fujikura Orochi"
+    material: graphite
+    flex: ["RL", "R", "SR", "S"]
+sources:
+  - "InTheHoleGolf.com Mizuno JPX-825 Iron Set product page spec table (loft, lie, men's and ladies' length, swing weight range, stock shaft list, 4-GW set makeup)"
+  - "2ndSwing.com Mizuno JPX 825 Iron Set specification table (identical loft/lie/length figures plus the bounce column and the gap-wedge row)"
+  - "Numbers come from retailer spec tables rather than an archived Mizuno spec sheet, and offset could not be corroborated, so it is omitted; confidence is medium."
+related_models:
+  - slug: "mizuno/jpx-900-hot-metal-irons"
+    label: "Successor in the cast JPX line: Mizuno JPX-900 Hot Metal"
+  - slug: "mizuno/jpx-850-forged-irons"
+    label: "Forged JPX iron of the same era: Mizuno JPX-850 Forged"
+faq:
+  - q: "What is the loft of a Mizuno JPX-825 7-iron?"
+    a: "The Mizuno JPX-825 7-iron has a loft of 32 degrees, with a 61.5-degree lie and a 36.75-inch steel-shaft length."
+  - q: "What is the difference between the JPX-825 and the JPX-825 Pro?"
+    a: "The JPX-825 is the cast, wider-soled game-improvement model. The JPX-825 Pro is a forged, more compact iron with lofts about one degree weaker through the long and mid irons."
+  - q: "What clubs come in a JPX-825 set?"
+    a: "The stock range is 4-iron through gap wedge, with the pitching wedge at 45 degrees and the gap wedge at 50 degrees."
+confidence: medium

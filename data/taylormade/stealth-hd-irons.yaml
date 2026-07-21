@@ -1,0 +1,110 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: Stealth HD
+slug: stealth-hd-irons
+club_type: irons
+year_introduced: 2022
+year_discontinued: 2023
+category: super-game-improvement
+construction: investment cast Cap Back design, draw-biased
+material: stainless steel
+successor: null
+predecessor: null
+description: >
+  Stealth HD was a line extension alongside the 2022 Stealth iron rather than a
+  replacement for it, aimed at slower swing speeds and at players who miss to
+  the right. It uses the same Cap Back design and ECHO Damping System but adds a
+  draw bias, a very low centre of gravity that shifts progressively higher
+  through the set, and much wider soles. Bounce is far higher than on the
+  standard Stealth, from 11 degrees in the 5-iron to 16 degrees in the sand and
+  lob wedges, and the lie angles are half a degree to one degree more upright.
+  The 7-iron is 30 degrees, two degrees weaker than the standard Stealth. Specs
+  below are the men's standard steel-shaft build.
+specs:
+  - club: "5"
+    loft: 23.5
+    lie: 62.5
+    length: 38.5
+    offset: 0.205
+    bounce: 11.0
+    swing_weight: D1
+  - club: "6"
+    loft: 26.5
+    lie: 63.0
+    length: 37.88
+    offset: 0.185
+    bounce: 11.0
+    swing_weight: D1
+  - club: "7"
+    loft: 30.0
+    lie: 63.5
+    length: 37.25
+    offset: 0.165
+    bounce: 11.0
+    swing_weight: D1
+  - club: "8"
+    loft: 34.0
+    lie: 64.0
+    length: 36.75
+    offset: 0.150
+    bounce: 12.0
+    swing_weight: D1
+  - club: "9"
+    loft: 38.5
+    lie: 64.5
+    length: 36.25
+    offset: 0.134
+    bounce: 13.0
+    swing_weight: D1
+  - club: "PW"
+    loft: 44.5
+    lie: 65.0
+    length: 35.75
+    offset: 0.118
+    bounce: 15.0
+    swing_weight: D1
+  - club: "AW"
+    loft: 49.0
+    lie: 65.0
+    length: 35.5
+    offset: 0.098
+    bounce: 15.0
+    swing_weight: D1
+  - club: "SW"
+    loft: 54.0
+    lie: 65.0
+    length: 35.25
+    offset: 0.079
+    bounce: 16.0
+    swing_weight: D2
+  - club: "LW"
+    loft: 59.0
+    lie: 65.0
+    length: 35.0
+    offset: 0.067
+    bounce: 16.0
+    swing_weight: D3
+stock_shafts:
+  - name: "KBS Max 85 MT"
+    material: steel
+    weight: "93 g"
+    flex: ["R", "S"]
+  - name: "Fujikura Speeder NX Red/Silver"
+    material: graphite
+    weight: "50-60 g"
+    flex: ["A", "R", "S"]
+sources:
+  - "TaylorMade official Stealth HD Irons product page specifications table, taylormadegolf.com/Stealth-HD-Irons/DW-TC502.html (archived January 2023 via archive.org)"
+related_models:
+  - slug: "taylormade/stealth-irons"
+    label: "Standard model: TaylorMade Stealth"
+faq:
+  - q: "What is the loft of a TaylorMade Stealth HD 7-iron?"
+    a: "The TaylorMade Stealth HD 7-iron has a loft of 30 degrees, with a 63.5-degree lie and a 37.25-inch steel-shaft length."
+  - q: "How is the Stealth HD different from the standard Stealth iron?"
+    a: "Stealth HD is a draw-biased, higher-launching companion model rather than a replacement. Its lofts are about two degrees weaker (30 degrees at the 7-iron against 28), its lie angles are half a degree to one degree more upright, and its bounce is roughly twice as high across the set."
+  - q: "Does the Stealth HD iron set include a 4-iron?"
+    a: "No. The Stealth HD set starts at the 5-iron, which is 23.5 degrees, and runs through to a 59-degree lob wedge. TaylorMade expected buyers to fill the long-iron gap with hybrids or fairway woods."
+  - q: "What is the pitching wedge loft on the Stealth HD?"
+    a: "The Stealth HD pitching wedge is 44.5 degrees, a degree and a half weaker than the standard Stealth. It is followed by a 49-degree approach wedge, a 54-degree sand wedge and a 59-degree lob wedge."
+confidence: high

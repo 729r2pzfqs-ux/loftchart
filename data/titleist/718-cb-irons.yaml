@@ -1,0 +1,85 @@
+brand: Titleist
+brand_slug: titleist
+model: 718 CB
+slug: 718-cb-irons
+club_type: irons
+year_introduced: 2017
+year_discontinued: 2019
+category: players
+construction: forged cavity back with tungsten weighting
+material: forged 1025 carbon steel
+successor: Titleist 620 CB
+predecessor: Titleist 716 CB
+description: >
+  The 718 CB is the compact forged cavity back of Titleist's 2018 range,
+  sitting between the 718 AP2 and the 718 MB. Lofts are unchanged from the 716
+  CB, keeping a 35 degree 7-iron and a 47 degree pitching wedge across a
+  2-iron to pitching wedge set, and the refined leading edge is the main
+  design change. High-density tungsten in the long irons keeps the moment of
+  inertia up in a head that is visibly smaller than the AP2. It was the last
+  CB to use the Titleist year-number naming before the 620 CB.
+specs:
+  - club: "2"
+    loft: 18
+    lie: 59.5
+    length: 39.5
+    offset: 0.150
+  - club: "3"
+    loft: 21
+    lie: 60
+    length: 39
+    offset: 0.142
+  - club: "4"
+    loft: 24
+    lie: 61
+    length: 38.5
+    offset: 0.130
+  - club: "5"
+    loft: 27
+    lie: 62
+    length: 38
+    offset: 0.122
+  - club: "6"
+    loft: 31
+    lie: 62.5
+    length: 37.5
+    offset: 0.110
+  - club: "7"
+    loft: 35
+    lie: 63
+    length: 37
+    offset: 0.102
+  - club: "8"
+    loft: 39
+    lie: 63.5
+    length: 36.5
+    offset: 0.091
+  - club: "9"
+    loft: 43
+    lie: 64
+    length: 36
+    offset: 0.083
+  - club: "PW"
+    loft: 47
+    lie: 64
+    length: 35.75
+    offset: 0.075
+stock_shafts:
+  - name: "True Temper AMT Tour White"
+    material: steel
+    weight: "107g-130g"
+    flex: ["R300", "S300", "X100"]
+sources:
+  - "Titleist archived product page, titleist.com/golf-clubs/irons/718-cb and the combined '718 Iron Specifications' table, via the Internet Archive (loft, offset in mm, shared lie and length rows)"
+  - "Offsets converted from the published millimetre figures to inches for consistency with the rest of the archive"
+related_models:
+  - slug: "titleist/716-cb-irons"
+    label: "Predecessor: Titleist 716 CB"
+faq:
+  - q: "What is the loft of a Titleist 718 CB 7-iron?"
+    a: "The Titleist 718 CB 7-iron is 35 degrees, with a 63 degree lie and a 37 inch standard steel length."
+  - q: "Do the 716 CB and 718 CB have the same lofts?"
+    a: "Yes. Both run 18 degrees at the 2-iron through 47 degrees at the pitching wedge, with a 35 degree 7-iron. The 718 CB is half a degree more upright at the 2-iron."
+  - q: "How does the 718 CB differ from the 718 AP2?"
+    a: "The CB is a smaller, less offset head and is one degree weaker through the middle of the set: a 35 degree 7-iron against 34, and a 47 degree pitching wedge against 46."
+confidence: high

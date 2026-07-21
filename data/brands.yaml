@@ -23,6 +23,12 @@ brands:
     founded: 1932
     hq: "Fairhaven, Massachusetts, USA"
     color: "#C8102E"
+    families:
+      - "DCI"
+      - "690/695 forged"
+      - "AP2"
+      - "CB"
+      - "T-Series"
     blurb: >
       Titleist's iron line has run from the DCI and Tour Model era through the
       AP/CB/MB numbered generations to the current T-Series, with a consistent
@@ -51,6 +57,13 @@ brands:
     founded: 1982
     hq: "Carlsbad, California, USA"
     color: "#00447C"
+    families:
+      - "Big Bertha"
+      - "X-series"
+      - "Apex"
+      - "Rogue"
+      - "Mavrik"
+      - "Paradym"
     blurb: >
       Callaway's X-series irons defined mainstream game improvement through the
       2000s, while the Apex line carries the forged players-distance side of

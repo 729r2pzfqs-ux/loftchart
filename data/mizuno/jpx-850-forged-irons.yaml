@@ -1,0 +1,91 @@
+brand: Mizuno
+brand_slug: mizuno
+model: JPX-850 Forged
+slug: jpx-850-forged-irons
+club_type: irons
+year_introduced: 2014
+year_discontinued: 2016
+category: players
+construction: forged
+material: 1025E boron-infused carbon steel
+successor: JPX-919 Forged
+predecessor: null
+description: >
+  The JPX-850 Forged was the first Mizuno iron to use boron-infused 1025E carbon steel, which
+  raised the strength of the material enough for Mizuno to thin the face while keeping the
+  Grain Flow Forged process and a bendable hosel. It is a moderate cavity-back players iron
+  with a 0.130-inch 7-iron offset, sold as a 4-iron through gap wedge set. Lofts sit one
+  degree weaker than the JPX-900 Forged that followed it, with a 32-degree 7-iron and a
+  45-degree pitching wedge.
+  All figures are the men's standard steel-shaft specification.
+specs:
+  - club: "4"
+    loft: 22.0
+    lie: 60.0
+    length: 38.25
+    offset: 0.160
+    bounce: 1.0
+  - club: "5"
+    loft: 25.0
+    lie: 60.5
+    length: 37.75
+    offset: 0.150
+    bounce: 2.0
+  - club: "6"
+    loft: 28.0
+    lie: 61.0
+    length: 37.25
+    offset: 0.140
+    bounce: 2.0
+  - club: "7"
+    loft: 32.0
+    lie: 61.5
+    length: 36.75
+    offset: 0.130
+    bounce: 3.0
+  - club: "8"
+    loft: 36.0
+    lie: 62.0
+    length: 36.25
+    offset: 0.120
+    bounce: 4.0
+  - club: "9"
+    loft: 40.0
+    lie: 62.5
+    length: 35.75
+    offset: 0.110
+    bounce: 5.0
+  - club: "PW"
+    loft: 45.0
+    lie: 63.0
+    length: 35.50
+    offset: 0.100
+    bounce: 6.0
+  - club: "GW"
+    loft: 50.0
+    lie: 63.0
+    length: 35.25
+    offset: 0.090
+    bounce: 7.0
+stock_shafts:
+  - name: "True Temper XP 115"
+    material: steel
+sources:
+  - "InTheHoleGolf.com Mizuno JPX-850 Forged Iron Set product page spec table (loft, lie, offset, bounce, length for 4-GW, plus the stock shaft list)"
+  - "2ndSwing.com Mizuno JPX 850 Forged Iron Set specification table (independent corroboration of the same loft/lie/offset/bounce figures, and correcting a 5-iron length typo on the InTheHoleGolf table to 37.75 inches)"
+  - "Archived Mizuno USA JPX-850 Forged product page, mizunousa.com/Golf/Irons/JPX-Irons/JPX-850-Forged (2015 snapshot via archive.org) — confirms the model existed in the 2015 line, but that snapshot carries no spec table, so confidence is medium"
+related_models:
+  - slug: "mizuno/jpx-919-forged-irons"
+    label: "Successor: Mizuno JPX-919 Forged"
+  - slug: "mizuno/jpx-900-forged-irons"
+    label: "Next JPX forged iron: Mizuno JPX-900 Forged"
+  - slug: "mizuno/jpx-825-irons"
+    label: "Cast JPX iron of the same era: Mizuno JPX-825"
+faq:
+  - q: "What is the loft of a Mizuno JPX-850 Forged 7-iron?"
+    a: "The Mizuno JPX-850 Forged 7-iron has a loft of 32 degrees, with a 61.5-degree lie and a 36.75-inch steel-shaft length."
+  - q: "What is boron steel in the JPX-850 Forged?"
+    a: "Mizuno added boron to its 1025E carbon steel to raise tensile strength, which allowed a thinner forged face without losing the ability to bend the hosel for loft and lie adjustment."
+  - q: "How do JPX-850 Forged lofts compare with the JPX-900 Forged?"
+    a: "The JPX-850 Forged is one degree weaker through the long and mid irons: 22 degrees at the 4-iron and 32 at the 7-iron, against 21 and 31 for the JPX-900 Forged. Both share a 45-degree pitching wedge."
+confidence: medium

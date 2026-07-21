@@ -1,0 +1,94 @@
+brand: Mizuno
+brand_slug: mizuno
+model: MP-18 SC
+slug: mp-18-sc-irons
+club_type: irons
+year_introduced: 2017
+year_discontinued: 2019
+category: players
+construction: forged
+material: 1025E mild carbon steel
+successor: null
+predecessor: MP-5
+description: >
+  The MP-18 SC is the split cavity model in Mizuno's MP-18 family, sitting between
+  the MP-18 MB muscle back and the multi-material MP-18 MMC. It is HD Grain Flow
+  Forged from 1025E mild carbon steel and shares the MB's lofts, lies, lengths and
+  offsets exactly, so the two were commonly built as a combo set. The stock set was
+  3-PW with a 34-degree 7-iron and a 46-degree pitching wedge, and offset stays under
+  0.102 inches throughout. Specs below are the men's standard steel-shaft build.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 59.5
+    length: 38.75
+    offset: 0.102
+    bounce: 2.0
+  - club: "4"
+    loft: 24.0
+    lie: 60.0
+    length: 38.25
+    offset: 0.098
+    bounce: 2.0
+  - club: "5"
+    loft: 27.0
+    lie: 60.5
+    length: 37.75
+    offset: 0.094
+    bounce: 2.0
+  - club: "6"
+    loft: 30.0
+    lie: 61.0
+    length: 37.25
+    offset: 0.091
+    bounce: 3.0
+  - club: "7"
+    loft: 34.0
+    lie: 61.5
+    length: 36.75
+    offset: 0.087
+    bounce: 3.0
+  - club: "8"
+    loft: 38.0
+    lie: 62.0
+    length: 36.25
+    offset: 0.083
+    bounce: 4.0
+  - club: "9"
+    loft: 42.0
+    lie: 62.5
+    length: 35.75
+    offset: 0.079
+    bounce: 5.0
+  - club: "PW"
+    loft: 46.0
+    lie: 63.0
+    length: 35.50
+    offset: 0.075
+    bounce: 6.0
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+  - name: "Nippon N.S. Pro Modus3 Tour 120"
+    material: steel
+  - name: "Project X LZ"
+    material: steel
+sources:
+  - "2ndswing.com Mizuno MP-18 SC Iron Set product page, full loft/lie/length/offset/bounce spec table and shaft listings"
+  - "TheSandTrap.com Mizuno MP-18 iron review, reproducing Mizuno's published spec table for the MB and SC"
+  - "Golfalot Mizuno MP-18 SC / MMC / Fli-Hi irons review (construction, family positioning)"
+related_models:
+  - slug: "mizuno/mp-5-irons"
+    label: "Predecessor: Mizuno MP-5"
+  - slug: "mizuno/mp-18-mb-irons"
+    label: "Same family: Mizuno MP-18 MB"
+  - slug: "mizuno/mp-18-mmc-irons"
+    label: "Same family: Mizuno MP-18 MMC"
+faq:
+  - q: "What is the loft of a Mizuno MP-18 SC 7-iron?"
+    a: "The Mizuno MP-18 SC 7-iron has a loft of 34 degrees, with a 61.5-degree lie and a 36.75-inch steel-shaft length."
+  - q: "What is the pitching wedge loft on the Mizuno MP-18 SC?"
+    a: "The MP-18 SC pitching wedge is 46 degrees, with a 63-degree lie and a 35.5-inch length."
+  - q: "Can you combo the MP-18 SC with the MP-18 MB?"
+    a: "Yes. The SC and MB share identical lofts, lies, lengths and offsets, so a combo set such as MB short irons with SC long irons keeps a consistent gapping and offset progression."
+confidence: high

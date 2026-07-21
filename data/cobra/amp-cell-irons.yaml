@@ -1,0 +1,102 @@
+brand: Cobra
+brand_slug: cobra
+model: AMP Cell
+slug: amp-cell-irons
+club_type: irons
+year_introduced: 2013
+year_discontinued: 2013
+category: game-improvement
+construction: cast body with welded high-strength steel face (metalwood face-weld)
+material: 431 stainless steel body with a thin high-strength steel face insert
+predecessor: Cobra AMP
+successor: Cobra BiO Cell
+description: >
+  The AMP Cell is Cobra's 2013 game-improvement iron, built with what Cobra called
+  true metalwood face-weld construction: a thin, high-strength steel face welded to
+  a softer 431 stainless steel body, used in the 4- through 7-irons, with a
+  progressively more conventional cavity design through the short irons. E9 Face
+  Technology gives the face a variable thickness pattern matched to typical impact
+  dispersion, and AMP Cell weighting plus a V-Skid sole handle mass distribution and
+  turf interaction. Lofts are strong for the period at 31 degrees in the 7-iron and
+  44 degrees in the pitching wedge, on a 37.25-inch 7-iron. Cobra listed heads from
+  3-iron through lob wedge; stock sets were sold as 4-PW or 5-SW. Swing weights below
+  are the steel-shaft values — graphite builds run two points lighter.
+specs:
+  - club: "3"
+    loft: 18.5
+    lie: 59.0
+    length: 40.0
+    swing_weight: D3
+  - club: "4"
+    loft: 21.0
+    lie: 60.0
+    length: 39.25
+    swing_weight: D3
+  - club: "5"
+    loft: 24.0
+    lie: 61.0
+    length: 38.5
+    swing_weight: D3
+  - club: "6"
+    loft: 27.0
+    lie: 62.0
+    length: 37.75
+    swing_weight: D3
+  - club: "7"
+    loft: 31.0
+    lie: 62.5
+    length: 37.25
+    swing_weight: D3
+  - club: "8"
+    loft: 35.0
+    lie: 63.0
+    length: 36.75
+    swing_weight: D3
+  - club: "9"
+    loft: 39.0
+    lie: 63.5
+    length: 36.25
+    swing_weight: D3
+  - club: "PW"
+    loft: 44.0
+    lie: 64.0
+    length: 36.0
+    swing_weight: D4
+  - club: "GW"
+    loft: 49.0
+    lie: 64.5
+    length: 35.75
+    swing_weight: D4
+  - club: "SW"
+    loft: 54.0
+    lie: 64.5
+    length: 35.5
+    swing_weight: D5
+  - club: "LW"
+    loft: 59.0
+    lie: 64.5
+    length: 35.5
+    swing_weight: D5
+stock_shafts:
+  - name: "True Temper Dynalite 90 (AMP CELL)"
+    material: steel
+    flex: ["S", "R"]
+  - name: "Fujikura Fuel"
+    material: graphite
+    flex: ["S", "R", "L"]
+sources:
+  - "Cobra Golf official '2013 Cobra AMP Cell Irons' product page, archived 2013-01-15 via web.archive.org — retrieved directly; supplies the full specification table (model, loft, length, lie, graphite and steel swing weight, stock flex, RH/LH) for the 3-iron through lob wedge, plus the E9 Face and metalwood face-weld construction description and the Fujikura Fuel shaft reference"
+  - "Golfshake news item 'COBRA Launch new AMP CELL Irons for 2013' — corroborates the True Temper Dynalite 90 steel shaft, the 431 stainless body with welded high-strength face in the 4-7 irons, the 4-PW / 5-SW stock set options and the February 2013 launch"
+related_models:
+  - slug: "cobra/s3-irons"
+    label: "Earlier Cobra game-improvement iron: S3"
+  - slug: "cobra/fly-z-irons"
+    label: "Later Cobra game-improvement iron: Fly-Z"
+faq:
+  - q: "What is the loft of a Cobra AMP Cell 7-iron?"
+    a: "The Cobra AMP Cell 7-iron has a loft of 31 degrees, a lie of 62.5 degrees and a length of 37.25 inches."
+  - q: "What clubs come in a stock Cobra AMP Cell set?"
+    a: "Stock sets were sold as 4-iron through pitching wedge or 5-iron through sand wedge. Cobra also catalogued a 3-iron, gap wedge and lob wedge as separate heads."
+  - q: "How is the Cobra AMP Cell iron built?"
+    a: "The 4- through 7-irons use a metalwood-style face weld: a thin, high-strength steel face welded to a softer 431 stainless steel body, with E9 variable-thickness face geometry."
+confidence: high

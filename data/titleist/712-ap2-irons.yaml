@@ -1,0 +1,100 @@
+brand: Titleist
+brand_slug: titleist
+model: 712 AP2
+slug: 712-ap2-irons
+club_type: irons
+year_introduced: 2011
+year_discontinued: 2013
+category: players
+construction: forged, multi-material dual cavity
+material: forged 1025 carbon steel with tungsten weighting in the heel and toe
+successor: Titleist 714 AP2
+predecessor: Titleist 710 AP2
+description: >
+  The 712 AP2 is the third-generation AP2 and the last of the line to use the
+  traditional 35 degree 7-iron. It is forged from 1025 carbon steel with
+  high-density tungsten placed in the heel and toe to move the centre of
+  gravity low and to the perimeter without enlarging the head. Lofts and
+  offsets carry over unchanged from the 710 AP2; the 714 AP2 that followed
+  strengthened everything from the 6-iron down by a degree. The stock set ran
+  3-iron through a 51 degree gap wedge, all at D2.
+specs:
+  - club: "3"
+    loft: 21
+    lie: 60
+    length: 39
+    offset: 0.160
+    bounce: 0
+    swing_weight: D2
+  - club: "4"
+    loft: 24
+    lie: 61
+    length: 38.5
+    offset: 0.145
+    bounce: 1
+    swing_weight: D2
+  - club: "5"
+    loft: 27
+    lie: 62
+    length: 38
+    offset: 0.130
+    bounce: 3
+    swing_weight: D2
+  - club: "6"
+    loft: 31
+    lie: 62.5
+    length: 37.5
+    offset: 0.120
+    bounce: 4
+    swing_weight: D2
+  - club: "7"
+    loft: 35
+    lie: 63
+    length: 37
+    offset: 0.110
+    bounce: 4
+    swing_weight: D2
+  - club: "8"
+    loft: 39
+    lie: 63.5
+    length: 36.5
+    offset: 0.100
+    bounce: 5
+    swing_weight: D2
+  - club: "9"
+    loft: 43
+    lie: 64
+    length: 36
+    offset: 0.090
+    bounce: 6
+    swing_weight: D2
+  - club: "PW"
+    loft: 47
+    lie: 64
+    length: 35.75
+    offset: 0.085
+    bounce: 7
+    swing_weight: D2
+  - club: "W"
+    loft: 51
+    lie: 64
+    length: 35.5
+    offset: 0.080
+    bounce: 7
+    swing_weight: D2
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+sources:
+  - "Titleist previous-models archived product page, titleist.com/golf-clubs/irons/ap2-712, via the Internet Archive (full manufacturer table: offset, bounce, loft, length, lie, swing weight)"
+related_models:
+  - slug: "titleist/710-ap2-irons"
+    label: "Predecessor: Titleist 710 AP2"
+faq:
+  - q: "What is the loft of a Titleist 712 AP2 7-iron?"
+    a: "The Titleist 712 AP2 7-iron is 35 degrees, with a 63 degree lie and a 37 inch standard steel length."
+  - q: "What is the difference between the 712 AP2 and the 714 AP2?"
+    a: "The 714 AP2 is one degree stronger from the 6-iron down. Its 7-iron is 34 degrees against 35 on the 712, and its pitching wedge is 46 degrees against 47."
+  - q: "Do the 710 AP2 and 712 AP2 share the same lofts?"
+    a: "Yes. The 710 AP2 and 712 AP2 carry identical lofts, lies and lengths across the set; the changes between them were in construction and finish."
+confidence: high

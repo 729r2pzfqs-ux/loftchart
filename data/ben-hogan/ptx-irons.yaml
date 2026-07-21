@@ -1,0 +1,86 @@
+brand: Ben Hogan
+brand_slug: ben-hogan
+model: PTx
+slug: ptx-irons
+club_type: irons
+year_introduced: 2016
+year_discontinued: 2018
+category: players-distance
+construction: co-forged multi-material
+material: 1025 carbon steel frame with MS300 steel face, tungsten weighting and a titanium core in the short irons
+successor: Ben Hogan PTx Pro
+predecessor: Ben Hogan Ft. Worth 15
+description: >
+  The PTx was Ben Hogan Golf's second iron after the Ft. Worth 15 and was
+  introduced in January 2016 as a more forgiving, technology-led companion to
+  the blade. Ben Hogan describes it as a transitional iron: the long irons are
+  hollow, with a 1025 carbon steel frame and an ultra-thin MS300 steel face plus
+  low tungsten weighting, while the scoring irons are co-forged with a
+  lightweight titanium core in place of steel. Like the Ft. Worth 15 it uses the
+  PreciseLoft system of 4-degree loft gaps, and each head carries its exact loft
+  stamped on the sole, with the traditional iron number on the hosel. A stock
+  set is seven clubs in one of four launch profiles - low 20/24/28/32/36/40/44,
+  mid 21/25/29/33/37/41/45, mid-high 22/26/30/34/38/42/46 or high
+  23/27/31/35/39/43/47 - and the rows below are the low-launch profile, since
+  length and lie are set by the loft band rather than by the profile. It was
+  succeeded by the PTx Pro.
+specs:
+  - club: "20"
+    loft: 20.0
+    lie: 60.0
+    length: 39.0
+  - club: "24"
+    loft: 24.0
+    lie: 61.0
+    length: 38.25
+  - club: "28"
+    loft: 28.0
+    lie: 62.0
+    length: 37.5
+  - club: "32"
+    loft: 32.0
+    lie: 62.5
+    length: 37.0
+  - club: "36"
+    loft: 36.0
+    lie: 63.0
+    length: 36.5
+  - club: "40"
+    loft: 40.0
+    lie: 63.5
+    length: 36.0
+  - club: "44"
+    loft: 44.0
+    lie: 64.0
+    length: 35.75
+stock_shafts:
+  - name: "KBS Tour V"
+    material: steel
+    flex: ["S", "X"]
+  - name: "KBS Tour 90"
+    material: steel
+    flex: ["R", "S"]
+  - name: "True Temper Dynamic Gold"
+    material: steel
+    flex: ["R", "S", "X"]
+  - name: "UST Recoil 660 / 680 / 760"
+    material: graphite
+    flex: ["A", "R", "S"]
+sources:
+  - "Ben Hogan Golf official PTx spec chart image, retrieved from http://web.archive.org/web/20160502182311/http://www.benhogangolf.com/mas_assets/theme/ben_hogan/images/content/PTx_SpecChart.jpg - gives length, lie, swing weight and V-Sole bounce for each 4-degree loft band (20-23 through 44-47)"
+  - "Ben Hogan Golf official PTx information page, retrieved from http://web.archive.org/web/2018/https://benhogangolf.com/pages/ptx-irons - lists all four launch loft profiles, states the 7-piece set is numbered with its exact loft on the sole and the traditional iron number on the hosel, and describes the co-forged construction"
+  - "Ben Hogan Golf PTx product/ordering page, retrieved from http://web.archive.org/web/20181218071810/https://benhogangolf.com/collections/clubs/products/ptx-irons - confirms the purchasable set make-ups '4-PW (20 24 28 32 36 40 44)' and '4-PW (21 25 29 33 37 41 45)', the $770 price and the stock shaft list"
+  - "January 2016 introduction inferred from the Ben Hogan blog post 'Introducing the PTx', whose earliest Wayback capture is 2016-01-24 (seen in the Wayback CDX index; the post body was not retrieved)"
+related_models:
+  - slug: "ben-hogan/ft-worth-15-irons"
+    label: "Predecessor blade: Ben Hogan Ft. Worth 15"
+  - slug: "ben-hogan/edge-irons"
+    label: "More forgiving: Ben Hogan Edge"
+faq:
+  - q: "Why do Ben Hogan PTx irons say 32 instead of 7-iron?"
+    a: "Ben Hogan's PreciseLoft system stamps the actual loft in degrees on the sole of each PTx head rather than selling the set by club number. The traditional iron number is engraved on the hosel as a secondary marking. A set is seven heads in 4-degree gaps covering 20 to 47 degrees depending on which launch profile you order."
+  - q: "What is the loft of the middle iron in a Ben Hogan PTx set?"
+    a: "The fourth club of the seven-piece set is 32 degrees in the low-launch profile, with a 62.5-degree lie and a 37.00-inch steel length. That club is the 7-iron equivalent, and it is 33, 34 or 35 degrees in the mid, mid-high and high profiles respectively."
+  - q: "Is the Ben Hogan PTx a players iron or a game-improvement iron?"
+    a: "Ben Hogan positioned it as a transitional iron between the two - a forged, multi-material head with tungsten weighting and hollow long irons, a slightly larger profile and a little more offset than the Ft. Worth 15 blade, but far more compact and weaker-lofted than a true game-improvement iron."
+confidence: high

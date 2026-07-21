@@ -1,0 +1,102 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: P790 (2017)
+slug: p790-2017-irons
+club_type: irons
+year_introduced: 2017
+year_discontinued: 2019
+category: players-distance
+construction: forged hollow body
+material: forged 4140 carbon steel face with soft carbon steel body
+successor: P790 (2021)
+predecessor: null
+description: >
+  The 2017 P790 was the first generation of TaylorMade's hollow-body forged
+  distance iron, built around a 1.75mm wrapped forged 4140 face, an injected
+  SpeedFoam filling and a high-density tungsten weight in the toe. It sat
+  between the P770 players iron and the game-improvement M-series in
+  TaylorMade's 2017 line, using stronger lofts than a traditional players
+  iron: the 7-iron is 30.5 degrees and the pitching wedge 45 degrees. The
+  first-generation set is shorter than the 2021 model, with a 36.75-inch
+  7-iron and 38.75-inch 3-iron, and it carries slightly more offset through
+  the long irons. All numbers below are the men's standard right-handed steel
+  build.
+specs:
+  - club: "3"
+    loft: 19.0
+    lie: 60.5
+    length: 38.75
+    offset: 0.154
+    swing_weight: D2
+  - club: "4"
+    loft: 21.0
+    lie: 61.0
+    length: 38.25
+    offset: 0.142
+    swing_weight: D2
+  - club: "5"
+    loft: 23.5
+    lie: 61.5
+    length: 37.75
+    offset: 0.130
+    swing_weight: D2
+  - club: "6"
+    loft: 26.5
+    lie: 62.0
+    length: 37.25
+    offset: 0.118
+    swing_weight: D2
+  - club: "7"
+    loft: 30.5
+    lie: 62.5
+    length: 36.75
+    offset: 0.106
+    swing_weight: D2
+  - club: "8"
+    loft: 35.0
+    lie: 63.0
+    length: 36.25
+    offset: 0.094
+    swing_weight: D2
+  - club: "9"
+    loft: 40.0
+    lie: 63.5
+    length: 35.75
+    offset: 0.083
+    swing_weight: D2
+  - club: "PW"
+    loft: 45.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.071
+    swing_weight: D3
+  - club: "AW"
+    loft: 50.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.063
+    swing_weight: D3
+stock_shafts:
+  - name: "True Temper Dynamic Gold 105"
+    material: steel
+    weight: "105 g"
+    flex: ["R300", "S300"]
+  - name: "UST Recoil 780 ES / 760 ES"
+    material: graphite
+    flex: ["F2", "F3", "F4"]
+sources:
+  - "TaylorMade official P790 Irons product spec sheet PDF (c 2017 Taylor Made Golf Company), taylormadegolf.com/on/demandware.static/-/Sites-TMaG-Library/default/docs/productspecs/2017/P790 Irons.pdf via archive.org - full loft/lie/offset/length/swing-weight table plus stock shafts and grip"
+  - "Archived taylormadegolf.com 2017 P790 Irons product page (2017-P790-Irons/DW-WZ711.html, 20 Aug 2019 snapshot via archive.org) - on-page specifications table matching the PDF"
+related_models:
+  - slug: "taylormade/p790-2021-irons"
+    label: "Successor: TaylorMade P790 (2021)"
+  - slug: "taylormade/p770-irons"
+    label: "Players-iron sibling: TaylorMade P770"
+faq:
+  - q: "What is the loft of a TaylorMade P790 (2017) 7-iron?"
+    a: "The TaylorMade P790 (2017) 7-iron has a loft of 30.5 degrees, with a 62.5-degree lie and a 36.75-inch steel-shaft length."
+  - q: "How do the 2017 P790 specs differ from the 2021 P790?"
+    a: "The lofts are identical across the two generations, including the 30.5-degree 7-iron and 45-degree pitching wedge. What changed is length and offset: the 2021 set is 0.25 inches longer in the 3-iron through 9-iron (37.00-inch 7-iron versus 36.75 inches) and drops long-iron offset from 3.9mm to 3.5mm in the 3-iron."
+  - q: "What is the pitching wedge loft on the 2017 P790?"
+    a: "The 2017 P790 pitching wedge is 45 degrees, and the matching approach wedge is 50 degrees. The published set runs 3-iron through approach wedge."
+confidence: high

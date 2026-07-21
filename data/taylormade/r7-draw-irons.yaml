@@ -95,6 +95,11 @@ stock_shafts:
     flex: ["L", "M", "R", "S"]
 sources:
   - "TaylorMade official r7 Draw Iron men's spec sheet, taylormadegolf.com/docs/productspecs/06_r7DRAW_IRON_SS.pdf"
+related_models:
+  - slug: "taylormade/r7-irons"
+    label: "Neutral-bias sister model: TaylorMade r7"
+  - slug: "taylormade/r7-cgb-max-irons"
+    label: "More forgiving r7 model: TaylorMade r7 CGB Max"
 faq:
   - q: "What is the loft of a TaylorMade r7 Draw 7-iron?"
     a: "The TaylorMade r7 Draw 7-iron has a loft of 32 degrees, with a 63-degree lie and a 36.75-inch steel-shaft length."

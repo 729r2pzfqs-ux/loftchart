@@ -1,0 +1,86 @@
+brand: Titleist
+brand_slug: titleist
+model: 718 AP2
+slug: 718-ap2-irons
+club_type: irons
+year_introduced: 2017
+year_discontinued: 2019
+category: players
+construction: co-forged, multi-material dual cavity
+material: forged 1025 carbon steel with high-density tungsten perimeter weighting
+successor: Titleist T100
+predecessor: Titleist 716 AP2
+description: >
+  The 718 AP2 is the sixth and final AP2 before the line became the T-Series.
+  It retains the co-forged 1025 carbon steel construction with high-density
+  tungsten in the heel and toe, and carries the same lofts as the 714 and 716
+  before it: a 34 degree 7-iron and a 46 degree pitching wedge across a 3-iron
+  to 50 degree gap wedge set. Titleist published the 718 offsets in
+  millimetres rather than inches, running 4.1mm at the 3-iron down to 1.6mm at
+  the gap wedge. Stock steel was the ascending-mass True Temper AMT Tour
+  White.
+specs:
+  - club: "3"
+    loft: 21
+    lie: 60
+    length: 39
+    offset: 0.161
+  - club: "4"
+    loft: 24
+    lie: 61
+    length: 38.5
+    offset: 0.150
+  - club: "5"
+    loft: 27
+    lie: 62
+    length: 38
+    offset: 0.138
+  - club: "6"
+    loft: 30
+    lie: 62.5
+    length: 37.5
+    offset: 0.122
+  - club: "7"
+    loft: 34
+    lie: 63
+    length: 37
+    offset: 0.110
+  - club: "8"
+    loft: 38
+    lie: 63.5
+    length: 36.5
+    offset: 0.098
+  - club: "9"
+    loft: 42
+    lie: 64
+    length: 36
+    offset: 0.087
+  - club: "PW"
+    loft: 46
+    lie: 64
+    length: 35.75
+    offset: 0.075
+  - club: "W"
+    loft: 50
+    lie: 64
+    length: 35.5
+    offset: 0.063
+stock_shafts:
+  - name: "True Temper AMT Tour White"
+    material: steel
+    weight: "107g-130g"
+    flex: ["R300", "S300", "X100"]
+sources:
+  - "Titleist archived product page, titleist.com/golf-clubs/irons/718-ap2, via the Internet Archive (combined '718 Iron Specifications' table covering AP1/AP2/AP3/T-MB/CB/MB: loft, offset in mm, shared lie and length rows)"
+  - "Offsets converted from the published millimetre figures to inches for consistency with the rest of the archive"
+related_models:
+  - slug: "titleist/718-cb-irons"
+    label: "Compact sibling: Titleist 718 CB"
+faq:
+  - q: "What is the loft of a Titleist 718 AP2 7-iron?"
+    a: "The Titleist 718 AP2 7-iron is 34 degrees, with a 63 degree lie and a 37 inch standard steel length."
+  - q: "What replaced the Titleist 718 AP2?"
+    a: "The T100, launched in 2019, replaced the 718 AP2 as Titleist's tour players iron and carried the same 34 degree 7-iron loft."
+  - q: "What is the offset on the Titleist 718 AP2?"
+    a: "Titleist published 718 offsets in millimetres: 4.1mm at the 3-iron tapering to 1.6mm at the gap wedge, which is roughly .161 to .063 inches."
+confidence: high

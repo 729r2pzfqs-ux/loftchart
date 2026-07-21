@@ -1,0 +1,87 @@
+brand: Srixon
+brand_slug: srixon
+model: ZX5 Mk II
+slug: zx5-mkii-irons
+club_type: irons
+year_introduced: 2023
+year_discontinued: 2025
+category: players-distance
+construction: forged multi-material
+material: forged carbon steel body with forged face insert and second-generation MainFrame milling
+successor: Srixon ZXi5
+predecessor: Srixon ZX5
+description: >
+  The ZX5 Mk II is the distance model in Srixon's second ZX iron generation, announced on
+  11 January 2023 and sitting between the ZX7 Mk II and the ZX4 Mk II. It carries the
+  second generation of Srixon's MainFrame technology, a variable-thickness pattern of
+  grooves, channels and cavities milled into the back of the face to maximise flex at
+  impact and shift mass to the toe and sole. Lofts carry over unchanged from the original
+  ZX5, with a 31-degree 7-iron and a 44-degree pitching wedge, and lies and lengths match
+  the rest of the ZX Mk II line. Heads run 3-iron through a 50-degree approach wedge, with
+  4-AW the usual stock set. Offsets below are converted from Srixon's published millimetre
+  figures (for example the 7-iron is 3.2 mm, or 0.126 inches); the 3-iron and approach
+  wedge offsets are omitted because Srixon's per-club table for this head covers 4-iron
+  through pitching wedge only.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 60.0
+    length: 39.0
+  - club: "4"
+    loft: 22.0
+    lie: 60.5
+    length: 38.5
+    offset: 0.157
+  - club: "5"
+    loft: 24.0
+    lie: 61.0
+    length: 38.0
+    offset: 0.150
+  - club: "6"
+    loft: 27.0
+    lie: 61.5
+    length: 37.5
+    offset: 0.138
+  - club: "7"
+    loft: 31.0
+    lie: 62.0
+    length: 37.0
+    offset: 0.126
+  - club: "8"
+    loft: 35.0
+    lie: 62.5
+    length: 36.5
+    offset: 0.118
+  - club: "9"
+    loft: 39.0
+    lie: 63.0
+    length: 36.0
+    offset: 0.106
+  - club: "PW"
+    loft: 44.0
+    lie: 63.5
+    length: 35.5
+    offset: 0.091
+  - club: "AW"
+    loft: 50.0
+    lie: 63.5
+    length: 35.5
+sources:
+  - "Srixon / Dunlop Sports US official ZX5 Mk II Black Chrome irons product page (us.dunlopsports.com/srixon/clubs/irons/zx-mk-ii-black-chrome-irons/zx5-mk-ii-black-chrome-irons/MZX5MKIIBIRN.html) — per-club table of loft, lie, offset in mm and length for the 4-iron through pitching wedge. This is the same ZX5 Mk II head in a black chrome finish; it is the only Srixon per-club offset table for this head that was still reachable, which is why the 3-iron and AW offsets are omitted"
+  - "Srixon / Dunlop Sports US official ZX7 Mk II irons product page (us.dunlopsports.com/srixon/clubs/irons/zx7-mk-ii-irons/zx7-mk-ii-irons/11226898.html) — the ZX Mk II loft comparison table (ZX5 Mk II 3-iron through AW: 20/22/24/27/31/35/39/44/50 degrees), the length comparison row (39in down to 35.5in) and the ZX7/ZX5/ZX4 hosel offset comparison confirming 4.0/3.2/2.3 mm at the ZX5 4i/7i/PW"
+  - "Lie angles are the shared ZX Mk II progression (60 to 63.5 degrees) taken from the per-club tables on the Srixon ZX7 Mk II, ZX4 Mk II and ZX5 Mk II Black Chrome pages, which are identical across the line"
+  - "Announcement date of 11 January 2023 and retail availability from 20 January 2023 per Srixon's 'Srixon Unveils the All-New ZX Mk II Irons' press release and Today's Golfer launch coverage"
+  - "Confidence is medium rather than high because the standard-finish ZX5 Mk II product page was not reachable; the offset figures come from the identical black chrome head and the loft/length figures from Srixon's own comparison tables"
+related_models:
+  - slug: "srixon/zx7-mkii-irons"
+    label: "Players model in the same line: Srixon ZX7 Mk II"
+  - slug: "srixon/zx5-irons"
+    label: "Predecessor: Srixon ZX5"
+faq:
+  - q: "What is the loft of a Srixon ZX5 Mk II 7-iron?"
+    a: "The Srixon ZX5 Mk II 7-iron has a loft of 31 degrees, with a 62-degree lie and a 37-inch steel-shaft length."
+  - q: "What clubs come in a stock Srixon ZX5 Mk II set?"
+    a: "Heads run 3-iron through a 50-degree approach wedge, with 4-iron through approach wedge the usual stock set."
+  - q: "Did the lofts change between the Srixon ZX5 and the ZX5 Mk II?"
+    a: "No. The ZX5 Mk II carries over the ZX5 lofts unchanged, from a 20-degree 3-iron through a 31-degree 7-iron to a 50-degree approach wedge."
+confidence: medium

@@ -77,6 +77,10 @@ sources:
 related_models:
   - slug: "mizuno/mp-32-irons"
     label: "Earlier Cut Muscle design: Mizuno MP-32"
+  - slug: "mizuno/mp-52-irons"
+    label: "Contemporary MP cavity back: Mizuno MP-52"
+  - slug: "mizuno/mp-58-irons"
+    label: "Later MP cavity back with the same specs: Mizuno MP-58"
 faq:
   - q: "What is the loft of a Mizuno MP-57 7-iron?"
     a: "The Mizuno MP-57 7-iron has a loft of 35 degrees, with a 61.5-degree lie and a 36.75-inch steel-shaft length."

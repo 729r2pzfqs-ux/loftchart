@@ -1,0 +1,71 @@
+brand: Wilson
+brand_slug: wilson
+model: Staff D7
+slug: staff-d7-irons
+club_type: irons
+year_introduced: 2019
+year_discontinued: 2021
+category: game-improvement
+construction: investment cast
+material: stainless steel
+successor: Wilson Staff D9
+predecessor: Wilson Staff D300
+description: >
+  The D7 was Wilson's distance-oriented game-improvement iron for the 2019
+  season, replacing the D300 and using a cast stainless steel head with
+  Wilson's Power Hole slots around the perimeter of the sole and toe. The number
+  of Power Hole rows is reduced through the set, from three rows in the long
+  irons down to one in the pitching wedge, trading speed in the long irons for
+  feel in the short ones. Lofts are strong, with a 28-degree 7-iron and a
+  43-degree pitching wedge, roughly a degree stronger than the D300 through the
+  4 to 8 irons. The stock steel set is 5-iron through pitching wedge with a
+  48-degree gap wedge available to match. Figures below are the standard men's
+  steel-shaft specification.
+specs:
+  - club: "5"
+    loft: 22.0
+    lie: 61.0
+    length: 38.5
+  - club: "6"
+    loft: 25.0
+    lie: 61.5
+    length: 38.0
+  - club: "7"
+    loft: 28.0
+    lie: 62.0
+    length: 37.5
+  - club: "8"
+    loft: 33.0
+    lie: 63.0
+    length: 37.0
+  - club: "9"
+    loft: 38.0
+    lie: 63.5
+    length: 36.5
+  - club: "PW"
+    loft: 43.0
+    lie: 64.0
+    length: 36.0
+  - club: "GW"
+    loft: 48.0
+    lie: 64.0
+    length: 35.75
+stock_shafts:
+  - name: "KBS Tour 90"
+    material: steel
+sources:
+  - "2nd Swing Golf 'Wilson Staff D7 Iron Set' specification table (club, loft, lie, length, 5-iron through GW) — retrieved July 2026. Retailer-published table, not a Wilson spec sheet."
+  - "Golfalot 'Wilson Staff D7 Irons Review' — confirms the 25-degree 6-iron, the 48-degree gap wedge option, the KBS Tour 90 stock shaft and the graduated Power Hole layout."
+  - "Today's Golfer 'Wilson D7 iron' review — independently confirms the 28-degree 7-iron and that lofts in the 4 to 8 irons are about 1 degree stronger than the D300."
+  - "Note: golfsource.org lists a slightly different D7 ladder (21/25/28/32/37/42). Where sources disagree this file follows the 2nd Swing table, which is internally consistent and corroborated on the 6-iron and 7-iron by Golfalot and Today's Golfer."
+related_models:
+  - slug: "wilson/staff-d9-irons"
+    label: "Successor: Wilson Staff D9"
+faq:
+  - q: "What is the loft of a Wilson Staff D7 7-iron?"
+    a: "The Wilson Staff D7 7-iron has a loft of 28 degrees, with a 62-degree lie and a 37.5-inch steel-shaft length."
+  - q: "What clubs come in a stock Wilson Staff D7 set?"
+    a: "The stock steel set is 5-iron through pitching wedge, with a 48-degree gap wedge available as a matching add-on."
+  - q: "How strong are the Wilson Staff D7 lofts?"
+    a: "Strong for a game-improvement iron of its era. The 7-iron is 28 degrees and the pitching wedge is 43 degrees, about a degree stronger than the D300 it replaced."
+confidence: medium

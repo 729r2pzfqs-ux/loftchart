@@ -1,0 +1,83 @@
+brand: Ben Hogan
+brand_slug: ben-hogan
+model: Ft. Worth 15
+slug: ft-worth-15-irons
+club_type: irons
+year_introduced: 2015
+year_discontinued: 2017
+category: blade
+construction: forged
+material: 1025 carbon steel
+successor: Ben Hogan Ft. Worth Black
+predecessor: null
+description: >
+  The Ft. Worth 15 was the first iron released by the relaunched Ben Hogan Golf
+  Equipment Company and is a compact, progressively weighted forged blade. Its
+  defining quirk is that it is not numbered: every head is stamped with its
+  actual loft, and Ben Hogan built heads in every loft from 20 to 47 degrees.
+  A stock set is seven clubs in 4-degree loft gaps, chosen from one of four
+  launch profiles - low 20/24/28/32/36/40/44, mid 21/25/29/33/37/41/45,
+  mid-high 22/26/30/34/38/42/46, or high 23/27/31/35/39/43/47. The rows below
+  use the low-launch profile; length, lie and swing weight are set by the loft
+  band, so the 24-27 degree band is always 38.25 inches and 61 degrees
+  regardless of which profile you order. The set was replaced in the line-up by
+  the Ft. Worth Black and Ft. Worth White irons.
+specs:
+  - club: "20"
+    loft: 20.0
+    lie: 60.0
+    length: 39.0
+  - club: "24"
+    loft: 24.0
+    lie: 61.0
+    length: 38.25
+  - club: "28"
+    loft: 28.0
+    lie: 62.0
+    length: 37.5
+  - club: "32"
+    loft: 32.0
+    lie: 62.5
+    length: 37.0
+  - club: "36"
+    loft: 36.0
+    lie: 63.0
+    length: 36.5
+  - club: "40"
+    loft: 40.0
+    lie: 63.5
+    length: 36.0
+  - club: "44"
+    loft: 44.0
+    lie: 64.0
+    length: 35.75
+stock_shafts:
+  - name: "KBS Tour V"
+    material: steel
+    flex: ["S", "X"]
+  - name: "KBS Tour 90"
+    material: steel
+    flex: ["R", "S"]
+  - name: "True Temper Dynamic Gold"
+    material: steel
+    flex: ["R", "S", "X"]
+  - name: "UST Recoil"
+    material: graphite
+    flex: ["A", "R", "S"]
+sources:
+  - "Ben Hogan Golf official Ft. Worth 15 spec chart image, retrieved from http://web.archive.org/web/20160319192525/http://www.benhogangolf.com/mas_assets/theme/ben_hogan/images/content/FtWorth15_SpecChart.png - gives length, lie, swing weight and V-Sole bounce for each 4-degree loft band (20-23 through 44-47)"
+  - "Ben Hogan Golf official FT. WORTH irons product page, retrieved from http://web.archive.org/web/2016/http://www.benhogangolf.com/Ft-Worth-15 - states heads are marked with actual loft rather than a club number, are crafted in every loft from 20 to 47 degrees, and are offered in four launch profiles"
+  - "Background on the 2015 relaunch and on Callaway retaining the Apex trademark comes from MyGolfSpy and GolfWRX coverage seen in search results; those article bodies were not retrieved directly"
+related_models:
+  - slug: "ben-hogan/ptx-irons"
+    label: "More forgiving stablemate: Ben Hogan PTx"
+  - slug: "ben-hogan/icon-irons"
+    label: "Later Ben Hogan blade: Icon"
+faq:
+  - q: "Why are Ben Hogan Ft. Worth 15 irons stamped with a number like 32 instead of a 7-iron?"
+    a: "The relaunched Ben Hogan Golf Equipment Company marked each Ft. Worth 15 head with its actual loft in degrees instead of a club number. Heads were made in every loft from 20 to 47 degrees, and a set is seven of them in 4-degree gaps. A 32-degree Ft. Worth 15 is the club that sits where a 7-iron would in a conventional set."
+  - q: "What is the loft of the middle iron in a Ben Hogan Ft. Worth 15 set?"
+    a: "In the low-launch profile the fourth club of the seven is stamped 32, so its loft is 32 degrees, with a 62.5-degree lie and a 37.00-inch steel length. The equivalent club is 33 degrees in the mid profile, 34 degrees in the mid-high profile and 35 degrees in the high profile."
+  - q: "What clubs are in a stock Ben Hogan Ft. Worth 15 set?"
+    a: "Seven clubs spanning 20 to 47 degrees in 4-degree gaps, ordered as one of four launch profiles. That is roughly the equivalent of a 4-iron through pitching wedge, though no head carries a club number."
+confidence: high

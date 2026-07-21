@@ -1,0 +1,88 @@
+brand: Cobra
+brand_slug: cobra
+model: SS-i Oversize
+slug: ss-i-irons
+club_type: irons
+year_introduced: 2003
+year_discontinued: 2004
+category: game-improvement
+construction: investment cast oversize cavity back
+material: 431 stainless steel with urethane cavity insert
+predecessor: King Cobra SS Oversize
+description: >
+  The King Cobra SS-i Oversize is Cobra's 2003 oversize game-improvement iron,
+  investment cast in a comparatively soft 431 stainless steel with a deep undercut
+  cavity filled with a urethane insert to damp vibration. Despite the "SS-i" name
+  sometimes being grouped with Cobra's forged clubs, this is the cast oversize
+  model — Cobra sold a separate King Cobra SS Forged set alongside it, with
+  different lofts. Lofts are traditional by modern standards: the 7-iron is 33
+  degrees and the pitching wedge 45 degrees, on a 37.00-inch steel 7-iron. The
+  numbered set ran 2-iron through pitching wedge, with three matching wedges that
+  Cobra listed by loft rather than by letter (50, 55 and 60 degrees), shown here as
+  GW, SW and LW. Specs below are the men's steel-shaft values from Cobra's own
+  archived spec table; graphite builds were half an inch longer throughout. Cobra
+  published an offset column for this set, but its values run backwards relative to
+  normal convention (increasing toward the wedges), so they are not reproduced here.
+specs:
+  - club: "2"
+    loft: 18.0
+    lie: 60.0
+    length: 39.5
+  - club: "3"
+    loft: 20.0
+    lie: 60.5
+    length: 39.0
+  - club: "4"
+    loft: 23.0
+    lie: 61.0
+    length: 38.5
+  - club: "5"
+    loft: 26.0
+    lie: 61.5
+    length: 38.0
+  - club: "6"
+    loft: 29.0
+    lie: 62.0
+    length: 37.5
+  - club: "7"
+    loft: 33.0
+    lie: 62.5
+    length: 37.0
+  - club: "8"
+    loft: 37.0
+    lie: 63.0
+    length: 36.5
+  - club: "9"
+    loft: 41.0
+    lie: 63.5
+    length: 36.0
+  - club: "PW"
+    loft: 45.0
+    lie: 64.0
+    length: 35.75
+  - club: "GW"
+    loft: 50.0
+    lie: 64.0
+    length: 35.5
+  - club: "SW"
+    loft: 55.0
+    lie: 64.0
+    length: 35.25
+  - club: "LW"
+    loft: 60.0
+    lie: 64.0
+    length: 35.25
+sources:
+  - "Cobra Golf official 'COBRA IRON SPECIFICATIONS' page (cobragolf.com/irons/specs.asp), archived 2004-02-21 via web.archive.org — retrieved directly; the 'King Cobra Men's SS-i Oversize' block supplies loft, lie, offset, swing weight and both graphite and steel lengths for the 2-iron through the 60-degree wedge"
+  - "Head material (431 stainless), undercut cavity and urethane insert corroborated by retailer and review descriptions (2nd Swing, golfreview.com user reviews); 2003 introduction date corroborated by Cobra brand histories citing the Golf Datatech year-end report"
+related_models:
+  - slug: "cobra/s3-irons"
+    label: "Later Cobra game-improvement iron: S3"
+faq:
+  - q: "What is the loft of a Cobra SS-i 7-iron?"
+    a: "The Cobra King Cobra SS-i Oversize 7-iron has a loft of 33 degrees, a lie of 62.5 degrees and a steel-shaft length of 37.00 inches."
+  - q: "Is the Cobra SS-i a forged iron?"
+    a: "No. The SS-i Oversize is investment cast from 431 stainless steel. Cobra sold a separate King Cobra SS Forged set at the same time, which had different lofts."
+  - q: "What wedges came with the Cobra SS-i set?"
+    a: "Cobra listed the SS-i wedges by loft rather than by letter: 50, 55 and 60 degrees, alongside a 45-degree pitching wedge."
+confidence: high

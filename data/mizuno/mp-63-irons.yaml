@@ -1,0 +1,89 @@
+brand: Mizuno
+brand_slug: mizuno
+model: MP-63
+slug: mp-63-irons
+club_type: irons
+year_introduced: 2010
+year_discontinued: 2011
+category: players
+construction: forged
+material: 1025E Pure Select mild carbon steel
+successor: Mizuno MP-58
+predecessor: Mizuno MP-53
+description: >
+  The MP-63 is a Grain Flow Forged players cavity back and the smaller, lower-offset half
+  of the pair Mizuno released with the MP-53. It shares that model's lofts, lies and
+  lengths exactly but is built on a more compact head with offset of 0.122 inches or less
+  through the set. The 7-iron is 34 degrees and the pitching wedge 46 degrees, and the
+  stock set was 3-PW with True Temper Dynamic Gold shafts.
+  Lengths and lofts listed are the standard men's steel-shaft specification.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 59.5
+    length: 38.75
+    offset: 0.122
+    bounce: 2.0
+  - club: "4"
+    loft: 24.0
+    lie: 60.0
+    length: 38.25
+    offset: 0.122
+    bounce: 2.0
+  - club: "5"
+    loft: 27.0
+    lie: 60.5
+    length: 37.75
+    offset: 0.122
+    bounce: 2.0
+  - club: "6"
+    loft: 30.0
+    lie: 61.0
+    length: 37.25
+    offset: 0.114
+    bounce: 3.0
+  - club: "7"
+    loft: 34.0
+    lie: 61.5
+    length: 36.75
+    offset: 0.114
+    bounce: 3.0
+  - club: "8"
+    loft: 38.0
+    lie: 62.0
+    length: 36.25
+    offset: 0.110
+    bounce: 4.0
+  - club: "9"
+    loft: 42.0
+    lie: 62.5
+    length: 35.75
+    offset: 0.106
+    bounce: 5.0
+  - club: "PW"
+    loft: 46.0
+    lie: 63.0
+    length: 35.50
+    offset: 0.102
+    bounce: 6.0
+stock_shafts:
+  - name: "True Temper Dynamic Gold S300"
+    material: steel
+sources:
+  - "golfclubspec.com iron specification database, Mizuno MP-63 entry (loft, lie, length, offset, bounce for 3-PW plus the Dynamic Gold S300 stock shaft)"
+  - "TheSandTrap.com Mizuno MP-63 irons review, corroborating the loft, lie, length and bounce table and the True Temper Dynamic Gold stock shaft"
+  - "Note: golfclubspec dates its MP-63 entry to the 2011 catalogue; the introduction year recorded here follows the MP players cavity-back chronology used across this site."
+  - "Note: year_discontinued is taken as the year the successor model was introduced."
+related_models:
+  - slug: "mizuno/mp-53-irons"
+    label: "Predecessor: Mizuno MP-53"
+  - slug: "mizuno/mp-58-irons"
+    label: "Successor: Mizuno MP-58"
+faq:
+  - q: "What is the loft of a Mizuno MP-63 7-iron?"
+    a: "The Mizuno MP-63 7-iron has a loft of 34 degrees, with a 61.5-degree lie and a 36.75-inch steel-shaft length."
+  - q: "How much offset do the Mizuno MP-63 irons have?"
+    a: "Very little. Offset runs from 0.122 inches at the 3-iron down to 0.102 inches at the pitching wedge, close to Mizuno's MP-68 blade of the same period."
+  - q: "What is the difference between the MP-63 and the MP-53?"
+    a: "The lofts, lies and lengths are identical. The MP-63 is the more compact head with less offset, while the MP-53 is larger and carries roughly 0.02 inches more offset through the long irons."
+confidence: medium

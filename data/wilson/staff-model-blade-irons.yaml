@@ -1,0 +1,84 @@
+brand: Wilson
+brand_slug: wilson
+model: Staff Model Blade
+slug: staff-model-blade-irons
+club_type: irons
+year_introduced: 2019
+year_discontinued: null
+category: blade
+construction: forged
+material: soft-forged 8620 carbon steel, precision milled
+successor: null
+predecessor: Wilson Staff FG Tour 100
+description: >
+  The Staff Model Blade is Wilson's muscle-back tour iron, unveiled in January
+  2019 after prototype versions were played on tour and carried forward through
+  later refreshes alongside the Staff Model CB cavity back. Heads are
+  soft-forged from 8620 carbon steel and then precision milled, with a compact
+  profile, minimal offset and Wilson's Fluid Feel Hosel, which removes mass from
+  the hosel to allow a slightly larger head and wider sole. Lofts are
+  traditional, with a 34-degree 7-iron and a 46-degree pitching wedge, matching
+  the Staff Model CB through the set. Clubs are built from 2-iron through
+  pitching wedge, with 3-PW and 4-PW the usual stock sets. Figures below are the
+  standard men's steel-shaft specification.
+specs:
+  - club: "2"
+    loft: 18.0
+    lie: 59.0
+    length: 39.75
+    swing_weight: D2
+  - club: "3"
+    loft: 20.0
+    lie: 59.5
+    length: 39.25
+    swing_weight: D2
+  - club: "4"
+    loft: 23.0
+    lie: 60.0
+    length: 38.75
+    swing_weight: D2
+  - club: "5"
+    loft: 26.0
+    lie: 61.0
+    length: 38.25
+    swing_weight: D2
+  - club: "6"
+    loft: 30.0
+    lie: 61.5
+    length: 37.75
+    swing_weight: D2
+  - club: "7"
+    loft: 34.0
+    lie: 62.0
+    length: 37.25
+    swing_weight: D2
+  - club: "8"
+    loft: 38.0
+    lie: 63.0
+    length: 36.75
+    swing_weight: D2
+  - club: "9"
+    loft: 42.0
+    lie: 63.5
+    length: 36.25
+    swing_weight: D2
+  - club: "PW"
+    loft: 46.0
+    lie: 64.0
+    length: 35.75
+    swing_weight: D2
+sources:
+  - "2nd Swing Golf 'Wilson Staff Staff Model Blade Iron Set' specification table (club, loft, length, lie, swing weight, 2-iron through PW) and its 3-PW / 4-PW set listings — retrieved July 2026. Retailer-published table, not a Wilson spec sheet."
+  - "Today's Golfer, January 2019, 'Wilson reveal new Staff Model blade irons' — reveal date and the tour-prototype background. Note the model is often grouped with the 2020 Staff Model CB as Wilson's players line, but the Blade itself was launched a year earlier."
+  - "Plugged In Golf 'Wilson Staff Model Blades Irons Review' (2019) — Fluid Feel Hosel, soft-forged 8620 carbon steel construction and milled finishing. That review also notes Wilson did not publish bounce specs, so bounce is omitted here. Offset is omitted because available listings disagreed on it."
+related_models:
+  - slug: "wilson/staff-model-cb-irons"
+    label: "Companion cavity back: Wilson Staff Model CB"
+faq:
+  - q: "What is the loft of a Wilson Staff Model Blade 7-iron?"
+    a: "The Wilson Staff Model Blade 7-iron has a loft of 34 degrees, with a 62-degree lie and a 37.25-inch steel-shaft length."
+  - q: "What clubs come in a Wilson Staff Model Blade set?"
+    a: "The Blade is built from 2-iron through pitching wedge, and is normally sold as a 3-PW or 4-PW set. There is no gap wedge in the blade range."
+  - q: "Do the Staff Model Blade and Staff Model CB share lofts?"
+    a: "Yes. Both run 18 degrees at the 2-iron to 46 degrees at the pitching wedge with the same lengths, so the two can be combined in a mixed set. Only the CB adds a 50-degree gap wedge."
+confidence: medium

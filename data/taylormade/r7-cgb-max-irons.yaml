@@ -1,0 +1,115 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: r7 CGB Max
+slug: r7-cgb-max-irons
+club_type: irons
+year_introduced: 2007
+year_discontinued: 2009
+category: super-game-improvement
+construction: investment cast, multi-material
+material: stainless steel with tungsten weighting
+successor: null
+predecessor: r7
+description: >
+  The r7 CGB Max was the largest and most forgiving iron in TaylorMade's line, announced
+  in October 2007 and at retail from 30 October 2007. It combines an oversize head with
+  toe and heel tungsten weights for very high MOI, a thin high-strength steel face with
+  Inverted Cone Technology, and a rearward centre of gravity to make the ball easy to
+  launch. The SuperFast package pairs it with a light 90-gram steel shaft and a light
+  grip. The 7-iron is 30 degrees and the stock range runs from a 3-iron to a 59-degree
+  lob wedge. Specs below are the men's standard steel-shaft build.
+specs:
+  - club: "3"
+    loft: 19.0
+    lie: 61.0
+    length: 38.75
+    offset: 0.236
+    swing_weight: D0
+  - club: "4"
+    loft: 21.0
+    lie: 61.5
+    length: 38.25
+    offset: 0.224
+    swing_weight: D0
+  - club: "5"
+    loft: 23.0
+    lie: 62.0
+    length: 37.75
+    offset: 0.209
+    swing_weight: D0
+  - club: "6"
+    loft: 26.0
+    lie: 62.5
+    length: 37.25
+    offset: 0.197
+    swing_weight: D0
+  - club: "7"
+    loft: 30.0
+    lie: 63.0
+    length: 36.75
+    offset: 0.185
+    swing_weight: D0
+  - club: "8"
+    loft: 34.0
+    lie: 63.5
+    length: 36.25
+    offset: 0.169
+    swing_weight: D0
+  - club: "9"
+    loft: 39.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.157
+    swing_weight: D0
+  - club: "PW"
+    loft: 44.0
+    lie: 64.5
+    length: 35.5
+    offset: 0.146
+    swing_weight: D0
+  - club: "AW"
+    loft: 49.0
+    lie: 64.5
+    length: 35.5
+    offset: 0.146
+    swing_weight: D0
+  - club: "SW"
+    loft: 54.0
+    lie: 64.5
+    length: 35.25
+    offset: 0.039
+    swing_weight: D2
+  - club: "LW"
+    loft: 59.0
+    lie: 64.5
+    length: 35.0
+    offset: 0.039
+    swing_weight: D3
+stock_shafts:
+  - name: "TaylorMade RE*AX SuperFast Black Steel 90"
+    material: steel
+    weight: "90 g"
+    flex: ["R", "S"]
+  - name: "TaylorMade RE*AX SuperFast 55"
+    material: graphite
+    weight: "55 g"
+    flex: ["M", "R", "S"]
+sources:
+  - "TaylorMade official r7 CGB Max Irons sell sheet, r7 cgb max irons specifications table (loft, lie, offset in mm, steel length, steel swingweight, grip), taylormadegolf.com/docs/productspecs/r7CGBmax_iron_SS.pdf"
+  - "Same sell sheet, feature table and shaft footnote (tungsten weights, Inverted Cone Technology, SuperFast Technology, RE*AX SuperFast Black Steel 90 and SuperFast 55 graphite)"
+  - "The Golf Wire press release, TaylorMade Golf Introduces r7 CGB MAX Driver, Fairway Woods and Irons (announced 10 October 2007, irons at retail 30 October 2007, stock range 3-iron through lob wedge)"
+related_models:
+  - slug: "taylormade/r7-irons"
+    label: "Predecessor: TaylorMade r7"
+  - slug: "taylormade/r7-draw-irons"
+    label: "Related r7-family iron: TaylorMade r7 Draw"
+  - slug: "taylormade/burner-plus-irons"
+    label: "Contemporary TaylorMade game-improvement iron: Burner Plus"
+faq:
+  - q: "What is the loft of a TaylorMade r7 CGB Max 7-iron?"
+    a: "The TaylorMade r7 CGB Max 7-iron has a loft of 30 degrees, with a 63-degree lie and a 36.75-inch steel-shaft length."
+  - q: "Are the r7 CGB Max irons strong-lofted?"
+    a: "Yes. The set runs about 2 degrees stronger than the standard r7 through the mid-irons, with a 30-degree 7-iron and a 44-degree pitching wedge, and it uses a compressed 5-iron to 3-iron gap of only 2 degrees each."
+  - q: "Who were the r7 CGB Max irons designed for?"
+    a: "They were TaylorMade's maximum-forgiveness iron, aimed at golfers who want the easiest possible launch. The head is oversize with toe and heel tungsten weights for very high MOI, and the whole club is built light to add clubhead speed."
+confidence: high

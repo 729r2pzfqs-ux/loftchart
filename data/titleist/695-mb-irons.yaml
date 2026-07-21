@@ -1,0 +1,100 @@
+brand: Titleist
+brand_slug: titleist
+model: 695.MB
+slug: 695-mb-irons
+club_type: irons
+year_introduced: 2006
+year_discontinued: 2008
+category: blade
+construction: forged muscleback
+material: forged carbon steel
+successor: Titleist 710 MB
+predecessor: Titleist 690.MB
+description: >
+  The 695.MB is the 2006 forged muscleback that replaced the 690.MB and shares
+  its loft ladder exactly: 19 degrees at the 2-iron through 48 degrees at the
+  pitching wedge, with a 36 degree 7-iron. What changed is the geometry around
+  those lofts. Lies are upright by a degree and a half at the 7-iron, 63
+  degrees against 61.5, and every shaft is three quarters of an inch longer,
+  so the set plays taller and longer than the 690.MB despite identical lofts.
+  It is the direct blade counterpart to the 695.CB.
+specs:
+  - club: "2"
+    loft: 19
+    lie: 59
+    length: 39.5
+    offset: 0.140
+    bounce: 1.5
+    swing_weight: D2
+  - club: "3"
+    loft: 22
+    lie: 60
+    length: 39
+    offset: 0.135
+    bounce: 2
+    swing_weight: D2
+  - club: "4"
+    loft: 25
+    lie: 61
+    length: 38.5
+    offset: 0.130
+    bounce: 3
+    swing_weight: D2
+  - club: "5"
+    loft: 28
+    lie: 62
+    length: 38
+    offset: 0.125
+    bounce: 4
+    swing_weight: D2
+  - club: "6"
+    loft: 32
+    lie: 62.5
+    length: 37.5
+    offset: 0.120
+    bounce: 4.5
+    swing_weight: D2
+  - club: "7"
+    loft: 36
+    lie: 63
+    length: 37
+    offset: 0.110
+    bounce: 5
+    swing_weight: D2
+  - club: "8"
+    loft: 40
+    lie: 63.5
+    length: 36.5
+    offset: 0.100
+    bounce: 6
+    swing_weight: D2
+  - club: "9"
+    loft: 44
+    lie: 64
+    length: 36
+    offset: 0.090
+    bounce: 7
+    swing_weight: D2
+  - club: "PW"
+    loft: 48
+    lie: 64
+    length: 35.75
+    offset: 0.085
+    bounce: 8
+    swing_weight: D2
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+sources:
+  - "Titleist previous-models archived product page, titleist.com/golf-clubs/irons/2006-forged-695mb, via the Internet Archive (full manufacturer table: offset, bounce, loft, length, lie, swing weight)"
+related_models:
+  - slug: "titleist/695-cb-irons"
+    label: "Cavity-back sibling: Titleist 695.CB"
+faq:
+  - q: "What is the loft of a Titleist 695.MB 7-iron?"
+    a: "The Titleist 695.MB 7-iron is 36 degrees, with a 63 degree lie and a 37 inch standard steel length."
+  - q: "What is the difference between the Titleist 695.MB and 690.MB?"
+    a: "The lofts are identical across the set. The 695.MB is a degree and a half more upright at the 7-iron and every club is three quarters of an inch longer."
+  - q: "What is the difference between the 695.MB and the 695.CB?"
+    a: "The 695.MB is a muscleback blade and the 695.CB is a cavity back. The MB is two degrees weaker through the set, with a 36 degree 7-iron against 34 degrees."
+confidence: high

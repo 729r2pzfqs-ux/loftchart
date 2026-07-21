@@ -1,0 +1,97 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: TP MB
+slug: tp-mb-irons
+club_type: irons
+year_introduced: 2014
+year_discontinued: 2015
+category: blade
+construction: forged
+material: 1025 carbon steel
+successor: P7MB
+predecessor: null
+description: >
+  The Tour Preferred MB was the muscleback blade in TaylorMade's 2014 Tour Preferred
+  range, sitting below the MC cavity and the CB in forgiveness. It is precisely forged
+  from soft 1025 carbon steel, with a thin topline that runs seamlessly into the hosel,
+  milled grooves and a precision-shaped sole with reduced camber requested by tour
+  players. The set is a traditional 3-iron through pitching wedge with a 35-degree
+  7-iron and a 47-degree pitching wedge, roughly 2 to 3 degrees weaker than the
+  companion TP CB. Specs below are the men's standard steel-shaft build.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 60.5
+    length: 38.75
+    offset: 0.124
+    bounce: 0.0
+    swing_weight: D3
+  - club: "4"
+    loft: 24.0
+    lie: 61.0
+    length: 38.25
+    offset: 0.112
+    bounce: 1.0
+    swing_weight: D3
+  - club: "5"
+    loft: 27.0
+    lie: 61.5
+    length: 37.75
+    offset: 0.096
+    bounce: 2.3
+    swing_weight: D3
+  - club: "6"
+    loft: 31.0
+    lie: 62.0
+    length: 37.25
+    offset: 0.087
+    bounce: 3.3
+    swing_weight: D3
+  - club: "7"
+    loft: 35.0
+    lie: 62.5
+    length: 36.75
+    offset: 0.079
+    bounce: 4.2
+    swing_weight: D3
+  - club: "8"
+    loft: 39.0
+    lie: 63.0
+    length: 36.25
+    offset: 0.071
+    bounce: 6.4
+    swing_weight: D3
+  - club: "9"
+    loft: 43.0
+    lie: 63.5
+    length: 35.75
+    offset: 0.063
+    bounce: 7.7
+    swing_weight: D3
+  - club: "PW"
+    loft: 47.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.055
+    bounce: 8.5
+    swing_weight: D3.5
+stock_shafts:
+  - name: "KBS Tour"
+    material: steel
+    flex: ["R", "S", "X"]
+sources:
+  - "TaylorMade official 2014 Tour Preferred MB sell sheet (full spec table: loft, lie, offset in mm, bounce, length, swingweight, KBS Tour shaft, Tour Velvet grip), taylormadegolf.com/docs/productspecs/2014/Tour-Preferred-MB.pdf"
+  - "8-iron length: the 2014 sell sheet prints 35.25 inches, which breaks the 0.5-inch progression and is a typographical error; 36.25 inches is used here, matching the identical length ladder on TaylorMade's earlier official Tour Preferred MB sheet (2011 TaylorMade Irons catalog p.13, taylormadegolf.com/docs/productspecs/Tour_Preferred_Irons.pdf)"
+related_models:
+  - slug: "taylormade/tp-cb-irons"
+    label: "Same 2014 Tour Preferred family: TaylorMade TP CB"
+  - slug: "taylormade/p7mb-irons"
+    label: "Successor blade: TaylorMade P7MB"
+faq:
+  - q: "What is the loft of a TaylorMade TP MB 7-iron?"
+    a: "The TaylorMade TP MB 7-iron has a loft of 35 degrees, with a 62.5-degree lie and a 36.75-inch steel-shaft length."
+  - q: "Are the TaylorMade TP MB irons forged?"
+    a: "Yes. The 2014 Tour Preferred MB is a one-piece muscleback forged from soft 1025 carbon steel, with grooves milled after forging and a hand-polished satin nickel-chrome finish."
+  - q: "What is the pitching wedge loft on the TP MB?"
+    a: "The TP MB pitching wedge is 47 degrees, which is traditional for a blade and about 2 to 5 degrees weaker than a game-improvement pitching wedge of the same era."
+confidence: high

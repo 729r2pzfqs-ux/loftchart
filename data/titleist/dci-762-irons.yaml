@@ -1,0 +1,114 @@
+brand: Titleist
+brand_slug: titleist
+model: DCI 762
+slug: dci-762-irons
+club_type: irons
+year_introduced: 2001
+year_discontinued: 2003
+category: game-improvement
+construction: investment cast, dual cavity
+material: 17-4 stainless steel
+successor: Titleist DCI 962
+predecessor: Titleist DCI 990
+description: >
+  The DCI 762 is the 2001 dual-cavity iron that replaced the DCI 990 at the
+  game-improvement end of the Titleist range. It is investment cast in 17-4
+  stainless with a dual-cavity back that pushes weight low and to the
+  perimeter, and it runs noticeably stronger than the 990 it replaced: the
+  7-iron is 34 degrees against 36, and the set carries a half-degree 3-iron
+  loft of 21.5 degrees. Offset tapers from .180 inches at the 1-iron to .099
+  inches at the gap wedge, and every club is built to D2 swing weight.
+specs:
+  - club: "1"
+    loft: 17
+    lie: 58
+    length: 40
+    offset: 0.180
+    bounce: 1
+    swing_weight: D2
+  - club: "2"
+    loft: 19
+    lie: 59
+    length: 39.5
+    offset: 0.171
+    bounce: 1
+    swing_weight: D2
+  - club: "3"
+    loft: 21.5
+    lie: 60
+    length: 39
+    offset: 0.158
+    bounce: 1
+    swing_weight: D2
+  - club: "4"
+    loft: 24
+    lie: 61
+    length: 38.5
+    offset: 0.144
+    bounce: 2
+    swing_weight: D2
+  - club: "5"
+    loft: 27
+    lie: 62
+    length: 38
+    offset: 0.132
+    bounce: 4
+    swing_weight: D2
+  - club: "6"
+    loft: 30
+    lie: 62.5
+    length: 37.5
+    offset: 0.119
+    bounce: 5
+    swing_weight: D2
+  - club: "7"
+    loft: 34
+    lie: 63
+    length: 37
+    offset: 0.109
+    bounce: 6
+    swing_weight: D2
+  - club: "8"
+    loft: 38
+    lie: 64
+    length: 36.5
+    offset: 0.103
+    bounce: 7
+    swing_weight: D2
+  - club: "9"
+    loft: 42
+    lie: 64
+    length: 36
+    offset: 0.100
+    bounce: 8
+    swing_weight: D2
+  - club: "PW"
+    loft: 46
+    lie: 64
+    length: 35.75
+    offset: 0.099
+    bounce: 9
+    swing_weight: D2
+  - club: "W"
+    loft: 50
+    lie: 64
+    length: 35.5
+    offset: 0.099
+    bounce: 9
+    swing_weight: D2
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+sources:
+  - "Titleist previous-models archived product page, titleist.com/golf-clubs/irons/dci-762, via the Internet Archive (full manufacturer table: length, loft, lie, offset, swing weight, bounce)"
+related_models:
+  - slug: "titleist/dci-990-irons"
+    label: "Predecessor: Titleist DCI 990"
+faq:
+  - q: "What is the loft of a Titleist DCI 762 7-iron?"
+    a: "The Titleist DCI 762 7-iron is 34 degrees, with a 63 degree lie and a 37 inch standard steel length."
+  - q: "How do the DCI 762 lofts compare with the DCI 990?"
+    a: "The DCI 762 is two degrees stronger through the middle of the set: its 7-iron is 34 degrees against 36 degrees on the DCI 990, and its pitching wedge is 46 degrees against 49."
+  - q: "What is the pitching wedge loft on the Titleist DCI 762?"
+    a: "The DCI 762 pitching wedge is 46 degrees, and the matching gap wedge, badged W, is 50 degrees."
+confidence: high

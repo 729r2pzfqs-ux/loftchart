@@ -1,0 +1,116 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: SIM2 Max
+slug: sim2-max-irons
+club_type: irons
+year_introduced: 2021
+year_discontinued: 2021
+category: game-improvement
+construction: investment cast Cap Back design with Thru-Slot Speed Pocket
+material: stainless steel
+successor: Stealth
+predecessor: SIM Max
+description: >
+  The SIM2 Max replaced the SIM Max in 2021 and swapped the Speed Bridge for the
+  Cap Back design, a stiffening structure moved back and away from the topline
+  so the face and the ECHO Damping System could be enlarged. The face is thinner
+  than the SIM Max and uses progressive Inverted Cone Technology, with a
+  Thru-Slot Speed Pocket in the sole of the longer irons. Lofts and lengths
+  carry over unchanged from the SIM Max, with a 28.5-degree 7-iron, a
+  43.5-degree pitching wedge and TaylorMade's progressive length set measured on
+  the ground plane. Specs below are the men's standard steel-shaft build.
+specs:
+  - club: "4"
+    loft: 19.0
+    lie: 61.5
+    length: 39.125
+    offset: 0.228
+    bounce: 2.0
+    swing_weight: D1
+  - club: "5"
+    loft: 21.5
+    lie: 62.0
+    length: 38.5
+    offset: 0.205
+    bounce: 3.5
+    swing_weight: D1
+  - club: "6"
+    loft: 25.0
+    lie: 62.5
+    length: 37.88
+    offset: 0.185
+    bounce: 5.0
+    swing_weight: D1
+  - club: "7"
+    loft: 28.5
+    lie: 63.0
+    length: 37.25
+    offset: 0.165
+    bounce: 5.6
+    swing_weight: D1
+  - club: "8"
+    loft: 32.5
+    lie: 63.5
+    length: 36.75
+    offset: 0.138
+    bounce: 6.3
+    swing_weight: D1
+  - club: "9"
+    loft: 38.0
+    lie: 64.0
+    length: 36.25
+    offset: 0.118
+    bounce: 6.8
+    swing_weight: D1
+  - club: "PW"
+    loft: 43.5
+    lie: 64.5
+    length: 35.75
+    offset: 0.102
+    bounce: 7.8
+    swing_weight: D1
+  - club: "AW"
+    loft: 49.0
+    lie: 64.5
+    length: 35.5
+    offset: 0.079
+    bounce: 9.0
+    swing_weight: D1
+  - club: "SW"
+    loft: 54.0
+    lie: 64.5
+    length: 35.25
+    offset: 0.059
+    bounce: 9.0
+    swing_weight: D3
+  - club: "LW"
+    loft: 59.0
+    lie: 64.5
+    length: 35.0
+    offset: 0.059
+    bounce: 9.0
+    swing_weight: D3
+stock_shafts:
+  - name: "KBS Max 85 MT"
+    material: steel
+    weight: "85 g"
+  - name: "Fujikura Ventus Blue"
+    material: graphite
+sources:
+  - "TaylorMade official SIM2 Max Irons product page specifications table, taylormadegolf.com/SIM2-Max-Irons/DW-TA164.html (archived May 2021 via archive.org)"
+  - "TaylorMade 2021 Custom Component Booklet (updated 03/02/21), 2021 Irons spec pages, taylormadegolf.com/.../manuals/2021CustomComponentBooklet.pdf"
+related_models:
+  - slug: "taylormade/sim-max-irons"
+    label: "Predecessor: TaylorMade SIM Max"
+  - slug: "taylormade/stealth-irons"
+    label: "Successor: TaylorMade Stealth"
+faq:
+  - q: "What is the loft of a TaylorMade SIM2 Max 7-iron?"
+    a: "The TaylorMade SIM2 Max 7-iron has a loft of 28.5 degrees, with a 63-degree lie and a 37.25-inch steel-shaft length."
+  - q: "Did the lofts change between the SIM Max and SIM2 Max irons?"
+    a: "No. The two sets share the same loft, lie, length and offset through the whole set, from a 19-degree 4-iron to a 59-degree lob wedge. The changes are structural, chiefly the move from the Speed Bridge to the Cap Back design."
+  - q: "What is the Cap Back design on the SIM2 Max irons?"
+    a: "The Cap Back is a stiffening structure set back from the topline rather than bridging it, as the earlier Speed Bridge did. Moving it back allowed a larger, thinner face and a bigger ECHO Damping insert while keeping the sound and feel under control."
+  - q: "What is the pitching wedge loft on the SIM2 Max irons?"
+    a: "The SIM2 Max pitching wedge is 43.5 degrees, with a 49-degree approach wedge, a 54-degree sand wedge and a 59-degree lob wedge available in the set."
+confidence: high

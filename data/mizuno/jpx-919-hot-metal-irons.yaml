@@ -1,0 +1,106 @@
+brand: Mizuno
+brand_slug: mizuno
+model: JPX-919 Hot Metal
+slug: jpx-919-hot-metal-irons
+club_type: irons
+year_introduced: 2018
+year_discontinued: 2020
+category: game-improvement
+construction: investment cast
+material: Chromoly 4140M
+successor: JPX-921 Hot Metal
+predecessor: JPX-900 Hot Metal
+description: >
+  The JPX-919 Hot Metal is the cast, distance-oriented member of the 2018 JPX
+  family, built from Chromoly 4140M with a face milled down to 2.0 mm behind
+  impact. It carried a wider sole, a thicker topline and considerably more
+  offset than the JPX-919 Forged, running from 0.230 inches in the 4-iron to
+  0.102 inches in the wedges. Lofts are materially stronger than the Forged
+  model of the same generation: the 7-iron is 30 degrees and the pitching wedge
+  45 degrees, against 32 and 46 degrees on the Forged.
+  The stock set ran 4-iron through lob wedge.
+  Lofts, lies and lengths listed are the men's standard steel-shaft build.
+specs:
+  - club: "4"
+    loft: 20.0
+    lie: 60.0
+    length: 38.5
+    offset: 0.230
+    swing_weight: D2
+  - club: "5"
+    loft: 23.0
+    lie: 60.5
+    length: 38.0
+    offset: 0.211
+    swing_weight: D2
+  - club: "6"
+    loft: 26.0
+    lie: 61.0
+    length: 37.5
+    offset: 0.191
+    swing_weight: D2
+  - club: "7"
+    loft: 30.0
+    lie: 61.5
+    length: 37.0
+    offset: 0.179
+    swing_weight: D2
+  - club: "8"
+    loft: 35.0
+    lie: 62.0
+    length: 36.5
+    offset: 0.167
+    swing_weight: D2
+  - club: "9"
+    loft: 40.0
+    lie: 62.5
+    length: 36.0
+    offset: 0.148
+    swing_weight: D3
+  - club: "PW"
+    loft: 45.0
+    lie: 63.0
+    length: 35.5
+    offset: 0.128
+    swing_weight: D4
+  - club: "GW"
+    loft: 50.0
+    lie: 63.0
+    length: 35.25
+    offset: 0.114
+    swing_weight: D4
+  - club: "SW"
+    loft: 55.0
+    lie: 63.0
+    length: 35.25
+    offset: 0.102
+    swing_weight: D4
+  - club: "LW"
+    loft: 60.0
+    lie: 63.0
+    length: 35.25
+    offset: 0.102
+    swing_weight: D4
+stock_shafts:
+  - name: "Nippon N.S. Pro Modus3 Tour 105"
+    material: steel
+sources:
+  - "2ndswing.com Mizuno JPX 919 Hot Metal Iron Set specification table (loft/lie/length/offset/swingweight, 4-LW)"
+  - "drivingrangeheroes.com Mizuno JPX 919 Hot Metal review, stock spec table (corroborates loft/lie/length; it lists the PW at 35.25 inches where 2nd Swing lists 35.5 inches, and 35.5 was used here to match the rest of the JPX series)"
+  - "golfalot.com Mizuno JPX919 Hot Metal iron review (stock Nippon Modus3 Tour 105 steel shaft)"
+  - "Bounce angles were not published in any spec table located for this model, so the bounce key is omitted."
+related_models:
+  - slug: "mizuno/jpx-919-forged-irons"
+    label: "Same generation, weaker lofts: Mizuno JPX-919 Forged"
+  - slug: "mizuno/jpx-921-hot-metal-irons"
+    label: "Successor: Mizuno JPX-921 Hot Metal"
+  - slug: "mizuno/jpx-900-hot-metal-irons"
+    label: "Predecessor: Mizuno JPX-900 Hot Metal"
+faq:
+  - q: "What is the loft of a Mizuno JPX-919 Hot Metal 7-iron?"
+    a: "The Mizuno JPX-919 Hot Metal 7-iron has a loft of 30 degrees, with a 61.5-degree lie and a 37-inch steel-shaft length."
+  - q: "Is the JPX-919 Hot Metal stronger-lofted than the JPX-919 Forged?"
+    a: "Yes. The Hot Metal is two degrees stronger in the 4-, 5-, 6- and 7-irons and one degree stronger from the 8-iron down, so its 30-degree 7-iron sits against the Forged model's 32 degrees."
+  - q: "What wedges were in the JPX-919 Hot Metal set?"
+    a: "The stock range was 4-iron through lob wedge, with a 45-degree pitching wedge, 50-degree gap wedge, 55-degree sand wedge and 60-degree lob wedge."
+confidence: high
