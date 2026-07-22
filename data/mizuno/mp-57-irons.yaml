@@ -3,7 +3,7 @@ brand_slug: mizuno
 model: MP-57
 slug: mp-57-irons
 club_type: irons
-year_introduced: 2008
+year_introduced: 2007
 year_discontinued: 2009
 category: players
 construction: forged
@@ -75,6 +75,7 @@ sources:
   - "TheSandTrap.com Mizuno MP-57 irons review, reproducing Mizuno's published spec table (loft/lie/length/offset/bounce), material and stock shafts"
   - "GolfWRX forum thread 'Mizuno MP-57 loft specifications' with a matching loft table"
   - "mizunogolf.com US irons timeline (production years 2008-2009)"
+  - "Note: the MP-57 was introduced in September 2007, not 2008. TheSandTrap's launch piece 'Mizuno Introduces MP-57 Irons and Much More' (10 October 2007) says the set ships in September; the MP-52 and MP-62 that followed it were introduced a year later, on 30 September 2008. Corrected to 2007."
 related_models:
   - slug: "mizuno/mp-32-irons"
     label: "Earlier Cut Muscle design: Mizuno MP-32"

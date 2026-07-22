@@ -4,12 +4,12 @@ model: MP-62
 slug: mp-62-irons
 club_type: irons
 year_introduced: 2008
-year_discontinued: 2009
+year_discontinued: 2010
 category: players
 construction: forged
 material: 1025E mild carbon steel
-successor: Mizuno MP-53
-predecessor: Mizuno MP-52
+successor: Mizuno MP-63
+predecessor: null
 description: >
   The MP-62 is a Grain Flow Forged players cavity back built around a dual muscle design,
   with mass split between a low bar and an upper pad to keep the centre of gravity central
@@ -62,11 +62,13 @@ sources:
   - "2ndswing.com Mizuno MP-62 iron set listing, corroborating the minimal-offset dual muscle description"
   - "Note: Mizuno's per-club offset and bounce figures for the MP-62 could not be corroborated, so those keys are omitted rather than estimated."
   - "Note: year_discontinued is taken as the year the successor model was introduced."
+  - "Note: the MP-62 and MP-52 were introduced in the same announcement, datelined 30 September 2008 (TheSandTrap, 'Mizuno Introduces MP-52, MP-62, MX-100 and MX-200 Irons'), so the MP-52 is a sibling rather than a predecessor and that field is now unset."
+  - "Note: the successor field previously named the MP-53. The MP-53 and MP-63 were launched together on 8 September 2010, and it is the MP-63 that continues the MP-62's minimal-offset design, so the field is corrected to the MP-63 and year_discontinued moves from 2009 to 2010 accordingly."
 related_models:
   - slug: "mizuno/mp-52-irons"
-    label: "Predecessor: Mizuno MP-52"
-  - slug: "mizuno/mp-53-irons"
-    label: "Successor: Mizuno MP-53"
+    label: "Sibling model introduced the same day: Mizuno MP-52"
+  - slug: "mizuno/mp-63-irons"
+    label: "Successor: Mizuno MP-63"
 faq:
   - q: "What is the loft of a Mizuno MP-62 7-iron?"
     a: "The Mizuno MP-62 7-iron has a loft of 35 degrees, with a 61.5-degree lie and a 36.75-inch steel-shaft length."

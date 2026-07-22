@@ -48,6 +48,16 @@ confidence: high                 # high | medium | low — how well-verified the
   If a field can't be corroborated, omit that key rather than guessing.
 - Set `confidence: medium` or `low` and say so in `sources` when the numbers come from
   secondary sources rather than a manufacturer spec sheet.
+- `year_introduced` is the **announcement year** — the calendar year the maker first
+  showed the model publicly, not the marketing model year printed on the packaging and
+  not the year it reached shop floors. Several makers announce in the autumn of year N
+  and market the result as the year N+1 line; Mizuno did this consistently through the
+  MP era. Record the announcement year in those cases and note the model year in
+  `description` if it is likely to confuse. `year_discontinued` is the year the
+  successor was announced, on the same convention. Where announcement and retail fall
+  in different calendar years — Mizuno's Pro line announced in Q4 and shipped the
+  following Q1 — record which basis the year uses in `sources`, so the gap is visible
+  rather than silently resolved one way or the other.
 - Lofts/lies/lengths are the **standard steel-shaft men's** spec unless noted in `description`.
 - Every model needs at least loft + lie + length for each club.
 - Cover the real stock set composition for that model (e.g. 3-PW, 4-PW, 4-GW, plus U/SW/LW

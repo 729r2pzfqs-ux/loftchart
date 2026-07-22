@@ -3,12 +3,12 @@ brand_slug: mizuno
 model: MP-52
 slug: mp-52-irons
 club_type: irons
-year_introduced: 2007
-year_discontinued: 2008
+year_introduced: 2008
+year_discontinued: 2010
 category: players
 construction: forged
 material: 1025E mild carbon steel
-successor: Mizuno MP-62
+successor: Mizuno MP-53
 predecessor: Mizuno MP-60
 description: >
   The MP-52 is a Grain Flow Forged cavity back and was the widest-sole, most forgiving
@@ -75,11 +75,15 @@ sources:
   - "TheSandTrap.com Mizuno MP-52 irons review, reproducing Mizuno's published spec table (loft, lie, length, offset, bounce for 3-PW), the 1025E Grain Flow Forged construction, stock shafts and Golf Pride M-21 grip"
   - "Golfalot Mizuno MP-52 irons review, corroborating the same loft, lie, length, offset and bounce table"
   - "Note: year_discontinued is taken as the year the successor model was introduced."
+  - "Note: the MP-52 was introduced on 30 September 2008, not 2007. TheSandTrap's launch piece 'Mizuno Introduces MP-52, MP-62, MX-100 and MX-200 Irons' is datelined 30 September 2008 and says the sets 'are available at authorized Mizuno dealers as we speak'. Corrected to 2008."
+  - "Note: the MP-52 and MP-62 were introduced in that same announcement and are therefore siblings, not a succession; the successor field previously named the MP-62 and is corrected to the MP-53, which carries the MP-52's 0.142-inch 3-iron offset forward where the MP-63 carries the MP-62's smaller 0.122 inches. This mirrors the MP-53/MP-63 pair, which were likewise launched together."
 related_models:
   - slug: "mizuno/mp-60-irons"
     label: "Predecessor: Mizuno MP-60"
   - slug: "mizuno/mp-62-irons"
-    label: "Successor: Mizuno MP-62"
+    label: "Sibling model introduced the same day: Mizuno MP-62"
+  - slug: "mizuno/mp-53-irons"
+    label: "Successor: Mizuno MP-53"
   - slug: "mizuno/mp-57-irons"
     label: "Contemporary MP cavity back: Mizuno MP-57"
 faq:

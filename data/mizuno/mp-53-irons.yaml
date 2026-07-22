@@ -9,7 +9,7 @@ category: players
 construction: forged
 material: 1025E Pure Select mild carbon steel
 successor: null
-predecessor: Mizuno MP-62
+predecessor: Mizuno MP-52
 description: >
   The MP-53 is a Grain Flow Forged players cavity back using a Diamond Muscle shape and a
   V-shaped milled pocket that removes roughly 14 grams from behind the face and moves it
@@ -80,9 +80,10 @@ sources:
   - "Note: golfclubspec dates its MP-53 entry to the 2011 catalogue; the introduction year recorded here follows the MP players cavity-back chronology used across this site."
   - "Note: the MP-53 was revealed alongside the MP-63 on 8 September 2010 (Golf Monthly, 'Mizuno MP-63 and MP-53 irons revealed') and was available from 13 October 2010. This file previously recorded 2009, which contradicted both the MP-63 entry and this file's own description of the two as a simultaneous pair; it is corrected to 2010, consistent with the 2011 catalogue dating noted above."
   - "Note: the MP-53 and MP-63 were siblings launched the same day, not a succession, so neither is recorded as the other's predecessor or successor."
+  - "Note: the predecessor field previously named the MP-62. With the MP-52 redated to its true 30 September 2008 introduction, the MP-52 and MP-62 are a sibling pair exactly as the MP-53 and MP-63 are; the MP-53 carries the MP-52's larger head and 0.142-inch 3-iron offset while the MP-63 carries the MP-62's 0.122 inches, so the MP-52 is recorded as the predecessor here and the MP-62 as the MP-63's."
 related_models:
-  - slug: "mizuno/mp-62-irons"
-    label: "Predecessor: Mizuno MP-62"
+  - slug: "mizuno/mp-52-irons"
+    label: "Predecessor: Mizuno MP-52"
   - slug: "mizuno/mp-63-irons"
     label: "Sibling model launched the same day: Mizuno MP-63"
 faq:

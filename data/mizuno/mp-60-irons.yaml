@@ -4,7 +4,7 @@ model: MP-60
 slug: mp-60-irons
 club_type: irons
 year_introduced: 2006
-year_discontinued: 2007
+year_discontinued: 2008
 category: players
 construction: forged
 material: 1025E mild carbon steel
@@ -82,6 +82,7 @@ sources:
   - "golfbluebook.com Mizuno MP-60 research page for the Grain Flow Forged 1025 mild carbon steel Cut Muscle construction and the head being 4 percent larger than the MP-32"
   - "Note: the golfclubspec table prints the pitching wedge loft as 37 degrees, which is a transcription error; 47 degrees is used here, matching every other MP-60 source."
   - "Note: year_discontinued is taken as the year the successor model was introduced."
+  - "Note: year_discontinued follows the successor's introduction year, and the MP-52 is now correctly dated to 30 September 2008 rather than 2007; this figure moves from 2007 to 2008 to match. No dated announcement or retail source was located for the MP-60's own introduction, so year_introduced is left at 2006 on secondary sourcing and should be treated as approximate."
 related_models:
   - slug: "mizuno/mp-32-irons"
     label: "Design the MP-60 was drawn from: Mizuno MP-32"

@@ -3,8 +3,8 @@ brand_slug: mizuno
 model: MP-4
 slug: mp-4-irons
 club_type: irons
-year_introduced: 2014
-year_discontinued: 2015
+year_introduced: 2013
+year_discontinued: 2014
 category: players
 construction: forged
 material: 1025E mild carbon steel
@@ -77,6 +77,7 @@ sources:
   - "2ndswing.com Mizuno MP-4 Iron Set product page, full loft/lie/length/offset/bounce spec table and shaft listings"
   - "TheHackersParadise.com Mizuno MP-4 iron review, reproducing Mizuno's published spec table"
   - "qsponge.com Mizuno MP-4 loft table (corroborating loft/lie/length/bounce/offset)"
+  - "Note: the MP-4 was introduced in 2013, not 2014. Golfalot's first look (20 July 2013) says the iron is 'due out in September', and TheSandTrap's 15 November 2013 round-up already lists it at retail. The 2014 figure was the marketing model year. Corrected to 2013, and year_discontinued to 2014 to follow the MP-15's corrected date."
 related_models:
   - slug: "mizuno/mp-64-irons"
     label: "Predecessor: Mizuno MP-64"

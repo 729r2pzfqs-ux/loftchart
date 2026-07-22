@@ -3,7 +3,7 @@ brand_slug: mizuno
 model: MP-68
 slug: mp-68-irons
 club_type: irons
-year_introduced: 2010
+year_introduced: 2009
 year_discontinued: 2011
 category: blade
 construction: forged
@@ -78,6 +78,7 @@ sources:
   - "golfclubspec.com iron spec database, Mizuno MP-68 entry id=268 (full loft/lie/length/offset/bounce table; notes stock shafts as True Temper Dynamic Gold R300, S300 and Project X 5.5)"
   - "mizunoforum.com thread 'mp-68 specs' reproducing the Mizuno USA MP-68 spec sheet (identical loft, lie, offset, bounce and length figures; also gives European swing weights of D1-D3, which are ranges rather than a single stock value and so are omitted)"
   - "mizunogolf.com US irons timeline (production years 2010-2011) and Mizuno MP-68 product copy describing the head as forged from a single 1025E Pure Select mild carbon steel billet"
+  - "Note: the MP-68 was introduced on 4 September 2009 alongside the MP-58, and TheSandTrap's 29 September 2009 launch piece says 'You should be able to find them in stores now'. This file previously recorded 2010, which contradicted the MP-58 entry the MP-68 was launched with. Corrected to 2009."
 related_models:
   - slug: "mizuno/mp-67-irons"
     label: "Predecessor: Mizuno MP-67"

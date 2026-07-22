@@ -3,7 +3,7 @@ brand_slug: mizuno
 model: MP-15
 slug: mp-15-irons
 club_type: irons
-year_introduced: 2015
+year_introduced: 2014
 year_discontinued: 2016
 category: players
 construction: forged
@@ -76,6 +76,7 @@ sources:
   - "2ndswing.com Mizuno MP-15 Iron Set product page, full loft/lie/length/offset/bounce spec table and shaft listings"
   - "TheSandTrap.com Mizuno MP-15 irons review, reproducing Mizuno's published spec table"
   - "Todays-Golfer.com Mizuno MP-15 forged irons review (titanium muscle construction and positioning against the MP-4)"
+  - "Note: the MP-15 was introduced in 2014, not 2015. TheSandTrap's 'Now JP and MP Irons from Mizuno' is datelined 25 August 2014 and states the irons 'will be available in stores starting on September 19th', with pre-orders from 29 August 2014. The 2015 figure was the marketing model year. Corrected to 2014."
 related_models:
   - slug: "mizuno/mp-4-irons"
     label: "Predecessor: Mizuno MP-4"

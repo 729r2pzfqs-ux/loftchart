@@ -4,7 +4,7 @@ model: MP-67
 slug: mp-67-irons
 club_type: irons
 year_introduced: 2007
-year_discontinued: 2008
+year_discontinued: 2009
 category: blade
 construction: forged
 material: 1025 mild carbon steel
@@ -60,6 +60,7 @@ sources:
   - "qsponge.com Mizuno MP-67 iron specification table (loft and lie, 2-iron through pitching wedge; corroborates the loft and lie figures above and adds a 19-degree/59-degree 2-iron for which no length was published, so the 2-iron is omitted here)"
   - "mizunogolf.com US irons timeline (production years 2007-2008)"
   - "The MP-67 is not present in the golfclubspec.com database and no Mizuno spec sheet or archived official product page was found, so confidence is medium; offset, bounce and swing weight were not published and are omitted"
+  - "Note: year_discontinued follows the successor's introduction year, and the MP-68 is now correctly dated to September 2009 rather than 2010; this figure moves from 2008 to 2009 to match."
 related_models:
   - slug: "mizuno/mp-37-irons"
     label: "Predecessor: Mizuno MP-37"

@@ -3,8 +3,8 @@ brand_slug: mizuno
 model: MP-64
 slug: mp-64-irons
 club_type: irons
-year_introduced: 2013
-year_discontinued: 2014
+year_introduced: 2012
+year_discontinued: 2013
 category: players
 construction: forged
 material: 1025E mild carbon steel
@@ -75,6 +75,7 @@ sources:
   - "2ndswing.com Mizuno MP-64 Iron Set product page, loft/lie/length/bounce spec table and shaft listings"
   - "GolfWRX Mizuno MP-64 irons editor review (spec table including offset, construction detail)"
   - "MyGolfSpy 'The Club Report - Mizuno MP-64 Irons' (positioning and materials)"
+  - "Note: the MP-64 was introduced in September 2012, not 2013. TheSandTrap's 'New Irons from Mizuno' (9 October 2012) states 'This September Mizuno released four new sets of irons', the MP-64 among them; GolfWRX describes the same clubs as Mizuno's 2013 lineup, which is the marketing model year rather than the introduction year. Corrected to 2012, and year_discontinued to 2013 to follow the MP-4's corrected date."
 related_models:
   - slug: "mizuno/mp-59-irons"
     label: "Predecessor: Mizuno MP-59"
