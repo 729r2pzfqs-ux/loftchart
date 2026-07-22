@@ -1,0 +1,111 @@
+brand: Titleist
+brand_slug: titleist
+model: 681 Forged
+slug: 681-forged-irons
+club_type: irons
+year_introduced: 2001
+year_discontinued: 2002
+category: blade
+construction: forged blade
+material: forged 1030 mild carbon steel
+successor: Titleist 690.MB
+predecessor: null
+description: >
+  The 681 Forged is the 2001 blade that reopened Titleist's forged players line
+  and led directly to the 690 family. It is forged from soft 1030 mild carbon
+  steel with a thin sole of moderate camber and a constant .080 inches of
+  offset from the 2-iron down, which is the least progressive offset ladder in
+  the Titleist archive. Lofts are traditional, with a 36 degree 7-iron and a 49
+  degree pitching wedge, and lies are notably flat: 62 degrees at the 7-iron
+  against 63 on most later Titleist sets. The 1-iron was catalogued but
+  Titleist published no offset or bounce figure for it, so neither is recorded
+  here. A tour-only 681 "T" variant was offered alongside it.
+specs:
+  - club: "1"
+    loft: 17
+    lie: 57.5
+    length: 39.75
+    swing_weight: D2
+  - club: "2"
+    loft: 19
+    lie: 58
+    length: 39.25
+    offset: 0.080
+    bounce: 2
+    swing_weight: D2
+  - club: "3"
+    loft: 22
+    lie: 59
+    length: 38.75
+    offset: 0.080
+    bounce: 2
+    swing_weight: D2
+  - club: "4"
+    loft: 25
+    lie: 60
+    length: 38.25
+    offset: 0.080
+    bounce: 2
+    swing_weight: D2
+  - club: "5"
+    loft: 28
+    lie: 61
+    length: 37.75
+    offset: 0.080
+    bounce: 2
+    swing_weight: D2
+  - club: "6"
+    loft: 32
+    lie: 61.5
+    length: 37.25
+    offset: 0.080
+    bounce: 2
+    swing_weight: D2
+  - club: "7"
+    loft: 36
+    lie: 62
+    length: 36.75
+    offset: 0.080
+    bounce: 3
+    swing_weight: D2
+  - club: "8"
+    loft: 40
+    lie: 62.5
+    length: 36.25
+    offset: 0.080
+    bounce: 4
+    swing_weight: D2
+  - club: "9"
+    loft: 44
+    lie: 63
+    length: 35.75
+    offset: 0.080
+    bounce: 5
+    swing_weight: D2
+  - club: "PW"
+    loft: 49
+    lie: 63.5
+    length: 35.50
+    offset: 0.080
+    bounce: 7
+    swing_weight: D2
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+sources:
+  - "Titleist previous-models archived product page, titleist.com/golf-clubs/irons/2001-681-forged-blade-irons, via the Internet Archive (full manufacturer table: length, loft, lie, offset, swing weight, bounce; the 1-iron row carries X in the offset and bounce columns)"
+  - "SkyGolf equipment database entry for the Titleist Forged 681 - 1030 mild carbon steel, thin sole with moderate camber and a generous leading-edge entry angle"
+  - "Stock Dynamic Gold shafting is taken from retailer and spec-database listings for the model rather than from the archived Titleist page, which does not list a shaft"
+related_models:
+  - slug: "titleist/690-mb-irons"
+    label: "Successor: Titleist 690.MB"
+  - slug: "titleist/690-cb-irons"
+    label: "Cavity-back successor: Titleist 690.CB"
+faq:
+  - q: "What is the loft of a Titleist 681 Forged 7-iron?"
+    a: "The Titleist 681 Forged 7-iron is 36 degrees, with a 62 degree lie and a 36.75 inch standard steel length."
+  - q: "How much offset does the Titleist 681 Forged have?"
+    a: "A constant .080 inches from the 2-iron through the pitching wedge. Titleist did not publish an offset figure for the 1-iron."
+  - q: "How do the 681 Forged lofts compare with the 690.MB that replaced it?"
+    a: "The lofts match exactly from the 2-iron through the 9-iron, including a 36 degree 7-iron. The only loft change is the pitching wedge, 48 degrees on the 690.MB against 49 on the 681, and the 690.MB lies are up to half a degree flatter."
+confidence: high

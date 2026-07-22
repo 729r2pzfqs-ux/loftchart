@@ -1,0 +1,91 @@
+brand: Titleist
+brand_slug: titleist
+model: 718 AP3
+slug: 718-ap3-irons
+club_type: irons
+year_introduced: 2017
+year_discontinued: 2019
+category: players-distance
+construction: hollow-blade with a thin unsupported L-Face insert
+material: stainless steel hollow body with a face insert and high-density tungsten weighting
+successor: Titleist T200
+predecessor: null
+description: >
+  The 718 AP3 was a new model for Titleist's 2018 range and the first club the
+  company badged a player's distance iron, positioned between the AP1 and the
+  AP2. It uses a hollow-blade construction with a thin unsupported L-Face
+  insert and high-density tungsten weighting, in a head shape closer to the
+  AP2 than the AP1. Lofts sit between the two: a 31 degree 7-iron against 30
+  on the AP1 and 34 on the AP2, over a 3-iron to 48 degree gap wedge set. It
+  carries the most offset of any 718 model in the long irons, 5.5mm at the
+  3-iron, which Titleist published in millimetres rather than inches. The T200
+  replaced it in 2019.
+specs:
+  - club: "3"
+    loft: 19
+    lie: 60
+    length: 39.0
+    offset: 0.217
+  - club: "4"
+    loft: 22
+    lie: 61
+    length: 38.5
+    offset: 0.193
+  - club: "5"
+    loft: 25
+    lie: 62
+    length: 38.0
+    offset: 0.169
+  - club: "6"
+    loft: 28
+    lie: 62.5
+    length: 37.5
+    offset: 0.150
+  - club: "7"
+    loft: 31
+    lie: 63
+    length: 37.0
+    offset: 0.130
+  - club: "8"
+    loft: 35
+    lie: 63.5
+    length: 36.5
+    offset: 0.106
+  - club: "9"
+    loft: 39
+    lie: 64
+    length: 36.0
+    offset: 0.094
+  - club: "PW"
+    loft: 43
+    lie: 64
+    length: 35.75
+    offset: 0.087
+  - club: "W"
+    loft: 48
+    lie: 64
+    length: 35.5
+    offset: 0.079
+stock_shafts:
+  - name: "True Temper AMT Black"
+    material: steel
+    weight: "95g-116g"
+    flex: ["R300", "S300"]
+sources:
+  - "Titleist archived product page, titleist.com/golf-clubs/irons/718-ap3, via the Internet Archive (combined '718 Iron Specifications' table covering AP1/AP2/AP3/T-MB/CB/MB: loft, offset in mm, shared lie and length rows)"
+  - "Same archived page, stock shaft and grip block - True Temper AMT Black, R300/S300, 95g-116g, with a Golf Pride Tour Velvet White grip; and 'Available Irons: 3-W 48' for the set composition"
+  - "Same archived page, product copy - 'the player's distance iron' and 'a hollow-blade construction combined with L-Face inserts'"
+  - "Offsets converted from the published millimetre figures to inches for consistency with the rest of the archive"
+related_models:
+  - slug: "titleist/718-ap2-irons"
+    label: "Players sibling: Titleist 718 AP2"
+  - slug: "titleist/t200-irons"
+    label: "Successor: Titleist T200"
+faq:
+  - q: "What is the loft of a Titleist 718 AP3 7-iron?"
+    a: "The Titleist 718 AP3 7-iron is 31 degrees, with a 63 degree lie and a 37 inch standard steel length."
+  - q: "Where does the 718 AP3 sit between the AP1 and AP2?"
+    a: "In the middle. Its 31 degree 7-iron is one degree weaker than the AP1 at 30 degrees and three degrees stronger than the AP2 at 34 degrees, and its head shape is closer to the AP2."
+  - q: "What replaced the Titleist 718 AP3?"
+    a: "The T200, launched in 2019 as part of the first T-Series, took over the player's distance slot the AP3 created."
+confidence: high

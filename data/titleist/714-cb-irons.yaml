@@ -1,0 +1,93 @@
+brand: Titleist
+brand_slug: titleist
+model: 714 CB
+slug: 714-cb-irons
+club_type: irons
+year_introduced: 2013
+year_discontinued: 2015
+category: players
+construction: forged cavity back
+material: forged 1025 carbon steel
+successor: Titleist 716 CB
+predecessor: null
+description: >
+  The 714 CB is the compact forged cavity back in Titleist's 2014 range,
+  sitting between the AP2 and the MB. It is forged from 1025 carbon steel with
+  constant blade lengths, a thin topline and minimal progressive offset, from
+  .150 inches at the 2-iron down to .075 inches at the pitching wedge. Lofts
+  are traditional where the AP2 of the same generation had moved stronger: the
+  7-iron is 35 degrees against 34, and the pitching wedge is 47 degrees against
+  46. The stock set ran 2-iron through pitching wedge with no gap wedge, and
+  the 716 CB that replaced it carried exactly the same loft ladder.
+specs:
+  - club: "2"
+    loft: 18
+    lie: 59
+    length: 39.5
+    offset: 0.150
+    swing_weight: D2
+  - club: "3"
+    loft: 21
+    lie: 60
+    length: 39.0
+    offset: 0.140
+    swing_weight: D2
+  - club: "4"
+    loft: 24
+    lie: 61
+    length: 38.5
+    offset: 0.130
+    swing_weight: D2
+  - club: "5"
+    loft: 27
+    lie: 62
+    length: 38.0
+    offset: 0.120
+    swing_weight: D2
+  - club: "6"
+    loft: 31
+    lie: 62.5
+    length: 37.5
+    offset: 0.110
+    swing_weight: D2
+  - club: "7"
+    loft: 35
+    lie: 63
+    length: 37.0
+    offset: 0.100
+    swing_weight: D2
+  - club: "8"
+    loft: 39
+    lie: 63.5
+    length: 36.5
+    offset: 0.090
+    swing_weight: D2
+  - club: "9"
+    loft: 43
+    lie: 64
+    length: 36.0
+    offset: 0.080
+    swing_weight: D2
+  - club: "PW"
+    loft: 47
+    lie: 64
+    length: 35.75
+    offset: 0.075
+    swing_weight: D2
+sources:
+  - "2ndSwing.com Titleist 714 CB iron set specification table (length, loft, lie, offset, swing weight for 2-iron through pitching wedge)"
+  - "qsponge.com reproduction of the published Titleist 714 CB spec chart - independently corroborates the same loft, lie, length, offset and D2 swing weight figures"
+  - "Bounce figures appear in only one of the two retrieved tables and are therefore omitted rather than recorded. The archived Titleist product page for 714-cb loads its spec table by script and could not be retrieved, so these numbers are secondary-source rather than manufacturer-direct; confidence is medium accordingly."
+related_models:
+  - slug: "titleist/716-cb-irons"
+    label: "Successor: Titleist 716 CB"
+  - slug: "titleist/714-ap2-irons"
+    label: "Larger sibling: Titleist 714 AP2"
+faq:
+  - q: "What is the loft of a Titleist 714 CB 7-iron?"
+    a: "The Titleist 714 CB 7-iron is 35 degrees, with a 63 degree lie and a 37 inch standard steel length."
+  - q: "What is the difference between the Titleist 714 CB and the 714 AP2?"
+    a: "The CB is the more compact forged cavity back with less offset, and it is one degree weaker through the set: a 35 degree 7-iron and a 47 degree pitching wedge against 34 and 46 on the AP2."
+  - q: "Are the Titleist 714 CB and 716 CB lofts the same?"
+    a: "Yes. Both run an 18 degree 2-iron through a 47 degree pitching wedge with a 35 degree 7-iron, and neither set included a gap wedge."
+confidence: medium

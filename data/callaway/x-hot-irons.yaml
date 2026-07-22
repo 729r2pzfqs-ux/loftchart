@@ -3,21 +3,23 @@ brand_slug: callaway
 model: X Hot
 slug: x-hot-irons
 club_type: irons
-year_introduced: 2013
-year_discontinued: 2014
+year_introduced: 2012
+year_discontinued: 2013
 category: game-improvement
 construction: investment cast
 material: stainless steel
 successor: Callaway X2 Hot
 predecessor: null
 description: >
-  The 2013 X Hot revived the X name for Callaway's distance-oriented game-improvement iron,
+  The X Hot revived the X name for Callaway's distance-oriented game-improvement iron,
   taking over from the RAZR X family. It used a deep undercut cavity with a thin, unsupported
   face section to raise ball speed, and Callaway lowered the sweet spot roughly 0.155 inches
   versus the previous RAZR X game-improvement head. Lofts were notably strong for the period,
   with a 30 degree 7-iron and a 44 degree pitching wedge. The stock set was 4-PW with an
   A-wedge, and 3-iron, sand wedge and lob wedge were offered separately. A smaller X Hot Pro
-  model with weaker lofts was sold alongside it.
+  model with weaker lofts was sold alongside it. Callaway announced the X Hot on 17 December 2012
+  and it reached retail on 25 January 2013, so it is commonly referred to as the 2013 X Hot even
+  though the year below is the announcement year per this database's convention.
 specs:
   - club: "3"
     loft: 18.0
@@ -96,6 +98,8 @@ sources:
   - "Callaway Golf Pre-Owned official product specs page for 2013 X Hot irons (callawaygolfpreowned.com, ProductSpecs-Get?productCode=irons-x-hot-2013) — primary source for loft, lie, length, bounce, swingweight and stock shafts"
   - "2nd Swing Golf Callaway 2013 X Hot iron set spec table (2ndswing.com) — corroborates loft, lie and length"
   - "qsponge Callaway 2013 X Hot spec table — corroborates lofts, lies and lengths including the 3-iron and lob wedge"
+  - "Callaway Golf press release 'Callaway Golf's New X Hot Irons Bring the Heat' (prnewswire.com, dateline 17 December 2012, 07:30 ET) — announcement date, retail availability of 25 January 2013 and launch pricing of $699 steel / $899 graphite. year_introduced uses the 2012 announcement year, not the 2013 retail/model year the clubs are usually known by."
+  - "Callaway Golf press release 'Callaway Golf Announces X2 Hot Line Of Clubs' (prnewswire.com, dateline 12 November 2013) — fixes year_discontinued at 2013, the year the successor X2 Hot was announced, on the same announcement-year basis."
 faq:
   - q: "What is the loft of a Callaway X Hot 7-iron?"
     a: "The 2013 Callaway X Hot 7-iron has a loft of 30 degrees."

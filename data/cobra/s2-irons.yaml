@@ -1,0 +1,103 @@
+brand: Cobra
+brand_slug: cobra
+model: S2
+slug: s2-irons
+club_type: irons
+year_introduced: 2009
+year_discontinued: 2011
+category: game-improvement
+construction: investment cast multi-material cavity back
+material: 431 stainless steel body with polymer topline and toe inserts, a urethane sole insert and an aluminium back plate
+predecessor: null
+successor: Cobra S3
+description: >
+  The S2 is Cobra's multi-material game-improvement iron, announced on 26 August 2009
+  and shipping from 1 September 2009 as the 2010 line — the direct ancestor of the E9
+  cavity that Cobra used through the S3 and AMP sets. A 431 stainless steel body is
+  lightened with a polymer topline and toe insert, an expanded urethane sole insert
+  and an aluminium back plate, which moves discretionary weight low into the heel and
+  toe, and Cobra called the face pattern 9 Point Face Technology. A mid-width stepped
+  sole handles turf interaction. Lofts are strong for the period at 31 degrees in the
+  7-iron and 43 degrees in the pitching wedge, on a 37.25-inch 7-iron. The stock
+  men's set is 4-iron through pitching wedge plus a gap wedge, in steel or graphite;
+  a Lite/Seniors set ran 5-iron through sand wedge, and Cobra also catalogued a
+  3-iron and a lob wedge. Cobra published a single length column covering both
+  graphite and steel builds, and did not publish an offset figure for this set.
+specs:
+  - club: "3"
+    loft: 19.0
+    lie: 61.0
+    length: 39.25
+    swing_weight: D3
+  - club: "4"
+    loft: 22.0
+    lie: 61.5
+    length: 38.75
+    swing_weight: D3
+  - club: "5"
+    loft: 25.0
+    lie: 62.0
+    length: 38.25
+    swing_weight: D3
+  - club: "6"
+    loft: 28.0
+    lie: 62.5
+    length: 37.75
+    swing_weight: D3
+  - club: "7"
+    loft: 31.0
+    lie: 63.0
+    length: 37.25
+    swing_weight: D3
+  - club: "8"
+    loft: 35.0
+    lie: 63.5
+    length: 36.75
+    swing_weight: D3
+  - club: "9"
+    loft: 39.0
+    lie: 64.0
+    length: 36.25
+    swing_weight: D3
+  - club: "PW"
+    loft: 43.0
+    lie: 64.5
+    length: 36.0
+    swing_weight: D3
+  - club: "GW"
+    loft: 49.0
+    lie: 64.5
+    length: 35.75
+    swing_weight: D3
+  - club: "SW"
+    loft: 55.0
+    lie: 64.5
+    length: 35.5
+    swing_weight: D3
+  - club: "LW"
+    loft: 60.0
+    lie: 64.5
+    length: 35.5
+    swing_weight: D3
+stock_shafts:
+  - name: "Nippon NS Pro 1030H"
+    material: steel
+    weight: "103g"
+    flex: ["R", "S"]
+  - name: "Cobra/Aldila DVS-2"
+    material: graphite
+    flex: ["Lite", "R", "S"]
+sources:
+  - "Cobra Golf official 'Cobra S2 Irons' product page (cobragolf.com/golf-clubs/Cobra-S2-Irons), archived 2010-10-27 via web.archive.org — retrieved directly; supplies the full Specifications table (model, loft, length for graphite and steel, lie, swing weight, stock flex, RH/LH) for the 3-iron through lob wedge, the head material breakdown (431 stainless body, polymer topline and toe inserts, urethane sole insert, aluminium back plate), the available sets (graphite/steel 4-GW, Lite/Seniors 5-SW) and the Nippon NS Pro 1030H stock steel shaft"
+  - "The Golf Wire press release 'Introducing The All-New Cobra S2 And Cobra S2 Forged Irons', dated 26 August 2009 — retrieved directly; supplies the announcement date, the 1 September 2009 ship date, the men's 4-PW/GW and women's/senior's 5-PW/GW/SW set compositions, and the Cobra/Aldila DVS-2 and Nippon NS Pro shaft options. year_introduced records this announcement year; the set was marketed as Cobra's 2010 line"
+related_models:
+  - slug: "cobra/s3-irons"
+    label: "Successor: Cobra S3"
+faq:
+  - q: "What is the loft of a Cobra S2 7-iron?"
+    a: "The Cobra S2 7-iron has a loft of 31 degrees, a lie of 63 degrees and a length of 37.25 inches."
+  - q: "What clubs come in a stock Cobra S2 set?"
+    a: "The stock men's set is a 4-iron through pitching wedge plus a gap wedge, in steel or graphite. A Lite/Seniors set ran 5-iron through sand wedge, and Cobra also catalogued a 3-iron and a lob wedge."
+  - q: "What year did the Cobra S2 irons come out?"
+    a: "Cobra announced the S2 irons on 26 August 2009 and began shipping them on 1 September 2009. They were sold as the 2010 line and were replaced by the Cobra S3 in February 2011."
+confidence: high

@@ -74,6 +74,8 @@ sources:
 related_models:
   - slug: "wilson/staff-model-cb-irons"
     label: "Companion cavity back: Wilson Staff Model CB"
+  - slug: "wilson/staff-fg-tour-100-irons"
+    label: "Predecessor: Wilson Staff FG Tour 100"
 faq:
   - q: "What is the loft of a Wilson Staff Model Blade 7-iron?"
     a: "The Wilson Staff Model Blade 7-iron has a loft of 34 degrees, with a 62-degree lie and a 37.25-inch steel-shaft length."

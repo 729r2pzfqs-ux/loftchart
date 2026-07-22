@@ -1,0 +1,128 @@
+brand: Ping
+brand_slug: ping
+model: G440
+slug: g440-irons
+club_type: irons
+year_introduced: 2025
+year_discontinued: null
+category: game-improvement
+construction: investment cast
+material: stainless steel with a next-generation PurFlex cavity badge
+successor: null
+predecessor: Ping G430
+description: >
+  There are two G440 iron builds, and the chart below is the standard G440 in its
+  steel-shaft specification. The other build is the G440 HL (High Launch), which shares
+  the same head design, lofts and lies but uses lighter toe and tip weights, the
+  ultralight Ping Alta Quick graphite shaft and a Lamkin UTx Lite grip, so its swing
+  weights are lighter than those listed here. The standard G440 keeps the G430's lofts
+  through the irons — the 7-iron stays at 29 degrees — but lengthens the 4, 5 and 6
+  irons by an eighth of an inch each for more speed and higher launch, and reweakens
+  the bottom of the bag: the pitching wedge goes from 41 to 42 degrees and the utility
+  wedge from 45.5 to 47, with loft-numbered 52 and 56 degree wedges completing the set.
+  The 56 borrows its bounce and sole profile from the Eye 2. Ping's colour-code (dot)
+  system sets lie angle relative to standard: gold 4 flat, brown 3 flat, orange 2 flat,
+  red 1 flat, BLACK standard, blue 1 upright, green 2 upright, white 3 upright, silver
+  4 upright, maroon 5 upright. The lies below are the BLACK (standard) lies.
+specs:
+  - club: "4"
+    loft: 19.0
+    lie: 60.5
+    length: 39.25
+    offset: 0.27
+    bounce: 6.0
+    swing_weight: D0
+  - club: "5"
+    loft: 22.0
+    lie: 61.0
+    length: 38.5
+    offset: 0.24
+    bounce: 7.0
+    swing_weight: D0
+  - club: "6"
+    loft: 25.5
+    lie: 61.5
+    length: 37.75
+    offset: 0.21
+    bounce: 8.0
+    swing_weight: D0
+  - club: "7"
+    loft: 29.0
+    lie: 62.0
+    length: 37.0
+    offset: 0.18
+    bounce: 9.0
+    swing_weight: D0
+  - club: "8"
+    loft: 33.0
+    lie: 62.8
+    length: 36.5
+    offset: 0.15
+    bounce: 10.0
+    swing_weight: D0
+  - club: "9"
+    loft: 37.0
+    lie: 63.5
+    length: 36.0
+    offset: 0.13
+    bounce: 11.5
+    swing_weight: D0.5
+  - club: "PW"
+    loft: 42.0
+    lie: 64.1
+    length: 35.5
+    offset: 0.11
+    bounce: 13.0
+    swing_weight: D2
+  - club: "UW"
+    loft: 47.0
+    lie: 64.1
+    length: 35.5
+    offset: 0.11
+    bounce: 13.0
+    swing_weight: D2
+  - club: "52W"
+    loft: 52.0
+    lie: 64.1
+    length: 35.5
+    offset: 0.11
+    bounce: 13.0
+    swing_weight: D2
+  - club: "56W"
+    loft: 56.0
+    lie: 64.4
+    length: 35.25
+    offset: 0.08
+    bounce: 14.0
+    swing_weight: D3
+stock_shafts:
+  - name: "Ping AWT 3.0"
+    material: steel
+  - name: "Ping ALTA CB Blue"
+    material: graphite
+sources:
+  - "Ping's own G440 product page, Specifications table (https://ping.com/en-us/clubs/irons/g440, verified against the archived copy at http://web.archive.org/web/20250604164404/https://ping.com/en-us/clubs/irons/g440) — supplied every length, loft, lie, offset, bounce and swing weight above, the AWT 3.0 and ALTA CB Blue engineered shafts, the 4-iron through 56-degree set composition, and the note that lie is based on the black colour code at standard length. Power Spec and Retro Spec lofts appear on the same chart as fitting alternatives and are not recorded here."
+  - "Sub-model: the specs above are the standard G440 iron, not the G440 HL. Ping's own G440 page describes the HL build as using lighter toe and tip weights, the ultralight Ping Alta Quick shaft and the Lamkin UTx Lite grip to produce a lighter overall build and lighter swing weights; mygolfspy.com 'Breaking down the PING G440 lineup' confirms the two builds share the same face and PurFlex badge and the same 4-9, PW (42), UW (47), 52 and 56 loft offering. Because the HL differs in swing weight and stock shaft, only the standard build is recorded here."
+  - "Ping's G440 page also supplies the design notes used in the description: the 4, 5 and 6 iron shafts are 1/8 inch longer than the G430's, and the 56-degree wedge takes its bounce profile, sole design and slimmer hosel from the Eye 2."
+  - "Earliest archived Ping G440 iron page is dated 17 January 2025, consistent with a January 2025 announcement and with the year_discontinued of 2025 already recorded in ping/g430-irons.yaml. golflink.com 'PING Irons by Year' also dates the G440 to 2025."
+  - "Note: year_discontinued is null — the G440 is the current Ping game-improvement iron in the sources retrieved."
+  - "Note: Ping's G440 page does not state the head alloy, so the material field records only the construction and the PurFlex cavity badge rather than repeating the G430's 'Hyper 17-4' marketing term without a source."
+related_models:
+  - slug: "ping/g430-irons"
+    label: "Predecessor: Ping G430"
+  - slug: "ping/g425-irons"
+    label: "Earlier Ping game-improvement iron: Ping G425"
+  - slug: "ping/i230-irons"
+    label: "Ping's players iron of the same era: Ping i230"
+faq:
+  - q: "What is the loft of a Ping G440 7-iron?"
+    a: "The Ping G440 7-iron has a loft of 29 degrees, a standard (black dot) lie of 62.0 degrees and a steel-shaft length of 37.0 inches."
+  - q: "When were Ping G440 irons made?"
+    a: "The G440 was introduced in 2025, replacing the G430."
+  - q: "What is the difference between the Ping G440 and the G440 HL?"
+    a: "They share the head design, lofts and lies. The HL is a lighter overall build for slower swing speeds, using lighter toe and tip weights, the ultralight Ping Alta Quick graphite shaft and a Lamkin UTx Lite grip, so its swing weights are lighter than the standard G440 figures listed here."
+  - q: "What is the difference between the Ping G430 and G440 irons?"
+    a: "Lofts are unchanged from the 4-iron to the 9-iron. The G440 lengthens the 4, 5 and 6 irons by an eighth of an inch, weakens the pitching wedge from 41 to 42 degrees and the utility wedge from 45.5 to 47, and replaces the G430's 50 and 54 degree wedges with 52 and 56."
+  - q: "What wedges come with the Ping G440 irons?"
+    a: "A 42-degree pitching wedge, a 47-degree utility wedge, and loft-numbered 52 and 56 degree wedges. The 56 uses an Eye 2 inspired bounce and sole profile."
+confidence: high

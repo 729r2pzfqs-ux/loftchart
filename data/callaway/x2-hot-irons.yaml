@@ -1,0 +1,112 @@
+brand: Callaway
+brand_slug: callaway
+model: X2 Hot
+slug: x2-hot-irons
+club_type: irons
+year_introduced: 2013
+year_discontinued: 2015
+category: game-improvement
+construction: investment cast
+material: stainless steel
+successor: Callaway XR
+predecessor: Callaway X Hot
+description: >
+  The X2 Hot is the second-generation X Hot game-improvement iron, replacing the 2013 model
+  with a Deep Central Undercut Cavity and an internal Stabilizing Arch that let Callaway thin
+  the centre of the face further for ball speed. Callaway also added roughly two to four degrees
+  more bounce than the X Hot to improve turf interaction, and progressed the offset so the short
+  irons sit straighter than the long irons. The loft structure is carried over unchanged from
+  the X Hot at 30 degrees in the 7-iron and 44 degrees in the pitching wedge; the differences are
+  in the long irons, where the 4-, 5- and 6-iron are a quarter of a degree more upright and
+  around a quarter to three-eighths of an inch shorter, and the 3-iron is a quarter of a degree
+  flatter. From the 7-iron down the lie and length figures are identical to the X Hot.
+  Stock sets ran 3-PW, 4-PW, 5-PW or 6-PW with A, S and L wedges sold as add-ons; a smaller,
+  weaker-lofted X2 Hot Pro was sold alongside it. Callaway announced the line on 12 November 2013
+  and it reached retail on 17 January 2014, so it is widely known as the 2014 X2 Hot even though
+  the year below is the announcement year per this database's convention.
+specs:
+  - club: "3"
+    loft: 18.0
+    lie: 59.75
+    length: 39.5
+    swing_weight: D2
+  - club: "4"
+    loft: 20.5
+    lie: 60.5
+    length: 38.875
+    swing_weight: D2
+  - club: "5"
+    loft: 23.0
+    lie: 61.25
+    length: 38.25
+    swing_weight: D2
+  - club: "6"
+    loft: 26.0
+    lie: 62.0
+    length: 37.625
+    swing_weight: D2
+  - club: "7"
+    loft: 30.0
+    lie: 62.5
+    length: 37.0
+    swing_weight: D2
+  - club: "8"
+    loft: 34.5
+    lie: 63.0
+    length: 36.5
+    swing_weight: D2
+  - club: "9"
+    loft: 39.0
+    lie: 63.5
+    length: 36.0
+    swing_weight: D2
+  - club: "PW"
+    loft: 44.0
+    lie: 64.0
+    length: 35.75
+    swing_weight: D2
+  - club: "AW"
+    loft: 49.0
+    lie: 64.0
+    length: 35.5
+    swing_weight: D2
+  - club: "SW"
+    loft: 54.0
+    lie: 64.0
+    length: 35.25
+    swing_weight: D2
+  - club: "LW"
+    loft: 59.0
+    lie: 64.0
+    length: 35.0
+    swing_weight: D2
+stock_shafts:
+  - name: "True Temper Speed Step 85"
+    material: steel
+    flex: ["R", "S"]
+  - name: "Callaway X2 Hot Ultralite Iron Graphite"
+    material: graphite
+    flex: ["A", "R", "S"]
+sources:
+  - "Callaway Golf Pre-Owned product page for the 2014 X2 Hot irons (callawaygolfpreowned.com/irons-2014-x2-hot/irons-2014-x2-hot,default,pd.html), archived 2014-06-20 via web.archive.org — men's spec table giving loft, lie, length, handedness and graphite/steel swing weight for 3-iron through lob wedge; the same page's inventory grid supplied the 3-PW / 4-PW / 4-PW+AW / 4-PW+SW set configurations and the True Temper Speed Step 85 and Callaway X2 Hot Ultralite stock shafts"
+  - "2nd Swing Golf Callaway X2 Hot Iron Set specification table (2ndswing.com) — independently reproduces the same lofts, lies, lengths and D0/D2 graphite/steel swing weights"
+  - "BasicGolfer and qsponge Callaway X2 Hot spec tables — third and fourth corroboration of the loft, lie and length figures; both list offset and bounce as unavailable"
+  - "Callaway Golf press release 'Callaway Golf Announces X2 Hot Line Of Clubs' (prnewswire.com, 12 November 2013) and the archived callawaygolf.com 2014 X2 Hot iron product page — announcement date of 12 November 2013, retail availability 17 January 2014, $799.99 steel, and the Deep Central Undercut / added-bounce / progressive-offset design claims. year_introduced uses the announcement year; year_discontinued 2015 is the year the XR replaced it."
+  - "Offset and bounce are omitted: no manufacturer or secondary spec table published per-club numbers for this model, only Callaway's qualitative claim of 2-4 degrees more bounce than the X Hot."
+related_models:
+  - slug: "callaway/x-hot-irons"
+    label: "Predecessor: Callaway X Hot"
+  - slug: "callaway/xr-irons"
+    label: "Successor: Callaway XR"
+  - slug: "callaway/steelhead-xr-irons"
+    label: "Later Callaway distance iron: Steelhead XR"
+faq:
+  - q: "What is the loft of a Callaway X2 Hot 7-iron?"
+    a: "The Callaway X2 Hot 7-iron has a loft of 30 degrees, a lie of 62.5 degrees and a length of 37 inches."
+  - q: "What are the Callaway X2 Hot wedge lofts?"
+    a: "The pitching wedge is 44 degrees, the A-wedge 49 degrees, the sand wedge 54 degrees and the lob wedge 59 degrees."
+  - q: "Are Callaway X2 Hot irons stronger lofted than the X Hot?"
+    a: "No. The X2 Hot carries the same loft structure as the 2013 X Hot from the 3-iron through the lob wedge. The changes are in bounce, offset and the flatter, shorter long irons."
+  - q: "What year are Callaway X2 Hot irons?"
+    a: "Callaway announced them on 12 November 2013 and they went on sale on 17 January 2014, which is why they are usually referred to as the 2014 X2 Hot."
+confidence: high

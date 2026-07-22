@@ -1,0 +1,100 @@
+brand: Titleist
+brand_slug: titleist
+model: AP2 (2008)
+slug: ap2-2008-irons
+club_type: irons
+year_introduced: 2008
+year_discontinued: 2009
+category: players
+construction: forged, multi-material dual cavity
+material: forged carbon steel body with high-density tungsten-nickel weighting and an elastomer cushion
+successor: Titleist 710 AP2
+predecessor: null
+description: >
+  The AP2 is the first generation of Titleist's Advanced Performance players
+  iron, announced in January 2008 and at retail from March that year alongside
+  the cast AP1. Titleist described it as a multi-material, dual cavity forged
+  iron: a forged carbon steel body carrying high-density tungsten-nickel
+  weighting in the heel and toe and an elastomer cushion behind the face.
+  Lofts are traditional, with a 35 degree 7-iron and a 47 degree pitching
+  wedge, and the stock set ran 3-iron through a 51 degree gap wedge. Titleist
+  retained these lofts unchanged in the 710 AP2 that replaced it.
+specs:
+  - club: "3"
+    loft: 21
+    lie: 60
+    length: 39.0
+    offset: 0.160
+    bounce: 0
+    swing_weight: D2
+  - club: "4"
+    loft: 24
+    lie: 61
+    length: 38.5
+    offset: 0.145
+    bounce: 1
+    swing_weight: D2
+  - club: "5"
+    loft: 27
+    lie: 62
+    length: 38.0
+    offset: 0.130
+    bounce: 3
+    swing_weight: D2
+  - club: "6"
+    loft: 31
+    lie: 62.5
+    length: 37.5
+    offset: 0.120
+    bounce: 4
+    swing_weight: D2
+  - club: "7"
+    loft: 35
+    lie: 63
+    length: 37.0
+    offset: 0.110
+    bounce: 4
+    swing_weight: D2
+  - club: "8"
+    loft: 39
+    lie: 63.5
+    length: 36.5
+    offset: 0.100
+    bounce: 5
+    swing_weight: D2
+  - club: "9"
+    loft: 43
+    lie: 64
+    length: 36.0
+    offset: 0.090
+    bounce: 6
+    swing_weight: D2
+  - club: "PW"
+    loft: 47
+    lie: 64
+    length: 35.75
+    offset: 0.085
+    bounce: 7
+    swing_weight: D2
+  - club: "W"
+    loft: 51
+    lie: 64
+    length: 35.5
+    offset: 0.080
+    bounce: 7
+    swing_weight: D2
+sources:
+  - "Titleist previous-models archived product page, titleist.com/golf-clubs/irons/ap2-2008, via the Internet Archive (full manufacturer table headed 'AP2': offset, bounce, loft, length, lie, swingweight)"
+  - "TheSandTrap.com, 'Titleist Introduces New Irons for 2008: AP1, AP2, ZB, and ZM', 15 January 2008 - announcement date and 15 March 2008 retail availability; year_introduced uses the January 2008 announcement"
+  - "Titleist archived page header text - 'Advanced performance, multi-material, dual cavity, technical forged irons providing traditional solid feel, looks and shot control for the skilled player'"
+related_models:
+  - slug: "titleist/710-ap2-irons"
+    label: "Successor: Titleist 710 AP2"
+faq:
+  - q: "What is the loft of a Titleist AP2 (2008) 7-iron?"
+    a: "The 2008 Titleist AP2 7-iron is 35 degrees, with a 63 degree lie and a 37 inch standard steel length."
+  - q: "How do the 2008 AP2 lofts compare with the 710 AP2 that replaced it?"
+    a: "They are identical. Both run a 21 degree 3-iron, a 35 degree 7-iron and a 47 degree pitching wedge, and both offer a gap wedge, 51 degrees on the 2008 model."
+  - q: "What was the stock set composition of the first AP2 irons?"
+    a: "Titleist catalogued the 2008 AP2 from a 3-iron through a pitching wedge, with a 51 degree gap wedge badged W available to extend the set."
+confidence: high

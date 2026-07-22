@@ -1,0 +1,107 @@
+brand: Cobra
+brand_slug: cobra
+model: DS-ADAPT
+slug: ds-adapt-irons
+club_type: irons
+year_introduced: 2025
+year_discontinued: null
+category: game-improvement
+construction: hollow-body distance iron with a wrap-around forged face insert and foam-filled cavity
+material: stainless steel body with a 360 SPEEDSHELL forged face insert, an internal PWR-BRIDGE weight and a soft foam filling
+predecessor: Cobra Darkspeed
+successor: null
+description: >
+  The DS-ADAPT is Cobra's 2025 game-improvement iron, the direct replacement for the
+  Darkspeed and the standard model in a family that also includes the
+  super-game-improvement DS-ADAPT MAX. Every iron keeps the metalwood-inspired hollow
+  body, but the face insert is now the 360 SPEEDSHELL, wrapping further around the toe
+  and sole; paired with H.O.T. Face variable thickness, Cobra claims 23 per cent more
+  face flex than the Darkspeed. A re-engineered internal PWR-BRIDGE weight sits lower
+  for a lower centre of gravity, and a softer foam fills the cavity for damping.
+  Lofts and lengths carry over from the Darkspeed almost unchanged — the 7-iron is 27
+  degrees on 37.25 inches and the pitching wedge 42 degrees — with the 4-iron half a
+  degree weaker and the gap wedge half a degree stronger. Stock steel sets are sold as
+  5-iron through gap wedge or 4-iron through pitching wedge; graphite is a 5-GW set,
+  and a 5H plus 6-GW combo set was also offered. Swing weights below are the
+  steel-shaft values, and offsets are converted from Cobra's published millimetre
+  figures.
+specs:
+  - club: "4"
+    loft: 19.0
+    lie: 62.0
+    length: 39.25
+    offset: 0.213
+    swing_weight: D1
+  - club: "5"
+    loft: 21.0
+    lie: 62.5
+    length: 38.5
+    offset: 0.181
+    swing_weight: D1
+  - club: "6"
+    loft: 24.0
+    lie: 63.0
+    length: 37.75
+    offset: 0.154
+    swing_weight: D1
+  - club: "7"
+    loft: 27.0
+    lie: 63.5
+    length: 37.25
+    offset: 0.126
+    swing_weight: D1
+  - club: "8"
+    loft: 31.5
+    lie: 64.0
+    length: 36.75
+    offset: 0.102
+    swing_weight: D1
+  - club: "9"
+    loft: 36.5
+    lie: 64.5
+    length: 36.25
+    offset: 0.079
+    swing_weight: D1
+  - club: "PW"
+    loft: 42.0
+    lie: 65.0
+    length: 36.0
+    offset: 0.059
+    swing_weight: D1
+  - club: "GW"
+    loft: 48.0
+    lie: 65.0
+    length: 35.75
+    offset: 0.039
+    swing_weight: D1
+  - club: "SW"
+    loft: 54.0
+    lie: 65.0
+    length: 35.5
+    offset: 0.039
+    swing_weight: D1
+stock_shafts:
+  - name: "KBS Tour Lite"
+    material: steel
+    weight: "105g"
+    flex: ["R", "S"]
+  - name: "KBS PGI 65 / 75 / 85"
+    material: graphite
+    weight: "65-85g"
+    flex: ["A", "R", "S"]
+sources:
+  - "Cobra Golf official 'DS-ADAPT Irons' product page (cobragolf.com/products/ds-adapt-irons), archived 2025-06-21 via web.archive.org — retrieved directly; supplies the full Specifications table (club, loft, lie angle, offset in mm, length, graphite and steel flex, graphite and steel swing weight, RH/LH) for the 4-iron through sand wedge, the STOCK SET COMPS block (steel 5-GW and 4-PW, graphite 5-GW, graphite combo 5H and 6-GW), the 360 SPEEDSHELL face, hollow body, PWR-BRIDGE weighting and foam-fill descriptions, the comparison against the DS-ADAPT MAX, and the KBS Tour Lite and KBS PGI 85/75/65 shaft tables and Lamkin Crossline 60R grip"
+  - "Offsets are converted from Cobra's published millimetre column at 25.4 mm to the inch and rounded to three decimal places"
+related_models:
+  - slug: "cobra/darkspeed-irons"
+    label: "Predecessor: Cobra Darkspeed"
+faq:
+  - q: "What is the loft of a Cobra DS-ADAPT 7-iron?"
+    a: "The Cobra DS-ADAPT 7-iron has a loft of 27 degrees, a lie of 63.5 degrees and a length of 37.25 inches."
+  - q: "What clubs come in a stock Cobra DS-ADAPT set?"
+    a: "Stock steel sets are 5-iron through gap wedge or 4-iron through pitching wedge. Graphite is sold as a 5-GW set, and Cobra also offered a combo set with a 5-hybrid and 6-iron through gap wedge."
+  - q: "How do the Cobra DS-ADAPT irons differ from the Darkspeed?"
+    a: "The lofts are nearly identical. The change is the face: DS-ADAPT uses the larger 360 SPEEDSHELL insert that wraps around the toe and sole, which Cobra says flexes 23 per cent more than the Darkspeed face, together with a lower PWR-BRIDGE internal weight and softer cavity foam."
+  - q: "What is the difference between the DS-ADAPT and DS-ADAPT MAX irons?"
+    a: "The MAX is the super-game-improvement version, with more offset and weaker lofts — a 29-degree 7-iron and a 43.5-degree pitching wedge against 27 and 42 degrees for the standard DS-ADAPT."
+confidence: high

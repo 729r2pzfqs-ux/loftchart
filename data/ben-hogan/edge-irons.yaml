@@ -4,7 +4,7 @@ model: Edge
 slug: edge-irons
 club_type: irons
 year_introduced: 2018
-year_discontinued: null
+year_discontinued: 2021
 category: game-improvement
 construction: two-piece forged hollow body, laser welded
 material: forged carbon steel face laser welded to a forged back frame and hosel, filled with polycarbonate foam
@@ -78,6 +78,7 @@ sources:
   - "Ben Hogan Golf official Edge spec chart image, retrieved from https://cdn.shopify.com/s/files/1/2134/4855/files/EdgeSpecChart_22231e84-6711-444c-b392-84034ad09daa.jpg (the image linked from the archived Edge page) - full table of club number and loft, length, lie, swing weight by shaft, leading/trailing V-Sole bounce and offset"
   - "Ben Hogan Golf official Edge information page, retrieved from http://web.archive.org/web/20181218064620/https://benhogangolf.com/pages/edge-irons - gives the 22/26/30/34/38/42/46 loft table, the two-piece forged hollow construction, the 12 percent larger head claim, and the statement that the Edge is offered only in the mid-high launch profile and is 'stamped with traditional numbers'"
   - "Ben Hogan Golf Edge product/ordering page, retrieved from http://web.archive.org/web/20181218044437/https://benhogangolf.com/collections/clubs/products/edge-irons - confirms the 4-PW, 5-PW and 6-PW set make-ups, prices of $735/$660/$575 and the stock shaft list"
+  - "year_discontinued set to 2021, the year the successor Edge EX was announced (Ben Hogan Golf press release, 13 April 2021), in line with the schema convention that year_discontinued is the successor's announcement year. It had previously been left null"
   - "The 2018 introduction date matches MyGolfSpy's '2018 Ben Hogan Edge Irons' first-look article (title seen in search results; the article body was not retrieved) and the 2018 copyright on the archived pages"
 related_models:
   - slug: "ben-hogan/ptx-irons"

@@ -1,0 +1,105 @@
+brand: Titleist
+brand_slug: titleist
+model: DCI Oversize Gold
+slug: dci-oversize-gold-irons
+club_type: irons
+year_introduced: 1996
+year_discontinued: 2001
+category: super-game-improvement
+construction: investment cast, oversize perimeter weighted cavity back
+material: 17-4 stainless steel
+successor: Titleist DCI 822 OS
+predecessor: null
+description: >
+  The DCI Oversize Gold is the 1996 oversize member of the DCI family, the
+  gold-finished counterpart to the DCI Oversize Black and the direct ancestor
+  of the 2001 DCI 822 OS. It is an investment cast oversize cavity back with
+  the heaviest offset ladder Titleist published before the 822 OS: .386 inches
+  at the 1-iron, .180 inches at the 7-iron and .100 inches at the pitching
+  wedge. Lofts run about a degree and a half stronger through the middle of the
+  set than the standard DCI of the era, with a 34.5 degree 7-iron, and the lie
+  angles are two degrees more upright than the DCI Gold at 63 degrees for the
+  7-iron. Titleist catalogued it from a 1-iron through a lob wedge.
+specs:
+  - club: "1"
+    loft: 17
+    lie: 58
+    length: 39.5
+    offset: 0.386
+  - club: "2"
+    loft: 19
+    lie: 59
+    length: 39.25
+    offset: 0.363
+  - club: "3"
+    loft: 22
+    lie: 60
+    length: 38.75
+    offset: 0.330
+  - club: "4"
+    loft: 25
+    lie: 61
+    length: 38.25
+    offset: 0.293
+  - club: "5"
+    loft: 28
+    lie: 62
+    length: 37.75
+    offset: 0.257
+  - club: "6"
+    loft: 31
+    lie: 62.5
+    length: 37.25
+    offset: 0.218
+  - club: "7"
+    loft: 34.5
+    lie: 63
+    length: 36.75
+    offset: 0.180
+  - club: "8"
+    loft: 39
+    lie: 63.5
+    length: 36.25
+    offset: 0.145
+  - club: "9"
+    loft: 43
+    lie: 64
+    length: 35.75
+    offset: 0.110
+  - club: "PW"
+    loft: 47
+    lie: 64
+    length: 35.5
+    offset: 0.100
+  - club: "GW"
+    loft: 51
+    lie: 64
+    length: 35.5
+  - club: "SW"
+    loft: 56
+    lie: 64
+    length: 35.25
+  - club: "LW"
+    loft: 60
+    lie: 64
+    length: 35.25
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+sources:
+  - "Titleist previous-models archived product page, titleist.com/golf-clubs/irons/dci-oversize-gold, via the Internet Archive (full manufacturer table: length, loft, lie, offset; the page publishes no bounce or swing weight rows)"
+  - "Titleist irons-by-year timelines at pitchmarks.com and swingyard.com, which both date the DCI Oversize + Black and Gold to 1996 as the second-generation oversize DCI"
+  - "The archived table lists the gap, sand and lob wedge offsets as +.010 inches, a negative-offset convention this database does not encode, so those three offset values are omitted. No bounce or swing weight is published for this model, so those keys are omitted rather than estimated."
+related_models:
+  - slug: "titleist/dci-822-os-irons"
+    label: "Successor: Titleist DCI 822 OS"
+  - slug: "titleist/dci-gold-irons"
+    label: "Standard-size sibling: Titleist DCI Gold"
+faq:
+  - q: "What is the loft of a Titleist DCI Oversize Gold 7-iron?"
+    a: "The Titleist DCI Oversize Gold 7-iron is 34.5 degrees, with a 63 degree lie and a 36.75 inch standard steel length."
+  - q: "How does the DCI Oversize Gold compare with the DCI 822 OS that replaced it?"
+    a: "The 822 OS is a degree stronger through most of the set, with a 33.5 degree 7-iron against 34.5, and it carries even more offset at .205 inches at the 7-iron against .180."
+  - q: "How much offset do the DCI Oversize Gold irons have?"
+    a: "Among the most Titleist has published: .386 inches at the 1-iron, tapering to .180 inches at the 7-iron and .100 inches at the pitching wedge."
+confidence: high

@@ -1,0 +1,105 @@
+brand: Wilson
+brand_slug: wilson
+model: Staff FG Tour 100
+slug: staff-fg-tour-100-irons
+club_type: irons
+year_introduced: 2014
+year_discontinued: 2019
+category: blade
+construction: forged
+material: forged carbon steel, milled face
+successor: Wilson Staff Model Blade
+predecessor: null
+description: >
+  The FG Tour 100 is the commemorative blade Wilson showed at the PGA Merchandise
+  Show in early 2014 to mark 100 years since the company was incorporated, and it
+  reached shops in mid-February that year. The head is a three-piece forging with
+  a milled diamond-pattern face, a medallion badge on the muscle, triple-knurled
+  hosel engraving and a Fluid Feel bore-through insert, styled after Wilson's
+  1971 Button Back Dynapower. Lofts are traditional, running from a 21-degree
+  3-iron to a 47-degree pitching wedge with a 35-degree 7-iron, and offset is
+  very small at 0.110 inches in the 3-iron tapering to 0.050 inches at the
+  pitching wedge. The stock set is 3-iron through pitching wedge with a
+  51-degree gap wedge available to match. The year_discontinued above follows
+  this project's convention of recording the year the successor was announced;
+  in practice the FG Tour 100 was a short commemorative run and Wilson had no
+  direct blade replacement until the 2019 Staff Model Blade. Figures below are
+  the standard men's steel-shaft specification.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 59.5
+    length: 39.25
+    offset: 0.110
+    swing_weight: D2.5
+  - club: "4"
+    loft: 24.0
+    lie: 60.0
+    length: 38.75
+    offset: 0.100
+    swing_weight: D2.5
+  - club: "5"
+    loft: 27.0
+    lie: 61.0
+    length: 38.25
+    offset: 0.090
+    swing_weight: D2.5
+  - club: "6"
+    loft: 31.0
+    lie: 61.5
+    length: 37.75
+    offset: 0.080
+    swing_weight: D2.5
+  - club: "7"
+    loft: 35.0
+    lie: 62.0
+    length: 37.25
+    offset: 0.070
+    swing_weight: D2.5
+  - club: "8"
+    loft: 39.0
+    lie: 63.0
+    length: 36.75
+    offset: 0.063
+    swing_weight: D2.5
+  - club: "9"
+    loft: 43.0
+    lie: 63.5
+    length: 36.25
+    offset: 0.057
+    swing_weight: D2.5
+  - club: "PW"
+    loft: 47.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.050
+    swing_weight: D3
+  - club: "GW"
+    loft: 51.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.040
+    swing_weight: D3
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+    flex: ["R300", "S300", "X100"]
+sources:
+  - "2nd Swing Golf 'Wilson Staff FG Tour 100 Iron Set' specification table (club, loft, lie, length, offset, swing weight, 3-iron through GW) — retrieved July 2026. Retailer-published table, not a Wilson spec sheet."
+  - "InTheHoleGolf 'Wilson Staff FG Tour 100 Iron Set' (product code WIL14-FGT100IS) — reproduces the identical ladder independently, and supplies the 3-PW stock set, the True Temper Dynamic Gold shaft in R/S/X and the Button Back 1971 design reference."
+  - "Golfalot 'Wilson Celebrate 100 Years By Launching Their FG Tour 100 Irons' and MyGolfWay's report on Wilson's centenary presentation at the 2014 PGA Merchandise Show — announcement year, mid-February 2014 availability, the 3-PW set with Dynamic Gold R300/S300 and Lamkin Crossline grip, and the milled face and Fluid Feel bore-through insert."
+  - "Bounce is omitted: no retrieved listing published a bounce column for this model."
+  - "year_discontinued 2019 is derived, not sourced. It is the announcement year of the Staff Model Blade, per this project's convention; no retrieved source gives an end-of-production date for the FG Tour 100."
+related_models:
+  - slug: "wilson/staff-model-blade-irons"
+    label: "Successor: Wilson Staff Model Blade"
+faq:
+  - q: "What is the loft of a Wilson Staff FG Tour 100 7-iron?"
+    a: "The Wilson Staff FG Tour 100 7-iron has a loft of 35 degrees, with a 62-degree lie and a 37.25-inch steel-shaft length."
+  - q: "What clubs come in a Wilson Staff FG Tour 100 set?"
+    a: "The stock set is 3-iron through pitching wedge, with a 51-degree gap wedge available to match."
+  - q: "Why is it called the FG Tour 100?"
+    a: "It was built for Wilson's centenary in 2014, one hundred years after the company was incorporated, and its styling borrows from the 1971 Button Back Dynapower blade."
+  - q: "How do the FG Tour 100 lofts compare with the Staff Model Blade?"
+    a: "The FG Tour 100 is a degree weaker in the short irons. Its 7-iron is 35 degrees against the Staff Model Blade's 34, and its pitching wedge is 47 degrees against 46."
+confidence: medium

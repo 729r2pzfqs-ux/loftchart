@@ -1,0 +1,93 @@
+brand: Titleist
+brand_slug: titleist
+model: 718 AP1
+slug: 718-ap1-irons
+club_type: irons
+year_introduced: 2017
+year_discontinued: 2019
+category: game-improvement
+construction: cast, hollow-body long irons with undercut cavity mid and short irons
+material: cast stainless steel with high-density tungsten weighting
+successor: Titleist T300
+predecessor: null
+description: >
+  The 718 AP1 is the last AP1 before the line became the T-Series, and the
+  game-improvement model of Titleist's 2018 range. Titleist used hollow-body
+  construction in the long irons and an undercut cavity in the mid and short
+  irons, with tungsten weighting tuned club by club to lower the centre of
+  gravity. It is the strongest-lofted and most offset set in the 718 family:
+  a 30 degree 7-iron against 34 on the 718 AP2, and 5.3mm of offset at the
+  4-iron. The stock set ran a 4-iron through two gap wedges, badged W at 48
+  degrees and W2 at 53 degrees. Titleist published 718 offsets in millimetres
+  rather than inches.
+specs:
+  - club: "4"
+    loft: 21
+    lie: 61
+    length: 38.5
+    offset: 0.209
+  - club: "5"
+    loft: 24
+    lie: 62
+    length: 38.0
+    offset: 0.177
+  - club: "6"
+    loft: 27
+    lie: 62.5
+    length: 37.5
+    offset: 0.157
+  - club: "7"
+    loft: 30
+    lie: 63
+    length: 37.0
+    offset: 0.138
+  - club: "8"
+    loft: 34
+    lie: 63.5
+    length: 36.5
+    offset: 0.118
+  - club: "9"
+    loft: 38
+    lie: 64
+    length: 36.0
+    offset: 0.110
+  - club: "PW"
+    loft: 43
+    lie: 64
+    length: 35.75
+    offset: 0.098
+  - club: "W"
+    loft: 48
+    lie: 64
+    length: 35.5
+    offset: 0.091
+  - club: "W2"
+    loft: 53
+    lie: 64
+    length: 35.5
+    offset: 0.091
+stock_shafts:
+  - name: "True Temper AMT Red"
+    material: steel
+    weight: "95g-107g"
+    flex: ["R300", "S300"]
+  - name: "Mitsubishi Tensei Pro Red AMC"
+    material: graphite
+    flex: ["L", "A", "R", "S"]
+sources:
+  - "Titleist archived product page, titleist.com/golf-clubs/irons/718-ap1, via the Internet Archive (combined '718 Iron Specifications' table covering AP1/AP2/AP3/T-MB/CB/MB: loft, offset in mm, shared lie and length rows)"
+  - "Same archived page, stock shaft and grip block - True Temper AMT Red and Mitsubishi Tensei Pro Red AMC, Golf Pride Tour Velvet White grip; and 'Available Irons: 4-W 53' for the set composition"
+  - "Offsets converted from the published millimetre figures to inches for consistency with the rest of the archive"
+related_models:
+  - slug: "titleist/718-ap2-irons"
+    label: "Players sibling: Titleist 718 AP2"
+  - slug: "titleist/t300-irons"
+    label: "Successor: Titleist T300"
+faq:
+  - q: "What is the loft of a Titleist 718 AP1 7-iron?"
+    a: "The Titleist 718 AP1 7-iron is 30 degrees, with a 63 degree lie and a 37 inch standard steel length."
+  - q: "How much stronger is the 718 AP1 than the 718 AP2?"
+    a: "Four degrees through most of the set. The AP1 7-iron is 30 degrees against 34 on the AP2, and the AP1 pitching wedge is 43 degrees against 46."
+  - q: "What wedges came with the Titleist 718 AP1?"
+    a: "The stock set ran 4-iron to pitching wedge plus two gap wedges: a 48 degree W and a 53 degree W2, both at 35.5 inches."
+confidence: high

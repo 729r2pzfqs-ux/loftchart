@@ -1,0 +1,107 @@
+brand: Cobra
+brand_slug: cobra
+model: KING F9 Speedback
+slug: king-f9-speedback-irons
+club_type: irons
+year_introduced: 2019
+year_discontinued: 2020
+category: game-improvement
+construction: cast SPEEDBACK-shaped cavity back with a forged face insert and tungsten heel-toe weighting in the long irons
+material: stainless steel body with a forged E9 PWRSHELL face, 33 grams of tungsten in the 4- to 7-irons and a three-piece aluminium, TPU and acrylic-foam medallion
+predecessor: Cobra KING F8
+successor: Cobra KING Speedzone
+description: >
+  The KING F9 Speedback is Cobra's 2019 game-improvement iron and the standard-length
+  version of a set also sold in ONE Length. Cobra carried the SPEEDBACK name over
+  from the driver: a belt of steel low and wide across the back that drops and deepens
+  the centre of gravity without widening the sole. The face is a forged E9 PWRSHELL
+  insert, 1.8 mm at its thinnest, over a deep undercut sole with a 1.2 mm internal
+  Speed Channel, and 33 grams of tungsten sit in the heel and toe of the 4- through
+  7-irons. A three-piece medallion of aluminium, thermoplastic polyurethane and
+  acrylic foam handles damping, and hosel lengths step up through the set. Lofts are
+  moderately strong for the period at 29.5 degrees in the 7-iron and 44 degrees in the
+  pitching wedge, on a 37.25-inch steel 7-iron. The stock set is seven clubs, 5-iron
+  through gap wedge, with a 4-iron and sand wedge catalogued separately. Lengths and
+  swing weights below are the standard steel-shaft values; Cobra also published a
+  COBRA CONNECT build a quarter of an inch longer at every club. Offsets are converted
+  from Cobra's published millimetre figures.
+specs:
+  - club: "4"
+    loft: 19.5
+    lie: 62.0
+    length: 39.25
+    offset: 0.213
+    swing_weight: D1
+  - club: "5"
+    loft: 22.5
+    lie: 62.5
+    length: 38.5
+    offset: 0.181
+    swing_weight: D1
+  - club: "6"
+    loft: 25.5
+    lie: 63.0
+    length: 37.75
+    offset: 0.154
+    swing_weight: D1
+  - club: "7"
+    loft: 29.5
+    lie: 63.5
+    length: 37.25
+    offset: 0.126
+    swing_weight: D1
+  - club: "8"
+    loft: 34.0
+    lie: 64.0
+    length: 36.75
+    offset: 0.102
+    swing_weight: D1
+  - club: "9"
+    loft: 39.0
+    lie: 64.5
+    length: 36.25
+    offset: 0.079
+    swing_weight: D1
+  - club: "PW"
+    loft: 44.0
+    lie: 65.0
+    length: 36.0
+    offset: 0.059
+    swing_weight: D2
+  - club: "GW"
+    loft: 49.0
+    lie: 65.0
+    length: 35.75
+    offset: 0.039
+    swing_weight: D2
+  - club: "SW"
+    loft: 54.0
+    lie: 65.0
+    length: 35.5
+    offset: 0.039
+    swing_weight: D3
+stock_shafts:
+  - name: "KBS Tour 90"
+    material: steel
+    flex: ["R", "S"]
+  - name: "Fujikura ATMOS 6"
+    material: graphite
+    weight: "62-66g"
+    flex: ["Lite", "R", "S"]
+sources:
+  - "Cobra Golf official 'KING F9 SPEEDBACK Irons' product page (cobragolf.com/king-f9-irons), archived 2019-07-19 via web.archive.org — retrieved directly; supplies the full Specifications table (iron, loft, lie angle, offset in mm, COBRA CONNECT and standard length for graphite and steel, graphite and steel swing weight, RH/LH) for the 4-iron through sand wedge, the 'STOCK SET COMPOSITION - 7 Clubs, Steel: 5-GW' line, the SPEEDBACK shaping, forged E9 PWRSHELL face, 33 g tungsten, three-piece medallion and progressive hosel descriptions, and the KBS Tour 90 steel and Fujikura ATMOS 6 graphite shaft tables"
+  - "Golf Digest and MyGolfSpy launch coverage of the KING F9 and KING F9 ONE Length irons, January 2019 — corroborates the 2019 announcement and the parallel ONE Length version"
+  - "Offsets are converted from Cobra's published millimetre column at 25.4 mm to the inch and rounded to three decimal places"
+related_models:
+  - slug: "cobra/king-f8-irons"
+    label: "Predecessor: Cobra KING F8"
+  - slug: "cobra/king-speedzone-irons"
+    label: "Successor: Cobra KING Speedzone"
+faq:
+  - q: "What is the loft of a Cobra KING F9 Speedback 7-iron?"
+    a: "The Cobra KING F9 Speedback 7-iron has a loft of 29.5 degrees, a lie of 63.5 degrees and a standard steel-shaft length of 37.25 inches."
+  - q: "What clubs come in a stock Cobra KING F9 Speedback set?"
+    a: "The stock steel set is seven clubs, 5-iron through gap wedge. A 4-iron and a sand wedge were catalogued separately, and Cobra also sold the set in ONE Length."
+  - q: "Why are there two lengths listed for the Cobra KING F9 Speedback irons?"
+    a: "Cobra published a standard build and a COBRA CONNECT build fitted with sensor-equipped grips. The COBRA CONNECT clubs are a quarter of an inch longer at every position; the specs here are the standard lengths."
+confidence: high

@@ -1,0 +1,85 @@
+brand: Titleist
+brand_slug: titleist
+model: T100 (2021)
+slug: t100-2021-irons
+club_type: irons
+year_introduced: 2021
+year_discontinued: 2023
+category: players
+construction: forged dual cavity, multi-material
+material: forged carbon steel with brazed D18 tungsten weighting in the heel and toe of the 3 to 7 irons
+successor: null
+predecessor: Titleist T100
+description: >
+  The second-generation T100 was announced in August 2021 and reached retail on
+  26 August. It keeps the forged dual cavity shape of the 2019 T100 but changes
+  how the tungsten is fixed: denser D18 tungsten is brazed into the heel and
+  toe of the 3 through 7 irons at around 2000 degrees, removing the weld points
+  and allowing tighter control of centre-of-gravity placement. A new muscle
+  channel in the 3 and 4 irons lowers the centre of gravity to raise peak
+  height. Lofts, lies and lengths are unchanged from the 2019 T100, with a 34
+  degree 7-iron and a 46 degree pitching wedge. Titleist replaced it with a
+  third T100 generation in 2023.
+specs:
+  - club: "3"
+    loft: 21
+    lie: 61
+    length: 39.0
+  - club: "4"
+    loft: 24
+    lie: 61.5
+    length: 38.5
+  - club: "5"
+    loft: 27
+    lie: 62
+    length: 38.0
+  - club: "6"
+    loft: 30
+    lie: 62.5
+    length: 37.5
+  - club: "7"
+    loft: 34
+    lie: 63
+    length: 37.0
+  - club: "8"
+    loft: 38
+    lie: 63.5
+    length: 36.5
+  - club: "9"
+    loft: 42
+    lie: 64
+    length: 36.0
+  - club: "PW"
+    loft: 46
+    lie: 64
+    length: 35.75
+  - club: "W"
+    loft: 50
+    lie: 64
+    length: 35.5
+stock_shafts:
+  - name: "True Temper AMT Tour White"
+    material: steel
+    flex: ["R300", "S300", "X100"]
+  - name: "Project X LZ"
+    material: steel
+    flex: ["5.0", "5.5", "6.0", "6.5", "7.0"]
+sources:
+  - "Titleist archived product page, titleist.com/golf-clubs/irons/t100-2021, via the Internet Archive (T-Series specification table: T100 loft row plus shared lie and length rows, and the stock shaft tables)"
+  - "GolfWRX, 'Titleist introduces next-generation 2021 T-Series irons', August 2021 - forged dual cavity construction, D18 tungsten brazed at 2000 degrees, muscle channel in the 3 and 4 irons, 26 August retail date"
+  - "Titleist published no offset, bounce or swing weight rows for the 2021 T-Series irons, so those keys are omitted rather than estimated"
+related_models:
+  - slug: "titleist/t100-irons"
+    label: "Predecessor: Titleist T100 (2019)"
+  - slug: "titleist/t100s-irons"
+    label: "Stronger-lofted sibling: Titleist T100S"
+faq:
+  - q: "What is the loft of a Titleist T100 (2021) 7-iron?"
+    a: "The 2021 Titleist T100 7-iron is 34 degrees, with a 63 degree lie and a 37 inch standard steel length."
+  - q: "Did the 2021 T100 change lofts from the 2019 T100?"
+    a: "No. The loft, lie and length ladders are identical, from a 21 degree 3-iron to a 46 degree pitching wedge and a 50 degree gap wedge."
+  - q: "What is different about the 2021 T100?"
+    a: "The tungsten weighting is denser D18 tungsten brazed into the head rather than welded, and the 3 and 4 irons gain a muscle channel that lowers the centre of gravity."
+  - q: "How does the T100 compare with the T100S?"
+    a: "The T100S is built two degrees stronger by design across the set: its 7-iron is 32 degrees against 34 on the T100."
+confidence: high

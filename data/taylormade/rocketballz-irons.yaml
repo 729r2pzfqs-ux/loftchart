@@ -1,0 +1,130 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: RocketBallz
+slug: rocketballz-irons
+club_type: irons
+year_introduced: 2012
+year_discontinued: 2012
+category: game-improvement
+construction: investment cast, two-piece metalwood-inspired construction in 3-5 irons
+material: stainless steel
+successor: TaylorMade RocketBladez
+predecessor: TaylorMade Burner 2.0
+description: >
+  The RocketBallz iron, usually sold as the RBZ, was TaylorMade's mainstream
+  game-improvement iron for 2012 and the direct replacement for the Burner 2.0. Each
+  head was individually engineered, with a two-piece metalwood-inspired construction
+  in the 3, 4 and 5 irons to lower the centre of gravity and raise COR, an ultra-thin
+  face taken to the USGA COR limit, and a "Toe-Bar" that controls how the face flexes
+  so shots start straighter. The wedges use TaylorMade's ATV sole. Lofts are strong
+  for the era at 30.5 degrees in the 7-iron, the same set of lofts TaylorMade then
+  carried over to the RocketBladez. The RocketBladez was announced in late 2012,
+  which ends the RocketBallz run. Specs below are the men's standard steel-shaft
+  build.
+specs:
+  - club: "3"
+    loft: 17.5
+    lie: 61.0
+    length: 39.5
+    offset: 0.256
+    bounce: 0.3
+    swing_weight: D3.5
+  - club: "4"
+    loft: 20.0
+    lie: 61.5
+    length: 38.875
+    offset: 0.240
+    bounce: 1.0
+    swing_weight: D3.5
+  - club: "5"
+    loft: 23.0
+    lie: 62.0
+    length: 38.25
+    offset: 0.224
+    bounce: 3.0
+    swing_weight: D3.5
+  - club: "6"
+    loft: 26.5
+    lie: 62.5
+    length: 37.625
+    offset: 0.209
+    bounce: 4.3
+    swing_weight: D3.5
+  - club: "7"
+    loft: 30.5
+    lie: 63.0
+    length: 37.0
+    offset: 0.165
+    bounce: 4.8
+    swing_weight: D3.5
+  - club: "8"
+    loft: 35.0
+    lie: 63.5
+    length: 36.5
+    offset: 0.138
+    bounce: 5.5
+    swing_weight: D3.5
+  - club: "9"
+    loft: 40.0
+    lie: 64.0
+    length: 36.0
+    offset: 0.106
+    bounce: 6.1
+    swing_weight: D3.5
+  - club: "PW"
+    loft: 45.0
+    lie: 64.5
+    length: 35.5
+    offset: 0.079
+    bounce: 6.6
+    swing_weight: D3.5
+  - club: "AW"
+    loft: 50.0
+    lie: 64.5
+    length: 35.5
+    offset: 0.059
+    bounce: 8.5
+    swing_weight: D3.5
+  - club: "SW"
+    loft: 55.0
+    lie: 64.5
+    length: 35.25
+    offset: 0.051
+    bounce: 11.6
+    swing_weight: D4
+  - club: "LW"
+    loft: 60.0
+    lie: 64.5
+    length: 35.0
+    offset: 0.051
+    bounce: 5.9
+    swing_weight: D4
+stock_shafts:
+  - name: "TaylorMade RBZ Steel"
+    material: steel
+    weight: "85 g in 3-PW, 106 g in AW/SW/LW"
+    flex: ["R", "S"]
+  - name: "TaylorMade RBZ Graphite 65"
+    material: graphite
+    weight: "65 g"
+    flex: ["M", "R", "S"]
+sources:
+  - "TaylorMade official 2012 Irons catalog, RocketBallz irons page (p.19), specification table giving loft, lie, offset in mm, bounce, length and steel/graphite swingweight, taylormadegolf.com/on/demandware.static/-/Sites-TMaG-Library/default/v1463473265710/docs/productspecs/TM_SPR_2012_Catalog_21.pdf"
+  - "Same catalog page, feature list and shaft/grip block (two-piece metalwood-inspired 3-5 irons, Toe-Bar face, ATV wedge sole, RBZ Steel 85g/106g and RBZ Graphite 65 shafts, RBZ Iron grip)"
+  - "QSponge club spec database, TaylorMade RocketBallz irons table, used as an independent check on the lofts, lies and lengths — it agrees with the catalog on every club"
+  - "NOTE on dates: year_introduced is the 2012 catalog year. year_discontinued is 2012 because the successor RocketBladez was announced in late 2012, even though it was sold as the 2013 model."
+related_models:
+  - slug: "taylormade/burner-2-0-irons"
+    label: "Predecessor: TaylorMade Burner 2.0"
+  - slug: "taylormade/rocketbladez-irons"
+    label: "Successor: TaylorMade RocketBladez"
+faq:
+  - q: "What is the loft of a TaylorMade RocketBallz 7-iron?"
+    a: "The TaylorMade RocketBallz (RBZ) 7-iron has a loft of 30.5 degrees, with a 63-degree lie and a 37-inch steel-shaft length."
+  - q: "Are the RocketBallz and RocketBladez irons lofted the same?"
+    a: "Yes. TaylorMade carried the RocketBallz loft ladder straight over to the RocketBladez, so both sets run 17.5 degrees in the 3-iron, 30.5 in the 7-iron and 45 in the pitching wedge. The difference between them is the Speed Pocket in the RocketBladez sole, not the lofts."
+  - q: "How do RocketBallz lofts compare to the Burner 2.0 they replaced?"
+    a: "The RocketBallz is about half a degree to a degree stronger through the long and mid irons — 17.5 degrees against 19 in the 3-iron, 20 against 21 in the 4-iron and 30.5 against 31 in the 7-iron. From the 8-iron down the two sets are identical, both finishing at a 45-degree pitching wedge."
+  - q: "What clubs came in the stock RocketBallz iron set?"
+    a: "TaylorMade specified the RocketBallz from the 3-iron through the lob wedge: 3 to 9, pitching wedge, approach wedge at 50 degrees, sand wedge at 55 and lob wedge at 60. Retail sets were most often built 4-PW or 4-AW."
+confidence: high

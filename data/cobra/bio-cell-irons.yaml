@@ -1,0 +1,108 @@
+brand: Cobra
+brand_slug: cobra
+model: BiO Cell
+slug: bio-cell-irons
+club_type: irons
+year_introduced: 2013
+year_discontinued: 2015
+category: game-improvement
+construction: investment cast deep-undercut cavity back with tungsten weighting
+material: stainless steel with tungsten weights in the heel and toe of the long and mid irons and behind the face in the short irons
+predecessor: Cobra AMP Cell
+successor: Cobra Fly-Z
+description: >
+  The BiO Cell is Cobra's tungsten-weighted game-improvement iron, announced in
+  autumn 2013 and sold as the 2014 line — year_introduced records the announcement
+  year, so the 2014 on the packaging will not match it. It combines Cobra's BiO CELL
+  weighting with the E9 variable-thickness face and what Cobra called the largest
+  unsupported face of any of its irons to that point, sitting over a deep perimeter
+  undercut. Tungsten is placed in the heel and toe of the long and mid irons for
+  stability and directly behind the hitting area in the short irons for control.
+  Lofts are strong at 30.5 degrees in the 7-iron and 45 degrees in the pitching
+  wedge, on a 37.25-inch 7-iron. The stock steel set is eight clubs, 4-iron through
+  pitching wedge plus a gap wedge; graphite was custom-order only, and a 3-iron, sand
+  wedge and lob wedge were catalogued separately. The heads were sold in four
+  colours. Swing weights below are the steel-shaft values — graphite builds run two
+  points lighter. Cobra published a single length column covering both shaft
+  materials and did not publish an offset figure for this set.
+specs:
+  - club: "3"
+    loft: 18.0
+    lie: 60.0
+    length: 40.0
+    swing_weight: D2
+  - club: "4"
+    loft: 20.0
+    lie: 61.0
+    length: 39.25
+    swing_weight: D2
+  - club: "5"
+    loft: 23.0
+    lie: 61.5
+    length: 38.5
+    swing_weight: D2
+  - club: "6"
+    loft: 26.5
+    lie: 62.0
+    length: 37.75
+    swing_weight: D2
+  - club: "7"
+    loft: 30.5
+    lie: 62.5
+    length: 37.25
+    swing_weight: D2
+  - club: "8"
+    loft: 35.0
+    lie: 63.0
+    length: 36.75
+    swing_weight: D2
+  - club: "9"
+    loft: 40.0
+    lie: 63.5
+    length: 36.25
+    swing_weight: D2
+  - club: "PW"
+    loft: 45.0
+    lie: 64.0
+    length: 36.0
+    swing_weight: D3
+  - club: "GW"
+    loft: 50.0
+    lie: 64.0
+    length: 35.75
+    swing_weight: D3
+  - club: "SW"
+    loft: 55.0
+    lie: 64.0
+    length: 35.5
+    swing_weight: D4
+  - club: "LW"
+    loft: 60.0
+    lie: 64.0
+    length: 35.5
+    swing_weight: D4
+stock_shafts:
+  - name: "True Temper Dynalite 85"
+    material: steel
+    weight: "85-90g"
+    flex: ["R", "S"]
+  - name: "COBRA BiO CELL by Aldila"
+    material: graphite
+    weight: "52-62g"
+    flex: ["A", "R", "S"]
+sources:
+  - "Cobra Golf official 'BiO CELL Irons' product page (cobragolf.com/bio-cell-irons), archived 2014-03-11 via web.archive.org — retrieved directly; supplies the full Specifications table (model, loft, length, lie, graphite and steel swing weight, stock flex, RH/LH) for the 3-iron through lob wedge, the stock set composition (steel 4-PW plus GW; graphite custom only), the BiO CELL / E9 Face, perimeter undercut and tungsten-placement descriptions, and the COBRA BiO CELL graphite and True Temper Dynalite 85 steel shaft tables"
+  - "Announcement year taken from the archived-capture record for the same Cobra product page, first crawled 19 November 2013 via web.archive.org, which places the launch in autumn 2013 for the 2014 model year; this matches the Cobra AMP Cell record on this site, whose year_discontinued is 2013"
+related_models:
+  - slug: "cobra/amp-cell-irons"
+    label: "Predecessor: Cobra AMP Cell"
+  - slug: "cobra/fly-z-irons"
+    label: "Successor: Cobra Fly-Z"
+faq:
+  - q: "What is the loft of a Cobra BiO Cell 7-iron?"
+    a: "The Cobra BiO Cell 7-iron has a loft of 30.5 degrees, a lie of 62.5 degrees and a length of 37.25 inches."
+  - q: "What clubs come in a stock Cobra BiO Cell set?"
+    a: "The stock steel set is eight clubs — 4-iron through pitching wedge plus a gap wedge. Graphite was a custom order, and a 3-iron, sand wedge and lob wedge were sold separately."
+  - q: "What year are the Cobra BiO Cell irons?"
+    a: "Cobra announced them in autumn 2013 and sold them as the 2014 line, so listings date them either way. They were replaced by the Cobra Fly-Z in 2015."
+confidence: high

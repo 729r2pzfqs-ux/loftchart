@@ -8,7 +8,7 @@ year_discontinued: 2001
 category: game-improvement
 construction: investment cast, perimeter weighted
 material: 17-4 stainless steel
-successor: Titleist DCI 990
+successor: Titleist DCI 762
 predecessor: Titleist DCI Gold
 description: >
   The DCI 981 is the 1998 perimeter-weighted cast iron that carried the DCI
@@ -115,9 +115,12 @@ stock_shafts:
     material: steel
 sources:
   - "Titleist previous-models archived product page, titleist.com/golf-clubs/irons/dci-981, via the Internet Archive (full manufacturer table: length, loft, lie, offset, swing weight, bounce)"
+  - "Lineage: the DCI 981 is the game-improvement model of the family and was catalogued alongside the players-oriented DCI 990, not replaced by it - Titleist's own 2000 product catalogue lists 'DCI 990 981' together. Its slot was taken by the 2001 DCI 762, which is why the successor here is the 762 rather than the 990."
 related_models:
+  - slug: "titleist/dci-762-irons"
+    label: "Successor: Titleist DCI 762"
   - slug: "titleist/dci-990-irons"
-    label: "Successor: Titleist DCI 990"
+    label: "Sold alongside it: Titleist DCI 990"
 faq:
   - q: "What is the loft of a Titleist DCI 981 7-iron?"
     a: "The Titleist DCI 981 7-iron is 35 degrees, with a 63 degree lie and a 36.75 inch standard steel length."

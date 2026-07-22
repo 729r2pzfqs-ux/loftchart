@@ -1,0 +1,98 @@
+brand: Titleist
+brand_slug: titleist
+model: 710 MB
+slug: 710-mb-irons
+club_type: irons
+year_introduced: 2009
+year_discontinued: 2011
+category: blade
+construction: forged muscleback
+material: forged 1025 carbon steel with satin chrome plating
+successor: null
+predecessor: Titleist 695.MB
+description: >
+  The 710 MB is the forged muscleback Titleist introduced in the autumn of
+  2009 for the 2010 season, alongside the 710 CB, AP1 and AP2. It is forged
+  from 1025 carbon steel with a uniform muscle behind the face, constant blade
+  length, a thin topline and minimal progressive offset running from .125
+  inches at the 3-iron to .075 inches at the pitching wedge. Against the
+  695.MB it replaced, the loft ladder moved one degree stronger from the
+  6-iron down: the 7-iron is 35 degrees against 36, and the pitching wedge is
+  47 degrees against 48. The stock set was a 3-iron through pitching wedge with
+  no gap wedge.
+specs:
+  - club: "3"
+    loft: 21
+    lie: 60
+    length: 39.0
+    offset: 0.125
+    bounce: 2
+    swing_weight: D2
+  - club: "4"
+    loft: 24
+    lie: 61
+    length: 38.5
+    offset: 0.120
+    bounce: 3
+    swing_weight: D2
+  - club: "5"
+    loft: 27
+    lie: 62
+    length: 38.0
+    offset: 0.115
+    bounce: 4
+    swing_weight: D2
+  - club: "6"
+    loft: 31
+    lie: 62.5
+    length: 37.5
+    offset: 0.110
+    bounce: 4.5
+    swing_weight: D2
+  - club: "7"
+    loft: 35
+    lie: 63
+    length: 37.0
+    offset: 0.100
+    bounce: 5
+    swing_weight: D2
+  - club: "8"
+    loft: 39
+    lie: 63.5
+    length: 36.5
+    offset: 0.090
+    bounce: 6
+    swing_weight: D2
+  - club: "9"
+    loft: 43
+    lie: 64
+    length: 36.0
+    offset: 0.080
+    bounce: 7
+    swing_weight: D2
+  - club: "PW"
+    loft: 47
+    lie: 64
+    length: 35.75
+    offset: 0.075
+    bounce: 8
+    swing_weight: D2
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+sources:
+  - "Titleist previous-models archived product page, titleist.com/golf-clubs/irons/mb-710, via the Internet Archive (full manufacturer table headed 'MB': offset, bounce, loft, length, lie, swingweight)"
+  - "Titleist 710 MB product copy via titleist.com and the 2009 Titleist MB/CB press release as carried by TheGolfWire and AmateurGolf.com - forged 1025 carbon steel, satin chrome plating, constant blade length, minimal progressive offset, Dynamic Gold stock shaft"
+related_models:
+  - slug: "titleist/695-mb-irons"
+    label: "Predecessor: Titleist 695.MB"
+  - slug: "titleist/710-ap2-irons"
+    label: "Same-generation players iron: Titleist 710 AP2"
+faq:
+  - q: "What is the loft of a Titleist 710 MB 7-iron?"
+    a: "The Titleist 710 MB 7-iron is 35 degrees, with a 63 degree lie and a 37 inch standard steel length."
+  - q: "How do the 710 MB lofts compare with the 695.MB?"
+    a: "The long irons match, but the 710 MB is one degree stronger from the 6-iron down: a 35 degree 7-iron against 36 and a 47 degree pitching wedge against 48."
+  - q: "How much offset does the Titleist 710 MB have?"
+    a: "Very little. Titleist published .125 inches at the 3-iron tapering to .075 inches at the pitching wedge, against .160 to .085 inches on the 710 AP2 of the same generation."
+confidence: high

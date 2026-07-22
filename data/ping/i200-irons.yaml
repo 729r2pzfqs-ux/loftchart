@@ -1,0 +1,108 @@
+brand: Ping
+brand_slug: ping
+model: i200
+slug: i200-irons
+club_type: irons
+year_introduced: 2017
+year_discontinued: 2018
+category: players
+construction: investment cast
+material: 431 stainless steel with a Custom Tuning Port
+successor: Ping i210
+predecessor: null
+description: >
+  The i200 is a cast 431 stainless players iron with a thinned face, a deeper Custom
+  Tuning Port and weight moved to the hosel region and toe to raise MOI. Its loft, lie
+  and length chart carried over unchanged into the i210 that replaced it a year later —
+  the 7-iron is 33 degrees at 62.0 lie and 37 inches — but the i200 runs slightly more
+  offset through the long irons, 0.19 inches at the 4-iron and 0.17 at the 5-iron
+  against the i210's 0.18 and 0.15. The set is 3-iron through pitching wedge plus a
+  50-degree utility wedge. Ping's colour-code (dot) system sets lie angle relative to standard: gold 4
+  flat, brown 3 flat, orange 2 flat, red 1 flat, BLACK standard, blue 1 upright, green
+  2 upright, white 3 upright, silver 4 upright, maroon 5 upright. The lies below are
+  the BLACK (standard) lies.
+specs:
+  - club: "3"
+    loft: 19.0
+    lie: 59.0
+    length: 39.0
+    offset: 0.21
+    bounce: 5.0
+    swing_weight: D1
+  - club: "4"
+    loft: 22.5
+    lie: 59.8
+    length: 38.5
+    offset: 0.19
+    bounce: 6.0
+    swing_weight: D1
+  - club: "5"
+    loft: 26.0
+    lie: 60.5
+    length: 38.0
+    offset: 0.17
+    bounce: 7.0
+    swing_weight: D1
+  - club: "6"
+    loft: 29.5
+    lie: 61.3
+    length: 37.5
+    swing_weight: D1
+  - club: "7"
+    loft: 33.0
+    lie: 62.0
+    length: 37.0
+    offset: 0.09
+    bounce: 9.0
+    swing_weight: D1
+  - club: "8"
+    loft: 37.0
+    lie: 62.8
+    length: 36.5
+    offset: 0.07
+    bounce: 10.0
+    swing_weight: D1
+  - club: "9"
+    loft: 41.0
+    lie: 63.5
+    length: 36.0
+    offset: 0.05
+    bounce: 11.5
+    swing_weight: D1.5
+  - club: "PW"
+    loft: 45.0
+    lie: 64.1
+    length: 35.5
+    offset: 0.03
+    bounce: 13.0
+    swing_weight: D2
+  - club: "UW"
+    loft: 50.0
+    lie: 64.1
+    length: 35.5
+    offset: 0.02
+    bounce: 13.0
+    swing_weight: D2
+sources:
+  - "Ping's own i200 product page, Specifications table (http://web.archive.org/web/2018/https://ping.com/en-us/clubs/irons/i200) — supplied every length, loft, lie, offset, bounce and swing weight above except where noted below, plus the confirmation that lie is based on the black colour code at standard length."
+  - "IMPORTANT note on the 6-iron: Ping's own published chart is faulty in that row. Across every archived snapshot checked, the i200 6-iron repeats the 7-iron's lie (62.0), offset (0.09) and bounce (9.0) verbatim, which cannot be right for a set whose other rows follow Ping's standard 0.7-0.8 degree lie progression. The 6-iron lie of 61.3 recorded here comes from the qsponge.com i200 spec table, which matches Ping's chart on every other club and matches the identical 59.0 / 59.8 / 60.5 / 61.3 / 62.0 / 62.8 / 63.5 / 64.1 progression Ping publishes for the iBlade, i210, i230 and i525. The 6-iron offset and bounce are deliberately OMITTED: qsponge gives 0.14 and 8.0, but that is a single secondary source for a row already known to be corrupt in the manufacturer chart, so those keys are left out rather than guessed."
+  - "Note: 2ndswing.com's i200 spec table was checked and rejected — it lists the i210's lie progression (60.0 / 60.5 / 61.0 / 61.5 / 62.0) and the i210's offsets, and contradicts Ping's own chart on the clubs where that chart is sound."
+  - "golflink.com 'PING Irons by Year' — the i200 is dated 2017 and the i210 2018."
+  - "Note: year_discontinued is taken as the year the successor i210 was introduced, per the chronology recorded in ping/i210-irons.yaml."
+related_models:
+  - slug: "ping/i210-irons"
+    label: "Successor: Ping i210"
+  - slug: "ping/iblade-irons"
+    label: "Ping tour-players iron of the same era: Ping iBlade"
+  - slug: "ping/i230-irons"
+    label: "Later Ping players iron: Ping i230"
+faq:
+  - q: "What is the loft of a Ping i200 7-iron?"
+    a: "The Ping i200 7-iron has a loft of 33 degrees, a standard (black dot) lie of 62.0 degrees and a steel-shaft length of 37.0 inches."
+  - q: "When were Ping i200 irons made?"
+    a: "The i200 was introduced in 2017 and was replaced by the i210 in 2018 — one of the shortest runs of any Ping iron."
+  - q: "What is the difference between the Ping i200 and the i210?"
+    a: "Lofts, lies and lengths are identical club for club. The i210 adds a softer elastomer insert in the Custom Tuning Port and trims the long-iron offset slightly, from 0.19 to 0.18 inches at the 4-iron and 0.17 to 0.15 at the 5-iron."
+  - q: "What clubs come in a Ping i200 set?"
+    a: "3-iron through pitching wedge, plus a 50-degree utility wedge that shares the pitching wedge's 64.1-degree lie and 35.5-inch length."
+confidence: high

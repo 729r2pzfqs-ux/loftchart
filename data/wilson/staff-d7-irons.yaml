@@ -61,6 +61,8 @@ sources:
 related_models:
   - slug: "wilson/staff-d9-irons"
     label: "Successor: Wilson Staff D9"
+  - slug: "wilson/staff-d300-irons"
+    label: "Predecessor: Wilson Staff D300"
 faq:
   - q: "What is the loft of a Wilson Staff D7 7-iron?"
     a: "The Wilson Staff D7 7-iron has a loft of 28 degrees, with a 62-degree lie and a 37.5-inch steel-shaft length."

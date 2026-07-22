@@ -1,0 +1,96 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: RocketBladez 2.0
+slug: rocketbladez-2-0-irons
+club_type: irons
+year_introduced: 2014
+year_discontinued: 2015
+category: game-improvement
+construction: investment cast with Speed Pocket sole slot
+material: stainless steel
+successor: null
+predecessor: TaylorMade RocketBladez
+description: >
+  The RocketBladez 2.0 was the 2014 follow-on to the RocketBladez, sold largely
+  through big-box and off-channel retail rather than as a headline launch. It keeps
+  the Speed Pocket sole slot in the long and mid irons, adds a revised Inverted Cone
+  face for a wider effective hitting area, and uses progressive offset that shrinks
+  through the set. Lofts are unchanged from the RocketBladez, at 30.5 degrees in the
+  7-iron and 45 degrees in the pitching wedge, and the set starts at the 4-iron
+  rather than the 3. TaylorMade never published a spec sheet for it, so the numbers
+  below carry lower confidence than the rest of the family — see sources. Specs are
+  the men's standard steel-shaft build.
+specs:
+  - club: "4"
+    loft: 20.0
+    lie: 61.5
+    length: 38.5
+    offset: 0.236
+  - club: "5"
+    loft: 23.0
+    lie: 62.0
+    length: 38.0
+    offset: 0.224
+  - club: "6"
+    loft: 26.5
+    lie: 62.5
+    length: 37.5
+    offset: 0.189
+  - club: "7"
+    loft: 30.5
+    lie: 63.0
+    length: 37.0
+    offset: 0.165
+  - club: "8"
+    loft: 35.0
+    lie: 63.5
+    length: 36.5
+    offset: 0.134
+  - club: "9"
+    loft: 40.0
+    lie: 64.0
+    length: 36.0
+    offset: 0.106
+  - club: "PW"
+    loft: 45.0
+    lie: 64.5
+    length: 35.5
+    offset: 0.079
+  - club: "AW"
+    loft: 50.0
+    lie: 64.5
+    length: 35.5
+    offset: 0.055
+  - club: "SW"
+    loft: 55.0
+    lie: 64.5
+    length: 35.5
+    offset: 0.039
+stock_shafts:
+  - name: "TaylorMade RocketFuel steel"
+    material: steel
+    flex: ["R", "S"]
+  - name: "TaylorMade RocketFuel graphite"
+    material: graphite
+    flex: ["A", "R", "S"]
+sources:
+  - "QSponge club spec database, TaylorMade RocketBladez 2.0 irons table, which supplied every loft, lie, length and offset value here. This is the only spec table for the model that could be retrieved."
+  - "TaylorMade official 2014 RocketBladez HL Irons spec sheet, taylormadegolf.com/on/demandware.static/-/Sites-TMaG-Library/default/v1463473265710/docs/productspecs/2014/Rocketbladez-HL-Irons.pdf — used as a cross-check. Its 4-iron-through-sand-wedge offset column (6.0, 5.7, 4.8, 4.2, 3.4, 2.7, 2.0, 1.4, 1.0 mm) matches the QSponge RocketBladez 2.0 offsets exactly, which is why offset is recorded here."
+  - "2nd Swing Golf and GolfEtail RocketBladez 2.0 listings, which confirm the model existed as a 2014 4-PW set with Speed Pocket and progressive offset in steel and graphite, but publish no numeric spec table."
+  - "NOTE: no TaylorMade spec sheet for the RocketBladez 2.0 exists in the archived taylormadegolf.com productspecs/2014 directory, which does hold sheets for the RocketBladez HL, SLDR and Tour Preferred irons. Confidence is low. The recorded lengths run in an even half-inch progression (38.5, 38.0, 37.5, 37.0) rather than TaylorMade's usual 38.875/38.25/37.625/37.0 ladder of the period; that difference comes from the single source and could not be independently confirmed."
+  - "Bounce and swing weight are omitted because no retrieved source gave them. The shaft names come from the retailer listings above and are recorded without weights or a full flex range because none was published."
+related_models:
+  - slug: "taylormade/rocketbladez-irons"
+    label: "Predecessor: TaylorMade RocketBladez"
+  - slug: "taylormade/rocketballz-irons"
+    label: "Earlier in the line: TaylorMade RocketBallz"
+faq:
+  - q: "What is the loft of a TaylorMade RocketBladez 2.0 7-iron?"
+    a: "The TaylorMade RocketBladez 2.0 7-iron is 30.5 degrees, with a 63-degree lie and a 37-inch steel-shaft length. That is the same loft as the original RocketBladez 7-iron."
+  - q: "What is the difference between the RocketBladez and the RocketBladez 2.0?"
+    a: "The lofts are the same. The 2.0 is a 2014 follow-on sold mainly through off-channel retail, starting at the 4-iron rather than the 3-iron, with a revised Inverted Cone face and progressive offset. Both use the Speed Pocket slot in the sole of the longer irons."
+  - q: "Which RocketBladez 2.0 irons have the Speed Pocket?"
+    a: "The Speed Pocket runs through the long and mid irons, the 4 through 7. The short irons and wedges do not have it, because the benefit of extra low-face ball speed matters far less at those lofts."
+  - q: "What clubs came in a RocketBladez 2.0 set?"
+    a: "The stock retail set was 4-PW. TaylorMade also catalogued a 50-degree approach wedge and a 55-degree sand wedge to extend it, and sold a hybrid combo version that swapped the 4- and 5-irons for rescues."
+confidence: low

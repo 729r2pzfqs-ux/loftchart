@@ -1,0 +1,111 @@
+brand: Srixon
+brand_slug: srixon
+model: Z 765
+slug: z-765-irons
+club_type: irons
+year_introduced: 2016
+year_discontinued: 2018
+category: players
+construction: forged
+material: forged 1020 carbon steel with a special heat treatment
+successor: Srixon Z 785
+predecessor: null
+description: >
+  The Z 765 is the muscle-cavity players model in Srixon's 2016 three-model Z Series iron
+  line, sitting between the Z 565 cavity back and the Z 965 blade. Srixon describes it as
+  ultra-soft 1020 carbon steel combined with a new special heat treatment and precision
+  forged, with the revised Tour V.T. sole and grooves five percent larger than the previous
+  Z 745 generation. Lofts are traditional for a players iron, with a 32-degree 7-iron and a
+  46-degree pitching wedge, and offset is minimal — 0.104 inches at the 7-iron against 0.128
+  inches on the Z 565. Those lofts carry over unchanged into the Z 785 that replaced it. The
+  stock range is 3-iron through pitching wedge in right and left hand, with a 51-degree
+  approach wedge in right hand only, and the set is offered in steel only. Srixon published
+  this model's offset figures directly in inches, so no unit conversion was applied. The Tour
+  V.T. sole is listed with separate leading- and trailing-edge bounce figures rather than a
+  single bounce number, so bounce is omitted here. Srixon announced the club in July 2016 and
+  it reached retail on 16 September 2016, so it is often catalogued as a 2017 model.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 60.0
+    length: 39.0
+    offset: 0.140
+    swing_weight: D3
+  - club: "4"
+    loft: 22.0
+    lie: 60.5
+    length: 38.5
+    offset: 0.132
+    swing_weight: D3
+  - club: "5"
+    loft: 25.0
+    lie: 61.0
+    length: 38.0
+    offset: 0.124
+    swing_weight: D3
+  - club: "6"
+    loft: 28.0
+    lie: 61.5
+    length: 37.5
+    offset: 0.116
+    swing_weight: D3
+  - club: "7"
+    loft: 32.0
+    lie: 62.0
+    length: 37.0
+    offset: 0.104
+    swing_weight: D3
+  - club: "8"
+    loft: 36.0
+    lie: 62.5
+    length: 36.5
+    offset: 0.093
+    swing_weight: D3
+  - club: "9"
+    loft: 41.0
+    lie: 63.0
+    length: 36.0
+    offset: 0.081
+    swing_weight: D3
+  - club: "PW"
+    loft: 46.0
+    lie: 63.5
+    length: 35.5
+    offset: 0.073
+    swing_weight: D3
+  - club: "AW"
+    loft: 51.0
+    lie: 63.5
+    length: 35.5
+    offset: 0.065
+    swing_weight: D4
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+    weight: "132g (X100), 130g (S300)"
+    flex: ["S300", "X100"]
+  - name: "Nippon N.S. Pro Modus3 Tour 120"
+    material: steel
+    weight: "120g (X), 114g (S)"
+    flex: ["S", "X"]
+sources:
+  - "Srixon official Z 765 irons product page (srixon.com/en/clubs/mens-golf-clubs/irons/z-765-irons/MZ765-EA.html), archived 2017-10-20 via web.archive.org — full specification table (club, loft, length, lie angle, leading- and trailing-edge bounce, offset in inches, Dynamic Gold / Modus swing weight, 3-iron through AW) and the note '3-PW Available in Right Hand and Left Hand. AW Available in Right Hand Only.'"
+  - "Same archived Srixon page, technology copy: 'Combining ultra-soft 1020 carbon steel head material with a new special heat treatment, new Z 765 irons are precision forged', the revised Tour V.T. Sole and '5 percent larger grooves compared to the previous generation and Double Laser Milling'"
+  - "Same archived Srixon page, stock shaft tables and the shaft-flex ordering options: True Temper Dynamic Gold (S300 130g / X100 132g) and Nippon N.S. Pro Modus3 Tour 120 (S 114g / X 120g), steel only, with a Golf Pride Tour Velvet 360 52g grip"
+  - "Announcement in July 2016 per PGATour.com equipment report 'Srixon rolls out Z 565, Z 765 woods and irons' (8 July 2016) and a 16 September 2016 retail date per Golfshake and Golfalot 2016 Z Series launch coverage. year_introduced uses the announcement year per the repository convention, which is why it reads 2016 rather than the 2017 model year the club is often listed under"
+  - "A 2ndSwing spec table for this model circulates with the offset column rendered as negative values (for example -0.10 inches at the 7-iron); those figures were rejected in favour of the archived Srixon table, which lists the same magnitudes as positive offsets"
+related_models:
+  - slug: "srixon/z-565-irons"
+    label: "Distance model in the same line: Srixon Z 565"
+  - slug: "srixon/z-785-irons"
+    label: "Successor: Srixon Z 785"
+faq:
+  - q: "What is the loft of a Srixon Z 765 7-iron?"
+    a: "The Srixon Z 765 7-iron has a loft of 32 degrees, with a 62-degree lie and a 37-inch steel-shaft length."
+  - q: "What clubs come in a stock Srixon Z 765 set?"
+    a: "The stock range is 3-iron through pitching wedge, available in both right and left hand, plus a 51-degree approach wedge offered in right hand only. The set was offered in steel shafts only."
+  - q: "How much offset do the Srixon Z 765 irons have?"
+    a: "Very little for the category. Srixon lists 0.104 inches of offset at the 7-iron, falling to 0.073 inches at the pitching wedge, against 0.128 and 0.089 inches on the more forgiving Z 565."
+  - q: "Did the lofts change between the Srixon Z 765 and the Z 785?"
+    a: "No. The Z 785 carries over the Z 765 lofts unchanged, from a 20-degree 3-iron through a 32-degree 7-iron to a 51-degree approach wedge."
+confidence: high

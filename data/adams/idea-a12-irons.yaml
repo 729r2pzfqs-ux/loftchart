@@ -1,0 +1,86 @@
+brand: Adams
+brand_slug: adams
+model: Idea a12
+slug: idea-a12-irons
+club_type: irons
+year_introduced: 2011
+year_discontinued: null
+category: super-game-improvement
+construction: investment cast
+material: stainless steel with an ultra-thin face
+successor: null
+predecessor: Adams Idea a7
+description: >
+  This is the a12-generation hybrid-iron set that followed the Idea a7, announced on
+  16 September 2011 and sold by Adams as the Idea a12 OS; the name Idea a12 on its own
+  belonged to the matching standalone hybrid, offered in 17, 19, 22 and 25 degrees, and
+  the players' iron of the same generation was the separate forged Idea Pro a12. The
+  eight-club stock set is heavily hybrid-weighted: 4, 5 and 6 are full hybrids carrying
+  Adams' Velocity Slot Technology, 7 and 8 are truss-back Transitional Hybrids, and only
+  the 9-iron, pitching wedge and gap wedge are conventional deep undercut cavity-back
+  irons. Lofts run in a 4-degree ladder with a 32-degree 7-iron and a 44-degree pitching
+  wedge. Listed below are the iron-shaped clubs from the 7 down, plus the 54-degree SW
+  and 59-degree LW heads Adams offered separately; the 4, 5 and 6 hybrids (22, 25 and 28
+  degrees) are part of the stock set but are hybrids rather than irons. The men's set was
+  699.99 USD in steel and 799.99 USD in graphite and reached shops in early October 2011.
+specs:
+  - club: "7"
+    loft: 32.0
+    lie: 62.25
+    length: 37.5
+    swing_weight: D1
+  - club: "8"
+    loft: 36.0
+    lie: 63.0
+    length: 36.75
+    swing_weight: D1
+  - club: "9"
+    loft: 40.0
+    lie: 63.75
+    length: 36.0
+    swing_weight: D1
+  - club: "PW"
+    loft: 44.0
+    lie: 64.0
+    length: 35.75
+    swing_weight: D2
+  - club: "GW"
+    loft: 49.0
+    lie: 64.0
+    length: 35.5
+    swing_weight: D2
+  - club: "SW"
+    loft: 54.0
+    lie: 64.0
+    length: 35.5
+    swing_weight: D3
+  - club: "LW"
+    loft: 59.0
+    lie: 64.0
+    length: 35.25
+    swing_weight: D3
+stock_shafts:
+  - name: "True Temper Performance 85"
+    material: steel
+  - name: "Grafalloy ProLaunch Blue"
+    material: graphite
+    flex: ["A", "R", "S"]
+sources:
+  - "Adams Golf official Idea a12 OS iron page, specs tab, retrieved from http://web.archive.org/web/20120312165849/http://www.adamsgolf.com/products/irons/a12os.php - manufacturer spec table giving loft, lie, length and swing weight for every head from the 2 (17 degrees) to the LW (59 degrees), together with the True Temper Performance 85 steel and Grafalloy ProLaunch Blue graphite stock shafts and the Tour Elite Plus grip. The 7 through LW rows are reproduced above"
+  - "Adams Golf press release 'Adams Golf Takes the Next Step in Hybrid Technology With the Introduction of the Idea a12 OS Hybrid Irons and the Idea a12 Hybrids', via The Golf Wire, 16 September 2011 (https://thegolfwire.com/245403-2/) - announcement date, the exact set breakdown (4, 5, 6 hybrids; 7 and 8 Transitional Hybrids; 9, PW, GW cavity-back irons), the 699.99 USD steel and 799.99 USD graphite pricing, the early-October 2011 availability, and the four lofts of the standalone Idea a12 hybrid"
+  - "InTheHoleGolf.com Adams Idea a12OS Hybrid Iron Set page (https://www.intheholegolf.com/AG-A12OSHYBIS/Adams-Idea-a12OS-Hybrid-Iron-Set.html) - independent corroboration of the same spec table, the 599.95 USD list price and the shaft options"
+  - "Note on naming: Adams never sold an iron set called simply 'Idea a12'. Its 2012 site navigation lists Idea a12 only under Hybrids, while the Irons menu carries Idea a12 OS and Idea Pro a12. This entry documents the Idea a12 OS, the a12-generation hybrid-iron set that directly succeeded the Idea a7 hybrid-iron set, under the shortened name used for lineage elsewhere in this database"
+  - "year_discontinued is left null: Adams was wound down by TaylorMade after the 2012 acquisition and no successor to the a12 OS hybrid-iron set was announced, so there is no successor announcement year to record"
+related_models:
+  - slug: "adams/idea-a7-irons"
+    label: "Predecessor: Adams Idea a7"
+  - slug: "adams/idea-tech-v4-irons"
+    label: "Same-era Adams hybrid-iron combo: Idea Tech V4"
+faq:
+  - q: "What is the loft of an Adams Idea a12 7-iron?"
+    a: "32 degrees, with a 62.25-degree lie and a 37.5-inch length. Note that the 7 in this set is a Transitional Hybrid rather than a conventional iron."
+  - q: "What clubs come in a stock Adams Idea a12 set?"
+    a: "Eight clubs, 4 through GW. The 4, 5 and 6 are Velocity Slot hybrids, the 7 and 8 are truss-back Transitional Hybrids, and the 9, pitching wedge and gap wedge are cavity-back irons. Separate 54-degree SW and 59-degree LW heads were also available."
+  - q: "Is the Adams Idea a12 the same thing as the Idea a12 OS?"
+    a: "Yes, for iron sets. Adams sold the a12-generation hybrid-iron set as the Idea a12 OS; the name Idea a12 on its own referred to the matching standalone hybrid, made in 17, 19, 22 and 25 degrees. The forged players' iron of the same generation was a different club, the Idea Pro a12, whose 7-iron is 34 degrees rather than 32."
+confidence: high

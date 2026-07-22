@@ -1,0 +1,120 @@
+brand: Ping
+brand_slug: ping
+model: Anser V2
+slug: anser-v2-irons
+club_type: irons
+year_introduced: 2012
+year_discontinued: null
+category: players
+construction: forged
+material: 8620 carbon steel with a dense tungsten sole weight and stabilizing bars
+successor: null
+predecessor: Ping Anser Forged
+description: >
+  A naming note first, because this model is easy to confuse. Ping never used the badge
+  "Anser V2". On Ping's own site this club is listed simply as the "Anser" iron, and it
+  is the second-generation version of the forged Anser — retailers and the golf press
+  almost always call it the "Anser Forged 2013" to separate it from the first-generation
+  Anser Forged that preceded it. "Anser V2" is the disambiguating label used here for
+  that second generation. Mechanically it is a re-engineered 8620 carbon steel forging
+  with a dense tungsten sole weight, an internal cavity above the sole and stabilizing
+  bars that sit low and flat in the long irons and thicker and more vertical in the
+  short irons. Lofts, lies and lengths are unchanged from the first Anser Forged — the
+  7-iron is 33.5 degrees — but the heads get progressively smaller, offset comes down
+  by 0.02 to 0.03 inches at almost every club, and the long-iron soles are wider with
+  markedly more bounce: 4 degrees at the 3-iron where the previous model was minus 3.
+  Ping's colour-code (dot) system sets lie angle relative to standard: gold 4 flat,
+  brown 3 flat, orange 2 flat, red 1 flat, BLACK standard, blue 1 upright, green 2
+  upright, white 3 upright, silver 4 upright, maroon 5 upright. The lies below are the
+  BLACK (standard) lies.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 59.25
+    length: 38.75
+    offset: 0.21
+    bounce: 4.0
+    swing_weight: D1
+  - club: "4"
+    loft: 24.0
+    lie: 60.0
+    length: 38.25
+    offset: 0.18
+    bounce: 5.0
+    swing_weight: D1
+  - club: "5"
+    loft: 27.0
+    lie: 60.75
+    length: 37.75
+    offset: 0.15
+    bounce: 6.0
+    swing_weight: D1
+  - club: "6"
+    loft: 30.0
+    lie: 61.5
+    length: 37.25
+    offset: 0.12
+    bounce: 7.0
+    swing_weight: D1
+  - club: "7"
+    loft: 33.5
+    lie: 62.25
+    length: 36.75
+    offset: 0.1
+    bounce: 8.0
+    swing_weight: D1
+  - club: "8"
+    loft: 37.5
+    lie: 63.0
+    length: 36.25
+    offset: 0.07
+    bounce: 9.0
+    swing_weight: D1
+  - club: "9"
+    loft: 41.5
+    lie: 63.75
+    length: 35.75
+    offset: 0.06
+    bounce: 10.0
+    swing_weight: D1
+  - club: "PW"
+    loft: 46.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.04
+    bounce: 12.0
+    swing_weight: D3
+stock_shafts:
+  - name: "Project X"
+    material: steel
+    flex: ["5.0", "5.5", "6.0", "6.5"]
+  - name: "Ping TFC 800i"
+    material: graphite
+    flex: ["Soft Regular", "Regular", "Stiff"]
+  - name: "Ping TFC 80i"
+    material: graphite
+    flex: ["Lite", "Soft Regular"]
+sources:
+  - "Ping's own Anser iron product page, Specifications tab (http://web.archive.org/web/2014/http://ping.com/clubs/ironsdetail.aspx?id=13993) — supplied every loft, length, offset, lie, bounce and swing weight above, the Project X / TFC 800i / TFC 80i shaft table, the 8620 steel body with dense tungsten sole weight and stabilizing bars, and the note that lie is based on the black colour code at standard length. This page is Ping's live 2014 listing, i.e. the second-generation model."
+  - "Naming: the same Ping page titles the product 'Anser' with no generation suffix; Ping's site navigation lists it under Irons as 'ANSER'. 2ndswing.com catalogues it as 'Ping Anser Forged 2013' and golfwrx.com as the '2013 Ping Anser Forged'. No source uses 'Anser V2' — that string is this database's label for the second generation."
+  - "mygolfway.com 'Here are the new Ping Anser Forged irons with dual performance', published 6 September 2012 — announcement of this model, 3-PW set composition, and the Project X and TFC 800i shaft options, which match the shaft table on Ping's own page. year_introduced uses this announcement date; the club was sold as the 2013 Anser Forged and is catalogued by that model year almost everywhere."
+  - "golfwrx.com 2013 Anser Forged review — the second generation was re-engineered with progressively smaller heads, less offset through the set and wider long-iron soles; Miguel Angel Jimenez won the UBS Hong Kong Open with them in November 2012."
+  - "Distinguishing it from the predecessor: ping/anser-forged-irons.yaml records the first-generation chart (offsets 0.23 to 0.07, bounce minus 3 to 9). The chart above is materially different in offset and bounce at every club while sharing lofts, lies and lengths, which is what confirms the two files describe different products."
+  - "Note: year_discontinued is null — Ping did not announce a third forged Anser iron; the forged line was later resumed under the Blueprint and i59 names."
+related_models:
+  - slug: "ping/anser-forged-irons"
+    label: "Predecessor: Ping Anser Forged"
+  - slug: "ping/s55-irons"
+    label: "Ping's cast players iron of the same era: Ping S55"
+  - slug: "ping/blueprint-irons"
+    label: "Later Ping forged iron: Ping Blueprint"
+faq:
+  - q: "What is the loft of a Ping Anser V2 7-iron?"
+    a: "The second-generation forged Anser 7-iron has a loft of 33.5 degrees, a standard (black dot) lie of 62.25 degrees and a steel-shaft length of 36.75 inches."
+  - q: "Is 'Anser V2' the real name of these irons?"
+    a: "No. Ping listed this club simply as the 'Anser' iron. It is the second generation of the forged Anser, announced in September 2012 and sold as a 2013 model, and it is normally catalogued as the 'Anser Forged 2013'. 'Anser V2' is only a label used here to keep the two generations apart."
+  - q: "What is the difference between the Ping Anser Forged and the Anser V2?"
+    a: "Lofts, lies and lengths are identical. The second generation cuts offset — 0.21 inches at the 3-iron against 0.23, and 0.10 at the 7-iron against 0.12 — shrinks the heads progressively through the set, and widens the long-iron soles, taking the 3-iron from minus 3 degrees of bounce to plus 4."
+  - q: "What clubs come in a Ping Anser V2 set?"
+    a: "3-iron through pitching wedge, in both right- and left-handed models."
+confidence: high

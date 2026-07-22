@@ -4,7 +4,7 @@ model: PTx
 slug: ptx-irons
 club_type: irons
 year_introduced: 2016
-year_discontinued: 2018
+year_discontinued: 2019
 category: players-distance
 construction: co-forged multi-material
 material: 1025 carbon steel frame with MS300 steel face, tungsten weighting and a titanium core in the short irons
@@ -71,6 +71,7 @@ sources:
   - "Ben Hogan Golf official PTx information page, retrieved from http://web.archive.org/web/2018/https://benhogangolf.com/pages/ptx-irons - lists all four launch loft profiles, states the 7-piece set is numbered with its exact loft on the sole and the traditional iron number on the hosel, and describes the co-forged construction"
   - "Ben Hogan Golf PTx product/ordering page, retrieved from http://web.archive.org/web/20181218071810/https://benhogangolf.com/collections/clubs/products/ptx-irons - confirms the purchasable set make-ups '4-PW (20 24 28 32 36 40 44)' and '4-PW (21 25 29 33 37 41 45)', the $770 price and the stock shaft list"
   - "January 2016 introduction inferred from the Ben Hogan blog post 'Introducing the PTx', whose earliest Wayback capture is 2016-01-24 (seen in the Wayback CDX index; the post body was not retrieved)"
+  - "year_discontinued corrected from 2018 to 2019: the successor PTx Pro was announced and put on sale on 8 April 2019 (The Hackers Paradise, 'Ben Hogan PTx Pro Forged Irons'), and the earliest Wayback capture of any PTx Pro page is May 2019. The 2018 figure was also inconsistent with this file's own source list, which cites a PTx ordering page still live on 18 December 2018"
 related_models:
   - slug: "ben-hogan/ft-worth-15-irons"
     label: "Predecessor blade: Ben Hogan Ft. Worth 15"

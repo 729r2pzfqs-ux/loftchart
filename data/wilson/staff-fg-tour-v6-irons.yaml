@@ -1,0 +1,84 @@
+brand: Wilson
+brand_slug: wilson
+model: Staff FG Tour V6
+slug: staff-fg-tour-v6-irons
+club_type: irons
+year_introduced: 2016
+year_discontinued: 2020
+category: players
+construction: forged
+material: forged 8620 carbon steel with tungsten weighting
+successor: Wilson Staff Model CB
+predecessor: null
+description: >
+  The FG Tour V6 was Wilson's tour cavity back, announced in the autumn of 2016
+  and sold as a 2017 model. Heads are forged from soft 8620 carbon steel and
+  carry 20 grams of tungsten, up from 18 grams in the FG Tour V4, split 12 grams
+  toe and 8 grams heel in the 3 to 5 irons, moved to the centre of the sole in
+  the 6 and 7 irons and dropped entirely in the scoring clubs. The profile is a
+  players' one, with a thin topline, short blade length and minimal offset, and
+  lofts are traditional at 35 degrees for the 7-iron and 47 degrees for the
+  pitching wedge. Clubs run 3-iron through pitching wedge with a 51-degree gap
+  wedge available, sold most often as a 3-PW or 4-PW set. Figures below are the
+  standard men's steel-shaft specification; see sources for how weakly the full
+  ladder is corroborated.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 59.5
+    length: 39.25
+  - club: "4"
+    loft: 24.0
+    lie: 60.0
+    length: 38.75
+  - club: "5"
+    loft: 27.0
+    lie: 61.0
+    length: 38.25
+  - club: "6"
+    loft: 31.0
+    lie: 61.5
+    length: 37.75
+  - club: "7"
+    loft: 35.0
+    lie: 62.0
+    length: 37.25
+  - club: "8"
+    loft: 39.0
+    lie: 63.0
+    length: 36.75
+  - club: "9"
+    loft: 43.0
+    lie: 63.5
+    length: 36.25
+  - club: "PW"
+    loft: 47.0
+    lie: 64.0
+    length: 35.75
+  - club: "GW"
+    loft: 51.0
+    lie: 64.25
+    length: 35.5
+stock_shafts:
+  - name: "True Temper Dynamic Gold AMT"
+    material: steel
+sources:
+  - "Qsponge 'What is loft angle of Wilson Staff FG Tour V6 Irons?' — a user-posted specification table (club, loft, lie, length, offset in millimetres, swing weight, 3-iron through GW). This is the only full ladder retrieved for the model and it is a single weak source, which is why confidence is set to low."
+  - "Today's Golfer 'Wilson Staff FG Tour V6 Irons Review' and Golf Monthly 'Wilson Staff FG Tour V6 irons' (9 November 2016) — independently confirm the 35-degree 7-iron at 37.25 inches and describe the lofts as very traditional. These two corroborate the Qsponge table at the 7-iron only."
+  - "Golfalot 'Wilson Staff Launch FG Tour V6 Irons' (27 September 2016) — announcement date, the 8620 carbon steel forging and tungsten weighting in the 3 to 7 irons. year_introduced records the 2016 announcement even though the model was marketed as a 2017 iron, per this project's convention."
+  - "Plugged In Golf 'Wilson Staff FG Tour V6 Irons Review' — True Temper Dynamic Gold AMT stock shaft and the tungsten placement changing through the set."
+  - "Offset is omitted deliberately: the Qsponge table gives it in millimetres and a separate listing quotes the same figures as negative values, so the sign and unit could not be resolved. Bounce and swing weight are omitted for lack of a corroborated source."
+  - "year_discontinued 2020 is derived: it is the announcement year of the Staff Model CB, per this project's convention, not a sourced end-of-production date."
+related_models:
+  - slug: "wilson/staff-model-cb-irons"
+    label: "Successor: Wilson Staff Model CB"
+faq:
+  - q: "What is the loft of a Wilson Staff FG Tour V6 7-iron?"
+    a: "The Wilson Staff FG Tour V6 7-iron has a loft of 35 degrees, with a 62-degree lie and a 37.25-inch steel-shaft length."
+  - q: "What clubs come in a Wilson Staff FG Tour V6 set?"
+    a: "Clubs run 3-iron through pitching wedge with a 51-degree gap wedge available. Sets were normally sold as 3-PW or 4-PW."
+  - q: "How much tungsten is in the FG Tour V6?"
+    a: "Twenty grams, up from eighteen in the FG Tour V4. It is split 12 grams toe and 8 grams heel in the 3 to 5 irons, centred in the sole in the 6 and 7 irons, and absent from the 8-iron down."
+  - q: "How do the FG Tour V6 lofts compare with the Staff Model CB that replaced it?"
+    a: "The V6 is a degree weaker in the short irons. Its 7-iron is 35 degrees against the Staff Model CB's 34, and its pitching wedge is 47 degrees against 46."
+confidence: low

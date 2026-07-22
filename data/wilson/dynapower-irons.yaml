@@ -100,6 +100,8 @@ sources:
 related_models:
   - slug: "wilson/staff-d9-irons"
     label: "Predecessor: Wilson Staff D9"
+  - slug: "wilson/dynapwr-irons"
+    label: "Successor: Wilson DYNAPWR"
 faq:
   - q: "What is the loft of a Wilson Dynapower 7-iron?"
     a: "The Wilson Dynapower 7-iron has a loft of 27 degrees, with a 62-degree lie and a 37.5-inch steel-shaft length."

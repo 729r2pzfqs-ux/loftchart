@@ -1,0 +1,131 @@
+brand: Srixon
+brand_slug: srixon
+model: ZXi5
+slug: zxi5-irons
+club_type: irons
+year_introduced: 2024
+year_discontinued: null
+category: players-distance
+construction: forged multi-material
+material: forged body with a softened forged face plate, tungsten weighting and third-generation MainFrame milling
+successor: null
+predecessor: Srixon ZX5 Mk II
+description: >
+  The ZXi5 is the players-distance model in Srixon's ZXi iron line, which replaced the ZX Mk
+  II generation. It is built with Srixon's i-Forged process: Condensed Forging, in which a
+  second forging step presses raised features back into the head to add localised strength
+  along the topline and high toe, which in turn allows softer steel and softer heat
+  treatment elsewhere. Srixon states the ZXi5 face plate is 14 percent softer than the
+  previous generation. Behind the face sits the third generation of MainFrame milling, and
+  tungsten weighting sets the centre of gravity. Lofts carry over unchanged from the ZX5 Mk
+  II, with a 31-degree 7-iron and a 44-degree pitching wedge. The published lengths look a
+  quarter-inch longer than the ZX5 Mk II, but they are not: Srixon changed how it measures
+  and publishes iron length to match USGA and R&A industry guidelines, and states directly
+  that the actual length of the irons has not changed. The figures below are Srixon's
+  published ZXi-convention lengths, so comparing them with the pre-ZXi models in this
+  database will overstate the difference by about a quarter inch. Heads run 3-iron through a
+  56-degree sand wedge, with the 3-iron and one sand wedge variant custom-order only and the
+  sand wedges right hand only. Offsets are converted from Srixon's published millimetre
+  figures (the 7-iron is 3.2 mm, or 0.126 inches). Swing weights are the S-flex steel column.
+  Srixon unveiled the line in late 2024 and it reached retail in January 2025, so it is
+  commonly catalogued as a 2025 model.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 60.0
+    length: 39.25
+    offset: 0.165
+    swing_weight: D3
+  - club: "4"
+    loft: 22.0
+    lie: 60.5
+    length: 38.75
+    offset: 0.157
+    swing_weight: D3
+  - club: "5"
+    loft: 24.0
+    lie: 61.0
+    length: 38.25
+    offset: 0.150
+    swing_weight: D3
+  - club: "6"
+    loft: 27.0
+    lie: 61.5
+    length: 37.75
+    offset: 0.142
+    swing_weight: D3
+  - club: "7"
+    loft: 31.0
+    lie: 62.0
+    length: 37.25
+    offset: 0.126
+    swing_weight: D3
+  - club: "8"
+    loft: 35.0
+    lie: 62.5
+    length: 36.75
+    offset: 0.118
+    swing_weight: D3
+  - club: "9"
+    loft: 39.0
+    lie: 63.0
+    length: 36.25
+    offset: 0.106
+    swing_weight: D3
+  - club: "PW"
+    loft: 44.0
+    lie: 63.5
+    length: 35.75
+    offset: 0.087
+    swing_weight: D3
+  - club: "AW"
+    loft: 50.0
+    lie: 63.5
+    length: 35.75
+    offset: 0.075
+    swing_weight: D4
+  - club: "SW"
+    loft: 56.0
+    lie: 63.5
+    length: 35.75
+    offset: 0.059
+    swing_weight: D4
+stock_shafts:
+  - name: "True Temper Dynamic Gold Mid 115/100"
+    material: steel
+    weight: "115g (S300), 105g (R300)"
+    flex: ["R", "S"]
+  - name: "KBS TGI Tour Graphite Iron"
+    material: graphite
+    weight: "80g (S), 60g (R)"
+    flex: ["R", "S"]
+  - name: "UST Mamiya Recoil Dart 65"
+    material: graphite
+    weight: "56g (A/F2)"
+    flex: ["A"]
+  - name: "UST Helium Nanocore 50"
+    material: graphite
+    weight: "53g (L/F1)"
+    flex: ["L"]
+sources:
+  - "Srixon / Dunlop Sports US official ZXi5 irons product page (us.dunlopsports.com/srixon/clubs/irons/zxi5-irons/zxi5-irons/MZXI5IRN.html) — full per-club specification table (head, loft, hand, lie, offset in mm, length, steel S-flex and R-flex swing weight, graphite R-flex and A-flex swing weight, 3-iron through SW), the footnote '3 & SW Iron Offered Custom Only' and the RH/LH availability column showing the sand wedges as right hand only"
+  - "Same Dunlop Sports US page, length footnote: 'To match USGA and R&A Industry guidelines, Srixon has modified how club lengths are measured and published. Our published length specifications are now approximately 1/4 inch longer for Irons. Note: The actual length of the Irons has not changed, only how they are measured.' This is why the lengths recorded here sit a quarter inch above the ZX5 Mk II figures despite the club being physically unchanged in length"
+  - "Same Dunlop Sports US page, technology copy: i-FORGED and Condensed Forging ('The hydraulic dies which forge red-hot billets into ZXi Irons imprint an array of raised features onto each rough Iron shape. A second forge condenses those protrusions back into the clubhead'), the Ideal Steel note that 'ZXi5 and ZXiU face plates are also 14% softer', Heat Softening, third-generation MainFrame, Tour V.T. Sole, progressive grooves and the players-distance shape description ('a slightly wider sole with moderate blade length and offset')"
+  - "Same Dunlop Sports US page, stock shaft tables: True Temper Dynamic Gold Mid 115/100 (S300 115g / R300 105g), KBS TGI Tour Graphite Iron (S 80g / R 60g), UST Mamiya Recoil Dart 65 (A/F2 56g) and UST Helium Nanocore 50 (L/F1 53g), with a Golf Pride Tour Velvet 360 52g grip"
+  - "Formal unveiling on 25 November 2024 per Golf Australia Magazine's ZXi launch release, with prototype ZXi5 and ZXi7 heads seeded on tour at the September 2024 Procore Championship (GolfWRX) and US retail availability in January 2025. year_introduced uses the announcement year per the repository convention, which is why it reads 2024 rather than the 2025 model year"
+  - "The successor field is set to null because the ZXi5 remains a current model and no successor record exists in this database. A separate GolfSource listing giving the ZXi5 4-iron as 21 degrees was rejected in favour of Srixon's own table, which gives 22 degrees"
+related_models:
+  - slug: "srixon/zx5-mkii-irons"
+    label: "Predecessor: Srixon ZX5 Mk II"
+  - slug: "srixon/zx5-irons"
+    label: "Earlier model in the same family: Srixon ZX5"
+faq:
+  - q: "What is the loft of a Srixon ZXi5 7-iron?"
+    a: "The Srixon ZXi5 7-iron has a loft of 31 degrees, with a 62-degree lie and a published steel-shaft length of 37.25 inches."
+  - q: "Why is the Srixon ZXi5 7-iron listed at 37.25 inches when the ZX5 Mk II was 37 inches?"
+    a: "Only the measuring convention changed. Srixon altered how it measures and publishes iron length to match USGA and R&A industry guidelines, which added about a quarter inch to the published figures, and states that the actual length of the irons has not changed."
+  - q: "What clubs come in a stock Srixon ZXi5 set?"
+    a: "Heads run 3-iron through a 56-degree sand wedge, with 4-iron through approach wedge the usual stock range in right and left hand. Srixon lists the 3-iron and one sand wedge variant as custom order only, and the sand wedges as right hand only."
+  - q: "Did the lofts change between the Srixon ZX5 Mk II and the ZXi5?"
+    a: "No. The ZXi5 carries over the ZX5 Mk II lofts unchanged, from a 20-degree 3-iron through a 31-degree 7-iron to a 50-degree approach wedge."
+confidence: high

@@ -1,0 +1,102 @@
+brand: Adams
+brand_slug: adams
+model: Idea a4
+slug: idea-a4-irons
+club_type: irons
+year_introduced: 2008
+year_discontinued: 2009
+category: players-distance
+construction: forged
+material: 8620 carbon steel
+successor: Adams Idea a7
+predecessor: null
+description: >
+  Adams marketed this set as the Idea Tech a4, the better-player half of the 2008 a4
+  generation that also produced the far more forgiving Idea Tech a4OS. It is a
+  hybrid-iron combo set: the stock eight-club make-up is a 3-hybrid and 4-hybrid in
+  place of the long irons, then six forged 8620 carbon steel irons from the 5-iron to
+  the pitching wedge, with a quad cavity back, a forged stabiliser bar behind the face
+  and a four-way cambered sole. Lofts run 26 degrees at the 5-iron to 45 degrees at the
+  pitching wedge, with a 33-degree 7-iron, and matching GW, SW and LW were offered to
+  extend the set. Only the iron clubs are listed below; the stock 3-hybrid (19 degrees,
+  59.25-degree lie, 40.5 inches) and 4-hybrid (22 degrees, 60-degree lie, 39.25 inches)
+  are hybrids built around Adams' Boxer Technology rather than irons. Swing weights below
+  are the steel-shaft figures - the same heads build to D1 with the stock graphite shafts.
+specs:
+  - club: "5"
+    loft: 26.0
+    lie: 60.5
+    length: 38.5
+    swing_weight: D3
+  - club: "6"
+    loft: 29.0
+    lie: 61.5
+    length: 37.875
+    swing_weight: D3
+  - club: "7"
+    loft: 33.0
+    lie: 62.0
+    length: 37.25
+    swing_weight: D3
+  - club: "8"
+    loft: 37.0
+    lie: 62.5
+    length: 36.625
+    swing_weight: D3
+  - club: "9"
+    loft: 41.0
+    lie: 63.0
+    length: 36.0
+    swing_weight: D3
+  - club: "PW"
+    loft: 45.0
+    lie: 63.5
+    length: 35.75
+    swing_weight: D3
+  - club: "GW"
+    loft: 50.0
+    lie: 64.0
+    length: 35.5
+    bounce: 8.0
+    swing_weight: D3
+  - club: "SW"
+    loft: 55.0
+    lie: 64.0
+    length: 35.25
+    bounce: 12.0
+    swing_weight: D3
+  - club: "LW"
+    loft: 60.0
+    lie: 64.0
+    length: 35.0
+    bounce: 8.0
+    swing_weight: D3
+stock_shafts:
+  - name: "True Temper Dynamic Gold SL"
+    material: steel
+  - name: "Matrix Studio 84"
+    material: graphite
+  - name: "Graphite Design YSQ-HL"
+    material: graphite
+sources:
+  - "Adams Golf official Idea Tech a4 iron page, specs tab, retrieved from http://web.archive.org/web/20081022160957/http://www.adamsgolf.com/products/irons/a4.php - contemporaneous manufacturer spec table giving loft, lie, length and graphite/steel swing weight for the 3-hybrid, 4-hybrid and 5-iron through PW, plus the stock shaft and grip list"
+  - "Adams Golf legacy Idea Tech a4 iron page, specs tab, retrieved from http://web.archive.org/web/2011/http://www.adamsgolf.com/products/irons/a4.php?page=specs - the later manufacturer capture of the same chart, which additionally lists the GW (50 degrees, 8-degree bounce), SW (55 degrees, 12-degree bounce) and LW (60 degrees, 8-degree bounce) extension wedges and the eight-club 3H/4H/5-PW set make-up. The 5-iron through PW rows match the 2008 capture exactly"
+  - "InTheHoleGolf.com Adams Idea Tech a4 Iron Set page (https://www.intheholegolf.com/AGA4IS/Adams-Idea-Tech-a4-Iron-Set.html) - independent corroboration of the same loft/lie/length table and of the two-hybrid-plus-six-forged-irons make-up"
+  - "The 2008 introduction is dated from the earliest Wayback capture of the Adams product page, 9 September 2008, which is the same day Adams issued its Idea Tech a4OS press release (GlobeNewswire, 9 September 2008); Adams also promoted the a4 as a Golf Digest 2009 Hot List gold winner. year_discontinued is 2009, the year the successor Idea a7 was announced"
+  - "Note on naming: Adams' own product pages and packaging call this club the Idea Tech a4. It is recorded here as Idea a4 to match the lineage reference used elsewhere in this database"
+  - "One conflict: the 2008 capture gives the 3-hybrid length as 40.5 inches and the later legacy capture gives 40 inches. The 3-hybrid is not an iron and is not listed in the specs above; the contemporaneous 40.5-inch figure, which InTheHoleGolf also carries, is the one quoted in the description"
+related_models:
+  - slug: "adams/idea-a7-irons"
+    label: "Successor: Adams Idea a7"
+  - slug: "adams/idea-tech-v4-irons"
+    label: "Later Adams hybrid-iron combo: Idea Tech V4"
+faq:
+  - q: "What is the loft of an Adams Idea a4 7-iron?"
+    a: "The Adams Idea a4 7-iron has a loft of 33 degrees, with a 62-degree lie and a 37.25-inch steel-shaft length."
+  - q: "What clubs come in a stock Adams Idea a4 set?"
+    a: "Eight clubs. A 3-hybrid and a 4-hybrid replace the long irons, followed by forged 5-iron through pitching wedge. Matching 50-degree GW, 55-degree SW and 60-degree LW heads were sold to extend the set."
+  - q: "Is the Adams Idea a4 the same club as the Idea Tech a4?"
+    a: "Yes. Adams sold it as the Idea Tech a4. It should not be confused with the Idea Tech a4OS, which is a much more forgiving cast set built around seven hybrids rather than two hybrids and six forged irons."
+  - q: "Are Adams Idea a4 irons forged?"
+    a: "The irons are, from 8620 carbon steel with a quad cavity back and a forged stabiliser bar behind the impact area. The 3-hybrid and 4-hybrid that come with the set are not forged irons."
+confidence: high

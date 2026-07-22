@@ -1,0 +1,95 @@
+brand: Ping
+brand_slug: ping
+model: Eye
+slug: eye-irons
+club_type: irons
+year_introduced: 1978
+year_discontinued: 1982
+category: game-improvement
+construction: investment cast
+material: 17-4 stainless steel
+successor: Ping Eye 2
+predecessor: null
+description: >
+  The Eye was the first Ping iron to use the eye-shaped cavity that gave the family its
+  name, replacing the Karsten models with a more compact head, more weight pushed to the
+  perimeter and progressive hosel offset and sole camber through the set. It lasted only
+  four years before the longer-bladed, thinner-toplined Eye 2 replaced it in September
+  1982 and went on to become the best-selling iron in golf. Ping's colour-code (dot)
+  system sets lie angle relative to standard: gold 4 flat, brown 3 flat, orange 2 flat,
+  red 1 flat, BLACK standard, blue 1 upright, green 2 upright, white 3 upright, silver
+  4 upright, maroon 5 upright. The lies below are the BLACK (standard) lies, and they
+  are identical to the pre-1998 Eye 2 chart — see the note in sources, because the
+  numbers here rest on a single secondary table and are the least well corroborated
+  figures in this Ping set.
+specs:
+  - club: "1"
+    loft: 16.0
+    lie: 58.0
+    length: 39.75
+  - club: "2"
+    loft: 18.5
+    lie: 58.5
+    length: 39.25
+  - club: "3"
+    loft: 21.5
+    lie: 59.5
+    length: 38.75
+  - club: "4"
+    loft: 25.0
+    lie: 60.0
+    length: 38.25
+  - club: "5"
+    loft: 28.5
+    lie: 61.0
+    length: 37.75
+  - club: "6"
+    loft: 32.0
+    lie: 61.5
+    length: 37.25
+  - club: "7"
+    loft: 36.0
+    lie: 62.5
+    length: 36.75
+  - club: "8"
+    loft: 40.0
+    lie: 63.0
+    length: 36.25
+  - club: "9"
+    loft: 45.0
+    lie: 64.0
+    length: 35.75
+  - club: "PW"
+    loft: 50.5
+    lie: 64.5
+    length: 35.5
+  - club: "SW"
+    loft: 57.5
+    lie: 64.5
+    length: 35.25
+  - club: "LW"
+    loft: 61.0
+    lie: 64.5
+    length: 35.0
+sources:
+  - "qsponge.com 'What is loft angle of Ping Eye Irons?' spec table (https://qsponge.com/questions/53877821/) — supplied every loft, lie and length listed above. This is the ONLY retrieved spec table for the original Eye."
+  - "Note on confidence: the qsponge Eye table is identical, club for club, to the pre-January-1998 Ping Eye 2 chart already recorded in ping/eye-2-irons.yaml. That is plausible — Ping ran one standard iron loft/lie/length progression across the Eye and early Eye 2 — but it could equally mean the table was copied from the Eye 2. No second source was found to separate the two, so confidence is set to low."
+  - "Ping's own archived Classics irons index (http://web.archive.org/web/2006/http://www.ping.com/irons_classics.html) was checked directly: it carries spec charts for the Eye 2, Zing, Zing 2, ISI, i3, S59 and G2, but Ping never published a Classics chart for the original Eye. There is therefore no manufacturer source for this model."
+  - "thebrassie.com Ping iron history and sportsrec.com 'The History of Ping Iron Sets' — the Eye was introduced in 1978, was more compact than the Karsten irons it replaced, added a perimeter-weighted eye-shaped cavity, and used progressive hosel offset and sole contours. Note that golflink.com's 'PING Irons by Year' gives 1979 rather than 1978; 1978 is used here as the more commonly reported date."
+  - "Ping's archived Classics Eye 2 page — the Eye 2 was introduced in September 1982, which is the basis for year_discontinued."
+  - "Note: no source gives per-club offset, bounce or swing weight for the Eye, so those keys are omitted rather than guessed."
+related_models:
+  - slug: "ping/eye-2-irons"
+    label: "Successor: Ping Eye 2"
+  - slug: "ping/zing-irons"
+    label: "Later Ping game-improvement iron: Ping Zing"
+faq:
+  - q: "What is the loft of a Ping Eye 7-iron?"
+    a: "The Ping Eye 7-iron is listed at 36 degrees, with a standard (black dot) lie of 62.5 degrees and a steel-shaft length of 36.75 inches. Only one secondary spec table for this model could be found, so treat the figure as indicative rather than definitive."
+  - q: "When were Ping Eye irons made?"
+    a: "The Eye was introduced in 1978 and ran until September 1982, when the Eye 2 replaced it. Some sources date the Eye to 1979."
+  - q: "What is the difference between the Ping Eye and the Eye 2?"
+    a: "The Eye 2 has a longer blade, a taller face, a thinner top line and a refined eye-shaped cavity. Published lofts, lies and lengths for the Eye match the pre-1998 Eye 2 chart, so the change was in head shape and forgiveness rather than in the loft progression."
+  - q: "What does the black dot on a Ping Eye mean?"
+    a: "Black is Ping's standard lie angle. The other dot colours shift the lie flatter (gold, brown, orange, red) or more upright (blue, green, white, silver, maroon) in one-degree steps."
+confidence: low

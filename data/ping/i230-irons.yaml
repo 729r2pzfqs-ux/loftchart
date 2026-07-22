@@ -1,0 +1,117 @@
+brand: Ping
+brand_slug: ping
+model: i230
+slug: i230-irons
+club_type: irons
+year_introduced: 2022
+year_discontinued: null
+category: players
+construction: investment cast
+material: 431 stainless steel with tungsten toe and tip weights and an activated elastomer insert
+successor: null
+predecessor: Ping i210
+description: >
+  The i230 is a multi-material cast players iron: a 431 stainless body with tungsten
+  toe and tip weights, a multi-part cavity badge and a concealed activated elastomer
+  insert, plus tighter-spaced MicroMax grooves. It keeps the i210's loft, lie and
+  length chart exactly — the 7-iron is 33 degrees at 62.0 lie and 37 inches — but
+  shortens the blade in the 3 to 5 irons and trims offset there, from 0.21 to 0.20 at
+  the 3-iron and 0.15 to 0.14 at the 5-iron. Ping's colour-code (dot) system sets lie
+  angle relative to standard: gold 4 flat, brown 3 flat, orange 2 flat, red 1 flat,
+  BLACK standard, blue 1 upright, green 2 upright, white 3 upright, silver 4 upright,
+  maroon 5 upright. The lies below are the BLACK (standard) lies.
+specs:
+  - club: "3"
+    loft: 19.0
+    lie: 59.0
+    length: 39.0
+    offset: 0.2
+    bounce: 5.0
+    swing_weight: D1
+  - club: "4"
+    loft: 22.5
+    lie: 59.8
+    length: 38.5
+    offset: 0.17
+    bounce: 6.0
+    swing_weight: D1
+  - club: "5"
+    loft: 26.0
+    lie: 60.5
+    length: 38.0
+    offset: 0.14
+    bounce: 7.0
+    swing_weight: D1
+  - club: "6"
+    loft: 29.5
+    lie: 61.3
+    length: 37.5
+    offset: 0.12
+    bounce: 8.0
+    swing_weight: D1
+  - club: "7"
+    loft: 33.0
+    lie: 62.0
+    length: 37.0
+    offset: 0.09
+    bounce: 9.0
+    swing_weight: D1
+  - club: "8"
+    loft: 37.0
+    lie: 62.8
+    length: 36.5
+    offset: 0.07
+    bounce: 10.5
+    swing_weight: D1
+  - club: "9"
+    loft: 41.0
+    lie: 63.5
+    length: 36.0
+    offset: 0.05
+    bounce: 12.0
+    swing_weight: D1.5
+  - club: "PW"
+    loft: 45.0
+    lie: 64.1
+    length: 35.5
+    offset: 0.03
+    bounce: 13.0
+    swing_weight: D2
+  - club: "UW"
+    loft: 50.0
+    lie: 64.1
+    length: 35.5
+    offset: 0.02
+    bounce: 13.0
+    swing_weight: D2
+stock_shafts:
+  - name: "Ping AWT 2.0"
+    material: steel
+  - name: "True Temper Dynamic Gold 105"
+    material: steel
+  - name: "Ping ALTA CB Black"
+    material: graphite
+sources:
+  - "Ping's own i230 product page, Specifications table (https://ping.com/en-us/clubs/irons/i230, cross-checked against the archived copy at http://web.archive.org/web/2020/https://ping.com/en-us/clubs/irons/i230) — supplied every length, loft, lie, offset, bounce and swing weight above, the stock shaft list, the 3-9/PW/UW set composition, and the note that lie is based on the black colour code at standard length. Power Spec and Retro Spec lofts are fitting alternatives on the same chart and are not recorded here."
+  - "golfwrx.com '2022 Ping i230, iCrossover irons: everything you need to know' — announcement in 2022, the 431 stainless / tungsten toe and tip weight / elastomer insert construction, MicroMax grooves, and the shorter blade lengths in the 3 to 5 irons versus the i210."
+  - "Note on the year: golflink.com's 'PING Irons by Year' also dates the i230 to 2022. Ping announced the iron in late 2022 and it reached retail in early 2023, so year_introduced uses the announcement year per this database's convention and some retailers will list it as a 2023 model."
+  - "Note: year_discontinued is null — the i230 had no announced successor as of the sources retrieved."
+related_models:
+  - slug: "ping/i210-irons"
+    label: "Predecessor: Ping i210"
+  - slug: "ping/i200-irons"
+    label: "Earlier Ping players iron: Ping i200"
+  - slug: "ping/i525-irons"
+    label: "Ping's players-distance iron of the same era: Ping i525"
+  - slug: "ping/g430-irons"
+    label: "Ping's game-improvement iron of the same era: Ping G430"
+faq:
+  - q: "What is the loft of a Ping i230 7-iron?"
+    a: "The Ping i230 7-iron has a loft of 33 degrees, a standard (black dot) lie of 62.0 degrees and a steel-shaft length of 37.0 inches."
+  - q: "When were Ping i230 irons made?"
+    a: "The i230 was announced in 2022, following the i210, and reached retail in early 2023."
+  - q: "What is the difference between the Ping i210 and the i230?"
+    a: "Lofts, lies and lengths are identical club for club. The i230 shortens the blade in the 3 to 5 irons, trims offset there by 0.01 inches at each of those clubs, adds tungsten tip weighting alongside the toe weight, and switches to MicroMax grooves."
+  - q: "How strong are Ping i230 lofts?"
+    a: "Traditional for a players iron. The 7-iron is 33 degrees against 29 for the game-improvement G430 of the same period — four degrees, or roughly one club, weaker."
+confidence: high

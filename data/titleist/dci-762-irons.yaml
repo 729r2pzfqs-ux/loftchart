@@ -8,7 +8,7 @@ year_discontinued: 2003
 category: game-improvement
 construction: investment cast, dual cavity
 material: 17-4 stainless steel
-successor: Titleist DCI 962
+successor: null
 predecessor: Titleist DCI 990
 description: >
   The DCI 762 is the 2001 dual-cavity iron that replaced the DCI 990 at the
@@ -101,6 +101,7 @@ stock_shafts:
     material: steel
 sources:
   - "Titleist previous-models archived product page, titleist.com/golf-clubs/irons/dci-762, via the Internet Archive (full manufacturer table: length, loft, lie, offset, swing weight, bounce)"
+  - "Lineage: the DCI 762 (2001) replaced the DCI 990 (1999) as the flagship of the DCI family, and also absorbed the slot of the DCI 981. Nothing succeeded it - Titleist ended the DCI line in 2003 and moved to the forged 690 and 704 families - so successor is null."
 related_models:
   - slug: "titleist/dci-990-irons"
     label: "Predecessor: Titleist DCI 990"

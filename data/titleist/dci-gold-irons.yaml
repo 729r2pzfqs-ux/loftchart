@@ -1,0 +1,119 @@
+brand: Titleist
+brand_slug: titleist
+model: DCI Gold
+slug: dci-gold-irons
+club_type: irons
+year_introduced: 1993
+year_discontinued: 1998
+category: game-improvement
+construction: investment cast, perimeter weighted cavity back
+material: 17-4 stainless steel
+successor: Titleist DCI 981
+predecessor: null
+description: >
+  The DCI Gold is the gold-finished version of the early 1990s Dynamic Cavity
+  Iron that established the DCI name, sold alongside the DCI Black. It is an
+  investment cast perimeter-weighted cavity back with a thick topline and a
+  large rear cavity, aimed at the everyday golfer. Two things date it: the lie
+  angles, which are flat by any modern standard at 61.5 degrees for the 7-iron
+  where later DCI sets use 63, and the offset, which starts at .380 inches at
+  the 1-iron and is still .180 inches at the 7-iron. Lofts are traditional,
+  with a 36 degree 7-iron, and Titleist catalogued a full 1-iron through lob
+  wedge. Every club is built to D1 swing weight.
+specs:
+  - club: "1"
+    loft: 16
+    lie: 56
+    length: 39.50
+    offset: 0.380
+    swing_weight: D1
+  - club: "2"
+    loft: 18
+    lie: 57
+    length: 39.00
+    offset: 0.360
+    swing_weight: D1
+  - club: "3"
+    loft: 21
+    lie: 58
+    length: 38.50
+    offset: 0.330
+    swing_weight: D1
+  - club: "4"
+    loft: 24
+    lie: 59
+    length: 38.00
+    offset: 0.290
+    swing_weight: D1
+  - club: "5"
+    loft: 28
+    lie: 60
+    length: 37.50
+    offset: 0.260
+    swing_weight: D1
+  - club: "6"
+    loft: 32
+    lie: 61
+    length: 37.00
+    offset: 0.220
+    swing_weight: D1
+  - club: "7"
+    loft: 36
+    lie: 61.5
+    length: 36.50
+    offset: 0.180
+    swing_weight: D1
+  - club: "8"
+    loft: 40
+    lie: 62
+    length: 36.00
+    offset: 0.145
+    swing_weight: D1
+  - club: "9"
+    loft: 44
+    lie: 62.5
+    length: 35.50
+    offset: 0.110
+    swing_weight: D1
+  - club: "PW"
+    loft: 48
+    lie: 63
+    length: 35.50
+    offset: 0.095
+    swing_weight: D1
+  - club: "W"
+    loft: 52
+    lie: 63
+    length: 35.50
+    offset: 0.095
+    swing_weight: D1
+  - club: "SW"
+    loft: 56
+    lie: 63
+    length: 35.50
+    swing_weight: D1
+  - club: "LW"
+    loft: 60
+    lie: 63
+    length: 35.50
+    swing_weight: D1
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+sources:
+  - "Titleist previous-models archived product page, titleist.com/golf-clubs/irons/dci-gold, via the Internet Archive (full manufacturer table: length, loft, lie, offset, swing weight; the bounce row is published empty)"
+  - "Titleist irons-by-year timelines at pitchmarks.com and swingyard.com, which both date the DCI Black and DCI Gold to 1993 and describe the Gold as the gold-finished counterpart aimed at everyday golfers"
+  - "The archived table lists the sand and lob wedge offsets as +.010 inches, a negative-offset convention this database does not encode, so those two offset values are omitted. The bounce row is blank for every club and is likewise omitted."
+related_models:
+  - slug: "titleist/dci-981-irons"
+    label: "Successor: Titleist DCI 981"
+  - slug: "titleist/dci-oversize-gold-irons"
+    label: "Oversize sibling: Titleist DCI Oversize Gold"
+faq:
+  - q: "What is the loft of a Titleist DCI Gold 7-iron?"
+    a: "The Titleist DCI Gold 7-iron is 36 degrees, with a 61.5 degree lie and a 36.5 inch standard steel length."
+  - q: "Why do Titleist DCI Gold irons look so flat compared with modern sets?"
+    a: "Because they are. Titleist built the DCI Gold from a 56 degree lie at the 1-iron to 63 degrees at the wedges, roughly two degrees flatter through the set than the DCI 981 and 990 that followed."
+  - q: "How much offset do the Titleist DCI Gold irons have?"
+    a: "A great deal by current standards: .380 inches at the 1-iron, .180 inches at the 7-iron and .095 inches at the pitching wedge."
+confidence: high

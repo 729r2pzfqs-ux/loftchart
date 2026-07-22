@@ -1,0 +1,111 @@
+brand: Cobra
+brand_slug: cobra
+model: King Cobra SS Oversize
+slug: ss-oversize-irons
+club_type: irons
+year_introduced: 2002
+year_discontinued: 2003
+category: game-improvement
+construction: oversize investment cast cavity back with tungsten inserts in the long irons
+material: 17-4 stainless steel with tungsten inserts in the 2-, 3- and 4-irons
+predecessor: null
+successor: Cobra SS-i Oversize
+description: >
+  The King Cobra SS Oversize is Cobra's 2002 oversize game-improvement iron and the
+  set the SS-i Oversize replaced a year later. It is investment cast from 17-4
+  stainless steel, with tungsten inserts in the 2-, 3- and 4-irons to drop the centre
+  of gravity in the hardest clubs to launch, and a skid sole for turf interaction.
+  Lofts are traditional: the 7-iron is 34 degrees and the pitching wedge 45 degrees,
+  roughly a degree weaker through the middle of the set than the SS-i that followed.
+  Cobra sold the stock set as 3-iron through pitching wedge, with a 2-iron and gap,
+  sand and lob wedges available separately, in both right and left hand. Cobra's own
+  published table for this set gives lengths for graphite builds only; the steel
+  lengths below are the graphite figures less half an inch, which is exactly the
+  graphite-to-steel offset Cobra published for the successor SS-i Oversize across an
+  identical length ladder — see `sources`. Cobra also published an offset column
+  whose values run backwards relative to normal convention (increasing toward the
+  wedges), so, as with the SS-i record, they are not reproduced here.
+specs:
+  - club: "2"
+    loft: 19.0
+    lie: 60.0
+    length: 39.5
+    swing_weight: D2
+  - club: "3"
+    loft: 21.0
+    lie: 60.5
+    length: 39.0
+    swing_weight: D2
+  - club: "4"
+    loft: 24.0
+    lie: 61.0
+    length: 38.5
+    swing_weight: D2
+  - club: "5"
+    loft: 27.0
+    lie: 61.5
+    length: 38.0
+    swing_weight: D2
+  - club: "6"
+    loft: 30.0
+    lie: 62.0
+    length: 37.5
+    swing_weight: D2
+  - club: "7"
+    loft: 34.0
+    lie: 62.5
+    length: 37.0
+    swing_weight: D2
+  - club: "8"
+    loft: 38.0
+    lie: 63.0
+    length: 36.5
+    swing_weight: D2
+  - club: "9"
+    loft: 42.0
+    lie: 63.5
+    length: 36.0
+    swing_weight: D2
+  - club: "PW"
+    loft: 45.0
+    lie: 64.0
+    length: 35.75
+    swing_weight: D2
+  - club: "GW"
+    loft: 50.0
+    lie: 64.0
+    length: 35.5
+    swing_weight: D2
+  - club: "SW"
+    loft: 55.0
+    lie: 64.0
+    length: 35.25
+    swing_weight: D2
+  - club: "LW"
+    loft: 60.0
+    lie: 64.0
+    length: 35.25
+    swing_weight: D2
+stock_shafts:
+  - name: "Precision Microtaper"
+    material: steel
+    flex: ["R", "S"]
+  - name: "Cobra/Aldila HM Tour"
+    material: graphite
+    flex: ["R", "S"]
+sources:
+  - "golfclubspec.com iron specification database, entry 'King Cobra SS Men's Oversize' (iron_results.php?id=76) — retrieved directly; supplies the model year (2002), loft, lie, length, offset and the combined graphite/steel swing weight column (D0/D2) for the 2-iron through lob wedge, plus the 17-4 stainless / tungsten-insert head description and the Precision Microtaper and Cobra/Aldila HM Tour stock shafts"
+  - "qsponge.com club-specification page 'What is loft angle of Cobra King Cobra SS Men's Oversize Irons?' — independently reproduces the same loft, lie and length table, corroborating golfclubspec"
+  - "Cobra Golf official 'Men's Oversize Irons' product page (cobragolf.com/m_oversize_irons_uk.htm), archived 2002-06-10 via web.archive.org — retrieved directly; supplies the stock set composition ('Set Includes: 3 - Pitch. 2 iron, gap, sand and lob wedges available', right and left hand), the oversize cast 17-4 stainless head with tungsten insert in the 2, 3 and 4 irons, the skid sole, and the Precision Microtaper steel and Cobra/Aldila HM Tour graphite shaft options"
+  - "Steel lengths are derived, not published: both secondary tables above carry only Cobra's graphite length column. Cobra's own 'COBRA IRON SPECIFICATIONS' page (cobragolf.com/irons/specs.asp), archived 2004-02-21 via web.archive.org, lists the successor King Cobra Men's SS-i Oversize with an identical graphite length ladder and a steel column exactly 0.50 inch shorter at every club; that constant has been applied here and is flagged in the description"
+related_models:
+  - slug: "cobra/ss-i-irons"
+    label: "Successor: Cobra SS-i Oversize"
+faq:
+  - q: "What is the loft of a King Cobra SS Oversize 7-iron?"
+    a: "The King Cobra SS Oversize 7-iron has a loft of 34 degrees, a lie of 62.5 degrees and a steel-shaft length of 37.00 inches."
+  - q: "What clubs come in a stock King Cobra SS Oversize set?"
+    a: "The stock set is a 3-iron through pitching wedge. Cobra also sold a 2-iron and gap, sand and lob wedges as separate heads, in both right and left hand."
+  - q: "How do the King Cobra SS Oversize lofts compare with the SS-i Oversize?"
+    a: "The SS Oversize is about a degree weaker through the middle of the set — 34 degrees at the 7-iron against 33 degrees for the SS-i — while both share a 45-degree pitching wedge."
+confidence: medium

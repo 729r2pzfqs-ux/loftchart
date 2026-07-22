@@ -1,0 +1,114 @@
+brand: Cobra
+brand_slug: cobra
+model: KING F6
+slug: king-f6-irons
+club_type: irons
+year_introduced: 2015
+year_discontinued: 2017
+category: game-improvement
+construction: progressive TECFLO set — full hollow long irons, half hollow mid irons, cavity back short irons, specialty wedges
+material: stainless steel with face inserts in the hollow long irons and an engineered aluminium T.O.P. crown cap
+predecessor: Cobra Fly-Z
+successor: Cobra KING F7
+description: >
+  The KING F6 is the first of Cobra's TECFLO progressive iron sets and the template
+  for the F7, F8 and F9 that followed. Cobra announced it on 19 November 2015 and put
+  it on sale in January 2016, so listings date it either way; year_introduced records
+  the announcement. Construction changes through the set: the 3- to 5-irons are full
+  hollow with a face insert, the 6- and 7-irons half hollow with a very thin face, the
+  8-iron through pitching wedge conventional cavity backs, and the gap and sand wedges
+  a specialty wedge design. An engineered aluminium T.O.P. cap replaces steel on the
+  hollow heads to free about 5 grams, a Speed Channel runs around the sole and upper
+  cavity, and the grooves change from V to U to wedge spacing through the set. Lofts
+  are strong at 30 degrees in the 7-iron and 45 degrees in the pitching wedge, on a
+  37.25-inch steel 7-iron. The stock set is eight clubs, 4-iron through pitching wedge
+  plus a gap wedge, with a 3-iron and sand wedge catalogued separately. Lengths and
+  swing weights below are the steel-shaft values, and offsets are converted from
+  Cobra's published millimetre figures.
+specs:
+  - club: "3"
+    loft: 18.0
+    lie: 60.0
+    length: 40.0
+    offset: 0.217
+    swing_weight: D1
+  - club: "4"
+    loft: 20.0
+    lie: 61.0
+    length: 39.25
+    offset: 0.217
+    swing_weight: D1
+  - club: "5"
+    loft: 23.0
+    lie: 61.5
+    length: 38.5
+    offset: 0.197
+    swing_weight: D1
+  - club: "6"
+    loft: 26.0
+    lie: 62.0
+    length: 37.75
+    offset: 0.177
+    swing_weight: D1
+  - club: "7"
+    loft: 30.0
+    lie: 62.5
+    length: 37.25
+    offset: 0.157
+    swing_weight: D1
+  - club: "8"
+    loft: 35.0
+    lie: 63.0
+    length: 36.75
+    offset: 0.138
+    swing_weight: D1
+  - club: "9"
+    loft: 40.0
+    lie: 63.5
+    length: 36.25
+    offset: 0.118
+    swing_weight: D1
+  - club: "PW"
+    loft: 45.0
+    lie: 64.0
+    length: 36.0
+    offset: 0.098
+    swing_weight: D2
+  - club: "GW"
+    loft: 50.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.039
+    swing_weight: D2
+  - club: "SW"
+    loft: 55.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.031
+    swing_weight: D3
+stock_shafts:
+  - name: "KING F6 Iron Steel / FST Steel Flighted"
+    material: steel
+    weight: "100-110g"
+    flex: ["R", "S"]
+  - name: "Matrix Red Tie 65Q4"
+    material: graphite
+    weight: "62-66g"
+    flex: ["A", "R", "S"]
+sources:
+  - "Cobra Golf official 'KING F6 Irons' product page (cobragolf.com/king-f6-iron-set), archived 2016-01-24 via web.archive.org — retrieved directly; supplies the full Specifications table (model, loft, lie, offset in mm, graphite and steel length, graphite and steel swing weight, RH/LH) for the 3-iron through sand wedge, the 'STOCK SET COMPOSITION - 8 Clubs: Steel 4-PW, GW' line, the TECFLO full hollow / half hollow / cavity back / specialty wedge breakdown, the T.O.P. aluminium cap, Speed Channel sole and progressive groove descriptions, and the FST Steel Flighted and Matrix Red Tie 65Q4 shaft tables"
+  - "bunkered.co.uk and Golf Monthly launch coverage of the KING F6 irons, published 19 November 2015 — supplies the announcement date and the 29 January 2016 retail availability, which is why the announcement and model years differ here"
+  - "Offsets are converted from Cobra's published millimetre column at 25.4 mm to the inch and rounded to three decimal places"
+related_models:
+  - slug: "cobra/fly-z-irons"
+    label: "Predecessor: Cobra Fly-Z"
+  - slug: "cobra/king-f7-irons"
+    label: "Successor: Cobra KING F7"
+faq:
+  - q: "What is the loft of a Cobra KING F6 7-iron?"
+    a: "The Cobra KING F6 7-iron has a loft of 30 degrees, a lie of 62.5 degrees and a steel-shaft length of 37.25 inches."
+  - q: "What clubs come in a stock Cobra KING F6 set?"
+    a: "The stock set is eight clubs — 4-iron through pitching wedge plus a gap wedge. Cobra also catalogued a 3-iron and a sand wedge."
+  - q: "Are the Cobra KING F6 irons hollow?"
+    a: "Only part of the set. The 3- to 5-irons are full hollow with a face insert, the 6- and 7-irons are half hollow, and the 8-iron through pitching wedge are conventional cavity backs. Cobra called the scheme TECFLO."
+confidence: high

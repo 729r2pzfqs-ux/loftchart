@@ -1,0 +1,113 @@
+brand: Ping
+brand_slug: ping
+model: S55
+slug: s55-irons
+club_type: irons
+year_introduced: 2013
+year_discontinued: null
+category: players
+construction: investment cast
+material: stainless steel with a tungsten toe weight
+successor: null
+predecessor: Ping S56
+description: >
+  The S55 was the last of Ping's counting-down S series and the first of them to move
+  off the long-running S57/S56 loft chart: the 7-iron is 33 degrees rather than 34.25,
+  and the 6- and 8-irons move to round numbers, giving even four-degree gaps from the
+  4-iron down. Offset is cut slightly against the S56, to 0.09 inches at the 7-iron,
+  and a tungsten toe weight stabilises the head. The set runs 3-iron through pitching
+  wedge at D1 swing weight. Ping's colour-code (dot) system sets lie angle relative to
+  standard: gold 4 flat, brown 3 flat, orange 2 flat, red 1 flat, BLACK standard, blue
+  1 upright, green 2 upright, white 3 upright, silver 4 upright, maroon 5 upright. The
+  lies below are the BLACK (standard) lies.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 59.25
+    length: 38.75
+    offset: 0.17
+    bounce: 2.0
+    swing_weight: D1
+  - club: "4"
+    loft: 24.0
+    lie: 60.0
+    length: 38.25
+    offset: 0.15
+    bounce: 3.0
+    swing_weight: D1
+  - club: "5"
+    loft: 27.0
+    lie: 60.75
+    length: 37.75
+    offset: 0.12
+    bounce: 4.0
+    swing_weight: D1
+  - club: "6"
+    loft: 30.0
+    lie: 61.5
+    length: 37.25
+    offset: 0.1
+    bounce: 5.0
+    swing_weight: D1
+  - club: "7"
+    loft: 33.0
+    lie: 62.25
+    length: 36.75
+    offset: 0.09
+    bounce: 7.0
+    swing_weight: D1
+  - club: "8"
+    loft: 37.0
+    lie: 63.0
+    length: 36.25
+    offset: 0.07
+    bounce: 9.0
+    swing_weight: D1
+  - club: "9"
+    loft: 41.0
+    lie: 63.75
+    length: 35.75
+    offset: 0.05
+    bounce: 11.0
+    swing_weight: D1
+  - club: "PW"
+    loft: 46.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.03
+    bounce: 12.0
+    swing_weight: D3
+stock_shafts:
+  - name: "Ping CFS"
+    material: steel
+    flex: ["Soft Regular", "Regular", "Stiff", "X-Stiff"]
+  - name: "Ping Z-Z65"
+    material: steel
+    flex: ["Stiff"]
+  - name: "Ping TFC 189I"
+    material: graphite
+    flex: ["Soft Regular", "Regular", "Stiff"]
+sources:
+  - "Ping's own S55 product page, Specifications tab (http://web.archive.org/web/2014/http://ping.com/clubs/ironsdetail.aspx?id=15866) — supplied every loft, length, offset, lie, bounce and swing weight above, plus the CFS / Z-Z65 / TFC 189I shaft table and the note that lie is based on the black colour code at standard length."
+  - "qsponge.com 'What is loft angle of Ping S55 Irons?' spec table — independently reproduces the same eight rows and agrees with the Ping chart on every value."
+  - "golflink.com 'PING Irons by Year' — the S55 is dated 2013, following the S56 of 2010."
+  - "Note: year_discontinued is null. Ping did not replace the S55 with another S-series iron; the line ended and the iBlade of 2016 took over the tour-players slot, so no successor is recorded."
+related_models:
+  - slug: "ping/s56-irons"
+    label: "Predecessor: Ping S56"
+  - slug: "ping/s57-irons"
+    label: "Earlier Ping players iron: Ping S57"
+  - slug: "ping/iblade-irons"
+    label: "Ping's next tour-players iron: Ping iBlade"
+  - slug: "ping/g25-irons"
+    label: "Ping's game-improvement iron of the same era: Ping G25"
+faq:
+  - q: "What is the loft of a Ping S55 7-iron?"
+    a: "The Ping S55 7-iron has a loft of 33 degrees, a standard (black dot) lie of 62.25 degrees and a steel-shaft length of 36.75 inches."
+  - q: "When were Ping S55 irons made?"
+    a: "The S55 was introduced in 2013, following the S56. It was the last model in Ping's S series — no S54 followed, and the tour-players role passed to the iBlade in 2016."
+  - q: "What is the difference between the Ping S56 and S55?"
+    a: "The S55 is 1.25 degrees stronger at the 7-iron (33 against 34.25) and a degree or more stronger through the mid and short irons, with slightly less offset at the 3-iron. Lies and lengths are unchanged."
+  - q: "How much offset does the Ping S55 have?"
+    a: "0.17 inches at the 3-iron, 0.09 at the 7-iron and 0.03 at the pitching wedge."
+confidence: high
