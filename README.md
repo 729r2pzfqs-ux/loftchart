@@ -89,8 +89,8 @@ homepage.
 
 ## Notes
 
-- Google Analytics is a placeholder — replace `G-XXXXXXXXXX` in `generate.py` with
-  the real GA4 measurement ID.
+- Google Analytics 4 is live (`GA_ID` in `generate.py`). Set `GA_ID = ""` to drop the
+  gtag snippet and switch the privacy page back to its no-analytics wording.
 - `CNAME` and `.nojekyll` are written into `docs/` by the generator, so they survive
   the rebuild.
 - Contact address is `info@loftchart.com`.

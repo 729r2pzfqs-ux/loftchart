@@ -24,12 +24,12 @@ OUT = os.path.join(ROOT, "docs")
 
 SITE = "https://loftchart.com"
 SITE_NAME = "LoftChart"
-# Set to a real "G-..." measurement ID to switch analytics on. While it is the
-# placeholder the snippet is omitted entirely rather than shipped dead: a
-# bogus ID still costs every visitor a googletagmanager request and logs a
-# console error, and collects nothing in return.
-GA_ID = "G-XXXXXXXXXX"
-GA_ENABLED = bool(GA_ID) and "X" not in GA_ID
+# Set to a real "G-..." measurement ID to switch analytics on. Set it to "" to
+# omit the snippet entirely rather than ship it dead: a bogus ID still costs
+# every visitor a googletagmanager request and logs a console error, and
+# collects nothing in return.
+GA_ID = "G-0LYNSK0WVL"
+GA_ENABLED = bool(GA_ID) and GA_ID != "G-XXXXXXXXXX"
 EMAIL = "info@loftchart.com"
 TODAY = date.today().isoformat()
 
