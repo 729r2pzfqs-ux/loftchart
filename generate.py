@@ -517,6 +517,49 @@ def spec_table(m, caption=None):
 # model page
 # --------------------------------------------------------------------------
 
+def availability(m):
+    """Closing section, written from the production status the data actually records.
+
+    Only a set with a discontinuation year on file can be called out of production;
+    55 models have `year_discontinued: null` and are still catalogued, and telling a
+    reader to shop the used market for a set that is on the rack is simply wrong.
+    """
+    brand, model = esc(m["brand"]), esc(m["model"])
+    intro = m.get("year_introduced")
+    pred = m.get("predecessor")
+    succ = m.get("successor")
+    cat = CATEGORY_SHORT.get(m.get("category"))
+
+    if m.get("year_discontinued"):
+        return f"""<h2>Finding a used set</h2>
+  <p>The {brand} {model} ran from {intro} to {m['year_discontinued']} and is no longer in
+  production, so the used market is the only source. Search eBay, 2nd Swing, Golf Avenue and
+  the PGA Tour Superstore trade-in listings, and check the loft and lie against the chart
+  above before buying — sets this age have often been bent from standard.</p>"""
+
+    if succ:
+        # Superseded, but no retirement year is recorded — say that plainly rather
+        # than guessing at a date or claiming it is still current.
+        return f"""<h2>Buying a set</h2>
+  <p>{brand} has since introduced the {esc(succ)} above it in the range, so the {model} is at
+  the end of its retail life rather than fully retired — closeout sets still turn up at
+  retailers while stock lasts, and it is well represented used on eBay, 2nd Swing and Golf
+  Avenue. Check the loft and lie against the chart above before buying a used set: irons are
+  routinely bent from standard during a fitting.</p>"""
+
+    lineage = f" It replaced the {esc(pred)}." if pred else ""
+    # "a current ... " not "the current ...": several brands catalogue more than
+    # one live set in the same category.
+    slot = (f"a current {cat} set in the {brand} range" if cat
+            else f"a current model in the {brand} range")
+    intro_txt = f"Introduced in {intro}, t" if intro else "T"
+    return f"""<h2>Where it sits in the lineup</h2>
+  <p>{intro_txt}he {brand} {model} is {slot}, with no replacement announced.{lineage} New sets
+  are built to the standard lofts, lies and lengths in the chart above, though a fitting can
+  move any of them — so confirm the numbers on the order sheet. Used sets appear on eBay,
+  2nd Swing and Golf Avenue, and should be measured against this chart before buying.</p>"""
+
+
 def model_page(m, brands, models_by_key, compares_by_key):
     s7 = seven_iron(m)
     title = fit_title(f"{m['title']} Specs", " — Loft & Lie Chart", f" | {SITE_NAME}")
@@ -661,6 +704,8 @@ def model_page(m, brands, models_by_key, compares_by_key):
         about = (f"<h2>About the {esc(m['brand'])} {esc(m['model'])}</h2>"
                  f"<p>{esc(m['description'].strip())}</p>")
 
+    availability_html = availability(m)
+
     body = f"""{nav}
 <div class="wrap">
   <div class="page-head">
@@ -682,11 +727,7 @@ def model_page(m, brands, models_by_key, compares_by_key):
   {related_html}
   {faq_html}
 
-  <h2>Finding a used set</h2>
-  <p>The {esc(m['brand'])} {esc(m['model'])} is no longer in production, so the used market is
-  the only source. Search eBay, 2nd Swing, Golf Avenue and the PGA Tour Superstore trade-in
-  listings, and check the loft and lie against the chart above before buying — sets this age
-  have often been bent from standard.</p>
+  {availability_html}
 
   {sources_html}
 </div>
@@ -824,6 +865,11 @@ def brands_index(brands, by_brand, all_models):
 # year / category pages
 # --------------------------------------------------------------------------
 
+# Fewer than this many models on a year page and it carries nothing the model
+# cards do not already say — indexed, it competes with them for nothing.
+YEAR_MIN_MODELS = 3
+
+
 def year_page(year, ms, brands):
     ms = sorted(ms, key=lambda m: (m["brand"], m["model"]))
     title = f"{year} Golf Club Releases — Specifications | {SITE_NAME}"
@@ -851,7 +897,10 @@ def year_page(year, ms, brands):
   <div class="grid">{''.join(model_card(m) for m in ms)}</div>
 </div>
 """
-    page(f"/years/{year}/", title, desc, body, brands, [bc, item_list(ms, f"{year} releases")])
+    # A year page listing one or two models is a thin duplicate of the cards it
+    # holds. Keep it as a crawl path from /years/, but out of the index.
+    page(f"/years/{year}/", title, desc, body, brands, [bc, item_list(ms, f"{year} releases")],
+         noindex=len(ms) < YEAR_MIN_MODELS)
 
 
 def years_index(by_year, brands, all_models):
@@ -975,6 +1024,26 @@ def compare_slug(a, b):
     if a["brand_slug"] == b["brand_slug"]:
         return f"{a['brand_slug']}-{ab}-vs-{bb}"
     return f"{a['brand_slug']}-{ab}-vs-{b['brand_slug']}-{bb}"
+
+
+# A comparison table is only worth a page if it actually shows differences.
+# Below this many highlighted cells the page is two copies of the same chart
+# with a verdict paragraph on top — thin content, and 65 pairs had zero.
+MIN_COMPARE_DIFFS = 3
+
+
+def spec_diff_count(a, b):
+    """Number of highlighted cells the compare table would render for this pair."""
+    aspec = {r["club"]: r for r in a["specs"]}
+    bspec = {r["club"]: r for r in b["specs"]}
+    n = 0
+    for c in set(aspec) & set(bspec):
+        ra, rb = aspec[c], bspec[c]
+        for k in ("loft", "lie", "length"):
+            va, vb = ra.get(k), rb.get(k)
+            if va is not None and vb is not None and va != vb:
+                n += 1
+    return n
 
 
 def find_pairs(models, by_key):
@@ -1141,7 +1210,9 @@ def compare_page(a, b, brands):
   <a href="{b['url']}">{esc(b['brand'])} {esc(b['model'])} specs</a>.</p>
 </div>
 """
-    page(url, title, desc, body, brands, [bc])
+    # Compare pages stay linked and usable, but out of the index for now: the
+    # domain should establish itself on the 241 model pages first.
+    page(url, title, desc, body, brands, [bc], noindex=True)
     return slug
 
 
@@ -1172,7 +1243,7 @@ def compares_index(pairs_built, brands):
   <div class="grid">{cards or '<p>No comparisons available yet.</p>'}</div>
 </div>
 """
-    page("/compare/", title, desc, body, brands, [bc])
+    page("/compare/", title, desc, body, brands, [bc], noindex=True)
 
 
 # --------------------------------------------------------------------------
@@ -1581,6 +1652,8 @@ def main():
 
     # comparison pages first, so model pages can link to them
     pairs = find_pairs(models, by_key)
+    skipped = [(a, b) for a, b in pairs if spec_diff_count(a, b) < MIN_COMPARE_DIFFS]
+    pairs = [(a, b) for a, b in pairs if spec_diff_count(a, b) >= MIN_COMPARE_DIFFS]
     pairs_built = []
     compares_by_key = defaultdict(list)
     for a, b in pairs:
@@ -1619,18 +1692,22 @@ def main():
     robots()
     webmanifest()
 
+    # Sitemap carries indexable pages only: no /compare/ (noindexed wholesale)
+    # and no thin year page.
+    thin_years = [y for y, ms in by_year.items() if len(ms) < YEAR_MIN_MODELS]
     urls = [("/", "1.0"), ("/brands/", "0.8"), ("/years/", "0.6"),
-            ("/category/", "0.6"), ("/compare/", "0.6"),
+            ("/category/", "0.6"),
             ("/about/", "0.4"), ("/privacy/", "0.2")]
     urls += [(m["url"], "0.9") for m in models]
     urls += [(f"/{b['slug']}/", "0.8") for b in brands if by_brand.get(b["slug"])]
-    urls += [(f"/years/{y}/", "0.5") for y in by_year]
+    urls += [(f"/years/{y}/", "0.5") for y in by_year if y not in thin_years]
     urls += [(f"/category/{c}/", "0.6") for c in by_cat]
-    urls += [(f"/compare/{s}/", "0.5") for s, _, _ in pairs_built]
     sitemap(urls)
 
     print(f"Built {len(models)} models, {len([b for b in brands if by_brand.get(b['slug'])])} "
-          f"brands, {len(pairs_built)} comparisons, {len(urls)} URLs → {OUT}")
+          f"brands, {len(pairs_built)} comparisons "
+          f"({len(skipped)} pairs skipped for <{MIN_COMPARE_DIFFS} differing cells), "
+          f"{len(urls)} indexable URLs, {len(thin_years)} year pages noindexed → {OUT}")
     if errors:
         print(f"({len(errors)} non-fatal data warnings — see above)")
 
