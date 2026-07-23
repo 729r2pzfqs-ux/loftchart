@@ -634,7 +634,7 @@ def model_page(m, brands, models_by_key, compares_by_key):
 
     article_ld = {
         "@context": "https://schema.org",
-        "@type": "Article",
+        "@type": "TechArticle",
         "headline": f"{m['title']} Specifications",
         "description": desc,
         "datePublished": TODAY,
@@ -642,8 +642,12 @@ def model_page(m, brands, models_by_key, compares_by_key):
         "mainEntityOfPage": {"@type": "WebPage", "@id": SITE + m["url"]},
         "author": {"@type": "Organization", "name": SITE_NAME, "url": SITE},
         "publisher": {"@type": "Organization", "name": SITE_NAME, "url": SITE},
-        "about": {"@type": "Product", "name": m["title"], "brand":
-                  {"@type": "Brand", "name": m["brand"]}},
+        # A Product entity here makes Google expect offers/review/aggregateRating.
+        # These are reference spec pages, not listings, so describe the subject
+        # as a plain Thing instead.
+        "about": {"@type": "Thing", "name": m["title"]},
+        "keywords": ", ".join([m["brand"], m["model"], m["type_label"],
+                               "loft", "lie", "length", "specifications"]),
     }
 
     caption = (f"Standard men's steel-shaft specifications for the "
