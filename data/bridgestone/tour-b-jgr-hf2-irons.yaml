@@ -1,0 +1,100 @@
+brand: Bridgestone
+brand_slug: bridgestone
+model: Tour B JGR HF2
+slug: tour-b-jgr-hf2-irons
+club_type: irons
+year_introduced: 2018
+year_discontinued: 2021
+category: game-improvement
+construction: two-piece forged, ultra-thin face with polymer-filled cavity
+material: forged 1025 carbon steel, rubber polymer cavity insert
+successor: null
+predecessor: Bridgestone JGR Hybrid Forged
+description: >
+  The Tour B JGR HF2 was the classic-shaped cavity-back of Bridgestone's
+  Tour B JGR distance line, announced in August 2018 and in US stores from
+  October 2018 at $899, marketed as a 2019-model-year club. It is forged
+  from 1025 carbon steel with an ultra-thin face whose junction with the
+  sole is thinned into a Power Slit that flexes at impact, raising COR low
+  on the face where average golfers miss, and a rubber polymer insert fills
+  the back cavity to damp vibration. Lofts are strong for a forged
+  cavity-back of the era (31-degree 7-iron, 44-degree pitching wedge, with
+  a 50-degree gap wedge completing the set), and the more compact HF2 sat
+  below the larger hollow JGR HF1 in the line. Offsets below are converted
+  from Bridgestone's published millimetre figures. Bridgestone wound down
+  its US club business without announcing a direct successor — the HF2
+  page moved into the company's 2019-models archive and the JGR clubs left
+  the live US line-up after 2021, ahead of Bridgestone's December 2024
+  return to the US club market.
+specs:
+  - club: "4"
+    loft: 22.0
+    lie: 60.5
+    length: 38.75
+    offset: 0.177
+    swing_weight: D2
+  - club: "5"
+    loft: 24.0
+    lie: 61.0
+    length: 38.25
+    offset: 0.157
+    swing_weight: D2
+  - club: "6"
+    loft: 27.0
+    lie: 61.5
+    length: 37.75
+    offset: 0.157
+    swing_weight: D2
+  - club: "7"
+    loft: 31.0
+    lie: 62.0
+    length: 37.25
+    offset: 0.157
+    swing_weight: D2
+  - club: "8"
+    loft: 35.0
+    lie: 62.5
+    length: 36.75
+    offset: 0.138
+    swing_weight: D2
+  - club: "9"
+    loft: 39.0
+    lie: 63.0
+    length: 36.25
+    offset: 0.138
+    swing_weight: D2
+  - club: "PW"
+    loft: 44.0
+    lie: 63.5
+    length: 35.75
+    offset: 0.138
+    swing_weight: D2
+  - club: "AW"
+    loft: 50.0
+    lie: 63.5
+    length: 35.5
+    offset: 0.118
+    swing_weight: D3
+stock_shafts:
+  - name: "True Temper XP 95"
+    material: steel
+sources:
+  - "Bridgestone Golf official Tour B JGR HF2 page, bridgestonegolf.com/en-us/clubs/irons/tour-b-jgr-hf2-irons (archive.org capture of 22 July 2019) — full factory spec table: 4-AW lofts 22/24/27/31/35/39/44/50, lies 60.5-63.5 (AW 63.5), lengths 38.75 to 35.5 inches, swing weights D2 with the AW at D3, offsets 4.5/4/4/4/3.5/3.5/3.5/3 mm (converted here at 25.4 mm per inch), availability RH and LH except the RH-only 4-iron, $899.99, and the forged construction / Power Slit Face / polymer insert copy"
+  - "golf.com 'Bridgestone unveils Tour B JGR driver along with two new iron models', August-September 2018 — announcement of the Tour B JGR line with October 2018 availability, the HF2 at $899 forged from 1025 carbon steel with True Temper XP 95 steel stock shafts"
+  - "Golf Digest 'New Bridgestone Tour B JGR line renews its focus on power for average golfers', 2018, and pluggedingolf.com HF2 review (August 2018) — corroborate the 2018 launch, two-piece construction and polymer-filled cavity"
+  - "year_discontinued 2021 is approximate: no successor was announced; bridgestonegolf.com served the HF2 on its live iron menu through a 30 December 2021 capture and later filed it under 'archive/2019-models', and Bridgestone had no US club line again until December 2024. The 2019 in Bridgestone's archive path is the marketing model year — the announcement year 2018 is used here per the schema convention"
+related_models:
+  - slug: "bridgestone/j40-dual-pocket-cavity-irons"
+    label: "Earlier forgiving forged Bridgestone: J40 Dual Pocket Cavity"
+  - slug: "bridgestone/tour-b-x-cbp-irons"
+    label: "More compact pocket-cavity of the same era: Tour B X-CBP"
+faq:
+  - q: "What is the loft of a Bridgestone Tour B JGR HF2 7-iron?"
+    a: "The Bridgestone Tour B JGR HF2 7-iron has a loft of 31 degrees, with a 62-degree lie and a 37.25-inch length."
+  - q: "Are the Bridgestone Tour B JGR HF2 irons forged?"
+    a: "Yes — the head is forged from 1025 carbon steel with an ultra-thin face, and a rubber polymer insert fills the internal cavity to damp vibration and improve sound."
+  - q: "What is the Power Slit Face on the JGR HF2?"
+    a: "The junction between the face and sole is machined thinner than the surrounding metal so it acts as a hinge at impact, raising ball speed and COR on shots struck low on the face — the most common miss for average golfers."
+  - q: "When did the Bridgestone Tour B JGR HF2 come out?"
+    a: "Bridgestone announced the Tour B JGR line in August 2018 and the HF2 reached US stores in October 2018 at $899, marketed as a 2019-model-year iron."
+confidence: high

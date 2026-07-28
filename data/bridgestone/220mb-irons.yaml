@@ -1,0 +1,85 @@
+brand: Bridgestone
+brand_slug: bridgestone
+model: 220 MB
+slug: 220mb-irons
+club_type: irons
+year_introduced: 2022
+year_discontinued: null
+category: blade
+construction: forged
+material: soft iron (S20C)
+successor: null
+predecessor: Bridgestone Tour B X-Blade
+description: >
+  The 220 MB is Bridgestone's soft-iron-forged muscle-back, announced by
+  Bridgestone Sports on 2 August 2022 as the B-Limited 220MB and released in
+  Japan on 9 September 2022 as a custom-order-only single (3-iron through PW,
+  24,200 yen per club) alongside the 221CB and 222CB+ cavity-backs. The head
+  is forged from S20C soft iron with a Tour Groove Design milled to
+  0.02-millimetre precision for spin consistency, and it carries the
+  smallest blade length of the three 22-series irons (74.4 mm at the 7-iron
+  against the 221CB's 76.3 mm). When Bridgestone re-entered the US club
+  market in December 2024 the 220 MB became a stock US offering at $1,050
+  for a 4-PW set with Nippon Modus3 Tour 120 shafts, and it remains current.
+  Lofts and lies below are Bridgestone's published figures; lengths are the
+  US retail build (the JDM release lists no lengths because every club was
+  built to order), and no length was published for the custom-order 3-iron.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 60.0
+  - club: "4"
+    loft: 23.0
+    lie: 60.5
+    length: 38.75
+  - club: "5"
+    loft: 26.0
+    lie: 61.0
+    length: 38.25
+  - club: "6"
+    loft: 29.5
+    lie: 61.5
+    length: 37.75
+  - club: "7"
+    loft: 33.0
+    lie: 62.0
+    length: 37.25
+  - club: "8"
+    loft: 37.0
+    lie: 62.5
+    length: 36.75
+  - club: "9"
+    loft: 41.5
+    lie: 63.0
+    length: 36.25
+  - club: "PW"
+    loft: 46.0
+    lie: 63.5
+    length: 35.75
+stock_shafts:
+  - name: "Nippon N.S.PRO MODUS3 TOUR120"
+    material: steel
+    flex: ["S"]
+  - name: "True Temper Dynamic Gold"
+    material: steel
+sources:
+  - "Bridgestone Sports official news release PDF, 2 August 2022 (sports.bridgestone/cms/press/2022/g0802_b_limited/g0802_b_limited.pdf) — B-Limited 220MB spec table: 3-PW lofts 20/23/26/29.5/33/37/41.5/46, lies 60-63.5, face progression 3.65-5.35 mm, head soft iron (S20C), forged, made in Japan, 9 September 2022 release, custom-order single clubs at 24,200 yen with N.S.PRO MODUS3 TOUR120 or Dynamic Gold steel shafts; no lengths are published because B-Limited clubs were built to order"
+  - "Bridgestone Sports 221CB/222CB+ news release PDF of the same date — the 220MB blade-length comparison (74.4 mm vs 76.3 mm for the 221CB and 79.0 mm for the 222CB+ at the 7-iron) and the simultaneous 22-series launch"
+  - "fairwayjockey.com Bridgestone 220 MB custom irons page — US retail spec table: 4-PW lofts and lies matching the manufacturer figures, lengths 38.75 to 35.75 inches on a half-inch ladder; an eBay listing of a stock US set independently shows the 38.25-inch 5-iron. Lengths are retailer data rather than a manufacturer sheet"
+  - "golf.com 'New Bridgestone premium forged irons and wedges: 5 things to know', December 2024 — US launch of the 220 MB, 221 CB and 222 CB+ announced 3 December 2024 at $1,050 for 4-PW sets with Nippon PRO Modus3 Tour 120 shafts, forged in Japan; pgatour.com and mygolfspy.com coverage corroborates. The 220 MB remains in the US line, so year_discontinued is null"
+  - "Bridgestone publishes face progression rather than offset, and no bounce or swing weight for this model; those keys are omitted. The 0.02 mm Tour Groove Design claim is from the B-Limited release"
+related_models:
+  - slug: "bridgestone/221cb-irons"
+    label: "Cavity-back sibling launched the same day: 221CB"
+  - slug: "bridgestone/tour-b-x-blade-irons"
+    label: "Previous Bridgestone muscle-back: Tour B X-Blade"
+faq:
+  - q: "What is the loft of a Bridgestone 220 MB 7-iron?"
+    a: "The Bridgestone 220 MB 7-iron has a loft of 33 degrees, with a 62-degree lie and a 37.25-inch length in the stock US Modus3 Tour 120 build."
+  - q: "When did the Bridgestone 220 MB come out?"
+    a: "Bridgestone Sports announced it as the B-Limited 220MB on 2 August 2022 and released it in Japan on 9 September 2022 as a custom-order model. It reached the United States as a stock 4-PW set in December 2024, when Bridgestone re-entered the US club market."
+  - q: "Are the Bridgestone 220 MB irons forged?"
+    a: "Yes. The heads are forged in Japan from S20C soft iron, with a precision-milled Tour Groove Design that Bridgestone specifies to 0.02 millimetres for spin consistency."
+  - q: "How big is the Bridgestone 220 MB head?"
+    a: "It is the smallest of Bridgestone's 22-series irons — 74.4 millimetres of blade length at the 7-iron, against 76.3 mm for the 221CB and 79.0 mm for the 222CB+."
+confidence: high

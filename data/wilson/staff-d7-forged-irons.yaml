@@ -1,0 +1,87 @@
+brand: Wilson
+brand_slug: wilson
+model: Staff D7 Forged
+slug: staff-d7-forged-irons
+club_type: irons
+year_introduced: 2020
+year_discontinued: 2022
+category: players-distance
+construction: forged
+material: forged 8620 carbon steel
+successor: Wilson Staff D9 Forged
+predecessor: null
+description: >
+  The D7 Forged took the Power Hole concept from the cast D7 and moved it into a
+  forged 8620 carbon steel head aimed at players who want distance in a more
+  compact package. A urethane-filled Power Chamber sits behind the face and the
+  Power Holes are limited to the sole, so the look at address is much cleaner
+  than the standard D7. Lofts are strong for the players-distance class, with a
+  30.5-degree 7-iron and a 44-degree pitching wedge. The stock set is 4-iron
+  through pitching wedge, with a 49-degree gap wedge available to match; the
+  figures below are the standard men's steel specification.
+specs:
+  - club: "4"
+    loft: 21.5
+    lie: 60.0
+    length: 38.75
+    offset: 0.150
+    bounce: 3.0
+  - club: "5"
+    loft: 24.5
+    lie: 61.0
+    length: 38.25
+    offset: 0.133
+    bounce: 3.5
+  - club: "6"
+    loft: 27.5
+    lie: 61.5
+    length: 37.75
+    offset: 0.117
+    bounce: 4.5
+  - club: "7"
+    loft: 30.5
+    lie: 62.0
+    length: 37.25
+    offset: 0.100
+    bounce: 5.0
+  - club: "8"
+    loft: 34.5
+    lie: 63.0
+    length: 36.75
+    offset: 0.084
+    bounce: 5.5
+  - club: "9"
+    loft: 39.0
+    lie: 63.5
+    length: 36.25
+    offset: 0.067
+    bounce: 6.5
+  - club: "PW"
+    loft: 44.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.050
+    bounce: 7.0
+stock_shafts:
+  - name: "KBS $-Taper Lite"
+    material: steel
+  - name: "True Temper Catalyst 80"
+    material: graphite
+sources:
+  - "2nd Swing Golf 'Wilson Staff D7 Forged Single Iron' specification table (retrieved July 2026) - supplied loft, lie, length, offset and bounce for 4-iron through PW."
+  - "A second circulated D7 Forged spec table (qsponge.com) matches the 2nd Swing rows exactly and extends the ladder with a 3-iron (19 degrees) and a 49-degree gap wedge; those add-on rows are omitted above because they lack a corroborated lie figure."
+  - "Golfalot 'Wilson Staff D7 Forged Irons Review' - confirms the 30.5-degree 7-iron, the 4-PW stock set, the forged 8620 carbon steel head and the 2020 release."
+  - "MyGolfSpy and TGW product pages - confirm the KBS $-Taper Lite stock steel shaft and True Temper Catalyst 80 stock graphite shaft."
+related_models:
+  - slug: "wilson/staff-d9-forged-irons"
+    label: "Successor: Wilson Staff D9 Forged"
+  - slug: "wilson/staff-d7-irons"
+    label: "Sibling: Wilson Staff D7"
+faq:
+  - q: "What is the loft of a Wilson Staff D7 Forged 7-iron?"
+    a: "The Wilson Staff D7 Forged 7-iron has a loft of 30.5 degrees, with a 62-degree lie and a 37.25-inch steel-shaft length."
+  - q: "What is the difference between the Wilson D7 and D7 Forged irons?"
+    a: "The standard D7 is a cast game-improvement iron with Power Holes around the sole and toe; the D7 Forged uses a forged 8620 carbon steel head with a urethane-filled Power Chamber and sole-only Power Holes, in a smaller players-distance shape with slightly stronger lofts club for club."
+  - q: "What clubs come in a stock Wilson Staff D7 Forged set?"
+    a: "The stock set is 4-iron through pitching wedge, with a 49-degree gap wedge available as a matching add-on."
+confidence: medium

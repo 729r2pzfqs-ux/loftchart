@@ -1,0 +1,95 @@
+brand: Adams
+brand_slug: adams
+model: Idea a2
+slug: idea-a2-irons
+club_type: irons
+year_introduced: 2005
+year_discontinued: 2007
+category: game-improvement
+construction: investment cast
+material: stainless steel with hollow-back mid irons
+successor: Adams Idea a3
+predecessor: Adams Idea (2003)
+description: >
+  The Idea a2 is the second generation of Adams' hybrid-iron combo set, aimed at what
+  Adams called the aspirational player. The stock make-up replaces the long irons with
+  a 20-degree 3 i-Wood and a 23-degree 4 i-Wood in a tour-derived shape, runs
+  hollow-back 5-, 6- and 7-irons through the middle, and finishes with cavity-back
+  8-iron through pitching wedge. Lofts stay traditional, with a 33-degree 7-iron and a
+  45-degree pitching wedge, and 1 and 2 i-Woods, a 3- or 4-iron and GW, SW and LW heads
+  were available through custom fitting. Only the iron clubs are listed below; the
+  stock 3 i-Wood (20 degrees, 59-degree lie, 40 inches) and 4 i-Wood (23 degrees,
+  60-degree lie, 39.25 inches) are hybrids rather than irons.
+specs:
+  - club: "5"
+    loft: 26.0
+    lie: 60.75
+    length: 38.5
+    swing_weight: D2
+  - club: "6"
+    loft: 29.0
+    lie: 61.25
+    length: 37.875
+    swing_weight: D2
+  - club: "7"
+    loft: 33.0
+    lie: 62.0
+    length: 37.25
+    swing_weight: D2
+  - club: "8"
+    loft: 37.0
+    lie: 62.75
+    length: 36.625
+    swing_weight: D2
+  - club: "9"
+    loft: 41.0
+    lie: 63.25
+    length: 36.0
+    swing_weight: D2
+  - club: "PW"
+    loft: 45.0
+    lie: 63.5
+    length: 35.75
+    swing_weight: D2.5
+  - club: "GW"
+    loft: 50.0
+    lie: 63.5
+    length: 35.5
+    swing_weight: D2.5
+  - club: "SW"
+    loft: 55.0
+    lie: 63.5
+    length: 35.5
+    swing_weight: D2.5
+  - club: "LW"
+    loft: 60.0
+    lie: 63.5
+    length: 35.5
+    swing_weight: D2.5
+stock_shafts:
+  - name: "Aldila NV 85"
+    material: graphite
+    flex: ["R", "S"]
+  - name: "True Temper Dynalite Players 105"
+    material: steel
+    flex: ["R", "S"]
+sources:
+  - "Adams Golf official iron specifications page, October 2005 capture (https://web.archive.org/web/20051028022405/http://www.adamsgolf.com/ir_spec.htm) - contemporaneous manufacturer spec table giving loft, length, lie and swing weight for the 1-4 i-Woods and 5-iron through LW, plus the Aldila NV 85-gram graphite and 105-gram True Temper steel stock shafts"
+  - "Adams Golf official iron specifications page, May 2007 capture (https://web.archive.org/web/20070513231543/http://www.adamsgolf.com/ir_spec.htm) - later capture of the same chart; every iron row matches the 2005 capture"
+  - "Adams Golf Idea a2 product page (https://web.archive.org/web/20051027025842/http://www.adamsgolf.com/ir_idea_a2.htm) - set make-up (two hybrids, hollow-back 5-7, cavity-back 8-PW), custom options, and target player. The product page calls the steel shaft 'True Temper Players Lite 105 gram' while the spec table prints 'True Temper Dynalite Players'; the spec-table name is used above"
+  - "Today's Golfer, Adams Golf Idea A2 Game Improvement Irons review page (https://www.todays-golfer.com/equipment/golf-clubs/irons/adams-golf/idea-a2/adams-idea-a2-irons/) - secondary confirmation of the two-hybrid, hollow-back-mid, cavity-back-short set structure and the 2005-2006 model window"
+related_models:
+  - slug: "adams/idea-2003-irons"
+    label: "Predecessor: original Adams Idea"
+  - slug: "adams/idea-a2-os-irons"
+    label: "More forgiving sibling: Idea a2 OS"
+  - slug: "adams/idea-a3-irons"
+    label: "Successor: Adams Idea a3"
+faq:
+  - q: "What is the loft of an Adams Idea a2 7-iron?"
+    a: "The Adams Idea a2 7-iron has a loft of 33 degrees, with a 62-degree lie and a 37.25-inch length."
+  - q: "What clubs come in a stock Adams Idea a2 set?"
+    a: "Eight clubs: a 20-degree 3 i-Wood and 23-degree 4 i-Wood replace the long irons, followed by hollow-back 5-, 6- and 7-irons and cavity-back 8-iron through pitching wedge. GW, SW and LW heads plus 1 and 2 i-Woods were available through custom fitting."
+  - q: "What is the difference between the Idea a2 and the Idea a2 OS?"
+    a: "The a2 is the standard game-improvement set with two hybrids and traditional lofts. The a2 OS is the oversize, maximum-game-improvement version with four hybrid clubs, slightly weaker top-end lofts in the scoring clubs and graphite-first stock shafts."
+confidence: high

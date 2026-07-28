@@ -1,0 +1,75 @@
+brand: Nike
+brand_slug: nike
+model: VR_S Forged
+slug: vrs-forged-irons
+club_type: irons
+year_introduced: 2012
+year_discontinued: 2013
+category: players
+construction: forged cavity back
+material: forged carbon steel with a NexCOR face
+successor: Nike VR_S Covert Forged
+predecessor: null
+description: >
+  The VR_S Forged paired Nike's NexCOR variable-thickness face with a forged
+  players-sized cavity back, aimed at better players who wanted the 2012
+  VR_S distance story in a compact head with modest offset. Lofts are strong
+  for a players iron of the era - a 31-degree 7-iron and a 45-degree pitching
+  wedge - with wider gaps through the scoring clubs down to the 51-degree
+  approach wedge. The stock set is 4-iron through approach wedge on the
+  Nippon N.S. Pro 950GH HT steel shaft, a high-launch profile chosen to
+  offset the strong lofts; a 3-iron and sand wedge were available outside
+  the stock set. Figures below are the standard men's steel specification.
+specs:
+  - club: "4"
+    loft: 22.0
+    lie: 60.5
+    length: 38.5
+  - club: "5"
+    loft: 25.0
+    lie: 61.0
+    length: 38.0
+  - club: "6"
+    loft: 28.0
+    lie: 61.5
+    length: 37.5
+  - club: "7"
+    loft: 31.0
+    lie: 62.0
+    length: 37.0
+  - club: "8"
+    loft: 35.0
+    lie: 62.5
+    length: 36.5
+  - club: "9"
+    loft: 40.0
+    lie: 63.0
+    length: 36.0
+  - club: "PW"
+    loft: 45.0
+    lie: 63.5
+    length: 35.75
+  - club: "AW"
+    loft: 51.0
+    lie: 63.5
+    length: 35.5
+stock_shafts:
+  - name: "Nippon N.S. Pro 950GH HT"
+    material: steel
+sources:
+  - "The Sand Trap 'Nike VR_S Forged Irons Review' (August 2012) - full loft/lie/length/swing-weight table for the 4-AW stock set, the Nippon N.S. Pro 950GH HT stock shaft and the 2012 release."
+  - "qsponge.com Nike VRS Forged spec table (retrieved July 2026) - independently lists an identical loft/lie/length ladder for 4-AW and extends it with a 20-degree 3-iron and 56-degree SW; the two sources matching row for row is the basis for confidence: medium."
+  - "nikegolf.com product pages from this era are not retrievable via the Wayback CDX index, so no manufacturer sheet backs these figures."
+related_models:
+  - slug: "nike/vrs-irons"
+    label: "Cast sibling: Nike VR_S"
+  - slug: "nike/vr-pro-cavity-irons"
+    label: "Contemporary players cavity: Nike VR Pro Cavity"
+faq:
+  - q: "What is the loft of a Nike VR_S Forged 7-iron?"
+    a: "The Nike VR_S Forged 7-iron has a loft of 31 degrees, with a 62-degree lie and a 37-inch steel-shaft length."
+  - q: "Are the Nike VR_S Forged irons strong lofted?"
+    a: "Yes, for their class. The 7-iron is 31 degrees and the pitching wedge 45 degrees - roughly two to four degrees stronger than Nike's traditional players irons like the VR Pro Combo - which is why Nike paired them with the high-launch N.S. Pro 950GH HT shaft."
+  - q: "What clubs come in a stock Nike VR_S Forged set?"
+    a: "The stock set is 4-iron through pitching wedge plus a 51-degree approach wedge, with a 3-iron and sand wedge available outside the stock set."
+confidence: medium

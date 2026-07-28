@@ -1,0 +1,92 @@
+brand: Honma
+brand_slug: honma
+model: Beres 09
+slug: beres-09-irons
+club_type: irons
+year_introduced: 2023
+year_discontinued: 2025
+category: super-game-improvement
+construction: cast/forged hybrid (forged mild-steel body, cast face)
+material: forged mild steel 25C body with AM355P cast face (5-9) and ES235 face (10-SW)
+successor: Honma Beres 10
+predecessor: Honma Beres 08
+description: >
+  The ninth-generation Beres continues Honma's ultra-premium lightweight line
+  with head specifications carried over unchanged from the Beres 08: a forged
+  mild-steel 25C body with a cast AM355P face in the 5- through 9-irons and an
+  ES235 face in the scoring clubs, at the same strong lofts (27-degree 7-iron)
+  tuned to launch high from a deep, low centre of gravity. The changes are in
+  the shafts and finish: new hand-rolled ARMRQ FX graphite in 2-Star to 5-Star
+  grades (plus an even lighter FX LIGHT), still at very light C8-D0 swing
+  weights, under two-layer nickel-chrome plating with gold detailing on the
+  higher grades. Honma numbers the scoring clubs: the 40-degree 10 is the
+  pitching wedge and the 45-degree 11 the gap wedge, ahead of 50-degree AW and
+  55-degree SW.
+specs:
+  - club: "5"
+    loft: 21.0
+    lie: 61.0
+    length: 38.25
+    offset: 0.157
+  - club: "6"
+    loft: 24.0
+    lie: 61.5
+    length: 37.75
+    offset: 0.146
+  - club: "7"
+    loft: 27.0
+    lie: 62.0
+    length: 37.25
+    offset: 0.138
+  - club: "8"
+    loft: 31.0
+    lie: 62.5
+    length: 36.75
+    offset: 0.138
+  - club: "9"
+    loft: 35.0
+    lie: 63.0
+    length: 36.25
+    offset: 0.138
+  - club: "10"
+    loft: 40.0
+    lie: 63.0
+    length: 35.75
+    offset: 0.138
+  - club: "11"
+    loft: 45.0
+    lie: 63.0
+    length: 35.5
+    offset: 0.118
+  - club: "AW"
+    loft: 50.0
+    lie: 63.0
+    length: 35.5
+    offset: 0.118
+  - club: "SW"
+    loft: 55.0
+    lie: 64.0
+    length: 35.0
+    offset: 0.079
+stock_shafts:
+  - name: "Honma ARMRQ FX (2-Star to 5-Star grades)"
+    material: graphite
+    flex: ["R", "SR", "S"]
+  - name: "Honma ARMRQ FX LIGHT"
+    material: graphite
+    weight: "light"
+    flex: ["R"]
+sources:
+  - "Honma's own BERES09 IRON product page, specification table (honmagolf.com/int/product-details/10160) — every loft, lie, length and offset recorded here (offsets 4.0/3.7/3.5/3.0/2.0 mm converted to inches; the table's merged cells place the 63.0-degree lie across the 9 through AW, 64.0 on the SW, and the 3.5 mm offset across the 7 through 10), plus the forged Mild Steel 25C body with AM355P cast face (5-9) and ES235 face (10-SW), the ARMRQ FX and FX LIGHT shaft matrix at C8-D0 swing weights (343-394 g total), the GR Honma Rubber 41 GD grip and the 5-11/AW/SW set makeup."
+  - "Year note: year_introduced 2023 follows Honma's roughly two-year Beres cycle (08 announced 2021); year_discontinued 2025 reflects the Beres 10 generation, marketed as the 2026 model year and covered by TourSpecGolf and ExactGolf from late 2025, per this site's successor-announcement convention."
+related_models:
+  - slug: "honma/beres-08-irons"
+    label: "Predecessor with identical head specs: Honma Beres 08"
+faq:
+  - q: "What is the loft of a Honma Beres 09 7-iron?"
+    a: "The Honma Beres 09 7-iron has a loft of 27 degrees, a lie of 62 degrees and a length of 37.25 inches."
+  - q: "What changed between the Honma Beres 08 and Beres 09?"
+    a: "The head chart is identical — same lofts, lies, lengths and offsets. The 09 generation introduced the new ARMRQ FX shaft family (replacing the 08's ARMRQ MX) plus an extra-light FX LIGHT option, along with refreshed plating and finish grades."
+  - q: "Why do Honma Beres 09 irons cost so much?"
+    a: "Each set is hand-finished in Sakata, Japan, and the price scales with the star grade of the hand-rolled ARMRQ FX shaft and its finish — from the 2-Star entry build to the 5-Star flagship with gold-plated detailing; top grades run well into five figures per set."
+confidence: high

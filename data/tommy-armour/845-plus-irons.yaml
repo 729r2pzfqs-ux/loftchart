@@ -1,0 +1,83 @@
+brand: Tommy Armour
+brand_slug: tommy-armour
+model: "845+"
+slug: 845-plus-irons
+club_type: irons
+year_introduced: 2024
+year_discontinued: null
+category: game-improvement
+construction: cast, rail sole
+material: stainless steel
+successor: null
+predecessor: Tommy Armour 845-MAX (2021)
+description: >
+  The 2024 845+ brought the Tommy Armour 845 name back to Golf Galaxy and Dick's
+  Sporting Goods after a two-year gap, as a $399.99 maximum-forgiveness set. A
+  rail system on the sole improves turf interaction, and a new head shape with a
+  shorter hosel and longer blade lowers the centre of gravity and raises the
+  moment of inertia. It swept MyGolfSpy's 2024 Most Wanted test in the
+  super-game-improvement class — best overall, best for forgiveness and best
+  value — so while it is filed here as a game-improvement iron, testers treat it
+  as the most forgiving end of that spectrum. The stock set runs 5-iron through
+  pitching wedge plus a 50-degree approach wedge with SL85 steel or UST Mamiya
+  Recoil graphite shafts.
+specs:
+  - club: "5"
+    loft: 24.0
+    lie: 62.5
+    length: 38.5
+    swing_weight: D2
+  - club: "6"
+    loft: 27.0
+    lie: 62.5
+    length: 37.75
+    swing_weight: D2
+  - club: "7"
+    loft: 31.0
+    lie: 62.5
+    length: 37.25
+    swing_weight: D2
+  - club: "8"
+    loft: 35.0
+    lie: 63.0
+    length: 36.75
+    swing_weight: D2
+  - club: "9"
+    loft: 40.0
+    lie: 63.5
+    length: 36.25
+    swing_weight: D2
+  - club: "PW"
+    loft: 45.0
+    lie: 64.0
+    length: 35.75
+    swing_weight: D3
+  - club: "AW"
+    loft: 50.0
+    lie: 64.0
+    length: 35.5
+    swing_weight: D3
+stock_shafts:
+  - name: "SL85"
+    material: steel
+    flex: ["R", "S"]
+  - name: "UST Mamiya Recoil"
+    material: graphite
+sources:
+  - "Golf Galaxy product page 'Tommy Armour 2024 845+ Irons' (Web ID 24AV3M2023T845RNSIRN, retrieved via Wayback Machine) — the manufacturer specification table for every loft, lie, length and swing weight recorded here, the 5-9/PW/AW set makeup, the SL85 steel stock shaft, the $399.99 price and the Rail System / shorter-hosel / high-MOI feature list."
+  - "MyGolfSpy 2024 Most Wanted Super Game-Improvement Iron test ('Tommy Armour 845+') — best super game-improvement iron overall and for forgiveness, second for accuracy, best value at $399.99; also confirms the UST Mamiya Recoil graphite option. Category note: MyGolfSpy classes the 845+ as super-game-improvement; it is recorded here under game-improvement following this catalog's line-level classification, with the Max-series entries holding the super-game-improvement slot."
+related_models:
+  - slug: "tommy-armour/845-irons"
+    label: "The 2019 relaunch model: Tommy Armour 845"
+  - slug: "tommy-armour/845-max-irons"
+    label: "Earlier wide-sole model: Tommy Armour 845 Max (2020)"
+  - slug: "tommy-armour/845s-silver-scot-irons"
+    label: "The 1987 original: Tommy Armour 845s Silver Scot"
+faq:
+  - q: "What is the loft of a Tommy Armour 845+ 7-iron?"
+    a: "The 2024 Tommy Armour 845+ 7-iron has a loft of 31 degrees, a lie of 62.5 degrees and a length of 37.25 inches."
+  - q: "How good are the Tommy Armour 845+ irons?"
+    a: "In MyGolfSpy's 2024 Most Wanted test they took first place in the super-game-improvement class — best for forgiveness, second best for accuracy and the best value in the test at $399.99 for the seven-piece set."
+  - q: "What shafts come in the Tommy Armour 845+ irons?"
+    a: "Stock options are the lightweight SL85 steel shaft or UST Mamiya Recoil graphite, sold exclusively through Dick's Sporting Goods and Golf Galaxy."
+confidence: high

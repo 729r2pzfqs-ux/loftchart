@@ -1,0 +1,132 @@
+brand: Ben Hogan
+brand_slug: ben-hogan
+model: Apex Edge
+slug: apex-edge-irons
+club_type: irons
+year_introduced: 2002
+year_discontinued: 2003
+category: game-improvement
+construction: forged cavity back
+material: forged carbon steel
+successor: Ben Hogan Apex Edge CFT
+predecessor: Ben Hogan Apex Plus
+description: >
+  The Apex Edge was the game-improvement model of the Spalding-era Ben
+  Hogan Apex Edge line, announced on 25 January 2002 alongside the more
+  compact Apex Edge Pro. It is a forged cavity-back whose muscle-cavity
+  design launched the ball higher than the Pro, with markedly more offset
+  (0.242 inches at the 3-iron tapering to 0.107 at the Equalizer wedge)
+  and lies half a degree more upright than the Pro through the set. Lofts
+  are the traditional Hogan ladder — a 34-degree 7-iron and 46-degree
+  Equalizer pitching wedge — and the full range ran from a 16-degree
+  1-iron to a 60-degree lob wedge, sold with Apex Edge steel or graphite
+  shafts and a Ben Hogan Tour Velvet grip. Hogan's letter wedges are
+  recorded here as PW (Equalizer, 46°), GW (F wedge, 50°), SW (56°) and
+  LW (60°). The Apex Edge CFT, on Hogan's site by early 2003 as Callaway
+  acquired the brand, succeeded it.
+specs:
+  - club: "1"
+    loft: 16.0
+    lie: 59.5
+    length: 39.75
+    offset: 0.262
+    bounce: 0.0
+  - club: "2"
+    loft: 18.0
+    lie: 60.0
+    length: 39.25
+    offset: 0.252
+    bounce: 1.0
+  - club: "3"
+    loft: 20.0
+    lie: 60.5
+    length: 38.75
+    offset: 0.242
+    bounce: 1.0
+  - club: "4"
+    loft: 23.0
+    lie: 61.0
+    length: 38.25
+    offset: 0.232
+    bounce: 2.0
+  - club: "5"
+    loft: 26.0
+    lie: 61.5
+    length: 37.75
+    offset: 0.217
+    bounce: 2.0
+  - club: "6"
+    loft: 30.0
+    lie: 62.0
+    length: 37.25
+    offset: 0.202
+    bounce: 3.0
+  - club: "7"
+    loft: 34.0
+    lie: 62.5
+    length: 36.75
+    offset: 0.182
+    bounce: 3.0
+  - club: "8"
+    loft: 38.0
+    lie: 63.0
+    length: 36.25
+    offset: 0.162
+    bounce: 4.0
+  - club: "9"
+    loft: 42.0
+    lie: 63.5
+    length: 35.75
+    offset: 0.137
+    bounce: 4.0
+  - club: "PW"
+    loft: 46.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.107
+    bounce: 5.0
+  - club: "GW"
+    loft: 50.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.087
+    bounce: 6.0
+  - club: "SW"
+    loft: 56.0
+    lie: 64.0
+    length: 35.0
+    offset: 0.087
+    bounce: 8.0
+  - club: "LW"
+    loft: 60.0
+    lie: 64.0
+    length: 35.0
+    offset: 0.087
+    bounce: 4.0
+stock_shafts:
+  - name: "Apex Edge (steel)"
+    material: steel
+  - name: "Apex Edge (graphite)"
+    material: graphite
+sources:
+  - "Ben Hogan official Apex Edge spec table image, benhogan.com/imgs/irons/edge_spec_table.gif (archive.org capture of 11 August 2002, linked from irons_apexedge_specs.html) — full 1-iron-to-LW table of lie, loft, steel and graphite length (graphite +0.5 inch), offset and bounce. The chart prints the 8-iron steel length as 36.75, an evident misprint duplicating the 7-iron: its own graphite column (36.75) and the half-inch ladder both give 36.25, which equip2golf.com's Hogan Apex Edge page also records; 36.25 is used here"
+  - "equip2golf.com Hogan Apex Edge specifications page — matches every loft, lie, length and offset above and names the Apex Edge steel/graphite stock shafts and Ben Hogan Tour Velvet by Golf Pride grip (it files the model under a 2001 model year); qsponge.com's Apex Edge table also matches throughout"
+  - "benhogan.com press-release page company/pr/012502apex_edge (archive.org) — the Apex Edge announcement dated 25 January 2002, which sets year_introduced 2002 on the announcement-year convention"
+  - "benhogan.com irons_edgecft_specs.html was live by 15 February 2003 (archive.org), placing the successor Apex Edge CFT's introduction in 2003, the period of Callaway's acquisition of the Hogan brand via Top-Flite"
+related_models:
+  - slug: "ben-hogan/apex-edge-pro-irons"
+    label: "Compact players version: Apex Edge Pro"
+  - slug: "ben-hogan/apex-plus-irons"
+    label: "Predecessor forgiving forged Hogan: Apex Plus"
+  - slug: "ben-hogan/edge-irons"
+    label: "Modern revival of the Edge name (2018)"
+faq:
+  - q: "What is the loft of a Ben Hogan Apex Edge 7-iron?"
+    a: "The Ben Hogan Apex Edge 7-iron has a loft of 34 degrees, with a 62.5-degree lie, a 36.75-inch steel length and 0.182 inches of offset."
+  - q: "What is the difference between the Ben Hogan Apex Edge and Apex Edge Pro?"
+    a: "They share the same traditional 16-to-60-degree loft ladder, but the Apex Edge is the game-improvement model with substantially more offset and lies half a degree more upright per club, while the Apex Edge Pro is the compact low-offset players version."
+  - q: "When did the Ben Hogan Apex Edge come out?"
+    a: "The Spalding-era Ben Hogan company announced it on 25 January 2002. The Apex Edge CFT succeeded it in 2003 as Callaway took over the brand."
+  - q: "What does the E stamped on the Ben Hogan Apex Edge wedge mean?"
+    a: "It stands for Equalizer, Hogan's traditional name for the pitching wedge — 46 degrees in this set, recorded here as the PW."
+confidence: high

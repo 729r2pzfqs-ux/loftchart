@@ -1,0 +1,85 @@
+brand: Srixon
+brand_slug: srixon
+model: I-701 Tour
+slug: i-701-tour-irons
+club_type: irons
+year_introduced: 2007
+year_discontinued: 2009
+category: players
+construction: forged cavity back
+material: forged 1025 carbon steel
+successor: Srixon Z-TX
+predecessor: null
+description: >
+  The I-701 Tour was Srixon's flagship forged players iron, announced on
+  8 August 2007 alongside the more forgiving two-piece I-701. The head is
+  a one-piece forged 1025 carbon steel cavity-back with a thin topline and
+  minimal offset, a face-press milling treatment and engraved U-grooves
+  for spin, and a sole cut away at the toe and heel to reduce the turf
+  profile; its centre of gravity sits slightly higher than the standard
+  I-701 for a more penetrating flight. It was sold 3-PW in right hand
+  only at $1,199 with True Temper Dynamic Gold shafts, was in the bags of
+  Henrik Stenson and Tim Clark at launch, and retains a cult following on
+  equipment forums. Srixon never published a full factory spec sheet that
+  survives online: the loft and lie table below was assembled by owners
+  from factory materials (and Srixon confirmed to one owner that the
+  standard I-701 shared it), and lengths are the standard half-inch
+  ladder anchored by factory-spec examples, so confidence is medium.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 59.5
+    length: 38.75
+  - club: "4"
+    loft: 24.0
+    lie: 60.0
+    length: 38.25
+  - club: "5"
+    loft: 27.0
+    lie: 60.5
+    length: 37.75
+  - club: "6"
+    loft: 30.0
+    lie: 61.0
+    length: 37.25
+  - club: "7"
+    loft: 34.0
+    lie: 61.5
+    length: 36.75
+  - club: "8"
+    loft: 38.0
+    lie: 62.0
+    length: 36.25
+  - club: "9"
+    loft: 42.0
+    lie: 62.5
+    length: 35.75
+  - club: "PW"
+    loft: 46.0
+    lie: 63.0
+    length: 35.5
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+    flex: ["R300", "S300"]
+sources:
+  - "thegolfwire.com 'Srixon Introduces I-701 Series Irons', 8 August 2007 — announcement date, one-piece forged 1025 carbon steel construction for the Tour (against the two-piece 1025/1020 standard I-701), face-press milling and engraved U-grooves, 3-PW set at $1,199 with Dynamic Gold R300/S300 stock shafts, right hand only, 21-degree 3-iron and 46-degree PW, and the Stenson/Clark tour usage"
+  - "GolfWRX thread 'Srixon I-701 Tour iron Specs?' (2010-2015) — an owner-assembled table from factory materials giving lofts 18/21/24/27/30/34/38/42/46 and lies 59-63 for 2-PW (the 3-PW stock range is recorded here), with the thread's factory spec attachment since lost; a 2015 poster who contacted Srixon reports the standard I-701 shared the Tour's specs. These lofts bracket the press release's 21-degree 3-iron and 46-degree PW"
+  - "Lengths: no surviving factory sheet — the half-inch ladder above is anchored by a used-market I-701 Tour 5-iron listed at 37.75 inches and a factory spec sticker on an I-701 6-iron at 37.25 inches (GolfWRX), and matches the standard men's steel ladder of the era; treat lengths as medium-confidence"
+  - "golfbidder.co.uk I-701 Tour page — 2007 model year, the 1025 forged cavity-back description and the higher-CG penetrating-flight positioning against the standard I-701. year_discontinued 2009 reflects the Srixon Z-TX forged players iron that replaced the 701 series (announced late 2008 in Japan, 2009 internationally)"
+  - "No offset, bounce or swing-weight figures could be corroborated; those keys are omitted"
+related_models:
+  - slug: "srixon/z-765-irons"
+    label: "Later Srixon forged players cavity-back: Z 765"
+  - slug: "srixon/z-965-irons"
+    label: "Later Srixon tour blade lineage: Z 965"
+faq:
+  - q: "What is the loft of a Srixon I-701 Tour 7-iron?"
+    a: "The Srixon I-701 Tour 7-iron has a loft of 34 degrees, with a 61.5-degree lie and a 36.75-inch length."
+  - q: "What is the difference between the Srixon I-701 and I-701 Tour?"
+    a: "The Tour is a one-piece forging of 1025 carbon steel with a slightly higher centre of gravity for a penetrating flight, while the standard I-701 is a two-piece forged head with a softer 1020 face and a pocket cavity for a lower, deeper centre of gravity. According to Srixon, the two shared the same lofts and lies."
+  - q: "When did the Srixon I-701 Tour come out?"
+    a: "Srixon announced the I-701 series on 8 August 2007, with the Tour at $1,199 for a 3-PW set in right hand only. The Z-TX replaced the series from 2009."
+  - q: "Who played the Srixon I-701 Tour irons?"
+    a: "Henrik Stenson and Tim Clark had them in play at launch in 2007, and the model keeps a cult following among better players on equipment forums."
+confidence: medium

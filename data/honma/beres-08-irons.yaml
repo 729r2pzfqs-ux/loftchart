@@ -1,0 +1,91 @@
+brand: Honma
+brand_slug: honma
+model: Beres 08
+slug: beres-08-irons
+club_type: irons
+year_introduced: 2021
+year_discontinued: 2023
+category: super-game-improvement
+construction: cast/forged hybrid (forged mild-steel body, cast face)
+material: forged mild-steel body with AM355P cast face (5-9) and ES235 rolled face (10-SW)
+successor: Honma Beres 09
+predecessor: Honma Beres 07
+description: >
+  The eighth-generation Beres is Honma's ultra-premium lightweight line, built in
+  Sakata for golfers with moderate swing speeds who pay for hand-finished
+  craftsmanship: a forged mild-steel body carries a cast AM355P face in a 3D
+  L-Cup structure with inside and outside sole slots in the 5- through 9-irons,
+  and an ES235 rolled face in the scoring clubs. Lofts are strong for the
+  category (27-degree 7-iron) because the deep, low centre of gravity is tuned
+  to launch high anyway. Stock shafts are Honma's hand-rolled ARMRQ MX graphite
+  in ascending 2-Star to 5-Star grades at very light C9-D0 swing weights, with
+  matching grades of finish and price. Honma numbers the scoring clubs: the
+  40-degree 10 is the pitching wedge and the 45-degree 11 the gap wedge, ahead
+  of 50-degree AW and 55-degree SW.
+specs:
+  - club: "5"
+    loft: 21.0
+    lie: 61.0
+    length: 38.25
+    offset: 0.157
+  - club: "6"
+    loft: 24.0
+    lie: 61.5
+    length: 37.75
+    offset: 0.146
+  - club: "7"
+    loft: 27.0
+    lie: 62.0
+    length: 37.25
+    offset: 0.138
+  - club: "8"
+    loft: 31.0
+    lie: 62.5
+    length: 36.75
+    offset: 0.138
+  - club: "9"
+    loft: 35.0
+    lie: 63.0
+    length: 36.25
+    offset: 0.138
+  - club: "10"
+    loft: 40.0
+    lie: 63.0
+    length: 35.75
+    offset: 0.138
+  - club: "11"
+    loft: 45.0
+    lie: 63.0
+    length: 35.5
+    offset: 0.118
+  - club: "AW"
+    loft: 50.0
+    lie: 63.0
+    length: 35.5
+    offset: 0.118
+  - club: "SW"
+    loft: 55.0
+    lie: 64.0
+    length: 35.0
+    offset: 0.079
+stock_shafts:
+  - name: "Honma ARMRQ MX (2-Star to 5-Star grades)"
+    material: graphite
+    flex: ["R2", "R", "SR", "S"]
+sources:
+  - "Honma's Beres 08 specification table as reproduced on Golfio's 'HONMA Beres 08 Black Iron Set' product page — every loft, lie, length and offset recorded here (offsets 4.0/3.7/3.5/3.0/2.0 mm converted to inches; the lie and offset columns use merged cells, read here as 63.0 degrees for the 9 through AW and 3.5 mm for the 7 through 10, matching the identically structured table on Honma's own Beres 09 page), plus the forged mild-steel body with AM355P cast face (5-9) and ES235 rolled face (10-SW), the ARMRQ MX shaft matrix at C9-D0 swing weights and the GR Honma Rubber 41 grip. The Black edition shares the standard 08 head; Amazon 'Beres 08 Aizu' listings corroborate the 5-11/AW/SW set makeup and 27-degree, 37.25-inch 7-iron."
+  - "Confidence note: medium because the manufacturer table was retrieved via a retailer reproduction (the standard 08 page is no longer live on Honma's international site) — every value is Honma's own published spec, and the chart is identical to the Beres 09 table on Honma's live site, but the standard-model page itself could not be archived."
+  - "Year note: the Beres 08 generation was announced in 2021 on Honma's roughly two-year Beres cycle (07 in 2019, 09 in 2023); year_discontinued 2023 is the Beres 09 announcement. The Aizu and Black limited editions (2022) use the same head specifications."
+related_models:
+  - slug: "honma/beres-09-irons"
+    label: "Successor: Honma Beres 09"
+  - slug: "honma/tworld-gs-irons"
+    label: "Same year, more affordable lightweight concept: Honma T//World GS"
+faq:
+  - q: "What is the loft of a Honma Beres 08 7-iron?"
+    a: "The Honma Beres 08 7-iron has a loft of 27 degrees, a lie of 62 degrees and a length of 37.25 inches — strong lofts that the deep, low centre of gravity is designed to launch high despite the number."
+  - q: "What do the star ratings on Honma Beres 08 clubs mean?"
+    a: "The 2-Star through 5-Star grades refer to the ARMRQ MX shaft and finish level: higher star counts get more advanced shaft layups (M40X and T1100G plies, lower torque) and more elaborate plating and gold detailing, at sharply higher prices. The head specifications are the same."
+  - q: "Who are Honma Beres 08 irons for?"
+    a: "Golfers with moderate swing speeds who struggle to accelerate a standard-weight club: the ARMRQ MX graphite builds run very light C9-D0 swing weights so the club is easy to swing fast, wrapped in hand-finished Sakata craftsmanship."
+confidence: medium

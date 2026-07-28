@@ -1,0 +1,105 @@
+brand: Ben Hogan
+brand_slug: ben-hogan
+model: Apex Edge Pro
+slug: apex-edge-pro-irons
+club_type: irons
+year_introduced: 2002
+year_discontinued: 2004
+category: players
+construction: forged cavity back
+material: forged 1025 carbon steel
+successor: Ben Hogan Apex FTX
+predecessor: Ben Hogan Apex Plus
+description: >
+  The Apex Edge Pro was the players model of the Spalding-era Apex Edge
+  line — a compact forged cavity-back with minimal offset that became one
+  of the best-loved late Fort Worth Hogan irons and stayed in tour bags
+  for years after production ended. Its spec page was live on benhogan.com
+  by April 2002, alongside the more offset game-improvement Apex Edge
+  announced that January. Lofts are the traditional Hogan ladder — a
+  34-degree 7-iron and 46-degree Equalizer pitching wedge — with lies half
+  a degree flatter per club than the Apex Edge, and the range ran from a
+  16-degree 1-iron to a 60-degree lob wedge with Hogan Apex steel shafts
+  as stock. Hogan's letter wedges are recorded here as PW (Equalizer,
+  46°), GW (F wedge, 50°), SW (56°) and LW (60°). Production wound down
+  after Callaway acquired the Hogan brand in 2003; the multi-material
+  Apex FTX of 2004 took its slot in the Callaway-era line.
+specs:
+  - club: "1"
+    loft: 16.0
+    lie: 59.0
+    length: 39.75
+  - club: "2"
+    loft: 18.0
+    lie: 59.5
+    length: 39.25
+  - club: "3"
+    loft: 20.0
+    lie: 60.0
+    length: 38.75
+  - club: "4"
+    loft: 23.0
+    lie: 60.5
+    length: 38.25
+  - club: "5"
+    loft: 26.0
+    lie: 61.0
+    length: 37.75
+  - club: "6"
+    loft: 30.0
+    lie: 61.5
+    length: 37.25
+  - club: "7"
+    loft: 34.0
+    lie: 62.0
+    length: 36.75
+  - club: "8"
+    loft: 38.0
+    lie: 62.5
+    length: 36.25
+  - club: "9"
+    loft: 42.0
+    lie: 63.0
+    length: 35.75
+  - club: "PW"
+    loft: 46.0
+    lie: 64.0
+    length: 35.5
+  - club: "GW"
+    loft: 50.0
+    lie: 64.0
+    length: 35.5
+  - club: "SW"
+    loft: 56.0
+    lie: 64.0
+    length: 35.0
+  - club: "LW"
+    loft: 60.0
+    lie: 64.0
+    length: 35.0
+stock_shafts:
+  - name: "Ben Hogan Apex (steel)"
+    material: steel
+sources:
+  - "Ben Hogan official Apex Edge Pro spec table image, benhogan.com/imgs/irons/edgepro_spec_table.gif (archive.org capture of the irons_apexedgepro_specs.html page, first archived 10 April 2002) — full 1-iron-to-LW table of lie, loft, steel and graphite length (graphite +0.5 inch); unlike the Apex Edge chart, no offset or bounce column is printed, so those keys are omitted"
+  - "golfclubspec.com iron_results.php?id=86 'Apex Edge Pro' (2002) and equip2golf.com Hogan Apex Edge Pro specifications page (2002 model year) — both independently match every loft, lie and length above, including the 34-degree 7-iron and the 64-degree lie across the wedges"
+  - "year_introduced 2002 rests on the April 2002 archive capture of the manufacturer spec page and both spec databases filing it as a 2002 model; some retail and UK review coverage (golfmagic.com, 2003) dates the model 2003, which is when it reached wider distribution"
+  - "year_discontinued 2004 on the successor convention: Callaway acquired the Hogan brand in the 2003 Top-Flite purchase and its 2004 Hogan line led with the Apex FTX (pitchmarks.com Hogan Apex timeline); Apex Edge Pro sets continued to be played on tour well after"
+  - "Stock shaft: period listings and reviews consistently show Hogan's own Apex flighted steel shafts (Apex 3/4/5 stiffness numbering); graphite builds added half an inch per the factory chart"
+related_models:
+  - slug: "ben-hogan/apex-edge-irons"
+    label: "Game-improvement sibling: Apex Edge"
+  - slug: "ben-hogan/apex-plus-irons"
+    label: "Previous-generation forgiving forged Hogan: Apex Plus"
+  - slug: "ben-hogan/ptx-pro-irons"
+    label: "Modern Ben Hogan players iron: PTx Pro"
+faq:
+  - q: "What is the loft of a Ben Hogan Apex Edge Pro 7-iron?"
+    a: "The Ben Hogan Apex Edge Pro 7-iron has a loft of 34 degrees, with a 62-degree lie and a 36.75-inch steel length."
+  - q: "What is the difference between the Ben Hogan Apex Edge Pro and Apex Edge?"
+    a: "Both share the traditional 16-to-60-degree Hogan loft ladder, but the Edge Pro is the compact players model with minimal offset and lies half a degree flatter per club, while the Apex Edge is the larger game-improvement version with much more offset."
+  - q: "When did the Ben Hogan Apex Edge Pro come out?"
+    a: "Its specification page was live on benhogan.com by April 2002, and spec databases file it as a 2002 model; it reached wider distribution in 2003, the year Callaway acquired the Hogan brand."
+  - q: "Are the Ben Hogan Apex Edge Pro irons forged?"
+    a: "Yes — they are forged carbon-steel cavity-backs from the Fort Worth era, prized for their feel, and they remained in professionals' bags for years after production ended."
+confidence: high

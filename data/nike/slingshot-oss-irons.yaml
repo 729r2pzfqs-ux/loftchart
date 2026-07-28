@@ -1,0 +1,91 @@
+brand: Nike
+brand_slug: nike
+model: Slingshot OSS
+slug: slingshot-oss-irons
+club_type: irons
+year_introduced: 2006
+year_discontinued: 2007
+category: super-game-improvement
+construction: cast cavity back with Slingback bridge
+material: stainless steel
+successor: Nike Slingshot (2007)
+predecessor: Nike Slingshot
+description: >
+  The Slingshot OSS pushed the original Slingshot's design further toward
+  maximum forgiveness: the Slingback bridge sits farther back from the face,
+  the already-wide sole gets wider still, and 3-D flow weighting moves mass
+  low and deep in the long irons with a progressively higher centre of
+  gravity as the set shortens. Offset is generous throughout. Lofts carry
+  over from the original Slingshot, with a 34-degree 7-iron and a 46-degree
+  pitching wedge. The stock set is 4-iron through 50-degree approach wedge,
+  with the 2-iron, 3-iron and sand wedge as custom orders. The per-club lie
+  and length figures below come from a spec database that appears to round
+  to whole units, so treat them as approximate; the lofts are solid.
+specs:
+  - club: "2"
+    loft: 18.0
+    lie: 58.0
+    length: 39.0
+  - club: "3"
+    loft: 20.0
+    lie: 60.0
+    length: 39.0
+  - club: "4"
+    loft: 23.0
+    lie: 61.0
+    length: 38.0
+  - club: "5"
+    loft: 26.0
+    lie: 62.0
+    length: 38.0
+  - club: "6"
+    loft: 30.0
+    lie: 63.0
+    length: 37.0
+  - club: "7"
+    loft: 34.0
+    lie: 64.0
+    length: 37.0
+  - club: "8"
+    loft: 38.0
+    lie: 64.0
+    length: 36.0
+  - club: "9"
+    loft: 42.0
+    lie: 65.0
+    length: 36.0
+  - club: "PW"
+    loft: 46.0
+    lie: 65.0
+    length: 36.0
+  - club: "AW"
+    loft: 50.0
+    lie: 65.0
+    length: 36.0
+  - club: "SW"
+    loft: 55.0
+    lie: 66.0
+    length: 35.0
+stock_shafts:
+  - name: "True Temper Slingshot (Speed Step) steel"
+    material: steel
+  - name: "Mitsubishi Diamana Slingshot graphite"
+    material: graphite
+sources:
+  - "golfclubspec.com 'Slingshot OSS' (2006) specification entry - supplied every loft, lie and length above plus the SpeedStep/Constant Weight shaft note. Its lies and lengths appear rounded to whole degrees/inches (the fractional values present in Nike's original Slingshot chart are absent), so those columns are approximate and confidence is set to low."
+  - "qsponge.com Slingshot OSS table lists identical figures, but appears to derive from the same database rather than an independent source."
+  - "The Sand Trap 'Nike Slingshot OSS Irons Review' (June 2006) - the 2006 Golf Digest Hot List appearance, the 4-AW stock set with 2i/3i/SW as custom orders, the 50-degree A-wedge, the wider sole and rearward Slingback versus the original Slingshot, and the $799 steel / $899 graphite pricing."
+  - "2nd Swing Golf OSS listings - corroborate the 4-PW/AW set make-up and the True Temper Slingshot steel and Diamana Slingshot graphite family-branded stock shafts."
+related_models:
+  - slug: "nike/slingshot-irons"
+    label: "Predecessor: Nike Slingshot"
+  - slug: "nike/slingshot-4d-irons"
+    label: "Later generation: Nike Slingshot 4D"
+faq:
+  - q: "What is the loft of a Nike Slingshot OSS 7-iron?"
+    a: "The Nike Slingshot OSS 7-iron has a loft of 34 degrees - the same as the original Slingshot - with a lie of about 64 degrees and a steel-shaft length of about 37 inches."
+  - q: "What does OSS stand for in the Nike Slingshot OSS?"
+    a: "Nike marketed it as the oversize evolution of the Slingshot: the Slingback bridge moved farther from the face and the sole got wider, making it the most forgiving, super-game-improvement member of the family."
+  - q: "What clubs came in a stock Nike Slingshot OSS set?"
+    a: "The stock set was 4-iron through a 50-degree approach wedge. The 2-iron, 3-iron and 55-degree sand wedge were available as custom orders."
+confidence: low

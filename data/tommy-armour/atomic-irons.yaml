@@ -1,0 +1,83 @@
+brand: Tommy Armour
+brand_slug: tommy-armour
+model: Atomic
+slug: atomic-irons
+club_type: irons
+year_introduced: 2018
+year_discontinued: 2020
+category: super-game-improvement
+construction: brazed hollow body with titanium cup face
+material: steel body with DAT-55 titanium cup face and 60g tungsten sole weight
+successor: Tommy Armour 845 Max
+predecessor: null
+description: >
+  The Atomic irons headlined Dick's Sporting Goods' 2018 relaunch of the Tommy
+  Armour brand, built by Performax with a DAT-55 titanium cup face joined to a
+  steel body through a patented brazing process — a construction normally seen
+  in far more expensive distance irons. A 60-gram tungsten sole weight drives
+  the centre of gravity low and toward the toe for high launch and forgiveness,
+  behind very strong lofts (27-degree 7-iron). The stock set ran 4-iron through
+  pitching wedge plus a 46-degree approach wedge with True Temper XP 85 steel
+  shafts; an even larger hybrid-like Atomic MAX model was sold alongside. The
+  845 family replaced the Atomic in the lineup from 2020.
+specs:
+  - club: "4"
+    loft: 19.0
+    lie: 60.5
+    length: 39.0
+    swing_weight: D2
+  - club: "5"
+    loft: 21.5
+    lie: 61.5
+    length: 38.375
+    swing_weight: D2
+  - club: "6"
+    loft: 24.0
+    lie: 62.0
+    length: 37.75
+    swing_weight: D2
+  - club: "7"
+    loft: 27.0
+    lie: 62.5
+    length: 37.125
+    swing_weight: D2
+  - club: "8"
+    loft: 31.0
+    lie: 63.0
+    length: 36.5
+    swing_weight: D2
+  - club: "9"
+    loft: 36.0
+    lie: 63.5
+    length: 36.0
+    swing_weight: D2
+  - club: "PW"
+    loft: 41.0
+    lie: 64.0
+    length: 35.5
+    swing_weight: D3
+  - club: "AW"
+    loft: 46.0
+    lie: 64.0
+    length: 35.25
+    swing_weight: D3
+stock_shafts:
+  - name: "True Temper XP 85"
+    material: steel
+sources:
+  - "Dick's Sporting Goods product page 'Tommy Armour ATOMIC Irons – (Steel)' (Web ID 19AV3MTTMCRNSSTLXIRN, retrieved via Wayback Machine snapshot of 21 October 2019) — the manufacturer specification table for every loft, lie, length and swing weight recorded here, the True Temper XP 85 steel stock shaft, the DAT-55 titanium cup face brazed to a steel body, and the 60g tungsten sole weight."
+  - "PR Newswire, 'Dick's Sporting Goods Relaunches Iconic Tommy Armour Golf Brand With Renewed Focus On Innovation' (2018) — the Atomic line led the 2018 brand relaunch, basis for year_introduced. MyGolfSpy 'Product Spotlight: Tommy Armour Atomic Irons' corroborates the Performax design and construction story."
+  - "Year note: year_discontinued 2020 reflects the 845 Max (announced 2020) taking over the super-game-improvement slot in the Dick's lineup; Atomic product pages stop being archived after 2019-2020. Offset and bounce are not published and are omitted."
+related_models:
+  - slug: "tommy-armour/845-max-irons"
+    label: "Successor as the brand's max-forgiveness iron: Tommy Armour 845 Max (2020)"
+  - slug: "tommy-armour/845-irons"
+    label: "Game-improvement stablemate that followed: Tommy Armour 845 (2019)"
+faq:
+  - q: "What is the loft of a Tommy Armour Atomic 7-iron?"
+    a: "The Tommy Armour Atomic 7-iron has a very strong loft of 27 degrees, with a 62.5-degree lie and a 37.125-inch length."
+  - q: "What makes the Tommy Armour Atomic irons unusual?"
+    a: "They combine a DAT-55 titanium cup face with a steel body through a patented brazing process and add a 60-gram tungsten sole weight — hollow-body distance-iron construction sold at a big-box price when Dick's relaunched the Tommy Armour brand in 2018."
+  - q: "Why are the Atomic's lofts so strong?"
+    a: "The design brief was maximum distance for higher-handicap players: the thin brazed titanium face and low, toe-biased tungsten weighting produce enough launch that Tommy Armour ran the 7-iron at 27 degrees, roughly two clubs stronger than a traditional 7-iron."
+confidence: high

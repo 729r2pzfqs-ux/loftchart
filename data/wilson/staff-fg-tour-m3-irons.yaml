@@ -1,0 +1,88 @@
+brand: Wilson
+brand_slug: wilson
+model: Staff FG Tour M3
+slug: staff-fg-tour-m3-irons
+club_type: irons
+year_introduced: 2013
+year_discontinued: 2014
+category: players
+construction: forged
+material: forged 8620 carbon steel
+successor: Wilson Staff FG Tour V4
+predecessor: Wilson Staff FG Tour
+description: >
+  The FG Tour M3 was the third generation of Wilson's FG Tour players cavity,
+  forged from 8620 carbon steel and finished in a matte black PVD that broke
+  from the chrome of the earlier FG Tour models. The design is progressive: a
+  larger cavity and heel-toe weighting in the long irons shrinking toward a
+  more compact, thicker-faced head in the scoring clubs. Lofts are fully
+  traditional, with a 35-degree 7-iron and a 47-degree pitching wedge. The
+  stock set is 4-iron through gap wedge. The M3 was unveiled in late 2013 and
+  sold as a 2014-season model; year_introduced records the announcement year
+  per the repository convention. Figures below are the standard men's steel
+  specification.
+specs:
+  - club: "4"
+    loft: 24.0
+    lie: 60.0
+    length: 38.75
+    bounce: 2.0
+  - club: "5"
+    loft: 27.0
+    lie: 61.0
+    length: 38.25
+    bounce: 2.5
+  - club: "6"
+    loft: 31.0
+    lie: 61.5
+    length: 37.75
+    bounce: 3.5
+  - club: "7"
+    loft: 35.0
+    lie: 62.0
+    length: 37.25
+    bounce: 4.0
+  - club: "8"
+    loft: 39.0
+    lie: 63.0
+    length: 36.75
+    bounce: 4.5
+  - club: "9"
+    loft: 43.0
+    lie: 63.5
+    length: 36.25
+    bounce: 5.5
+  - club: "PW"
+    loft: 47.0
+    lie: 64.0
+    length: 35.75
+    bounce: 6.0
+  - club: "GW"
+    loft: 51.0
+    lie: 64.25
+    length: 35.5
+    bounce: 6.5
+stock_shafts:
+  - name: "True Temper Dynamic Gold XP"
+    material: steel
+    flex: ["R", "S", "X"]
+  - name: "Aldila RIP Phenom"
+    material: graphite
+    flex: ["A", "R", "S"]
+sources:
+  - "InTheHoleGolf 'Wilson Staff FG Tour M3 Iron Set' specification table (product code WIL14, retrieved July 2026) - supplied loft, lie, length and bounce for 4-iron through GW, plus both stock shafts. Retailer-published table, not a Wilson sheet."
+  - "Golfalot 'Wilson FG Tour M3 Irons Review' (November 2013) - the forged construction, black PVD finish, progressive cavity design, Dynamic Gold XP stock shaft and the late-2013 unveiling that fixes year_introduced."
+  - "Hurricane Golf and other retailer listings corroborate the 4-GW set composition and the $799 steel / $899 graphite pricing."
+related_models:
+  - slug: "wilson/staff-fg-tour-v4-irons"
+    label: "Successor: Wilson Staff FG Tour V4"
+  - slug: "wilson/staff-fg-tour-100-irons"
+    label: "Tour blade sibling: Wilson Staff FG Tour 100"
+faq:
+  - q: "What is the loft of a Wilson Staff FG Tour M3 7-iron?"
+    a: "The Wilson Staff FG Tour M3 7-iron has a loft of 35 degrees, with a 62-degree lie and a 37.25-inch steel-shaft length."
+  - q: "Are the Wilson FG Tour M3 irons forged?"
+    a: "Yes. The heads are forged from 8620 carbon steel and finished in matte black PVD, with a progressive cavity that gets more compact through the scoring clubs."
+  - q: "What year did the Wilson FG Tour M3 irons come out?"
+    a: "Wilson unveiled the FG Tour M3 in late 2013 and sold it as a 2014-season model. It was replaced by the FG Tour V4 in late 2014."
+confidence: medium

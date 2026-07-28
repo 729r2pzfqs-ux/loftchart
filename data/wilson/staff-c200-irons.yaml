@@ -1,0 +1,82 @@
+brand: Wilson
+brand_slug: wilson
+model: Staff C200
+slug: staff-c200-irons
+club_type: irons
+year_introduced: 2016
+year_discontinued: 2017
+category: players-distance
+construction: investment cast, multi-material
+material: stainless steel with TE031 urethane perimeter
+successor: Wilson Staff C300
+predecessor: null
+description: >
+  The C200 launched Wilson's C (crossover) category, sitting between the
+  distance-first D line and the tour-focused FG Tour models. Its FLX Face
+  construction cuts material away where the face meets the body - Wilson
+  claimed 76 percent of the face is not touching the chassis - with the
+  resulting Power Holes filled by black TE031 urethane, letting the whole
+  face flex for ball speed in a mid-sized head a better player can still
+  work. Lofts are only moderately strong, with a 32-degree 7-iron and a
+  44-degree pitching wedge. The stock set is 4-iron through gap wedge with
+  an optional 3-iron for right-handers; figures below are the standard
+  men's steel specification.
+specs:
+  - club: "3"
+    loft: 19.0
+    lie: 59.5
+    length: 39.5
+  - club: "4"
+    loft: 22.0
+    lie: 60.0
+    length: 39.0
+  - club: "5"
+    loft: 25.0
+    lie: 61.0
+    length: 38.5
+  - club: "6"
+    loft: 28.0
+    lie: 61.5
+    length: 38.0
+  - club: "7"
+    loft: 32.0
+    lie: 62.0
+    length: 37.5
+  - club: "8"
+    loft: 36.0
+    lie: 63.0
+    length: 37.0
+  - club: "9"
+    loft: 40.0
+    lie: 63.5
+    length: 36.5
+  - club: "PW"
+    loft: 44.0
+    lie: 64.0
+    length: 35.75
+  - club: "GW"
+    loft: 48.0
+    lie: 64.5
+    length: 35.5
+stock_shafts:
+  - name: "KBS Tour 90"
+    material: steel
+  - name: "Aldila Rogue Pro"
+    material: graphite
+sources:
+  - "qsponge.com Wilson Staff C200 spec table (retrieved July 2026) - supplied loft, lie and length for 3-iron through GW, including the 3-iron offered right-hand only. Secondary aggregator, not a Wilson sheet."
+  - "Golfalot 'Wilson Staff C200 Irons Review' (February 2016) - the KBS Tour 90 stock steel shaft, optional Aldila Rogue Pro graphite, the FLX Face/Power Hole construction with TE031 urethane and the 2016 release."
+  - "Golf.com 'ClubTest 2016: Wilson Staff C200 Irons' and 2nd Swing listings corroborate the 2016 season and set composition. Wilson's own spec sheet for this generation is not retrievable, hence confidence: medium."
+related_models:
+  - slug: "wilson/staff-c300-forged-irons"
+    label: "Later C-series: Wilson Staff C300 Forged"
+  - slug: "wilson/staff-d200-irons"
+    label: "Sibling D-series: Wilson Staff D200"
+faq:
+  - q: "What is the loft of a Wilson Staff C200 7-iron?"
+    a: "The Wilson Staff C200 7-iron has a loft of 32 degrees, with a 62-degree lie and a 37.5-inch steel-shaft length."
+  - q: "What does the C stand for in the Wilson Staff C200?"
+    a: "Crossover. Wilson positioned the C line between its D (distance/game-improvement) and F (feel/tour) lines, aimed at players who want distance technology in a more compact, workable head."
+  - q: "What is FLX Face technology on the Wilson C200?"
+    a: "Wilson cut material away where the face joins the body - claiming 76 percent of the face does not touch the chassis - and filled the resulting Power Holes with TE031 urethane, so more of the face flexes at impact for ball speed."
+confidence: medium

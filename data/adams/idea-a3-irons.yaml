@@ -1,0 +1,74 @@
+brand: Adams
+brand_slug: adams
+model: Idea a3
+slug: idea-a3-irons
+club_type: irons
+year_introduced: 2007
+year_discontinued: 2008
+category: game-improvement
+construction: investment cast
+material: stainless steel with Boxer hybrids
+successor: Adams Idea Tech a4
+predecessor: Adams Idea a2
+description: >
+  The Idea a3 is the third-generation Idea hybrid-iron combo set and the first built
+  around Adams' Boxer hybrid shaping, announced on 8 May 2007. The stock eight-club
+  make-up is a 19-degree 3 Boxer hybrid, 22-degree 4 hybrid and 25-degree 5 hybrid in
+  place of the long irons, then two hollow-back mid irons and three cavity-back short
+  irons from the 6-iron to the pitching wedge. Adams claimed the Boxer hybrids carried
+  up to 70 percent higher MOI than rival hybrids. Lofts stay traditional with a
+  33-degree 7-iron and a 45-degree pitching wedge, and a 2 hybrid, 4- and 5-irons and
+  GW, SW and LW heads were available through custom fitting. Only the iron clubs are
+  listed below; the stock hybrids are Boxer hybrids rather than irons. The men's set
+  listed at 699.99 USD in steel and 799.99 USD in graphite.
+specs:
+  - club: "6"
+    loft: 29.0
+    lie: 61.5
+    length: 37.875
+    swing_weight: D1.5
+  - club: "7"
+    loft: 33.0
+    lie: 62.0
+    length: 37.25
+    swing_weight: D1.5
+  - club: "8"
+    loft: 37.0
+    lie: 62.75
+    length: 36.625
+    swing_weight: D1.5
+  - club: "9"
+    loft: 41.0
+    lie: 63.5
+    length: 36.0
+    swing_weight: D1.5
+  - club: "PW"
+    loft: 45.0
+    lie: 63.75
+    length: 35.75
+    swing_weight: D2.5
+stock_shafts:
+  - name: "Grafalloy ProLaunch Red 80"
+    material: graphite
+    flex: ["R", "S"]
+  - name: "True Temper Players Lite 110"
+    material: steel
+    flex: ["R", "S"]
+sources:
+  - "Adams Golf official iron specifications page, May 2007 capture (https://web.archive.org/web/20070513231543/http://www.adamsgolf.com/ir_spec.htm) - contemporaneous manufacturer spec table, five days after the launch announcement, giving loft, length, lie and steel/graphite swing weight for the 3-5 hybrids and 6-iron through PW, plus the Grafalloy ProLaunch Red 80-gram graphite and True Temper Players Lite 110-gram steel stock shafts"
+  - "Adams Golf official Idea a3 page on the relaunched site, specs tab, September 2008 capture (https://web.archive.org/web/20080920160520/http://www.adamsgolf.com/products/irons/a3.php?page=specs) - second manufacturer capture; lofts and lengths match the 2007 table exactly, while the 8-iron, 9-iron and PW lies print 0.125-0.25 degrees flatter (62.625/63.25/63.5) and the steel shaft is renamed True Temper Performance Lite. The launch-year 2007 figures are used above"
+  - "The Golf Wire, 'Adams Golf Launches Idea a3 Hybrid Irons With Boxer Technology' (https://thegolfwire.com/116401-2/) - 8 May 2007 announcement date, set make-up of three Boxer hybrids, two hollow-back mid irons and three cavity-back short irons, the 70 percent MOI claim, and the 699.99/799.99 USD pricing"
+  - "The Sand Trap, Adams Idea a3 Hybrid Irons review - independent description of the same set structure"
+related_models:
+  - slug: "adams/idea-a2-irons"
+    label: "Predecessor: Adams Idea a2"
+  - slug: "adams/idea-a4-irons"
+    label: "Successor: Adams Idea Tech a4"
+faq:
+  - q: "What is the loft of an Adams Idea a3 7-iron?"
+    a: "The Adams Idea a3 7-iron has a loft of 33 degrees, with a 62-degree lie and a 37.25-inch length."
+  - q: "What clubs come in a stock Adams Idea a3 set?"
+    a: "Eight clubs: 19-, 22- and 25-degree Boxer hybrids replace the 3-, 4- and 5-irons, followed by hollow-back 6- and 7-irons and cavity-back 8-iron through pitching wedge. A 2 hybrid, conventional 4- and 5-irons and GW, SW and LW heads were custom options."
+  - q: "What is Boxer Technology on the Idea a3?"
+    a: "Boxer is Adams' rounded, high-MOI hybrid head shape introduced with the a3 generation. Adams claimed the a3's Boxer hybrids had up to 70 percent higher MOI than other leading hybrids of the time."
+confidence: high

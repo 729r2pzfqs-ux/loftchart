@@ -1,0 +1,100 @@
+brand: Adams
+brand_slug: adams
+model: Idea Tech V3
+slug: idea-tech-v3-irons
+club_type: irons
+year_introduced: 2010
+year_discontinued: 2011
+category: players-distance
+construction: forged short irons with cast hollow hybrids
+material: forged carbon steel irons; stainless steel hybrids with tungsten weighting
+successor: Adams Idea Tech V4
+predecessor: Adams Idea Tech a4
+description: >
+  The Idea Tech V3 is Adams' 2010 hybrid-iron set, sold in two eight-club
+  configurations: a Forged set of 4, 5 and 6 hybrids and a 7 mid-hybrid ahead of four
+  oversized cavity-back forged irons from 8-iron to gap wedge, and an All Hybrid set
+  that runs hollow hybrid-iron heads all the way down (with a 49.5-degree GW in place
+  of the forged set's 50). The hybrids carry tungsten weighting in stainless steel
+  heads with ultra-thin faces, finished in nickel-chromium plate with PVD black
+  accents. Lofts run 33 degrees at the 7 and 45 at the pitching wedge, and 2 and 3
+  hybrids, SW and LW extended the range. The forged-set clubs from the 7 mid-hybrid
+  down are listed below; the 4-6 hybrids (22, 25 and 29 degrees) are hybrids rather
+  than irons. It won a 2011 Golf Digest Hot List gold award and retailed around
+  799.95 USD before the Idea Tech V4 replaced it in late 2011.
+specs:
+  - club: "7"
+    loft: 33.0
+    lie: 62.25
+    length: 37.5
+    bounce: 1.5
+    offset: 0.165
+    swing_weight: D1
+  - club: "8"
+    loft: 37.0
+    lie: 63.0
+    length: 36.75
+    bounce: 1.5
+    offset: 0.15
+    swing_weight: D1
+  - club: "9"
+    loft: 41.0
+    lie: 63.75
+    length: 36.0
+    bounce: 2.0
+    offset: 0.15
+    swing_weight: D1
+  - club: "PW"
+    loft: 45.0
+    lie: 64.0
+    length: 35.75
+    bounce: 2.5
+    offset: 0.15
+    swing_weight: D2
+  - club: "GW"
+    loft: 50.0
+    lie: 64.0
+    length: 35.5
+    bounce: 5.0
+    offset: 0.122
+    swing_weight: D2
+  - club: "SW"
+    loft: 55.0
+    lie: 64.0
+    length: 35.5
+    bounce: 10.0
+    offset: 0.05
+    swing_weight: D3
+  - club: "LW"
+    loft: 60.0
+    lie: 64.0
+    length: 35.5
+    bounce: 6.0
+    offset: 0.025
+    swing_weight: D3
+stock_shafts:
+  - name: "True Temper Performance Tech"
+    material: steel
+    flex: ["R", "S"]
+  - name: "Mitsubishi Rayon Bassara"
+    material: graphite
+    flex: ["Super-Lite", "Light", "R", "S"]
+sources:
+  - "Adams Golf official Idea Tech V3 page, specs tab, April 2011 capture (https://web.archive.org/web/20110412004412/http://www.adamsgolf.com/products/irons/tech_v3.php?page=specs) - manufacturer spec tables for both the Forged set and the All Hybrid set (4 hybrid through GW) with loft, lie, length and swing weight, plus the Mitsubishi Rayon Bassara graphite and True Temper Performance Tech steel stock shafts and the four flex options"
+  - "Adams Golf Product Specs PDF, R04042012 edition (https://web.archive.org/web/20120505053539/http://www.adamsgolf.com/specs/Adams_Golf_Product_Specs.pdf) - second manufacturer source; matches the site table on every shared row and adds the 2 hybrid (16 degrees), 3 hybrid (19 degrees), SW and LW, plus the bounce and offset figures reproduced above (the PDF prints offsets as negative leading-edge values) and graphite/steel swing weights. Steel-shaft swing weights are shown above; graphite builds run one point lighter (D0/D1/D2)"
+  - "Adams Golf Idea Tech V3 overview page, September 2010 capture (https://web.archive.org/web/20100917050405/http://www.adamsgolf.com/products/irons/tech_v3.php) - 2010 launch positioning, the two set configurations, tungsten weighting and NiCr/PVD finishes; first Wayback capture of the product page is 17 September 2010"
+  - "InTheHoleGolf.com Adams Idea Tech V3 Forged Iron Set page (https://www.intheholegolf.com/AG-ITV3FIS/Adams-Idea-Tech-V3-Forged-Iron-Set.html) - independent corroboration of the full forged-set spec table, the 8-piece make-up and the 799.95 USD price"
+  - "Golf Monthly and Golf Digest Hot List coverage - 2011 Hot List gold award for the Tech V3 line"
+related_models:
+  - slug: "adams/idea-a4-irons"
+    label: "Predecessor: Adams Idea Tech a4"
+  - slug: "adams/idea-tech-v4-irons"
+    label: "Successor: Adams Idea Tech V4"
+faq:
+  - q: "What is the loft of an Adams Idea Tech V3 7-iron?"
+    a: "33 degrees, with a 62.25-degree lie and a 37.5-inch length. The 7 in this set is a mid-hybrid head rather than a conventional iron."
+  - q: "What clubs come in a stock Adams Idea Tech V3 set?"
+    a: "Eight clubs in either configuration: 4, 5 and 6 hybrids and a 7 mid-hybrid, then 8-iron through gap wedge - forged cavity-back irons in the Forged set, or hollow hybrid-iron heads in the All Hybrid set."
+  - q: "Are Adams Idea Tech V3 irons forged?"
+    a: "In the Forged configuration the 8-iron through gap wedge are oversized cavity-back forged irons; the hybrids and the All Hybrid configuration's heads are cast stainless steel with tungsten weighting."
+confidence: high

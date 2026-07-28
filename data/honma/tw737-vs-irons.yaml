@@ -1,0 +1,101 @@
+brand: Honma
+brand_slug: honma
+model: TW737 Vs
+slug: tw737-vs-irons
+club_type: irons
+year_introduced: 2016
+year_discontinued: 2018
+category: players
+construction: forged
+material: mild steel, forged, half-mirror and mirror finish with double-layer plating
+successor: null
+predecessor: null
+description: >
+  The Vs sits between the traditional V and the pocket-cavity P in Honma's 2016
+  Tour World 737 range: a forged mild-steel cavity back with a slightly larger
+  face and lofts about two degrees stronger than the V (30-degree 7-iron), aimed
+  at players who want a compact look with a little more speed and height. The
+  set runs 3 through 11 — Honma numbers the scoring clubs, so the 43-degree 10
+  is the pitching wedge and the 49-degree 11 the gap wedge. Lengths below are
+  the N.S. Pro Modus3 Tour 105 steel build; Vizard graphite builds ran 0.375
+  inch longer.
+specs:
+  - club: "3"
+    loft: 19.0
+    lie: 59.5
+    length: 38.75
+    offset: 0.108
+    swing_weight: D2
+  - club: "4"
+    loft: 21.0
+    lie: 60.0
+    length: 38.25
+    offset: 0.108
+    swing_weight: D2
+  - club: "5"
+    loft: 24.0
+    lie: 60.5
+    length: 37.75
+    offset: 0.100
+    swing_weight: D2
+  - club: "6"
+    loft: 27.0
+    lie: 61.0
+    length: 37.25
+    offset: 0.081
+    swing_weight: D2
+  - club: "7"
+    loft: 30.0
+    lie: 61.5
+    length: 36.75
+    offset: 0.081
+    swing_weight: D2
+  - club: "8"
+    loft: 34.0
+    lie: 62.0
+    length: 36.25
+    offset: 0.081
+    swing_weight: D2
+  - club: "9"
+    loft: 38.0
+    lie: 62.5
+    length: 35.75
+    offset: 0.073
+    swing_weight: D2
+  - club: "10"
+    loft: 43.0
+    lie: 63.0
+    length: 35.25
+    offset: 0.073
+    swing_weight: D2
+  - club: "11"
+    loft: 49.0
+    lie: 63.0
+    length: 35.0
+    offset: 0.073
+    swing_weight: D1
+stock_shafts:
+  - name: "Nippon N.S. Pro Modus3 Tour 105"
+    material: steel
+    flex: ["R", "S", "X"]
+  - name: "Honma Vizard IB85"
+    material: graphite
+sources:
+  - "Honma's own TW737 Vs product page, specification table (honmagolf.com/sea/product-details/129) — every loft, lie and Modus3 Tour 105 length recorded here, the D2 (steel) / D1 (graphite) swing weights, the forged mild-steel construction and the Modus3 Tour 105 / Vizard IB85 stock shafts. Offsets are published in millimetres (2.75 down to 1.85 mm) and converted to inches here."
+  - "Honma's original Japanese Tour World TW737 Vs page (mail.honmagolf.com/products/tour_world/vs.php) — corroborates every loft (19/21/24/27/30/34/38/43/49) and the 3-11 set makeup. LIE-ANGLE CONFLICT NOTE: the Japanese-market page lists lies one degree more upright (60.5 to 64.0); this entry follows the international-site spec (59.5 to 63.0) for consistency with the other Honma entries on this site."
+  - "GolfWRX, 'Review: Honma TW737-Vs Forged Irons' — corroborates the semi-players positioning between the V and P and the 2016-2017 release window. year_introduced 2016 is the autumn 2016 announcement; year_discontinued 2018 is the TW747 range announcement."
+related_models:
+  - slug: "honma/tw737-v-irons"
+    label: "Same generation, traditional-loft players head: Honma TW737 V"
+  - slug: "honma/tw737-p-irons"
+    label: "Same generation, pocket-cavity distance head: Honma TW737 P"
+  - slug: "honma/tw747-vx-irons"
+    label: "Closest head in the following generation: Honma TW747 Vx"
+faq:
+  - q: "What is the loft of a Honma TW737 Vs 7-iron?"
+    a: "The Honma TW737 Vs 7-iron has a loft of 30 degrees, a lie of 61.5 degrees and a Modus3 Tour 105 steel length of 36.75 inches."
+  - q: "What is the difference between the Honma TW737 V and Vs?"
+    a: "The Vs has a slightly larger forged cavity-back head with lofts about two degrees stronger than the V (30 versus 32 degrees in the 7-iron), plus a nine-club set that adds the 49-degree 11 gap wedge. It sits between the V players iron and the P pocket cavity."
+  - q: "What do the 10 and 11 irons in a Honma TW737 Vs set mean?"
+    a: "Honma numbers its scoring clubs: the 10 at 43 degrees is the pitching wedge and the 11 at 49 degrees is the gap wedge."
+confidence: high

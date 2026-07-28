@@ -1,0 +1,118 @@
+brand: Cleveland
+brand_slug: cleveland
+model: TA7
+slug: ta7-irons
+club_type: irons
+year_introduced: 2002
+year_discontinued: 2004
+category: players
+construction: cavity back with micro-cavity topline
+material: null
+successor: null
+predecessor: null
+description: >
+  The TA7 was the best-known model of Cleveland's Tour Action iron family
+  of the early 2000s — a mid-size cavity-back whose patented micro-cavity
+  lightened the topline and dropped the centre of gravity, moving weight
+  to the perimeter while keeping a modern heel-to-toe blade length and a
+  progressive offset. It combined that with Cleveland's Vibration
+  Absorbing System and was offered in standard and gunmetal finishes,
+  with a separate TA7 Tour version (2003) offering a more compact head
+  and traditional lofts. Lofts on the standard TA7 are mildly strong for
+  the era — a 33.5-degree 7-iron and 45-degree pitching wedge — and the
+  range ran from a 16-degree 1-iron to a 60-degree lob wedge with True
+  Temper's Sensicore Release as the stock shaft. The Tour Action line
+  ended when Cleveland's CG series arrived from 2004. Note: this site's
+  research places the TA7 in 2002 (manufacturer-era spec databases and
+  period listings agree), though some timelines date the Tour Action
+  family's origins to the late 1990s.
+specs:
+  - club: "1"
+    loft: 16.0
+    lie: 58.0
+    length: 39.75
+    swing_weight: D2
+  - club: "2"
+    loft: 18.0
+    lie: 59.0
+    length: 39.25
+    swing_weight: D2
+  - club: "3"
+    loft: 21.0
+    lie: 59.5
+    length: 38.75
+    swing_weight: D2
+  - club: "4"
+    loft: 24.0
+    lie: 60.0
+    length: 38.25
+    swing_weight: D2
+  - club: "5"
+    loft: 27.0
+    lie: 61.0
+    length: 37.75
+    swing_weight: D2
+  - club: "6"
+    loft: 30.0
+    lie: 62.0
+    length: 37.25
+    swing_weight: D2
+  - club: "7"
+    loft: 33.5
+    lie: 62.5
+    length: 36.75
+    swing_weight: D2
+  - club: "8"
+    loft: 37.0
+    lie: 63.0
+    length: 36.25
+    swing_weight: D2
+  - club: "9"
+    loft: 41.0
+    lie: 64.0
+    length: 35.75
+    swing_weight: D2
+  - club: "PW"
+    loft: 45.0
+    lie: 64.5
+    length: 35.5
+    swing_weight: D3
+  - club: "GW"
+    loft: 50.0
+    lie: 65.0
+    length: 35.25
+    swing_weight: D4
+  - club: "SW"
+    loft: 55.0
+    lie: 65.0
+    length: 35.0
+    swing_weight: D5
+  - club: "LW"
+    loft: 60.0
+    lie: 65.0
+    length: 35.0
+    swing_weight: D5
+stock_shafts:
+  - name: "True Temper Sensicore Release"
+    material: steel
+sources:
+  - "equip2golf.com Cleveland TA7 specifications page (2002 model year) — full 1-iron-to-LW table: lofts 16/18/21/24/27/30/33.5/37/41/45/50/55/60, lies 58-65, steel lengths 39.75 to 35.0 inches (graphite +0.25 inch), swing weights D2 through D5, and the True Temper Sensicore Release stock shaft with Rifle and Dynamic Gold custom options"
+  - "qsponge.com Cleveland TA7 iron table — independently matches every loft, lie and length above; a separate qsponge table covers the more traditional-lofted TA7 Tour (35-degree 7-iron), which is a different model not recorded here"
+  - "golfbidder.co.uk TA7 model description — the patented micro-cavity topline, lowered centre of gravity, perimeter weighting, game-improvement face depth with modern blade length, progressive offset and Vibration Absorbing System"
+  - "year_introduced 2002: equip2golf, pitchmarks.com and golfspan.com Cleveland timelines all file the TA7 as a 2002 model with the TA7 Tour in 2003, and used-trade sites list '2002 Cleveland TA7' including the gunmetal version; this entry was requested as a 1999 model but no evidence of a 1999 release was found. year_discontinued 2004 reflects the arrival of Cleveland's CG series (cg1 pages live on clevelandgolf.com by February 2004), which ended the Tour Action line without a direct TA7 successor"
+  - "No offset figures or head material were published in the sources found; those keys are omitted or null (Cleveland reserved the 'Form Forged' label for the TA1/TA3, and none of the sources found describe the TA7 as forged)"
+related_models:
+  - slug: "cleveland/cg4-irons"
+    label: "CG-series Cleveland that followed the Tour Action era: CG4"
+  - slug: "cleveland/588-cb-irons"
+    label: "Later Cleveland players cavity-back: 588 CB"
+faq:
+  - q: "What is the loft of a Cleveland TA7 7-iron?"
+    a: "The Cleveland TA7 7-iron has a loft of 33.5 degrees, with a 62.5-degree lie and a 36.75-inch steel length."
+  - q: "What is the difference between the Cleveland TA7 and TA7 Tour?"
+    a: "The standard TA7 is the mid-size micro-cavity model with slightly strong lofts (33.5-degree 7-iron), while the TA7 Tour of 2003 is a more compact, minimal-offset version with traditional lofts (35-degree 7-iron) aimed at better players."
+  - q: "When did the Cleveland TA7 come out?"
+    a: "Specification databases and period listings place it in 2002, with the TA7 Tour following in 2003; the Tour Action line was replaced by Cleveland's CG series from 2004."
+  - q: "What is the micro-cavity on the Cleveland TA7?"
+    a: "A patented hollow running along the topline that removes weight from the top of the head, lowering the centre of gravity and freeing mass for the perimeter — the TA7's signature feature, paired with Cleveland's Vibration Absorbing System for feel."
+confidence: medium

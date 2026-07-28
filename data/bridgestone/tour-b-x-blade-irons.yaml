@@ -1,0 +1,91 @@
+brand: Bridgestone
+brand_slug: bridgestone
+model: Tour B X-Blade
+slug: tour-b-x-blade-irons
+club_type: irons
+year_introduced: 2017
+year_discontinued: 2018
+category: blade
+construction: forged
+material: 1020 carbon steel
+successor: Bridgestone Tour B X-BL (2018, Japan)
+predecessor: Bridgestone J15 Muscle Back
+description: >
+  The Tour B X-Blade was the muscle-back of Bridgestone's Tour B iron line,
+  announced for the US market on 22 February 2017 alongside the Tour B X-CB
+  cavity-back. The head is forged by Endo Manufacturing from 1020 carbon
+  steel into an ultra-compact profile with a narrow sole and minimal offset,
+  with Bridgestone's Forged Mass Technology concentrating forged mass behind
+  the impact zone for feel. Lofts are traditional — a 35-degree 7-iron and
+  47-degree pitching wedge, three degrees weaker than the X-CB through the
+  mid irons — with every club built to a D2 swing weight. The US stock set
+  was 4-PW at $1,200 with a 3-iron available, sold with Nippon's Modus3
+  Tour steel shaft as stock. In Japan the blade slot passed to the Tour B
+  X-BL in 2018, and Bridgestone's US site files the X-Blade under its 2017
+  archive; the next US-market Bridgestone muscle-back was the 220 MB,
+  launched there in December 2024.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 60.0
+    length: 38.75
+    swing_weight: D2
+  - club: "4"
+    loft: 23.5
+    lie: 60.5
+    length: 38.25
+    swing_weight: D2
+  - club: "5"
+    loft: 27.0
+    lie: 61.0
+    length: 37.75
+    swing_weight: D2
+  - club: "6"
+    loft: 31.0
+    lie: 61.5
+    length: 37.25
+    swing_weight: D2
+  - club: "7"
+    loft: 35.0
+    lie: 62.0
+    length: 36.75
+    swing_weight: D2
+  - club: "8"
+    loft: 39.0
+    lie: 62.5
+    length: 36.25
+    swing_weight: D2
+  - club: "9"
+    loft: 43.0
+    lie: 63.0
+    length: 35.75
+    swing_weight: D2
+  - club: "PW"
+    loft: 47.0
+    lie: 63.5
+    length: 35.25
+    swing_weight: D2
+stock_shafts:
+  - name: "Nippon N.S. Pro Modus3 Tour 120"
+    material: steel
+sources:
+  - "Bridgestone Golf official Tour B X-Blade page, bridgestonegolf.com/en-us/clubs/archive/2017-models/tourb-x-blade-irons (archive.org capture of 22 September 2020) — full factory spec table: 3-PW lofts 21/23.5/27/31/35/39/43/47, lies 60-63.5 degrees, lengths 38.75 to 35.25 inches, D2 swing weight throughout, plus the Forged Mass Technology and ultra-compact head copy"
+  - "pgatour.com Equipment Report, 22 February 2017, 'Bridgestone's Tour B Series X-Blade and X-CB irons' — announcement date, both models Endo-forged from 1020 carbon steel, $1,200 for 4-PW with a 3-iron available, Nippon Modus3 Tour stock shaft with ten no-upcharge options, and the X-Blade's 31/35/39 mid-iron lofts three degrees weaker than the X-CB"
+  - "golfgear.top review of the Tour B X-BL (2018) — the Japanese-market X-BL blade of 2018 took over the muscle-back slot, fixing year_discontinued at 2018 on the successor-announcement convention"
+  - "MyGolfSpy 'First Look: 2017 Bridgestone Tour B Metalwoods & Irons' — corroborates the 2017 US launch and the better-player positioning"
+  - "No offset or bounce figures were published for this model; those keys are omitted"
+related_models:
+  - slug: "bridgestone/tour-b-x-cb-irons"
+    label: "Cavity-back stablemate: Tour B X-CB"
+  - slug: "bridgestone/220mb-irons"
+    label: "Next US-market Bridgestone muscle-back: 220 MB"
+faq:
+  - q: "What is the loft of a Bridgestone Tour B X-Blade 7-iron?"
+    a: "The Bridgestone Tour B X-Blade 7-iron has a loft of 35 degrees, with a 62-degree lie and a 36.75-inch length."
+  - q: "What is the difference between the Bridgestone Tour B X-Blade and X-CB?"
+    a: "Both are Endo-forged from 1020 carbon steel, but the X-Blade is an ultra-compact muscle-back with a narrow sole and lofts three degrees weaker through the mid irons (35-degree 7-iron against the X-CB's 32), while the X-CB is a slightly larger cavity-back with a wider sole."
+  - q: "When did the Bridgestone Tour B X-Blade come out?"
+    a: "Bridgestone announced it for the US market on 22 February 2017 at $1,200 for a 4-PW set. In Japan the blade slot passed to the Tour B X-BL in 2018."
+  - q: "Are the Bridgestone Tour B X-Blade irons forged?"
+    a: "Yes. The heads are forged from 1020 carbon steel by Endo Manufacturing, with forged mass concentrated behind the impact zone."
+confidence: high

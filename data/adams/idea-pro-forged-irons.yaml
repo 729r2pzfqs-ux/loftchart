@@ -1,0 +1,78 @@
+brand: Adams
+brand_slug: adams
+model: Idea Pro Forged
+slug: idea-pro-forged-irons
+club_type: irons
+year_introduced: 2006
+year_discontinued: 2008
+category: players
+construction: forged
+material: 8620 carbon steel with a satin finish
+successor: Adams Idea Pro Gold
+predecessor: Adams Idea a1 Pro
+description: >
+  The Idea Pro Forged is the first forged players' set in the Idea line, announced on
+  19 September 2006 and shipping from 1 October 2006 at 899 USD in steel and 1,099 USD
+  in graphite. The eight-club stock make-up pairs the tour-proven 20-degree 3 and
+  23-degree 4 Idea Pro i-Woods - then the most-played hybrids across the PGA,
+  Champions and Nationwide Tours - with six compact cavity-back irons forged from soft
+  8620 carbon steel, with minimal offset and a satin finish. Lofts are traditional for
+  a players' iron, with a 34-degree 7-iron and a 46-degree pitching wedge. Only the
+  irons are listed below; the two i-Woods are hybrids. Conventional 3- and 4-irons, a
+  TriTech 4-iron and GW, SW and LW heads were available to order, and Allen Doyle won
+  the 2006 U.S. Senior Open with the set's hybrids in play.
+specs:
+  - club: "5"
+    loft: 26.0
+    lie: 60.5
+    length: 38.25
+    swing_weight: D2
+  - club: "6"
+    loft: 30.0
+    lie: 61.0
+    length: 37.5
+    swing_weight: D2
+  - club: "7"
+    loft: 34.0
+    lie: 61.5
+    length: 37.0
+    swing_weight: D2
+  - club: "8"
+    loft: 38.0
+    lie: 62.0
+    length: 36.5
+    swing_weight: D2
+  - club: "9"
+    loft: 42.0
+    lie: 62.5
+    length: 36.0
+    swing_weight: D2
+  - club: "PW"
+    loft: 46.0
+    lie: 63.0
+    length: 35.5
+    swing_weight: D2
+stock_shafts:
+  - name: "True Temper Black Gold"
+    material: steel
+    flex: ["R", "S", "X"]
+  - name: "Graphite Design GAT 95"
+    material: graphite
+    flex: ["R", "S", "X"]
+sources:
+  - "Adams Golf official iron specifications page, October 2006 capture (https://web.archive.org/web/20061021232922/http://www.adamsgolf.com/ir_spec.htm) and May 2007 capture (https://web.archive.org/web/20070513231543/http://www.adamsgolf.com/ir_spec.htm) - manufacturer spec table giving loft, length, lie and swing weight for the 3 and 4 i-Woods and 5-iron through PW, plus the True Temper Black Gold steel and Graphite Design GAT 95 graphite iron shafts and the Aldila VS graphite hybrid shaft; both captures match"
+  - "The Golf Wire, 'Adams Golf Unveils Idea Pro Forged Hybrid Irons', 19 September 2006 (https://thegolfwire.com/109395-2/) - announcement date, 1 October 2006 ship date, 899 USD steel / 1,099 USD graphite pricing, forged 8620 carbon steel construction with satin finish and minimal offset, custom options, the Darrell Survey most-played-hybrid claim and Allen Doyle's U.S. Senior Open win"
+  - "The Sand Trap, Adams Idea Pro Forged Irons review - independent description of the compact forged cavity-back design and two-hybrid set structure"
+related_models:
+  - slug: "adams/idea-pro-gold-irons"
+    label: "Successor: Adams Idea Pro Gold"
+  - slug: "adams/idea-a2-irons"
+    label: "Game-improvement sibling of the era: Idea a2"
+faq:
+  - q: "What is the loft of an Adams Idea Pro Forged 7-iron?"
+    a: "The Adams Idea Pro Forged 7-iron has a loft of 34 degrees, with a 61.5-degree lie and a 37-inch length."
+  - q: "What clubs come in a stock Adams Idea Pro Forged set?"
+    a: "Eight clubs: 20-degree 3 and 23-degree 4 Idea Pro i-Wood hybrids, then forged 5-iron through pitching wedge. Conventional forged 3- and 4-irons, a TriTech 4-iron and GW, SW and LW heads were custom options."
+  - q: "Are Adams Idea Pro Forged irons really forged?"
+    a: "Yes. The 5-iron through pitching wedge are forged from soft 8620 carbon steel with a compact cavity-back shape, minimal offset and a satin finish; the two i-Wood hybrids in the set are not forged irons."
+confidence: high
