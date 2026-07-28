@@ -1,0 +1,102 @@
+brand: Mizuno
+brand_slug: mizuno
+model: JPX EZ
+slug: jpx-ez-irons
+club_type: irons
+year_introduced: 2013
+year_discontinued: 2015
+category: game-improvement
+construction: investment cast
+material: stainless steel
+successor: JPX EZ (2016)
+predecessor: null
+description: >
+  The JPX EZ is the cast game-improvement model of the two-iron JPX EZ family
+  Mizuno launched in the autumn of 2013 below the JPX-825 range. It is a
+  super-oversized head with a very wide sole that carries most of the
+  weighting for an easy, high launch: the 4- through 7-irons use Mizuno's
+  deepest Max Pocket Cavity, while the 8-iron through gap wedge switch to a
+  shallower Deep Pocket Cavity for control, all framed with Harmonic Impact
+  Technology for feel. Lofts are distance-spec for the period — a 32-degree
+  7-iron and 45-degree pitching wedge — and the stock set ran 4-iron through
+  gap wedge at $700 in steel. The sole is narrower at the heel and much wider
+  toward the toe. Mizuno announced the restyled 2016-model JPX EZ in August
+  2015, which closes this record. All figures are the men's standard
+  steel-shaft specification.
+specs:
+  - club: "4"
+    loft: 22.0
+    lie: 60.0
+    length: 38.25
+    offset: 0.299
+    bounce: -1.0
+  - club: "5"
+    loft: 25.0
+    lie: 60.5
+    length: 37.75
+    offset: 0.291
+    bounce: -0.5
+  - club: "6"
+    loft: 28.0
+    lie: 61.0
+    length: 37.25
+    offset: 0.280
+    bounce: 0.0
+  - club: "7"
+    loft: 32.0
+    lie: 61.5
+    length: 36.75
+    offset: 0.260
+    bounce: 1.0
+  - club: "8"
+    loft: 36.0
+    lie: 62.0
+    length: 36.25
+    offset: 0.240
+    bounce: 2.0
+  - club: "9"
+    loft: 40.0
+    lie: 62.5
+    length: 35.75
+    offset: 0.220
+    bounce: 3.0
+  - club: "PW"
+    loft: 45.0
+    lie: 63.0
+    length: 35.5
+    offset: 0.201
+    bounce: 4.0
+  - club: "GW"
+    loft: 50.0
+    lie: 63.0
+    length: 35.25
+    offset: 0.181
+    bounce: 5.0
+stock_shafts:
+  - name: "True Temper XP 105"
+    material: steel
+  - name: "Fujikura Orochi"
+    material: graphite
+sources:
+  - "qsponge.com 'What is loft angle of Mizuno JPX EZ Irons' spec table — loft, lie, length, offset and bounce for the 4-iron through gap wedge (the 6-iron bounce is blank on that table)"
+  - "InTheHoleGolf.com Mizuno JPX-EZ Iron Set spec table — an identical loft/lie/length/offset/bounce table that prints the 6-iron bounce as 0 degrees explicitly, plus the 4-PW,GW set makeup and the True Temper XP 105 (R300/S300) and Fujikura Orochi stock shafts"
+  - "thehackersparadise.com Mizuno JPX-EZ Iron Review — the 2013 release, the 4-GW stock set at $700 steel / $900 graphite, the True Temper XP 105 (107.5g) and Fujikura Orochi stock shafts, and the Max Pocket Cavity (4-7) / Deep Pocket Cavity (8-GW) construction"
+  - "golfalot.com Mizuno JPX EZ Irons Review (November 2013) — corroborates the 25-degree 5-iron, the super-oversized head, the heel-narrow/toe-wide sole and the 55-degree sand wedge sold as a set-matching option"
+  - "Note: year_discontinued is 2015, when Mizuno announced the restyled 2016-model JPX EZ that replaced it. The optional 55-degree sand wedge is omitted from the chart, which lists the standard 4-GW set."
+related_models:
+  - slug: "mizuno/jpx-ez-forged-irons"
+    label: "Forged sibling released together: Mizuno JPX EZ Forged"
+  - slug: "mizuno/jpx-825-irons"
+    label: "Cast Mizuno game-improvement iron of the same period: Mizuno JPX-825"
+  - slug: "mizuno/jpx-850-irons"
+    label: "Next cast JPX family: Mizuno JPX-850"
+faq:
+  - q: "What is the loft of a Mizuno JPX EZ 7-iron?"
+    a: "The 2013 Mizuno JPX EZ 7-iron has a loft of 32 degrees, a lie of 61.5 degrees and a steel-shaft length of 36.75 inches."
+  - q: "What is the difference between the Mizuno JPX EZ and JPX EZ Forged?"
+    a: "They share the same loft chart, but the EZ is a larger cast head with a wider sole, deeper pocket cavity and much more offset (0.26 inches at the 7-iron against 0.189), while the EZ Forged is Grain Flow Forged from carbon steel for feel."
+  - q: "Why do the Mizuno JPX EZ long irons have negative bounce?"
+    a: "Mizuno listed the 4- and 5-irons at -1 and -0.5 degrees of bounce; with such a wide sole, the negative bounce keeps the leading edge from sitting up at address."
+  - q: "When was the Mizuno JPX EZ made?"
+    a: "The original JPX EZ launched in the autumn of 2013 and was replaced when Mizuno announced the restyled 2016-model JPX EZ in August 2015."
+confidence: medium

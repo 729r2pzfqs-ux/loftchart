@@ -80,6 +80,8 @@ sources:
 related_models:
   - slug: "ping/isi-irons"
     label: "Predecessor: Ping ISI"
+  - slug: "ping/i3-blade-irons"
+    label: "Compact sibling released together: Ping i3 Blade"
   - slug: "ping/i3-plus-irons"
     label: "Successor: Ping i3+ (2002 update)"
   - slug: "ping/g2-irons"

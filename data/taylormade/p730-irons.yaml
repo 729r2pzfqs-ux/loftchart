@@ -1,0 +1,98 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: P730
+slug: p730-irons
+club_type: irons
+year_introduced: 2017
+year_discontinued: 2020
+category: blade
+construction: forged muscleback with milled face and grooves
+material: forged 1025 carbon steel
+successor: P7MB
+predecessor: TP MB
+description: >
+  The P730 is the pure muscleback blade of TaylorMade's P-Series, announced in
+  autumn 2017 as the evolution of the Tour Preferred MB blades of 2011 and
+  2014, and played on tour by Rory McIlroy and Justin Rose. The 73 mm blade
+  length gives the smallest profile in the range, with a thin topline, minimal
+  offset and a horizontally milled channel in the muscle that separates mass
+  vertically for higher inertia and trajectory control. Lofts are traditional —
+  a 35-degree 7-iron and a 47-degree pitching wedge, identical to the TP MB it
+  replaced. The P7MB took over the blade slot in 2020. Specs below are the
+  men's standard steel-shaft build.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 60.5
+    length: 38.75
+    offset: 0.083
+    swing_weight: D3
+  - club: "4"
+    loft: 24.0
+    lie: 61.0
+    length: 38.25
+    offset: 0.079
+    swing_weight: D3
+  - club: "5"
+    loft: 27.0
+    lie: 61.5
+    length: 37.75
+    offset: 0.075
+    swing_weight: D3
+  - club: "6"
+    loft: 31.0
+    lie: 62.0
+    length: 37.25
+    offset: 0.071
+    swing_weight: D3
+  - club: "7"
+    loft: 35.0
+    lie: 62.5
+    length: 36.75
+    offset: 0.067
+    swing_weight: D3
+  - club: "8"
+    loft: 39.0
+    lie: 63.0
+    length: 36.25
+    offset: 0.063
+    swing_weight: D3
+  - club: "9"
+    loft: 43.0
+    lie: 63.5
+    length: 35.75
+    offset: 0.059
+    swing_weight: D3
+  - club: "PW"
+    loft: 47.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.055
+    swing_weight: D4
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+    flex: ["S300"]
+sources:
+  - "TaylorMade official P730 Irons spec sheet PDF (c 2017 Taylor Made Golf Company), taylormadegolf.com/on/demandware.static/-/Sites-TMaG-Library/default/docs/productspecs/2017/P730 Irons.pdf — full loft/lie/offset/length/swing-weight table (offset in mm, converted to inches here; right hand only), plus the True Temper Dynamic Gold S300 stock shaft and Golf Pride Tour Velvet 360 grip."
+  - "Note: bounce is not published on the manufacturer sheet and is omitted rather than estimated."
+  - "Succession: the P7MB, announced in August 2020, replaced the P730 as TaylorMade's muscleback blade, which sets year_discontinued and the successor field."
+related_models:
+  - slug: "taylormade/tp-mb-irons"
+    label: "Predecessor: TaylorMade TP MB (2014)"
+  - slug: "taylormade/p7mb-irons"
+    label: "Successor: TaylorMade P7MB"
+  - slug: "taylormade/p790-2017-irons"
+    label: "Announced the same season: TaylorMade P790 (2017)"
+  - slug: "taylormade/p770-2017-irons"
+    label: "Cavity-back sibling in the first P-Series: TaylorMade P770 (2017)"
+faq:
+  - q: "What is the loft of a TaylorMade P730 7-iron?"
+    a: "The TaylorMade P730 7-iron has a loft of 35 degrees, with a 62.5-degree lie and a 36.75-inch steel-shaft length."
+  - q: "What does the 730 in P730 mean?"
+    a: "The 73 refers to the blade length of the head in millimetres, the smallest in TaylorMade's P-Series. The same convention names the P750 and P770."
+  - q: "Are the P730 lofts the same as the TP MB?"
+    a: "Yes. The P730 kept the traditional TP MB loft ladder unchanged: 21 degrees at the 3-iron, 35 at the 7-iron and a 47-degree pitching wedge, over the same 3-PW set."
+  - q: "Was the P730 available left-handed?"
+    a: "No. TaylorMade's spec sheet lists the P730 as right-hand only in every club."
+confidence: high

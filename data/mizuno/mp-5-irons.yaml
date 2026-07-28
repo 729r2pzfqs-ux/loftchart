@@ -75,6 +75,8 @@ related_models:
     label: "Successor: Mizuno MP-18 SC"
   - slug: "mizuno/mp-15-irons"
     label: "Contemporary players iron: Mizuno MP-15"
+  - slug: "mizuno/mp-55-irons"
+    label: "Announced the same day for Japan: Mizuno MP-55"
 faq:
   - q: "What is the loft of a Mizuno MP-5 7-iron?"
     a: "The Mizuno MP-5 7-iron has a loft of 34 degrees, with a 61.5-degree lie and a 36.75-inch steel-shaft length."

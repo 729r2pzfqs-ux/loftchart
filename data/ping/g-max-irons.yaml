@@ -105,6 +105,8 @@ sources:
 related_models:
   - slug: "ping/g30-irons"
     label: "Sold alongside it: Ping G30"
+  - slug: "ping/karsten-irons"
+    label: "The hybrid-iron distance set whose slot it took over: Ping Karsten"
   - slug: "ping/g-irons"
     label: "The G-series iron that adopted COR-Eye next: Ping G"
   - slug: "ping/g700-irons"

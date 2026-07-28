@@ -89,6 +89,8 @@ sources:
   - "Note on stock shafts: because US sales were custom-order only, golf.com reported no formal stock shaft. Project X LS and Project X IO steel and Mitsubishi MMT graphite are the builds Today's Golfer and retail listings (Carl's Golfland, GolfClubs4Cash, 2nd Swing) consistently show as the no-upcharge configurations; flex ranges are omitted rather than guessed."
   - "year_discontinued is 2023, the year Callaway announced the successor Apex MB of the 2024 line. Confidence is medium because the per-club figures come from a retailer spec table rather than a Callaway spec sheet."
 related_models:
+  - slug: "callaway/apex-mb-2018-irons"
+    label: "Predecessor: Callaway Apex MB (2018)"
   - slug: "callaway/apex-mb-2024-irons"
     label: "Successor: Callaway Apex MB (2024)"
   - slug: "callaway/apex-pro-21-irons"

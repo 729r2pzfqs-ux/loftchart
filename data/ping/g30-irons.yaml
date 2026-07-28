@@ -96,6 +96,8 @@ related_models:
     label: "Successor: Ping G"
   - slug: "ping/g-max-irons"
     label: "Maximum-forgiveness iron sold alongside it from 2015: Ping GMax"
+  - slug: "ping/karsten-irons"
+    label: "Hybrid-iron distance set of the same year: Ping Karsten"
 faq:
   - q: "What is the loft of a Ping G30 7-iron?"
     a: "The Ping G30 7-iron has a loft of 30.5 degrees, a standard (black dot) lie of 61.88 degrees and a steel-shaft length of 37.0 inches."

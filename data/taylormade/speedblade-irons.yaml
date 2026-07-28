@@ -4,11 +4,11 @@ model: SpeedBlade
 slug: speedblade-irons
 club_type: irons
 year_introduced: 2013
-year_discontinued: null
+year_discontinued: 2015
 category: game-improvement
 construction: cast with a through-slot Speed Pocket in the 3 to 7 irons
 material: cast stainless steel
-successor: null
+successor: TaylorMade AeroBurner
 predecessor: null
 description: >
   SpeedBlade carried over the RocketBladez idea — a handlebar-shaped
@@ -94,7 +94,7 @@ sources:
   - "Note on offset: the source publishes offset in millimetres (6.3 mm down to 0.9 mm), converted to inches here."
   - "golfbusinessnews.com 'TaylorMade Golf Introduces SpeedBlade Irons' — announced in 2013 with retail availability from 4 October 2013; the Speed Pocket runs through the sole of the 3 to 7 irons."
   - "Note: bounce is omitted — the source table did not carry a bounce column. Confidence is medium."
-  - "Note on succession: TaylorMade ran overlapping game-improvement models in this period — RocketBladez, RocketBladez 2.0, SpeedBlade, then the RSi family — and the sources retrieved do not establish a clean one-to-one replacement, so successor, predecessor and year_discontinued are left null rather than asserted."
+  - "Note on succession: TaylorMade ran overlapping game-improvement models in this period — RocketBladez, RocketBladez 2.0, SpeedBlade, then the RSi family — so no single clean replacement exists. The AeroBurner, announced in January 2015, took over the SpeedBlade's distance-iron slot in the range, which is used for successor and year_discontinued; predecessor is left null."
 related_models:
   - slug: "taylormade/rocketbladez-irons"
     label: "The model whose Speed Pocket it carried over: TaylorMade RocketBladez"
@@ -102,6 +102,8 @@ related_models:
     label: "Sold in the same period: TaylorMade RocketBladez 2.0"
   - slug: "taylormade/rsi-1-irons"
     label: "TaylorMade's next game-improvement iron: TaylorMade RSi 1"
+  - slug: "taylormade/aeroburner-irons"
+    label: "Successor in the distance line: TaylorMade AeroBurner"
 faq:
   - q: "What is the loft of a TaylorMade SpeedBlade 7-iron?"
     a: "The TaylorMade SpeedBlade 7-iron has a loft of 30.5 degrees, a lie of 63.0 degrees and a length of 37.0 inches."

@@ -74,6 +74,8 @@ sources:
   - "mygolfspy.com 'PXG 0311 GEN5 Irons (0311 T, 0311 P, 0311 XP)' — confirms the three-model GEN5 line, the forged 8620 body with HT1770 maraging face and XCOR2 core, and that there is no separate model badged simply 0311 GEN5."
   - "Note: swing weight was not published in the source consulted and is omitted rather than estimated."
 related_models:
+  - slug: "pxg/0311-t-gen4-irons"
+    label: "Predecessor: PXG 0311 T GEN4"
   - slug: "pxg/0311-p-gen5-irons"
     label: "Players sibling: PXG 0311 P GEN5"
   - slug: "pxg/0311-xp-gen5-irons"

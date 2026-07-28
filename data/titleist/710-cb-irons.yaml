@@ -1,0 +1,110 @@
+brand: Titleist
+brand_slug: titleist
+model: 710 CB
+slug: 710-cb-irons
+club_type: irons
+year_introduced: 2009
+year_discontinued: 2011
+category: players
+construction: forged cavity back
+material: forged 1025 carbon steel with bright chrome plating
+successor: Titleist 712 CB
+predecessor: Titleist ZB
+description: >
+  The 710 CB is the forged cavity back Titleist introduced in the autumn of
+  2009 for the 2010 season, alongside the 710 MB, AP1 and AP2. It is forged
+  from 1025 carbon steel with a full cavity and an optimized inner cavity
+  muscle behind the impact area, slightly longer constant blade lengths and a
+  softer topline, giving more inertia and forgiveness than the MB while
+  keeping a players profile. The specs carry over unchanged from the ZB it
+  replaced - a 35 degree 7-iron, 47 degree pitching wedge and minimal
+  progressive offset - with the stock set a 3-iron through pitching wedge and
+  an 18 degree 2-iron available.
+specs:
+  - club: "2"
+    loft: 18
+    lie: 60
+    length: 39.5
+    offset: 0.150
+    bounce: 0
+    swing_weight: D2
+  - club: "3"
+    loft: 21
+    lie: 60
+    length: 39.0
+    offset: 0.140
+    bounce: 1
+    swing_weight: D2
+  - club: "4"
+    loft: 24
+    lie: 61
+    length: 38.5
+    offset: 0.130
+    bounce: 2
+    swing_weight: D2
+  - club: "5"
+    loft: 27
+    lie: 62
+    length: 38.0
+    offset: 0.120
+    bounce: 3
+    swing_weight: D2
+  - club: "6"
+    loft: 31
+    lie: 62.5
+    length: 37.5
+    offset: 0.110
+    bounce: 4
+    swing_weight: D2
+  - club: "7"
+    loft: 35
+    lie: 63
+    length: 37.0
+    offset: 0.100
+    bounce: 5
+    swing_weight: D2
+  - club: "8"
+    loft: 39
+    lie: 63.5
+    length: 36.5
+    offset: 0.090
+    bounce: 6
+    swing_weight: D2
+  - club: "9"
+    loft: 43
+    lie: 64
+    length: 36.0
+    offset: 0.080
+    bounce: 7
+    swing_weight: D2
+  - club: "PW"
+    loft: 47
+    lie: 64
+    length: 35.75
+    offset: 0.075
+    bounce: 8
+    swing_weight: D2
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+sources:
+  - "Titleist previous-models archived product page, titleist.com/golf-clubs/irons/cb-710, via the Internet Archive, October 2011 capture (full manufacturer table headed 'CB': offset, bounce, loft, length, lie, swingweight, 2-iron through PW)"
+  - "Same archived page product copy - forged 1025 carbon steel, bright chrome plating, optimized cavity muscle, increased inertia versus MB, True Temper Dynamic Gold stock shaft with Titleist Tour Velvet grip"
+  - "Announced with the 710 series in the autumn of 2009 and sold as Titleist's 2010 line; the 712 CB announced in 2011 replaced it, per this database's other 71x-series entries"
+related_models:
+  - slug: "titleist/712-cb-irons"
+    label: "Successor: Titleist 712 CB"
+  - slug: "titleist/zb-irons"
+    label: "Predecessor: Titleist ZB"
+  - slug: "titleist/710-mb-irons"
+    label: "Same-generation muscleback: Titleist 710 MB"
+  - slug: "titleist/710-ap2-irons"
+    label: "Same-generation players iron: Titleist 710 AP2"
+faq:
+  - q: "What is the loft of a Titleist 710 CB 7-iron?"
+    a: "The Titleist 710 CB 7-iron is 35 degrees, with a 63 degree lie and a 37 inch standard steel length."
+  - q: "What is the difference between the Titleist 710 CB and 710 MB?"
+    a: "Lofts, lies and lengths are identical, but the CB is a full cavity back with more inertia and forgiveness, slightly longer blade lengths and marginally more offset (0.140 to 0.075 inches against 0.125 to 0.075), while the MB is a pure muscleback."
+  - q: "Did Titleist change the specs from the ZB to the 710 CB?"
+    a: "No. The 710 CB kept the ZB table unchanged: an 18 degree 2-iron, 35 degree 7-iron and 47 degree pitching wedge with the same offsets and bounce angles."
+confidence: high

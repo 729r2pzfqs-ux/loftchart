@@ -1,0 +1,96 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: P750 Tour Proto
+slug: p750-tour-proto-irons
+club_type: irons
+year_introduced: 2017
+year_discontinued: 2018
+category: players
+construction: forged, multi-step forging with tungsten weighting in the 3 to 7 irons
+material: forged 1025 carbon steel with tungsten weights
+successor: TaylorMade P760
+predecessor: null
+description: >
+  The P750 Tour Proto was the most compact iron in TaylorMade's first P-Series,
+  announced in January 2017 alongside the P770 after prototypes appeared on
+  tour in late 2016. It is forged from 1025 carbon steel on a 2000-ton press,
+  with a thin topline, minimal progressive offset, a narrow sole with a tight
+  leading edge, and a tungsten weight in the 3- to 7-irons to centre the CG.
+  Lofts are traditional — a 34-degree 7-iron and 47-degree pitching wedge —
+  and the head sits 2 mm shorter heel-to-toe than the P770. The P760 replaced
+  both models in October 2018. Specs below are the men's standard steel-shaft
+  build.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 60.5
+    length: 38.75
+    offset: 0.114
+    swing_weight: D3
+  - club: "4"
+    loft: 23.0
+    lie: 61.0
+    length: 38.25
+    offset: 0.106
+    swing_weight: D3
+  - club: "5"
+    loft: 26.0
+    lie: 61.5
+    length: 37.75
+    offset: 0.098
+    swing_weight: D3
+  - club: "6"
+    loft: 30.0
+    lie: 62.0
+    length: 37.25
+    offset: 0.091
+    swing_weight: D3
+  - club: "7"
+    loft: 34.0
+    lie: 62.5
+    length: 36.75
+    offset: 0.087
+    swing_weight: D3
+  - club: "8"
+    loft: 38.0
+    lie: 63.0
+    length: 36.25
+    offset: 0.083
+    swing_weight: D3
+  - club: "9"
+    loft: 42.5
+    lie: 63.5
+    length: 35.75
+    offset: 0.079
+    swing_weight: D3
+  - club: "PW"
+    loft: 47.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.071
+    swing_weight: D4
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+    flex: ["S", "X"]
+sources:
+  - "TaylorMade official P750 Irons spec sheet PDF (c 2017 Taylor Made Golf Company), taylormadegolf.com/on/demandware.static/-/Sites-TMaG-Library/default/docs/productspecs/2017/P750 Irons.pdf — full loft/lie/offset/length/swing-weight table (offset in mm, converted to inches here), plus the Dynamic Gold (X, S) stock steel shaft (graphite custom only) and Golf Pride Tour Velvet 360 grip."
+  - "Note: bounce is not published on the manufacturer sheet and is omitted rather than estimated."
+  - "Succession: TaylorMade announced the P760 on 15 October 2018, a progressive set that replaced both the P770 and the P750 Tour Proto, which sets year_discontinued and the successor field."
+related_models:
+  - slug: "taylormade/p770-2017-irons"
+    label: "Larger sibling in the first P-Series: TaylorMade P770 (2017)"
+  - slug: "taylormade/p790-2017-irons"
+    label: "Distance sibling of the first P-Series: TaylorMade P790 (2017)"
+  - slug: "taylormade/p760-irons"
+    label: "Successor: TaylorMade P760"
+faq:
+  - q: "What is the loft of a TaylorMade P750 Tour Proto 7-iron?"
+    a: "The TaylorMade P750 Tour Proto 7-iron has a loft of 34 degrees, with a 62.5-degree lie and a 36.75-inch steel-shaft length."
+  - q: "What is the difference between the P750 Tour Proto and the 2017 P770?"
+    a: "The P750 is the more compact head — about 2 mm shorter heel-to-toe with a thinner topline and less offset — and its lofts are around a degree weaker through the mid irons: 34 degrees at the 7-iron against 33, and a 47-degree pitching wedge against 46."
+  - q: "Is the P750 Tour Proto forged?"
+    a: "Yes. The head is forged from 1025 carbon steel using a multi-step process on a 2000-ton press, with a tungsten weight added in the 3- through 7-irons to centre the CG."
+  - q: "What replaced the P750 Tour Proto?"
+    a: "The TaylorMade P760, announced in October 2018, replaced both the P750 Tour Proto and the P770 in the players line."
+confidence: high

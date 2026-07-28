@@ -64,6 +64,8 @@ sources:
 related_models:
   - slug: "callaway/x-forged-cb-2021-irons"
     label: "Successor: Callaway X Forged CB (2021)"
+  - slug: "callaway/apex-mb-2018-irons"
+    label: "The muscleback launched alongside it: Callaway Apex MB (2018)"
   - slug: "callaway/apex-19-irons"
     label: "Callaway's forged players-distance iron of the same era: Callaway Apex 19"
   - slug: "callaway/apex-21-irons"

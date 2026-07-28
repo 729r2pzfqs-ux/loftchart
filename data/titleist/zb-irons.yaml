@@ -1,0 +1,113 @@
+brand: Titleist
+brand_slug: titleist
+model: ZB
+slug: zb-irons
+club_type: irons
+year_introduced: 2008
+year_discontinued: 2009
+category: players
+construction: forged, blended cavity-to-muscle back
+material: forged 1020 mild carbon steel with bright chrome plating
+successor: Titleist 710 CB
+predecessor: Titleist Forged 735.CM
+description: >
+  The Z•B Forged ("Z Blend") is one of the four irons Titleist announced in
+  January 2008 alongside the AP1, AP2 and ZM, at retail from 15 March 2008,
+  taking over the blended-set slot from the Forged 735.CM. It is a blended
+  set that Titleist's spec page lists as forged 1020 mild carbon steel: full
+  cavity back long irons, partial cavity mid irons and muscle back short
+  irons, with the back design placing the center of gravity in the middle of
+  the face. Against the ZM it carries slightly more offset in the long and
+  mid irons. The stock set ran 3-iron through pitching wedge with the 18
+  degree 2-iron available, and the 710 CB that replaced it in 2009 kept these
+  specs unchanged.
+specs:
+  - club: "2"
+    loft: 18
+    lie: 60
+    length: 39.5
+    offset: 0.150
+    bounce: 0
+    swing_weight: D2
+  - club: "3"
+    loft: 21
+    lie: 60
+    length: 39.0
+    offset: 0.140
+    bounce: 1
+    swing_weight: D2
+  - club: "4"
+    loft: 24
+    lie: 61
+    length: 38.5
+    offset: 0.130
+    bounce: 2
+    swing_weight: D2
+  - club: "5"
+    loft: 27
+    lie: 62
+    length: 38.0
+    offset: 0.120
+    bounce: 3
+    swing_weight: D2
+  - club: "6"
+    loft: 31
+    lie: 62.5
+    length: 37.5
+    offset: 0.110
+    bounce: 4
+    swing_weight: D2
+  - club: "7"
+    loft: 35
+    lie: 63
+    length: 37.0
+    offset: 0.100
+    bounce: 5
+    swing_weight: D2
+  - club: "8"
+    loft: 39
+    lie: 63.5
+    length: 36.5
+    offset: 0.090
+    bounce: 6
+    swing_weight: D2
+  - club: "9"
+    loft: 43
+    lie: 64
+    length: 36.0
+    offset: 0.080
+    bounce: 7
+    swing_weight: D2
+  - club: "PW"
+    loft: 47
+    lie: 64
+    length: 35.75
+    offset: 0.075
+    bounce: 8
+    swing_weight: D2
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+sources:
+  - "Titleist product page, titleist.com/golfclubs/irons/ZB.asp, via the Internet Archive, June 2009 capture (full manufacturer table headed 'Z Blend Forged Irons': offset, bounce, loft, length, lie, swingweight, 2-iron through P)"
+  - "Same archived page - design 'Blended cavity-to-muscle back forged irons', construction 'Forged 1020 mild carbon steel', True Temper Dynamic Gold stock shaft, Titleist Tour Velvet Rubber grip, available irons 2, 3-P in right and left hand, $125 steel / $150 graphite per club. Some launch coverage quotes 1025 carbon steel; the figure here follows Titleist's own page."
+  - "TheSandTrap.com, 'Titleist Introduces New Irons for 2008: AP1, AP2, ZB, and ZM', January 2008 - announcement date, 15 March 2008 retail availability, and the ZB taking over the 735.CM's blended-set concept; year_introduced uses the January 2008 announcement"
+  - "Titleist previous-models page, titleist.com/golf-clubs/irons/zb, via the Internet Archive - 'High performance, blended cavity-to-muscle back forged irons with traditional feel, superior looks and shot control for the highly skilled player'"
+  - "Cross-check: the archived Titleist CB-710 manufacturer table is identical club for club, consistent with Titleist carrying the ZB specs into its successor"
+related_models:
+  - slug: "titleist/710-cb-irons"
+    label: "Successor: Titleist 710 CB"
+  - slug: "titleist/735-cm-irons"
+    label: "Predecessor: Titleist Forged 735.CM"
+  - slug: "titleist/695-cb-irons"
+    label: "Players cavity also retired by the 2008 launch: Titleist 695.CB"
+  - slug: "titleist/zm-irons"
+    label: "Same-generation muscleback: Titleist ZM"
+faq:
+  - q: "What is the loft of a Titleist ZB 7-iron?"
+    a: "The Titleist ZB 7-iron is 35 degrees, with a 63 degree lie and a 37 inch standard steel length."
+  - q: "What is the difference between the Titleist ZB and ZM irons?"
+    a: "Lofts, lies and lengths are identical, but the ZB is a blended set - cavity back long irons to muscle back short irons - with slightly more offset in the long and mid irons, while the ZM is a muscleback throughout. The ZB also offers an 18 degree 2-iron, which the ZM does not."
+  - q: "How do the ZB lofts compare with the 710 CB that replaced it?"
+    a: "They are identical: an 18 degree 2-iron, 35 degree 7-iron and 47 degree pitching wedge, with the same offsets and bounce angles."
+confidence: high

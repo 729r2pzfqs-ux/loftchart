@@ -83,6 +83,8 @@ related_models:
     label: "Predecessor: Mizuno MP-53"
   - slug: "mizuno/mp-4-irons"
     label: "Unveiled alongside it: Mizuno MP-4"
+  - slug: "mizuno/mp-55-irons"
+    label: "Japan-market follow-up in the numbered MP cavity line: Mizuno MP-55"
 faq:
   - q: "What is the loft of a Mizuno MP-54 7-iron?"
     a: "The Mizuno MP-54 7-iron has a loft of 34 degrees, a lie of 61.5 degrees and a length of 36.75 inches."

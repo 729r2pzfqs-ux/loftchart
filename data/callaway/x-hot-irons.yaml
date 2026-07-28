@@ -100,6 +100,11 @@ sources:
   - "qsponge Callaway 2013 X Hot spec table — corroborates lofts, lies and lengths including the 3-iron and lob wedge"
   - "Callaway Golf press release 'Callaway Golf's New X Hot Irons Bring the Heat' (prnewswire.com, dateline 17 December 2012, 07:30 ET) — announcement date, retail availability of 25 January 2013 and launch pricing of $699 steel / $899 graphite. year_introduced uses the 2012 announcement year, not the 2013 retail/model year the clubs are usually known by."
   - "Callaway Golf press release 'Callaway Golf Announces X2 Hot Line Of Clubs' (prnewswire.com, dateline 12 November 2013) — fixes year_discontinued at 2013, the year the successor X2 Hot was announced, on the same announcement-year basis."
+related_models:
+  - slug: "callaway/x-hot-pro-irons"
+    label: "Compact model of the same family: Callaway X Hot Pro"
+  - slug: "callaway/x2-hot-irons"
+    label: "Successor: Callaway X2 Hot"
 faq:
   - q: "What is the loft of a Callaway X Hot 7-iron?"
     a: "The 2013 Callaway X Hot 7-iron has a loft of 30 degrees."

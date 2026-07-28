@@ -1,0 +1,104 @@
+brand: Callaway
+brand_slug: callaway
+model: Elyte Max Fast
+slug: elyte-max-fast-irons
+club_type: irons
+year_introduced: 2025
+year_discontinued: 2026
+category: super-game-improvement
+construction: investment cast, multi-material
+material: cast stainless steel with an Ai10x Face, Speed Frame construction and urethane microspheres
+successor: Callaway Quantum Max Fast
+predecessor: Callaway Paradym Ai Smoke Max Fast
+description: >
+  The Max Fast is the ultra-lightweight model of Callaway's 2025 Elyte iron family,
+  announced in January 2025 alongside the standard Elyte, the Elyte X and the compact
+  Elyte Tour models. It pairs the family's Ai10x Face with Speed Frame construction —
+  a frame connecting the body to the topline that stiffens the body while freeing the
+  face to flex — and is sold graphite-only with a 40 gram Mitsubishi Vanquish stock
+  shaft, C9 swingweights and long builds, including a 39 inch 5-iron, for players who
+  need help generating speed. Lofts are two degrees stronger than the Paradym Ai Smoke
+  Max Fast it replaced — 30 degrees at the 7-iron against 31 — and the chart runs
+  5-iron through sand wedge with no 4-iron. Specs below are the standard men's
+  graphite build.
+specs:
+  - club: "5"
+    loft: 23.0
+    lie: 60.75
+    length: 39.0
+    offset: 0.157
+    swing_weight: C9
+  - club: "6"
+    loft: 26.0
+    lie: 61.5
+    length: 38.25
+    offset: 0.142
+    swing_weight: C9
+  - club: "7"
+    loft: 30.0
+    lie: 62.25
+    length: 37.5
+    offset: 0.126
+    swing_weight: C9
+  - club: "8"
+    loft: 34.0
+    lie: 63.0
+    length: 36.75
+    offset: 0.102
+    swing_weight: C9
+  - club: "9"
+    loft: 38.0
+    lie: 63.75
+    length: 36.0
+    offset: 0.079
+    swing_weight: C9
+  - club: "PW"
+    loft: 43.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.059
+    swing_weight: C9
+  - club: "AW"
+    loft: 48.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.059
+    swing_weight: C9
+  - club: "GW"
+    loft: 52.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.059
+    swing_weight: C9
+  - club: "SW"
+    loft: 56.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.059
+    swing_weight: C9
+stock_shafts:
+  - name: "Mitsubishi Vanquish PL 40"
+    material: graphite
+    weight: "light"
+sources:
+  - "Callaway Golf Pre-Owned Elyte Max Fast product specs (callawaygolfpreowned.com/iron-sets/irons-2025-elyte-max-fast.html) — loft, lie, length, offset (in millimetres) and C9 swingweight for the 5-iron through sand wedge, plus the Speed Frame and Ai10x Face construction"
+  - "2nd Swing Golf Callaway Elyte Max Fast iron set spec table (2ndswing.com/golf-clubs/iron-sets/callaway-elyte-max-fast-iron-set) — independently matches on every loft, lie, length and offset, and lists the Mitsubishi Chemical Vanquish PL 40 stock graphite shaft (women's build: Mitsubishi Eldio 40) with Winn Dri-Tac 2.0 grips"
+  - "Note on offset: the sources publish offset in millimetres (4.0 mm at the 5-iron down to 1.5 mm through the wedges), converted to inches here. Bounce was not published and is omitted rather than estimated."
+  - "Note on year_discontinued: recorded as 2026, the year Callaway announced the Quantum iron family (16 January 2026), whose Quantum Max Fast takes over the lightweight slot. This database dates a model's end to the announcement of its replacement, not to the last day it was sold."
+related_models:
+  - slug: "callaway/elyte-irons"
+    label: "Standard model of the same family: Callaway Elyte"
+  - slug: "callaway/elyte-x-irons"
+    label: "Wide-body sibling of the same family: Callaway Elyte X"
+  - slug: "callaway/paradym-ai-smoke-max-fast-irons"
+    label: "Predecessor: Callaway Paradym Ai Smoke Max Fast"
+  - slug: "callaway/quantum-max-fast-irons"
+    label: "Successor: Callaway Quantum Max Fast"
+faq:
+  - q: "What is the loft of a Callaway Elyte Max Fast 7-iron?"
+    a: "The Callaway Elyte Max Fast 7-iron has a loft of 30 degrees, with a 62.25 degree lie and a 37.5 inch graphite length."
+  - q: "What is the difference between the Elyte Max Fast and the Paradym Ai Smoke Max Fast?"
+    a: "The Elyte Max Fast runs about a degree to two degrees stronger through the set — 30 degrees at the 7-iron against 31 — swaps the Ai Smart Face for the Ai10x Face with Speed Frame construction, and moves to a Mitsubishi Vanquish PL 40 stock shaft. Both are graphite-only, C9-swingweight builds with a 39 inch 5-iron."
+  - q: "Who are the Callaway Elyte Max Fast irons for?"
+    a: "They are built for players with slower swing speeds: 40 gram graphite shafts, C9 swingweights and clubs built roughly half an inch longer than standard help generate clubhead speed and launch."
+confidence: high

@@ -94,6 +94,8 @@ sources:
 related_models:
   - slug: "callaway/rogue-irons"
     label: "Standard model of the same family: Callaway Rogue"
+  - slug: "callaway/rogue-pro-irons"
+    label: "Compact model of the same family: Callaway Rogue Pro"
   - slug: "callaway/mavrik-irons"
     label: "Callaway's next game-improvement iron: Callaway Mavrik"
 faq:

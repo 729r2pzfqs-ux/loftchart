@@ -1,0 +1,109 @@
+brand: Titleist
+brand_slug: titleist
+model: Forged 680
+slug: 680-irons
+club_type: irons
+year_introduced: 2003
+year_discontinued: 2006
+category: blade
+construction: forged muscleback
+material: forged 1025 mild carbon steel with nickel chrome plating
+successor: null
+predecessor: null
+description: >
+  The Forged 680 is the compact tour blade Titleist released in 2003 to run
+  alongside the larger 690.MB, aimed at players wanting a smaller head for
+  workability and trajectory control. It carries a slightly higher muscle
+  position than the 690.MB for a slightly flatter ball flight, reduced
+  offset, a classic profile with a thin topline and shallow heel, and a
+  narrow sole with reduced bounce and moderate camber for players who pick
+  the ball. Lofts are fully traditional - a 36 degree 7-iron and 48 degree
+  pitching wedge - and the set ran from a 19 degree 2-iron through the
+  pitching wedge, in right hand only. Long a favourite of tour players such
+  as Adam Scott and Webb Simpson, it became a custom-order-only model by late
+  2005 and left the line as the 695 generation took over; Titleist reissued
+  it as a limited-edition custom order in June 2025.
+specs:
+  - club: "2"
+    loft: 19
+    lie: 59
+    length: 39.5
+    offset: 0.125
+    bounce: 2
+    swing_weight: D2
+  - club: "3"
+    loft: 22
+    lie: 60
+    length: 39.0
+    offset: 0.120
+    bounce: 2
+    swing_weight: D2
+  - club: "4"
+    loft: 25
+    lie: 61
+    length: 38.5
+    offset: 0.115
+    bounce: 2
+    swing_weight: D2
+  - club: "5"
+    loft: 28
+    lie: 62
+    length: 38.0
+    offset: 0.110
+    bounce: 2
+    swing_weight: D2
+  - club: "6"
+    loft: 32
+    lie: 62.5
+    length: 37.5
+    offset: 0.105
+    bounce: 2
+    swing_weight: D2
+  - club: "7"
+    loft: 36
+    lie: 63
+    length: 37.0
+    offset: 0.100
+    bounce: 3
+    swing_weight: D2
+  - club: "8"
+    loft: 40
+    lie: 63.5
+    length: 36.5
+    offset: 0.095
+    bounce: 4
+    swing_weight: D2
+  - club: "9"
+    loft: 44
+    lie: 64
+    length: 36.0
+    offset: 0.090
+    bounce: 5
+    swing_weight: D2
+  - club: "PW"
+    loft: 48
+    lie: 64
+    length: 35.75
+    offset: 0.085
+    bounce: 7
+    swing_weight: D2
+sources:
+  - "Titleist previous-models archived product page, titleist.com/golf-clubs/irons/2005-forged-680-irons, via the Internet Archive (full manufacturer table headed 'Irons': offset, bounce, loft, length, lie, swing weight, 2-iron through PW). Note the 35.50 inch pitching wedge - a quarter inch shorter than Titleist's later 35.75 inch standard."
+  - "Titleist archived page product copy - 'traditional, compact, reduced offset blade iron' with 'a slightly higher muscle back configuration than the 690.MB irons, which produces a slightly flatter ball flight'"
+  - "GolfWRX and Golfmagic coverage of the 2018 Forged 680 limited-edition reissue - originally released in 2003; forged 1025 mild carbon steel with nickel chrome plating; long-time gamer of Adam Scott (from 2003) and Webb Simpson"
+  - "year_discontinued 2006: the 680 last appears under the 2005 model year in Titleist's previous-models archive and left the line as the 2006 forged generation (660, 695.CB/MB) arrived"
+related_models:
+  - slug: "titleist/690-mb-irons"
+    label: "The larger muscleback it ran alongside: Titleist 690.MB"
+  - slug: "titleist/695-mb-irons"
+    label: "Next-generation muscleback: Titleist 695.MB"
+  - slug: "titleist/681-forged-irons"
+    label: "Earlier tour blade: Titleist 681 Forged"
+faq:
+  - q: "What is the loft of a Titleist Forged 680 7-iron?"
+    a: "The Titleist Forged 680 7-iron is 36 degrees, with a 63 degree lie and a 37 inch standard steel length."
+  - q: "What is the difference between the Titleist Forged 680 and the 690.MB?"
+    a: "The 680 is more compact with reduced offset and a slightly higher muscle position, producing a flatter, more workable flight; the 690.MB is the slightly larger, more conventional muscleback of the same era. The 680 also runs one degree weaker through the mid irons, with a 36 degree 7-iron."
+  - q: "Which tour players used the Titleist 680 irons?"
+    a: "Adam Scott put them in play when they debuted around 2003 and used them for well over a decade, and Webb Simpson carried 680 MB mid and short irons long after the model was discontinued. Titleist reissued the 680 as a limited edition in 2018."
+confidence: high

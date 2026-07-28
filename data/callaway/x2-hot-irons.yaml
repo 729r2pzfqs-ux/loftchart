@@ -100,6 +100,8 @@ related_models:
     label: "Successor: Callaway XR"
   - slug: "callaway/steelhead-xr-irons"
     label: "Later Callaway distance iron: Steelhead XR"
+  - slug: "callaway/x2-hot-pro-irons"
+    label: "Compact model of the same family: Callaway X2 Hot Pro"
 faq:
   - q: "What is the loft of a Callaway X2 Hot 7-iron?"
     a: "The Callaway X2 Hot 7-iron has a loft of 30 degrees, a lie of 62.5 degrees and a length of 37 inches."

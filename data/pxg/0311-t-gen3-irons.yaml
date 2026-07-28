@@ -1,0 +1,104 @@
+brand: PXG
+brand_slug: pxg
+model: 0311 T GEN3
+slug: 0311-t-gen3-irons
+club_type: irons
+year_introduced: 2020
+year_discontinued: 2021
+category: players
+construction: forged hollow body with a DualCOR core
+material: 5X forged 8620 carbon steel body with a 0.058-inch HT1770 maraging steel face
+successor: PXG 0311 T GEN4
+predecessor: PXG 0311 T GEN2
+description: >
+  The 0311 T is the tour head of PXG's GEN3 line, announced in February 2020
+  at $349 per club alongside the P and XP — the most compact of the three,
+  with the least offset, the lowest bounce and traditional lofts of 32 degrees
+  at the 7-iron and 46 at the pitching wedge. GEN3 introduced Impact Reactor
+  technology powered by the DualCOR system, a soft high-COR inner polymer core
+  wrapped in a stiffer outer core inside the five-times-forged 8620 carbon
+  steel hollow body, behind a 0.058-inch HT1770 maraging steel face attached
+  by robotic laser welding, with a CNC-milled back surface. The loft ladder
+  carries over from the T GEN2 and continued unchanged into the T GEN4 and
+  GEN5; GEN3 added a 51-degree gap wedge to the T chart. PXG stamps the two
+  scoring clubs W and G; they are listed here as PW and GW. Every set was
+  built to order from PXG's shaft menu, so no stock shaft is recorded.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 60.5
+    length: 39.5
+    offset: 0.150
+    bounce: 2.0
+  - club: "4"
+    loft: 22.5
+    lie: 61.0
+    length: 38.875
+    offset: 0.130
+    bounce: 3.0
+  - club: "5"
+    loft: 25.0
+    lie: 61.5
+    length: 38.25
+    offset: 0.110
+    bounce: 4.0
+  - club: "6"
+    loft: 28.0
+    lie: 62.0
+    length: 37.625
+    offset: 0.090
+    bounce: 5.0
+  - club: "7"
+    loft: 32.0
+    lie: 62.5
+    length: 37.0
+    offset: 0.075
+    bounce: 7.0
+  - club: "8"
+    loft: 36.0
+    lie: 63.0
+    length: 36.5
+    offset: 0.058
+    bounce: 9.0
+  - club: "9"
+    loft: 41.0
+    lie: 63.5
+    length: 36.0
+    offset: 0.040
+    bounce: 11.0
+  - club: "PW"
+    loft: 46.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.020
+    bounce: 12.0
+  - club: "GW"
+    loft: 51.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.015
+    bounce: 12.0
+sources:
+  - "PXG's own GEN3 irons page (pxg.com/en-us/clubs/irons/0311-gen3.html), archive.org capture of 10 August 2022 — the 'Specification data for 0311 T GEN3 Irons' table (length, loft, lie, bounce and offset for the 3-iron through the G wedge), alongside the P and XP tables, the $349 original per-club price, and the technology copy: Impact Reactor powered by the DualCOR system, 5X forged 8620 soft carbon steel body, CNC-milled back surface, 0.058-inch HT1770 maraging steel face and robotic laser welding."
+  - "golfwrx.com 'New 2020 PXG 0311 Gen 3 P, T, and XP irons' and golfrpm.com 'PXG Unveils the Newest 0311 GEN3 Irons' (12 February 2020) — the February 2020 announcement and the T/P/XP positioning, with the T aimed at highly skilled players."
+  - "year_discontinued is 2021, the year PXG announced the GEN4 range in February (see the 0311 T GEN4 record in this database, which publishes the identical chart)."
+  - "Note: swing weight was not published and is omitted rather than estimated."
+related_models:
+  - slug: "pxg/0311-t-gen2-irons"
+    label: "Predecessor: PXG 0311 T GEN2"
+  - slug: "pxg/0311-p-gen3-irons"
+    label: "Players sibling: PXG 0311 P GEN3"
+  - slug: "pxg/0311-xp-gen3-irons"
+    label: "Game-improvement sibling: PXG 0311 XP GEN3"
+  - slug: "pxg/0311-t-gen4-irons"
+    label: "Successor: PXG 0311 T GEN4"
+faq:
+  - q: "What is the loft of a PXG 0311 T GEN3 7-iron?"
+    a: "The PXG 0311 T GEN3 7-iron has a loft of 32 degrees, a lie of 62.5 degrees and a length of 37.0 inches."
+  - q: "What is the DualCOR system in the PXG 0311 T GEN3?"
+    a: "A two-polymer core filling the hollow forged head: a soft, high-COR inner core that increases face loading at impact, supported by a stiffer high-strength outer core behind the 0.058-inch maraging steel face."
+  - q: "What changed from the PXG 0311 T GEN2 to the T GEN3?"
+    a: "The loft, lie and length ladder carried over; GEN3 swapped the COR2 core for DualCOR, added the 360-degree face perimeter channel, trimmed short-iron offset slightly and added a 51-degree gap wedge to the published chart."
+  - q: "How does the PXG 0311 T GEN3 differ from the P GEN3?"
+    a: "The T is the compact tour head with lofts one degree weaker (32 against 31 at the 7-iron), roughly half the offset, and much lower bounce in the long irons — 2 degrees at the 3-iron against the P's 5."
+confidence: high

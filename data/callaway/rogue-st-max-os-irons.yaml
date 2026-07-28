@@ -97,6 +97,8 @@ related_models:
     label: "Core model of the same family: Callaway Rogue ST Max"
   - slug: "callaway/rogue-st-pro-irons"
     label: "Compact model of the same family: Callaway Rogue ST Pro"
+  - slug: "callaway/rogue-st-max-os-lite-irons"
+    label: "Lightweight version of the same head: Callaway Rogue ST Max OS Lite"
   - slug: "callaway/paradym-x-irons"
     label: "Successor: Callaway Paradym X"
 faq:

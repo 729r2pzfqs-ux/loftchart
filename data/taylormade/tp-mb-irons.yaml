@@ -4,11 +4,11 @@ model: TP MB
 slug: tp-mb-irons
 club_type: irons
 year_introduced: 2014
-year_discontinued: 2015
+year_discontinued: 2017
 category: blade
 construction: forged
 material: 1025 carbon steel
-successor: P7MB
+successor: P730
 predecessor: null
 description: >
   The Tour Preferred MB was the muscleback blade in TaylorMade's 2014 Tour Preferred
@@ -82,13 +82,16 @@ stock_shafts:
 sources:
   - "TaylorMade official 2014 Tour Preferred MB sell sheet (full spec table: loft, lie, offset in mm, bounce, length, swingweight, KBS Tour shaft, Tour Velvet grip), taylormadegolf.com/docs/productspecs/2014/Tour-Preferred-MB.pdf"
   - "8-iron length: the 2014 sell sheet prints 35.25 inches, which breaks the 0.5-inch progression and is a typographical error; 36.25 inches is used here, matching the identical length ladder on TaylorMade's earlier official Tour Preferred MB sheet (2011 TaylorMade Irons catalog p.13, taylormadegolf.com/docs/productspecs/Tour_Preferred_Irons.pdf)"
+  - "Succession: the P730, announced in autumn 2017 with the same 21-47 degree loft ladder, replaced the TP MB as TaylorMade's muscleback blade, which sets year_discontinued and the successor field; the P7MB followed the P730 in 2020."
 related_models:
   - slug: "taylormade/tp-cb-irons"
     label: "Same 2014 Tour Preferred family: TaylorMade TP CB"
   - slug: "taylormade/tour-preferred-mc-2014-irons"
     label: "Same 2014 Tour Preferred family: TaylorMade Tour Preferred MC"
+  - slug: "taylormade/p730-irons"
+    label: "Successor blade: TaylorMade P730"
   - slug: "taylormade/p7mb-irons"
-    label: "Successor blade: TaylorMade P7MB"
+    label: "Later blade in the same lineage: TaylorMade P7MB"
 faq:
   - q: "What is the loft of a TaylorMade TP MB 7-iron?"
     a: "The TaylorMade TP MB 7-iron has a loft of 35 degrees, with a 62.5-degree lie and a 36.75-inch steel-shaft length."

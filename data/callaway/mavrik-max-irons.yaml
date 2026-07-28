@@ -78,6 +78,8 @@ sources:
 related_models:
   - slug: "callaway/mavrik-irons"
     label: "Sibling: Callaway Mavrik"
+  - slug: "callaway/mavrik-pro-irons"
+    label: "Compact model of the same family: Callaway Mavrik Pro"
 faq:
   - q: "What is the loft of a Callaway Mavrik Max 7-iron?"
     a: "The Callaway Mavrik Max 7-iron has a loft of 30 degrees, with a 62.5 degree lie and a 37.125 inch standard steel length."

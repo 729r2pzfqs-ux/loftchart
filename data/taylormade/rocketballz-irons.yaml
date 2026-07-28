@@ -118,6 +118,8 @@ related_models:
     label: "Predecessor: TaylorMade Burner 2.0"
   - slug: "taylormade/rocketbladez-irons"
     label: "Successor: TaylorMade RocketBladez"
+  - slug: "taylormade/rocketballz-max-irons"
+    label: "Oversized sibling: TaylorMade RocketBallz Max"
 faq:
   - q: "What is the loft of a TaylorMade RocketBallz 7-iron?"
     a: "The TaylorMade RocketBallz (RBZ) 7-iron has a loft of 30.5 degrees, with a 63-degree lie and a 37-inch steel-shaft length."

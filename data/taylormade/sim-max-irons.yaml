@@ -104,6 +104,8 @@ related_models:
     label: "Predecessor: TaylorMade M6"
   - slug: "taylormade/sim2-max-irons"
     label: "Successor: TaylorMade SIM2 Max"
+  - slug: "taylormade/sim-max-os-irons"
+    label: "Oversized sibling: TaylorMade SIM Max OS"
 faq:
   - q: "What is the loft of a TaylorMade SIM Max 7-iron?"
     a: "The TaylorMade SIM Max 7-iron has a loft of 28.5 degrees, with a 63-degree lie and a 37.25-inch steel-shaft length."

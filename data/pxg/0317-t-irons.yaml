@@ -80,9 +80,13 @@ stock_shafts:
 sources:
   - "2ndswing.com PXG 0317 T Iron Set specification table — length, lie, loft, offset and bounce for the 3-iron through gap wedge (PXG labels the wedges W and G), plus the set configurations and shaft options."
   - "pluggedingolf.com 'PXG 0317 T Irons Review' and golf.com \"PXG's all-new 0317 T irons: 5 things you need to know\" — the triple forging from 8620 carbon steel, the 14-gram internal tungsten toe weight, the adjustable rear weighting, and the note that the 0317 T shares the 0317 line's lengths and lies while running one to two degrees stronger in loft."
-  - "Note on the year: PXG showed the 0317 ST, 0317 CB and 0317 T in November 2023 and put them on sale in January 2024, so year_introduced records the announcement year per this database's convention and some listings date the model 2024."
+  - "Note on the year: PXG showed the 0317 CB and 0317 T in November 2023 and put them on sale in January 2024 — joining the 0317 ST blades sold since autumn 2022 — so year_introduced records the announcement year per this database's convention and some listings date the model 2024."
   - "Note: swing weight is not fixed — PXG's rear weighting system is adjustable — so it is omitted."
 related_models:
+  - slug: "pxg/0317-cb-irons"
+    label: "Cavity-back sibling: PXG 0317 CB"
+  - slug: "pxg/0317-st-irons"
+    label: "Muscle-back sibling that preceded the family: PXG 0317 ST"
   - slug: "pxg/0311-t-gen5-irons"
     label: "Earlier PXG tour iron: PXG 0311 T GEN5"
   - slug: "pxg/0311-p-gen6-irons"

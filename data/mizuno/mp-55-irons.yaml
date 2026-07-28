@@ -1,0 +1,91 @@
+brand: Mizuno
+brand_slug: mizuno
+model: MP-55
+slug: mp-55-irons
+club_type: irons
+year_introduced: 2015
+year_discontinued: 2019
+category: players
+construction: forged with a V-shaped T-SLOT cavity
+material: S25CM mild steel, precision Grain Flow Forged (1025E)
+successor: null
+predecessor: Mizuno MP-54
+description: >
+  The MP-55 is a Japan-market players cavity that Mizuno announced on 25
+  August 2015 alongside the MP-5 and released that September, sold in Japan
+  and Asia through 2019 but never brought to the US or Europe. It pairs a
+  sharp, straight-neck MP profile with a strong-lofted, easy-launching
+  design: a new V-shaped T-SLOT filling most of the cavity keeps the impact
+  area thick for a solid forged feel, while the deepest centre of gravity and
+  lowest sweet-spot height (19.5 mm at the 5-iron) of the MP range at the
+  time produce a high, strong flight. Versus the MP-54 the toe was cut down
+  to shorten the centre-of-gravity distance and help the head square. Lofts
+  run 32 degrees at the 7-iron to a 46-degree pitching wedge — Mizuno's
+  strongest MP lofts to that point. The chart below is Mizuno Japan's
+  standard steel specification with the stock NS PRO 950GH shaft; Mizuno
+  published face progression in millimetres rather than offset, so offset is
+  omitted.
+specs:
+  - club: "4"
+    loft: 22.0
+    lie: 60.0
+    length: 38.25
+    bounce: 2.0
+  - club: "5"
+    loft: 25.0
+    lie: 60.5
+    length: 37.75
+    bounce: 2.5
+  - club: "6"
+    loft: 28.0
+    lie: 61.0
+    length: 37.25
+    bounce: 3.0
+  - club: "7"
+    loft: 32.0
+    lie: 61.5
+    length: 36.75
+    bounce: 3.0
+  - club: "8"
+    loft: 36.0
+    lie: 62.0
+    length: 36.25
+    bounce: 4.0
+  - club: "9"
+    loft: 41.0
+    lie: 62.5
+    length: 35.75
+    bounce: 5.0
+  - club: "PW"
+    loft: 46.0
+    lie: 63.0
+    length: 35.25
+    bounce: 6.0
+stock_shafts:
+  - name: "Nippon NS PRO 950GH"
+    material: steel
+  - name: "Tour Spirit MP-i"
+    material: graphite
+sources:
+  - "Mizuno Japan's official archived product page for the MP-55 Iron with NS PRO 950GH (jpn.mizuno.com/golf/products/archive/2019/5KJKS66706) — the full loft, lie, bounce, face-progression, length and swing-weight table used here, the 2015-2019 sales period, the 5-9+PW stock six-club set with the No.4 as an add-on, the S25CM / 1025E precision-forged material, the V-shaped T-SLOT cavity and the CG comparison against the MP-54, MP-H5 and MP-15"
+  - "Mizuno Corporation press release of 25 August 2015 (corp.mizuno.com) announcing the MP-5 and MP-55 together for September 2015 release"
+  - "GDO lesson.golfdigest.co.jp measured-spec article (April 2016) — an off-the-rack MP-55 7-iron measured 32 degrees of real loft, 61.5 lie and 36.75 inches, corroborating the official chart"
+  - "tourspecgolf.com 'Mizuno MP-55 Irons - New for Japan 2015' — the August 2015 announcement, the September release, the S25CM forging and the strong-lofted, deep-CG semi-players positioning"
+  - "Note: the MP-55 stayed a Japan/Asia-market model; no US successor is recorded. Swing weight (D1 steel) is omitted per this database's convention."
+related_models:
+  - slug: "mizuno/mp-54-irons"
+    label: "Predecessor: Mizuno MP-54"
+  - slug: "mizuno/mp-5-irons"
+    label: "Announced the same day: Mizuno MP-5"
+  - slug: "mizuno/mp-25-irons"
+    label: "International Mizuno players iron of the same era: Mizuno MP-25"
+faq:
+  - q: "What is the loft of a Mizuno MP-55 7-iron?"
+    a: "The Mizuno MP-55 7-iron has a loft of 32 degrees, a lie of 61.5 degrees and a steel-shaft length of 36.75 inches — the strongest MP lofts of its era, matching Mizuno's JPX EZ Forged."
+  - q: "Was the Mizuno MP-55 sold outside Japan?"
+    a: "No. The MP-55 was a Japan/Asia-market model sold from September 2015 through 2019; it reached other markets only as a grey import, which is why it is little known in the US and Europe."
+  - q: "What is the T-SLOT cavity in the Mizuno MP-55?"
+    a: "A V-shaped slot machined into the cavity that leaves the metal directly behind the impact area thick. It lets Mizuno push weight low and deep for launch while preserving the solid Grain Flow Forged feel."
+  - q: "How does the MP-55 differ from the MP-54?"
+    a: "The MP-55 is two degrees stronger at the 7-iron (32 against 34), with a lower sweet spot (19.5 mm against 20.5 at the 5-iron), a deeper centre of gravity and a shorter centre-of-gravity distance from the trimmed toe."
+confidence: high

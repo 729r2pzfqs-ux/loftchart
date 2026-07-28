@@ -1,0 +1,105 @@
+brand: PXG
+brand_slug: pxg
+model: 0311 T GEN4
+slug: 0311-t-gen4-irons
+club_type: irons
+year_introduced: 2021
+year_discontinued: 2022
+category: players
+construction: forged hollow body with an XCOR core
+material: 5X forged 8620 carbon steel body with a 0.058-inch HT1770 maraging steel face
+successor: PXG 0311 T GEN5
+predecessor: PXG 0311 T GEN3
+description: >
+  The 0311 T is the tour head of PXG's GEN4 line, unveiled in February 2021
+  with pre-sales from 9 March and retail from 30 March at $349 per club — the
+  most compact of the three GEN4 heads, with the least offset and the lowest
+  bounce. GEN4 introduced XCOR, the polymer core that replaced the GEN3's
+  DualCOR inside the hollow, five-times-forged 8620 carbon steel body, behind
+  a 0.058-inch HT1770 maraging steel face, with a milled back surface and a
+  Precision Weighting Technology plug that fitters could swap in 2-gram
+  increments. Unlike the P and XP, whose GEN4 charts were strengthened by a
+  degree, the T kept the traditional ladder unchanged from the T GEN3 — a
+  32-degree 7-iron and 46-degree pitching wedge — and passed it on unchanged
+  to the T GEN5. PXG stamps the two scoring clubs W and G; they are listed
+  here as PW and GW. Every set was built to order from PXG's shaft menu, so no
+  stock shaft is recorded.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 60.5
+    length: 39.5
+    offset: 0.150
+    bounce: 2.0
+  - club: "4"
+    loft: 22.5
+    lie: 61.0
+    length: 38.875
+    offset: 0.130
+    bounce: 3.0
+  - club: "5"
+    loft: 25.0
+    lie: 61.5
+    length: 38.25
+    offset: 0.110
+    bounce: 4.0
+  - club: "6"
+    loft: 28.0
+    lie: 62.0
+    length: 37.625
+    offset: 0.090
+    bounce: 5.0
+  - club: "7"
+    loft: 32.0
+    lie: 62.5
+    length: 37.0
+    offset: 0.075
+    bounce: 7.0
+  - club: "8"
+    loft: 36.0
+    lie: 63.0
+    length: 36.5
+    offset: 0.058
+    bounce: 9.0
+  - club: "9"
+    loft: 41.0
+    lie: 63.5
+    length: 36.0
+    offset: 0.040
+    bounce: 11.0
+  - club: "PW"
+    loft: 46.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.020
+    bounce: 12.0
+  - club: "GW"
+    loft: 51.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.015
+    bounce: 12.0
+sources:
+  - "PXG's own 0311 T GEN4 page (pxg.com/en-us/clubs/irons/0311t-gen4), archive.org captures of 10 April 2021 and 21 May 2022 — the full 'PXG 0311 T IRONS SPECS' table (loft, standard length, standard lie, offset and bounce for the 3-iron through the G wedge, stamped W and G), identical in both captures; unlike the XP GEN4, whose chart PXG strengthened mid-2021, the T chart never changed."
+  - "golf.com 'PXG unveils new Gen4 drivers, fairways, hybrids and irons for 2021' and golfwrx.com '2021 PXG Gen4 irons: Precision-driven performance' — the February 2021 announcement, pre-sell date of 9 March, retail availability from 30 March 2021, $349 per club, and the T/P/XP model structure."
+  - "year_discontinued is 2022, the year PXG announced the GEN5 range (see the 0311 T GEN5 record in this database, which publishes the same chart for the 4-iron through gap wedge)."
+  - "Note: swing weight is omitted because the Precision Weighting plug makes head weight adjustable at fitting and PXG published no fixed figure."
+related_models:
+  - slug: "pxg/0311-t-gen3-irons"
+    label: "Predecessor: PXG 0311 T GEN3"
+  - slug: "pxg/0311-p-gen4-irons"
+    label: "Players-distance sibling: PXG 0311 P GEN4"
+  - slug: "pxg/0311-xp-gen4-irons"
+    label: "Game-improvement sibling: PXG 0311 XP GEN4"
+  - slug: "pxg/0311-t-gen5-irons"
+    label: "Successor: PXG 0311 T GEN5"
+faq:
+  - q: "What is the loft of a PXG 0311 T GEN4 7-iron?"
+    a: "The PXG 0311 T GEN4 7-iron has a loft of 32 degrees, a lie of 62.5 degrees and a length of 37.0 inches."
+  - q: "Did PXG 0311 T specs change from GEN3 to GEN4, or GEN4 to GEN5?"
+    a: "No. The 20-degree 3-iron through 51-degree gap wedge chart is identical across the T GEN3, GEN4 and GEN5; the GEN5 page simply dropped the 3-iron."
+  - q: "What is XCOR?"
+    a: "The polymer core PXG introduced with GEN4, replacing DualCOR. It fills the hollow forged head, supporting the 0.058-inch maraging steel face so it can flex for ball speed while damping sound and feel."
+  - q: "How does the PXG 0311 T GEN4 differ from the P GEN4?"
+    a: "The T is the compact tour head with weaker, traditional lofts — 32 degrees at the 7-iron against the P's 30 — about half the offset, and lower bounce throughout."
+confidence: high

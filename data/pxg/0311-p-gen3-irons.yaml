@@ -9,7 +9,7 @@ category: players-distance
 construction: forged hollow body with a DualCOR core
 material: 5X forged 8620 carbon steel body with a 0.058-inch HT1770 maraging steel face
 successor: PXG 0311 P GEN4
-predecessor: PXG 0311 GEN2
+predecessor: PXG 0311 P GEN2
 description: >
   The middle head of PXG's GEN3 line, announced in February 2020 at $349 per
   club in a three-model range — T for tour, P for players, XP for Xtreme
@@ -86,6 +86,12 @@ sources:
   - "year_discontinued is 2021, the year PXG announced the GEN4 range in February (see the 0311 P GEN4 record in this database, whose chart is this one with every loft one degree stronger)."
   - "Note: swing weight was not published and is omitted rather than estimated."
 related_models:
+  - slug: "pxg/0311-p-gen2-irons"
+    label: "Predecessor: PXG 0311 P GEN2"
+  - slug: "pxg/0311-t-gen3-irons"
+    label: "Tour sibling: PXG 0311 T GEN3"
+  - slug: "pxg/0311-xp-gen3-irons"
+    label: "Game-improvement sibling: PXG 0311 XP GEN3"
   - slug: "pxg/0311-p-gen4-irons"
     label: "Successor: PXG 0311 P GEN4"
   - slug: "pxg/0311-xp-gen4-irons"

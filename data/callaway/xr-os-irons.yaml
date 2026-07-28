@@ -88,6 +88,8 @@ sources:
 related_models:
   - slug: "callaway/xr-irons"
     label: "Standard model: Callaway XR"
+  - slug: "callaway/xr-pro-irons"
+    label: "Compact model of the same family: Callaway XR Pro"
 faq:
   - q: "What is the loft of a Callaway XR OS 7-iron?"
     a: "The Callaway XR OS 7-iron has a loft of 31.5 degrees, with a 62.5 degree lie and a 37.25 inch standard steel length."

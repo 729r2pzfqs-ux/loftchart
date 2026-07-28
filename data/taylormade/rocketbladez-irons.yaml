@@ -75,6 +75,13 @@ sources:
   - "2nd Swing Golf RocketBladez iron set spec table (lofts and lies agree; its lengths are rounded and differ slightly)"
   - "Rotary Swing review of the TaylorMade RocketBladez, which independently cites the 30.5-degree 7-iron, 20-degree 4-iron and 23-degree 5-iron"
   - "NOTE: no manufacturer spec sheet was located. The archived taylormadegolf.com product page loads its spec table via script and did not preserve the numbers. Lofts and lies are corroborated across sources; lengths follow the TaylorMade progression of the era and come from a single source."
+related_models:
+  - slug: "taylormade/rocketballz-irons"
+    label: "Predecessor: TaylorMade RocketBallz"
+  - slug: "taylormade/rocketbladez-2-0-irons"
+    label: "Successor: TaylorMade RocketBladez 2.0"
+  - slug: "taylormade/rocketbladez-tour-irons"
+    label: "Better-player sibling: TaylorMade RocketBladez Tour"
 faq:
   - q: "What is the loft of a TaylorMade RocketBladez 7-iron?"
     a: "The standard TaylorMade RocketBladez 7-iron has a loft of 30.5 degrees, with a 63-degree lie and a 37-inch steel-shaft length."

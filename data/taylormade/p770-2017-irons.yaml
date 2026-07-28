@@ -87,6 +87,8 @@ sources:
 related_models:
   - slug: "taylormade/p760-irons"
     label: "Successor: TaylorMade P760"
+  - slug: "taylormade/p750-tour-proto-irons"
+    label: "Compact sibling announced alongside it: TaylorMade P750 Tour Proto"
   - slug: "taylormade/p790-2017-irons"
     label: "Distance sibling of the first P-Series: TaylorMade P790 (2017)"
   - slug: "taylormade/p770-irons"

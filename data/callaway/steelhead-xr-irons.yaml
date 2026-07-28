@@ -96,6 +96,9 @@ sources:
   - "GolfWRX Steelhead XR coverage — 2 September 2016 in-store date and the True Temper XP 95 Stepless and Matrix Ozik F15 stock shafts"
   - "Offset ladder added from the Callaway Demandware ProductSpecs feed (ProductSpecs-Get), the manufacturer-authored source behind the View Specs panel, published natively in decimal inches"
   - "Note on year_discontinued: recorded as 2018, the year the successor was announced — the Rogue family was announced in January 2018. This database dates a model's end to the announcement of its replacement, not to the last day it was sold, so sets remained on shop floors after this date."
+related_models:
+  - slug: "callaway/steelhead-xr-pro-irons"
+    label: "Compact model of the same family: Callaway Steelhead XR Pro"
 faq:
   - q: "What is the loft of a Callaway Steelhead XR 7-iron?"
     a: "The Callaway Steelhead XR 7-iron has a loft of 30 degrees, with a 62.5 degree lie and a 37 inch standard steel length."

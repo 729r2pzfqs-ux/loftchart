@@ -1,0 +1,79 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: RocketBladez Tour
+slug: rocketbladez-tour-irons
+club_type: irons
+year_introduced: 2013
+year_discontinued: 2014
+category: players
+construction: investment cast with Speed Pocket sole slot in the 3 to 7 irons
+material: stainless steel
+successor: TaylorMade Tour Preferred CB
+predecessor: null
+description: >
+  The RocketBladez Tour is the compact better-player version of the 2013
+  RocketBladez, announced in late 2012 alongside the standard model and played
+  on tour before release. It keeps the Speed Pocket slot in the sole of the 3-
+  to 7-irons but uses a smaller head, a thinner topline, less offset and
+  markedly weaker lofts — a 33.75-degree 7-iron and a 47-degree pitching wedge
+  against 30.5 and 45 on the standard RocketBladez. The stock set is 3-iron
+  through pitching wedge with a 51.5-degree approach wedge available. Specs
+  below are the men's standard steel-shaft build.
+specs:
+  - club: "3"
+    loft: 19.0
+    lie: 60.5
+    length: 38.75
+  - club: "4"
+    loft: 22.0
+    lie: 61.0
+    length: 38.25
+  - club: "5"
+    loft: 25.25
+    lie: 61.5
+    length: 37.75
+  - club: "6"
+    loft: 29.5
+    lie: 62.0
+    length: 37.25
+  - club: "7"
+    loft: 33.75
+    lie: 62.5
+    length: 36.75
+  - club: "8"
+    loft: 38.0
+    lie: 63.0
+    length: 36.25
+  - club: "9"
+    loft: 42.0
+    lie: 63.5
+    length: 35.75
+  - club: "PW"
+    loft: 47.0
+    lie: 64.0
+    length: 35.5
+  - club: "AW"
+    loft: 51.5
+    lie: 64.0
+    length: 35.5
+stock_shafts:
+  - name: "KBS Tour"
+    material: steel
+    flex: ["R", "S", "X"]
+sources:
+  - "The Sand Trap TaylorMade RocketBladez Tour irons review — full specification table (loft, lie, length, offset, bounce, swing weight) reproduced from TaylorMade's press materials, plus the KBS Tour stock shaft in R, S and X flexes and the 3-PW stock make-up with optional 51.5-degree AW."
+  - "GolfWRX RocketBladez Tour irons editor review — its specification table agrees on every loft, lie and length, including the 25.25-degree 5-iron and 33.75-degree 7-iron."
+  - "NOTE: no manufacturer sell sheet was located; the two review tables above agree with each other, and the offset, bounce and swing-weight columns appear in only one retrievable source, so those keys are omitted. year_introduced follows the 2013 model year used for the standard RocketBladez in this dataset; both were announced in late 2012."
+related_models:
+  - slug: "taylormade/rocketbladez-irons"
+    label: "Standard sibling: TaylorMade RocketBladez"
+  - slug: "taylormade/tp-cb-irons"
+    label: "Successor in the better-player line: TaylorMade TP CB (2014)"
+faq:
+  - q: "What is the loft of a TaylorMade RocketBladez Tour 7-iron?"
+    a: "The TaylorMade RocketBladez Tour 7-iron has a loft of 33.75 degrees, with a 62.5-degree lie and a 36.75-inch steel-shaft length."
+  - q: "How do RocketBladez Tour lofts compare to the standard RocketBladez?"
+    a: "The Tour model is considerably weaker lofted: 33.75 degrees at the 7-iron against 30.5, and a 47-degree pitching wedge against 45. It also starts the set at a 19-degree 3-iron rather than 17.5 degrees."
+  - q: "Does the RocketBladez Tour have the Speed Pocket?"
+    a: "Yes. Like the standard model, the 3- through 7-irons carry the Speed Pocket slot in the sole; the short irons use a conventional solid sole."
+confidence: medium

@@ -72,6 +72,8 @@ sources:
 related_models:
   - slug: "mizuno/jpx-850-irons"
     label: "Successor in the cast JPX line: Mizuno JPX-850"
+  - slug: "mizuno/jpx-ez-irons"
+    label: "Cast distance family launched below it in 2013: Mizuno JPX EZ"
   - slug: "mizuno/jpx-825-pro-irons"
     label: "Forged model of the same family: Mizuno JPX-825 Pro"
   - slug: "mizuno/jpx-850-forged-irons"

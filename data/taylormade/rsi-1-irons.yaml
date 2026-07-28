@@ -110,6 +110,8 @@ related_models:
     label: "Better-player model in the same range: TaylorMade RSi 2"
   - slug: "taylormade/rocketbladez-irons"
     label: "Earlier slot-technology iron: TaylorMade RocketBladez"
+  - slug: "taylormade/aeroburner-irons"
+    label: "Same-season distance sibling: TaylorMade AeroBurner"
 faq:
   - q: "What is the loft of a TaylorMade RSi 1 7-iron?"
     a: "The TaylorMade RSi 1 7-iron has a loft of 30.5 degrees, with a 63-degree lie and a 37-inch steel-shaft length."

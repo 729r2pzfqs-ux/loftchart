@@ -1,0 +1,105 @@
+brand: PXG
+brand_slug: pxg
+model: 0317 ST
+slug: 0317-st-irons
+club_type: irons
+year_introduced: 2022
+year_discontinued: null
+category: blade
+construction: triple-forged solid muscle-back blade with CNC-milled face and back
+material: 3X forged 8620 soft carbon steel
+successor: null
+predecessor: null
+description: >
+  The 0317 ST Milled Blades are PXG's muscle-back irons, spotted on tour at
+  the 2022 Rocket Mortgage Classic and launched in late September 2022 in
+  Chrome and Xtreme Dark finishes. Each head is forged three times from 8620
+  soft carbon steel, then CNC-milled on face and back; the 5-iron through gap
+  wedge are true muscle-backs, while the 3- and 4-iron use a tour-inspired
+  cavity-back design for higher MOI, and a Precision Weighting Technology port
+  lets fitters set swing weight without moving the centre of gravity. The
+  chart is classic blade territory — a 33-degree 7-iron and 46-degree pitching
+  wedge — and in November 2023 the 0317 CB and 0317 T joined it to form the
+  0317 family, sharing its lofts, lies and lengths for blended sets. PXG
+  stamps the two scoring clubs W and G; they are listed here as PW and GW.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 60.5
+    length: 39.5
+    offset: 0.135
+    bounce: 4.0
+  - club: "4"
+    loft: 24.0
+    lie: 61.0
+    length: 38.875
+    offset: 0.120
+    bounce: 5.0
+  - club: "5"
+    loft: 27.0
+    lie: 61.5
+    length: 38.25
+    offset: 0.105
+    bounce: 6.0
+  - club: "6"
+    loft: 30.0
+    lie: 62.0
+    length: 37.625
+    offset: 0.090
+    bounce: 7.0
+  - club: "7"
+    loft: 33.0
+    lie: 62.5
+    length: 37.0
+    offset: 0.075
+    bounce: 8.0
+  - club: "8"
+    loft: 37.0
+    lie: 63.0
+    length: 36.5
+    offset: 0.060
+    bounce: 10.0
+  - club: "9"
+    loft: 42.0
+    lie: 63.5
+    length: 36.0
+    offset: 0.045
+    bounce: 12.0
+  - club: "PW"
+    loft: 46.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.030
+    bounce: 14.0
+  - club: "GW"
+    loft: 50.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.020
+    bounce: 14.0
+stock_shafts:
+  - name: "True Temper Dynamic Gold Mid 115"
+    material: steel
+sources:
+  - "PXG's own 0317 ST Milled Blades product page (pxg.com/en-us/golf-clubs/0317-st-milled-blades/IR-PXG33.html), archive.org capture of 16 February 2023 — the full 'PXG 0317 ST Milled BLADES SPECS' table (loft, standard length, standard lie, offset and bounce for the 3-iron through the G wedge), the $219-per-club price at that capture, and the '3X FORGED' copy: each iron three-times forged from 8620 soft carbon steel."
+  - "PXG's current 0317 irons family page (pxg.com/products/0317-irons) — the identical ST chart, still on sale alongside the 0317 CB and 0317 T, with the note that the 3- and 4-iron are cavity backs."
+  - "2ndswing.com PXG 0317 ST Milled Blades Chrome Iron Set specification table — identical loft, lie, length, offset and bounce figures, the 3-GW make-up, the Dynamic Gold Mid 115 stock shaft and the PXG Z5 Black grip."
+  - "golfwrx.com 'SPOTTED: PXG 0317 ST milled blade prototype irons at the 2022 Rocket Mortgage' and 'PXG launches new 0317 ST blades', plus pluggedingolf.com's review — the July 2022 tour sighting, the late-September 2022 launch in Chrome ($199) and Xtreme Dark ($219) finishes, and the note that the 5-iron through gap wedge are pure blades while the 3- and 4-iron are cavity backs."
+  - "Note: swing weight is not fixed — the Precision Weighting port is set at fitting — so it is omitted."
+related_models:
+  - slug: "pxg/0317-cb-irons"
+    label: "Cavity-back sibling on the same chart: PXG 0317 CB"
+  - slug: "pxg/0317-t-irons"
+    label: "Hollow-body sibling: PXG 0317 T"
+  - slug: "pxg/0311-t-gen5-irons"
+    label: "PXG's tour iron of the same era: PXG 0311 T GEN5"
+faq:
+  - q: "What is the loft of a PXG 0317 ST 7-iron?"
+    a: "The PXG 0317 ST 7-iron has a loft of 33 degrees, a standard lie of 62.5 degrees and a standard length of 37.0 inches."
+  - q: "When did the PXG 0317 ST come out?"
+    a: "PXG launched the 0317 ST Milled Blades in late September 2022, after prototypes surfaced on tour at the 2022 Rocket Mortgage Classic. The 0317 CB and 0317 T joined it in the 0317 family a year later."
+  - q: "Are all the PXG 0317 ST irons true blades?"
+    a: "The 5-iron through gap wedge are solid muscle-backs. The 3- and 4-iron use a tour-inspired cavity-back design for higher MOI at the top of the set."
+  - q: "Do the PXG 0317 ST and 0317 CB share specs?"
+    a: "Yes. Both publish the same loft, lie, length, offset and bounce chart, which PXG points out makes them natural partners for a blended combo set."
+confidence: high

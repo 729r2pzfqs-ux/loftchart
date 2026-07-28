@@ -1,0 +1,107 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: SIM Max OS
+slug: sim-max-os-irons
+club_type: irons
+year_introduced: 2020
+year_discontinued: 2021
+category: super-game-improvement
+construction: investment cast with Speed Bridge and Thru-Slot Speed Pocket
+material: stainless steel
+successor: SIM2 Max OS
+predecessor: null
+description: >
+  The SIM Max OS is the oversized companion to the 2020 SIM Max, with a larger
+  face, a wider sole and lofts around 1.5 degrees stronger through most of the
+  set — a 27-degree 7-iron and a 42-degree pitching wedge against the standard
+  model's 28.5 and 43.5. It shares the Speed Bridge structure, ECHO Damping
+  System, Thru-Slot Speed Pocket and progressive Inverted Cone Technology of
+  the SIM Max, and its long irons carry noticeably more offset. It was replaced
+  by the SIM2 Max OS in 2021, which kept the lofts, lies and lengths unchanged.
+  Specs below are the men's standard steel-shaft build.
+specs:
+  - club: "4"
+    loft: 18.0
+    lie: 61.5
+    length: 39.125
+    offset: 0.264
+    bounce: 2.0
+  - club: "5"
+    loft: 20.0
+    lie: 62.0
+    length: 38.5
+    offset: 0.244
+    bounce: 3.0
+  - club: "6"
+    loft: 23.5
+    lie: 62.5
+    length: 37.88
+    offset: 0.224
+    bounce: 5.0
+  - club: "7"
+    loft: 27.0
+    lie: 63.0
+    length: 37.25
+    offset: 0.205
+    bounce: 5.0
+  - club: "8"
+    loft: 31.5
+    lie: 63.5
+    length: 36.75
+    offset: 0.138
+    bounce: 6.5
+  - club: "9"
+    loft: 36.5
+    lie: 64.0
+    length: 36.25
+    offset: 0.106
+    bounce: 7.0
+  - club: "PW"
+    loft: 42.0
+    lie: 64.5
+    length: 35.75
+    offset: 0.102
+    bounce: 7.5
+  - club: "AW"
+    loft: 48.0
+    lie: 64.5
+    length: 35.5
+    offset: 0.102
+    bounce: 7.5
+  - club: "SW"
+    loft: 54.0
+    lie: 64.5
+    length: 35.25
+    offset: 0.059
+    bounce: 9.0
+  - club: "LW"
+    loft: 59.0
+    lie: 64.5
+    length: 35.0
+    offset: 0.059
+    bounce: 9.0
+stock_shafts:
+  - name: "KBS MAX 85"
+    material: steel
+    weight: "85 g"
+  - name: "Fujikura Ventus Blue"
+    material: graphite
+sources:
+  - "TaylorMade official SIM Max OS Irons product page specifications table, taylormadegolf.com/SIM-Max-OS-Irons/DW-AL480.html (24 Oct 2020 snapshot via archive.org) — full loft, lie, offset (in mm, converted to inches here), bounce and length table, plus the Ventus Blue and KBS MAX 85 stock shafts and Lamkin Crossline 360 grip."
+  - "Note: the archived table prints only the women's swing-weight row (C2), so swing weight is omitted rather than assumed for the men's steel build."
+  - "golfalot.com and todays-golfer.com SIM Max OS iron reviews — corroborate the 27-degree 7-iron, the roughly 1.5-degree-stronger lofts against the standard SIM Max and the 2020 launch."
+related_models:
+  - slug: "taylormade/sim-max-irons"
+    label: "Standard sibling: TaylorMade SIM Max"
+  - slug: "taylormade/sim2-max-os-irons"
+    label: "Successor: TaylorMade SIM2 Max OS"
+faq:
+  - q: "What is the loft of a TaylorMade SIM Max OS 7-iron?"
+    a: "The TaylorMade SIM Max OS 7-iron has a loft of 27 degrees, with a 63-degree lie and a 37.25-inch steel-shaft length."
+  - q: "What is the difference between the SIM Max and SIM Max OS irons?"
+    a: "The OS is the oversized model: a bigger face, a wider sole, more offset and lofts around 1.5 degrees stronger through most of the set — 27 degrees at the 7-iron against 28.5, and a 42-degree pitching wedge against 43.5."
+  - q: "Are the SIM Max OS and SIM2 Max OS lofts the same?"
+    a: "Yes. The 2021 SIM2 Max OS kept the SIM Max OS loft ladder unchanged, from the 18-degree 4-iron through the 27-degree 7-iron to the 59-degree lob wedge, along with the same lies and lengths."
+  - q: "What wedges were available for the SIM Max OS?"
+    a: "Beyond the 42-degree pitching wedge, the set extended to a 48-degree approach wedge, a 54-degree sand wedge and a 59-degree lob wedge."
+confidence: high

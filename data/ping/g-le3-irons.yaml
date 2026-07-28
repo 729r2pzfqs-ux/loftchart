@@ -1,0 +1,96 @@
+brand: Ping
+brand_slug: ping
+model: G Le3
+slug: g-le3-irons
+club_type: irons
+year_introduced: 2023
+year_discontinued: 2026
+category: super-game-improvement
+construction: investment cast
+material: 17-4 stainless steel with high-density heel and toe weights
+successor: Ping G Le4
+predecessor: Ping G Le2
+description: >
+  The G Le3 is the third generation of Ping's club line engineered specifically
+  for women, launched on 18 July 2023. The irons are lightweight,
+  perimeter-weighted 17-4 stainless steel heads with a metal-wood-style face
+  structure and a multi-material PurFlex cavity badge for more face flexing,
+  with high-density heel and toe weights providing the forgiveness while
+  keeping overall weight and swing weight low. The set runs 6-iron through
+  sand wedge, with matching G Le3 hybrids (22 to 34 degrees) covering the 4H
+  to 7H slots above it. Ping custom-engineered the loft progression for
+  slower swing speeds — 29.5 degrees at the 7-iron with a wide 4.5-degree gap
+  down to the 25-degree 6-iron — and the specs below are the women's standard
+  graphite build with Ping's ULT 250 i shaft. Ping's colour-code (dot) system
+  sets lie angle relative to standard; the lies below are the standard lies.
+  The G Le4 family replaced it in 2026.
+specs:
+  - club: "6"
+    loft: 25.0
+    lie: 61.5
+    length: 37.125
+    offset: 0.21
+    bounce: 7.1
+    swing_weight: C1
+  - club: "7"
+    loft: 29.5
+    lie: 62.0
+    length: 36.5
+    offset: 0.18
+    bounce: 8.1
+    swing_weight: C2
+  - club: "8"
+    loft: 35.0
+    lie: 62.8
+    length: 36.0
+    offset: 0.15
+    bounce: 9.1
+    swing_weight: C2
+  - club: "9"
+    loft: 41.0
+    lie: 63.5
+    length: 35.5
+    offset: 0.13
+    bounce: 10.6
+    swing_weight: C2.5
+  - club: "PW"
+    loft: 46.0
+    lie: 64.1
+    length: 35.0
+    offset: 0.11
+    bounce: 12.0
+    swing_weight: C4
+  - club: "UW"
+    loft: 52.0
+    lie: 64.1
+    length: 35.0
+    offset: 0.11
+    bounce: 12.0
+    swing_weight: C5
+  - club: "SW"
+    loft: 56.0
+    lie: 64.4
+    length: 34.5
+    offset: 0.09
+    bounce: 13.0
+    swing_weight: C6
+stock_shafts:
+  - name: "Ping ULT 250 i (Ultra Lite 45g / Lite 52g)"
+    material: graphite
+sources:
+  - "Ping's own G Le3 Irons product page (ping.com/en-us/golf-clubs/irons/g-le3-iron) — the full loft, lie, length, offset, bounce and swing-weight table for the 6-iron through sand wedge, the 4H-7H hybrid specs, and the ULT 250 i Ultra Lite/Lite stock shafts"
+  - "Ping's G Le3 launch announcement (ping.com 'G Le3 custom-engineered, custom-made for women') and MyGolfSpy / Golf Monthly launch coverage — the 18 July 2023 introduction date, the 17-4 stainless heads, PurFlex cavity badge, metal-wood-style face and high-density heel/toe weighting"
+  - "todays-golfer.com and golf.com coverage of the Ping G Le4 family — the G Le4 launched in March 2026 as the G Le3's replacement, which sets year_discontinued"
+related_models:
+  - slug: "ping/g430-irons"
+    label: "Ping's men's game-improvement iron of the same period: Ping G430"
+faq:
+  - q: "What is the loft of a Ping G Le3 7-iron?"
+    a: "The Ping G Le3 7-iron has a loft of 29.5 degrees, a lie of 62 degrees and a graphite-shaft length of 36.5 inches."
+  - q: "Why does the Ping G Le3 set start at the 6-iron?"
+    a: "Ping designed the G Le3 for moderate swing speeds and replaced the long and mid irons with matching G Le3 hybrids of 22, 26, 30 and 34 degrees (4H-7H), so a full set blends hybrids into the 6-iron through sand wedge."
+  - q: "Are Ping G Le3 irons only for women?"
+    a: "Ping engineered the G Le3 family specifically for women — lighter heads, lighter ULT 250 i shafts and swing weights around C1-C6 — though anyone with a moderate swing speed can play them."
+  - q: "When was the Ping G Le3 released and replaced?"
+    a: "The G Le3 family launched on 18 July 2023 and was replaced by the G Le4 family in 2026."
+confidence: high

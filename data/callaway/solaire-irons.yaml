@@ -1,0 +1,67 @@
+brand: Callaway
+brand_slug: callaway
+model: Solaire
+slug: solaire-irons
+club_type: irons
+year_introduced: 2012
+year_discontinued: 2012
+category: super-game-improvement
+construction: investment cast
+material: cast stainless steel with a deep, wide-soled cavity back
+successor: Callaway Solaire II
+predecessor: null
+description: >
+  The Solaire launched Callaway's long-running women's complete-set line, sold for the
+  2012 season as 9-piece and 14-piece packaged sets rather than as an open iron set. In
+  the full 14-piece configuration the 5-, 6- and 7-irons are replaced by matching
+  hybrids, so the true irons run only from the 8-iron down through pitching, approach and
+  sand wedges, on light women's-flex graphite shafts — the only build offered, and the
+  spec below. Callaway replaced it with the Solaire II during 2012, keeping the 8- and
+  9-iron specs unchanged, and the Solaire name has continued through refreshed
+  generations since. A cheaper Solaire II 9-piece starter set used a different iron
+  makeup, with a 32 degree 7-iron and a 40 degree 9-iron.
+specs:
+  - club: "8"
+    loft: 36.0
+    lie: 63.5
+    length: 35.75
+    swing_weight: C4
+  - club: "9"
+    loft: 39.0
+    lie: 64.5
+    length: 35.5
+    swing_weight: C4
+  - club: "PW"
+    loft: 44.0
+    lie: 65.0
+    length: 35.25
+    swing_weight: C5
+  - club: "AW"
+    loft: 49.0
+    lie: 65.0
+    length: 34.75
+    swing_weight: C5
+  - club: "SW"
+    loft: 54.0
+    lie: 65.0
+    length: 34.75
+    swing_weight: C7
+stock_shafts:
+  - name: "Callaway Solaire women's graphite"
+    material: graphite
+    flex: ["L"]
+sources:
+  - "Archived callawaygolf.com Solaire 14-Piece Complete Set specifications page (archive.org capture, 3 January 2012) — loft, lie angle, length and swing weight for the whole set, including the 8-iron through sand wedge and the hybrid replacements for the 5-, 6- and 7-irons"
+  - "Callaway Golf Pre-Owned ProductSpecs feed for the 2012 Solaire II women's irons (ProductSpecs-Get) — the 8- and 9-iron specs carried over unchanged into the Solaire II, independently matching the archived table"
+  - "Archived callawaygolf.com Solaire II 9-Piece Set specifications page (archive.org capture, 28 May 2012) — the Solaire II starter set's different iron makeup (32 degree 7-iron, 40 degree 9-iron), and evidence that the Solaire II had replaced the original Solaire on Callaway's site during 2012"
+  - "Note on years: the earliest archive capture of the Solaire set pages is 3 January 2012 and the line is catalogued as a 2012 model; a late-2011 announcement cannot be ruled out. year_discontinued is 2012 because the Solaire II superseded it on Callaway's site within the same year. Specs are the women's graphite build — the set was not offered in steel or in a men's spec. Offset was not published and is omitted."
+faq:
+  - q: "What irons come in the Callaway Solaire set?"
+    a: "The 2012 Solaire 14-piece set includes only an 8-iron and 9-iron plus pitching, approach and sand wedges — the 5-, 6- and 7-irons are replaced by matching hybrids of 26, 29 and 32 degrees."
+  - q: "What is the loft of the Callaway Solaire 8-iron?"
+    a: "The Solaire 8-iron has a loft of 36 degrees, with a 63.5 degree lie and a 35.75 inch women's graphite length."
+  - q: "What are the wedge lofts in the Callaway Solaire set?"
+    a: "The pitching wedge is 44 degrees, the approach wedge 49 degrees and the sand wedge 54 degrees, all with a 65 degree lie."
+  - q: "Is there a men's version of the Callaway Solaire?"
+    a: "No. The Solaire line is women's only and was sold exclusively with light women's-flex graphite shafts, so no men's or steel-shaft spec exists."
+confidence: high

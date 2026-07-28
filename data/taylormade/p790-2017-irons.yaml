@@ -94,6 +94,10 @@ related_models:
     label: "Later generation: TaylorMade P790 (2021)"
   - slug: "taylormade/p770-irons"
     label: "Players-iron sibling: TaylorMade P770"
+  - slug: "taylormade/p730-irons"
+    label: "Blade announced the same season: TaylorMade P730"
+  - slug: "taylormade/p750-tour-proto-irons"
+    label: "Compact players sibling of the first P-Series: TaylorMade P750 Tour Proto"
 faq:
   - q: "What is the loft of a TaylorMade P790 (2017) 7-iron?"
     a: "The TaylorMade P790 (2017) 7-iron has a loft of 30.5 degrees, with a 62.5-degree lie and a 36.75-inch steel-shaft length."

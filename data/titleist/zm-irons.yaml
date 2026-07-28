@@ -1,0 +1,103 @@
+brand: Titleist
+brand_slug: titleist
+model: ZM
+slug: zm-irons
+club_type: irons
+year_introduced: 2008
+year_discontinued: 2009
+category: blade
+construction: forged muscleback
+material: forged 1020 mild carbon steel with bright chrome plating
+successor: Titleist 710 MB
+predecessor: Titleist 695.MB
+description: >
+  The Z•M Forged ("Z Muscle") is the traditional muscleback of the four irons
+  Titleist announced in January 2008 alongside the AP1, AP2 and ZB, at retail
+  from 15 March 2008. Titleist's spec page lists it as forged 1020 mild carbon steel, with a compact head,
+  constant blade length and a narrow sole with mild bounce, the Z back design
+  placing the center of gravity in the middle of the face. Lofts moved one
+  degree stronger than the 695.MB from the 6-iron down, to a 35 degree 7-iron
+  and 47 degree pitching wedge, and the 710 MB that replaced it in 2009 kept
+  the ZM specs unchanged. The stock set ran 3-iron through pitching wedge.
+specs:
+  - club: "3"
+    loft: 21
+    lie: 60
+    length: 39.0
+    offset: 0.125
+    bounce: 2
+    swing_weight: D2
+  - club: "4"
+    loft: 24
+    lie: 61
+    length: 38.5
+    offset: 0.120
+    bounce: 3
+    swing_weight: D2
+  - club: "5"
+    loft: 27
+    lie: 62
+    length: 38.0
+    offset: 0.115
+    bounce: 4
+    swing_weight: D2
+  - club: "6"
+    loft: 31
+    lie: 62.5
+    length: 37.5
+    offset: 0.110
+    bounce: 4.5
+    swing_weight: D2
+  - club: "7"
+    loft: 35
+    lie: 63
+    length: 37.0
+    offset: 0.100
+    bounce: 5
+    swing_weight: D2
+  - club: "8"
+    loft: 39
+    lie: 63.5
+    length: 36.5
+    offset: 0.090
+    bounce: 6
+    swing_weight: D2
+  - club: "9"
+    loft: 43
+    lie: 64
+    length: 36.0
+    offset: 0.080
+    bounce: 7
+    swing_weight: D2
+  - club: "PW"
+    loft: 47
+    lie: 64
+    length: 35.75
+    offset: 0.075
+    bounce: 8
+    swing_weight: D2
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+sources:
+  - "Titleist product page, titleist.com/golfclubs/irons/ZM.asp, via the Internet Archive, September 2009 capture (full manufacturer table headed 'Z Muscle Forged Irons': offset, bounce, loft, length, lie, swingweight, 3-iron through P)"
+  - "Same archived page - design 'High performance, traditional muscle back forged irons', construction 'Forged 1020 mild carbon steel', True Temper Dynamic Gold stock shaft, Titleist Tour Velvet Rubber grip, available irons 3-P in right and left hand, $125 steel / $150 graphite per club. Some launch coverage quotes 1025 carbon steel; the figure here follows Titleist's own page."
+  - "TheSandTrap.com, 'Titleist Introduces New Irons for 2008: AP1, AP2, ZB, and ZM', January 2008 - announcement date, 15 March 2008 retail availability, and the ZM replacing the 695.MB; year_introduced uses the January 2008 announcement"
+  - "Cross-check: the table matches the archived Titleist MB-710 manufacturer table digit for digit across loft, lie, length, offset, bounce and swing weight - Titleist carried the ZM specs into the 710 MB unchanged"
+related_models:
+  - slug: "titleist/710-mb-irons"
+    label: "Successor: Titleist 710 MB"
+  - slug: "titleist/695-mb-irons"
+    label: "Predecessor: Titleist 695.MB"
+  - slug: "titleist/zb-irons"
+    label: "Same-generation blended set: Titleist ZB"
+  - slug: "titleist/ap2-2008-irons"
+    label: "Same launch, players cavity: Titleist AP2 (2008)"
+faq:
+  - q: "What is the loft of a Titleist ZM 7-iron?"
+    a: "The Titleist ZM 7-iron is 35 degrees, with a 63 degree lie and a 37 inch standard steel length."
+  - q: "How do the ZM lofts compare with the 695.MB it replaced?"
+    a: "The long irons match, but the ZM is one degree stronger from the 6-iron down: a 35 degree 7-iron against 36 and a 47 degree pitching wedge against 48. The 710 MB then kept the ZM lofts unchanged."
+  - q: "What is the difference between the Titleist ZM and ZB irons?"
+    a: "The ZM is a muscleback throughout with minimal offset and a narrow sole, while the ZB blends cavity back long irons into muscle back short irons with slightly more offset and a wider sole in the 2-7 irons."
+confidence: high

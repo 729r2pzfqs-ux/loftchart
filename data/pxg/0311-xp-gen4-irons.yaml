@@ -84,6 +84,8 @@ sources:
   - "golf.com 'PXG unveils new Gen4 drivers, fairways, hybrids and irons for 2021' and golfwrx.com's GEN4 coverage — the February 2021 announcement, pre-sell date of 9 March, retail availability from 30 March 2021, and the T/P/XP model structure. The April 2021 PXG capture adds that the XP was 'shipping in early April'."
   - "Note: swing weight was not published and is omitted rather than estimated. year_discontinued is 2022, the year PXG announced the GEN5 range."
 related_models:
+  - slug: "pxg/0311-xp-gen3-irons"
+    label: "Predecessor: PXG 0311 XP GEN3"
   - slug: "pxg/0311-xp-gen5-irons"
     label: "Successor: PXG 0311 XP GEN5"
   - slug: "pxg/0311-p-gen4-irons"

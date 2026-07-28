@@ -1,0 +1,114 @@
+brand: PXG
+brand_slug: pxg
+model: 0311 GEN1
+slug: 0311-gen1-irons
+club_type: irons
+year_introduced: 2015
+year_discontinued: 2018
+category: players-distance
+construction: CNC-milled hollow body with TPE injection and tungsten perimeter weighting
+material: carbon steel body with a 1.5 mm HT1770 maraging steel face
+successor: PXG 0311 P GEN2
+predecessor: null
+description: >
+  The 0311 is the iron that launched Parsons Xtreme Golf in 2015 at an
+  unheard-of $300 per club — a hollow, CNC-milled blade-style head injected
+  with TPE (thermoplastic elastomer) behind what PXG billed as the world's
+  thinnest face, 1.5 mm of HT1770 high-strength maraging steel, with
+  high-density tungsten alloy weights around the perimeter to raise MOI.
+  The chart is traditional for the era — a 31-degree 7-iron and 45-degree
+  pitching wedge — and carried over unchanged to the 0311 P GEN2 that
+  replaced it in 2018. A tour version, the 0311T, followed later in 2015 and
+  an Xtreme Forgiveness 0311XF completed the original line. PXG stamps its
+  scoring clubs W, G, S and L; they are listed here as PW, GW, SW and LW.
+  Every set was built to order from PXG's shaft menu, so no stock shaft is
+  recorded.
+specs:
+  - club: "3"
+    loft: 19.0
+    lie: 60.5
+    length: 39.5
+    offset: 0.260
+    bounce: 5.0
+  - club: "4"
+    loft: 21.5
+    lie: 61.0
+    length: 38.875
+    offset: 0.225
+    bounce: 6.0
+  - club: "5"
+    loft: 24.0
+    lie: 61.5
+    length: 38.25
+    offset: 0.195
+    bounce: 7.0
+  - club: "6"
+    loft: 27.0
+    lie: 62.0
+    length: 37.625
+    offset: 0.170
+    bounce: 8.0
+  - club: "7"
+    loft: 31.0
+    lie: 62.5
+    length: 37.0
+    offset: 0.135
+    bounce: 9.0
+  - club: "8"
+    loft: 35.0
+    lie: 63.0
+    length: 36.5
+    offset: 0.105
+    bounce: 10.0
+  - club: "9"
+    loft: 40.0
+    lie: 63.5
+    length: 36.0
+    offset: 0.080
+    bounce: 11.0
+  - club: "PW"
+    loft: 45.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.060
+    bounce: 12.0
+  - club: "GW"
+    loft: 50.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.050
+    bounce: 12.0
+  - club: "SW"
+    loft: 55.0
+    lie: 64.0
+    length: 35.25
+    offset: 0.040
+    bounce: 12.0
+  - club: "LW"
+    loft: 60.0
+    lie: 64.0
+    length: 35.0
+    offset: 0.030
+    bounce: 10.0
+sources:
+  - "PXG's own GEN1 0311 page (pxg.com/en-us/clubs/irons/gen1/0311), archive.org capture of 24 August 2019 — the full 'PXG 0311 GEN1 Irons Specs' table (loft, lie, length, bounce, offset and head weight for the 3-iron through the L wedge, stamped W/G/S/L), plus the technology copy: TPE injection, the 1.5 mm HT1770 maraging steel face billed as the world's thinnest, and CNC-milled hollow body with tungsten alloy perimeter weights."
+  - "golf.com 'PXG introduces new and improved 0311 GEN2 irons for 2018' and golfwrx.com 'After nearly 3 years, PXG finally launches new 0311 (T, P, XF, SGI and X) Gen2 irons' — the original 0311's 2015 debut at $300 per club and its March 2018 replacement by the GEN2 range; golfwrx.com dates the first-generation 0311 launch to July 2015, while the brand itself went public in spring 2015."
+  - "mygolfspy.com 'First Look - PXG 0311 GEN 2 IRONS' — notes that the GEN2 P was the direct replacement for the original 0311 and that GEN2 lofts were identical to GEN1."
+  - "Note: head weights (234-288 g, 3-iron to PW) appear on the archived chart but the schema has no field for them; swing weight was not published and is omitted."
+related_models:
+  - slug: "pxg/0311-p-gen2-irons"
+    label: "Direct successor: PXG 0311 P GEN2"
+  - slug: "pxg/0311-t-gen2-irons"
+    label: "The next generation's tour head: PXG 0311 T GEN2"
+  - slug: "pxg/0311-xf-gen2-irons"
+    label: "The next generation's forgiveness head: PXG 0311 XF GEN2"
+faq:
+  - q: "What is the loft of an original PXG 0311 7-iron?"
+    a: "The original PXG 0311 7-iron has a loft of 31 degrees, a lie of 62.5 degrees and a length of 37.0 inches."
+  - q: "When did the original PXG 0311 irons come out?"
+    a: "In 2015, when Bob Parsons launched Parsons Xtreme Golf; GolfWRX dates the 0311 retail launch to July 2015. The GEN2 range replaced it in March 2018."
+  - q: "Why were the original PXG 0311 irons so expensive?"
+    a: "They sold at $300 per club, roughly triple the going rate in 2015. PXG's pitch was a cost-no-object construction: a CNC-milled hollow body injected with TPE, a 1.5 mm maraging steel face and tungsten perimeter weights, every set built to order."
+  - q: "What replaced the original PXG 0311?"
+    a: "The 0311 P GEN2 of 2018 was its direct replacement, with identical lofts. The GEN2 line also split into T, XF and SGI heads."
+confidence: high

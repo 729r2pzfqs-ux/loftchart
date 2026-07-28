@@ -87,6 +87,8 @@ sources:
 related_models:
   - slug: "pxg/0311-p-gen3-irons"
     label: "Predecessor: PXG 0311 P GEN3"
+  - slug: "pxg/0311-t-gen4-irons"
+    label: "Tour sibling: PXG 0311 T GEN4"
   - slug: "pxg/0311-xp-gen4-irons"
     label: "Game-improvement sibling: PXG 0311 XP GEN4"
   - slug: "pxg/0311-p-gen5-irons"

@@ -112,6 +112,8 @@ sources:
 related_models:
   - slug: "ping/i3-o-size-irons"
     label: "Predecessor: Ping i3 O-Size"
+  - slug: "ping/i3-blade-irons"
+    label: "Predecessor (compact head): Ping i3 Blade"
   - slug: "ping/i5-irons"
     label: "Successor: Ping i5"
   - slug: "ping/g2-irons"

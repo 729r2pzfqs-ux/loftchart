@@ -91,6 +91,8 @@ sources:
   - "golfclubguru.com SIM2 Max OS iron set review — corroborates the 27-degree 7-iron. golfstead.com corroborates the 4-LW availability and the Lamkin Crossline 360 grip."
   - "Note: bounce was not published in the sources consulted and is omitted rather than estimated. Succession: MyGolfSpy's Stealth irons launch coverage (January 2022) states the single Stealth iron replaced both the SIM2 Max and SIM2 Max OS, which sets year_discontinued and the successor field."
 related_models:
+  - slug: "taylormade/sim-max-os-irons"
+    label: "Predecessor: TaylorMade SIM Max OS"
   - slug: "taylormade/sim2-max-irons"
     label: "Standard sibling: TaylorMade SIM2 Max"
   - slug: "taylormade/stealth-irons"

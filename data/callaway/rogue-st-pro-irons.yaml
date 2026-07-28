@@ -9,7 +9,7 @@ category: players-distance
 construction: hollow body with a cup face and tungsten weighting
 material: forged 450 face with a hollow body, high-density tungsten weighting and urethane microspheres
 successor: null
-predecessor: null
+predecessor: Callaway Mavrik Pro
 description: >
   Rogue ST Pro is the compact head in Callaway's 2022 Rogue ST iron family, sitting
   under the Max, Max OS and Max OS Lite. It keeps the hollow body and tungsten
@@ -90,6 +90,8 @@ related_models:
     label: "Oversized model of the same family: Callaway Rogue ST Max OS"
   - slug: "callaway/apex-pro-21-irons"
     label: "Callaway's players iron of the previous year: Callaway Apex Pro 21"
+  - slug: "callaway/mavrik-pro-irons"
+    label: "Predecessor: Callaway Mavrik Pro"
 faq:
   - q: "What is the loft of a Callaway Rogue ST Pro 7-iron?"
     a: "The Callaway Rogue ST Pro 7-iron has a loft of 30.5 degrees, a lie of 62.0 degrees and a length of 37.0 inches."

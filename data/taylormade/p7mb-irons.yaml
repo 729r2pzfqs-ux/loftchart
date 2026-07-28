@@ -9,7 +9,7 @@ category: blade
 construction: forged
 material: 1025 carbon steel
 successor: null
-predecessor: TP MB
+predecessor: P730
 description: >
   The P7MB is TaylorMade's muscleback blade, forged from 1025 carbon steel using
   a compact grain forging process and finished with milled faces and grooves. It
@@ -88,6 +88,8 @@ sources:
 related_models:
   - slug: "taylormade/p7mc-irons"
     label: "Cavity-back sibling: TaylorMade P7MC"
+  - slug: "taylormade/p730-irons"
+    label: "Predecessor: TaylorMade P730"
 faq:
   - q: "What is the loft of a TaylorMade P7MB 7-iron?"
     a: "The TaylorMade P7MB 7-iron has a loft of 35 degrees, with a 62.5-degree lie and a 37.00-inch steel-shaft length."

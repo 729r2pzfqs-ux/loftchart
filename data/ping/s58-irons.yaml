@@ -9,7 +9,7 @@ category: players
 construction: investment cast
 material: stainless steel with a dual-depth cavity and tuning pocket
 successor: Ping S57
-predecessor: null
+predecessor: Ping S59
 description: >
   The S58 is the middle model of Ping's counting-down S series, a compact cast players
   iron with a dual-depth cavity, a tuning pocket and a vertical stabilising bar. Ping
@@ -83,6 +83,8 @@ sources:
   - "Note: the archived Ping S58 chart lists no per-club swing weight, so that key is omitted for every club."
   - "Note: year_discontinued is taken as the year the successor S57 was introduced, per the Ping model chronology already recorded in ping/s57-irons.yaml."
 related_models:
+  - slug: "ping/s59-irons"
+    label: "Predecessor: Ping S59"
   - slug: "ping/s57-irons"
     label: "Successor: Ping S57"
   - slug: "ping/s56-irons"
