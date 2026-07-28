@@ -1,0 +1,90 @@
+brand: Mizuno
+brand_slug: mizuno
+model: MX-25
+slug: mx-25-irons
+club_type: irons
+year_introduced: 2007
+year_discontinued: 2009
+category: players
+construction: Grain Flow Forged with a CNC-milled sole cavity
+material: 1025E mild carbon steel
+successor: null
+predecessor: null
+description: >
+  The MX-25 is the forged member of Mizuno's MX family, and the one that sat closest to
+  the MP line: a Grain Flow Forged 1025E head with a slot milled into the sole to drop
+  the centre of gravity, a small cavity in the long irons and an almost muscle-back
+  profile from the 8-iron down. Offset is far tighter than the cast MX-23 of the same
+  period — 0.114 inches at the 7-iron against 0.161 — and the lofts are a degree weaker
+  through the middle of the set. The published set runs 3-iron through pitching wedge.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 59.5
+    length: 38.75
+    offset: 0.13
+    bounce: 2.0
+  - club: "4"
+    loft: 24.0
+    lie: 60.0
+    length: 38.25
+    offset: 0.126
+    bounce: 2.0
+  - club: "5"
+    loft: 27.0
+    lie: 60.5
+    length: 37.75
+    offset: 0.122
+    bounce: 2.0
+  - club: "6"
+    loft: 30.0
+    lie: 61.0
+    length: 37.25
+    offset: 0.118
+    bounce: 3.0
+  - club: "7"
+    loft: 34.0
+    lie: 61.5
+    length: 36.75
+    offset: 0.114
+    bounce: 3.0
+  - club: "8"
+    loft: 38.0
+    lie: 62.0
+    length: 36.25
+    offset: 0.11
+    bounce: 4.0
+  - club: "9"
+    loft: 42.0
+    lie: 62.5
+    length: 35.75
+    offset: 0.106
+    bounce: 5.0
+  - club: "PW"
+    loft: 46.0
+    lie: 63.0
+    length: 35.5
+    offset: 0.102
+    bounce: 6.0
+sources:
+  - "qsponge.com Mizuno MX-25 spec listing, which reproduces Mizuno's published chart — supplied every loft, lie, length, offset and bounce above."
+  - "todays-golfer.com 'Mizuno MX-25 Better Player Irons Review' — independently confirms the 34-degree 7-iron and the 0.114-inch 7-iron offset, and describes the Grain Flow Forged 1025E construction, the CNC-milled sole slot and the cavity-to-muscleback progression through the set."
+  - "mizunogolf.com official 'Irons Timeline' — places the MX-25 in 2007-2008. Some retailer listings date it to 2006; the manufacturer timeline is used here."
+  - "Note: this chart is identical to the one Mizuno later published for the MP-25. The two are separate models eight years apart that happen to share the same loft, lie, length and offset figures; both are reproduced as published rather than reconciled."
+related_models:
+  - slug: "mizuno/mx-23-irons"
+    label: "Cast MX sibling: Mizuno MX-23"
+  - slug: "mizuno/mx-17-irons"
+    label: "Larger MX sibling: Mizuno MX-17"
+  - slug: "mizuno/mp-32-irons"
+    label: "Mizuno's players iron of the same era: MP-32"
+faq:
+  - q: "What is the loft of a Mizuno MX-25 7-iron?"
+    a: "The Mizuno MX-25 7-iron has a loft of 34 degrees, a lie of 61.5 degrees and a steel-shaft length of 36.75 inches."
+  - q: "When were Mizuno MX-25 irons made?"
+    a: "Mizuno's own irons timeline places the MX-25 in 2007-2008. Retail listings sometimes date it to 2006."
+  - q: "Are Mizuno MX-25 irons forged?"
+    a: "Yes. The MX-25 is Grain Flow Forged from 1025E mild carbon steel, unlike the cast MX-17 and MX-23 sold beside it."
+  - q: "How much offset does a Mizuno MX-25 have?"
+    a: "0.130 inches at the 3-iron down to 0.102 at the pitching wedge — noticeably less than the cast MX-23, which runs 0.240 at the 3-iron."
+confidence: medium

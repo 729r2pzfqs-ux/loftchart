@@ -1,0 +1,90 @@
+brand: Mizuno
+brand_slug: mizuno
+model: JPX-925 Forged
+slug: jpx-925-forged-irons
+club_type: irons
+year_introduced: 2024
+year_discontinued: null
+category: players-distance
+construction: Grain Flow Forged cavity back
+material: forged carbon steel
+successor: null
+predecessor: null
+description: >
+  JPX 925 Forged is the players-distance model in the JPX 925 family, sitting between
+  the cast Hot Metal and Mizuno's Pro line. Lofts run five degrees weaker than the Hot
+  Metal at the 7-iron — 30 against 28 — with a much tighter offset progression,
+  0.150 inches at the 4-iron against the Hot Metal's 0.224, and the bounce climbs a
+  degree per club through the set.
+specs:
+  - club: "4"
+    loft: 21.0
+    lie: 60.5
+    length: 38.75
+    offset: 0.15
+    bounce: 2.0
+  - club: "5"
+    loft: 24.0
+    lie: 61.0
+    length: 38.25
+    offset: 0.142
+    bounce: 3.0
+  - club: "6"
+    loft: 27.0
+    lie: 61.5
+    length: 37.75
+    offset: 0.134
+    bounce: 4.0
+  - club: "7"
+    loft: 30.0
+    lie: 62.0
+    length: 37.25
+    offset: 0.126
+    bounce: 5.0
+  - club: "8"
+    loft: 34.0
+    lie: 62.5
+    length: 36.75
+    offset: 0.118
+    bounce: 6.0
+  - club: "9"
+    loft: 38.0
+    lie: 63.0
+    length: 36.25
+    offset: 0.11
+    bounce: 7.0
+  - club: "PW"
+    loft: 43.0
+    lie: 63.5
+    length: 35.75
+    offset: 0.102
+    bounce: 8.0
+  - club: "GW"
+    loft: 48.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.091
+    bounce: 9.0
+stock_shafts:
+  - name: "FST KBS C-Taper Lite"
+    material: steel
+  - name: "Mitsubishi MMT Iron"
+    material: graphite
+sources:
+  - "2nd Swing Golf specification table for the Mizuno JPX 925 Forged iron set (https://www.2ndswing.com/golf-clubs/iron-sets/mizuno-jpx-925-forged-iron-set) — supplied every loft, lie, length, offset and bounce above, both stock shafts and the Golf Pride MCC grip."
+  - "mygolfspy.com 'Why the New Mizuno JPX 925 Forged Irons Confuse Me' and todays-golfer.com's JPX 925 coverage — the JPX 925 Forged hit the USGA conforming list on 19 August 2024 and launched that autumn. year_introduced records the 2024 announcement; retailers list it as the 2025 line."
+  - "Note: swing weight is omitted — the source table did not carry a swing-weight column. Confidence is medium."
+  - "Note on succession: this database already records the JPX-923 Forged as being succeeded by the Mizuno Pro 245, so no predecessor is asserted here rather than contradicting that entry."
+related_models:
+  - slug: "mizuno/jpx-923-forged-irons"
+    label: "The previous JPX forged iron: Mizuno JPX-923 Forged"
+  - slug: "mizuno/jpx-925-hot-metal-irons"
+    label: "The cast model of the same generation: Mizuno JPX-925 Hot Metal"
+faq:
+  - q: "What is the loft of a Mizuno JPX 925 Forged 7-iron?"
+    a: "The Mizuno JPX 925 Forged 7-iron has a loft of 30 degrees, a lie of 62.0 degrees and a length of 37.25 inches."
+  - q: "What is the difference between JPX 925 Forged and JPX 925 Hot Metal?"
+    a: "The Forged is two to three degrees weaker through the set, carries roughly a third less offset in the long irons, and is a forging rather than a cast Chromoly head."
+  - q: "When were Mizuno JPX 925 Forged irons released?"
+    a: "They reached the USGA conforming list on 19 August 2024 and launched later that year, sold as part of the 2025 range."
+confidence: medium

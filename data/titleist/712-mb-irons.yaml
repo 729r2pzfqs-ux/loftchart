@@ -1,0 +1,98 @@
+brand: Titleist
+brand_slug: titleist
+model: 712 MB
+slug: 712-mb-irons
+club_type: irons
+year_introduced: 2011
+year_discontinued: 2013
+category: blade
+construction: forged
+material: 1025 carbon steel
+successor: Titleist 714 MB
+predecessor: Titleist 710 MB
+description: >
+  The 712 MB is Titleist's muscleback for the 712 generation, forged from a
+  single block of 1025 carbon steel with constant blade length through the set
+  and minimal progressive offset. Lofts are traditional throughout — 35 degrees
+  at the 7-iron, 47 at the pitching wedge — and the chart is the one Titleist
+  then carried, essentially unchanged, through the 714, 716 and 718 musclebacks.
+  Figures are the men's standard right-handed steel build.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 60.0
+    length: 39.00
+    offset: 0.125
+    swing_weight: D2
+  - club: "4"
+    loft: 24.0
+    lie: 61.0
+    length: 38.50
+    offset: 0.120
+    swing_weight: D2
+  - club: "5"
+    loft: 27.0
+    lie: 62.0
+    length: 38.00
+    offset: 0.115
+    swing_weight: D2
+  - club: "6"
+    loft: 31.0
+    lie: 62.5
+    length: 37.50
+    offset: 0.110
+    swing_weight: D2
+  - club: "7"
+    loft: 35.0
+    lie: 63.0
+    length: 37.00
+    offset: 0.100
+    swing_weight: D2
+  - club: "8"
+    loft: 39.0
+    lie: 63.5
+    length: 36.50
+    offset: 0.090
+    swing_weight: D2
+  - club: "9"
+    loft: 43.0
+    lie: 64.0
+    length: 36.00
+    offset: 0.080
+    swing_weight: D2
+  - club: "PW"
+    loft: 47.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.075
+    swing_weight: D2
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+    flex: ["S200", "S300", "X100"]
+  - name: "Nippon N.S. Pro 1150GH Tour"
+    material: steel
+  - name: "Project X"
+    material: steel
+sources:
+  - "2ndswing.com Titleist 712 MB Iron Set specification table — loft, lie, length, offset and swing weight for the 3-iron through pitching wedge, the 3-PW set range and the shaft options listed."
+  - "Note: bounce was not published in the source consulted and is omitted rather than estimated."
+related_models:
+  - slug: "titleist/714-mb-irons"
+    label: "Successor: Titleist 714 MB"
+  - slug: "titleist/710-mb-irons"
+    label: "Predecessor: Titleist 710 MB"
+  - slug: "titleist/712-cb-irons"
+    label: "Cavity-back sibling: Titleist 712 CB"
+  - slug: "titleist/712-ap2-irons"
+    label: "Players sibling: Titleist 712 AP2"
+faq:
+  - q: "What is the loft of a Titleist 712 MB 7-iron?"
+    a: "The Titleist 712 MB 7-iron has a loft of 35 degrees, a lie of 63.0 degrees and a steel-shaft length of 37.00 inches."
+  - q: "When were Titleist 712 MB irons made?"
+    a: "The 712 generation was introduced in 2011 and replaced by the 714 line in 2013."
+  - q: "What is the difference between the Titleist 712 MB and 712 CB?"
+    a: "The MB is a full muscleback; the CB is a cavity back. They share the same lofts, lies and lengths from the 3-iron down, and the CB adds a 2-iron and carries slightly more offset in the long irons."
+  - q: "What is the pitching wedge loft on the Titleist 712 MB?"
+    a: "47 degrees — the traditional muscleback figure Titleist kept through the 714, 716 and 718 MB as well."
+confidence: medium

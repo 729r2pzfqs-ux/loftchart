@@ -1,0 +1,104 @@
+brand: Ping
+brand_slug: ping
+model: G710
+slug: g710-irons
+club_type: irons
+year_introduced: 2020
+year_discontinued: 2024
+category: super-game-improvement
+construction: hollow body with a maraging steel face
+material: maraging C300 steel face plasma-welded to a 17-4 stainless body, with tungsten toe and hosel weights
+successor: Ping G730
+predecessor: Ping G700
+description: >
+  The G710 is the second generation of Ping's hollow-body distance iron and
+  carries the G700's loft, lie, length and offset chart over unchanged — a
+  29.5-degree 7-iron at 37.00 inches. What changed is the mass: tungsten toe
+  and hosel weights push the moment of inertia about 5 per cent above the G700,
+  the maraging face is machined rather than only plasma-welded, and the body
+  gets a hydropearl chrome finish. Lies below are the black (standard) code.
+specs:
+  - club: "4"
+    loft: 20.0
+    lie: 60.5
+    length: 38.875
+    offset: 0.29
+    swing_weight: C9
+  - club: "5"
+    loft: 23.0
+    lie: 61.0
+    length: 38.25
+    offset: 0.26
+    swing_weight: C9
+  - club: "6"
+    loft: 26.0
+    lie: 61.5
+    length: 37.625
+    offset: 0.23
+    swing_weight: C9
+  - club: "7"
+    loft: 29.5
+    lie: 62.0
+    length: 37.00
+    offset: 0.20
+    swing_weight: C9
+  - club: "8"
+    loft: 34.0
+    lie: 62.8
+    length: 36.50
+    offset: 0.18
+    swing_weight: C9
+  - club: "9"
+    loft: 39.0
+    lie: 63.5
+    length: 36.00
+    offset: 0.16
+    swing_weight: C9.5
+  - club: "PW"
+    loft: 44.0
+    lie: 64.1
+    length: 35.50
+    offset: 0.13
+    swing_weight: D1
+  - club: "UW"
+    loft: 49.0
+    lie: 64.1
+    length: 35.50
+    offset: 0.11
+    swing_weight: D1
+  - club: "SW"
+    loft: 54.0
+    lie: 64.4
+    length: 35.25
+    offset: 0.09
+    swing_weight: D2
+stock_shafts:
+  - name: "Ping AWT 2.0"
+    material: steel
+  - name: "True Temper Elevate MPH 95"
+    material: steel
+  - name: "Ping Alta CB Red"
+    material: graphite
+  - name: "Ping Alta Distanza Black"
+    material: graphite
+sources:
+  - "2ndswing.com Ping G710 Iron Set specification table — loft, lie, length, offset and swing weight for the 4-iron through sand wedge, and the AWT 2.0 stock shaft."
+  - "golfalot.com and todays-golfer.com G710 reviews — confirm the 29.5-degree 7-iron, the 4-iron-to-SW set range, the tungsten toe and hosel weights, the machined maraging face, the roughly 5 per cent MOI gain over the G700, and the 2020 launch."
+  - "Note on the chart: the G710 table published by 2ndswing is identical to its G700 table in every column. That matches Ping's positioning of the G710 as a same-spec mass-properties update, and the 7-iron loft is independently corroborated, but no Ping spec sheet was located, so confidence is medium."
+related_models:
+  - slug: "ping/g700-irons"
+    label: "Predecessor: Ping G700"
+  - slug: "ping/g730-irons"
+    label: "Successor: Ping G730"
+  - slug: "ping/g425-irons"
+    label: "Game-improvement sibling: Ping G425"
+faq:
+  - q: "What is the loft of a Ping G710 7-iron?"
+    a: "The Ping G710 7-iron has a loft of 29.5 degrees, a standard (black dot) lie of 62.0 degrees and a steel-shaft length of 37.00 inches."
+  - q: "When were Ping G710 irons made?"
+    a: "The G710 arrived in 2020, following the G700, and was replaced by the G730 in 2024."
+  - q: "Are Ping G700 and G710 lofts the same?"
+    a: "Yes. Both run 20, 23, 26, 29.5, 34, 39, 44, 49 and 54 degrees from 4-iron to sand wedge, at the same lies, lengths and offsets. The G710's gains come from tungsten toe and hosel weighting and a machined face, not from stronger lofts."
+  - q: "What is the pitching wedge loft on the Ping G710?"
+    a: "44 degrees, with a 49-degree utility wedge and a 54-degree sand wedge completing the set."
+confidence: medium

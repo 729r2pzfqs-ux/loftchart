@@ -1,0 +1,94 @@
+brand: Cobra
+brand_slug: cobra
+model: King MIM Tour
+slug: king-mim-tour-irons
+club_type: irons
+year_introduced: 2021
+year_discontinued: 2023
+category: players
+construction: metal injection moulded one-piece head
+material: 304 stainless steel, metal injection moulded
+successor: Cobra King Tour
+predecessor: null
+description: >
+  The King MIM Tour is one of the few production irons made by metal injection
+  moulding rather than forging or investment casting — the head is formed from
+  powdered stainless under pressure, which Cobra used to hold tighter tolerances than
+  a cast head allows. The set is built long for a players iron, at 39.5 inches for the
+  3-iron and 37.5 for the 7, with traditional lofts and a 33-degree 7-iron.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 60.5
+    length: 39.5
+    offset: 0.15
+    swing_weight: D2
+  - club: "4"
+    loft: 23.0
+    lie: 61.0
+    length: 39.0
+    offset: 0.134
+    swing_weight: D2
+  - club: "5"
+    loft: 26.0
+    lie: 61.5
+    length: 38.5
+    offset: 0.122
+    swing_weight: D2
+  - club: "6"
+    loft: 29.0
+    lie: 62.0
+    length: 38.0
+    offset: 0.114
+    swing_weight: D2
+  - club: "7"
+    loft: 33.0
+    lie: 62.5
+    length: 37.5
+    offset: 0.098
+    swing_weight: D2
+  - club: "8"
+    loft: 37.0
+    lie: 63.0
+    length: 37.0
+    offset: 0.091
+    swing_weight: D2
+  - club: "9"
+    loft: 41.0
+    lie: 63.5
+    length: 36.5
+    offset: 0.083
+    swing_weight: D2
+  - club: "PW"
+    loft: 45.0
+    lie: 64.0
+    length: 36.25
+    offset: 0.075
+    swing_weight: D3
+  - club: "GW"
+    loft: 50.0
+    lie: 64.0
+    length: 36.0
+    offset: 0.075
+    swing_weight: D3
+stock_shafts:
+  - name: "FST KBS $-Taper"
+    material: steel
+sources:
+  - "2nd Swing Golf specification table for the Cobra KING MIM Tour iron set (https://www.2ndswing.com/golf-clubs/iron-sets/cobra-king-mim-tour-iron-set) — supplied every loft, lie, length, offset and swing weight above and the KBS $-Taper stock shaft."
+  - "Note on offset: the source publishes offset in millimetres (3.8 mm down to 1.9 mm), converted to inches here."
+  - "todays-golfer.com 'Cobra King Tour, CB and MB Irons (2023) Review' — identifies the KING MIM Tour as the predecessor of the 2023 King Tour and dates it to 2021, which is the year recorded here."
+  - "Note: bounce is omitted — the source table did not carry a bounce column. Confidence is medium; the 2021 date comes from a review's reference to the model rather than a Cobra press release."
+related_models:
+  - slug: "cobra/king-tour-irons"
+    label: "Successor: Cobra King Tour"
+  - slug: "cobra/king-forged-tec-irons"
+    label: "Cobra's players-distance iron of the period: Cobra King Forged Tec"
+faq:
+  - q: "What is the loft of a Cobra King MIM Tour 7-iron?"
+    a: "The Cobra King MIM Tour 7-iron has a loft of 33 degrees, a lie of 62.5 degrees and a length of 37.5 inches."
+  - q: "What does MIM mean on a Cobra iron?"
+    a: "Metal injection moulding — the head is formed from powdered stainless steel under pressure rather than forged or cast. Cobra used it to hold tighter shape tolerances."
+  - q: "When were Cobra King MIM Tour irons made?"
+    a: "In 2021. Cobra replaced them with the forged King Tour, which reached retail in February 2023."
+confidence: medium

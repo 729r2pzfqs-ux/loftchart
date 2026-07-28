@@ -1,0 +1,85 @@
+brand: Honma
+brand_slug: honma
+model: TW747 V
+slug: tw747-v-irons
+club_type: irons
+year_introduced: 2018
+year_discontinued: null
+category: players
+construction: forged
+material: soft carbon steel, precision forged
+successor: null
+predecessor: null
+description: >
+  The V is the cavity-back players iron of Honma's 2018 Tour World 747 range, a
+  thin-topline shape with progressive offset and a progressive centre of gravity
+  through the set. Lofts sit a touch stronger than a traditional players iron —
+  the 7-iron is 32 degrees. Honma numbers the scoring clubs rather than lettering
+  them, so the club shown as 10 is the pitching wedge.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 59.5
+    length: 38.75
+    offset: 0.11
+    swing_weight: D2
+  - club: "4"
+    loft: 22.0
+    lie: 60.0
+    length: 38.25
+    offset: 0.102
+    swing_weight: D2
+  - club: "5"
+    loft: 25.0
+    lie: 60.5
+    length: 37.75
+    offset: 0.083
+    swing_weight: D2
+  - club: "6"
+    loft: 28.0
+    lie: 61.0
+    length: 37.25
+    offset: 0.075
+    swing_weight: D2
+  - club: "7"
+    loft: 32.0
+    lie: 61.5
+    length: 36.75
+    swing_weight: D2
+  - club: "8"
+    loft: 36.0
+    lie: 62.0
+    length: 36.25
+    swing_weight: D2
+  - club: "9"
+    loft: 41.0
+    lie: 62.5
+    length: 35.75
+    swing_weight: D2
+  - club: "10"
+    loft: 46.0
+    lie: 63.0
+    length: 35.25
+    swing_weight: D2
+stock_shafts:
+  - name: "True Temper AMT Tour White"
+    material: steel
+    flex: ["R300", "S200", "X100"]
+sources:
+  - "Honma's own TW747 V product page, specification table (https://honmagolf.com/sea/product-details/2473) — supplied every loft, lie, length and the D2 swing weight for the S200 build, the AMT Tour White stock shaft and the eight-club 3-10 set makeup."
+  - "Note on offset: Honma publishes offset in millimetres (2.80, 2.60, 2.10 and 1.90 mm for the 3 to 6 irons). Those are converted to inches here. Honma does not publish offset for the 7-iron and below, so the key is omitted for those clubs rather than estimated."
+  - "mygolfway.com 'Honma Golf – New ground-breaking TWorld747 range' — the TW747 range was announced on 5 October 2018, which is the year recorded here."
+  - "Note: year_discontinued is null. The TW757 range that followed in 2022 shipped B, Vx and P heads with no direct V equivalent, so no successor is recorded."
+related_models:
+  - slug: "honma/tw747-vx-irons"
+    label: "Same generation, stronger-lofted players iron: Honma TW747 Vx"
+  - slug: "honma/tw747-p-irons"
+    label: "Same generation, players-distance head: Honma TW747 P"
+faq:
+  - q: "What is the loft of a Honma TW747 V 7-iron?"
+    a: "The Honma TW747 V 7-iron has a loft of 32 degrees, a lie of 61.5 degrees and a length of 36.75 inches."
+  - q: "What does the 10-iron in a Honma TW747 V set mean?"
+    a: "It is the pitching wedge. Honma numbers its scoring clubs rather than stamping PW and AW, so the 10 at 46 degrees is the set's pitching wedge."
+  - q: "When were the Honma TW747 irons released?"
+    a: "Honma announced the Tour World 747 range on 5 October 2018."
+confidence: high

@@ -1,0 +1,77 @@
+brand: Callaway
+brand_slug: callaway
+model: X Forged (2018)
+slug: x-forged-2018-irons
+club_type: irons
+year_introduced: 2018
+year_discontinued: 2021
+category: players
+construction: triple-net forged
+material: 1025 carbon steel
+successor: Callaway Apex MB 21
+predecessor: null
+description: >
+  The 2018 X Forged is Callaway's tour cavity back of that era: a streamlined
+  cavity, a compact profile, a thin top line and minimal offset, forged in
+  Callaway's triple-net process from 1025 carbon steel. The sole is tri-level,
+  with a bevelled leading and trailing edge, and the face carries 20V grooves.
+  Lofts are traditional — 33 degrees at the 7-iron, 46 at the pitching wedge.
+  Figures are the men's standard right-handed steel build.
+specs:
+  - club: "4"
+    loft: 23.0
+    lie: 60.5
+    length: 38.50
+    offset: 0.125
+  - club: "5"
+    loft: 26.0
+    lie: 61.0
+    length: 38.00
+    offset: 0.117
+  - club: "6"
+    loft: 29.0
+    lie: 61.5
+    length: 37.50
+    offset: 0.108
+  - club: "7"
+    loft: 33.0
+    lie: 62.0
+    length: 37.00
+    offset: 0.096
+  - club: "8"
+    loft: 37.0
+    lie: 62.5
+    length: 36.50
+    offset: 0.085
+  - club: "9"
+    loft: 41.0
+    lie: 63.0
+    length: 36.00
+    offset: 0.074
+  - club: "PW"
+    loft: 46.0
+    lie: 63.25
+    length: 35.75
+    offset: 0.061
+stock_shafts:
+  - name: "True Temper Dynamic Gold Mid 115"
+    material: steel
+sources:
+  - "Callaway 2018 X Forged published specification chart as reproduced in retailer and review listings (callawaygolfpreowned.com 2018 X Forged listing and golfalot.com 'Callaway X-Forged 2018 Irons Review') — loft, lie, length and offset (in millimetres) for the 4-iron through pitching wedge, plus the Dynamic Gold Mid 115 stock shaft and Lamkin Crossline grip. Offset is converted to inches here."
+  - "2ndswing.com Callaway 2018 X Forged Iron Set page — confirms the forged 1025 carbon steel, the triple-net forging, the tour-configured sole and the 20V grooves, and lists 3-PW and 4-PW as the set ranges sold."
+  - "Note: bounce and swing weight were not published in the sources consulted and are omitted rather than estimated."
+related_models:
+  - slug: "callaway/apex-19-irons"
+    label: "Callaway's forged players-distance iron of the same era: Callaway Apex 19"
+  - slug: "callaway/apex-21-irons"
+    label: "Later Apex generation: Callaway Apex 21"
+faq:
+  - q: "What is the loft of a Callaway X Forged (2018) 7-iron?"
+    a: "The 2018 Callaway X Forged 7-iron has a loft of 33 degrees, a lie of 62.0 degrees and a steel-shaft length of 37.00 inches."
+  - q: "When was the 2018 Callaway X Forged made?"
+    a: "It was introduced in 2018 and was the last X Forged before Callaway consolidated its tour irons under the Apex MB and Apex Pro names."
+  - q: "What is triple-net forging?"
+    a: "Callaway's term for forging the head in three successive strikes, each closer to the finished shape, which lets the final form be produced with less material removal and a more consistent grain."
+  - q: "Does the Callaway X Forged (2018) come in a 3-iron?"
+    a: "Sets were sold as 3-PW and 4-PW, but the published specification chart runs from the 4-iron down, which is what is recorded here."
+confidence: medium

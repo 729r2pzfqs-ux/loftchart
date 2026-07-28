@@ -1,0 +1,87 @@
+brand: PXG
+brand_slug: pxg
+model: 0311 XP GEN5
+slug: 0311-xp-gen5-irons
+club_type: irons
+year_introduced: 2022
+year_discontinued: 2023
+category: game-improvement
+construction: forged hollow body with an XCOR2 core
+material: forged 8620 carbon steel body with an HT1770 maraging steel face
+successor: PXG 0311 XP GEN6
+predecessor: PXG 0311 XP GEN4
+description: >
+  XP stands for Xtreme Performance, and the 0311 XP is the largest head in
+  PXG's GEN5 family — the widest sole, the most offset and by some way the
+  strongest lofts, at 27 degrees for the 7-iron and 41 for the pitching wedge.
+  It is also built long, 39.375 inches at the 4-iron against 38.875 for the P
+  and T, and it carries the set down to a 47-degree gap wedge to keep the
+  gapping usable underneath a 41-degree pitching wedge.
+specs:
+  - club: "4"
+    loft: 18.0
+    lie: 60.5
+    length: 39.375
+    offset: 0.240
+    bounce: 6.0
+  - club: "5"
+    loft: 20.0
+    lie: 61.0
+    length: 38.75
+    offset: 0.210
+    bounce: 7.0
+  - club: "6"
+    loft: 23.0
+    lie: 61.5
+    length: 38.125
+    offset: 0.180
+    bounce: 8.0
+  - club: "7"
+    loft: 27.0
+    lie: 62.0
+    length: 37.50
+    offset: 0.150
+    bounce: 9.0
+  - club: "8"
+    loft: 31.0
+    lie: 62.5
+    length: 37.00
+    offset: 0.120
+    bounce: 10.0
+  - club: "9"
+    loft: 36.0
+    lie: 63.0
+    length: 36.50
+    offset: 0.095
+    bounce: 11.0
+  - club: "PW"
+    loft: 41.0
+    lie: 63.5
+    length: 36.25
+    offset: 0.070
+    bounce: 12.0
+  - club: "GW"
+    loft: 47.0
+    lie: 63.5
+    length: 36.00
+    offset: 0.060
+    bounce: 12.0
+sources:
+  - "2ndswing.com PXG 0311 XP GEN5 Chrome Iron Set specification table — loft, lie, length, offset and bounce for the 4-iron through gap wedge."
+  - "pluggedingolf.com 'PXG 0311 XP GEN5 Irons Review' and mygolfspy.com 'PXG 0311 GEN5 Irons' — the XP as the largest head of the GEN5 family, aimed at mid to high handicap players."
+  - "Note: swing weight was not published in the source consulted and is omitted rather than estimated. PXG builds to order, so no single stock shaft is recorded."
+related_models:
+  - slug: "pxg/0311-p-gen5-irons"
+    label: "Players sibling: PXG 0311 P GEN5"
+  - slug: "pxg/0311-t-gen5-irons"
+    label: "Tour sibling: PXG 0311 T GEN5"
+faq:
+  - q: "What is the loft of a PXG 0311 XP GEN5 7-iron?"
+    a: "The PXG 0311 XP GEN5 7-iron has a loft of 27 degrees, a lie of 62.0 degrees and a length of 37.50 inches."
+  - q: "Are PXG 0311 XP lofts strong?"
+    a: "Yes — 27 degrees at the 7-iron and 41 at the pitching wedge, three degrees stronger than the 0311 P and a full five stronger than the 0311 T of the same generation."
+  - q: "Why is the PXG 0311 XP built longer than the P?"
+    a: "Half an inch longer at the 4-iron and half an inch at the 7-iron, to add clubhead speed for the mid-to-high handicap player the XP is aimed at."
+  - q: "What wedge lofts does the PXG 0311 XP GEN5 use?"
+    a: "A 41-degree pitching wedge and a 47-degree gap wedge, which is where the strong set lofts force the gapping."
+confidence: medium

@@ -9,7 +9,7 @@ category: players-distance
 construction: forged hollow body
 material: forged 4140 carbon steel face with 8620 carbon steel body
 successor: null
-predecessor: P790 (2017)
+predecessor: P790 (2019)
 description: >
   The 2021 P790 is the third generation of TaylorMade's hollow-body forged
   distance iron, replacing the 2019 model and using a thinner forged face
@@ -100,8 +100,12 @@ sources:
   - "Archived taylormadegolf.com 2021 P790 Irons product page (2021-P790-Irons/DW-TA228.html via archive.org) - stock shaft and grip listings"
   - "2ndswing.com TaylorMade 2021 P790 Iron Set spec table (independent corroboration of loft, lie, length and offset)"
 related_models:
+  - slug: "taylormade/p790-2019-irons"
+    label: "Predecessor: TaylorMade P790 (2019)"
+  - slug: "taylormade/p790-2023-irons"
+    label: "Successor: TaylorMade P790 (2023)"
   - slug: "taylormade/p790-2017-irons"
-    label: "Predecessor: TaylorMade P790 (2017)"
+    label: "First generation: TaylorMade P790 (2017)"
   - slug: "taylormade/p770-irons"
     label: "Players-iron sibling: TaylorMade P770"
 faq:

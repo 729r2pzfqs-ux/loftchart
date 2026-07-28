@@ -4,7 +4,7 @@ model: Apex CF16
 slug: apex-cf16-irons
 club_type: irons
 year_introduced: 2016
-year_discontinued: null
+year_discontinued: 2019
 category: players-distance
 construction: forged
 material: quadruple-net forged 1025 mild carbon steel body with a laser-welded forged cup face
@@ -88,6 +88,7 @@ sources:
   - "2nd Swing Golf Callaway Apex CF16 iron set spec table (2ndswing.com/golf-clubs/iron-sets/callaway-apex-cf16-iron-set) — loft, lie, length, offset and swingweight"
   - "Callaway Golf Pre-Owned Apex CF16 product specs (callawaygolfpreowned.com/iron-sets/irons-2016-apex.html) — independently matches the 2nd Swing table on every loft, lie and length"
   - "Golfalot, 'Callaway unveil two new Apex irons' (September 2015) — quadruple-net forged 1025 carbon steel construction, 360 Face Cup in the 3-7 irons only, and the True Temper XP 95 stock steel shaft"
+  - "Note on year_discontinued: recorded as 2019, the year the successor was announced — the Apex 19 was announced in 2019. This database dates a model's end to the announcement of its replacement, not to the last day it was sold, so sets remained on shop floors after this date."
 related_models:
   - slug: "callaway/apex-irons"
     label: "Predecessor: Callaway Apex (2014)"

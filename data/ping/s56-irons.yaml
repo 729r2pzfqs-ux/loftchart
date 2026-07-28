@@ -4,7 +4,7 @@ model: S56
 slug: s56-irons
 club_type: irons
 year_introduced: 2010
-year_discontinued: null
+year_discontinued: 2013
 category: players
 construction: investment cast
 material: stainless steel with a tungsten toe weight
@@ -73,7 +73,7 @@ specs:
 sources:
   - "Official Ping specification chart for the S56 irons (ping.com product spec page via archive.org)"
   - "Note: the archived S56 chart does not list per-club bounce; that key is omitted."
-  - "Note: year_discontinued is not recorded — the S55 succeeded the S56, but the chronology data does not pin down the year."
+  - "Note on year_discontinued: recorded as 2013, the year the successor was announced — the S55 was announced in 2013. This database dates a model's end to the announcement of its replacement, not to the last day it was sold, so sets remained on shop floors after this date."
 faq:
   - q: "What is the loft of a Ping S56 7-iron?"
     a: "The Ping S56 7-iron has a loft of 34.25 degrees, a standard (black dot) lie of 62.25 degrees and a steel-shaft length of 36.75 inches."

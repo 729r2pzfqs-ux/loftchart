@@ -1,0 +1,99 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: P770 (2023)
+slug: p770-2023-irons
+club_type: irons
+year_introduced: 2023
+year_discontinued: null
+category: players
+construction: forged hollow body
+material: forged 4140 carbon steel face with a forged 8620 carbon steel body
+successor: null
+predecessor: P770
+description: >
+  The 2023 P770 is the compact hollow body that sits between the P7MC blade-ish
+  cavity and the P790 distance iron. Against the previous P770 it cuts offset in
+  the long irons to suit a better player's eye, keeps the thin forged 4140 face
+  over a Speed Pocket, and uses the FLTD CG progression so the centre of gravity
+  is lowest in the long irons and rises into the scoring clubs. Lofts are two to
+  three degrees weaker than the P790 through the set — 33 degrees at the 7-iron
+  against 30.5. Figures are the men's standard right-handed steel build.
+specs:
+  - club: "3"
+    loft: 19.5
+    lie: 60.5
+    length: 39.00
+    offset: 0.130
+    swing_weight: D1
+  - club: "4"
+    loft: 22.5
+    lie: 60.5
+    length: 38.50
+    offset: 0.118
+    swing_weight: D1
+  - club: "5"
+    loft: 25.5
+    lie: 61.0
+    length: 38.00
+    offset: 0.110
+    swing_weight: D1
+  - club: "6"
+    loft: 29.0
+    lie: 61.5
+    length: 37.50
+    offset: 0.102
+    swing_weight: D1
+  - club: "7"
+    loft: 33.0
+    lie: 62.0
+    length: 37.00
+    offset: 0.094
+    swing_weight: D1
+  - club: "8"
+    loft: 37.0
+    lie: 62.5
+    length: 36.50
+    offset: 0.087
+    swing_weight: D1
+  - club: "9"
+    loft: 41.0
+    lie: 63.0
+    length: 36.00
+    offset: 0.075
+    swing_weight: D1
+  - club: "PW"
+    loft: 46.0
+    lie: 63.5
+    length: 35.75
+    offset: 0.063
+    swing_weight: D2
+  - club: "AW"
+    loft: 51.0
+    lie: 63.5
+    length: 35.50
+    offset: 0.063
+    swing_weight: D2
+stock_shafts:
+  - name: "FST KBS Tour"
+    material: steel
+sources:
+  - "2ndswing.com TaylorMade 2023 P770 Iron Set specification table — loft, lie, length, offset (in millimetres) and swing weight for the 3-iron through approach wedge, the 4-PW stock make-up, the KBS Tour stock shaft and the Golf Pride Z-Grip 360 grip. Offset is converted to inches here."
+  - "pluggedingolf.com '2023 TaylorMade P770 Irons Review' — confirms the 2023 launch, the forged hollow-body construction with a thin forged 4140 face, the reduced long-iron offset against the previous P770, and the FLTD CG progression."
+  - "Note: bounce was not published in the sources consulted and is omitted rather than estimated."
+related_models:
+  - slug: "taylormade/p770-irons"
+    label: "Predecessor: TaylorMade P770"
+  - slug: "taylormade/p790-2023-irons"
+    label: "Distance sibling: TaylorMade P790 (2023)"
+  - slug: "taylormade/p7mc-irons"
+    label: "Players sibling: TaylorMade P7MC"
+faq:
+  - q: "What is the loft of a TaylorMade P770 (2023) 7-iron?"
+    a: "The 2023 P770 7-iron has a loft of 33 degrees, a lie of 62.0 degrees and a steel-shaft length of 37.00 inches."
+  - q: "How do 2023 P770 lofts compare with the P790?"
+    a: "The P770 is two to three degrees weaker through the set — 33 degrees at the 7-iron against the P790's 30.5, and a 46-degree pitching wedge against 45 — at the same lengths."
+  - q: "What changed between the 2020 and 2023 P770?"
+    a: "The 2023 model cuts offset in the long irons for a cleaner look at address and adopts the FLTD CG progression, while keeping the forged hollow-body construction with a thin forged 4140 face."
+  - q: "What is the pitching wedge loft on the 2023 P770?"
+    a: "46 degrees, with a 51-degree approach wedge below it."
+confidence: medium

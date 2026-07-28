@@ -1,0 +1,107 @@
+brand: Ping
+brand_slug: ping
+model: G700
+slug: g700-irons
+club_type: irons
+year_introduced: 2018
+year_discontinued: 2020
+category: super-game-improvement
+construction: hollow body with a maraging steel face
+material: maraging C300 steel face plasma-welded to a 17-4 stainless body
+successor: Ping G710
+predecessor: null
+description: >
+  The G700 was Ping's first hollow-body distance iron, built like a metalwood:
+  a thin maraging C300 face plasma-welded to a hollow 17-4 stainless body with
+  internal metal-injection-moulded weighting. It sits a full club stronger than
+  the G400 of the same period, with a 29.5-degree 7-iron and a 44-degree
+  pitching wedge, and is built long — the 4-iron measures 38.875 inches. Head
+  weight is light enough that the stock steel build comes out at C9. Lies below
+  are the black (standard) colour code.
+specs:
+  - club: "4"
+    loft: 20.0
+    lie: 60.5
+    length: 38.875
+    offset: 0.29
+    swing_weight: C9
+  - club: "5"
+    loft: 23.0
+    lie: 61.0
+    length: 38.25
+    offset: 0.26
+    swing_weight: C9
+  - club: "6"
+    loft: 26.0
+    lie: 61.5
+    length: 37.625
+    offset: 0.23
+    swing_weight: C9
+  - club: "7"
+    loft: 29.5
+    lie: 62.0
+    length: 37.00
+    offset: 0.20
+    swing_weight: C9
+  - club: "8"
+    loft: 34.0
+    lie: 62.8
+    length: 36.50
+    offset: 0.18
+    swing_weight: C9
+  - club: "9"
+    loft: 39.0
+    lie: 63.5
+    length: 36.00
+    offset: 0.16
+    swing_weight: C9.5
+  - club: "PW"
+    loft: 44.0
+    lie: 64.1
+    length: 35.50
+    offset: 0.13
+    swing_weight: D1
+  - club: "UW"
+    loft: 49.0
+    lie: 64.1
+    length: 35.50
+    offset: 0.11
+    swing_weight: D1
+  - club: "SW"
+    loft: 54.0
+    lie: 64.4
+    length: 35.25
+    offset: 0.09
+    swing_weight: D2
+stock_shafts:
+  - name: "Ping AWT 2.0"
+    material: steel
+  - name: "True Temper Dynamic Gold"
+    material: steel
+  - name: "FST KBS Tour"
+    material: steel
+  - name: "Ping Alta CB"
+    material: graphite
+  - name: "UST Recoil ES SmacWrap"
+    material: graphite
+sources:
+  - "2ndswing.com Ping G700 Iron Set specification table — loft, lie, length, offset and swing weight for the 4-iron through sand wedge, plus the stock shaft list."
+  - "swingyard.com 'PING Irons by Year' — dates the G700 to 2018 and the G710 to 2020."
+  - "Note: bounce was not published in the source consulted and is omitted rather than estimated. Confidence is medium because no Ping spec sheet for the discontinued model was located."
+related_models:
+  - slug: "ping/g710-irons"
+    label: "Successor: Ping G710"
+  - slug: "ping/g400-irons"
+    label: "Game-improvement sibling: Ping G400"
+  - slug: "ping/i500-irons"
+    label: "Ping's players-distance hollow body of the same era: Ping i500"
+faq:
+  - q: "What is the loft of a Ping G700 7-iron?"
+    a: "The Ping G700 7-iron has a loft of 29.5 degrees, a standard (black dot) lie of 62.0 degrees and a steel-shaft length of 37.00 inches."
+  - q: "When were Ping G700 irons made?"
+    a: "The G700 was introduced in 2018 and was replaced by the G710 in 2020."
+  - q: "How strong are Ping G700 lofts?"
+    a: "Very strong for the period. The 7-iron is 29.5 degrees and the pitching wedge 44 degrees, about a club stronger than the G400 of the same era."
+  - q: "Why is the Ping G700 swing weight only C9?"
+    a: "The hollow head is light and the set is built long — 38.875 inches at the 4-iron — so the stock steel build measures C9 through the mid irons and rises to D1 in the wedges."
+confidence: medium

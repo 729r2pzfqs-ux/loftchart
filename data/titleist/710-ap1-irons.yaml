@@ -1,0 +1,97 @@
+brand: Titleist
+brand_slug: titleist
+model: 710 AP1
+slug: 710-ap1-irons
+club_type: irons
+year_introduced: 2009
+year_discontinued: 2011
+category: game-improvement
+construction: cast dual cavity with tungsten sole weighting
+material: 17-4 stainless steel with a tungsten sole insert
+successor: Titleist 712 AP1
+predecessor: null
+description: >
+  The 710 AP1 is Titleist's dual-cavity game-improvement iron, with a tungsten weight
+  low in the sole and the largest offset in the 710 range — 0.245 inches at the
+  3-iron, more than twice the AP2's. Lofts are moderately strong for 2009 with a
+  33-degree 7-iron, and the set carries a 50-degree gap wedge as stock. Titleist
+  numbered the 710 range for its model year, so these were sold as the 2010 line.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 60.0
+    length: 39.0
+    offset: 0.245
+    swing_weight: D1
+  - club: "4"
+    loft: 23.0
+    lie: 61.0
+    length: 38.5
+    offset: 0.22
+    swing_weight: D1
+  - club: "5"
+    loft: 26.0
+    lie: 62.0
+    length: 38.0
+    offset: 0.195
+    swing_weight: D1
+  - club: "6"
+    loft: 29.0
+    lie: 62.5
+    length: 37.5
+    offset: 0.17
+    swing_weight: D1
+  - club: "7"
+    loft: 33.0
+    lie: 63.0
+    length: 37.0
+    offset: 0.145
+    swing_weight: D1
+  - club: "8"
+    loft: 37.0
+    lie: 63.5
+    length: 36.5
+    offset: 0.125
+    swing_weight: D1
+  - club: "9"
+    loft: 41.0
+    lie: 64.0
+    length: 36.0
+    offset: 0.11
+    swing_weight: D1
+  - club: "PW"
+    loft: 45.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.105
+    swing_weight: D1
+  - club: "GW"
+    loft: 50.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.1
+    swing_weight: D1
+stock_shafts:
+  - name: "Nippon N.S. Pro 105T"
+    material: steel
+  - name: "True Temper Dynamic Gold High Launch"
+    material: steel
+    flex: ["S300"]
+sources:
+  - "2nd Swing Golf specification table for the Titleist 710 AP1 iron set (https://www.2ndswing.com/golf-clubs/iron-sets/titleist-710-ap1-iron-set) — supplied every loft, lie, length, offset and swing weight above, the stock shafts and the 3-GW set makeup."
+  - "thesandtrap.com 'Titleist 710-Series AP1 Irons Review' — the 710 series was announced in August 2009 and sold as Titleist's 2010 line; dual cavity construction with a tungsten sole weight. year_introduced uses the announcement year per this database's convention."
+  - "Note: bounce is omitted — the source table did not carry a bounce column. Confidence is medium because the numbers come from a retailer spec table rather than a Titleist catalogue."
+  - "Note on year_discontinued: the 712 AP1 was announced in 2011 and replaced this model."
+related_models:
+  - slug: "titleist/714-ap1-irons"
+    label: "Two generations later: Titleist 714 AP1"
+  - slug: "titleist/ap2-2008-irons"
+    label: "The players iron that ran alongside it: Titleist AP2"
+faq:
+  - q: "What is the loft of a Titleist 710 AP1 7-iron?"
+    a: "The Titleist 710 AP1 7-iron has a loft of 33 degrees, a lie of 63.0 degrees and a length of 37.0 inches."
+  - q: "When were Titleist 710 AP1 irons made?"
+    a: "Titleist announced the 710 series in August 2009 and sold it as the 2010 line. The 712 AP1 replaced it in 2011."
+  - q: "How much offset does a Titleist 710 AP1 have?"
+    a: "0.245 inches at the 3-iron falling to 0.100 at the gap wedge — the most offset in the 710 range."
+confidence: medium

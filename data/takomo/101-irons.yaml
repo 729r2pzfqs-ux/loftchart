@@ -4,7 +4,7 @@ model: "101"
 slug: "101-irons"
 club_type: "irons"
 year_introduced: 2021
-year_discontinued: null
+year_discontinued: 2026
 category: "game-improvement"
 construction: "cast hollow body"
 material: "455 stainless steel body with 17-4 stainless steel face"
@@ -91,6 +91,7 @@ sources:
   - "Wayback Machine snapshot https://web.archive.org/web/20210515042556/https://takomogolf.com/iron-101/ (archived 15 May 2021, Takomo's original WooCommerce site) - manufacturer-era spec table giving lofts 20.5/23/26/30/34/39/44, lies 61/61.5/62/62.5/63/63.5/64 and offsets 5.7/5.0/4.3/3.4/2.7/2.0/1.5 mm for 4-iron through PW, identical to the values Takomo publishes today. Same page describes the hollow body as a 431 stainless body welded to a 17-4 stainless face and quotes a 1.65 mm milled face; stock shaft at launch was the KBS Tour 90 with a Lamkin Crossline grip. Page states the club was on backorder with new orders shipping June 2021, which fixes the introduction year at 2021"
   - "Wayback Machine snapshot https://web.archive.org/web/20220120193020/https://takomogolf.com/iron-101/ (archived 20 January 2022) - same loft/lie/offset table again, plus an explicit steel shaft length row of 38.5\"/38\"/37.5\"/37\"/36.5\"/36\"/35.5\" and a graphite row half an inch longer, and a 79.5 mm 7-iron blade length. Club lengths in this file are the manufacturer's own steel figures from this snapshot, not an inference from other models"
   - "Model years: takomogolf.com About Us brand timeline (retrieved July 2026) dates the Iron 101 to 2022 and GolfLink's Takomo brand profile dates the first shipment to 2021. The archived May 2021 product page above settles this in favour of 2021"
+  - "Note on year_discontinued: recorded as 2026, the year the successor was announced — the 101 MKII was announced in 2026. This database dates a model's end to the announcement of its replacement, not to the last day it was sold, so sets remained on shop floors after this date."
 related_models:
   - slug: "takomo/101t-irons"
     label: "Compact version: Takomo 101T"

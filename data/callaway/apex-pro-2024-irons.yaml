@@ -1,0 +1,89 @@
+brand: Callaway
+brand_slug: callaway
+model: Apex Pro (2024)
+slug: apex-pro-2024-irons
+club_type: irons
+year_introduced: 2023
+year_discontinued: null
+category: players-distance
+construction: forged hollow body with a cup face
+material: forged 1025 carbon steel body with a high-strength face cup and tungsten weighting
+successor: null
+predecessor: Callaway Apex Pro 21
+description: >
+  Announced in 2023 and sold as the '24 model, the Apex Pro combines a
+  distance-iron long-iron construction — hollow body, cup face, tungsten low in
+  the head — with a compact players shape through the scoring irons. Lofts are
+  one degree stronger than the Apex CB in the mid irons and a degree stronger
+  again at the pitching wedge: 33 degrees at the 7-iron and 45 at the pitching
+  wedge. Figures are the men's standard right-handed steel build.
+specs:
+  - club: "3"
+    loft: 19.0
+    lie: 60.0
+    length: 39.00
+    offset: 0.134
+  - club: "4"
+    loft: 22.0
+    lie: 60.5
+    length: 38.50
+    offset: 0.126
+  - club: "5"
+    loft: 25.0
+    lie: 61.0
+    length: 38.00
+    offset: 0.118
+  - club: "6"
+    loft: 29.0
+    lie: 61.5
+    length: 37.50
+    offset: 0.106
+  - club: "7"
+    loft: 33.0
+    lie: 62.0
+    length: 37.00
+    offset: 0.098
+  - club: "8"
+    loft: 37.0
+    lie: 62.5
+    length: 36.50
+    offset: 0.087
+  - club: "9"
+    loft: 41.0
+    lie: 63.0
+    length: 36.00
+    offset: 0.075
+  - club: "PW"
+    loft: 45.0
+    lie: 63.25
+    length: 35.75
+    offset: 0.067
+  - club: "AW"
+    loft: 50.0
+    lie: 63.5
+    length: 35.50
+    offset: 0.051
+stock_shafts:
+  - name: "True Temper Dynamic Gold Mid 115"
+    material: steel
+  - name: "Project X Denali"
+    material: graphite
+sources:
+  - "callawaygolf.com Apex Pro Irons product page specification table (https://www.callawaygolf.com/golf-clubs/irons/irons-2024-apex-pro.html) — loft, lie, length and offset (in millimetres) for the 3-iron through approach wedge. Offset is converted to inches here."
+  - "golf.com \"Callaway's 2023 Apex irons: 5 things you need to know\" — the 2023 announcement of the Apex Pro, CB and MB as the '24 range, and the Apex Pro's hollow long-iron construction."
+  - "Note: bounce and swing weight were not published on the product page and are omitted rather than estimated."
+related_models:
+  - slug: "callaway/apex-pro-21-irons"
+    label: "Predecessor: Callaway Apex Pro 21"
+  - slug: "callaway/apex-cb-2024-irons"
+    label: "Forged cavity-back sibling: Callaway Apex CB (2024)"
+faq:
+  - q: "What is the loft of a Callaway Apex Pro (2024) 7-iron?"
+    a: "The Callaway Apex Pro '24 7-iron has a loft of 33 degrees, a lie of 62.0 degrees and a steel-shaft length of 37.00 inches."
+  - q: "When was the Callaway Apex Pro '24 announced?"
+    a: "In 2023, alongside the Apex CB and Apex MB, and sold as the 2024 range."
+  - q: "Are Apex Pro 21 and Apex Pro '24 lofts the same?"
+    a: "In the mid and short irons, yes — both are 33 degrees at the 7-iron and 45 at the pitching wedge. The '24 model strengthens the long irons: 19 degrees at the 3-iron against 20.5."
+  - q: "Is the Callaway Apex Pro hollow?"
+    a: "In the long irons, yes — a hollow body with a high-strength cup face and tungsten weighting. The scoring irons move to a more conventional forged players build."
+confidence: high

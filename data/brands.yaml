@@ -181,6 +181,53 @@ brands:
       direct to consumers, and broke with convention by stamping its irons with
       loft in degrees rather than a club number.
 
+  - name: PXG
+    slug: pxg
+    founded: 2014
+    hq: "Scottsdale, Arizona, USA"
+    color: "#111111"
+    families:
+      - "0311"
+      - "0311 GEN series"
+      - "0317"
+      - "0211"
+    blurb: >
+      Parsons Xtreme Golf was founded by Bob Parsons in 2014 and sells direct,
+      built to order. The 0311 line runs a T/P/XP family off one generation
+      number, and PXG publishes a full loft, lie, length, offset and bounce
+      chart for every head.
+
+  - name: Honma
+    slug: honma
+    founded: 1959
+    hq: "Sakata, Yamagata, Japan"
+    color: "#B8860B"
+    families:
+      - "Tour World"
+      - "TW747"
+      - "TR20"
+      - "TR21"
+      - "Beres"
+    blurb: >
+      Honma has forged clubs in Sakata since 1959 and makes its own shafts.
+      The Tour World line is the competition range, sold with VIZARD graphite
+      as the stock shaft, so published lengths differ by shaft choice.
+
+  - name: XXIO
+    slug: xxio
+    founded: 2000
+    hq: "Kobe, Japan"
+    color: "#0F4C81"
+    families:
+      - "XXIO numbered series"
+      - "XXIO X"
+      - "XXIO Prime"
+      - "XXIO Forged"
+    blurb: >
+      XXIO is Dunlop Sports' lightweight premium line, built around
+      counterbalanced heads and light graphite shafts for moderate swing
+      speeds. Sets are typically sold 5-PW rather than from a 4-iron.
+
   - name: Adams
     slug: adams
     founded: 1987

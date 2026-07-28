@@ -1,0 +1,102 @@
+brand: Callaway
+brand_slug: callaway
+model: Epic Forged
+slug: epic-forged-irons
+club_type: irons
+year_introduced: 2019
+year_discontinued: null
+category: players-distance
+construction: forged hollow body with a cup face
+material: forged carbon steel body with a high-strength cup face, tungsten weighting and urethane microspheres
+successor: null
+predecessor: null
+description: >
+  Epic Forged was Callaway's most expensive iron of 2019, a forged hollow body with a
+  cup face, tungsten weighting and urethane microspheres behind the face. The lofts
+  are among the strongest ever put on a forged iron — 27 degrees at the 7-iron and
+  18 at the 4 — and the set runs long, at 39.5 inches for the 4-iron, so the carry
+  gaps at the top of the bag are unusually wide.
+specs:
+  - club: "4"
+    loft: 18.0
+    lie: 59.5
+    length: 39.5
+    offset: 0.15
+    swing_weight: D2
+  - club: "5"
+    loft: 21.0
+    lie: 60.0
+    length: 38.875
+    offset: 0.142
+    swing_weight: D2
+  - club: "6"
+    loft: 24.0
+    lie: 60.5
+    length: 38.25
+    offset: 0.134
+    swing_weight: D2
+  - club: "7"
+    loft: 27.0
+    lie: 61.0
+    length: 37.625
+    offset: 0.13
+    swing_weight: D2
+  - club: "8"
+    loft: 31.5
+    lie: 61.5
+    length: 37.0
+    offset: 0.122
+    swing_weight: D2
+  - club: "9"
+    loft: 36.0
+    lie: 62.0
+    length: 36.5
+    offset: 0.11
+    swing_weight: D2
+  - club: "PW"
+    loft: 41.0
+    lie: 62.5
+    length: 36.0
+    offset: 0.098
+    swing_weight: D2
+  - club: "GW"
+    loft: 46.0
+    lie: 63.0
+    length: 35.75
+    offset: 0.075
+    swing_weight: D2
+  - club: "SW"
+    loft: 51.0
+    lie: 63.0
+    length: 35.5
+    offset: 0.075
+    swing_weight: D2
+  - club: "LW"
+    loft: 56.0
+    lie: 63.0
+    length: 35.25
+    offset: 0.075
+    swing_weight: D2
+stock_shafts:
+  - name: "Aerotech SteelFiber FC"
+    material: graphite
+  - name: "Mitsubishi Tensei AV Silver"
+    material: graphite
+sources:
+  - "2nd Swing Golf specification table for the Callaway Epic Forged iron set (https://www.2ndswing.com/golf-clubs/iron-sets/callaway-epic-forged-iron-set) — supplied every loft, lie, length, offset and both swing-weight columns, plus the two stock shafts. The D2 figures recorded here are the SteelFiber FC build; the Tensei AV Silver build measures D0."
+  - "Note on offset: the source publishes offset in millimetres (3.8 mm down to 1.9 mm), converted to inches here."
+  - "prnewswire.com 'Callaway Golf Announces Epic Forged Irons, Epic Flash Hybrids And Epic Star Family Of Products' — announced 16 July 2019, at retail from 2 August 2019."
+  - "Note: bounce is omitted — the source table did not carry a bounce column. Confidence is medium. year_discontinued is null; the sources retrieved do not record a direct replacement."
+related_models:
+  - slug: "callaway/apex-19-irons"
+    label: "Callaway's other forged iron of the same year: Callaway Apex 19"
+  - slug: "callaway/rogue-st-max-irons"
+    label: "Callaway's distance iron of the following period: Callaway Rogue ST Max"
+faq:
+  - q: "What is the loft of a Callaway Epic Forged 7-iron?"
+    a: "The Callaway Epic Forged 7-iron has a loft of 27 degrees, a lie of 61.0 degrees and a length of 37.625 inches."
+  - q: "When were Callaway Epic Forged irons released?"
+    a: "Callaway announced them on 16 July 2019 and they reached retail on 2 August 2019."
+  - q: "How strong are Epic Forged lofts?"
+    a: "Very. The 27-degree 7-iron is six degrees stronger than the Apex Pro 21 and matches what most makers were calling a 6-iron at the time."
+confidence: medium

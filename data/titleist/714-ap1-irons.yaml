@@ -1,0 +1,111 @@
+brand: Titleist
+brand_slug: titleist
+model: 714 AP1
+slug: 714-ap1-irons
+club_type: irons
+year_introduced: 2013
+year_discontinued: 2015
+category: game-improvement
+construction: investment cast with a co-forged tungsten weight
+material: 17-4 stainless steel with a tungsten sole weight
+successor: Titleist 716 AP1
+predecessor: Titleist 712 AP1
+description: >
+  AP1 is Titleist's game-improvement iron, and the 714 is the 2014-model-year
+  version — a hollow-soled cast head with a large undercut cavity and a
+  high-density tungsten weight low in the sole. Lofts are three degrees stronger
+  than the 714 MB through the set, 32 degrees at the 7-iron against 35, and
+  offset is roughly twice as much. The stock set runs down to two wedges, listed
+  by Titleist as W and W2 at 48 and 52 degrees. Figures are the men's standard
+  right-handed steel build.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 60.0
+    length: 39.00
+    offset: 0.245
+    swing_weight: D1
+  - club: "4"
+    loft: 23.0
+    lie: 61.0
+    length: 38.50
+    offset: 0.220
+    swing_weight: D1
+  - club: "5"
+    loft: 26.0
+    lie: 62.0
+    length: 38.00
+    offset: 0.195
+    swing_weight: D1
+  - club: "6"
+    loft: 29.0
+    lie: 62.5
+    length: 37.50
+    offset: 0.170
+    swing_weight: D1
+  - club: "7"
+    loft: 32.0
+    lie: 63.0
+    length: 37.00
+    offset: 0.145
+    swing_weight: D1
+  - club: "8"
+    loft: 36.0
+    lie: 63.5
+    length: 36.50
+    offset: 0.125
+    swing_weight: D1
+  - club: "9"
+    loft: 40.0
+    lie: 64.0
+    length: 36.00
+    offset: 0.110
+    swing_weight: D1
+  - club: "PW"
+    loft: 44.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.105
+    swing_weight: D1
+  - club: "GW"
+    loft: 48.0
+    lie: 64.0
+    length: 35.50
+    offset: 0.100
+    swing_weight: D1
+  - club: "AW"
+    loft: 52.0
+    lie: 64.0
+    length: 35.50
+    offset: 0.100
+    swing_weight: D1
+stock_shafts:
+  - name: "True Temper XP 90"
+    material: steel
+  - name: "True Temper Dynamic Gold"
+    material: steel
+  - name: "Nippon N.S. Pro Modus 3"
+    material: steel
+  - name: "Mitsubishi Kuro Kage"
+    material: graphite
+sources:
+  - "2ndswing.com Titleist 714 AP1 Iron Set specification table — loft, lie, length, offset and swing weight for the 3-iron through the second wedge, plus the shaft options. Titleist labels the two wedges W (48 degrees) and W2 (52 degrees); they are recorded here as GW and AW so they sort correctly."
+  - "Note on the year: Titleist announced the 714 line in 2013 and marketed it as the 2014 range, which is why some listings date this model 2014. year_introduced records the announcement year per this database's convention."
+  - "Note: bounce was not published in the source consulted and is omitted rather than estimated."
+related_models:
+  - slug: "titleist/718-ap1-irons"
+    label: "Later generation: Titleist 718 AP1"
+  - slug: "titleist/714-ap2-irons"
+    label: "Players sibling: Titleist 714 AP2"
+  - slug: "titleist/714-mb-irons"
+    label: "Muscleback of the same generation: Titleist 714 MB"
+faq:
+  - q: "What is the loft of a Titleist 714 AP1 7-iron?"
+    a: "The Titleist 714 AP1 7-iron has a loft of 32 degrees, a lie of 63.0 degrees and a steel-shaft length of 37.00 inches."
+  - q: "Is the 714 AP1 the 2014 model?"
+    a: "Yes. Titleist announced the 714 line in 2013 and sold it as the 2014 range, so the same clubs are commonly listed as either 714 AP1 or AP1 (2014)."
+  - q: "What is the difference between the Titleist AP1 and AP2?"
+    a: "AP1 is the game-improvement model — larger head, more offset and stronger lofts. The 714 AP1 7-iron is 32 degrees against the 714 AP2's 34, and offset at the 7-iron is 0.145 inches against roughly half that."
+  - q: "What wedges came with the 714 AP1?"
+    a: "Titleist catalogued two, a 48-degree W and a 52-degree W2, below the 44-degree pitching wedge."
+confidence: medium

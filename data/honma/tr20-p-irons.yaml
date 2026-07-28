@@ -1,0 +1,91 @@
+brand: Honma
+brand_slug: honma
+model: TR20 P
+slug: tr20-p-irons
+club_type: irons
+year_introduced: 2020
+year_discontinued: 2021
+category: players-distance
+construction: two-piece cast with a thin L-cup face, deep pocket cavity and tungsten sole weighting
+material: stainless steel with a high-strength L-cup face and tungsten
+successor: Honma TR21 X
+predecessor: Honma TW747 P
+description: >
+  The TR20 P replaces the TW747 P and keeps the same idea — a compact head with
+  a deep pocket cavity, a thin fast L-cup face and tungsten in the sole — while
+  strengthening the lofts by roughly two degrees through the set: 30 degrees at
+  the 7-iron against the TW747 P's 28.5, and 43 at the pitching wedge. Lies are
+  a degree upright of the previous model throughout. Honma numbers the wedges
+  10 and 11; they are recorded below as PW and GW.
+specs:
+  - club: "4"
+    loft: 21.0
+    lie: 61.0
+    length: 38.50
+    offset: 0.138
+  - club: "5"
+    loft: 24.0
+    lie: 61.5
+    length: 38.00
+    offset: 0.130
+  - club: "6"
+    loft: 27.0
+    lie: 62.0
+    length: 37.50
+    offset: 0.122
+  - club: "7"
+    loft: 30.0
+    lie: 62.5
+    length: 37.00
+    offset: 0.114
+  - club: "8"
+    loft: 34.0
+    lie: 63.0
+    length: 36.50
+    offset: 0.110
+  - club: "9"
+    loft: 38.0
+    lie: 63.5
+    length: 36.00
+    offset: 0.102
+  - club: "PW"
+    loft: 43.0
+    lie: 64.0
+    length: 35.50
+    offset: 0.094
+  - club: "GW"
+    loft: 48.0
+    lie: 64.0
+    length: 35.50
+    offset: 0.094
+stock_shafts:
+  - name: "Honma VIZARD TR20-65"
+    material: graphite
+    flex: ["R", "S", "X"]
+  - name: "Honma VIZARD TR20-75"
+    material: graphite
+    flex: ["R", "SR", "S"]
+  - name: "Honma VIZARD TR20-85"
+    material: graphite
+    flex: ["R", "SR", "S"]
+  - name: "Nippon N.S. Pro Modus 3 105"
+    material: steel
+sources:
+  - "honmagolf.com T//World TR20 P product detail page (https://honmagolf.com/int/product-details/8218) — loft, lie, length and offset (in millimetres) for the #4 through #11, and the VIZARD TR20-65/75/85 and N.S. Pro Modus 3 105 stock shafts. Offset is converted to inches here."
+  - "golfmonthly.com 'Honma TR20 P Iron Review' and pluggedingolf.com 'Honma TR20 P Irons Review' — corroborate the two-piece construction, the deep pocket cavity, the thin L-cup face and the tungsten sole weighting, and date the model to 2020."
+  - "Note: bounce and swing weight were not published on the product page and are omitted rather than estimated."
+related_models:
+  - slug: "honma/tw747-p-irons"
+    label: "Predecessor: Honma TW747 P"
+  - slug: "honma/tr21-x-irons"
+    label: "Successor: Honma TR21 X"
+faq:
+  - q: "What is the loft of a Honma TR20 P 7-iron?"
+    a: "The Honma TR20 P 7-iron has a loft of 30 degrees, a lie of 62.5 degrees and a length of 37.00 inches."
+  - q: "How do TR20 P lofts compare with the TW747 P?"
+    a: "About two degrees stronger through the set — 30 degrees at the 7-iron against 28.5, and 43 at the pitching wedge against 43.5 — with lies a degree more upright at every club."
+  - q: "What is an L-cup face?"
+    a: "A face that wraps around into the sole in an L profile, so a larger area of the head deflects at impact. It is what lets a relatively compact cast head keep ball speed on strikes low on the face."
+  - q: "When were Honma TR20 P irons made?"
+    a: "2020, between the TW747 P and the TR21 X."
+confidence: high

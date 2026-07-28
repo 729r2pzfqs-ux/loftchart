@@ -1,0 +1,92 @@
+brand: PXG
+brand_slug: pxg
+model: 0311 T GEN5
+slug: 0311-t-gen5-irons
+club_type: irons
+year_introduced: 2022
+year_discontinued: 2023
+category: players
+construction: forged hollow body with an XCOR2 core
+material: forged 8620 carbon steel body with an HT1770 maraging steel face
+successor: PXG 0311 T GEN6
+predecessor: PXG 0311 T GEN4
+description: >
+  The 0311 T is the tour head of PXG's GEN5 family — the most compact of the
+  three, with the least offset and the narrowest sole. Like the P and XP it is
+  a forged hollow body filled with PXG's XCOR2 polymer behind a thin HT1770
+  maraging face, so it behaves like a distance iron without the size. Lofts are
+  traditional for the category, 32 degrees at the 7-iron and 46 at the pitching
+  wedge, four degrees weaker than the 0311 P at every club.
+specs:
+  - club: "4"
+    loft: 22.5
+    lie: 61.0
+    length: 38.875
+    offset: 0.130
+    bounce: 3.0
+  - club: "5"
+    loft: 25.0
+    lie: 61.5
+    length: 38.25
+    offset: 0.110
+    bounce: 4.0
+  - club: "6"
+    loft: 28.0
+    lie: 62.0
+    length: 37.625
+    offset: 0.090
+    bounce: 5.0
+  - club: "7"
+    loft: 32.0
+    lie: 62.5
+    length: 37.00
+    offset: 0.075
+    bounce: 7.0
+  - club: "8"
+    loft: 36.0
+    lie: 63.0
+    length: 36.50
+    offset: 0.058
+    bounce: 9.0
+  - club: "9"
+    loft: 41.0
+    lie: 63.5
+    length: 36.00
+    offset: 0.040
+    bounce: 11.0
+  - club: "PW"
+    loft: 46.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.020
+    bounce: 12.0
+  - club: "GW"
+    loft: 51.0
+    lie: 64.0
+    length: 35.50
+    offset: 0.015
+    bounce: 12.0
+stock_shafts:
+  - name: "True Temper Dynamic Gold 95"
+    material: steel
+sources:
+  - "2ndswing.com PXG 0311 T GEN5 Chrome Iron Set specification table — loft, lie, length, offset and bounce for the 4-iron through gap wedge, the 4-GW stock make-up, the Dynamic Gold 95 stock shaft and the PXG Z5 Black grip."
+  - "mygolfspy.com 'PXG 0311 GEN5 Irons (0311 T, 0311 P, 0311 XP)' — confirms the three-model GEN5 line, the forged 8620 body with HT1770 maraging face and XCOR2 core, and that there is no separate model badged simply 0311 GEN5."
+  - "Note: swing weight was not published in the source consulted and is omitted rather than estimated."
+related_models:
+  - slug: "pxg/0311-p-gen5-irons"
+    label: "Players sibling: PXG 0311 P GEN5"
+  - slug: "pxg/0311-xp-gen5-irons"
+    label: "Game-improvement sibling: PXG 0311 XP GEN5"
+  - slug: "pxg/0317-t-irons"
+    label: "Later PXG tour iron: PXG 0317 T"
+faq:
+  - q: "What is the loft of a PXG 0311 T GEN5 7-iron?"
+    a: "The PXG 0311 T GEN5 7-iron has a loft of 32 degrees, a lie of 62.5 degrees and a steel-shaft length of 37.00 inches."
+  - q: "What is the difference between PXG 0311 T, P and XP GEN5?"
+    a: "Head size and loft. T is the compact tour head at 32 degrees for the 7-iron, P is the mid-size players head at 30 degrees, and XP is the largest and strongest at 27 degrees. Offset rises in the same order."
+  - q: "Is there a plain PXG 0311 GEN5 iron?"
+    a: "No. GEN5 refers to the generation; the models within it are the 0311 T, 0311 P and 0311 XP."
+  - q: "How much bounce does a PXG 0311 T GEN5 have?"
+    a: "It is progressive — 3 degrees at the 4-iron rising to 12 degrees at the pitching and gap wedges."
+confidence: medium

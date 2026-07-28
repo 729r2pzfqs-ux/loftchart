@@ -4,7 +4,7 @@ model: "201"
 slug: "201-irons"
 club_type: "irons"
 year_introduced: 2021
-year_discontinued: null
+year_discontinued: 2026
 category: "players"
 construction: "one-piece forged"
 material: "forged S20C carbon steel"
@@ -90,6 +90,7 @@ sources:
   - "Wayback Machine snapshot https://web.archive.org/web/20211007190605/https://takomogolf.com/iron-201/ (archived 7 October 2021) - the launch listing, in stock at 589 dollars, describing the club as precision-forged S20C with a milled back pocket and offering KBS Tour 105, C-Taper and C-Taper Lite shafts. Its spec table differs from every later one: lofts 22/24/27/31/35/39/44 and head weights 249/257/262/270/278/284/290, with the same lie angles. This snapshot is the evidence that the 201 shipped in 2021 and was re-specced shortly afterwards"
   - "Model years: takomogolf.com About Us brand timeline (retrieved July 2026) dates the 201 to 2023, but the archived October 2021 product page above shows it on sale in 2021. The archived evidence is preferred over the brand timeline here"
   - "2nd Swing Golf 'Takomo Iron 201 Iron Set' specification table - independently corroborates the lofts, lies, lengths and the 2.5/2.5/2.3/2.1/1.9/1.7/1.7 mm offset column"
+  - "Note on year_discontinued: recorded as 2026, the year the successor was announced — the 201 MKII was announced in 2026. This database dates a model's end to the announcement of its replacement, not to the last day it was sold, so sets remained on shop floors after this date."
 related_models:
   - slug: "takomo/201-mkii-irons"
     label: "Successor: Takomo 201 MKII"

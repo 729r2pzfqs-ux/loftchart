@@ -1,0 +1,84 @@
+brand: XXIO
+brand_slug: xxio
+model: "13"
+slug: xxio-13-irons
+club_type: irons
+year_introduced: 2024
+year_discontinued: 2025
+category: game-improvement
+construction: four-piece cast body with a bonded titanium face
+material: titanium face, stainless body and tungsten-nickel sole weighting
+successor: XXIO 14
+predecessor: XXIO 12
+description: >
+  XXIO 13 keeps the loft, lie and length chart of the XXIO 12 unchanged and reworks
+  the four-piece construction behind it, with 31 grams of tungsten used through the
+  5 to 7 irons to drive the centre of gravity low and back. The stock shafts are
+  extremely light for the category — 47 grams in regular, 50 in stiff. Like the rest
+  of the XXIO line the reference build is graphite, so the set runs at C8 rather than
+  the D-range swing weights of a steel-shafted set.
+specs:
+  - club: "5"
+    loft: 22.0
+    lie: 61.5
+    length: 38.25
+    swing_weight: C8
+  - club: "6"
+    loft: 25.0
+    lie: 62.0
+    length: 37.75
+    swing_weight: C8
+  - club: "7"
+    loft: 28.0
+    lie: 62.5
+    length: 37.25
+    swing_weight: C8
+  - club: "8"
+    loft: 32.0
+    lie: 63.0
+    length: 36.75
+    swing_weight: C8
+  - club: "9"
+    loft: 37.0
+    lie: 63.0
+    length: 36.25
+    swing_weight: C8
+  - club: "PW"
+    loft: 42.0
+    lie: 63.5
+    length: 35.75
+    swing_weight: C8
+  - club: "AW"
+    loft: 48.0
+    lie: 63.5
+    length: 35.75
+    swing_weight: C9
+  - club: "SW"
+    loft: 56.0
+    lie: 63.5
+    length: 35.75
+    swing_weight: C9
+stock_shafts:
+  - name: "XXIO MP-1300"
+    material: graphite
+    flex: ["R2", "R", "SR", "S"]
+  - name: "Nippon N.S.Pro 850GH DST"
+    material: steel
+    flex: ["R2", "R", "SR", "S"]
+sources:
+  - "XXIO's own XXIO 13 irons product page, specification table (https://srixonasia.com/product/xxio-13-irons/) — supplied every loft, lie, length, swing weight and club weight, both stock shafts and the eight-club 5-SW set makeup."
+  - "golfdigest.com 'XXIO 13 irons: What you need to know' — the four-piece construction, the 31 g of tungsten in the 5 to 7 irons and the 47 g regular / 50 g stiff stock shaft weights, plus the 26 January in-store date."
+  - "Note on the year: year_introduced records the 2024 retail launch (in stores 26 January), which is the basis available in the sources retrieved. year_discontinued is 2025, when XXIO unveiled the XXIO 14 in November of that year."
+related_models:
+  - slug: "xxio/xxio-12-irons"
+    label: "Predecessor: XXIO 12"
+  - slug: "xxio/xxio-14-irons"
+    label: "Successor: XXIO 14"
+faq:
+  - q: "What is the loft of an XXIO 13 7-iron?"
+    a: "The XXIO 13 7-iron has a loft of 28 degrees, a lie of 62.5 degrees and a length of 37.25 inches."
+  - q: "What is the difference between the XXIO 13 and XXIO 14?"
+    a: "The lofts and lies match club for club, but the XXIO 14 is built a quarter of an inch longer at every club and runs one swing-weight point heavier at C9."
+  - q: "What shafts came stock in the XXIO 13 irons?"
+    a: "The XXIO MP-1300 graphite shaft, with the Nippon N.S.Pro 850GH DST as the steel alternative, both in R2, R, SR and S."
+confidence: high

@@ -8,7 +8,7 @@ year_discontinued: 2019
 category: players-distance
 construction: forged hollow body
 material: forged 4140 carbon steel face with soft carbon steel body
-successor: P790 (2021)
+successor: P790 (2019)
 predecessor: null
 description: >
   The 2017 P790 was the first generation of TaylorMade's hollow-body forged
@@ -88,8 +88,10 @@ sources:
   - "TaylorMade official P790 Irons product spec sheet PDF (c 2017 Taylor Made Golf Company), taylormadegolf.com/on/demandware.static/-/Sites-TMaG-Library/default/docs/productspecs/2017/P790 Irons.pdf via archive.org - full loft/lie/offset/length/swing-weight table plus stock shafts and grip"
   - "Archived taylormadegolf.com 2017 P790 Irons product page (2017-P790-Irons/DW-WZ711.html, 20 Aug 2019 snapshot via archive.org) - on-page specifications table matching the PDF"
 related_models:
+  - slug: "taylormade/p790-2019-irons"
+    label: "Successor: TaylorMade P790 (2019)"
   - slug: "taylormade/p790-2021-irons"
-    label: "Successor: TaylorMade P790 (2021)"
+    label: "Later generation: TaylorMade P790 (2021)"
   - slug: "taylormade/p770-irons"
     label: "Players-iron sibling: TaylorMade P770"
 faq:

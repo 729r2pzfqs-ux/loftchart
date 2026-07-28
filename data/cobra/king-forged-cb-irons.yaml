@@ -1,0 +1,82 @@
+brand: Cobra
+brand_slug: cobra
+model: KING Forged CB
+slug: king-forged-cb-irons
+club_type: irons
+year_introduced: 2019
+year_discontinued: 2021
+category: players
+construction: five-step forged with a tungsten sole weight
+material: 1025 carbon steel with tungsten
+successor: null
+predecessor: null
+description: >
+  Cobra's KING Forged CB is the cavity-back half of a pair sold with a matching
+  muscleback, and Cobra let buyers order a full CB set, a full MB set or a
+  split set — typically CB through the 6-iron and MB from the 7 down. Both are
+  five-step forged from 1025 carbon steel, with a tungsten weight in the sole
+  of the cavity-back heads. The set is built long by tour-iron standards, 37.5
+  inches at the 7-iron, and lofts are traditional at 34 degrees there.
+specs:
+  - club: "2"
+    loft: 19.0
+    lie: 60.0
+    length: 40.00
+  - club: "3"
+    loft: 21.0
+    lie: 60.5
+    length: 39.50
+  - club: "4"
+    loft: 24.0
+    lie: 61.0
+    length: 39.00
+  - club: "5"
+    loft: 27.0
+    lie: 61.5
+    length: 38.50
+  - club: "6"
+    loft: 30.0
+    lie: 62.0
+    length: 38.00
+  - club: "7"
+    loft: 34.0
+    lie: 62.5
+    length: 37.50
+  - club: "8"
+    loft: 38.0
+    lie: 63.0
+    length: 37.00
+  - club: "9"
+    loft: 42.0
+    lie: 63.5
+    length: 36.50
+  - club: "PW"
+    loft: 46.0
+    lie: 64.0
+    length: 36.25
+  - club: "GW"
+    loft: 50.0
+    lie: 64.0
+    length: 36.00
+stock_shafts:
+  - name: "FST KBS $-Taper Black"
+    material: steel
+sources:
+  - "drivingrangeheroes.com 'Cobra King Forged CB / MB Irons Review' — the stock loft, lie and length table for the 2-iron through gap wedge, the 2019 release year, the KBS $-Taper black stock shaft, the Golf Pride Tour Velvet Cobra Connect grip, and the CB/MB split-set option."
+  - "2ndswing.com Cobra King Forged CB Iron Set and Cobra KING Forged CB MB Iron Set pages — confirm the five-step forging, the tour-inspired shaping and the sets sold as 4-9 and 5-PW."
+  - "Note: offset, bounce and swing weight were not published in the sources consulted and are omitted rather than estimated."
+related_models:
+  - slug: "cobra/king-forged-tec-irons"
+    label: "Cobra's players-distance forging: Cobra KING Forged Tec"
+  - slug: "cobra/king-tour-irons"
+    label: "Later Cobra tour iron: Cobra KING Tour"
+faq:
+  - q: "What is the loft of a Cobra KING Forged CB 7-iron?"
+    a: "The Cobra KING Forged CB 7-iron has a loft of 34 degrees, a lie of 62.5 degrees and a length of 37.50 inches."
+  - q: "Can you mix Cobra KING Forged CB and MB irons?"
+    a: "Yes — Cobra sold the pair as a deliberate combo. A common build runs cavity backs through the 6-iron and musclebacks from the 7-iron down, and Cobra offered full CB, full MB or split sets."
+  - q: "When were Cobra KING Forged CB irons made?"
+    a: "They were released in 2019."
+  - q: "Why are Cobra KING Forged CB irons so long?"
+    a: "Cobra builds them at 37.50 inches for the 7-iron, half an inch longer than most tour cavity backs, which is consistent across the KING forged line of that period."
+confidence: medium

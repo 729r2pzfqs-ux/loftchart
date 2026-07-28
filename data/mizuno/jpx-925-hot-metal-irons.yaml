@@ -1,0 +1,87 @@
+brand: Mizuno
+brand_slug: mizuno
+model: JPX-925 Hot Metal
+slug: jpx-925-hot-metal-irons
+club_type: irons
+year_introduced: 2024
+year_discontinued: null
+category: game-improvement
+construction: cast multi-material with a thin face and tungsten weighting
+material: Nickel Chromoly 4335 with tungsten weighting in the 4 to 7 irons
+successor: null
+predecessor: JPX-923 Hot Metal
+description: >
+  JPX 925 Hot Metal is Mizuno's mainstream game-improvement iron, redesigned for the
+  generation with tungsten weighting through the 4 to 7 irons to raise launch where
+  the loft is lowest. Lofts are strong — 28 degrees at the 7-iron, six stronger than
+  the JPX 923 Tour — with a long 4-iron at 19 degrees, and offset is the widest in
+  Mizuno's range at 0.224 inches at the top of the set. The set runs to a 54-degree
+  sand wedge.
+specs:
+  - club: "4"
+    loft: 19.0
+    lie: 60.5
+    length: 38.75
+    offset: 0.224
+  - club: "5"
+    loft: 22.0
+    lie: 61.0
+    length: 38.25
+    offset: 0.213
+  - club: "6"
+    loft: 25.0
+    lie: 61.5
+    length: 37.75
+    offset: 0.201
+  - club: "7"
+    loft: 28.0
+    lie: 62.0
+    length: 37.25
+    offset: 0.189
+  - club: "8"
+    loft: 32.5
+    lie: 62.5
+    length: 36.75
+    offset: 0.173
+  - club: "9"
+    loft: 37.0
+    lie: 63.0
+    length: 36.25
+    offset: 0.154
+  - club: "PW"
+    loft: 42.0
+    lie: 63.5
+    length: 35.75
+    offset: 0.13
+  - club: "GW"
+    loft: 48.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.106
+  - club: "SW"
+    loft: 54.0
+    lie: 64.0
+    length: 35.25
+    offset: 0.083
+stock_shafts:
+  - name: "Nippon N.S. Pro 950 neo"
+    material: steel
+  - name: "UST Recoil Dart ESX"
+    material: graphite
+sources:
+  - "2nd Swing Golf specification table for the Mizuno JPX 925 Hot Metal iron set (https://www.2ndswing.com/golf-clubs/iron-sets/mizuno-jpx-925-hot-metal-iron-set) — supplied every loft, lie, length and offset above, both stock shafts, the Lamkin UT+ grip and the note that tungsten sits in the 4 to 7 irons."
+  - "golfwrx.com '2024 Mizuno JPX 925 Hot Metal irons: GolfWRX Launch Report' and todays-golfer.com 'Mizuno JPX 925 irons have a completely new design for 2024' — Mizuno launched the JPX 925 Hot Metal line in September 2024. Retailers catalogue it as the 2025 line, so year_introduced records the 2024 announcement per this database's convention."
+  - "Note: bounce and swing weight are omitted — the source table carried neither column. Confidence is medium."
+related_models:
+  - slug: "mizuno/jpx-923-hot-metal-irons"
+    label: "Predecessor: Mizuno JPX-923 Hot Metal"
+  - slug: "mizuno/jpx-925-forged-irons"
+    label: "The forged model of the same generation: Mizuno JPX-925 Forged"
+faq:
+  - q: "What is the loft of a Mizuno JPX 925 Hot Metal 7-iron?"
+    a: "The Mizuno JPX 925 Hot Metal 7-iron has a loft of 28 degrees, a lie of 62.0 degrees and a length of 37.25 inches."
+  - q: "When were Mizuno JPX 925 irons released?"
+    a: "Mizuno launched the JPX 925 Hot Metal line in September 2024; most retailers catalogue it as the 2025 range."
+  - q: "How strong are JPX 925 Hot Metal lofts?"
+    a: "Strong. The 28-degree 7-iron is five degrees stronger than the JPX 925 Forged and six stronger than the JPX 923 Tour."
+confidence: medium

@@ -1,0 +1,119 @@
+brand: Ping
+brand_slug: ping
+model: G730
+slug: g730-irons
+club_type: irons
+year_introduced: 2024
+year_discontinued: null
+category: super-game-improvement
+construction: hollow body with a maraging steel face
+material: maraging C300 steel face with a 17-4 stainless body and internal tungsten weighting
+successor: null
+predecessor: Ping G710
+description: >
+  The G730 replaces the G710 and is the strongest-lofted iron Ping has made:
+  28 degrees at the 7-iron and 40 at the pitching wedge, four degrees stronger
+  through the set than the G710. The set starts at a 5-iron rather than a
+  4-iron and is filled out with a 45-degree utility and 50- and 56-degree
+  wedges, which is how Ping keeps the gapping usable underneath a 40-degree
+  pitching wedge. Lies below are the black (standard) colour code.
+specs:
+  - club: "5"
+    loft: 21.5
+    lie: 61.0
+    length: 38.50
+    offset: 0.26
+    bounce: 6.0
+    swing_weight: D0
+  - club: "6"
+    loft: 24.5
+    lie: 61.5
+    length: 37.75
+    offset: 0.23
+    bounce: 7.0
+    swing_weight: D0
+  - club: "7"
+    loft: 28.0
+    lie: 62.0
+    length: 37.00
+    offset: 0.20
+    bounce: 8.0
+    swing_weight: D0
+  - club: "8"
+    loft: 32.0
+    lie: 62.8
+    length: 36.50
+    offset: 0.18
+    bounce: 9.0
+    swing_weight: D0
+  - club: "9"
+    loft: 36.0
+    lie: 63.5
+    length: 36.00
+    offset: 0.15
+    bounce: 9.5
+    swing_weight: D0.5
+  - club: "PW"
+    loft: 40.0
+    lie: 64.1
+    length: 35.50
+    offset: 0.12
+    bounce: 9.5
+    swing_weight: D2
+  - club: "UW"
+    loft: 45.0
+    lie: 64.1
+    length: 35.50
+    offset: 0.11
+    bounce: 11.0
+    swing_weight: D2
+  - club: "50W"
+    loft: 50.0
+    lie: 64.4
+    length: 35.50
+    offset: 0.11
+    bounce: 12.0
+    swing_weight: D2
+  - club: "56W"
+    loft: 56.0
+    lie: 64.4
+    length: 35.25
+    offset: 0.09
+    bounce: 12.0
+    swing_weight: D3
+stock_shafts:
+  - name: "True Temper Dynamic Gold Mid 100"
+    material: steel
+    flex: ["R300", "S300"]
+  - name: "Ping AWT 2.0"
+    material: steel
+  - name: "Nippon N.S. Pro Modus 3 Tour"
+    material: steel
+  - name: "True Temper Elevate MPH 95"
+    material: steel
+  - name: "Ping ALTA CB Black"
+    material: graphite
+  - name: "Ping ALTA Quick"
+    material: graphite
+  - name: "UST Recoil Dart"
+    material: graphite
+sources:
+  - "ping.com G730 Irons product page, Specifications table (https://ping.com/en-us/golf-clubs/irons/g730-iron, cross-checked against the matching table on eu.ping.com/en-gb/clubs/irons/g730) — supplied every loft, lie, length, offset, bounce and swing weight above, the 5-iron to 56-degree set range, and the shaft list. Lie is quoted for the black colour code at standard length."
+  - "Note: Ping's chart also carries Power Spec and Retro Spec loft alternatives as fitting options; only the standard lofts are recorded here."
+related_models:
+  - slug: "ping/g710-irons"
+    label: "Predecessor: Ping G710"
+  - slug: "ping/g440-irons"
+    label: "Game-improvement sibling: Ping G440"
+  - slug: "ping/i525-irons"
+    label: "Ping's players-distance hollow body: Ping i525"
+faq:
+  - q: "What is the loft of a Ping G730 7-iron?"
+    a: "The Ping G730 7-iron has a loft of 28 degrees, a standard (black dot) lie of 62.0 degrees and a steel-shaft length of 37.00 inches."
+  - q: "How much stronger is the G730 than the G710?"
+    a: "Four degrees through the set. The G730 7-iron is 28 degrees against 29.5 on the G710 at the same 37.00-inch length, and the pitching wedge is 40 degrees against 44."
+  - q: "Does the Ping G730 come with a 4-iron?"
+    a: "No. The set runs from a 5-iron at 21.5 degrees, then pitching wedge, utility wedge and 50- and 56-degree wedges. Ping expects the top of the bag to be covered by a hybrid or crossover."
+  - q: "What is the pitching wedge loft on the Ping G730?"
+    a: "40 degrees — the strongest pitching wedge Ping has catalogued — with a 45-degree utility wedge below it."
+confidence: high

@@ -1,0 +1,125 @@
+brand: Ping
+brand_slug: ping
+model: i20
+slug: i20-irons
+club_type: irons
+year_introduced: 2012
+year_discontinued: 2013
+category: players
+construction: investment cast
+material: 17-4 stainless steel
+successor: Ping i25
+predecessor: Ping i15
+description: >
+  The i20 keeps the i15's loft, lie and length chart unchanged and reworks
+  everything around it: a matte black finish, a slightly larger but thinner
+  profile, and a sole that swaps the i15's negative long-iron bounce for a
+  conventional progressive one running 4 degrees at the 3-iron to 14 at the
+  sand wedge. Offset is cut throughout, from 0.26 to 0.24 inches at the 3-iron
+  and 0.14 to 0.10 at the 7-iron. Lies below are the black (standard) code.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 59.25
+    length: 38.75
+    offset: 0.24
+    bounce: 4.0
+    swing_weight: D0
+  - club: "4"
+    loft: 24.0
+    lie: 60.00
+    length: 38.25
+    offset: 0.20
+    bounce: 5.0
+    swing_weight: D0
+  - club: "5"
+    loft: 27.0
+    lie: 60.75
+    length: 37.75
+    offset: 0.17
+    bounce: 6.0
+    swing_weight: D0
+  - club: "6"
+    loft: 30.0
+    lie: 61.50
+    length: 37.25
+    offset: 0.13
+    bounce: 7.0
+    swing_weight: D0
+  - club: "7"
+    loft: 33.0
+    lie: 62.25
+    length: 36.75
+    offset: 0.10
+    bounce: 8.0
+    swing_weight: D0
+  - club: "8"
+    loft: 37.0
+    lie: 63.00
+    length: 36.25
+    offset: 0.08
+    bounce: 9.0
+    swing_weight: D0
+  - club: "9"
+    loft: 41.0
+    lie: 63.75
+    length: 35.75
+    offset: 0.06
+    bounce: 10.0
+    swing_weight: D0
+  - club: "PW"
+    loft: 46.0
+    lie: 64.00
+    length: 35.50
+    offset: 0.05
+    bounce: 12.0
+    swing_weight: D2
+  - club: "UW"
+    loft: 50.0
+    lie: 64.00
+    length: 35.50
+    offset: 0.04
+    bounce: 13.0
+    swing_weight: D2
+  - club: "SW"
+    loft: 54.0
+    lie: 64.25
+    length: 35.25
+    offset: 0.04
+    bounce: 14.0
+    swing_weight: D4
+  - club: "LW"
+    loft: 58.0
+    lie: 64.50
+    length: 35.00
+    offset: 0.03
+    bounce: 13.0
+    swing_weight: D6
+stock_shafts:
+  - name: "Ping CFS"
+    material: steel
+  - name: "Ping AWT"
+    material: steel
+  - name: "Ping TFC 189i"
+    material: graphite
+sources:
+  - "thesandtrap.com 'PING i20 Irons Review' — the full length, loft, lie, offset, bounce and swing-weight table for the 3-iron to lob wedge."
+  - "2ndswing.com Ping i20 Iron Set page — independently corroborates the offset column club for club (0.24 at the 3-iron down to 0.03 at the lob wedge). Its length and lie columns do not match the review's and were not used; they duplicate the values 2ndswing also prints for the i10 and i15."
+  - "swingyard.com 'PING Irons by Year' — lists 2012 as the i20's year, and the i25 as its replacement. Ping showed the i20 in the autumn before that retail year, so some listings date it 2011."
+related_models:
+  - slug: "ping/i15-irons"
+    label: "Predecessor: Ping i15"
+  - slug: "ping/g20-irons"
+    label: "Game-improvement sibling: Ping G20"
+  - slug: "ping/s56-irons"
+    label: "Ping's tour iron of the same era: Ping S56"
+faq:
+  - q: "What is the loft of a Ping i20 7-iron?"
+    a: "The Ping i20 7-iron has a loft of 33 degrees, a standard (black dot) lie of 62.25 degrees and a steel-shaft length of 36.75 inches."
+  - q: "When were Ping i20 irons made?"
+    a: "The i20 was the 2012 model in Ping's i-series, following the i15 and preceding the i25."
+  - q: "Are Ping i15 and i20 lofts the same?"
+    a: "Yes, club for club: 21, 24, 27, 30, 33, 37, 41 and 46 degrees from 3-iron to pitching wedge, at the same lies and lengths. The i20 carries less offset and a conventional positive-bounce sole where the i15 ran negative bounce in the long irons."
+  - q: "How much offset does a Ping i20 7-iron have?"
+    a: "0.10 inches, against 0.14 inches on the i15."
+confidence: medium

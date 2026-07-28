@@ -1,0 +1,94 @@
+brand: Srixon
+brand_slug: srixon
+model: Z 545
+slug: z-545-irons
+club_type: irons
+year_introduced: 2014
+year_discontinued: 2016
+category: players-distance
+construction: forged cavity back with a SUP10 face insert
+material: 1020 carbon steel body with a SUP10 steel face
+successor: Srixon Z 565
+predecessor: null
+description: >
+  The Z 545 is the cavity back of Srixon's 2014 Z line, forged from 1020 carbon
+  steel with a SUP10 steel face for a higher COR and a double-laser-milled face
+  for spin. Srixon publishes leading- and trailing-edge bounce separately for
+  this set rather than a single figure, which is how the Tour V.T. Sole is
+  specified: leading-edge bounce climbs from 13 to 21 degrees through the set
+  while trailing-edge bounce stays negative. Lofts are moderately strong, 31
+  degrees at the 7-iron.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 60.0
+    length: 39.00
+    offset: 0.159
+    swing_weight: D3
+  - club: "4"
+    loft: 22.0
+    lie: 60.5
+    length: 38.50
+    offset: 0.148
+    swing_weight: D3
+  - club: "5"
+    loft: 24.0
+    lie: 61.0
+    length: 38.00
+    offset: 0.136
+    swing_weight: D3
+  - club: "6"
+    loft: 27.0
+    lie: 61.5
+    length: 37.50
+    offset: 0.124
+    swing_weight: D3
+  - club: "7"
+    loft: 31.0
+    lie: 62.0
+    length: 37.00
+    offset: 0.108
+    swing_weight: D3
+  - club: "8"
+    loft: 35.0
+    lie: 62.5
+    length: 36.50
+    offset: 0.093
+    swing_weight: D3
+  - club: "9"
+    loft: 39.0
+    lie: 63.0
+    length: 36.00
+    offset: 0.085
+    swing_weight: D3
+  - club: "PW"
+    loft: 44.0
+    lie: 63.5
+    length: 35.50
+    offset: 0.069
+    swing_weight: D3
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+    flex: ["R", "S", "X"]
+sources:
+  - "intheholegolf.com Srixon Z 545 Iron Set product page specification table — loft, length, lie, leading-edge bounce, trailing-edge bounce, offset and swing weight for the 3-iron through pitching wedge, the 3-PW and 4-PW set ranges and the Dynamic Gold stock shaft."
+  - "qsponge.com Srixon Z 545 listing — independently corroborates the loft, lie and length columns club for club."
+  - "Note: the single `bounce` field is omitted because Srixon specifies this sole as a leading-edge and trailing-edge pair (13 to 21 degrees leading, minus 6 to minus 1 trailing) rather than one angle, and collapsing that to a single number would misstate it."
+related_models:
+  - slug: "srixon/z-745-irons"
+    label: "Players sibling: Srixon Z 745"
+  - slug: "srixon/z-355-irons"
+    label: "Game-improvement sibling: Srixon Z 355"
+  - slug: "srixon/z-565-irons"
+    label: "Successor: Srixon Z 565"
+faq:
+  - q: "What is the loft of a Srixon Z 545 7-iron?"
+    a: "The Srixon Z 545 7-iron has a loft of 31 degrees, a lie of 62.0 degrees and a steel-shaft length of 37.00 inches."
+  - q: "When were Srixon Z 545 irons made?"
+    a: "The Z 545 was introduced in 2014 and replaced by the Z 565 in 2016."
+  - q: "Why does Srixon publish two bounce numbers for the Z 545?"
+    a: "Because the Tour V.T. Sole is not a single plane. Srixon adds bounce at the leading edge — 13 degrees at the 3-iron rising to 21 at the pitching wedge — and removes it at the trailing edge, which is where the negative figures come from."
+  - q: "What is SUP10 steel?"
+    a: "A high-strength spring steel Srixon uses for the face insert, stiff enough to be made thin so the face rebounds more at impact while the 1020 carbon body keeps the feel soft."
+confidence: medium

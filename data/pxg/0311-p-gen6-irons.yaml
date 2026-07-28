@@ -1,0 +1,88 @@
+brand: PXG
+brand_slug: pxg
+model: 0311 P GEN6
+slug: 0311-p-gen6-irons
+club_type: irons
+year_introduced: 2023
+year_discontinued: 2024
+category: players-distance
+construction: forged hollow body with an XCOR2 core
+material: forged 8620 carbon steel body with an HT1770 maraging steel face
+successor: PXG 0311 P GEN7
+predecessor: PXG 0311 P GEN5
+description: >
+  The GEN6 0311 P is a mid-size head with a moderate amount of offset, aimed at
+  low to mid handicap players, and it publishes exactly the same loft, lie,
+  length, offset and bounce chart as the GEN5 model it replaces — 30 degrees at
+  the 7-iron, 44 at the pitching wedge. The changes are in the internals and
+  the finish options, which run to Chrome, Xtreme Dark, Double Chrome and
+  Double Black. PXG builds every set to order, so the lengths below are its
+  published standard.
+specs:
+  - club: "4"
+    loft: 20.5
+    lie: 61.0
+    length: 38.875
+    offset: 0.220
+    bounce: 6.0
+  - club: "5"
+    loft: 23.0
+    lie: 61.5
+    length: 38.25
+    offset: 0.190
+    bounce: 7.0
+  - club: "6"
+    loft: 26.0
+    lie: 62.0
+    length: 37.625
+    offset: 0.160
+    bounce: 8.0
+  - club: "7"
+    loft: 30.0
+    lie: 62.5
+    length: 37.00
+    offset: 0.130
+    bounce: 9.0
+  - club: "8"
+    loft: 34.0
+    lie: 63.0
+    length: 36.50
+    offset: 0.100
+    bounce: 10.0
+  - club: "9"
+    loft: 39.0
+    lie: 63.5
+    length: 36.00
+    offset: 0.075
+    bounce: 11.0
+  - club: "PW"
+    loft: 44.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.050
+    bounce: 12.0
+  - club: "GW"
+    loft: 49.0
+    lie: 64.0
+    length: 35.50
+    offset: 0.040
+    bounce: 12.0
+sources:
+  - "PXG's own published GEN6 spec page, 'PXG 0311 P GEN6 IRON SPECS' (pxg.com.au/pages/pxg-0311-p-gen6-iron-specs) — loft, standard length, standard lie, offset and bounce for the 4-iron through gap wedge, the description of the head as mid-size with moderate offset for low to mid handicap players, and the Chrome / Xtreme Dark / Double Chrome / Double Black finishes."
+  - "Note: swing weight was not published on the spec page and is omitted rather than estimated. PXG builds to order from a wide shaft menu, so no single stock shaft is recorded."
+  - "Note on year_discontinued: recorded as 2024, when PXG released the GEN7 irons on 7 August 2024 (pxg.com 'PXG Releases GEN7 Irons and Black Ops Irons'). The GEN7 P carries this model's loft, lie, length and offset chart over unchanged."
+related_models:
+  - slug: "pxg/0311-p-gen5-irons"
+    label: "Predecessor: PXG 0311 P GEN5"
+  - slug: "pxg/0317-t-irons"
+    label: "PXG's tour iron of the same period: PXG 0317 T"
+faq:
+  - q: "What is the loft of a PXG 0311 P GEN6 7-iron?"
+    a: "The PXG 0311 P GEN6 7-iron has a loft of 30 degrees, a standard lie of 62.5 degrees and a standard length of 37.00 inches."
+  - q: "Did PXG change the 0311 P specs from GEN5 to GEN6?"
+    a: "No. PXG publishes identical lofts, lies, lengths, offsets and bounce angles for both generations; the differences are internal and cosmetic."
+  - q: "What finishes does the PXG 0311 P GEN6 come in?"
+    a: "Chrome, Xtreme Dark, Double Chrome and Double Black."
+  - q: "How much bounce does a PXG 0311 P GEN6 have?"
+    a: "Progressive, from 6 degrees at the 4-iron to 12 degrees at the pitching and gap wedges."
+confidence: high

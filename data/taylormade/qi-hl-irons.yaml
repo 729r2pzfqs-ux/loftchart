@@ -1,0 +1,96 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: Qi HL
+slug: qi-hl-irons
+club_type: irons
+year_introduced: 2024
+year_discontinued: null
+category: super-game-improvement
+construction: investment cast Cap Back design with a Thru-Slot Speed Pocket
+material: 450 stainless steel face with a stainless body and a carbon-composite cap
+successor: null
+predecessor: TaylorMade Stealth HD
+description: >
+  Qi HL is the high-launch model in TaylorMade's 2024 Qi iron family, built for
+  moderate swing speeds. Against the standard Qi it weakens every loft by about
+  two degrees — 28 degrees at the 7-iron rather than 26 — and pairs that with
+  lighter stock shafts and a 5-PW stock make-up, so the ball gets airborne
+  without the golfer having to generate the speed. The set extends to a
+  59-degree lob wedge. Figures are the men's standard right-handed build.
+specs:
+  - club: "4"
+    loft: 18.5
+    lie: 61.5
+    length: 39.125
+    swing_weight: D1
+  - club: "5"
+    loft: 21.0
+    lie: 62.0
+    length: 38.50
+    swing_weight: D1
+  - club: "6"
+    loft: 24.0
+    lie: 62.5
+    length: 37.88
+    swing_weight: D1
+  - club: "7"
+    loft: 28.0
+    lie: 63.0
+    length: 37.25
+    swing_weight: D1
+  - club: "8"
+    loft: 32.0
+    lie: 63.5
+    length: 36.75
+    swing_weight: D1
+  - club: "9"
+    loft: 37.0
+    lie: 64.0
+    length: 36.25
+    swing_weight: D1
+  - club: "PW"
+    loft: 43.0
+    lie: 64.5
+    length: 35.75
+    swing_weight: D1
+  - club: "AW"
+    loft: 49.0
+    lie: 64.5
+    length: 35.50
+    swing_weight: D1
+  - club: "SW"
+    loft: 54.0
+    lie: 64.5
+    length: 35.25
+    swing_weight: D2
+  - club: "LW"
+    loft: 59.0
+    lie: 64.5
+    length: 35.00
+    swing_weight: D3
+stock_shafts:
+  - name: "FST KBS Max Lite"
+    material: steel
+    flex: ["R", "S"]
+  - name: "Fujikura Speeder NX TCS 50"
+    material: graphite
+    flex: ["A", "R", "S"]
+sources:
+  - "2ndswing.com TaylorMade Qi HL Iron Set specification table — loft, lie, length and swing weight for the 4-iron through lob wedge, the 5-PW stock make-up, the KBS Max Lite and Speeder NX TCS 50 stock shafts and the Golf Pride Tour Velvet 360 Lite grip."
+  - "golf.com 'TaylorMade Qi10 irons: 4 things you need to know' — the 2024 launch alongside the Qi, and the note that the HL lofts sit on average two degrees weaker than the standard model."
+  - "Note: offset and bounce were not published in the sources consulted and are omitted rather than estimated. TaylorMade's 2024 iron line is catalogued as Qi and Qi HL; much of the launch coverage refers to it as Qi10 after the driver family it launched with."
+related_models:
+  - slug: "taylormade/qi-irons"
+    label: "Standard model: TaylorMade Qi"
+  - slug: "taylormade/stealth-hd-irons"
+    label: "Predecessor: TaylorMade Stealth HD"
+faq:
+  - q: "What is the loft of a TaylorMade Qi HL 7-iron?"
+    a: "The TaylorMade Qi HL 7-iron has a loft of 28 degrees, a lie of 63.0 degrees and a length of 37.25 inches."
+  - q: "What is the difference between the TaylorMade Qi and Qi HL?"
+    a: "HL stands for high launch. Its lofts are about two degrees weaker than the standard Qi through the set, and it is built with lighter stock shafts, so slower swings launch the ball higher."
+  - q: "Is the Qi HL the same as the Qi10 irons?"
+    a: "TaylorMade catalogues the 2024 irons as Qi and Qi HL. Because they launched alongside the Qi10 driver, fairway woods and hybrids, much of the coverage calls them Qi10 and Qi10 HL — they are the same clubs."
+  - q: "What is the pitching wedge loft on the TaylorMade Qi HL?"
+    a: "43 degrees, with 49-, 54- and 59-degree wedges available to complete the set."
+confidence: medium

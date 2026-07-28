@@ -1,0 +1,102 @@
+brand: Titleist
+brand_slug: titleist
+model: T100 (2023)
+slug: t100-2023-irons
+club_type: irons
+year_introduced: 2023
+year_discontinued: null
+category: players
+construction: forged multi-material with dual-density tungsten
+material: forged 1025 carbon steel with a stainless variable-thickness face insert and D18 tungsten weighting
+successor: null
+predecessor: Titleist T100 (2021)
+description: >
+  The third T100 keeps the tour chassis — a forged 1025 carbon steel body with
+  a variable-thickness face insert and dual-density tungsten in the toe and
+  heel — and refines the sole with more heel and toe relief. Lofts are
+  traditional: 34 degrees at the 7-iron, 46 at the pitching wedge, one degree
+  weaker than the T150 that sits beside it in the range. Offset runs from 3.4mm
+  at the 3-iron down to 1.3mm at the gap wedge. Figures are the men's standard
+  right-handed steel build.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 61.0
+    length: 39.00
+    offset: 0.134
+    swing_weight: D2
+  - club: "4"
+    loft: 24.0
+    lie: 61.5
+    length: 38.50
+    offset: 0.122
+    swing_weight: D2
+  - club: "5"
+    loft: 27.0
+    lie: 62.0
+    length: 38.00
+    offset: 0.110
+    swing_weight: D2
+  - club: "6"
+    loft: 30.0
+    lie: 62.5
+    length: 37.50
+    offset: 0.102
+    swing_weight: D2
+  - club: "7"
+    loft: 34.0
+    lie: 63.0
+    length: 37.00
+    offset: 0.091
+    swing_weight: D2
+  - club: "8"
+    loft: 38.0
+    lie: 63.5
+    length: 36.50
+    offset: 0.079
+    swing_weight: D2
+  - club: "9"
+    loft: 42.0
+    lie: 64.0
+    length: 36.00
+    offset: 0.071
+    swing_weight: D2
+  - club: "PW"
+    loft: 46.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.059
+    swing_weight: D2
+  - club: "GW"
+    loft: 50.0
+    lie: 64.0
+    length: 35.50
+    offset: 0.051
+    swing_weight: D2
+stock_shafts:
+  - name: "True Temper AMT White"
+    material: steel
+  - name: "Mitsubishi Tensei White AM2"
+    material: graphite
+sources:
+  - "2ndswing.com Titleist 2023 T100 Iron Set specification table — loft, lie, length, offset (in millimetres) and swing weight for the 3-iron through gap wedge, the 4-PW stock make-up, and the AMT White / Tensei White AM2 stock shafts. Offset is converted to inches here."
+  - "Note: bounce was not published in the source consulted and is omitted rather than estimated."
+related_models:
+  - slug: "titleist/t100-2021-irons"
+    label: "Predecessor: Titleist T100 (2021)"
+  - slug: "titleist/t150-irons"
+    label: "Stronger-lofted sibling: Titleist T150"
+  - slug: "titleist/t200-2023-irons"
+    label: "Players-distance sibling: Titleist T200 (2023)"
+  - slug: "titleist/t100-irons"
+    label: "First generation: Titleist T100"
+faq:
+  - q: "What is the loft of a Titleist T100 (2023) 7-iron?"
+    a: "The 2023 T100 7-iron has a loft of 34 degrees, a lie of 63.0 degrees and a steel-shaft length of 37.00 inches."
+  - q: "What is the difference between the T100 and the T150?"
+    a: "The T150 is the stronger, slightly more forgiving version of the same shape — its lofts run about one degree stronger through the set than the T100's, which is 34 degrees at the 7-iron."
+  - q: "When did the 2023 T100 come out?"
+    a: "2023, replacing the 2021 T100 as the third generation of Titleist's tour players iron."
+  - q: "What is the pitching wedge loft on the 2023 T100?"
+    a: "46 degrees, with a 50-degree gap wedge available below it."
+confidence: medium

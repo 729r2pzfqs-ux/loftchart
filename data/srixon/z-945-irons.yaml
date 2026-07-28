@@ -1,0 +1,94 @@
+brand: Srixon
+brand_slug: srixon
+model: Z 945
+slug: z-945-irons
+club_type: irons
+year_introduced: 2014
+year_discontinued: 2016
+category: blade
+construction: forged muscleback with a Tour V.T. Sole and double-laser-milled face
+material: forged 1020 carbon steel
+successor: Srixon Z 965
+predecessor: null
+description: >
+  The Z 945 is the muscleback at the top of Srixon's first Z-Series, forged from soft
+  1020 carbon steel with a slim top line, a compact profile and the least offset of the
+  range — 0.124 inches at the 3-iron falling to 0.053 at the pitching wedge. It carries
+  the Tour V.T. Sole, Srixon's cambered grind with a high leading-edge bounce and a
+  relieved trailing edge, and a double-laser-milled face for spin consistency. Lofts are
+  traditional: 33 degrees at the 7-iron and 46 at the pitching wedge. Srixon catalogued
+  the set 3-iron through pitching wedge and sold it stock as 5-PW.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 60.0
+    length: 39.0
+    offset: 0.124
+    swing_weight: D3
+  - club: "4"
+    loft: 23.0
+    lie: 60.5
+    length: 38.5
+    offset: 0.112
+    swing_weight: D3
+  - club: "5"
+    loft: 26.0
+    lie: 61.0
+    length: 38.0
+    offset: 0.10
+    swing_weight: D3
+  - club: "6"
+    loft: 29.0
+    lie: 61.5
+    length: 37.5
+    offset: 0.096
+    swing_weight: D3
+  - club: "7"
+    loft: 33.0
+    lie: 62.0
+    length: 37.0
+    offset: 0.08
+    swing_weight: D3
+  - club: "8"
+    loft: 37.0
+    lie: 62.5
+    length: 36.5
+    offset: 0.072
+    swing_weight: D3
+  - club: "9"
+    loft: 41.0
+    lie: 63.0
+    length: 36.0
+    offset: 0.064
+    swing_weight: D3
+  - club: "PW"
+    loft: 46.0
+    lie: 63.5
+    length: 35.5
+    offset: 0.053
+    swing_weight: D3
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+sources:
+  - "2ndswing.com Srixon Z 945 single iron specification table — supplied every loft, lie, length, offset and swing weight above, plus the forged 1020 carbon steel construction, the Tour V.T. Sole and the double-laser-milled face."
+  - "todays-golfer.com 'Srixon Z 945 Irons Review' — independently confirms the 33-degree, 37.00-inch 7-iron, the 3-PW catalogued range with a 5-PW stock set, the True Temper Dynamic Gold stock shaft and the blade description."
+  - "Note on bounce: Srixon publishes leading-edge and trailing-edge bounce separately for the V.T. Sole rather than a single bounce angle, so the bounce key is omitted rather than reduced to one misleading number. This matches the treatment in this database's Srixon Z 745 entry."
+  - "Years follow this database's Srixon Z 745 entry: the Z Series was previewed in 2014 and launched from October 2014, and the Z 965 was announced in 2016."
+related_models:
+  - slug: "srixon/z-745-irons"
+    label: "Cavity-back sibling: Srixon Z 745"
+  - slug: "srixon/z-545-irons"
+    label: "Game-improvement sibling: Srixon Z 545"
+  - slug: "srixon/z-765-irons"
+    label: "Next generation players iron: Srixon Z 765"
+faq:
+  - q: "What is the loft of a Srixon Z 945 7-iron?"
+    a: "The Srixon Z 945 7-iron has a loft of 33 degrees, a lie of 62 degrees and a steel-shaft length of 37.0 inches."
+  - q: "When were Srixon Z 945 irons made?"
+    a: "The Z 945 arrived with Srixon's first Z Series in 2014 and was replaced by the Z 965 in 2016."
+  - q: "Is the Srixon Z 945 a blade?"
+    a: "Yes — a forged 1020 carbon steel muscleback with a slim top line and 0.080 inches of offset at the 7-iron, the least of the Z Series."
+  - q: "What is the Tour V.T. Sole on the Srixon Z 945?"
+    a: "Srixon's cambered sole grind, with a high leading-edge bounce to stop the club digging and a relieved trailing edge so it exits the turf cleanly. Because the two figures differ, Srixon publishes them separately rather than quoting a single bounce angle."
+confidence: medium

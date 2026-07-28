@@ -1,0 +1,89 @@
+brand: PXG
+brand_slug: pxg
+model: 0311 P GEN5
+slug: 0311-p-gen5-irons
+club_type: irons
+year_introduced: 2022
+year_discontinued: 2023
+category: players-distance
+construction: forged hollow body with an XCOR2 core
+material: forged 8620 carbon steel body with an HT1770 maraging steel face
+successor: PXG 0311 P GEN6
+predecessor: PXG 0311 P GEN4
+description: >
+  The 0311 P is the middle head of PXG's GEN5 line: a mid-size profile with
+  moderate offset, forged from 8620 carbon steel around an XCOR2 core with a
+  thin HT1770 maraging face. Lofts sit four degrees stronger than the 0311 T at
+  every club — 30 degrees at the 7-iron, 44 at the pitching wedge — and offset
+  runs almost twice the T's. Bounce is progressive from 6 degrees at the 4-iron
+  to 12 at the wedges.
+specs:
+  - club: "4"
+    loft: 20.5
+    lie: 61.0
+    length: 38.875
+    offset: 0.220
+    bounce: 6.0
+  - club: "5"
+    loft: 23.0
+    lie: 61.5
+    length: 38.25
+    offset: 0.190
+    bounce: 7.0
+  - club: "6"
+    loft: 26.0
+    lie: 62.0
+    length: 37.625
+    offset: 0.160
+    bounce: 8.0
+  - club: "7"
+    loft: 30.0
+    lie: 62.5
+    length: 37.00
+    offset: 0.130
+    bounce: 9.0
+  - club: "8"
+    loft: 34.0
+    lie: 63.0
+    length: 36.50
+    offset: 0.100
+    bounce: 10.0
+  - club: "9"
+    loft: 39.0
+    lie: 63.5
+    length: 36.00
+    offset: 0.075
+    bounce: 11.0
+  - club: "PW"
+    loft: 44.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.050
+    bounce: 12.0
+  - club: "GW"
+    loft: 49.0
+    lie: 64.0
+    length: 35.50
+    offset: 0.040
+    bounce: 12.0
+sources:
+  - "2ndswing.com PXG 0311 P GEN5 Chrome Iron Set specification table — loft, lie, length, offset and bounce for the 4-iron through gap wedge."
+  - "pluggedingolf.com 'PXG 0311 P GEN5 Irons Review' and mygolfspy.com 'PXG 0311 GEN5 Irons' — the forged 8620 body, HT1770 maraging face and XCOR2 core, and the P's position between the T and XP heads."
+  - "Note: swing weight and stock shafts were not published as a single stock specification; PXG builds to order from a long shaft menu, so no stock shaft is recorded."
+related_models:
+  - slug: "pxg/0311-t-gen5-irons"
+    label: "Tour sibling: PXG 0311 T GEN5"
+  - slug: "pxg/0311-xp-gen5-irons"
+    label: "Game-improvement sibling: PXG 0311 XP GEN5"
+  - slug: "pxg/0311-p-gen6-irons"
+    label: "Successor: PXG 0311 P GEN6"
+faq:
+  - q: "What is the loft of a PXG 0311 P GEN5 7-iron?"
+    a: "The PXG 0311 P GEN5 7-iron has a loft of 30 degrees, a lie of 62.5 degrees and a length of 37.00 inches."
+  - q: "How strong are PXG 0311 P GEN5 lofts?"
+    a: "Moderately strong for a players-distance iron — 30 degrees at the 7-iron and 44 at the pitching wedge, four degrees stronger than the 0311 T of the same generation."
+  - q: "What is XCOR2?"
+    a: "PXG's second-generation polymer core. It fills the hollow head, supports the thin maraging face so it can flex further without failing, and damps the sound the empty cavity would otherwise make."
+  - q: "Did PXG 0311 P specs change from GEN5 to GEN6?"
+    a: "No. The GEN6 0311 P publishes the same lofts, lies, lengths, offsets and bounce figures as the GEN5."
+confidence: medium

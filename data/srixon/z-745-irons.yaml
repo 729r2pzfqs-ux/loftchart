@@ -1,0 +1,93 @@
+brand: Srixon
+brand_slug: srixon
+model: Z 745
+slug: z-745-irons
+club_type: irons
+year_introduced: 2014
+year_discontinued: 2016
+category: players
+construction: forged compact cavity back
+material: 1020 carbon steel
+successor: Srixon Z 765
+predecessor: null
+description: >
+  The Z 745 is the players iron of Srixon's 2014 Z line, a compact forged
+  cavity back in 1020 carbon steel sitting between the Z 545 distance model and
+  the Z 945 muscleback. Lofts are a degree or two weaker than the Z 545 through
+  the middle of the set — 32 degrees at the 7-iron against 31 — and offset is
+  cut by about a third, 0.14 inches at the 3-iron against 0.159. It uses the
+  same Tour V.T. Sole and double-laser-milled face as the rest of the line.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 60.0
+    length: 39.00
+    offset: 0.14
+    swing_weight: D3
+  - club: "4"
+    loft: 22.0
+    lie: 60.5
+    length: 38.50
+    offset: 0.13
+    swing_weight: D3
+  - club: "5"
+    loft: 25.0
+    lie: 61.0
+    length: 38.00
+    offset: 0.12
+    swing_weight: D3
+  - club: "6"
+    loft: 28.0
+    lie: 61.5
+    length: 37.50
+    offset: 0.11
+    swing_weight: D3
+  - club: "7"
+    loft: 32.0
+    lie: 62.0
+    length: 37.00
+    offset: 0.10
+    swing_weight: D3
+  - club: "8"
+    loft: 36.0
+    lie: 62.5
+    length: 36.50
+    offset: 0.08
+    swing_weight: D3
+  - club: "9"
+    loft: 41.0
+    lie: 63.0
+    length: 36.00
+    offset: 0.07
+    swing_weight: D3
+  - club: "PW"
+    loft: 46.0
+    lie: 63.5
+    length: 35.50
+    offset: 0.06
+    swing_weight: D3
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+    flex: ["S200", "S300", "X100"]
+sources:
+  - "qsponge.com Srixon Z 745 iron spec listing — loft, lie, length, offset and swing weight for the 3-iron through pitching wedge."
+  - "golfwrx.com 'Srixon Z745 and Z545 irons' — confirms the 2014 launch of the Z 745 and Z 545 together, the 1020 carbon steel forging, the Tour V.T. Sole and the double-laser-milled face."
+  - "Note: bounce is omitted. Srixon specifies the Tour V.T. Sole as a leading-edge and trailing-edge pair rather than a single angle, and the pair was not published for this model in the sources consulted."
+related_models:
+  - slug: "srixon/z-545-irons"
+    label: "Players-distance sibling: Srixon Z 545"
+  - slug: "srixon/z-765-irons"
+    label: "Successor: Srixon Z 765"
+  - slug: "srixon/z-355-irons"
+    label: "Game-improvement sibling: Srixon Z 355"
+faq:
+  - q: "What is the loft of a Srixon Z 745 7-iron?"
+    a: "The Srixon Z 745 7-iron has a loft of 32 degrees, a lie of 62.0 degrees and a steel-shaft length of 37.00 inches."
+  - q: "When were Srixon Z 745 irons made?"
+    a: "The Z 745 launched alongside the Z 545 in 2014 and was replaced by the Z 765 in 2016."
+  - q: "What is the difference between the Srixon Z 745 and Z 545?"
+    a: "The Z 745 is the smaller, more workable head: weaker by a degree or two through the middle of the set, about a third less offset, and forged in one piece rather than carrying the Z 545's SUP10 face insert."
+  - q: "What is the pitching wedge loft on the Srixon Z 745?"
+    a: "46 degrees, against 44 on the Z 545."
+confidence: medium

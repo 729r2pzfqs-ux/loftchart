@@ -1,0 +1,109 @@
+brand: Callaway
+brand_slug: callaway
+model: Paradym Ai Smoke
+slug: paradym-ai-smoke-irons
+club_type: irons
+year_introduced: 2024
+year_discontinued: 2025
+category: game-improvement
+construction: forged face cup in a cast body with urethane microspheres
+material: forged 455 face cup with a stainless body and tungsten weighting
+successor: Callaway Elyte
+predecessor: Callaway Paradym
+description: >
+  Paradym Ai Smoke is Callaway's 2024 game-improvement iron and the first to
+  use the Ai Smart Face, a variable-thickness face whose geometry was generated
+  from swing data — club delivery and face orientation at impact — rather than
+  from a single optimisation point. Urethane microspheres behind the face
+  control sound and feel. Lofts are strong: 28 degrees at the 7-iron and 42 at
+  the pitching wedge, with a four-wedge ladder underneath. Figures are the
+  men's standard right-handed steel build.
+specs:
+  - club: "4"
+    loft: 19.0
+    lie: 60.375
+    length: 39.125
+    offset: 0.161
+    swing_weight: D2
+  - club: "5"
+    loft: 22.0
+    lie: 61.0
+    length: 38.50
+    offset: 0.146
+    swing_weight: D2
+  - club: "6"
+    loft: 25.0
+    lie: 61.625
+    length: 37.875
+    offset: 0.130
+    swing_weight: D2
+  - club: "7"
+    loft: 28.0
+    lie: 62.25
+    length: 37.25
+    offset: 0.110
+    swing_weight: D2
+  - club: "8"
+    loft: 32.0
+    lie: 62.875
+    length: 36.625
+    offset: 0.087
+    swing_weight: D2
+  - club: "9"
+    loft: 37.0
+    lie: 63.5
+    length: 36.00
+    offset: 0.067
+    swing_weight: D2
+  - club: "PW"
+    loft: 42.0
+    lie: 63.75
+    length: 35.75
+    offset: 0.059
+    swing_weight: D2
+  - club: "AW"
+    loft: 46.0
+    lie: 64.0
+    length: 35.50
+    offset: 0.055
+    swing_weight: D2
+  - club: "GW"
+    loft: 50.0
+    lie: 64.0
+    length: 35.50
+    offset: 0.051
+    swing_weight: D2
+  - club: "SW"
+    loft: 54.0
+    lie: 64.0
+    length: 35.50
+    offset: 0.051
+    swing_weight: D2
+stock_shafts:
+  - name: "True Temper Elevate MPH 85"
+    material: steel
+    flex: ["R", "S"]
+  - name: "Project X Cypher 2.0"
+    material: graphite
+    flex: ["L", "R", "S"]
+sources:
+  - "2ndswing.com Callaway Paradym Ai Smoke Iron Set specification table — loft, lie, length, offset (in millimetres) and swing weight for the 4-iron through sand wedge, the 4-PW stock make-up, the Elevate MPH 85 and Cypher 2.0 stock shafts and the Lamkin Crossline grip. Offset is converted to inches here."
+  - "Note: bounce was not published in the source consulted and is omitted rather than estimated."
+  - "Naming note: Callaway's 2024 irons are catalogued as Paradym Ai Smoke, Paradym Ai Smoke HL and Paradym Ai Smoke MAX Fast. There is no separate iron sold simply as Ai Smoke."
+related_models:
+  - slug: "callaway/paradym-irons"
+    label: "Predecessor: Callaway Paradym"
+  - slug: "callaway/elyte-irons"
+    label: "Successor: Callaway Elyte"
+  - slug: "callaway/paradym-x-irons"
+    label: "Earlier forgiving sibling: Callaway Paradym X"
+faq:
+  - q: "What is the loft of a Callaway Paradym Ai Smoke 7-iron?"
+    a: "The Callaway Paradym Ai Smoke 7-iron has a loft of 28 degrees, a lie of 62.25 degrees and a steel-shaft length of 37.25 inches."
+  - q: "Is there a Callaway iron called just Ai Smoke?"
+    a: "No. The 2024 family is Paradym Ai Smoke, with HL and MAX Fast variants. Ai Smoke on its own is the technology name, not a separate iron model."
+  - q: "What is the pitching wedge loft on the Paradym Ai Smoke?"
+    a: "42 degrees, with 46-, 50- and 54-degree wedges available underneath to keep the gapping usable."
+  - q: "What is the Ai Smart Face?"
+    a: "A variable-thickness face whose thickness map was generated from recorded golfer data — swing speed, club delivery and face orientation at impact — rather than optimised for a single centred strike."
+confidence: medium

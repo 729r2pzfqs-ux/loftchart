@@ -1,0 +1,103 @@
+brand: Mizuno
+brand_slug: mizuno
+model: JPX-800
+slug: jpx-800-irons
+club_type: irons
+year_introduced: 2011
+year_discontinued: 2013
+category: game-improvement
+construction: investment cast, split construction across the set
+material: stainless steel with a Hot Metal face
+successor: JPX-825
+predecessor: null
+description: >
+  The JPX-800 is the iron that established Mizuno's JPX line as a distance
+  range. The 4 to 7 irons use the Max COR Hot Metal face over a pocket cavity
+  with an external power bar; the 8-iron through pitching wedge move to a deep
+  pocket cavity, and the gap and sand wedges to a solid power-bar design. Lofts
+  are strong for the period — 32 degrees at the 7-iron and 44 at the pitching
+  wedge — and offset is heavy, 0.209 inches at the 4-iron. The set starts at a
+  4-iron and runs to a 55-degree sand wedge.
+specs:
+  - club: "4"
+    loft: 22.0
+    lie: 60.0
+    length: 38.25
+    offset: 0.209
+    bounce: 2.0
+  - club: "5"
+    loft: 25.0
+    lie: 60.5
+    length: 37.75
+    offset: 0.197
+    bounce: 2.0
+  - club: "6"
+    loft: 28.0
+    lie: 61.0
+    length: 37.25
+    offset: 0.185
+    bounce: 2.0
+  - club: "7"
+    loft: 32.0
+    lie: 61.5
+    length: 36.75
+    offset: 0.173
+    bounce: 3.0
+  - club: "8"
+    loft: 36.0
+    lie: 62.0
+    length: 36.25
+    offset: 0.161
+    bounce: 4.0
+  - club: "9"
+    loft: 40.0
+    lie: 62.5
+    length: 35.75
+    offset: 0.142
+    bounce: 5.0
+  - club: "PW"
+    loft: 44.0
+    lie: 63.0
+    length: 35.50
+    offset: 0.122
+    bounce: 6.0
+  - club: "GW"
+    loft: 49.0
+    lie: 63.0
+    length: 35.25
+    offset: 0.122
+    bounce: 7.0
+  - club: "SW"
+    loft: 55.0
+    lie: 63.0
+    length: 35.25
+    offset: 0.102
+    bounce: 12.0
+stock_shafts:
+  - name: "True Temper Dynalite Gold XP"
+    material: steel
+    flex: ["R300", "S300"]
+  - name: "Mizuno Exsar iS4"
+    material: graphite
+    flex: ["LL", "L", "LT", "R", "S"]
+sources:
+  - "golfclubspec.com Mizuno JPX-800 entry (iron_results.php?id=263), dated 2011 — loft, lie, length, offset and bounce for the 4-iron through sand wedge, and the Dynalite Gold XP / Exsar iS4 stock shafts."
+  - "intheholegolf.com Mizuno JPX-800 Iron Set product page — reproduces the identical chart club for club and adds the set construction detail (Max COR in the 4 to 7 irons, deep pocket cavity in the 8-iron to pitching wedge, solid power bar in the gap and sand wedges) and the Mizuno/Golf Pride M-21 grip."
+  - "Note: swing weight was not published in either source and is omitted rather than estimated."
+related_models:
+  - slug: "mizuno/jpx-825-irons"
+    label: "Successor: Mizuno JPX-825"
+  - slug: "mizuno/mx-300-irons"
+    label: "Players iron of the same era: Mizuno MX-300"
+  - slug: "mizuno/mp-53-irons"
+    label: "Mizuno's forged cavity back of the same era: Mizuno MP-53"
+faq:
+  - q: "What is the loft of a Mizuno JPX-800 7-iron?"
+    a: "The Mizuno JPX-800 7-iron has a loft of 32 degrees, a lie of 61.5 degrees and a steel-shaft length of 36.75 inches."
+  - q: "When were Mizuno JPX-800 irons made?"
+    a: "The JPX-800 was introduced in 2011 and replaced by the JPX-825 in 2013."
+  - q: "Does the Mizuno JPX-800 come with a 3-iron?"
+    a: "No. The published set starts at a 22-degree 4-iron and runs down to a 55-degree sand wedge."
+  - q: "Is the JPX-800 forged?"
+    a: "No. The JPX-800 is cast, with a Hot Metal stainless face. Mizuno's forged JPX models start with the JPX-800 Pro sold alongside it."
+confidence: medium

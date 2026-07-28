@@ -1,0 +1,106 @@
+brand: Titleist
+brand_slug: titleist
+model: 712 CB
+slug: 712-cb-irons
+club_type: irons
+year_introduced: 2011
+year_discontinued: 2013
+category: players
+construction: forged with a co-forged tungsten weight in the long irons
+material: 1025 carbon steel with tungsten
+successor: Titleist 714 CB
+predecessor: Titleist 710 CB
+description: >
+  The 712 CB is the cavity back that sits alongside the 712 MB, forged from
+  1025 carbon steel with a high-density tungsten weight co-forged into the toe
+  of the long irons. It shares the muscleback's loft, lie and length chart
+  exactly from the 3-iron down and extends the set upward with an 18-degree
+  2-iron. Offset is marginally greater than the MB's, 0.140 inches at the
+  3-iron against 0.125. Figures are the men's standard right-handed steel build.
+specs:
+  - club: "2"
+    loft: 18.0
+    lie: 59.0
+    length: 39.50
+    offset: 0.150
+    swing_weight: D2
+  - club: "3"
+    loft: 21.0
+    lie: 60.0
+    length: 39.00
+    offset: 0.140
+    swing_weight: D2
+  - club: "4"
+    loft: 24.0
+    lie: 61.0
+    length: 38.50
+    offset: 0.130
+    swing_weight: D2
+  - club: "5"
+    loft: 27.0
+    lie: 62.0
+    length: 38.00
+    offset: 0.120
+    swing_weight: D2
+  - club: "6"
+    loft: 31.0
+    lie: 62.5
+    length: 37.50
+    offset: 0.110
+    swing_weight: D2
+  - club: "7"
+    loft: 35.0
+    lie: 63.0
+    length: 37.00
+    offset: 0.100
+    swing_weight: D2
+  - club: "8"
+    loft: 39.0
+    lie: 63.5
+    length: 36.50
+    offset: 0.090
+    swing_weight: D2
+  - club: "9"
+    loft: 43.0
+    lie: 64.0
+    length: 36.00
+    offset: 0.080
+    swing_weight: D2
+  - club: "PW"
+    loft: 47.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.075
+    swing_weight: D2
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+    flex: ["S300", "X100"]
+  - name: "Project X Flighted"
+    material: steel
+  - name: "Nippon N.S. Pro Modus 3 Tour 120"
+    material: steel
+  - name: "FST KBS C-Taper 130"
+    material: steel
+sources:
+  - "2ndswing.com Titleist 712 CB Iron Set specification table — loft, lie, length, offset and swing weight for the 2-iron through pitching wedge, plus the 3-PW and 4-PW set ranges and the shaft options."
+  - "Note: bounce was not published in the source consulted and is omitted rather than estimated."
+related_models:
+  - slug: "titleist/712-mb-irons"
+    label: "Muscleback sibling: Titleist 712 MB"
+  - slug: "titleist/714-cb-irons"
+    label: "Successor: Titleist 714 CB"
+  - slug: "titleist/690-cb-irons"
+    label: "Earlier Titleist cavity back: Titleist 690.CB"
+  - slug: "titleist/712-ap2-irons"
+    label: "Players sibling: Titleist 712 AP2"
+faq:
+  - q: "What is the loft of a Titleist 712 CB 7-iron?"
+    a: "The Titleist 712 CB 7-iron has a loft of 35 degrees, a lie of 63.0 degrees and a steel-shaft length of 37.00 inches."
+  - q: "When were Titleist 712 CB irons made?"
+    a: "The 712 generation was introduced in 2011 and replaced by the 714 line in 2013."
+  - q: "Does the Titleist 712 CB come in a 2-iron?"
+    a: "Yes. The CB set extends to an 18-degree 2-iron at 39.50 inches, which the 712 MB does not offer."
+  - q: "How much more offset does the 712 CB have than the 712 MB?"
+    a: "About 0.015 inches in the long irons — 0.140 against 0.125 at the 3-iron — converging to identical figures from the 6-iron down."
+confidence: medium

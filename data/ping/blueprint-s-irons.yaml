@@ -1,0 +1,110 @@
+brand: Ping
+brand_slug: ping
+model: Blueprint S
+slug: blueprint-s-irons
+club_type: irons
+year_introduced: 2024
+year_discontinued: null
+category: players
+construction: forged
+material: forged 8620 carbon steel
+successor: null
+predecessor: null
+description: >
+  Blueprint S is the cavity-back half of Ping's forged Blueprint pair, sold
+  alongside the Blueprint T muscleback. Ping hollows a pocket into the back of
+  the 3, 4 and 5 irons — its Precision Pocket Forging — to free around 10 grams
+  for perimeter weighting, so the long irons gain stability without changing
+  the shape at address. Lofts, lies and lengths match the cast i230 exactly, at
+  33 degrees and 37.00 inches for the 7-iron, but offset is roughly 0.01 to
+  0.02 inches tighter club for club. Lies below are the black (standard) code.
+specs:
+  - club: "3"
+    loft: 19.0
+    lie: 59.0
+    length: 39.00
+    offset: 0.17
+    bounce: 4.0
+    swing_weight: D2
+  - club: "4"
+    loft: 22.5
+    lie: 59.8
+    length: 38.50
+    offset: 0.15
+    bounce: 5.0
+    swing_weight: D2
+  - club: "5"
+    loft: 26.0
+    lie: 60.5
+    length: 38.00
+    offset: 0.12
+    bounce: 6.0
+    swing_weight: D2
+  - club: "6"
+    loft: 29.5
+    lie: 61.3
+    length: 37.50
+    offset: 0.10
+    bounce: 7.0
+    swing_weight: D2
+  - club: "7"
+    loft: 33.0
+    lie: 62.0
+    length: 37.00
+    offset: 0.08
+    bounce: 8.0
+    swing_weight: D2
+  - club: "8"
+    loft: 37.0
+    lie: 62.8
+    length: 36.50
+    offset: 0.06
+    bounce: 9.0
+    swing_weight: D2
+  - club: "9"
+    loft: 41.0
+    lie: 63.5
+    length: 36.00
+    offset: 0.04
+    bounce: 10.5
+    swing_weight: D2
+  - club: "PW"
+    loft: 45.0
+    lie: 64.1
+    length: 35.50
+    offset: 0.02
+    bounce: 11.5
+    swing_weight: D3
+stock_shafts:
+  - name: "True Temper Dynamic Gold 120"
+    material: steel
+  - name: "True Temper Dynamic Gold Mid 100"
+    material: steel
+  - name: "Ping AWT 2.0"
+    material: steel
+  - name: "FST KBS Tour"
+    material: steel
+  - name: "Nippon N.S. Pro Modus 3 Tour 105 / 115"
+    material: steel
+  - name: "Ping ALTA CB Black"
+    material: graphite
+sources:
+  - "ping.com Blueprint S Irons product page, Specifications table (https://ping.com/en-us/golf-clubs/irons/blueprint-s-iron) — every loft, lie, length, offset, bounce and swing weight above, the 3-iron to pitching wedge range and the stock shaft list. Lie is quoted for the black colour code at standard length."
+  - "swingyard.com 'PING Irons by Year' — dates Blueprint S to 2024 and describes the Precision Pocket Forging used in the 3, 4 and 5 irons."
+related_models:
+  - slug: "ping/blueprint-t-irons"
+    label: "Muscleback sibling: Ping Blueprint T"
+  - slug: "ping/blueprint-irons"
+    label: "Earlier Ping forging: Ping Blueprint"
+  - slug: "ping/i230-irons"
+    label: "Cast players iron with the same loft chart: Ping i230"
+faq:
+  - q: "What is the loft of a Ping Blueprint S 7-iron?"
+    a: "The Ping Blueprint S 7-iron has a loft of 33 degrees, a standard (black dot) lie of 62.0 degrees and a steel-shaft length of 37.00 inches."
+  - q: "What is the difference between Ping Blueprint S and Blueprint T?"
+    a: "Blueprint T is the muscleback; Blueprint S is the cavity back, with a pocket forged into the back of the 3, 4 and 5 irons to move about 10 grams to the perimeter for extra long-iron stability."
+  - q: "Are Blueprint S lofts the same as the Ping i230?"
+    a: "Yes — 19, 22.5, 26, 29.5, 33, 37, 41 and 45 degrees at identical lies and lengths. Blueprint S is the forged version of that chart, with slightly less offset."
+  - q: "Is the Ping Blueprint S forged?"
+    a: "Yes, from 8620 carbon steel, unlike the cast 431 stainless i230 that shares its loft chart."
+confidence: high

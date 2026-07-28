@@ -1,0 +1,100 @@
+brand: Mizuno
+brand_slug: mizuno
+model: MX-300
+slug: mx-300-irons
+club_type: irons
+year_introduced: 2010
+year_discontinued: 2012
+category: players
+construction: Grain Flow Forged with an undercut cavity
+material: 1025E Pure Select mild carbon steel
+successor: null
+predecessor: null
+description: >
+  The MX-300 is the MX line at its most player-oriented: a Grain Flow Forged
+  undercut cavity built without the offset and sole width the rest of the MX
+  range carried, so it reads as an MP blade at address while keeping a
+  forgiving cavity behind the face. The sole is dual-cambered to cut turf drag.
+  Lofts are traditional — 33 degrees at the 7-iron, 45 at the pitching wedge —
+  and the set extends to a 50-degree gap wedge. Figures are the men's standard
+  steel build.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 59.5
+    length: 38.75
+    offset: 0.171
+    bounce: 1.0
+  - club: "4"
+    loft: 23.0
+    lie: 60.0
+    length: 38.25
+    offset: 0.161
+    bounce: 2.0
+  - club: "5"
+    loft: 26.0
+    lie: 60.5
+    length: 37.75
+    offset: 0.152
+    bounce: 2.0
+  - club: "6"
+    loft: 29.0
+    lie: 61.0
+    length: 37.25
+    offset: 0.142
+    bounce: 2.0
+  - club: "7"
+    loft: 33.0
+    lie: 61.5
+    length: 36.75
+    offset: 0.132
+    bounce: 3.0
+  - club: "8"
+    loft: 37.0
+    lie: 62.0
+    length: 36.25
+    offset: 0.122
+    bounce: 4.0
+  - club: "9"
+    loft: 41.0
+    lie: 62.5
+    length: 35.75
+    offset: 0.112
+    bounce: 5.0
+  - club: "PW"
+    loft: 45.0
+    lie: 63.0
+    length: 35.50
+    offset: 0.102
+    bounce: 6.0
+  - club: "GW"
+    loft: 50.0
+    lie: 63.0
+    length: 35.25
+    offset: 0.093
+    bounce: 7.0
+stock_shafts:
+  - name: "True Temper Dynalite Gold XP"
+    material: steel
+    flex: ["R300", "S300"]
+sources:
+  - "thesandtrap.com 'Mizuno MX-300 Iron Review' — the full loft, length, lie, bounce and offset table for the 3-iron through gap wedge, the 4-iron-to-gap-wedge stock set, the Dynalite Gold XP stock shaft and the 2010 release year."
+  - "Independent corroboration: a second published copy of the same chart (surfaced via golfbidder and todays-golfer MX-300 listings) matches club for club on loft, length, lie, bounce and offset."
+  - "Note: swing weight was not published in the sources consulted and is omitted rather than estimated."
+related_models:
+  - slug: "mizuno/mx-23-irons"
+    label: "Earlier MX iron: Mizuno MX-23"
+  - slug: "mizuno/mp-53-irons"
+    label: "Mizuno's players cavity back of the same era: Mizuno MP-53"
+  - slug: "mizuno/jpx-800-irons"
+    label: "Distance iron of the same era: Mizuno JPX-800"
+faq:
+  - q: "What is the loft of a Mizuno MX-300 7-iron?"
+    a: "The Mizuno MX-300 7-iron has a loft of 33 degrees, a lie of 61.5 degrees and a steel-shaft length of 36.75 inches."
+  - q: "When were Mizuno MX-300 irons made?"
+    a: "The MX-300 was released in 2010, the last of Mizuno's MX line before the JPX name took over that part of the range."
+  - q: "Is the Mizuno MX-300 forged?"
+    a: "Yes — Grain Flow Forged from 1025E Pure Select mild carbon steel, with an undercut cavity behind the face."
+  - q: "How much offset does a Mizuno MX-300 have?"
+    a: "0.171 inches at the 3-iron down to 0.102 at the pitching wedge, noticeably less than the MX-17 and MX-23 that preceded it."
+confidence: medium

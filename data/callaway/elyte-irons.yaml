@@ -1,0 +1,102 @@
+brand: Callaway
+brand_slug: callaway
+model: Elyte
+slug: elyte-irons
+club_type: irons
+year_introduced: 2025
+year_discontinued: null
+category: game-improvement
+construction: Speed Frame cast body with a forged face cup and urethane microspheres
+material: forged face cup with a stainless body and tungsten weighting
+successor: null
+predecessor: Callaway Paradym Ai Smoke
+description: >
+  Elyte is Callaway's 2025 iron and replaces the Paradym Ai Smoke. It pairs the
+  Ai 10x face — Callaway's name for a face model built from ten times as many
+  control points as the Ai Smart Face it follows — with a Speed Frame body and
+  urethane microspheres for sound. Lofts move a degree weaker than the Ai Smoke
+  in the mid irons, 29 degrees at the 7-iron against 28, while the pitching
+  wedge stays at 42. The set is sold 4-SW. Figures are the men's standard build.
+specs:
+  - club: "4"
+    loft: 19.0
+    lie: 60.625
+    length: 39.125
+    offset: 0.165
+    swing_weight: D2
+  - club: "5"
+    loft: 22.0
+    lie: 61.25
+    length: 38.50
+    offset: 0.150
+    swing_weight: D2
+  - club: "6"
+    loft: 25.0
+    lie: 61.875
+    length: 37.875
+    offset: 0.134
+    swing_weight: D2
+  - club: "7"
+    loft: 29.0
+    lie: 62.5
+    length: 37.25
+    offset: 0.118
+    swing_weight: D2
+  - club: "8"
+    loft: 33.0
+    lie: 63.125
+    length: 36.625
+    offset: 0.094
+    swing_weight: D2
+  - club: "9"
+    loft: 37.0
+    lie: 63.75
+    length: 36.00
+    offset: 0.071
+    swing_weight: D2
+  - club: "PW"
+    loft: 42.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.059
+    swing_weight: D2
+  - club: "AW"
+    loft: 47.0
+    lie: 64.0
+    length: 35.50
+    offset: 0.059
+    swing_weight: D2
+  - club: "GW"
+    loft: 51.0
+    lie: 64.0
+    length: 35.50
+    offset: 0.059
+    swing_weight: D2
+  - club: "SW"
+    loft: 55.0
+    lie: 64.0
+    length: 35.50
+    offset: 0.059
+    swing_weight: D2
+stock_shafts:
+  - name: "True Temper Vector 90"
+    material: steel
+    flex: ["R", "S"]
+sources:
+  - "callawaygolf.com Elyte Irons product page specification table (https://www.callawaygolf.com/golf-clubs/irons/irons-2025-elyte.html) — loft, lie, length, offset (in millimetres) and swing weight for the 4-iron through sand wedge, the 4-SW set composition, the True Temper Vector 90 stock shaft and the Lamkin Crossline grip. Offset is converted to inches here."
+  - "Note: bounce was not published on the product page and is omitted rather than estimated. Swing weight is listed as D2 for steel and D0 for graphite; the steel figure is recorded."
+related_models:
+  - slug: "callaway/paradym-ai-smoke-irons"
+    label: "Predecessor: Callaway Paradym Ai Smoke"
+  - slug: "callaway/paradym-irons"
+    label: "Earlier Callaway distance iron: Callaway Paradym"
+faq:
+  - q: "What is the loft of a Callaway Elyte 7-iron?"
+    a: "The Callaway Elyte 7-iron has a loft of 29 degrees, a lie of 62.5 degrees and a steel-shaft length of 37.25 inches."
+  - q: "When did the Callaway Elyte irons come out?"
+    a: "2025, replacing the Paradym Ai Smoke."
+  - q: "Are Elyte lofts weaker than the Paradym Ai Smoke?"
+    a: "Slightly, in the mid irons — 29 degrees at the 7-iron against 28, and 33 at the 8-iron against 32. The long irons and the 42-degree pitching wedge are unchanged."
+  - q: "How many clubs are in a Callaway Elyte set?"
+    a: "Callaway publishes the chart from the 4-iron to a 55-degree sand wedge, ten heads in total, with the 4-PW the usual retail build."
+confidence: high

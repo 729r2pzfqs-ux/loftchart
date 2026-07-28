@@ -1,0 +1,86 @@
+brand: Cobra
+brand_slug: cobra
+model: KING Forged Tec (2022)
+slug: king-forged-tec-2022-irons
+club_type: irons
+year_introduced: 2022
+year_discontinued: null
+category: players-distance
+construction: forged hollow body with a PWRSHELL face cup and foam microspheres
+material: forged 1025 carbon steel body with a forged PWRSHELL face and tungsten weighting
+successor: null
+predecessor: Cobra KING Forged Tec
+description: >
+  The 2022 KING Forged Tec is a compact hollow-bodied players-distance iron: a
+  forged 1025 carbon steel body with a forged PWRSHELL face cup, foam
+  microspheres behind the face for sound, and a tungsten weight low in the
+  head. The profile is deliberately small for the category, with a relatively
+  thin top line. Lofts are strong — 29.5 degrees at the 7-iron and 44 at the
+  pitching wedge — and the set is built long at 37.25 inches for the 7-iron.
+specs:
+  - club: "4"
+    loft: 21.0
+    lie: 61.0
+    length: 38.75
+    offset: 0.142
+    swing_weight: D2
+  - club: "5"
+    loft: 23.0
+    lie: 61.5
+    length: 38.25
+    offset: 0.130
+    swing_weight: D2
+  - club: "6"
+    loft: 26.0
+    lie: 62.0
+    length: 37.75
+    offset: 0.118
+    swing_weight: D2
+  - club: "7"
+    loft: 29.5
+    lie: 62.5
+    length: 37.25
+    offset: 0.106
+    swing_weight: D2
+  - club: "8"
+    loft: 34.0
+    lie: 63.0
+    length: 36.75
+    offset: 0.094
+    swing_weight: D2
+  - club: "9"
+    loft: 39.0
+    lie: 63.5
+    length: 36.25
+    offset: 0.083
+    swing_weight: D2
+  - club: "PW"
+    loft: 44.0
+    lie: 64.0
+    length: 36.00
+    offset: 0.071
+    swing_weight: D3
+stock_shafts:
+  - name: "FST KBS $-Taper Lite"
+    material: steel
+    flex: ["R", "S"]
+sources:
+  - "2ndswing.com Cobra 2022 KING Forged Tec Iron Set specification table — loft, length, lie, offset (in millimetres) and swing weight for the 4-iron through pitching wedge, the 4-PW stock make-up, the KBS $-Taper Lite stock shaft (115g in stiff, 110g in regular) and the Lamkin Crossline grip. Offset is converted to inches here."
+  - "Note: bounce was not published in the source consulted and is omitted rather than estimated."
+related_models:
+  - slug: "cobra/king-forged-tec-irons"
+    label: "Predecessor: Cobra KING Forged Tec"
+  - slug: "cobra/king-tour-irons"
+    label: "Cobra's tour iron of the same era: Cobra KING Tour"
+  - slug: "cobra/ltdx-irons"
+    label: "Game-improvement sibling: Cobra LTDx"
+faq:
+  - q: "What is the loft of a Cobra KING Forged Tec (2022) 7-iron?"
+    a: "The 2022 Cobra KING Forged Tec 7-iron has a loft of 29.5 degrees, a lie of 62.5 degrees and a length of 37.25 inches."
+  - q: "Is the Cobra KING Forged Tec hollow?"
+    a: "Yes — a forged 1025 carbon steel body with a forged PWRSHELL face cup and foam microspheres inside to control the sound."
+  - q: "How strong are 2022 KING Forged Tec lofts?"
+    a: "Strong for a compact iron: 29.5 degrees at the 7-iron and 44 at the pitching wedge, about three and a half degrees stronger than a traditional players iron."
+  - q: "What is the stock shaft in the 2022 Cobra KING Forged Tec?"
+    a: "The KBS $-Taper Lite, at 115 grams in stiff and 110 grams in regular."
+confidence: medium

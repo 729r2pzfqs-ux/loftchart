@@ -1,0 +1,112 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: SpeedBlade
+slug: speedblade-irons
+club_type: irons
+year_introduced: 2013
+year_discontinued: null
+category: game-improvement
+construction: cast with a through-slot Speed Pocket in the 3 to 7 irons
+material: cast stainless steel
+successor: null
+predecessor: null
+description: >
+  SpeedBlade carried over the RocketBladez idea — a handlebar-shaped
+  slot cut through the sole of the 3 to 7 irons so a larger area of the face can flex
+  at impact. Lofts are strong even by the standards of the period, with a 30.5-degree
+  7-iron and a 17-degree 3-iron, and the set extends to a 60-degree lob wedge. Offset
+  is large in the long irons, 6.3 mm at the 3-iron, and falls to under a millimetre in
+  the wedges.
+specs:
+  - club: "3"
+    loft: 17.0
+    lie: 60.25
+    length: 39.5
+    offset: 0.248
+    swing_weight: D2.5
+  - club: "4"
+    loft: 20.0
+    lie: 61.0
+    length: 38.875
+    offset: 0.228
+    swing_weight: D2.5
+  - club: "5"
+    loft: 23.0
+    lie: 61.75
+    length: 38.25
+    offset: 0.205
+    swing_weight: D2.5
+  - club: "6"
+    loft: 26.5
+    lie: 62.5
+    length: 37.625
+    offset: 0.177
+    swing_weight: D2.5
+  - club: "7"
+    loft: 30.5
+    lie: 63.0
+    length: 37.0
+    offset: 0.154
+    swing_weight: D2.5
+  - club: "8"
+    loft: 34.5
+    lie: 63.5
+    length: 36.5
+    offset: 0.122
+    swing_weight: D2.5
+  - club: "9"
+    loft: 39.5
+    lie: 64.0
+    length: 36.0
+    offset: 0.098
+    swing_weight: D2.5
+  - club: "PW"
+    loft: 45.0
+    lie: 64.5
+    length: 35.5
+    offset: 0.079
+    swing_weight: D2.5
+  - club: "AW"
+    loft: 50.0
+    lie: 64.5
+    length: 35.5
+    offset: 0.051
+    swing_weight: D2.5
+  - club: "SW"
+    loft: 55.0
+    lie: 64.5
+    length: 35.25
+    offset: 0.035
+    swing_weight: D3.5
+  - club: "LW"
+    loft: 60.0
+    lie: 64.5
+    length: 35.0
+    offset: 0.035
+    swing_weight: D4.5
+stock_shafts:
+  - name: "TaylorMade SpeedBlade 85"
+    material: steel
+  - name: "TaylorMade Velox-T"
+    material: graphite
+sources:
+  - "2nd Swing Golf specification table for the TaylorMade SpeedBlade iron set (https://www.2ndswing.com/golf-clubs/iron-sets/taylormade-speedblade-iron-set) — supplied every loft, lie, length, offset and swing weight above and both stock shafts."
+  - "Note on offset: the source publishes offset in millimetres (6.3 mm down to 0.9 mm), converted to inches here."
+  - "golfbusinessnews.com 'TaylorMade Golf Introduces SpeedBlade Irons' — announced in 2013 with retail availability from 4 October 2013; the Speed Pocket runs through the sole of the 3 to 7 irons."
+  - "Note: bounce is omitted — the source table did not carry a bounce column. Confidence is medium."
+  - "Note on succession: TaylorMade ran overlapping game-improvement models in this period — RocketBladez, RocketBladez 2.0, SpeedBlade, then the RSi family — and the sources retrieved do not establish a clean one-to-one replacement, so successor, predecessor and year_discontinued are left null rather than asserted."
+related_models:
+  - slug: "taylormade/rocketbladez-irons"
+    label: "The model whose Speed Pocket it carried over: TaylorMade RocketBladez"
+  - slug: "taylormade/rocketbladez-2-0-irons"
+    label: "Sold in the same period: TaylorMade RocketBladez 2.0"
+  - slug: "taylormade/rsi-1-irons"
+    label: "TaylorMade's next game-improvement iron: TaylorMade RSi 1"
+faq:
+  - q: "What is the loft of a TaylorMade SpeedBlade 7-iron?"
+    a: "The TaylorMade SpeedBlade 7-iron has a loft of 30.5 degrees, a lie of 63.0 degrees and a length of 37.0 inches."
+  - q: "When were TaylorMade SpeedBlade irons made?"
+    a: "They were introduced in 2013 and reached retail on 4 October 2013. TaylorMade ran several overlapping game-improvement models around it, so there is no single clean replacement."
+  - q: "Which SpeedBlade irons have the Speed Pocket?"
+    a: "The 3 through 7-irons. The slot is cut all the way through the sole in those heads and omitted in the short irons and wedges."
+confidence: medium

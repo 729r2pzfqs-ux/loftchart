@@ -1,0 +1,109 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: P790 (2023)
+slug: p790-2023-irons
+club_type: irons
+year_introduced: 2023
+year_discontinued: null
+category: players-distance
+construction: forged hollow body
+material: forged 8620 carbon steel body with a high-strength forged L-Face
+successor: null
+predecessor: P790 (2021)
+description: >
+  The fourth-generation P790 keeps the family loft chart intact for a fourth
+  time — 30.5 degrees at the 7-iron, 45 at the pitching wedge — and reworks the
+  internals. The face is a forged wrap-around L-Face over a Speed Pocket, the
+  SpeedFoam Air filling is retained, and up to 38 grams of tungsten is used to
+  drive the FLTD CG progression, lowest in the long irons and rising through
+  the set. Lofts, lies, lengths and offsets carry over unchanged from the 2021
+  model. Figures are the men's standard right-handed steel build.
+specs:
+  - club: "3"
+    loft: 19.0
+    lie: 60.5
+    length: 39.00
+    offset: 0.138
+    swing_weight: D2
+  - club: "4"
+    loft: 21.0
+    lie: 61.0
+    length: 38.50
+    offset: 0.134
+    swing_weight: D2
+  - club: "5"
+    loft: 23.5
+    lie: 61.5
+    length: 38.00
+    offset: 0.122
+    swing_weight: D2
+  - club: "6"
+    loft: 26.5
+    lie: 62.0
+    length: 37.50
+    offset: 0.114
+    swing_weight: D2
+  - club: "7"
+    loft: 30.5
+    lie: 62.5
+    length: 37.00
+    offset: 0.106
+    swing_weight: D2
+  - club: "8"
+    loft: 35.0
+    lie: 63.0
+    length: 36.50
+    offset: 0.094
+    swing_weight: D2
+  - club: "9"
+    loft: 40.0
+    lie: 63.5
+    length: 36.00
+    offset: 0.083
+    swing_weight: D2
+  - club: "PW"
+    loft: 45.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.071
+    swing_weight: D3
+  - club: "AW"
+    loft: 50.0
+    lie: 64.0
+    length: 35.50
+    offset: 0.063
+    swing_weight: D3
+stock_shafts:
+  - name: "FST KBS Tour Lite"
+    material: steel
+    flex: ["R", "S"]
+  - name: "True Temper Dynamic Gold 95"
+    material: steel
+    flex: ["R300"]
+  - name: "True Temper Dynamic Gold 105"
+    material: steel
+    flex: ["S300", "X100"]
+  - name: "Mitsubishi Chemical MMT 55 / 65 / 75"
+    material: graphite
+    flex: ["A", "R", "S"]
+sources:
+  - "2ndswing.com TaylorMade 2023 P790 Iron Set specification table — loft, lie, length, offset (in millimetres) and swing weight for the 3-iron through approach wedge, plus the KBS Tour Lite / Dynamic Gold 95 / Dynamic Gold 105 / MMT stock shaft list. Offset is converted to inches here."
+  - "todays-golfer.com 'TaylorMade P790 Irons (2023)' — confirms the 2023 launch, the forged 8620 body, the high-strength L-Face, SpeedFoam Air, the Speed Pocket and the up-to-38-gram tungsten weighting behind the FLTD CG progression."
+  - "Note: bounce was not published in the sources consulted and is omitted rather than estimated. Swing weight is the steel build; the source also lists D0 for graphite."
+related_models:
+  - slug: "taylormade/p790-2021-irons"
+    label: "Predecessor: TaylorMade P790 (2021)"
+  - slug: "taylormade/p770-2023-irons"
+    label: "Players-iron sibling: TaylorMade P770 (2023)"
+  - slug: "taylormade/p790-2017-irons"
+    label: "First generation: TaylorMade P790 (2017)"
+faq:
+  - q: "What is the loft of a TaylorMade P790 (2023) 7-iron?"
+    a: "The 2023 P790 7-iron has a loft of 30.5 degrees, a lie of 62.5 degrees and a steel-shaft length of 37.00 inches."
+  - q: "Have P790 lofts changed since 2017?"
+    a: "No. Every generation from 2017 to 2023 uses 19, 21, 23.5, 26.5, 30.5, 35, 40, 45 and 50 degrees from 3-iron to approach wedge. Only lengths and offsets have moved, and only between the 2017 and 2019 models."
+  - q: "What is the difference between the 2021 and 2023 P790?"
+    a: "The loft, lie, length and offset charts are identical. The 2023 model changes the face to a forged wrap-around L-Face, adds up to 38 grams of tungsten, and uses the FLTD CG progression to sit the centre of gravity lowest in the long irons and highest in the scoring irons."
+  - q: "What is the pitching wedge loft on the 2023 P790?"
+    a: "45 degrees, with a 50-degree approach wedge completing the published range."
+confidence: medium

@@ -1,0 +1,76 @@
+brand: Srixon
+brand_slug: srixon
+model: Z 355
+slug: z-355-irons
+club_type: irons
+year_introduced: 2015
+year_discontinued: 2017
+category: game-improvement
+construction: cast, split construction across the set
+material: HT1770 maraging steel face with a 17-4 stainless body in the 4 to 7 irons, one-piece 431 steel from the 8-iron down
+successor: null
+predecessor: null
+description: >
+  The Z 355 is the forgiving model in Srixon's 2015 Z line and uses a split
+  construction: the 4 to 7 irons are two-piece, with an HT1770 maraging steel
+  face on a 17-4 stainless body, while the 8-iron through approach wedge are
+  one-piece soft 431 steel for feel. Srixon pairs the heavier heads with a
+  high-balance-point shaft — its Action Mass Tech — and shapes the sole with
+  the Tour V.T. profile, more bounce at the leading edge and less at the
+  trailing edge. Lofts are moderate for a game-improvement iron at 31 degrees
+  for the 7-iron.
+specs:
+  - club: "4"
+    loft: 22.0
+    lie: 60.5
+    length: 38.50
+  - club: "5"
+    loft: 24.0
+    lie: 61.0
+    length: 38.00
+  - club: "6"
+    loft: 27.0
+    lie: 61.5
+    length: 37.50
+  - club: "7"
+    loft: 31.0
+    lie: 62.0
+    length: 37.00
+  - club: "8"
+    loft: 35.0
+    lie: 62.5
+    length: 36.50
+  - club: "9"
+    loft: 39.0
+    lie: 63.0
+    length: 36.00
+  - club: "PW"
+    loft: 44.0
+    lie: 63.5
+    length: 35.50
+  - club: "AW"
+    loft: 50.0
+    lie: 63.5
+    length: 35.50
+sources:
+  - "qsponge.com Srixon Z 355 iron spec listing — loft, lie and length for the 4-iron through approach wedge. The 7-iron figures (31 degrees, 62.0 lie, 37.00 inches) are independently corroborated by the todays-golfer.com and pluggedingolf.com Z 355 reviews."
+  - "2ndswing.com Srixon Z 355 Iron Set page — the split construction (HT1770 maraging face with a 17-4 body in the 4 to 7 irons, one-piece 431 steel from the 8-iron down), Action Mass Tech and the Tour V.T. Sole."
+  - "thegolfwire.com 'Srixon Introduces New Z 355 Woods And Irons' — dates the North American launch to September 2015."
+  - "Note: offset, bounce and swing weight were not published in the sources consulted and are omitted rather than estimated. The Z 355 shares its loft, lie and length chart with the Z 545 of the same generation from the 4-iron down, which is consistent with Srixon using a common chart across the line."
+related_models:
+  - slug: "srixon/z-545-irons"
+    label: "Players-distance sibling: Srixon Z 545"
+  - slug: "srixon/z-745-irons"
+    label: "Players sibling: Srixon Z 745"
+  - slug: "srixon/z-565-irons"
+    label: "Successor generation: Srixon Z 565"
+faq:
+  - q: "What is the loft of a Srixon Z 355 7-iron?"
+    a: "The Srixon Z 355 7-iron has a loft of 31 degrees, a lie of 62.0 degrees and a length of 37.00 inches."
+  - q: "When were Srixon Z 355 irons made?"
+    a: "The Z 355 launched in North America in September 2015 and stayed in the range until Srixon moved to the Z 565 and Z 765 in 2016 and 2017."
+  - q: "Why is the Srixon Z 355 built from two different steels?"
+    a: "The 4 to 7 irons use a hard HT1770 maraging face on a 17-4 body to get ball speed where distance matters. The 8-iron down is one-piece soft 431 steel, because those clubs are about feel and control rather than speed."
+  - q: "What is the Tour V.T. Sole?"
+    a: "Srixon's sole profile: more bounce at the leading edge and less at the trailing edge, creating a V shape that lets the head enter the turf cleanly and exit without dragging."
+confidence: low

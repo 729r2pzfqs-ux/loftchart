@@ -1,0 +1,114 @@
+brand: Ping
+brand_slug: ping
+model: i15
+slug: i15-irons
+club_type: irons
+year_introduced: 2009
+year_discontinued: 2012
+category: players
+construction: investment cast
+material: 17-4 stainless steel
+successor: Ping i20
+predecessor: Ping i10
+description: >
+  Launched alongside the G15 in the autumn of 2009, the i15 is the tour-shaped
+  half of that pair: a smaller cast head with a machined face, a thinner top
+  line and a tungsten toe weight. Lofts step back from the i10 through the mid
+  and short irons — 33 degrees at the 7-iron against 34, 41 at the 9-iron
+  against 42 — while the lie, length and bounce chart carries over. The long
+  irons run negative bounce, minus 2.7 degrees at the 3-iron. Lies below are
+  the black (standard) colour code.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 59.25
+    length: 38.75
+    offset: 0.26
+    bounce: -2.7
+    swing_weight: D0
+  - club: "4"
+    loft: 24.0
+    lie: 60.00
+    length: 38.25
+    offset: 0.22
+    bounce: -1.8
+    swing_weight: D0
+  - club: "5"
+    loft: 27.0
+    lie: 60.75
+    length: 37.75
+    offset: 0.19
+    bounce: 0.8
+    swing_weight: D0
+  - club: "6"
+    loft: 30.0
+    lie: 61.50
+    length: 37.25
+    offset: 0.17
+    bounce: 2.8
+    swing_weight: D0
+  - club: "7"
+    loft: 33.0
+    lie: 62.25
+    length: 36.75
+    offset: 0.14
+    bounce: 5.0
+    swing_weight: D0
+  - club: "8"
+    loft: 37.0
+    lie: 63.00
+    length: 36.25
+    offset: 0.11
+    bounce: 6.0
+    swing_weight: D0
+  - club: "9"
+    loft: 41.0
+    lie: 63.75
+    length: 35.75
+    offset: 0.09
+    bounce: 8.0
+    swing_weight: D0
+  - club: "PW"
+    loft: 46.0
+    lie: 64.00
+    length: 35.50
+    offset: 0.07
+    bounce: 9.0
+    swing_weight: D2
+  - club: "UW"
+    loft: 50.0
+    lie: 64.00
+    length: 35.50
+    bounce: 10.0
+    swing_weight: D2
+stock_shafts:
+  - name: "Ping AWT"
+    material: steel
+    flex: ["Soft R", "R", "S", "X"]
+  - name: "Ping Z-Z65"
+    material: steel
+  - name: "Ping TFC 149i"
+    material: graphite
+    flex: ["L", "Soft R", "R", "S"]
+sources:
+  - "thesandtrap.com 'PING i15 Irons Review' (published 20 November 2009) — the full loft, lie, length, offset, bounce and swing-weight table for the 3-iron to pitching wedge, plus the AWT / TFC 149i stock shaft list."
+  - "golfclubspec.com Ping i15 entry (iron_results.php?id=277) — independently corroborates every loft, lie, length and offset above and adds the utility wedge row; it rounds bounce to whole degrees where the review gives tenths, and the review's finer figures are used here."
+  - "golfmonthly.com 'PING i15 and PING G15 ranges launched' — dates the launch to 2009."
+  - "Note: the utility wedge offset was not published by either source and is omitted rather than estimated."
+related_models:
+  - slug: "ping/i10-irons"
+    label: "Predecessor: Ping i10"
+  - slug: "ping/i20-irons"
+    label: "Successor: Ping i20"
+  - slug: "ping/g15-irons"
+    label: "Game-improvement sibling: Ping G15"
+faq:
+  - q: "What is the loft of a Ping i15 7-iron?"
+    a: "The Ping i15 7-iron has a loft of 33 degrees, a standard (black dot) lie of 62.25 degrees and a steel-shaft length of 36.75 inches."
+  - q: "When were Ping i15 irons made?"
+    a: "The i15 launched in 2009 alongside the G15 and was replaced by the i20 in 2012."
+  - q: "Why do Ping i15 long irons have negative bounce?"
+    a: "The 3-iron and 4-iron are published at minus 2.7 and minus 1.8 degrees of bounce, meaning the leading edge sits below the trailing edge at address. It is a tour-style sole intended to cut into the turf rather than skid off it."
+  - q: "What is the difference between the Ping i15 and the i10?"
+    a: "Lie, length and offset geometry carry over, but the i15 weakens the mid and short irons by a degree — 33 degrees at the 7-iron against the i10's 34 — and adds a machined face and a tungsten toe weight."
+confidence: medium

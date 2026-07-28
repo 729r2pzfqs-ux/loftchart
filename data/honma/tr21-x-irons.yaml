@@ -1,0 +1,88 @@
+brand: Honma
+brand_slug: honma
+model: TR21 X
+slug: tr21-x-irons
+club_type: irons
+year_introduced: 2020
+year_discontinued: null
+category: players-distance
+construction: hollow body with a high-strength L-cup face and internal tungsten
+material: 17-4 stainless body with a C300 cast face and 42 to 73 grams of internal tungsten
+successor: null
+predecessor: Honma TR20 P
+description: >
+  The TR21 X completes Honma's TR family as its distance iron: a hollow head
+  with a C300 L-cup face and between 42 and 73 grams of internal tungsten,
+  which is a large fraction of the head's total mass. It is noticeably bigger
+  than the TR20 P — about 1.4mm longer in the blade and 4.5mm taller — and
+  three to four degrees stronger through the set, at 30 degrees for the 7-iron
+  and 43 for the pitching wedge. Honma numbers the wedges 10 and 11; they are
+  recorded below as PW and GW.
+specs:
+  - club: "3"
+    loft: 18.0
+    lie: 60.0
+    length: 39.00
+    offset: 0.154
+  - club: "4"
+    loft: 20.0
+    lie: 60.5
+    length: 38.50
+    offset: 0.150
+  - club: "5"
+    loft: 23.0
+    lie: 61.0
+    length: 38.00
+    offset: 0.146
+  - club: "6"
+    loft: 26.0
+    lie: 61.5
+    length: 37.50
+    offset: 0.134
+  - club: "7"
+    loft: 30.0
+    lie: 62.0
+    length: 37.00
+    offset: 0.122
+  - club: "8"
+    loft: 34.0
+    lie: 62.5
+    length: 36.50
+    offset: 0.110
+  - club: "9"
+    loft: 38.0
+    lie: 63.0
+    length: 36.00
+    offset: 0.102
+  - club: "PW"
+    loft: 43.0
+    lie: 63.5
+    length: 35.50
+    offset: 0.094
+stock_shafts:
+  - name: "Honma VIZARD TR20-65"
+    material: graphite
+    flex: ["R", "S"]
+  - name: "Honma VIZARD IB-WF85"
+    material: graphite
+  - name: "Nippon N.S. Pro 950GH neo"
+    material: steel
+sources:
+  - "honmagolf.com T//World TR21 X product detail page (https://honmagolf.com/hk/product-details/7326) — loft, lie, offset (in millimetres) and the length columns for each stock shaft, for the #3 through #10. Offset is converted to inches here and the N.S. Pro 950GH neo steel-shaft length column is used, per this database's convention; the VIZARD IB-WF85 build runs an eighth of an inch longer at every club."
+  - "us.honmagolf.com 'Honma Unveils TR21X Irons, TR21 Fairways and Hybrids to Complete the TR Family of Products' and todays-golfer.com 'Honma T//World TR21X Iron Review' — the hollow-body construction, the high-strength L-cup face, the 42 to 73 grams of internal tungsten, and the size difference against the TR20 P."
+  - "Note: the #11 (48-degree gap wedge) is listed by Honma with a loft only — no lie, length or offset were published for it — so it is omitted rather than estimated. Bounce and swing weight were not published either."
+related_models:
+  - slug: "honma/tr20-p-irons"
+    label: "Predecessor: Honma TR20 P"
+  - slug: "honma/tw747-p-irons"
+    label: "Earlier Honma players-distance iron: Honma TW747 P"
+faq:
+  - q: "What is the loft of a Honma TR21 X 7-iron?"
+    a: "The Honma TR21 X 7-iron has a loft of 30 degrees, a lie of 62.0 degrees and a steel-shaft length of 37.00 inches."
+  - q: "What is the difference between the Honma TR21 X and the TR20 P?"
+    a: "The TR21 X is a hollow-bodied distance iron with a bigger head — roughly 1.4mm longer and 4.5mm taller — and stronger long irons. Their 7-irons are both 30 degrees, but the TR21 X starts at an 18-degree 3-iron where the TR20 P starts at a 21-degree 4-iron."
+  - q: "How much tungsten is in a Honma TR21 X?"
+    a: "Between 42 and 73 grams depending on the club, a large share of the head's total mass."
+  - q: "Does the Honma TR21 X come with a gap wedge?"
+    a: "Honma lists a 48-degree #11, but publishes no lie, length or offset for it, so only the #3 to #10 are charted here."
+confidence: high

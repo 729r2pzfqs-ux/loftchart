@@ -4,11 +4,11 @@ model: i230
 slug: i230-irons
 club_type: irons
 year_introduced: 2022
-year_discontinued: null
+year_discontinued: 2025
 category: players
 construction: investment cast
 material: 431 stainless steel with tungsten toe and tip weights and an activated elastomer insert
-successor: null
+successor: Ping i240
 predecessor: Ping i210
 description: >
   The i230 is a multi-material cast players iron: a 431 stainless body with tungsten
@@ -95,7 +95,7 @@ sources:
   - "Ping's own i230 product page, Specifications table (https://ping.com/en-us/clubs/irons/i230, cross-checked against the archived copy at http://web.archive.org/web/2020/https://ping.com/en-us/clubs/irons/i230) — supplied every length, loft, lie, offset, bounce and swing weight above, the stock shaft list, the 3-9/PW/UW set composition, and the note that lie is based on the black colour code at standard length. Power Spec and Retro Spec lofts are fitting alternatives on the same chart and are not recorded here."
   - "golfwrx.com '2022 Ping i230, iCrossover irons: everything you need to know' — announcement in 2022, the 431 stainless / tungsten toe and tip weight / elastomer insert construction, MicroMax grooves, and the shorter blade lengths in the 3 to 5 irons versus the i210."
   - "Note on the year: golflink.com's 'PING Irons by Year' also dates the i230 to 2022. Ping announced the iron in late 2022 and it reached retail in early 2023, so year_introduced uses the announcement year per this database's convention and some retailers will list it as a 2023 model."
-  - "Note: year_discontinued is null — the i230 had no announced successor as of the sources retrieved."
+  - "Note on year_discontinued: recorded as 2025, the year Ping announced the i240 (golfwrx.com 'Ping launches new i240 irons and iDI driving iron series'). The i240 carries the i230's loft, lie, length and offset chart over unchanged."
 related_models:
   - slug: "ping/i210-irons"
     label: "Predecessor: Ping i210"

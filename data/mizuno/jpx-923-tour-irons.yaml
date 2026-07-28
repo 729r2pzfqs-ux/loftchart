@@ -1,0 +1,88 @@
+brand: Mizuno
+brand_slug: mizuno
+model: JPX-923 Tour
+slug: jpx-923-tour-irons
+club_type: irons
+year_introduced: 2022
+year_discontinued: null
+category: players
+construction: Grain Flow Forged HD cavity back
+material: 1025E mild carbon steel, Grain Flow Forged HD in Hiroshima
+successor: null
+predecessor: null
+description: >
+  The Tour is the compact end of the JPX 923 family, a Grain Flow Forged cavity back
+  for single-figure players rather than the game-improvement Hot Metal that carries
+  the same number. Lofts are traditional — 34 degrees at the 7-iron, six weaker than
+  the JPX 925 Hot Metal — and offset is uniform and tight, moving only 0.025 inches
+  across the whole set. Mizuno announced the JPX 923 family in 2022 and the Tour and
+  Forged models reached retail in February 2023.
+specs:
+  - club: "4"
+    loft: 24.0
+    lie: 60.0
+    length: 38.5
+    offset: 0.131
+    swing_weight: D2
+  - club: "5"
+    loft: 27.0
+    lie: 60.5
+    length: 38.0
+    offset: 0.127
+    swing_weight: D2
+  - club: "6"
+    loft: 30.0
+    lie: 61.0
+    length: 37.5
+    offset: 0.122
+    swing_weight: D2
+  - club: "7"
+    loft: 34.0
+    lie: 61.5
+    length: 37.0
+    offset: 0.118
+    swing_weight: D2
+  - club: "8"
+    loft: 38.0
+    lie: 62.0
+    length: 36.5
+    offset: 0.114
+    swing_weight: D2
+  - club: "9"
+    loft: 42.0
+    lie: 62.5
+    length: 36.0
+    offset: 0.11
+    swing_weight: D2
+  - club: "PW"
+    loft: 46.0
+    lie: 63.0
+    length: 35.5
+    offset: 0.106
+    swing_weight: D2
+  - club: "GW"
+    loft: 51.0
+    lie: 63.0
+    length: 35.25
+    offset: 0.102
+    swing_weight: D2
+stock_shafts:
+  - name: "True Temper Dynamic Gold 120"
+    material: steel
+sources:
+  - "2nd Swing Golf specification table for the Mizuno JPX 923 Tour iron set (https://www.2ndswing.com/golf-clubs/iron-sets/mizuno-jpx-923-tour-iron-set) — supplied every loft, lie, length, offset and swing weight above, the Dynamic Gold 120 stock shaft and the 4-GW set makeup."
+  - "golf.com '5 things you need to know about Mizuno's new JPX 923 irons' and mizunogolf.com's JPX923 summary — Mizuno announced the JPX 923 family in 2022, releasing the Hot Metal models on 13 October 2022 and the Forged and Tour models at retail in February 2023. year_introduced uses the announcement year, so a JPX 923 Tour set bought new will often be catalogued as a 2023 model."
+  - "Note: bounce is omitted — the source table did not carry a bounce column. Confidence is medium."
+related_models:
+  - slug: "mizuno/jpx-923-forged-irons"
+    label: "The next model up in the same family: Mizuno JPX-923 Forged"
+  - slug: "mizuno/pro-243-irons"
+    label: "Mizuno's players iron of the same period: Mizuno Pro 243"
+faq:
+  - q: "What is the loft of a Mizuno JPX 923 Tour 7-iron?"
+    a: "The Mizuno JPX 923 Tour 7-iron has a loft of 34 degrees, a lie of 61.5 degrees and a length of 37.0 inches."
+  - q: "When were Mizuno JPX 923 Tour irons made?"
+    a: "Mizuno announced the JPX 923 family in 2022; the Tour and Forged models reached retail in February 2023."
+  - q: "How do JPX 923 Tour lofts compare with the Hot Metal?"
+    a: "Much weaker. The Tour's 34-degree 7-iron is a players loft; the Hot Metal side of the same family runs six degrees stronger."
+confidence: medium

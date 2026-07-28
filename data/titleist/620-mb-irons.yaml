@@ -1,0 +1,88 @@
+brand: Titleist
+brand_slug: titleist
+model: 620 MB
+slug: 620-mb-irons
+club_type: irons
+year_introduced: 2019
+year_discontinued: null
+category: blade
+construction: forged muscle back
+material: forged 1025 carbon steel
+successor: null
+predecessor: Titleist 718 MB
+description: >
+  The 620 MB is Titleist's muscle back, a single-piece 1025 carbon forging with the
+  least offset in the range — 2.3 mm at the 3-iron falling to under a millimetre at
+  the pitching wedge. Lofts are the weakest Titleist sells, and identical to the 620 CB
+  sold alongside it: a 35-degree 7-iron and a 47-degree pitching wedge, six degrees
+  weaker at the 7-iron than the T200 of the same period. It is sold 4-PW as standard,
+  with a 3-iron available.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 61.0
+    length: 39.0
+    offset: 0.091
+    swing_weight: D2
+  - club: "4"
+    loft: 24.0
+    lie: 61.5
+    length: 38.5
+    offset: 0.087
+    swing_weight: D2
+  - club: "5"
+    loft: 27.0
+    lie: 62.0
+    length: 38.0
+    offset: 0.083
+    swing_weight: D2
+  - club: "6"
+    loft: 31.0
+    lie: 62.5
+    length: 37.5
+    offset: 0.075
+    swing_weight: D2
+  - club: "7"
+    loft: 35.0
+    lie: 63.0
+    length: 37.0
+    offset: 0.063
+    swing_weight: D2
+  - club: "8"
+    loft: 39.0
+    lie: 63.5
+    length: 36.5
+    offset: 0.055
+    swing_weight: D2
+  - club: "9"
+    loft: 43.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.043
+    swing_weight: D2
+  - club: "PW"
+    loft: 47.0
+    lie: 64.0
+    length: 35.5
+    swing_weight: D2
+stock_shafts:
+  - name: "True Temper Project X"
+    material: steel
+sources:
+  - "2nd Swing Golf specification table for the Titleist 620 MB iron set (https://www.2ndswing.com/golf-clubs/iron-sets/titleist-620-mb-iron-set) — supplied every loft, lie, length and swing weight above, the offsets for the 3 through 9-irons, the Project X stock shaft and the 4-PW stock set."
+  - "Note on offset: the source publishes offset in millimetres (2.3 mm down to 1.1 mm at the 9-iron), converted to inches here. Its pitching wedge row reads '0.09mm', which is two orders of magnitude out of step with the rest of the column and is plainly a typo, so the PW offset key is omitted rather than guessed."
+  - "swingyard.com 'Titleist Irons By Year' — the 620 MB and 620 CB were released in 2019."
+  - "Note: bounce is omitted — the source table did not carry a bounce column. Confidence is medium. year_discontinued is null; the 620 MB remained in Titleist's range in the sources retrieved."
+related_models:
+  - slug: "titleist/620-cb-irons"
+    label: "Sold alongside it as the cavity back: Titleist 620 CB"
+  - slug: "titleist/710-mb-irons"
+    label: "An earlier Titleist muscle back: Titleist 710 MB"
+faq:
+  - q: "What is the loft of a Titleist 620 MB 7-iron?"
+    a: "The Titleist 620 MB 7-iron has a loft of 35 degrees, a lie of 63.0 degrees and a length of 37.0 inches."
+  - q: "How weak are Titleist 620 MB lofts?"
+    a: "As weak as anything on sale. The 35-degree 7-iron matches the 620 CB and is six degrees weaker than the T200 distance iron Titleist sold in the same period."
+  - q: "When were Titleist 620 MB irons released?"
+    a: "In 2019, alongside the 620 CB."
+confidence: medium

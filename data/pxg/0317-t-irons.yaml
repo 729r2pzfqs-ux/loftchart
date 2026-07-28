@@ -1,0 +1,99 @@
+brand: PXG
+brand_slug: pxg
+model: 0317 T
+slug: 0317-t-irons
+club_type: irons
+year_introduced: 2023
+year_discontinued: null
+category: players
+construction: triple-forged hollow body with an internal tungsten toe weight
+material: forged 8620 carbon steel with a 14-gram tungsten toe weight
+successor: null
+predecessor: PXG 0311 T GEN6
+description: >
+  The 0317 T is the tour iron of PXG's 0317 line, forged three times from 8620
+  carbon steel with a 14-gram tungsten weight in the toe to sit the centre of
+  gravity centrally behind the face. It shares the 0317 family's lengths and
+  lies but runs one to two degrees stronger than the rest of the line through
+  most of the set, at 32 degrees for the 7-iron and 46 for the pitching wedge.
+  PXG's adjustable rear weighting lets swing weight be tuned after the build.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 60.5
+    length: 39.50
+    offset: 0.150
+    bounce: 5.0
+  - club: "4"
+    loft: 22.5
+    lie: 61.0
+    length: 38.875
+    offset: 0.130
+    bounce: 6.0
+  - club: "5"
+    loft: 25.0
+    lie: 61.5
+    length: 38.25
+    offset: 0.110
+    bounce: 7.0
+  - club: "6"
+    loft: 28.0
+    lie: 62.0
+    length: 37.625
+    offset: 0.090
+    bounce: 8.0
+  - club: "7"
+    loft: 32.0
+    lie: 62.5
+    length: 37.00
+    offset: 0.075
+    bounce: 9.0
+  - club: "8"
+    loft: 36.0
+    lie: 63.0
+    length: 36.50
+    offset: 0.060
+    bounce: 10.0
+  - club: "9"
+    loft: 41.0
+    lie: 63.5
+    length: 36.00
+    offset: 0.040
+    bounce: 12.0
+  - club: "PW"
+    loft: 46.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.020
+    bounce: 14.0
+  - club: "GW"
+    loft: 51.0
+    lie: 64.0
+    length: 35.50
+    offset: 0.015
+    bounce: 14.0
+stock_shafts:
+  - name: "Mitsubishi MMT"
+    material: graphite
+  - name: "Aerotech SteelFiber"
+    material: graphite
+sources:
+  - "2ndswing.com PXG 0317 T Iron Set specification table — length, lie, loft, offset and bounce for the 3-iron through gap wedge (PXG labels the wedges W and G), plus the set configurations and shaft options."
+  - "pluggedingolf.com 'PXG 0317 T Irons Review' and golf.com \"PXG's all-new 0317 T irons: 5 things you need to know\" — the triple forging from 8620 carbon steel, the 14-gram internal tungsten toe weight, the adjustable rear weighting, and the note that the 0317 T shares the 0317 line's lengths and lies while running one to two degrees stronger in loft."
+  - "Note on the year: PXG showed the 0317 ST, 0317 CB and 0317 T in November 2023 and put them on sale in January 2024, so year_introduced records the announcement year per this database's convention and some listings date the model 2024."
+  - "Note: swing weight is not fixed — PXG's rear weighting system is adjustable — so it is omitted."
+related_models:
+  - slug: "pxg/0311-t-gen5-irons"
+    label: "Earlier PXG tour iron: PXG 0311 T GEN5"
+  - slug: "pxg/0311-p-gen6-irons"
+    label: "Players-distance alternative: PXG 0311 P GEN6"
+faq:
+  - q: "What is the loft of a PXG 0317 T 7-iron?"
+    a: "The PXG 0317 T 7-iron has a loft of 32 degrees, a standard lie of 62.5 degrees and a standard length of 37.00 inches."
+  - q: "When did the PXG 0317 T come out?"
+    a: "PXG announced it in November 2023 and it went on sale in January 2024."
+  - q: "How is the PXG 0317 T different from the 0311 T?"
+    a: "Same lengths and lies and the same loft chart, but the 0317 T is triple-forged from 8620 carbon steel with a 14-gram internal tungsten toe weight and an adjustable rear weight, where the 0311 T is a hollow body filled with XCOR2."
+  - q: "Can you adjust the swing weight of a PXG 0317 T?"
+    a: "Yes. PXG's rear weighting system takes interchangeable weights, so swing weight is set at fitting rather than fixed by the head."
+confidence: medium

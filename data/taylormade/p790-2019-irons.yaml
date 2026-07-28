@@ -1,0 +1,101 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: P790 (2019)
+slug: p790-2019-irons
+club_type: irons
+year_introduced: 2019
+year_discontinued: 2021
+category: players-distance
+construction: forged hollow body
+material: forged 4140 carbon steel face with an 8620 carbon steel body
+successor: P790 (2021)
+predecessor: P790 (2017)
+description: >
+  The second-generation P790 keeps the original's loft chart exactly — 30.5
+  degrees at the 7-iron, 45 at the pitching wedge — and changes the build
+  around it. The forged face is thinner, the internal SpeedFoam is reformulated
+  and the tungsten weight is repositioned, while the set is a quarter inch
+  longer than the 2017 model through the mid irons at 37.00 inches for the
+  7-iron. Offset also drops slightly in the long irons. Figures below are the
+  men's standard right-handed steel build.
+specs:
+  - club: "3"
+    loft: 19.0
+    lie: 60.5
+    length: 39.00
+    offset: 0.138
+    swing_weight: D2
+  - club: "4"
+    loft: 21.0
+    lie: 61.0
+    length: 38.50
+    offset: 0.134
+    swing_weight: D2
+  - club: "5"
+    loft: 23.5
+    lie: 61.5
+    length: 38.00
+    offset: 0.122
+    swing_weight: D2
+  - club: "6"
+    loft: 26.5
+    lie: 62.0
+    length: 37.50
+    offset: 0.114
+    swing_weight: D2
+  - club: "7"
+    loft: 30.5
+    lie: 62.5
+    length: 37.00
+    offset: 0.106
+    swing_weight: D2
+  - club: "8"
+    loft: 35.0
+    lie: 63.0
+    length: 36.50
+    offset: 0.094
+    swing_weight: D2
+  - club: "9"
+    loft: 40.0
+    lie: 63.5
+    length: 36.00
+    offset: 0.083
+    swing_weight: D2
+  - club: "PW"
+    loft: 45.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.071
+    swing_weight: D3
+  - club: "AW"
+    loft: 50.0
+    lie: 64.0
+    length: 35.50
+    offset: 0.063
+    swing_weight: D3
+stock_shafts:
+  - name: "True Temper Dynamic Gold 105 VSS"
+    material: steel
+  - name: "UST Recoil with SmacWrap"
+    material: graphite
+sources:
+  - "2ndswing.com TaylorMade 2019 P790 Iron Set specification table — loft, lie, length, offset (in millimetres) and swing weight for the 3-iron through approach wedge, the 4-PW stock make-up, the Dynamic Gold 105 VSS and UST Recoil SmacWrap shafts and the Golf Pride Tour Velvet grip. Offset is converted to inches here."
+  - "golfalot.com 'TaylorMade P790 2019 Irons Review' — confirms the 2019 model year and the SpeedFoam change."
+  - "Note: bounce was not published in the source consulted and is omitted rather than estimated. Swing weight is quoted for the steel build; the source also lists a D0 graphite figure."
+related_models:
+  - slug: "taylormade/p790-2017-irons"
+    label: "Predecessor: TaylorMade P790 (2017)"
+  - slug: "taylormade/p790-2021-irons"
+    label: "Successor: TaylorMade P790 (2021)"
+  - slug: "taylormade/p770-irons"
+    label: "Players-iron sibling: TaylorMade P770"
+faq:
+  - q: "What is the loft of a TaylorMade P790 (2019) 7-iron?"
+    a: "The 2019 P790 7-iron has a loft of 30.5 degrees, a lie of 62.5 degrees and a steel-shaft length of 37.00 inches."
+  - q: "Are 2017 and 2019 P790 lofts different?"
+    a: "No. Both use 19, 21, 23.5, 26.5, 30.5, 35, 40, 45 and 50 degrees from 3-iron to approach wedge. The 2019 set is built a quarter inch longer through the mid irons and carries slightly less long-iron offset."
+  - q: "When were the 2019 P790 irons replaced?"
+    a: "In 2021, by the third-generation P790, which kept the same loft chart again and moved to the lighter SpeedFoam Air."
+  - q: "What is the pitching wedge loft on the 2019 P790?"
+    a: "45 degrees, with a 50-degree approach wedge below it."
+confidence: medium

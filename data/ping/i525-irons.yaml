@@ -4,11 +4,11 @@ model: i525
 slug: i525-irons
 club_type: irons
 year_introduced: 2022
-year_discontinued: null
+year_discontinued: 2024
 category: players-distance
 construction: hollow body
 material: forged maraging steel face over a 17-4 stainless steel body with tungsten weighting
-successor: null
+successor: Ping i530
 predecessor: Ping i500
 description: >
   The i525 replaced the i500 as Ping's hollow-body players-distance iron, pairing a
@@ -94,7 +94,7 @@ sources:
   - "Ping's own i525 product page, Specifications table (http://web.archive.org/web/2020/https://ping.com/en-us/clubs/irons/i525) — supplied every length, loft, lie, offset, bounce and swing weight above, the Project X IO and ALTA CB Slate stock shafts, the 3-PW plus UW set composition, and the note that lie is based on the black colour code at standard length."
   - "holetheputt.com Ping i525 spec table, which cites the Ping product page as its source, plus the description of the forged maraging steel face over the 17-4 stainless body with an internal sole undercut and tungsten weighting — reproduces the same nine rows and agrees with the Ping chart throughout, except that it lists the 8-iron at D0.5 where Ping's own chart says D0. Ping's figure is used."
   - "todays-golfer.com 'First look: Ping i525 iron' and golfwrx.com 'Ping unveils new i525 irons' — the i525 was announced on 8 February 2022, with fittings from that date and retail from 24 March 2022. year_introduced uses the announcement year."
-  - "Note: year_discontinued is null — the i525 had no announced successor as of the sources retrieved."
+  - "Note on year_discontinued: recorded as 2024, the year Ping introduced the i530 as the i525's replacement (pgatour.com 'New PING blade-style i530 iron delivers distance with stopping power', March 2024)."
 related_models:
   - slug: "ping/i500-irons"
     label: "Predecessor: Ping i500"
