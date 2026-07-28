@@ -4,11 +4,11 @@ model: Launcher XL Halo
 slug: launcher-xl-halo-irons
 club_type: irons
 year_introduced: 2021
-year_discontinued: null
+year_discontinued: 2024
 category: super-game-improvement
 construction: hollow hybrid-style body with a high-strength face
 material: hollow stainless body with a Rebound Frame and MainFrame face
-successor: null
+successor: Cleveland HALO XL Full-Face
 predecessor: null
 description: >
   The Launcher XL Halo is a hybrid-shaped iron: a hollow, wide-soled head with a very
@@ -82,7 +82,10 @@ sources:
   - "Note on offset: the source publishes offset in millimetres (2.25 mm down to 0.6 mm), converted to inches here. The 54.5-degree wedge is right-hand only."
   - "news.dunlopsports.com 'Cleveland Golf Introduces Launcher XL HALO Irons' and golfwrx.com's launch item — announced 18 August 2021, on sale in North America from 20 August 2021 in graphite and 17 September 2021 in steel."
   - "Note: bounce is omitted — the source table did not carry a bounce column. Confidence is medium."
+  - "year_discontinued and successor: Cleveland announced the HALO XL Full-Face on 15 January 2024 as the next hybrid-iron generation (Dunlop Sports press release 'Go Far, Get Close with Cleveland Golf's ZipCore XL and HALO XL Full-Face Irons'), with a claimed 20 per cent larger sweet spot than this model."
 related_models:
+  - slug: "cleveland/halo-xl-full-face-irons"
+    label: "Successor: Cleveland HALO XL Full-Face"
   - slug: "cleveland/launcher-xl-irons"
     label: "The conventional iron of the same family: Cleveland Launcher XL"
   - slug: "cleveland/launcher-hb-turbo-irons"

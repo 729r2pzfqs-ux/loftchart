@@ -92,6 +92,8 @@ sources:
 related_models:
   - slug: "taylormade/tp-mb-irons"
     label: "Same 2014 Tour Preferred family: TaylorMade TP MB"
+  - slug: "taylormade/tour-preferred-mc-2014-irons"
+    label: "Same 2014 Tour Preferred family: TaylorMade Tour Preferred MC"
   - slug: "taylormade/p7mc-irons"
     label: "Modern equivalent: TaylorMade P7MC"
 faq:

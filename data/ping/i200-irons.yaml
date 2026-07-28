@@ -9,7 +9,7 @@ category: players
 construction: investment cast
 material: 431 stainless steel with a Custom Tuning Port
 successor: Ping i210
-predecessor: null
+predecessor: Ping i (iE1)
 description: >
   The i200 is a cast 431 stainless players iron with a thinned face, a deeper Custom
   Tuning Port and weight moved to the hosel region and toe to raise MOI. Its loft, lie
@@ -90,6 +90,8 @@ sources:
   - "golflink.com 'PING Irons by Year' — the i200 is dated 2017 and the i210 2018."
   - "Note: year_discontinued is taken as the year the successor i210 was introduced, per the chronology recorded in ping/i210-irons.yaml."
 related_models:
+  - slug: "ping/i-irons"
+    label: "Predecessor: Ping i (iE1)"
   - slug: "ping/i210-irons"
     label: "Successor: Ping i210"
   - slug: "ping/iblade-irons"

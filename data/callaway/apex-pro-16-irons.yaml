@@ -1,0 +1,92 @@
+brand: Callaway
+brand_slug: callaway
+model: Apex Pro 16
+slug: apex-pro-16-irons
+club_type: irons
+year_introduced: 2016
+year_discontinued: 2019
+category: players
+construction: forged
+material: forged 1025 mild carbon steel with tungsten inserts in the long irons
+successor: Callaway Apex Pro 19
+predecessor: Callaway Apex Pro (2014)
+description: >
+  Announced in September 2015 for the 2016 model year alongside the Apex CF16, the
+  Apex Pro 16 is the compact players iron of the second Apex generation. The head is
+  forged from 1025 mild carbon steel, with tungsten inserts in the 3 through 5 irons
+  to raise launch while the short irons keep a higher centre of gravity for control —
+  Callaway's progressive CG design. Lofts are a degree weaker than the original Apex
+  Pro through most of the set, with a 34 degree 7-iron and a 46 degree pitching wedge.
+  Specs below are the standard men's steel-shaft numbers.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 60.0
+    length: 39.0
+    offset: 0.130
+  - club: "4"
+    loft: 24.0
+    lie: 60.5
+    length: 38.5
+    offset: 0.125
+  - club: "5"
+    loft: 27.0
+    lie: 61.0
+    length: 38.0
+    offset: 0.115
+  - club: "6"
+    loft: 30.0
+    lie: 61.5
+    length: 37.5
+    offset: 0.105
+  - club: "7"
+    loft: 34.0
+    lie: 62.0
+    length: 37.0
+    offset: 0.100
+  - club: "8"
+    loft: 38.0
+    lie: 62.5
+    length: 36.5
+    offset: 0.095
+  - club: "9"
+    loft: 42.0
+    lie: 63.0
+    length: 36.0
+    offset: 0.090
+  - club: "PW"
+    loft: 46.0
+    lie: 63.5
+    length: 35.75
+    offset: 0.085
+  - club: "AW"
+    loft: 51.0
+    lie: 63.5
+    length: 35.5
+    offset: 0.085
+stock_shafts:
+  - name: "Project X"
+    material: steel
+sources:
+  - "Callaway Golf Pre-Owned Apex Pro 16 product specs (callawaygolfpreowned.com/iron-sets/irons-2016-apex-pro.html) — loft, lie, length and offset for the 3-iron through A-wedge, the 1025 mild carbon steel forging, the tungsten inserts in the 3-5 irons and the Project X stock steel shaft"
+  - "2nd Swing Golf Callaway Apex Pro 16 iron set spec table (2ndswing.com/golf-clubs/iron-sets/callaway-apex-pro-16-iron-set) — independently matches on every loft, lie, length and offset"
+  - "Golfalot, 'Callaway unveil two new Apex irons' (September 2015) — the Apex Pro 16 was announced with the Apex CF16 in September 2015 for the 2016 season, which is the model-year basis used for year_introduced here, matching the Apex CF16 entry"
+  - "Note: bounce was not published, and swingweight is omitted because the two sources disagree on the short-iron values (D2 against D3); neither is recorded rather than guessing."
+  - "Note on year_discontinued: recorded as 2019, the year the successor Apex Pro 19 was announced. This database dates a model's end to the announcement of its replacement, not to the last day it was sold."
+related_models:
+  - slug: "callaway/apex-cf16-irons"
+    label: "Players-distance companion of the same generation: Callaway Apex CF16"
+  - slug: "callaway/apex-pro-2014-irons"
+    label: "Predecessor: Callaway Apex Pro (2014)"
+  - slug: "callaway/apex-pro-19-irons"
+    label: "Successor: Callaway Apex Pro 19"
+faq:
+  - q: "What is the loft of a Callaway Apex Pro 16 7-iron?"
+    a: "The Callaway Apex Pro 16 7-iron has a loft of 34 degrees, with a 62 degree lie and a 37 inch standard steel length."
+  - q: "What is the loft of a Callaway Apex Pro 16 pitching wedge?"
+    a: "The Apex Pro 16 pitching wedge is 46 degrees, with a 51 degree A-wedge below it."
+  - q: "How do Apex Pro 16 lofts compare with the Apex CF16?"
+    a: "The Pro is three degrees weaker at the 7-iron — 34 degrees against 31 — and one degree weaker at the pitching wedge, 46 degrees against 45."
+  - q: "Are the Apex Pro 16 irons forged?"
+    a: "Yes. The head is forged from 1025 mild carbon steel, with tungsten inserts in the 3 through 5 irons to raise launch in the long irons."
+confidence: high

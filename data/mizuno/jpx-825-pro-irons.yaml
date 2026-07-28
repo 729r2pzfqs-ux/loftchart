@@ -1,0 +1,93 @@
+brand: Mizuno
+brand_slug: mizuno
+model: JPX-825 Pro
+slug: jpx-825-pro-irons
+club_type: irons
+year_introduced: 2012
+year_discontinued: 2014
+category: players
+construction: forged
+material: 1025E Pure Select mild carbon steel
+successor: JPX-850 Forged
+predecessor: JPX-800 Pro
+description: >
+  The JPX-825 Pro is the Grain Flow Forged model of Mizuno's JPX-825 family,
+  sitting above the cast JPX-825 with a more compact head. The 4- to 7-irons use
+  a milled pocket cavity for a lower, deeper centre of gravity while the 8-iron
+  through gap wedge move to a full cavity design. Lofts are about one degree
+  weaker than the cast JPX-825 — a 33-degree 7-iron against 32 — with a shared
+  45-degree pitching wedge, and the stock set runs 4-iron through gap wedge.
+  Mizuno unveiled the JPX-825 family in autumn 2012, with US retail in early
+  2013, so year_introduced records the announcement year.
+  Lofts, lies and lengths listed are the men's standard steel-shaft specification.
+specs:
+  - club: "4"
+    loft: 23.0
+    lie: 60.0
+    length: 38.25
+    offset: 0.175
+    bounce: 1.0
+  - club: "5"
+    loft: 26.0
+    lie: 60.5
+    length: 37.75
+    offset: 0.165
+    bounce: 2.0
+  - club: "6"
+    loft: 29.0
+    lie: 61.0
+    length: 37.25
+    offset: 0.156
+    bounce: 2.0
+  - club: "7"
+    loft: 33.0
+    lie: 61.5
+    length: 36.75
+    offset: 0.146
+    bounce: 3.0
+  - club: "8"
+    loft: 37.0
+    lie: 62.0
+    length: 36.25
+    offset: 0.136
+    bounce: 4.0
+  - club: "9"
+    loft: 41.0
+    lie: 62.5
+    length: 35.75
+    offset: 0.126
+    bounce: 5.0
+  - club: "PW"
+    loft: 45.0
+    lie: 63.0
+    length: 35.50
+    offset: 0.116
+    bounce: 6.0
+  - club: "GW"
+    loft: 50.0
+    lie: 63.0
+    length: 35.25
+    offset: 0.106
+    bounce: 7.0
+stock_shafts:
+  - name: "True Temper Dynalite Gold XP"
+    material: steel
+    flex: ["R300", "S300"]
+sources:
+  - "2ndSwing.com Mizuno JPX 825 Pro Iron Set specification table (loft, lie, length, offset and bounce for 4-GW; the bounce column appears only in this table)"
+  - "thesandtrap.com Mizuno JPX 825 Pro irons review, March 2013 (independent loft/lie/length/offset table for 4-GW, the milled pocket cavity 4-7 and full cavity 8-GW construction, Grain Flow Forged 1025E Pure Select steel, and the stock True Temper Dynalite Gold XP R300/S300 shafts)"
+  - "qsponge.com JPX-825 Pro loft-angle table (third corroboration of loft/lie/length/offset, confirming the 9-iron offset as 0.126 inches where other listings carry a 0.26 typo)"
+  - "todays-golfer.com video review of the JPX-825 and JPX-825 Pro, October 2012 — the family was unveiled in autumn 2012 with US retail in early 2013, so year_introduced is 2012 on the announcement-year convention; year_discontinued 2014 is the announcement of the successor JPX-850 Forged"
+related_models:
+  - slug: "mizuno/jpx-825-irons"
+    label: "Cast model of the same family: Mizuno JPX-825"
+  - slug: "mizuno/jpx-850-forged-irons"
+    label: "Successor: Mizuno JPX-850 Forged"
+faq:
+  - q: "What is the loft of a Mizuno JPX-825 Pro 7-iron?"
+    a: "The Mizuno JPX-825 Pro 7-iron has a loft of 33 degrees, with a 61.5-degree lie and a 36.75-inch steel-shaft length."
+  - q: "What is the difference between the JPX-825 Pro and the standard JPX-825?"
+    a: "The Pro is Grain Flow Forged from 1025E mild carbon steel in a more compact head, with lofts about one degree weaker through the long and mid irons — 33 degrees at the 7-iron against 32 for the cast JPX-825."
+  - q: "Are the Mizuno JPX-825 Pro irons forged?"
+    a: "Yes. They are Grain Flow Forged from 1025E Pure Select mild carbon steel, with a milled pocket cavity in the 4- to 7-irons and a full cavity from the 8-iron down."
+confidence: medium

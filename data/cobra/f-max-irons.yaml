@@ -1,0 +1,102 @@
+brand: Cobra
+brand_slug: cobra
+model: F-Max
+slug: f-max-irons
+club_type: irons
+year_introduced: 2017
+year_discontinued: 2018
+category: super-game-improvement
+construction: investment cast cavity back with a deep undercut and progressive head construction
+material: 17-4 stainless steel long irons (4-7), 431 stainless steel short irons (8-SW), nickel chrome plated
+successor: Cobra F-Max Superlite
+predecessor: null
+description: >
+  The F-Max was the first model in Cobra's F-Max family of lightweight
+  super-game-improvement irons for golfers with moderate swing speeds, introduced
+  in 2017. The cast cavity backs use a progressive construction — thinner 17-4
+  stainless steel in the 4 through 7 irons for speed, softer 431 stainless in the
+  8-iron through sand wedge for feel — under a nickel chrome plating, with weight
+  positioned back and heelward for straighter, draw-biased flight. Lofts are weak
+  by design at 31.5 degrees for the 7-iron and 45 degrees for the pitching wedge,
+  offset tapers from 6.3 mm at the 4-iron to 0.8 mm at the sand wedge, and the
+  steel build swings very light at C9 through the irons. The stock men's steel
+  set was seven clubs, 5-PW plus gap wedge. The F-Max Superlite, announced on
+  12 September 2018, replaced it.
+specs:
+  - club: "4"
+    loft: 22.0
+    lie: 61.0
+    length: 39.25
+    offset: 0.248
+    swing_weight: C9
+  - club: "5"
+    loft: 25.0
+    lie: 61.5
+    length: 38.5
+    offset: 0.232
+    swing_weight: C9
+  - club: "6"
+    loft: 28.0
+    lie: 62.0
+    length: 37.75
+    offset: 0.213
+    swing_weight: C9
+  - club: "7"
+    loft: 31.5
+    lie: 62.5
+    length: 37.25
+    offset: 0.185
+    swing_weight: C9
+  - club: "8"
+    loft: 35.5
+    lie: 63.0
+    length: 36.75
+    offset: 0.154
+    swing_weight: C9
+  - club: "9"
+    loft: 40.0
+    lie: 63.5
+    length: 36.25
+    offset: 0.134
+    swing_weight: C9
+  - club: "PW"
+    loft: 45.0
+    lie: 64.0
+    length: 36.0
+    offset: 0.11
+    swing_weight: D0
+  - club: "GW"
+    loft: 50.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.039
+    swing_weight: D0
+  - club: "SW"
+    loft: 55.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.031
+    swing_weight: D0
+stock_shafts:
+  - name: "F-Max Steel / True Temper SuperLight"
+    material: steel
+    weight: "100-110g"
+    flex: ["R", "S"]
+sources:
+  - "Cobra Golf official 'F-MAX Irons' product page (cobragolf.com/f-max-irons), archived 15 September 2017 via web.archive.org — retrieved directly; supplies the full steel specification table (club, loft, lie, length, offset in mm, swing weight, stock flex, RH/LH) for the 4-iron through sand wedge, the seven-club 5-PW plus GW stock steel set, the F-MAX Steel / True Temper SuperLight 100-110g shaft, the Lamkin REL Midsize grip, and the progressive 17-4/431 stainless construction with nickel chrome plating. Offsets are published in millimetres (6.3 down to 0.8) and converted to inches here. The archived page is the steel-shaft listing; a graphite build was sold separately."
+  - "year_discontinued and successor: PUMA/Cobra press release 'COBRA Golf's new F-MAX Superlite Irons offer Moderate Swing' dated 12 September 2018, with retail from 5 October 2018 — the Superlite is described as building off the original F-MAX irons 'which debuted in 2017', the basis for both years used here."
+related_models:
+  - slug: "cobra/f-max-airspeed-irons"
+    label: "Later F-Max generation: Cobra F-Max Airspeed (2019)"
+  - slug: "cobra/air-x-irons"
+    label: "The F-Max family's eventual replacement: Cobra Air-X"
+faq:
+  - q: "What is the loft of a Cobra F-Max 7-iron?"
+    a: "The Cobra F-Max 7-iron has a loft of 31.5 degrees, a lie of 62.5 degrees and a steel-shaft length of 37.25 inches."
+  - q: "When were the original Cobra F-Max irons released?"
+    a: "In 2017. Cobra replaced them with the F-Max Superlite, announced on 12 September 2018, and the F-Max Airspeed followed in 2019."
+  - q: "Who were the Cobra F-Max irons designed for?"
+    a: "Golfers with moderate swing speeds. They combine weak lofts, generous offset, back-and-heel weighting for a draw and a very light build — around C9 swing weight with the stock 100-110 gram steel shaft."
+  - q: "How is the F-Max head construction progressive?"
+    a: "The 4 through 7 irons are cast from thinner, stronger 17-4 stainless steel for ball speed, while the 8-iron through sand wedge use softer 431 stainless steel for feel, all under a nickel chrome plating."
+confidence: high

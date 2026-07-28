@@ -1,0 +1,104 @@
+brand: Callaway
+brand_slug: callaway
+model: X Forged CB (2021)
+slug: x-forged-cb-2021-irons
+club_type: irons
+year_introduced: 2020
+year_discontinued: 2023
+category: players
+construction: forged, multi-material
+material: forged 1025 mild carbon steel body with MIM'd tungsten weighting and a Tour Tuned face plate
+successor: null
+predecessor: Callaway X Forged (2018)
+description: >
+  The 2021 X Forged CB is Callaway's tour cavity back, announced on 13 October 2020
+  alongside the Apex MB and X Forged UT and at retail from 29 October 2020, which is
+  why it is catalogued to 2020 here despite the 2021 model name. Unlike the typical
+  one-piece forging in this category, it pairs a forged 1025 mild carbon steel body
+  with custom internal and external MIM'd tungsten weights that centre the CG behind
+  the face, and a Tour Tuned face plate. Lofts are traditional — a 33 degree 7-iron
+  and a 45 degree pitching wedge with a 49 degree A-wedge. Specs below are the
+  standard men's steel-shaft numbers.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 60.0
+    length: 39.0
+    offset: 0.135
+    swing_weight: D2
+  - club: "4"
+    loft: 23.0
+    lie: 60.5
+    length: 38.5
+    offset: 0.130
+    swing_weight: D2
+  - club: "5"
+    loft: 26.0
+    lie: 61.0
+    length: 38.0
+    offset: 0.125
+    swing_weight: D2
+  - club: "6"
+    loft: 29.0
+    lie: 61.5
+    length: 37.5
+    offset: 0.115
+    swing_weight: D2
+  - club: "7"
+    loft: 33.0
+    lie: 62.0
+    length: 37.0
+    offset: 0.110
+    swing_weight: D2
+  - club: "8"
+    loft: 37.0
+    lie: 62.5
+    length: 36.5
+    offset: 0.105
+    swing_weight: D2
+  - club: "9"
+    loft: 41.0
+    lie: 63.0
+    length: 36.0
+    offset: 0.095
+    swing_weight: D2
+  - club: "PW"
+    loft: 45.0
+    lie: 63.5
+    length: 35.75
+    offset: 0.090
+    swing_weight: D2
+  - club: "AW"
+    loft: 49.0
+    lie: 63.5
+    length: 35.5
+    offset: 0.080
+    swing_weight: D2
+stock_shafts:
+  - name: "Project X IO"
+    material: steel
+  - name: "Mitsubishi MMT"
+    material: graphite
+sources:
+  - "Callaway Golf Pre-Owned X Forged CB product specs (callawaygolfpreowned.com/iron-sets/irons-2021-x-forged-cb.html) — loft, lie, length, offset (in millimetres) and swingweight for the 3-iron through A-wedge, plus the forged 1025 body, the MIM'd tungsten weighting and the Project X IO / Mitsubishi MMT stock shafts"
+  - "2nd Swing Golf Callaway X Forged CB 21 iron set spec table (2ndswing.com/golf-clubs/iron-sets/callaway-x-forged-cb-21-iron-set) — independently matches on every loft, lie, length, offset and swingweight, and lists the 4-PW stock set and Golf Pride Z Grip"
+  - "Plugged In Golf 'Callaway Announces New X Forged CB and Apex MB Irons' (14 October 2020) — announcement timing, 29 October 2020 retail date, multi-material construction and Tour Tuned face plate. year_introduced records the 2020 announcement year per this database's convention; the model was sold as the 2021 line."
+  - "Note on offset: the sources publish offset in millimetres (3.43 mm at the 3-iron down to 2.03 mm at the A-wedge), converted to inches here. Bounce was not published and is omitted."
+  - "Note on year_discontinued: recorded as 2023, the year Callaway announced the Apex CB of the 2024 line, which took over the tour cavity back slot; no later X Forged CB followed. That model's named predecessor is the Apex TCB, so no direct successor is recorded here."
+related_models:
+  - slug: "callaway/x-forged-2018-irons"
+    label: "Predecessor: Callaway X Forged (2018)"
+  - slug: "callaway/apex-mb-21-irons"
+    label: "Blade announced the same day: Callaway Apex MB 21"
+  - slug: "callaway/apex-cb-2024-irons"
+    label: "Next Callaway tour cavity back: Callaway Apex CB (2024)"
+faq:
+  - q: "What is the loft of a Callaway X Forged CB (2021) 7-iron?"
+    a: "The 2021 X Forged CB 7-iron has a loft of 33 degrees, with a 62 degree lie and a 37 inch standard steel length."
+  - q: "What is the loft of a Callaway X Forged CB (2021) pitching wedge?"
+    a: "The X Forged CB pitching wedge is 45 degrees, with a 49 degree A-wedge below it."
+  - q: "When were the 2021 Callaway X Forged CB irons released?"
+    a: "Callaway announced them on 13 October 2020 alongside the Apex MB and X Forged UT, with retail from 29 October 2020, marketed as the 2021 line."
+  - q: "Is the 2021 X Forged CB a one-piece forging?"
+    a: "No. Unusually for a tour cavity back, it combines a forged 1025 mild carbon steel body with internal and external MIM'd tungsten weights and a Tour Tuned face plate."
+confidence: high

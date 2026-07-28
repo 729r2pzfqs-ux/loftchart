@@ -96,6 +96,10 @@ sources:
   - "Golf Monthly 'Cobra F-Max Airspeed Range Revealed' — the roughly 16-gram total-weight saving and 6 percent lower 4-iron centre of gravity against the F-Max Superlite, which is recorded as the predecessor. MyGolfSpy AIR-X coverage — the Air-X, released January 2022, replaced it, and the F-Max Airspeed topped MyGolfSpy's super-game-improvement rankings in 2020 and 2021, the basis for the category recorded here."
   - "Note: confidence is medium — lofts are corroborated across two retailers, but the per-club lies and lengths rest on the single GolfOnline table; no archived cobragolf.com spec table could be retrieved."
 related_models:
+  - slug: "cobra/f-max-irons"
+    label: "The original F-Max (2017)"
+  - slug: "cobra/air-x-irons"
+    label: "Successor: Cobra Air-X"
   - slug: "cobra/king-speedzone-irons"
     label: "Cobra's distance iron of the same season: Cobra King Speedzone"
 faq:

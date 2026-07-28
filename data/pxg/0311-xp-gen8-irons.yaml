@@ -92,6 +92,8 @@ sources:
   - "pluggedingolf.com 'PXG 0311 XP GEN8 Irons Review' and 'PXG 0311 P GEN8 Irons Review' — the XP as the largest GEN8 head with the widest sole and most offset, three degrees stronger than the P at the 7-iron."
   - "Note: swing weight is omitted because the perimeter weights make it adjustable at fitting; no stock shaft is recorded because PXG builds to order from a shaft menu."
 related_models:
+  - slug: "pxg/0311-xp-gen7-irons"
+    label: "Predecessor: PXG 0311 XP GEN7"
   - slug: "pxg/0311-xp-gen5-irons"
     label: "Same head three generations earlier: PXG 0311 XP GEN5"
   - slug: "pxg/0311-p-gen8-irons"

@@ -99,6 +99,8 @@ sources:
   - "2ndswing.com Mizuno JPX 921 Hot Metal Iron Set specification table (independently corroborates loft/lie/length/offset for 4-GW)"
   - "Sand wedge offset is omitted: the only published figure (0.138 inches) is larger than the gap wedge value in the same table and could not be corroborated."
 related_models:
+  - slug: "mizuno/jpx-921-hot-metal-pro-irons"
+    label: "Compact model of the same generation: Mizuno JPX-921 Hot Metal Pro"
   - slug: "mizuno/jpx-921-forged-irons"
     label: "Same generation, weaker lofts: Mizuno JPX-921 Forged"
   - slug: "mizuno/jpx-919-hot-metal-irons"

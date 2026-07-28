@@ -9,7 +9,7 @@ category: players
 construction: forged, multi-material dual cavity
 material: forged carbon steel body with high-density tungsten-nickel weighting and an elastomer cushion
 successor: Titleist 710 AP2
-predecessor: null
+predecessor: Titleist Forged 755
 description: >
   The AP2 is the first generation of Titleist's Advanced Performance players
   iron, announced in January 2008 and at retail from March that year alongside
@@ -87,9 +87,12 @@ sources:
   - "Titleist previous-models archived product page, titleist.com/golf-clubs/irons/ap2-2008, via the Internet Archive (full manufacturer table headed 'AP2': offset, bounce, loft, length, lie, swingweight)"
   - "TheSandTrap.com, 'Titleist Introduces New Irons for 2008: AP1, AP2, ZB, and ZM', 15 January 2008 - announcement date and 15 March 2008 retail availability; year_introduced uses the January 2008 announcement"
   - "Titleist archived page header text - 'Advanced performance, multi-material, dual cavity, technical forged irons providing traditional solid feel, looks and shot control for the skilled player'"
+  - "Predecessor: the AP2 took over the forged players slot held by the Forged 755 (announced August 2006, per thegolfwire.com), which the AP1/AP2 launch retired"
 related_models:
   - slug: "titleist/710-ap2-irons"
     label: "Successor: Titleist 710 AP2"
+  - slug: "titleist/755-irons"
+    label: "Predecessor: Titleist Forged 755"
 faq:
   - q: "What is the loft of a Titleist AP2 (2008) 7-iron?"
     a: "The 2008 Titleist AP2 7-iron is 35 degrees, with a 63 degree lie and a 37 inch standard steel length."

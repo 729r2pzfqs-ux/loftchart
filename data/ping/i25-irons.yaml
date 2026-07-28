@@ -103,6 +103,8 @@ sources:
 related_models:
   - slug: "ping/i20-irons"
     label: "Predecessor: Ping i20"
+  - slug: "ping/i-irons"
+    label: "Successor: Ping i (iE1)"
   - slug: "ping/s55-irons"
     label: "Ping's tour blade of the same period: Ping S55"
   - slug: "ping/g25-irons"

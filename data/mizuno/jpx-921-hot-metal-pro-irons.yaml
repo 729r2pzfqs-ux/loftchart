@@ -1,0 +1,100 @@
+brand: Mizuno
+brand_slug: mizuno
+model: JPX-921 Hot Metal Pro
+slug: jpx-921-hot-metal-pro-irons
+club_type: irons
+year_introduced: 2020
+year_discontinued: 2022
+category: players-distance
+construction: investment cast
+material: Nickel Chromoly 4335
+successor: JPX-923 Hot Metal Pro
+predecessor: JPX-919 Hot Metal Pro
+description: >
+  The JPX-921 Hot Metal Pro is the compact model of the 2020 Hot Metal pair, cast
+  from the same Nickel Chromoly 4335 as the standard JPX-921 Hot Metal with the
+  same seamless cup face and identical lofts, lies and lengths — a 29-degree
+  7-iron and 44-degree pitching wedge. The difference is the package: a thinner
+  topline, narrower sole and much less offset, 0.126 inches at the 7-iron against
+  the standard model's 0.189. The stock set ran 4-iron through gap wedge, without
+  the standard model's sand and lob wedges. Mizuno announced the JPX-921 line in
+  August 2020. Lofts, lies and lengths listed are the men's standard steel-shaft build.
+specs:
+  - club: "4"
+    loft: 19.0
+    lie: 60.0
+    length: 38.5
+    offset: 0.150
+    bounce: 1.0
+    swing_weight: D3
+  - club: "5"
+    loft: 22.0
+    lie: 60.5
+    length: 38.0
+    offset: 0.142
+    bounce: 1.0
+    swing_weight: D3
+  - club: "6"
+    loft: 25.0
+    lie: 61.0
+    length: 37.5
+    offset: 0.134
+    bounce: 2.0
+    swing_weight: D3
+  - club: "7"
+    loft: 29.0
+    lie: 61.5
+    length: 37.0
+    offset: 0.126
+    bounce: 3.0
+    swing_weight: D3
+  - club: "8"
+    loft: 34.0
+    lie: 62.0
+    length: 36.5
+    offset: 0.118
+    bounce: 4.0
+    swing_weight: D3
+  - club: "9"
+    loft: 39.0
+    lie: 62.5
+    length: 36.0
+    offset: 0.110
+    bounce: 5.0
+    swing_weight: D3
+  - club: "PW"
+    loft: 44.0
+    lie: 63.0
+    length: 35.5
+    offset: 0.102
+    bounce: 6.0
+    swing_weight: D4
+  - club: "GW"
+    loft: 49.0
+    lie: 63.0
+    length: 35.25
+    offset: 0.096
+    bounce: 7.0
+    swing_weight: D4
+sources:
+  - "tgw.com Golf Guide, Mizuno JPX 921 Hot Metal Irons review — Hot Metal Pro specification table (loft/length/lie/bounce/offset/swingweight, 4-GW). The bounce and swing-weight figures appear only in this table"
+  - "2ndswing.com Mizuno JPX 921 Hot Metal Pro Iron Set specification table (independently corroborates loft/lie/length/offset for 4-PW; its GW offset of 0.134 inches is larger than the 9-iron and looks like a data error, so the TGW figure of 0.096 inches is used)"
+  - "todays-golfer.com Mizuno JPX921 Hot Metal and Hot Metal Pro iron review (4-GW set makeup, 29-degree 7-iron shared with the standard Hot Metal, more compact head with less offset)"
+  - "year_introduced is 2020, the JPX-921 family announcement of 10 August 2020; year_discontinued is 2022, when the JPX-923 family was announced"
+related_models:
+  - slug: "mizuno/jpx-921-hot-metal-irons"
+    label: "Standard model of the same generation: Mizuno JPX-921 Hot Metal"
+  - slug: "mizuno/jpx-921-tour-irons"
+    label: "Compact forged model of the same family: Mizuno JPX-921 Tour"
+  - slug: "mizuno/jpx-919-hot-metal-pro-irons"
+    label: "Predecessor: Mizuno JPX-919 Hot Metal Pro"
+  - slug: "mizuno/jpx-923-hot-metal-pro-irons"
+    label: "Successor: Mizuno JPX-923 Hot Metal Pro"
+faq:
+  - q: "What is the loft of a Mizuno JPX-921 Hot Metal Pro 7-iron?"
+    a: "The Mizuno JPX-921 Hot Metal Pro 7-iron has a loft of 29 degrees, with a 61.5-degree lie and a 37-inch steel-shaft length — the same as the standard JPX-921 Hot Metal."
+  - q: "What is the difference between the JPX-921 Hot Metal Pro and the standard Hot Metal?"
+    a: "Lofts, lies and lengths are identical. The Pro has a thinner topline, narrower sole and much less offset — 0.126 inches at the 7-iron against 0.189 — and its stock set is 4-GW, without the standard model's sand and lob wedges."
+  - q: "What clubs came in a JPX-921 Hot Metal Pro set?"
+    a: "The stock range was 4-iron through gap wedge, finishing with a 44-degree pitching wedge and 49-degree gap wedge."
+confidence: medium

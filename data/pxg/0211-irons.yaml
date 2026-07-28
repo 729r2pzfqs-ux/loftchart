@@ -8,7 +8,7 @@ year_discontinued: 2021
 category: players-distance
 construction: investment cast hollow body with a COR2 core
 material: cast body with a 0.058-inch HT1770 maraging steel face over a COR2 polymer core
-successor: PXG 0211 (2021)
+successor: PXG 0211 DC
 predecessor: null
 description: >
   The original 0211, launched on 21 May 2019, was PXG's first attempt at a more
@@ -92,6 +92,8 @@ sources:
   - "year_discontinued is 2021 because PXG announced the second-generation 0211 on 7 January 2021 as part of the 2021 0211 Collection (Forbes, 'PXG Releases New 0211 Irons, Woods And Hybrids'; pluggedingolf.com 'PXG Announces 2021 0211 Club Line')."
   - "Note: the cast body's alloy was not published, so the material field names no specific steel. Swing weight was not published and PXG built every set to order from a shaft menu, so no stock shaft is recorded."
 related_models:
+  - slug: "pxg/0211-dc-irons"
+    label: "Successor: PXG 0211 DC"
   - slug: "pxg/0311-p-gen5-irons"
     label: "Flagship players-distance line: PXG 0311 P GEN5"
 faq:

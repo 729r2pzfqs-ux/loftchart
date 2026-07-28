@@ -9,7 +9,7 @@ category: players
 construction: forged body with a hollow long-iron construction and urethane microspheres
 material: 1025 mild carbon steel body with tungsten weighting and urethane microspheres behind the face
 successor: null
-predecessor: null
+predecessor: Callaway Apex Pro 19
 description: >
   Apex Pro 21 is the tour end of Callaway's Apex family: a 1025 carbon steel forging
   with tungsten energy cores, urethane microspheres filling the cavity to damp
@@ -85,6 +85,8 @@ sources:
   - "prnewswire.com 'Callaway Golf Announces New Apex Irons And Hybrids' — the Apex 21 family, including the Apex Pro 21, was announced on 12 January 2021, with pre-orders from 26 January and retail from 11 February; body forged from 1025 mild carbon steel."
   - "Note: bounce is omitted — the source table did not carry a bounce column. Confidence is medium because the figures come from a retailer spec table rather than a Callaway spec sheet."
 related_models:
+  - slug: "callaway/apex-pro-19-irons"
+    label: "Predecessor: Callaway Apex Pro 19"
   - slug: "callaway/apex-21-irons"
     label: "The standard model of the same generation: Callaway Apex 21"
   - slug: "callaway/apex-dcb-irons"

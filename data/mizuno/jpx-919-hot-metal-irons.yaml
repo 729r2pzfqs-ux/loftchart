@@ -90,6 +90,8 @@ sources:
   - "golfalot.com Mizuno JPX919 Hot Metal iron review (stock Nippon Modus3 Tour 105 steel shaft)"
   - "Bounce angles were not published in any spec table located for this model, so the bounce key is omitted."
 related_models:
+  - slug: "mizuno/jpx-919-hot-metal-pro-irons"
+    label: "Compact model of the same generation: Mizuno JPX-919 Hot Metal Pro"
   - slug: "mizuno/jpx-919-forged-irons"
     label: "Same generation, weaker lofts: Mizuno JPX-919 Forged"
   - slug: "mizuno/jpx-921-hot-metal-irons"

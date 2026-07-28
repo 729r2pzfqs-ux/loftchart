@@ -1,0 +1,97 @@
+brand: Cleveland
+brand_slug: cleveland
+model: Launcher UHX
+slug: launcher-uhx-irons
+club_type: irons
+year_introduced: 2019
+year_discontinued: 2022
+category: game-improvement
+construction: progressive set — hollow-body long irons (4-7), cavity-back short irons (8-PW)
+successor: Cleveland Launcher XL
+predecessor: Cleveland CBX
+description: >
+  The Launcher UHX is a progressive utility-hollow iron set announced on
+  16 September 2019 and at retail in North America from 4 October 2019, replacing
+  the Launcher CBX in Cleveland's game-improvement slot. The 4 through 7 irons
+  are hollow-bodied with a high-strength steel face insert and a V-shaped sole
+  for distance and forgiveness, while the 8-iron through pitching wedge switch to
+  a conventional cavity back for control. Lofts are strong, with a 30-degree
+  7-iron and a 44-degree pitching wedge, and gapping stretches from 3 degrees in
+  the long irons to 5 degrees in the wedges. The stock set runs 4-iron through
+  pitching wedge, with an optional 49-degree DW gap wedge to extend it, and
+  matching hollow utility singles were sold down to an 18-degree 3-iron. Specs
+  below are the standard men's steel build; offsets are converted from the
+  published millimetre figures, and the D2 swing weight is the steel value —
+  graphite builds run D1.
+specs:
+  - club: "4"
+    loft: 20.0
+    lie: 61.5
+    length: 38.875
+    offset: 0.215
+    swing_weight: D2
+  - club: "5"
+    loft: 23.0
+    lie: 62.0
+    length: 38.25
+    offset: 0.199
+    swing_weight: D2
+  - club: "6"
+    loft: 26.0
+    lie: 62.5
+    length: 37.625
+    offset: 0.183
+    swing_weight: D2
+  - club: "7"
+    loft: 30.0
+    lie: 63.0
+    length: 37.0
+    offset: 0.167
+    swing_weight: D2
+  - club: "8"
+    loft: 34.0
+    lie: 63.5
+    length: 36.5
+    offset: 0.12
+    swing_weight: D2
+  - club: "9"
+    loft: 39.0
+    lie: 64.0
+    length: 36.0
+    offset: 0.089
+    swing_weight: D2
+  - club: "PW"
+    loft: 44.0
+    lie: 64.5
+    length: 35.75
+    offset: 0.057
+    swing_weight: D2
+stock_shafts:
+  - name: "True Temper Dynamic Gold DST 98"
+    material: steel
+    weight: "98g"
+  - name: "Miyazaki C. Kua 60"
+    material: graphite
+sources:
+  - "2nd Swing Golf 'Cleveland Launcher UHX Iron Set' specification table (https://www.2ndswing.com/golf-clubs/iron-sets/cleveland-launcher-uhx-iron-set) — club, loft, length, lie, offset in mm and swing weight for the 4-iron through pitching wedge. This is the source of every number above; offsets are published in millimetres (5.45, 5.05, 4.65, 4.25, 3.05, 2.25, 1.45) and converted to inches here."
+  - "Golf Influence review of the Launcher UHX irons — independently corroborates the lofts, the 20-44 degree loft range, the 61.5-64.5 degree lie range, the 35.75-38.875 inch lengths, the D2 steel / D1 graphite swing weights, and the Dynamic Gold DST 98 steel and Miyazaki C. Kua 60 graphite stock shafts."
+  - "Cleveland Golf / Dunlop Sports US official 'LAUNCHER UHX UTILITY IRONS' page (us.dunlopsports.com/launcher-uhx-utility-irons/11191956.html) — the manufacturer's own listing for the matching 3/4/5 utility singles corroborates the 4-iron (20 degrees, 61.5 lie, 38.875 inches) and 5-iron (23 degrees, 62.0 lie, 38.25 inches) head specs and the hollow-body construction with high-strength HT1770M steel face insert and V-shaped sole."
+  - "Announcement and dates: Midwest Golfing Magazine's reprint of Cleveland's press release 'Cleveland Golf introduces Launcher HB Turbo irons, Launcher UHX irons and Launcher Halo' — announced 16 September 2019, in stores 4 October 2019. year_discontinued 2022 reflects the announcement of the Launcher XL, the next Launcher-family iron generation, on the convention used across this site."
+  - "The optional 49-degree DW gap wedge is confirmed by used-market listings at GolfClubs4Cash and Affordable Golf (49-degree Launcher UHX gap wedge with Dynamic Gold DST 98), but no second source carrying its lie and offset was found, so it is described here rather than listed in specs."
+related_models:
+  - slug: "cleveland/cbx-irons"
+    label: "Predecessor: Cleveland Launcher CBX"
+  - slug: "cleveland/launcher-hb-turbo-irons"
+    label: "Hollow-body sibling launched the same day: Launcher HB Turbo"
+  - slug: "cleveland/launcher-xl-irons"
+    label: "Successor: Cleveland Launcher XL"
+faq:
+  - q: "What is the loft of a Cleveland Launcher UHX 7-iron?"
+    a: "The Cleveland Launcher UHX 7-iron has a loft of 30 degrees, a lie of 63 degrees and a length of 37 inches."
+  - q: "Which Launcher UHX irons are hollow?"
+    a: "The 4 through 7 irons use a hollow body with a high-strength steel face insert for distance and forgiveness; the 8-iron through pitching wedge are conventional cavity backs for control. Cleveland also sold hollow UHX utility singles in 18, 20 and 23 degrees."
+  - q: "When were the Cleveland Launcher UHX irons released?"
+    a: "Cleveland announced them on 16 September 2019 alongside the Launcher HB Turbo, and they reached North American retail on 4 October 2019."
+  - q: "Could the Launcher UHX set be extended beyond the pitching wedge?"
+    a: "Yes — Cleveland offered an optional 49-degree DW gap wedge with the same hollow construction as the low-lofted clubs, on the stock Dynamic Gold DST 98 steel shaft."
+confidence: medium

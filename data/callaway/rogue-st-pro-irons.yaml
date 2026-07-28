@@ -86,6 +86,8 @@ sources:
 related_models:
   - slug: "callaway/rogue-st-max-irons"
     label: "The larger head of the same family: Callaway Rogue ST Max"
+  - slug: "callaway/rogue-st-max-os-irons"
+    label: "Oversized model of the same family: Callaway Rogue ST Max OS"
   - slug: "callaway/apex-pro-21-irons"
     label: "Callaway's players iron of the previous year: Callaway Apex Pro 21"
 faq:

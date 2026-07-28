@@ -74,6 +74,8 @@ sources:
   - "2ndSwing.com Mizuno JPX 900 Forged iron set specification table (identical figures, independent corroboration)"
   - "GolfWRX launch article on the JPX-900 Hot Metal and JPX-900 Forged irons (1025 boron material, Grain Flow Forged, Project X LZ stock shaft)"
 related_models:
+  - slug: "mizuno/jpx-900-tour-irons"
+    label: "Compact players model of the same family: Mizuno JPX-900 Tour"
   - slug: "mizuno/mp-57-irons"
     label: "Earlier Mizuno forged players iron: MP-57"
 faq:

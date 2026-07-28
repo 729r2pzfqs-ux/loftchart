@@ -105,6 +105,8 @@ sources:
 related_models:
   - slug: "taylormade/sim2-max-irons"
     label: "Predecessor: TaylorMade SIM2 Max"
+  - slug: "taylormade/sim2-max-os-irons"
+    label: "Also replaced: TaylorMade SIM2 Max OS"
   - slug: "taylormade/stealth-hd-irons"
     label: "Draw-biased variant: TaylorMade Stealth HD"
   - slug: "taylormade/qi-irons"

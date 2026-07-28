@@ -82,6 +82,8 @@ sources:
 related_models:
   - slug: "wilson/staff-d7-irons"
     label: "Predecessor: Wilson Staff D7"
+  - slug: "wilson/staff-d9-forged-irons"
+    label: "Forged sibling: Wilson Staff D9 Forged"
   - slug: "wilson/dynapower-irons"
     label: "Successor: Wilson Dynapower"
 faq:

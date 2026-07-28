@@ -90,6 +90,8 @@ sources:
   - "year_discontinued is 2020, the year the successor JPX921 line was announced (10 August 2020 per Golf Business News and Golf Monthly launch coverage)"
   - "mizunogolf.com/uk/blog 'Mizuno JPX919 Tour irons played to win PGA Championship' (May 2019) — an unsponsored Brooks Koepka won the 2019 PGA Championship at Bethpage Black with JPX919 Tour irons, his fourth major with Mizuno irons after three with the JPX900 Tour"
 related_models:
+  - slug: "mizuno/jpx-900-tour-irons"
+    label: "Predecessor: Mizuno JPX-900 Tour"
   - slug: "mizuno/jpx-921-tour-irons"
     label: "Successor: Mizuno JPX-921 Tour"
   - slug: "mizuno/jpx-919-forged-irons"

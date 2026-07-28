@@ -9,7 +9,7 @@ category: players-distance
 construction: forged face with hollow-body, Max Impact internal support
 material: forged face with high-density tungsten perimeter weighting
 successor: Titleist T250
-predecessor: Titleist T200
+predecessor: Titleist T200 (2021)
 description: >
   The second-generation T200 arrived in 2023 with a slimmer profile and a
   reworked hollow-body build, keeping the forged face and Max Impact internal
@@ -79,6 +79,8 @@ sources:
 related_models:
   - slug: "titleist/t150-irons"
     label: "Range sibling: Titleist T150"
+  - slug: "titleist/t200-2021-irons"
+    label: "Predecessor: Titleist T200 (2021)"
 faq:
   - q: "What is the loft of a 2023 Titleist T200 7-iron?"
     a: "The 2023 Titleist T200 7-iron is 30.5 degrees, with a 63 degree lie and a 37 inch standard steel length."

@@ -8,7 +8,7 @@ year_discontinued: 2010
 category: game-improvement
 construction: investment cast
 material: stainless steel
-successor: null
+successor: Callaway X-24 Hot
 predecessor: Callaway X-20
 description: >
   The X-22 followed the X-20 in 2008 and was the last numbered X-series iron
@@ -94,6 +94,11 @@ sources:
   - "This table corrects an earlier LoftChart entry that carried the set one degree stronger throughout; the manufacturer sheet shows the X-20 lofts essentially unchanged"
   - "Figures are the steel build. The X-22 is one of the few Callaway sets with a genuinely separate graphite table, which runs 0.25 inches longer with lighter swing weights"
   - "Offset was not published for this model in any Callaway source located, so the column is omitted rather than estimated"
+related_models:
+  - slug: "callaway/x-20-irons"
+    label: "Predecessor: Callaway X-20"
+  - slug: "callaway/x-24-hot-irons"
+    label: "Successor: Callaway X-24 Hot"
 faq:
   - q: "What is the loft of a Callaway X-22 7-iron?"
     a: "The Callaway X-22 7-iron is 33 degrees, with a 62.5 degree lie and a 36.75 inch standard steel length."

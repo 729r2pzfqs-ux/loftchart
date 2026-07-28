@@ -92,6 +92,10 @@ sources:
 related_models:
   - slug: "callaway/apex-irons"
     label: "Predecessor: Callaway Apex (2014)"
+  - slug: "callaway/apex-pro-16-irons"
+    label: "Players companion of the same generation: Callaway Apex Pro 16"
+  - slug: "callaway/apex-19-irons"
+    label: "Successor: Callaway Apex 19"
 faq:
   - q: "What is the loft of a Callaway Apex CF16 7-iron?"
     a: "The Callaway Apex CF16 7-iron has a loft of 31 degrees, with a 62 degree lie and a 37 inch standard steel length."

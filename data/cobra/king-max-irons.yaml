@@ -1,0 +1,106 @@
+brand: Cobra
+brand_slug: cobra
+model: KING MAX
+slug: king-max-irons
+club_type: irons
+year_introduced: 2026
+year_discontinued: null
+category: super-game-improvement
+construction: cast distance iron with a 360 SPEEDSHELL face and a 3D-printed internal medallion
+material: stainless steel with a 360 SPEEDSHELL H.O.T. Face insert and a 3D-printed lattice medallion
+successor: null
+predecessor: null
+description: >
+  The KING MAX is the maximum-forgiveness half of the two-model KING iron family
+  Cobra announced on 19 January 2026, at retail from 6 February 2026 at $999 in
+  steel. Against the standard KING it has an oversized, confidence-inspiring
+  shape, lofts about 2 degrees weaker — a 29.5-degree 7-iron and a 44.5-degree
+  pitching wedge — and added offset with draw-biased weighting, aimed at players
+  with average-to-moderate swing speeds and shallow attack angles. A 3D-printed
+  internal medallion with intricate latticing frees mass to lower the centre of
+  gravity, and the 360 SPEEDSHELL face with H.O.T. Face technology wraps the sole
+  for more face flex. The stock steel set is 5-iron through gap wedge; graphite is
+  sold as 5-PW plus gap wedge. Swing weights below are the steel build, and
+  offsets are converted from Cobra's published millimetre figures.
+specs:
+  - club: "4"
+    loft: 21.0
+    lie: 62.5
+    length: 39.25
+    offset: 0.299
+    swing_weight: D2.5
+  - club: "5"
+    loft: 23.5
+    lie: 63.0
+    length: 38.5
+    offset: 0.264
+    swing_weight: D2.5
+  - club: "6"
+    loft: 26.5
+    lie: 63.5
+    length: 37.75
+    offset: 0.232
+    swing_weight: D2.5
+  - club: "7"
+    loft: 29.5
+    lie: 64.0
+    length: 37.25
+    offset: 0.205
+    swing_weight: D2.5
+  - club: "8"
+    loft: 34.0
+    lie: 64.5
+    length: 36.75
+    offset: 0.177
+    swing_weight: D2.5
+  - club: "9"
+    loft: 39.0
+    lie: 65.0
+    length: 36.25
+    offset: 0.15
+    swing_weight: D2.5
+  - club: "PW"
+    loft: 44.5
+    lie: 65.0
+    length: 36.0
+    offset: 0.126
+    swing_weight: D2.5
+  - club: "GW"
+    loft: 50.0
+    lie: 65.0
+    length: 35.75
+    offset: 0.102
+    swing_weight: D2.5
+  - club: "SW"
+    loft: 56.0
+    lie: 65.0
+    length: 35.5
+    offset: 0.083
+    swing_weight: D2.5
+stock_shafts:
+  - name: "KBS Tour Lite"
+    material: steel
+    weight: "105g"
+    flex: ["R", "S"]
+  - name: "KBS PGI 85 / 75 / 65"
+    material: graphite
+    weight: "65-85g"
+    flex: ["A", "R", "S"]
+sources:
+  - "Cobra Golf official 'KING MAX Irons' product page (cobragolf.com/products/king-max-irons), retrieved live 28 July 2026 — supplies the full STOCK SPECS table (club, loft, lie, offset in mm, length, steel swing weight D2.5, graphite swing weights D3/D2.5/D1.5 by flex, RH/LH) for the 4-iron through sand wedge, the stock set comps (steel 5-GW; graphite 5-PW plus GW), the KBS Tour Lite 105g steel and KBS PGI 85/75/65 graphite shaft tables, the SuperStroke Crossline 360 Black grip, the $999 price, and the 3D-printed medallion / 360 SPEEDSHELL with H.O.T. Face descriptions. Offsets are published in millimetres (7.6 down to 2.1) and converted to inches here."
+  - "The Golf Wire press release 'COBRA Golf Introduces New King and King Max Irons' and GolfWRX 'Cobra launches new King and King Max irons' — announced 19 January 2026, fittings and pre-sale from 3 February 2026, at retail 6 February 2026, $999 steel / $1,099 graphite in 5-GW sets. Cobra positions the MAX as the oversized model with 2-degree weaker lofts and added offset versus the standard KING."
+related_models:
+  - slug: "cobra/ds-adapt-irons"
+    label: "Cobra's previous game-improvement iron family: DS-ADAPT"
+  - slug: "cobra/air-x-2024-irons"
+    label: "Cobra's lightweight easy-launch line: Air-X (2024)"
+faq:
+  - q: "What is the loft of a Cobra KING MAX 7-iron?"
+    a: "The Cobra KING MAX 7-iron has a loft of 29.5 degrees, a lie of 64 degrees and a length of 37.25 inches."
+  - q: "When were the Cobra KING MAX irons released?"
+    a: "Cobra announced the KING and KING MAX irons on 19 January 2026, and they reached retail on 6 February 2026 at $999 for a seven-piece steel set."
+  - q: "How does the KING MAX differ from the standard Cobra KING iron?"
+    a: "The KING MAX uses a larger head with a thicker topline and wider sole, lofts about 2 degrees weaker than the KING, and more offset with draw-biased weighting. It is aimed at golfers with average-to-moderate swing speeds who want maximum launch and forgiveness."
+  - q: "What clubs come in a stock Cobra KING MAX set?"
+    a: "The stock steel set is 5-iron through gap wedge; graphite sets are sold as 5-iron through pitching wedge plus gap wedge. A 4-iron and 56-degree sand wedge are catalogued as singles."
+confidence: high

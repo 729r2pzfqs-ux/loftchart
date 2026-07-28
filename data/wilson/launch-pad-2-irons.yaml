@@ -74,6 +74,8 @@ sources:
   - "The two swing-weight rows in Wilson's table are not labelled in the archived capture, so no per-club swing_weight is recorded; D1/D0 most plausibly correspond to the steel and graphite builds and are noted in the description only"
   - "Launch announcement in early 2022 per Wilson's Launch Pad family press coverage (MyGolfWay 'New Launch Pad irons, woods and hybrids', Breaking Eighty notes the line was announced in March 2022) and National Club Golfer's Launch Pad 2 irons review; the category follows National Club Golfer, which classes it as a super game improvement iron for high handicappers and new players. year_discontinued is null because Wilson still lists no successor to the Launch Pad 2 irons"
 related_models:
+  - slug: "wilson/launch-pad-irons"
+    label: "Predecessor: Wilson Launch Pad"
   - slug: "cleveland/launcher-xl-irons"
     label: "Comparable oversize game-improvement iron of the same year: Cleveland Launcher XL"
   - slug: "wilson/dynapwr-irons"

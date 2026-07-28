@@ -73,6 +73,8 @@ sources:
   - "2nd Swing Golf specification table for the Mizuno JPX 925 Hot Metal Pro iron set (2ndswing.com/golf-clubs/iron-sets/mizuno-jpx-925-hot-metal-pro-iron-set) — corroborated every loft, lie and length above and supplied the stock shafts (Dynamic Gold 105 steel, Mitsubishi MMT graphite) and Lamkin UTX+ grip; shaft weights and flex ranges are not listed there, so they are omitted"
   - "golfwrx.com '2024 Mizuno JPX 925 Hot Metal irons: GolfWRX Launch Report' — the JPX 925 Hot Metal line launched in September 2024; retailers catalogue it as the 2025 line, so year_introduced records the 2024 announcement per this database's convention"
 related_models:
+  - slug: "mizuno/jpx-923-hot-metal-pro-irons"
+    label: "Predecessor: Mizuno JPX-923 Hot Metal Pro"
   - slug: "mizuno/jpx-925-hot-metal-irons"
     label: "Standard model of the same generation: Mizuno JPX-925 Hot Metal"
   - slug: "mizuno/jpx-925-forged-irons"

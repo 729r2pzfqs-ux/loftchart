@@ -88,6 +88,13 @@ sources:
   - "Construction details (forged 1025 body, 360 Face Cup, tungsten weighting, urethane microspheres) per the Callaway Golf Pre-Owned product page. Note: 2nd Swing lists a different stock steel shaft (Elevate Tour); the Elevate 95 is used here because it is what Callaway's own outlet publishes. No stock graphite shaft is recorded because the sources disagree."
   - "Offset ladder added from the Callaway Demandware ProductSpecs feed (ProductSpecs-Get), the manufacturer-authored source behind the View Specs panel; Callaway publishes these in millimetres and the inch figures here are converted"
   - "Note on year_discontinued: recorded as 2021, the year the successor was announced — the Apex 21 was announced on 12 January 2021. This database dates a model's end to the announcement of its replacement, not to the last day it was sold, so sets remained on shop floors after this date."
+related_models:
+  - slug: "callaway/apex-pro-19-irons"
+    label: "Players companion of the same generation: Callaway Apex Pro 19"
+  - slug: "callaway/apex-cf16-irons"
+    label: "Predecessor: Callaway Apex CF16"
+  - slug: "callaway/apex-21-irons"
+    label: "Successor: Callaway Apex 21"
 faq:
   - q: "What is the loft of a Callaway Apex 19 7-iron?"
     a: "The Callaway Apex 19 7-iron has a loft of 30.5 degrees, with a 62 degree lie and a 37 inch standard steel length."

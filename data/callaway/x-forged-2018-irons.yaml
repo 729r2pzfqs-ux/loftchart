@@ -4,11 +4,11 @@ model: X Forged (2018)
 slug: x-forged-2018-irons
 club_type: irons
 year_introduced: 2018
-year_discontinued: 2021
+year_discontinued: 2020
 category: players
 construction: triple-net forged
 material: 1025 carbon steel
-successor: Callaway Apex MB 21
+successor: Callaway X Forged CB (2021)
 predecessor: null
 description: >
   The 2018 X Forged is Callaway's tour cavity back of that era: a streamlined
@@ -60,7 +60,10 @@ sources:
   - "Callaway 2018 X Forged published specification chart as reproduced in retailer and review listings (callawaygolfpreowned.com 2018 X Forged listing and golfalot.com 'Callaway X-Forged 2018 Irons Review') — loft, lie, length and offset (in millimetres) for the 4-iron through pitching wedge, plus the Dynamic Gold Mid 115 stock shaft and Lamkin Crossline grip. Offset is converted to inches here."
   - "2ndswing.com Callaway 2018 X Forged Iron Set page — confirms the forged 1025 carbon steel, the triple-net forging, the tour-configured sole and the 20V grooves, and lists 3-PW and 4-PW as the set ranges sold."
   - "Note: bounce and swing weight were not published in the sources consulted and are omitted rather than estimated."
+  - "Note on succession: the next tour cavity back was the X Forged CB of the 2021 line, announced on 13 October 2020 alongside the Apex MB 21, which is why year_discontinued reads 2020. An earlier version of this entry named the Apex MB 21 as successor; the X Forged CB is the like-for-like replacement."
 related_models:
+  - slug: "callaway/x-forged-cb-2021-irons"
+    label: "Successor: Callaway X Forged CB (2021)"
   - slug: "callaway/apex-19-irons"
     label: "Callaway's forged players-distance iron of the same era: Callaway Apex 19"
   - slug: "callaway/apex-21-irons"
@@ -69,7 +72,7 @@ faq:
   - q: "What is the loft of a Callaway X Forged (2018) 7-iron?"
     a: "The 2018 Callaway X Forged 7-iron has a loft of 33 degrees, a lie of 62.0 degrees and a steel-shaft length of 37.00 inches."
   - q: "When was the 2018 Callaway X Forged made?"
-    a: "It was introduced in 2018 and was the last X Forged before Callaway consolidated its tour irons under the Apex MB and Apex Pro names."
+    a: "It was introduced in 2018 and was replaced in October 2020, when Callaway announced the X Forged CB of the 2021 line alongside the Apex MB 21."
   - q: "What is triple-net forging?"
     a: "Callaway's term for forging the head in three successive strikes, each closer to the finished shape, which lets the final form be produced with less material removal and a more consistent grain."
   - q: "Does the Callaway X Forged (2018) come in a 3-iron?"

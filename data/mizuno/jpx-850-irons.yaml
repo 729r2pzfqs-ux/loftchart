@@ -1,0 +1,93 @@
+brand: Mizuno
+brand_slug: mizuno
+model: JPX-850
+slug: jpx-850-irons
+club_type: irons
+year_introduced: 2014
+year_discontinued: 2016
+category: game-improvement
+construction: investment cast
+material: stainless steel
+successor: JPX-900 Hot Metal
+predecessor: JPX-825
+description: >
+  The JPX-850 was Mizuno's cast game-improvement iron for 2014 to 2016, the
+  generation between the JPX-825 and the first Hot Metal, sold alongside the
+  boron-steel JPX-850 Forged. It uses a deep pocket cavity in the long and mid
+  irons with a thin high-strength face, heavy offset — 0.230 inches at the 4-iron
+  and 0.180 at the 7-iron — and negative measured bounce in the 4- to 6-irons.
+  Lofts match the JPX-825 it replaced, with a 32-degree 7-iron and a 45-degree
+  pitching wedge, and the stock set is 4-iron through gap wedge.
+  Lofts, lies and lengths listed are the men's standard steel-shaft specification.
+specs:
+  - club: "4"
+    loft: 22.0
+    lie: 60.0
+    length: 38.25
+    offset: 0.230
+    bounce: -0.5
+  - club: "5"
+    loft: 25.0
+    lie: 60.5
+    length: 37.75
+    offset: 0.210
+    bounce: -0.5
+  - club: "6"
+    loft: 28.0
+    lie: 61.0
+    length: 37.25
+    offset: 0.190
+    bounce: -0.5
+  - club: "7"
+    loft: 32.0
+    lie: 61.5
+    length: 36.75
+    offset: 0.180
+    bounce: 1.0
+  - club: "8"
+    loft: 36.0
+    lie: 62.0
+    length: 36.25
+    offset: 0.170
+    bounce: 2.0
+  - club: "9"
+    loft: 40.0
+    lie: 62.5
+    length: 35.75
+    offset: 0.150
+    bounce: 3.0
+  - club: "PW"
+    loft: 45.0
+    lie: 63.0
+    length: 35.50
+    offset: 0.130
+    bounce: 4.0
+  - club: "GW"
+    loft: 50.0
+    lie: 63.0
+    length: 35.25
+    offset: 0.130
+    bounce: 5.0
+stock_shafts:
+  - name: "True Temper XP 105"
+    material: steel
+sources:
+  - "2ndSwing.com Mizuno JPX 850 Iron Set specification table (loft, lie, offset, bounce and length for 4-GW)"
+  - "InTheHoleGolf.com Mizuno JPX-850 Iron Set product page spec table (independent corroboration of the same figures and the 4-GW set makeup; its 5-iron length of 37.25 inches is a typo against 2nd Swing's 37.75, the same error that table carries for the JPX-850 Forged, and 37.75 is used here). True Temper XP 105 heads its shaft list as the stock steel option"
+  - "Numbers come from retailer spec tables rather than an archived Mizuno spec sheet, and no swing weights were published, so that key is omitted and confidence is medium"
+  - "year_introduced 2014 is the JPX-850 line's autumn 2014 launch; year_discontinued 2016 is the announcement of the successor JPX-900 family"
+related_models:
+  - slug: "mizuno/jpx-825-irons"
+    label: "Predecessor: Mizuno JPX-825"
+  - slug: "mizuno/jpx-900-hot-metal-irons"
+    label: "Successor: Mizuno JPX-900 Hot Metal"
+  - slug: "mizuno/jpx-850-forged-irons"
+    label: "Forged model of the same family: Mizuno JPX-850 Forged"
+faq:
+  - q: "What is the loft of a Mizuno JPX-850 7-iron?"
+    a: "The Mizuno JPX-850 7-iron has a loft of 32 degrees, with a 61.5-degree lie and a 36.75-inch steel-shaft length."
+  - q: "What is the difference between the JPX-850 and the JPX-850 Forged?"
+    a: "The JPX-850 is cast stainless steel with a deep pocket cavity and heavy offset — 0.180 inches at the 7-iron against 0.130 for the Forged. Both share a 32-degree 7-iron and a 45-degree pitching wedge."
+  - q: "What clubs come in a JPX-850 set?"
+    a: "The stock range is 4-iron through gap wedge, with the pitching wedge at 45 degrees and the gap wedge at 50 degrees."
+confidence: medium

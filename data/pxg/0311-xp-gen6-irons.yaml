@@ -1,0 +1,108 @@
+brand: PXG
+brand_slug: pxg
+model: 0311 XP GEN6
+slug: 0311-xp-gen6-irons
+club_type: irons
+year_introduced: 2023
+year_discontinued: 2024
+category: game-improvement
+construction: forged hollow body with an XCOR2 core
+material: 5X forged 8620 carbon steel body with a 0.050-inch HT1770 maraging steel face
+successor: PXG 0311 XP GEN7
+predecessor: PXG 0311 XP GEN5
+description: >
+  The larger of the two GEN6 iron heads — PXG launched the generation on 23
+  March 2023 with only P and XP models, dropping the T — the 0311 XP keeps the
+  XP line's strong lofts (a 27-degree 7-iron and 41-degree pitching wedge) and
+  adds slightly more offset than the GEN5 XP, plus published specs for 54-degree
+  sand and 60-degree lob wedges that the GEN5 chart lacked. GEN6 thinned the
+  HT1770 maraging steel face 15 per cent to 0.050 inches (about 1.27 mm) over
+  the XCOR2 polymer core, added Power Channel Technology — a U-shaped corridor
+  milled into the internal face surface to increase deflection — and kept the
+  five-times-forged 8620 carbon steel body. PXG stamps the scoring clubs W, G,
+  S and L; they are listed here as PW, GW, SW and LW. Sets were built to order
+  in Chrome, Xtreme Dark, Double Chrome and Double Black finishes, so no stock
+  shaft is recorded.
+specs:
+  - club: "4"
+    loft: 18.0
+    lie: 60.5
+    length: 39.375
+    offset: 0.250
+    bounce: 6.0
+  - club: "5"
+    loft: 20.0
+    lie: 61.0
+    length: 38.75
+    offset: 0.220
+    bounce: 7.0
+  - club: "6"
+    loft: 23.0
+    lie: 61.5
+    length: 38.125
+    offset: 0.190
+    bounce: 8.0
+  - club: "7"
+    loft: 27.0
+    lie: 62.0
+    length: 37.5
+    offset: 0.160
+    bounce: 9.0
+  - club: "8"
+    loft: 31.0
+    lie: 62.5
+    length: 37.0
+    offset: 0.130
+    bounce: 10.0
+  - club: "9"
+    loft: 36.0
+    lie: 63.0
+    length: 36.5
+    offset: 0.105
+    bounce: 11.0
+  - club: "PW"
+    loft: 41.0
+    lie: 63.5
+    length: 36.25
+    offset: 0.080
+    bounce: 12.0
+  - club: "GW"
+    loft: 47.0
+    lie: 63.5
+    length: 36.0
+    offset: 0.070
+    bounce: 12.0
+  - club: "SW"
+    loft: 54.0
+    lie: 63.5
+    length: 35.75
+    offset: 0.040
+    bounce: 13.0
+  - club: "LW"
+    loft: 60.0
+    lie: 63.5
+    length: 35.5
+    offset: 0.030
+    bounce: 13.0
+sources:
+  - "PXG's own GEN6 0311 XP product page (pxg.com/en-us/golf-clubs/irons/0311-xp-gen6-irons, Double Black listing IR-PXG36-BB), archive.org capture of 4 December 2023 — the full spec table (loft, standard length, standard lie, offset and bounce for the 4-iron through the L wedge, stamped W, G, S and L), plus the technology copy: XCOR2 polymer core, 0.050-inch variable-thickness HT1770 maraging face billed as 15 per cent thinner than previous models, Power Channel Technology and 5X forging from 8620 soft carbon steel. The site's navigation on the same capture listed the XP GEN6 at $179.99 per club."
+  - "golfwrx.com 'Everything you need to know about PXG's new 2023 Gen6 golf clubs' and pluggedingolf.com 'PXG Releases 0311 GEN6 Irons & Woods' — the 23 March 2023 launch and the two-model P/XP iron line-up."
+  - "mygolfspy.com 'PXG 0311 GEN6 Irons (P and XP)' — the XP as the game-improvement head with more offset for mid-to-high handicaps."
+  - "Note: swing weight was not published and is omitted. year_discontinued is 2024, when PXG released the GEN7 irons on 7 August 2024; the GEN7 XP carries this chart over unchanged."
+related_models:
+  - slug: "pxg/0311-xp-gen5-irons"
+    label: "Predecessor: PXG 0311 XP GEN5"
+  - slug: "pxg/0311-xp-gen7-irons"
+    label: "Successor: PXG 0311 XP GEN7"
+  - slug: "pxg/0311-p-gen6-irons"
+    label: "Players-distance sibling: PXG 0311 P GEN6"
+faq:
+  - q: "What is the loft of a PXG 0311 XP GEN6 7-iron?"
+    a: "The PXG 0311 XP GEN6 7-iron has a loft of 27 degrees, a lie of 62.0 degrees and a length of 37.5 inches."
+  - q: "Did PXG 0311 XP specs change from GEN5 to GEN6?"
+    a: "The lofts, lies and lengths are identical, but the GEN6 chart adds about a hundredth of an inch of offset at every club and publishes 54-degree sand and 60-degree lob wedges that the GEN5 chart did not."
+  - q: "Was there a PXG 0311 T GEN6?"
+    a: "No. PXG launched GEN6 on 23 March 2023 with only the P and XP iron heads; the tour-iron slot was filled by the separate 0317 line."
+  - q: "What changed inside the PXG 0311 XP GEN6?"
+    a: "The HT1770 maraging steel face was thinned 15 per cent to 0.050 inches and Power Channel Technology, a U-shaped internal channel behind the face, was added — both on top of the XCOR2 polymer core carried over from GEN5."
+confidence: high

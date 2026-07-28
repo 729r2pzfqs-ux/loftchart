@@ -78,6 +78,8 @@ related_models:
     label: "Hollow-body sibling: Callaway Apex Pro (2024)"
   - slug: "callaway/apex-tcb-irons"
     label: "Predecessor: Callaway Apex TCB"
+  - slug: "callaway/x-forged-cb-2021-irons"
+    label: "Earlier tour cavity back: Callaway X Forged CB (2021)"
   - slug: "callaway/apex-21-irons"
     label: "Earlier Apex generation: Callaway Apex 21"
 faq:

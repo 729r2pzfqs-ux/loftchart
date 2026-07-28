@@ -102,6 +102,11 @@ stock_shafts:
 sources:
   - "Callaway Golf Pre-Owned official product specs page for 2014 Apex irons (callawaygolfpreowned.com, ProductSpecs-Get?productCode=irons-2014-apex) — primary source for loft, lie, length, offset, bounce, swingweight and stock shafts"
   - "GolfWRX 'Tech Talk: Callaway Apex irons' and Swing Yard Apex spec pages — corroborate lofts, lies, lengths and the forged 1025 body / 455 Carpenter steel face construction"
+related_models:
+  - slug: "callaway/apex-pro-2014-irons"
+    label: "Players companion of the same generation: Callaway Apex Pro (2014)"
+  - slug: "callaway/apex-cf16-irons"
+    label: "Successor: Callaway Apex CF16"
 faq:
   - q: "What is the loft of a Callaway Apex 7-iron?"
     a: "The 2014 Callaway Apex 7-iron has a loft of 31 degrees."

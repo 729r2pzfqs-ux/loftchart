@@ -94,8 +94,8 @@ sources:
 related_models:
   - slug: "taylormade/m2-irons"
     label: "Sibling: TaylorMade M2"
-  - slug: "taylormade/p770-irons"
-    label: "Successor: TaylorMade P770"
+  - slug: "taylormade/p770-2017-irons"
+    label: "Successor in the better-player slot: TaylorMade P770 (2017)"
 faq:
   - q: "What is the loft of a TaylorMade M1 7-iron?"
     a: "The TaylorMade M1 7-iron has a loft of 30.5 degrees, with a 62.5-degree lie and a 36.75-inch steel-shaft length."

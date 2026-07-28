@@ -8,7 +8,7 @@ year_discontinued: 1993
 category: game-improvement
 construction: investment cast
 material: 17-4 stainless steel
-successor: Ping Zing
+successor: Ping Eye 2 Plus
 predecessor: Ping Eye
 description: >
   The Eye 2 is the best-selling iron model in golf history and the club that
@@ -75,6 +75,8 @@ sources:
   - "Note: earlier revisions of this file carried 24.7 / 40.2 / 50.7 / 57.7 at the 4, 8, PW and SW on the grounds that they were 'the more widely reproduced' figures. Ping's own archived Classics chart lists 25.0 / 40.0 / 50.5 / 57.5, and equip2golf agrees; the manufacturer figures are used here. Ping notes on that chart that loft and lie are rounded to the nearest 0.5 degree, so the true unrounded values may sit slightly off these, but no published Ping source gives them."
   - "Note: Ping never officially published per-club offset or bounce figures for the Eye 2; those keys are deliberately omitted rather than sourced from secondary listings."
 related_models:
+  - slug: "ping/eye-2-plus-irons"
+    label: "Successor update: Ping Eye 2 Plus (April 1990)"
   - slug: "ping/isi-irons"
     label: "Later Ping game-improvement iron: Ping ISI"
 faq:

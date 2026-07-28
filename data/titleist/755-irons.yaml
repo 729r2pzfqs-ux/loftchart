@@ -1,0 +1,111 @@
+brand: Titleist
+brand_slug: titleist
+model: Forged 755
+slug: 755-irons
+club_type: irons
+year_introduced: 2006
+year_discontinued: 2008
+category: players
+construction: forged
+material: forged 410 stainless steel with a 6061 T-6 forged aluminum vibration insert
+successor: Titleist AP2
+predecessor: Titleist 704.CB
+description: >
+  The Forged 755 was announced on 14 August 2006 as a new flagship iron in
+  Titleist's 700 series, replacing the Forged 704.CB and slotting between the
+  735.CM combo set and the more forgiving 775.CB. The head is forged from soft
+  410 stainless steel in a multi-step patented process, with a red-and-silver
+  6061 T-6 forged aluminum insert in the cavity to damp vibration and a weight
+  shelf that moves mass into the heel and toe. A dual-hosel design uses a
+  shorter hosel in the 2-7 irons for higher launch and a longer hosel in the
+  8-PW for a flatter, controlled flight. Lofts are traditional — a 35-degree
+  7-iron and 47-degree pitching wedge — and the line gave way to the AP1 and
+  AP2 announced in January 2008. Figures are the men's standard right-handed
+  steel build.
+specs:
+  - club: "2"
+    loft: 19.0
+    lie: 59.0
+    length: 39.5
+    offset: 0.170
+    swing_weight: D2
+  - club: "3"
+    loft: 22.0
+    lie: 60.0
+    length: 39.0
+    offset: 0.160
+    bounce: 1.0
+    swing_weight: D2
+  - club: "4"
+    loft: 25.0
+    lie: 61.0
+    length: 38.5
+    offset: 0.145
+    bounce: 2.0
+    swing_weight: D2
+  - club: "5"
+    loft: 28.0
+    lie: 62.0
+    length: 38.0
+    offset: 0.130
+    bounce: 3.0
+    swing_weight: D2
+  - club: "6"
+    loft: 31.0
+    lie: 62.5
+    length: 37.5
+    offset: 0.120
+    bounce: 4.0
+    swing_weight: D2
+  - club: "7"
+    loft: 35.0
+    lie: 63.0
+    length: 37.0
+    offset: 0.110
+    bounce: 5.0
+    swing_weight: D2
+  - club: "8"
+    loft: 39.0
+    lie: 63.5
+    length: 36.5
+    offset: 0.105
+    bounce: 6.0
+    swing_weight: D2
+  - club: "9"
+    loft: 43.0
+    lie: 64.0
+    length: 36.0
+    offset: 0.100
+    bounce: 7.0
+    swing_weight: D2
+  - club: "PW"
+    loft: 47.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.095
+    bounce: 8.0
+    swing_weight: D2
+stock_shafts:
+  - name: "Titleist Tri-Spec"
+    material: steel
+    flex: ["R", "S"]
+sources:
+  - "2ndswing.com Titleist 755 Forged Iron Set specification table — loft, lie, length, offset (in inches) and D2 swing weight for the 2-iron through pitching wedge. The same table with per-club bounce (1-8 degrees from the 3-iron down; none listed for the 2-iron) is mirrored at qsponge.com."
+  - "thegolfwire.com 'Titleist Introduces 755 As New Flagship Iron Model' (14 August 2006 announcement) — shipping from 15 August 2006, forged 410 stainless construction with the 6061 T-6 aluminum insert, Tri-Spec stock shaft, 2-PW right- and left-hand availability, and the positioning replacing the Forged 704.CB between the 735.CM and 775.CB."
+  - "thesandtrap.com Titleist Forged 755 review (October 2006) — corroborates the multi-step forging, weight shelf, dual hosel lengths, Tri-Spec shaft character and the 5-10 handicap target. A retailer listing of a standard 6-iron corroborates the 37.5-inch length."
+  - "Dates: year_discontinued is 2008, when Titleist announced the AP1/AP2 (January 2008) that replaced the 755 in the line."
+related_models:
+  - slug: "titleist/ap2-2008-irons"
+    label: "Successor: Titleist AP2 (2008)"
+  - slug: "titleist/695-cb-irons"
+    label: "Contemporary blade-style Titleist: 695.CB"
+faq:
+  - q: "What is the loft of a Titleist Forged 755 7-iron?"
+    a: "The Forged 755 7-iron has a loft of 35 degrees, with a 63-degree lie and a 37-inch steel-shaft length."
+  - q: "Are the Titleist 755 irons forged?"
+    a: "Yes — from soft 410 stainless steel in a multi-step patented forging process, with a forged 6061 T-6 aluminum insert in the cavity acting as a vibration dampener."
+  - q: "What replaced the Titleist Forged 755?"
+    a: "Titleist's AP1 and AP2, announced in January 2008. The AP2 took over the 755's slot as the technology-infused forged players iron."
+  - q: "What shaft did the Titleist 755 come with?"
+    a: "The stock shaft was Titleist's Tri-Spec steel shaft in regular or stiff flex, a lightweight design that plays softer than a Dynamic Gold S300."
+confidence: medium

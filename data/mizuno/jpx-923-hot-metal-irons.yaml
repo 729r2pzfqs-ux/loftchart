@@ -96,6 +96,8 @@ sources:
   - "2ndswing.com Mizuno JPX 923 Hot Metal Iron Set specification table (independently corroborates loft/lie/length/offset)"
   - "todays-golfer.com Mizuno JPX923 Hot Metal, Hot Metal Pro and Hot Metal HL irons review (confirms the 28.5-degree 7-iron for Hot Metal and 31 degrees for the HL variant)"
 related_models:
+  - slug: "mizuno/jpx-923-hot-metal-pro-irons"
+    label: "Compact model of the same generation: Mizuno JPX-923 Hot Metal Pro"
   - slug: "mizuno/jpx-923-forged-irons"
     label: "Same generation, weaker lofts: Mizuno JPX-923 Forged"
   - slug: "mizuno/jpx-921-hot-metal-irons"

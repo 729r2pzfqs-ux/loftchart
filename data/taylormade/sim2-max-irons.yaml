@@ -102,6 +102,8 @@ sources:
 related_models:
   - slug: "taylormade/sim-max-irons"
     label: "Predecessor: TaylorMade SIM Max"
+  - slug: "taylormade/sim2-max-os-irons"
+    label: "Oversized sibling: TaylorMade SIM2 Max OS"
   - slug: "taylormade/stealth-irons"
     label: "Successor: TaylorMade Stealth"
 faq:

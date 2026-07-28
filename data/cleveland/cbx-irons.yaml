@@ -6,7 +6,7 @@ club_type: irons
 year_introduced: 2017
 year_discontinued: 2019
 category: game-improvement
-successor: null
+successor: Cleveland Launcher UHX
 predecessor: null
 description: >
   The CBX, sold as the Launcher CBX, is the cavity-back half of the Launcher iron
@@ -73,7 +73,10 @@ sources:
   - "2nd Swing Golf 'Cleveland Launcher CBX Iron Set' specification table (https://www.2ndswing.com/golf-clubs/iron-sets/cleveland-launcher-cbx-iron-set) — MODEL / LOFT / LENGTH / LIE ANGLE / OFFSET (MM) / STEEL SW / GRAPHITE SW for 4-iron through D wedge. This is the source of every number above. Offsets there are given in millimetres (4.2, 3.7, 3.7, 3.5, 3.1, 2.5, 2.1, 1.8) and are converted to inches here."
   - "Golfalot review of the Cleveland Launcher CBX irons (https://golfalot.com/equipment-review/cleveland-launcher-cbx-irons-review) — independently corroborates the 44-degree pitching wedge and the Launcher Face Cup being used in the 3 to 7 irons."
   - "HONEST SOURCING NOTE: confidence is medium because the numbers come from a retailer spec table rather than a Cleveland spec sheet. The archived clevelandgolf.com CBX irons page (2017-08-10 snapshot) is a marketing page and carries no spec table, and Golfalot publishes its spec chart as an image rather than text."
+  - "successor: the Launcher UHX, announced 16 September 2019 (Cleveland press release via Midwest Golfing Magazine), took over the Launcher game-improvement slot with the same 4-PW progressive formula, matching the 2019 year_discontinued recorded here."
 related_models:
+  - slug: "cleveland/launcher-uhx-irons"
+    label: "Successor: Cleveland Launcher UHX"
   - slug: "cleveland/launcher-hb-irons"
     label: "Hollow-body sibling: Cleveland Launcher HB"
   - slug: "cleveland/launcher-xl-irons"

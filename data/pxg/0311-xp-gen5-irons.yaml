@@ -71,6 +71,10 @@ sources:
   - "pluggedingolf.com 'PXG 0311 XP GEN5 Irons Review' and mygolfspy.com 'PXG 0311 GEN5 Irons' — the XP as the largest head of the GEN5 family, aimed at mid to high handicap players."
   - "Note: swing weight was not published in the source consulted and is omitted rather than estimated. PXG builds to order, so no single stock shaft is recorded."
 related_models:
+  - slug: "pxg/0311-xp-gen4-irons"
+    label: "Predecessor: PXG 0311 XP GEN4"
+  - slug: "pxg/0311-xp-gen6-irons"
+    label: "Successor: PXG 0311 XP GEN6"
   - slug: "pxg/0311-p-gen5-irons"
     label: "Players sibling: PXG 0311 P GEN5"
   - slug: "pxg/0311-t-gen5-irons"

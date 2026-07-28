@@ -73,6 +73,8 @@ sources:
 related_models:
   - slug: "pxg/0311-p-gen6-irons"
     label: "Predecessor: PXG 0311 P GEN6"
+  - slug: "pxg/0311-xp-gen7-irons"
+    label: "Game-improvement sibling: PXG 0311 XP GEN7"
   - slug: "pxg/0311-p-gen5-irons"
     label: "Same chart, two generations earlier: PXG 0311 P GEN5"
 faq:

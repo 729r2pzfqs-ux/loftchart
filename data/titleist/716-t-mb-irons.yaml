@@ -93,6 +93,8 @@ related_models:
     label: "Cavity-back sibling: Titleist 716 CB"
   - slug: "titleist/716-mb-irons"
     label: "Muscleback sibling: Titleist 716 MB"
+  - slug: "titleist/718-t-mb-irons"
+    label: "Successor: Titleist 718 T-MB"
 faq:
   - q: "What is the loft of a Titleist 716 T-MB 7-iron?"
     a: "The Titleist 716 T-MB 7-iron has a loft of 33 degrees, a lie of 63.0 degrees and a steel-shaft length of 37.00 inches — two degrees stronger than the 716 MB and CB."

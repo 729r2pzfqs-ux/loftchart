@@ -1,0 +1,128 @@
+brand: Ping
+brand_slug: ping
+model: i3+
+slug: i3-plus-irons
+club_type: irons
+year_introduced: 2002
+year_discontinued: 2005
+category: game-improvement
+construction: investment cast
+material: stainless steel
+successor: Ping i5
+predecessor: Ping i3 O-Size
+description: >
+  The i3+ is the 2002 update of the i3, sold in two head styles: the standard
+  i3+, the more forgiving perimeter-weighted model documented in the offset and
+  bounce figures below, and the smaller i3+ Blade with less offset and less
+  bounce. Both share the same loft, lie and length chart, which Ping published
+  unrounded — the 7-iron is 34.4 degrees rather than the i3's 34.5. The series
+  kept the Custom Tuning Port, enlarged for more perimeter weighting, added a
+  lowered lead edge for cleaner turf contact, and revised the notched, flat-top
+  hosel. On Ping's chart the i3+ Blade offsets run 0.26 inches at the 2-iron
+  down to 0.08 at the 9-iron, with iron bounce of 0 to 7 degrees against the
+  standard model's 6.75 to 12; the wedges share their specs across both models.
+  Ping's colour-code (dot) system sets lie angle relative to standard; the lies
+  below are the BLACK (standard) lies. The i3+ stayed in the line alongside the
+  G2 until the i5 arrived in 2005.
+specs:
+  - club: "2"
+    loft: 17.9
+    lie: 58.7
+    length: 39.25
+    offset: 0.32
+    bounce: 6.75
+  - club: "3"
+    loft: 20.7
+    lie: 59.4
+    length: 38.75
+    offset: 0.30
+    bounce: 7.5
+  - club: "4"
+    loft: 23.8
+    lie: 60.0
+    length: 38.25
+    offset: 0.30
+    bounce: 8.25
+  - club: "5"
+    loft: 27.0
+    lie: 60.8
+    length: 37.75
+    offset: 0.24
+    bounce: 9.0
+  - club: "6"
+    loft: 30.6
+    lie: 61.5
+    length: 37.25
+    offset: 0.22
+    bounce: 9.75
+  - club: "7"
+    loft: 34.4
+    lie: 62.3
+    length: 36.75
+    offset: 0.21
+    bounce: 10.5
+  - club: "8"
+    loft: 38.4
+    lie: 63.0
+    length: 36.25
+    offset: 0.20
+    bounce: 11.25
+  - club: "9"
+    loft: 42.7
+    lie: 63.8
+    length: 35.75
+    offset: 0.18
+    bounce: 12.0
+  - club: "PW"
+    loft: 47.2
+    lie: 64.4
+    length: 35.5
+    offset: 0.18
+    bounce: 12.0
+  - club: "UW"
+    loft: 52.0
+    lie: 64.7
+    length: 35.25
+    offset: 0.17
+    bounce: 13.38
+  - club: "SW"
+    loft: 56.0
+    lie: 64.7
+    length: 35.25
+    offset: 0.16
+    bounce: 14.75
+  - club: "LW"
+    loft: 60.0
+    lie: 65.2
+    length: 35.0
+    offset: 0.16
+    bounce: 14.75
+stock_shafts:
+  - name: "Ping CS Lite"
+    material: steel
+  - name: "Ping i3+ graphite"
+    material: graphite
+sources:
+  - "Ping's own archived 'i3+ and i3+ Blade Specifications' chart (http://web.archive.org/web/20030213174619/http://www.pinggolf.com:80/popups/i3plus_specs.html, also captured 2002-11-07 on ww1.pinggolf.com) — supplied every loft, lie, length, offset and bounce above, the i3+ Blade offset/bounce columns quoted in the description, and the notes that lie is based on the black colour code and offset is rounded to the nearest 1/100 inch"
+  - "Ping's archived i3+ Series product page (web.archive.org captures of pinggolf.com/products_irons_i3plus.html from October 2002 onward, later mirrored at ping.com) — the two-model line-up, the enlarged Custom Tuning Port, lead edge and notched/flat-top hosel descriptions, and the note that the Blade gained slightly more short-iron offset than the original i3 Blade"
+  - "equip2golf.com Ping i3+ specification page — dates the model to 2002 and lists the stock shafts as Ping CS Lite steel and Ping i3+ graphite (the only source found for the stock shafts); its whole-degree loft column is a rounded rendering of the Ping chart used here"
+  - "MyGolfSpy 'PING Irons: Model by Model' — the i3 launched the i-series in 2000 and the i3+ followed two years later, supporting the 2002 introduction"
+  - "Note: year_discontinued is taken as 2005, the year the successor i5 was introduced per ping/i5-irons.yaml; Ping's April 2004 site still listed the i3+ as a current model alongside the G2 and S59"
+  - "Note: swing weights were not published on Ping's chart and are omitted"
+related_models:
+  - slug: "ping/i3-o-size-irons"
+    label: "Predecessor: Ping i3 O-Size"
+  - slug: "ping/i5-irons"
+    label: "Successor: Ping i5"
+  - slug: "ping/g2-irons"
+    label: "Ping game-improvement iron of the same period: Ping G2"
+faq:
+  - q: "What is the loft of a Ping i3+ 7-iron?"
+    a: "The Ping i3+ 7-iron has a loft of 34.4 degrees, a standard (black dot) lie of 62.3 degrees and a steel-shaft length of 36.75 inches. Ping published the i3+ chart unrounded, so the figures sit a fraction off the i3's half-degree values."
+  - q: "What is the difference between the Ping i3+ and the i3+ Blade?"
+    a: "They share the same lofts, lies and lengths. The standard i3+ carries more offset (0.30 inches at the 3-iron against the Blade's 0.21) and more bounce (7.5 degrees at the 3-iron against 1), while the Blade's smaller head and reduced offset target better players. The wedge specs are identical across the two."
+  - q: "When were Ping i3+ irons made?"
+    a: "The i3+ was introduced in 2002 as the update of the 2000 i3 and remained in Ping's line until the i5 replaced it in 2005."
+  - q: "Are Ping i3+ lofts the same as the Ping i3?"
+    a: "Effectively yes — Ping published the i3+ chart unrounded, so the 34.5-degree i3 7-iron reads 34.4 on the i3+ chart, with the same lengths and near-identical lies throughout."
+confidence: high

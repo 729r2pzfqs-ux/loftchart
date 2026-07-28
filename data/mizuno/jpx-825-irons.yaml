@@ -8,7 +8,7 @@ year_discontinued: 2014
 category: game-improvement
 construction: investment cast
 material: stainless steel
-successor: JPX-900 Hot Metal
+successor: JPX-850
 predecessor: null
 description: >
   The JPX-825 was Mizuno's cast game-improvement iron for 2013 and 2014, sitting below the
@@ -70,8 +70,10 @@ sources:
   - "2ndSwing.com Mizuno JPX 825 Iron Set specification table (identical loft/lie/length figures plus the bounce column and the gap-wedge row)"
   - "Numbers come from retailer spec tables rather than an archived Mizuno spec sheet, and offset could not be corroborated, so it is omitted; confidence is medium."
 related_models:
-  - slug: "mizuno/jpx-900-hot-metal-irons"
-    label: "Successor in the cast JPX line: Mizuno JPX-900 Hot Metal"
+  - slug: "mizuno/jpx-850-irons"
+    label: "Successor in the cast JPX line: Mizuno JPX-850"
+  - slug: "mizuno/jpx-825-pro-irons"
+    label: "Forged model of the same family: Mizuno JPX-825 Pro"
   - slug: "mizuno/jpx-850-forged-irons"
     label: "Forged JPX iron of the same era: Mizuno JPX-850 Forged"
 faq:

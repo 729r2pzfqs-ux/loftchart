@@ -9,7 +9,7 @@ category: game-improvement
 construction: cast with an undercut cavity and variable face thickness
 material: cast stainless steel
 successor: null
-predecessor: null
+predecessor: Callaway X-24 Hot
 description: >
   RAZR X was the mainstream game-improvement iron in the range Callaway announced in
   January 2011 alongside the RAZR X Tour and the forged RAZR X. It pairs an
@@ -94,8 +94,10 @@ sources:
   - "prnewswire.com 'Callaway Golf Introduces New RAZR X Line of Irons', 20 January 2011 — the RAZR X, RAZR X Tour and RAZR X Forged were announced on that date with retail availability from 18 February 2011. Some listings date the line to 2010 because it was shown to trade late that year; the January 2011 press release is the announcement used here."
   - "Note: offset is omitted — the source table did not carry an offset column. Confidence is medium."
 related_models:
+  - slug: "callaway/x-24-hot-irons"
+    label: "Predecessor: Callaway X-24 Hot"
   - slug: "callaway/x-22-irons"
-    label: "Callaway's previous game-improvement iron: Callaway X-22"
+    label: "Earlier X-Series game-improvement iron: Callaway X-22"
   - slug: "callaway/x-hot-irons"
     label: "Callaway's next distance iron: Callaway X Hot"
 faq:

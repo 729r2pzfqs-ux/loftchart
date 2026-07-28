@@ -97,6 +97,8 @@ sources:
 related_models:
   - slug: "srixon/z-565-irons"
     label: "Distance model in the same line: Srixon Z 565"
+  - slug: "srixon/z-965-irons"
+    label: "Blade in the same line: Srixon Z 965"
   - slug: "srixon/z-785-irons"
     label: "Successor: Srixon Z 785"
 faq:

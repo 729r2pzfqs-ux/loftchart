@@ -8,7 +8,7 @@ year_discontinued: 2021
 category: players-distance
 construction: forged face with hollow-body, Max Impact internal support
 material: forged SUP-10 face with high-density tungsten perimeter weighting
-successor: Titleist T200 (2023)
+successor: Titleist T200 (2021)
 predecessor: Titleist 718 AP3
 description: >
   The T200 is the players-distance iron of Titleist's original 2019 T-Series,
@@ -71,6 +71,8 @@ sources:
 related_models:
   - slug: "titleist/t100-irons"
     label: "Players model: Titleist T100"
+  - slug: "titleist/t200-2021-irons"
+    label: "Successor: Titleist T200 (2021)"
 faq:
   - q: "What is the loft of a Titleist T200 7-iron?"
     a: "The 2019 Titleist T200 7-iron is 30 degrees, with a 63 degree lie and a 37 inch standard steel length."

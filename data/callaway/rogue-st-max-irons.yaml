@@ -91,6 +91,11 @@ sources:
   - "A third site (golfhubz.com) publishes a materially different table for this model, with different lofts in the 5, 6, 8 and 9 irons and uniform arithmetic steps in lie and length. It is contradicted by both sources above and has not been used."
   - "Offset ladder added from the Callaway Demandware ProductSpecs feed (ProductSpecs-Get), the manufacturer-authored source behind the View Specs panel; Callaway publishes these in millimetres and the inch figures here are converted"
   - "Note on year_discontinued: recorded as 2023, the year the successor was announced — the Paradym family was announced in January 2023. This database dates a model's end to the announcement of its replacement, not to the last day it was sold, so sets remained on shop floors after this date."
+related_models:
+  - slug: "callaway/rogue-st-max-os-irons"
+    label: "Oversized model of the same family: Callaway Rogue ST Max OS"
+  - slug: "callaway/rogue-st-pro-irons"
+    label: "Compact model of the same family: Callaway Rogue ST Pro"
 faq:
   - q: "What is the loft of a Callaway Rogue ST Max 7-iron?"
     a: "The Callaway Rogue ST Max 7-iron has a loft of 27.5 degrees, with a 62.5 degree lie and a 37 inch standard steel length."

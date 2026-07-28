@@ -1,0 +1,105 @@
+brand: Srixon
+brand_slug: srixon
+model: Z 965
+slug: z-965-irons
+club_type: irons
+year_introduced: 2016
+year_discontinued: 2019
+category: blade
+construction: forged
+material: forged 1020 carbon steel with a special heat treatment
+successor: Srixon Z-Forged
+predecessor: Srixon Z 945
+description: >
+  The Z 965 is the compact muscle back blade at the top of Srixon's 2016
+  three-model Z Series iron line, above the Z 765 muscle cavity and Z 565 cavity
+  back. Srixon describes it as ultra-soft 1020 carbon steel combined with a new
+  special heat treatment and precision forged, with the revised Tour V.T. sole
+  and grooves five percent larger than the previous Z 945 generation; the longer
+  irons carry a tungsten toe weight. Lofts are traditional — a 33-degree 7-iron
+  and 46-degree pitching wedge — and sit one to three degrees weaker than the
+  Z 765 through the middle of the set. The stock range is 3-iron through pitching
+  wedge, right hand only and steel only. Srixon published this model's offset
+  figures directly in inches, so no unit conversion was applied. The Tour V.T.
+  sole is listed with separate leading- and trailing-edge bounce figures rather
+  than a single bounce number, so bounce is omitted here. The line was revealed
+  in August 2016 and reached retail on 16 September 2016, so it is often
+  catalogued as a 2017 model.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 60.0
+    length: 39.0
+    offset: 0.136
+    swing_weight: D3
+  - club: "4"
+    loft: 23.0
+    lie: 60.5
+    length: 38.5
+    offset: 0.124
+    swing_weight: D3
+  - club: "5"
+    loft: 26.0
+    lie: 61.0
+    length: 38.0
+    offset: 0.116
+    swing_weight: D3
+  - club: "6"
+    loft: 29.0
+    lie: 61.5
+    length: 37.5
+    offset: 0.108
+    swing_weight: D3
+  - club: "7"
+    loft: 33.0
+    lie: 62.0
+    length: 37.0
+    offset: 0.096
+    swing_weight: D3
+  - club: "8"
+    loft: 37.0
+    lie: 62.5
+    length: 36.5
+    offset: 0.089
+    swing_weight: D3
+  - club: "9"
+    loft: 41.0
+    lie: 63.0
+    length: 36.0
+    offset: 0.077
+    swing_weight: D3
+  - club: "PW"
+    loft: 46.0
+    lie: 63.5
+    length: 35.5
+    offset: 0.065
+    swing_weight: D3
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+    weight: "132g (X100), 130g (S300)"
+    flex: ["S300", "X100"]
+sources:
+  - "Srixon official Z 965 irons product page (srixon.com/en/clubs/mens-golf-clubs/irons/z-965-irons/MZ965-EA.html), archived 2017-11-19 via web.archive.org (http://web.archive.org/web/20171119185955/http://www.srixon.com/en/clubs/mens-golf-clubs/irons/z-965-irons/MZ965-EA.html) — full specification table (club, loft, length, lie angle, leading- and trailing-edge bounce, offset in inches, swing weight, 3-iron through PW) and the note 'Available in Right Hand Only'"
+  - "Same archived Srixon page, technology copy: 'Combining ultra-soft 1020 carbon steel head material with a new special heat treatment, new Z 965 irons are precision forged', the modified Tour V.T. Sole and '5 percent larger grooves compared to the previous generation and Double Laser Milling'"
+  - "Same archived Srixon page, stock shaft table: True Temper Dynamic Gold steel (X100 132g / S300 130g), sold in S and X, with a Golf Pride Tour Velvet 360 52g grip; ordering options were 3-PW, 4-PW or 5-PW sets and individual irons"
+  - "Golfalot 'Srixon Z 965, Z 765, Z 565 Irons Review' — the Z 965 is the blade of the range aimed at single-figure players, with a tungsten toe weight in the 3- to 6-irons and a narrower sole than the Z 945 it replaced"
+  - "MyGolfWay Srixon Z 65 Series launch report (line revealed 17 August 2016, on sale from September 2016) and MyGolfSpy 'First Look: Srixon's 2017 driver & iron lineup' / Golfshake launch coverage giving the 16 September 2016 retail date. year_introduced uses the announcement year per the repository convention, which is why it reads 2016 rather than the 2017 model year the club is often listed under"
+  - "MyGolfSpy 'First Look: Srixon Z-Forged Irons' and Golf Digest coverage — the Z-Forged blade announced in January 2019 (retail 1 February 2019) replaced the Z 965 after the Z 585/785 launch had left the blade slot open, which is the year_discontinued recorded here"
+related_models:
+  - slug: "srixon/z-945-irons"
+    label: "Predecessor: Srixon Z 945"
+  - slug: "srixon/z-765-irons"
+    label: "Players model in the same line: Srixon Z 765"
+  - slug: "srixon/z-565-irons"
+    label: "Distance model in the same line: Srixon Z 565"
+faq:
+  - q: "What is the loft of a Srixon Z 965 7-iron?"
+    a: "The Srixon Z 965 7-iron has a loft of 33 degrees, with a 62-degree lie and a 37-inch steel-shaft length."
+  - q: "What clubs come in a stock Srixon Z 965 set?"
+    a: "The range is 3-iron through pitching wedge, sold as 3-PW, 4-PW or 5-PW sets or as individual irons, in right hand only with steel shafts only."
+  - q: "What is the difference between the Srixon Z 965 and Z 765?"
+    a: "The Z 965 is the compact muscle back blade with the least offset in the line (0.096 inches at the 7-iron) and slightly weaker lofts — its 7-iron is 33 degrees against the Z 765's 32. The Z 765 is the larger muscle-cavity players model."
+  - q: "What replaced the Srixon Z 965?"
+    a: "Srixon's Z-Forged blade, announced in January 2019, took over the muscleback slot after the Z 585 and Z 785 replaced the Z 565 and Z 765 in 2018."
+confidence: high

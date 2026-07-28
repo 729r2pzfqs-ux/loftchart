@@ -97,6 +97,9 @@ sources:
   - "Golf.com and MyGolfSpy Rogue iron coverage (February 2018 release) — True Temper XP 95 steel and Aldila Synergy 60 graphite stock shafts"
   - "Offset ladder added from the Callaway Demandware ProductSpecs feed (ProductSpecs-Get), the manufacturer-authored source behind the View Specs panel, published natively in decimal inches"
   - "Note on year_discontinued: recorded as 2020, the year the successor was announced — the Mavrik family was announced in January 2020. This database dates a model's end to the announcement of its replacement, not to the last day it was sold, so sets remained on shop floors after this date."
+related_models:
+  - slug: "callaway/rogue-x-irons"
+    label: "Distance model of the same family: Callaway Rogue X"
 faq:
   - q: "What is the loft of a Callaway Rogue 7-iron?"
     a: "The Callaway Rogue 7-iron has a loft of 30 degrees, with a 62.5 degree lie and a 37 inch standard steel length."

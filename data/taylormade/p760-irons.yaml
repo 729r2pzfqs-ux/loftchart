@@ -8,8 +8,8 @@ year_discontinued: 2020
 category: players
 construction: forged multi-material, hollow in the long irons
 material: forged 1025 carbon steel with a 4140 face in the long irons and tungsten weighting
-successor: null
-predecessor: null
+successor: TaylorMade P770 (2020)
+predecessor: TaylorMade P770 (2017)
 description: >
   The P760 is a progressive set: the 3 to 7 irons are hollow-bodied with a thin
   4140 face and internal SpeedFoam, while the 8-iron through wedges are solid
@@ -79,11 +79,14 @@ stock_shafts:
 sources:
   - "2ndswing.com TaylorMade P760 Iron Set specification table — loft, lie, length, offset (in millimetres) and swing weight for the 3-iron through approach wedge, the 4-PW stock make-up, the Dynamic Gold 120 stock shaft and the Golf Pride Tour Velvet 360 grip. Offset is converted to inches here."
   - "Note: bounce was not published in the source consulted and is omitted rather than estimated."
+  - "Succession: TaylorMade announced the P760 on 15 October 2018 (newsroom.taylormadegolf.com press release), replacing both the original P770 and the P750 Tour Proto in the players line; the 2020 P770 then took over this slot in August 2020, which sets year_discontinued and both chain fields."
 related_models:
+  - slug: "taylormade/p770-2017-irons"
+    label: "Predecessor: TaylorMade P770 (2017)"
   - slug: "taylormade/p790-2017-irons"
     label: "Distance sibling: TaylorMade P790 (2017)"
   - slug: "taylormade/p770-irons"
-    label: "Later players hollow body: TaylorMade P770"
+    label: "Successor: TaylorMade P770 (2020)"
   - slug: "taylormade/p7mc-irons"
     label: "Forged cavity back: TaylorMade P7MC"
 faq:
