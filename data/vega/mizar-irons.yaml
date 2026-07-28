@@ -1,0 +1,64 @@
+brand: Vega
+brand_slug: vega
+model: Mizar
+slug: mizar-irons
+club_type: irons
+year_introduced: 2017
+year_discontinued: 2023
+category: players
+construction: forged one-piece body with constant-thickness maraging face and progressive tungsten weighting
+material: S25C carbon steel body, 3.5 mm maraging steel face
+successor: Vega Mizar (2023)
+predecessor: null
+description: >
+  The original Mizar headed Vega's Star Range and was the most powerful iron
+  in the Japanese forging house's line - a one-piece forged S25C body carrying
+  a constant-thickness 3.5 mm maraging face and a tungsten slug that moves
+  progressively from heel (long irons) to toe (short irons) to lower the
+  centre of gravity and help square the face. It was on sale by early 2018 and
+  ran until the second-generation Mizar arrived in 2023; MyGolfSpy's launch
+  coverage of the replacement put the original's run at six years, which dates
+  the debut to 2017. Vega builds every set to order through fitters and
+  publishes loft, lie, face progression and head weight but no standard
+  lengths or offsets, so those keys are omitted. The stock set runs 4-iron to
+  attack wedge with a 30-degree 7-iron and 42-degree pitching wedge.
+specs:
+  - club: "4"
+    loft: 20.0
+    lie: 60.0
+  - club: "5"
+    loft: 23.0
+    lie: 60.5
+  - club: "6"
+    loft: 26.0
+    lie: 61.0
+  - club: "7"
+    loft: 30.0
+    lie: 61.5
+  - club: "8"
+    loft: 34.0
+    lie: 62.0
+  - club: "9"
+    loft: 38.0
+    lie: 62.5
+  - club: "PW"
+    loft: 42.0
+    lie: 63.0
+  - club: "AW"
+    loft: 46.0
+    lie: 63.0
+sources:
+  - "Wayback Machine snapshot of na.vega-golf.com/mizar-irons.html (Vega Golf North America, archived 19 March 2018) — manufacturer spec table: lofts 20/23/26/30/34/38/42/46 for 4-A, lies 60-63, face progression 3-5 mm, head weights 251-300 g, forged one-piece body, progressive tungsten weighting, 'available in 4-A in right hand'. Vega publishes face progression rather than offset and no standard lengths, so those keys are omitted"
+  - "Model years: the earliest archived manufacturer spec page is March 2018, and MyGolfSpy's 'VEGA Reaches for the Stars with Mizar Irons' (9 November 2023), covering the second-generation Mizar, describes the original award-winning Mizar as having been in the line for six years — together dating the debut to 2017 and the replacement to 2023"
+  - "vega-golf.com Mizar product page (archived September 2023) — confirms the new version succeeded the original with the same S25C one-piece forged body and 3.5 mm maraging face"
+related_models:
+  - slug: "vega/mizar-tour-irons"
+    label: "Multi-material sibling: Vega Mizar Tour"
+faq:
+  - q: "What is the loft of a Vega Mizar 7-iron?"
+    a: "The original Vega Mizar 7-iron has a loft of 30 degrees and a 61.5-degree lie."
+  - q: "Who makes Vega Mizar irons?"
+    a: "Vega grew out of the Kyoei forging house in Ichikawa, Japan, and its heads are forged in Japan. The brand has been owned by Professional Golf Europe (2011) and Elite Sports Brands (2024), with every set built to order."
+  - q: "What length is a standard Vega Mizar iron?"
+    a: "Vega does not publish standard lengths - every set is built to a fitting through its stockists - so no length column is listed here. Loft, lie, face progression and head weight are the manufacturer's published head specs."
+confidence: high

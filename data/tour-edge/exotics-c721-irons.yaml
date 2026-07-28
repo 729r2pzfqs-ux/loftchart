@@ -1,0 +1,90 @@
+brand: Tour Edge
+brand_slug: tour-edge
+model: Exotics C721
+slug: exotics-c721-irons
+club_type: irons
+year_introduced: 2021
+year_discontinued: 2022
+category: players-distance
+construction: hollow body with a military-grade maraging steel L-cup face and dual VIBRCOR fill
+material: maraging steel face on a stainless hollow body
+successor: Tour Edge Exotics C722
+predecessor: Tour Edge Exotics EXS 220
+description: >
+  The Exotics C721 is the Competition Spec iron of Tour Edge's premium
+  Exotics 721 series, announced in January 2021 with retail from
+  1 February 2021. It is a hollow-body players-distance iron: a
+  military-grade maraging steel L-cup face wraps into the sole for rebound,
+  Diamond Face 2.0 variable-thickness geometry works behind it, and the
+  hollow chamber is filled with Dual VIBRCOR TPU for feel — the technology's
+  Hot Launch debut came only later. The competition shape carries a thinner
+  top line than the E721, with mid-strong lofts around a 30-degree 7-iron.
+  Tour Edge fitted stock shafts by swing speed: KBS TGI Tour graphite for
+  slower swings, Project X HZRDUS Smoke Black RDX 80 graphite or True Temper
+  Elevate 95 steel for faster ones. Sold right-handed with a Lamkin
+  Crossline 360 grip.
+specs:
+  - club: "3"
+    loft: 19.0
+    lie: 61.0
+    length: 39.25
+  - club: "4"
+    loft: 21.0
+    lie: 61.0
+    length: 38.75
+  - club: "5"
+    loft: 23.0
+    lie: 61.5
+    length: 38.25
+  - club: "6"
+    loft: 26.5
+    lie: 62.0
+    length: 37.75
+  - club: "7"
+    loft: 30.0
+    lie: 62.5
+    length: 37.25
+  - club: "8"
+    loft: 34.0
+    lie: 63.0
+    length: 36.75
+  - club: "9"
+    loft: 39.0
+    lie: 63.5
+    length: 36.25
+  - club: "PW"
+    loft: 44.0
+    lie: 64.0
+    length: 35.75
+  - club: "AW"
+    loft: 49.0
+    lie: 64.0
+    length: 35.5
+stock_shafts:
+  - name: "KBS TGI Tour"
+    material: graphite
+  - name: "Project X HZRDUS Smoke Black RDX 80"
+    material: graphite
+    flex: ["R", "S", "X"]
+  - name: "True Temper Elevate 95"
+    material: steel
+    flex: ["R"]
+sources:
+  - "touredge.com/c721irons official product page, archive.org snapshot of 4 March 2021 — the manufacturer specification chart image (c721ironspecs.png on Tour Edge's Wix CDN, read directly) giving loft, lie and shaft length for the #3 iron through AW, plus the swing-speed-based stock shaft matrix (KBS TGI Tour graphite 50/60/70/80 for 85mph and below, HZRDUS Smoke Black RDX 80 5.5 or True Temper Elevate 95 R for 85-95mph, HZRDUS Smoke Black RDX 80 6.0/6.5 above 95mph), the Lamkin Crossline 360 Gray grip and right-hand availability."
+  - "The maraging steel L-cup face, Diamond Face 2.0, Dual VIBRCOR fill, hollow-body construction and thinner-top-line competition shape are taken from the same official page's technology sections."
+  - "Exotics 721 series launch coverage of January 2021 — the 1 February 2021 retail date and series positioning. Tour Edge does not publish offset, bounce or swing weight for this model, so those keys are omitted."
+related_models:
+  - slug: "tour-edge/exotics-c722-irons"
+    label: "Successor: Tour Edge Exotics C722"
+  - slug: "tour-edge/exotics-e721-irons"
+    label: "Game-improvement sibling: Tour Edge Exotics E721"
+faq:
+  - q: "What is the loft of a Tour Edge Exotics C721 7-iron?"
+    a: "The Exotics C721 7-iron has a loft of 30 degrees, a lie of 62.5 degrees and a length of 37.25 inches."
+  - q: "What is the difference between the Exotics C721 and E721?"
+    a: "The C721 is the hollow-body Competition Spec players-distance iron with a thinner top line and milder lofts (30-degree 7-iron); the E721 is the Extreme Spec game-improvement model built as a 360-degree undercut cavity back with stronger power lofts (27.5-degree 7-iron) and more toe weighting."
+  - q: "What shafts did the Exotics C721 irons come with?"
+    a: "Tour Edge specified stock shafts by swing speed: KBS TGI Tour graphite for swings of 85mph and below, and either the Project X HZRDUS Smoke Black RDX 80 graphite or True Temper Elevate 95 steel above that."
+  - q: "What is the Exotics C721 face made of?"
+    a: "A military-grade maraging steel L-cup face that wraps into the sole, combined with Diamond Face 2.0 variable-thickness geometry behind it, over a hollow body filled with Dual VIBRCOR TPU."
+confidence: high

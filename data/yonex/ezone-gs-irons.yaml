@@ -1,0 +1,84 @@
+brand: Yonex
+brand_slug: yonex
+model: EZONE GS
+slug: ezone-gs-irons
+club_type: irons
+year_introduced: 2021
+year_discontinued: 2023
+category: game-improvement
+construction: four-piece graphite-hybrid (cast body, maraging face, tungsten plate, graphite insert)
+material: 8620 mild carbon steel body, AM355 maraging steel face, tungsten and graphite inserts
+successor: Yonex EZONE GS i-Tech
+predecessor: null
+description: >
+  The EZONE GS was Yonex's game-improvement iron for international markets,
+  on sale from 2021 until the EZONE GS i-Tech replaced it in 2023. The
+  four-piece "graphite-hybrid" head combines a cast 8620 mild carbon steel
+  body, an AM355 maraging steel face, a tungsten plate low in the head and a
+  carbon graphite insert that Yonex - the Niigata carbon specialist - uses as
+  a damper between the metals. Lofts are moderately strong with a 29-degree
+  7-iron and 43-degree pitching wedge, and the set runs 5-iron to sand wedge.
+  Stock builds used Yonex's EX-330 graphite shaft with Nippon N.S.Pro 950GH
+  steel as the custom option; the specs below are the UK retail chart for the
+  stock build, and Yonex published no offset figures, so that key is omitted.
+specs:
+  - club: "5"
+    loft: 23.0
+    lie: 61.5
+    length: 38.25
+    swing_weight: D2
+  - club: "6"
+    loft: 26.0
+    lie: 62.0
+    length: 37.75
+    swing_weight: D2
+  - club: "7"
+    loft: 29.0
+    lie: 62.5
+    length: 37.25
+    swing_weight: D2
+  - club: "8"
+    loft: 33.0
+    lie: 63.0
+    length: 36.75
+    swing_weight: D2
+  - club: "9"
+    loft: 38.0
+    lie: 63.5
+    length: 36.25
+    swing_weight: D2
+  - club: "PW"
+    loft: 43.0
+    lie: 64.0
+    length: 35.75
+    swing_weight: D2
+  - club: "AW"
+    loft: 48.0
+    lie: 64.0
+    length: 35.5
+    swing_weight: D3
+  - club: "SW"
+    loft: 54.0
+    lie: 64.0
+    length: 35.25
+    swing_weight: D4
+stock_shafts:
+  - name: "Yonex EX-330 graphite"
+    material: graphite
+    flex: ["SL", "R", "S"]
+  - name: "Nippon N.S.Pro 950GH"
+    material: steel
+    weight: "94.5-98g"
+    flex: ["R", "S"]
+sources:
+  - "jamgolf.com Yonex EZONE GS irons listing (UK retailer) — full spec chart used here: lofts 23/26/29/33/38/43/48/54, lies 61.5-64, lengths 38.25 to 35.25 inches, swing weights D2-D4, 8620 mild carbon steel body and AM355 maraging face, EX-330 stock graphite. Retailer chart rather than a manufacturer table, hence the medium confidence"
+  - "golfmonthly.com EZONE GS iron review (updated July 2022) — corroborates the 29° 7-iron, the four-piece graphite-hybrid construction with tungsten plate and graphite damper, the game-improvement positioning and the N.S.Pro 950GH steel option; the model was on UK sale from 2021"
+  - "golfmonthly.com EZONE GS i-Tech review (2023) — dates the successor used for year_discontinued"
+faq:
+  - q: "What is the loft of a Yonex EZONE GS 7-iron?"
+    a: "The Yonex EZONE GS 7-iron has a loft of 29 degrees, with a 62.5-degree lie and a 37.25-inch stock length."
+  - q: "What is the graphite insert in the EZONE GS for?"
+    a: "Yonex sandwiches a carbon graphite insert between the maraging face and the steel body to damp vibration - the company is first a carbon-fibre specialist, and uses the insert to soften feel in an otherwise fast, cast head."
+  - q: "Who is the Yonex EZONE GS for?"
+    a: "It is a game-improvement iron for mid-to-high handicaps, pairing a 29-degree 7-iron with a lightweight stock graphite shaft and high launch."
+confidence: medium

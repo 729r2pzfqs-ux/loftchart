@@ -1,0 +1,72 @@
+brand: Proto-Concept
+brand_slug: proto-concept
+model: C05
+slug: c05-irons
+club_type: irons
+year_introduced: 2020
+year_discontinued: 2024
+category: players-distance
+construction: pocket cavity (forged SAE8655 face welded to S25C body)
+material: SAE8655 chromium-molybdenum steel face, S25C carbon steel body
+successor: Proto-Concept C05TP
+predecessor: null
+description: >
+  The C05 was the tour pocket cavity in PROTOCONCEPT's original C-series,
+  released in 2020 as part of the first iron range from the brand the Endo
+  forging house and the Golf Partner retail group established in 2019. A
+  forged SAE8655 chromium-molybdenum face varying between 2.4 and 2.7 mm in
+  thickness is welded to an S25C carbon steel body over a milled pocket
+  cavity, trading blade purity for ball speed while sharing the C01's loft
+  ladder - a 32-degree 7-iron and 45-degree pitching wedge - so the two blend
+  into combo sets. Heads are sold component-style, 5-PW, assembled to order in
+  Japan or the USA; Patty Tavatanakit and Lydia Ko helped put the brand on the
+  international map. Lengths below are the manufacturer's recommended steel
+  assembly lengths; PROTOCONCEPT publishes face progression rather than
+  offset, so that key is omitted. The C05TP superseded it in 2024.
+specs:
+  - club: "5"
+    loft: 25.0
+    lie: 61.0
+    length: 38.25
+    bounce: 3.0
+  - club: "6"
+    loft: 28.0
+    lie: 61.5
+    length: 37.75
+    bounce: 4.0
+  - club: "7"
+    loft: 32.0
+    lie: 62.0
+    length: 37.25
+    bounce: 5.0
+  - club: "8"
+    loft: 36.0
+    lie: 62.5
+    length: 36.75
+    bounce: 6.0
+  - club: "9"
+    loft: 40.0
+    lie: 63.0
+    length: 36.25
+    bounce: 7.0
+  - club: "PW"
+    loft: 45.0
+    lie: 63.5
+    length: 35.75
+    bounce: 8.0
+sources:
+  - "protoconceptgolf.com C05 product page (archived 29 November 2022) — manufacturer spec table used here: lofts 25/28/32/36/40/45, lies 61-63.5, bounce 3-8, FP 3.8-4.8 mm, SAE8655 nickel-chrome-plated face on S25C body, plus recommended-assembly steel lengths 38.25 to 35.75 inches (common to all listed steel shafts)"
+  - "shop.torquegolf.com Proto Concept C05 listing — independent corroboration of the full loft/lie/bounce/FP chart and the pocket-cavity construction"
+  - "mygolfspy.jp 'Know Your Japanese Brands' (September 2021) — C05 and C07 on the Japanese market from 2020, face thickness varying 2.4-2.7 mm, brand established 2019 by Endo and Golf Partner"
+  - "protoconceptgolf.com press release announcing the C05TP (2024) — dates the successor used for year_discontinued"
+related_models:
+  - slug: "proto-concept/c01-irons"
+    label: "Muscle-back sibling: Proto-Concept C01"
+faq:
+  - q: "What is the loft of a Proto-Concept C05 7-iron?"
+    a: "The Proto-Concept C05 7-iron has a loft of 32 degrees, with a 62-degree lie and a 37.25-inch recommended steel length."
+  - q: "Is the Proto-Concept C05 forged?"
+    a: "The body is forged S25C carbon steel and the face is a separately forged SAE8655 chromium-molybdenum plate, 2.4 to 2.7 mm thick, welded over a milled pocket cavity."
+  - q: "Can the C05 be combined with other Proto-Concept irons?"
+    a: "Yes. The original C01, C03, C05 and C07 share the same loft ladder club-for-club, and PROTOCONCEPT designed them to be blended into combo sets."
+confidence: high

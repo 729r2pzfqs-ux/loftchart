@@ -1,0 +1,93 @@
+brand: Tour Edge
+brand_slug: tour-edge
+model: Hot Launch X525
+slug: hot-launch-x525-irons
+club_type: irons
+year_introduced: 2025
+year_discontinued: 2026
+category: super-game-improvement
+construction: hollow-body iron-wood with perimeter weighting, Houdini Sole and an ultra-shallow face
+material: stainless steel hollow body
+successor: Tour Edge Hot Launch Max D
+predecessor: Tour Edge Hot Launch E524
+description: >
+  The Hot Launch X525 Ironwood is the hollow-body model of Tour Edge's 2025
+  Hot Launch 525 Series, announced on 18 February 2025 with retail from
+  1 March 2025. The generation renamed both ranges: the old E-range
+  iron-wood concept became the X525 — Tour Edge's own comparison chart
+  labels it the Super Game Improvement iron against the E525 cavity back's
+  Game Improvement — so the X525 succeeds the E524 despite the different
+  letter. The recipe is the familiar one: hollow-body perimeter weighting
+  for metalwood-style ball speed, an anti-slice offset design, the patented
+  Houdini Sole with its curved leading edge, and an ultra-shallow face for
+  easy height. Unusually for the line, Tour Edge published offset for this
+  chart, tapering from 4.5mm in the long irons to 1.5mm at the AW. Stock
+  shafts are the UST Mamiya Helium Black graphite (59-64 grams) and True
+  Temper Elevate MPH 95 steel, in right and left hand.
+specs:
+  - club: "4"
+    loft: 20.0
+    lie: 60.0
+    length: 38.75
+    offset: 0.177
+  - club: "5"
+    loft: 23.0
+    lie: 60.5
+    length: 38.25
+    offset: 0.177
+  - club: "6"
+    loft: 26.0
+    lie: 61.0
+    length: 37.75
+    offset: 0.177
+  - club: "7"
+    loft: 29.0
+    lie: 62.0
+    length: 37.25
+    offset: 0.098
+  - club: "8"
+    loft: 33.0
+    lie: 63.0
+    length: 36.75
+    offset: 0.098
+  - club: "9"
+    loft: 38.0
+    lie: 63.5
+    length: 36.25
+    offset: 0.098
+  - club: "PW"
+    loft: 43.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.079
+  - club: "AW"
+    loft: 48.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.059
+stock_shafts:
+  - name: "UST Mamiya Helium Black"
+    material: graphite
+    flex: ["A", "R", "S"]
+  - name: "True Temper Elevate MPH 95"
+    material: steel
+sources:
+  - "touredge.com/products/hot-launch-x525-ironwoods official product page, archive.org snapshot of 15 March 2025 — the manufacturer specifications table giving loft, lie angle, offset and length for the #4 iron through AW (offsets published in millimetres: 4.5mm for #4-#6, 2.5mm for #7-#9, 2mm PW, 1.5mm AW; converted to inches above), right- and left-hand availability for every club, the UST Mamiya Helium Black (50A 59g / 55R 61g / 60S 64g) and True Temper Elevate MPH 95 stock shafts, and the comparison chart labelling the X525 'Super Game Improvement' with a 29-degree 7-iron against the E525's 'Game Improvement' 27.5."
+  - "The hollow-body perimeter weighting, anti-slice offset design, Houdini Sole and ultra-shallow face descriptions are taken from the same official page's technology sections."
+  - "firstcallgolf.com 'Tour Edge introduces Hot Launch Max irons and wedges' (dateline 2026-02-26) and mygolfspy.com Hot Launch Max D coverage — the Hot Launch Max series announced 10 February 2026, with the Max D ironwood as the X525's replacement; basis for year_discontinued 2026."
+  - "Bounce and swing weight are not published for this model, so those keys are omitted."
+related_models:
+  - slug: "tour-edge/hot-launch-e524-irons"
+    label: "Predecessor iron-wood: Tour Edge Hot Launch E524"
+  - slug: "tour-edge/hot-launch-c524-irons"
+    label: "Previous generation's cavity back: Tour Edge Hot Launch C524"
+faq:
+  - q: "What is the loft of a Tour Edge Hot Launch X525 7-iron?"
+    a: "The Hot Launch X525 7-iron has a loft of 29 degrees, a lie of 62.0 degrees, 2.5mm of offset and a length of 37.25 inches."
+  - q: "Is the Hot Launch X525 a game-improvement or super-game-improvement iron?"
+    a: "Tour Edge's own comparison chart labels the X525 Ironwood 'Super Game Improvement' — the hollow-body successor to the E-series iron-woods — while the E525 cavity back took over the standard game-improvement slot in the 525 generation."
+  - q: "Why did Tour Edge's iron-wood change from an E name to X525?"
+    a: "The 2025 Hot Launch 525 Series dropped the old C/E naming: the traditional cavity back became the E525 and the hollow-body iron-wood became the X525, so the X525 succeeds the E524 despite the new letter."
+  - q: "What shafts did the Hot Launch X525 come with?"
+    a: "The stock graphite shaft is the UST Mamiya Helium Black with Nanocore technology, at 59 to 64 grams across A, R and S flexes, with the True Temper Elevate MPH 95 as the steel option."
+confidence: high

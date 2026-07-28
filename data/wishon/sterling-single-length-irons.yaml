@@ -1,0 +1,106 @@
+brand: Wishon
+brand_slug: wishon
+model: Sterling Single Length
+slug: sterling-single-length-irons
+club_type: irons
+year_introduced: 2016
+year_discontinued: 2021
+category: game-improvement
+construction: single length; high-COR face long irons, one-piece cast short irons
+material: 8620 carbon steel bodies; HS300 high-strength steel faces in the 4-7 irons
+successor: Wishon EQ1-NX
+predecessor: null
+description: >
+  The Sterling Irons were the design that carried single-length golf into
+  the mainstream conversation alongside Bryson DeChambeau's rise: every
+  club in the set is built to the same 8-iron-like length — 36.5 inches
+  standard, with 36.75 or 37 as fitting options — on the same 63-degree
+  lie and the same 274-gram head weight, so one swing repeats through the
+  bag. Tom Wishon designed them with single-length advocate Jaacob Bowden
+  and introduced them in early 2016, when the first run sold out
+  immediately. Because short shafts cost long irons speed, the 4-iron
+  through 7-iron use a high-COR construction — HS300 variable-thickness
+  high-strength steel faces welded to 8620 carbon steel bodies — while
+  the 8-iron through wedges are conventional one-piece 8620 castings; a
+  5-hybrid on the same length was offered in place of the 5-iron. Lofts
+  run 19 to 60 degrees across a 4-iron-through-LW head range with wider
+  gaps in the scoring clubs to preserve distance spacing. Sold through
+  independent clubmakers, as all Wishon designs are, until the EQ1-NX —
+  marketed as the Sterling's second generation — replaced it in 2021.
+specs:
+  - club: "4"
+    loft: 19.0
+    lie: 63.0
+    length: 36.5
+    offset: 0.157
+    bounce: 4.0
+  - club: "5"
+    loft: 23.0
+    lie: 63.0
+    length: 36.5
+    offset: 0.157
+    bounce: 4.0
+  - club: "6"
+    loft: 27.0
+    lie: 63.0
+    length: 36.5
+    offset: 0.138
+    bounce: 4.0
+  - club: "7"
+    loft: 31.0
+    lie: 63.0
+    length: 36.5
+    offset: 0.138
+    bounce: 4.0
+  - club: "8"
+    loft: 35.0
+    lie: 63.0
+    length: 36.5
+    offset: 0.118
+    bounce: 5.0
+  - club: "9"
+    loft: 40.0
+    lie: 63.0
+    length: 36.5
+    offset: 0.098
+    bounce: 5.0
+  - club: "PW"
+    loft: 45.0
+    lie: 63.0
+    length: 36.5
+    offset: 0.098
+    bounce: 6.0
+  - club: "GW"
+    loft: 50.0
+    lie: 63.0
+    length: 36.5
+    offset: 0.098
+    bounce: 6.0
+  - club: "SW"
+    loft: 55.0
+    lie: 63.0
+    length: 36.5
+    offset: 0.098
+    bounce: 11.0
+  - club: "LW"
+    loft: 60.0
+    lie: 63.0
+    length: 36.5
+    offset: 0.098
+    bounce: 8.0
+sources:
+  - "Sterling Irons official specifications page (sterlingirons.com/specs-sterling-single-length-irons/, archive.org capture of 13 October 2019) — the full factory chart: 4-iron through LW lofts 19/23/27/31/35/40/45/50/55/60, a uniform 63-degree lie and 274-gram head weight, offsets in mm (4.0 down to 2.5, converted to inches here), bounces 4-11 degrees (LW ground 8/0), the HS300 face material in the #4-#7 and 5-hybrid, 8620 carbon steel bodies throughout, .370 parallel bores and the hosel weight bore in every head."
+  - "Wishon Golf official Sterling Irons design page (wishongolf.com/designs/sets/sterling-irons-single-length-set/) — the 36.5-inch standard build with 36.75 and 37-inch fitting options, the high-COR low-loft-clubhead design rationale, per-club bounce confirmation from Tom Wishon's own replies, and the set's discontinued status."
+  - "GolfWRX 'Wishon and Bowden's new single-length Sterling irons' (2016) and 3Jack Golf Blog FAQ, January 2016 — the introduction timeline, the Jaacob Bowden co-design, the immediate first-run sellout, and the single-swing design brief."
+  - "year_discontinued 2021 is the launch of the Wishon EQ1-NX, sold by single-length specialists as the 'Sterling 2nd generation' (singlelength.com); Sterling heads left the Wishon/Diamond Golf range around the same time. Length recorded is the 36.5-inch standard; actual builds vary 36.5-37 inches by fitting, and a 5-hybrid (23 degrees) was offered in place of the 5-iron."
+related_models: []
+faq:
+  - q: "What is the loft of a Sterling Single Length 7-iron?"
+    a: "The Sterling 7-iron has a loft of 31 degrees — but unlike a conventional set it is built to 36.5 inches on a 63-degree lie, the same length and lie as every other club in the set."
+  - q: "How long are Wishon Sterling single-length irons?"
+    a: "Every club is built to the same length — 36.5 inches standard, roughly an 8-iron's length, with 36.75 or 37 inches as fitting options — with identical 274-gram heads and 63-degree lies."
+  - q: "How do Sterling long irons keep their distance at 8-iron length?"
+    a: "The 4-iron through 7-iron use a high-COR construction: HS300 variable-thickness high-strength steel faces welded to 8620 carbon steel bodies, recovering the ball speed lost to the shorter shaft. The 8-iron through lob wedge are conventional one-piece castings."
+  - q: "Are Wishon Sterling irons still made?"
+    a: "No. They were discontinued when the Wishon EQ1-NX — marketed as the Sterling's second generation — arrived in 2021, though used sets remain common in the single-length community."
+confidence: high

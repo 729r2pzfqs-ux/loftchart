@@ -1,0 +1,81 @@
+brand: Stix
+brand_slug: stix
+model: Perform
+slug: perform-irons
+club_type: irons
+year_introduced: 2021
+year_discontinued: null
+category: game-improvement
+construction: cast deep cavity back
+material: 431 stainless steel
+successor: null
+predecessor: null
+description: >
+  The Perform (retroactively badged P01 when the P02 arrived) is the iron at
+  the heart of Stix Golf's direct-to-consumer sets - an all-black,
+  minimalist-looking 431 stainless deep cavity back sold 5-iron through
+  pitching wedge. The heads behind the Perform branding were on sale in
+  Stix's 2021 sets with the same lofts and lies, and Stix itself dates the
+  model to 2021. Lofts sit in classic game-improvement territory with a
+  28-degree 7-iron but a 45-degree pitching wedge, leaving a wide 39-to-45
+  gap-friendly wedge flow, and offset is generous throughout. Stock builds
+  use 120-gram black steel shafts (graphite optional) at a D1 swing weight
+  across the set; offsets below are converted from Stix's published
+  millimetre figures.
+specs:
+  - club: "5"
+    loft: 22.0
+    lie: 61.0
+    length: 38.0
+    offset: 0.433
+    swing_weight: D1
+  - club: "6"
+    loft: 25.0
+    lie: 61.5
+    length: 37.5
+    offset: 0.413
+    swing_weight: D1
+  - club: "7"
+    loft: 28.0
+    lie: 62.0
+    length: 37.0
+    offset: 0.394
+    swing_weight: D1
+  - club: "8"
+    loft: 33.0
+    lie: 62.5
+    length: 36.5
+    offset: 0.374
+    swing_weight: D1
+  - club: "9"
+    loft: 39.0
+    lie: 63.0
+    length: 36.0
+    offset: 0.354
+    swing_weight: D1
+  - club: "PW"
+    loft: 45.0
+    lie: 63.5
+    length: 35.5
+    offset: 0.335
+    swing_weight: D1
+stock_shafts:
+  - name: "Stix black steel"
+    material: steel
+    weight: "120g"
+    flex: ["R", "S"]
+  - name: "Stix graphite"
+    material: graphite
+    flex: ["A", "R", "S"]
+sources:
+  - "stix.golf Perform Iron Set (5-PW) steel product page (retrieved July 2026) — full spec table used here: lofts 22/25/28/33/39/45, lies 61-63.5, lengths 38 to 35.5 inches, offsets 11 down to 8.5 mm (converted to inches), head weights 259-294 g, D1 swing weight, 431 stainless heads, 120 g steel shafts; page states the model has been 'trusted by tens of thousands of golfers since 2021' and identifies it as the P01 against the newer P02"
+  - "Wayback Machine snapshot of stix.golf/products/stix-golf-iron-set-5-pw (26 January 2022) — the same heads in Stix's 2021-era sets with identical lofts and lies per club (22/25/28/33/39/45, lies 61-63.5), fixing the 2021 introduction"
+  - "mygolfspy.com 'We Tried It: Stix Golf Perform Series' — independent corroboration of the Perform branding and the line's game-improvement positioning"
+faq:
+  - q: "What is the loft of a Stix Perform 7-iron?"
+    a: "The Stix Perform 7-iron has a loft of 28 degrees, with a 62-degree lie and a 37-inch length."
+  - q: "Are Stix Perform irons forged?"
+    a: "No. They are cast 431 stainless steel deep cavity backs - the design puts forgiveness and price ahead of forged feel."
+  - q: "What clubs come in a Stix Perform iron set?"
+    a: "The stock set is six clubs, 5-iron through 45-degree pitching wedge, sold with 120-gram black steel shafts or optional graphite at a D1 swing weight."
+confidence: high

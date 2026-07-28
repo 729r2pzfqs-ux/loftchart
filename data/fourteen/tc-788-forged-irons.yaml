@@ -1,0 +1,83 @@
+brand: Fourteen
+brand_slug: fourteen
+model: TC-788 Forged
+slug: tc-788-forged-irons
+club_type: irons
+year_introduced: 2017
+year_discontinued: 2020
+category: players-distance
+construction: one-piece forged undercut cavity back
+material: S20C soft carbon steel, forged by Endo
+successor: null
+predecessor: null
+description: >
+  The TC-788 Forged was Fourteen's distance take on the forged tour iron
+  — "exceptional distance in a forged tour iron with forgiveness" in the
+  company's own line — launched in Japan in November 2017 and sold in the
+  US from 2018 at $1,349.99 for a 4-PW set. Each compact head is forged
+  by Endo from a single piece of S20C soft steel with an externally
+  visible undercut cavity that drives the centre of gravity unusually low
+  and deep, and no two heads share dimensions: the 6-iron blade stands
+  3 mm taller than the 7-iron as the set progresses from distance-biased
+  long irons to control-biased scoring clubs. Offset is minimal and the
+  thick sole carries a heavily bevelled trailing edge so it plays thinner
+  than it measures. Lofts sit at a 31-degree 7-iron and 45-degree
+  pitching wedge; the stock set ran #5-PW with the #4 sold separately,
+  and Fourteen matched it to the pocket-cavity TP-766 long irons for
+  combo sets. The lengths below are the factory chart for the stock
+  N.S.PRO 950GH HT build; the Modus3 Tour 105 option ran a quarter-inch
+  shorter. It moved to Fourteen's archive section in 2020.
+specs:
+  - club: "4"
+    loft: 21.0
+    lie: 60.0
+    length: 39.0
+  - club: "5"
+    loft: 24.0
+    lie: 60.5
+    length: 38.375
+  - club: "6"
+    loft: 27.0
+    lie: 61.0
+    length: 37.75
+  - club: "7"
+    loft: 31.0
+    lie: 61.5
+    length: 37.25
+  - club: "8"
+    loft: 35.0
+    lie: 62.0
+    length: 36.75
+  - club: "9"
+    loft: 40.0
+    lie: 62.5
+    length: 36.25
+  - club: "PW"
+    loft: 45.0
+    lie: 63.0
+    length: 35.75
+stock_shafts:
+  - name: "Nippon N.S.PRO 950GH HT"
+    material: steel
+    flex: ["R", "S"]
+  - name: "Nippon N.S.PRO Modus3 Tour 105"
+    material: steel
+    flex: ["S"]
+sources:
+  - "Fourteen official TC-788 FORGED factory spec chart (fourteen.co.jp files, archive.org capture: TC788-graph.jpg from the product page at fourteen.co.jp/products/iron/tc-788fg/) — #4-P lofts 21/24/27/31/35/40/45, lies 60-63, and per-shaft length ladders: 39 to 35.75 inches with N.S.PRO 950GH HT (S/R, recorded here) and 38.75 to 35.5 with N.S.PRO Modus3 Tour 105, plus swing weights, CG data and face progression 3.9-4.2 mm."
+  - "Fourteen official English TC-788 FORGED product page (fourteen.co.jp/en/products/iron/tc-788fg/, archive.org capture of 18 July 2019) — forged S20C soft steel head, nickel-chrome-plated satin finish, N.S.PRO 950GH HT stock shaft (S 98 g / R 94.5 g), the six-piece #5-P stock set with #4 as an add-on, the undercut-cavity deep-CG construction copy, the TP-766 combo pairing, and the manufacturer's stated launch date of November 2017."
+  - "GolfWRX 'Fourteen introduces new TC-788 iron' and Willie's Blog first look, 10 November 2017 — the Endo forging, the per-club individualized dimensions (6-iron blade 3 mm taller than the 7-iron), minimal offset, bevelled trailing edge and the $1,349.99 US 4-PW set price; US availability followed in 2018."
+  - "year_discontinued 2020: by Fourteen's site captures of late 2020 the TC-788 had moved to the fourteen.co.jp /archive/ section of discontinued models. Offset and bounce are omitted because Fourteen publishes face progression rather than offset and lists no bounce."
+related_models:
+  - slug: "fourteen/tc-7-forged-irons"
+    label: "Fourteen's next forged players cavity: TC-7 Forged"
+faq:
+  - q: "What is the loft of a Fourteen TC-788 7-iron?"
+    a: "The Fourteen TC-788 Forged 7-iron has a loft of 31 degrees, a lie of 61.5 degrees and a length of 37.25 inches in the stock N.S.PRO 950GH HT build."
+  - q: "Is the Fourteen TC-788 forged?"
+    a: "Yes — each head is forged by Endo from a single piece of S20C soft carbon steel, with an undercut cavity machined into the design for a deep, low centre of gravity."
+  - q: "What clubs came in a Fourteen TC-788 set?"
+    a: "The stock set ran 5-iron through pitching wedge, with the 4-iron sold as an add-on; Fourteen suggested pairing the pocket-cavity TP-766 in the long irons for a combo set."
+  - q: "Why do Fourteen TC-788 lengths look unusual?"
+    a: "Fourteen published a different length ladder per stock shaft — 39 to 35.75 inches in quarter-inch-odd steps for the 950GH HT build recorded here, and a quarter-inch shorter throughout for the Modus3 Tour 105 build."
+confidence: high

@@ -1,0 +1,76 @@
+brand: Fourteen
+brand_slug: fourteen
+model: TB-5 Forged
+slug: tb-5-forged-irons
+club_type: irons
+year_introduced: 2020
+year_discontinued: 2024
+category: players
+construction: one-piece forged, Theater Blade hidden-cavity structure
+material: S20C soft carbon steel
+successor: Fourteen TB-5 Forged ('25)
+predecessor: null
+description: >
+  The TB-5 Forged is Fourteen's "Theater Blade" — an S20C soft-carbon
+  forging whose back conceals the cavity step behind a smooth blade-like
+  curtain, so the club reads as a players iron at address while carrying
+  hidden perimeter help. Fourteen released it in Japan on 6 November 2020,
+  aimed at golfers in the 85-96 mph driver-speed range, with a universal
+  sole grind for all lies and a nickel-chrome satin finish; US sales
+  through Fourteen Golf USA followed in late 2021, which is why most
+  American coverage treats it as a 2021-2022 model. The factory chart
+  runs a five-club 6-PW core set with the 5-iron sold separately, on
+  Japanese-market lengths (37.5-inch 7-iron) with a 30-degree 7-iron and
+  42-degree pitching wedge; a 46-degree P/A wedge extended the set in
+  some markets. The second-generation TB-5 Forged ('25), released
+  8 November 2024, replaced it, though Fourteen kept the original's
+  left-handed version in the range.
+specs:
+  - club: "5"
+    loft: 23.0
+    lie: 61.0
+    length: 38.5
+  - club: "6"
+    loft: 26.0
+    lie: 61.5
+    length: 38.0
+  - club: "7"
+    loft: 30.0
+    lie: 62.0
+    length: 37.5
+  - club: "8"
+    loft: 34.0
+    lie: 62.5
+    length: 37.0
+  - club: "9"
+    loft: 38.0
+    lie: 63.0
+    length: 36.5
+  - club: "PW"
+    loft: 42.0
+    lie: 63.5
+    length: 36.0
+stock_shafts:
+  - name: "Fourteen FS-90i"
+    material: steel
+    flex: ["R", "S"]
+  - name: "Fourteen FT-70i"
+    material: graphite
+sources:
+  - "Fourteen Magazine 'TB-5 FORGED 発売のお知らせ' (fourteenmagazine.jp/article/detail/?id=83) — the manufacturer's release announcement with the full factory spec chart: #5-P lofts 23/26/30/34/38/42, lies 61-63.5, lengths 38.5 to 36 inches, per-shaft club weights and balances (FS-90i steel S/R, FT-70i carbon), CG heights, face progression and MOI, plus the 6 November 2020 release date, S20C soft-iron forging, nickel-chrome satin finish and pricing (five-club #6-P sets, #5 sold individually)."
+  - "fourteen.jp official product listings — the TB-5 FORGED LEFT remains listed alongside the TB-5 FORGED ('25), whose Japan release of 8 November 2024 at 154,000 yen per five-club set (golfsapuri.com and Golf Digest Japan coverage) fixes year_discontinued 2024 for the original."
+  - "Plugged In Golf 'Fourteen TB-5 Forged Irons Review', 6 December 2021 — the US-market arrival window, the Nippon N.S.PRO 950GH build offered in America, and the 46-degree P/A wedge sold to extend the set; lofts and the Theater Blade construction agree with the factory chart."
+  - "Note: offset and bounce are omitted — Fourteen publishes face progression in millimetres (2.9-3.3) rather than offset, and no bounce figures. Lengths are the Japanese factory standard; year_introduced 2020 is the Japanese announcement, while the US debut came in 2021."
+related_models:
+  - slug: "fourteen/tc-7-forged-irons"
+    label: "Fourteen's US-market players cavity of the era: TC-7 Forged"
+faq:
+  - q: "What is the loft of a Fourteen TB-5 Forged 7-iron?"
+    a: "The Fourteen TB-5 Forged 7-iron has a loft of 30 degrees, a lie of 62 degrees and a factory length of 37.5 inches on the Japanese standard build."
+  - q: "What is the Theater Blade structure on the Fourteen TB-5?"
+    a: "The back face hides the cavity step behind a smooth blade-style surface — like a theatre curtain in front of the machinery — so the iron looks like a compact blade at address while playing with cavity-back forgiveness."
+  - q: "Is the Fourteen TB-5 Forged a blade?"
+    a: "It looks like one but is not a true muscle back: the S20C forging conceals a cavity, and Fourteen aimed it at average golfers with driver speeds of 85-96 mph rather than at tour players."
+  - q: "When was the Fourteen TB-5 Forged released?"
+    a: "In Japan on 6 November 2020, with US sales following in late 2021. The second-generation TB-5 Forged ('25) replaced it on 8 November 2024."
+confidence: high

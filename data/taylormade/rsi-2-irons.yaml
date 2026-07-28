@@ -111,6 +111,8 @@ sources:
 related_models:
   - slug: "taylormade/rsi-1-irons"
     label: "Game-improvement model in the same range: TaylorMade RSi 1"
+  - slug: "taylormade/rsi-tp-irons"
+    label: "Forged players model in the same range: TaylorMade RSi TP"
 faq:
   - q: "What is the loft of a TaylorMade RSi 2 7-iron?"
     a: "The TaylorMade RSi 2 7-iron has a loft of 31 degrees, with a 62.5-degree lie and a 36.75-inch steel-shaft length."

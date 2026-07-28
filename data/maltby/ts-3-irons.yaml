@@ -1,0 +1,99 @@
+brand: Maltby
+brand_slug: maltby
+model: TS-3
+slug: ts-3-irons
+club_type: irons
+year_introduced: 2023
+year_discontinued: null
+category: super-game-improvement
+construction: five-step precision forged, co-forged tungsten toe weight, progressive cavity
+material: forged 1025C carbon steel with co-forged tungsten weight
+successor: null
+predecessor: null
+description: >
+  The TS-3 joined Maltby's Tour Series in 2023 as the highest-MPF head in
+  the family: it measures 849 at the 6-iron on Maltby's Playability
+  Factor scale, deep in the Super Game Improvement band — the
+  classification recorded here — even though it wears a diminutive,
+  players-style profile with smooth lines and only a moderate topline.
+  The trick is construction: each head is true-forged from 1025C carbon
+  steel in a five-step precision process with a tungsten weight co-forged
+  low and toward the toe, and the cavity design progresses through the
+  set, shifting mass toe-ward and low in the long irons and toward
+  neutral in the scoring clubs, over progressive .780-to-.800-inch sole
+  widths. The CNC-milled face carries Maltby's multi-groove pattern, and
+  lofts are moderate for the forgiveness on offer — a 32-degree 7-iron
+  and 44-degree pitching wedge across a 4-GW chart in satin mirror
+  nickel-chrome, right hand only. The GolfWorks sells it as bare heads or
+  built-to-spec custom sets, so the lengths below are the company's
+  published standard men's steel assembly lengths. A TS-3.5 and a DBM
+  black finish followed in 2025 without retiring it.
+specs:
+  - club: "4"
+    loft: 22.0
+    lie: 61.0
+    length: 38.5
+    offset: 0.115
+    bounce: 3.0
+  - club: "5"
+    loft: 25.0
+    lie: 61.5
+    length: 38.0
+    offset: 0.115
+    bounce: 3.0
+  - club: "6"
+    loft: 28.0
+    lie: 62.0
+    length: 37.5
+    offset: 0.115
+    bounce: 3.0
+  - club: "7"
+    loft: 32.0
+    lie: 62.5
+    length: 37.0
+    offset: 0.11
+    bounce: 3.0
+  - club: "8"
+    loft: 36.0
+    lie: 63.0
+    length: 36.5
+    offset: 0.11
+    bounce: 4.0
+  - club: "9"
+    loft: 40.0
+    lie: 63.5
+    length: 36.0
+    offset: 0.11
+    bounce: 4.0
+  - club: "PW"
+    loft: 44.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.09
+    bounce: 5.0
+  - club: "GW"
+    loft: 48.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.09
+    bounce: 5.0
+sources:
+  - "The GolfWorks official Maltby TS3 Iron Head page (golfworks.com/maltby-ts3-iron-head/p/ma0340/) and its factory specification chart — 4-GW lofts 22/25/28/32/36/40/44/48, lies 61-64, offsets 0.115 to 0.090 inches, bounces 3-5 degrees, head weights 245-289 g, satin chrome polish, 1025 carbon steel, .780-.800-inch progressive sole widths, universal hosel, and the listed MPF of 849, plus the construction copy: five-step true forging, co-forged tungsten toe weight, progressive cavity designs and CNC-milled multi-groove face."
+  - "The GolfWorks Head MPF Ratings chart (golfworks.com/content/PDFs/Head_MPFs/MPFRatingsChart.pdf, updated July 2026) — 'MALTBY TS3 Forged #6 2023, MPF 849' in the Super Game Improvement section, fixing both year_introduced 2023 and the category recorded here."
+  - "GolfWRX club-techs threads 'The GolfWorks - Maltby 2023 New Releases' and 'Maltby TS3 Irons' (May 2023) — the TS3's arrival on the GolfWorks site as part of the 2023 lineup."
+  - "Lengths are from The GolfWorks' published Standard Lengths chart (golfworks.com/images/art/StdLengths.pdf, men's steel: 38.5-inch 4-iron through 35.5-inch PW and GW) because Maltby heads are sold component-style and built to order; playing lengths vary per build, hence confidence medium."
+related_models:
+  - slug: "maltby/ts-4-irons"
+    label: "Tour Series blade released the same year: Maltby TS-4"
+  - slug: "maltby/ts-1-irons"
+    label: "The original Tour Series players head: Maltby TS-1"
+faq:
+  - q: "What is the loft of a Maltby TS-3 7-iron?"
+    a: "The Maltby TS-3 7-iron has a loft of 32 degrees and a lie of 62.5 degrees, with 0.110 inches of offset and a 37-inch length on The GolfWorks' standard steel build."
+  - q: "Why is the Maltby TS-3 classed as super game improvement?"
+    a: "Because of its measured forgiveness rather than its looks: it rates 849 on Maltby's MPF scale — Super Game Improvement territory — thanks to co-forged tungsten toe weighting and progressive cavities, despite a compact profile with a moderate topline."
+  - q: "Is the Maltby TS-3 forged?"
+    a: "Yes — true-forged from 1025C carbon steel in a five-step precision process, with the tungsten toe weight co-forged into the head rather than glued or screwed in."
+  - q: "When did the Maltby TS-3 come out?"
+    a: "It appeared with The GolfWorks' 2023 Maltby releases and remains on sale; a TS-3.5 head and a DBM black-finish version were added in 2025 alongside it."
+confidence: medium

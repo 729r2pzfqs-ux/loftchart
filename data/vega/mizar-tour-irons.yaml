@@ -1,0 +1,75 @@
+brand: Vega
+brand_slug: vega
+model: Mizar Tour
+slug: mizar-tour-irons
+club_type: irons
+year_introduced: 2019
+year_discontinued: null
+category: players-distance
+construction: forged one-piece body with constant-thickness carbon steel face insert
+material: S25C carbon steel body, 3.5 mm S20C carbon steel face
+successor: null
+predecessor: null
+description: >
+  The Mizar Tour is the compact multi-material iron in Vega's Star Range - a
+  one-piece body forged from S25C carbon steel with a softer S20C face insert
+  held at a constant 3.5 mm thickness. Weight is removed internally near the
+  sole to keep the centre of gravity high for a flighted, penetrating ball,
+  and moves across the head through the set. GolfWRX spotlighted the model in
+  October 2019 and Vega's own site has carried the same loft, lie, face
+  progression and bounce chart from at least January 2022 through the present,
+  so the specs below describe the club as sold across its whole run; Vega
+  later marketed it under the "next generation, multi-material" banner
+  alongside the VDC, and reviews in late 2022 renewed attention on it. Vega
+  builds to order through fitters and publishes no standard lengths or
+  offsets, so those keys are omitted. The set runs 4-iron to attack wedge with
+  a 30-degree 7-iron and 42-degree pitching wedge.
+specs:
+  - club: "4"
+    loft: 20.0
+    lie: 60.0
+    bounce: 0.0
+  - club: "5"
+    loft: 23.0
+    lie: 60.5
+    bounce: 2.0
+  - club: "6"
+    loft: 26.0
+    lie: 61.0
+    bounce: 2.5
+  - club: "7"
+    loft: 30.0
+    lie: 61.5
+    bounce: 2.5
+  - club: "8"
+    loft: 34.0
+    lie: 62.0
+    bounce: 5.0
+  - club: "9"
+    loft: 38.0
+    lie: 62.5
+    bounce: 7.0
+  - club: "PW"
+    loft: 42.0
+    lie: 63.0
+    bounce: 9.0
+  - club: "AW"
+    loft: 46.0
+    lie: 63.0
+    bounce: 9.0
+sources:
+  - "vega-golf.com Mizar Tour product page (archived 18 January 2022 and 9 February 2023, and current) — manufacturer spec table: lofts 20/23/26/30/34/38/42/46 for 4-AW, lies 60-63, face progression 4.5-6 mm, bounce 0-9, head weights 251-300 g, S25C body with 3.5 mm S20C face, hosel 13.4 mm OD / 33 mm depth. Vega publishes face progression rather than offset and no standard lengths, so those keys are omitted"
+  - "golfwrx.com 'WRX Spotlight: Vega Mizar Tour irons' (October 2019) — dates the model's availability to 2019 and describes the same S25C one-piece forging with constant-thickness 3.5 mm face"
+  - "golfwrx.com 'Club Junkie Review: Vega Golf VDC and Mizar Tour irons' (December 2022) — later-cycle corroboration; the archived manufacturer chart is unchanged across this period. Note: this database entry uses the 2019 first-availability date; some retail listings treat the Mizar Tour as a 2022 model from its 'next generation' remarketing"
+  - "Stock build per vega-golf.com: VEGA Stellify steel shaft with VEGA Tour Density half-cord grip; heads also sold component-only"
+related_models:
+  - slug: "vega/mizar-irons"
+    label: "Original Star Range sibling: Vega Mizar"
+faq:
+  - q: "What is the loft of a Vega Mizar Tour 7-iron?"
+    a: "The Vega Mizar Tour 7-iron has a loft of 30 degrees, a 61.5-degree lie and 2.5 degrees of bounce."
+  - q: "Is the Vega Mizar Tour forged?"
+    a: "Yes. The one-piece body is forged from S25C carbon steel and carries a softer S20C carbon steel face insert at a constant 3.5 mm thickness."
+  - q: "Is the Mizar Tour a blade?"
+    a: "No. It is a compact multi-material players-distance design: the constant-thickness face and internal weight removal near the sole give it distance and a penetrating flight in a players profile."
+confidence: high

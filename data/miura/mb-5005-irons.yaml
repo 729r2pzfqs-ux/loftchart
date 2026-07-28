@@ -1,0 +1,84 @@
+brand: Miura
+brand_slug: miura
+model: MB-5005
+slug: mb-5005-irons
+club_type: irons
+year_introduced: 2017
+year_discontinued: 2019
+category: blade
+construction: forged muscle back with redistributed rear weighting
+material: S25C soft carbon steel, forged in Himeji, Japan
+successor: null
+predecessor: null
+description: >
+  The MB-5005 is the blade of Miura's transitional MG Collection,
+  announced for North America in July 2017 alongside the CB-1008 and
+  CB-2008 and sold through fitters at $279 per head. It had first
+  appeared in Japan as a limited run reported at 150 sets, and its trick
+  is subtle: about 15 grams are shaved from where a conventional muscle
+  pad would sit and redistributed around the head, so a club that reads
+  as a blade at address carries an expanded sweet spot and a lower centre
+  of gravity — "looks like a blade but plays like a cavity back" in the
+  launch coverage. The head is slightly longer heel-to-toe than Miura's
+  earlier blades while keeping the thin topline and sole, forged from
+  S25C soft carbon steel in Himeji with the W.D.D. accurate-forging stamp
+  of the MG series, in satin chrome. Lofts are Miura-traditional (34-degree
+  7-iron, 47-degree pitching wedge) over a 3-PW range. Miura sold it as
+  heads only, so the lengths below are Miura's standard assembly lengths
+  of the era rather than a factory sheet. It left the range around 2019,
+  when the MB-101 took over the flagship blade slot.
+specs:
+  - club: "3"
+    loft: 22.0
+    lie: 59.0
+    length: 39.0
+  - club: "4"
+    loft: 24.0
+    lie: 59.5
+    length: 38.5
+  - club: "5"
+    loft: 27.0
+    lie: 60.0
+    length: 38.0
+  - club: "6"
+    loft: 30.0
+    lie: 60.5
+    length: 37.5
+  - club: "7"
+    loft: 34.0
+    lie: 61.0
+    length: 37.0
+  - club: "8"
+    loft: 38.0
+    lie: 61.5
+    length: 36.5
+  - club: "9"
+    loft: 42.0
+    lie: 62.0
+    length: 36.0
+  - club: "PW"
+    loft: 47.0
+    lie: 62.5
+    length: 35.75
+sources:
+  - "chipandputt.com (Usher Golf, authorized Miura dealer) MB-5005 spec table — 3-PW lofts 22/24/27/30/34/38/42/47, lies 59.0-62.5 degrees, per-club head weights for steel and carbon builds, S25C soft carbon steel, the W.D.D. 'Accurate Forged' process and satin chrome finish. The chart matches the CB-1008's loft and lie ladder, as Miura's MG Collection heads shared one standard."
+  - "Golf Digest 'Miura CB-1008, MB-5005 take company's traditional forged blade looks and add forgiveness' and thegolfnewsnet.com, 6 July 2017 — the North American introduction, the roughly 15 grams redistributed from the muscle pad for an expanded sweet spot and lower CG, and the slightly longer heel-to-toe blade with thin topline and sole."
+  - "GolfWRX marketplace and dealer listings — the earlier Japan-only limited run reported at 150 sets; one such listing claims a 46-degree PW, but the dealer chart and Miura's era standard both say 47, which is recorded here."
+  - "Lengths are Miura's standard men's steel assembly lengths of the era — the same ladder recorded for the CB-1008 (39.0-inch 3-iron through 35.75-inch PW) — because Miura published no lengths for this head-only model; built lengths vary per fitter order, hence confidence medium."
+related_models:
+  - slug: "miura/cb-1008-irons"
+    label: "MG Collection launch sibling: Miura CB-1008"
+  - slug: "miura/mb-001-irons"
+    label: "The classic Miura blade before it: MB-001"
+  - slug: "miura/mb-101-irons"
+    label: "The flagship blade that followed: MB-101"
+faq:
+  - q: "What is the loft of a Miura MB-5005 7-iron?"
+    a: "The Miura MB-5005 7-iron has a loft of 34 degrees and a lie of 61 degrees, with a standard-build length of 37 inches."
+  - q: "How is the Miura MB-5005 different from a normal blade?"
+    a: "Roughly 15 grams that would normally form the muscle pad are redistributed around the head, expanding the sweet spot and lowering the centre of gravity — Miura pitched it as a blade at address that plays like a cavity back."
+  - q: "When did the Miura MB-5005 come out?"
+    a: "It reached North America in July 2017 as part of the MG Collection with the CB-1008 and CB-2008, after an earlier limited Japan run, and left the range around 2019 when the MB-101 arrived."
+  - q: "What clubs were offered in the Miura MB-5005?"
+    a: "Heads ran 3-iron through pitching wedge (47 degrees), sold through authorized fitters who build any composition to order."
+confidence: medium

@@ -1,0 +1,92 @@
+brand: Haywood
+brand_slug: haywood
+model: Signature
+slug: signature-irons
+club_type: irons
+year_introduced: 2020
+year_discontinued: 2025
+category: players-distance
+construction: two-piece hollow body (431 stainless body, welded heat-treated 17-4 face)
+material: 431 stainless steel body with 17-4 stainless steel face
+successor: Haywood SV.2
+predecessor: null
+description: >
+  The Signature Series was Haywood Golf's first iron - the hollow-body model
+  that launched the Vancouver direct-to-consumer brand's club line. A 431
+  stainless body is welded to a heat-treated 17-4 stainless face, giving a
+  high-launching, distance-first head with generous progressive offset behind
+  a fairly clean topline. It was on sale by mid-2020 and stayed in the line
+  until the SV.2 replaced it in 2025. Lofts are strong, with a 30-degree
+  7-iron and 44-degree pitching wedge. The specs below are Haywood's revised
+  2022 chart; at launch the published lengths ran a quarter-inch longer in
+  4-iron through 9-iron (38.75 to 36.25 inches) with the same lofts, lies and
+  offsets, and launch-era swing weights were listed one point heavier at
+  D2/D3.
+specs:
+  - club: "4"
+    loft: 20.5
+    lie: 61.0
+    length: 38.5
+    offset: 0.22
+    bounce: 6.0
+    swing_weight: D1
+  - club: "5"
+    loft: 23.0
+    lie: 61.5
+    length: 38.0
+    offset: 0.20
+    bounce: 7.0
+    swing_weight: D1
+  - club: "6"
+    loft: 26.0
+    lie: 62.0
+    length: 37.5
+    offset: 0.17
+    bounce: 8.0
+    swing_weight: D1
+  - club: "7"
+    loft: 30.0
+    lie: 62.5
+    length: 37.0
+    offset: 0.13
+    bounce: 9.0
+    swing_weight: D1
+  - club: "8"
+    loft: 34.0
+    lie: 63.0
+    length: 36.5
+    offset: 0.11
+    bounce: 10.0
+    swing_weight: D1
+  - club: "9"
+    loft: 39.0
+    lie: 63.5
+    length: 36.0
+    offset: 0.09
+    bounce: 11.0
+    swing_weight: D1
+  - club: "PW"
+    loft: 44.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.08
+    bounce: 12.0
+    swing_weight: D2
+sources:
+  - "haywoodgolf.com Signature Series spec sheet (archived 16 March 2022) — full chart used here: lofts 20.5/23/26/30/34/39/44, lengths 38.5 to 35.75 inches, lies 61-64, offsets 0.22 to 0.08 inches, bounce 6-12, swing weights D1/D2"
+  - "haywoodgolf.com Signature Irons spec sheet (archived 12 August 2020) — launch-era chart with identical lofts, lies, offsets and bounce but lengths 38.75 to 35.75 inches and swing weights D2/D3, fixing the 2020 availability and the later length revision"
+  - "golf.com ClubTest coverage (February 2021 and 2022) — two-piece hollow 431 + 17-4 stainless construction, 4-PW set composition, distance-first character"
+  - "britishcolumbiagolf.org profile of Haywood Golf — Vancouver-based direct-to-consumer brand founded by Joshua Haywood in 2018, wedges first, then irons"
+related_models:
+  - slug: "haywood/cb-irons"
+    label: "Forged cavity sibling: Haywood CB"
+  - slug: "haywood/mb-irons"
+    label: "Forged blade sibling: Haywood MB"
+faq:
+  - q: "What is the loft of a Haywood Signature 7-iron?"
+    a: "The Haywood Signature 7-iron has a loft of 30 degrees, with a 62.5-degree lie, 37-inch length and 0.13 inches of offset."
+  - q: "Is the Haywood Signature forged?"
+    a: "No. It is a two-piece hollow-body iron - a cast 431 stainless steel body welded to a heat-treated 17-4 stainless steel face. Haywood's forged models are the CB and MB."
+  - q: "When was the Haywood Signature sold?"
+    a: "It launched Haywood's iron line in 2020 and remained the brand's game-improvement-leaning distance iron until the SV.2 replaced it in 2025."
+confidence: high

@@ -108,6 +108,8 @@ sources:
 related_models:
   - slug: "taylormade/rsi-2-irons"
     label: "Better-player model in the same range: TaylorMade RSi 2"
+  - slug: "taylormade/rsi-tp-irons"
+    label: "Forged players model in the same range: TaylorMade RSi TP"
   - slug: "taylormade/rocketbladez-irons"
     label: "Earlier slot-technology iron: TaylorMade RocketBladez"
   - slug: "taylormade/aeroburner-irons"

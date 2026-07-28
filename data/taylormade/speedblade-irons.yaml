@@ -96,6 +96,8 @@ sources:
   - "Note: bounce is omitted — the source table did not carry a bounce column. Confidence is medium."
   - "Note on succession: TaylorMade ran overlapping game-improvement models in this period — RocketBladez, RocketBladez 2.0, SpeedBlade, then the RSi family — so no single clean replacement exists. The AeroBurner, announced in January 2015, took over the SpeedBlade's distance-iron slot in the range, which is used for successor and year_discontinued; predecessor is left null."
 related_models:
+  - slug: "taylormade/speedblade-hl-irons"
+    label: "Higher-lofted variant: TaylorMade SpeedBlade HL"
   - slug: "taylormade/rocketbladez-irons"
     label: "The model whose Speed Pocket it carried over: TaylorMade RocketBladez"
   - slug: "taylormade/rocketbladez-2-0-irons"

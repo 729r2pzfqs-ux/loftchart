@@ -1,0 +1,90 @@
+brand: "New Level"
+brand_slug: "new-level"
+model: "902"
+slug: "902-irons"
+club_type: "irons"
+year_introduced: 2018
+year_discontinued: 2021
+category: "players"
+construction: "hollow body, forged, CNC milled to final state"
+material: "forged 1025 carbon steel"
+predecessor: null
+successor: "New Level 902-PD"
+description: >
+  The 902 Forged was the iron that launched New Level Golf, the
+  direct-to-consumer maker founded in Scottsdale, Arizona in 2018 by
+  longtime club builder Eric Burch. The head is forged from 1025 carbon
+  steel, then CNC-milled to its final state for club-to-club consistency,
+  and carries a hollow-body design to lift launch and forgiveness while
+  presenting a compact players profile. Lofts are traditional for the
+  class — a 32-degree 7-iron and 45-degree pitching wedge across a 4-PW,
+  right-hand-only chart in chrome — with modest offset that tapers from
+  3.5 mm at the 4-iron to 2 mm in the scoring clubs. New Level's own spec
+  sheet is headed 2018, and the company built every set to order from its
+  shaft menu, so no stock shaft or swing weight is recorded. The 902-PD
+  Forged of 2021 was built as its enhanced sequel, and the original's
+  spec sheet now sits on New Level's Archives page.
+specs:
+  - club: "4"
+    loft: 23.0
+    lie: 60.5
+    length: 38.5
+    offset: 0.138
+    bounce: 1.0
+  - club: "5"
+    loft: 26.0
+    lie: 61.0
+    length: 38.0
+    offset: 0.118
+    bounce: 2.0
+  - club: "6"
+    loft: 29.0
+    lie: 61.5
+    length: 37.5
+    offset: 0.118
+    bounce: 3.0
+  - club: "7"
+    loft: 32.0
+    lie: 62.0
+    length: 37.0
+    offset: 0.098
+    bounce: 3.5
+  - club: "8"
+    loft: 36.0
+    lie: 62.5
+    length: 36.5
+    offset: 0.098
+    bounce: 4.0
+  - club: "9"
+    loft: 40.0
+    lie: 63.0
+    length: 36.0
+    offset: 0.079
+    bounce: 4.5
+  - club: "PW"
+    loft: 45.0
+    lie: 63.5
+    length: 35.75
+    offset: 0.079
+    bounce: 4.5
+sources:
+  - "New Level Golf official 902 club spec sheet (newlevelgolf.com/cdn/shop/files/902_Club_Specs.png, linked from the manufacturer's 'The NL Archives' club spec history page at newlevelgolf.com/pages/the-nl-archives, retrieved July 2026) — loft, lie, offset in mm (3.5/3/3/2.5/2.5/2/2, converted to inches here), bounce, length, .370 hosel bore and chrome finish for 4-iron through PW, right hand only, with the footnote that New Level has no stock club configuration and therefore no stock swing weights. The sheet is headed '2018', which fixes year_introduced."
+  - "newlevelgolf.com 902 product copy (retail listings and archived captures) — forged from 1025 carbon steel, hollow body design to maximise forgiveness and launch, and CNC milling to final state for superior club-to-club quality; The Hackers Paradise forum long-term test thread 'New Level Golf - 902 Forged Irons' corroborates the 2018 launch window."
+  - "year_discontinued 2021 is the introduction of the 902-PD Forged, which New Level's copy describes as the enhanced sequel to the original 902 Forged; the 902 page is gone from newlevelgolf.com and its spec sheet sits on the company's Archives ('specs of our previous generations') page."
+faq:
+  - q: "What is the loft of a New Level 902 7-iron?"
+    a: "The New Level 902 7-iron has a loft of 32 degrees, with a 62-degree lie, 2.5 mm of offset and a 37-inch length."
+  - q: "Is the New Level 902 forged?"
+    a: "Yes — forged from 1025 carbon steel and then CNC-milled to its final state, with a hollow body for launch and forgiveness."
+  - q: "What replaced the New Level 902?"
+    a: "The 902-PD Forged of 2021, a hollow-body sequel with the same 32-degree 7-iron loft, sold alongside the larger 902-OS."
+  - q: "Did the New Level 902 come in left hand?"
+    a: "No. The factory spec sheet lists the 902 as right hand only, in chrome."
+related_models:
+  - slug: "new-level/902-pd-irons"
+    label: "Successor: New Level 902-PD"
+  - slug: "new-level/902-os-irons"
+    label: "Oversized 902-generation stablemate: New Level 902-OS"
+  - slug: "new-level/1031-irons"
+    label: "Launch-era stablemate: New Level 1031"
+confidence: "high"

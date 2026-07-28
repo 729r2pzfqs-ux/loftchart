@@ -1,0 +1,89 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: SpeedBlade HL
+slug: speedblade-hl-irons
+club_type: irons
+year_introduced: 2014
+year_discontinued: 2015
+category: game-improvement
+construction: cast with a through-slot Speed Pocket, higher-lofted HL build
+material: cast stainless steel
+successor: null
+predecessor: null
+description: >
+  The SpeedBlade HL is the high-launch companion to the 2013 SpeedBlade, sold
+  from 2014 mainly as boxed 4-PW and 4-PW-plus-AW sets for players who need
+  more height. Each head carries one degree more loft than the standard
+  SpeedBlade — 31.5 degrees at the 7-iron against 30.5 — while lie, length and
+  offset stay on the standard SpeedBlade ladder. The Speed Pocket sole slot
+  and deep undercut cavity are unchanged from the standard model.
+specs:
+  - club: "4"
+    loft: 21.0
+    lie: 61.0
+    length: 38.875
+    offset: 0.228
+    swing_weight: D2.5
+  - club: "5"
+    loft: 24.0
+    lie: 61.75
+    length: 38.25
+    offset: 0.205
+    swing_weight: D2.5
+  - club: "6"
+    loft: 27.5
+    lie: 62.5
+    length: 37.625
+    offset: 0.177
+    swing_weight: D2.5
+  - club: "7"
+    loft: 31.5
+    lie: 63.0
+    length: 37.0
+    offset: 0.154
+    swing_weight: D2.5
+  - club: "8"
+    loft: 35.5
+    lie: 63.5
+    length: 36.5
+    offset: 0.122
+    swing_weight: D2.5
+  - club: "9"
+    loft: 40.5
+    lie: 64.0
+    length: 36.0
+    offset: 0.098
+    swing_weight: D2.5
+  - club: "PW"
+    loft: 46.0
+    lie: 64.5
+    length: 35.5
+    offset: 0.079
+    swing_weight: D2.5
+  - club: "AW"
+    loft: 51.0
+    lie: 64.5
+    length: 35.5
+    offset: 0.051
+    swing_weight: D2.5
+stock_shafts:
+  - name: "TaylorMade SpeedBlade 85"
+    material: steel
+sources:
+  - "2nd Swing Golf specification table for the TaylorMade SpeedBlade HL iron set (https://www.2ndswing.com/golf-clubs/iron-sets/taylormade-speedblade-hl-iron-set) — supplied every loft, lie, length, offset and swing weight above; offsets published in millimetres (5.8 mm down to 1.3 mm) and converted to inches here."
+  - "Set composition: PGA Tour Superstore and GolfEtail retail listings sold the HL as 4-PW and 4-PW+AW sets, which is the range recorded here; 2nd Swing also lists a 3-iron (18 degrees) and 56/60-degree SW/LW columns that were not part of the normal retail set."
+  - "Note on the loft ladder: every HL club is exactly one degree weaker than the standard SpeedBlade as published on TaylorMade's own SpeedBlade spec sheet (SpeedBlade_Irons_SS.pdf), with lie, length and offset identical — consistent with TaylorMade's practice for HL variants. A conflicting spec table at intheholegolf.com (half-degree offsets, uniform half-inch lengths) does not match TaylorMade's published length ladder and was not used."
+  - "Note: bounce is omitted — no source carried a bounce column for the HL heads. Confidence is medium: the numbers come from a large used-club retailer rather than a manufacturer sheet."
+related_models:
+  - slug: "taylormade/speedblade-irons"
+    label: "Standard-loft version: TaylorMade SpeedBlade"
+  - slug: "taylormade/rocketbladez-irons"
+    label: "Previous generation of the Speed Pocket line: TaylorMade RocketBladez"
+faq:
+  - q: "What is the loft of a TaylorMade SpeedBlade HL 7-iron?"
+    a: "The SpeedBlade HL 7-iron has a loft of 31.5 degrees — one degree weaker than the standard SpeedBlade — with a 63-degree lie and 37-inch length."
+  - q: "What is the difference between the SpeedBlade and SpeedBlade HL irons?"
+    a: "The HL (high launch) version adds one degree of loft to every head to make the set easier to flight, while lie angles, lengths and offsets are identical to the standard SpeedBlade."
+  - q: "What clubs came in the TaylorMade SpeedBlade HL set?"
+    a: "The HL was sold as boxed 4-PW and 4-PW plus 51-degree AW sets from 2014, in steel and graphite builds."
+confidence: medium

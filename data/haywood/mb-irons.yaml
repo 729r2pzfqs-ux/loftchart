@@ -1,0 +1,98 @@
+brand: Haywood
+brand_slug: haywood
+model: MB
+slug: mb-irons
+club_type: irons
+year_introduced: 2021
+year_discontinued: null
+category: blade
+construction: forged and 100% CNC-milled
+material: 1020 carbon steel
+successor: null
+predecessor: Haywood MB (2020)
+description: >
+  The Haywood MB is the direct-to-consumer brand's forged muscle back,
+  announced on 2 November 2021 alongside the CB as the "2022 Haywood CB & MB" -
+  a redesigned second iteration of the original MB that Haywood had sold since
+  2020. Heads are forged from 1020 carbon steel and 100% CNC-milled, with
+  minimal offset, a thin topline and a narrow sole in the classic blade mould.
+  Lofts are traditional - a 34-degree 7-iron and 46-degree pitching wedge -
+  and match the CB club-for-club so the two blend into combo sets; the MB
+  alone extends to a 20-degree 3-iron. Sold 3-PW and built to order from
+  Haywood's shaft menu. Swing weights below are from Haywood's chart for a
+  110-gram shaft at standard length.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 60.0
+    length: 39.0
+    offset: 0.11
+    bounce: 2.0
+    swing_weight: D1
+  - club: "4"
+    loft: 23.0
+    lie: 60.5
+    length: 38.5
+    offset: 0.10
+    bounce: 3.0
+    swing_weight: D1
+  - club: "5"
+    loft: 26.0
+    lie: 61.0
+    length: 38.0
+    offset: 0.09
+    bounce: 4.0
+    swing_weight: D1
+  - club: "6"
+    loft: 30.0
+    lie: 61.5
+    length: 37.5
+    offset: 0.08
+    bounce: 5.0
+    swing_weight: D1
+  - club: "7"
+    loft: 34.0
+    lie: 62.0
+    length: 37.0
+    offset: 0.07
+    bounce: 6.0
+    swing_weight: D1
+  - club: "8"
+    loft: 38.0
+    lie: 62.5
+    length: 36.5
+    offset: 0.06
+    bounce: 7.0
+    swing_weight: D1
+  - club: "9"
+    loft: 42.0
+    lie: 63.0
+    length: 36.0
+    offset: 0.05
+    bounce: 8.0
+    swing_weight: D1
+  - club: "PW"
+    loft: 46.0
+    lie: 63.5
+    length: 35.75
+    offset: 0.04
+    bounce: 9.0
+    swing_weight: D2
+sources:
+  - "haywoodgolf.com Haywood MB spec sheet (current) — full chart used here: 3-PW, lofts 20/23/26/30/34/38/42/46, lengths 39 to 35.75 inches, lies 60-63.5, offsets 0.11 to 0.04 inches, bounce 2-9, swing weights D1/D2 for a 110 g shaft at standard length; page describes the second iteration forged from 1020 carbon steel and 100% milled"
+  - "haywoodgolf on X/Twitter, 2 November 2021: 'Proudly introducing: The 2022 Haywood CB & MB Irons' — fixes this generation's announcement date (year_introduced follows the announcement-year convention)"
+  - "fairwayjockey.com Haywood MB custom irons listing — independent corroboration of the 3-PW loft/lie/length chart"
+  - "Wayback Machine snapshot of haywoodgolf.com/products/haywoodmb-irons (12 August 2020) — the original 'SignatureMB' first iteration on sale in 2020 at $550, recorded here as the predecessor"
+related_models:
+  - slug: "haywood/cb-irons"
+    label: "Cavity-back sibling: Haywood CB"
+  - slug: "haywood/signature-irons"
+    label: "Hollow distance sibling: Haywood Signature"
+faq:
+  - q: "What is the loft of a Haywood MB 7-iron?"
+    a: "The Haywood MB 7-iron has a loft of 34 degrees, with a 62-degree lie, 37-inch length and just 0.07 inches of offset."
+  - q: "Is the Haywood MB a true blade?"
+    a: "Yes. It is a forged 1020 carbon steel muscle back with a thin topline, narrow sole and minimal offset, CNC-milled to final spec after forging."
+  - q: "How does the Haywood MB differ from the CB?"
+    a: "The two share identical lofts, lies and lengths; the CB adds perimeter weighting and a slightly wider sole for forgiveness, while the MB is the full muscle back and is the only one offered in a 3-iron."
+confidence: high

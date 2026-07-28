@@ -1,0 +1,78 @@
+brand: Epon
+brand_slug: epon
+model: AF-306
+slug: af-306-irons
+club_type: irons
+year_introduced: 2022
+year_discontinued: null
+category: players
+construction: forged (one-piece S20C billet with forged-in tungsten toe weight)
+material: S20C soft carbon steel with tungsten inner weight
+successor: null
+predecessor: Epon AF-305
+description: >
+  The AF-306 is Epon's compact deep-cavity players iron, released on 26 March
+  2022 to mark the 45th anniversary of the Epon golf brand. Epon is the house
+  label of Endo Manufacturing in Tsubame, Niigata, and the head is forged as
+  one piece from S20C soft carbon steel with a tungsten weight forged into the
+  toe side - 33 percent more tungsten than the preceding AF-305, with a 10
+  percent narrower sole and a fractionally shorter head. Lofts are traditional
+  for the category, with a 32-degree 7-iron and 46-degree pitching wedge.
+  Epon sells heads through its Niigata direct store and authorized fitters,
+  built to order with no fixed stock shaft; the lengths below are the standard
+  steel assembly lengths from the Japanese retail spec chart, and offsets are
+  converted from Epon's published gooseneck figures in millimetres.
+specs:
+  - club: "4"
+    loft: 23.0
+    lie: 60.5
+    length: 38.25
+    offset: 0.138
+  - club: "5"
+    loft: 26.0
+    lie: 61.0
+    length: 37.75
+    offset: 0.130
+  - club: "6"
+    loft: 29.0
+    lie: 61.5
+    length: 37.25
+    offset: 0.122
+  - club: "7"
+    loft: 32.0
+    lie: 62.0
+    length: 36.75
+    offset: 0.114
+  - club: "8"
+    loft: 36.0
+    lie: 62.5
+    length: 36.25
+    offset: 0.106
+  - club: "9"
+    loft: 41.0
+    lie: 63.0
+    length: 35.75
+    offset: 0.098
+  - club: "PW"
+    loft: 46.0
+    lie: 63.5
+    length: 35.25
+    offset: 0.087
+sources:
+  - "epongolf.co.jp news release 'EPON AF-306 アイアンを新発売' (2022.03.26) — fixes the release date, 45th-anniversary positioning, 33% tungsten increase over the AF-305 and the compact deep-cavity design"
+  - "one2one.jp Epon AF-306 product listing (Japanese custom-club dealer) — loft/lie/gooseneck/head-weight table: lofts 23/26/29/32/36/41/46, lies 60.5-63.5, gooseneck 3.5 down to 2.2 mm, head weights 252.5-294 g; 6-piece set standard with singles by special order"
+  - "g-one-golf.com (ジーワンゴルフ) Epon AF-306 custom order page — same loft/lie/offset ladder plus standard assembly lengths, steel 38.25 to 35.25 inches (carbon +0.25); this page lists the 7-iron loft as 33°, an outlier against 32° on one2one and mycaddie, so 32° is used here"
+  - "mycaddie.jp product 11728 — S20C head material, 32°/62° 7-iron, April 2022 retail date, corroborating the spec ladder"
+related_models:
+  - slug: "epon/af-506-irons"
+    label: "Pocket-cavity sibling: Epon AF-506"
+  - slug: "epon/af-706-irons"
+    label: "Hollow distance sibling: Epon AF-706"
+faq:
+  - q: "What is the loft of an Epon AF-306 7-iron?"
+    a: "The Epon AF-306 7-iron has a loft of 32 degrees, with a 62-degree lie and a 36.75-inch standard steel length."
+  - q: "Who makes Epon AF-306 irons?"
+    a: "Epon is the house brand of Endo Manufacturing in Tsubame, Niigata, Japan - a forging house that has also made heads for many major OEMs. The AF-306 is forged in-house from S20C carbon steel with a tungsten weight forged into the toe."
+  - q: "Is the Epon AF-306 a blade?"
+    a: "No. It is a compact deep-cavity players iron. The one-piece forging carries a tungsten inner weight on the toe side to raise the moment of inertia while keeping a compact, minimal-offset profile."
+confidence: high

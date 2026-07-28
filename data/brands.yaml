@@ -277,6 +277,24 @@ brands:
       published charts cover the head spec while shafts and balance are set
       per player.
 
+  - name: Epon
+    slug: epon
+    founded: 1977
+    hq: "Tsubame, Niigata, Japan"
+    color: "#1B2A4A"
+    families:
+      - "AF-Tour"
+      - "AF-300 series"
+      - "AF-500 series"
+      - "AF-700 series"
+    blurb: >
+      Epon is the house brand of Endo Manufacturing, the Tsubame forging
+      specialist that has made heads for many major OEMs since entering golf
+      in the late 1970s - the AF-306 marked the brand's 45th anniversary in
+      2022. Clubs are sold head-first through Epon's Niigata direct store and
+      authorized fitters, so published charts cover loft, lie and gooseneck
+      with recommended assembly lengths rather than a single stock build.
+
   - name: Fourteen
     slug: fourteen
     founded: 1981
@@ -293,6 +311,23 @@ brands:
       company is best known for its forged irons and RM wedges, with some
       models sold in different specs for the Japanese and US markets.
 
+  - name: Haywood
+    slug: haywood
+    founded: 2018
+    hq: "Vancouver, British Columbia, Canada"
+    color: "#1C1C1C"
+    families:
+      - "Signature"
+      - "CB/MB"
+      - "SV.2"
+      - "PD.1"
+    blurb: >
+      Haywood Golf is a Vancouver direct-to-consumer brand founded by Joshua
+      Haywood in 2018, selling wedges first and then irons at roughly half
+      big-OEM prices by cutting out retail. Every set is built to order from a
+      shaft menu, and the forged CB and MB share one loft chart so they can be
+      blended into combo sets.
+
   - name: Kirkland Signature
     slug: kirkland-signature
     founded: 1995
@@ -303,6 +338,25 @@ brands:
       fixed boxed sets with a single shaft and grip option rather than a fitted
       build. Costco publishes set composition but not a per-club spec table, so
       the numbers here come from measured retail sets.
+
+  - name: Maltby
+    slug: maltby
+    founded: 1976
+    hq: "Newark, Ohio, USA"
+    color: "#D22630"
+    families:
+      - "TS series"
+      - "KE4"
+      - "STi"
+      - "MMB"
+      - "DBM"
+    blurb: >
+      Maltby is the house brand of The GolfWorks, the component-club supplier
+      Ralph Maltby founded in Ohio in 1976. Heads are sold individually or as
+      built-to-order custom sets rather than off the rack, and every design is
+      published with its MPF (Maltby Playability Factor) rating — the
+      forgiveness measurement system Maltby created and applies to competitors'
+      irons as well as his own.
 
   - name: Miura
     slug: miura
@@ -336,6 +390,39 @@ brands:
       every set to order from its own shaft menu. Founder Eric Burch came to the
       company from club fitting, and the 623 series put the brand on the map when
       it won MyGolfSpy's 2022 players-iron test.
+
+  - name: Proto-Concept
+    slug: proto-concept
+    founded: 2019
+    hq: "Tokyo, Japan"
+    color: "#0E2A47"
+    families:
+      - "C-series"
+      - "C01"
+      - "C05"
+      - "TBic/TC/TP"
+    blurb: >
+      PROTOCONCEPT is a premium Japanese brand established in 2019 by the Endo
+      forging house and the Golf Partner retail group. Its C-series irons share
+      one loft ladder so they blend into combo sets, and the line is known for
+      forging titanium - later ceramic - inside a one-piece soft carbon head.
+      Heads are sold component-style and assembled to order in Japan or the US.
+
+  - name: Stix
+    slug: stix
+    founded: 2019
+    hq: "Denver, Colorado, USA"
+    color: "#2D2D2D"
+    families:
+      - "Perform"
+      - "Play"
+      - "Compete"
+    blurb: >
+      Stix Golf sells minimalist all-black club sets direct to consumers at
+      entry-friendly prices, aimed at newer and casual golfers. Founded by Gabe
+      Coyne, the company sells complete boxed sets rather than fitted builds,
+      and its Perform irons carried the same heads and specs from the 2021
+      sets through the later P01 branding.
 
   - name: Sub 70
     slug: sub-70
@@ -382,3 +469,57 @@ brands:
       hollow-body and forged models, and Hot Launch for the value and
       game-improvement end. The company does not publish offset or bounce for
       most models, so those columns are often blank.
+
+  - name: Vega
+    slug: vega
+    founded: 2011
+    hq: "Ichikawa, Hyogo, Japan"
+    color: "#1A1A1A"
+    families:
+      - "Mizar"
+      - "Mizar Tour"
+      - "Mizar Pro"
+      - "VDC"
+    blurb: >
+      Vega grew out of the Kyoei forging house near Himeji and still forges its
+      heads in Japan; the modern brand has been run from the UK since
+      Professional Golf Europe acquired it in 2011, with Elite Sports Brands
+      taking over in 2024. Sets are built to a fitting through stockists, so
+      Vega publishes loft, lie, face progression and head weight but no
+      standard lengths - the length column is blank for its models.
+
+  - name: Wishon
+    slug: wishon
+    founded: 2002
+    hq: "Durango, Colorado, USA"
+    color: "#1D428A"
+    families:
+      - "Sterling"
+      - "EQ1-NX"
+      - "560 MC"
+      - "771 CSI"
+    blurb: >
+      Tom Wishon Golf Technology sells clubhead designs through independent
+      custom clubmakers rather than retail, and Wishon has published full
+      design specs for every head since the company's founding in 2002. The
+      Sterling single-length irons, co-designed with Jaacob Bowden in 2016,
+      became the brand's best-known line; Diamond Golf International has
+      manufactured and distributed the designs since Wishon's retirement.
+
+  - name: Yonex
+    slug: yonex
+    founded: 1946
+    hq: "Tokyo, Japan"
+    color: "#00469C"
+    families:
+      - "EZONE"
+      - "EZONE GT"
+      - "EZONE GS"
+      - "Royal EZONE"
+    blurb: >
+      Yonex, the badminton and tennis maker founded in 1946, has built golf
+      clubs at its Niigata carbon factory since 1982 and puts graphite where
+      other brands use steel - its EZONE irons forge a graphite insert into
+      the head as a damper. The GT distance line runs on a two-year cycle
+      with some of the strongest lofts in golf, so mind the club-to-club
+      comparisons.

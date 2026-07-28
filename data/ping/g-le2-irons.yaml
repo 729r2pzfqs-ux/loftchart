@@ -1,0 +1,91 @@
+brand: Ping
+brand_slug: ping
+model: G Le2
+slug: g-le2-irons
+club_type: irons
+year_introduced: 2019
+year_discontinued: 2023
+category: super-game-improvement
+construction: investment cast with COR-Eye face technology and a tungsten toe weight
+material: 17-4 stainless steel
+successor: Ping G Le3
+predecessor: Ping G Le
+description: >
+  The G Le2 is the second generation of Ping's line engineered specifically
+  for women, launched on 2 July 2019. The irons use Ping's COR-Eye face
+  technology with a deep top-rail undercut for more face flexing, a tungsten
+  toe weight that lifts MOI about ten percent over the original G Le, and a
+  lightweight overall build with C-range swing weights. The iron set runs
+  6-iron through sand wedge, with matching G Le2 hybrids covering the 4H to
+  7H slots above it. Specs below are the women's standard graphite build with
+  the ULT 240 i shaft; Ping's colour-code system sets lie relative to the
+  standard lies listed. The G Le3 replaced it in 2023.
+specs:
+  - club: "6"
+    loft: 27.0
+    lie: 61.1
+    length: 37.13
+    offset: 0.21
+    bounce: 7.1
+    swing_weight: C4
+  - club: "7"
+    loft: 30.5
+    lie: 62.0
+    length: 36.5
+    offset: 0.18
+    bounce: 8.1
+    swing_weight: C4
+  - club: "8"
+    loft: 35.0
+    lie: 62.8
+    length: 36.0
+    offset: 0.15
+    bounce: 9.1
+    swing_weight: C4
+  - club: "9"
+    loft: 40.0
+    lie: 63.5
+    length: 35.5
+    offset: 0.13
+    bounce: 10.6
+    swing_weight: C4.5
+  - club: "PW"
+    loft: 45.0
+    lie: 64.1
+    length: 35.0
+    offset: 0.11
+    bounce: 12.0
+    swing_weight: C6
+  - club: "UW"
+    loft: 52.0
+    lie: 64.1
+    length: 35.0
+    offset: 0.11
+    bounce: 12.0
+    swing_weight: C7
+  - club: "SW"
+    loft: 58.0
+    lie: 64.6
+    length: 34.5
+    offset: 0.09
+    bounce: 13.0
+    swing_weight: C8
+stock_shafts:
+  - name: "Ping ULT 240 i"
+    material: graphite
+    flex: ["Ultra Lite", "Lite"]
+sources:
+  - "Morton Golf Sales (authorized Ping dealer) Ping G Le2 individual irons page — supplied every loft, lie, length, offset, bounce and swing weight above from Ping's design specifications, including the 4H-7H hybrid specs that sit above the iron set."
+  - "thegolfwire.com Ping G Le2 launch release, 2 July 2019 — independently corroborates every loft and length, the 6-SW set composition, the ULT 240 i stock shaft in Lite and Ultra Lite flexes, and the tungsten-toe-weight and COR-Eye construction."
+  - "Note: lie angles are the standard (black colour code) lies at women's standard length; Ping's colour-code system adjusts lie around these figures."
+related_models:
+  - slug: "ping/g-le3-irons"
+    label: "Successor: Ping G Le3"
+faq:
+  - q: "What is the loft of a Ping G Le2 7-iron?"
+    a: "The Ping G Le2 7-iron has a loft of 30.5 degrees, a lie of 62 degrees and a length of 36.5 inches in the women's standard graphite build."
+  - q: "What clubs came in the Ping G Le2 iron set?"
+    a: "The iron set ran 6-iron through sand wedge — 6-9, PW (45 degrees), UW (52 degrees) and SW (58 degrees) — with G Le2 hybrids covering the 4H to 7H slots above it."
+  - q: "When were the Ping G Le2 irons made?"
+    a: "They launched on 2 July 2019 as the second generation of Ping's women's line and were replaced by the G Le3 in July 2023."
+confidence: high

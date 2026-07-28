@@ -1,0 +1,86 @@
+brand: Yonex
+brand_slug: yonex
+model: EZONE GT
+slug: ezone-gt-irons
+club_type: irons
+year_introduced: 2024
+year_discontinued: null
+category: super-game-improvement
+construction: G-BRID graphite-hybrid (forged S45C body, maraging steel face, carbon reinforcement)
+material: S45C soft carbon steel body, Mighty Maraging Plus steel face, graphite hybrid insert
+successor: null
+predecessor: Yonex EZONE GT (2022)
+description: >
+  The EZONE GT is Yonex's flagship distance iron, and this fourth-generation
+  model went on sale in early April 2024 - the GT line has run on a two-year
+  cycle since 2018, and this generation was still Yonex's current iron range
+  into 2026. The "G-BRID" head forges a graphite hybrid insert into an S45C
+  soft carbon body behind a face of Mighty Maraging Plus steel, a grade Yonex
+  rates about 20 percent stronger than standard maraging steel, and the sole
+  carries a slit structure that flexes at impact. Lofts are extreme even by
+  distance-iron standards - a 25-degree 7-iron and 37-degree pitching wedge -
+  which is why the set flows through 42-degree AW and 48-degree AS wedges to
+  a 55-degree SW. The 7-iron's loft sits below a traditional 5-iron, so
+  treat club-to-club comparisons accordingly. Sold in Japan as a 4-piece
+  #7-PW set with singles either side, with the RK-04GT carbon shaft or
+  N.S.Pro 850GH neo steel; lengths below are the steel spec (carbon builds
+  run 0.25 inches longer). Yonex publishes face progression rather than
+  offset, so that key is omitted.
+specs:
+  - club: "5"
+    loft: 20.0
+    lie: 60.5
+    length: 39.0
+  - club: "6"
+    loft: 22.0
+    lie: 61.0
+    length: 38.25
+  - club: "7"
+    loft: 25.0
+    lie: 61.5
+    length: 37.75
+  - club: "8"
+    loft: 28.0
+    lie: 62.0
+    length: 37.25
+  - club: "9"
+    loft: 32.0
+    lie: 62.5
+    length: 36.75
+  - club: "PW"
+    loft: 37.0
+    lie: 63.0
+    length: 36.25
+  - club: "AW"
+    loft: 42.0
+    lie: 63.5
+    length: 35.75
+  - club: "AS"
+    loft: 48.0
+    lie: 63.5
+    length: 35.5
+  - club: "SW"
+    loft: 55.0
+    lie: 64.0
+    length: 35.25
+stock_shafts:
+  - name: "Yonex RK-04GT (2G-Namd Flex Force carbon)"
+    material: graphite
+    weight: "51-66g"
+    flex: ["R", "SR", "S"]
+  - name: "Nippon N.S.Pro 850GH neo"
+    material: steel
+    weight: "84.5-88g"
+    flex: ["R", "S"]
+sources:
+  - "Yonex 2025 golf web catalogue PDF (yonex.co.jp) — official EZONE GT iron spec table used here: lofts 20/22/25/28/32/37/42/48/55 for #5-SW, lies 60.5-64, steel lengths 39 to 35.25 inches with carbon +0.25, S45C forged body with graphite hybrid and Mighty Maraging Plus face (#5-#9 forged face, PW/AW rolled), RK-04GT carbon and N.S.Pro 850GH neo steel stock shafts"
+  - "yonex.co.jp news release (2024) — fourth-generation EZONE GT series on sale from early April 2024 with the Strike Speed carbon structure; yonex.com 'With the new 4th Generation EZONE GT series' corroborates the late-June 2024 international availability"
+  - "Note on dating: this file covers the 4th-generation GT, Yonex's current distance iron as of mid-2026 (the generation reviewers have dated '2026' in evergreen titles); earlier GT generations appeared in 2018, 2020 and 2022"
+faq:
+  - q: "What is the loft of a Yonex EZONE GT 7-iron?"
+    a: "The fourth-generation Yonex EZONE GT 7-iron has a loft of just 25 degrees - roughly a traditional 5-iron loft - with a 61.5-degree lie and a 37.75-inch steel length."
+  - q: "Why does the EZONE GT set include an AS wedge?"
+    a: "Because the pitching wedge is 37 degrees, Yonex fills the gap to the 55-degree sand wedge with a 42-degree AW and a 48-degree AS (approach-sand) wedge so the loft steps stay playable."
+  - q: "Is the Yonex EZONE GT forged or cast?"
+    a: "The body of the 5-iron through attack wedge is forged S45C soft carbon steel with a graphite hybrid insert; the face is Mighty Maraging Plus steel - forged in the numbered irons, rolled sheet in the PW and AW. The AS and SW use a simpler S45C body with a rolled maraging face."
+confidence: high

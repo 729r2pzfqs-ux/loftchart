@@ -82,6 +82,8 @@ sources:
   - "Ping's G Le3 launch announcement (ping.com 'G Le3 custom-engineered, custom-made for women') and MyGolfSpy / Golf Monthly launch coverage — the 18 July 2023 introduction date, the 17-4 stainless heads, PurFlex cavity badge, metal-wood-style face and high-density heel/toe weighting"
   - "todays-golfer.com and golf.com coverage of the Ping G Le4 family — the G Le4 launched in March 2026 as the G Le3's replacement, which sets year_discontinued"
 related_models:
+  - slug: "ping/g-le2-irons"
+    label: "Predecessor: Ping G Le2"
   - slug: "ping/g430-irons"
     label: "Ping's men's game-improvement iron of the same period: Ping G430"
 faq:

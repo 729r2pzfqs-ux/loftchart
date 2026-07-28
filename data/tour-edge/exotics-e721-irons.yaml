@@ -1,0 +1,90 @@
+brand: Tour Edge
+brand_slug: tour-edge
+model: Exotics E721
+slug: exotics-e721-irons
+club_type: irons
+year_introduced: 2021
+year_discontinued: 2022
+category: game-improvement
+construction: cast with a 360-degree undercut cavity, extreme toe weighting and dual VIBRCOR fill
+material: stainless steel with a Diamond Face 2.0 variable-thickness face
+successor: Tour Edge Exotics E722
+predecessor: Tour Edge Exotics EXS 220h
+description: >
+  The Exotics E721 is the Extreme Spec iron of Tour Edge's premium Exotics
+  721 series, announced in January 2021 with retail from 1 February 2021.
+  Where the C721 sibling is a hollow-body players-distance design, the E721
+  is a distance-first game-improvement iron: a 360-degree undercut cavity
+  raises launch and frees the Diamond Face 2.0 variable-thickness face to
+  flex, extreme toe weighting elongates the sweet spot, Dual VIBRCOR TPU
+  damps the strike, and a power-lofted setup runs a 27.5-degree 7-iron and
+  42-degree pitching wedge. Stock shafts were fitted by swing speed — KBS
+  TGI Tour graphite in 50 through 80 gram builds, or the True Temper XP85
+  steel for the fastest bracket — with a Lamkin Crossline 360 grip,
+  right-handed.
+specs:
+  - club: "4"
+    loft: 19.0
+    lie: 61.0
+    length: 38.75
+  - club: "5"
+    loft: 21.5
+    lie: 61.5
+    length: 38.25
+  - club: "6"
+    loft: 24.0
+    lie: 62.0
+    length: 37.75
+  - club: "7"
+    loft: 27.5
+    lie: 62.5
+    length: 37.25
+  - club: "8"
+    loft: 32.0
+    lie: 63.0
+    length: 36.75
+  - club: "9"
+    loft: 37.0
+    lie: 63.5
+    length: 36.25
+  - club: "PW"
+    loft: 42.0
+    lie: 64.0
+    length: 35.75
+  - club: "AW"
+    loft: 46.0
+    lie: 64.0
+    length: 35.5
+  - club: "GW"
+    loft: 51.0
+    lie: 64.0
+    length: 35.25
+  - club: "SW"
+    loft: 56.0
+    lie: 64.0
+    length: 35.25
+stock_shafts:
+  - name: "KBS TGI Tour"
+    material: graphite
+  - name: "True Temper XP85"
+    material: steel
+    flex: ["S"]
+sources:
+  - "touredge.com/e721irons official product page, archive.org snapshot of 4 March 2021 — the manufacturer specification chart image (e721ironspecs.png on Tour Edge's Wix CDN, read directly) giving loft, lie and shaft length for the #4 iron through SW, plus the swing-speed-based stock shaft matrix (KBS TGI Tour graphite Ladies 50/A 60 for 85mph and below, KBS TGI Tour R 70 for 85-95mph, KBS TGI Tour S 80 or True Temper XP85 S above 95mph), the Lamkin Crossline 360 Gray grip and right-hand availability."
+  - "The 360-degree undercut cavity, Diamond Face 2.0, extreme toe weighting, Dual VIBRCOR fill and power-lofted setup are taken from the same official page's technology sections."
+  - "Exotics 721 series launch coverage of January 2021 — the 1 February 2021 retail date and series positioning. Tour Edge does not publish offset, bounce or swing weight for this model, so those keys are omitted."
+related_models:
+  - slug: "tour-edge/exotics-c721-irons"
+    label: "Players-distance sibling: Tour Edge Exotics C721"
+  - slug: "tour-edge/exotics-e723-irons"
+    label: "Two generations on: Tour Edge Exotics E723"
+faq:
+  - q: "What is the loft of a Tour Edge Exotics E721 7-iron?"
+    a: "The Exotics E721 7-iron has a loft of 27.5 degrees, a lie of 62.5 degrees and a length of 37.25 inches."
+  - q: "Is the Exotics E721 a hollow-body iron like the C721?"
+    a: "No. The E721 uses a 360-degree undercut cavity-back construction with extreme toe weighting and Dual VIBRCOR TPU fill, while the C721 is the hollow-body model with the maraging steel L-cup face."
+  - q: "Why are the Exotics E721 lofts so strong?"
+    a: "The E721 is power-lofted by design — a 27.5-degree 7-iron and 42-degree pitching wedge — with the low, deep centre of gravity of the undercut head doing the launching, which is the opposite recipe from Tour Edge's weak-lofted Hot Launch E-series iron-woods."
+  - q: "What shafts did the Exotics E721 irons come with?"
+    a: "Stock shafts were matched to swing speed: KBS TGI Tour graphite in 50, 60, 70 or 80 gram builds through the flexes, with the True Temper XP85 steel offered for swings above 95mph."
+confidence: high

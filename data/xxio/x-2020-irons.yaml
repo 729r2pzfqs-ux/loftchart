@@ -1,0 +1,96 @@
+brand: XXIO
+brand_slug: xxio
+model: X 2020
+slug: x-2020-irons
+club_type: irons
+year_introduced: 2020
+year_discontinued: 2022
+category: players-distance
+construction: cast body with a milled Speed Groove behind the face plate
+material: high-strength steel face with Weight Plus counterbalancing
+successor: XXIO X 2022
+predecessor: null
+description: >
+  The 2020 XXIO X is the first generation of the letter-X line, launched
+  alongside the XXIO Eleven in early 2020 as the better-player's version of
+  the brand's ultralight formula — not to be confused with the 2017-2019
+  "XXIO X" that was simply the tenth numbered generation. A milled Speed
+  Groove channel runs around the perimeter of the back of the face plate to
+  add flex at impact, and the Weight Plus butt-end counterweights carry over
+  from the numbered sets, so graphite builds still read C9 to D0 on the swing
+  weight scale. Lofts match the outgoing XXIO 10 with a 29-degree 7-iron, but
+  the build is a quarter inch shorter through the set and, unlike the Eleven,
+  a steel shaft was offered. Sold right-handed only, 6-PW, 5-PW or 5-PW plus
+  SW, with a 4-iron and wedges as singles.
+specs:
+  - club: "4"
+    loft: 21.0
+    lie: 60.5
+    length: 38.5
+    swing_weight: C9
+  - club: "5"
+    loft: 23.0
+    lie: 61.0
+    length: 38.0
+    swing_weight: C9
+  - club: "6"
+    loft: 26.0
+    lie: 61.5
+    length: 37.5
+    swing_weight: C9
+  - club: "7"
+    loft: 29.0
+    lie: 62.0
+    length: 37.0
+    swing_weight: C9
+  - club: "8"
+    loft: 33.0
+    lie: 62.5
+    length: 36.5
+    swing_weight: C9
+  - club: "9"
+    loft: 38.0
+    lie: 63.0
+    length: 36.0
+    swing_weight: C9
+  - club: "PW"
+    loft: 43.0
+    lie: 63.5
+    length: 35.5
+    swing_weight: C9
+  - club: "AW"
+    loft: 49.0
+    lie: 63.5
+    length: 35.5
+    swing_weight: D0
+  - club: "SW"
+    loft: 56.0
+    lie: 63.5
+    length: 35.5
+    swing_weight: D0
+stock_shafts:
+  - name: "Miyazaki AX-1"
+    material: graphite
+    flex: ["R", "S"]
+  - name: "Nippon N.S. Pro 920GH D.S.T. for XXIO"
+    material: steel
+    flex: ["R", "S"]
+sources:
+  - "xxiousa.com XXIO X Irons product page (MXIS), archive.org snapshot of 23 September 2020 — the manufacturer specification table giving loft, lie angle, club length and swing weight for the 4-iron through sand wedge, right-hand-only availability, the 6-PW / 5-PW / 5-PW+SW set options, R and S flexes in both steel and graphite, and the milled Speed Groove and Weight Plus technology copy."
+  - "Pro Golf Japan and retailer listings for the Dunlop 2020 XXIO X iron — the Miyazaki AX-1 stock graphite shaft; MyGolfSpy's 2022 XXIO X coverage identifies the first-generation steel stock shaft as the Nippon N.S. Pro 920GH D.S.T. made for XXIO. Shaft names come from these secondary sources rather than the archived spec page, which lists only 'Graphite' and 'Steel'."
+  - "Swing weights in the table are the graphite build; the steel build plays one point heavier. Offset and bounce are not published for this model, so those keys are omitted."
+related_models:
+  - slug: "xxio/x-2022-irons"
+    label: "Successor: XXIO X 2022"
+  - slug: "xxio/xxio-eleven-irons"
+    label: "Same-year lightweight stablemate: XXIO Eleven"
+faq:
+  - q: "What is the loft of a 2020 XXIO X 7-iron?"
+    a: "The 2020 XXIO X 7-iron has a loft of 29 degrees, a lie of 62.0 degrees and a length of 37.0 inches."
+  - q: "How does the 2020 XXIO X differ from the XXIO Eleven?"
+    a: "The X keeps the Eleven's ultralight, counterbalanced concept but aims it at players with more speed: lofts are a degree stronger at the 7-iron, every club is built half an inch to a quarter inch shorter, and a steel shaft option was offered where the Eleven was graphite only in the US."
+  - q: "Is the 2020 XXIO X the same as the XXIO 10?"
+    a: "No. The tenth numbered generation (2017-2019) was badged 'XXIO X' with the Roman numeral in the US, but the 2020 X is a separate players-distance line that continued with the second-generation X in 2022."
+  - q: "What shafts did the 2020 XXIO X irons come with?"
+    a: "The stock graphite shaft was the Miyazaki AX-1, and the steel option was the Nippon N.S. Pro 920GH D.S.T. made for XXIO, both in regular and stiff flexes."
+confidence: high

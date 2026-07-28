@@ -1,0 +1,88 @@
+brand: XXIO
+brand_slug: xxio
+model: Eleven
+slug: xxio-eleven-irons
+club_type: irons
+year_introduced: 2019
+year_discontinued: 2021
+category: super-game-improvement
+construction: four-piece cast body with a hot-forged titanium face plate and double undercut cavity
+material: titanium face on a stainless body with tungsten sole weighting
+successor: XXIO 12
+predecessor: XXIO 10
+description: >
+  XXIO Eleven is the eleventh generation of Dunlop's ultralight premium line,
+  announced in late 2019 for the Japanese market and brought to the US in
+  early 2020 — the year the set is usually dated by. Its signature change over
+  the XXIO 10 is the Double Undercut Cavity, two slots cut into the body just
+  behind the hot-forged titanium face to add face flex, and the more
+  aggressive Weight Plus build, with brass and rubber counterweights in the
+  butt end of every club raising the balance point so a moderate swing can
+  still load the shaft. Swing weights run C9 through the 5-iron to pitching
+  wedge and D0 in the wedges, far below a conventional set. The US stock set
+  was graphite only, sold 6-PW or 5-PW plus SW in right and left hand.
+specs:
+  - club: "5"
+    loft: 22.0
+    lie: 61.5
+    length: 38.25
+    swing_weight: C9
+  - club: "6"
+    loft: 25.0
+    lie: 62.0
+    length: 37.75
+    swing_weight: C9
+  - club: "7"
+    loft: 28.0
+    lie: 62.5
+    length: 37.25
+    swing_weight: C9
+  - club: "8"
+    loft: 32.0
+    lie: 63.0
+    length: 36.75
+    swing_weight: C9
+  - club: "9"
+    loft: 37.0
+    lie: 63.0
+    length: 36.25
+    swing_weight: C9
+  - club: "PW"
+    loft: 42.0
+    lie: 63.5
+    length: 35.75
+    swing_weight: C9
+  - club: "AW"
+    loft: 48.0
+    lie: 63.5
+    length: 35.75
+    swing_weight: D0
+  - club: "SW"
+    loft: 56.0
+    lie: 63.5
+    length: 35.75
+    swing_weight: D0
+stock_shafts:
+  - name: "XXIO MP1100"
+    material: graphite
+    flex: ["R", "S"]
+sources:
+  - "xxiousa.com XXIO Eleven Irons product page (MXEIS), archive.org snapshot of 23 September 2020 — the manufacturer specification table giving loft, lie angle, club length and swing weight for the 5-iron through sand wedge, the 6-PW and 5-PW+SW set options, right- and left-hand availability, R and S flexes and the graphite-only US stock build."
+  - "PGA TOUR Superstore XXIO Eleven iron listing — the hot-forged titanium face plate, tungsten sole weight and four-piece construction."
+  - "Amazon/Pro Golf Japan XXIO Eleven catalog listings — corroboration of the XXIO MP1100 stock graphite shaft and the 22-degree 5-iron."
+  - "Year note: announced for Japan in late 2019 (Japanese retail December 2019) and at US retail from February 2020; year_introduced records the announcement year per the schema convention. Bounce and offset/face progression are not published on the US spec chart, so those keys are omitted."
+related_models:
+  - slug: "xxio/xxio-12-irons"
+    label: "Successor: XXIO 12"
+  - slug: "xxio/x-2020-irons"
+    label: "Same-year better-player stablemate: XXIO X (2020)"
+faq:
+  - q: "What is the loft of an XXIO Eleven 7-iron?"
+    a: "The XXIO Eleven 7-iron has a loft of 28 degrees, a lie of 62.5 degrees and a length of 37.25 inches."
+  - q: "Why is the XXIO Eleven swing weight only C9?"
+    a: "XXIO builds the set counterbalanced with its Weight Plus system — brass and rubber weights in the butt end of each club raise the balance point, so the head can stay light and the club easy to swing at moderate speed. C9 to D0 is the intended reading, not a build error."
+  - q: "What shafts did the XXIO Eleven irons come with?"
+    a: "The US stock build was graphite only, with the XXIO MP1100 shaft in regular and stiff flexes."
+  - q: "When did the XXIO Eleven irons come out?"
+    a: "The Eleven generation was announced in late 2019, reached Japanese retail in December 2019 and US retail in early 2020. It was replaced by the XXIO 12 in late 2021."
+confidence: high

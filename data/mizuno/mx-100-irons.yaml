@@ -1,0 +1,85 @@
+brand: Mizuno
+brand_slug: mizuno
+model: MX-100
+slug: mx-100-irons
+club_type: irons
+year_introduced: 2008
+year_discontinued: 2011
+category: super-game-improvement
+construction: investment cast hybrid-iron set with Y-Tune weighting
+material: stainless steel
+successor: null
+predecessor: null
+description: >
+  The MX-100 was Mizuno's super-game-improvement hybrid set, launched in
+  October 2008 with Y-Tune technology that stretches the sweet area toward
+  the toe. The 4- and 5-irons are hybrid-style heads with a dropped-down
+  crown, the 6- and 7-irons use an ultra-deep pocket cavity, and the 8-iron
+  through gap wedge are deep undercut cavities, all on a super-wide sole.
+  The stock set ran 4-iron through a 50-degree gap wedge with an optional
+  55-degree sand wedge. The MX-1000 took over the maximum-distance flagship
+  slot in 2009, and the JPX-800 family replaced the MX range from 2011.
+specs:
+  - club: "4"
+    loft: 23.0
+    lie: 60.0
+    length: 38.25
+  - club: "5"
+    loft: 26.0
+    lie: 60.5
+    length: 37.75
+  - club: "6"
+    loft: 29.0
+    lie: 61.0
+    length: 37.25
+  - club: "7"
+    loft: 33.0
+    lie: 61.5
+    length: 36.75
+  - club: "8"
+    loft: 37.0
+    lie: 62.0
+    length: 36.25
+  - club: "9"
+    loft: 41.0
+    lie: 62.5
+    length: 35.75
+  - club: "PW"
+    loft: 45.0
+    lie: 63.0
+    length: 35.5
+  - club: "GW"
+    loft: 50.0
+    lie: 63.0
+    length: 35.25
+  - club: "SW"
+    loft: 55.0
+    lie: 63.0
+    length: 35.25
+stock_shafts:
+  - name: "True Temper Dynalite Gold XP"
+    material: steel
+    flex: ["R300", "S300"]
+  - name: "Mizuno Exsar IS4"
+    material: graphite
+    flex: ["Lite", "R"]
+sources:
+  - "thegolfwire.com Mizuno MX-100 launch release, October 2008 — set composition (4-GW), Y-Tune construction, Dynalite Gold XP and Exsar IS4 stock shafts, and $700/$850 pricing."
+  - "golfclubspec.com iron specification database via qsponge.com — supplied the lofts and lies for 4-PW and SW. The database prints the 8-iron lie as 61.5 degrees, equal to the 7-iron; it is recorded here as 62.0 degrees, the only value consistent with the half-degree ladder on either side, and flagged as a corrected transcription."
+  - "mizunoforum.com thread 'MX-100 gap wedge loft' and Golf Club Brokers MX-100 GW listing — corroborate the 50-degree gap wedge (the 55-degree club is the sand wedge)."
+  - "Note: lengths are Mizuno's standard men's steel length chart of the era, identical for the contemporaneous MX-19 and MX-1000 (golfclubspec.com); no MX-100-specific length table was found, so lengths are inferred from that chart. Offset and bounce are omitted — not published in accessible sources. Confidence is low for that reason."
+related_models:
+  - slug: "mizuno/mx-19-irons"
+    label: "Cast game-improvement model of the same 2008 generation: Mizuno MX-19"
+  - slug: "mizuno/mx-900-irons"
+    label: "Mizuno's earlier hollow-bodied game-improvement iron: Mizuno MX-900"
+  - slug: "mizuno/mx-1000-irons"
+    label: "The hot-face flagship that followed: Mizuno MX-1000"
+faq:
+  - q: "What is the loft of a Mizuno MX-100 7-iron?"
+    a: "The Mizuno MX-100 7-iron has a loft of 33 degrees, with a 61.5-degree lie and a 36.75-inch steel-shaft length."
+  - q: "What clubs came in the Mizuno MX-100 set?"
+    a: "The stock set ran 4-iron through a 50-degree gap wedge, with a 55-degree sand wedge available; the 4- and 5-irons are hybrid-style heads with a dropped-down crown."
+  - q: "Are the Mizuno MX-100 irons forged?"
+    a: "No — the MX-100 is an investment-cast super-game-improvement set; Mizuno reserved forging for the MX-25/MX-200 side of the range in this era."
+confidence: low

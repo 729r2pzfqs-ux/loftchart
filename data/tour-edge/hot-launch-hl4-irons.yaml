@@ -1,0 +1,91 @@
+brand: Tour Edge
+brand_slug: tour-edge
+model: Hot Launch HL4
+slug: hot-launch-hl4-irons
+club_type: irons
+year_introduced: 2019
+year_discontinued: 2020
+category: game-improvement
+construction: cast cavity back with an expanded undercut cavity and toe weighting
+material: 431 stainless steel
+successor: Tour Edge Hot Launch C521
+predecessor: Tour Edge Hot Launch 3 (HL3)
+description: >
+  The HL4 iron is the standard cavity-back model in Tour Edge's fourth
+  Hot Launch generation, announced in July 2019 alongside an HL4 Iron-Wood
+  and an HL4 Triple Combo set as the brand's value-priced, custom-fit line.
+  Cast from soft 431 stainless steel, it pairs an expanded undercut cavity
+  with toe weighting and variable face thickness, with modest game-improvement
+  lofts — a 31-degree 7-iron and 44-degree pitching wedge. Stock shafts were
+  the UST Mamiya-for-Tour Edge graphite or the KBS Tour 90 steel, both built
+  to the same lengths, and a seven-piece set sold for $420 in steel. The
+  Hot Launch line split into the C (Competition) and E (Extreme) ranges when
+  the 521 series arrived in late 2020, making the C521 the HL4 iron's direct
+  successor.
+specs:
+  - club: "4"
+    loft: 22.0
+    lie: 61.0
+    length: 38.75
+  - club: "5"
+    loft: 25.0
+    lie: 61.5
+    length: 38.25
+  - club: "6"
+    loft: 28.0
+    lie: 62.0
+    length: 37.75
+  - club: "7"
+    loft: 31.0
+    lie: 62.5
+    length: 37.25
+  - club: "8"
+    loft: 35.0
+    lie: 63.0
+    length: 36.75
+  - club: "9"
+    loft: 40.0
+    lie: 63.5
+    length: 36.25
+  - club: "PW"
+    loft: 44.0
+    lie: 64.0
+    length: 35.75
+  - club: "AW"
+    loft: 49.0
+    lie: 64.0
+    length: 35.75
+  - club: "SW"
+    loft: 54.0
+    lie: 64.0
+    length: 35.75
+  - club: "LW"
+    loft: 59.0
+    lie: 64.0
+    length: 35.75
+stock_shafts:
+  - name: "UST Mamiya for Tour Edge"
+    material: graphite
+    flex: ["L", "A", "R", "S"]
+  - name: "KBS Tour 90"
+    material: steel
+    flex: ["R", "S"]
+sources:
+  - "touredge.com/hl4irons official product page, archive.org snapshots of 2019-2021 — the manufacturer 'HL4 Irons' specification chart image (HL4-Iron-Tech-Table.png on Tour Edge's Wix CDN, read directly) giving loft, lie angle and identical UST Mamiya graphite and KBS steel lengths for the #4 iron through lob wedge, plus the UST Mamiya for Tour Edge (L/A/R/S) shaft listing, the Lamkin grip and the expanded custom-fitting options."
+  - "HL4 launch coverage of July 2019 (golf.com, GolfWRX and MyGolfSpy 'First Look — 3 Tour Edge HL4 Iron Models', thegolfnewsnet.com dateline 2019-07-29) — announcement date, the 431 stainless steel construction, the expanded undercut cavity, toe weighting and variable face thickness, the KBS Tour 90 stock steel shaft in R/S, and the $420 steel / $490 graphite seven-piece set pricing."
+  - "Tour Edge does not publish offset, bounce or swing weight for the HL4 irons, so those keys are omitted. year_discontinued 2020 reflects the Hot Launch 521 series announcement in October 2020, which split the line into C and E ranges."
+related_models:
+  - slug: "tour-edge/hot-launch-c521-irons"
+    label: "Successor: Tour Edge Hot Launch C521"
+  - slug: "tour-edge/hot-launch-e521-irons"
+    label: "Iron-wood branch of the next generation: Tour Edge Hot Launch E521"
+faq:
+  - q: "What is the loft of a Tour Edge HL4 7-iron?"
+    a: "The Hot Launch HL4 7-iron has a loft of 31 degrees, a lie of 62.5 degrees and a length of 37.25 inches."
+  - q: "What shafts did the Tour Edge HL4 irons come with?"
+    a: "Stock options were an UST Mamiya graphite shaft made for Tour Edge in L, A, R and S flexes, or the KBS Tour 90 steel shaft in regular and stiff. Unusually, both builds used the same lengths."
+  - q: "What replaced the Tour Edge HL4 irons?"
+    a: "The Hot Launch 521 series, announced in October 2020, split the line into the C521 Competition Spec cavity back — the HL4 iron's direct successor, with the same loft ladder — and the E521 Extreme Spec iron-wood."
+  - q: "Are the HL4 wedges the same length as the short irons?"
+    a: "Yes — the pitching wedge through lob wedge are all built at 35.75 inches with a 64-degree lie, an unusually uniform wedge setup."
+confidence: high

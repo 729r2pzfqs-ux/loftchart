@@ -1,0 +1,89 @@
+brand: Tour Edge
+brand_slug: tour-edge
+model: Hot Launch C521
+slug: hot-launch-c521-irons
+club_type: irons
+year_introduced: 2020
+year_discontinued: 2021
+category: game-improvement
+construction: cast cavity back with an expanded undercut cavity, chamfered top line and toe weighting
+material: 431 stainless steel
+successor: Tour Edge Hot Launch C522
+predecessor: Tour Edge Hot Launch HL4
+description: >
+  The Hot Launch C521 is the first Competition Spec (C-range) iron in Tour
+  Edge's value line, introduced when the fifth Hot Launch generation split
+  into C and E ranges; it was announced in October 2020 and sold as the
+  2021-season line. It keeps the HL4 iron's loft ladder — a 31-degree 7-iron
+  and 44-degree pitching wedge — on a 431 stainless cavity back with an
+  expanded undercut cavity, wide sole, chamfered top line and toe weighting.
+  The stock graphite shaft is the Aldila Rogue, chosen from robot testing,
+  with the lightweight KBS Max 80 as the steel option, and sets were sold in
+  right and left hand with the usual Tour Edge custom-fit program.
+specs:
+  - club: "4"
+    loft: 22.0
+    lie: 61.0
+    length: 38.75
+  - club: "5"
+    loft: 25.0
+    lie: 61.5
+    length: 38.25
+  - club: "6"
+    loft: 28.0
+    lie: 62.0
+    length: 37.75
+  - club: "7"
+    loft: 31.0
+    lie: 62.5
+    length: 37.25
+  - club: "8"
+    loft: 35.0
+    lie: 63.0
+    length: 36.75
+  - club: "9"
+    loft: 40.0
+    lie: 63.5
+    length: 36.25
+  - club: "PW"
+    loft: 44.0
+    lie: 64.0
+    length: 35.75
+  - club: "AW"
+    loft: 49.0
+    lie: 64.0
+    length: 35.5
+  - club: "SW"
+    loft: 54.0
+    lie: 64.0
+    length: 35.25
+  - club: "LW"
+    loft: 59.0
+    lie: 64.0
+    length: 35.0
+stock_shafts:
+  - name: "Aldila Rogue"
+    material: graphite
+  - name: "KBS Max 80"
+    material: steel
+sources:
+  - "touredge.com/hotlaunchc521irons official product page, archive.org snapshot of 28 October 2020 — the manufacturer specification chart image (c521ironspecsA.png on Tour Edge's Wix CDN, read directly) giving loft, lie and shaft length for the #4 iron through lob wedge, plus the Aldila Rogue stock graphite and KBS Max 80 stock steel shaft copy, the Lamkin Z5 grip, right- and left-hand availability and the women's-length-minus-1-inch note."
+  - "The undercut cavity, wide sole, chamfered top line, toe weighting and power-lofted design points are taken from the same official page's technology sections."
+  - "Year note: the Hot Launch 521 series was announced in October 2020 and marketed as the 2021 line; year_introduced records the announcement year per the schema convention. Tour Edge does not publish offset, bounce or swing weight for this model, so those keys are omitted."
+related_models:
+  - slug: "tour-edge/hot-launch-c522-irons"
+    label: "Successor: Tour Edge Hot Launch C522"
+  - slug: "tour-edge/hot-launch-e521-irons"
+    label: "Iron-wood sibling: Tour Edge Hot Launch E521"
+  - slug: "tour-edge/hot-launch-hl4-irons"
+    label: "Predecessor: Tour Edge Hot Launch HL4"
+faq:
+  - q: "What is the loft of a Tour Edge Hot Launch C521 7-iron?"
+    a: "The Hot Launch C521 7-iron has a loft of 31 degrees, a lie of 62.5 degrees and a length of 37.25 inches."
+  - q: "What is the difference between the Tour Edge C521 and E521?"
+    a: "The C521 Competition Spec is a traditional cavity-back iron for game-improvement players; the E521 Extreme Spec is a hollow-body iron-wood with weaker lofts, a shallow face and slice-fighting offset for golfers who need maximum launch help."
+  - q: "What shafts did the Hot Launch C521 irons come with?"
+    a: "The stock graphite shaft was the Aldila Rogue, with the lightweight, high-launching KBS Max 80 as the stock steel option."
+  - q: "When did the Tour Edge Hot Launch C521 irons come out?"
+    a: "Tour Edge announced the Hot Launch 521 series in October 2020 and sold it as the 2021-season line; the 522 series replaced it a year later."
+confidence: high
