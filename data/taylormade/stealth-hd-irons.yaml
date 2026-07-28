@@ -3,17 +3,18 @@ brand_slug: taylormade
 model: Stealth HD
 slug: stealth-hd-irons
 club_type: irons
-year_introduced: 2022
-year_discontinued: 2023
+year_introduced: 2023
+year_discontinued: null
 category: super-game-improvement
 construction: investment cast Cap Back design, draw-biased
 material: stainless steel
 successor: null
 predecessor: null
 description: >
-  Stealth HD was a line extension alongside the 2022 Stealth iron rather than a
-  replacement for it, aimed at slower swing speeds and at players who miss to
-  the right. It uses the same Cap Back design and ECHO Damping System but adds a
+  Stealth HD arrived a year after the Stealth iron, announced in January 2023
+  alongside the Stealth 2 metalwoods, as a line extension rather than a
+  replacement — aimed at slower swing speeds and at players who miss to the right.
+  TaylorMade called it its first super-game-improvement iron. It uses the same Cap Back design and ECHO Damping System but adds a
   draw bias, a very low centre of gravity that shifts progressively higher
   through the set, and much wider soles. Bounce is far higher than on the
   standard Stealth, from 11 degrees in the 5-iron to 16 degrees in the sand and
@@ -95,6 +96,7 @@ stock_shafts:
     flex: ["A", "R", "S"]
 sources:
   - "TaylorMade official Stealth HD Irons product page specifications table, taylormadegolf.com/Stealth-HD-Irons/DW-TC502.html (archived January 2023 via archive.org)"
+  - "Note on the year, corrected: this file previously recorded year_introduced as 2022 and year_discontinued as 2023. golfwrx.com 'TaylorMade introduces all-new Stealth HD irons', si.com 'Meet TaylorMade's 2023 Releases: Stealth 2 Driver, Fairway Woods, and Stealth HD Irons' and the MyGolfSpy launch thread all date the announcement to 10 January 2023, with retail from 17 February 2023 — a year after the standard Stealth iron. year_introduced is corrected to 2023 and year_discontinued set to null, since no successor is recorded and 2023 cannot be both the launch and the end."
 related_models:
   - slug: "taylormade/stealth-irons"
     label: "Standard model: TaylorMade Stealth"

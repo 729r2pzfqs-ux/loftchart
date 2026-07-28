@@ -14,9 +14,9 @@ description: >
   HL is the high-launch head in Callaway's 2024 Paradym Ai Smoke iron family, built
   for slower swing speeds. Against the standard Ai Smoke it gives up two degrees of
   loft at the 7-iron — 30 against 28 — and takes back a quarter of an inch of length
-  and roughly twice the offset, 3.4 mm at the 7-iron against 1.1. The set runs 4-iron
-  through a 55-degree sand wedge, and Callaway builds it a full 39.75 inches at the
-  4-iron, which is long even for the category.
+  and a little more offset, 0.134 inches at the 7-iron against 0.110. The set runs
+  4-iron through a 55-degree sand wedge, and Callaway builds it a full 39.75 inches at
+  the 4-iron, which is long even for the category.
 specs:
   - club: "4"
     loft: 21.0
@@ -99,7 +99,7 @@ faq:
   - q: "What is the loft of a Callaway Paradym Ai Smoke HL 7-iron?"
     a: "The Paradym Ai Smoke HL 7-iron has a loft of 30 degrees, a lie of 62.0 degrees and a length of 37.5 inches."
   - q: "What is the difference between the Paradym Ai Smoke and Ai Smoke HL?"
-    a: "The HL is two degrees weaker at the 7-iron, a quarter of an inch longer, and carries roughly three times the offset — 3.4 mm against 1.1 at the 7-iron. It is built to launch higher for slower swing speeds."
+    a: "The HL is two degrees weaker at the 7-iron, a quarter of an inch longer, and carries a little more offset — 0.134 inches against 0.110 at the 7-iron. It is built to launch higher for slower swing speeds."
   - q: "What does HL mean on a Callaway iron?"
     a: "High launch. It is the head in the Paradym Ai Smoke family aimed at players who need more height and carry, sitting between the standard Ai Smoke and the Ai Smoke Max Fast."
 confidence: high
