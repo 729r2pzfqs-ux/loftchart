@@ -70,8 +70,8 @@ sources:
 related_models:
   - slug: "cobra/king-forged-tec-irons"
     label: "Predecessor: Cobra KING Forged Tec"
-  - slug: "cobra/king-tour-irons"
-    label: "Cobra's tour iron of the same era: Cobra KING Tour"
+  - slug: "cobra/king-mim-tour-irons"
+    label: "Cobra's tour iron of the same era: Cobra King MIM Tour"
   - slug: "cobra/ltdx-irons"
     label: "Game-improvement sibling: Cobra LTDx"
 faq:

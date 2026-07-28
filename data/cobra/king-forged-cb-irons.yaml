@@ -68,8 +68,8 @@ sources:
 related_models:
   - slug: "cobra/king-forged-tec-irons"
     label: "Cobra's players-distance forging: Cobra KING Forged Tec"
-  - slug: "cobra/king-tour-irons"
-    label: "Later Cobra tour iron: Cobra KING Tour"
+  - slug: "cobra/king-mim-tour-irons"
+    label: "Later Cobra tour iron: Cobra King MIM Tour"
 faq:
   - q: "What is the loft of a Cobra KING Forged CB 7-iron?"
     a: "The Cobra KING Forged CB 7-iron has a loft of 34 degrees, a lie of 62.5 degrees and a length of 37.50 inches."

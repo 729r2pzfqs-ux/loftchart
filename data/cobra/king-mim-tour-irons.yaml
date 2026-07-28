@@ -79,9 +79,8 @@ sources:
   - "Note on offset: the source publishes offset in millimetres (3.8 mm down to 1.9 mm), converted to inches here."
   - "todays-golfer.com 'Cobra King Tour, CB and MB Irons (2023) Review' — identifies the KING MIM Tour as the predecessor of the 2023 King Tour and dates it to 2021, which is the year recorded here."
   - "Note: bounce is omitted — the source table did not carry a bounce column. Confidence is medium; the 2021 date comes from a review's reference to the model rather than a Cobra press release."
+  - "Conflicting date: mygolfspy.com 'Cobra KING Tour Irons' and todays-golfer.com 'Cobra King Tour Irons Review' both place the launch of the MIM iron in 2020, and retailers list it as a 2020 model. The year above follows the 2023-review dating; treat it as uncertain to within a year."
 related_models:
-  - slug: "cobra/king-tour-irons"
-    label: "Successor: Cobra King Tour"
   - slug: "cobra/king-forged-tec-irons"
     label: "Cobra's players-distance iron of the period: Cobra King Forged Tec"
 faq:
