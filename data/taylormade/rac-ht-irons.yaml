@@ -1,0 +1,108 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: rac HT
+slug: rac-ht-irons
+club_type: irons
+year_introduced: 2004
+year_discontinued: 2005
+category: game-improvement
+construction: investment cast
+material: stainless steel
+successor: null
+predecessor: null
+description: >
+  The rac HT (High Trajectory) was the maximum-launch game-improvement iron of
+  TaylorMade's 2004 rac range, sitting above the rac OS in forgiveness. Generous
+  offset, upright lies and negative bounce in the long irons are built around getting
+  the ball airborne easily, with rac feel technology carried over from the rest of the
+  family. Lofts match the rac OS at 33 degrees in the 7-iron and 45 in the pitching
+  wedge, over a 3-iron to sand wedge range. It was dropped when the 2005 rac line
+  slimmed to the Forged TP, LT and OS. Specs below are the men's standard steel-shaft
+  build; stock shafts were offered in S and R steel and S, R, M and L graphite.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 61.0
+    length: 38.75
+    offset: 0.276
+    bounce: -1.8
+    swing_weight: D1
+  - club: "4"
+    loft: 23.0
+    lie: 61.5
+    length: 38.25
+    offset: 0.264
+    bounce: -0.7
+    swing_weight: D1
+  - club: "5"
+    loft: 26.0
+    lie: 62.0
+    length: 37.75
+    offset: 0.248
+    bounce: -0.3
+    swing_weight: D1
+  - club: "6"
+    loft: 29.0
+    lie: 62.5
+    length: 37.25
+    offset: 0.236
+    bounce: 0.6
+    swing_weight: D1
+  - club: "7"
+    loft: 33.0
+    lie: 63.0
+    length: 36.75
+    offset: 0.224
+    bounce: 1.0
+    swing_weight: D1
+  - club: "8"
+    loft: 37.0
+    lie: 63.5
+    length: 36.25
+    offset: 0.209
+    bounce: 1.5
+    swing_weight: D1
+  - club: "9"
+    loft: 41.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.197
+    bounce: 2.1
+    swing_weight: D1
+  - club: "PW"
+    loft: 45.0
+    lie: 64.5
+    length: 35.5
+    offset: 0.185
+    bounce: 3.3
+    swing_weight: D2
+  - club: "AW"
+    loft: 50.0
+    lie: 64.5
+    length: 35.5
+    offset: 0.185
+    bounce: 3.9
+    swing_weight: D2
+  - club: "SW"
+    loft: 55.0
+    lie: 64.5
+    length: 35.25
+    offset: 0.079
+    bounce: 8.7
+    swing_weight: D3
+sources:
+  - "TaylorMade official rac HT product page, specifications table (loft, lie, bounce, offset in mm, graphite and steel lengths, flexes, swingweights, TNG grip), taylormadegolf.com/global/products/irons/RAC/HT/index.asp, February 2004 capture via web.archive.org"
+  - "year range: the page first appears in Wayback captures in late 2003/early 2004, and the model is absent from TaylorMade's 2005 rac irons catalog (05_rac_IRONS_SS.pdf), which lists only the Forged TP, LT and OS"
+related_models:
+  - slug: "taylormade/rac-os-irons"
+    label: "Companion game-improvement model: TaylorMade rac OS"
+  - slug: "taylormade/rac-lt-irons"
+    label: "Players cavityback in the same rac family: TaylorMade rac LT"
+faq:
+  - q: "What is the loft of a TaylorMade rac HT 7-iron?"
+    a: "The TaylorMade rac HT 7-iron has a loft of 33 degrees, with a 63-degree lie and a 36.75-inch steel-shaft length."
+  - q: "Why do the rac HT long irons have negative bounce?"
+    a: "TaylorMade published bounce angles of -1.8 to -0.3 degrees for the 3- through 5-irons. The slightly negative bounce keeps the wide-soled, high-launch head from sitting with its leading edge raised, helping clean contact from tight lies."
+  - q: "What is the difference between the rac HT and the rac OS?"
+    a: "Both share the same lofts, with a 33-degree 7-iron, but the HT (High Trajectory) uses an even more offset, higher-launching head design aimed at golfers who struggle to flight the ball, while the OS is the mainstream oversize model of the rac family."
+confidence: high

@@ -1,0 +1,99 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: Tour Preferred CB (2011)
+slug: tour-preferred-cb-2011-irons
+club_type: irons
+year_introduced: 2010
+year_discontinued: 2014
+category: players
+construction: cast/forged hybrid
+material: cast stainless steel with forged face
+successor: TP CB (2014)
+predecessor: null
+description: >
+  The Tour Preferred CB was the most forgiving model in the Tour Preferred trio
+  TaylorMade announced in autumn 2010 for its 2011 irons line, below the MB blade and
+  MC muscle-cavity. Its two-piece multi-material construction melds a thin forged face
+  with a cast, undercut cavity, giving it the highest MOI of TaylorMade's player's
+  irons of that season along with a hotter face than the MB and MC. The stock set runs
+  3-iron through a 50-degree approach wedge with a 33-degree 7-iron. Specs below are
+  the men's standard steel-shaft build.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 60.5
+    length: 38.75
+    offset: 0.199
+    swing_weight: D2
+  - club: "4"
+    loft: 23.0
+    lie: 61.0
+    length: 38.25
+    offset: 0.185
+    swing_weight: D2
+  - club: "5"
+    loft: 26.0
+    lie: 61.5
+    length: 37.75
+    offset: 0.171
+    swing_weight: D2
+  - club: "6"
+    loft: 29.0
+    lie: 62.0
+    length: 37.25
+    offset: 0.157
+    swing_weight: D2
+  - club: "7"
+    loft: 33.0
+    lie: 62.5
+    length: 36.75
+    offset: 0.144
+    swing_weight: D2
+  - club: "8"
+    loft: 37.0
+    lie: 63.0
+    length: 36.25
+    offset: 0.130
+    swing_weight: D2
+  - club: "9"
+    loft: 41.0
+    lie: 63.5
+    length: 35.75
+    offset: 0.116
+    swing_weight: D2
+  - club: "PW"
+    loft: 46.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.102
+    swing_weight: D3
+  - club: "AW"
+    loft: 50.0
+    lie: 64.5
+    length: 35.25
+    offset: 0.087
+    swing_weight: D3
+stock_shafts:
+  - name: "True Temper Dynamic Gold XP"
+    material: steel
+    flex: ["R", "S", "X"]
+  - name: "Fujikura TP 90 (S) / TP 80 (R)"
+    material: graphite
+sources:
+  - "TaylorMade official 2011 irons catalog p.15, TOUR PREFERRED CB spec table (loft, lie, offset in mm, flex, length, swingweight, Dynamic Gold XP steel and Fujikura TP 90/TP 80 graphite shafts, Tour Velvet 58R grip), taylormadegolf.com/docs/productspecs/Tour_Preferred_Irons.pdf via web.archive.org"
+  - "Announcement year: the model appears in TaylorMade's Fall 2010 catalog (TM_2010_FallCatalog-TPirons-16-19.pdf, archived). That earlier catalog prints the AW loft as 51 degrees; the final 2011 catalog's 50 degrees is used here."
+related_models:
+  - slug: "taylormade/tour-preferred-mb-2011-irons"
+    label: "Same 2011 Tour Preferred family: TaylorMade Tour Preferred MB"
+  - slug: "taylormade/tour-preferred-mc-2011-irons"
+    label: "Same 2011 Tour Preferred family: TaylorMade Tour Preferred MC"
+  - slug: "taylormade/tp-cb-irons"
+    label: "Successor: TaylorMade TP CB (2014)"
+faq:
+  - q: "What is the loft of a TaylorMade Tour Preferred CB (2011) 7-iron?"
+    a: "The 2011 TaylorMade Tour Preferred CB 7-iron has a loft of 33 degrees, with a 62.5-degree lie and a 36.75-inch steel-shaft length."
+  - q: "Are the 2011 Tour Preferred CB irons forged or cast?"
+    a: "Both. The construction melds a thin forged face with a cast, undercut stainless cavity body, so it delivers forged feel at impact with the stability and higher MOI of a deep cavityback."
+  - q: "How do the 2011 Tour Preferred CB lofts compare to the MC and MB?"
+    a: "The CB is the strongest-lofted of the trio, with a 33-degree 7-iron and 46-degree pitching wedge against 34 and 47 degrees for the MC and 35 and 47 degrees for the MB. It is also the only one of the three sold with a stock 50-degree approach wedge instead of a 2-iron."
+confidence: high

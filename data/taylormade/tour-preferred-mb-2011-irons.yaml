@@ -1,0 +1,98 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: Tour Preferred MB (2011)
+slug: tour-preferred-mb-2011-irons
+club_type: irons
+year_introduced: 2010
+year_discontinued: 2014
+category: blade
+construction: forged
+material: forged carbon steel
+successor: TP MB (2014)
+predecessor: null
+description: >
+  The Tour Preferred MB was the muscleback blade in the Tour Preferred trio TaylorMade
+  announced in autumn 2010 and sold as its 2011 irons line, above the MC muscle-cavity
+  and CB cavityback. It is a compact, minimal-offset forged blade produced with
+  TaylorMade's multi-step net forging process, with a precision-weighting port hidden
+  in the head to set swingweight without disturbing the centre of gravity. Lofts are
+  fully traditional, with a 35-degree 7-iron and a 47-degree pitching wedge across the
+  stock 2-iron through pitching wedge range. Specs below are the men's standard
+  steel-shaft build.
+specs:
+  - club: "2"
+    loft: 18.0
+    lie: 60.0
+    length: 39.25
+    offset: 0.138
+    swing_weight: D2.5
+  - club: "3"
+    loft: 21.0
+    lie: 60.5
+    length: 38.75
+    offset: 0.130
+    swing_weight: D2.5
+  - club: "4"
+    loft: 24.0
+    lie: 61.0
+    length: 38.25
+    offset: 0.118
+    swing_weight: D2.5
+  - club: "5"
+    loft: 27.0
+    lie: 61.5
+    length: 37.75
+    offset: 0.102
+    swing_weight: D2.5
+  - club: "6"
+    loft: 31.0
+    lie: 62.0
+    length: 37.25
+    offset: 0.087
+    swing_weight: D2.5
+  - club: "7"
+    loft: 35.0
+    lie: 62.5
+    length: 36.75
+    offset: 0.079
+    swing_weight: D2.5
+  - club: "8"
+    loft: 39.0
+    lie: 63.0
+    length: 36.25
+    offset: 0.071
+    swing_weight: D2.5
+  - club: "9"
+    loft: 43.0
+    lie: 63.5
+    length: 35.75
+    offset: 0.063
+    swing_weight: D2.5
+  - club: "PW"
+    loft: 47.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.055
+    swing_weight: D3.5
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+    flex: ["R", "S", "X"]
+sources:
+  - "TaylorMade official 2011 irons catalog p.13, TOUR PREFERRED MB spec table (loft, lie, offset in mm, flex, length, swingweight, Dynamic Gold shaft, Tour Velvet 58R grip), taylormadegolf.com/docs/productspecs/Tour_Preferred_Irons.pdf via web.archive.org (2015 capture of the demandware CDN copy)"
+  - "Announcement year: the same page layout appears in TaylorMade's Fall 2010 catalog (TM_2010_FallCatalog-TPirons-16-19.pdf, archived), so the line was announced in 2010 and marketed as the 2011 irons"
+related_models:
+  - slug: "taylormade/tour-preferred-mc-2011-irons"
+    label: "Same 2011 Tour Preferred family: TaylorMade Tour Preferred MC"
+  - slug: "taylormade/tour-preferred-cb-2011-irons"
+    label: "Same 2011 Tour Preferred family: TaylorMade Tour Preferred CB"
+  - slug: "taylormade/tp-mb-irons"
+    label: "Successor blade: TaylorMade TP MB (2014)"
+faq:
+  - q: "What is the loft of a TaylorMade Tour Preferred MB (2011) 7-iron?"
+    a: "The 2011 TaylorMade Tour Preferred MB 7-iron has a loft of 35 degrees, with a 62.5-degree lie and a 36.75-inch steel-shaft length."
+  - q: "Are the 2011 Tour Preferred MB irons forged?"
+    a: "Yes. The Tour Preferred MB is a one-piece forged muscleback finished with TaylorMade's net forging process, with a precision-weighting port used to set exact swingweights without moving the centre of gravity."
+  - q: "How do the 2011 Tour Preferred MB lofts compare to the MC and CB?"
+    a: "The MB runs 18 to 47 degrees from 2-iron to pitching wedge with a 35-degree 7-iron. The MC is one degree stronger through most of the set at 34 degrees in the 7-iron, and the CB is two degrees stronger again at 33 degrees, though all three share a 46-47-degree pitching wedge."
+confidence: high

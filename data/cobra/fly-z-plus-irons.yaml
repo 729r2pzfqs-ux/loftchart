@@ -1,0 +1,92 @@
+brand: Cobra
+brand_slug: cobra
+model: Fly-Z+
+slug: fly-z-plus-irons
+club_type: irons
+year_introduced: 2015
+year_discontinued: 2016
+category: players
+construction: forged multi-material with tungsten heel and toe inserts
+material: forged 1020 carbon steel with tungsten inserts and an aluminium/TPR backplate
+predecessor: Cobra BiO Cell+
+successor: Cobra KING Forged Tec
+description: >
+  The Fly-Z+ is the forged better-player model in Cobra's 2015 Fly-Z iron
+  family, sitting above the cast Fly-Z, Fly-Z XL and Fly-Z Pro. The 1020 carbon
+  steel head carries tungsten inserts in the heel and toe whose position moves
+  progressively through the set — higher-launching long irons, flatter-flighted
+  short irons — and a lightweight aluminium backplate encased in thermoplastic
+  rubber damps vibration together with a TPR cavity insert. Lofts are
+  traditional for a players iron, with a 33-degree 7-iron and 45-degree pitching
+  wedge. The stock set is eight clubs, 3-iron through pitching wedge, in steel
+  only with the KBS Tour shaft; a 50-degree gap wedge was catalogued. Cobra did
+  not publish offset figures for this set.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 60.5
+    length: 39.0
+    swing_weight: D3
+  - club: "4"
+    loft: 23.0
+    lie: 61.0
+    length: 38.5
+    swing_weight: D3
+  - club: "5"
+    loft: 26.0
+    lie: 61.5
+    length: 38.0
+    swing_weight: D3
+  - club: "6"
+    loft: 29.0
+    lie: 62.0
+    length: 37.5
+    swing_weight: D3
+  - club: "7"
+    loft: 33.0
+    lie: 62.5
+    length: 37.0
+    swing_weight: D3
+  - club: "8"
+    loft: 37.0
+    lie: 63.0
+    length: 36.5
+    swing_weight: D3
+  - club: "9"
+    loft: 41.0
+    lie: 63.5
+    length: 36.0
+    swing_weight: D3
+  - club: "PW"
+    loft: 45.0
+    lie: 64.0
+    length: 35.75
+    swing_weight: D4
+  - club: "GW"
+    loft: 50.0
+    lie: 64.0
+    length: 35.5
+    swing_weight: D4
+stock_shafts:
+  - name: "KBS Tour"
+    material: steel
+    weight: "115-125g"
+    flex: ["R+", "S+"]
+sources:
+  - "Cobra Golf official Fly-Z+ Forged Irons product page (cobragolf.com/fly-z-plus-forged-irons), archived 2015-03-06 via web.archive.org — retrieved directly; supplies the full Specifications table (loft, length, lie, steel swing weight, stock flex, 3-iron through GW), the 'STOCK SET COMPOSITION - 8 Clubs, Steel (Stiff+, Reg+): 3-PW' block, the tungsten-insert and aluminium/TPR damping descriptions and the KBS Tour R+/S+ shaft table. No offset column is published for this model."
+  - "GolfWRX 'Cobra Fly Z, Fly Z+ and Fly Z Pro Irons' launch coverage — identifies the head as five-times-forged 1020 carbon steel and places the Fly-Z+ as the forged better-player model of the 2015 family"
+related_models:
+  - slug: "cobra/fly-z-irons"
+    label: "Cast sibling: Cobra Fly-Z"
+  - slug: "cobra/bio-cell-plus-irons"
+    label: "Predecessor: Cobra BiO Cell+"
+  - slug: "cobra/king-forged-tec-irons"
+    label: "Successor: Cobra KING Forged Tec"
+faq:
+  - q: "What is the loft of a Cobra Fly-Z+ 7-iron?"
+    a: "The Cobra Fly-Z+ 7-iron has a loft of 33 degrees, a lie of 62.5 degrees and a length of 37 inches."
+  - q: "What clubs come in a stock Cobra Fly-Z+ set?"
+    a: "The stock set is eight clubs, 3-iron through pitching wedge, in steel with the KBS Tour shaft in R+ or S+ flex. A 50-degree gap wedge was also catalogued."
+  - q: "Is the Cobra Fly-Z+ forged or cast?"
+    a: "It is forged from 1020 carbon steel, with tungsten heel and toe inserts and an aluminium backplate encased in thermoplastic rubber. The other Fly-Z models are cast."
+confidence: high

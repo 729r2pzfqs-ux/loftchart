@@ -1,0 +1,119 @@
+brand: Cleveland
+brand_slug: cleveland
+model: 588 Altitude
+slug: 588-altitude-irons
+club_type: irons
+year_introduced: 2013
+year_discontinued: 2015
+category: game-improvement
+construction: full-hollow body with forged face and bendable hosel
+material: stainless steel hollow body with forged face
+predecessor: null
+successor: null
+description: >
+  The 588 Altitude is the easiest-to-hit member of Cleveland's 2013 588 iron
+  range, built for golfers with moderate swing speeds who struggle to flight
+  the ball. Every head is fully hollow, placing the centre of gravity at its
+  lowest and deepest point for maximum launch, with a forged face for ball
+  speed and feel and a bendable hosel that allows fitting adjustments of up to
+  2 degrees flat or 3 upright. Lofts are traditional — 31 degrees at the
+  7-iron, 44 at the pitching wedge — because the design flights the ball
+  easily without strong lofts, and the set is built light, about half an inch
+  longer than standard with an 85-gram steel shaft. Lengths and the D3 swing
+  weight below are the steel build; graphite builds run a quarter-inch longer
+  at D2. The gap and sand wedge complete the set at D4.
+specs:
+  - club: "3"
+    loft: 19.0
+    lie: 60.0
+    length: 39.75
+    offset: 0.090
+    bounce: 2.0
+    swing_weight: D3
+  - club: "4"
+    loft: 21.0
+    lie: 60.75
+    length: 39.125
+    offset: 0.090
+    bounce: 2.0
+    swing_weight: D3
+  - club: "5"
+    loft: 24.0
+    lie: 61.5
+    length: 38.5
+    offset: 0.080
+    bounce: 3.0
+    swing_weight: D3
+  - club: "6"
+    loft: 27.0
+    lie: 62.25
+    length: 37.875
+    offset: 0.080
+    bounce: 4.0
+    swing_weight: D3
+  - club: "7"
+    loft: 31.0
+    lie: 63.0
+    length: 37.25
+    offset: 0.080
+    bounce: 6.0
+    swing_weight: D3
+  - club: "8"
+    loft: 35.0
+    lie: 63.5
+    length: 36.75
+    offset: 0.070
+    bounce: 7.0
+    swing_weight: D3
+  - club: "9"
+    loft: 39.0
+    lie: 64.0
+    length: 36.25
+    offset: 0.070
+    bounce: 8.0
+    swing_weight: D3
+  - club: "PW"
+    loft: 44.0
+    lie: 64.5
+    length: 35.75
+    offset: 0.070
+    bounce: 8.0
+    swing_weight: D3
+  - club: "GW"
+    loft: 49.0
+    lie: 64.5
+    length: 35.5
+    offset: 0.070
+    bounce: 11.0
+    swing_weight: D4
+  - club: "SW"
+    loft: 54.0
+    lie: 64.5
+    length: 35.25
+    offset: 0.070
+    bounce: 11.0
+    swing_weight: D4
+stock_shafts:
+  - name: "Cleveland Traction 85"
+    material: steel
+    weight: "85g"
+  - name: "Cleveland Actionlite 55"
+    material: graphite
+    weight: "55g"
+sources:
+  - "GolfClubSpec.com Cleveland 588 Altitude entry (golfclubspec.com/iron_results.php?id=259) — full loft, lie, offset and bounce table for the 3-iron through sand wedge, with steel and graphite lengths and swing weights itemised in the notes (steel D3, GW/SW D4; graphite D2, GW/SW D3) and the Actionlite 55 / Traction 85 stock shafts. Steel lengths are used in the table above."
+  - "Today's Golfer and Golfmagic 588 Altitude reviews — corroborate the full-hollow construction, forged face, bendable hosel (2 degrees flat to 3 upright), the 27-degree/62.25-lie 6-iron and the CG Traction 85 stock shaft"
+  - "year_discontinued is approximate: Cleveland's 588 iron range left the line around 2015 without a direct like-for-like successor; the hollow easy-launch slot was next filled by the 2017 Launcher HB"
+related_models:
+  - slug: "cleveland/588-cb-irons"
+    label: "Forged sibling: Cleveland 588 CB"
+  - slug: "cleveland/launcher-hb-irons"
+    label: "Later hollow Cleveland iron: Launcher HB"
+faq:
+  - q: "What is the loft of a Cleveland 588 Altitude 7-iron?"
+    a: "The Cleveland 588 Altitude 7-iron has a loft of 31 degrees, a lie of 63 degrees and a steel-shaft length of 37.25 inches."
+  - q: "Are the Cleveland 588 Altitude irons adjustable?"
+    a: "The hosel is bendable, so a fitter can adjust lie up to 2 degrees flat or 3 degrees upright, and loft up to 2 degrees in either direction."
+  - q: "Who are the Cleveland 588 Altitude irons for?"
+    a: "They target golfers with moderate swing speeds who need help launching the ball: every head is fully hollow with a low, deep centre of gravity, and the set is built long and light with an 85-gram steel or 55-gram graphite shaft."
+confidence: medium

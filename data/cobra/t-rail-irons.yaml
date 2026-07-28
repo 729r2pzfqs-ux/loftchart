@@ -1,0 +1,103 @@
+brand: Cobra
+brand_slug: cobra
+model: T-Rail
+slug: t-rail-irons
+club_type: irons
+year_introduced: 2019
+year_discontinued: 2021
+category: super-game-improvement
+construction: hollow-body cast iron-hybrid with baffler rail sole
+material: stainless steel hollow body with a forged 455 stainless steel face insert
+predecessor: Cobra Baffler XL
+successor: Cobra T-Rail (2021)
+description: >
+  The T-Rail is Cobra's 2019 hybrid-iron set for moderate swing speeds, reviving
+  the split-rail Baffler sole on a fully hollow, wide-soled body with a forged
+  455 stainless face insert. The stock seven-club set replaces the 4-iron with a
+  21-degree 4-hybrid and runs 5-iron through pitching wedge, all in lightweight
+  graphite; steel was custom-order only, and gap and sand wedge heads plus 5 and
+  6 hybrids were catalogued. Lofts match Cobra's game-improvement irons at 30
+  degrees in the 7-iron and 44 in the pitching wedge, with generous offset that
+  tapers from 4.2 mm to 1.0 mm. Lengths and the C9 swing weight below are the
+  stock graphite build, and offsets are converted from Cobra's published
+  millimetre figures. A second-generation T-Rail followed in 2021.
+specs:
+  - club: "4"
+    loft: 21.0
+    lie: 61.0
+    length: 39.25
+    offset: 0.165
+    swing_weight: C9
+  - club: "5"
+    loft: 24.0
+    lie: 61.5
+    length: 38.5
+    offset: 0.150
+    swing_weight: C9
+  - club: "6"
+    loft: 27.0
+    lie: 62.0
+    length: 37.75
+    offset: 0.134
+    swing_weight: C9
+  - club: "7"
+    loft: 30.0
+    lie: 62.5
+    length: 37.25
+    offset: 0.118
+    swing_weight: C9
+  - club: "8"
+    loft: 34.0
+    lie: 63.0
+    length: 36.75
+    offset: 0.102
+    swing_weight: C9
+  - club: "9"
+    loft: 39.0
+    lie: 63.5
+    length: 36.25
+    offset: 0.087
+    swing_weight: C9
+  - club: "PW"
+    loft: 44.0
+    lie: 64.0
+    length: 36.0
+    offset: 0.071
+    swing_weight: C9
+  - club: "GW"
+    loft: 50.0
+    lie: 64.5
+    length: 35.75
+    offset: 0.055
+    swing_weight: C9
+  - club: "SW"
+    loft: 56.0
+    lie: 65.0
+    length: 35.5
+    offset: 0.039
+    swing_weight: C9
+stock_shafts:
+  - name: "COBRA Ultralite 50 / Ultralite 45"
+    material: graphite
+    weight: "55g"
+    flex: ["Lite", "R", "S"]
+  - name: "FST Ultralite (custom only)"
+    material: steel
+    weight: "97g"
+    flex: ["R", "S"]
+sources:
+  - "Cobra Golf official T-Rail Iron-Hybrid Set product page (cobragolf.com/t-rail-combo-set), archived 2019-11-13 via web.archive.org — retrieved directly; supplies the full iron and hybrid specification tables (loft, lie, offset in mm, length, graphite and steel swing weight, 4-iron through SW plus 4H/5H/6H), the 'STOCK SET COMPOSITION - 7 Clubs: One Hybrid 4H, Six Irons 5-PW (Graphite), Steel Irons Custom Only' block and the COBRA Ultralite / FST Ultralite shaft tables. Offsets are converted from the published millimetre figures (4.2 down to 1.0)."
+  - "2nd Swing Golf Cobra T-Rail Iron Set specification table — corroborates the loft, lie, length and C9 swing-weight values for the 4H and the 5-PW irons"
+related_models:
+  - slug: "cobra/baffler-xl-irons"
+    label: "Earlier rail-soled Cobra set: Baffler XL"
+  - slug: "cobra/f-max-superlite-irons"
+    label: "Contemporary lightweight Cobra iron: F-Max Superlite"
+faq:
+  - q: "What is the loft of a Cobra T-Rail 7-iron?"
+    a: "The Cobra T-Rail 7-iron has a loft of 30 degrees, a lie of 62.5 degrees and a stock graphite length of 37.25 inches."
+  - q: "What clubs come in a stock Cobra T-Rail set?"
+    a: "The stock set is seven clubs: a 21-degree 4-hybrid plus 5-iron through pitching wedge, all with lightweight graphite shafts. Gap and sand wedges and 5 and 6 hybrids were available, and steel shafts were custom-order only."
+  - q: "What makes the T-Rail different from a normal iron?"
+    a: "Each head is fully hollow with a wide sole carrying Cobra's split Baffler rails, which lower the centre of gravity and smooth turf interaction. It is built very light, with 55-gram graphite shafts and a C9 swing weight."
+confidence: high

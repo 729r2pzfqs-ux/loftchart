@@ -1,0 +1,117 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: 200 Steel
+slug: 200-steel-irons
+club_type: irons
+year_introduced: 2001
+year_discontinued: 2003
+category: game-improvement
+construction: investment cast
+material: 431 stainless steel with an Impact Pad cavity insert
+successor: rac OS
+predecessor: null
+description: >
+  The 200 Steel (officially the 200 Series irons) was TaylorMade's mainstream
+  game-improvement iron announced in late 2001 and sold as the 2002 line, applying the
+  research behind the premium 300 Series to a longer-bladed, perimeter-weighted head.
+  Cast from 431 stainless steel, it uses a low, deep centre of gravity for high
+  launch, an Impact Pad in the cavity to preserve ball speed and soften feel, moderate
+  offset, U grooves and radiused soles. Lofts are moderate for the era, with a
+  33-degree 7-iron and 45-degree pitching wedge over a 2-iron to sand wedge range.
+  Specs below are the men's standard steel-shaft build; a lightweight TaylorMade Lite
+  shaft option was also offered, in S, R and M flexes.
+specs:
+  - club: "2"
+    loft: 18.0
+    lie: 60.0
+    length: 39.25
+    offset: 0.256
+    bounce: -0.5
+    swing_weight: D1
+  - club: "3"
+    loft: 20.0
+    lie: 60.5
+    length: 38.75
+    offset: 0.256
+    bounce: 0.0
+    swing_weight: D1
+  - club: "4"
+    loft: 23.0
+    lie: 61.0
+    length: 38.25
+    offset: 0.236
+    bounce: 0.5
+    swing_weight: D1
+  - club: "5"
+    loft: 26.0
+    lie: 61.5
+    length: 37.75
+    offset: 0.217
+    bounce: 1.0
+    swing_weight: D1
+  - club: "6"
+    loft: 29.0
+    lie: 62.0
+    length: 37.25
+    offset: 0.197
+    bounce: 1.5
+    swing_weight: D1
+  - club: "7"
+    loft: 33.0
+    lie: 62.5
+    length: 36.75
+    offset: 0.173
+    bounce: 2.5
+    swing_weight: D1
+  - club: "8"
+    loft: 37.0
+    lie: 63.0
+    length: 36.25
+    offset: 0.146
+    bounce: 3.5
+    swing_weight: D1
+  - club: "9"
+    loft: 41.0
+    lie: 63.5
+    length: 35.75
+    offset: 0.122
+    bounce: 4.5
+    swing_weight: D1
+  - club: "PW"
+    loft: 45.0
+    lie: 64.0
+    length: 35.25
+    offset: 0.098
+    bounce: 5.5
+    swing_weight: D2
+  - club: "AW"
+    loft: 50.0
+    lie: 64.0
+    length: 35.25
+    offset: 0.079
+    bounce: 5.5
+    swing_weight: D2
+  - club: "SW"
+    loft: 55.0
+    lie: 64.0
+    length: 35.0
+    offset: 0.039
+    bounce: 10.5
+    swing_weight: D4.5
+sources:
+  - "TaylorMade official 200 Irons product page, specifications table (loft, lie, swingweight, bounce, offset in mm, graphite and steel lengths, S/R/M flexes, Crossline grip; 431 stainless and Impact Pad copy), taylormadegolf.com/global/products/irons/200/p_i_200_irons.asp, 2002 captures via web.archive.org"
+  - "4-iron lie: the page prints 61.1 degrees, breaking the otherwise uniform 0.5-degree lie ladder, and is treated here as a typo for 61.0"
+  - "Years: the 200 line first appears in Wayback captures of taylormadegolf.com in December 2001 as the 2002 range (a 2002 model year confirmed by period reviews, e.g. Golfmagic's 200 Steel listing); it was replaced when the rac range arrived for 2003"
+related_models:
+  - slug: "taylormade/rac-os-irons"
+    label: "Successor game-improvement iron: TaylorMade rac OS"
+  - slug: "taylormade/300-forged-irons"
+    label: "Premium forged sibling of the era: TaylorMade 300 Forged"
+faq:
+  - q: "What is the loft of a TaylorMade 200 Steel 7-iron?"
+    a: "The TaylorMade 200 Steel 7-iron has a loft of 33 degrees, with a 62.5-degree lie and a 36.75-inch steel-shaft length."
+  - q: "When did the TaylorMade 200 Steel irons come out?"
+    a: "TaylorMade announced the 200 Series in late 2001 and sold it as its 2002 game-improvement line, despite the model often being misdated earlier. It was replaced by the rac OS when the rac family launched for 2003."
+  - q: "What is the Impact Pad in the 200 Steel irons?"
+    a: "It is an insert placed in the cavity back that TaylorMade said maintains ball velocity on off-centre hits while producing a more solid sound and feel from the cast 431 stainless head."
+confidence: high

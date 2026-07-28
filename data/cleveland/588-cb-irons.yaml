@@ -1,0 +1,96 @@
+brand: Cleveland
+brand_slug: cleveland
+model: 588 Forged CB
+slug: 588-cb-irons
+club_type: irons
+year_introduced: 2013
+year_discontinued: 2015
+category: players
+construction: forged progressive cavity back
+material: forged 1025 carbon steel
+predecessor: null
+successor: null
+description: >
+  The 588 Forged CB is the cavity-back players iron in Cleveland's 2013 588
+  range, precision forged from 1025 carbon steel like its muscle-back sibling.
+  The compact, classic head adds a progressive cavity, a slightly longer blade,
+  thicker topline and a touch more offset than the 588 Forged MB, making it the
+  more forgiving of the two while keeping identical traditional lofts — 35
+  degrees at the 7-iron and 47 at the pitching wedge. Tour Zip Grooves with
+  laser milling handle spin. The set ran 2-iron through pitching wedge with
+  True Temper Dynamic Gold as the stock steel shaft, and Cleveland offered a
+  combo set pairing these long irons with MB short irons.
+specs:
+  - club: "2"
+    loft: 18.0
+    lie: 59.0
+    length: 39.25
+    offset: 0.150
+    swing_weight: D2
+  - club: "3"
+    loft: 21.0
+    lie: 59.5
+    length: 38.75
+    offset: 0.140
+    swing_weight: D2
+  - club: "4"
+    loft: 24.0
+    lie: 60.0
+    length: 38.25
+    offset: 0.130
+    swing_weight: D2
+  - club: "5"
+    loft: 27.0
+    lie: 60.5
+    length: 37.75
+    offset: 0.120
+    swing_weight: D2
+  - club: "6"
+    loft: 31.0
+    lie: 61.0
+    length: 37.25
+    offset: 0.110
+    swing_weight: D2
+  - club: "7"
+    loft: 35.0
+    lie: 62.0
+    length: 36.75
+    offset: 0.095
+    swing_weight: D2
+  - club: "8"
+    loft: 39.0
+    lie: 63.0
+    length: 36.25
+    offset: 0.080
+    swing_weight: D2
+  - club: "9"
+    loft: 43.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.070
+    swing_weight: D2
+  - club: "PW"
+    loft: 47.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.060
+    swing_weight: D3
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+sources:
+  - "GolfClubSpec.com Cleveland 588 Forged CB entry (golfclubspec.com/iron_results.php?id=260) — full loft, lie, length, offset and swing-weight table for the 2-iron through pitching wedge, year 2013. Confidence is medium because this is a compiled database rather than a Cleveland spec sheet."
+  - "Today's Golfer Cleveland 588 Forged CB review and InTheHoleGolf retail listing — corroborate the 1025 forged carbon steel construction, the progressive cavity with longer blade and thicker topline than the 588 Forged MB, and the Tour Zip Grooves"
+related_models:
+  - slug: "cleveland/588-mb-irons"
+    label: "Muscle-back sibling: Cleveland 588 MB"
+  - slug: "cleveland/588-altitude-irons"
+    label: "Game-improvement sibling: Cleveland 588 Altitude"
+faq:
+  - q: "What is the loft of a Cleveland 588 CB 7-iron?"
+    a: "The Cleveland 588 Forged CB 7-iron has a loft of 35 degrees, a lie of 62 degrees and a length of 36.75 inches."
+  - q: "Are the Cleveland 588 CB irons forged?"
+    a: "Yes — each head is precision forged from 1025 carbon steel, the same material as the 588 Forged MB muscle back."
+  - q: "Who are the Cleveland 588 CB irons for?"
+    a: "Better players who want a compact forged head with a little help: the progressive cavity, longer blade and thicker topline make it more forgiving than the MB blade while the lofts and lengths stay identical."
+confidence: medium

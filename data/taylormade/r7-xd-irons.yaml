@@ -1,0 +1,86 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: r7 XD
+slug: r7-xd-irons
+club_type: irons
+year_introduced: 2009
+year_discontinued: 2010
+category: game-improvement
+construction: investment cast
+material: stainless steel with a soft aluminum dampening web
+successor: null
+predecessor: null
+description: >
+  The r7 XD was the draw-biased iron of TaylorMade's 2009 r7 XD range, built around
+  Draw-Weighted Technology that encourages faster face rotation through impact.
+  An ultra-deep, wide cavity, maximum offset, a wide cambered sole and an Inverted
+  Cone face make it one of the most slice-correcting and forgiving irons TaylorMade
+  offered, and a soft aluminum dampening web tunes the feel. The compact stock set
+  runs 5-iron to pitching wedge plus a 54-degree sand wedge, on a lightweight Uniflex
+  steel shaft; graphite was offered in S, R, M and L flexes. Specs below are the men's
+  standard steel-shaft build.
+specs:
+  - club: "5"
+    loft: 25.0
+    lie: 62.0
+    length: 37.75
+    offset: 0.248
+    swing_weight: D1
+  - club: "6"
+    loft: 28.0
+    lie: 62.5
+    length: 37.25
+    offset: 0.236
+    swing_weight: D1
+  - club: "7"
+    loft: 32.0
+    lie: 63.0
+    length: 36.75
+    offset: 0.224
+    swing_weight: D1
+  - club: "8"
+    loft: 36.0
+    lie: 63.5
+    length: 36.25
+    offset: 0.209
+    swing_weight: D1
+  - club: "9"
+    loft: 40.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.197
+    swing_weight: D1
+  - club: "PW"
+    loft: 44.0
+    lie: 64.5
+    length: 35.5
+    offset: 0.185
+    swing_weight: D2
+  - club: "SW"
+    loft: 54.0
+    lie: 64.5
+    length: 35.25
+    offset: 0.079
+    swing_weight: D4
+stock_shafts:
+  - name: "TaylorMade Uniflex steel"
+    material: steel
+    flex: ["Uniflex", "R"]
+sources:
+  - "TaylorMade official r7 XD Irons sell sheet (© 2009), R7 XD IRONS specifications table (loft, lie, offset in mm, men's/women's graphite lengths, steel length, Uniflex/R steel flexes, swingweights, TaylorMade Arrow Reminder grip; Draw-Weighted Technology and aluminum dampening web feature copy), taylormadegolf.com/docs/productspecs/r7XD_Irons_SS.pdf via web.archive.org"
+  - "year_discontinued reflects the r7 XD line being dropped from TaylorMade's range by the 2010 Burner SuperLaunch era; the sell sheet is the last official document for the model"
+related_models:
+  - slug: "taylormade/r7-draw-irons"
+    label: "Earlier draw-biased TaylorMade iron: r7 Draw"
+  - slug: "taylormade/r7-irons"
+    label: "Core model of the r7 iron family: TaylorMade r7"
+  - slug: "taylormade/burner-superlaunch-irons"
+    label: "Later high-launch forgiveness iron: TaylorMade Burner SuperLaunch"
+faq:
+  - q: "What is the loft of a TaylorMade r7 XD 7-iron?"
+    a: "The TaylorMade r7 XD 7-iron has a loft of 32 degrees, with a 63-degree lie and a 36.75-inch steel-shaft length."
+  - q: "Are the TaylorMade r7 XD irons draw-biased?"
+    a: "Yes, strongly. Draw-Weighted Technology places mass to speed up face rotation through impact, and combined with maximum offset the design is intended to turn a slice into a straight shot or draw."
+  - q: "What clubs came in the r7 XD iron set?"
+    a: "The stock set was compact: 5-iron through pitching wedge plus a 54-degree sand wedge. There was no stock 3-iron, 4-iron or gap wedge, reflecting the set's focus on easy-to-hit clubs for higher handicappers."
+confidence: high

@@ -1,0 +1,120 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: Tour Burner
+slug: tour-burner-irons
+club_type: irons
+year_introduced: 2008
+year_discontinued: 2009
+category: game-improvement
+construction: investment cast
+material: stainless steel with a 2.2 mm thin face
+successor: Burner (2009)
+predecessor: null
+description: >
+  The Tour Burner iron paired the 2008 Burner family's distance technology with a
+  cleaner, more compact look than the oversized Burner XD. A thin 2.2-millimetre face
+  with Inverted Cone Technology drives ball speed, while the multi-functional sole
+  combines moderate width and a bevelled trailing edge for a low CG without digging.
+  Lofts are strong for the period, with a 33-degree 7-iron and 46-degree pitching
+  wedge, and the full range runs from a 2-iron to a lob wedge. Specs below are the
+  men's standard steel-shaft build.
+specs:
+  - club: "2"
+    loft: 18.0
+    lie: 60.5
+    length: 39.25
+    offset: 0.240
+    swing_weight: D2
+  - club: "3"
+    loft: 20.0
+    lie: 61.0
+    length: 38.75
+    offset: 0.224
+    swing_weight: D2
+  - club: "4"
+    loft: 23.0
+    lie: 61.5
+    length: 38.25
+    offset: 0.209
+    swing_weight: D2
+  - club: "5"
+    loft: 26.0
+    lie: 62.0
+    length: 37.75
+    offset: 0.193
+    swing_weight: D2
+  - club: "6"
+    loft: 29.0
+    lie: 62.5
+    length: 37.25
+    offset: 0.177
+    swing_weight: D2
+  - club: "7"
+    loft: 33.0
+    lie: 63.0
+    length: 36.75
+    offset: 0.161
+    swing_weight: D2
+  - club: "8"
+    loft: 37.0
+    lie: 63.5
+    length: 36.25
+    offset: 0.146
+    swing_weight: D2
+  - club: "9"
+    loft: 41.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.130
+    swing_weight: D2
+  - club: "PW"
+    loft: 46.0
+    lie: 64.5
+    length: 35.5
+    offset: 0.114
+    swing_weight: D3
+  - club: "AW"
+    loft: 50.0
+    lie: 64.5
+    length: 35.5
+    offset: 0.114
+    swing_weight: D3
+  - club: "SW"
+    loft: 55.0
+    lie: 64.5
+    length: 35.25
+    offset: 0.039
+    swing_weight: D5
+  - club: "LW"
+    loft: 60.0
+    lie: 64.5
+    length: 35.0
+    offset: 0.039
+    swing_weight: D6
+stock_shafts:
+  - name: "TaylorMade Burner 105"
+    material: steel
+    weight: "105 g"
+    flex: ["R", "S", "X"]
+  - name: "TaylorMade Burner RE*AX 65"
+    material: graphite
+    weight: "65 g"
+    flex: ["M", "R", "S"]
+sources:
+  - "TaylorMade official Tour Burner Irons sell sheet, TOUR BURNER IRONS specifications table (loft, lie, offset in mm, graphite and steel lengths, swingweights, Burner 105 steel and Burner RE*AX 65 graphite shafts, Tour Velvet grip), taylormadegolf.com/docs/productspecs/TourBurner_Iron_SS.pdf via web.archive.org"
+  - "Launch timing: Golfmagic news item 'TaylorMade adds Tour Burner Irons' reported the irons joining the 2008 Burner range with an April on-sale date"
+related_models:
+  - slug: "taylormade/burner-irons"
+    label: "Successor: TaylorMade Burner (2009)"
+  - slug: "taylormade/burner-xd-irons"
+    label: "Larger, more forgiving companion: TaylorMade Burner XD"
+  - slug: "taylormade/tour-preferred-2009-irons"
+    label: "Player's iron in the same lineup: TaylorMade Tour Preferred (2009)"
+faq:
+  - q: "What is the loft of a TaylorMade Tour Burner 7-iron?"
+    a: "The TaylorMade Tour Burner 7-iron has a loft of 33 degrees, with a 63-degree lie and a 36.75-inch steel-shaft length."
+  - q: "What is the difference between the Tour Burner and the Burner XD?"
+    a: "The Tour Burner is the smaller, cleaner-looking of the pair, with a medium topline, moderate offset and an all-steel head. The Burner XD uses an extra-large head with a titanium face, much more offset and lofts around three degrees stronger, at 30 degrees in the 7-iron against 33 for the Tour Burner."
+  - q: "Are the Tour Burner lofts strong?"
+    a: "Yes for 2008: the 33-degree 7-iron and 46-degree pitching wedge sit about two degrees stronger than the traditional player's lofts of the era, which TaylorMade paired with the thin high-COR face for distance."
+confidence: high
