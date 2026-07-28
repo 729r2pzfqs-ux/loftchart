@@ -8,7 +8,7 @@ year_discontinued: 2024
 category: game-improvement
 construction: cast hollow-body multi-material
 material: hollow head with a forged face and second-generation MainFrame milling
-successor: null
+successor: Srixon ZXi4
 predecessor: Srixon ZX4
 description: >
   The ZX4 Mk II is the most forgiving model in Srixon's second ZX iron generation, announced
@@ -103,10 +103,12 @@ sources:
   - "Same Dunlop Sports US page, technology copy: hollow head design with extra-strong lofts, MainFrame described as 'a variable thickness pattern of grooves, channels, and cavities carefully milled into the backside of ZX4 Mk II, ZX5 Mk II, and ZX Mk II Utility Iron faces', the Tour V.T. sole and progressive grooves, plus the KBS Tour Lite, Nippon Neo 950, UST Mamiya Recoil Dart 65 and Diamana ZX stock shaft tables and the Golf Pride Tour Velvet 360 52g grip"
   - "Announcement date of 11 January 2023 and retail availability from 20 January 2023 per Srixon's 'Srixon Unveils the All-New ZX Mk II Irons' press release and Today's Golfer launch coverage; year_discontinued is 2024, the announcement year of the ZXi line that replaced it"
   - "Category assigned as game-improvement rather than super-game-improvement on the same basis used for the original ZX4: Srixon's own model comparison chart places ZX4 Mk II at mid-high handicap with high forgiveness (not its highest tier), and the head keeps a 6.0 mm topline and an 80.9 mm 7-iron blade length. Some retailer and review copy labels it super-game-improvement"
-  - "The successor field is set to null rather than naming the Srixon ZXi4, because no ZXi4 record exists in this database"
+  - "Succession: the Srixon ZXi4, unveiled with the ZXi family on 25 November 2024 and at US retail from January 2025, replaced the ZX4 Mk II with an unchanged loft chart"
 related_models:
   - slug: "srixon/zx4-irons"
     label: "Predecessor: Srixon ZX4"
+  - slug: "srixon/zxi4-irons"
+    label: "Successor: Srixon ZXi4"
   - slug: "srixon/zx5-mkii-irons"
     label: "Distance model in the same line: Srixon ZX5 Mk II"
   - slug: "srixon/zx7-mkii-irons"

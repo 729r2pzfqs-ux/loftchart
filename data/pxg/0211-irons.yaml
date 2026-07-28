@@ -1,0 +1,106 @@
+brand: PXG
+brand_slug: pxg
+model: "0211"
+slug: 0211-irons
+club_type: irons
+year_introduced: 2019
+year_discontinued: 2021
+category: players-distance
+construction: investment cast hollow body with a COR2 core
+material: cast body with a 0.058-inch HT1770 maraging steel face over a COR2 polymer core
+successor: PXG 0211 (2021)
+predecessor: null
+description: >
+  The original 0211, launched on 21 May 2019, was PXG's first attempt at a more
+  affordable iron — $195 per club in steel and $210 in graphite, against $349 or
+  more for the flagship 0311 line. It kept the core GEN2 0311 technology package: a
+  hollow body filled with COR2 polymer, a 0.058-inch (about 1.5 mm) HT1770 maraging
+  steel face that PXG billed as the thinnest in golf, and a 360-degree undercut
+  channel around the face that PXG said enlarged the functional face area by 15 per
+  cent. The savings came from the body, which is investment cast rather than forged
+  and milled, and from dropping the adjustable tungsten perimeter weights of the
+  0311s. Lofts are moderately strong, with a 31-degree 7-iron and a 45-degree
+  pitching wedge, and PXG published specs from the 4-iron all the way through
+  55-degree sand and 60-degree lob wedges, stamping the scoring clubs W, G, S and L
+  — listed here as PW, GW, SW and LW. The second-generation 0211, announced on 7
+  January 2021 as part of the 2021 0211 Collection, replaced it.
+specs:
+  - club: "4"
+    loft: 21.5
+    lie: 61.0
+    length: 38.875
+    offset: 0.235
+    bounce: 6.0
+  - club: "5"
+    loft: 24.0
+    lie: 61.5
+    length: 38.25
+    offset: 0.195
+    bounce: 7.0
+  - club: "6"
+    loft: 27.0
+    lie: 62.0
+    length: 37.625
+    offset: 0.165
+    bounce: 8.0
+  - club: "7"
+    loft: 31.0
+    lie: 62.5
+    length: 37.0
+    offset: 0.13
+    bounce: 9.0
+  - club: "8"
+    loft: 35.0
+    lie: 63.0
+    length: 36.5
+    offset: 0.095
+    bounce: 10.0
+  - club: "9"
+    loft: 40.0
+    lie: 63.5
+    length: 36.0
+    offset: 0.07
+    bounce: 11.0
+  - club: "PW"
+    loft: 45.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.05
+    bounce: 12.0
+  - club: "GW"
+    loft: 50.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.045
+    bounce: 12.0
+  - club: "SW"
+    loft: 55.0
+    lie: 64.0
+    length: 35.25
+    offset: 0.034
+    bounce: 12.0
+  - club: "LW"
+    loft: 60.0
+    lie: 64.0
+    length: 35.0
+    offset: 0.02
+    bounce: 10.0
+sources:
+  - "PXG's own 0211 iron page (pxg.com/clubs/irons/0211), archive.org capture of 7 March 2020 — the full 'PXG 0211 IRONS SPECS' table (loft, lie, length, bounce and offset for the 4-iron through the L wedge, stamped W, G, S and L), plus the technology copy: hollow body filled with COR2 polymer, 1.5 mm HT1770 maraging steel face, 360-degree undercut channel claimed to enlarge the functional face area 15 per cent, and PXG's own comparison table against the forged GEN1 0311 irons. The configurator on the same capture also offered a 3-iron, but PXG published no specs for it, so it is not recorded."
+  - "golfwrx.com 'PXG launches more affordable, cast 0211 irons' — on-sale date of Tuesday 21 May 2019, pricing of $195 per club in steel and $210 in graphite, the investment cast body, and the note that the tungsten and titanium perimeter weights of the 0311s were dropped to reach the price."
+  - "todays-golfer.com 'PXG reveal half priced 0211 iron' (May 2019) — corroborates the 2019 launch and the positioning under the 0311 line."
+  - "year_discontinued is 2021 because PXG announced the second-generation 0211 on 7 January 2021 as part of the 2021 0211 Collection (Forbes, 'PXG Releases New 0211 Irons, Woods And Hybrids'; pluggedingolf.com 'PXG Announces 2021 0211 Club Line')."
+  - "Note: the cast body's alloy was not published, so the material field names no specific steel. Swing weight was not published and PXG built every set to order from a shaft menu, so no stock shaft is recorded."
+related_models:
+  - slug: "pxg/0311-p-gen5-irons"
+    label: "Flagship players-distance line: PXG 0311 P GEN5"
+faq:
+  - q: "What is the loft of a PXG 0211 7-iron?"
+    a: "The original 2019 PXG 0211 7-iron has a loft of 31 degrees, a lie of 62.5 degrees and a length of 37.0 inches."
+  - q: "What is the difference between the PXG 0211 and 0311 irons?"
+    a: "The 0211 kept the 0311 GEN2's hollow body, COR2 polymer core and 0.058-inch maraging steel face, but its body is investment cast rather than forged and milled and it has no adjustable tungsten perimeter weights — which is how PXG sold it at $195 per club instead of $349 and up."
+  - q: "When were the original PXG 0211 irons released?"
+    a: "They went on sale on 21 May 2019. The second-generation 0211, announced on 7 January 2021, replaced them."
+  - q: "What clubs were offered in the PXG 0211?"
+    a: "PXG published specs for the 4-iron through a 60-degree lob wedge, including a 45-degree pitching wedge, 50-degree gap wedge and 55-degree sand wedge, stamped W, G, S and L. Sets were built to order rather than sold in fixed compositions."
+confidence: high

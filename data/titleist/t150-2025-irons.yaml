@@ -1,0 +1,91 @@
+brand: Titleist
+brand_slug: titleist
+model: T150 (2025)
+slug: t150-2025-irons
+club_type: irons
+year_introduced: 2025
+year_discontinued: null
+category: players
+construction: forged, progressive dual-cavity with split tungsten weighting
+material: forged with split high-density tungsten weighting
+successor: null
+predecessor: Titleist T150
+description: >
+  The second-generation T150 is the faster players model of the 2025 T-Series,
+  announced in summer 2025 with pre-orders from 10 July and retail availability
+  from 21 August 2025. Its loft ladder carries over unchanged from the 2023
+  T150 — a 32-degree 7-iron and a 44-degree pitching wedge — but because the
+  2025 T100 went one degree stronger, the two models now sit a single degree
+  apart instead of two. The forged head is slightly larger than the T100 and
+  uses the same progressive dual-cavity construction with split high-density
+  tungsten, extending the muscle channel through the 7-iron rather than only
+  the long irons, with a variable face thickness design and more aggressive
+  mid and short-iron grooves. Lie and length are shared per club number across
+  the whole 2025 T-Series. Heads run 3-iron through a 48-degree W wedge
+  (recorded here as GW to match the earlier T150 record), with 4-PW the stock
+  set. Titleist does not publish offset, bounce or swing weight for the 2025
+  T-Series, so those keys are omitted.
+specs:
+  - club: "3"
+    loft: 19.0
+    lie: 61.0
+    length: 39.0
+  - club: "4"
+    loft: 22.0
+    lie: 61.5
+    length: 38.5
+  - club: "5"
+    loft: 25.0
+    lie: 62.0
+    length: 38.0
+  - club: "6"
+    loft: 28.0
+    lie: 62.5
+    length: 37.5
+  - club: "7"
+    loft: 32.0
+    lie: 63.0
+    length: 37.0
+  - club: "8"
+    loft: 36.0
+    lie: 63.5
+    length: 36.5
+  - club: "9"
+    loft: 40.0
+    lie: 64.0
+    length: 36.0
+  - club: "PW"
+    loft: 44.0
+    lie: 64.0
+    length: 35.75
+  - club: "GW"
+    loft: 48.0
+    lie: 64.0
+    length: 35.5
+stock_shafts:
+  - name: "True Temper AMT Tour Silver"
+    material: steel
+    flex: ["R300", "S300", "X100"]
+sources:
+  - "Titleist official T150 product page (titleist.com/product/t150/560C.html) — the shared 2025 T-Series iron specification table giving the T150 loft row (19 through 48 degrees, 3-iron to W) plus the lie (61 to 64 degrees) and length (39.00 to 35.50 inches) rows common to all models, the AMT Tour Silver R300/S300/X100 shaft listing, the Titleist Universal 360 grip, the 4-P default set selector and the 3-through-W available-irons list"
+  - "Same Titleist page, technology copy: forged player's shape slightly larger than T100, improved muscle channel through the 7-iron, Split High-Density Tungsten with Progressive Dual-Cavity Construction, Variable Face Thickness (VFT), improved Variable Bounce Sole and 1-degree-stronger lofts than T100"
+  - "2ndswing.com Titleist 2025 T150 iron set page — independent corroboration of every loft, lie and length above, plus the True Temper AMT Tour Silver stock shaft and 4-PW stock make-up"
+  - "golf.com 'Titleist 2025 T-Series irons: 7 things to know' — pre-orders 10 July 2025, retail 21 August 2025"
+  - "Titleist does not publish offset, bounce or swing weight for the 2025 T-Series spec table; those keys are omitted rather than estimated"
+related_models:
+  - slug: "titleist/t150-irons"
+    label: "Predecessor: Titleist T150"
+  - slug: "titleist/t100-2025-irons"
+    label: "Tour sibling: Titleist T100 (2025)"
+  - slug: "titleist/t250-irons"
+    label: "Players-distance sibling: Titleist T250"
+faq:
+  - q: "What is the loft of a Titleist T150 (2025) 7-iron?"
+    a: "The 2025 T150 7-iron has a loft of 32 degrees, with a 63-degree lie and a 37-inch standard steel length."
+  - q: "Did the T150 lofts change for 2025?"
+    a: "No. The 2025 T150 keeps the 2023 ladder exactly — 19 degrees at the 3-iron, 32 at the 7-iron, 44 at the pitching wedge — but the gap to the T100 shrank to one degree because the 2025 T100 went a degree stronger."
+  - q: "What is the difference between the T150 and the T250?"
+    a: "The T150 is a forged players iron with a dual-cavity back and moderate forgiveness; the T250 is the larger players-distance model with a hollow high-strength steel body, a forged L-Face insert and stronger lofts (30.5 degrees at the 7-iron against 32)."
+  - q: "What clubs come in a stock Titleist T150 (2025) set?"
+    a: "The stock set is 4-iron through pitching wedge, with a 3-iron and a 48-degree W wedge available to extend it."
+confidence: high

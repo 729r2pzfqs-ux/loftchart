@@ -119,6 +119,10 @@ related_models:
     label: "Predecessor: Srixon ZX5 Mk II"
   - slug: "srixon/zx5-irons"
     label: "Earlier model in the same family: Srixon ZX5"
+  - slug: "srixon/zxi4-irons"
+    label: "Game-improvement model in the same line: Srixon ZXi4"
+  - slug: "srixon/zxi7-irons"
+    label: "Players model in the same line: Srixon ZXi7"
 faq:
   - q: "What is the loft of a Srixon ZXi5 7-iron?"
     a: "The Srixon ZXi5 7-iron has a loft of 31 degrees, with a 62-degree lie and a published steel-shaft length of 37.25 inches."

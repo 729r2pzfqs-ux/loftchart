@@ -1,0 +1,104 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: Qi Max HL
+slug: qi-max-hl-irons
+club_type: irons
+year_introduced: 2026
+year_discontinued: null
+category: super-game-improvement
+construction: investment cast Cap Back design with a Thru-Slot Speed Pocket
+material: cast stainless steel multi-material head with an ECHO Damper polymer insert behind the face
+successor: null
+predecessor: TaylorMade Qi HL
+description: >
+  The Qi Max HL is the high-launch, lightweight companion to the 2026 Qi Max,
+  replacing the Qi HL in the same role: it shares the Qi Max's lies and lengths
+  but weakens the lofts by up to three degrees — 31 degrees at the 7-iron against
+  28 — and lightens the whole build, with lighter head, shaft and grip bringing
+  the steel swing weight down to C9 against the Qi Max's D1. The head is a larger,
+  more offset profile than the Qi Max, with a thicker top line, and it carries the
+  same Cap Back construction, ECHO Damper, Thru-Slot Speed Pocket and FLTD CG
+  progression. The published set runs from a 23.5-degree 5-iron to a 55-degree
+  sand wedge with 5-PW the stock build, and it is one of the few TaylorMade irons
+  offered in a dedicated women's build with its own swing weights. It launched
+  alongside the Qi Max, with presale on 8 January 2026 and retail on 29 January
+  2026. Offsets are converted from TaylorMade's published millimetre figures, and
+  swing weights below are the men's steel build (graphite runs C7, the women's
+  build C0-C1).
+specs:
+  - club: "5"
+    loft: 23.5
+    lie: 62.0
+    length: 38.5
+    offset: 0.205
+    swing_weight: C9
+  - club: "6"
+    loft: 27.0
+    lie: 62.5
+    length: 37.88
+    offset: 0.189
+    swing_weight: C9
+  - club: "7"
+    loft: 31.0
+    lie: 63.0
+    length: 37.25
+    offset: 0.169
+    swing_weight: C9
+  - club: "8"
+    loft: 35.5
+    lie: 63.5
+    length: 36.75
+    offset: 0.146
+    swing_weight: C9
+  - club: "9"
+    loft: 40.0
+    lie: 64.0
+    length: 36.25
+    offset: 0.126
+    swing_weight: C9
+  - club: "PW"
+    loft: 44.5
+    lie: 64.5
+    length: 35.75
+    offset: 0.110
+    swing_weight: C9
+  - club: "AW"
+    loft: 50.0
+    lie: 64.5
+    length: 35.5
+    offset: 0.087
+    swing_weight: C9
+  - club: "SW"
+    loft: 55.0
+    lie: 64.5
+    length: 35.25
+    offset: 0.055
+    swing_weight: D0
+stock_shafts:
+  - name: "KBS Max Lite"
+    material: steel
+    flex: ["R", "S"]
+  - name: "TaylorMade x KBS Reax HL 45 / 50"
+    material: graphite
+    flex: ["L", "A", "R", "S"]
+sources:
+  - "todays-golfer.com 'TaylorMade Qi Max irons: Everything you need to know' — full Qi Max HL specification table (loft, lie, offset in millimetres, length, and steel, graphite and women's swing weights for the 5-iron through sand wedge), the 8 January 2026 presale and 29 January 2026 retail dates, the KBS Max Lite / Reax HL stock shafts with the SuperStroke Crossline Lite 360 grip, and the description of the HL as up to 3 degrees weaker in loft with lighter head, shaft and grip. Offset is converted to inches here."
+  - "2ndswing.com TaylorMade Qi Max HL Iron Set specification table — independently matching loft, lie, length, offset and swing weight for the 5-iron through sand wedge, the 5-PW stock set makeup, cast construction, super-game-improvement categorisation, and the same stock shafts including the 45-gram L-flex Reax HL."
+  - "golfstead.com Qi Max HL entry — the Cap Back multi-material construction spanning the cavity, the ECHO Damper soft polymer insert behind the face, the Thru-Slot Speed Pocket and the FLTD CG progression."
+  - "golfmagic.com Qi Max / Qi Max HL review — the HL's up-to-3-degree weaker lofts, thicker top line, added offset and lighter component suite aimed at slower swingers, seniors and ladies."
+  - "Confidence is medium rather than high because taylormadegolf.com was unreachable when this file was researched: the numbers are TaylorMade's published specifications as reproduced identically by two independent secondary sources, not read directly from the manufacturer's page."
+related_models:
+  - slug: "taylormade/qi-hl-irons"
+    label: "Predecessor: TaylorMade Qi HL"
+  - slug: "taylormade/qi-max-irons"
+    label: "Standard model: TaylorMade Qi Max"
+faq:
+  - q: "What is the loft of a TaylorMade Qi Max HL 7-iron?"
+    a: "The TaylorMade Qi Max HL 7-iron has a loft of 31 degrees, with a 63-degree lie and a 37.25-inch steel-shaft length — three degrees weaker than the standard Qi Max 7-iron."
+  - q: "What is the difference between the TaylorMade Qi Max and Qi Max HL?"
+    a: "HL stands for high launch. Lies and lengths are the same, but every Qi Max HL loft is weaker — up to three degrees, with 31 against 28 at the 7-iron — and the head, shaft and grip are all lighter, dropping the steel swing weight from D1 to C9. The HL head is also larger, with a thicker top line and more offset."
+  - q: "What clubs come in a stock TaylorMade Qi Max HL set?"
+    a: "The stock set is 5-iron through pitching wedge. The published range runs from a 23.5-degree 5-iron to a 55-degree sand wedge, with the 50-degree approach wedge and the sand wedge sold separately — there is no 4-iron or lob wedge."
+  - q: "Is there a women's version of the Qi Max HL?"
+    a: "Yes. TaylorMade publishes a dedicated women's build with its own swing weights (C0 through the set, C1 in the sand wedge) and a 45-gram L-flex TaylorMade x KBS Reax HL graphite shaft."
+confidence: medium

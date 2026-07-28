@@ -1,0 +1,97 @@
+brand: Callaway
+brand_slug: callaway
+model: Quantum Max OS
+slug: quantum-max-os-irons
+club_type: irons
+year_introduced: 2026
+year_discontinued: null
+category: super-game-improvement
+construction: two-piece Modern 360° Undercut cavity body with a Progressive Tri-Sole and urethane microspheres
+material: steel body with a next-generation Ai-optimized face (Callaway does not publish the alloy)
+successor: null
+predecessor: null
+description: >
+  Quantum Max OS is the super-game-improvement model in Callaway's 2026 Quantum iron
+  family, announced on 16 January 2026 and at US retail from 27 February 2026. It
+  uses the same two-piece Modern 360° Undercut cavity construction, Progressive
+  Tri-Sole and Ai-optimized face as the standard Quantum Max, but in an oversized,
+  higher-launching head with considerably more offset — 4.80 mm at the 7-iron
+  against the Max's 3.71 mm. The loft, lie and length chart is identical to the
+  Quantum Max: 29 degrees at the 7-iron, a 42-degree pitching wedge, and heads from
+  the 4-iron to a 55-degree sand wedge in right and left hand. An HL spec adds two
+  degrees of loft at every head, and Callaway publishes a separate women's length
+  column one inch shorter per club. The figures below are the standard-spec men's
+  steel build.
+specs:
+  - club: "4"
+    loft: 19.0
+    lie: 60.375
+    length: 39.125
+    offset: 0.250
+  - club: "5"
+    loft: 22.0
+    lie: 61.0
+    length: 38.50
+    offset: 0.232
+  - club: "6"
+    loft: 25.0
+    lie: 61.625
+    length: 37.875
+    offset: 0.213
+  - club: "7"
+    loft: 29.0
+    lie: 62.25
+    length: 37.25
+    offset: 0.189
+  - club: "8"
+    loft: 33.0
+    lie: 62.875
+    length: 36.625
+    offset: 0.165
+  - club: "9"
+    loft: 37.0
+    lie: 63.5
+    length: 36.00
+    offset: 0.140
+  - club: "PW"
+    loft: 42.0
+    lie: 63.75
+    length: 35.75
+    offset: 0.110
+  - club: "AW"
+    loft: 47.0
+    lie: 64.0
+    length: 35.50
+    offset: 0.087
+  - club: "GW"
+    loft: 51.0
+    lie: 64.0
+    length: 35.50
+    offset: 0.065
+  - club: "SW"
+    loft: 55.0
+    lie: 64.0
+    length: 35.25
+    offset: 0.044
+stock_shafts:
+  - name: "True Temper Elevate 85"
+    material: steel
+sources:
+  - "Callaway 2026 club spec chart PDF (callawaymedia.com/wp-content/uploads/2026/02/2026_Club-Spec-Charts_final.pdf), Quantum Max OS Iron table — loft, HL spec loft, lie, length, women's length and offset in millimetres for the 4-iron through sand wedge, all listed RH/LH. Offset is converted to inches here (7-iron 4.80 mm = 0.189 in)."
+  - "callawaygolf.com Quantum Max OS Irons product page (https://www.callawaygolf.com/golf-clubs/irons/irons-2026-quantum-max-os.html) — matching loft/lie/length/offset and HL-spec table, the 4-SW set composition in right and left hand, the True Temper Elevate 85 steel stock shaft and Lamkin Crossline 360 Black Cap (50g) grip, and the Modern 360° Undercut Cavity / Progressive Tri-Sole / Ai-optimized face / oversized-shape technology copy. Only the default steel shaft configuration was visible, so flex options are omitted."
+  - "Callaway Quantum press release, 16 January 2026 (callawaymedia.com/wp-content/uploads/2026/01/Quantum-Press-Release.pdf) — announcement date, US iron retail date of 27 February 2026, and the description of Max OS as the super-game-improvement offering in the Quantum iron line. Bounce and swing weight are not published anywhere consulted and are omitted rather than estimated."
+related_models:
+  - slug: "callaway/quantum-max-irons"
+    label: "Standard model in the same line: Callaway Quantum Max"
+  - slug: "callaway/quantum-max-fast-irons"
+    label: "Lightweight model in the same line: Callaway Quantum Max Fast"
+faq:
+  - q: "What is the loft of a Callaway Quantum Max OS 7-iron?"
+    a: "The Callaway Quantum Max OS 7-iron has a loft of 29 degrees, a lie of 62.25 degrees and a steel-shaft length of 37.25 inches. The optional HL spec raises the 7-iron to 31 degrees."
+  - q: "What is the difference between the Quantum Max OS and the standard Quantum Max?"
+    a: "The lofts, lies and lengths are identical. The Max OS is oversized with more offset — 4.80 mm (0.189 in) at the 7-iron against the Max's 3.71 mm (0.146 in) — and is aimed at players wanting maximum forgiveness and launch."
+  - q: "What is the Quantum Max OS HL spec?"
+    a: "A factory option that adds two degrees of loft to every head — 21 degrees at the 4-iron through a 57-degree sand wedge — for higher launch at slower swing speeds."
+  - q: "What clubs come in a Callaway Quantum Max OS set?"
+    a: "Callaway publishes the chart from the 4-iron to a 55-degree sand wedge, ten heads in total, all available right and left handed."
+confidence: high

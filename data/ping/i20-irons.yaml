@@ -4,7 +4,7 @@ model: i20
 slug: i20-irons
 club_type: irons
 year_introduced: 2012
-year_discontinued: 2013
+year_discontinued: 2014
 category: players
 construction: investment cast
 material: 17-4 stainless steel
@@ -106,9 +106,12 @@ sources:
   - "thesandtrap.com 'PING i20 Irons Review' — the full length, loft, lie, offset, bounce and swing-weight table for the 3-iron to lob wedge."
   - "2ndswing.com Ping i20 Iron Set page — independently corroborates the offset column club for club (0.24 at the 3-iron down to 0.03 at the lob wedge). Its length and lie columns do not match the review's and were not used; they duplicate the values 2ndswing also prints for the i10 and i15."
   - "swingyard.com 'PING Irons by Year' — lists 2012 as the i20's year, and the i25 as its replacement. Ping showed the i20 in the autumn before that retail year, so some listings date it 2011."
+  - "Note: year_discontinued is 2014 — Ping announced the successor i25 line on 2 January 2014 (Ping 2014-line press release, Golf Channel coverage), per the successor-announcement convention."
 related_models:
   - slug: "ping/i15-irons"
     label: "Predecessor: Ping i15"
+  - slug: "ping/i25-irons"
+    label: "Successor: Ping i25"
   - slug: "ping/g20-irons"
     label: "Game-improvement sibling: Ping G20"
   - slug: "ping/s56-irons"

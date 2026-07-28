@@ -4,11 +4,11 @@ model: Apex DCB
 slug: apex-dcb-irons
 club_type: irons
 year_introduced: 2021
-year_discontinued: null
+year_discontinued: 2024
 category: game-improvement
 construction: forged, multi-material
 material: forged 1025 mild carbon steel body with an A.I.-designed Flash Face Cup and tungsten in the long and mid irons
-successor: null
+successor: Callaway Apex Ai300
 predecessor: null
 description: >
   The Apex DCB launched alongside the Apex 21 as the forgiving member of the 2021 Apex
@@ -78,9 +78,12 @@ sources:
   - "2nd Swing Golf Callaway Apex DCB 21 iron set spec table (2ndswing.com/golf-clubs/iron-sets/callaway-apex-dcb-21-iron-set) — independently matches on every loft, lie and length"
   - "The steel shaft is recorded without a gram weight: Today's Golfer lists Elevate ETS 85g for the DCB while 2nd Swing names the shaft without a weight, and the 85g figure is single-sourced. Neither published spec table lists a 3-iron or a sand wedge."
   - "Offset ladder added from the Callaway Demandware ProductSpecs feed (ProductSpecs-Get), the manufacturer-authored source behind the View Specs panel; Callaway publishes these in millimetres and the inch figures here are converted"
+  - "Succession: Callaway announced the Apex Ai300 on 12 August 2024, and MyGolfSpy and GolfWRX launch coverage describe it as taking over the DCB's forgiving forged-Apex slot, so year_discontinued is set to 2024"
 related_models:
   - slug: "callaway/apex-21-irons"
     label: "Sibling: Callaway Apex 21"
+  - slug: "callaway/apex-ai300-irons"
+    label: "Successor: Callaway Apex Ai300"
 faq:
   - q: "What is the loft of a Callaway Apex DCB 7-iron?"
     a: "The Callaway Apex DCB 7-iron has a loft of 30 degrees, with a 62.5 degree lie and a 37 inch standard steel length."

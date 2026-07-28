@@ -1,0 +1,95 @@
+brand: Nike
+brand_slug: nike
+model: Slingshot
+slug: slingshot-irons
+club_type: irons
+year_introduced: 2003
+year_discontinued: 2006
+category: game-improvement
+construction: cast cavity back with Slingback bridge
+material: stainless steel with a cold-rolled Custom 455 stainless face
+successor: Nike Slingshot OSS
+predecessor: null
+description: >
+  The Slingshot is the original model in Nike's longest-running iron family, designed by
+  Tom Stites and built around the feature that named it: a Slingback bridge bar that
+  stretches across the back cavity, moving weight low, deep and toward the heel in the
+  long irons and progressively higher and toward the toe as the set shortens. The face is
+  cold-rolled Custom 455 stainless steel, CNC-milled flat, on a wide-soled cavity body.
+  Lofts are moderate for a game-improvement set of its era, with a 34-degree 7-iron and a
+  46-degree pitching wedge. Nike's own spec chart runs 2-iron through sand wedge: the
+  men's stock set is 3-PW, with the 2-iron, 50-degree A-wedge and 55-degree sand wedge
+  sold individually, and a women's 4-SW set built one inch shorter. Stock shafts were
+  Nike's Speed Step lightweight steel and a constant-weight Slingshot graphite. Nike's
+  Slingshot mini-site was live by October 2003 and the set made Golf Digest's inaugural
+  2004 Hot List, so it is commonly catalogued as a 2004 model; year_introduced records
+  the 2003 public debut per the repository convention.
+specs:
+  - club: "2"
+    loft: 18.0
+    lie: 58.5
+    length: 39.75
+  - club: "3"
+    loft: 20.0
+    lie: 59.5
+    length: 39.25
+  - club: "4"
+    loft: 23.0
+    lie: 60.5
+    length: 38.75
+  - club: "5"
+    loft: 26.0
+    lie: 61.5
+    length: 38.25
+  - club: "6"
+    loft: 30.0
+    lie: 62.5
+    length: 37.75
+  - club: "7"
+    loft: 34.0
+    lie: 63.0
+    length: 37.25
+  - club: "8"
+    loft: 38.0
+    lie: 63.5
+    length: 36.75
+  - club: "9"
+    loft: 42.0
+    lie: 64.0
+    length: 36.25
+  - club: "PW"
+    loft: 46.0
+    lie: 64.5
+    length: 36.0
+  - club: "AW"
+    loft: 50.0
+    lie: 64.5
+    length: 36.0
+  - club: "SW"
+    loft: 55.0
+    lie: 65.0
+    length: 35.75
+stock_shafts:
+  - name: "Nike Speed Step lightweight steel"
+    material: steel
+    flex: ["R", "S", "X"]
+  - name: "Nike Constant Weight Slingshot graphite"
+    material: graphite
+    weight: "low-to-mid 70g depending on flex"
+    flex: ["R", "S", "X"]
+sources:
+  - "Nike's own Slingshot specification chart, decoded from the specs.swf Flash file archived from nikegolf's Slingshot mini-site (web.archive.org capture of nike.com/nikegolf/slingshot/specs.swf). The chart supplies every loft, lie and men's length above for 2-iron through SW, plus the women's length row (3-iron 38.25in down to SW 34.75in, no 2-iron), the standard-offering rows (men's 3-PW; men's 2-iron, AW and SW individually; women's 4-SW with women's 3-iron and AW individually; steel marked NA for the women's flex column), the custom options (+1/2in length, lie +2/-2 degrees) and the note that all options come in right and left hand"
+  - "Same decoded Nike chart, shaft copy: the Constant Weight Speed Step lightweight steel shaft ('30% lighter than traditional steel shafts' with a soft tip profile), the Constant Weight Slingshot graphite shaft ('lightweight - low to mid 70 grams depending on flex', a distinct shaft per clubhead), a sub-60-gram women's graphite, and the Slingshot grip. Flex columns are Xtra Stiff, Stiff, Regular Mid Kick, Regular Low Kick and Women's; the two Regular kick profiles are collapsed to R above"
+  - "Wayback CDX index: the Nike Slingshot mini-site (nike.com/nikegolf/slingshot) was captured live on 9 October 2003, including a ?specs page, which is the basis for year_introduced 2003. Golf Digest's 'Nike's timeline in golf' notes the cavity-backed Slingshot was named to the (inaugural, 2004) Golf Digest Hot List, and period reviews (equip2golf, Today's Golfer, Golflink) treat it as a 2004-season product"
+  - "equip2golf.com 'Nike Slingshot Iron Review' — the cold-rolled Custom 455 stainless face milled flat to within .002in, the Tom Stites design attribution, the 3-PW set composition and the $799 steel / $899 graphite pricing. The Sand Trap's June 2006 Slingshot OSS review calls the OSS an update of 'last year's Nike Slingshot', supporting the 2006 succession used for year_discontinued"
+  - "Confidence is high because the per-club numbers come from Nike's own published chart; the chart is an archived Flash asset rather than an HTML spec table, so the decode was cross-checked against the identical loft/lie/length ladder circulated for the original Slingshot by third-party spec aggregators"
+faq:
+  - q: "What is the loft of a Nike Slingshot 7-iron?"
+    a: "The Nike Slingshot 7-iron has a loft of 34 degrees, with a 63-degree lie and a 37.25-inch steel-shaft length."
+  - q: "What clubs came in a stock Nike Slingshot set?"
+    a: "The men's stock set was 3-iron through pitching wedge, in steel or graphite. The 2-iron, the 50-degree A-wedge and the 55-degree sand wedge were sold individually, and a women's 4-iron-through-sand-wedge set was offered in graphite, built one inch shorter per club."
+  - q: "When did the original Nike Slingshot irons come out?"
+    a: "Nike's Slingshot mini-site was live by October 2003 and the set was named to Golf Digest's inaugural 2004 Hot List, so it is usually catalogued as a 2004 model. It was replaced by the Slingshot OSS in 2006."
+  - q: "What made the Nike Slingshot design distinctive?"
+    a: "The Slingback bridge — a bar spanning the back cavity that let Nike move weight low, deep and toward the heel in the long irons for easier launch, shifting progressively higher and toward the toe in the short irons for control. It also gave the irons their unconventional look at address."
+confidence: high

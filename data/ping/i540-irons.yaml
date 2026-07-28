@@ -1,0 +1,110 @@
+brand: Ping
+brand_slug: ping
+model: i540
+slug: i540-irons
+club_type: irons
+year_introduced: 2026
+year_discontinued: null
+category: players-distance
+construction: forged hollow body with a maraging steel face
+material: hollow 17-4 stainless body with a forged variable-thickness maraging steel face and tungsten sole weighting
+successor: null
+predecessor: Ping i530
+description: >
+  The i540 is Ping's players-distance iron, launched on 10 March 2026 as the
+  replacement for the i530. It keeps the hollow-body, blade-style formula but the
+  forged variable-thickness maraging steel face is about 9 percent thinner than the
+  i530's, and tungsten weights sit along the sole of the 4- through 7-irons to lower
+  the centre of gravity. Two additions are new to the model: Ping's patent-pending
+  inR-Air technology, an internal air chamber that tunes frequency for better sound
+  and feel in a hollow head, and an i-Beam brace across the cavity for structural
+  support. Lofts, lies, bounce and swing weights carry over from the i530 unchanged —
+  a 29-degree 7-iron and 42-degree pitching wedge — though the published lengths of
+  the 4- through 6-irons run about a quarter to three-eighths of an inch longer, and
+  Power Spec and Retro Spec loft options are offered. Ping's colour-code (dot) system
+  sets lie angle relative to standard; the lies below are the BLACK (standard) lies
+  quoted at standard length.
+specs:
+  - club: "4"
+    loft: 19.0
+    lie: 60.5
+    length: 39.25
+    offset: 0.19
+    bounce: 6.0
+    swing_weight: D1
+  - club: "5"
+    loft: 22.0
+    lie: 61.0
+    length: 38.5
+    offset: 0.16
+    bounce: 7.0
+    swing_weight: D1
+  - club: "6"
+    loft: 25.5
+    lie: 61.5
+    length: 37.75
+    offset: 0.13
+    bounce: 8.0
+    swing_weight: D1
+  - club: "7"
+    loft: 29.0
+    lie: 62.0
+    length: 37.0
+    offset: 0.1
+    bounce: 9.0
+    swing_weight: D1
+  - club: "8"
+    loft: 33.0
+    lie: 62.8
+    length: 36.5
+    offset: 0.08
+    bounce: 10.5
+    swing_weight: D1
+  - club: "9"
+    loft: 37.0
+    lie: 63.5
+    length: 36.0
+    offset: 0.06
+    bounce: 12.0
+    swing_weight: D1.5
+  - club: "PW"
+    loft: 42.0
+    lie: 64.1
+    length: 35.5
+    offset: 0.04
+    bounce: 13.0
+    swing_weight: D2
+  - club: "UW"
+    loft: 47.0
+    lie: 64.1
+    length: 35.5
+    offset: 0.03
+    bounce: 13.0
+    swing_weight: D2
+stock_shafts:
+  - name: "True Temper Dynamic Gold Mid 100"
+    material: steel
+    weight: "105g"
+    flex: ["R", "S"]
+  - name: "Ping ALTA CB Blue"
+    material: graphite
+    weight: "65-82g"
+sources:
+  - "Ping's own i540 product page, Specifications table (ping.com/en-us/golf-clubs/irons/i540-iron) — supplied every length, loft, lie, offset, bounce and swing weight above for the 4-iron through UW, the note that 'Lie angle is based on Black Color Code at standard length', and the shaft list (Dynamic Gold Mid 100 and ALTA CB Blue among eleven options, the others including Ping AWT 3.0, KBS Tour, Nippon N.S. Pro Modus3 Tour 105/115, True Temper Elevate MPH 95, Ping ALTA Quick and UST Recoil Dart)."
+  - "todays-golfer.com 'Ping i540 irons: Everything you need to know' — launch date of 10 March 2026, hollow 17-4 stainless body with a forged face 9% lighter/thinner than the i530's, tungsten weighting along the sole of the 4-7 irons, the inR-Air air-chamber cavity and i-Beam cavity brace, and a cross-check of the 7-iron at 29 degrees, 62.0-degree lie and 37.0-inch length. Dynamic Gold Mid 100 (R300, S300) steel and ALTA CB Blue (SR, R, S) graphite named as the stock shafts."
+  - "golfreviewsguide.com 'Ping i540 Irons 2026' — corroborated the 4-iron-through-UW range (19 to 47 degrees), the March 10 2026 launch date, the inR-Air and i-Beam descriptions and the Power Spec / Retro Spec loft options."
+  - "Note: the published 4-6 iron lengths (39.25/38.5/37.75) are longer than the i530's (38.875/38.25/37.625) while the 7-iron down is unchanged; the 39.25-inch 4-iron matches the convention on Ping's current G440 spec sheet. Lofts, lies, bounce and swing weights are identical to the i530 table on ping.com."
+  - "Note: year_discontinued is null and successor is null — the i540 is a current model with no successor announced in the sources retrieved."
+related_models:
+  - slug: "ping/i530-irons"
+    label: "Predecessor: Ping i530"
+  - slug: "ping/i240-irons"
+    label: "Ping's players iron of the same period: Ping i240"
+faq:
+  - q: "What is the loft of a Ping i540 7-iron?"
+    a: "The Ping i540 7-iron has a loft of 29 degrees, a standard (black dot) lie of 62.0 degrees and a steel-shaft length of 37.0 inches — the same as the i530 it replaced."
+  - q: "When were Ping i540 irons released?"
+    a: "Ping launched the i540 on 10 March 2026 as the successor to the i530."
+  - q: "What is the difference between the Ping i540 and the i530?"
+    a: "The lofts, lies, bounce and swing weights are unchanged. The i540's forged maraging steel face is about 9 percent thinner, tungsten weights move along the sole of the 4-7 irons, and the head adds Ping's inR-Air air-chamber technology and an i-Beam cavity brace for sound and feel."
+confidence: high

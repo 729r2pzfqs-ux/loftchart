@@ -77,6 +77,8 @@ related_models:
     label: "Predecessor: Mizuno JPX-923 Hot Metal"
   - slug: "mizuno/jpx-925-forged-irons"
     label: "The forged model of the same generation: Mizuno JPX-925 Forged"
+  - slug: "mizuno/jpx-925-hot-metal-pro-irons"
+    label: "Compact sibling with identical lofts: Mizuno JPX-925 Hot Metal Pro"
 faq:
   - q: "What is the loft of a Mizuno JPX 925 Hot Metal 7-iron?"
     a: "The Mizuno JPX 925 Hot Metal 7-iron has a loft of 28 degrees, a lie of 62.0 degrees and a length of 37.25 inches."

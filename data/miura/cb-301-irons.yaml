@@ -1,0 +1,81 @@
+brand: Miura
+brand_slug: miura
+model: CB-301
+slug: cb-301-irons
+club_type: irons
+year_introduced: 2019
+year_discontinued: 2023
+category: players-distance
+construction: forged cavity back with variable sole and cavity thickness
+material: S25C soft carbon steel, forged in Himeji, Japan
+successor: Miura CB-302
+predecessor: Miura PP-9003
+description: >
+  The CB-301, announced on 15 January 2019, was the largest and most
+  distance-oriented cavity back Miura had produced to that point — the
+  company's launch release called it the longest forged cavity back in its
+  history and its first fully forged cavity back since the PP-9003 of 2011 —
+  aimed at players who wanted the Himeji forging in a more forgiving head. Each iron
+  carries a variable sole and cavity thickness so the center of gravity is
+  tuned by loft, and the lofts are the strongest of the Miura irons of its era
+  — a 32-degree 7-iron and 44-degree pitching wedge, with the stock range
+  running 4-iron through a 48-degree gap wedge. Miura removed the model from
+  its lineup around the March 2023 launch of the mid-size CB-302, which took
+  over the same loft structure. Miura sells heads through authorized fitters
+  and builds sets to order, so no stock shaft is recorded.
+specs:
+  - club: "4"
+    loft: 22.0
+    lie: 61.0
+    length: 38.5
+  - club: "5"
+    loft: 25.0
+    lie: 61.5
+    length: 38.0
+  - club: "6"
+    loft: 28.0
+    lie: 62.0
+    length: 37.5
+  - club: "7"
+    loft: 32.0
+    lie: 62.5
+    length: 37.0
+  - club: "8"
+    loft: 36.0
+    lie: 63.0
+    length: 36.5
+  - club: "9"
+    loft: 40.0
+    lie: 63.5
+    length: 36.0
+  - club: "PW"
+    loft: 44.0
+    lie: 64.0
+    length: 35.75
+  - club: "GW"
+    loft: 48.0
+    lie: 64.0
+    length: 35.5
+sources:
+  - "Miura official CB-301 spec chart — the miuragolf.com/products/cb-301 page (archive.org capture of 7 August 2020) serves its specification tab as an image, cb-301-specs.jpg, still hosted on Miura's own Shopify CDN (cdn.shopify.com/s/files/1/0280/3210/6575/files/cb-301-specs.jpg): 4-iron through gap wedge, lofts 22/25/28/32/36/40/44/48, lies 61.0 to 64.0 (GW 64.0), face progression 1.0 to 4.0 mm, head weights 250 to 295 g, lengths 38.50 down to 35.50 inches. The archived page also carries the variable sole and cavity thickness copy and the $280-per-head price."
+  - "Tour Shop Fresno and Usher Golf / chipandputt.com (authorized Miura dealers) CB-301 spec tables — corroborate every loft, lie, length and head weight, plus the S25C soft carbon steel material (the archived Miura page prints the garbled 'S2C'). Usher Golf alone lists the gap wedge lie as 64.5 degrees; 64.0 is recorded here per Miura's own chart."
+  - "PR Newswire 'Miura Golf Launches New CB-301 Line of Cavity Back Irons', 15 January 2019 — the announcement date, the longest-forged-cavity-back and largest-sweet-spot claims, the first-fully-forged-cavity-back-since-the-PP9003 (2011) lineage behind the predecessor field, hand-forging in Himeji, and the satin nickel chrome finish."
+  - "golfwrx.com and firstcallgolf.com, March 2023 — announcement of the mid-size CB-302 on 14 March 2023, which fixes year_discontinued at 2023; the CB-301 page has since been removed from miuragolf.com."
+  - "Note: offset, bounce and swing weight are omitted (Miura publishes face progression in mm, not offset). Lengths are Miura's published standard assembly lengths, but Miura sells heads component-style through fitters, so built lengths vary per order. No stock shaft: Miura builds to order."
+related_models:
+  - slug: "miura/cb-302-irons"
+    label: "Successor: Miura CB-302"
+  - slug: "miura/tc-201-irons"
+    label: "Smaller tour cavity of the same era: Miura TC-201"
+  - slug: "miura/mb-101-irons"
+    label: "Muscle-back at the other end of the line: Miura MB-101"
+faq:
+  - q: "What is the loft of a Miura CB-301 7-iron?"
+    a: "The Miura CB-301 7-iron has a loft of 32 degrees, a lie of 62.5 degrees and a length of 37.0 inches."
+  - q: "Is the Miura CB-301 discontinued?"
+    a: "Yes. Miura announced the mid-size CB-302 in March 2023 and the CB-301 subsequently left the miuragolf.com lineup, though dealers continued to build remaining heads to order."
+  - q: "What clubs were available in the Miura CB-301?"
+    a: "4-iron through a 48-degree gap wedge, with a 44-degree pitching wedge — the strongest lofts in the Miura iron range of its era."
+  - q: "What did the Miura CB-301 replace?"
+    a: "Miura's launch release called it the company's first fully forged cavity back since the PP-9003 of 2011. It was succeeded by the mid-size CB-302, announced in March 2023."
+confidence: high

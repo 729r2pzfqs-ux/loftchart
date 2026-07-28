@@ -1,0 +1,87 @@
+brand: New Level
+brand_slug: new-level
+model: 623-M
+slug: 623-m-irons
+club_type: irons
+year_introduced: 2018
+year_discontinued: 2025
+category: players
+construction: forged muscle back with a milled tuning slot
+material: forged 1020 carbon steel, CNC milled after forging
+successor: null
+predecessor: null
+description: >
+  The 623-M was the tour iron of New Level's early lineup — the model founder Eric
+  Burch cites as the company's first iron played on professional tours — and it was
+  in reviewers' hands by December 2018. The head is a compact muscle design forged
+  from 1020 carbon steel and CNC milled after forging, with a thin topline, minimal
+  offset, a slightly wider-than-average sole and a milled tuning slot in the muscle
+  that lowers the centre of gravity for more launch than a conventional blade.
+  Lofts are traditional: a 33-degree 7-iron and a 45-degree pitching wedge across
+  the stock 4-PW composition. New Level sells direct and through fitters and builds
+  every set to order from a large shaft menu, so no stock shaft is recorded. The
+  standard model left the range as the 702 series took over in 2025; a matte-black
+  623-M "Dead Golfer Edition", a 2023 collaboration with TRUE Linkswear built to
+  these same standard specs, remained on newlevelgolf.com after the standard
+  chrome model was gone.
+specs:
+  - club: "4"
+    loft: 23.0
+    lie: 60.5
+    length: 38.5
+    offset: 0.110
+    bounce: 0.0
+  - club: "5"
+    loft: 26.0
+    lie: 61.0
+    length: 38.0
+    offset: 0.110
+    bounce: 1.0
+  - club: "6"
+    loft: 29.0
+    lie: 61.5
+    length: 37.5
+    offset: 0.098
+    bounce: 1.0
+  - club: "7"
+    loft: 33.0
+    lie: 62.0
+    length: 37.0
+    offset: 0.098
+    bounce: 2.0
+  - club: "8"
+    loft: 37.0
+    lie: 62.5
+    length: 36.5
+    offset: 0.079
+    bounce: 3.0
+  - club: "9"
+    loft: 41.0
+    lie: 63.0
+    length: 36.0
+    offset: 0.075
+    bounce: 4.0
+  - club: "PW"
+    loft: 45.0
+    lie: 63.5
+    length: 35.75
+    offset: 0.075
+    bounce: 5.0
+sources:
+  - "New Level Golf official 623-M Dead Golfer Edition product page (newlevelgolf.com/products/dead-golfer-iron-set) — full manufacturer spec table for 4-PW (loft, lie, offset, bounce, length, 1020 CS material). The page states the edition is 'built to standard loft and lie specs', i.e. these are the standard 623-M numbers. Offsets are published in millimetres (2.8 down to 1.9) and converted to inches here."
+  - "2nd Swing Golf spec table for the New Level 623 Forged (623-M) iron set (2ndswing.com/golf-clubs/iron-sets/new-level-623-forged-iron-set) — identical loft/lie/length/offset/bounce table for the standard chrome model, corroborating the manufacturer page, plus the 1020 carbon steel forging, thin topline and milled tuning slot copy."
+  - "GolfWRX forum review 'New Level Golf 623 M Forged Iron Review' as republished by fogolf.com, dated 11 December 2018 — establishes the model was at retail by late 2018, which is why year_introduced reads 2018."
+  - "Note: year_discontinued 2025 is inferred — the 702-MB announced in 2025 took the muscle-back slot and the standard 623-M no longer appears on newlevelgolf.com as of July 2026; New Level publishes no discontinuation dates. No stock shaft or swing weight is recorded because New Level builds every set to order from its shaft menu."
+related_models:
+  - slug: "new-level/623-cb-irons"
+    label: "Cavity-back stablemate: New Level 623-CB"
+  - slug: "new-level/902-os-irons"
+    label: "New Level's forgiving forged iron: 902-OS"
+faq:
+  - q: "What is the loft of a New Level 623-M 7-iron?"
+    a: "The New Level 623-M 7-iron has a loft of 33 degrees, a lie of 62 degrees and a length of 37 inches."
+  - q: "Is the New Level 623-M a blade?"
+    a: "Nearly — it is a compact forged muscle back with a thin topline and minimal offset, but a milled tuning slot in the muscle and a slightly wider sole lower the centre of gravity, so it launches higher and plays a touch more forgiving than a conventional blade."
+  - q: "What is the 623-M Dead Golfer Edition?"
+    a: "A 2023 limited collaboration with TRUE Linkswear: the same 623-M head in a matte black finish, built only to the standard loft and lie specs listed here because bending the finished head would blemish the coating."
+confidence: high

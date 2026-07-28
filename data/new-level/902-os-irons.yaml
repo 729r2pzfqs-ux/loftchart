@@ -1,0 +1,95 @@
+brand: "New Level"
+brand_slug: "new-level"
+model: "902-OS"
+slug: "902-os-irons"
+club_type: "irons"
+year_introduced: 2022
+year_discontinued: 2025
+category: "players-distance"
+construction: "forged"
+material: "forged carbon steel (1020 per New Level's spec table, 1025 in retail copy) with a rear precision weighting screw"
+predecessor: null
+successor: null
+description: >
+  The 902-OS Forged was the oversized players-distance model from New Level Golf, the
+  direct-to-consumer maker in Scottsdale, Arizona, built as a larger heel-to-toe version of
+  its original 902 Forged iron for players wanting the balance between a player's iron and
+  forgiveness. The head is one-piece forged carbon steel — 1020 on New Level's
+  own per-club spec table, though retail copy says soft 1025 — and
+  carries a removable precision-weighting screw in the back of the iron that New Level's
+  builders use to control swing weight - the company publishes no stock swing weights because
+  it has no stock configuration, and every set is assembled to order from a shaft menu
+  (KBS Tour Lite, KBS Tour, Nippon Modus and True Temper Dynamic Gold options among others)
+  rather than with a single stock shaft. Lofts are moderately strong for the category, with a
+  31-degree 7-iron and 43-degree pitching wedge, and heads ran 4-iron through a 47-degree
+  approach wedge at about $130 per club. It placed 3rd overall in MyGolfSpy's 2023 players
+  distance iron test, tying as best for feel. New Level marketed it as a brand-new offering
+  for 2022; the model was retired around the launch of the 2025 702 series, after which its
+  spec sheet moved to New Level's Archives page with only leftover left-handed stock listed.
+specs:
+  - club: "4"
+    loft: 21.0
+    lie: 60.0
+    length: 38.5
+    offset: 0.138
+    bounce: 1.0
+  - club: "5"
+    loft: 24.0
+    lie: 60.5
+    length: 38.0
+    offset: 0.118
+    bounce: 2.0
+  - club: "6"
+    loft: 27.0
+    lie: 61.0
+    length: 37.5
+    offset: 0.118
+    bounce: 3.0
+  - club: "7"
+    loft: 31.0
+    lie: 61.5
+    length: 37.0
+    offset: 0.098
+    bounce: 3.5
+  - club: "8"
+    loft: 35.0
+    lie: 62.0
+    length: 36.5
+    offset: 0.098
+    bounce: 4.0
+  - club: "9"
+    loft: 39.0
+    lie: 62.5
+    length: 36.0
+    offset: 0.079
+    bounce: 5.0
+  - club: "PW"
+    loft: 43.0
+    lie: 63.0
+    length: 35.75
+    offset: 0.079
+    bounce: 5.0
+  - club: "AW"
+    loft: 47.0
+    lie: 63.5
+    length: 35.5
+    offset: 0.039
+    bounce: 6.0
+sources:
+  - "New Level Golf official 902-OS club spec sheet (newlevelgolf.com/cdn/shop/files/902-OS_Club_Specs.png, linked from the manufacturer's 'The NL Archives' club spec history page at newlevelgolf.com/pages/the-nl-archives, retrieved July 2026) - loft, lie, offset in mm, bounce, length and .370 hosel bore for 4-iron through PW/AW, RH/LH in chrome, plus the footnote 'New Level does not have a stock club configuration so we do not have stock swing weights'. The sheet is headed '2021'; the year_introduced here follows the manufacturer's product copy and MyGolfSpy instead (see below)"
+  - "newlevelgolf.com 902-OS Forged Irons Left Handed product page (products/902-os-lh, retrieved July 2026) - manufacturer description ('Building on the success of our original 902 Forged irons... launching a brand-new offering for 2022'), positioning ('the balance between a player's iron and forgiveness'), club menu 4-iron through AW at $130 per club, the shaft menu (KBS Tour Lite/Tour/C-Taper Lite/$-Taper/Tour V, Nippon Modus 105/120, True Temper Dynamic Gold options), and the warranty note about the removable precision weighting system screw in the back of the iron. The right-handed page has been removed from the site"
+  - "MyGolfSpy 'New Level Irons: Model By Model' (16 July 2024) - 902-OS release date of August 2022, RH and LH availability, 4-PW; this and the manufacturer's 'for 2022' copy fix year_introduced at 2022 despite the 2021 heading on the archived spec sheet"
+  - "MyGolfSpy New Level 902-OS Forged Irons review (2023 Most Wanted player's distance iron test) - 3rd overall, 2nd for forgiveness, tie with Mizuno Pro 225 as best for feel; corroborates the players-distance categorisation"
+  - "Alloy: the HTML spec table on New Level's own product pages (the current left-hand page and the right-hand page archived February 2024 via archive.org) lists the material as '1020 CS' for every club, while retail copy such as the 2ndswing.com listing says 'Forged from Soft 1025 Carbon Steel'; both figures are recorded rather than picking one"
+  - "Note on conflicting manufacturer tables: that same product-page HTML table differs slightly from the Archives spec sheet used for the chart here — its lies run 0.5 degrees more upright throughout (60.5 at the 4-iron to 63.5 at the PW, 64 at the AW, consistent with a column-shift error), with 1.5 and 4.0 degrees of bounce at the 5- and 7-irons and 2.0 mm offset / 7 degrees bounce at the AW. Lofts, lengths and the remaining offsets agree between the two"
+  - "year_discontinued is recorded as 2025: New Level's current range is the 702 series (the players-distance 702+ was reviewed by Plugged In Golf in July 2025 and the line is covered as a 2025 release by skratch.golf), the 902-OS right-handed page is gone, and the model now sits on New Level's Archives ('specs of our previous generations') page. New Level named no direct successor, so the successor field is null. Offsets are converted from the published millimetre figures (3.5/3.0/3.0/2.5/2.5/2.0/2.0/1.0 mm)"
+faq:
+  - q: "What is the loft of a New Level 902-OS 7-iron?"
+    a: "The New Level 902-OS 7-iron has a loft of 31 degrees, with a 61.5-degree lie, 2.5 mm of offset and a 37-inch length."
+  - q: "What clubs came in a New Level 902-OS set?"
+    a: "Heads ran 4-iron through pitching wedge plus a 47-degree approach wedge, sold per club (around $130 each) and built to order - New Level had no fixed stock set configuration."
+  - q: "Is the New Level 902-OS a hollow-body iron?"
+    a: "No. It is a one-piece forged carbon-steel head (1020 per New Level's spec table) with a removable weighting screw in the back for swing-weight control. New Level's hollow-body model of that generation was the 902-PD."
+  - q: "Is the New Level 902-OS still in production?"
+    a: "No. New Level replaced its iron range with the 702 series in 2025 and moved the 902-OS spec sheet to its Archives page; only leftover left-handed stock remained listed after that."
+confidence: "high"

@@ -1,0 +1,90 @@
+brand: Bridgestone
+brand_slug: bridgestone
+model: 221CB
+slug: 221cb-irons
+club_type: irons
+year_introduced: 2022
+year_discontinued: 2024
+category: players
+construction: forged
+material: soft carbon steel (S20C)
+successor: Bridgestone 241CB
+predecessor: Bridgestone Tour B 201CB
+description: >
+  The 221CB is a one-piece forged S20C soft carbon steel players cavity-back,
+  announced by Bridgestone Sports on 2 August 2022 and released in Japan on
+  9 September 2022 alongside the larger 222CB+ and the custom-order 220MB
+  muscle-back. It uses Bridgestone's Tour Contact Sole with cut leading and
+  trailing edges, a Gravity Control Design that thickens the face toward the
+  blade for spin, and dual-pocket cavities in the 4- and 5-irons for launch
+  and forgiveness. In Japan the stock set is 5-PW with the 4-iron as a
+  custom-order single; when Bridgestone re-entered the US club market in
+  December 2024 the 221CB was sold there as a 4-PW set, and it remains in
+  the US line even though the 241CB succeeded it in Japan in 2024. Lengths
+  in this table are the N.S.PRO MODUS3 TOUR120 build per Bridgestone's
+  60-degree measurement, with the 4-iron length from the US retail spec.
+specs:
+  - club: "4"
+    loft: 22.0
+    lie: 60.5
+    length: 38.25
+  - club: "5"
+    loft: 25.0
+    lie: 61.0
+    length: 37.75
+    swing_weight: D2
+  - club: "6"
+    loft: 28.0
+    lie: 61.5
+    length: 37.25
+    swing_weight: D2
+  - club: "7"
+    loft: 32.0
+    lie: 62.0
+    length: 36.75
+    swing_weight: D2
+  - club: "8"
+    loft: 36.0
+    lie: 62.5
+    length: 36.25
+    swing_weight: D2
+  - club: "9"
+    loft: 41.0
+    lie: 63.0
+    length: 35.75
+    swing_weight: D2
+  - club: "PW"
+    loft: 46.0
+    lie: 63.5
+    length: 35.25
+    swing_weight: D2
+stock_shafts:
+  - name: "Nippon N.S.PRO MODUS3 TOUR120"
+    material: steel
+    weight: "114g"
+    flex: ["S"]
+  - name: "Nippon N.S.PRO MODUS3 TOUR105"
+    material: steel
+    weight: "106.5g"
+    flex: ["S"]
+sources:
+  - "Bridgestone Sports official news release PDF, 2 August 2022 (sports.bridgestone/cms/press/2022/g0802_b_series_iron/g0802_b_series_iron.pdf) — full 221CB spec table: lofts 22/25/28/32/36/41/46, lies 60.5-63.5, MODUS3 TOUR120 lengths 37.75 to 35.25 inches (60-degree method) at D2 swing weight for 5-PW with the 4-iron custom-order, head material soft iron S20C, forged construction, 9 September 2022 Japan release, 5-PW set at 132,000 yen, MODUS3 TOUR120/105 stock shafts (TOUR115 and TENSEI BS Black 80i custom) and Golf Pride-made Bridgestone rubber grip"
+  - "fairwayjockey.com Bridgestone 221CB custom irons page — US retail spec table matching every loft and lie above and giving the 4-iron a 38.25-inch length on the same half-inch ladder; source of the 4-iron length and confirmation of the US 4-PW offering"
+  - "golf.com 'New Bridgestone premium forged irons and wedges: 5 things to know' — US launch of the 220 MB, 221 CB and 222 CB+ announced 3 December 2024 at $1,050 for 4-PW sets with Nippon PRO Modus3 Tour 120 shafts, forged by Endo Manufacturing in Japan"
+  - "Bridgestone Sports 6 August 2024 news release for the 241CB/242CB+ — shows the 221CB/222CB+ as the previous models, fixing year_discontinued at 2024 on the successor-announcement convention (the 221CB nonetheless remains on sale in the US as of 2026)"
+  - "golfgear.top 221CB review — names the Tour B 201CB as the model the 221CB carried on from. Bridgestone publishes face progression (3.65-5.15 mm) rather than offset, and no bounce figures; those keys are omitted"
+related_models:
+  - slug: "bridgestone/241cb-irons"
+    label: "Successor: Bridgestone 241CB"
+  - slug: "bridgestone/tour-b-x-cb-irons"
+    label: "Earlier Bridgestone players CB: Tour B X-CB"
+faq:
+  - q: "What is the loft of a Bridgestone 221CB 7-iron?"
+    a: "The Bridgestone 221CB 7-iron has a loft of 32 degrees, with a 62-degree lie and a 36.75-inch length in the stock MODUS3 TOUR120 steel build."
+  - q: "When did the Bridgestone 221CB come out?"
+    a: "Bridgestone Sports announced the 221CB on 2 August 2022 and released it in Japan on 9 September 2022. It only reached the United States in December 2024, when Bridgestone re-entered the US club market with the 220 MB, 221 CB and 222 CB+ at $1,050 for a 4-PW set."
+  - q: "What is the difference between the Bridgestone 221CB and 222CB+?"
+    a: "The 221CB is the compact players cavity-back with dual-pocket cavities only in the 4- and 5-irons, while the 222CB+ is a semi-large forged cavity-back with a dual wide pocket cavity in every iron, a lower centre of gravity, slightly weaker long-iron lofts (21-degree 4-iron) and lighter stock shafts."
+  - q: "Was the Bridgestone 221CB replaced?"
+    a: "In Japan, yes — the 241CB announced in August 2024 is its successor and keeps the same loft structure. In the United States the 221CB remained the current players cavity-back after the December 2024 US launch."
+confidence: high

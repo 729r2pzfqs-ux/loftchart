@@ -1,0 +1,89 @@
+brand: Callaway
+brand_slug: callaway
+model: Apex Ai300
+slug: apex-ai300-irons
+club_type: irons
+year_introduced: 2024
+year_discontinued: null
+category: game-improvement
+construction: forged cavity back with a forged face cup
+material: forged cavity-back body with a Forged 455 Face Cup, urethane microspheres and a MIM weight system
+successor: null
+predecessor: Callaway Apex DCB
+description: >
+  The Apex Ai300 is the larger of the two Apex Ai irons Callaway announced on 12 August
+  2024, described by Callaway as its most complete forged game-improvement iron, with
+  retail from 23 August 2024 at 1,400 dollars for a seven-piece set. It is a forged
+  cavity back rather than the Ai200's hollow body, but shares the Forged 455 Face Cup,
+  the Ai Smart Face designed from golfer swing data, urethane microspheres and the MIM
+  weight system. Lofts sit a degree weaker than the Ai200 through most of the set — a
+  29-degree 7-iron and a 42-degree pitching wedge — while the mid-iron shafts run about
+  a quarter inch longer on a game-improvement length progression, and offset is
+  noticeably greater. The chart runs from the 4-iron to a 47-degree approach wedge.
+  Figures are the men's standard steel build; swing weight and bounce were not
+  published and are omitted.
+specs:
+  - club: "4"
+    loft: 20.0
+    lie: 60.375
+    length: 39.125
+    offset: 0.201
+  - club: "5"
+    loft: 22.0
+    lie: 61.0
+    length: 38.50
+    offset: 0.189
+  - club: "6"
+    loft: 25.0
+    lie: 61.625
+    length: 37.875
+    offset: 0.177
+  - club: "7"
+    loft: 29.0
+    lie: 62.25
+    length: 37.25
+    offset: 0.157
+  - club: "8"
+    loft: 33.0
+    lie: 62.875
+    length: 36.625
+    offset: 0.142
+  - club: "9"
+    loft: 37.0
+    lie: 63.5
+    length: 36.00
+    offset: 0.118
+  - club: "PW"
+    loft: 42.0
+    lie: 63.75
+    length: 35.75
+    offset: 0.094
+  - club: "AW"
+    loft: 47.0
+    lie: 64.0
+    length: 35.50
+    offset: 0.071
+stock_shafts:
+  - name: "True Temper Dynamic Gold Mid 90"
+    material: steel
+  - name: "UST Mamiya Recoil Dart HDC"
+    material: graphite
+sources:
+  - "callawaygolf.com Apex Ai300 Irons product page specification table (https://www.callawaygolf.com/golf-clubs/irons/irons-2024-apex-ai300.html) — loft, lie, length and offset (in millimetres) for the 4-iron through approach wedge, the forged cavity-back and Forged 455 Face Cup construction, the True Temper Dynamic Gold MID 90 steel stock shaft, the Golf Pride Z Grip Grey Cap 50g grip, and the game-improvement positioning. Offset is converted to inches here."
+  - "Callaway Golf press release, 12 August 2024, 'Callaway Golf Announces New Apex Ai200, Apex Ai300, and Apex Ti Fusion Irons' (PR Newswire) — the announcement date used for year_introduced, the 'most complete forged game-improvement iron' positioning, the cavity-back design with a slightly larger profile, the True Temper DG Mid 90 steel and UST Mamiya Recoil Dart graphite stock shafts, 23 August 2024 retail, and the 1,400-dollar seven-piece set"
+  - "Golfalot Apex Ai300 irons review — corroborates the 29-degree 7-iron loft, the 23 August 2024 release, the DG Mid 90 stock shaft and the 4-PW, AW set composition"
+  - "MyGolfSpy 'New Callaway Apex Goes AI with Three New Iron Sets' and the GolfWRX launch report — both describe the Ai300 as taking over the game-improvement slot of the Apex DCB of 2021, the basis for the predecessor field"
+  - "Note: swing weight and bounce were not published on the product page and are omitted rather than estimated"
+related_models:
+  - slug: "callaway/apex-ai200-irons"
+    label: "Players-distance sibling: Callaway Apex Ai200"
+  - slug: "callaway/apex-dcb-irons"
+    label: "Predecessor in the forgiving Apex slot: Callaway Apex DCB"
+faq:
+  - q: "What is the loft of a Callaway Apex Ai300 7-iron?"
+    a: "The Callaway Apex Ai300 7-iron has a loft of 29 degrees, a lie of 62.25 degrees and a steel-shaft length of 37.25 inches."
+  - q: "Is the Callaway Apex Ai300 a game-improvement iron?"
+    a: "Yes. Callaway called it its most complete forged game-improvement iron at launch — a forged cavity back with a slightly larger profile, more offset and longer mid-iron shafts than the players-distance Apex Ai200."
+  - q: "Are the Apex Ai300 lofts stronger than the Apex Ai200?"
+    a: "No, slightly weaker — 29 degrees at the 7-iron against 30, and a 42-degree pitching wedge against 43 — but the Ai300 plays its mid irons about a quarter inch longer."
+confidence: high

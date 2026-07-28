@@ -1,0 +1,76 @@
+brand: "Kirkland Signature"
+brand_slug: "kirkland-signature"
+model: "Player's"
+slug: "players-irons"
+club_type: "irons"
+year_introduced: 2023
+year_discontinued: null
+category: "players-distance"
+construction: "forged hollow body"
+material: "stainless steel body with an injected urethane insert and internal tungsten weighting"
+predecessor: null
+successor: null
+description: >
+  The Kirkland Signature Player's irons are Costco's house-brand iron set, sold only as a
+  fixed seven-club box - 4-iron through pitching wedge - at $499 when it debuted in December
+  2023 (Costco's online price later rose to $549.99). The head is a hollow-body players
+  distance design with a stainless steel body, an injected urethane insert behind the face and
+  an internal tungsten weight, in a mirror-chrome finish whose shaping drew immediate
+  comparisons to TaylorMade's P790. Configuration options are minimal: right handed only, a
+  True Temper Elevate 115 steel shaft in regular or stiff flex, and a Lamkin Crossline 360
+  grip, with a two-sets-per-member purchase limit. Lofts are moderately strong, with a
+  31-degree 7-iron and 45-degree pitching wedge. Costco publishes only the shaft, grip and
+  set composition, not a per-club table, so the loft, lie and length figures below come from
+  Driving Range Heroes' review of a retail set, with the 31-degree 7-iron independently
+  confirmed by Golf Monthly and Today's Golfer. The initial run sold out within hours and the
+  set has restocked intermittently since.
+specs:
+  - club: "4"
+    loft: 20.0
+    lie: 61.0
+    length: 38.5
+  - club: "5"
+    loft: 23.0
+    lie: 61.0
+    length: 38.0
+  - club: "6"
+    loft: 27.0
+    lie: 62.0
+    length: 37.5
+  - club: "7"
+    loft: 31.0
+    lie: 62.5
+    length: 37.0
+  - club: "8"
+    loft: 35.0
+    lie: 63.0
+    length: 36.5
+  - club: "9"
+    loft: 40.0
+    lie: 63.5
+    length: 36.0
+  - club: "PW"
+    loft: 45.0
+    lie: 64.0
+    length: 35.75
+stock_shafts:
+  - name: "True Temper Elevate 115"
+    material: steel
+    weight: "115g"
+    flex: ["R", "S"]
+sources:
+  - "costco.com product page 'Kirkland Signature 7-piece Players Iron Set, Right Handed', item 1740556 (retrieved July 2026) - set composition (4-9 iron and pitching wedge, 7 total clubs), True Temper Elevate 115 steel shaft in Regular or Stiff, Lamkin Crossline 360 grip, right handed only, two-per-member limit and the current $549.99 online price. Costco publishes no per-club loft/lie/length table on the page (verified on both the live page and the 16 December 2023 Wayback Machine snapshot), so specs below rest on the secondary sources"
+  - "Driving Range Heroes 'Costco Kirkland Signature Irons Review' - the only full published spec table found: lofts 20/23/27/31/35/40/45, lies 61/61/62/62.5/63/63.5/64 and lengths 38.5/38/37.5/37/36.5/36/35.75 inches for 4-iron through PW, plus the progressive 'power loft' description. Per-club figures here are taken from this table; confidence is medium because it is a reviewer's table, not a manufacturer sheet"
+  - "MyGolfSpy 'Kirkland Signature Player's Irons Review' (26 December 2023) - construction (stainless steel body, injected urethane insert, internal tungsten weight), the $499 debut price, the immediate sell-out, and the statement that the irons 'debuted just a few weeks ago', fixing the launch in December 2023"
+  - "Independent Golf Reviews 'Kirkland Signature Player's Irons Review' (29 December 2023) - corroborates forged hollow-body construction with polymer insert and tungsten weighting, players-distance categorisation, 4-PW composition, RH-only, and the stock Elevate 115 / Lamkin Crossline specs"
+  - "Golf Monthly 'Costco Kirkland Signature Irons Go On Sale' and Today's Golfer 'Kirkland Signature vs TaylorMade P790 irons' twin test - both independently list the 7-iron loft as 31 degrees, corroborating the Driving Range Heroes table at that club"
+faq:
+  - q: "What is the loft of a Kirkland Signature Player's 7-iron?"
+    a: "The Kirkland Signature Player's 7-iron has a loft of 31 degrees, with a 62.5-degree lie and a 37-inch steel shaft - confirmed independently by Driving Range Heroes, Golf Monthly and Today's Golfer."
+  - q: "What clubs come in the Kirkland Signature Player's iron set?"
+    a: "It is a fixed seven-club set: 4-, 5-, 6-, 7-, 8- and 9-irons plus a 45-degree pitching wedge. There are no individual clubs, no left-handed option and only two configurations - regular or stiff flex in the True Temper Elevate 115 steel shaft."
+  - q: "How much do the Kirkland Signature Player's irons cost?"
+    a: "The set launched at $499 including shipping in December 2023 and sold out within hours; Costco's online price was later listed at $549.99. Costco applies a two-sets-per-member limit."
+  - q: "Are the Kirkland Signature Player's irons like the TaylorMade P790?"
+    a: "They resemble it: both are hollow-body players distance irons with a polymer/urethane fill and tungsten weighting. In Today's Golfer robot-assisted testing the Kirkland gave up about 2.9 mph of ball speed and 7 yards of 7-iron carry to the 2023 P790, at roughly a third of the price."
+confidence: "medium"

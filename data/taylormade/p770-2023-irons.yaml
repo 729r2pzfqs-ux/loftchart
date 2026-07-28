@@ -4,11 +4,11 @@ model: P770 (2023)
 slug: p770-2023-irons
 club_type: irons
 year_introduced: 2023
-year_discontinued: null
+year_discontinued: 2024
 category: players
 construction: forged hollow body
 material: forged 4140 carbon steel face with a forged 8620 carbon steel body
-successor: null
+successor: TaylorMade P770 (2025)
 predecessor: P770
 description: >
   The 2023 P770 is the compact hollow body that sits between the P7MC blade-ish
@@ -80,9 +80,12 @@ sources:
   - "2ndswing.com TaylorMade 2023 P770 Iron Set specification table — loft, lie, length, offset (in millimetres) and swing weight for the 3-iron through approach wedge, the 4-PW stock make-up, the KBS Tour stock shaft and the Golf Pride Z-Grip 360 grip. Offset is converted to inches here."
   - "pluggedingolf.com '2023 TaylorMade P770 Irons Review' — confirms the 2023 launch, the forged hollow-body construction with a thin forged 4140 face, the reduced long-iron offset against the previous P770, and the FLTD CG progression."
   - "Note: bounce was not published in the sources consulted and is omitted rather than estimated."
+  - "Succession: TaylorMade announced the next-generation P770 alongside the P7CB on 31 July 2024 (taylormadegolf.com press release, covered by Irish Golfer Magazine on 1 August 2024), marketed for the 2024/25 season, which is why year_discontinued reads 2024."
 related_models:
   - slug: "taylormade/p770-irons"
     label: "Predecessor: TaylorMade P770"
+  - slug: "taylormade/p770-2025-irons"
+    label: "Successor: TaylorMade P770 (2025)"
   - slug: "taylormade/p790-2023-irons"
     label: "Distance sibling: TaylorMade P790 (2023)"
   - slug: "taylormade/p7mc-irons"

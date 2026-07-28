@@ -4,11 +4,11 @@ model: Pro 245
 slug: pro-245-irons
 club_type: irons
 year_introduced: 2024
-year_discontinued: null
+year_discontinued: 2026
 category: players-distance
 construction: Grain Flow Forged HD, hollow body multi-material
 material: Grain Flow Forged 4135 Chromoly face and neck (2-8 iron) with 1025E Pure Select mild carbon steel scoring irons
-successor: null
+successor: Pro M-15
 predecessor: Pro 225
 description: >
   The Mizuno Pro 245 is the players-distance model of the 2024 Mizuno Pro series,
@@ -98,7 +98,10 @@ sources:
   - "Mizuno official Mizuno Pro 245 product page, mizunogolf.com/au/golf-clubs/mp-series/mizuno-pro-245/ (Specification tab: club, loft, lie, offset, length, bounce; dexterity RH 2-GW / LH 4-GW), archived 22 April 2024 via archive.org"
   - "Mizuno official Mizuno Pro 245 club-specification page, mizunogolf.com/us/golf-clubs/mp-series/mizuno-pro-245/club-specification/ (live, corroborating the same table)"
   - "Same product page, construction section (hollow body GFF 4135 Chromoly face and neck 2-8 iron, 46 g internal tungsten 2-7 iron, partial hollow 1025E scoring irons 9-GW)"
+  - "year_discontinued is 2026: Mizuno announced the Pro Modern Series on 5 January 2026, with the Pro M-15 as the 245's direct successor (todays-golfer.com 'Mizuno Pro M-13 and M-15 irons: everything you need to know')"
 related_models:
+  - slug: "mizuno/pro-m15-irons"
+    label: "Successor: Mizuno Pro M-15"
   - slug: "mizuno/pro-225-irons"
     label: "Predecessor: Mizuno Pro 225"
   - slug: "mizuno/jpx-923-forged-irons"

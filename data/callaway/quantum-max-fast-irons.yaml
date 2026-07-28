@@ -1,0 +1,93 @@
+brand: Callaway
+brand_slug: callaway
+model: Quantum Max Fast
+slug: quantum-max-fast-irons
+club_type: irons
+year_introduced: 2026
+year_discontinued: null
+category: game-improvement
+construction: two-piece Modern 360° Undercut cavity body with a Progressive Tri-Sole and urethane microspheres
+material: steel body with a next-generation Ai-optimized face (Callaway does not publish the alloy)
+successor: null
+predecessor: null
+description: >
+  Quantum Max Fast is the lightweight model in Callaway's 2026 Quantum iron family,
+  built for players with slower swing speeds who need help generating speed and
+  launch. It shares the two-piece Modern 360° Undercut cavity, Progressive Tri-Sole
+  and Ai-optimized face of the other Quantum irons, but is sold graphite-only and
+  right hand only, with a 40-gram Mitsubishi Vanquish stock shaft and each club
+  built a quarter inch longer than the standard Quantum Max. Lofts run slightly
+  stronger through the middle of the set — 28 degrees at the 7-iron against the
+  Max's 29 — before rejoining at the 37-degree 9-iron and 42-degree pitching wedge,
+  and the gap wedge and sand wedge sit at 50 and 56 degrees rather than 51 and 55.
+  The chart runs 5-iron through sand wedge with no 4-iron; Callaway also publishes
+  a women's length column one inch shorter per club. Announced 16 January 2026, at
+  US retail from 27 February 2026. The figures below are the standard men's build.
+specs:
+  - club: "5"
+    loft: 22.0
+    lie: 60.75
+    length: 38.75
+    offset: 0.225
+  - club: "6"
+    loft: 25.0
+    lie: 61.375
+    length: 38.125
+    offset: 0.204
+  - club: "7"
+    loft: 28.0
+    lie: 62.0
+    length: 37.50
+    offset: 0.184
+  - club: "8"
+    loft: 32.0
+    lie: 62.5
+    length: 36.875
+    offset: 0.174
+  - club: "9"
+    loft: 37.0
+    lie: 63.0
+    length: 36.25
+    offset: 0.142
+  - club: "PW"
+    loft: 42.0
+    lie: 63.25
+    length: 36.00
+    offset: 0.121
+  - club: "AW"
+    loft: 46.0
+    lie: 63.5
+    length: 35.75
+    offset: 0.081
+  - club: "GW"
+    loft: 50.0
+    lie: 63.75
+    length: 35.50
+    offset: 0.081
+  - club: "SW"
+    loft: 56.0
+    lie: 64.0
+    length: 35.25
+    offset: 0.081
+stock_shafts:
+  - name: "Mitsubishi Vanquish 40 IR/HYB"
+    material: graphite
+sources:
+  - "Callaway 2026 club spec chart PDF (callawaymedia.com/wp-content/uploads/2026/02/2026_Club-Spec-Charts_final.pdf), Quantum Max Fast Iron table — loft, lie, length, women's length and offset in millimetres for the 5-iron through sand wedge, all listed RH only. Offset is converted to inches here (7-iron 4.67 mm = 0.184 in); the AW, GW and SW share a published 2.06 mm offset."
+  - "callawaygolf.com Quantum Max Fast Irons product page (https://www.callawaygolf.com/golf-clubs/irons/irons-2026-quantum-max-fast.html) — matching loft/lie/length/offset table, right-hand-only availability, the Mitsubishi Vanquish 40 IR/HYB graphite stock shaft (Light flex shown as the default configuration) and Lamkin Crossline 360 Black Cap (46g) grip, and the Modern 360° Undercut Cavity / Progressive Tri-Sole / Ai-optimized face / urethane microspheres technology copy."
+  - "Callaway Quantum press release, 16 January 2026 (callawaymedia.com/wp-content/uploads/2026/01/Quantum-Press-Release.pdf) — announcement date and US iron retail date of 27 February 2026. Golf.com Quantum irons launch coverage confirms the Max Fast is graphite-only and aimed at slower golfers who need a lighter package to generate speed and launch. Bounce and swing weight are not published anywhere consulted and are omitted rather than estimated."
+related_models:
+  - slug: "callaway/quantum-max-irons"
+    label: "Standard model in the same line: Callaway Quantum Max"
+  - slug: "callaway/quantum-max-os-irons"
+    label: "Oversized model in the same line: Callaway Quantum Max OS"
+faq:
+  - q: "What is the loft of a Callaway Quantum Max Fast 7-iron?"
+    a: "The Callaway Quantum Max Fast 7-iron has a loft of 28 degrees, a lie of 62 degrees and a length of 37.5 inches — one degree stronger and a quarter inch longer than the standard Quantum Max 7-iron."
+  - q: "Who are the Callaway Quantum Max Fast irons for?"
+    a: "Players with slower swing speeds. The set is graphite-only with a 40-gram Mitsubishi Vanquish stock shaft, built a quarter inch longer per club than the Quantum Max, with slightly stronger mid-iron lofts to help ball speed and launch."
+  - q: "Do the Quantum Max Fast irons come in left handed?"
+    a: "No — Callaway lists every head, 5-iron through the 56-degree sand wedge, as right hand only."
+  - q: "What clubs come in a Callaway Quantum Max Fast set?"
+    a: "The chart runs from the 5-iron to a 56-degree sand wedge, nine heads in total; there is no 4-iron."
+confidence: high

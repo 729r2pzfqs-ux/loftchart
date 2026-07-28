@@ -1,0 +1,114 @@
+brand: Nike
+brand_slug: nike
+model: VR Pro Blade
+slug: vr-pro-blade-irons
+club_type: irons
+year_introduced: 2010
+year_discontinued: 2014
+category: blade
+construction: forged blade (pocket-cavity long irons, split-cavity mid irons)
+material: forged carbon steel
+successor: null
+predecessor: Nike VR Forged TW Blade
+description: >
+  The VR Pro Blade is the third blade set Nike ever made, announced in October 2010 with
+  retail from 26 November 2010, and the first with the X3X groove pattern — deeper grooves
+  set closer together to conform to the 2010 USGA and R&A groove rules. It keeps the same
+  grind and profile as the VR Forged TW Blade it replaced, with a precision-forging
+  process that delivers the head near-finished. Despite the name it is progressive: the
+  2- through 4-irons carry a pocket cavity, the 5- through 7-irons a split cavity, and
+  only the 8-iron through pitching wedge are full blades. Lofts are fully traditional,
+  with a 35-degree 7-iron and a 47-degree pitching wedge, and bounce runs progressively
+  from 2 to 9 degrees. The stock set is 3-PW with Dynamic Gold shafts, the 2-iron sold
+  separately. Nike announced no further blade after it; the model line ended when the
+  Vapor iron family (whose most compact model, the Vapor Pro, is a modified muscle-back
+  rather than a true blade) was announced in 2014.
+specs:
+  - club: "2"
+    loft: 18.0
+    lie: 59.0
+    length: 39.5
+    offset: 0.160
+    bounce: 2.0
+    swing_weight: D1-D3
+  - club: "3"
+    loft: 21.0
+    lie: 59.0
+    length: 39.0
+    offset: 0.155
+    bounce: 2.0
+    swing_weight: D1-D3
+  - club: "4"
+    loft: 24.0
+    lie: 60.0
+    length: 38.5
+    offset: 0.150
+    bounce: 3.0
+    swing_weight: D1-D3
+  - club: "5"
+    loft: 27.0
+    lie: 61.0
+    length: 38.0
+    offset: 0.142
+    bounce: 4.0
+    swing_weight: D1-D3
+  - club: "6"
+    loft: 31.0
+    lie: 62.0
+    length: 37.5
+    offset: 0.118
+    bounce: 5.0
+    swing_weight: D1-D3
+  - club: "7"
+    loft: 35.0
+    lie: 62.5
+    length: 37.0
+    offset: 0.098
+    bounce: 6.0
+    swing_weight: D1-D3
+  - club: "8"
+    loft: 39.0
+    lie: 63.0
+    length: 36.5
+    offset: 0.070
+    bounce: 7.0
+    swing_weight: D1-D3
+  - club: "9"
+    loft: 43.0
+    lie: 63.5
+    length: 36.0
+    offset: 0.060
+    bounce: 8.0
+    swing_weight: D1-D3
+  - club: "PW"
+    loft: 47.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.060
+    bounce: 9.0
+    swing_weight: D1-D3
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+    weight: "127g (R), 130g (S/X)"
+    flex: ["R", "S", "X"]
+sources:
+  - "InTheHoleGolf.com 'Nike VR Pro Blade Iron Set' retailer page (intheholegolf.com/NG-VRPBIS/Nike-VR-Pro-Blade-Iron-Set.html), which reproduces Nike's full spec table — club, hand, loft, lie, offset, bounce, length and D1-D3 swing weight for 2-iron through PW — plus the pocket-cavity/split-cavity/blade progression, the 3-PW set with the 2-iron sold separately, the Dynamic Gold R/S/X stock shaft with weights and the VR Tour Velvet grip. The Wayback Machine holds a capture of this page from 8 June 2011, contemporaneous with the product, with the identical table"
+  - "Cross-checked against a second aggregator spec table (qsponge's Nike VR Pro Blade entry), which lists identical loft, lie, length and bounce for all nine clubs. Confidence is medium rather than high because both are reproductions of Nike's sheet rather than a retrievable nikegolf.com page — the Wayback index for Nike's own golf pages of this era returns only Flash shells"
+  - "NBC Sports / Golf Channel equipment-insider article of 20 October 2010: Nike announced the VR Pro Blades with retail from 26 November 2010, $1,079.99 for 3-PW in Dynamic Gold steel, the 2-iron at $135, X3X grooves set deeper and closer together, and the same grind and profile as the predecessor VR Forged TW Blade. This is the basis for year_introduced 2010; Golfmagic's launch story confirms November availability in right and left hand"
+  - "year_discontinued 2014 follows the announcement of the Nike Vapor iron family in August 2014 (GolfWRX and MyGolfSpy launch coverage; retail 31 October 2014), which ended the VR Pro iron line without a direct blade replacement — hence successor: null. Note this database records the Vapor Pro's year_introduced as 2015, the model year under which it is usually catalogued"
+related_models:
+  - slug: "nike/vr-pro-combo-irons"
+    label: "Combo set in the same line: Nike VR Pro Combo"
+  - slug: "nike/vapor-pro-irons"
+    label: "Nike's later players iron: Nike Vapor Pro"
+faq:
+  - q: "What is the loft of a Nike VR Pro Blade 7-iron?"
+    a: "The Nike VR Pro Blade 7-iron has a loft of 35 degrees, with a 62.5-degree lie and a 37-inch steel-shaft length."
+  - q: "Are the Nike VR Pro Blades true blades throughout the set?"
+    a: "No. The 2- through 4-irons use a pocket cavity for forgiveness, the 5- through 7-irons a split cavity, and only the 8-iron through pitching wedge are full blade designs."
+  - q: "When were the Nike VR Pro Blades released?"
+    a: "Nike announced them in October 2010 and they reached retail on 26 November 2010, priced at $1,079.99 for 3-PW with Dynamic Gold steel shafts. The 2-iron was sold separately."
+  - q: "How do the Nike VR Pro Blade lofts compare to the VR Pro Combo?"
+    a: "They are identical from the 3-iron (21 degrees) through the pitching wedge (47 degrees), and both sets carry the same progressive 2-to-9-degree bounce. The Blade additionally offered an 18-degree 2-iron and publishes offset figures."
+confidence: medium

@@ -1,0 +1,94 @@
+brand: Titleist
+brand_slug: titleist
+model: T100 (2025)
+slug: t100-2025-irons
+club_type: irons
+year_introduced: 2025
+year_discontinued: null
+category: players
+construction: forged, progressive dual-cavity with split tungsten weighting
+material: fully forged with split high-density tungsten weighting
+successor: null
+predecessor: Titleist T100 (2023)
+description: >
+  The fourth-generation T100 is the tour players model of the 2025 T-Series,
+  announced in summer 2025 with pre-orders from 10 July and retail availability
+  from 21 August 2025. It is the first T100 to change its loft ladder: every
+  club is one degree stronger than the previous three generations, giving a
+  33-degree 7-iron and a 45-degree pitching wedge, which closes the old
+  two-degree gap to the T150 to a single degree. The fully forged head keeps a
+  progressive dual-cavity construction with split high-density tungsten
+  weighting, adds a new muscle channel in the 3- and 4-irons to lower long-iron
+  CG, and pairs a variable face thickness design with more aggressive grooves
+  in the mid and short irons. Lie and length are shared per club number across
+  the whole 2025 T-Series, so a T100 7-iron sits at 63 degrees and 37 inches
+  like every other model in the range. Heads run 3-iron through a 49-degree W
+  wedge (recorded here as GW to match the earlier T100 records), with 4-PW the
+  stock set. Titleist does not publish offset, bounce or swing weight for the
+  2025 T-Series, so those keys are omitted.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 61.0
+    length: 39.0
+  - club: "4"
+    loft: 23.0
+    lie: 61.5
+    length: 38.5
+  - club: "5"
+    loft: 26.0
+    lie: 62.0
+    length: 38.0
+  - club: "6"
+    loft: 29.0
+    lie: 62.5
+    length: 37.5
+  - club: "7"
+    loft: 33.0
+    lie: 63.0
+    length: 37.0
+  - club: "8"
+    loft: 37.0
+    lie: 63.5
+    length: 36.5
+  - club: "9"
+    loft: 41.0
+    lie: 64.0
+    length: 36.0
+  - club: "PW"
+    loft: 45.0
+    lie: 64.0
+    length: 35.75
+  - club: "GW"
+    loft: 49.0
+    lie: 64.0
+    length: 35.5
+stock_shafts:
+  - name: "True Temper AMT Tour White"
+    material: steel
+    flex: ["R300", "S300", "X100"]
+sources:
+  - "Titleist official T100 product page (titleist.com/product/t100/559C.html) — the shared 2025 T-Series iron specification table giving the T100 loft row (20 through 49 degrees, 3-iron to W) plus the lie (61 to 64 degrees) and length (39.00 to 35.50 inches) rows common to all models, the AMT Tour White R300/S300/X100 shaft listing, the Titleist Universal 360 grip, the 4-P default set selector and the 3-through-W available-irons list"
+  - "Same Titleist page, technology copy: fully forged construction, Split High-Density Tungsten with Progressive Dual-Cavity Construction, new muscle channel in the 3- and 4-irons for higher long-iron launch, Variable Face Thickness (VFT), improved Variable Bounce Sole and more aggressive mid/short-iron grooves; the FAQ states T150 is 1 degree stronger than T100"
+  - "2ndswing.com Titleist 2025 T100 iron set page — independent corroboration of every loft, lie and length above, plus the True Temper AMT Tour White stock shaft and 4-PW stock make-up"
+  - "golf.com 'Titleist 2025 T-Series irons: 7 things to know' — pre-orders 10 July 2025, retail 21 August 2025, and the statement that T100 lofts are '1 degree stronger lofted across the set from each of the previous three generations'"
+  - "Titleist does not publish offset, bounce or swing weight for the 2025 T-Series spec table; those keys are omitted rather than estimated"
+related_models:
+  - slug: "titleist/t100-2023-irons"
+    label: "Predecessor: Titleist T100 (2023)"
+  - slug: "titleist/t150-2025-irons"
+    label: "Stronger-lofted sibling: Titleist T150 (2025)"
+  - slug: "titleist/t250-irons"
+    label: "Players-distance sibling: Titleist T250"
+  - slug: "titleist/t100-irons"
+    label: "First generation: Titleist T100"
+faq:
+  - q: "What is the loft of a Titleist T100 (2025) 7-iron?"
+    a: "The 2025 T100 7-iron has a loft of 33 degrees, with a 63-degree lie and a 37-inch standard steel length."
+  - q: "Are the 2025 T100 lofts stronger than the 2023 T100?"
+    a: "Yes, by one degree at every club — the first loft change in the T100's history. The 7-iron moves from 34 to 33 degrees and the pitching wedge from 46 to 45."
+  - q: "What is the difference between the 2025 T100 and T150?"
+    a: "The T150 is the same forged dual-cavity concept in a slightly larger head with a muscle channel through the 7-iron rather than just the long irons, and its lofts run one degree stronger — 32 degrees at the 7-iron against the T100's 33."
+  - q: "What clubs come in a stock Titleist T100 (2025) set?"
+    a: "The stock set is 4-iron through pitching wedge, with a 3-iron and a 49-degree W wedge available to extend it."
+confidence: high

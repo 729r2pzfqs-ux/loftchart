@@ -4,7 +4,7 @@ model: 0311 P GEN7
 slug: 0311-p-gen7-irons
 club_type: irons
 year_introduced: 2024
-year_discontinued: 2025
+year_discontinued: 2026
 category: players-distance
 construction: forged hollow body with a welded face
 material: forged 8620 carbon steel body with an ultra-thin HT1770 maraging steel face and a 20 g internal tungsten toe weight
@@ -69,7 +69,7 @@ sources:
   - "2nd Swing Golf specification table for the PXG 0311 P GEN7 iron set (https://www.2ndswing.com/golf-clubs/iron-sets/pxg-0311-p-gen7-iron-set) — supplied loft, lie, length and offset for the 4-iron through gap wedge. The table labels the offset column in millimetres, but the values are the same inch figures PXG publishes for the GEN6 P, so they are recorded here as inches."
   - "PXG's own 0311 P GEN6 spec page (https://pxg.com.au/pages/pxg-0311-p-gen6-iron-specs) — identical chart, which is how the GEN7 figures were cross-checked."
   - "pxg.com 'PXG Releases GEN7 Irons and Black Ops Irons' and todays-golfer.com's GEN7 launch piece — 7 August 2024 release, QuantumCOR, 0.050-inch maraging face, 20 g internal tungsten toe weight."
-  - "Note: bounce is omitted because the source table did not carry a bounce column. year_discontinued is the 2025 launch of the GEN8 range (https://www.pxg.com/products/gen8-irons), which ships P, XP and T heads."
+  - "Note: bounce is omitted because the source table did not carry a bounce column. year_discontinued is the GEN8 range (https://www.pxg.com/products/gen8-irons), which ships P, XP and T heads and was announced on 15 January 2026."
 related_models:
   - slug: "pxg/0311-p-gen6-irons"
     label: "Predecessor: PXG 0311 P GEN6"
@@ -79,7 +79,7 @@ faq:
   - q: "What is the loft of a PXG 0311 P GEN7 7-iron?"
     a: "The PXG 0311 P GEN7 7-iron has a loft of 30 degrees, a lie of 62.5 degrees and a length of 37.0 inches."
   - q: "When were the PXG 0311 GEN7 irons released?"
-    a: "PXG released GEN7 on 7 August 2024, alongside the Black Ops irons. The GEN8 range replaced it in 2025."
+    a: "PXG released GEN7 on 7 August 2024, alongside the Black Ops irons. The GEN8 range replaced it in January 2026."
   - q: "What changed between the PXG GEN6 and GEN7 irons?"
     a: "The core material — QuantumCOR replaced XCOR2 — the face was thinned to 0.050 inches, and a 20-gram internal tungsten toe weight was added. The loft, lie, length and offset chart did not change."
 confidence: medium

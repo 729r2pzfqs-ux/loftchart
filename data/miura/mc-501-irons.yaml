@@ -1,0 +1,81 @@
+brand: Miura
+brand_slug: miura
+model: MC-501
+slug: mc-501-irons
+club_type: irons
+year_introduced: 2018
+year_discontinued: 2022
+category: players
+construction: forged muscle cavity
+material: S25C soft carbon steel, forged in Himeji, Japan
+successor: Miura MC-502
+predecessor: null
+description: >
+  The MC-501 launched Miura's Muscle Cavity line, announced on 6 February
+  2018 with retail orders opening 20 February 2018 at 260 US dollars per
+  head. Billed by Miura as "the modern blade", it paired a blade-like
+  profile with a T-shaped muscle pad low in the back, about 20 grams of
+  mass repositioned toward a sole wider than any previous Miura blade, and
+  Yoshitaka Miura's Y-grind sole — on the longest heel-to-toe head the
+  company had forged to that point. Note that Miura's published lie angles
+  for this model are markedly flatter than its later irons: 61 degrees on
+  the 7-iron against the 62.5 degrees of the MC-502 that replaced it
+  (announced 15 November 2022). Heads came in copper-nickel satin and
+  Black QPQ finishes, 3-iron through pitching wedge. Miura sells heads
+  through authorized dealers and fitters and builds sets to order, so
+  there is no stock shaft; specs below are Miura's published standard.
+specs:
+  - club: "3"
+    loft: 22.0
+    lie: 59.0
+    length: 39.0
+  - club: "4"
+    loft: 24.0
+    lie: 59.5
+    length: 38.5
+  - club: "5"
+    loft: 27.0
+    lie: 60.0
+    length: 38.0
+  - club: "6"
+    loft: 30.0
+    lie: 60.5
+    length: 37.5
+  - club: "7"
+    loft: 34.0
+    lie: 61.0
+    length: 37.0
+  - club: "8"
+    loft: 38.0
+    lie: 61.5
+    length: 36.5
+  - club: "9"
+    loft: 42.0
+    lie: 62.0
+    length: 36.0
+  - club: "PW"
+    loft: 46.0
+    lie: 62.5
+    length: 35.75
+sources:
+  - "Miura's official MC-501 spec chart, from the archive.org capture (17 May 2021) of miuragolf.com/products/mc-501-black-qpq — full table for 3-iron through PW: lofts 22/24/27/30/34/38/42/46, lies 59.0 to 62.5 degrees, face progression 1.5 to 4.0 mm, head weights 244 to 294 g, lengths 39.00 to 35.75 inches. Miura publishes face progression in millimetres rather than offset, and no bounce or swing weight, so those keys are omitted."
+  - "Tour Shop Fresno (authorized Miura dealer) MC-501 heads page and Usher Golf / chipandputt.com MC-501 dealer table — both independently match every loft, lie and head weight above, including the flat 59.0-to-62.5-degree lie ladder; neither lists lengths, which rest on the archived manufacturer chart."
+  - "Miura Golf blog 'Miura Debuts MC-501 Muscle Cavity Irons' — announcement 6 February 2018, retail orders from 20 February 2018 at 260 US dollars per head MAP, 3-PW, premium S25C soft carbon steel in copper-nickel satin, 20 grams repositioned toward the sole and the Y-grind. Note: the launch release specifies S25C, while the later Black QPQ product page listed S20C; S25C is recorded here per the launch spec."
+  - "golfwrx.com 2018 PGA Show Demo Day coverage and golfdigest.com 'Miura MC-501 irons reflect a father-and-sons collaboration in what company calls the modern blade' — corroborate the 2018 launch, the muscle-cavity concept and the longest-blade-length claim. year_discontinued 2022 reflects the 15 November 2022 announcement of the successor MC-502."
+related_models:
+  - slug: "miura/mc-502-irons"
+    label: "Successor: Miura MC-502"
+  - slug: "miura/mb-101-irons"
+    label: "Muscle-back sibling: Miura MB-101"
+  - slug: "miura/tc-201-irons"
+    label: "Tour-cavity sibling: Miura TC-201"
+faq:
+  - q: "What is the loft of a Miura MC-501 7-iron?"
+    a: "The Miura MC-501 7-iron has a loft of 34 degrees, a lie of 61 degrees and a length of 37.0 inches, per Miura's published spec chart."
+  - q: "What does MC stand for in Miura MC-501?"
+    a: "Muscle Cavity. The MC-501 pairs a blade-like profile with a T-shaped muscle pad and about 20 grams of mass moved low into a wider sole, giving slightly more forgiveness than Miura's pure muscle-backs."
+  - q: "Is the Miura MC-501 discontinued?"
+    a: "Yes. Miura announced its successor, the MC-502, on 15 November 2022, and the MC-501 has left Miura's current line."
+  - q: "Why are the Miura MC-501's lie angles so flat?"
+    a: "Miura's published spec for the MC-501 runs from 59 degrees on the 3-iron to 62.5 on the pitching wedge — about 1.5 degrees flatter through the set than the MC-502 that replaced it. Since Miura heads are sold through fitters who bend lie to order, the published figure is only the starting point."
+confidence: high

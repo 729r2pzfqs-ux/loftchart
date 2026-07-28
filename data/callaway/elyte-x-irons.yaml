@@ -1,0 +1,106 @@
+brand: Callaway
+brand_slug: callaway
+model: Elyte X
+slug: elyte-x-irons
+club_type: irons
+year_introduced: 2025
+year_discontinued: 2026
+category: game-improvement
+construction: Speed Frame cast body with an Ai 10x face
+material: stainless body with an Ai 10x face and a tri-sole design
+successor: Callaway Quantum Max OS
+predecessor: null
+description: >
+  The Elyte X is the higher-launching, more forgiving model in Callaway's 2025 Elyte
+  iron family, sitting above the standard Elyte with lofts a degree stronger — a
+  28-degree 7-iron and a 41-degree pitching wedge against the Elyte's 29 and 42 —
+  and noticeably more offset at 5.6 mm in the 4-iron against 4.2. It uses the same
+  Speed Frame construction, which connects the body to the topline so the body stays
+  stiff while the face flexes, and the Ai 10x face, built from ten times as many
+  control points as the Ai Smart Face before it, plus a tri-sole design with three
+  distinct sections for turf interaction. The chart runs from the 4-iron to a
+  54-degree sand wedge on the same lie and length progression as the standard Elyte.
+  The line lasted a single season: Callaway's Quantum irons replaced the Elyte
+  family in January 2026, with the oversized Quantum Max OS taking over the Elyte
+  X's slot. Figures are the men's standard steel build.
+specs:
+  - club: "4"
+    loft: 18.0
+    lie: 60.625
+    length: 39.125
+    offset: 0.220
+    swing_weight: D2
+  - club: "5"
+    loft: 21.0
+    lie: 61.25
+    length: 38.50
+    offset: 0.201
+    swing_weight: D2
+  - club: "6"
+    loft: 24.0
+    lie: 61.875
+    length: 37.875
+    offset: 0.177
+    swing_weight: D2
+  - club: "7"
+    loft: 28.0
+    lie: 62.5
+    length: 37.25
+    offset: 0.157
+    swing_weight: D2
+  - club: "8"
+    loft: 32.0
+    lie: 63.125
+    length: 36.625
+    offset: 0.130
+    swing_weight: D2
+  - club: "9"
+    loft: 36.0
+    lie: 63.75
+    length: 36.00
+    offset: 0.094
+    swing_weight: D2
+  - club: "PW"
+    loft: 41.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.059
+    swing_weight: D2
+  - club: "AW"
+    loft: 46.0
+    lie: 64.0
+    length: 35.50
+    offset: 0.059
+    swing_weight: D2
+  - club: "GW"
+    loft: 50.0
+    lie: 64.0
+    length: 35.50
+    offset: 0.059
+    swing_weight: D2
+  - club: "SW"
+    loft: 54.0
+    lie: 64.0
+    length: 35.50
+    offset: 0.059
+    swing_weight: D2
+stock_shafts:
+  - name: "True Temper Vector 80"
+    material: steel
+sources:
+  - "callawaygolf.com Elyte X Irons product page specification table (https://www.callawaygolf.com/golf-clubs/irons/irons-2025-elyte-x.html) — loft, lie, length, offset (in millimetres) and swing weight for the 4-iron through sand wedge, the True Temper Vector 80 steel stock shaft, the Lamkin Crossline Black/Grey 50g grip, and the Speed Frame, Ai 10x face and tri-sole technology descriptions. Offset is converted to inches here."
+  - "Same product page: swing weight is listed as D2/D0 (steel/graphite, matching the convention on the standard Elyte page); the steel figure is recorded. Bounce was not published and is omitted rather than estimated."
+  - "Today's Golfer, 'Callaway are returning to what they do best with their 2026 Quantum irons' — the Quantum line launched 16 January 2026 and replaces the Elyte family, which sets year_discontinued to 2026. Golf Monthly's Quantum Max and Quantum Max OS review places the Max OS against 'last year's Elyte X', which is the basis for the successor field."
+related_models:
+  - slug: "callaway/elyte-irons"
+    label: "Standard model in the same line: Callaway Elyte"
+  - slug: "callaway/paradym-ai-smoke-irons"
+    label: "Previous Callaway game-improvement family: Paradym Ai Smoke"
+faq:
+  - q: "What is the loft of a Callaway Elyte X 7-iron?"
+    a: "The Callaway Elyte X 7-iron has a loft of 28 degrees, a lie of 62.5 degrees and a steel-shaft length of 37.25 inches."
+  - q: "What is the difference between the Callaway Elyte and Elyte X irons?"
+    a: "The Elyte X is the more forgiving model: its lofts are one degree stronger through the set (28-degree 7-iron against 29), it carries noticeably more offset (5.6 mm at the 4-iron against 4.2), and it adds a tri-sole design, while lie angles and lengths are identical. The stock steel shaft is also lighter, a Vector 80 against the Elyte's Vector 90."
+  - q: "Are the Callaway Elyte X irons discontinued?"
+    a: "Yes. The Elyte family lasted one season; Callaway's Quantum iron line replaced it in January 2026, with the oversized Quantum Max OS covering the Elyte X's slot."
+confidence: high

@@ -4,11 +4,11 @@ model: Qi HL
 slug: qi-hl-irons
 club_type: irons
 year_introduced: 2024
-year_discontinued: null
+year_discontinued: 2026
 category: super-game-improvement
 construction: investment cast Cap Back design with a variable Speed Pocket
 material: 450 stainless steel face with a stainless body
-successor: null
+successor: TaylorMade Qi Max HL
 predecessor: TaylorMade Stealth HD
 description: >
   Qi HL is the high-launch model of TaylorMade's 2024 Qi iron family, aimed at
@@ -66,9 +66,12 @@ sources:
   - "golfdigest.com \"TaylorMade's Qi and Qi HL irons: What you need to know\" — the January 2024 launch of the pair."
   - "Note: offset and bounce were not published in the sources consulted and are omitted rather than estimated. Swing weight is only published for three clubs and is recorded for those alone."
   - "Naming note: TaylorMade catalogues the 2024 irons as Qi and Qi HL. Because they launched alongside the Qi10 driver, fairway woods and hybrids, much of the coverage refers to them as Qi10 and Qi10 HL — they are the same clubs."
+  - "Succession: the Qi Max HL, announced 8 January 2026 as the high-launch lightweight companion to the Qi Max that replaced the Qi (todays-golfer.com Qi Max launch coverage), takes over this model's role — hence year_discontinued 2026."
 related_models:
   - slug: "taylormade/qi-irons"
     label: "Standard model: TaylorMade Qi"
+  - slug: "taylormade/qi-max-hl-irons"
+    label: "Successor: TaylorMade Qi Max HL"
   - slug: "taylormade/stealth-hd-irons"
     label: "Predecessor: TaylorMade Stealth HD"
 faq:

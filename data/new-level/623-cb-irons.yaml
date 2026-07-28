@@ -1,0 +1,87 @@
+brand: New Level
+brand_slug: new-level
+model: 623-CB
+slug: 623-cb-irons
+club_type: irons
+year_introduced: 2021
+year_discontinued: 2025
+category: players
+construction: forged cavity back
+material: forged 1020 carbon steel, CNC milled after forging
+successor: null
+predecessor: null
+description: >
+  The 623-CB is the cavity-back companion to New Level's 623-M muscle iron, teased
+  by the company in late October 2021 and at retail from January 2022 — record the
+  announcement year, 2021, against the 2022 retail date. It keeps the 623 family's
+  compact shape, thin topline and minimal offset but swaps the muscle for a forged
+  cavity, adding stability for what New Level pitches as a player's iron with a
+  little help. Lofts sit one degree weaker than the 623-M throughout: a 34-degree
+  7-iron and 46-degree pitching wedge across the stock 4-PW run, with 2- and
+  3-irons offered to order. The model's profile rose sharply when it finished
+  first overall in MyGolfSpy's 2022 Most Wanted player's-iron test. New Level
+  sells direct and through fitters and builds each set to order from its shaft
+  menu, so no stock shaft is recorded; the 702-CB took over the cavity-back slot
+  when the 702 series arrived in 2025.
+specs:
+  - club: "4"
+    loft: 24.0
+    lie: 60.5
+    length: 38.5
+    offset: 0.110
+    bounce: 0.0
+  - club: "5"
+    loft: 27.0
+    lie: 61.0
+    length: 38.0
+    offset: 0.110
+    bounce: 1.0
+  - club: "6"
+    loft: 30.0
+    lie: 61.5
+    length: 37.5
+    offset: 0.098
+    bounce: 1.0
+  - club: "7"
+    loft: 34.0
+    lie: 62.0
+    length: 37.0
+    offset: 0.098
+    bounce: 2.0
+  - club: "8"
+    loft: 38.0
+    lie: 62.5
+    length: 36.5
+    offset: 0.079
+    bounce: 3.0
+  - club: "9"
+    loft: 42.0
+    lie: 63.0
+    length: 36.0
+    offset: 0.079
+    bounce: 4.0
+  - club: "PW"
+    loft: 46.0
+    lie: 63.5
+    length: 35.75
+    offset: 0.079
+    bounce: 5.0
+sources:
+  - "phil-mickelson.com 'New Level 623-CB Review' — reproduces New Level's spec table in the manufacturer's house format (loft, lie, offset in mm, bounce, length, '1020 CS' material, satin chrome finish) for 4-PW; the lie and length ladders are identical to the ones New Level itself publishes for the 623-M, which is why the table is treated as the manufacturer chart. Offsets 2.8 mm down to 2.0 mm converted to inches here. Confidence is medium because New Level's own 623-CB page is no longer live to verify against."
+  - "progolfadvisor.com 'New Level 623 CB Review' (April 2023) — corroborates every 4-PW loft (24 through 46 degrees) and the 1020 forging. Its lie/length columns run half a degree flatter and a quarter inch off the manufacturer ladder and it adds 2-iron (19 degrees) and 3-iron (21 degrees) build-to-order options; the manufacturer-format table is preferred where they disagree."
+  - "New Level Golf Co. on X/Twitter, late October 2021: 'All-new, 623-CB Forged irons. Coming in January 2022.' — the announcement (2021) and retail (January 2022) dates."
+  - "mygolfspy.com 2022 Most Wanted testing — the 623-CB placed first overall among player's irons ('Best Player's Iron 2022')."
+  - "Note: year_discontinued 2025 is inferred — the 702-CB announced in 2025 occupies the slot and the 623-CB no longer appears on newlevelgolf.com as of July 2026. No stock shaft or swing weight is recorded because New Level builds every set to order."
+related_models:
+  - slug: "new-level/623-m-irons"
+    label: "Muscle-back stablemate: New Level 623-M"
+  - slug: "new-level/902-os-irons"
+    label: "New Level's forgiving forged iron: 902-OS"
+faq:
+  - q: "What is the loft of a New Level 623-CB 7-iron?"
+    a: "The New Level 623-CB 7-iron has a loft of 34 degrees, a lie of 62 degrees and a length of 37 inches."
+  - q: "How does the 623-CB differ from the 623-M?"
+    a: "Same compact 623 shaping, thin topline and lie/length ladder, but the CB is a cavity back rather than a muscle back and its lofts are one degree weaker at every club — 34 versus 33 degrees at the 7-iron — trading a little flight for stability."
+  - q: "When did the New Level 623-CB come out?"
+    a: "New Level announced it in late October 2021 and it reached retail in January 2022. It went on to win MyGolfSpy's 2022 Most Wanted player's-iron test."
+confidence: medium

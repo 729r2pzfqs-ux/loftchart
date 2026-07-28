@@ -4,11 +4,11 @@ model: P790 (2023)
 slug: p790-2023-irons
 club_type: irons
 year_introduced: 2023
-year_discontinued: null
+year_discontinued: 2025
 category: players-distance
 construction: forged hollow body
 material: forged 8620 carbon steel body with a high-strength forged L-Face
-successor: null
+successor: TaylorMade P790 (2025)
 predecessor: P790 (2021)
 description: >
   The fourth-generation P790 keeps the family loft chart intact for a fourth
@@ -93,6 +93,8 @@ sources:
 related_models:
   - slug: "taylormade/p790-2021-irons"
     label: "Predecessor: TaylorMade P790 (2021)"
+  - slug: "taylormade/p790-2025-irons"
+    label: "Successor: TaylorMade P790 (2025)"
   - slug: "taylormade/p770-2023-irons"
     label: "Players-iron sibling: TaylorMade P770 (2023)"
   - slug: "taylormade/p790-2017-irons"

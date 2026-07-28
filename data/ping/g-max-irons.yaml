@@ -1,0 +1,121 @@
+brand: Ping
+brand_slug: ping
+model: GMax
+slug: g-max-irons
+club_type: irons
+year_introduced: 2015
+year_discontinued: 2018
+category: game-improvement
+construction: investment cast with a COR-Eye face structure
+material: 17-4 stainless steel, with heat-treated Hyper 17-4 faces in the 4-8 irons
+successor: Ping G700
+predecessor: null
+description: >
+  The GMax was the maximum-forgiveness iron Ping introduced in July 2015, sold
+  alongside the G30 rather than replacing it, and it was the first Ping iron with
+  the COR-Eye face structure, which activates the sole, face and top rail together
+  for up to a claimed 3 mph more ball speed. The 4- through 8-iron faces are heat
+  treated into a roughly 40 per cent stronger Hyper 17-4 alloy so they can be cast
+  thinner, and a concealed Custom Tuning Port connects the cavity structure to the
+  wide sole, pushing the CG low and back for a high-MOI head. The set is built
+  deliberately light — swing weights run C6 to C9 from the 4-iron through the
+  9-iron to help moderate swing speeds square the face — with lofts matching the
+  G30 at 21 degrees for the 4-iron, 30.5 for the 7-iron and 45 for the pitching
+  wedge, and a 56-degree sand wedge closing the 4-SW stock set. The hollow-body
+  G700, announced in January 2018, replaced it. Ping's colour-code (dot) system
+  sets lie angle relative to standard: gold 4 flat, brown 3 flat, orange 2 flat,
+  red 1 flat, BLACK standard, blue 1 upright, green 2 upright, white 3 upright,
+  silver 4 upright, maroon 5 upright. The lies below are the BLACK (standard) lies.
+specs:
+  - club: "4"
+    loft: 21.0
+    lie: 59.2
+    length: 38.875
+    offset: 0.32
+    bounce: 2.0
+    swing_weight: C6
+  - club: "5"
+    loft: 24.0
+    lie: 60.1
+    length: 38.25
+    offset: 0.3
+    bounce: 4.0
+    swing_weight: C7
+  - club: "6"
+    loft: 27.0
+    lie: 61.6
+    length: 37.625
+    offset: 0.28
+    bounce: 6.0
+    swing_weight: C8
+  - club: "7"
+    loft: 30.5
+    lie: 62.0
+    length: 37.0
+    offset: 0.26
+    bounce: 8.0
+    swing_weight: C9
+  - club: "8"
+    loft: 35.0
+    lie: 62.8
+    length: 36.5
+    offset: 0.24
+    bounce: 9.0
+    swing_weight: C9
+  - club: "9"
+    loft: 40.0
+    lie: 63.5
+    length: 36.0
+    offset: 0.22
+    bounce: 10.5
+    swing_weight: C9
+  - club: "PW"
+    loft: 45.0
+    lie: 64.1
+    length: 35.5
+    offset: 0.19
+    bounce: 12.0
+    swing_weight: D1
+  - club: "UW"
+    loft: 50.5
+    lie: 64.1
+    length: 35.5
+    offset: 0.17
+    bounce: 12.0
+    swing_weight: D1
+  - club: "SW"
+    loft: 56.0
+    lie: 64.4
+    length: 35.25
+    offset: 0.14
+    bounce: 13.0
+    swing_weight: D2
+stock_shafts:
+  - name: "Ping CFS Distance"
+    material: steel
+    flex: ["SR", "R", "S", "X"]
+  - name: "Ping CFS Graphite"
+    material: graphite
+sources:
+  - "Official Ping GMax specification page (ping.com/clubs/irons/gmax, archive.org captures of 18 July 2018 and 22 August 2019, identical tables) — supplied every length, loft, lie, offset, bounce and swing weight above for the 4-iron through SW, the note that 'Lie angle is based on Black Color Code at standard length', the Power Spec loft column, and the CFS Distance steel (SR/R/S/X, 95-115g) and CFS Graphite shaft tables."
+  - "Note on the 6-iron lie: Ping's own table prints 61.6 degrees on both captures, even though it sits above the otherwise smooth 59.2/60.1/…/62.0 progression; the published figure is recorded rather than a smoothed one. Retail tables (Morton Golf Sales, Golfstead) circulate a more upright lie column that Morton labels as the Yellow Colour Code and it is not used here."
+  - "Ping press material 'A look inside the new GMax iron and its COR-Eye Technology' (via mygolfway.com) and GolfWRX 'Ping GMax irons: What you need to know' — the COR-Eye claim of up to 3 mph more ball speed, and the 4-8 iron faces heat treated roughly 40% stronger into Hyper 17-4."
+  - "Golfalot 'Ping GMax Irons Review' and golftec.com 'First Look: PING i & GMax irons' (July 2015) — the July 2015 introduction alongside the Ping i irons, retail availability from 30 July 2015, the Custom Tuning Port and the positioning alongside (not replacing) the G30."
+  - "essential.golf 'Ping G700 Irons Launched' — the G700, announced 15 January 2018, 'launched for sale as a replacement for the GMax irons', which sets year_discontinued to 2018 on the successor-announcement convention."
+related_models:
+  - slug: "ping/g30-irons"
+    label: "Sold alongside it: Ping G30"
+  - slug: "ping/g-irons"
+    label: "The G-series iron that adopted COR-Eye next: Ping G"
+  - slug: "ping/g700-irons"
+    label: "Successor: Ping G700"
+faq:
+  - q: "What is the loft of a Ping GMax 7-iron?"
+    a: "The Ping GMax 7-iron has a loft of 30.5 degrees, a standard (black dot) lie of 62.0 degrees and a steel-shaft length of 37.0 inches."
+  - q: "When were Ping GMax irons released?"
+    a: "Ping introduced the GMax in July 2015 as its maximum-forgiveness iron, sold alongside the G30 rather than replacing it. The hollow-body G700 replaced it in January 2018."
+  - q: "Why are Ping GMax swing weights so light?"
+    a: "Ping built the 4-9 irons deliberately light — C6 to C9 rather than the usual D-range — to help moderate swing speeds square the face and launch the ball; the wedges return to D1-D2."
+  - q: "Are Ping GMax lofts the same as the G30?"
+    a: "Yes, club for club: 21, 24, 27, 30.5, 35, 40 and 45 degrees from 4-iron to pitching wedge. The GMax UW is 50.5 degrees against the G30's 50, its sand wedge 56 against 54, and there is no GMax lob wedge."
+confidence: high

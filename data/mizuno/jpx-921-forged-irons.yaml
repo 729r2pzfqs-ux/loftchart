@@ -81,6 +81,8 @@ sources:
 related_models:
   - slug: "mizuno/jpx-921-hot-metal-irons"
     label: "Same generation, stronger lofts: Mizuno JPX-921 Hot Metal"
+  - slug: "mizuno/jpx-921-tour-irons"
+    label: "Same generation, compact tour model: Mizuno JPX-921 Tour"
   - slug: "mizuno/jpx-919-forged-irons"
     label: "Predecessor: Mizuno JPX-919 Forged"
   - slug: "mizuno/jpx-923-forged-irons"

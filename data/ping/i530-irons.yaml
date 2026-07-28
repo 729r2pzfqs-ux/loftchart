@@ -4,11 +4,11 @@ model: i530
 slug: i530-irons
 club_type: irons
 year_introduced: 2024
-year_discontinued: null
+year_discontinued: 2026
 category: players-distance
 construction: forged hollow body with a maraging steel face
 material: forged 17-4 stainless body with a maraging steel face and internal tungsten weighting
-successor: null
+successor: Ping i540
 predecessor: Ping i525
 description: >
   The i530 is Ping's players-distance iron in a blade-style package: a hollow body
@@ -88,10 +88,12 @@ stock_shafts:
 sources:
   - "Ping's own i530 product page, Specifications table (https://ping.com/en-us/clubs/irons/i530) — supplied every loft, lie, length, offset, bounce and swing weight above, the stock shaft list, the 4-iron through UW set makeup and the note that lies are quoted at standard length on the black colour code."
   - "pgatour.com 'New PING blade-style i530 iron delivers distance with stopping power' and golf.com 'Ping's all-new G730 and i530 irons' — Ping introduced the i530 in Phoenix in March 2024, alongside the G730."
-  - "Note: year_discontinued is null — no successor to the i530 had been announced in the sources retrieved."
+  - "Note: year_discontinued is 2026 — Ping launched the i540 as the i530's replacement on 10 March 2026 (todays-golfer.com 'Ping i540 irons: Everything you need to know')."
 related_models:
   - slug: "ping/i525-irons"
     label: "Predecessor: Ping i525"
+  - slug: "ping/i540-irons"
+    label: "Successor: Ping i540"
   - slug: "ping/i240-irons"
     label: "Ping's players iron of the same period: Ping i240"
   - slug: "ping/g730-irons"

@@ -1,0 +1,117 @@
+brand: Ping
+brand_slug: ping
+model: i25
+slug: i25-irons
+club_type: irons
+year_introduced: 2014
+year_discontinued: 2015
+category: players
+construction: investment cast
+material: 17-4 stainless steel
+successor: Ping i (iE1)
+predecessor: Ping i20
+description: >
+  The i25 was Ping's better-player iron of 2014, announced on 2 January 2014
+  alongside the i25 driver, fairways and hybrids and the Karsten hybrid/iron set. It
+  is cast from 17-4 stainless steel with a progressive set design: the long irons
+  carry larger heads and wider soles than the i20 to raise launch and forgiveness,
+  while the mid and short irons are more compact with thinner top rails, narrower
+  soles and less offset for control into the green. The pitching wedge is a
+  traditional-for-the-time 46 degrees, and Ping built matching UW, SW and LW heads so
+  the set runs 3-iron through lob wedge. The stock shaft was Ping's own CFS steel.
+  The i25 was replaced in 2015 when Ping dropped the numbering and launched the i
+  iron (also catalogued as the iE1). Ping's colour-code (dot) system sets lie angle
+  relative to standard; the lies below are the BLACK (standard) lies.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 59.25
+    length: 38.75
+    offset: 0.24
+    bounce: 4.0
+  - club: "4"
+    loft: 24.0
+    lie: 60.0
+    length: 38.25
+    offset: 0.2
+    bounce: 5.0
+  - club: "5"
+    loft: 27.0
+    lie: 60.75
+    length: 37.75
+    offset: 0.17
+    bounce: 6.0
+  - club: "6"
+    loft: 30.0
+    lie: 61.5
+    length: 37.25
+    offset: 0.13
+    bounce: 7.0
+  - club: "7"
+    loft: 33.0
+    lie: 62.25
+    length: 36.75
+    offset: 0.1
+    bounce: 8.0
+  - club: "8"
+    loft: 37.0
+    lie: 63.0
+    length: 36.25
+    offset: 0.08
+    bounce: 9.0
+  - club: "9"
+    loft: 41.0
+    lie: 63.75
+    length: 35.75
+    offset: 0.06
+    bounce: 11.0
+  - club: "PW"
+    loft: 46.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.05
+    bounce: 12.0
+  - club: "UW"
+    loft: 50.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.04
+    bounce: 13.0
+  - club: "SW"
+    loft: 54.0
+    lie: 64.25
+    length: 35.25
+    offset: 0.04
+    bounce: 14.0
+  - club: "LW"
+    loft: 58.0
+    lie: 64.5
+    length: 35.0
+    offset: 0.03
+    bounce: 13.0
+stock_shafts:
+  - name: "Ping CFS"
+    material: steel
+    flex: ["SR", "R", "S", "X"]
+sources:
+  - "Morton Golf Sales (Ping-authorised dealer) i25 individual irons page (mortongolfsales.com/ping-golf-i25-individual-irons-replacement-irons-only) — supplied the loft, lie, length, offset and bounce for every club 3-iron through LW above, and the SR/R/S/X flex options. Its swing-weight column (a flat D0 for 3-9) looked like a placeholder and is omitted here."
+  - "Second retail spec table surfaced in search (qsponge Ping i25 loft listing) — corroborated the loft, lie and length figures for 3-iron through LW, including the 33-degree/62.25-degree/36.75-inch 7-iron and the 35.25-inch sand wedge (Morton's page printed 35.20 for the SW; the corroborating table's 35.25 is used, matching Ping's usual quarter-inch steps)."
+  - "Golfalot 'Ping i25 Irons Review' — cast 17-4 stainless steel, availability in 3-9, PW, UW, SW and LW, the stock Ping CFS shaft in Soft R, R, S and X, and the positioning as the evolution of the i20 for better players."
+  - "Ping press release 'PING Introduces 2014 Line of Products' (via buffalogolfer.com, plus Golf Channel coverage) — announcement date of 2 January 2014, the progressive head design description, and pre-orders opening the same day. year_introduced follows the announcement year."
+  - "GolfWRX 'Ping i irons: What you need to know' and MyGolfSpy 'PING Reinvents i-series with i iron' — the 431 stainless Ping i iron (iE1) replaced the i25 in 2015, which is the year_discontinued recorded here."
+  - "Note: confidence is medium — the per-club numbers come from dealer spec tables that mirror Ping's data rather than an archived ping.com specification page."
+related_models:
+  - slug: "ping/i20-irons"
+    label: "Predecessor: Ping i20"
+  - slug: "ping/s55-irons"
+    label: "Ping's tour blade of the same period: Ping S55"
+  - slug: "ping/g25-irons"
+    label: "Ping's game-improvement iron of the same period: Ping G25"
+faq:
+  - q: "What is the loft of a Ping i25 7-iron?"
+    a: "The Ping i25 7-iron has a loft of 33 degrees, a standard (black dot) lie of 62.25 degrees and a steel-shaft length of 36.75 inches."
+  - q: "When were Ping i25 irons released?"
+    a: "Ping announced the i25 line on 2 January 2014, with pre-orders opening the same day. The irons were replaced in 2015 by the Ping i (iE1)."
+  - q: "What clubs were available in the Ping i25 set?"
+    a: "Heads ran from the 3-iron through the lob wedge — 3-9, a 46-degree pitching wedge, plus matching 50-degree UW, 54-degree SW and 58-degree LW."
+confidence: medium

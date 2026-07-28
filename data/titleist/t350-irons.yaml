@@ -4,10 +4,11 @@ model: T350
 slug: t350-irons
 club_type: irons
 year_introduced: 2023
+year_discontinued: 2025
 category: game-improvement
 construction: hollow-body cast with Max Impact internal support
 material: cast stainless steel with high-density tungsten weighting
-successor: null
+successor: Titleist T350 (2025)
 predecessor: Titleist T300
 description: >
   The T350 is the 2023 game-improvement iron that replaced the T300, keeping
@@ -81,9 +82,12 @@ sources:
   - "GolfDiscount.com and GolfHubz Titleist T350 specification tables - used for the lie progression, where they agree with each other and with the rest of the T-Series against a differing 2ndSwing column"
   - "Lie angles carry a source conflict: 2ndSwing lists the column half a degree lower across the set. The two-source progression used here matches every other T-Series model"
   - "Titleist does not publish per-club bounce for the T-Series, which uses a variable-bounce sole; the column is absent from every published spec table and is therefore omitted here rather than estimated"
+  - "year_discontinued is 2025, when Titleist announced the second-generation T350 as part of the 2025 T-Series (pre-orders 10 July, retail 21 August 2025)"
 related_models:
   - slug: "titleist/t200-2023-irons"
     label: "Range sibling: Titleist T200 (2023)"
+  - slug: "titleist/t350-2025-irons"
+    label: "Successor: Titleist T350 (2025)"
 faq:
   - q: "What is the loft of a Titleist T350 7-iron?"
     a: "The Titleist T350 7-iron is 29 degrees, with a 63 degree lie and a 37 inch standard steel length."

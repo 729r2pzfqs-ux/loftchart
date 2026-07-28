@@ -1,0 +1,101 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: P7TW
+slug: p7tw-irons
+club_type: irons
+year_introduced: 2019
+year_discontinued: null
+category: blade
+construction: forged, with milled sole and precise tungsten weighting
+material: forged 1025 carbon steel with internal tungsten weighting
+successor: null
+predecessor: null
+description: >
+  The P7TW is the production version of the muscleback blade TaylorMade
+  co-designed with Tiger Woods, announced in April 2019 in the wake of his
+  Masters win and at retail from 1 May 2019 at $1,999.99 for the set. Each head
+  is forged from 1025 carbon steel with a milled sole — the Milled Grind process
+  removing head-to-head variance in sole geometry — internal tungsten weighting,
+  a long blade length, thin top line and progressive face height shaped to
+  Woods's specification. It is sold 3-iron through pitching wedge, right hand
+  only, through TaylorMade's custom program, with the True Temper Dynamic Gold
+  Tour Issue S400 the stock shaft. One point of confusion: the retail set uses
+  standard lofts, which are not Tiger's personal specs — his own set is bent
+  weaker (for example 36 degrees at the 7-iron against the retail 35, and 22.5
+  at the 3-iron against 21). The model has remained in TaylorMade's custom line
+  ever since, outliving the P7MB and P7MC generations launched after it. Figures
+  below are the standard right-handed steel build; the pitching wedge offset is
+  omitted because the two retailer spec tables consulted disagreed on it.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 59.5
+    length: 39.00
+    offset: 0.091
+    swing_weight: D3
+  - club: "4"
+    loft: 24.0
+    lie: 60.0
+    length: 38.50
+    offset: 0.075
+    swing_weight: D3
+  - club: "5"
+    loft: 27.0
+    lie: 60.5
+    length: 38.00
+    offset: 0.075
+    swing_weight: D3
+  - club: "6"
+    loft: 31.0
+    lie: 61.0
+    length: 37.50
+    offset: 0.071
+    swing_weight: D3
+  - club: "7"
+    loft: 35.0
+    lie: 61.5
+    length: 37.00
+    offset: 0.055
+    swing_weight: D3
+  - club: "8"
+    loft: 39.0
+    lie: 62.5
+    length: 36.50
+    offset: 0.047
+    swing_weight: D3
+  - club: "9"
+    loft: 43.0
+    lie: 63.0
+    length: 36.00
+    offset: 0.051
+    swing_weight: D3
+  - club: "PW"
+    loft: 47.0
+    lie: 63.5
+    length: 35.75
+    swing_weight: D3
+stock_shafts:
+  - name: "True Temper Dynamic Gold Tour Issue S400"
+    material: steel
+    flex: ["S"]
+sources:
+  - "fairwayjockey.com TaylorMade P7TW custom irons page — full specification table (loft, lie, length, offset in millimetres and D3 swing weight for the 3-iron through pitching wedge, converted to inches here) and the Milled Grind sole-consistency description."
+  - "golfdiscount.com TaylorMade P7TW irons page — independently matching loft, lie, length, offset and swing weight table for the 3-iron through pitching wedge. The two tables agree on every figure except the pitching wedge offset (0.7 mm vs 1.7 mm), which is therefore omitted rather than guessed."
+  - "tgw.com TaylorMade P7TW irons page via search excerpt — the standard-versus-Tiger's-loft comparison (21/22.5 at the 3-iron through 35/36 at the 7-iron), the 1025 carbon steel forging with milled sole and face, the tungsten weighting, and the Dynamic Gold Tour Issue S400 / Tour Velvet Full Cord stock build."
+  - "golfdigest.com 'Tiger-designed P7TW irons from TaylorMade to go on sale May 1' via search excerpt — the April 2019 announcement, 1 May 2019 retail date, $1,999.99 set price, and the 3-PW right-hand-only composition."
+  - "Confidence is medium because the per-club numbers come from two independently matching retailer reproductions of TaylorMade's spec table rather than directly from taylormadegolf.com, which was unreachable when this file was researched."
+related_models:
+  - slug: "taylormade/p7mb-irons"
+    label: "TaylorMade's standard muscleback: P7MB"
+  - slug: "taylormade/p7mc-irons"
+    label: "Compact cavity-back sibling: P7MC"
+faq:
+  - q: "What is the loft of a TaylorMade P7TW 7-iron?"
+    a: "The retail P7TW 7-iron has a loft of 35 degrees, with a 61.5-degree lie and a 37-inch steel-shaft length. Tiger Woods's personal 7-iron is bent to 36 degrees."
+  - q: "Are the retail P7TW irons the same specs Tiger Woods plays?"
+    a: "The heads are the same, but the retail set ships at standard lofts while Tiger's personal set is bent weaker — 22.5, 25.5, 29, 32.5 and 36 degrees from 3-iron to 7-iron against the retail 21, 24, 27, 31 and 35. Buyers can order Tiger's lofts through the custom program."
+  - q: "Is the TaylorMade P7TW still available?"
+    a: "Yes. It launched on 1 May 2019 at $1,999.99 and has stayed in TaylorMade's custom-order line ever since, sold 3-iron through pitching wedge in right hand only."
+  - q: "What shaft comes standard in the P7TW?"
+    a: "The True Temper Dynamic Gold Tour Issue S400 in stiff flex, with a Golf Pride Tour Velvet Full Cord grip — the same shaft and grip Tiger Woods uses."
+confidence: medium

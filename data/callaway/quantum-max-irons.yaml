@@ -1,0 +1,99 @@
+brand: Callaway
+brand_slug: callaway
+model: Quantum Max
+slug: quantum-max-irons
+club_type: irons
+year_introduced: 2026
+year_discontinued: null
+category: game-improvement
+construction: two-piece Modern 360° Undercut cavity body with urethane microspheres
+material: steel body with a next-generation Ai-optimized face (Callaway does not publish the alloy)
+successor: null
+predecessor: Callaway Elyte
+description: >
+  Quantum Max is the core game-improvement iron in Callaway's 2026 Quantum family,
+  which replaced the Elyte line. Callaway announced the family on 16 January 2026
+  and the irons reached US retail on 27 February 2026. The head is a two-piece
+  design whose Modern 360° Undercut cavity fully exposes the undercut for perimeter
+  weighting and added face flex, with urethane microspheres for sound and a
+  next-generation Ai-optimized face. Lofts carry over from the Elyte exactly — 29
+  degrees at the 7-iron and a 42-degree pitching wedge — and the chart runs 4-iron
+  through a 55-degree sand wedge in right and left hand. An HL spec is offered that
+  adds two degrees of loft at every head (31-degree 7-iron) for higher launch; the
+  figures below are the standard spec, men's steel build.
+specs:
+  - club: "4"
+    loft: 19.0
+    lie: 60.375
+    length: 39.125
+    offset: 0.200
+  - club: "5"
+    loft: 22.0
+    lie: 61.0
+    length: 38.50
+    offset: 0.184
+  - club: "6"
+    loft: 25.0
+    lie: 61.625
+    length: 37.875
+    offset: 0.167
+  - club: "7"
+    loft: 29.0
+    lie: 62.25
+    length: 37.25
+    offset: 0.146
+  - club: "8"
+    loft: 33.0
+    lie: 62.875
+    length: 36.625
+    offset: 0.124
+  - club: "9"
+    loft: 37.0
+    lie: 63.5
+    length: 36.00
+    offset: 0.102
+  - club: "PW"
+    loft: 42.0
+    lie: 63.75
+    length: 35.75
+    offset: 0.075
+  - club: "AW"
+    loft: 47.0
+    lie: 64.0
+    length: 35.50
+    offset: 0.063
+  - club: "GW"
+    loft: 51.0
+    lie: 64.0
+    length: 35.50
+    offset: 0.054
+  - club: "SW"
+    loft: 55.0
+    lie: 64.0
+    length: 35.25
+    offset: 0.044
+stock_shafts:
+  - name: "KBS MAX 90"
+    material: steel
+sources:
+  - "Callaway 2026 club spec chart PDF (callawaymedia.com/wp-content/uploads/2026/02/2026_Club-Spec-Charts_final.pdf), Quantum Max Iron table — loft, HL spec loft, lie, length and offset in millimetres for the 4-iron through sand wedge, all listed RH/LH. Offset is converted to inches here (7-iron 3.71 mm = 0.146 in)."
+  - "callawaygolf.com Quantum Max Irons product page (https://www.callawaygolf.com/golf-clubs/irons/irons-2026-quantum-max.html) — matching loft/lie/length/offset table, the 4-SW RH/LH availability line, the KBS MAX 90 steel stock shaft and Golf Pride Tour Velvet 360 Black Cap CHEV (46g) grip, and the Modern 360° Undercut Cavity / Ai-optimized face / urethane microspheres technology copy. Only the default steel shaft configuration was visible, so flex options are omitted."
+  - "Callaway Quantum press release, 16 January 2026 (callawaymedia.com/wp-content/uploads/2026/01/Quantum-Press-Release.pdf) — announcement date, US iron retail date of 27 February 2026, iron pricing from $1,149.99 per 7-piece set, the two-piece Modern 360 Undercut construction and Progressive Tri-Sole description, and the Max / Max OS (super game-improvement) / Max Fast line-up."
+  - "Golfalot Quantum Max irons review — states the Quantum irons replace last year's Elyte, corroborates the KBS Max 90 stock shaft and the 29-degree 7-iron. Bounce and swing weight are not published anywhere consulted and are omitted rather than estimated."
+related_models:
+  - slug: "callaway/elyte-irons"
+    label: "Predecessor: Callaway Elyte"
+  - slug: "callaway/quantum-max-os-irons"
+    label: "Oversized model in the same line: Callaway Quantum Max OS"
+  - slug: "callaway/quantum-max-fast-irons"
+    label: "Lightweight model in the same line: Callaway Quantum Max Fast"
+faq:
+  - q: "What is the loft of a Callaway Quantum Max 7-iron?"
+    a: "The Callaway Quantum Max 7-iron has a loft of 29 degrees, a lie of 62.25 degrees and a steel-shaft length of 37.25 inches. The optional HL spec raises the 7-iron loft to 31 degrees."
+  - q: "When did the Callaway Quantum Max irons come out?"
+    a: "Callaway announced the Quantum family on 16 January 2026 and the irons reached US retail on 27 February 2026, replacing the Elyte line."
+  - q: "Are Quantum Max lofts different from the Elyte?"
+    a: "No — the chart is identical, 19 degrees at the 4-iron through a 42-degree pitching wedge and 55-degree sand wedge. Lie angles moved fractionally flatter (62.25 against 62.5 at the 7-iron) and the sand wedge is now 35.25 inches rather than 35.5."
+  - q: "What is the difference between the Quantum Max and Quantum Max OS irons?"
+    a: "They share the same loft, lie and length chart. The Max OS is the super-game-improvement version with an oversized head and noticeably more offset — 4.80 mm at the 7-iron against 3.71 mm — and both are offered in an HL spec two degrees weaker throughout."
+confidence: high

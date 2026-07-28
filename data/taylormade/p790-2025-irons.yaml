@@ -1,0 +1,96 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: P790 (2025)
+slug: p790-2025-irons
+club_type: irons
+year_introduced: 2025
+year_discontinued: null
+category: players-distance
+construction: forged hollow body
+material: forged hollow body with a high-strength 4340M forged face and SpeedFoam Air filling
+successor: null
+predecessor: P790 (2023)
+description: >
+  The fifth-generation P790 is the first in the line to change the loft chart:
+  after four generations of 30.5 degrees at the 7-iron and 45 at the pitching
+  wedge, the 2025 model moves to 30 and 44, drops the 3-iron from the published
+  range, and starts the set at a 20-degree 4-iron. The face is a new 4340M forged
+  material TaylorMade says is 20 percent stronger than before, allowing a thinner
+  face and a sweet spot up to 24 percent larger on the 7-iron, with SpeedFoam Air
+  behind it and the FLTD CG tungsten progression keeping the centre of gravity
+  lowest in the long irons and rising through the set. The release timing is also
+  new: TaylorMade announced the irons on 18 February 2025 with retail on 13 March,
+  moving the P790's two-year cycle from its traditional late-summer window to
+  spring, so a launch that would previously have arrived in August 2025 came six
+  months early. The stock US set is 4-PW with a 49-degree approach wedge
+  available. Figures below are the men's standard steel build; offset was not
+  published in the sources consulted and is omitted rather than estimated.
+specs:
+  - club: "4"
+    loft: 20.0
+    lie: 61.0
+    length: 38.50
+    swing_weight: D2
+  - club: "5"
+    loft: 23.0
+    lie: 61.5
+    length: 38.00
+    swing_weight: D2
+  - club: "6"
+    loft: 26.5
+    lie: 62.0
+    length: 37.50
+    swing_weight: D2
+  - club: "7"
+    loft: 30.0
+    lie: 62.5
+    length: 37.00
+    swing_weight: D2
+  - club: "8"
+    loft: 34.0
+    lie: 63.0
+    length: 36.50
+    swing_weight: D2
+  - club: "9"
+    loft: 39.0
+    lie: 63.5
+    length: 36.00
+    swing_weight: D2
+  - club: "PW"
+    loft: 44.0
+    lie: 64.0
+    length: 35.75
+    swing_weight: D3
+  - club: "AW"
+    loft: 49.0
+    lie: 64.0
+    length: 35.50
+    swing_weight: D3
+stock_shafts:
+  - name: "FST KBS Tour Lite"
+    material: steel
+    flex: ["R", "S", "X"]
+  - name: "Mitsubishi Chemical MMT 55 / 65 / 75"
+    material: graphite
+    flex: ["A", "R", "S"]
+sources:
+  - "2ndswing.com TaylorMade 2025 P790 Iron Set specification table — loft, lie, length and steel/graphite swing weight for the 4-iron through approach wedge, the 4-PW stock set makeup, and the KBS Tour Lite steel and Mitsubishi Chemical MMT graphite stock shafts with the Golf Pride Z-Grip 52g grip."
+  - "todays-golfer.com 'Elegance defined: The new 2025 TaylorMade P790 irons are here early' — independently matching loft, lie, length and swing weight table (plus the women's-build lengths), the February 2025 announcement and the move of the two-year P790 cycle from summer to spring, the 4340M forged face (20 percent stronger, 24 percent larger sweet spot), SpeedFoam Air, FLTD CG tungsten placement, and the UK stock shafts (Nippon Modus 105 steel, MMT graphite), which differ from the US stock listed here."
+  - "fairwayjockey.com TaylorMade 2025 P790 custom irons page — a third matching loft/lie/length table for the 4-iron through approach wedge."
+  - "golf.com 'TaylorMade 2025 P790 irons: 4 things to know' via search excerpt — preorders opened 18 February 2025 with retail on 13 March 2025, at $1,399.99 steel / $1,499.99 graphite for the 7-piece set."
+  - "Note: offset and bounce were not published in the sources consulted and are omitted rather than estimated. Swing weight is the steel build; the sources also list D0/D1 for graphite. Confidence is medium because the numbers come from retailer and magazine reproductions of TaylorMade's spec table rather than directly from taylormadegolf.com, which was unreachable when this file was researched."
+related_models:
+  - slug: "taylormade/p790-2023-irons"
+    label: "Predecessor: TaylorMade P790 (2023)"
+  - slug: "taylormade/p790-2017-irons"
+    label: "First generation: TaylorMade P790 (2017)"
+faq:
+  - q: "What is the loft of a TaylorMade P790 (2025) 7-iron?"
+    a: "The 2025 P790 7-iron has a loft of 30 degrees, a lie of 62.5 degrees and a steel-shaft length of 37.00 inches — half a degree stronger than the 30.5-degree 7-iron used by every previous P790 generation."
+  - q: "Did the P790 lofts change for 2025?"
+    a: "Yes, for the first time in the line's history. The 2017 through 2023 generations all used the same chart; the 2025 model strengthens most of the set — the 4-iron goes from 21 to 20 degrees, the 7-iron from 30.5 to 30, the 9-iron from 40 to 39 and the pitching wedge from 45 to 44 — and drops the 3-iron from the published range."
+  - q: "What is the difference between the 2023 and 2025 P790?"
+    a: "The 2025 model introduces a stronger 4340M forged face that allows a sweet spot up to 24 percent larger, revises the sole geometry, and changes the lofts for the first time in the line. It also moved the launch from the traditional late-summer window to spring, reaching retail in March 2025."
+  - q: "When was the 2025 TaylorMade P790 released?"
+    a: "TaylorMade announced it on 18 February 2025, with preorders the same day and retail on 13 March 2025 — about six months earlier in the cycle than the August-September windows of previous generations."
+confidence: medium

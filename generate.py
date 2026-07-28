@@ -200,12 +200,14 @@ def fit_desc(head_part, tails):
 
 
 def club_sort_key(c):
-    """Total order over club labels.
+    """Total order over club labels, used to break ties between equal lofts.
 
-    Returns a (rank, label) tuple rather than a bare float: anything that
-    compares equal here falls back to set-iteration order in compare_page,
-    which varies per interpreter run and produced churning diffs in the built
-    pages. The trailing label keeps the order total and the build reproducible.
+    Label order alone cannot order a set correctly: wedge naming is per-brand
+    and does not follow one loft progression. Callaway sells AW 47 alongside
+    GW 51, Cleveland puts DW 50 between PW and SW, Titleist's DCI sets label a
+    single 50-52 degree wedge "W". Any fixed list of labels gets one of those
+    backwards, so the sorts below lead with the loft and fall back to this only
+    to keep the order total and the build reproducible.
     """
     c = str(c).upper()
     if c in CLUB_ORDER:
@@ -286,7 +288,8 @@ def load():
             if len(m.get("faq") or []) < 2:
                 errors.append(f"{rel}: fewer than 2 FAQ entries")
 
-            specs.sort(key=lambda r: club_sort_key(r["club"]))
+            specs.sort(key=lambda r: (r["loft"] if r.get("loft") is not None
+                                      else float("inf"), club_sort_key(r["club"])))
             m["specs"] = specs
             m["key"] = f"{m['brand_slug']}/{m['slug']}"
             m["url"] = f"/{m['brand_slug']}/{m['slug']}/"
@@ -1129,7 +1132,11 @@ def compare_page(a, b, brands):
 
     aspec = {r["club"]: r for r in a["specs"]}
     bspec = {r["club"]: r for r in b["specs"]}
-    clubs = sorted(set(aspec) | set(bspec), key=club_sort_key)
+    # Ordered by the loft whichever set records it, so a label only one of the
+    # two sets carries still lands in the right place in the merged table.
+    clubs = sorted(set(aspec) | set(bspec),
+                   key=lambda c: ((aspec.get(c) or bspec.get(c)).get("loft")
+                                  or float("inf"), club_sort_key(c)))
 
     cols = ["loft", "lie", "length"]
     head_cells = "".join(

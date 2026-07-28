@@ -4,10 +4,10 @@ model: Launcher XL
 slug: launcher-xl-irons
 club_type: irons
 year_introduced: 2022
-year_discontinued: null
+year_discontinued: 2024
 category: super-game-improvement
 construction: hollow long irons, cavity-back short irons
-successor: null
+successor: Cleveland ZipCore XL
 predecessor: Cleveland Launcher HB Turbo
 description: >
   The Launcher XL is an oversize distance iron built as a progressive set: the long
@@ -73,7 +73,10 @@ sources:
   - "Cleveland Golf / Dunlop Sports Americas official 'LAUNCHER XL IRONS' product page (https://us.dunlopsports.com/launcher-xl-irons/11214748.html) — full HEAD / LOFT / LIE / OFFSET (MM) / STANDARD BUILD LENGTH / STANDARD STEEL SW / STANDARD GRAPHITE SW / ACCURACY BUILD LENGTH table for 4-iron through DW. This is the source of every loft, lie, length, offset and swing weight above. Offsets are published in millimetres (4.7, 4.0, 3.7, 3.4, 3.0, 2.6, 2.1, 1.8) and are converted to inches here."
   - "Same page for the progressive hollow-long-iron / cavity-short-iron construction and the Accuracy Build option."
   - "Note: the retrieved page did not carry a stock shaft table, so no stock_shafts are listed rather than guessing them."
+  - "year_discontinued and successor: Cleveland announced the ZipCore XL on 15 January 2024 as its replacement oversize distance iron (Dunlop Sports press release 'Go Far, Get Close with Cleveland Golf's ZipCore XL and HALO XL Full-Face Irons', 15 January 2024; Today's Golfer's ZipCore XL review states it replaced the Launcher XL, and Dunlop's own site files the ZipCore XL under the Launcher XL iron category)."
 related_models:
+  - slug: "cleveland/zipcore-xl-irons"
+    label: "Successor: Cleveland ZipCore XL"
   - slug: "cleveland/launcher-hb-irons"
     label: "Earlier hollow-body Launcher iron: Launcher HB"
   - slug: "cleveland/cbx-irons"

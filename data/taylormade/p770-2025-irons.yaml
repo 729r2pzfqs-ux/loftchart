@@ -1,0 +1,99 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: P770 (2025)
+slug: p770-2025-irons
+club_type: irons
+year_introduced: 2024
+year_discontinued: null
+category: players
+construction: forged hollow body
+material: forged 4140 carbon steel face with a forged 8620 carbon steel body and SpeedFoam Air filling
+successor: null
+predecessor: P770 (2023)
+description: >
+  The third-generation P770 keeps the compact forged hollow-body formula — a
+  forged 4140 face over a Thru-Slot Speed Pocket, an 8620 body filled with
+  SpeedFoam Air, and the FLTD CG progression backed by up to 41 grams of
+  tungsten per head — in a sleeker shape with a thinner topline and a sharper
+  leading edge on the long irons. The scoring lofts move a degree stronger than
+  the 2023 model, a 45-degree pitching wedge and 50-degree approach wedge
+  against 46 and 51, and the 3- and 4-irons half a degree, while the 5-iron
+  through 9-iron chart is unchanged, 33 degrees at the 7-iron. TaylorMade
+  announced it alongside the P7CB on 31 July 2024 with retail from 6 September
+  2024; it is marketed for the 2024/25 season and commonly catalogued as the
+  2025 P770, so year_introduced records the 2024 announcement per this
+  database's convention. Figures are the men's standard right-handed steel
+  build.
+specs:
+  - club: "3"
+    loft: 19.0
+    lie: 60.5
+    length: 39.00
+    swing_weight: D2
+  - club: "4"
+    loft: 22.0
+    lie: 61.0
+    length: 38.50
+    swing_weight: D2
+  - club: "5"
+    loft: 25.5
+    lie: 61.5
+    length: 38.00
+    swing_weight: D2
+  - club: "6"
+    loft: 29.0
+    lie: 62.0
+    length: 37.50
+    swing_weight: D2
+  - club: "7"
+    loft: 33.0
+    lie: 62.5
+    length: 37.00
+    swing_weight: D2
+  - club: "8"
+    loft: 37.0
+    lie: 63.0
+    length: 36.50
+    swing_weight: D2
+  - club: "9"
+    loft: 41.0
+    lie: 63.5
+    length: 36.00
+    swing_weight: D2
+  - club: "PW"
+    loft: 45.0
+    lie: 64.0
+    length: 35.75
+    swing_weight: D3
+  - club: "AW"
+    loft: 50.0
+    lie: 64.0
+    length: 35.50
+    swing_weight: D3
+stock_shafts:
+  - name: "True Temper Dynamic Gold Mid 115"
+    material: steel
+    flex: ["R", "S", "X"]
+sources:
+  - "wwgolf.com TaylorMade P770 Irons (2024) specification table — loft, lie, length and swing weight for the 3-iron through approach wedge, the Dynamic Gold Mid 115 stock shaft in R/S/X, the Golf Pride Z-Grip Plus2 52g grip, the 3-PW / 4-PW / 5-PW set options, the $1,399.99 preorder price and the 6 September retail date."
+  - "golfergeeks.com '2024 TaylorMade P770 Irons Review' — independently matching loft, lie and length for the 4-iron through pitching wedge and the Dynamic Gold Mid 115 stock shaft. justsaygolf.com's 2025 P770 listing matches the same chart including the 45-degree PW and 50-degree AW."
+  - "TaylorMade press release 'TaylorMade Introduces P·770 and P·7CB Irons' (taylormadegolf.com/clubhouse, dated 31 July 2024; also covered by Irish Golfer Magazine on 1 August 2024) — the announcement and preorder date of 31 July 2024 and the $1,399.99 seven-piece price."
+  - "todays-golfer.com TaylorMade P770 (2024) iron review and golfalot.com's 2024 P770 review — the forged 4140 face and 8620 body, SpeedFoam Air, Thru-Slot Speed Pocket, FLTD CG with up to 41 g of tungsten per head, and the 3-AW range with the Dynamic Gold Mid 115 stock shaft."
+  - "Note: offset and bounce were not published in the sources consulted for this generation and are omitted rather than estimated. Confidence is medium because the numbers come from retailer and magazine reproductions of TaylorMade's spec table; taylormadegolf.com itself was unreachable when this file was researched."
+related_models:
+  - slug: "taylormade/p770-2023-irons"
+    label: "Predecessor: TaylorMade P770 (2023)"
+  - slug: "taylormade/p7cb-irons"
+    label: "Launched alongside: TaylorMade P7CB"
+  - slug: "taylormade/p790-2025-irons"
+    label: "Distance sibling: TaylorMade P790 (2025)"
+faq:
+  - q: "What is the loft of a TaylorMade P770 (2025) 7-iron?"
+    a: "The 2025-generation P770 7-iron has a loft of 33 degrees, a lie of 62.5 degrees and a steel-shaft length of 37.00 inches — the same 7-iron chart every P770 generation has used."
+  - q: "Did the P770 lofts change for the 2025 generation?"
+    a: "Only at the ends of the set. The pitching wedge strengthens from 46 to 45 degrees and the approach wedge from 51 to 50, while the 3-iron goes from 19.5 to 19 and the 4-iron from 22.5 to 22. The 5-iron through 9-iron, including the 33-degree 7-iron, carry over from the 2023 model."
+  - q: "When was the 2025 TaylorMade P770 released?"
+    a: "TaylorMade announced it with the P7CB on 31 July 2024, with preorders the same day at $1,399.99 for a seven-piece set and retail from 6 September 2024. It is marketed as the 2024/25 model and widely catalogued as the 2025 P770."
+  - q: "How do the 2025 P770 lofts compare with the 2025 P790?"
+    a: "The P770 is about three degrees weaker through the middle of the set — a 33-degree 7-iron against the 2025 P790's 30 — and one degree weaker at the pitching wedge, 45 degrees against 44."
+confidence: medium

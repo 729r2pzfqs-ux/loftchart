@@ -1,0 +1,109 @@
+brand: Callaway
+brand_slug: callaway
+model: Apex MB 21
+slug: apex-mb-21-irons
+club_type: irons
+year_introduced: 2020
+year_discontinued: 2023
+category: blade
+construction: forged muscle back
+material: forged 1025 carbon steel with a tungsten swing-weight screw
+successor: Callaway Apex MB (2024)
+predecessor: Callaway Apex MB (2018)
+description: >
+  The Apex MB 21 is the muscleback of Callaway's 2021 line, announced on 13 October
+  2020 alongside the X Forged CB and X Forged UT and at retail from 29 October 2020 —
+  a 2020 announcement sold and catalogued as the 2021 model. It is forged from 1025
+  carbon steel in a brushed finish, with 20V grooves and a removable tungsten screw in
+  the back of the head that sets swing weight without moving the centre of gravity.
+  Lofts are traditional — a 34-degree 7-iron and 46-degree pitching wedge — and heads
+  run 3-iron through a 50-degree approach wedge, with 4-PW the stock set. In the US it
+  was sold through custom order only.
+specs:
+  - club: "3"
+    loft: 20.5
+    lie: 60.0
+    length: 39.0
+    offset: 0.115
+    swing_weight: D2
+  - club: "4"
+    loft: 23.0
+    lie: 60.5
+    length: 38.5
+    offset: 0.110
+    swing_weight: D2
+  - club: "5"
+    loft: 26.0
+    lie: 61.0
+    length: 38.0
+    offset: 0.105
+    swing_weight: D2
+  - club: "6"
+    loft: 30.0
+    lie: 61.5
+    length: 37.5
+    offset: 0.095
+    swing_weight: D2
+  - club: "7"
+    loft: 34.0
+    lie: 62.0
+    length: 37.0
+    offset: 0.090
+    swing_weight: D2
+  - club: "8"
+    loft: 38.0
+    lie: 62.5
+    length: 36.5
+    offset: 0.080
+    swing_weight: D2
+  - club: "9"
+    loft: 42.0
+    lie: 63.0
+    length: 36.0
+    offset: 0.070
+    swing_weight: D2
+  - club: "PW"
+    loft: 46.0
+    lie: 63.3
+    length: 35.75
+    offset: 0.065
+    swing_weight: D2
+  - club: "AW"
+    loft: 50.0
+    lie: 63.5
+    length: 35.5
+    offset: 0.055
+    swing_weight: D2
+stock_shafts:
+  - name: "Project X LS"
+    material: steel
+  - name: "Project X IO"
+    material: steel
+  - name: "Mitsubishi MMT"
+    material: graphite
+sources:
+  - "2nd Swing Golf specification table for the Callaway Apex MB 21 iron set (https://www.2ndswing.com/golf-clubs/iron-sets/callaway-apex-mb-21-iron-set) — supplied every loft, lie, length, offset and swing weight above, the 4-PW stock set and the 1025 carbon steel forging. The pitching wedge lie is printed as 63.3 degrees and reproduced as published, though it is likely a rounding of Callaway's usual 63.25."
+  - "Note on offset: the source publishes offset in millimetres (2.92 mm at the 3-iron down to 1.4 mm at the approach wedge), converted to inches here."
+  - "golf.com 'First look: Callaway Apex MB, X Forged CB and X Forged UT irons' (13 October 2020) — announcement date, 29 October 2020 retail date, 1025 carbon steel forging, 20V grooves, the swing-weight screw and the US custom-order-only distribution. year_introduced records the 2020 announcement year per this database's convention; the model was sold as the 2021 line, which is why it is catalogued as the Apex MB 21."
+  - "Today's Golfer 'FIRST LOOK! New 2021 Callaway Apex MB irons' (October 2020) — brushed finish, removable tungsten swing-weight screw, and Project X steel / Mitsubishi MMT graphite with Golf Pride Z grips as the standard build."
+  - "Note on stock shafts: because US sales were custom-order only, golf.com reported no formal stock shaft. Project X LS and Project X IO steel and Mitsubishi MMT graphite are the builds Today's Golfer and retail listings (Carl's Golfland, GolfClubs4Cash, 2nd Swing) consistently show as the no-upcharge configurations; flex ranges are omitted rather than guessed."
+  - "year_discontinued is 2023, the year Callaway announced the successor Apex MB of the 2024 line. Confidence is medium because the per-club figures come from a retailer spec table rather than a Callaway spec sheet."
+related_models:
+  - slug: "callaway/apex-mb-2024-irons"
+    label: "Successor: Callaway Apex MB (2024)"
+  - slug: "callaway/apex-pro-21-irons"
+    label: "The tour cavity of the same generation: Callaway Apex Pro 21"
+  - slug: "callaway/apex-21-irons"
+    label: "The standard model of the same generation: Callaway Apex 21"
+  - slug: "callaway/x-forged-2018-irons"
+    label: "Callaway's earlier tour forging: Callaway X Forged (2018)"
+faq:
+  - q: "What is the loft of a Callaway Apex MB 21 7-iron?"
+    a: "The Callaway Apex MB 21 7-iron has a loft of 34 degrees, a lie of 62.0 degrees and a length of 37.0 inches."
+  - q: "When were Callaway Apex MB 21 irons released?"
+    a: "Callaway announced them on 13 October 2020 and they reached retail on 29 October 2020, sold as part of the 2021 line — hence the Apex MB 21 name."
+  - q: "What is the difference between the Apex MB 21 and the Apex Pro 21?"
+    a: "The MB is a one-piece 1025 forging with a tungsten swing-weight screw and no cavity, and its lofts run one degree weaker through the scoring clubs — a 34-degree 7-iron against the Apex Pro 21's 33. The Apex Pro 21 adds hollow long irons, tungsten cores and urethane microspheres."
+  - q: "Did the Apex MB 21 come in a stock set?"
+    a: "The stock set is 4-PW, with heads available from 3-iron through a 50-degree approach wedge. In the US the model was sold through custom order only."
+confidence: medium

@@ -9,7 +9,7 @@ category: players
 construction: forged with tungsten weighting
 material: 1025 carbon steel
 successor: null
-predecessor: Callaway Apex MB 21
+predecessor: Callaway Apex TCB
 description: >
   Announced in 2023 and sold as the '24 model, the Apex CB is the forged tour
   cavity back in Callaway's Apex line, sitting between the Apex MB blade and
@@ -72,9 +72,12 @@ sources:
   - "callawaygolf.com Apex CB '24 Irons product page specification table (https://www.callawaygolf.com/golf-clubs/irons/irons-2024-apex-cb-chrome.html) — loft, lie, length and offset (in millimetres) for the 3-iron through approach wedge, listed by Callaway as #3 to #11. Offset is converted to inches here."
   - "golf.com \"Callaway's 2023 Apex irons: 5 things you need to know\" and golfshake.com 'Callaway Apex Pro CB MB Irons Review 2023' — confirm that the Apex Pro, Apex CB and Apex MB were announced together in 2023 and marketed as the '24 range. Callaway did not sell an iron called Apex 23."
   - "Note: bounce and swing weight were not published on the product page and are omitted rather than estimated."
+  - "Predecessor: the 2021 tour range ran Apex Pro 21, Apex MB 21 and Apex TCB; in the '24 range the Pro and MB carried over by name while the CB took the forged cavity-back slot from the TCB, whose lofts, lies and lengths it repeats club for club (golf.com and golfshake.com 2023 launch coverage)."
 related_models:
   - slug: "callaway/apex-pro-2024-irons"
     label: "Hollow-body sibling: Callaway Apex Pro (2024)"
+  - slug: "callaway/apex-tcb-irons"
+    label: "Predecessor: Callaway Apex TCB"
   - slug: "callaway/apex-21-irons"
     label: "Earlier Apex generation: Callaway Apex 21"
 faq:

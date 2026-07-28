@@ -1,0 +1,92 @@
+brand: Mizuno
+brand_slug: mizuno
+model: Pro M-15
+slug: pro-m15-irons
+club_type: irons
+year_introduced: 2026
+year_discontinued: null
+category: players-distance
+construction: Grain Flow Forged, hollow body multi-material
+material: Grain Flow Forged 4135+ Chromoly face and neck with stainless steel back and tungsten weighting (4-8 irons), partial-hollow 1025E HD scoring irons
+successor: null
+predecessor: Pro 245
+description: >
+  The Mizuno Pro M-15 is the players-distance model of Mizuno's 2026 Pro "Modern
+  Series", the successor to the Pro 245 and the more forgiving companion to the M-13.
+  The 4 through 8 irons are hollow-body: a Grain Flow Forged 4135+ Chromoly face and
+  neck welded to a stainless steel back, with suspended tungsten inside the head —
+  51 g in the long irons and 50.3 g in the mid irons — while the 9-iron through gap
+  wedge use a partial-hollow Grain Flow Forged 1025E HD body. The Contoured Ellipse
+  CORTECH face runs through the 8-iron. Lofts are about a degree stronger than the
+  Pro 245 in the middle of the set — 29 degrees at the 7-iron against the 245's 30 —
+  with the same 43-degree pitching wedge and 48-degree gap wedge, and the set is
+  right-hand only in 4-GW. Mizuno unveiled the Modern Series on 5 January 2026, with
+  presale from 19 January and in-store availability on 5 February 2026.
+specs:
+  - club: "4"
+    loft: 20.0
+    lie: 60.5
+    length: 38.75
+    bounce: 2.0
+  - club: "5"
+    loft: 23.0
+    lie: 61.0
+    length: 38.25
+    bounce: 3.0
+  - club: "6"
+    loft: 26.0
+    lie: 61.5
+    length: 37.75
+    bounce: 4.0
+  - club: "7"
+    loft: 29.0
+    lie: 62.0
+    length: 37.25
+    bounce: 5.0
+  - club: "8"
+    loft: 33.0
+    lie: 62.5
+    length: 36.75
+    bounce: 6.0
+  - club: "9"
+    loft: 38.0
+    lie: 63.0
+    length: 36.25
+    bounce: 7.0
+  - club: "PW"
+    loft: 43.0
+    lie: 63.5
+    length: 35.75
+    bounce: 8.0
+  - club: "GW"
+    loft: 48.0
+    lie: 64.0
+    length: 35.5
+    bounce: 9.0
+stock_shafts:
+  - name: "Nippon N.S. Pro Modus Tour 115"
+    material: steel
+    weight: "115 g class"
+    flex: ["S"]
+  - name: "Nippon N.S. Pro Modus Tour 105"
+    material: steel
+    weight: "105 g class"
+    flex: ["R", "S"]
+sources:
+  - "Mizuno official Pro M-15 club-specification page, mizunogolf.com/us/golf-clubs/mp-series/mizuno-pro-m15/club-specification/ (live, fetched July 2026) — full 4-GW table of loft, lie, length and bounce, plus the dexterity note 'RH only: 4-GW'. The page does not publish offset or swing weight, so those keys are omitted"
+  - "Mizuno official Pro M-15 product page, mizunogolf.com/us/golf-clubs/mp-series/mizuno-pro-m15/ — construction copy: multi-material hollow 4-8 irons with Grain Flow Forged 4135+ Chromoly face and neck and stainless back, 51 g / 50.3 g suspended tungsten in the long and mid irons, partial-hollow Grain Flow Forged 1025E HD short irons, Contoured Ellipse CORTECH face and Nickel Chrome Satin finish"
+  - "todays-golfer.com 'Mizuno Pro M-13 and M-15 irons: everything you need to know' — M-15 succeeds the Pro 245, targets higher launch and added forgiveness, $215 per iron, stock shafts Nippon Modus Tour 115g (S) and 105g (R/S)"
+  - "golf.com 'Mizuno launches new Mizuno Pro Modern series with M-13, M-15 irons, Fli-Hi utility' and the MyGolfSpy forum launch thread — Modern Series announced 5 January 2026, presale from 19 January, retail 5 February 2026. Announcement and retail both fall in 2026, so year_introduced carries no announcement-vs-model-year gap this cycle"
+related_models:
+  - slug: "mizuno/pro-245-irons"
+    label: "Predecessor: Mizuno Pro 245"
+  - slug: "mizuno/pro-m13-irons"
+    label: "Same generation, players cavity: Mizuno Pro M-13"
+faq:
+  - q: "What is the loft of a Mizuno Pro M-15 7-iron?"
+    a: "The Mizuno Pro M-15 7-iron has a loft of 29 degrees, with a 62-degree lie and a 37.25-inch steel-shaft length."
+  - q: "What is the difference between the Mizuno Pro M-15 and M-13?"
+    a: "The M-15 is the players-distance model, with hollow-body 4-8 irons, tungsten weighting and lofts around three degrees stronger (29-degree 7-iron against the M-13's 32). The M-13 is the players cavity-back with traditional lofts and a three-way split forged construction."
+  - q: "Are the Mizuno Pro M-15 irons available left-handed?"
+    a: "No. Mizuno's specification page lists the M-15 as right hand only in 4-iron through gap wedge, while the sibling M-13 is offered in both right and left hand."
+confidence: high

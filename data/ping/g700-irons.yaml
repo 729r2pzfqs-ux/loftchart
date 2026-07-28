@@ -9,7 +9,7 @@ category: super-game-improvement
 construction: hollow body with a maraging steel face
 material: maraging C300 steel face plasma-welded to a 17-4 stainless body
 successor: Ping G710
-predecessor: null
+predecessor: Ping GMax
 description: >
   The G700 was Ping's first hollow-body distance iron, built like a metalwood:
   a thin maraging C300 face plasma-welded to a hollow 17-4 stainless body with
@@ -88,7 +88,10 @@ sources:
   - "2ndswing.com Ping G700 Iron Set specification table — loft, lie, length, offset and swing weight for the 4-iron through sand wedge, plus the stock shaft list."
   - "swingyard.com 'PING Irons by Year' — dates the G700 to 2018 and the G710 to 2020."
   - "Note: bounce was not published in the source consulted and is omitted rather than estimated. Confidence is medium because no Ping spec sheet for the discontinued model was located."
+  - "essential.golf 'Ping G700 Irons Launched' — the G700, announced 15 January 2018, launched 'as a replacement for the GMax irons', which sets the predecessor field."
 related_models:
+  - slug: "ping/g-max-irons"
+    label: "Predecessor: Ping GMax"
   - slug: "ping/g710-irons"
     label: "Successor: Ping G710"
   - slug: "ping/g400-irons"

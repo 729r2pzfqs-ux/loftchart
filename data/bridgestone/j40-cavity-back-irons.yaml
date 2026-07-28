@@ -1,0 +1,101 @@
+brand: Bridgestone
+brand_slug: bridgestone
+model: J40 Cavity Back
+slug: j40-cavity-back-irons
+club_type: irons
+year_introduced: 2011
+year_discontinued: 2015
+category: players
+construction: forged
+material: 1020 mild carbon steel
+successor: Bridgestone J15CB
+predecessor: Bridgestone J38 Cavity Back
+description: >
+  The J40 Cavity Back was the better-player iron in Bridgestone Golf's J40 club line,
+  announced in September 2011 and at retail from October 2011, aimed at professionals
+  through mid-handicap amateurs. Each head is premium-forged from 1020 mild carbon steel
+  with a compact profile, a higher face progression and a V-cut cavity, and the sole
+  carries relief at the leading edge, trailing edge, toe and heel for versatility.
+  Lofts are traditional for the era, with a 35-degree 7-iron and a 47-degree pitching
+  wedge, and every iron is built to a D1 swing weight with a Project X flighted steel
+  shaft and Golf Pride Tour Velvet grip as stock. It was sold right hand only, as a
+  5-PW set (street price $699, MSRP $799) with the 3-iron and 4-iron available
+  individually at $115 each; a J40 Dual Pocket Cavity model and J40 Combo sets covered
+  players wanting more forgiveness. Offsets below are converted from Bridgestone's
+  published millimetre figures (3.5 mm = 0.138 in). Bridgestone's J15 iron family,
+  introduced in January 2015, succeeded the J40 generation.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 60.0
+    length: 38.75
+    offset: 0.138
+    bounce: 2.0
+    swing_weight: D1
+  - club: "4"
+    loft: 24.0
+    lie: 61.0
+    length: 38.25
+    offset: 0.138
+    bounce: 2.5
+    swing_weight: D1
+  - club: "5"
+    loft: 27.0
+    lie: 62.0
+    length: 37.75
+    offset: 0.118
+    bounce: 3.0
+    swing_weight: D1
+  - club: "6"
+    loft: 31.0
+    lie: 62.5
+    length: 37.25
+    offset: 0.118
+    bounce: 5.0
+    swing_weight: D1
+  - club: "7"
+    loft: 35.0
+    lie: 63.0
+    length: 36.75
+    offset: 0.118
+    bounce: 5.0
+    swing_weight: D1
+  - club: "8"
+    loft: 39.0
+    lie: 63.5
+    length: 36.25
+    offset: 0.098
+    bounce: 6.0
+    swing_weight: D1
+  - club: "9"
+    loft: 43.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.098
+    bounce: 6.0
+    swing_weight: D1
+  - club: "PW"
+    loft: 47.0
+    lie: 64.5
+    length: 35.5
+    offset: 0.098
+    bounce: 6.0
+    swing_weight: D1
+stock_shafts:
+  - name: "Project X Flighted"
+    material: steel
+sources:
+  - "Bridgestone Golf official J40 Cavity Back Irons product page (bridgestonegolf.com/product/clubs/j40-cavity-back-irons), retrieved via the Wayback Machine capture of 26 September 2011 — full manufacturer specification table (iron, loft, lie angle, length, swing weight, offset in mm, bounce for 3-PW), the features list (premium forged 1020 carbon steel, compact head with higher face progression, relief at trailing edge/leading edge/toe/heel, Project X flighted shaft, Golf Pride Tour Velvet grip), the 'Available Right Hand Only: 3-iron, 4-iron, 5-PW' line and the 'Professionals to mid handicap amateurs' target-player statement. Offsets here are converted from those millimetre figures (3.5 mm = 0.138 in, 3.0 mm = 0.118 in, 2.5 mm = 0.098 in)"
+  - "IntoTheGrain.com, 'Bridgestone Unveils J40 Irons', carrying Bridgestone's press release — retail availability at golf specialty and green-grass retailers nationwide in October 2011 ('arriving in time for the holiday season'), the $699 street / $799 MSRP 5-PW set pricing, $115-per-club 3- and 4-irons, the V-cut cavity design and the forged 1020 mild carbon steel construction. year_introduced 2011 is the announcement year; bridgestonegolf.com's own archive later filed the J40 clubs under '2011 models'"
+  - "Golf Monthly, 'Bridgestone J15 irons introduced', 26 January 2015 — the J15 iron family (including the J15CB cavity back) introduced in January 2015 as Bridgestone's next iron generation, which sets year_discontinued 2015 and the successor field"
+  - "Project X flighted is listed by Bridgestone only as 'Project X flighted shaft' without weight or flex detail, so those keys are omitted"
+faq:
+  - q: "What is the loft of a Bridgestone J40 Cavity Back 7-iron?"
+    a: "The Bridgestone J40 Cavity Back 7-iron has a loft of 35 degrees, with a 63-degree lie, a 36.75-inch length and a D1 swing weight."
+  - q: "What clubs come in a stock Bridgestone J40 Cavity Back set?"
+    a: "The stock set was 5-iron through pitching wedge at a $699 street price, with the 3-iron and 4-iron sold individually at about $115 each. The model was offered in right hand only."
+  - q: "What is the difference between the Bridgestone J40 Cavity Back and the J40 Dual Pocket Cavity?"
+    a: "Both are forged J40-generation irons, but the Cavity Back is the compact better-player model with a V-cut cavity and traditional lofts, while the Dual Pocket Cavity uses two milled pockets of removed mass for more perimeter weighting and forgiveness. Bridgestone also sold J40 Combo sets mixing the two."
+  - q: "Are Bridgestone J40 Cavity Back irons forged?"
+    a: "Yes. Bridgestone forged the heads from 1020 mild carbon steel, one of the softer steels used in irons of that era."
+confidence: high

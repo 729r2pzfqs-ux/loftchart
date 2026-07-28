@@ -1,0 +1,84 @@
+brand: Miura
+brand_slug: miura
+model: TC-202
+slug: tc-202-irons
+club_type: irons
+year_introduced: 2025
+year_discontinued: null
+category: players
+construction: forged tour cavity with T-Weight Bar and variable-depth cavity
+material: S20C soft carbon steel, hand-forged in Himeji, Japan
+successor: null
+predecessor: Miura TC-201
+description: >
+  The TC-202 is Miura's tour cavity, announced on 11 March 2025 at $350 per club
+  as the successor to the 2020 TC-201, reaching retail in mid-April 2025. Heads
+  are hand-forged from S20C soft carbon steel in Himeji, Japan, to the factory's
+  plus-or-minus 0.5-gram weight tolerance. The generation adds a T-Weight Bar
+  across the back to control mass distribution, a variable-depth cavity, and
+  Miura's Y-grind leading edge, keeping the balance of muscle-back precision and
+  cavity-back forgiveness that defines the TC line. The loft ladder is unchanged
+  from the TC-201 through the 9-iron — a 33-degree 7-iron — but the pitching
+  wedge is 45 degrees and a 50-degree gap wedge extends the set to 3-GW. Heads
+  come in Satin Chrome, with QPQ and Raw finishes also offered. Miura sells
+  heads through authorized dealers and fitters and builds sets to order from a
+  shaft menu, so no stock shaft is recorded.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 60.5
+    length: 39.0
+  - club: "4"
+    loft: 23.0
+    lie: 61.0
+    length: 38.5
+  - club: "5"
+    loft: 26.0
+    lie: 61.5
+    length: 38.0
+  - club: "6"
+    loft: 29.0
+    lie: 62.0
+    length: 37.5
+  - club: "7"
+    loft: 33.0
+    lie: 62.5
+    length: 37.0
+  - club: "8"
+    loft: 37.0
+    lie: 63.0
+    length: 36.5
+  - club: "9"
+    loft: 41.0
+    lie: 63.5
+    length: 36.0
+  - club: "PW"
+    loft: 45.0
+    lie: 64.0
+    length: 35.75
+  - club: "GW"
+    loft: 50.0
+    lie: 64.0
+    length: 35.5
+sources:
+  - "Miura Golf official TC-202 product page (miuragolf.com/products/tc-202) — full specification table (loft, lie, length, face progression and head weight for 3-iron through gap wedge), S20C soft carbon steel construction, the T-Weight Bar, variable-depth cavity and Y-grind leading edge, and the Satin Chrome, QPQ and Raw finish options."
+  - "firstcallgolf.com / The Golf Wire press release 'Miura Golf launches new TC-202 irons, continuing a tradition of balancing muscle-back precision with cavity-back forgiveness', 11 March 2025 — the announcement date, $350-per-club price, pre-orders opening 11 March and retail availability from 15-16 April 2025, and the TC-201 succession after roughly five years."
+  - "The Golf Club Trader Miura TC-202 iron specifications page — corroborates the full loft/lie/length table, including the 45-degree PW and 50-degree GW."
+  - "Note: offset, bounce and swing weight are omitted because Miura publishes face progression in millimetres rather than offset in inches and lists no bounce or swing-weight figures. No stock shaft is recorded because Miura sells heads to authorized fitters and builds sets to order."
+related_models:
+  - slug: "miura/tc-201-irons"
+    label: "Predecessor: Miura TC-201"
+  - slug: "miura/mb-101-irons"
+    label: "Muscle-back sibling: Miura MB-101"
+  - slug: "miura/cb-302-irons"
+    label: "Larger cavity-back sibling: Miura CB-302"
+  - slug: "miura/km-700-irons"
+    label: "Sibling: Miura KM-700"
+faq:
+  - q: "What is the loft of a Miura TC-202 7-iron?"
+    a: "The Miura TC-202 7-iron has a loft of 33 degrees, a lie of 62.5 degrees and a length of 37.0 inches."
+  - q: "When was the Miura TC-202 released and what does it cost?"
+    a: "Miura announced the TC-202 on 11 March 2025 at $350 per club, with pre-orders opening that day and retail availability from mid-April 2025."
+  - q: "What changed between the Miura TC-201 and TC-202?"
+    a: "The TC-202 adds a T-Weight Bar across the back for mass distribution, a variable-depth cavity and a Y-grind leading edge. The lofts match the TC-201 through the 9-iron, but the PW is 45 degrees (against 46) and a 50-degree gap wedge extends the set to 3-GW."
+confidence: high

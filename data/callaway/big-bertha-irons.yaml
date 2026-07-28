@@ -79,6 +79,9 @@ sources:
   - "Confidence is held at medium because the Callaway-owned 1994 and 1996 tables are identical, so it cannot be established whether the ladder was genuinely unchanged or one record is reused for both years"
   - "Offset was not published for this model in any Callaway source located, so the column is omitted rather than estimated"
   - "Swing weight is published only as four unlabelled shaft sub-columns, so a steel-specific value could not be isolated and the column is omitted"
+related_models:
+  - slug: "callaway/big-bertha-b21-irons"
+    label: "Namesake revival, 26 years later: Callaway Big Bertha B21"
 faq:
   - q: "What is the loft of a Callaway Big Bertha 7-iron?"
     a: "The 1994 Callaway Big Bertha 7-iron is 33 degrees, with a 62.5 degree lie and a 37 inch standard length."

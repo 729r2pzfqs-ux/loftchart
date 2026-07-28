@@ -72,6 +72,8 @@ sources:
   - "golf.com 'Callaway's 2023 Apex irons: 5 things you need to know' — the Apex MB, CB and Pro were announced in 2023 and sold as the 2024 line, which is why retailers catalogue this model as the Apex MB 24. year_introduced records the announcement year per this database's convention."
   - "Note: confidence is medium — the numbers come from a retailer spec table rather than a Callaway spec sheet. year_discontinued is null; no replacement was recorded in the sources retrieved."
 related_models:
+  - slug: "callaway/apex-mb-21-irons"
+    label: "Predecessor: Callaway Apex MB 21"
   - slug: "callaway/apex-cb-2024-irons"
     label: "Sold alongside it as the cavity back: Callaway Apex CB (2024)"
   - slug: "callaway/apex-pro-2024-irons"

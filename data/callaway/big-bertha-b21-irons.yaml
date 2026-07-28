@@ -1,0 +1,105 @@
+brand: Callaway
+brand_slug: callaway
+model: Big Bertha B21
+slug: big-bertha-b21-irons
+club_type: irons
+year_introduced: 2020
+year_discontinued: 2023
+category: super-game-improvement
+construction: cast with an A.I.-designed Flash Face Cup
+material: stainless body with a Flash Face Cup, Visible Tungsten Energy Core and urethane microspheres
+successor: Callaway Big Bertha (2023)
+predecessor: null
+description: >
+  The Big Bertha B21 revived the Big Bertha iron name for golfers who want maximum help,
+  announced on 18 August 2020 with the matching B21 driver, fairway woods and hybrids and
+  at retail from 10 September 2020 at 899.99 dollars for a seven-piece steel set. It was
+  the first Big Bertha iron designed with artificial intelligence: each head carries its
+  own A.I.-designed Flash Face Cup, backed by a Visible Tungsten Energy Core for launch
+  and urethane microspheres for sound. The shaping is extreme even by game-improvement
+  standards — soles up to 50 percent wider than the Mavrik Max in parts of the set, one of
+  the longest blade lengths Callaway had produced, and around 8 mm of offset in the
+  4-iron. Lofts are strong for the era of its launch, a 29-degree 7-iron and a 43-degree
+  pitching wedge, and the chart runs from the 4-iron to a 60-degree lob wedge, the lob
+  wedge right hand only. The Big Bertha irons announced in 2023 replaced it, dialling much
+  of the offset back out. Figures are the men's standard steel build; swing weight is
+  published only as a combined D0/D1 range and is omitted per club.
+specs:
+  - club: "4"
+    loft: 19.0
+    lie: 60.5
+    length: 38.75
+    offset: 0.320
+  - club: "5"
+    loft: 22.0
+    lie: 61.3
+    length: 38.125
+    offset: 0.305
+  - club: "6"
+    loft: 25.0
+    lie: 62.0
+    length: 37.50
+    offset: 0.290
+  - club: "7"
+    loft: 29.0
+    lie: 62.5
+    length: 37.00
+    offset: 0.270
+  - club: "8"
+    loft: 33.0
+    lie: 63.0
+    length: 36.50
+    offset: 0.240
+  - club: "9"
+    loft: 38.0
+    lie: 63.5
+    length: 36.00
+    offset: 0.215
+  - club: "PW"
+    loft: 43.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.185
+  - club: "AW"
+    loft: 48.0
+    lie: 64.0
+    length: 35.50
+    offset: 0.150
+  - club: "SW"
+    loft: 54.0
+    lie: 64.0
+    length: 35.25
+    offset: 0.125
+  - club: "LW"
+    loft: 60.0
+    lie: 64.0
+    length: 35.00
+    offset: 0.100
+stock_shafts:
+  - name: "KBS Max CT80"
+    material: steel
+    weight: "80g class"
+    flex: ["R", "S"]
+  - name: "Callaway RCH 55/65/75"
+    material: graphite
+    flex: ["L", "R", "S"]
+sources:
+  - "Callaway Golf Pre-Owned Big Bertha B21 product page (callawaygolfpreowned.com/iron-sets/irons-2021-big-bertha-b21.html) — Callaway's own listing of the full specification table: loft, lie, length and offset (in millimetres) for the 4-iron through lob wedge. Offset is converted to inches here; the millimetre figures resolve to round hundredths of an inch (e.g. 8.13 mm = 0.320 in)."
+  - "Archived callawaygolf.com Big Bertha B21 irons product page, 26 September 2020 capture via archive.org (web.archive.org/web/20200926052414/https://www.callawaygolf.com/golf-clubs/iron-sets/irons-2021-big-bertha-b21.html) — corroborates the wedge lofts (PW 43, AW 48, SW 54, LW 60) in the embedded product metadata, shows the lob wedge offered right hand only, and lists the stock options: KBS Max CT80 steel (80g class), Callaway RCH graphite (regular, light and stiff flexes) and the Golf Pride Tour Velvet 360 Soft grip"
+  - "Callaway Golf press release, 18 August 2020, 'Callaway Golf Announces New Big Bertha B-21 Family Of Woods And Irons' (PR Newswire) — the announcement date used for year_introduced, the first A.I.-designed Big Bertha iron claim, the Flash Face Cup, Visible Tungsten Energy Core and sole widths up to 50 percent wider; The Hackers Paradise launch coverage corroborates the 4-iron (19 degrees) through lob wedge set composition, the 10 September 2020 retail date, the 899.99/999.99-dollar steel/graphite pricing and the KBS Max CT80 and Callaway RCH 55/65/75 stock shafts"
+  - "year_discontinued is 2023, when Callaway announced the next Big Bertha irons (retail July 2023); coverage of that launch notes the B21's heavy offset was removed. Swing weight is shown by Callaway only as D0/D1 without a per-club or per-shaft breakdown, so it is omitted rather than guessed."
+related_models:
+  - slug: "callaway/mavrik-max-irons"
+    label: "Contemporary Callaway game-improvement iron: Mavrik Max"
+  - slug: "callaway/big-bertha-irons"
+    label: "Original namesake: Callaway Big Bertha (1994)"
+faq:
+  - q: "What is the loft of a Callaway Big Bertha B21 7-iron?"
+    a: "The Callaway Big Bertha B21 7-iron has a loft of 29 degrees, a lie of 62.5 degrees and a steel-shaft length of 37.00 inches."
+  - q: "When did the Callaway Big Bertha B21 irons come out?"
+    a: "Callaway announced the B21 family on 18 August 2020, and the irons reached retail on 10 September 2020."
+  - q: "Are the Callaway Big Bertha B21 irons forgiving?"
+    a: "They are Callaway's maximum-forgiveness design of that generation: soles up to 50 percent wider than the Mavrik Max in parts of the set, one of Callaway's longest blade lengths, about 8 mm of offset in the 4-iron, and tungsten weighting for easy launch."
+  - q: "What clubs come in a Big Bertha B21 set?"
+    a: "The chart runs from the 4-iron to a 60-degree lob wedge — 4-PW plus approach, sand and lob wedges — with the lob wedge right hand only. The standard retail set was seven pieces."
+confidence: high

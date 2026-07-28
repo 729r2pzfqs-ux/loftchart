@@ -1,0 +1,118 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: Qi Max
+slug: qi-max-irons
+club_type: irons
+year_introduced: 2026
+year_discontinued: null
+category: game-improvement
+construction: investment cast Cap Back design with a Speed Pocket and sound stabilization bar
+material: cast 17-4 stainless steel body and hosel with a forged high-strength HT1770 steel face insert
+successor: null
+predecessor: TaylorMade Qi
+description: >
+  The Qi Max replaced the Qi as TaylorMade's mainstream game-improvement iron for
+  2026, after the company let the Qi run for two seasons rather than replacing it
+  in 2025. Its headline change is a face engineered to flex uniformly at impact:
+  TaylorMade varied the face sections to counteract the extra toe flexing typical
+  of large game-improvement faces, which it says reduces cut spin and keeps
+  off-centre strikes straighter. A new sound stabilization bar connects the back
+  bar to the top line, which allowed the ECHO Damping System material to be
+  extended higher behind the face, and the FLTD CG progression sits the centre of
+  gravity lowest in the long irons and progressively higher through the short
+  irons. Lies and lengths are identical to the Qi and the 28-degree 7-iron carries
+  over, but the short irons are tweaked slightly — the pitching wedge strengthens
+  from 43 to 42.5 degrees, the approach wedge from 49 to 48, and the lob wedge
+  from 59 to 58. Presale opened 8 January 2026 with retail on 29 January 2026; the
+  US stock set is 4-PW with the AW, SW and LW sold separately. Offsets are
+  converted from TaylorMade's published millimetre figures, and swing weights
+  below are the steel build (graphite builds run one point lighter).
+specs:
+  - club: "4"
+    loft: 18.5
+    lie: 61.5
+    length: 39.125
+    offset: 0.201
+    swing_weight: D1
+  - club: "5"
+    loft: 21.0
+    lie: 62.0
+    length: 38.5
+    offset: 0.185
+    swing_weight: D1
+  - club: "6"
+    loft: 24.0
+    lie: 62.5
+    length: 37.88
+    offset: 0.169
+    swing_weight: D1
+  - club: "7"
+    loft: 28.0
+    lie: 63.0
+    length: 37.25
+    offset: 0.154
+    swing_weight: D1
+  - club: "8"
+    loft: 32.5
+    lie: 63.5
+    length: 36.75
+    offset: 0.134
+    swing_weight: D1
+  - club: "9"
+    loft: 37.0
+    lie: 64.0
+    length: 36.25
+    offset: 0.114
+    swing_weight: D1
+  - club: "PW"
+    loft: 42.5
+    lie: 64.5
+    length: 35.75
+    offset: 0.094
+    swing_weight: D1
+  - club: "AW"
+    loft: 48.0
+    lie: 64.5
+    length: 35.5
+    offset: 0.075
+    swing_weight: D1
+  - club: "SW"
+    loft: 54.0
+    lie: 64.5
+    length: 35.25
+    offset: 0.055
+    swing_weight: D2
+  - club: "LW"
+    loft: 58.0
+    lie: 64.5
+    length: 35.0
+    offset: 0.051
+    swing_weight: D3
+stock_shafts:
+  - name: "KBS Max MT 85"
+    material: steel
+    flex: ["R", "S"]
+  - name: "TaylorMade x KBS Reax 55 / 65 / 75"
+    material: graphite
+    flex: ["A", "R", "S"]
+sources:
+  - "todays-golfer.com 'TaylorMade Qi Max irons: Everything you need to know' — full specification table (loft, lie, offset in millimetres, length, steel and graphite swing weights for the 4-iron through lob wedge), the 8 January 2026 presale and 29 January 2026 retail dates, $1,099 steel / $1,199 graphite pricing for the 7-piece set, the KBS Max MT 85 / Reax stock shafts with the SuperStroke Crossline 360 grip, and the uniform-face-flex, Speed Pocket, ECHO Damping System, sound stabilization bar and FLTD CG technology descriptions. Offset is converted to inches here."
+  - "2ndswing.com TaylorMade Qi Max Iron Set specification table — independently matching loft, lie, length, offset and swing weight for the 4-iron through approach wedge, the 4-PW stock set makeup, cast construction, and the same KBS Max MT 85 steel and TaylorMade x KBS Reax graphite stock shafts."
+  - "todays-golfer.com Qi Max irons review — states directly that TaylorMade stuck with the Qi iron through 2025 and that 'for 2026, Qi Max is taking its place', confirming the succession recorded here, along with the 28-degree 7-iron."
+  - "Golf Digest 2026 Hot List entry for the TaylorMade Qi Max — the cast 17-4 stainless steel body and hosel with a forged high-strength HT1770 steel face insert. The page blocks direct fetching, so this detail was taken from its search excerpt; the per-club numbers above do not rely on it."
+  - "Confidence is medium rather than high because taylormadegolf.com was unreachable when this file was researched: the numbers are TaylorMade's published specifications as reproduced identically by two independent secondary sources, not read directly from the manufacturer's page."
+related_models:
+  - slug: "taylormade/qi-irons"
+    label: "Predecessor: TaylorMade Qi"
+  - slug: "taylormade/qi-max-hl-irons"
+    label: "High-launch companion: TaylorMade Qi Max HL"
+faq:
+  - q: "What is the loft of a TaylorMade Qi Max 7-iron?"
+    a: "The TaylorMade Qi Max 7-iron has a loft of 28 degrees, with a 63-degree lie and a 37.25-inch steel-shaft length — the same 7-iron chart as the Qi it replaced."
+  - q: "Do the Qi Max irons have the same lofts as the Qi irons?"
+    a: "Mostly. The 4-iron through 7-iron and the sand wedge carry over unchanged, but the 8-iron strengthens half a degree to 32.5, the pitching wedge goes from 43 to 42.5 degrees, the approach wedge from 49 to 48, and the lob wedge from 59 to 58. Lies and lengths are identical throughout."
+  - q: "What clubs come in a stock TaylorMade Qi Max set?"
+    a: "The US stock set is 4-iron through pitching wedge, with the 48-degree approach wedge, 54-degree sand wedge and 58-degree lob wedge sold separately. UK sets were sold as 5-PW."
+  - q: "When were the TaylorMade Qi Max irons released?"
+    a: "TaylorMade opened presale on 8 January 2026 and the irons reached retail on 29 January 2026, at $1,099 in steel and $1,199 in graphite for the 7-piece set."
+confidence: medium

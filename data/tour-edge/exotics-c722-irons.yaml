@@ -1,0 +1,81 @@
+brand: Tour Edge
+brand_slug: tour-edge
+model: Exotics C722
+slug: exotics-c722-irons
+club_type: irons
+year_introduced: 2022
+year_discontinued: 2023
+category: players-distance
+construction: hollow body, plasma-welded military-grade maraging steel L-Cup face on a stainless steel body
+material: military-grade maraging steel face, stainless steel body, dual VIBRCOR TPU fill
+successor: Tour Edge Exotics C723
+predecessor: Tour Edge Exotics C721
+description: >
+  The Exotics C722 was the players-distance iron in Tour Edge's Exotics 722
+  Series, announced 15 February 2022 and at retail worldwide from 5 March
+  2022 at $899.99 for a 7-piece steel set. It combines a military-grade
+  maraging steel L-Cup face with the Diamond Face VFT variable-thickness
+  pattern on a hollow, dual-VIBRCOR TPU-filled body, in a player-preferred
+  shape with a thinner topline than the companion E722. Its loft ladder —
+  30 degrees at the 7-iron, 44 at the pitching wedge — was carried over
+  unchanged by the C723 that replaced it in February 2023. Stock 7-piece sets
+  were 4-PW or 5-PW plus AW, with heads offered from the 3-iron through the
+  49-degree AW; Tour Edge does not publish offset, bounce or swing weight for
+  this model, so those keys are omitted.
+specs:
+  - club: "3"
+    loft: 19.0
+    lie: 61.0
+    length: 39.25
+  - club: "4"
+    loft: 21.0
+    lie: 61.0
+    length: 38.75
+  - club: "5"
+    loft: 23.0
+    lie: 61.5
+    length: 38.25
+  - club: "6"
+    loft: 26.5
+    lie: 62.0
+    length: 37.75
+  - club: "7"
+    loft: 30.0
+    lie: 62.5
+    length: 37.25
+  - club: "8"
+    loft: 34.0
+    lie: 63.0
+    length: 36.75
+  - club: "9"
+    loft: 39.0
+    lie: 63.5
+    length: 36.25
+  - club: "PW"
+    loft: 44.0
+    lie: 64.0
+    length: 35.75
+  - club: "AW"
+    loft: 49.0
+    lie: 64.0
+    length: 35.5
+stock_shafts:
+  - name: "True Temper Elevate MPH 95"
+    material: steel
+    flex: ["R", "S"]
+sources:
+  - "Tour Edge official C722 irons page (touredge.com/pages/c722-irons) — the manufacturer club-spec chart image (clubspecs_cirons_black.png, read directly from the page's CDN) giving loft, lie and length for #3 through AW: 19/61/39.25 at the 3-iron down to 49/64/35.5 at the AW (the AW row is partially cropped in the served image but its 49-degree loft, 64-degree lie and 35.50-inch length are legible); the page also names the True Temper Elevate MPH 95 stock steel shaft, the 4-PW and 5-PW/AW 7-piece set options and the dual VIBRCOR / Diamond Face VFT / maraging steel L-Cup face construction"
+  - "Tour Edge Exotics 722 Series iron press release of 15 February 2022 (thegolfwire.com/exotics-722-series-irons-vibrcor/ and firstcallgolf.com, dateline 2022-02-15) — announcement of the C722 and E722 irons, retail availability worldwide 5 March 2022, and C722 pricing of $129.99 per club in steel / $899.99 for a 7-piece set ($144.99 and $999.99 in graphite)"
+  - "Loft ladder cross-check: the C723 spec chart on touredge.com and the 7 February 2023 723-series press release list identical lofts, lies and lengths, consistent with Tour Edge carrying the C722 specs into its successor"
+  - "Tour Edge does not publish offset, bounce or swing weight for the C722; those keys are omitted rather than estimated"
+related_models:
+  - slug: "tour-edge/exotics-c723-irons"
+    label: "Successor: Tour Edge Exotics C723"
+faq:
+  - q: "What is the loft of a Tour Edge Exotics C722 7-iron?"
+    a: "The Exotics C722 7-iron has a loft of 30 degrees, with a 62.5-degree lie and a 37.25-inch standard steel length."
+  - q: "When did the Tour Edge Exotics C722 irons come out?"
+    a: "Tour Edge announced the Exotics 722 Series irons on 15 February 2022, with worldwide retail availability from 5 March 2022. The C722 was replaced by the Exotics C723, announced in February 2023 with the same loft, lie and length specs."
+  - q: "What is the difference between the Tour Edge Exotics C722 and E722?"
+    a: "The C722 is the smaller players-distance model with a hollow maraging-steel-faced body, a thinner topline and more traditional lofts. The E722 is the larger game-improvement model in the same series, with a one-piece body, wider sole and stronger lofts."
+confidence: high

@@ -4,11 +4,11 @@ model: Qi
 slug: qi-irons
 club_type: irons
 year_introduced: 2024
-year_discontinued: 2024
+year_discontinued: 2026
 category: game-improvement
 construction: investment cast Cap Back design with Thru-Slot Speed Pocket
 material: stainless steel body with 450 stainless steel face
-successor: null
+successor: TaylorMade Qi Max
 predecessor: Stealth
 description: >
   The Qi iron replaced the Stealth as TaylorMade's mainstream game-improvement
@@ -84,9 +84,12 @@ stock_shafts:
 sources:
   - "TaylorMade official Qi Irons product page specifications table, taylormadegolf.com/Qi-Irons/N2797409.html (archived December 2024 via archive.org)"
   - "TaylorMade Custom Component Booklet updated 7/15/24, '2024 IRONS' spec pages, taylormadegolf.com/.../Sites-tmag-custom-catalog-us/pdf/Custom_Shafts.pdf (archived August 2024 via archive.org)"
+  - "Succession: todays-golfer.com's Qi Max review states TaylorMade stuck with the Qi iron through 2025 and that 'for 2026, Qi Max is taking its place' — the Qi Max launched 8 January 2026, which is why year_discontinued reads 2026."
 related_models:
   - slug: "taylormade/stealth-irons"
     label: "Predecessor: TaylorMade Stealth"
+  - slug: "taylormade/qi-max-irons"
+    label: "Successor: TaylorMade Qi Max"
 faq:
   - q: "What is the loft of a TaylorMade Qi 7-iron?"
     a: "The TaylorMade Qi 7-iron has a loft of 28 degrees, with a 63-degree lie and a 37.25-inch steel-shaft length."

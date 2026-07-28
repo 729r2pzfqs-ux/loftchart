@@ -93,6 +93,8 @@ sources:
   - "Note on the year: Titleist announced the 714 line in 2013 and marketed it as the 2014 range, which is why some listings date this model 2014. year_introduced records the announcement year per this database's convention."
   - "Note: bounce was not published in the source consulted and is omitted rather than estimated."
 related_models:
+  - slug: "titleist/716-ap1-irons"
+    label: "Successor: Titleist 716 AP1"
   - slug: "titleist/718-ap1-irons"
     label: "Later generation: Titleist 718 AP1"
   - slug: "titleist/714-ap2-irons"

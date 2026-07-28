@@ -242,3 +242,112 @@ brands:
       Adams Golf built its reputation on the Tight Lies fairway wood and then
       on hybrid-iron combo sets, where the long irons are replaced by hybrids in
       the stock make-up. TaylorMade acquired the brand in 2012.
+
+  # Brands below this line are kept in alphabetical order. The list above is
+  # ordered by prominence because foot() links the first seven, so new entries
+  # append here rather than interleaving and silently rewriting the footer.
+
+  - name: Bridgestone
+    slug: bridgestone
+    founded: 1935
+    hq: "Covington, Georgia, USA"
+    color: "#E60012"
+    families:
+      - "J-series"
+      - "Tour B"
+      - "B-Series"
+    blurb: >
+      Bridgestone has made golf balls since 1935 and forges its tour irons
+      through Bridgestone Sports in Tokyo, with Bridgestone Golf in Covington
+      running the US side. The numbered CB and MB models are announced for Japan
+      first, so several reach the US line a year or more after their release.
+
+  - name: Kirkland Signature
+    slug: kirkland-signature
+    founded: 1995
+    hq: "Issaquah, Washington, USA"
+    color: "#005DAA"
+    blurb: >
+      Kirkland Signature is Costco's own label, and its golf clubs are sold as
+      fixed boxed sets with a single shaft and grip option rather than a fitted
+      build. Costco publishes set composition but not a per-club spec table, so
+      the numbers here come from measured retail sets.
+
+  - name: Miura
+    slug: miura
+    founded: 1957
+    hq: "Himeji, Hyogo, Japan"
+    color: "#2E4756"
+    families:
+      - "MB series"
+      - "MC series"
+      - "CB series"
+      - "TC series"
+      - "Passing Point"
+    blurb: >
+      Miura Giken has forged irons in Himeji since 1957, and the heads are still
+      hand-forged from S20C by the Miura family workshop. Heads are sold
+      component-style through authorised fitters rather than as stock sets, so
+      published charts cover loft, lie and length but rarely a stock shaft.
+
+  - name: New Level
+    slug: new-level
+    founded: 2017
+    hq: "Scottsdale, Arizona, USA"
+    color: "#0B7A75"
+    families:
+      - "623 series"
+      - "702 series"
+      - "902 series"
+      - "PF series"
+    blurb: >
+      New Level Golf sells forged irons direct and through fitters, building
+      every set to order from its own shaft menu. Founder Eric Burch came to the
+      company from club fitting, and the 623 series put the brand on the map when
+      it won MyGolfSpy's 2022 players-iron test.
+
+  - name: Sub 70
+    slug: sub-70
+    founded: 2018
+    hq: "Sycamore, Illinois, USA"
+    color: "#C8462C"
+    families:
+      - "639"
+      - "659"
+      - "669"
+      - "699"
+    blurb: >
+      Sub 70 is a direct-to-consumer maker that hand-builds every club in
+      Sycamore, Illinois, and prices sets at roughly half the big-OEM figure by
+      cutting retail and advertising out. Its 659 players heads share one loft
+      and lie chart so they can be blended into combo sets.
+
+  - name: Tommy Armour
+    slug: tommy-armour
+    founded: 1985
+    hq: "Morton Grove, Illinois, USA"
+    color: "#8C7853"
+    families:
+      - "Silver Scot"
+      - "845 series"
+      - "Atomic"
+    blurb: >
+      PGA Golf took the Tommy Armour name in 1985, licensing it from the family
+      of the Scottish major winner, and the 845s Silver Scot that followed became
+      one of the best-selling iron sets ever made. The brand changed hands
+      repeatedly after the 1990s and is now a Dick's Sporting Goods label.
+
+  - name: Tour Edge
+    slug: tour-edge
+    founded: 1986
+    hq: "Batavia, Illinois, USA"
+    color: "#A6192E"
+    families:
+      - "Exotics"
+      - "Hot Launch"
+      - "Bazooka"
+    blurb: >
+      Tour Edge runs two iron lines in parallel: Exotics for the premium
+      hollow-body and forged models, and Hot Launch for the value and
+      game-improvement end. The company does not publish offset or bounce for
+      most models, so those columns are often blank.

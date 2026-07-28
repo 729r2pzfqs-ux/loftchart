@@ -4,11 +4,11 @@ model: Apex 21
 slug: apex-21-irons
 club_type: irons
 year_introduced: 2021
-year_discontinued: null
+year_discontinued: 2024
 category: players-distance
 construction: forged, multi-material
 material: fully forged 1025 mild carbon steel body with an A.I.-designed Flash Face Cup and a tungsten energy core
-successor: null
+successor: Callaway Apex Ai200
 predecessor: Callaway Apex 19
 description: >
   The Apex 21 is a 100 percent forged 1025 mild carbon steel iron carrying an
@@ -83,6 +83,14 @@ sources:
   - "Today's Golfer Callaway Apex 21 irons review — stock True Temper Elevate ETS 95g steel and UST Recoil Dart 75g graphite shafts"
   - "Set composition is uncertain: Today's Golfer lists the stock set as 3-PW plus A-wedge, 2nd Swing as 4-PW. Both published spec tables stop at the A-wedge, so no sand wedge is listed here."
   - "Offset ladder added from the Callaway Demandware ProductSpecs feed (ProductSpecs-Get), the manufacturer-authored source behind the View Specs panel; Callaway publishes these in millimetres and the inch figures here are converted"
+  - "Succession: Callaway announced the Apex Ai200 on 12 August 2024, and MyGolfSpy and GolfWRX launch coverage place it in the core players-distance Apex slot last filled by the Apex 21, so year_discontinued is set to 2024"
+related_models:
+  - slug: "callaway/apex-ai200-irons"
+    label: "Successor: Callaway Apex Ai200"
+  - slug: "callaway/apex-dcb-irons"
+    label: "Forgiving sibling in the 2021 family: Callaway Apex DCB"
+  - slug: "callaway/apex-19-irons"
+    label: "Predecessor: Callaway Apex 19"
 faq:
   - q: "What is the loft of a Callaway Apex 21 7-iron?"
     a: "The Callaway Apex 21 7-iron has a loft of 30.5 degrees, with a 62 degree lie and a 37 inch standard steel length."

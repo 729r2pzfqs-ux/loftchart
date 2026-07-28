@@ -4,11 +4,11 @@ model: Pro 243
 slug: pro-243-irons
 club_type: irons
 year_introduced: 2024
-year_discontinued: null
+year_discontinued: 2026
 category: players
 construction: Grain Flow Forged HD, multi-material
 material: 1025E Pure Select mild carbon steel with 4120 Chromoly face in the 4-7 irons
-successor: null
+successor: Pro M-13
 predecessor: Pro 223
 description: >
   The Mizuno Pro 243 is the players cavity-back of the 2024 Mizuno Pro series, replacing
@@ -86,7 +86,10 @@ sources:
   - "Mizuno official Mizuno Pro 243 product page, mizunogolf.com/au/golf-clubs/mp-series/mizuno-pro-243/ (Specification tab: club, loft, lie, offset, length, bounce; dexterity RH only), archived 22 April 2024 via archive.org"
   - "Mizuno official Mizuno Pro 243 club-specification page, mizunogolf.com/us/golf-clubs/mp-series/mizuno-pro-243/club-specification/ (live, corroborating the same table)"
   - "Same product page, construction section (4120 Chromoly with flow micro slot 4-7 iron, 1025E Pure Select 8-GW, increased bounce angle)"
+  - "year_discontinued is 2026: Mizuno announced the Pro Modern Series on 5 January 2026, with the Pro M-13 as the 243's direct successor (todays-golfer.com 'Mizuno Pro M-13 and M-15 irons: everything you need to know')"
 related_models:
+  - slug: "mizuno/pro-m13-irons"
+    label: "Successor: Mizuno Pro M-13"
   - slug: "mizuno/pro-223-irons"
     label: "Predecessor: Mizuno Pro 223"
   - slug: "mizuno/pro-241-irons"

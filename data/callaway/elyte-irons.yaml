@@ -4,11 +4,11 @@ model: Elyte
 slug: elyte-irons
 club_type: irons
 year_introduced: 2025
-year_discontinued: null
+year_discontinued: 2026
 category: game-improvement
 construction: Speed Frame cast body with a forged face cup and urethane microspheres
 material: forged face cup with a stainless body and tungsten weighting
-successor: null
+successor: Callaway Quantum Max
 predecessor: Callaway Paradym Ai Smoke
 description: >
   Elyte is Callaway's 2025 iron and replaces the Paradym Ai Smoke. It pairs the
@@ -85,7 +85,12 @@ stock_shafts:
 sources:
   - "callawaygolf.com Elyte Irons product page specification table (https://www.callawaygolf.com/golf-clubs/irons/irons-2025-elyte.html) — loft, lie, length, offset (in millimetres) and swing weight for the 4-iron through sand wedge, the 4-SW set composition, the True Temper Vector 90 stock shaft and the Lamkin Crossline grip. Offset is converted to inches here."
   - "Note: bounce was not published on the product page and is omitted rather than estimated. Swing weight is listed as D2 for steel and D0 for graphite; the steel figure is recorded."
+  - "Succession: Callaway announced the Quantum iron family on 16 January 2026 (callawaymedia.com Quantum press release), and Golfalot's Quantum Max review states the Quantum irons replace the Elyte, so year_discontinued is set to 2026."
 related_models:
+  - slug: "callaway/elyte-x-irons"
+    label: "More forgiving sibling in the same line: Callaway Elyte X"
+  - slug: "callaway/quantum-max-irons"
+    label: "Successor: Callaway Quantum Max"
   - slug: "callaway/paradym-ai-smoke-irons"
     label: "Predecessor: Callaway Paradym Ai Smoke"
   - slug: "callaway/paradym-irons"

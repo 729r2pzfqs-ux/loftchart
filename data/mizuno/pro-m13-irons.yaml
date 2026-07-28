@@ -1,0 +1,90 @@
+brand: Mizuno
+brand_slug: mizuno
+model: Pro M-13
+slug: pro-m13-irons
+club_type: irons
+year_introduced: 2026
+year_discontinued: null
+category: players
+construction: Grain Flow Forged HD, split-set multi-material
+material: 4120 Chromoly pocket-cavity 4-5 irons with 431 stainless back, micro-slot forged 6-8 irons, one-piece 1025E from the 9-iron down
+successor: null
+predecessor: Pro 243
+description: >
+  The Mizuno Pro M-13 is the players cavity-back of Mizuno's 2026 Pro line, the
+  successor to the Pro 243 and one of two "Modern Series" models launched alongside
+  the more forgiving M-15. The set splits into three constructions: the 4 and 5 irons
+  are pocket-cavity Grain Flow Forged with a 4120 Chromoly face and a 431 stainless
+  back piece, the 6 through 8 irons are micro-slot Grain Flow Forged with a face 0.3 mm
+  thinner than the prior generation, and the 9-iron through gap wedge are one-piece
+  Grain Flow Forged 1025E. The Contour Ellipse face is 1.37 mm at its thinnest, which
+  Mizuno says is about 35 percent thinner than the Pro 243. Lofts carry over from the
+  Pro 243 unchanged — 32 degrees at the 7-iron, 44 at the pitching wedge — but the
+  published lie angles sit half a degree to a degree more upright and the lengths a
+  quarter inch longer than the 243 table, matching Mizuno's JPX-style build specs.
+  Mizuno unveiled the Modern Series on 5 January 2026, with presale from 19 January
+  and in-store availability on 5 February 2026.
+specs:
+  - club: "4"
+    loft: 22.0
+    lie: 60.5
+    length: 38.75
+    bounce: 2.0
+  - club: "5"
+    loft: 25.0
+    lie: 61.0
+    length: 38.25
+    bounce: 3.0
+  - club: "6"
+    loft: 28.0
+    lie: 61.5
+    length: 37.75
+    bounce: 4.0
+  - club: "7"
+    loft: 32.0
+    lie: 62.0
+    length: 37.25
+    bounce: 5.0
+  - club: "8"
+    loft: 36.0
+    lie: 62.5
+    length: 36.75
+    bounce: 6.0
+  - club: "9"
+    loft: 40.0
+    lie: 63.0
+    length: 36.25
+    bounce: 7.0
+  - club: "PW"
+    loft: 44.0
+    lie: 63.5
+    length: 35.75
+    bounce: 8.0
+  - club: "GW"
+    loft: 48.0
+    lie: 64.0
+    length: 35.5
+    bounce: 9.0
+stock_shafts:
+  - name: "Nippon N.S. Pro Modus Tour 120"
+    material: steel
+    weight: "120 g class"
+    flex: ["S"]
+sources:
+  - "Mizuno official Pro M-13 club-specification page, mizunogolf.com/us/golf-clubs/mp-series/mizuno-pro-m13/club-specification/ (live, fetched July 2026) — full 4-GW table of loft, lie, length and bounce, plus the dexterity note 'RH & LH: 4-GW'. The page does not publish offset or swing weight, so those keys are omitted"
+  - "Mizuno official Pro M-13 product page, mizunogolf.com/us/golf-clubs/mp-series/mizuno-pro-m13/ — construction copy: pocket-cavity Grain Flow Forged 4120 Chromoly with 431 stainless in the 4-5 irons, micro-slot Grain Flow Forged 6-8 irons with a 0.3 mm thinner face, one-piece 1025E 9-GW, the 1.37 mm Contour Ellipse face (~35% thinner than Pro 243), Triple Cut Sole and Nickel Chrome Satin Brush finish"
+  - "todays-golfer.com 'Mizuno Pro M-13 and M-15 irons: everything you need to know' — M-13 replaces the Pro 243 as the players cavity-back, $215 per iron, stock shaft Nippon Modus Tour 120g (S)"
+  - "golf.com 'Mizuno launches new Mizuno Pro Modern series with M-13, M-15 irons, Fli-Hi utility' and the MyGolfSpy forum launch thread — Modern Series announced 5 January 2026, presale from 19 January, retail 5 February 2026. Announcement and retail both fall in 2026, so year_introduced carries no announcement-vs-model-year gap this cycle"
+related_models:
+  - slug: "mizuno/pro-243-irons"
+    label: "Predecessor: Mizuno Pro 243"
+  - slug: "mizuno/pro-m15-irons"
+    label: "Same generation, players distance: Mizuno Pro M-15"
+faq:
+  - q: "What is the loft of a Mizuno Pro M-13 7-iron?"
+    a: "The Mizuno Pro M-13 7-iron has a loft of 32 degrees, with a 62-degree lie and a 37.25-inch steel-shaft length."
+  - q: "When were the Mizuno Pro M-13 irons released?"
+    a: "Mizuno announced the Pro Modern Series, including the M-13, on 5 January 2026, with presale from 19 January and in-store availability on 5 February 2026."
+  - q: "Are the Mizuno Pro M-13 lofts different from the Pro 243?"
+    a: "No. The lofts carry over unchanged from the Pro 243 — 22 degrees at the 4-iron, 32 at the 7-iron, 44 at the pitching wedge and 48 at the gap wedge — though the published lies are slightly more upright and lengths a quarter inch longer."
+confidence: high
