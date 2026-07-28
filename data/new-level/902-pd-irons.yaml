@@ -1,0 +1,89 @@
+brand: "New Level"
+brand_slug: "new-level"
+model: "902-PD"
+slug: "902-pd-irons"
+club_type: "irons"
+year_introduced: 2021
+year_discontinued: 2025
+category: "players-distance"
+construction: "hollow body, forged"
+material: "forged 1025 carbon steel"
+predecessor: "New Level 902"
+successor: null
+description: >
+  The 902-PD Forged was the hollow-body players-distance iron from New Level
+  Golf, the direct-to-consumer maker in Scottsdale, Arizona, built as the
+  sequel to the company's original 902 Forged with a progressive design —
+  wider soles in the long irons, thinner toplines in the scoring clubs.
+  The head is forged from 1025 carbon steel and hollow to raise launch and
+  forgiveness, yet the lofts are traditional for the category: a 32-degree
+  7-iron and a 44-degree pitching wedge across a 4-PW, right-hand-only chart.
+  New Level's own spec sheet is headed 2021 and the model was in MyGolfSpy's
+  2022 Most Wanted players distance test by early 2022, where it finished
+  fifth overall and ranked best for forgiveness. Like the 902-OS it was
+  retired around the launch of the 2025 702 series, its spec sheet moving to
+  New Level's Archives page; every set was assembled to order from a shaft
+  menu, so no stock shaft or swing weight is recorded.
+specs:
+  - club: "4"
+    loft: 22.0
+    lie: 60.5
+    length: 38.5
+    offset: 0.138
+    bounce: 2.0
+  - club: "5"
+    loft: 25.0
+    lie: 61.0
+    length: 38.0
+    offset: 0.118
+    bounce: 2.5
+  - club: "6"
+    loft: 28.0
+    lie: 61.5
+    length: 37.5
+    offset: 0.118
+    bounce: 4.0
+  - club: "7"
+    loft: 32.0
+    lie: 62.0
+    length: 37.0
+    offset: 0.098
+    bounce: 4.0
+  - club: "8"
+    loft: 36.0
+    lie: 62.5
+    length: 36.5
+    offset: 0.098
+    bounce: 5.0
+  - club: "9"
+    loft: 40.0
+    lie: 63.0
+    length: 36.0
+    offset: 0.079
+    bounce: 6.0
+  - club: "PW"
+    loft: 44.0
+    lie: 63.5
+    length: 35.75
+    offset: 0.079
+    bounce: 7.0
+sources:
+  - "New Level Golf official 902-PD club spec sheet (newlevelgolf.com/cdn/shop/files/902-PD_Club_Specs.png, linked from the manufacturer's 'The NL Archives' club spec history page at newlevelgolf.com/pages/the-nl-archives, retrieved July 2026) — loft, lie, offset in mm (3.5/3/3/2.5/2.5/2/2, converted to inches here), bounce, length and .370 hosel bore for 4-iron through PW, right hand only in chrome, with the footnote that New Level has no stock club configuration and therefore no stock swing weights. The sheet is headed '2021', which fixes year_introduced"
+  - "MyGolfSpy 2022 Most Wanted Players Distance Irons test — the 902 PD Forged finished fifth overall and ranked best for forgiveness, confirming the model was on the market by early 2022 and its players-distance categorisation"
+  - "newlevelgolf.com 902-PD product copy (archive.org capture of 30 September 2023, and retail listings) — forged from 1025 carbon steel, hollow body design to maximise forgiveness and launch, progressive design with wider soles in the long irons and thinner toplines in the short irons; built as the enhanced sequel to the original 902 Forged irons"
+  - "year_discontinued is recorded as 2025 on the same basis as the 902-OS: New Level's current range is the 702 and 480 series, the 902-PD product page has been removed from newlevelgolf.com (the URL now 404s), and the model's spec sheet sits on New Level's Archives ('specs of our previous generations') page. No direct successor was named, so the successor field is null"
+faq:
+  - q: "What is the loft of a New Level 902-PD 7-iron?"
+    a: "The New Level 902-PD 7-iron has a loft of 32 degrees, with a 62-degree lie, 2.5 mm of offset and a 37-inch length."
+  - q: "Is the New Level 902-PD a hollow-body iron?"
+    a: "Yes. It is forged from 1025 carbon steel with a hollow body for launch and forgiveness — unlike its one-piece-forged stablemate, the 902-OS."
+  - q: "How did the New Level 902-PD do in testing?"
+    a: "It finished fifth overall in MyGolfSpy's 2022 Most Wanted players distance iron test and was ranked best in the category for forgiveness."
+  - q: "Is the New Level 902-PD still in production?"
+    a: "No. New Level replaced its iron range with the 702 series in 2025, removed the 902-PD product page and moved its spec sheet to the company's Archives page."
+related_models:
+  - slug: "new-level/902-os-irons"
+    label: "One-piece-forged oversized stablemate: New Level 902-OS"
+  - slug: "new-level/623-cb-irons"
+    label: "New Level's players cavity back: 623-CB"
+confidence: "high"

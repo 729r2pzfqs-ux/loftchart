@@ -1,0 +1,80 @@
+brand: Fourteen
+brand_slug: fourteen
+model: TC-7 Forged
+slug: tc-7-forged-irons
+club_type: irons
+year_introduced: 2021
+year_discontinued: null
+category: players
+construction: one-piece forged undercut cavity back
+material: S25C soft carbon steel
+successor: null
+predecessor: null
+description: >
+  The TC-7 Forged is a players cavity back from Fourteen Golf, the Tokyo
+  club-design house founded in 1981, sold as a US-market model through
+  Fourteen Golf USA — it drew attention from spring 2021 and most American
+  coverage treats it as a 2022 release. Each semi-compact head is forged from
+  a single piece of S25C soft carbon steel with an undercut cavity that
+  lifts launch and forgiveness while keeping minimal offset and a modern
+  topline. Lofts are moderate for the class — a 31-degree 7-iron and a
+  44-degree pitching wedge across a 4-PW, right-hand-only chart — and in
+  MyGolfSpy's 2022 Most Wanted players iron test the TC-7 rated highest for
+  feel, forgiveness and distance, though the overall title went to the
+  New Level 623-CB. Sold at $199 per club with Nippon steel stock shafts;
+  still listed by Fourteen Golf USA as of mid-2026.
+specs:
+  - club: "4"
+    loft: 21.0
+    lie: 60.0
+    length: 38.75
+  - club: "5"
+    loft: 24.0
+    lie: 60.5
+    length: 38.0
+  - club: "6"
+    loft: 27.0
+    lie: 61.0
+    length: 37.5
+  - club: "7"
+    loft: 31.0
+    lie: 61.5
+    length: 37.0
+  - club: "8"
+    loft: 35.0
+    lie: 62.0
+    length: 36.5
+  - club: "9"
+    loft: 39.0
+    lie: 62.5
+    length: 36.0
+  - club: "PW"
+    loft: 44.0
+    lie: 63.0
+    length: 35.5
+stock_shafts:
+  - name: "Nippon N.S.PRO 950GH HT"
+    material: steel
+    flex: ["R", "S"]
+  - name: "Nippon N.S.PRO Modus3 Tour 105"
+    material: steel
+    flex: ["S"]
+sources:
+  - "2nd Swing Fourteen TC-7 Forged iron set spec table (2ndswing.com) — the full chart: lofts 21/24/27/31/35/39/44, lies 60.0 to 63.0, lengths 38.75 to 35.5 inches and face progression 3.9 to 4.3 mm for 4-iron through PW, right hand only."
+  - "Plugged In Golf 'Fourteen TC-7 Irons Review' spec graphic, 29 June 2022 — an independently published chart agreeing with every loft, lie and length above, plus the $199-per-club price and the Nippon 950HT / Modus3 T105 shaft pairing."
+  - "Fourteen official TC-7 Forged page (fourteen.co.jp/en/irons/tc7-forged and fourteengolf.us) — forged S25C soft steel, nickel chrome finish, undercut cavity, set composition #4 and #5-PW, and the stock N.S.PRO 950GH HT (R, S) and N.S.PRO Modus3 T105 (S) shafts; the manufacturer's page publishes no per-club chart, so the numbers above are recorded at medium confidence from the two agreeing retail/press charts."
+  - "fourteengolf.us blog 'Fourteen's TC-7 Forged Shines in the 2022 Most Wanted Player's Iron', 10 February 2022 — the TC-7 rated best for feel, forgiveness and distance in MyGolfSpy's test (the overall winner was the New Level 623-CB). year_introduced 2021 follows the model's US-market debut — Japanese coverage (masa-golf.jp) records it as a US-only model drawing attention from April 2021, and it was in MyGolfSpy's test field assembled around the turn of 2022 — while 2nd Swing and most US reviews label it new for 2022."
+  - "Note: offset and bounce are omitted — Fourteen publishes face progression in millimetres rather than offset, and no bounce figures. year_discontinued is null: the TC-7 Forged remains on fourteengolf.us as of July 2026 (the 2024 TB-7 blade and TC-touring models sit alongside it rather than replacing it)."
+related_models:
+  - slug: "new-level/623-cb-irons"
+    label: "The iron that beat it to the 2022 Most Wanted title: New Level 623-CB"
+faq:
+  - q: "What is the loft of a Fourteen TC-7 Forged 7-iron?"
+    a: "The Fourteen TC-7 Forged 7-iron has a loft of 31 degrees, a lie of 61.5 degrees and a 37-inch standard length."
+  - q: "Is the Fourteen TC-7 forged?"
+    a: "Yes. Each head is forged from a single piece of S25C soft carbon steel with an undercut cavity back, finished in nickel chrome."
+  - q: "Did the Fourteen TC-7 win MyGolfSpy's 2022 Most Wanted players iron test?"
+    a: "No — the overall title went to the New Level 623-CB — but the TC-7 rated highest in the field for feel, forgiveness and distance."
+  - q: "Who makes Fourteen golf clubs?"
+    a: "Fourteen Golf is a Japanese maker founded in Tokyo in 1981 by designer Takamitsu Takebayashi; it designed irons for other brands before launching its own line in 2002, and the TC-7 is sold in America through Fourteen Golf USA."
+confidence: medium

@@ -83,6 +83,11 @@ sources:
   - "Alloy: the HTML spec table on New Level's own product pages (the current left-hand page and the right-hand page archived February 2024 via archive.org) lists the material as '1020 CS' for every club, while retail copy such as the 2ndswing.com listing says 'Forged from Soft 1025 Carbon Steel'; both figures are recorded rather than picking one"
   - "Note on conflicting manufacturer tables: that same product-page HTML table differs slightly from the Archives spec sheet used for the chart here — its lies run 0.5 degrees more upright throughout (60.5 at the 4-iron to 63.5 at the PW, 64 at the AW, consistent with a column-shift error), with 1.5 and 4.0 degrees of bounce at the 5- and 7-irons and 2.0 mm offset / 7 degrees bounce at the AW. Lofts, lengths and the remaining offsets agree between the two"
   - "year_discontinued is recorded as 2025: New Level's current range is the 702 series (the players-distance 702+ was reviewed by Plugged In Golf in July 2025 and the line is covered as a 2025 release by skratch.golf), the 902-OS right-handed page is gone, and the model now sits on New Level's Archives ('specs of our previous generations') page. New Level named no direct successor, so the successor field is null. Offsets are converted from the published millimetre figures (3.5/3.0/3.0/2.5/2.5/2.0/2.0/1.0 mm)"
+related_models:
+  - slug: "new-level/902-pd-irons"
+    label: "Hollow-body players-distance stablemate: New Level 902-PD"
+  - slug: "new-level/623-cb-irons"
+    label: "New Level's players cavity back: 623-CB"
 faq:
   - q: "What is the loft of a New Level 902-OS 7-iron?"
     a: "The New Level 902-OS 7-iron has a loft of 31 degrees, with a 61.5-degree lie, 2.5 mm of offset and a 37-inch length."

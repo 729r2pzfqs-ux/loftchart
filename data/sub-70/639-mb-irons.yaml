@@ -1,0 +1,93 @@
+brand: Sub 70
+brand_slug: sub-70
+model: 639 MB
+slug: 639-mb-irons
+club_type: irons
+year_introduced: 2019
+year_discontinued: null
+category: blade
+construction: forged from a billet with a CNC-milled back
+material: DT-4 soft steel
+successor: Sub 70 659 MB
+predecessor: null
+description: >
+  The 639 MB was the muscle-back half of Sub 70's first forged iron family,
+  released in July 2019 alongside the 639 CB from the direct-to-consumer
+  maker in Sycamore, Illinois. Each head is precision forged from a solid
+  billet of what Sub 70's copy calls DT-4 soft stainless steel and finished
+  with a custom milling process; the blade keeps a thin top line — 4.6 mm at
+  the 6-iron on a 74 mm blade length — but a moderate face size intended to
+  add confidence over a traditional musclerback. The chart runs 3-PW with a
+  32-degree 7-iron and, unlike the 639 CB's 44-degree pitching wedge, a
+  45-degree PW. The 659 MB of 2022 was designed as its successor, but Sub 70
+  kept 639 heads in the range, and as of a May 2025 site capture the 639 MB
+  was still sold in factory MB/CB combo sets, so no discontinuation year is
+  recorded.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 59.5
+    length: 39.0
+    offset: 0.130
+    bounce: 1.0
+  - club: "4"
+    loft: 22.0
+    lie: 60.0
+    length: 38.5
+    offset: 0.114
+    bounce: 2.0
+  - club: "5"
+    loft: 25.0
+    lie: 60.5
+    length: 38.0
+    offset: 0.102
+    bounce: 2.0
+  - club: "6"
+    loft: 28.0
+    lie: 61.0
+    length: 37.5
+    offset: 0.091
+    bounce: 5.0
+  - club: "7"
+    loft: 32.0
+    lie: 61.5
+    length: 37.0
+    offset: 0.083
+    bounce: 5.0
+  - club: "8"
+    loft: 36.0
+    lie: 62.0
+    length: 36.5
+    offset: 0.079
+    bounce: 5.0
+  - club: "9"
+    loft: 40.0
+    lie: 62.5
+    length: 36.0
+    offset: 0.067
+    bounce: 5.0
+  - club: "PW"
+    loft: 45.0
+    lie: 63.0
+    length: 35.75
+    offset: 0.059
+    bounce: 7.0
+sources:
+  - "Sub 70 official 639 MB Forged Black Irons product page (golfsub70.com/sub-70-639-mb-forged-black-irons.html, archive.org capture of 21 November 2021) — full specification table for 3-iron through PW: loft, lie, offset in millimetres (3.3 down to 1.5, converted to inches here), bounce, head weights 242 to 292 g, standard steel lengths 39 to 35.75 inches (graphite listed 0.5 inch longer), DT-4 steel material, Tour Black PVD finish on the black version, and the 4.6 mm top line / 74 mm blade length at the 6-iron. The steel lengths are recorded as the standard spec; the satin and raw finishes share the same chart."
+  - "MyGolfSpy 'Sub 70 Irons: Model By Model' — 639 MB release date of July 2019 and compact-blade positioning; consistent with the earliest archive.org captures of golfsub70.com 639 pages from 21 July 2019."
+  - "Note: year_discontinued is null. The 659 MB was launched in May 2022 as the newer Sub 70 muscle-back, but the 639 MB remained available — an archive.org capture of the golfsub70.com iron lineup from 14 May 2025 still lists 639 MB/CB combo sets. Sub 70 builds every club to order from a no-upcharge shaft and grip menu, so no stock shaft is recorded. Sub 70's own copy calls the material 'DT-4 soft stainless steel'; its 659-era pages describe DT-4 as a soft carbon steel. There is no LoftChart page for the 659 MB yet, so the successor link points to the 659 CB family page."
+related_models:
+  - slug: "sub-70/639-cb-irons"
+    label: "Cavity-back sibling with a shared lie chart: Sub 70 639 CB"
+  - slug: "sub-70/659-cb-irons"
+    label: "The 659 family that followed in 2022: Sub 70 659 CB"
+faq:
+  - q: "What is the loft of a Sub 70 639 MB 7-iron?"
+    a: "The Sub 70 639 MB 7-iron has a loft of 32 degrees, a lie of 61.5 degrees and a standard steel length of 37 inches."
+  - q: "Do the Sub 70 639 MB and 639 CB share the same lofts?"
+    a: "Almost. The two share lies, lengths and lofts from the 3-iron through 9-iron, but the MB's pitching wedge is 45 degrees against the CB's 44."
+  - q: "Is the Sub 70 639 MB a true blade?"
+    a: "Yes — it is a forged muscle-back with a 4.6 mm top line at the 6-iron, though Sub 70 kept the face at a moderate size to make it more approachable than a traditional tour blade."
+  - q: "Is the Sub 70 639 MB still available?"
+    a: "Sub 70 launched the 659 MB as its successor in 2022 but kept the 639 MB around; as of May 2025 it was still sold in factory 639 MB/CB combo sets."
+confidence: high

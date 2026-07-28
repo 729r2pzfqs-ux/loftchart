@@ -65,6 +65,8 @@ sources:
   - "miuragolf.com equipment blog 'Retro MB 101 Irons: Everything To Know', 24 August 2022 — the limited-run Retro edition with the original Miura logo; the standard MB-101 product page remains live at $310 per head as of July 2026, so year_discontinued is null."
   - "Note: offset, bounce and swing weight are omitted because Miura publishes face progression in millimetres rather than offset in inches and lists no bounce or swing-weight figures. No stock shaft is recorded because Miura sells heads to authorized fitters and builds sets to order from a shaft menu."
 related_models:
+  - slug: "miura/mb-001-irons"
+    label: "Predecessor: Miura MB-001"
   - slug: "miura/tc-201-irons"
     label: "Tour cavity designed to complement it: Miura TC-201"
   - slug: "miura/cb-301-irons"

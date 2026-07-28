@@ -479,9 +479,11 @@ def model_card(m):
     s7 = seven_iron(m)
     spec = ""
     if s7:
+        length_part = (f' · {num(s7["length"])}&Prime;'
+                       if s7.get("length") is not None else "")
         spec = (f'<span class="card-spec">{esc(club_noun(m, s7["club"]))}: '
                 f'{num(s7["loft"])}° loft · '
-                f'{num(s7["lie"])}° lie · {num(s7["length"])}&Prime;</span>')
+                f'{num(s7["lie"])}° lie{length_part}</span>')
     return (f'<a class="card" href="{m["url"]}">'
             f'<span class="card-title">{esc(m["brand"])} {esc(m["model"])}</span>'
             f'<span class="card-meta">{esc(m["type_label"])} · {year_range(m)}</span>'
@@ -585,9 +587,11 @@ def model_page(m, brands, models_by_key, compares_by_key):
         span = "every club"
 
     if s7:
+        length_part = (f", {num(s7['length'])}\" length"
+                       if s7.get("length") is not None else "")
         head_part = (f"{m['brand']} {m['model']} specifications: {num(s7['loft'])}° loft "
-                     f"({club_noun(m, s7['club'])}), {num(s7['lie'])}° lie, "
-                     f"{num(s7['length'])}\" length. ")
+                     f"({club_noun(m, s7['club'])}), {num(s7['lie'])}° lie"
+                     f"{length_part}. ")
         desc = fit_desc(head_part, [
             f"Full loft chart with {cols} for every club, {span}.",
             f"Full loft chart with {cols} for every club in the set.",
@@ -958,7 +962,7 @@ def category_page(cat, ms, brands):
         f'<td>{esc(year_range(m))}</td>'
         f'<td>{num(seven_iron(m)["loft"]) if seven_iron(m) else "—"}</td>'
         f'<td>{num(seven_iron(m)["lie"]) if seven_iron(m) else "—"}</td>'
-        f'<td>{num(seven_iron(m)["length"]) if seven_iron(m) else "—"}</td></tr>'
+        f'<td>{num(seven_iron(m)["length"]) if seven_iron(m) and seven_iron(m).get("length") is not None else "—"}</td></tr>'
         for m in ms)
 
     body = f"""{nav}

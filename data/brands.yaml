@@ -262,6 +262,37 @@ brands:
       running the US side. The numbered CB and MB models are announced for Japan
       first, so several reach the US line a year or more after their release.
 
+  - name: Edel
+    slug: edel
+    founded: 1996
+    hq: "Liberty Hill, Texas, USA"
+    color: "#1C2B39"
+    families:
+      - "SMS"
+      - "SMS Pro"
+    blurb: >
+      Edel Golf was founded by putter maker and fitting specialist David Edel
+      in 1996 and sells through certified fitters, with every club built to a
+      fitting. Its SMS irons carry movable Swing Match weights in the head, so
+      published charts cover the head spec while shafts and balance are set
+      per player.
+
+  - name: Fourteen
+    slug: fourteen
+    founded: 1981
+    hq: "Tokyo, Japan"
+    color: "#14281D"
+    families:
+      - "TC series"
+      - "TB series"
+      - "RM wedges"
+    blurb: >
+      Fourteen Golf was founded in Tokyo in 1981 by designer Takamitsu
+      Takebayashi, who built irons for other brands - including a US
+      Open-winning set - before launching Fourteen's own line in 2002. The
+      company is best known for its forged irons and RM wedges, with some
+      models sold in different specs for the Japanese and US markets.
+
   - name: Kirkland Signature
     slug: kirkland-signature
     founded: 1995

@@ -86,6 +86,8 @@ sources:
   - "Driving Range Heroes 'Sub 70 659 Irons Review' (drivingrangeheroes.com, 6 July 2022) — corroborates the 7-iron at 32 degrees loft, 61.5 lie, 37 inches, and that all three 659 variants share one loft chart; notes prototypes were shown in summer 2021 ahead of the 2022 release."
   - "Note: swing weight is not published and Sub 70 builds every set to order from a large no-upcharge shaft and grip menu, so no single stock shaft is recorded. year_discontinued is null because the 659 CB remained in Sub 70's catalogue as of an August 2025 site capture, with no direct successor announced (the 2025 669 line sits in other categories)."
 related_models:
+  - slug: "sub-70/639-cb-irons"
+    label: "Predecessor: Sub 70 639 CB"
   - slug: "sub-70/699-v2-irons"
     label: "Hollow-body game-improvement stablemate: Sub 70 699 V2"
   - slug: "sub-70/699-pro-v2-irons"

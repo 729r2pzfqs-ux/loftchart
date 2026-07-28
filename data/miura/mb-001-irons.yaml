@@ -1,0 +1,71 @@
+brand: Miura
+brand_slug: miura
+model: MB-001
+slug: mb-001-irons
+club_type: irons
+year_introduced: 2013
+year_discontinued: 2019
+category: blade
+construction: forged muscle-back blade
+material: premium soft carbon Japanese steel, forged in Himeji, Japan
+successor: Miura MB-101
+predecessor: Miura Tournament Blade
+description: >
+  The MB-001 was Miura's first new blade in six years when it debuted in
+  October 2013, replacing the Tournament Blade with a slightly stronger loft
+  structure, a rounded leading-edge grind and increased sole camber for
+  cleaner turf interaction. Nicknamed the "Baby Blade" by players for its
+  compact profile, it carried traditional specs — a 34-degree 7-iron and a
+  47-degree pitching wedge across a 3-PW right-hand-only range — and sold
+  through authorized Miura dealers at roughly $235 per club, built to order.
+  It remained the company's flagship muscle-back until Miura announced the
+  MB-101 in October 2019, billed as the maker's first new blade since 2013.
+  Miura sold the MB-001 as component heads through fitters and published no
+  standard assembly lengths, so the length column is omitted here.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 59.0
+  - club: "4"
+    loft: 24.0
+    lie: 59.5
+  - club: "5"
+    loft: 27.0
+    lie: 60.0
+  - club: "6"
+    loft: 30.0
+    lie: 60.5
+  - club: "7"
+    loft: 34.0
+    lie: 61.0
+  - club: "8"
+    loft: 38.0
+    lie: 61.5
+  - club: "9"
+    loft: 42.0
+    lie: 62.0
+  - club: "PW"
+    loft: 47.0
+    lie: 62.5
+sources:
+  - "Usher Golf (authorized Miura dealer) MB-001 Tournament Blade spec chart (chipandputt.com/miuragolf/miuramb001tournamentblade) — lofts 21/24/27/30/34/38/42/47 and lies 59.0 to 62.5 for 3-iron through PW, head weights 244 to 295 g, the low-carbon premium Japanese steel material, Himeji precision forging and W nickel (satin) chrome finish, right hand only."
+  - "Plugged In Golf 'Miura MB-001 Irons Review' spec-and-price graphic (pluggedingolf.com, image dated November 2016) — independently corroborates every loft and lie above and lists length as N/A for all clubs with 'Custom' shafts, confirming that Miura published no standard build length for this dealer-built model."
+  - "miuragolf.com archived homepage (archive.org capture of 11 August 2017) — the MB-001 in Miura's official current line with material 'Premium soft carbon Japanese steel', W nickel (satin) chrome or Black Boron finish, right handed only, set makeup 3 to PW."
+  - "GolfWRX 'Review: Miura MB-001 Irons', 6 February 2014, and Flagstick.com 'Masters of The Blade — The Miura MB-001', 13 January 2014 — the first-new-blade-in-six-years positioning versus the retired Tournament Blade, the rounded leading edge and revised sole camber, $235-per-club pricing and dealer-only distribution. A Kustom Clubs dealer listing dated 17 December 2013 and a MyGolfSpy forum debut thread of October 2013 fix year_introduced at 2013."
+  - "golf.com 'FIRST LOOK: Miura unveils MB-101, the company's first blade iron since 2013', 3 October 2019 — the MB-101 announcement that fixes year_discontinued at 2019 and the successor field."
+  - "Note: offset, bounce and length are omitted. The one dealer chart that prints offset and bounce columns (Usher Golf) is not corroborated elsewhere and its offset figures are inconsistent with Miura's face-progression convention, and Miura itself published length as N/A. Confidence is medium because the loft/lie chart comes from two agreeing dealer/press sources rather than a surviving manufacturer spec sheet."
+related_models:
+  - slug: "miura/mb-101-irons"
+    label: "Successor: Miura MB-101"
+  - slug: "miura/cb-57-irons"
+    label: "Cavity-back companion of the same era: Miura CB-57"
+faq:
+  - q: "What is the loft of a Miura MB-001 7-iron?"
+    a: "The Miura MB-001 7-iron has a loft of 34 degrees and a lie of 61 degrees. Miura published no standard length because sets were built to order through dealers."
+  - q: "Why is the Miura MB-001 called the Baby Blade?"
+    a: "Players nicknamed the MB-001 the Baby Blade for its compact head. It was Miura's first new blade in six years when it debuted in October 2013, replacing the Tournament Blade."
+  - q: "What replaced the Miura MB-001?"
+    a: "The Miura MB-101, announced in October 2019 and billed by Miura as its first new blade since 2013, with sole width and face thickness reworked from the MB-001."
+  - q: "What clubs were available in the Miura MB-001?"
+    a: "3-iron through pitching wedge, right handed only, with a traditional 47-degree pitching wedge. Heads were sold through authorized Miura dealers and built to order."
+confidence: medium
