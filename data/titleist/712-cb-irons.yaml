@@ -86,6 +86,8 @@ sources:
   - "2ndswing.com Titleist 712 CB Iron Set specification table — loft, lie, length, offset and swing weight for the 2-iron through pitching wedge, plus the 3-PW and 4-PW set ranges and the shaft options."
   - "Note: bounce was not published in the source consulted and is omitted rather than estimated."
 related_models:
+  - slug: "titleist/710-cb-irons"
+    label: "Predecessor: Titleist 710 CB"
   - slug: "titleist/712-mb-irons"
     label: "Muscleback sibling: Titleist 712 MB"
   - slug: "titleist/714-cb-irons"

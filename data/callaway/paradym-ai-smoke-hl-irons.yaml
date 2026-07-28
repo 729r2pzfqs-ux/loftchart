@@ -93,6 +93,8 @@ sources:
 related_models:
   - slug: "callaway/paradym-ai-smoke-irons"
     label: "The standard head of the same family: Callaway Paradym Ai Smoke"
+  - slug: "callaway/paradym-ai-smoke-max-fast-irons"
+    label: "Lightweight sibling in the same family: Paradym Ai Smoke Max Fast"
   - slug: "callaway/elyte-irons"
     label: "Callaway's next game-improvement iron: Callaway Elyte"
 faq:

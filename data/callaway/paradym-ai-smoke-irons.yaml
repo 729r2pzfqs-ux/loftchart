@@ -97,6 +97,10 @@ related_models:
     label: "Successor: Callaway Elyte"
   - slug: "callaway/paradym-x-irons"
     label: "Earlier forgiving sibling: Callaway Paradym X"
+  - slug: "callaway/paradym-ai-smoke-hl-irons"
+    label: "High-launch sibling in the same family: Paradym Ai Smoke HL"
+  - slug: "callaway/paradym-ai-smoke-max-fast-irons"
+    label: "Lightweight sibling in the same family: Paradym Ai Smoke Max Fast"
 faq:
   - q: "What is the loft of a Callaway Paradym Ai Smoke 7-iron?"
     a: "The Callaway Paradym Ai Smoke 7-iron has a loft of 28 degrees, a lie of 62.25 degrees and a steel-shaft length of 37.25 inches."

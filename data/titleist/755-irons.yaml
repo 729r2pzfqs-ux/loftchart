@@ -95,8 +95,14 @@ sources:
   - "thesandtrap.com Titleist Forged 755 review (October 2006) — corroborates the multi-step forging, weight shelf, dual hosel lengths, Tri-Spec shaft character and the 5-10 handicap target. A retailer listing of a standard 6-iron corroborates the 37.5-inch length."
   - "Dates: year_discontinued is 2008, when Titleist announced the AP1/AP2 (January 2008) that replaced the 755 in the line."
 related_models:
+  - slug: "titleist/704-cb-irons"
+    label: "Predecessor: Titleist Forged 704.CB"
   - slug: "titleist/ap2-2008-irons"
     label: "Successor: Titleist AP2 (2008)"
+  - slug: "titleist/775-cb-irons"
+    label: "Oversize sibling in the 700 range: Titleist Forged 775.CB"
+  - slug: "titleist/735-cm-irons"
+    label: "Blended sibling in the 700 range: Titleist Forged 735.CM"
   - slug: "titleist/695-cb-irons"
     label: "Contemporary blade-style Titleist: 695.CB"
 faq:

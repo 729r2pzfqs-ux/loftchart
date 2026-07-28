@@ -88,10 +88,10 @@ specs:
     bounce: 7
     swing_weight: D2
 sources:
-  - "Titleist previous-models archived product page, titleist.com/golf-clubs/irons/2005-forged-680-irons, via the Internet Archive (full manufacturer table headed 'Irons': offset, bounce, loft, length, lie, swing weight, 2-iron through PW). Note the 35.50 inch pitching wedge - a quarter inch shorter than Titleist's later 35.75 inch standard."
-  - "Titleist archived page product copy - 'traditional, compact, reduced offset blade iron' with 'a slightly higher muscle back configuration than the 690.MB irons, which produces a slightly flatter ball flight'"
-  - "GolfWRX and Golfmagic coverage of the 2018 Forged 680 limited-edition reissue - originally released in 2003; forged 1025 mild carbon steel with nickel chrome plating; long-time gamer of Adam Scott (from 2003) and Webb Simpson"
-  - "year_discontinued 2006: the 680 last appears under the 2005 model year in Titleist's previous-models archive and left the line as the 2006 forged generation (660, 695.CB/MB) arrived"
+  - "Titleist product page, titleist.com/golfclubs/irons/680mb.asp, via the Internet Archive, November 2005 capture (full manufacturer table headed 'Forged 680 - Custom Order Only': offset, bounce, loft, length, lie, swingweight, 2-iron through P)"
+  - "Same archived page product copy - 'traditional, compact, reduced offset blade iron' with 'a slightly higher muscle back configuration than the 690.MB irons, which produces a slightly flatter ball flight'; 'Muscle back blade with a classic profile, thin topline and shallow heel', narrow sole with reduced bounce and moderate camber; forged mild carbon steel, chrome plated; available #2, 3-PW right hand only; shafts and grips custom only"
+  - "GolfWRX and MyGolfSpy coverage of the June 2025 Forged 680 limited-edition custom-order reissue - originally released in 2003; forged 1025 mild carbon steel with nickel chrome plating; long associated with Adam Scott (from 2003) and Webb Simpson"
+  - "year_discontinued 2006: the 680 was already flagged 'Custom Order Only' in the November 2005 capture, last appears under the 2005 model year in Titleist's previous-models archive, and left the line as the 2006 forged generation (660, 695.CB/MB) arrived, though its custom-order page stayed on titleist.com into 2009"
 related_models:
   - slug: "titleist/690-mb-irons"
     label: "The larger muscleback it ran alongside: Titleist 690.MB"
@@ -105,5 +105,5 @@ faq:
   - q: "What is the difference between the Titleist Forged 680 and the 690.MB?"
     a: "The 680 is more compact with reduced offset and a slightly higher muscle position, producing a flatter, more workable flight; the 690.MB is the slightly larger, more conventional muscleback of the same era. The 680 also runs one degree weaker through the mid irons, with a 36 degree 7-iron."
   - q: "Which tour players used the Titleist 680 irons?"
-    a: "Adam Scott put them in play when they debuted around 2003 and used them for well over a decade, and Webb Simpson carried 680 MB mid and short irons long after the model was discontinued. Titleist reissued the 680 as a limited edition in 2018."
+    a: "Adam Scott put them in play when they debuted around 2003 and used them for well over a decade, and Webb Simpson carried 680 MB mid and short irons long after the model was discontinued. Titleist reissued the 680 as a limited-edition custom order in June 2025."
 confidence: high

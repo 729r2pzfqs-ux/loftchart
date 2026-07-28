@@ -94,6 +94,8 @@ sources:
 related_models:
   - slug: "callaway/elyte-irons"
     label: "Standard model in the same line: Callaway Elyte"
+  - slug: "callaway/elyte-max-fast-irons"
+    label: "Lightweight sibling in the same line: Callaway Elyte Max Fast"
   - slug: "callaway/paradym-ai-smoke-irons"
     label: "Previous Callaway game-improvement family: Paradym Ai Smoke"
 faq:

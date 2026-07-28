@@ -3,7 +3,7 @@ brand_slug: callaway
 model: Edge (Costco)
 slug: edge-irons
 club_type: irons
-year_introduced: 2019
+year_introduced: 2018
 year_discontinued: null
 category: game-improvement
 construction: investment cast
@@ -13,7 +13,8 @@ predecessor: null
 description: >
   The Edge is a Costco-exclusive Callaway line sold only inside a boxed 10-piece set —
   driver, 3-wood, 5-hybrid, 6-iron through pitching wedge, sand wedge and an Odyssey
-  putter — that went viral after appearing in warehouses in late 2019 at $499.99. The
+  putter — on sale by early 2018 at $499.99 and famous for repeatedly selling out
+  once coverage of it went viral through 2019. The
   irons are large cavity backs with a stabilizing arch and perimeter weighting, on
   uniflex steel shafts, and their loft ladder mirrors the Steelhead XR generation
   exactly, from a 26 degree 6-iron and 30 degree 7-iron to a 44 degree pitching wedge and
@@ -52,6 +53,7 @@ sources:
   - "Costco's official Callaway Edge Golf Set spec chart (mobilecontent.costco.com static PDF, Costco item 1219450) — loft, lie, length and head weight for every club in the 10-piece set, including the 6-iron through sand wedge"
   - "GolferLogic Callaway Edge review (2020) — corroborates the 10-piece composition, uniflex steel iron shafts and the set selling at Costco for $499.99, with the author confirming in December 2020 that the specs were unchanged since launch"
   - "Costco.com product listings for the Callaway Edge 10-piece set — set composition of driver, 3-wood, 5-hybrid, 6-9 irons, PW, SW and putter, and the cavity-back stabilizing arch design"
+  - "Archived Costco.com listing for the Callaway Edge 10-piece set (product 100399160), 3 April 2018 capture via archive.org — the set already on sale online at $499.99 with the same composition, which sets year_introduced to 2018; the set's viral fame and most press coverage date from 2019"
   - "Note: the spec chart is Costco's Canadian sheet for the original uniflex build; later refreshes of the set (graphite-shaft and 12-piece versions with a different iron ladder) are not covered by this entry. Offset, bounce and swing weight were not published and are omitted rather than estimated. Confidence is medium because the numbers rest on the retailer's chart rather than a Callaway spec sheet."
 related_models:
   - slug: "callaway/steelhead-xr-irons"
@@ -64,5 +66,5 @@ faq:
   - q: "Are the Costco Callaway Edge irons the same as a regular Callaway model?"
     a: "They are a Costco-exclusive design, but the original set's iron lofts, lies and loft ladder match Callaway's 2016 Steelhead XR generation exactly, in a simpler cavity-back head."
   - q: "When did the Callaway Edge set come out at Costco?"
-    a: "It appeared in Costco warehouses in late 2019 at $499.99 for the 10-piece set and became a recurring, frequently sold-out item; the set has since been refreshed with new configurations."
+    a: "Costco's online listing is archived from April 2018 at $499.99 for the 10-piece set, and it became a recurring, frequently sold-out item as coverage spread through 2019; the set has since been refreshed with new configurations."
 confidence: medium

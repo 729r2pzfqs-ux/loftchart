@@ -98,6 +98,8 @@ sources:
 related_models:
   - slug: "titleist/695-cb-irons"
     label: "Successor: Titleist 695.CB"
+  - slug: "titleist/704-cb-irons"
+    label: "Contemporary mid-size forged cavity back: Titleist Forged 704.CB"
 faq:
   - q: "What is the loft of a Titleist 690.CB 7-iron?"
     a: "The Titleist 690.CB 7-iron is 35 degrees, with a 61.5 degree lie and a 36.75 inch standard steel length."

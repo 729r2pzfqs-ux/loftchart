@@ -90,6 +90,8 @@ sources:
 related_models:
   - slug: "titleist/690-cb-irons"
     label: "Cavity-back sibling: Titleist 690.CB"
+  - slug: "titleist/680-irons"
+    label: "More compact contemporary blade: Titleist Forged 680"
 faq:
   - q: "What is the loft of a Titleist 690.MB 7-iron?"
     a: "The Titleist 690.MB 7-iron is 36 degrees, with a 61.5 degree lie and a 36.75 inch standard steel length."

@@ -80,6 +80,8 @@ sources:
   - "Offset was not published for this model in any Callaway source located, so the column is omitted rather than estimated"
   - "Swing weight is published only as four unlabelled shaft sub-columns, so a steel-specific value could not be isolated and the column is omitted"
 related_models:
+  - slug: "callaway/big-bertha-2014-irons"
+    label: "Name revived 20 years later: Callaway Big Bertha (2014)"
   - slug: "callaway/big-bertha-b21-irons"
     label: "Namesake revival, 26 years later: Callaway Big Bertha B21"
 faq:

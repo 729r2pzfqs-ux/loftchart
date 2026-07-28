@@ -93,6 +93,10 @@ related_models:
     label: "Successor: Titleist 710 AP2"
   - slug: "titleist/755-irons"
     label: "Predecessor: Titleist Forged 755"
+  - slug: "titleist/ap1-2008-irons"
+    label: "Game-improvement sibling from the same launch: Titleist AP1 (2008)"
+  - slug: "titleist/zb-irons"
+    label: "Forged blend from the same launch: Titleist ZB"
 faq:
   - q: "What is the loft of a Titleist AP2 (2008) 7-iron?"
     a: "The 2008 Titleist AP2 7-iron is 35 degrees, with a 63 degree lie and a 37 inch standard steel length."

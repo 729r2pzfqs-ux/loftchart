@@ -9,17 +9,17 @@ category: blade
 construction: forged muscleback
 material: forged 1025 carbon steel with satin chrome plating
 successor: Titleist 712 MB
-predecessor: Titleist 695.MB
+predecessor: Titleist ZM
 description: >
   The 710 MB is the forged muscleback Titleist introduced in the autumn of
   2009 for the 2010 season, alongside the 710 CB, AP1 and AP2. It is forged
   from 1025 carbon steel with a uniform muscle behind the face, constant blade
   length, a thin topline and minimal progressive offset running from .125
-  inches at the 3-iron to .075 inches at the pitching wedge. Against the
-  695.MB it replaced, the loft ladder moved one degree stronger from the
-  6-iron down: the 7-iron is 35 degrees against 36, and the pitching wedge is
-  47 degrees against 48. The stock set was a 3-iron through pitching wedge with
-  no gap wedge.
+  inches at the 3-iron to .075 inches at the pitching wedge. Its chart
+  carries over unchanged from the ZM Forged it replaced; against the older
+  695.MB the loft ladder is one degree stronger from the 6-iron down, with a
+  35 degree 7-iron against 36 and a 47 degree pitching wedge against 48. The
+  stock set was a 3-iron through pitching wedge with no gap wedge.
 specs:
   - club: "3"
     loft: 21
@@ -84,8 +84,12 @@ sources:
   - "Titleist previous-models archived product page, titleist.com/golf-clubs/irons/mb-710, via the Internet Archive (full manufacturer table headed 'MB': offset, bounce, loft, length, lie, swingweight)"
   - "Titleist 710 MB product copy via titleist.com and the 2009 Titleist MB/CB press release as carried by TheGolfWire and AmateurGolf.com - forged 1025 carbon steel, satin chrome plating, constant blade length, minimal progressive offset, Dynamic Gold stock shaft"
 related_models:
+  - slug: "titleist/zm-irons"
+    label: "Predecessor: Titleist ZM"
+  - slug: "titleist/710-cb-irons"
+    label: "Cavity-back sibling: Titleist 710 CB"
   - slug: "titleist/695-mb-irons"
-    label: "Predecessor: Titleist 695.MB"
+    label: "Earlier muscleback: Titleist 695.MB"
   - slug: "titleist/710-ap2-irons"
     label: "Same-generation players iron: Titleist 710 AP2"
 faq:

@@ -8,7 +8,7 @@ year_discontinued: 2008
 category: blade
 construction: forged muscleback
 material: forged carbon steel
-successor: Titleist 710 MB
+successor: Titleist ZM
 predecessor: Titleist 690.MB
 description: >
   The 695.MB is the 2006 forged muscleback that replaced the 690.MB and shares
@@ -90,6 +90,10 @@ sources:
 related_models:
   - slug: "titleist/695-cb-irons"
     label: "Cavity-back sibling: Titleist 695.CB"
+  - slug: "titleist/zm-irons"
+    label: "Successor: Titleist ZM"
+  - slug: "titleist/680-irons"
+    label: "More compact contemporary blade: Titleist Forged 680"
 faq:
   - q: "What is the loft of a Titleist 695.MB 7-iron?"
     a: "The Titleist 695.MB 7-iron is 36 degrees, with a 63 degree lie and a 37 inch standard steel length."

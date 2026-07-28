@@ -9,7 +9,7 @@ category: game-improvement
 construction: cast dual cavity with tungsten sole weighting
 material: 17-4 stainless steel with a tungsten sole insert
 successor: Titleist 712 AP1
-predecessor: null
+predecessor: Titleist AP1 (2008)
 description: >
   The 710 AP1 is Titleist's dual-cavity game-improvement iron, with a tungsten weight
   low in the sole and the largest offset in the 710 range — 0.245 inches at the
@@ -83,6 +83,8 @@ sources:
   - "Note: bounce is omitted — the source table did not carry a bounce column. Confidence is medium because the numbers come from a retailer spec table rather than a Titleist catalogue."
   - "Note on year_discontinued: the 712 AP1 was announced in 2011 and replaced this model."
 related_models:
+  - slug: "titleist/ap1-2008-irons"
+    label: "Predecessor: Titleist AP1 (2008)"
   - slug: "titleist/712-ap1-irons"
     label: "Successor: Titleist 712 AP1"
   - slug: "titleist/714-ap1-irons"

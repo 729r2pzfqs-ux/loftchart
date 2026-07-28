@@ -89,6 +89,8 @@ sources:
 related_models:
   - slug: "callaway/elyte-x-irons"
     label: "More forgiving sibling in the same line: Callaway Elyte X"
+  - slug: "callaway/elyte-max-fast-irons"
+    label: "Lightweight sibling in the same line: Callaway Elyte Max Fast"
   - slug: "callaway/quantum-max-irons"
     label: "Successor: Callaway Quantum Max"
   - slug: "callaway/paradym-ai-smoke-irons"

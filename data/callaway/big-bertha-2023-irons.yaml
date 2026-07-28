@@ -12,11 +12,13 @@ successor: null
 predecessor: Callaway Big Bertha B21
 description: >
   The 2023 Big Bertha irons continue Callaway's premium game-improvement line above
-  the core Paradym family, replacing the Big Bertha B21 with retail from July 2023.
-  Compared with the B21, the obvious offset was reduced and the package refined, while
-  keeping an A.I.-designed Flash Face Cup, tungsten weighting and urethane
-  microspheres in a wide-sole, easy-launch head aimed at golfers who want distance
-  without effort. Lofts are strong for the category — a 27 degree 7-iron and a 42
+  the core Paradym family, replacing the Big Bertha B21. Callaway announced them with
+  the women's Big Bertha REVA on 18 April 2023, with retail from 26 May 2023 at
+  999.99 dollars for a six-piece steel set. The package was refined over the B21 —
+  lofts a degree stronger through most of the set, a gap wedge added to the chart and
+  the lob wedge dropped — while keeping an A.I.-designed Flash Face Cup, tungsten
+  weighting, urethane microspheres and the B21's generous offset, still around 8 mm
+  at the 4-iron. Lofts are strong for the category — a 27 degree 7-iron and a 42
   degree pitching wedge — and the chart runs from an 18 degree 4-iron to a 56 degree
   sand wedge. Specs below are the standard men's numbers.
 specs:
@@ -89,7 +91,7 @@ sources:
   - "Callaway Golf Pre-Owned Big Bertha (2023) product specs (callawaygolfpreowned.com/iron-sets/irons-2023-big-bertha.html) — loft, lie, length and offset (in millimetres) for the 4-iron through sand wedge, with swingweight shown as D0/D1"
   - "2nd Swing Golf Callaway Big Bertha 23 iron set spec table (2ndswing.com/golf-clubs/iron-sets/callaway-big-bertha-23-iron-set) — independently matches on every loft, lie, length and offset, lists the Callaway RCH 65i graphite and True Temper Elevate steel stock shafts, and records D1 as the swingweight, which is used here; the Pre-Owned D0/D1 pairing is read as the graphite/steel split following the convention of the companion B21 entry"
   - "Note on offset: the sources publish offset in millimetres (8.1 mm at the 4-iron down to 2.5 mm at the sand wedge), converted to inches here. Bounce was not published and is omitted rather than estimated."
-  - "Note on years: the Big Bertha B21 entry records its end as 2023 with retail of this model from July 2023, which is the introduction year used here. year_discontinued and successor are null — no replacement Big Bertha iron had been announced in the sources consulted."
+  - "Callaway Golf press release, 18 April 2023, 'Callaway Golf Announces New Big Bertha and Big Bertha REVA' — the announcement date used for year_introduced, the 26 May 2023 Big Bertha retail date, and the 999.99-dollar steel / 1,099.99-dollar graphite six-piece set pricing. year_discontinued and successor are null — no replacement Big Bertha iron had been announced in the sources consulted."
 related_models:
   - slug: "callaway/big-bertha-b21-irons"
     label: "Predecessor: Callaway Big Bertha B21"
@@ -103,5 +105,5 @@ faq:
   - q: "What is the loft of the 2023 Big Bertha pitching wedge?"
     a: "The pitching wedge is 42 degrees, followed by a 47 degree A-wedge, a 52 degree gap wedge and a 56 degree sand wedge."
   - q: "What changed from the Big Bertha B21 to the 2023 Big Bertha?"
-    a: "The 2023 model kept the A.I.-designed Flash Face Cup and tungsten weighting but notably reduced the B21's heavy offset, while remaining a wide-sole, easy-launch game-improvement iron with strong lofts."
+    a: "The 2023 model kept the A.I.-designed Flash Face Cup, the tungsten weighting and essentially the B21's offset ladder — both run about 8 mm at the 4-iron — but strengthened the lofts by roughly a degree per club, added a 52 degree gap wedge to the chart and dropped the B21's lob wedge."
 confidence: high
