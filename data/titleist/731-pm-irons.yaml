@@ -1,0 +1,107 @@
+brand: Titleist
+brand_slug: titleist
+model: 731.PM
+slug: 731-pm-irons
+club_type: irons
+year_introduced: 2002
+year_discontinued: 2003
+category: blade
+construction: investment cast blended set - cavity back long irons, muscle cavity mid irons, muscleback short irons
+material: 431 stainless steel
+successor: null
+predecessor: null
+description: >
+  The 731.PM is a 2002 limited-edition set designed around Phil Mickelson's
+  personal iron specifications, and it remains the only cast muscleback set
+  Titleist has produced. The run is a blended progression - shallow cavity
+  back long irons flowing into muscle cavity mid irons and true muscleback
+  short irons - cast in 431 stainless steel with a rounded toe, traditional
+  V grooves and generous bounce to suit Mickelson's steep, aggressive
+  delivery. Lofts are traditional with a 33 degree 7-iron and 45 degree
+  pitching wedge, and the lies run notably upright, 61 degrees at the 2-iron
+  through 64.5 at the wedge. Mickelson played the set into the 2004 Masters,
+  giving the combo-set idea an early major win.
+specs:
+  - club: "2"
+    loft: 18
+    lie: 61
+    length: 39.5
+    offset: 0.220
+    bounce: 1
+    swing_weight: D2
+  - club: "3"
+    loft: 20
+    lie: 61
+    length: 39
+    offset: 0.205
+    bounce: 1
+    swing_weight: D2
+  - club: "4"
+    loft: 23
+    lie: 62
+    length: 38.5
+    offset: 0.200
+    bounce: 2
+    swing_weight: D2
+  - club: "5"
+    loft: 26
+    lie: 62.5
+    length: 38
+    offset: 0.180
+    bounce: 4
+    swing_weight: D2
+  - club: "6"
+    loft: 29
+    lie: 63
+    length: 37.5
+    offset: 0.160
+    bounce: 5
+    swing_weight: D2
+  - club: "7"
+    loft: 33
+    lie: 63
+    length: 37
+    offset: 0.140
+    bounce: 6
+    swing_weight: D2
+  - club: "8"
+    loft: 37
+    lie: 63.5
+    length: 36.5
+    offset: 0.120
+    bounce: 7
+    swing_weight: D2
+  - club: "9"
+    loft: 41
+    lie: 64.5
+    length: 36
+    offset: 0.100
+    bounce: 8
+    swing_weight: D2
+  - club: "PW"
+    loft: 45
+    lie: 64.5
+    length: 35.75
+    offset: 0.090
+    bounce: 8.5
+    swing_weight: D2
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+sources:
+  - "Titleist previous-models archived product page, titleist.com/golf-clubs/irons/731pm-limited-edition ('731PM Limited Edition Irons'), via the Internet Archive (full manufacturer table: length, loft, lie, offset, swing weight, bounce, 2-iron through PW)"
+  - "golf.com 'Titleist 731PM irons, trendsetting Tiger and gear rabbit holes' - cast 431 stainless steel, the only cast muscleback set Titleist has made, the blended cavity/muscle-cavity/muscleback progression, the Mickelson-spec rounded toe and strong bounce, and the 2004 Masters win with the set in the bag"
+  - "2ndswing.com Titleist 731PM iron set listing and pitchmarks.com Titleist irons-by-year timeline - both date the limited-edition release to 2002"
+related_models:
+  - slug: "titleist/690-mb-irons"
+    label: "Contemporary forged muscleback: Titleist 690.MB"
+  - slug: "titleist/690-cb-irons"
+    label: "Contemporary forged cavity back: Titleist 690.CB"
+faq:
+  - q: "What is the loft of a Titleist 731.PM 7-iron?"
+    a: "The Titleist 731.PM 7-iron is 33 degrees, with a 63 degree lie and a 37 inch standard steel length."
+  - q: "What is special about the Titleist 731.PM irons?"
+    a: "They were a 2002 limited edition built to Phil Mickelson's specifications, and they are the only cast muscleback set Titleist has ever produced - a blended run of cavity back long irons, muscle cavity mid irons and muscleback short irons in 431 stainless."
+  - q: "Did Phil Mickelson win with the 731.PM irons?"
+    a: "Yes. Mickelson had the 731.PM set in the bag when he won the 2004 Masters, his first major championship."
+confidence: high

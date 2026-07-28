@@ -1,0 +1,121 @@
+brand: Callaway
+brand_slug: callaway
+model: Big Bertha (2004)
+slug: big-bertha-2004-irons
+club_type: irons
+year_introduced: 2004
+year_discontinued: 2006
+category: game-improvement
+construction: investment cast
+material: stainless steel
+successor: Callaway Big Bertha (2006)
+predecessor: Callaway Big Bertha (2002)
+description: >
+  The 2004 Big Bertha irons replaced the 2002 set and softened the ladder by
+  a degree at every club — a 33 degree 7-iron against 34 and a 45 degree
+  pitching wedge against 46 — while keeping the upright 65 degree wedge lies
+  and the 35.75 inch pitching wedge of the 2002 model. Every iron head has
+  the same wide sole width to keep the centre of gravity low and deep across
+  the set. The catalogued range ran 2-iron to lob wedge including a 50 degree
+  W wedge, recorded here as AW, and the recorded swing weights are the steel
+  build with graphite two to three points lighter.
+specs:
+  - club: "2"
+    loft: 17.0
+    lie: 59.2
+    length: 39.5
+    bounce: 0.0
+    swing_weight: D2
+  - club: "3"
+    loft: 20.0
+    lie: 59.9
+    length: 39.0
+    bounce: 0.5
+    swing_weight: D2
+  - club: "4"
+    loft: 23.0
+    lie: 60.6
+    length: 38.5
+    bounce: 0.5
+    swing_weight: D2
+  - club: "5"
+    loft: 26.0
+    lie: 61.3
+    length: 38.0
+    bounce: 1.0
+    swing_weight: D2
+  - club: "6"
+    loft: 29.0
+    lie: 62.0
+    length: 37.5
+    bounce: 1.0
+    swing_weight: D2
+  - club: "7"
+    loft: 33.0
+    lie: 62.5
+    length: 37.0
+    bounce: 2.0
+    swing_weight: D2
+  - club: "8"
+    loft: 37.0
+    lie: 63.5
+    length: 36.5
+    bounce: 3.0
+    swing_weight: D2
+  - club: "9"
+    loft: 41.0
+    lie: 64.5
+    length: 36.0
+    bounce: 5.0
+    swing_weight: D2
+  - club: "PW"
+    loft: 45.0
+    lie: 65.0
+    length: 35.75
+    bounce: 7.0
+    swing_weight: D3
+  - club: "AW"
+    loft: 50.0
+    lie: 65.0
+    length: 35.5
+    bounce: 7.0
+    swing_weight: D4
+  - club: "SW"
+    loft: 55.0
+    lie: 65.0
+    length: 35.25
+    bounce: 12.0
+    swing_weight: D5
+  - club: "LW"
+    loft: 60.0
+    lie: 65.0
+    length: 35.0
+    bounce: 9.0
+    swing_weight: D5
+stock_shafts:
+  - name: "Callaway Big Bertha steel"
+    material: steel
+  - name: "Callaway RCH 75i"
+    material: graphite
+sources:
+  - "2ndswing.com Callaway 2004 Big Bertha Iron Set specification table — loft, lie, length, bounce and steel/graphite swing weight columns for the 2-iron through lob wedge, plus the stock shaft options. The steel figures are the ones recorded here"
+  - "qsponge.com specification table for the Callaway 2004 Big Bertha irons — agrees cell for cell on loft, lie, length, bounce and both swing weight columns"
+  - "The Callaway Demandware ProductSpecs feed for product code irons-bb-2004 carries only the women's table for this model, so the men's numbers rest on the two agreeing secondary sources above and confidence is held at medium"
+  - "Offset was not published for this model in the sources located, so the column is omitted rather than estimated"
+related_models:
+  - slug: "callaway/big-bertha-2002-irons"
+    label: "Predecessor: Callaway Big Bertha (2002)"
+  - slug: "callaway/big-bertha-irons"
+    label: "The original 1994 set: Callaway Big Bertha"
+  - slug: "callaway/big-bertha-2008-irons"
+    label: "Later generation: Callaway Big Bertha (2008)"
+  - slug: "callaway/x-18-irons"
+    label: "Callaway's other game-improvement iron of 2004: Callaway X-18"
+faq:
+  - q: "What is the loft of a 2004 Callaway Big Bertha 7-iron?"
+    a: "The 2004 Callaway Big Bertha 7-iron is 33 degrees, with a 62.5 degree lie and a 37 inch standard steel length."
+  - q: "What changed between the 2002 and 2004 Big Bertha irons?"
+    a: "The 2004 set is a degree weaker at every club — a 33 degree 7-iron against 34 and a 17 degree 2-iron against 18 — and Callaway published a bounce ladder for it, running from 0 degrees at the 2-iron to 12 at the sand wedge."
+  - q: "What wedges came with the 2004 Callaway Big Bertha irons?"
+    a: "A 45 degree pitching wedge, a 50 degree W wedge (an approach wedge), a 55 degree sand wedge and a 60 degree lob wedge."
+confidence: medium

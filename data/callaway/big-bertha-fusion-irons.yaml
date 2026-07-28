@@ -1,0 +1,102 @@
+brand: Callaway
+brand_slug: callaway
+model: Big Bertha Fusion
+slug: big-bertha-fusion-irons
+club_type: irons
+year_introduced: 2004
+year_discontinued: 2006
+category: game-improvement
+construction: multi-material (titanium face cup, tungsten-loaded polymer core)
+material: titanium / tungsten / polymer
+successor: Callaway Fusion Wide Sole
+predecessor: Callaway Hawk Eye VFT
+description: >
+  The Big Bertha Fusion irons of 2004 brought the multi-material Fusion
+  Technology of Callaway's FT drivers into an iron, bonding a thin titanium
+  face cup to a body with tungsten weighting and a polymer core to push
+  weight to the extreme perimeter. They were marketed as some of the most
+  forgiving irons Callaway had built and sat above the steel Big Bertha
+  line in the range. Lofts are traditional with a 33 degree 7-iron and a
+  46 degree pitching wedge; the sources publish a single standard length
+  ladder without labelling the shaft material.
+specs:
+  - club: "2"
+    loft: 18
+    lie: 59.2
+    length: 39.5
+    swing_weight: D2
+  - club: "3"
+    loft: 21
+    lie: 59.9
+    length: 39
+    swing_weight: D2
+  - club: "4"
+    loft: 23.5
+    lie: 60.6
+    length: 38.5
+    swing_weight: D2
+  - club: "5"
+    loft: 26
+    lie: 61.3
+    length: 38
+    swing_weight: D2
+  - club: "6"
+    loft: 29
+    lie: 62
+    length: 37.5
+    swing_weight: D2
+  - club: "7"
+    loft: 33
+    lie: 62.5
+    length: 37
+    swing_weight: D2
+  - club: "8"
+    loft: 37
+    lie: 63.5
+    length: 36.5
+    swing_weight: D2
+  - club: "9"
+    loft: 41
+    lie: 64.5
+    length: 36
+    swing_weight: D2
+  - club: "PW"
+    loft: 46
+    lie: 65
+    length: 35.75
+    swing_weight: D3
+  - club: "AW"
+    loft: 51
+    lie: 65
+    length: 35.5
+    swing_weight: D4
+  - club: "SW"
+    loft: 56
+    lie: 65
+    length: 35.25
+    swing_weight: D4
+  - club: "LW"
+    loft: 60
+    lie: 65
+    length: 35
+    swing_weight: D4
+sources:
+  - "2nd Swing Golf specification table for the Callaway Fusion iron set (2ndswing.com/golf-clubs/iron-sets/callaway-fusion-iron-set) — loft, lie, length and swing weight for the full 2-LW range"
+  - "qsponge.com / golfclubspec.com Callaway Fusion iron spec table — corroborates every loft, lie, length and swing weight figure"
+  - "LiveAbout, 'Looking Back at Callaway Golf's Original Big Bertha Fusion Irons' — confirms the late-2004 retail introduction and the multi-material Fusion construction"
+  - "Neither spec source labels the length ladder steel or graphite, and offset was not published, so confidence is held at medium and the offset column is omitted"
+related_models:
+  - slug: "callaway/fusion-wide-sole-irons"
+    label: "Successor: Callaway Fusion Wide Sole"
+  - slug: "callaway/hawk-eye-vft-irons"
+    label: "Predecessor in the premium multi-material line: Callaway Hawk Eye VFT"
+  - slug: "callaway/big-bertha-2006-irons"
+    label: "Contemporary steel Big Bertha: Callaway Big Bertha (2006)"
+faq:
+  - q: "What is the loft of a Callaway Big Bertha Fusion 7-iron?"
+    a: "The Big Bertha Fusion 7-iron has a loft of 33 degrees, with a 62.5 degree lie and a 37 inch standard length."
+  - q: "What made the Big Bertha Fusion irons different from other Callaway irons?"
+    a: "They used Fusion multi-material construction — a titanium face cup bonded to a body with tungsten weighting and a polymer core — instead of a one-piece cast stainless head, pushing far more weight to the perimeter."
+  - q: "What is the pitching wedge loft on the Big Bertha Fusion irons?"
+    a: "The Fusion pitching wedge is 46 degrees, followed by a 51 degree approach wedge, 56 degree sand wedge and 60 degree lob wedge."
+confidence: medium

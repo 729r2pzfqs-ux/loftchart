@@ -1,0 +1,100 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: rac TP MB
+slug: rac-tp-mb-irons
+club_type: irons
+year_introduced: 2006
+year_discontinued: 2008
+category: blade
+construction: forged
+material: carbon steel, Tour Satin finish
+successor: TP MB Smoke
+predecessor: rac MB
+description: >
+  The rac TP MB replaced the rac MB as TaylorMade's muscleback blade, developed with
+  tour-player input and shipping from April 2006 in right-hand men's form only. It keeps
+  the rac Feel Pockets - enlarged in this generation - adds a CNC-milled face and
+  grooves, and pairs minimal offset with a high centre of gravity and a tour-configured
+  sole for workability. Lofts are traditional, with a 36-degree 7-iron and 48-degree
+  pitching wedge across the 2-PW range. The sell sheet is titled for 2006 and TaylorMade's
+  own Irons Legacy timeline files the model under that year, so the 2005 date sometimes
+  seen in listings refers to the wider rac TP family launch rather than this blade.
+specs:
+  - club: "2"
+    loft: 19.0
+    lie: 58.0
+    length: 38.75
+    offset: 0.083
+    swing_weight: D3
+  - club: "3"
+    loft: 21.0
+    lie: 59.0
+    length: 38.75
+    offset: 0.075
+    swing_weight: D3
+  - club: "4"
+    loft: 24.0
+    lie: 60.0
+    length: 38.25
+    offset: 0.067
+    swing_weight: D3
+  - club: "5"
+    loft: 28.0
+    lie: 60.5
+    length: 37.75
+    offset: 0.059
+    swing_weight: D3
+  - club: "6"
+    loft: 32.0
+    lie: 61.0
+    length: 37.25
+    offset: 0.051
+    swing_weight: D3
+  - club: "7"
+    loft: 36.0
+    lie: 61.5
+    length: 36.75
+    offset: 0.043
+    swing_weight: D3
+  - club: "8"
+    loft: 40.0
+    lie: 62.0
+    length: 36.25
+    offset: 0.035
+    swing_weight: D3
+  - club: "9"
+    loft: 44.0
+    lie: 62.5
+    length: 35.75
+    offset: 0.028
+    swing_weight: D3
+  - club: "PW"
+    loft: 48.0
+    lie: 63.0
+    length: 35.5
+    offset: 0.020
+    swing_weight: D4
+stock_shafts:
+  - name: "Precision Rifle Tour Flighted"
+    material: steel
+    flex: ["5.0", "6.0", "6.5"]
+sources:
+  - "TaylorMade official rac TP MB Irons sell sheet (06_rac_TP_MB_SS.PDF, taylormadegolf.com productspecs library): full 2-PW loft/lie/offset-in-mm/steel-length/swingweight table, Rifle Tour Flighted 5.0/6.0/6.5 stock shafts at 112-120 g, TM Tour Velvet grip, right-hand men's only, available April 2006"
+  - "Length note: the sell sheet prints 38.75 inches for both the 2- and 3-iron; the 2-iron figure is reproduced as printed and is likely a misprint for 39.25"
+  - "Offsets converted from the sheet's millimetre values (2.1 mm 2-iron to 0.5 mm PW)"
+  - "TaylorMade Irons Legacy timeline lists 'RAC TP MB FORGED' under 2006; The Sand Trap's rac MB TP review corroborates the CNC-milled face and Rifle 6.0 stock shaft"
+related_models:
+  - slug: "taylormade/rac-mb-irons"
+    label: "Predecessor muscleback: TaylorMade rac MB"
+  - slug: "taylormade/rac-cb-tp-irons"
+    label: "Muscle-cavity sibling in the rac TP family: TaylorMade rac CB TP"
+  - slug: "taylormade/r7-tp-irons"
+    label: "Players cavityback sold alongside it: TaylorMade r7 TP"
+faq:
+  - q: "What is the loft of a TaylorMade rac TP MB 7-iron?"
+    a: "The rac TP MB 7-iron has a loft of 36 degrees, with a 61.5-degree lie and a 36.75-inch steel-shaft length."
+  - q: "What is the difference between the rac MB and the rac TP MB?"
+    a: "The rac TP MB is the 2006 follow-up to the 2003 rac MB. It enlarges the rac Feel Pockets, adds a CNC-milled face and grooves and a Tour Satin finish, and drops the 1-iron, running 2-iron through pitching wedge in right-hand only."
+  - q: "What shafts did the rac TP MB come with?"
+    a: "The stock shaft was the Precision Rifle Tour Flighted in 5.0, 6.0 and 6.5 flexes, building to a D3 swingweight (D4 in the pitching wedge)."
+confidence: high

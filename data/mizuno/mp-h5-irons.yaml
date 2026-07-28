@@ -1,0 +1,103 @@
+brand: Mizuno
+brand_slug: mizuno
+model: MP-H5
+slug: mp-h5-irons
+club_type: irons
+year_introduced: 2014
+year_discontinued: 2017
+category: players-distance
+construction: cast/forged hybrid
+material: Grain Flow Forged 1025E face and neck with hollow steel body
+successor: null
+predecessor: Mizuno MP-H4
+description: >
+  The MP-H5 refined Mizuno's hollow-body MP iron for the 2015 line, launched in autumn
+  2014 alongside the MP-15. The hollow construction runs through the whole 1-PW range
+  with a progressively thinner profile toward the short irons, keeping the high-launch
+  long irons while sharpening the look and turf feel of the scoring clubs. Lofts stay
+  traditional, with a 34-degree 7-iron and 46-degree pitching wedge, and offset is
+  modest throughout. No direct MP-H successor followed; the hollow role passed to the
+  MP-18 family's MMC Fli-Hi in 2017. Specs below are the standard steel build.
+specs:
+  - club: "1"
+    loft: 16.0
+    lie: 58.5
+    length: 39.75
+    offset: 0.154
+    bounce: 0.0
+  - club: "2"
+    loft: 18.0
+    lie: 59.0
+    length: 39.25
+    offset: 0.150
+    bounce: 0.0
+  - club: "3"
+    loft: 21.0
+    lie: 59.5
+    length: 38.75
+    offset: 0.146
+    bounce: 0.0
+  - club: "4"
+    loft: 24.0
+    lie: 60.0
+    length: 38.25
+    offset: 0.142
+    bounce: 0.5
+  - club: "5"
+    loft: 27.0
+    lie: 60.5
+    length: 37.75
+    offset: 0.134
+    bounce: 1.0
+  - club: "6"
+    loft: 30.0
+    lie: 61.0
+    length: 37.25
+    offset: 0.126
+    bounce: 2.0
+  - club: "7"
+    loft: 34.0
+    lie: 61.5
+    length: 36.75
+    offset: 0.122
+    bounce: 3.0
+  - club: "8"
+    loft: 38.0
+    lie: 62.0
+    length: 36.25
+    offset: 0.118
+    bounce: 3.0
+  - club: "9"
+    loft: 42.0
+    lie: 62.5
+    length: 35.75
+    offset: 0.110
+    bounce: 4.0
+  - club: "PW"
+    loft: 46.0
+    lie: 63.0
+    length: 35.5
+    offset: 0.102
+    bounce: 5.0
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+sources:
+  - "GolfWRX Club Techs thread 'Mizuno MP-H5 specs and tolerances' quoting Mizuno's published 1-PW loft/lie/length/offset table; intheholegolf.com's MP-H5 iron set listing reproduces the same table (its 2-iron loft is misprinted 12, clearly 18) with Dynamic Gold as the standard shaft"
+  - "Launch timing: Golfalot's Mizuno MP-H5 review is dated 16 September 2014, alongside the MP-15's autumn 2014 launch; year_introduced 2014 follows the announcement-year convention used for the repo's MP-15 file"
+  - "year_discontinued 2017 reflects the MP-18 family announcement (including the hollow MMC Fli-Hi) replacing the MP range; no MP-H6 was ever released"
+related_models:
+  - slug: "mizuno/mp-h4-irons"
+    label: "Predecessor hollow iron: Mizuno MP-H4"
+  - slug: "mizuno/mp-15-irons"
+    label: "Multi-material iron launched alongside it: Mizuno MP-15"
+  - slug: "mizuno/mp-18-mmc-irons"
+    label: "The MP-18 family that took over the range: Mizuno MP-18 MMC"
+faq:
+  - q: "What is the loft of a Mizuno MP-H5 7-iron?"
+    a: "The Mizuno MP-H5 7-iron has a loft of 34 degrees, with a 61.5-degree lie and a 36.75-inch steel-shaft length."
+  - q: "What is the difference between the MP-H4 and MP-H5?"
+    a: "Both are hollow-bodied with Grain Flow Forged faces. The MP-H5 extends the range to a 16-degree 1-iron, thins the profile progressively toward the short irons for a cleaner look and better turf interaction, and trims offset slightly in the scoring clubs."
+  - q: "Did Mizuno make an MP-H6?"
+    a: "No. The MP-H5 was the last MP-H model; when the MP-18 family arrived in 2017, the hollow long-iron role passed to the MP-18 MMC Fli-Hi."
+confidence: medium

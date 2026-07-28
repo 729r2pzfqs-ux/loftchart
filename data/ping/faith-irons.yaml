@@ -1,0 +1,68 @@
+brand: Ping
+brand_slug: ping
+model: Faith
+slug: faith-irons
+club_type: irons
+year_introduced: 2011
+year_discontinued: 2013
+category: super-game-improvement
+construction: investment cast, perimeter weighted with toe weighting and Custom Tuning Port
+material: 17-4 stainless steel
+successor: Ping Serene
+predecessor: Ping Rhapsody
+description: >
+  The Faith was Ping's women's line of the early 2010s, replacing the 2007
+  Rhapsody. The irons carry extra toe weighting and a Custom Tuning Port to
+  drive the centre of gravity low for a high launch at slower swing speeds,
+  and the stock set replaces the long and mid irons entirely: Faith hybrids
+  at 26 and 30 degrees cover the 5H and 6H slots, and the irons run only
+  from the 32 degree 7-iron to a 54 degree sand wedge. Lengths are women's
+  standard, about an inch under men's, with the whole family shafted in
+  Ping's ULT 200 ladies graphite. The Serene replaced it in 2013.
+specs:
+  - club: "7"
+    loft: 32.0
+    lie: 62.25
+    length: 36.25
+  - club: "8"
+    loft: 36.0
+    lie: 63.0
+    length: 35.75
+  - club: "9"
+    loft: 40.0
+    lie: 63.75
+    length: 35.25
+  - club: "PW"
+    loft: 45.0
+    lie: 64.0
+    length: 35.0
+  - club: "UW"
+    loft: 50.0
+    lie: 64.0
+    length: 35.0
+  - club: "SW"
+    loft: 54.0
+    lie: 64.25
+    length: 34.75
+stock_shafts:
+  - name: "Ping ULT 200"
+    material: graphite
+    weight: "ultra light"
+    flex: ["L"]
+sources:
+  - "2ndswing.com Ping Faith iron set spec table and qsponge.com 'What is loft angle of Ping FAITH Irons' - matching loft, lie and length rows for the 5H, 6H and 7-iron through SW. Neither source publishes offset, bounce or swing weight for the irons, so those keys are omitted. Compiled from secondary spec databases because the Flash-era ping.com Faith pages are not recoverable from the Internet Archive."
+  - "thesandtrap.com 'PING Expands Lineup for 2011' - the Faith launch as Ping's women's family for 2011, the toe-area weighting and Custom Tuning Port design, the ULT 200 Ladies graphite across the set, and the iron/hybrid combo set composition at $112.50 per club"
+  - "The hybrid slots (5H 26 degrees, 6H 30 degrees) are part of the stock combo set but are hybrids rather than irons, so they are noted here rather than listed in specs."
+related_models:
+  - slug: "ping/rhapsody-irons"
+    label: "Predecessor: Ping Rhapsody"
+  - slug: "ping/serene-irons"
+    label: "Successor: Ping Serene"
+faq:
+  - q: "What is the loft of a Ping Faith 7-iron?"
+    a: "The Ping Faith 7-iron has a loft of 32 degrees, a 62.25 degree lie and a 36.25 inch women's standard graphite length."
+  - q: "Why does the Ping Faith set start at the 7-iron?"
+    a: "The Faith was sold as a hybrid-iron combo for moderate swing speeds: Faith hybrids at 26 and 30 degrees take the 5H and 6H slots, and the irons run from the 7-iron down to a 54 degree sand wedge."
+  - q: "When were Ping Faith irons made?"
+    a: "The Faith line launched in 2011 as the successor to the 2007 Rhapsody and was replaced by the Serene in 2013."
+confidence: medium

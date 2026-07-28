@@ -1,0 +1,93 @@
+brand: Callaway
+brand_slug: callaway
+model: Hawk Eye
+slug: hawk-eye-irons
+club_type: irons
+year_introduced: 2000
+year_discontinued: 2002
+category: game-improvement
+construction: cast titanium with Tungsten Weight Matrix
+material: titanium / tungsten
+successor: Callaway Hawk Eye VFT
+predecessor: Callaway Great Big Bertha Tungsten Titanium
+description: >
+  The Hawk Eye Tungsten Injected Titanium irons were Callaway's second
+  generation of titanium irons, following the Great Big Bertha Tungsten
+  Titanium. A hidden weight port behind the impact area holds the Tungsten
+  Weight Matrix — dense tungsten spheres placed low in the long irons and
+  progressively higher in the short irons to tune launch through the set.
+  Lofts are traditional with a 33 degree 7-iron and 46.5 degree pitching
+  wedge, and the set was catalogued from 1-iron to lob wedge with
+  graphite-led stock shafts.
+specs:
+  - club: "1"
+    loft: 16
+    lie: 58.5
+    length: 40
+  - club: "2"
+    loft: 18.5
+    lie: 59
+    length: 39.5
+  - club: "3"
+    loft: 21
+    lie: 60
+    length: 39
+  - club: "4"
+    loft: 23.5
+    lie: 60.5
+    length: 38.5
+  - club: "5"
+    loft: 26
+    lie: 61
+    length: 38
+  - club: "6"
+    loft: 29
+    lie: 62
+    length: 37.5
+  - club: "7"
+    loft: 33
+    lie: 62.5
+    length: 37
+  - club: "8"
+    loft: 37.5
+    lie: 63.5
+    length: 36.5
+  - club: "9"
+    loft: 42
+    lie: 64.5
+    length: 36
+  - club: "PW"
+    loft: 46.5
+    lie: 65
+    length: 35.5
+  - club: "AW"
+    loft: 51
+    lie: 65
+    length: 35.5
+  - club: "SW"
+    loft: 55
+    lie: 65
+    length: 35.5
+  - club: "LW"
+    loft: 60
+    lie: 65
+    length: 35.5
+sources:
+  - "Callaway Golf Pre-Owned Demandware ProductSpecs feed (Sites-CGPO5-Site ProductSpecs-Get, productCode irons-hawkeye, 'Hawk Eye Tungsten Ti') — manufacturer-authored loft, lie and standard length for the full 1-LW range"
+  - "2nd Swing Golf specification table for the Callaway Hawkeye iron set (2ndswing.com) — corroborates every loft, lie and length figure exactly"
+  - "Note the lie ladder (59, 60, 60.5, 61 in the 2-5 irons) genuinely differs from the 59.2/59.9/60.6/61.3 ladder Callaway used on its steel irons of the era; both sources agree on it. Offset, bounce and a steel-specific swing weight were not published, so those columns are omitted"
+related_models:
+  - slug: "callaway/great-big-bertha-tungsten-titanium-irons"
+    label: "Predecessor: Callaway Great Big Bertha Tungsten Titanium"
+  - slug: "callaway/hawk-eye-vft-irons"
+    label: "Successor: Callaway Hawk Eye VFT"
+  - slug: "callaway/x-14-irons"
+    label: "Contemporary steel Callaway iron: Steelhead X-14"
+faq:
+  - q: "What is the loft of a Callaway Hawk Eye 7-iron?"
+    a: "The Callaway Hawk Eye 7-iron has a loft of 33 degrees, with a 62.5 degree lie and a 37 inch standard length."
+  - q: "What is the Tungsten Weight Matrix in the Hawk Eye irons?"
+    a: "It is a hidden port behind the face filled with dense tungsten spheres. The tungsten sits low in the long irons and higher in the short irons, moving the centre of gravity to suit each club's launch."
+  - q: "Are the Callaway Hawk Eye irons titanium?"
+    a: "Yes — the heads are cast titanium, roughly half the weight of steel, which let Callaway build a larger head and use the tungsten insert to restore mass where it helps forgiveness."
+confidence: high

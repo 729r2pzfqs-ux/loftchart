@@ -1,0 +1,118 @@
+brand: Titleist
+brand_slug: titleist
+model: DCI Black
+slug: dci-black-irons
+club_type: irons
+year_introduced: 1993
+year_discontinued: 1997
+category: players
+construction: investment cast, perimeter weighted cavity back
+material: 17-4 stainless steel
+successor: Titleist DCI 962
+predecessor: null
+description: >
+  The DCI Black is the players model of the original 1993 DCI pairing, sold
+  alongside the game-improvement DCI Gold. Both carry the Dual Cavity Iron
+  design that gave the family its name, but the Black keeps a more compact
+  head, flatter lies - 61.5 degrees at the 7-iron against the Gold's 63 - and
+  traditional lofts with a 36 degree 7-iron and 48 degree pitching wedge.
+  Titleist catalogued it from a 1-iron through lob wedge, all at D1 swing
+  weight and a uniform 35.5 inch length through the scoring clubs. Its slot at
+  the better-player end of the DCI range passed to the DCI 962 in 1997.
+specs:
+  - club: "1"
+    loft: 16
+    lie: 56
+    length: 39.5
+    offset: 0.240
+    swing_weight: D1
+  - club: "2"
+    loft: 18
+    lie: 57
+    length: 39
+    offset: 0.230
+    swing_weight: D1
+  - club: "3"
+    loft: 21
+    lie: 58
+    length: 38.5
+    offset: 0.220
+    swing_weight: D1
+  - club: "4"
+    loft: 24
+    lie: 59
+    length: 38
+    offset: 0.210
+    swing_weight: D1
+  - club: "5"
+    loft: 28
+    lie: 60
+    length: 37.5
+    offset: 0.200
+    swing_weight: D1
+  - club: "6"
+    loft: 32
+    lie: 61
+    length: 37
+    offset: 0.190
+    swing_weight: D1
+  - club: "7"
+    loft: 36
+    lie: 61.5
+    length: 36.5
+    offset: 0.180
+    swing_weight: D1
+  - club: "8"
+    loft: 40
+    lie: 62
+    length: 36
+    offset: 0.145
+    swing_weight: D1
+  - club: "9"
+    loft: 44
+    lie: 62.5
+    length: 35.5
+    offset: 0.110
+    swing_weight: D1
+  - club: "PW"
+    loft: 48
+    lie: 63
+    length: 35.5
+    offset: 0.095
+    swing_weight: D1
+  - club: "W"
+    loft: 52
+    lie: 63
+    length: 35.5
+    offset: 0.095
+    swing_weight: D1
+  - club: "SW"
+    loft: 56
+    lie: 63
+    length: 35.5
+    swing_weight: D1
+  - club: "LW"
+    loft: 60
+    lie: 63
+    length: 35.5
+    swing_weight: D1
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+sources:
+  - "Titleist previous-models archived product page, titleist.com/golf-clubs/irons/dci-black, via the Internet Archive (full manufacturer table: length, loft, lie, offset, swing weight; the page publishes no bounce row)"
+  - "The archived table lists the sand and lob wedge offsets as +.010 inches, a negative-offset convention this database does not encode, so those two offset values are omitted. The 3-iron swing weight is printed as 'D21', an obvious typo in a row that otherwise reads D1 throughout, and is recorded as D1."
+  - "Titleist irons-by-year timeline at pitchmarks.com - dates the DCI Black and DCI Gold pairing to 1993; the DCI 962 (1997) took over the better-player DCI slot, which sets year_discontinued on the successor convention"
+related_models:
+  - slug: "titleist/dci-gold-irons"
+    label: "Game-improvement sibling: Titleist DCI Gold"
+  - slug: "titleist/dci-962-irons"
+    label: "Successor: Titleist DCI 962"
+faq:
+  - q: "What is the loft of a Titleist DCI Black 7-iron?"
+    a: "The Titleist DCI Black 7-iron is 36 degrees, with a 61.5 degree lie and a 36.5 inch standard steel length."
+  - q: "What is the difference between the Titleist DCI Black and DCI Gold?"
+    a: "They launched together in 1993 as the two halves of the original DCI line: the Black is the players version with a more compact head and flatter lies, while the Gold is the game-improvement version with more offset and more upright lies."
+  - q: "How many clubs were in the Titleist DCI Black set?"
+    a: "Titleist catalogued the DCI Black from a 1-iron through a 60 degree lob wedge, thirteen clubs in all, though most retail sets were sold as 3-PW."
+confidence: high

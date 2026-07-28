@@ -1,0 +1,118 @@
+brand: Titleist
+brand_slug: titleist
+model: DCI 981SL
+slug: dci-981sl-irons
+club_type: irons
+year_introduced: 1998
+year_discontinued: 2001
+category: super-game-improvement
+construction: investment cast, progressive cavity back
+material: 431 stainless steel
+successor: null
+predecessor: null
+description: >
+  The DCI 981SL is the superlight variant of the 1998 DCI 981, built for
+  golfers with slower swing speeds. The whole set is assembled to C9 swing
+  weights with lightweight shafts, and the heads carry even more offset than
+  the already generous 981 - .300 inches at the 2-iron against .250 - with a
+  wider sole and lower centre of gravity. Lofts run two degrees stronger than
+  the standard 981, with a 33 degree 7-iron and a 45 degree pitching wedge,
+  to convert the lighter build into distance. Titleist catalogued it from a
+  2-iron through a 57 degree lob wedge; the wedges are built heavier at D1
+  and D3.
+specs:
+  - club: "2"
+    loft: 21
+    lie: 59
+    length: 39.25
+    offset: 0.300
+    swing_weight: C9
+  - club: "3"
+    loft: 23
+    lie: 60
+    length: 38.75
+    offset: 0.280
+    swing_weight: C9
+  - club: "4"
+    loft: 25
+    lie: 61
+    length: 38.25
+    offset: 0.260
+    swing_weight: C9
+  - club: "5"
+    loft: 27
+    lie: 62
+    length: 37.75
+    offset: 0.240
+    swing_weight: C9
+  - club: "6"
+    loft: 30
+    lie: 62.5
+    length: 37.25
+    offset: 0.215
+    swing_weight: C9
+  - club: "7"
+    loft: 33
+    lie: 63
+    length: 36.75
+    offset: 0.190
+    swing_weight: C9
+  - club: "8"
+    loft: 37
+    lie: 63.5
+    length: 36.25
+    offset: 0.185
+    swing_weight: C9
+  - club: "9"
+    loft: 41
+    lie: 64
+    length: 35.75
+    offset: 0.130
+    swing_weight: C9
+  - club: "PW"
+    loft: 45
+    lie: 64
+    length: 35.5
+    offset: 0.095
+    swing_weight: C9
+  - club: "W"
+    loft: 49
+    lie: 64
+    length: 35.25
+    offset: 0.070
+    swing_weight: D1
+  - club: "SW"
+    loft: 52
+    lie: 64
+    length: 35.25
+    offset: 0.040
+    swing_weight: D3
+  - club: "LW"
+    loft: 57
+    lie: 64
+    length: 35.25
+    offset: 0.040
+    swing_weight: D3
+stock_shafts:
+  - name: "True Temper Release"
+    material: steel
+    weight: "light"
+  - name: "Titleist Ultralite"
+    material: graphite
+sources:
+  - "Titleist previous-models archived product page, titleist.com/golf-clubs/irons/dci-981sl, via the Internet Archive (full manufacturer table: length, loft, lie, offset, swing weight; no bounce row is published for this model, so bounce is omitted)"
+  - "golfreview.com DCI 981SL user-review page and contemporary retail listings - 431 stainless construction, increased offset, wider sole and lower centre of gravity than the standard DCI 981, with True Temper Release lightweight steel and Titleist Ultralite graphite as the stock shafts; used listings commonly carry lightweight senior-flex graphite, consistent with the C9 build"
+  - "Lineage: sold alongside the standard DCI 981 from 1998 and discontinued with the rest of the 981/990 family when the DCI 762 arrived in 2001. No later Titleist model took over a dedicated superlight slot, so successor is null."
+related_models:
+  - slug: "titleist/dci-981-irons"
+    label: "Standard-weight sibling: Titleist DCI 981"
+  - slug: "titleist/dci-762-irons"
+    label: "Replaced the DCI family: Titleist DCI 762"
+faq:
+  - q: "What is the loft of a Titleist DCI 981SL 7-iron?"
+    a: "The Titleist DCI 981SL 7-iron is 33 degrees, with a 63 degree lie and a 36.75 inch length - two degrees stronger than the standard DCI 981."
+  - q: "What does SL mean on the Titleist DCI 981SL?"
+    a: "It marks the superlight version of the DCI 981: the set is built to C9 swing weights with lightweight shafts, stronger lofts and extra offset so golfers with slower swing speeds can keep their distance."
+  - q: "How does the DCI 981SL differ from the standard DCI 981?"
+    a: "Three ways: it is much lighter (C9 swing weights against D1), its lofts are about two degrees stronger through the set, and it carries more offset - .300 inches at the 2-iron against .250 - with a wider sole and lower centre of gravity."
+confidence: high

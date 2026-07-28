@@ -1,0 +1,107 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: "320"
+slug: 320-irons
+club_type: irons
+year_introduced: 2001
+year_discontinued: 2003
+category: game-improvement
+construction: investment cast
+material: stainless steel
+successor: rac OS
+predecessor: SuperSteel
+description: >
+  The 320 was the mid-size member of TaylorMade's 300 series, sold alongside the compact
+  300 Forged and the oversize 360 so that golfers could pick a head size rather than a
+  different technology. The cast stainless cavityback carries moderate offset and a
+  progressive centre of gravity through the set, with a 35-degree 7-iron and 47-degree
+  pitching wedge. The stock set ran 3-PW with a 2-iron and four wedges through AW, SW and
+  LW available. Lengths below are the published graphite-shaft build; steel shafts played
+  0.25 inches shorter except in the wedges, which were the same length in both.
+specs:
+  - club: "2"
+    loft: 18.0
+    lie: 59.0
+    length: 39.5
+    offset: 0.209
+  - club: "3"
+    loft: 20.0
+    lie: 59.0
+    length: 39.0
+    offset: 0.209
+  - club: "4"
+    loft: 23.0
+    lie: 60.0
+    length: 38.5
+    offset: 0.189
+  - club: "5"
+    loft: 27.0
+    lie: 61.0
+    length: 38.0
+    offset: 0.169
+  - club: "6"
+    loft: 31.0
+    lie: 61.5
+    length: 37.5
+    offset: 0.150
+  - club: "7"
+    loft: 35.0
+    lie: 62.0
+    length: 37.0
+    offset: 0.134
+  - club: "8"
+    loft: 39.0
+    lie: 62.5
+    length: 36.5
+    offset: 0.118
+  - club: "9"
+    loft: 43.0
+    lie: 63.0
+    length: 36.0
+    offset: 0.102
+  - club: "PW"
+    loft: 47.0
+    lie: 63.5
+    length: 35.5
+    offset: 0.087
+  - club: "AW"
+    loft: 51.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.079
+  - club: "SW"
+    loft: 55.0
+    lie: 64.0
+    length: 35.25
+    offset: 0.020
+  - club: "LW"
+    loft: 60.0
+    lie: 64.0
+    length: 35.0
+    offset: 0.0
+stock_shafts:
+  - name: "Royal Precision Rifle Flighted Constant Weight"
+    material: steel
+  - name: "TaylorMade Lite Constant Weight"
+    material: graphite
+sources:
+  - "equip2golf.com Taylor Made 320 specifications page (full 2-LW loft/lie/length/offset table, year 2001; lengths noted as graphite with steel 0.25 inch shorter except PW/AW/SW/LW; Rifle Flighted Constant Weight steel and Taylor Made Lite Constant Weight graphite stock shafts, Cross-Line grip, right- and left-handed)"
+  - "Offsets converted from the millimetre values published by equip2golf (5.3 mm 2-iron to 0.0 mm LW)"
+  - "TaylorMade's official Irons Legacy timeline (taylormadegolf.com/ironslegacy.html) groups the 300 Series (three head sizes, progressive CG, impact pad) with the 300 Forged and 360; the repo's 300 Forged file and equip2golf both date the range to 2001"
+related_models:
+  - slug: "taylormade/300-forged-irons"
+    label: "Compact forged sibling in the 300 series: TaylorMade 300 Forged"
+  - slug: "taylormade/360-irons"
+    label: "Oversize sibling in the 300 series: TaylorMade 360"
+  - slug: "taylormade/rac-os-irons"
+    label: "Successor game-improvement family: TaylorMade rac OS"
+  - slug: "taylormade/supersteel-irons"
+    label: "Predecessor distance iron: TaylorMade SuperSteel"
+faq:
+  - q: "What is the loft of a TaylorMade 320 7-iron?"
+    a: "The TaylorMade 320 7-iron has a loft of 35 degrees, with a 62-degree lie and a 37-inch graphite-shaft length (36.75 inches in steel)."
+  - q: "What is the difference between the TaylorMade 300, 320 and 360 irons?"
+    a: "All three launched together in 2001 as the 300 series. The 300 Forged is the compact players head, the 320 is the mid-size cast cavityback, and the 360 is the largest, most offset game-improvement head."
+  - q: "What shafts did the TaylorMade 320 come with?"
+    a: "The stock steel shaft was the Royal Precision Rifle Flighted Constant Weight, with TaylorMade's Lite Constant Weight graphite as the stock graphite option."
+confidence: medium

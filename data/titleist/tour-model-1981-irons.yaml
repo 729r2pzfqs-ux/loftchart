@@ -1,0 +1,79 @@
+brand: Titleist
+brand_slug: titleist
+model: Tour Model (1981)
+slug: tour-model-1981-irons
+club_type: irons
+year_introduced: 1981
+year_discontinued: 1982
+category: blade
+construction: forged blade
+material: forged carbon steel
+successor: Titleist Tour Model (1982)
+predecessor: Titleist Tour Model (1979)
+description: >
+  The 1981 Tour Model is one of the classic forged Titleist blades from the
+  era before the DCI family, a refinement of the 1979 original that Titleist
+  itself archives as a distinct model. It is a traditional carbon steel blade
+  with the flat lies of its day - 62 degrees at the 7-iron, two to three
+  degrees flatter than a modern iron - and classic lofts, a 37 degree 7-iron
+  and 49 degree pitching wedge, on slightly shorter-than-modern shaft
+  lengths that step in three-eighths-inch increments through the scoring
+  clubs. Titleist catalogued it from a 1-iron through sand wedge. It remains
+  a collector item, and Titleist revised the Tour Model again in 1982.
+specs:
+  - club: "1"
+    loft: 18
+    lie: 56
+    length: 39.5
+  - club: "2"
+    loft: 20
+    lie: 57
+    length: 39
+  - club: "3"
+    loft: 23
+    lie: 58
+    length: 38.5
+  - club: "4"
+    loft: 26
+    lie: 59
+    length: 38
+  - club: "5"
+    loft: 30
+    lie: 60
+    length: 37.5
+  - club: "6"
+    loft: 33
+    lie: 61
+    length: 37
+  - club: "7"
+    loft: 37
+    lie: 62
+    length: 36.625
+  - club: "8"
+    loft: 41
+    lie: 63
+    length: 36.25
+  - club: "9"
+    loft: 45
+    lie: 63
+    length: 35.875
+  - club: "PW"
+    loft: 49
+    lie: 64
+    length: 35.5
+  - club: "SW"
+    loft: 55
+    lie: 64
+    length: 35.25
+sources:
+  - "Titleist previous-models archived product page, titleist.com/golf-clubs/irons/1981-Tour-Model ('Titleist 1981 Tour Model'), via the Internet Archive (full manufacturer table: length, loft, lie, 1-iron through SW; the page publishes no offset, bounce or swing weight rows, so those keys are omitted)"
+  - "Titleist's previous-models archive catalogues the Tour Model as a yearly series (1979, 1981, 1982, 1983 '821', 1984 '841' and later), which sets the 1979 predecessor, the 1982 successor and the one-year run recorded here"
+  - "No stock shaft is documented on the archived page or in corroborating listings, so stock_shafts is omitted rather than guessed; period sets are most often found with True Temper Dynamic shafts"
+faq:
+  - q: "What is the loft of a Titleist Tour Model (1981) 7-iron?"
+    a: "The 1981 Titleist Tour Model 7-iron is 37 degrees, with a 62 degree lie and a 36.625 inch length - classic blade specs, about five degrees weaker than a modern players iron."
+  - q: "Were the 1981 Titleist Tour Model irons forged?"
+    a: "Yes. The Tour Model series were traditional forged carbon steel blades, the line Titleist offered to better players before the cast DCI family arrived in the early 1990s."
+  - q: "How do the 1981 Tour Model lies compare with modern irons?"
+    a: "They are flat by modern standards: 62 degrees at the 7-iron against roughly 63 to 64 on current irons, and the whole set runs about two degrees flatter club for club."
+confidence: high

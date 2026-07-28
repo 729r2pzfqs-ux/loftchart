@@ -1,0 +1,105 @@
+brand: Callaway
+brand_slug: callaway
+model: X-16 Pro Series
+slug: x-16-pro-series-irons
+club_type: irons
+year_introduced: 2002
+year_discontinued: 2004
+category: players
+construction: investment cast
+material: stainless steel
+successor: Callaway X-18 Pro Series
+predecessor: null
+description: >
+  The Steelhead X-16 Pro Series is the better-player version of the 2002
+  X-16, with a more compact, blade-like head, a thinner topline and less
+  offset for shot-shaping and a lower flight. Callaway kept the published
+  ladder identical to the standard X-16 — the same 34 degree 7-iron, the same
+  upright 65 degree wedge lies and the same lengths — so the differences are
+  in the head, not the chart. The catalogued range ran 1-iron to lob wedge,
+  with 3-PW the usual retail set on Constant Weight steel shafts.
+specs:
+  - club: "1"
+    loft: 16.0
+    lie: 58.5
+    length: 40.0
+    swing_weight: D2
+  - club: "2"
+    loft: 18.0
+    lie: 59.2
+    length: 39.5
+    swing_weight: D2
+  - club: "3"
+    loft: 21.0
+    lie: 59.9
+    length: 39.0
+    swing_weight: D2
+  - club: "4"
+    loft: 24.0
+    lie: 60.6
+    length: 38.5
+    swing_weight: D2
+  - club: "5"
+    loft: 27.0
+    lie: 61.3
+    length: 38.0
+    swing_weight: D2
+  - club: "6"
+    loft: 30.0
+    lie: 62.0
+    length: 37.5
+    swing_weight: D2
+  - club: "7"
+    loft: 34.0
+    lie: 62.5
+    length: 37.0
+    swing_weight: D2
+  - club: "8"
+    loft: 38.0
+    lie: 63.5
+    length: 36.5
+    swing_weight: D2
+  - club: "9"
+    loft: 42.0
+    lie: 64.5
+    length: 36.0
+    swing_weight: D2
+  - club: "PW"
+    loft: 46.0
+    lie: 65.0
+    length: 35.5
+    swing_weight: D3
+  - club: "AW"
+    loft: 50.0
+    lie: 65.0
+    length: 35.5
+    swing_weight: D3
+  - club: "SW"
+    loft: 54.0
+    lie: 65.0
+    length: 35.25
+    swing_weight: D5
+  - club: "LW"
+    loft: 58.0
+    lie: 65.0
+    length: 35.0
+    swing_weight: D5
+sources:
+  - "Callaway Demandware ProductSpecs feed (ProductSpecs-Get), the manufacturer-authored source behind the View Specs panel on callawaygolfpreowned.com, product code irons-bb-x16-ps — loft, lie, length and dual swing weight columns for the 1-iron through lob wedge"
+  - "2ndswing.com Callaway X-16 Pro Series Iron Set specification table — agrees cell for cell on loft, lie and length; its single swing weight column (D2/D3/D5) matches the steel side of the Callaway feed and is the value recorded here"
+  - "Bounce and offset were not published for this model in the sources located, so those columns are omitted rather than estimated. Callaway published a bounce ladder for the standard X-16 but not the Pro Series"
+related_models:
+  - slug: "callaway/x-16-irons"
+    label: "Standard model: Callaway Steelhead X-16"
+  - slug: "callaway/x-18-pro-series-irons"
+    label: "Successor: Callaway X-18 Pro Series"
+  - slug: "callaway/x-14-irons"
+    label: "The generation before: Callaway Steelhead X-14"
+faq:
+  - q: "What is the loft of a Callaway X-16 Pro Series 7-iron?"
+    a: "The Callaway X-16 Pro Series 7-iron is 34 degrees, with a 62.5 degree lie and a 37 inch standard steel length — the same published numbers as the standard X-16."
+  - q: "What is the difference between the X-16 and the X-16 Pro Series?"
+    a: "The Pro Series has a more compact, blade-like head with a thinner topline and less offset for better players. The published loft, lie and length ladder is identical to the standard X-16."
+  - q: "Are Callaway X-16 Pro Series irons forgiving?"
+    a: "Less so than the standard X-16 — the smaller head trades forgiveness for workability and a lower flight, which is why Callaway aimed the Pro Series at low-to-mid handicaps."
+confidence: high

@@ -1,0 +1,105 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: "360"
+slug: 360-irons
+club_type: irons
+year_introduced: 2001
+year_discontinued: 2003
+category: game-improvement
+construction: investment cast
+material: stainless steel
+successor: rac OS
+predecessor: SuperSteel
+description: >
+  The 360 was the oversize game-improvement member of TaylorMade's 300 series, the
+  largest of the three head sizes offered alongside the 300 Forged and 320. It carries
+  the most offset in the range - 7.5 millimetres in the 2-iron - with lofts about a
+  degree stronger than the 320 through the middle of the set, a 34-degree 7-iron and a
+  46-degree pitching wedge. The stock set ran 3-PW with a 2-iron and AW, SW and LW
+  available. Lengths below are the published graphite-shaft build; steel shafts played
+  0.25 inches shorter except in the wedges, which were the same length in both.
+specs:
+  - club: "2"
+    loft: 18.0
+    lie: 59.0
+    length: 39.5
+    offset: 0.295
+  - club: "3"
+    loft: 20.0
+    lie: 60.0
+    length: 39.0
+    offset: 0.276
+  - club: "4"
+    loft: 23.0
+    lie: 61.0
+    length: 38.5
+    offset: 0.256
+  - club: "5"
+    loft: 26.0
+    lie: 61.5
+    length: 38.0
+    offset: 0.236
+  - club: "6"
+    loft: 30.0
+    lie: 62.0
+    length: 37.5
+    offset: 0.217
+  - club: "7"
+    loft: 34.0
+    lie: 62.5
+    length: 37.0
+    offset: 0.189
+  - club: "8"
+    loft: 38.0
+    lie: 63.0
+    length: 36.5
+    offset: 0.161
+  - club: "9"
+    loft: 42.0
+    lie: 63.5
+    length: 36.0
+    offset: 0.138
+  - club: "PW"
+    loft: 46.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.114
+  - club: "AW"
+    loft: 51.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.079
+  - club: "SW"
+    loft: 55.0
+    lie: 64.0
+    length: 35.25
+    offset: 0.020
+  - club: "LW"
+    loft: 60.0
+    lie: 64.0
+    length: 35.0
+    offset: 0.0
+stock_shafts:
+  - name: "Royal Precision Rifle Flighted Constant Weight"
+    material: steel
+  - name: "TaylorMade Lite Constant Weight"
+    material: graphite
+sources:
+  - "equip2golf.com Taylor Made 360 specifications page (full 2-LW loft/lie/length/offset table, year 2001; lengths noted as graphite with steel 0.25 inch shorter except PW/AW/SW/LW; Rifle Flighted Constant Weight steel and Taylor Made Lite Constant Weight graphite stock shafts, Cross-Line grip, right- and left-handed)"
+  - "Offsets converted from the millimetre values published by equip2golf (7.5 mm 2-iron to 0.0 mm LW)"
+  - "Year note: equip2golf files the 360 under 2001 with the rest of the 300 series; some retailer listings use 2002, which is the marketing model year rather than the introduction year"
+related_models:
+  - slug: "taylormade/300-forged-irons"
+    label: "Compact forged sibling in the 300 series: TaylorMade 300 Forged"
+  - slug: "taylormade/320-irons"
+    label: "Mid-size sibling in the 300 series: TaylorMade 320"
+  - slug: "taylormade/rac-os-irons"
+    label: "Successor oversize game-improvement iron: TaylorMade rac OS"
+faq:
+  - q: "What is the loft of a TaylorMade 360 7-iron?"
+    a: "The TaylorMade 360 7-iron has a loft of 34 degrees, with a 62.5-degree lie and a 37-inch graphite-shaft length (36.75 inches in steel)."
+  - q: "Is the TaylorMade 360 a forgiving iron?"
+    a: "Yes. It was the largest and most offset head in the 2001 300 series, aimed at golfers who wanted maximum forgiveness; the 320 offered a mid-size head and the 300 Forged a compact players head."
+  - q: "What wedges were available for the TaylorMade 360?"
+    a: "Beyond the 46-degree pitching wedge, TaylorMade offered a 51-degree attack wedge, a 55-degree sand wedge and a 60-degree lob wedge in the same head style."
+confidence: medium

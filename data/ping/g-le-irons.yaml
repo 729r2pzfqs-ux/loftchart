@@ -1,0 +1,104 @@
+brand: Ping
+brand_slug: ping
+model: G Le
+slug: g-le-irons
+club_type: irons
+year_introduced: 2016
+year_discontinued: 2019
+category: super-game-improvement
+construction: investment cast with COR-Eye face technology
+material: 17-4 stainless steel
+successor: Ping G Le2
+predecessor: Ping Rhapsody (2015)
+description: >
+  The G Le launched in late 2016 as the first generation of Ping's current
+  women's line, replacing the second-generation Rhapsody and borrowing the
+  G family's COR-Eye technology: a face 11 percent thinner that flexes for
+  higher launch and more ball speed at moderate swing speeds. Ping claimed
+  19 percent tighter dispersion than the Rhapsody irons, helped by enhanced
+  perimeter weighting and lighter C2 to C8 swing weights. The stock set
+  blends G Le hybrids at 22, 26 and 30 degrees into the 4H-6H slots above
+  irons running from a 24 degree 5-iron to a 58 degree sand wedge, with a
+  30.5 degree 7-iron. Lies are based on the Red colour code at standard
+  ladies length. The G Le2 replaced it in 2019.
+specs:
+  - club: "5"
+    loft: 24.0
+    lie: 60.0
+    length: 37.75
+    offset: 0.26
+    bounce: 6.0
+    swing_weight: C2
+  - club: "6"
+    loft: 27.0
+    lie: 60.94
+    length: 37.13
+    offset: 0.23
+    bounce: 7.0
+    swing_weight: C3
+  - club: "7"
+    loft: 30.5
+    lie: 61.88
+    length: 36.5
+    offset: 0.20
+    bounce: 8.0
+    swing_weight: C4
+  - club: "8"
+    loft: 35.0
+    lie: 62.63
+    length: 36.0
+    offset: 0.18
+    bounce: 9.0
+    swing_weight: C4
+  - club: "9"
+    loft: 40.0
+    lie: 63.38
+    length: 35.5
+    offset: 0.16
+    bounce: 10.5
+    swing_weight: C4.5
+  - club: "PW"
+    loft: 45.0
+    lie: 64.0
+    length: 35.0
+    offset: 0.14
+    bounce: 12.0
+    swing_weight: C6
+  - club: "UW"
+    loft: 52.0
+    lie: 64.0
+    length: 35.0
+    offset: 0.11
+    bounce: 12.0
+    swing_weight: C7
+  - club: "SW"
+    loft: 58.0
+    lie: 64.5
+    length: 34.5
+    offset: 0.08
+    bounce: 13.0
+    swing_weight: C8
+stock_shafts:
+  - name: "Ping ULT 230i"
+    material: graphite
+    weight: "ultra light"
+    flex: ["Lite", "Ultra Lite"]
+sources:
+  - "Ping's own G Le product page, Specifications tab (web.archive.org capture of ping.com/clubs/ironsdetail.aspx?id=22552, January 2017) - supplied every loft, length, offset, lie, bounce and swing weight above, the 4H/5H/6H hybrid specs (22, 26 and 30 degrees, C2), the ULT 230i Lite (52g) and Ultra Lite (45g) shaft table, and the note that lie angle is based on the Red colour code at standard ladies length"
+  - "GolfPunkHQ and Golfmagic G Le launch coverage (late 2016) - 17-4 stainless heads with COR-Eye technology, an 11 percent thinner face, and Ping's claim of 19 percent tighter dispersion than the previous Rhapsody irons"
+  - "Ping G Le2 launch coverage (Golf Monthly, MyGolfSpy, 2019) - the G Le2 replaced the G Le, which sets year_discontinued on the successor convention"
+related_models:
+  - slug: "ping/g-le2-irons"
+    label: "Successor: Ping G Le2"
+  - slug: "ping/serene-irons"
+    label: "Earlier women's line: Ping Serene"
+  - slug: "ping/g-irons"
+    label: "Men's counterpart of the same year: Ping G"
+faq:
+  - q: "What is the loft of a Ping G Le 7-iron?"
+    a: "The Ping G Le 7-iron has a loft of 30.5 degrees, a Red colour code lie of 61.88 degrees and a 36.5 inch standard ladies graphite length."
+  - q: "Why does the Ping G Le set start at the 5-iron?"
+    a: "The G Le was sold as a hybrid-iron combo: matching G Le hybrids at 22, 26 and 30 degrees fill the 4H, 5H and 6H slots above the 5-iron through sand wedge irons."
+  - q: "What replaced the Ping G Le irons?"
+    a: "The G Le2, launched in 2019, replaced the G Le, and the line has continued through the G Le3 introduced in 2023."
+confidence: high

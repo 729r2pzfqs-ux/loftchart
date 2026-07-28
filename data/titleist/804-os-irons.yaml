@@ -1,0 +1,113 @@
+brand: Titleist
+brand_slug: titleist
+model: 804.OS
+slug: 804-os-irons
+club_type: irons
+year_introduced: 2004
+year_discontinued: 2006
+category: game-improvement
+construction: forged, oversize cavity back
+material: forged stainless steel
+successor: Titleist 775.CB
+predecessor: null
+description: >
+  The 804.OS is the oversize game-improvement member of Titleist's mid-2000s
+  forged range, built with the same heat-treated forged stainless steel as the
+  704.CB so a larger, easier iron could keep a forged feel. The head carries a
+  deep cavity, a wide sole and the heaviest offset Titleist published in the
+  era - .300 inches at the 2-iron tapering to .120 at the gap wedge - with
+  lofts of 34 degrees at the 7-iron and 46 at the pitching wedge. Titleist
+  marketed it as a 2005-model-year club announced in late 2004, and catalogued
+  it from a 2-iron through a 50 degree gap wedge, every club at D2. The
+  forgiving end of the forged line passed to the 775.CB in 2006.
+specs:
+  - club: "2"
+    loft: 19.5
+    lie: 59
+    length: 39.5
+    offset: 0.300
+    bounce: 0
+    swing_weight: D2
+  - club: "3"
+    loft: 21.5
+    lie: 60
+    length: 39
+    offset: 0.280
+    bounce: 1
+    swing_weight: D2
+  - club: "4"
+    loft: 24
+    lie: 61
+    length: 38.5
+    offset: 0.260
+    bounce: 1
+    swing_weight: D2
+  - club: "5"
+    loft: 27
+    lie: 62
+    length: 38
+    offset: 0.240
+    bounce: 2
+    swing_weight: D2
+  - club: "6"
+    loft: 30
+    lie: 62.5
+    length: 37.5
+    offset: 0.220
+    bounce: 3
+    swing_weight: D2
+  - club: "7"
+    loft: 34
+    lie: 63
+    length: 37
+    offset: 0.205
+    bounce: 4
+    swing_weight: D2
+  - club: "8"
+    loft: 38
+    lie: 63.5
+    length: 36.5
+    offset: 0.180
+    bounce: 6
+    swing_weight: D2
+  - club: "9"
+    loft: 42
+    lie: 64
+    length: 36
+    offset: 0.160
+    bounce: 7
+    swing_weight: D2
+  - club: "PW"
+    loft: 46
+    lie: 64
+    length: 35.75
+    offset: 0.140
+    bounce: 8
+    swing_weight: D2
+  - club: "W"
+    loft: 50
+    lie: 64
+    length: 35.5
+    offset: 0.120
+    bounce: 9
+    swing_weight: D2
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+sources:
+  - "Titleist previous-models archived product page, titleist.com/golf-clubs/irons/2005-forged-804-os ('Forged 804.OS'), via the Internet Archive (full manufacturer table: offset, bounce, loft, length, lie, swing weight, 2-iron through W)"
+  - "golfreview.com 'Titleist Forged Stainless 804.OS' user-review page and sirshanksalot.com 804.OS review - the same heat-treated forged stainless construction as the 704.CB, oversize cavity back positioning, and the 2004 retail introduction (Titleist's own archive files it under the 2005 model year)"
+  - "Lineage: the 804.OS was the forgiving model of the 704-era forged range; the 2006 line replaced the 704.CB/804.OS pairing with the 755 and the more forgiving 775.CB, which sets the successor and year_discontinued"
+related_models:
+  - slug: "titleist/704-cb-irons"
+    label: "Players sibling of the same range: Titleist 704.CB"
+  - slug: "titleist/775-cb-irons"
+    label: "Successor: Titleist 775.CB"
+faq:
+  - q: "What is the loft of a Titleist 804.OS 7-iron?"
+    a: "The Titleist 804.OS 7-iron is 34 degrees, with a 63 degree lie and a 37 inch standard steel length."
+  - q: "Are the Titleist 804.OS irons forged or cast?"
+    a: "Forged. Titleist used the same heat-treated forged stainless steel as the 704.CB, which is why the model was marketed as 'Forged 804.OS' - unusual for an oversize game-improvement iron of the era."
+  - q: "What year did the Titleist 804.OS come out?"
+    a: "It reached shops in late 2004 as a 2005-model-year club and stayed in the line until the 775.CB replaced it in 2006."
+confidence: high

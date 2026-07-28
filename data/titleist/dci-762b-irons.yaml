@@ -1,0 +1,106 @@
+brand: Titleist
+brand_slug: titleist
+model: DCI 762B
+slug: dci-762b-irons
+club_type: irons
+year_introduced: 2002
+year_discontinued: 2003
+category: blade
+construction: investment cast, reduced-offset muscle cavity
+material: stainless steel
+successor: null
+predecessor: Titleist DCI 962B
+description: >
+  The DCI 762B is the 2002 better-player companion to the dual-cavity DCI 762,
+  continuing the B-model formula Titleist began with the DCI 962B: a smaller
+  blade, a thinner topline and much less offset than the standard model. Where
+  the 762 runs distance lofts with a 34 degree 7-iron, the 762B keeps a
+  traditional ladder with a 36 degree 7-iron and a 48 degree pitching wedge,
+  and its offset tapers from .148 inches at the 2-iron to .082 inches at the
+  wedge. It was catalogued from a 2-iron through pitching wedge, every club at
+  D2, and was the last of the DCI B-models before Titleist moved the line to
+  the forged 690 and 704 families.
+specs:
+  - club: "2"
+    loft: 19
+    lie: 59
+    length: 39.5
+    offset: 0.148
+    bounce: 2
+    swing_weight: D2
+  - club: "3"
+    loft: 22
+    lie: 60
+    length: 39
+    offset: 0.135
+    bounce: 3
+    swing_weight: D2
+  - club: "4"
+    loft: 25
+    lie: 61
+    length: 38.5
+    offset: 0.124
+    bounce: 4
+    swing_weight: D2
+  - club: "5"
+    loft: 28
+    lie: 62
+    length: 38
+    offset: 0.114
+    bounce: 5
+    swing_weight: D2
+  - club: "6"
+    loft: 32
+    lie: 62.5
+    length: 37.5
+    offset: 0.102
+    bounce: 5.5
+    swing_weight: D2
+  - club: "7"
+    loft: 36
+    lie: 63
+    length: 37
+    offset: 0.092
+    bounce: 6
+    swing_weight: D2
+  - club: "8"
+    loft: 40
+    lie: 63.5
+    length: 36.5
+    offset: 0.085
+    bounce: 7
+    swing_weight: D2
+  - club: "9"
+    loft: 44
+    lie: 64
+    length: 36
+    offset: 0.081
+    bounce: 8
+    swing_weight: D2
+  - club: "PW"
+    loft: 48
+    lie: 64
+    length: 35.5
+    offset: 0.082
+    bounce: 9
+    swing_weight: D2
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+sources:
+  - "Titleist previous-models archived product page, titleist.com/golf-clubs/irons/dci-762b, via the Internet Archive (full manufacturer table: length, loft, lie, offset, swing weight, bounce)"
+  - "equip2golf.com Titleist DCI 762B specification page - independently reproduces the same loft, lie, length and offset rows (its 9-iron and PW offsets read .081/.080 against the archived Titleist table's .081/.082), dates the model to 2002, and notes the Dynamic Gold stock shaft and custom-order-only availability"
+  - "The archived Titleist table lists no material row for this model; contemporary DCI models were investment cast stainless steel, so material is recorded generically rather than as a specific alloy"
+related_models:
+  - slug: "titleist/dci-762-irons"
+    label: "Standard-offset sibling: Titleist DCI 762"
+  - slug: "titleist/dci-962b-irons"
+    label: "Earlier B-model: Titleist DCI 962B"
+faq:
+  - q: "What is the loft of a Titleist DCI 762B 7-iron?"
+    a: "The Titleist DCI 762B 7-iron is 36 degrees, with a 63 degree lie and a 37 inch standard steel length."
+  - q: "What is the difference between the Titleist DCI 762 and DCI 762B?"
+    a: "The 762B is the better-player version: a smaller head, thinner topline, less offset and weaker, traditional lofts. Its 7-iron is 36 degrees against 34 on the standard 762, and its pitching wedge is 48 degrees against 46."
+  - q: "Was the Titleist DCI 762B a blade?"
+    a: "Not a pure muscleback - it kept a shallow rear cavity - but Titleist positioned the B-models as its blade-like option for skilled players, with a compact head and minimal offset, and it played closer to a blade than any other DCI."
+confidence: high

@@ -1,0 +1,105 @@
+brand: Callaway
+brand_slug: callaway
+model: FT i-brid
+slug: ft-i-brid-irons
+club_type: irons
+year_introduced: 2008
+year_discontinued: 2010
+category: super-game-improvement
+construction: multi-material hybrid-iron (Fusion body, modified Tru-Bore)
+material: stainless steel / polymer
+successor: null
+predecessor: Callaway Fusion Wide Sole
+description: >
+  The FT i-brid was the last iron of Callaway's Fusion era, a
+  super-game-improvement set in which the 3-, 4- and 5-irons are full i-brid
+  hybrid-bodied clubs and the rest of the set carries hybrid-like weighting
+  in an iron profile. It used a modified Tru-Bore design with a polycarbonate
+  tip plug at the end of the shaft to damp vibration. Lofts are weak by
+  modern standards with a 32 degree 7-iron and 44 degree pitching wedge, and
+  the i-brid long clubs run noticeably longer than conventional irons.
+specs:
+  - club: "3"
+    loft: 19
+    lie: 60.5
+    length: 39.75
+    bounce: 1
+    swing_weight: D1
+  - club: "4"
+    loft: 22
+    lie: 61
+    length: 39
+    bounce: 1
+    swing_weight: D1
+  - club: "5"
+    loft: 25
+    lie: 61.5
+    length: 38.25
+    bounce: 1
+    swing_weight: D1
+  - club: "6"
+    loft: 28
+    lie: 62
+    length: 37.5
+    bounce: 2
+    swing_weight: D0
+  - club: "7"
+    loft: 32
+    lie: 62.5
+    length: 37
+    bounce: 3
+    swing_weight: D0
+  - club: "8"
+    loft: 36
+    lie: 63
+    length: 36.5
+    bounce: 4
+    swing_weight: D0
+  - club: "9"
+    loft: 40
+    lie: 64
+    length: 36
+    bounce: 5
+    swing_weight: D0
+  - club: "PW"
+    loft: 44
+    lie: 65
+    length: 35.5
+    bounce: 7
+    swing_weight: D1
+  - club: "AW"
+    loft: 49
+    lie: 65
+    length: 35.5
+    bounce: 9
+    swing_weight: D1
+  - club: "SW"
+    loft: 54
+    lie: 65
+    length: 35.25
+    bounce: 11
+    swing_weight: D3
+  - club: "LW"
+    loft: 59
+    lie: 65
+    length: 35
+    bounce: 9
+    swing_weight: D3
+sources:
+  - "2nd Swing Golf specification table for the Callaway FT i-Brid iron set (2ndswing.com) — loft, lie, length, bounce and swing weight for the full 3-LW range, with the 3-5 clubs listed as i-brids"
+  - "ilovegolfclub.blogspot.com 'Callaway FT i-Brid Irons specifications' and the qsponge.com FT i-brid table — independently corroborate the loft, lie and length ladder including the 39.75 inch 3 i-brid"
+  - "Callaway Golf Pre-Owned product page for the FT i-Brid (callawaygolfpreowned.com, productCode irons-ft-i-brid) — confirms the 2008 model year and set composition"
+  - "Sources do not label the length ladder steel or graphite (the set was sold primarily with graphite), offset was not published, and no successor iron carried the Fusion name — the range ended when Callaway's 2010 Diablo Edge generation took over. Confidence is medium: retailer spec tables, not a manufacturer sheet"
+related_models:
+  - slug: "callaway/fusion-wide-sole-irons"
+    label: "Predecessor: Callaway Fusion Wide Sole"
+  - slug: "callaway/big-bertha-2008-irons"
+    label: "Contemporary set with optional i-brid long irons: Callaway Big Bertha (2008)"
+faq:
+  - q: "What is the loft of a Callaway FT i-brid 7-iron?"
+    a: "The FT i-brid 7-iron has a loft of 32 degrees, with a 62.5 degree lie and a 37 inch standard length."
+  - q: "What are the i-brid clubs in the Callaway FT i-brid set?"
+    a: "The 3-, 4- and 5-irons (19, 22 and 25 degrees) are full hybrid-bodied i-brids built at 39.75, 39 and 38.25 inches; from the 6-iron down the set transitions to iron-profile heads."
+  - q: "Are the Callaway FT i-brid irons good for high handicappers?"
+    a: "Yes — the FT i-brid is a super-game-improvement design: hybrid long clubs, weak lofts, upright 65 degree wedge lies and heavy perimeter weighting make it one of the easiest-launching sets Callaway made."
+confidence: medium

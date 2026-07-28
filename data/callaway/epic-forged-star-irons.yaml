@@ -1,0 +1,98 @@
+brand: Callaway
+brand_slug: callaway
+model: Epic Forged Star
+slug: epic-forged-star-irons
+club_type: irons
+year_introduced: 2019
+year_discontinued: null
+category: super-game-improvement
+construction: forged hollow body with a cup face
+material: forged carbon steel body with a high-strength cup face, suspended tungsten core and urethane microspheres
+successor: null
+predecessor: null
+description: >
+  Epic Forged Star is the ultra-lightweight build of the 2019 Epic Forged,
+  announced with the Epic Star family on 16 July 2019 for golfers with slower
+  and moderate swing speeds. A lighter head, 40 and 50 gram class UST ATTAS
+  Speed shafts and a 43 gram grip cut the total weight, lofts are two to three
+  degrees weaker than the standard Epic Forged for launch (a 26 degree 7-iron
+  against 27, but a 38 degree pitching wedge against 41), and the set was sold
+  as a custom-order 5-iron through sand wedge with four wedges closing the
+  gaps.
+specs:
+  - club: "5"
+    loft: 22.0
+    lie: 59.5
+    length: 38.875
+    offset: 0.142
+    swing_weight: D0
+  - club: "6"
+    loft: 24.0
+    lie: 60.0
+    length: 38.25
+    offset: 0.134
+    swing_weight: D0
+  - club: "7"
+    loft: 26.0
+    lie: 60.5
+    length: 37.625
+    offset: 0.13
+    swing_weight: D0
+  - club: "8"
+    loft: 29.0
+    lie: 61.0
+    length: 37.0
+    offset: 0.122
+    swing_weight: D0
+  - club: "9"
+    loft: 33.0
+    lie: 61.5
+    length: 36.5
+    offset: 0.11
+    swing_weight: D0
+  - club: "PW"
+    loft: 38.0
+    lie: 62.0
+    length: 36.0
+    offset: 0.094
+    swing_weight: D0
+  - club: "AW"
+    loft: 43.0
+    lie: 62.5
+    length: 35.75
+    offset: 0.091
+    swing_weight: D0
+  - club: "GW"
+    loft: 49.0
+    lie: 63.0
+    length: 35.5
+    offset: 0.075
+    swing_weight: D0
+  - club: "SW"
+    loft: 55.0
+    lie: 63.0
+    length: 35.25
+    offset: 0.075
+    swing_weight: D0
+stock_shafts:
+  - name: "UST Mamiya ATTAS Speed Series"
+    material: graphite
+    flex: ["F2", "F3", "F4"]
+sources:
+  - "Callaway Demandware ProductSpecs feed (ProductSpecs-Get), the manufacturer-authored source behind the View Specs panel on callawaygolfpreowned.com, product code irons-2019-epic-forged-star — loft, lie, length, offset, swing weight and the UST ATTAS Speed stock shaft for the 5-iron through sand wedge"
+  - "Note on offset: the source publishes offset in millimetres (3.6 mm down to 1.9 mm), converted to inches here"
+  - "prnewswire.com 'Callaway Golf Announces Epic Forged Irons, Epic Flash Hybrids And Epic Star Family Of Products' — announced 16 July 2019, at retail from 2 August 2019"
+  - "Bounce was not published in the sources located, so the column is omitted rather than estimated. year_discontinued is null; the sources retrieved do not record a direct replacement"
+related_models:
+  - slug: "callaway/epic-forged-irons"
+    label: "Standard-weight model: Callaway Epic Forged"
+  - slug: "callaway/paradym-star-irons"
+    label: "Callaway's later ultra-lightweight Star iron: Callaway Paradym Star"
+faq:
+  - q: "What is the loft of a Callaway Epic Forged Star 7-iron?"
+    a: "The Callaway Epic Forged Star 7-iron has a loft of 26 degrees, a lie of 60.5 degrees and a length of 37.625 inches."
+  - q: "What is the difference between Epic Forged and Epic Forged Star irons?"
+    a: "Star is the ultra-lightweight build for slower and moderate swing speeds: lighter head, 40-50 gram graphite shafts and a 43 gram grip, with lofts two to three degrees weaker through the scoring clubs than the standard Epic Forged."
+  - q: "Who are Callaway Epic Forged Star irons for?"
+    a: "Callaway built them for golfers with slower or moderate swing speeds who want maximum distance and launch from an ultra-light package. They were sold as a custom-order set."
+confidence: high

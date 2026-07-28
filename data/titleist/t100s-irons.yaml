@@ -3,21 +3,22 @@ brand_slug: titleist
 model: T100S
 slug: t100s-irons
 club_type: irons
-year_introduced: 2021
-year_discontinued: 2023
+year_introduced: 2020
+year_discontinued: 2021
 category: players
 construction: forged, multi-material dual cavity
 material: forged 1025 carbon steel with high-density tungsten weighting
-successor: Titleist T150
+successor: Titleist T100S (2021)
 predecessor: Titleist T100
 description: >
-  The T100S is the strong-lofted variant of the T100, built on the same forged
-  1025 carbon steel head with high-density tungsten weighting but set two
-  degrees stronger through the whole set. That gives a 32 degree 7-iron
-  against the T100's 34, and a 44 degree pitching wedge against 46. Lies,
-  lengths and offsets are identical to the T100, so the S is purely a loft
-  play: the same tour-compact head delivering a lower, longer ball flight. It
-  was replaced by the T150 in 2023.
+  The T100S is the strong-lofted variant of the 2019 T100, announced in
+  January 2020 and in shops that March. It is built on the same forged 1025
+  carbon steel head with high-density tungsten weighting but set two degrees
+  stronger through the whole set: a 32 degree 7-iron against the T100's 34,
+  and a 44 degree pitching wedge against 46. Lies, lengths and offsets are
+  identical to the T100, so the S is purely a loft play - the same
+  tour-compact head delivering a lower, longer ball flight. A second T100S
+  generation with brazed tungsten construction replaced it in August 2021.
 specs:
   - club: "3"
     loft: 19
@@ -77,18 +78,20 @@ stock_shafts:
   - name: "Project X LZ"
     material: steel
 sources:
-  - "2ndSwing.com Titleist 2021 T100S iron set and single-iron specification tables (loft, lie, length, offset, swing weight)"
-  - "Today's Golfer, Titleist T-Series 2021 T100S specification table (loft, lie, length) - independent corroboration"
-  - "Compiled from retailer and press spec tables rather than a Titleist spec sheet: titleist.com serves T-Series specifications client-side and was not retrievable"
-  - "Titleist does not publish per-club bounce for the T-Series, which uses a variable-bounce sole; the column is absent from every published spec table and is therefore omitted here rather than estimated"
+  - "2ndSwing.com Titleist T100S iron set and single-iron specification tables (loft, lie, length, offset, swing weight); Titleist kept the published specs unchanged between the 2020 original and the 2021 refresh"
+  - "Today's Golfer, Titleist T-Series T100S specification table (loft, lie, length) - independent corroboration"
+  - "Titleist Newsroom and Golf Business News, 'Titleist Introduces T100-S Irons' - the January 2020 announcement, with fittings from 12 March and retail from 27 March 2020, and the individually-calibrated two-degree-stronger loft story; the August 2021 announcement of the second generation sets year_discontinued"
+  - "Compiled from retailer and press spec tables rather than a Titleist spec sheet: titleist.com serves T-Series specifications client-side and was not retrievable. Titleist does not publish per-club bounce for the T-Series, which uses a variable-bounce sole; the column is absent from every published spec table and is therefore omitted here rather than estimated"
 related_models:
   - slug: "titleist/t100-irons"
     label: "Weaker-lofted sibling: Titleist T100"
+  - slug: "titleist/t100s-2021-irons"
+    label: "Successor: Titleist T100S (2021)"
 faq:
   - q: "What is the loft of a Titleist T100S 7-iron?"
     a: "The Titleist T100S 7-iron is 32 degrees, with a 63 degree lie and a 37 inch standard steel length."
   - q: "What is the difference between the Titleist T100 and T100S?"
     a: "The T100S is two degrees stronger on every club. Its 7-iron is 32 degrees against 34 on the T100, and its pitching wedge is 44 degrees against 46. Lie, length and offset are identical."
-  - q: "What replaced the Titleist T100S?"
-    a: "The T150, launched in 2023, replaced the T100S and carries the same 32 degree 7-iron and 44 degree pitching wedge."
+  - q: "What replaced the original Titleist T100S?"
+    a: "A second-generation T100S arrived in August 2021 with the same lofts and brazed tungsten construction, and the T150 then took over the strong-lofted slot in 2023."
 confidence: medium

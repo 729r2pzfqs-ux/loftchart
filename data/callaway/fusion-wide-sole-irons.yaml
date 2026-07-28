@@ -1,0 +1,109 @@
+brand: Callaway
+brand_slug: callaway
+model: Fusion Wide Sole
+slug: fusion-wide-sole-irons
+club_type: irons
+year_introduced: 2006
+year_discontinued: 2008
+category: super-game-improvement
+construction: multi-material (titanium face cup, tungsten weighting, wide sole)
+material: titanium / tungsten / polymer
+successor: Callaway FT i-brid
+predecessor: Callaway Big Bertha Fusion
+description: >
+  The Fusion Wide Sole took the multi-material Big Bertha Fusion concept and
+  added a much wider sole for maximum forgiveness from turf and sand, aimed
+  squarely at mid- and high-handicap golfers. It was announced in late 2006
+  and sold as Callaway's 2007-season super-game-improvement iron. The loft
+  ladder is identical to the original Fusion with a 33 degree 7-iron and a
+  46 degree pitching wedge. Specs below are the standard men's steel build
+  with the NS Pro 990 shaft; graphite was built a quarter inch longer.
+specs:
+  - club: "2"
+    loft: 18
+    lie: 59.2
+    length: 39.25
+    swing_weight: D2
+  - club: "3"
+    loft: 21
+    lie: 59.9
+    length: 38.75
+    swing_weight: D2
+  - club: "4"
+    loft: 23.5
+    lie: 60.6
+    length: 38.25
+    swing_weight: D2
+  - club: "5"
+    loft: 26
+    lie: 61.3
+    length: 37.75
+    swing_weight: D2
+  - club: "6"
+    loft: 29
+    lie: 62
+    length: 37.25
+    swing_weight: D2
+  - club: "7"
+    loft: 33
+    lie: 62.5
+    length: 36.75
+    swing_weight: D2
+  - club: "8"
+    loft: 37
+    lie: 63.5
+    length: 36.25
+    swing_weight: D2
+  - club: "9"
+    loft: 41
+    lie: 64.5
+    length: 35.75
+    swing_weight: D2
+  - club: "PW"
+    loft: 46
+    lie: 65
+    length: 35.25
+    bounce: 7
+    swing_weight: D2
+  - club: "AW"
+    loft: 51
+    lie: 65
+    length: 35.25
+    bounce: 7
+    swing_weight: D2
+  - club: "SW"
+    loft: 56
+    lie: 65
+    length: 35
+    bounce: 12
+    swing_weight: D2
+  - club: "LW"
+    loft: 60
+    lie: 65
+    length: 34.75
+    bounce: 11
+    swing_weight: D2
+stock_shafts:
+  - name: "Nippon NS Pro 990"
+    material: steel
+    flex: ["Uniflex"]
+  - name: "Callaway Fusion graphite"
+    material: graphite
+sources:
+  - "golfclubspec.com iron_results.php?id=226 (Fusion Wide Sole) — steel loft, lie, length, wedge bounce and swing weights, with the note that graphite is 0.25 inch longer at D1 (irons) / D2 (PW-GW) / D3 (SW-LW) and that the stock steel shaft is the NS Pro 990 Uniflex"
+  - "2nd Swing Golf specification table for the Callaway Fusion Wide Sole iron set (2ndswing.com) — corroborates every loft, lie and bounce; its length columns are the graphite and women's builds"
+  - "The Sand Trap review of the Callaway Fusion Wide Sole irons, published 8 October 2006 — supports the 2006 announcement year (sold as a 2007-season model, which is how the range is usually dated) and the super-game-improvement positioning"
+  - "Offset was not published in any source located, so the column is omitted"
+related_models:
+  - slug: "callaway/big-bertha-fusion-irons"
+    label: "Predecessor: Callaway Big Bertha Fusion"
+  - slug: "callaway/ft-i-brid-irons"
+    label: "Successor: Callaway FT i-brid"
+faq:
+  - q: "What is the loft of a Callaway Fusion Wide Sole 7-iron?"
+    a: "The Fusion Wide Sole 7-iron has a loft of 33 degrees, with a 62.5 degree lie and a 36.75 inch steel-shaft length."
+  - q: "What year did the Callaway Fusion Wide Sole irons come out?"
+    a: "Callaway announced the Fusion Wide Sole in late 2006 and sold it as its 2007-season super-game-improvement iron, replacing the original Big Bertha Fusion."
+  - q: "Who are the Fusion Wide Sole irons for?"
+    a: "They are super-game-improvement irons: the wide sole, multi-material head and upright 65 degree wedge lies are aimed at mid- and high-handicap golfers who want maximum forgiveness."
+confidence: medium

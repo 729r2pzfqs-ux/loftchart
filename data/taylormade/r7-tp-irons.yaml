@@ -1,0 +1,116 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: r7 TP
+slug: r7-tp-irons
+club_type: irons
+year_introduced: 2006
+year_discontinued: 2009
+category: players
+construction: investment cast
+material: stainless steel
+successor: Tour Preferred (2009)
+predecessor: rac CB TP
+description: >
+  The r7 TP brought TaylorMade's Inverted Cone face technology to a compact tour-shaped
+  head, replacing the forged rac CB TP as the better-player model above the standard r7.
+  A shallow cavity keeps the centre of gravity high, offset is minimal with a flatter lie
+  than the mainstream r7, and a dampening web of soft aluminium sits in the cavity for
+  feel. Lofts are traditional, with a 35-degree 7-iron and 47-degree pitching wedge
+  across a 2-SW range. Right-handed sets shipped from September 2006 and left-handed from
+  October; TaylorMade's Irons Legacy timeline files the model under 2007, its marketing
+  model year. Specs below are the standard Dynamic Gold steel build.
+specs:
+  - club: "2"
+    loft: 18.0
+    lie: 58.0
+    length: 39.25
+    offset: 0.185
+    swing_weight: D2
+  - club: "3"
+    loft: 21.0
+    lie: 59.0
+    length: 38.75
+    offset: 0.173
+    swing_weight: D2
+  - club: "4"
+    loft: 24.0
+    lie: 60.0
+    length: 38.25
+    offset: 0.157
+    swing_weight: D2
+  - club: "5"
+    loft: 27.0
+    lie: 60.5
+    length: 37.75
+    offset: 0.142
+    swing_weight: D2
+  - club: "6"
+    loft: 31.0
+    lie: 61.0
+    length: 37.25
+    offset: 0.126
+    swing_weight: D2
+  - club: "7"
+    loft: 35.0
+    lie: 61.5
+    length: 36.75
+    offset: 0.110
+    swing_weight: D2
+  - club: "8"
+    loft: 39.0
+    lie: 62.0
+    length: 36.25
+    offset: 0.094
+    swing_weight: D2
+  - club: "9"
+    loft: 43.0
+    lie: 62.5
+    length: 35.75
+    offset: 0.083
+    swing_weight: D2
+  - club: "PW"
+    loft: 47.0
+    lie: 63.0
+    length: 35.5
+    offset: 0.071
+    swing_weight: D3
+  - club: "AW"
+    loft: 51.0
+    lie: 63.0
+    length: 35.5
+    offset: 0.071
+    swing_weight: D3
+  - club: "SW"
+    loft: 55.0
+    lie: 63.0
+    length: 35.25
+    offset: 0.020
+    swing_weight: D5
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+    flex: ["R3", "S3", "X1"]
+  - name: "TaylorMade re*ax TP 115"
+    material: graphite
+    flex: ["R", "S", "X"]
+sources:
+  - "TaylorMade official r7 TP Iron sell sheet (06_r7TP_IRON_SS.pdf, taylormadegolf.com productspecs library): full 2-SW loft/lie/offset-in-mm/length/swingweight table, Dynamic Gold steel (chrome, 124 g, taper tip) stock with re*ax TP115 graphite custom only, Tour Velvet grip; right-hand available in September, left-hand in October"
+  - "Offsets converted from the sheet's millimetre values (4.7 mm 2-iron to 0.5 mm SW)"
+  - "TaylorMade Irons Legacy timeline lists the r7 TP under 2007 (marketing model year); the sell sheet's 06 prefix and autumn availability place the introduction in 2006, matching the rac CB TP file's discontinuation year"
+related_models:
+  - slug: "taylormade/rac-cb-tp-irons"
+    label: "Forged predecessor: TaylorMade rac CB TP"
+  - slug: "taylormade/r7-irons"
+    label: "Mainstream game-improvement sibling: TaylorMade r7"
+  - slug: "taylormade/rac-tp-mb-irons"
+    label: "Muscleback blade sold alongside it: TaylorMade rac TP MB"
+  - slug: "taylormade/tour-preferred-2009-irons"
+    label: "Successor players iron: TaylorMade Tour Preferred (2009)"
+faq:
+  - q: "What is the loft of a TaylorMade r7 TP 7-iron?"
+    a: "The r7 TP 7-iron has a loft of 35 degrees, with a 61.5-degree lie and a 36.75-inch steel-shaft length."
+  - q: "What is the difference between the r7 and r7 TP irons?"
+    a: "The r7 TP uses a smaller tour-shaped head with a shallow cavity, minimal offset, flatter lie angles and traditional lofts (35-degree 7-iron versus 32 on the r7), aimed at better players who want workability while keeping Inverted Cone face technology."
+  - q: "What shafts did the r7 TP come with?"
+    a: "The stock shaft was True Temper Dynamic Gold steel in R3, S3 and X1 flexes; TaylorMade's re*ax TP 115 graphite was available through custom order only."
+confidence: high

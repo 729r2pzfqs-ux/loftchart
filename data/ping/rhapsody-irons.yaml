@@ -1,0 +1,87 @@
+brand: Ping
+brand_slug: ping
+model: Rhapsody
+slug: rhapsody-irons
+club_type: irons
+year_introduced: 2007
+year_discontinued: 2011
+category: super-game-improvement
+construction: investment cast, deep cavity back with Custom Tuning Port
+material: 17-4 stainless steel
+successor: Ping Faith
+predecessor: null
+description: >
+  The 2007 Rhapsody launched Ping's modern line of dedicated women's clubs, a
+  complete driver-through-putter family whose irons are deep cavity backs
+  built light and upright for slower swing speeds. The set blends hybrids
+  into the top end, with matching Rhapsody hybrids replacing the long irons
+  above the 5-iron, and the irons run generous offset - .28 inches at the
+  5-iron - with a 34 degree 7-iron and 46 degree pitching wedge on women's
+  standard lengths about an inch under men's. Specs below are the women's
+  standard build with the stock ULT 129i graphite. Ping revived the Rhapsody
+  name for an unrelated second-generation set in 2015; this entry is the
+  original. The Faith replaced it in 2011.
+specs:
+  - club: "5"
+    loft: 26.0
+    lie: 60.75
+    length: 37.25
+    offset: 0.28
+  - club: "6"
+    loft: 30.0
+    lie: 61.5
+    length: 36.75
+    offset: 0.26
+  - club: "7"
+    loft: 34.0
+    lie: 62.25
+    length: 36.25
+    offset: 0.24
+  - club: "8"
+    loft: 38.0
+    lie: 63.0
+    length: 35.75
+    offset: 0.22
+  - club: "9"
+    loft: 42.0
+    lie: 63.75
+    length: 35.25
+    offset: 0.20
+  - club: "PW"
+    loft: 46.0
+    lie: 64.0
+    length: 35.0
+    offset: 0.18
+  - club: "UW"
+    loft: 51.0
+    lie: 64.0
+    length: 35.0
+    offset: 0.15
+  - club: "SW"
+    loft: 56.0
+    lie: 64.25
+    length: 34.75
+    offset: 0.13
+stock_shafts:
+  - name: "Ping ULT 129i Ultra Lite"
+    material: graphite
+    weight: "ultra light"
+    flex: ["L"]
+sources:
+  - "qsponge.com 'What is loft angle of Ping RHAPSODY Irons' and 2ndswing.com Ping Rhapsody iron set spec tables - matching loft, lie and length rows for 5-iron through SW, with qsponge additionally publishing the offsets recorded here. Compiled from secondary spec databases because the 2007-era ping.com product pages were Flash-based and their spec tables are not recoverable from the Internet Archive."
+  - "Golf Discount and golfbidder Rhapsody combo-set listings - the stock set blends Rhapsody hybrids above the 5-iron, with the 4H at 22 degrees matching a 4-iron/5-wood slot"
+  - "Retail listings across eBay, SidelineSwap, proclubs.com and nearlynewgolfclubs.co.uk - the Ping ULT 129i Ultra Lite ladies graphite is the stock shaft on virtually every surviving set, and cashforgolfclubs.com dates the line to 2007"
+  - "thesandtrap.com 'PING Expands Lineup for 2011' - the Faith line replaced the Rhapsody as Ping's women's family in 2011, which sets year_discontinued on the successor convention"
+related_models:
+  - slug: "ping/faith-irons"
+    label: "Successor: Ping Faith"
+  - slug: "ping/g10-irons"
+    label: "Ping game-improvement iron of the same era: Ping G10"
+faq:
+  - q: "What is the loft of a Ping Rhapsody 7-iron?"
+    a: "The 2007 Ping Rhapsody 7-iron has a loft of 34 degrees, a 62.25 degree lie and a 36.25 inch women's standard graphite length."
+  - q: "Are Ping Rhapsody irons for women?"
+    a: "Yes. The Rhapsody was Ping's dedicated women's line, launched in 2007 as a complete set - driver, fairways, hybrids, irons and putter - built light and upright for slower swing speeds."
+  - q: "Are there two generations of Ping Rhapsody irons?"
+    a: "Yes. The original Rhapsody launched in 2007; Ping reused the name in 2015 for a different second-generation women's set with 24 to 58 degree lofts and ULT 220 shafts. This page covers the 2007 original."
+confidence: medium
