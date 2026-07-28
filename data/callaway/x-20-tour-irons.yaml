@@ -1,0 +1,86 @@
+brand: Callaway
+brand_slug: callaway
+model: X-20 Tour
+slug: x-20-tour-irons
+club_type: irons
+year_introduced: 2007
+year_discontinued: 2009
+category: players
+construction: investment cast
+material: stainless steel
+successor: Callaway X-22 Tour
+predecessor: null
+description: >
+  The X-20 Tour is the better-player version of the 2007 X-20, with a shorter
+  blade, narrower sole, thinner top line and a square toe for workability
+  while keeping the perimeter weighting of the standard head. Its lofts sit
+  one degree weaker than the X-20 through the scoring clubs — a 34 degree
+  7-iron and 46 degree pitching wedge against 33 and 45 — with flatter lies
+  in the short irons and a low 1 to 7 degree bounce ladder. A 2-iron was
+  catalogued, which the standard X-20 did not offer at retail.
+specs:
+  - club: "2"
+    loft: 18.0
+    lie: 59.5
+    length: 39.5
+    bounce: 1.0
+  - club: "3"
+    loft: 21.0
+    lie: 60.0
+    length: 39.0
+    bounce: 1.5
+  - club: "4"
+    loft: 24.0
+    lie: 60.5
+    length: 38.5
+    bounce: 2.0
+  - club: "5"
+    loft: 27.0
+    lie: 61.0
+    length: 38.0
+    bounce: 2.5
+  - club: "6"
+    loft: 30.0
+    lie: 61.5
+    length: 37.5
+    bounce: 3.0
+  - club: "7"
+    loft: 34.0
+    lie: 62.0
+    length: 37.0
+    bounce: 4.0
+  - club: "8"
+    loft: 38.0
+    lie: 62.5
+    length: 36.5
+    bounce: 5.0
+  - club: "9"
+    loft: 42.0
+    lie: 63.0
+    length: 36.0
+    bounce: 6.0
+  - club: "PW"
+    loft: 46.0
+    lie: 63.5
+    length: 35.5
+    bounce: 7.0
+sources:
+  - "Callaway Golf Pre-Owned official product page for the X-20 Tour irons (callawaygolfpreowned.com/iron-sets/irons-x-20-tour.html) — loft, lie, length and bounce for the 2-iron through pitching wedge, plus the shorter blade, narrower sole and thinner top line description"
+  - "2ndswing.com Callaway X-20 Tour Iron Set specification table — agrees cell for cell on loft, lie, length and bounce"
+  - "golfclubspec.com iron specification record for the Callaway X-20 Tour — loft, lie and length agree with both tables (that database files the model under 2006, when the X-20 line was announced; 2007 is used here as the retail model year, matching the standard X-20 entry)"
+  - "Note: swing weight is published only as a paired D2/D3 column whose builds are not labelled, so the field is omitted. Offset was not published in any source located"
+related_models:
+  - slug: "callaway/x-20-irons"
+    label: "Standard model: Callaway X-20"
+  - slug: "callaway/x-22-tour-irons"
+    label: "Successor: Callaway X-22 Tour"
+  - slug: "callaway/x-forged-2007-irons"
+    label: "Callaway's forged players iron of the same year: Callaway X Forged (2007)"
+faq:
+  - q: "What is the loft of a Callaway X-20 Tour 7-iron?"
+    a: "The Callaway X-20 Tour 7-iron has a loft of 34 degrees, a lie of 62 degrees and a 37 inch standard length."
+  - q: "What is the difference between the X-20 and the X-20 Tour?"
+    a: "The X-20 Tour has a shorter blade, narrower sole, thinner top line and square toe, with lofts one degree weaker through the scoring clubs — a 34 degree 7-iron against 33 — and flatter short-iron lies (63.5 degrees at the pitching wedge against 65)."
+  - q: "Is the Callaway X-20 Tour forged?"
+    a: "No. Like the standard X-20 it is investment cast stainless steel; Callaway's forged iron of that generation was the 2007 X-Forged."
+confidence: high

@@ -1,0 +1,92 @@
+brand: Mizuno
+brand_slug: mizuno
+model: MX-19
+slug: mx-19-irons
+club_type: irons
+year_introduced: 2008
+year_discontinued: 2009
+category: players-distance
+construction: investment cast with a pocket cavity
+material: stainless steel
+successor: null
+predecessor: null
+description: >
+  The MX-19 took over the cast, forgiving end of Mizuno's MX range from the
+  MX-17 in 2008, running alongside the forged MX-25. It is an investment-cast
+  pocket cavity with heavy offset — 0.230 inches at the 4-iron — and very low
+  bounce at the top of the set, including a slightly negative 4-iron. Lofts
+  are conventional for the late 2000s, 34 degrees at the 7-iron and 46 at the
+  pitching wedge, and the catalogued set runs 4-iron through a 55-degree sand
+  wedge. Figures are the men's standard steel build.
+specs:
+  - club: "4"
+    loft: 23.0
+    lie: 60.0
+    length: 38.25
+    offset: 0.230
+    bounce: -0.5
+  - club: "5"
+    loft: 26.0
+    lie: 60.5
+    length: 37.75
+    offset: 0.210
+    bounce: 0.0
+  - club: "6"
+    loft: 30.0
+    lie: 61.0
+    length: 37.25
+    offset: 0.190
+    bounce: 1.0
+  - club: "7"
+    loft: 34.0
+    lie: 61.5
+    length: 36.75
+    offset: 0.170
+    bounce: 2.0
+  - club: "8"
+    loft: 38.0
+    lie: 62.0
+    length: 36.25
+    offset: 0.150
+    bounce: 3.0
+  - club: "9"
+    loft: 42.0
+    lie: 62.5
+    length: 35.75
+    offset: 0.130
+    bounce: 4.0
+  - club: "PW"
+    loft: 46.0
+    lie: 63.0
+    length: 35.5
+    offset: 0.110
+    bounce: 5.0
+  - club: "GW"
+    loft: 50.0
+    lie: 63.0
+    length: 35.25
+    offset: 0.090
+    bounce: 6.0
+  - club: "SW"
+    loft: 55.0
+    lie: 63.0
+    length: 35.25
+    offset: 0.070
+    bounce: 10.0
+sources:
+  - "discountgolfworld.com Mizuno MX-19 specifications tab (loft, lie, offset, length, bounce, 4-SW), as reposted on forums.golfwrx.com thread 'Need Mizuno MX-19 Iron Specs/Offset', July 2019"
+  - "golfclubspec.com iron specification database via qsponge.com (independently corroborates loft and lie; also lists a 20-degree 3-iron that was not part of the standard retail set)"
+  - "mizunogolf.com irons timeline dates the MX-19 to 2007-2008; UK and US reviews appeared in early 2008, so year_introduced is recorded as 2008"
+related_models:
+  - slug: "mizuno/mx-17-irons"
+    label: "Predecessor: Mizuno MX-17"
+  - slug: "mizuno/mx-200-irons"
+    label: "Next generation of the MX range: Mizuno MX-200"
+faq:
+  - q: "What is the loft of a Mizuno MX-19 7-iron?"
+    a: "The Mizuno MX-19 7-iron has a loft of 34 degrees, with a 61.5-degree lie and a 36.75-inch steel-shaft length."
+  - q: "Are the Mizuno MX-19 irons forged or cast?"
+    a: "The MX-19 is investment cast from stainless steel; within the same MX generation, the forged alternative was the MX-25."
+  - q: "What clubs came in the Mizuno MX-19 set?"
+    a: "The catalogued set ran 4-iron through sand wedge, with a 46-degree pitching wedge, 50-degree gap wedge and 55-degree sand wedge."
+confidence: medium

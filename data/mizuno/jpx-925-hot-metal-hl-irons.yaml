@@ -1,0 +1,83 @@
+brand: Mizuno
+brand_slug: mizuno
+model: JPX-925 Hot Metal HL
+slug: jpx-925-hot-metal-hl-irons
+club_type: irons
+year_introduced: 2024
+year_discontinued: null
+category: super-game-improvement
+construction: cast multi-material with a thin face and tungsten weighting
+material: Nickel Chromoly 4335 with tungsten weighting in the 4 to 7 irons
+successor: null
+predecessor: JPX-923 Hot Metal HL
+description: >
+  The JPX-925 Hot Metal HL is the high-launch model of the 2024 JPX family,
+  built on the same Nickel Chromoly chassis and Contour Ellipse face as the
+  standard JPX-925 Hot Metal but with lofts three degrees weaker — a 31-degree
+  7-iron against 28 — and the most offset in the range at 0.260 inches on the
+  4-iron. Unlike the previous HL generation it is catalogued from a 4-iron,
+  running through a 55-degree sand wedge, in right hand only. Lofts, lies and
+  lengths listed are the men's standard steel-shaft build.
+specs:
+  - club: "4"
+    loft: 22.0
+    lie: 60.5
+    length: 38.75
+    offset: 0.260
+  - club: "5"
+    loft: 25.0
+    lie: 61.0
+    length: 38.25
+    offset: 0.248
+  - club: "6"
+    loft: 28.0
+    lie: 61.5
+    length: 37.75
+    offset: 0.236
+  - club: "7"
+    loft: 31.0
+    lie: 62.0
+    length: 37.25
+    offset: 0.224
+  - club: "8"
+    loft: 35.0
+    lie: 62.5
+    length: 36.75
+    offset: 0.197
+  - club: "9"
+    loft: 40.0
+    lie: 63.0
+    length: 36.25
+    offset: 0.169
+  - club: "PW"
+    loft: 45.0
+    lie: 63.5
+    length: 35.75
+    offset: 0.142
+  - club: "GW"
+    loft: 50.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.122
+  - club: "SW"
+    loft: 55.0
+    lie: 64.0
+    length: 35.25
+    offset: 0.102
+sources:
+  - "mizunogolf.com JPX925 Hot Metal series club-specification page (manufacturer table: loft, lie, offset, length, 4-SW, RH only)"
+  - "todays-golfer.com Mizuno JPX 925 Hot Metal HL review (corroborates the high-launch positioning and 2024 launch)"
+  - "Bounce and swing weight are not published on the manufacturer specification page and are omitted"
+related_models:
+  - slug: "mizuno/jpx-925-hot-metal-irons"
+    label: "Standard-loft model of the same generation: Mizuno JPX-925 Hot Metal"
+  - slug: "mizuno/jpx-923-hot-metal-hl-irons"
+    label: "Predecessor: Mizuno JPX-923 Hot Metal HL"
+faq:
+  - q: "What is the loft of a Mizuno JPX-925 Hot Metal HL 7-iron?"
+    a: "The Mizuno JPX-925 Hot Metal HL 7-iron has a loft of 31 degrees, with a 62-degree lie and a 37.25-inch steel-shaft length."
+  - q: "How does the JPX-925 Hot Metal HL differ from the standard Hot Metal?"
+    a: "Lofts are three degrees weaker throughout — a 31-degree 7-iron against 28 — with more offset (0.260 against 0.224 inches at the 4-iron), which raises launch for moderate swing speeds."
+  - q: "What clubs are in the JPX-925 Hot Metal HL set?"
+    a: "It is catalogued 4-iron through sand wedge: a 45-degree pitching wedge, 50-degree gap wedge and 55-degree sand wedge, available in right hand only."
+confidence: high

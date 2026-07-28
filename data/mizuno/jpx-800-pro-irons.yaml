@@ -1,0 +1,98 @@
+brand: Mizuno
+brand_slug: mizuno
+model: JPX-800 Pro
+slug: jpx-800-pro-irons
+club_type: irons
+year_introduced: 2010
+year_discontinued: 2012
+category: players
+construction: Grain Flow Forged with an undercut cavity
+material: 1025E Pure Select mild carbon steel
+successor: JPX-825 Pro
+predecessor: null
+description: >
+  The JPX-800 Pro is the forged, compact partner to the cast JPX-800 in the
+  first JPX generation, unveiled in autumn 2010 and a 2011 Golf Digest Hot List
+  gold medalist. It is Grain Flow Forged from 1025E carbon steel with an
+  undercut cavity that thins the face for speed, and a Triple Cut sole. Lofts
+  sit between the MX line it replaced and the distance-first JPX-800 — 33
+  degrees at the 7-iron and 45 at the pitching wedge — with a moderate offset
+  ladder from 0.171 inches at the 3-iron. The catalogued range is 3-iron
+  through a 50-degree gap wedge. Figures are the men's standard steel build.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 59.5
+    length: 38.75
+    offset: 0.171
+    bounce: 1.0
+  - club: "4"
+    loft: 23.0
+    lie: 60.0
+    length: 38.25
+    offset: 0.161
+    bounce: 2.0
+  - club: "5"
+    loft: 26.0
+    lie: 60.5
+    length: 37.75
+    offset: 0.154
+    bounce: 2.0
+  - club: "6"
+    loft: 29.0
+    lie: 61.0
+    length: 37.25
+    offset: 0.146
+    bounce: 2.0
+  - club: "7"
+    loft: 33.0
+    lie: 61.5
+    length: 36.75
+    offset: 0.134
+    bounce: 3.0
+  - club: "8"
+    loft: 37.0
+    lie: 62.0
+    length: 36.25
+    offset: 0.122
+    bounce: 4.0
+  - club: "9"
+    loft: 41.0
+    lie: 62.5
+    length: 35.75
+    offset: 0.110
+    bounce: 5.0
+  - club: "PW"
+    loft: 45.0
+    lie: 63.0
+    length: 35.5
+    offset: 0.102
+    bounce: 6.0
+  - club: "GW"
+    loft: 50.0
+    lie: 63.0
+    length: 35.25
+    offset: 0.102
+    bounce: 7.0
+stock_shafts:
+  - name: "True Temper Dynamic Gold XP"
+    material: steel
+sources:
+  - "golfclubspec.com iron specification database, entry 264 (Mizuno JPX-800 PRO): loft, lie, length, offset, bounce, stock shaft Dynamic Gold XP"
+  - "2ndswing.com Mizuno JPX 800 Pro Iron Set specification table (independently corroborates loft/lie/length, 3-PW; notes the 2011 Golf Digest Hot List gold star)"
+  - "year_introduced 2010 is the announcement year — the JPX-800 family was unveiled in autumn 2010 with US retail in 2011; year_discontinued 2012 is the announcement of the JPX-825 Pro that replaced it (mizunogolf.com irons timeline lists the model's US retail years as 2012-2013)"
+related_models:
+  - slug: "mizuno/jpx-800-irons"
+    label: "Cast distance model of the same generation: Mizuno JPX-800"
+  - slug: "mizuno/jpx-825-pro-irons"
+    label: "Successor: Mizuno JPX-825 Pro"
+  - slug: "mizuno/mx-300-irons"
+    label: "Forged predecessor line: Mizuno MX-300"
+faq:
+  - q: "What is the loft of a Mizuno JPX-800 Pro 7-iron?"
+    a: "The Mizuno JPX-800 Pro 7-iron has a loft of 33 degrees, with a 61.5-degree lie and a 36.75-inch steel-shaft length."
+  - q: "What is the difference between the JPX-800 and the JPX-800 Pro?"
+    a: "The JPX-800 is a cast, strong-lofted distance iron with a 32-degree 7-iron and heavy offset, while the JPX-800 Pro is Grain Flow Forged from carbon steel with a 33-degree 7-iron, a smaller head and much less offset — 0.171 inches at the 3-iron against 0.209 at the JPX-800's 4-iron."
+  - q: "Are the Mizuno JPX-800 Pro irons forged?"
+    a: "Yes. They are Grain Flow Forged from 1025E Pure Select mild carbon steel, with an undercut cavity that thins the face for extra ball speed."
+confidence: medium

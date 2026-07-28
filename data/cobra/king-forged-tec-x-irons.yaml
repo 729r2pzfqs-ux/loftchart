@@ -1,0 +1,90 @@
+brand: Cobra
+brand_slug: cobra
+model: KING Forged Tec X
+slug: king-forged-tec-x-irons
+club_type: irons
+year_introduced: 2022
+year_discontinued: null
+category: players-distance
+construction: forged hollow body with a PWRSHELL face, foam-filled, tungsten weighted
+material: forged body with a thin forged PWRSHELL face and a 65-gram internal tungsten weight
+predecessor: null
+successor: null
+description: >
+  The KING Forged Tec X is the larger, more forgiving sibling of Cobra's 2022
+  KING Forged Tec: the same hollow-body, foam-filled construction with a thin
+  forged PWRSHELL face, but with a 65-gram internal tungsten weight — 45 grams
+  more than the standard Forged Tec — a slightly thicker top line, a wider sole
+  and more offset. Cobra pitched it at players who want game-improvement
+  distance and stability in a forged-looking head. Lofts are very strong, with
+  a 27-degree 7-iron and a 42-degree pitching wedge, and the stock set is 4-PW
+  or 5-GW. Offsets below are converted from Cobra's published millimetre
+  figures, and lengths and swing weights are the steel-shaft values.
+specs:
+  - club: "4"
+    loft: 19.0
+    lie: 62.0
+    length: 38.75
+    offset: 0.165
+    swing_weight: D0
+  - club: "5"
+    loft: 21.0
+    lie: 62.5
+    length: 38.25
+    offset: 0.150
+    swing_weight: D0
+  - club: "6"
+    loft: 24.0
+    lie: 63.0
+    length: 37.75
+    offset: 0.134
+    swing_weight: D0
+  - club: "7"
+    loft: 27.0
+    lie: 63.5
+    length: 37.25
+    offset: 0.118
+    swing_weight: D0
+  - club: "8"
+    loft: 31.5
+    lie: 64.0
+    length: 36.75
+    offset: 0.102
+    swing_weight: D0
+  - club: "9"
+    loft: 36.5
+    lie: 64.5
+    length: 36.25
+    offset: 0.087
+    swing_weight: D0
+  - club: "PW"
+    loft: 42.0
+    lie: 65.0
+    length: 36.0
+    offset: 0.071
+    swing_weight: D1
+  - club: "GW"
+    loft: 48.0
+    lie: 65.0
+    length: 35.75
+    offset: 0.059
+    swing_weight: D1
+sources:
+  - "Cobra Golf official Forged Tec X irons product page, archived 2022-11-30 via web.archive.org — full specification table (model, loft, lie angle, offset in mm, length, graphite and steel flex and swing weight, RH/LH) for the 4-iron through gap wedge, the 4-PW / 5-GW set options, and the hollow-body / forged PWRSHELL face / 65g tungsten construction description. Offsets are converted from millimetres to inches here."
+  - "Golfalot review of the Cobra KING Forged Tec X 2022 irons — corroborates the 27-degree 7-iron, the 65g tungsten weight (45g more than the standard Forged Tec), the foam-filled hollow body and the larger profile with more offset"
+  - "Today's Golfer 2022 Cobra KING Forged Tec family review — corroborates the Forged Tec X positioning as the wider-soled, stronger-lofted model of the 2022 Forged Tec line"
+related_models:
+  - slug: "cobra/king-forged-tec-2022-irons"
+    label: "Compact sibling: Cobra KING Forged Tec (2022)"
+  - slug: "cobra/king-forged-tec-irons"
+    label: "Original 2016 model: Cobra KING Forged Tec"
+  - slug: "cobra/ltdx-irons"
+    label: "Cobra's 2022 game-improvement iron: Cobra LTDx"
+faq:
+  - q: "What is the loft of a Cobra KING Forged Tec X 7-iron?"
+    a: "The Cobra KING Forged Tec X 7-iron has a loft of 27 degrees, a lie of 63.5 degrees and a length of 37.25 inches — one of the strongest-lofted 7-irons of its era."
+  - q: "What is the difference between the KING Forged Tec and Forged Tec X?"
+    a: "Both are hollow, foam-filled irons with a forged PWRSHELL face. The Tec X carries a 65-gram tungsten weight (45 grams more than the standard Forged Tec), a thicker top line, a wider sole, more offset and stronger lofts — 27 degrees at the 7-iron against the standard model's 29.5."
+  - q: "Who is the Cobra KING Forged Tec X for?"
+    a: "Cobra aimed it at mid-to-high handicappers who want game-improvement forgiveness and distance in a forged-looking head; reviewers labelled it a 'players game-improvement' iron."
+confidence: high

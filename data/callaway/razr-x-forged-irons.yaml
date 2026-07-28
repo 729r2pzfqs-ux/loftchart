@@ -1,0 +1,103 @@
+brand: Callaway
+brand_slug: callaway
+model: RAZR X Forged
+slug: razr-x-forged-irons
+club_type: irons
+year_introduced: 2011
+year_discontinued: 2012
+category: players
+construction: triple-net forged
+material: 1020 carbon steel
+successor: Callaway X Forged (2013)
+predecessor: Callaway X Forged (2009)
+description: >
+  RAZR X Forged was the elite model of the RAZR X line announced on 20
+  January 2011, and the only forged head in it: 1020 carbon steel shaped with
+  Callaway's Triple Net Forging process, a shallow cavity back and tightly
+  spaced Tour CC grooves. It took over from the 2009 X-Forged and carried its
+  loft, lie and length ladder forward unchanged — a 35 degree 7-iron and a
+  47 degree pitching wedge from the 2-iron down — adding a 51 degree
+  approach wedge. The 2013 X Forged replaced it when the X name returned.
+specs:
+  - club: "2"
+    loft: 18.0
+    lie: 59.5
+    length: 39.5
+    bounce: 2.0
+    swing_weight: D2
+  - club: "3"
+    loft: 21.0
+    lie: 60.0
+    length: 39.0
+    bounce: 2.0
+    swing_weight: D2
+  - club: "4"
+    loft: 24.0
+    lie: 60.5
+    length: 38.5
+    bounce: 3.0
+    swing_weight: D2
+  - club: "5"
+    loft: 27.0
+    lie: 61.0
+    length: 38.0
+    bounce: 4.0
+    swing_weight: D2
+  - club: "6"
+    loft: 31.0
+    lie: 61.5
+    length: 37.5
+    bounce: 5.0
+    swing_weight: D2
+  - club: "7"
+    loft: 35.0
+    lie: 62.0
+    length: 37.0
+    bounce: 6.0
+    swing_weight: D2
+  - club: "8"
+    loft: 39.0
+    lie: 62.5
+    length: 36.5
+    bounce: 7.0
+    swing_weight: D2
+  - club: "9"
+    loft: 43.0
+    lie: 63.0
+    length: 36.0
+    bounce: 8.0
+    swing_weight: D2
+  - club: "PW"
+    loft: 47.0
+    lie: 63.5
+    length: 35.5
+    bounce: 9.0
+    swing_weight: D2
+  - club: "AW"
+    loft: 51.0
+    lie: 64.0
+    length: 35.5
+    bounce: 12.0
+    swing_weight: D2
+sources:
+  - "Callaway Golf Pre-Owned official product page for the RAZR X Forged irons (callawaygolfpreowned.com/iron-sets/irons-razr-x-forged.html) — loft, lie, length, bounce and swing weight for the 2-iron through approach wedge, plus the 1020 carbon steel construction"
+  - "qsponge.com reproduction of the Callaway spec feed for the RAZR X Forged irons — agrees cell for cell with the Callaway page"
+  - "prnewswire.com 'Callaway Golf Introduces New RAZR X Line of Irons', 20 January 2011 — the RAZR X Forged was announced with the line on that date, with retail availability from 18 February 2011. year_discontinued is 2012, the year its successor, the 2013 X Forged, was first shown (November 2012)"
+  - "Note: both spec sources are Callaway-authored surfaces, which is why confidence is held at medium despite their agreement. Offset was not published, so the column is omitted rather than estimated"
+related_models:
+  - slug: "callaway/x-forged-2009-irons"
+    label: "Predecessor: Callaway X Forged (2009)"
+  - slug: "callaway/x-forged-2013-irons"
+    label: "Successor: Callaway X Forged (2013)"
+  - slug: "callaway/razr-x-irons"
+    label: "Game-improvement model of the same line: Callaway RAZR X"
+  - slug: "callaway/razr-x-tour-irons"
+    label: "Cast better-player model of the same line: Callaway RAZR X Tour"
+faq:
+  - q: "What is the loft of a Callaway RAZR X Forged 7-iron?"
+    a: "The Callaway RAZR X Forged 7-iron has a loft of 35 degrees, a lie of 62 degrees and a 37 inch standard length."
+  - q: "Are the Callaway RAZR X Forged irons really forged?"
+    a: "Yes. Unlike the cast RAZR X and RAZR X Tour, the RAZR X Forged is 1020 carbon steel shaped with Callaway's Triple Net Forging process."
+  - q: "How do RAZR X Forged lofts compare to the X-Forged irons?"
+    a: "They are identical to the 2009 X-Forged from the 2-iron through pitching wedge — a 35 degree 7-iron and 47 degree pitching wedge — with a 51 degree approach wedge added to the set."
+confidence: medium

@@ -1,0 +1,106 @@
+brand: Mizuno
+brand_slug: mizuno
+model: MX-200
+slug: mx-200-irons
+club_type: irons
+year_introduced: 2009
+year_discontinued: 2010
+category: game-improvement
+construction: Grain Flow Forged with a Y-Tune pocket cavity
+material: 1025E Pure Select mild carbon steel
+successor: null
+predecessor: null
+description: >
+  The MX-200 is the last forged game-improvement iron of Mizuno's MX era,
+  launched in 2009 and effectively replaced when the JPX-800 family arrived a
+  year later. It is Grain Flow Forged in one piece with a deep milled pocket
+  cavity and a Y-shaped reinforcement pad — Mizuno's Y-Tune design — that
+  pushes the sweet area toward the toe. Lofts are moderate for the category,
+  33 degrees at the 7-iron and 45 at the pitching wedge, with a full offset
+  ladder from 0.211 inches at the 3-iron. The typical retail set was 4-iron
+  through gap wedge, with the 3-iron and a 55-degree sand wedge catalogued.
+  Figures are the men's standard steel build.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 59.5
+    length: 38.75
+    offset: 0.211
+    bounce: 1.0
+  - club: "4"
+    loft: 23.0
+    lie: 60.0
+    length: 38.25
+    offset: 0.201
+    bounce: 2.0
+  - club: "5"
+    loft: 26.0
+    lie: 60.5
+    length: 37.75
+    offset: 0.191
+    bounce: 2.0
+  - club: "6"
+    loft: 29.0
+    lie: 61.0
+    length: 37.25
+    offset: 0.181
+    bounce: 2.0
+  - club: "7"
+    loft: 33.0
+    lie: 61.5
+    length: 36.75
+    offset: 0.171
+    bounce: 3.0
+  - club: "8"
+    loft: 37.0
+    lie: 62.0
+    length: 36.25
+    offset: 0.161
+    bounce: 4.0
+  - club: "9"
+    loft: 41.0
+    lie: 62.5
+    length: 35.75
+    offset: 0.152
+    bounce: 5.0
+  - club: "PW"
+    loft: 45.0
+    lie: 63.0
+    length: 35.5
+    offset: 0.142
+    bounce: 6.0
+  - club: "GW"
+    loft: 50.0
+    lie: 63.0
+    length: 35.25
+    offset: 0.122
+    bounce: 7.0
+  - club: "SW"
+    loft: 55.0
+    lie: 63.0
+    length: 35.25
+    offset: 0.102
+    bounce: 12.0
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+sources:
+  - "Full specification table (loft, lie, offset, bounce, length, 3-SW) as reposted on forums.golfwrx.com thread 'Mizuno MX200 Iron specs?', March 2025"
+  - "golfclubspec.com iron specification database via qsponge.com (independently corroborates loft and lie, 3-PW)"
+  - "todays-golfer.com Mizuno MX200 review (2009 release, Grain Flow Forged 1025E, Y-Tune pocket cavity); thehackersparadise.com review confirms the 4-GW retail set and Dynamic Gold S300 stock shaft"
+  - "year_introduced 2009 per the Today's Golfer review and the mizunogolf.com irons timeline (2009-2010); the model is sometimes listed as 2008, but no 2008 source was found"
+related_models:
+  - slug: "mizuno/mx-25-irons"
+    label: "Earlier forged MX model: Mizuno MX-25"
+  - slug: "mizuno/mx-300-irons"
+    label: "Compact partner of the same generation: Mizuno MX-300"
+  - slug: "mizuno/jpx-800-irons"
+    label: "Replaced in the range by: Mizuno JPX-800"
+faq:
+  - q: "What is the loft of a Mizuno MX-200 7-iron?"
+    a: "The Mizuno MX-200 7-iron has a loft of 33 degrees, with a 61.5-degree lie and a 36.75-inch steel-shaft length."
+  - q: "Are the Mizuno MX-200 irons forged?"
+    a: "Yes. They are Grain Flow Forged in one piece from 1025E Pure Select mild carbon steel, with a milled pocket cavity behind the face."
+  - q: "What replaced the Mizuno MX-200?"
+    a: "Mizuno retired the MX line after the MX-200 and MX-300; the cast JPX-800 and forged JPX-800 Pro, launched in 2010, took over their slots in the range."
+confidence: medium

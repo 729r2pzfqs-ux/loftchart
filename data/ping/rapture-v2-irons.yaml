@@ -1,0 +1,112 @@
+brand: Ping
+brand_slug: ping
+model: Rapture V2
+slug: rapture-v2-irons
+club_type: irons
+year_introduced: 2008
+year_discontinued: 2010
+category: game-improvement
+construction: multi-material cast body with titanium face and tungsten weighting
+material: stainless steel body, titanium face, tungsten sole weight
+successor: null
+predecessor: Ping Rapture
+description: >
+  The Rapture V2 is the 2008 second generation of Ping's premium multi-material
+  line, announced in late summer 2008 with retail into 2009, when it took a
+  Golf Digest Hot List silver medal in the maximum-forgiveness class. The
+  three-part head — stainless steel body, titanium face, tungsten sole weight
+  — returns with lofts strengthened two degrees over the original Rapture, to
+  32 degrees at the 7-iron and 45 at the pitching wedge, for more distance
+  from the same high-launch weighting. The catalogued range is 3-iron through
+  lob wedge. Lies below are the BLACK (standard) colour code of Ping's dot
+  fitting system.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 59.25
+    length: 38.75
+    offset: 0.32
+    swing_weight: D0
+  - club: "4"
+    loft: 23.0
+    lie: 60.0
+    length: 38.25
+    offset: 0.30
+    swing_weight: D0
+  - club: "5"
+    loft: 26.0
+    lie: 60.75
+    length: 37.75
+    offset: 0.28
+    swing_weight: D0
+  - club: "6"
+    loft: 29.0
+    lie: 61.5
+    length: 37.25
+    offset: 0.26
+    swing_weight: D0
+  - club: "7"
+    loft: 32.0
+    lie: 62.25
+    length: 36.75
+    offset: 0.24
+    swing_weight: D0
+  - club: "8"
+    loft: 36.0
+    lie: 63.0
+    length: 36.25
+    offset: 0.22
+    swing_weight: D0
+  - club: "9"
+    loft: 40.0
+    lie: 63.75
+    length: 35.75
+    offset: 0.20
+    swing_weight: D0
+  - club: "PW"
+    loft: 45.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.18
+    swing_weight: D2
+  - club: "UW"
+    loft: 50.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.16
+    swing_weight: D2
+  - club: "SW"
+    loft: 54.0
+    lie: 64.25
+    length: 35.25
+    offset: 0.14
+    swing_weight: D4
+  - club: "LW"
+    loft: 58.0
+    lie: 64.5
+    length: 35.0
+    offset: 0.12
+    swing_weight: D6
+stock_shafts:
+  - name: "Ping AWT"
+    material: steel
+  - name: "Ping TFC 939I"
+    material: graphite
+sources:
+  - "2ndswing.com Ping Rapture V2 iron set specification table (loft, lie, length, offset, swing weight, 3-LW; stock AWT steel and TFC 939I graphite)"
+  - "golfclubspec.com iron specification database via qsponge.com (independently corroborates loft, lie and length)"
+  - "mygolfspy.com and golfmonthly.com Rapture V2 launch coverage (family announced August-September 2008, so year_introduced is 2008 on the announcement convention; retailers list it as a 2009 model); Golf Digest 2009 Hot List silver in the super-game-improvement class"
+  - "Per-club bounce was not published in the sources located and is omitted"
+related_models:
+  - slug: "ping/rapture-irons"
+    label: "Predecessor: Ping Rapture"
+  - slug: "ping/g10-irons"
+    label: "Mainstream Ping model of the same era: Ping G10"
+faq:
+  - q: "What is the loft of a Ping Rapture V2 7-iron?"
+    a: "The Ping Rapture V2 7-iron has a loft of 32 degrees, with a 62.25-degree standard lie and a 36.75-inch steel-shaft length."
+  - q: "How do the Rapture V2 lofts compare with the original Rapture?"
+    a: "They are two degrees stronger through the set — a 32-degree 7-iron against 34, and a 45-degree pitching wedge against 46 — which, combined with the low tungsten weighting, was Ping's route to more distance at the same launch."
+  - q: "What are Ping Rapture V2 irons made of?"
+    a: "Each head is a three-part multi-material design: a stainless steel body, a titanium face and a tungsten sole weight, giving a high moment of inertia in an oversize head."
+confidence: medium

@@ -1,0 +1,98 @@
+brand: Callaway
+brand_slug: callaway
+model: RAZR X Tour
+slug: razr-x-tour-irons
+club_type: irons
+year_introduced: 2011
+year_discontinued: 2012
+category: players
+construction: investment cast
+material: stainless steel
+successor: Callaway X Hot Pro
+predecessor: Callaway X-22 Tour
+description: >
+  RAZR X Tour was the better-player model in the RAZR X line Callaway
+  announced on 20 January 2011, sitting between the game-improvement RAZR X
+  and the forged RAZR X Forged. It is a cast iron for low-to-mid handicap
+  players, with a more compact head than the RAZR X and lofts a degree
+  weaker through most of the set — a 33 degree 7-iron and 45 degree pitching
+  wedge — on the same 63.5 degree short-iron lie plane as Callaway's earlier
+  Tour models rather than the upright 65 degrees of the standard head. A 50
+  degree approach wedge extended the set.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 60.0
+    length: 39.0
+    bounce: 2.0
+    swing_weight: D2
+  - club: "4"
+    loft: 23.0
+    lie: 60.5
+    length: 38.5
+    bounce: 3.0
+    swing_weight: D2
+  - club: "5"
+    loft: 26.0
+    lie: 61.0
+    length: 38.0
+    bounce: 3.5
+    swing_weight: D2
+  - club: "6"
+    loft: 29.0
+    lie: 61.5
+    length: 37.5
+    bounce: 4.0
+    swing_weight: D2
+  - club: "7"
+    loft: 33.0
+    lie: 62.0
+    length: 37.0
+    bounce: 5.0
+    swing_weight: D2
+  - club: "8"
+    loft: 37.0
+    lie: 62.5
+    length: 36.5
+    bounce: 6.0
+    swing_weight: D2
+  - club: "9"
+    loft: 41.0
+    lie: 63.0
+    length: 36.0
+    bounce: 7.0
+    swing_weight: D2
+  - club: "PW"
+    loft: 45.0
+    lie: 63.5
+    length: 35.5
+    bounce: 9.0
+    swing_weight: D2
+  - club: "AW"
+    loft: 50.0
+    lie: 63.5
+    length: 35.5
+    bounce: 12.0
+    swing_weight: D2
+sources:
+  - "Callaway Golf Pre-Owned official product page for the RAZR X Tour irons (callawaygolfpreowned.com/iron-sets/irons-razr-x-tour.html) — loft, lie, length, bounce and swing weight for the 3-iron through approach wedge, plus the low-to-mid handicap positioning"
+  - "2ndswing.com Callaway RAZR X Tour Iron Set specification table — agrees cell for cell on loft, lie, length and bounce"
+  - "prnewswire.com 'Callaway Golf Introduces New RAZR X Line of Irons', 20 January 2011 — the RAZR X Tour was announced with the line on that date, with retail availability from 18 February 2011. year_discontinued is 2012, the year the successor X Hot Pro was announced (17 December 2012), matching the convention of the X Hot entries"
+  - "Note: offset was not published in the sources located, so the column is omitted rather than estimated"
+related_models:
+  - slug: "callaway/razr-x-irons"
+    label: "Standard model: Callaway RAZR X"
+  - slug: "callaway/x-22-tour-irons"
+    label: "Predecessor: Callaway X-22 Tour"
+  - slug: "callaway/razr-x-forged-irons"
+    label: "Forged model announced alongside it: Callaway RAZR X Forged"
+  - slug: "callaway/x-hot-pro-irons"
+    label: "Successor: Callaway X Hot Pro"
+faq:
+  - q: "What is the loft of a Callaway RAZR X Tour 7-iron?"
+    a: "The Callaway RAZR X Tour 7-iron has a loft of 33 degrees, a lie of 62 degrees and a 37 inch standard length."
+  - q: "What is the difference between the RAZR X and the RAZR X Tour?"
+    a: "The RAZR X Tour has a more compact head with lofts a degree weaker through most of the set — a 33 degree 7-iron against 32 — and flatter short-iron lies of 63.5 degrees against 65 on the standard RAZR X."
+  - q: "Is the Callaway RAZR X Tour forged?"
+    a: "No, it is a cast stainless steel head. The forged iron in the 2011 RAZR line was the RAZR X Forged, a separate model with its own specifications."
+confidence: high

@@ -1,0 +1,90 @@
+brand: Callaway
+brand_slug: callaway
+model: X-22 Tour
+slug: x-22-tour-irons
+club_type: irons
+year_introduced: 2009
+year_discontinued: 2011
+category: players
+construction: investment cast
+material: stainless steel
+successor: Callaway RAZR X Tour
+predecessor: Callaway X-20 Tour
+description: >
+  The X-22 Tour is the compact, better-player version of the X-22, unveiled
+  at the Golf Europe show in October 2008 as a 2009 model alongside the 2009
+  X-Forged. It keeps the notched perimeter weighting of the standard head on
+  a smaller profile with a thinner top line, less offset and a sleeker hosel
+  that lowers the centre of gravity. Lofts run one degree weaker than the
+  standard X-22 through the scoring clubs, with a 34 degree 7-iron and a 46
+  degree pitching wedge, and the lie ladder tops out at a flat 63.5 degrees
+  rather than the standard model's 65.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 60.0
+    length: 39.0
+    bounce: 2.0
+    swing_weight: D2
+  - club: "4"
+    loft: 24.0
+    lie: 60.5
+    length: 38.5
+    bounce: 2.5
+    swing_weight: D2
+  - club: "5"
+    loft: 27.0
+    lie: 61.0
+    length: 38.0
+    bounce: 3.0
+    swing_weight: D2
+  - club: "6"
+    loft: 30.0
+    lie: 61.5
+    length: 37.5
+    bounce: 4.0
+    swing_weight: D2
+  - club: "7"
+    loft: 34.0
+    lie: 62.0
+    length: 37.0
+    bounce: 5.0
+    swing_weight: D2
+  - club: "8"
+    loft: 38.0
+    lie: 62.5
+    length: 36.5
+    bounce: 6.0
+    swing_weight: D2
+  - club: "9"
+    loft: 42.0
+    lie: 63.0
+    length: 36.0
+    bounce: 7.0
+    swing_weight: D2
+  - club: "PW"
+    loft: 46.0
+    lie: 63.5
+    length: 35.5
+    bounce: 8.0
+    swing_weight: D3
+sources:
+  - "Callaway Golf Pre-Owned official product page for the X-22 Tour irons (callawaygolfpreowned.com/iron-sets/irons-x-22-tour.html) — loft, lie, length, bounce and swing weight for the 3-iron through pitching wedge, including the D3 pitching wedge"
+  - "2ndswing.com Callaway X-22 Tour Iron Set specification table — agrees cell for cell on loft, lie, length and bounce"
+  - "Golf Monthly 'Callaway X-22, X-22 Tour and X-Forged irons 09' — the X-22 Tour was unveiled at Golf Europe in Munich in October 2008 as a 2009-season model, with the sleeker hosel lowering and centring the centre of gravity"
+  - "Note: offset was not published in the sources located, so the column is omitted rather than estimated"
+related_models:
+  - slug: "callaway/x-22-irons"
+    label: "Standard model: Callaway X-22"
+  - slug: "callaway/x-20-tour-irons"
+    label: "Predecessor: Callaway X-20 Tour"
+  - slug: "callaway/razr-x-tour-irons"
+    label: "Successor: Callaway RAZR X Tour"
+faq:
+  - q: "What is the loft of a Callaway X-22 Tour 7-iron?"
+    a: "The Callaway X-22 Tour 7-iron has a loft of 34 degrees, a lie of 62 degrees and a 37 inch standard length."
+  - q: "What is the difference between the X-22 and the X-22 Tour?"
+    a: "The X-22 Tour has a smaller head, thinner top line, less offset and lofts one degree weaker through the scoring clubs — a 34 degree 7-iron against 33 — with much flatter short-iron lies: 63.5 degrees at the pitching wedge against 65 on the standard X-22."
+  - q: "When was the Callaway X-22 Tour released?"
+    a: "It was unveiled at the Golf Europe show in October 2008 and sold as a 2009 model, a season after the standard X-22 reached retail."
+confidence: high
