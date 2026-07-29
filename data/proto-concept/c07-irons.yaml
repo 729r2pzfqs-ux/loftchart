@@ -1,0 +1,77 @@
+brand: Proto-Concept
+brand_slug: proto-concept
+model: C07
+slug: c07-irons
+club_type: irons
+year_introduced: 2020
+year_discontinued: null
+category: game-improvement
+construction: pocket cavity (forged SAE8655 face on S20C body, 3-level face-thickness variation)
+material: SAE8655 chromium-molybdenum steel face, S20C carbon steel body
+successor: null
+predecessor: null
+description: >
+  The C07 is the most forgiving model in PROTOCONCEPT's original C-series,
+  part of the first iron range from the brand the Endo forging house and the
+  Golf Partner retail group established in 2019, on the market from 2020
+  alongside the C01 and C05. A forged SAE8655 chromium-molybdenum face with
+  three distinct thickness zones - about 1.8 mm at the top blade thinning to
+  2.7 mm lower on the face - is joined to an S20C carbon steel body over a
+  pocket cavity, pushing weight low and deep for an easy, straight ball
+  flight. Heads are sold component-style, 4-PW, assembled to order in Japan
+  or the USA. Lengths below are the manufacturer's recommended steel assembly
+  lengths; PROTOCONCEPT publishes face progression rather than offset, so
+  that key is omitted. The loft ladder carried unchanged into PROTOCONCEPT's
+  current "PC" (Premium Custom) C07PC line, which added a 49-degree gap wedge.
+specs:
+  - club: "4"
+    loft: 22.0
+    lie: 61.0
+    length: 38.5
+    bounce: 3.0
+  - club: "5"
+    loft: 25.0
+    lie: 61.5
+    length: 38.0
+    bounce: 4.0
+  - club: "6"
+    loft: 28.0
+    lie: 62.0
+    length: 37.5
+    bounce: 5.0
+  - club: "7"
+    loft: 31.0
+    lie: 62.5
+    length: 37.0
+    bounce: 6.0
+  - club: "8"
+    loft: 35.0
+    lie: 63.0
+    length: 36.5
+    bounce: 6.5
+  - club: "9"
+    loft: 39.0
+    lie: 63.5
+    length: 36.0
+    bounce: 7.5
+  - club: "PW"
+    loft: 44.0
+    lie: 64.0
+    length: 35.75
+    bounce: 8.5
+sources:
+  - "customclubs.eu 'Proto Concept - C07 Forged - 6 irons (custom)' listing - spec table: lofts 22/25/28/31/35/39/44, lies 61-64, recommended steel assembly lengths 38.5 to 35.75 inches, SAE8655 chromium-molybdenum face with three-level thickness deviation (1.8-2.7 mm) on an S20C body"
+  - "shop.torquegolf.com 'Proto Concept Irons C07' listing - independent corroboration of the identical loft/lie ladder plus bounce 3-8.5 degrees and face progression 3.0-4.5 mm across #4-PW"
+  - "mygolfspy.jp 'Know Your Japanese Brands: Proto Concept' (September 2021) - dates the C05 and C07 to the market from 2020 as part of PROTOCONCEPT's original C-series, alongside the brand's 2019 founding by the Endo forging house and Golf Partner"
+  - "protoconceptgolf.com 'C07PC FORGED IRON' current product page - confirms the loft ladder (22/25/28/31/35/39/44) carried over unchanged from the original C07 into the current C07PC line, which adds a 49-degree gap wedge not present in the original set"
+related_models:
+  - slug: "proto-concept/c05-irons"
+    label: "Players-distance sibling: Proto-Concept C05"
+faq:
+  - q: "What is the loft of a Proto-Concept C07 7-iron?"
+    a: "The Proto-Concept C07 7-iron has a loft of 31 degrees, a lie of 62.5 degrees, and a recommended steel length of 37 inches."
+  - q: "Is the Proto-Concept C07 forged?"
+    a: "The face is forged SAE8655 chromium-molybdenum steel with three distinct thickness zones, joined to an S20C forged carbon-steel body over a pocket cavity."
+  - q: "Is the Proto-Concept C07 the most forgiving model in the C-series?"
+    a: "Yes - among the original C01, C03, C05 and C07 lineup, the C07's deep pocket cavity and low, deep centre of gravity make it the most game-improvement-oriented of the four."
+confidence: medium

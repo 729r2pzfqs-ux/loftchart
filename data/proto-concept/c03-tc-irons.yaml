@@ -1,0 +1,72 @@
+brand: Proto-Concept
+brand_slug: proto-concept
+model: C03 TC
+slug: c03-tc-irons
+club_type: irons
+year_introduced: 2023
+year_discontinued: null
+category: players
+construction: forged tour cavity back (soft-iron forging with CNC-milled undercut on #4-#7)
+material: S20C/S25C soft carbon steel
+successor: null
+predecessor: null
+description: >
+  The C03 TC ("Tour Cavity") is a players iron in PROTOCONCEPT's C-series,
+  sitting between the muscle-back C01 and the pocket-cavity C05 - a soft-iron
+  forging with a CNC-milled undercut back cavity on the #4 through #7 irons
+  only, so the long irons get extra forgiveness while the short irons keep a
+  higher, more compact centre of gravity for a controlled, flatter flight
+  with more spin. It was announced 19 May 2023, not 2022 as sometimes listed -
+  PROTOCONCEPT's own first-look coverage and MyGolfSpy's review both date the
+  launch to spring 2023. Heads are sold component-style, 4-PW, and assembled
+  to order in Japan or the USA. Lengths below are the manufacturer's
+  recommended steel assembly lengths; PROTOCONCEPT publishes face progression
+  rather than offset, so that key is omitted, consistent with the rest of the
+  C-series in this dataset.
+specs:
+  - club: "4"
+    loft: 22.0
+    lie: 60.5
+    length: 38.5
+  - club: "5"
+    loft: 25.0
+    lie: 61.0
+    length: 38.0
+  - club: "6"
+    loft: 28.0
+    lie: 61.5
+    length: 37.5
+  - club: "7"
+    loft: 32.0
+    lie: 62.0
+    length: 37.0
+  - club: "8"
+    loft: 36.0
+    lie: 62.5
+    length: 36.5
+  - club: "9"
+    loft: 40.0
+    lie: 63.0
+    length: 36.0
+  - club: "PW"
+    loft: 45.0
+    lie: 63.5
+    length: 35.5
+sources:
+  - "fairwayjockey.com Proto Concept C03TC Custom Irons listing - full spec table: lofts 22/25/28/32/36/40/45, lies 60.5-63.5, recommended steel assembly lengths 38.5 to 35.5 inches, face progression 3.6-4.4 mm, soft-iron forging with CNC undercutting on #4-#7"
+  - "shop.torquegolf.com 'Proto Concept Irons C03' listing - independent corroboration of the 25/28/32/36/40/45 loft/lie/FP chart for #5-PW, bounce 3-8 degrees, and S25C soft-iron construction with CNC undercutting on #5-#7"
+  - "protoconceptgolf.com blog 'FIRST LOOK: PROTO CONCEPT CO3 TC IRON REVIEW', published 2023-05-19 - fixes the announcement date used for year_introduced"
+  - "mygolfspy.com First Look and full review of the Proto Concept C03TC (July 2023) - corroborates the spring/2023 release window and the improved-sole, CNC-undercut cavity design versus the C01"
+related_models:
+  - slug: "proto-concept/c01-irons"
+    label: "Muscle-back sibling: Proto-Concept C01"
+  - slug: "proto-concept/c05-irons"
+    label: "Pocket-cavity sibling: Proto-Concept C05"
+faq:
+  - q: "What is the loft of a Proto-Concept C03 TC 7-iron?"
+    a: "The Proto-Concept C03 TC 7-iron has a loft of 32 degrees, a lie of 62 degrees, and a recommended steel length of 37 inches."
+  - q: "When was the Proto-Concept C03 TC released?"
+    a: "It was announced on 19 May 2023 - not 2022, which some listings imply by association with PROTOCONCEPT's earlier Golf Digest Hot List recognition."
+  - q: "What does 'TC' mean on the Proto-Concept C03 TC?"
+    a: "Tour Cavity. A CNC-milled undercut is machined into the back of the #4 through #7 heads only, giving the long irons extra forgiveness while the shorter irons keep a higher, more controlled centre of gravity."
+confidence: medium

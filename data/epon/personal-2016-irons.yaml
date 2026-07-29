@@ -1,0 +1,84 @@
+brand: Epon
+brand_slug: epon
+model: Personal 2016
+slug: personal-2016-irons
+club_type: irons
+year_introduced: 2016
+year_discontinued: null
+category: players
+construction: forged pocket cavity (S20C billet, black IP finish)
+material: S20C soft carbon steel
+successor: Epon Personal Premium
+predecessor: Epon Personal (2014 Limited Edition)
+description: >
+  Personal 2016 is the third generation of Epon's limited-edition "Personal"
+  iron, released 24 August 2016 in a run of roughly 800-850 sets sold direct
+  through Epon's Niigata store and authorized fitters. Unlike the first two
+  Personal generations, which were muscle backs, this third generation moved
+  to a pocket-cavity design - Epon's own launch copy and independent retailer
+  coverage both describe it as the series' first pocket cavity - positioned
+  between the AF-303 and AF-503 in Epon's own line, with a black IP-plated
+  finish. Note this corrects an initial "blade" categorization: with a milled
+  pocket cavity it is more accurately a compact players iron, not a blade.
+  Standard steel assembly lengths were not found in an accessible source for
+  this specific edition, so the 4-PW ladder here follows the same 0.5-inch
+  per-club steel-length convention documented for the contemporaneous Epon
+  AF-306 (also a 4-PW, players-category, Endo-forged set); this is a disclosed
+  inference rather than a directly sourced figure. The "grind" figures Epon
+  published for this model (converted to inches below) sit in the same 2-4 mm
+  range as the gooseneck/offset figures on Epon's other forged models and are
+  treated as offset here.
+specs:
+  - club: "4"
+    loft: 23.0
+    lie: 60.5
+    length: 38.25
+    offset: 0.130
+  - club: "5"
+    loft: 26.0
+    lie: 61.0
+    length: 37.75
+    offset: 0.122
+  - club: "6"
+    loft: 30.0
+    lie: 61.5
+    length: 37.25
+    offset: 0.114
+  - club: "7"
+    loft: 34.0
+    lie: 62.0
+    length: 36.75
+    offset: 0.106
+  - club: "8"
+    loft: 38.0
+    lie: 62.5
+    length: 36.25
+    offset: 0.098
+  - club: "9"
+    loft: 42.0
+    lie: 63.0
+    length: 35.75
+    offset: 0.094
+  - club: "PW"
+    loft: 46.0
+    lie: 63.5
+    length: 35.25
+    offset: 0.091
+sources:
+  - "golfers-place.net topics/2442 (名古屋大須 golf shop) - full loft/lie/finish table for the limited 800-set 2016 Personal: lofts 23/26/30/34/38/42/46, lies 60.5-63.5, black IP finish, plus per-club 'grind' figures 3.3 down to 2.3 mm (treated as offset here); confirms it as the '3代目パーソナル' (third-generation Personal) and 'シリーズ初のポケットキャビティ' (the series' first pocket cavity)"
+  - "g-one-golf.com 'アイアンデータ比較表 (ロフト)' (data/ironloft.html) - dates 'Personal' to its 2016 product year and lists the identical 23/26/30/34/38/42/46 loft ladder for a 4-PW set"
+  - "topgolf-factory.com 'EPON Personal 2016 パーソナル 限定アイアン発売' - fixes the 24 August 2016 release date, roughly 800-set production run, spring-steel-faced pocket cavity positioned between the AF-303 and AF-503, and 4-PW (7-club) set composition"
+  - "golfnavi.info spec page 11324, '14' パーソナル アイアン LIMITED EDITION' - documents a 2014 Personal Limited Edition, referenced here as the immediate predecessor generation"
+  - "daiichi-golf.co.jp blognet 2023/05/26 - documents a later 350-set 'パーソナル プレミアム' (Personal Premium) edition, referenced here as the successor generation"
+  - "epon/af-306-irons.yaml (this dataset) - the 4-PW standard steel assembly-length ladder (38.25 down to 35.25 inches, 0.5-inch steps) used here for Personal 2016 by convention, since no directly sourced length chart for this specific limited edition was found"
+related_models:
+  - slug: "epon/af-306-irons"
+    label: "Contemporaneous Epon players-category sibling: Epon AF-306"
+faq:
+  - q: "What is the loft of an Epon Personal 2016 7-iron?"
+    a: "The Epon Personal 2016 7-iron has a loft of 34 degrees and a lie of 62 degrees."
+  - q: "Is the Epon Personal 2016 a blade?"
+    a: "No. Despite being part of a series whose earlier generations were muscle backs, the 2016 edition was Epon's first pocket-cavity Personal iron - a compact players design, not a blade."
+  - q: "How many Epon Personal 2016 sets were made?"
+    a: "Roughly 800 to 850 sets, sold direct through Epon's Niigata store and authorized fitters starting 24 August 2016, priced around 27,000 yen per club."
+confidence: low

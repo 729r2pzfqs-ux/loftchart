@@ -1,0 +1,84 @@
+brand: Epon
+brand_slug: epon
+model: AF-505
+slug: af-505-irons
+club_type: irons
+year_introduced: 2018
+year_discontinued: 2021
+category: players-distance
+construction: forged one-piece pocket cavity (S20C billet, conventional undercut cavity)
+material: S20C soft carbon steel
+successor: Epon AF-506
+predecessor: Epon AF-503
+description: >
+  The AF-505 is Epon's one-piece forged pocket-cavity players-distance iron
+  that preceded the AF-506, built from an S20C billet with the thinnest face
+  of any one-piece forging in the line at the time - about 2 millimetres,
+  roughly the thickness of a nickel - to combine forged feel with distance
+  and forgiveness while carrying over the AF-503's loft/lie chart essentially
+  unchanged. Epon's own AF-506 launch material describes that model as
+  "keeping the loft/lie chart of its predecessor," which is the AF-505 -
+  confirmed here by an identical 22-50 degree loft ladder across both models.
+  Ginone Golf's custom-order catalogue places the AF-505 in its 2018 product
+  year, roughly a year earlier than some marketplace descriptions suggest; the
+  AF-506 succeeded it when Epon announced that model on 19 February 2021.
+  Heads are built to order with no fixed stock shaft; lengths below are the
+  standard steel assembly lengths from the Japanese retail spec chart, and
+  offsets are converted from Epon's published gooseneck figures in millimetres.
+specs:
+  - club: "4"
+    loft: 22.0
+    lie: 60.5
+    length: 38.25
+    offset: 0.142
+  - club: "5"
+    loft: 25.0
+    lie: 61.0
+    length: 37.75
+    offset: 0.134
+  - club: "6"
+    loft: 28.0
+    lie: 61.5
+    length: 37.25
+    offset: 0.126
+  - club: "7"
+    loft: 31.0
+    lie: 62.0
+    length: 36.75
+    offset: 0.118
+  - club: "8"
+    loft: 35.0
+    lie: 62.5
+    length: 36.25
+    offset: 0.110
+  - club: "9"
+    loft: 40.0
+    lie: 63.0
+    length: 35.75
+    offset: 0.102
+  - club: "PW"
+    loft: 45.0
+    lie: 63.5
+    length: 35.25
+    offset: 0.094
+  - club: "AW"
+    loft: 50.0
+    lie: 63.5
+    length: 35.25
+    offset: 0.087
+sources:
+  - "g-one-golf.com Epon AF-505 custom order page (2018 catalogue, /products/maker_epon/2018/iron/af505/af505iron.html) - full spec table: lofts 22/25/28/31/35/40/45 plus 50-degree AW, lies 60.5-63.5, gooseneck 3.6 down to 2.2 mm, head weights 251.5-294 g, standard steel assembly lengths 38.25 to 35.25 inches, S20C forged one-piece construction with conventional pocket structure and nickel-chrome satin finish"
+  - "g-one-golf.com 'アイアンデータ比較表 (ロフト)' (data/ironloft.html) - dates the AF-505 to its 2018 product year and lists the identical 22/25/28/31/35/40/45/50 loft ladder, and separately dates the AF-503 to 2013 with the same ladder, establishing the AF-503 to AF-505 loft continuity cited in the description"
+  - "epongolf.co.jp news release 'EPON AF-506を新発売' (2021.02.19) - Epon's own launch copy for the AF-506 states it keeps its predecessor's (the AF-505's) loft/lie chart, and fixes the AF-506 announcement date used for year_discontinued here"
+  - "golfdigest.com 'Epon irons feature new forgings in line, including thin-faced AF-505 iron' - describes the roughly 2 mm face thickness (about the thickness of a nickel), the perimeter weighting used to lower CG while reducing offset and blade length, and the pursuit of forged feel with SGI-level ball speed"
+related_models:
+  - slug: "epon/af-506-irons"
+    label: "Successor: Epon AF-506"
+faq:
+  - q: "What is the loft of an Epon AF-505 7-iron?"
+    a: "The Epon AF-505 7-iron has a loft of 31 degrees, a lie of 62 degrees, and a standard steel length of 36.75 inches."
+  - q: "What replaced the Epon AF-505?"
+    a: "The Epon AF-506, announced on 19 February 2021, replaced the AF-505 while explicitly carrying over its loft and lie chart."
+  - q: "How thin is the face on the Epon AF-505?"
+    a: "About 2 millimetres - roughly the thickness of a nickel - the thinnest face of any one-piece forged iron in Epon's line at the time, intended to blend forged feel with super-game-improvement-level ball speed."
+confidence: medium

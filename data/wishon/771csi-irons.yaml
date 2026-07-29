@@ -1,0 +1,82 @@
+brand: Wishon
+brand_slug: wishon
+model: 771CSI
+slug: 771csi-irons
+club_type: irons
+year_introduced: 2014
+year_discontinued: null
+category: game-improvement
+construction: investment cast body with a forged high-strength steel face insert, CNC-machined variable face thickness
+material: 1020C carbon steel body, HS300 high-strength steel face
+successor: null
+predecessor: Wishon 771
+description: >
+  The 771CSI is Tom Wishon's high-COR, thin-face game-improvement iron, a
+  carbon-steel evolution of the earlier 771 design. Its 1020C carbon-steel
+  body allows a wider range of loft and lie bending for custom fitting than
+  the 17-4 stainless bodies Wishon's earlier high-COR thin-face designs used,
+  paired with a CNC-machined variable-thickness HS300 high-strength steel face
+  (as thin as roughly 2 mm) for a 0.830 COR rating - near the USGA/R&A limit -
+  and extra ball speed on off-centre hits. It was a Golf Digest 2014 Hot List
+  winner. Sold as bare heads or custom builds through Wishon-authorized
+  clubmakers rather than retail, in a fully radiused sole with a rounded
+  leading edge and bright satin nickel-chrome electroplate finish, USGA/R&A-
+  compliant CNC grooves, and up to plus-or-minus 4 degrees of loft/lie
+  adjustment in either direction.
+specs:
+  - club: "4"
+    loft: 23.0
+    lie: 59.0
+    length: 38.5
+    offset: 0.236
+  - club: "5"
+    loft: 26.0
+    lie: 60.0
+    length: 38.0
+    offset: 0.197
+  - club: "6"
+    loft: 30.0
+    lie: 61.0
+    length: 37.5
+    offset: 0.197
+  - club: "7"
+    loft: 34.0
+    lie: 62.0
+    length: 37.0
+    offset: 0.157
+  - club: "8"
+    loft: 38.0
+    lie: 63.0
+    length: 36.5
+    offset: 0.157
+  - club: "9"
+    loft: 42.0
+    lie: 64.0
+    length: 36.0
+    offset: 0.118
+  - club: "PW"
+    loft: 46.0
+    lie: 64.0
+    length: 36.0
+    offset: 0.118
+  - club: "AW"
+    loft: 50.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.118
+sources:
+  - "Wishon Golf official '771 CSI' design page (wishongolf.com/designs/iron-sets/new-771csi/) - the manufacturer factory chart used here for loft, lie, offset, sole angle and head weight: #4-AW lofts 23/26/30/34/38/42/46/50 degrees, lies 59-64, offset 6 down to 3 mm (converted), head weights 246-283 g, sole angle 3-5 degrees, investment-cast 1020C carbon-steel body with an HS300 high-strength steel face and bright satin nickel-chrome electroplate finish"
+  - "condorgolf.com Wishon 771CSI product listing - standard steel assembly length chart used here: 38.5 inches (#4) down to 35.75 inches (AW/GW), graphite shafts 0.5 inch longer; per-club and volume pricing"
+  - "golfclub-technology.com '771CSI Irons' page - describes the CNC-machined variable-thickness face (roughly 2 mm at its thinnest), the 0.830 COR rating, and the 1020C carbon-steel body chosen specifically to allow a wider loft/lie fitting range than the stainless bodies used on Wishon's earlier high-COR thin-face designs"
+  - "bobsailergolf.com 'Tom Wishon 771 CSI Irons' listing - independent corroboration that the 771CSI was a Golf Digest 2014 Hot List winner, used to date year_introduced"
+related_models:
+  - slug: "wishon/565mc-irons"
+    label: "Contemporaneous Wishon forged players iron: Wishon 565MC"
+faq:
+  - q: "What is the loft of a Wishon 771CSI 7-iron?"
+    a: "The Wishon 771CSI 7-iron has a loft of 34 degrees, a lie of 62 degrees and a standard steel length of 37 inches."
+  - q: "Is the Wishon 771CSI forged or cast?"
+    a: "The body is investment cast from 1020C carbon steel; a separately forged, CNC-machined variable-thickness HS300 high-strength steel face is fitted to it for a high 0.830 COR."
+  - q: "How do you buy Wishon 771CSI irons?"
+    a: "As bare heads or custom-built sets through Wishon-authorized clubmakers - there is no off-the-rack retail version - available right-handed #4 through AW and left-handed #5 through PW."
+confidence: medium
