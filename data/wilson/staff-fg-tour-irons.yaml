@@ -1,0 +1,74 @@
+brand: Wilson
+brand_slug: wilson
+model: Staff FG Tour
+slug: staff-fg-tour-irons
+club_type: irons
+year_introduced: 2010
+year_discontinued: 2011
+category: players
+construction: forged cavity back
+material: forged mild carbon steel
+successor: Wilson Staff FG Tour V2
+predecessor: null
+description: >
+  The original FG Tour launched Wilson's modern forged players line in 2010, a
+  precision-forged mild carbon steel cavity back play-tested for more than 18 months
+  on tour by Padraig Harrington and Ricky Barnes before release. The head carries a
+  square toe, thin topline and minimally progressive offset in the tradition of
+  Wilson forged classics like the FG-51, with a tour-configured sole for clean turf
+  interaction. Lofts are traditional — a 35-degree 7-iron and 47-degree pitching
+  wedge — and the same ladder carried through the V2, M3 and V4 that followed.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 59.5
+    length: 39.25
+  - club: "4"
+    loft: 24.0
+    lie: 60.0
+    length: 38.75
+  - club: "5"
+    loft: 27.0
+    lie: 61.0
+    length: 38.25
+  - club: "6"
+    loft: 31.0
+    lie: 61.5
+    length: 37.75
+  - club: "7"
+    loft: 35.0
+    lie: 62.0
+    length: 37.25
+  - club: "8"
+    loft: 39.0
+    lie: 63.0
+    length: 36.75
+  - club: "9"
+    loft: 43.0
+    lie: 63.5
+    length: 36.25
+  - club: "PW"
+    loft: 47.0
+    lie: 64.0
+    length: 35.75
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+    flex: ["S300"]
+sources:
+  - "2nd Swing Golf specification table for the Wilson Staff FG Tour Forged single irons (https://www.2ndswing.com/golf-clubs/single-irons/wilson-staff-fg-tour-forged-single-iron) — supplied every loft, lie and length above and shows True Temper Dynamic Gold S300 as the common stock steel shaft"
+  - "Today's Golfer Wilson Staff FG Tour review and Golfbidder FG Tour listing — 2010 release, precision forged mild carbon steel, 4-PW stock loft set (3-iron by order), and the Harrington/Barnes 18-month tour play-testing story with styling cues from the FG51 and Gooseneck"
+  - "Offset, bounce and swing weight were not published in the surviving tables and are omitted; confidence is medium"
+related_models:
+  - slug: "wilson/staff-fg-tour-v2-irons"
+    label: "Successor: Wilson Staff FG Tour V2"
+  - slug: "wilson/staff-fg-tour-v4-irons"
+    label: "Later generation: Wilson Staff FG Tour V4"
+faq:
+  - q: "What is the loft of a Wilson Staff FG Tour 7-iron?"
+    a: "The Wilson Staff FG Tour 7-iron has a loft of 35 degrees, a lie of 62 degrees and a length of 37.25 inches."
+  - q: "When did the Wilson Staff FG Tour irons come out?"
+    a: "They launched in 2010 as the first of Wilson's modern FG Tour forged players line, and were replaced by the FG Tour V2 announced in November 2011."
+  - q: "Who helped develop the Wilson Staff FG Tour irons?"
+    a: "Wilson tour staff players Padraig Harrington and Ricky Barnes play-tested FG Tour prototypes for over 18 months before the 2010 release."
+confidence: medium

@@ -1,0 +1,120 @@
+brand: Cleveland
+brand_slug: cleveland
+model: CG2
+slug: cg2-irons
+club_type: irons
+year_introduced: 2005
+year_discontinued: 2007
+category: players
+construction: Carbon Metal Matrix (CMM) shallow cavity back
+material: CMM carbon-infused steel
+predecessor: null
+successor: null
+description: >
+  The CG2 joined the CG1 blade in Cleveland's line for 2005, using the same
+  patented Carbon Metal Matrix — a carbon-infused steel Cleveland claimed was
+  10% less dense and 15% softer than traditional carbon steel — in a head for
+  the low-to-mid handicapper who wants cavity-back forgiveness with
+  blade-like workability. The 25-30 grams of discretionary weight freed by
+  the CMM material drop the centre of gravity lower and deeper than most
+  better-player irons of the period, easing launch in the long irons while
+  keeping flight penetrating in the scoring clubs. The standard offering was
+  3-PW from a published 1-iron-through-SW range, with Dynamic Gold steel or
+  Grafalloy Blue graphite stock. Lofts are a touch stronger than the CG1's —
+  34 degrees at the 7-iron and 46 at the pitching wedge.
+specs:
+  - club: "1"
+    loft: 16.0
+    lie: 58.5
+    length: 39.75
+    offset: 0.175
+    swing_weight: D2
+  - club: "2"
+    loft: 18.0
+    lie: 59.0
+    length: 39.25
+    offset: 0.160
+    swing_weight: D2
+  - club: "3"
+    loft: 21.0
+    lie: 59.5
+    length: 38.75
+    offset: 0.145
+    swing_weight: D2
+  - club: "4"
+    loft: 24.0
+    lie: 60.0
+    length: 38.25
+    offset: 0.130
+    swing_weight: D2
+  - club: "5"
+    loft: 27.0
+    lie: 60.5
+    length: 37.75
+    offset: 0.115
+    swing_weight: D2
+  - club: "6"
+    loft: 30.5
+    lie: 61.0
+    length: 37.25
+    offset: 0.105
+    swing_weight: D2
+  - club: "7"
+    loft: 34.0
+    lie: 62.0
+    length: 36.75
+    offset: 0.095
+    swing_weight: D2
+  - club: "8"
+    loft: 38.0
+    lie: 63.0
+    length: 36.25
+    offset: 0.085
+    swing_weight: D2
+  - club: "9"
+    loft: 42.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.080
+    swing_weight: D2
+  - club: "PW"
+    loft: 46.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.075
+    swing_weight: D3
+  - club: "DW"
+    loft: 51.0
+    lie: 64.0
+    length: 35.25
+    offset: 0.050
+    swing_weight: D4
+  - club: "SW"
+    loft: 56.0
+    lie: 64.0
+    length: 35.0
+    offset: 0.000
+    swing_weight: D5
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+    flex: ["R300", "S300", "X100"]
+  - name: "Grafalloy Blue"
+    material: graphite
+    flex: ["R", "S", "X"]
+sources:
+  - "Cleveland Golf official CG2 product page (clevelandgolf.com/proshop/irons/cg2.php), archived 2005-02-03 via web.archive.org — retrieved directly; supplies the full 1-iron-through-SW table (loft, lie, steel and graphite lengths, swing weight, offset), the 3-PW standard offering, the CMM material story and the Dynamic Gold / Grafalloy Blue stock shafts. Steel lengths are recorded here; graphite builds were 0.25 inch longer."
+  - "GolfClubShaftReview compiled Cleveland stock-shaft list (golfclubshaftreview.com, cleveland1.2.pdf) — lists the CG2 irons in 2005 with Grafalloy Blue and Dynamic Gold stock shafts, corroborating the model year"
+related_models:
+  - slug: "cleveland/cg1-irons"
+    label: "Blade sibling: Cleveland CG1"
+  - slug: "cleveland/cg4-irons"
+    label: "More forgiving CG-line stablemate: Cleveland CG4"
+faq:
+  - q: "What is the loft of a Cleveland CG2 7-iron?"
+    a: "The Cleveland CG2 7-iron has a loft of 34 degrees, a lie of 62 degrees and a steel-shaft length of 36.75 inches."
+  - q: "Who are the Cleveland CG2 irons for?"
+    a: "Cleveland designed the CG2 for low-to-mid handicappers who want the forgiveness of a cavity back with the workability of a blade — one step easier to play than the CG1 muscle back."
+  - q: "What is CMM in the Cleveland CG2 irons?"
+    a: "Carbon Metal Matrix, Cleveland's patented carbon-infused steel: microscopic carbon spheres make it about 10% less dense and 15% softer than conventional carbon steel, freeing 25-30 grams of weight to lower and deepen the centre of gravity."
+confidence: high

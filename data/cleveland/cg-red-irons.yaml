@@ -1,0 +1,98 @@
+brand: Cleveland
+brand_slug: cleveland
+model: CG Red
+slug: cg-red-irons
+club_type: irons
+year_introduced: 2007
+year_discontinued: 2009
+category: game-improvement
+construction: investment cast cavity back with Gelback vibration damping
+material: stainless steel
+predecessor: null
+successor: Cleveland CG7
+description: >
+  The CG Red is the distance half of Cleveland's 2007 "Red or Gold" fitting
+  concept, aimed at players with faster, more aggressive tempos. Its lofts
+  run about a degree stronger than the companion CG Gold through the scoring
+  clubs — 34 degrees at the 7-iron and 46 at the pitching wedge — on the same
+  cast cavity platform with Cleveland's Gelback damping insert and
+  colour-coded hosel markings for flat, standard or upright lies. Cleveland
+  published the CG Red 2-iron through pitching wedge in steel, with True
+  Temper Dynamic Gold the stock shaft. Compared with the flighted-shaft,
+  traditional-loft Gold, the Red trades a little height for speed and
+  distance; both were replaced by the CG7 generation in 2009.
+specs:
+  - club: "2"
+    loft: 18.0
+    lie: 59.5
+    length: 39.25
+    offset: 0.181
+    swing_weight: D2
+  - club: "3"
+    loft: 21.0
+    lie: 60.0
+    length: 38.75
+    offset: 0.166
+    swing_weight: D2
+  - club: "4"
+    loft: 24.0
+    lie: 60.5
+    length: 38.25
+    offset: 0.152
+    swing_weight: D2
+  - club: "5"
+    loft: 27.0
+    lie: 61.0
+    length: 37.75
+    offset: 0.137
+    swing_weight: D2
+  - club: "6"
+    loft: 30.5
+    lie: 61.5
+    length: 37.25
+    offset: 0.123
+    swing_weight: D2
+  - club: "7"
+    loft: 34.0
+    lie: 62.5
+    length: 36.75
+    offset: 0.108
+    swing_weight: D2
+  - club: "8"
+    loft: 38.0
+    lie: 63.0
+    length: 36.25
+    offset: 0.091
+    swing_weight: D2
+  - club: "9"
+    loft: 42.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.074
+    swing_weight: D2
+  - club: "PW"
+    loft: 46.0
+    lie: 64.5
+    length: 35.5
+    offset: 0.061
+    swing_weight: D3
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+    flex: ["R300", "S300", "X100"]
+sources:
+  - "Cleveland Golf official CG Red product page (clevelandgolf.com/cg-red-irons__cg_red_irons__viewProd_irons.html), archived 2009-01-30 via web.archive.org — retrieved directly; supplies the full 2-iron-through-PW table (loft, lie, steel length, swing weight, offset), the Red-or-Gold fitting concept and the colour-coded hosel markings"
+  - "GolfClubShaftReview compiled Cleveland stock-shaft list (golfclubshaftreview.com, cleveland1.2.pdf) — lists the CG Red irons in 2007 with True Temper Dynamic Gold R300/S3/X1 stock shafts, corroborating the 2007 model year"
+related_models:
+  - slug: "cleveland/cg-gold-irons"
+    label: "Traditional-loft sibling: Cleveland CG Gold"
+  - slug: "cleveland/cg7-irons"
+    label: "Successor: Cleveland CG7"
+faq:
+  - q: "What is the loft of a Cleveland CG Red 7-iron?"
+    a: "The Cleveland CG Red 7-iron has a loft of 34 degrees, a lie of 62.5 degrees and a length of 36.75 inches."
+  - q: "Should I choose Cleveland CG Red or CG Gold irons?"
+    a: "Cleveland's own fitting rule was tempo: aggressive, faster swingers were pointed to the Red, with its slightly stronger lofts and Dynamic Gold shafts, while smoother or slower tempos got the Gold with traditional lofts and flighted Actionlite shafts."
+  - q: "What clubs were available in the Cleveland CG Red set?"
+    a: "Cleveland published the CG Red from the 2-iron through the pitching wedge, all available in left hand as well; there was no factory gap or sand wedge in the Red spec table."
+confidence: high

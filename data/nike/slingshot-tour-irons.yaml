@@ -1,0 +1,88 @@
+brand: Nike
+brand_slug: nike
+model: Slingshot Tour
+slug: slingshot-tour-irons
+club_type: irons
+year_introduced: 2006
+year_discontinued: null
+category: players-distance
+construction: cast cavity back with a shallow, less-visible Slingback bridge
+material: 431 stainless steel body with a Custom 455 stainless steel face
+successor: null
+predecessor: null
+description: >
+  The Slingshot Tour was the better-player member of Nike's Slingshot family,
+  co-developed with input from Nike Golf's PGA Tour staff for golfers who
+  wanted a classic profile with the Slingshot's game-improvement technology
+  underneath. Compared with the original Slingshot and the wider, more
+  forgiving Slingshot OSS, the Tour's Slingback bridge sits lower profile and
+  less visible at address, the head is more compact with a thinner top-line
+  and minimal offset, and the body is milled from 431 stainless steel (25%
+  softer than the 17-4 stainless used in most cast irons) paired with the
+  same Custom 455 stainless face as its siblings. Lofts carry over from the
+  rest of the family, with an 18-degree 2-iron and a 34-degree 7-iron running
+  to a 46-degree pitching wedge. The stock set was 3-iron through pitching
+  wedge in steel only, with the 2-iron available as an individual order.
+specs:
+  - club: "2"
+    loft: 18.0
+    lie: 58.0
+    length: 39.5
+  - club: "3"
+    loft: 20.0
+    lie: 59.0
+    length: 39.0
+  - club: "4"
+    loft: 23.0
+    lie: 60.0
+    length: 38.5
+  - club: "5"
+    loft: 26.0
+    lie: 61.0
+    length: 38.0
+  - club: "6"
+    loft: 30.0
+    lie: 62.0
+    length: 37.5
+  - club: "7"
+    loft: 34.0
+    lie: 62.0
+    length: 37.0
+  - club: "8"
+    loft: 38.0
+    lie: 63.0
+    length: 36.5
+  - club: "9"
+    loft: 42.0
+    lie: 63.0
+    length: 36.0
+  - club: "PW"
+    loft: 46.0
+    lie: 64.0
+    length: 35.75
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+    flex: ["R300", "S300", "X100"]
+sources:
+  - "golfclubspec.com 'Nike | Slingshot Tour' specification page (golfclubspec.com/iron_results.php?id=27, also archived by the Wayback Machine at web.archive.org/web/20101031082439) - supplies the full loft/lie/length ladder for 2-iron through pitching wedge used above (18/58/39.5in through 46/64/35.75in), notes the set is steel-shaft-only with the length column specific to steel, and names the standard shaft (True Temper Dynamic Gold in R300, S300 and X100) and standard grip (Nike Slingshot Tour)."
+  - "The same publisher's compiled Nike manufacturer catalogue, archived at web.archive.org/web/20101031081905/http://golfclubspec.com/irons_specs_mfg.php?mfg=Nike, lists only four Nike iron entries in its database - 'Forged 2002', 'Slingshot Tour 2006', 'Slingshot OSS 2006' and 'Forged Pro Combo 2002' - dating the Tour to 2006 alongside the OSS. This is the basis for year_introduced 2006 rather than 2007."
+  - "equip2golf.com 'Nike Slingshot Tour Irons Review', earliest Wayback capture 12 November 2006 (web.archive.org/web/20061112230550/http://equip2golf.com/reviews/irons/nike_slingshot_tour.html) - confirms the 3-PW stock set with the 2-iron sold individually, the 431 stainless body ('25% softer than the more commonly used 17-4 stainless steel') with Custom 455 face and thinner top-line, the shallower and less-visible Slingback versus 'the original Slingshot and Slingshot OSS irons', minimal offset, co-development with Nike Golf's sponsored PGA Tour staff, and $799.99 set / $99.99 individual-iron pricing. The review frames the Tour as the option for 'better golfers looking for additional forgiveness' while pointing forgiveness-focused buyers to the Slingshot OSS."
+  - "No independent (non-Equip2Golf-family) source with numeric lie or length figures was located, and no confirmed discontinuation date or direct Slingshot-branded successor to the Tour nameplate was found - by 2007 Nike's better-player irons shifted to the separately branded NDS and CCI Cast/Forged lines rather than a next-generation 'Slingshot Tour'. year_discontinued, predecessor and successor are therefore left null, and confidence is set to medium: the loft progression matches the well-corroborated Slingshot/OSS family ladder, but the lie/length columns and the exact 2006 dating rest on a single publisher's archived pages."
+related_models:
+  - slug: "nike/slingshot-irons"
+    label: "Family original: Nike Slingshot"
+  - slug: "nike/slingshot-oss-irons"
+    label: "Sibling (max-forgiveness): Nike Slingshot OSS"
+  - slug: "nike/slingshot-4d-irons"
+    label: "Later generation: Nike Slingshot 4D"
+faq:
+  - q: "What is the loft of a Nike Slingshot Tour 7-iron?"
+    a: "The Nike Slingshot Tour 7-iron has a loft of 34 degrees, with a lie of about 62 degrees and a 37-inch steel-shaft length."
+  - q: "What is the difference between the Nike Slingshot Tour and Slingshot OSS irons?"
+    a: "The Tour has a more compact head, a thinner top-line, minimal offset and a Slingback bridge that sits lower and is less visible at address, aimed at better players. The Slingshot OSS has a wider sole and more visible Slingback for maximum forgiveness. Both share the same loft progression and Custom 455 stainless face."
+  - q: "What clubs came in a stock Nike Slingshot Tour set?"
+    a: "The stock set was 3-iron through pitching wedge, in steel shafts only (True Temper Dynamic Gold R300, S300 or X100). The 2-iron was available as an individual order."
+  - q: "When did the Nike Slingshot Tour irons come out?"
+    a: "Archived retailer and specification records date the Slingshot Tour to 2006, the same year as the Slingshot OSS; the earliest known review of it is archived from November 2006."
+confidence: medium

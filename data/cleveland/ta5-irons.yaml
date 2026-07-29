@@ -1,0 +1,107 @@
+brand: Cleveland
+brand_slug: cleveland
+model: TA5
+slug: ta5-irons
+club_type: irons
+year_introduced: 1999
+year_discontinued: 2004
+category: game-improvement
+construction: investment cast low-profile cavity back with VAS vibration damping
+material: stainless steel
+predecessor: null
+successor: Cleveland TA6
+description: >
+  The TA5 was the maximum-forgiveness model in Cleveland's Tour Action range,
+  introduced in 1999 alongside the TA3 and TA4. Its low-profile head puts the
+  centre of gravity low and deep for stability on off-centre hits and easy,
+  high launch — especially in the long irons — while the patented Vibration
+  Absorbing System (VAS) keeps impact feeling solid. Lofts are traditional
+  (33.5-degree 7-iron, 45-degree pitching wedge) on a light D0 swing weight
+  through the numbered irons. The published range ran 1-iron through sand
+  wedge, with steel and graphite lengths listed separately; a GunMetal
+  version and a Senior build followed in 2002, and the line was carried until
+  the wide-soled TA6 arrived. Note that some lists date the TA5 to 1997;
+  Cleveland's own December 1999 page introduces "the new TA5", matching the
+  1999 stock-shaft records.
+specs:
+  - club: "1"
+    loft: 16.0
+    lie: 58.5
+    length: 39.75
+    swing_weight: D0
+  - club: "2"
+    loft: 18.0
+    lie: 59.0
+    length: 39.25
+    swing_weight: D0
+  - club: "3"
+    loft: 21.0
+    lie: 59.5
+    length: 38.75
+    swing_weight: D0
+  - club: "4"
+    loft: 24.0
+    lie: 60.0
+    length: 38.25
+    swing_weight: D0
+  - club: "5"
+    loft: 27.0
+    lie: 60.5
+    length: 37.75
+    swing_weight: D0
+  - club: "6"
+    loft: 30.0
+    lie: 61.0
+    length: 37.25
+    swing_weight: D0
+  - club: "7"
+    loft: 33.5
+    lie: 61.5
+    length: 36.75
+    swing_weight: D0
+  - club: "8"
+    loft: 37.0
+    lie: 62.0
+    length: 36.25
+    swing_weight: D0
+  - club: "9"
+    loft: 41.0
+    lie: 62.5
+    length: 35.75
+    swing_weight: D0
+  - club: "PW"
+    loft: 45.0
+    lie: 63.0
+    length: 35.5
+    swing_weight: D1
+  - club: "DW"
+    loft: 50.0
+    lie: 63.5
+    length: 35.25
+    swing_weight: D2
+  - club: "SW"
+    loft: 55.0
+    lie: 64.0
+    length: 35.0
+    swing_weight: D3
+stock_shafts:
+  - name: "True Temper steel (Variable Step; Release w/Sensicore from 2002)"
+    material: steel
+  - name: "Cleveland graphite"
+    material: graphite
+sources:
+  - "Cleveland Golf official TA5 product page (clevelandgolf.com/proshop/irons/ta5.html), archived 1999-12-17 via web.archive.org — retrieved directly; introduces 'the new TA5', supplies the full 1-iron-through-SW table (loft, lie, steel and graphite lengths, swing weight) and the Release/Rifle/Sensicore steel and graphite shaft options. Steel lengths are recorded here; graphite builds were 0.25 inch longer per the later TA5 pages."
+  - "GolfClubShaftReview compiled Cleveland stock-shaft list (golfclubshaftreview.com, cleveland1.2.pdf) — lists 'Tour Action TA5' in 1999 with True Temper Steel Variable Step, and TA-5 with Release w/Sensicore in 2002-2003, corroborating the 1999 introduction and long run. GolfClubSpec's TA5 GunMetal entry (iron_results.php?id=42, year 2002) carries the same loft/lie/length ladder for the later finish variant."
+related_models:
+  - slug: "cleveland/ta6-irons"
+    label: "Successor: Cleveland TA6"
+  - slug: "cleveland/ta3-form-forged-irons"
+    label: "Better-player Tour Action stablemate: TA3 Form Forged"
+faq:
+  - q: "What is the loft of a Cleveland TA5 7-iron?"
+    a: "The Cleveland TA5 7-iron has a loft of 33.5 degrees, a lie of 61.5 degrees and a steel-shaft length of 36.75 inches."
+  - q: "What year are the Cleveland TA5 irons?"
+    a: "Cleveland introduced the TA5 in 1999 — its own site presented it as new that December — and kept it in the line into 2003, adding a GunMetal finish and a Senior build in 2002. Some lists date it 1997, which the period records do not support."
+  - q: "Who are the Cleveland TA5 irons for?"
+    a: "Cleveland aimed the TA5 at players seeking maximum forgiveness in a low-profile iron: the low, deep centre of gravity stabilises off-centre hits and makes shots easy to launch high and straight, especially with the long irons."
+confidence: high

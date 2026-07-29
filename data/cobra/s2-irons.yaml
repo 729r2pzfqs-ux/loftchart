@@ -91,6 +91,8 @@ sources:
   - "Cobra Golf official 'Cobra S2 Irons' product page (cobragolf.com/golf-clubs/Cobra-S2-Irons), archived 2010-10-27 via web.archive.org — retrieved directly; supplies the full Specifications table (model, loft, length for graphite and steel, lie, swing weight, stock flex, RH/LH) for the 3-iron through lob wedge, the head material breakdown (431 stainless body, polymer topline and toe inserts, urethane sole insert, aluminium back plate), the available sets (graphite/steel 4-GW, Lite/Seniors 5-SW) and the Nippon NS Pro 1030H stock steel shaft"
   - "The Golf Wire press release 'Introducing The All-New Cobra S2 And Cobra S2 Forged Irons', dated 26 August 2009 — retrieved directly; supplies the announcement date, the 1 September 2009 ship date, the men's 4-PW/GW and women's/senior's 5-PW/GW/SW set compositions, and the Cobra/Aldila DVS-2 and Nippon NS Pro shaft options. year_introduced records this announcement year; the set was marketed as Cobra's 2010 line"
 related_models:
+  - slug: "cobra/s2-forged-irons"
+    label: "Better-player sibling: Cobra S2 Forged"
   - slug: "cobra/s3-irons"
     label: "Successor: Cobra S3"
 faq:

@@ -1,0 +1,91 @@
+brand: Srixon
+brand_slug: srixon
+model: I-506
+slug: i-506-irons
+club_type: irons
+year_introduced: 2005
+year_discontinued: 2007
+category: players
+construction: forged cavity back
+material: forged 1025 carbon steel
+successor: Srixon I-701
+predecessor: Srixon I-302
+description: >
+  The I-506 continued Srixon's forged players line in 2005, a 1025 soft carbon
+  steel forging with the Tour Cavity Back and Srixon's Digital Impact weighting
+  placing the centre of gravity low and deep for high launch with a penetrating
+  flight. Srixon's own copy pitched it at better players — a classic blade profile
+  with thin topline and minimal offset — with playability helped by a
+  double-radiused sole with heel and toe relief cuts. It is filed as a players
+  iron on that evidence. The factory chart ran 2-iron to pitching wedge with a
+  34-degree 7-iron, D2 swing balance and Dynamic Gold stock shafts.
+specs:
+  - club: "2"
+    loft: 18.0
+    lie: 59.0
+    length: 39.25
+    swing_weight: D2
+  - club: "3"
+    loft: 21.0
+    lie: 59.5
+    length: 38.75
+    swing_weight: D2
+  - club: "4"
+    loft: 24.0
+    lie: 60.0
+    length: 38.25
+    swing_weight: D2
+  - club: "5"
+    loft: 27.0
+    lie: 60.5
+    length: 37.75
+    swing_weight: D2
+  - club: "6"
+    loft: 30.0
+    lie: 61.0
+    length: 37.25
+    swing_weight: D2
+  - club: "7"
+    loft: 34.0
+    lie: 61.5
+    length: 36.75
+    swing_weight: D2
+  - club: "8"
+    loft: 38.0
+    lie: 62.0
+    length: 36.25
+    swing_weight: D2
+  - club: "9"
+    loft: 42.0
+    lie: 62.5
+    length: 35.75
+    swing_weight: D2
+  - club: "PW"
+    loft: 46.0
+    lie: 63.0
+    length: 35.25
+    swing_weight: D2
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+    flex: ["R300", "S300"]
+sources:
+  - "Srixon's official I-506 specification chart (srixon.com/club_iron_506.asp with images/irons/i506specs.gif, 2005-06, recovered via archive.org) — supplied every loft, lie, length, the D2 swing balance, factory face progression (3.0mm at the 2-iron to 5.0mm at the PW) and Dynamic Gold S300/R300 stock shafts. The same page's copy documents the 1025 forged Tour Cavity Back construction and better-player positioning used for the category here"
+  - "GolfWRX 'Srixon 506 Irons - Specs?' thread — an owner's loft list (18/21/24/27/30/34/38/42/46) matches the factory chart exactly"
+  - "golf.fandom.com I-506 page — corroborates the forged carbon steel tour cavity construction, satin finish, heel/toe sole cuts and $699.99 set MSRP"
+  - "Offset and bounce were not printed on the factory chart (face progression is published instead) and are omitted; confidence is high"
+related_models:
+  - slug: "srixon/i-302-irons"
+    label: "Predecessor: Srixon I-302"
+  - slug: "srixon/i-701-irons"
+    label: "Successor: Srixon I-701"
+  - slug: "srixon/i-701-tour-irons"
+    label: "Successor's tour model: Srixon I-701 Tour"
+faq:
+  - q: "What is the loft of a Srixon I-506 7-iron?"
+    a: "The Srixon I-506 7-iron has a loft of 34 degrees, a lie of 61.5 degrees and a length of 36.75 inches per Srixon's factory chart."
+  - q: "Are the Srixon I-506 irons for good players?"
+    a: "Yes — Srixon marketed the I-506 as a forged better-player iron with a classic blade profile, thin topline and minimal offset, with Digital Impact weighting supplying the forgiveness."
+  - q: "When did the Srixon I-506 come out?"
+    a: "In 2005, following the I-302 in Srixon's forged players line, and it was replaced by the I-701 series announced in August 2007."
+confidence: high

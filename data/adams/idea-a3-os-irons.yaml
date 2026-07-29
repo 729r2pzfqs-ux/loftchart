@@ -1,0 +1,91 @@
+brand: Adams
+brand_slug: adams
+model: Idea a3 OS
+slug: idea-a3-os-irons
+club_type: irons
+year_introduced: 2007
+year_discontinued: 2008
+category: super-game-improvement
+construction: investment cast
+material: stainless steel with Boxer hybrids
+successor: Adams Idea Tech a4OS
+predecessor: Adams Idea a2 OS
+description: >
+  The Idea a3 OS is the oversize, maximum-forgiveness half of the third-generation
+  Idea hybrid-iron combo set, sold alongside the standard Idea a3 from 2007. Where
+  the base a3 keeps five conventional irons, the a3 OS integrates six progressively
+  shaped hybrids - 19-, 22- and 25-degree Boxer hybrids plus 28-, 32- and 36-degree
+  iron-like hybrids - ahead of just two cavity-back short irons, the 9-iron and
+  pitching wedge, for a wide-sole, high-MOI set Adams marketed as its "easiest-to-hit
+  hybrid irons ever." That is two more hybrid clubs than the four-hybrid Idea a2 OS
+  it replaced, and four more than the three-hybrid standard Idea a3. Golf Digest's
+  2008 Hot List praised Adams for pushing the hybrid-iron concept further by
+  "increasing the number of wood like hybrid and iron-like hybrids and leaving just
+  two irons in the set."
+specs:
+  - club: "3H"
+    loft: 19.0
+    lie: 59.25
+    length: 40.5
+    swing_weight: D1
+  - club: "4H"
+    loft: 22.0
+    lie: 60.0
+    length: 39.75
+    swing_weight: D1
+  - club: "5H"
+    loft: 25.0
+    lie: 60.75
+    length: 39.0
+    swing_weight: D1
+  - club: "6"
+    loft: 28.0
+    lie: 61.25
+    length: 38.25
+    swing_weight: D1
+  - club: "7"
+    loft: 32.0
+    lie: 61.75
+    length: 37.5
+    swing_weight: D1
+  - club: "8"
+    loft: 36.0
+    lie: 62.5
+    length: 36.75
+    swing_weight: D1
+  - club: "9"
+    loft: 40.0
+    lie: 63.25
+    length: 36.0
+    swing_weight: D1
+  - club: "PW"
+    loft: 44.0
+    lie: 63.5
+    length: 35.75
+    swing_weight: D2
+stock_shafts:
+  - name: "Grafalloy ProLaunch Platinum 80"
+    material: graphite
+    flex: ["R", "S"]
+  - name: "True Temper Performance Lite 105"
+    material: steel
+sources:
+  - "Adams Golf official Idea a3OS product page, October 2007 capture (https://web.archive.org/web/20071014000752/http://www.adamsgolf.com/ir_idea_a3OS.htm) - contemporaneous manufacturer page giving the six-hybrid/two-iron set make-up (3-8 hybrids, 9-iron and PW) and the 'easiest-to-hit hybrid irons ever' marketing line"
+  - "Adams Golf official Idea a3OS specs page on the relaunched site, September 2008 capture (https://web.archive.org/web/20080917085927/http://www.adamsgolf.com/products/irons/a3os.php?page=specs) - full manufacturer spec table with loft, lie, length and graphite/steel swing weight for the 3-8 hybrids, 9-iron and PW, the Grafalloy ProLaunch Platinum 80-gram graphite and True Temper Performance Lite 105-gram steel stock shafts, and the Golf Digest 2008 Hot List quote about the set's expanded hybrid count"
+  - "Note: the manufacturer spec table lists the 6, 7 and 8 as 'iron-like hybrid' heads rather than conventional irons; they are recorded here as club rows 6/7/8 because Adams numbered and sold them as part of the iron set, consistent with how the sibling Idea a2 OS and Idea a7 OS files in this database treat their own iron-like hybrid rows. The 3, 4 and 5 are quoted as '3H'/'4H'/'5H' since they are wood-like Boxer hybrids"
+  - "Wayback Machine CDX index for adamsgolf.com - confirms the old-site product page (ir_idea_a3OS.htm) was live from at least October 2007 through early September 2008, when the site relaunched under the products/irons/a3os.php URL structure carrying an identical set make-up and spec table"
+related_models:
+  - slug: "adams/idea-a2-os-irons"
+    label: "Predecessor: Adams Idea a2 OS"
+  - slug: "adams/idea-a3-irons"
+    label: "Sibling: Adams Idea a3 (standard)"
+  - slug: "adams/idea-a7-os-irons"
+    label: "Later Adams OS hybrid-iron set: Idea a7 OS"
+faq:
+  - q: "What is the loft of an Adams Idea a3 OS 7-iron?"
+    a: "The Adams Idea a3 OS '7' is a 32-degree iron-like hybrid rather than a conventional iron, with a 61.75-degree lie and a 37.5-inch length."
+  - q: "What clubs come in a stock Adams Idea a3 OS set?"
+    a: "Eight clubs: 19-, 22- and 25-degree Boxer hybrids (3H, 4H, 5H), three iron-like hybrids numbered 6, 7 and 8 (28, 32 and 36 degrees), then a 40-degree 9-iron and 44-degree pitching wedge. A senior's set was also offered."
+  - q: "How does the Idea a3 OS differ from the standard Idea a3 and the Idea a2 OS?"
+    a: "The a3 OS replaces six clubs with hybrid or iron-like hybrid heads and leaves only the 9-iron and pitching wedge as conventional irons, versus three hybrids in the standard Idea a3 and four hybrid clubs in the previous Idea a2 OS. Golf Digest's 2008 Hot List singled out the a3 OS for pushing the hybrid-iron count further than earlier Adams sets."
+confidence: high

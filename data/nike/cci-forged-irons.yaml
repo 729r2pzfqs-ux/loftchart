@@ -1,0 +1,87 @@
+brand: Nike
+brand_slug: nike
+model: CCi Forged
+slug: cci-forged-irons
+club_type: irons
+year_introduced: 2006
+year_discontinued: 2008
+category: players
+construction: forged muscle-cavity with tungsten/composite insert
+material: forged 1025 carbon steel
+successor: Nike Victory Red Forged Split Cavity
+predecessor: Nike Pro Combo Tour
+description: >
+  The CCi Forged was announced in 2006 as the better-player half of a two-iron
+  split that took over from the Forged Pro Combo/Pro Combo Tour, arriving
+  alongside the more forgiving cast CCi (successor to the Pro Combo OS). "CCi"
+  is Nike's name for a Composite Cavity Insert - a tungsten-and-composite bar
+  running heel to toe low on the back of the head, intended to lower the
+  center of gravity without the thick topline or heavy offset of a full
+  cavity back. The heads are forged from soft 1025 carbon steel with a
+  CNC-milled face, and reviewers described the result as closer to a
+  muscleback than a cavity back, with a thin topline and minimal offset.
+  Lofts are traditional for the mid-2000s, from an individually sold
+  18-degree 2-iron down to a 47-degree pitching wedge, and Nike replaced the
+  model in 2008 with the Victory Red Forged Split Cavity.
+specs:
+  - club: "2"
+    loft: 18.0
+    offset: 0.170
+    bounce: 1.0
+  - club: "3"
+    loft: 21.0
+    offset: 0.155
+    bounce: 2.0
+  - club: "4"
+    loft: 24.0
+    offset: 0.140
+    bounce: 3.0
+  - club: "5"
+    loft: 27.0
+    offset: 0.125
+    bounce: 4.0
+  - club: "6"
+    loft: 31.0
+    offset: 0.110
+    bounce: 5.0
+  - club: "7"
+    loft: 35.0
+    offset: 0.095
+    bounce: 6.0
+  - club: "8"
+    loft: 39.0
+    offset: 0.080
+    bounce: 7.0
+  - club: "9"
+    loft: 43.0
+    offset: 0.080
+    bounce: 8.0
+  - club: "PW"
+    loft: 47.0
+    offset: 0.080
+    bounce: 9.0
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+    flex: ["R", "S", "X"]
+sources:
+  - "The Sand Trap, 'Nike CCi Forged Irons Review' by Jeff Smith (thesandtrap.com/b/clubs/nike_cci_forged_irons_review), published 11 May 2007 - the primary source for the numeric ladder: a full club/loft/bounce/offset table for the 2-iron through PW (2I 18deg/1deg/.170in down to PW 47deg/9deg/.080in), confirms the 1025 carbon steel forging, CNC-milled face, stock Dynamic Gold steel shafts in R/S/X with Golf Pride Tour Velvet ribbed grips, and describes the head as 'more muscleback than cavity-back'. No lie or length figures are given in this source and none were found elsewhere specific to this model, so lie/length are omitted here rather than guessed."
+  - "golfonline.co.uk Nike CCi Forged Irons product page - corroborates the Composite Cavity Insert Technology name, 1025 carbon steel forging and CNC-milled face, lists Stephen Ames, K.J. Choi, Stewart Cink and Paul Casey as playing them, and carries the marketing line 'Nike Golf Irons won more PGA Tour events in 2005 and 2006 than any other brand' - consistent with a 2006 introduction/announcement even though most retail reviews are dated 2007 (the usual model-year lag also seen in this repo's other Nike files)."
+  - "GolfWRX thread title 'Nike Pro Combo Forged Vs. Nike CCI Forged' and user comparisons therein describe the CCi Forged as the direct next-generation model after the Pro Combo Tour/Forged Pro Combo, softer-feeling than its predecessor - the basis for predecessor 'Nike Pro Combo Tour' here, consistent with this repository's forged-pro-combo-irons.yaml (successor: Nike Pro Combo Tour) and pro-combo-os-irons.yaml (which already lists 'nike/cci-forged-irons' as its 2006 replacement)."
+  - "The Golf Wire, 'Nike Golf Introduces Series of Victory Red Irons...' (thegolfwire.com/134867-2) - announced 25 August 2008, retail 1 November 2008; the Victory Red Forged Split Cavity (1025 forged carbon steel, CNC-milled face, split-back players cavity) took over the CCi Forged's slot as Nike's better-player forged iron, corroborated by The Hackers Paradise's Victory Red Forged Split Cavity review and by golfbluebook.com's CCi Forged trade-in page describing it as a superseded model - the basis for year_discontinued 2008 and the successor field."
+  - "Confidence is medium: the loft/bounce/offset ladder is precise and comes from a single detailed contemporary review rather than a manufacturer chart or a spec aggregator (equip2golf/golfclubspec have no CCi Forged-specific page), and no lie or length figures could be corroborated for this model specifically."
+related_models:
+  - slug: "nike/forged-pro-combo-irons"
+    label: "Ancestor: Nike Forged Pro Combo"
+  - slug: "nike/pro-combo-os-irons"
+    label: "Sibling: Nike Pro Combo OS / CCi Cast"
+faq:
+  - q: "What is the loft of a Nike CCi Forged 7-iron?"
+    a: "The Nike CCi Forged 7-iron has a loft of 35 degrees, with 6 degrees of bounce and 0.095 inches of offset - a traditional, low-offset spec aimed at better players."
+  - q: "What does CCi stand for on Nike's CCi Forged irons?"
+    a: "CCi stands for Composite Cavity Insert - a tungsten-and-composite bar Nike ran low across the back of the head, from heel to toe, to lower the center of gravity while keeping a thin topline and minimal offset more typical of a muscleback blade."
+  - q: "What is the Nike CCi Forged made of?"
+    a: "The heads are forged from soft 1025 carbon steel with a CNC-milled face, paired stock with True Temper Dynamic Gold steel shafts and Golf Pride Tour Velvet ribbed grips."
+  - q: "What replaced the Nike CCi Forged irons?"
+    a: "Nike announced the Victory Red line in August 2008, and the Victory Red Forged Split Cavity took over the CCi Forged's role as Nike's better-player forged cavity iron at retail that November."
+confidence: medium

@@ -1,0 +1,106 @@
+brand: Cleveland
+brand_slug: cleveland
+model: TA3 Form Forged
+slug: ta3-form-forged-irons
+club_type: irons
+year_introduced: 2000
+year_discontinued: 2004
+category: players
+construction: forged shallow cavity back with VAS vibration damping
+material: forged carbon steel
+predecessor: Cleveland TA3 (1998)
+successor: null
+description: >
+  The TA3 Form Forged is the cavity-back half of Cleveland's 2000 Form Forged
+  pairing, offering "increased forgiveness while maintaining the ability to
+  work the ball" through a slight cavity and moderate perimeter weighting,
+  with the patented Vibration Absorbing System (VAS) damping impact shock. It
+  succeeded the late-90s cast TA3 and sold alongside the TA1 FF muscle back,
+  gaining a GunMetal satin finish variant in 2001. Lofts are traditional —
+  34 degrees at the 7-iron and 46 at the pitching wedge — and Cleveland
+  published the set 1-iron through sand wedge in steel, with Dynamic Gold
+  standard. This record files it as a players iron per its forged
+  better-player positioning; the task brief's game-improvement label fits the
+  wide-soled TA5 and TA6 better. Note Cleveland's published PW lie of 65
+  degrees sits above the DW's 64 — recorded as printed.
+specs:
+  - club: "1"
+    loft: 16.0
+    lie: 57.0
+    length: 39.75
+    swing_weight: D2
+  - club: "2"
+    loft: 18.0
+    lie: 58.0
+    length: 39.25
+    swing_weight: D2
+  - club: "3"
+    loft: 21.0
+    lie: 59.0
+    length: 38.75
+    swing_weight: D2
+  - club: "4"
+    loft: 24.0
+    lie: 60.0
+    length: 38.25
+    swing_weight: D2
+  - club: "5"
+    loft: 27.0
+    lie: 61.0
+    length: 37.75
+    swing_weight: D2
+  - club: "6"
+    loft: 30.5
+    lie: 62.0
+    length: 37.25
+    swing_weight: D2
+  - club: "7"
+    loft: 34.0
+    lie: 62.5
+    length: 36.75
+    swing_weight: D2
+  - club: "8"
+    loft: 38.0
+    lie: 63.0
+    length: 36.25
+    swing_weight: D2
+  - club: "9"
+    loft: 42.0
+    lie: 63.5
+    length: 35.75
+    swing_weight: D2
+  - club: "PW"
+    loft: 46.0
+    lie: 65.0
+    length: 35.5
+    swing_weight: D3
+  - club: "DW"
+    loft: 50.0
+    lie: 64.0
+    length: 35.25
+    swing_weight: D4
+  - club: "SW"
+    loft: 56.0
+    lie: 64.0
+    length: 35.0
+    swing_weight: D5
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+    flex: ["R300", "S300", "X100"]
+sources:
+  - "Cleveland Golf official TA3 Form Forged pages (clevelandgolf.com/proshop/irons/ta3.php3 archived 2000-08-16, and /proshop/irons/ta3.html archived 2001-04-10 covering the TA3 and TA3 GunMetal FF, via web.archive.org) — retrieved directly; both supply the 1-iron-through-SW table (loft, lie, length, swing weight) and the Dynamic Gold standard shaft with Sensicore, Rifle, Flighted Rifle and Aldila TGI 100 options. The PW lie prints as 65 degrees against 64 for the DW; recorded as published."
+  - "GolfClubSpec.com Cleveland TA3 Form Forged entry (golfclubspec.com/iron_results.php?id=38), year 2000, and the GolfClubShaftReview compiled Cleveland list (2000: TA3 irons, Dynamic Gold) — corroborate the year. A separate cast 'Tour Action TA3' appears in the 1998 shaft records and on Cleveland's 1999 site navigation; this file covers the 2000 Form Forged model."
+related_models:
+  - slug: "cleveland/ta1-form-forged-irons"
+    label: "Muscle-back Form Forged sibling: Cleveland TA1 FF"
+  - slug: "cleveland/ta7-irons"
+    label: "Later Tour Action players iron: Cleveland TA7"
+faq:
+  - q: "What is the loft of a Cleveland TA3 Form Forged 7-iron?"
+    a: "The Cleveland TA3 Form Forged 7-iron has a loft of 34 degrees, a lie of 62.5 degrees and a length of 36.75 inches."
+  - q: "What is the difference between the Cleveland TA1 and TA3 Form Forged?"
+    a: "Both are forged with traditional lofts, but the TA1 is a pure muscle back while the TA3 adds a slight cavity and moderate perimeter weighting — about two degrees weaker in the 7-iron on the TA1 (36 versus 34 degrees) and noticeably more forgiving on the TA3."
+  - q: "Is there more than one Cleveland TA3 iron?"
+    a: "Yes — a cast Tour Action TA3 appears in 1998-1999 records, and this forged TA3 Form Forged replaced it in 2000, later adding a GunMetal satin-finish version."
+confidence: high

@@ -1,0 +1,115 @@
+brand: Cobra
+brand_slug: cobra
+model: Gravity Back
+slug: gravity-back-irons
+club_type: irons
+year_introduced: 1999
+year_discontinued: 2000
+category: game-improvement
+construction: investment cast, backweighted low-profile perimeter-weighted cavity
+material: 17-4 stainless steel
+predecessor: King Cobra II Oversize
+successor: Cobra CXI
+description: >
+  The Gravity Back was Cobra's completely new iron for 1999, the first design
+  of the Acushnet era to move on from the King Cobra oversize family. A
+  distinctive Backweight bar behind the head positions the centre of gravity
+  low and back in a lower-profile cast 17-4 stainless head, raising inertia
+  and launch for golfers of all skill levels. The line ran from a 16-degree
+  1-iron to a 60-degree lob wedge, with the stock set sold 3-PW in steel or
+  graphite, in right and left hand. Lofts are traditional — 33 degrees at the
+  7-iron and 46 at the pitching wedge — and every club is built to a D2 swing
+  weight. Cobra published an offset column whose values run backwards relative
+  to normal convention (negative in the long irons, increasing toward the
+  wedges), so, as with the other Cobra records of this era, it is not
+  reproduced here. It was followed by the CXI in 2000. Note that some listings
+  date the Gravity Back 2000; Cobra's own 1999 page introduces it as new.
+specs:
+  - club: "1"
+    loft: 16.0
+    lie: 60.0
+    length: 40.25
+    swing_weight: D2
+  - club: "2"
+    loft: 18.5
+    lie: 60.0
+    length: 39.75
+    swing_weight: D2
+  - club: "3"
+    loft: 21.0
+    lie: 60.5
+    length: 39.25
+    swing_weight: D2
+  - club: "4"
+    loft: 23.5
+    lie: 60.5
+    length: 38.75
+    swing_weight: D2
+  - club: "5"
+    loft: 26.5
+    lie: 61.0
+    length: 38.25
+    swing_weight: D2
+  - club: "6"
+    loft: 29.5
+    lie: 61.5
+    length: 37.75
+    swing_weight: D2
+  - club: "7"
+    loft: 33.0
+    lie: 62.0
+    length: 37.25
+    swing_weight: D2
+  - club: "8"
+    loft: 37.0
+    lie: 62.5
+    length: 36.75
+    swing_weight: D2
+  - club: "9"
+    loft: 41.0
+    lie: 63.0
+    length: 36.25
+    swing_weight: D2
+  - club: "PW"
+    loft: 46.0
+    lie: 64.0
+    length: 35.75
+    swing_weight: D2
+  - club: "GW"
+    loft: 50.0
+    lie: 64.0
+    length: 35.5
+    swing_weight: D2
+  - club: "SW"
+    loft: 56.0
+    lie: 64.0
+    length: 35.5
+    swing_weight: D2
+  - club: "LW"
+    loft: 60.0
+    lie: 64.0
+    length: 35.5
+    swing_weight: D2
+stock_shafts:
+  - name: "Cobra steel"
+    material: steel
+    flex: ["MSS", "R", "S", "X"]
+  - name: "Cobra graphite"
+    material: graphite
+    flex: ["MSS", "R", "S", "X"]
+sources:
+  - "Cobra Golf official Gravity Back iron page (cobragolf.com/irons/models.htm), archived 1999-11-28 via web.archive.org — retrieved directly; supplies the full 1-iron-through-LW table (length, loft, lie, offset, swing weight), the 17-4 stainless backweighted cast head description, the MSS/R/S/X flex options, the Crossline grip, the 3-PW stock set and pricing, and introduces the model as 'the new Cobra Gravity Back irons', fixing 1999 as the announcement year"
+  - "GolfClubSpec.com Cobra Gravity Back entry (golfclubspec.com/iron_results.php?id=50), year 1999 — reproduces the same loft/lie/length ladder (its PW length cell misprints 37.75 where Cobra's own page reads 35.75) and the Crossline by Lamkin grip"
+related_models:
+  - slug: "cobra/king-cobra-ii-oversize-irons"
+    label: "Predecessor: King Cobra II Oversize"
+  - slug: "cobra/ss-oversize-irons"
+    label: "Later Cobra game-improvement iron: King Cobra SS Oversize"
+faq:
+  - q: "What is the loft of a Cobra Gravity Back 7-iron?"
+    a: "The Cobra Gravity Back 7-iron has a loft of 33 degrees, a lie of 62 degrees and a length of 37.25 inches."
+  - q: "What year are the Cobra Gravity Back irons?"
+    a: "Cobra introduced the Gravity Back in 1999 — its own site presented the line as new that year — though some retailers list it as a 2000 model. The CXI replaced it in 2000."
+  - q: "What makes the Cobra Gravity Back irons unusual?"
+    a: "A Backweight bar behind the low-profile cast head shifts the centre of gravity low and rearward, which raises inertia and helps the ball launch higher — an early take on the extreme rear-weighting later common in game-improvement irons."
+confidence: high

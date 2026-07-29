@@ -1,0 +1,80 @@
+brand: Nike
+brand_slug: nike
+model: Pro Combo OS
+slug: pro-combo-os-irons
+club_type: irons
+year_introduced: 2005
+year_discontinued: 2006
+category: game-improvement
+construction: forged progressive combo set
+material: forged 1030 carbon steel
+successor: null
+predecessor: Nike Forged Pro Combo
+description: >
+  The Pro Combo OS is the oversized, forgiving half of the 2005 split of Nike's
+  original Forged Pro Combo line, sold alongside the better-player Pro Combo Tour.
+  Like the original it is a progressive set forged from soft 1030 carbon steel: the
+  long irons carry a deep undercut cavity with a low centre of gravity, the mid
+  irons a full cavity back, and the short irons a muscle-cavity with a higher
+  centre of gravity for control. The heads are larger than the Tour version with a
+  wider sole and progressive offset. Stock shafts were Nike's Speed Step steel with
+  Tour Velvet-style grips. The per-club figures below are the traditional Nike
+  loft/lie/length ladder shared across the Pro Combo family; period sources confirm
+  individual points on that ladder for the OS (43-degree 9-iron, 35-degree 7-iron)
+  but no complete manufacturer chart for the OS specifically has survived, so treat
+  the numbers as the family-standard specification rather than an OS-specific sheet.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 59.0
+    length: 39.0
+  - club: "4"
+    loft: 24.0
+    lie: 60.0
+    length: 38.5
+  - club: "5"
+    loft: 27.0
+    lie: 61.0
+    length: 38.0
+  - club: "6"
+    loft: 31.0
+    lie: 62.0
+    length: 37.5
+  - club: "7"
+    loft: 35.0
+    lie: 62.5
+    length: 37.0
+  - club: "8"
+    loft: 39.0
+    lie: 63.0
+    length: 36.5
+  - club: "9"
+    loft: 43.0
+    lie: 63.5
+    length: 36.0
+  - club: "PW"
+    loft: 47.0
+    lie: 64.0
+    length: 35.75
+stock_shafts:
+  - name: "Nike Speed Step steel"
+    material: steel
+    flex: ["R", "S"]
+sources:
+  - "Golfmagic Pro Combo OS review (golfmagic.com/reviews/equipment/irons/nike-pro-combo-os/4663) - 'in 2005 the company have grown the range to carry both a Tour and Oversized version'; forged 1030 carbon steel, undercut cavity long irons progressing to muscle-cavity short irons, wider sole, Nike Speed Step steel shafts and Tour Velvet-style grips"
+  - "Today's Golfer Pro Combo OS review - launch year 2005, oversized forged cavity-back heads, undercut cavity long irons, steel shafts only, praised as among the easiest-to-hit long irons on test"
+  - "Per-club numbers: the loft/lie/length ladder above is Nike's published chart for the Forged Pro Combo (equip2golf.com/specifications/nike/nike_forged_pro_combo.html) which Nike carried over unchanged to the 2010 VR Pro Combo (3-PW 21-47 degrees, identical lies and lengths, per qsponge/equip2golf VR Pro Combo tables). For the OS itself, a SidelineSwap listing of an original Pro Combo OS Forged 9-iron confirms the 43-degree 9-iron point on this ladder. No OS-specific manufacturer chart was found, hence confidence low"
+  - "Swing Yard 'Nike irons by year' dates the Pro Combo O/S to 2005; year_discontinued 2006 reflects the CCi Cast/Forged pairing announced in 2006 taking over both Pro Combo slots"
+related_models:
+  - slug: "nike/forged-pro-combo-irons"
+    label: "Predecessor: Nike Forged Pro Combo"
+  - slug: "nike/cci-forged-irons"
+    label: "2006 replacement line: Nike CCi Forged"
+faq:
+  - q: "What is the loft of a Nike Pro Combo OS 7-iron?"
+    a: "The Nike Pro Combo OS 7-iron is listed at 35 degrees on the Pro Combo family spec ladder, with a 62.5-degree lie and 37-inch steel length."
+  - q: "What is the difference between the Nike Pro Combo OS and Pro Combo Tour?"
+    a: "Both are 2005 successors to the original Forged Pro Combo. The Tour kept compact better-player heads, while the OS used larger heads with a wider sole, more offset and a deeper undercut cavity in the long irons for extra forgiveness."
+  - q: "What construction does the Nike Pro Combo OS use?"
+    a: "It is forged from 1030 carbon steel as a progressive set: deep undercut-cavity long irons, full cavity-back mid irons and muscle-cavity short irons, so forgiveness is concentrated where it is needed most."
+confidence: low

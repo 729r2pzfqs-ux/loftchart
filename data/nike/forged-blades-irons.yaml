@@ -1,0 +1,80 @@
+brand: Nike
+brand_slug: nike
+model: Forged Blades
+slug: forged-blades-irons
+club_type: irons
+year_introduced: 2002
+year_discontinued: 2004
+category: blade
+construction: forged muscle-back blade
+material: forged carbon steel
+successor: null
+predecessor: null
+description: >
+  The Forged Blades were Nike's first irons, launched in 2002 alongside the Forged
+  Pro Combo as the company entered the club business. They are traditional
+  muscle-back blades with no model name on the head - the back carries only the
+  swoosh, which is why spec databases catalogue them as the Nike "Forged" or
+  "(swoosh) blade" model. The lofts are old-school weak by modern standards, with a
+  37-degree 7-iron and a 49-degree pitching wedge, and the chart runs all the way to
+  a 17-degree 1-iron. The standard set was 3-PW with the 1- and 2-irons available
+  individually, in steel only. The published lie ladder has an odd step - 60 degrees
+  at the 4-iron jumping to 62 at the 5- and 6-irons - which is transcribed here
+  as printed in the source chart.
+specs:
+  - club: "1"
+    loft: 17.0
+    lie: 57.0
+    length: 39.75
+  - club: "2"
+    loft: 20.0
+    lie: 58.0
+    length: 39.25
+  - club: "3"
+    loft: 23.0
+    lie: 59.0
+    length: 38.75
+  - club: "4"
+    loft: 26.0
+    lie: 60.0
+    length: 38.25
+  - club: "5"
+    loft: 29.0
+    lie: 62.0
+    length: 37.75
+  - club: "6"
+    loft: 33.0
+    lie: 62.0
+    length: 37.25
+  - club: "7"
+    loft: 37.0
+    lie: 62.5
+    length: 36.75
+  - club: "8"
+    loft: 41.0
+    lie: 63.0
+    length: 36.25
+  - club: "9"
+    loft: 45.0
+    lie: 63.5
+    length: 35.75
+  - club: "PW"
+    loft: 49.0
+    lie: 64.0
+    length: 35.5
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+    flex: ["R", "S", "X"]
+sources:
+  - "equip2golf.com specifications database, 'Nike Forged Specifications' (equip2golf.com/specifications/nike/nike_forged.html) - year 2002, full 1-iron to PW loft/lie/length table used above, with the note that lengths are for steel shafts and the standard shaft is True Temper Dynamic Gold; the same table is served by the companion GolfClubSpec.com database (iron_results.php?id=4)"
+  - "Ironfinder archived model page 'Nike (swoosh) blade model 2002-03' (web.archive.org capture of ironfinder.com/Individual-Irons/nike/(swoosh)_blade_model-02.htm) - independently corroborates the loft ladder (3-iron 23, 4-iron 26, 5-iron 29, 6-iron 33, 7-iron 37, 8-iron 41, 9-iron 45, PW 49), describes the head as a traditional muscleback identified only by the swoosh toward the toe, steel shafts only, and dates the model 2002-03"
+  - "Swing Yard and Pitchmarks 'Nike irons by year' lists both date the Forged Blade to 2002, Nike's first year in clubs; year_discontinued 2004 reflects the 2002-03 retail window in the Ironfinder listing with sell-through into 2004, as Nike offered no direct blade replacement until the Victory Red TW blades of 2008"
+faq:
+  - q: "What is the loft of a Nike Forged Blades 7-iron?"
+    a: "The Nike Forged Blades 7-iron has a loft of 37 degrees, with a 62.5-degree lie and a 36.75-inch steel-shaft length - a classic weak-lofted blade spec."
+  - q: "How do I identify Nike's original Forged Blades?"
+    a: "There is no model name on the club: the back of the muscle-back head carries only the Nike swoosh near the toe. Spec databases list them as the Nike 'Forged' or '(swoosh) blade' model, sold from 2002 in steel only."
+  - q: "What clubs came in a stock Nike Forged Blades set?"
+    a: "The standard set was 3-iron through pitching wedge with True Temper Dynamic Gold steel shafts. A 17-degree 1-iron and 20-degree 2-iron were on the spec chart as individual clubs."
+confidence: medium

@@ -1,0 +1,83 @@
+brand: Wilson
+brand_slug: wilson
+model: Staff Tour Blade
+slug: staff-tour-blade-irons
+club_type: irons
+year_introduced: 1987
+year_discontinued: 1991
+category: blade
+construction: forged muscle back
+material: forged carbon steel
+successor: null
+predecessor: null
+description: >
+  The late-80s Staff Tour Blade — the "Fluid Feel" model collectors know by the red
+  plug in the heel of the sole and the tapered muscle bar — revived the drill-through
+  hosel of Wilson's 1957-75 Staff Dynapower era. Catalog records show the model on
+  sale from 1986 through 1988 (the W/S shield stamp was added in 1989), and Wilson
+  had kept its blade specification essentially unchanged since the 1970s, so the
+  numbers below follow the ladder Ralph Maltby recorded for the Wilson Staff blade in
+  his 1982-published tables: a 38-degree 7-iron and 50-degree pitching wedge, one
+  degree stronger than the 1974-published ladder. Wilson tweaked the specs again with
+  the 1991 Tour Blade.
+specs:
+  - club: "2"
+    loft: 20.0
+    lie: 57.0
+    length: 38.5
+  - club: "3"
+    loft: 23.0
+    lie: 58.0
+    length: 38.0
+  - club: "4"
+    loft: 26.0
+    lie: 59.0
+    length: 37.5
+  - club: "5"
+    loft: 30.0
+    lie: 60.0
+    length: 37.0
+  - club: "6"
+    loft: 34.0
+    lie: 60.0
+    length: 36.5
+  - club: "7"
+    loft: 38.0
+    lie: 61.0
+    length: 36.25
+  - club: "8"
+    loft: 42.0
+    lie: 62.0
+    length: 35.75
+  - club: "9"
+    loft: 46.0
+    lie: 62.0
+    length: 35.25
+  - club: "PW"
+    loft: 50.0
+    lie: 64.0
+    length: 35.0
+  - club: "SW"
+    loft: 55.0
+    lie: 64.0
+    length: 35.0
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+sources:
+  - "Ralph Maltby, 'Golf Club Design, Fitting, Alteration & Repair' 4th ed. p.844, as transcribed on GolfWRX ('Late 70s-Early 80s Wilson Staff Tour Blades' thread): the 1974-published Wilson Staff ladder (2i 21/38.5/57 through PW 51 and SW 55), with the next listing, published 1982, showing every loft one degree stronger except the 55-degree SW, lies on the 6-9 irons one degree flatter, and PW/SW a quarter-inch shorter — the 1982 ladder is what appears above"
+  - "GolfWRX 'Wilson Staff Fluid Feel 87-88?' thread — a collector with the 1980 and 1988 Wilson catalogs states the 1988 specs match 1980 and that specs were tweaked with the 1991 Tour Blade; the same thread dates this model's availability from 1986, the drill-through Fluid Feel hosel revival, and the 1989 addition of the W/S shield stamp. Note his reading supports the weaker 1974 ladder (39-degree 7-iron), so the two period sources disagree by one degree through the set"
+  - "Because the surviving evidence is a book transcription and catalog testimony that differ by one degree, confidence is low; the 1982-published Maltby ladder is used as the more precisely documented of the two"
+related_models:
+  - slug: "wilson/staff-fg-tour-100-irons"
+    label: "2014 centennial tribute with the Fluid Feel stamp: Wilson Staff FG Tour 100"
+  - slug: "wilson/staff-model-blade-irons"
+    label: "Wilson's modern tour blade: Wilson Staff Model Blade"
+faq:
+  - q: "What is the loft of a 1987 Wilson Staff Tour Blade 7-iron?"
+    a: "Approximately 38 degrees per the 1982-published Maltby tables — though a collector's reading of the 1988 Wilson catalog suggests 39 degrees, matching the older 1974 ladder. Either way it is roughly three clubs weaker than a modern distance iron."
+  - q: "What is the Fluid Feel on Wilson Staff Tour Blades?"
+    a: "Fluid Feel is Wilson's drill-through hosel: the shaft bore runs through to the sole (capped with a small plug), a construction revived on this model from the 1957-75 Staff Dynapower blades. It also makes these irons notoriously difficult to reshaft."
+  - q: "When was this Wilson Staff Tour Blade model sold?"
+    a: "Catalog records show it on sale from 1986 through 1988, with a W/S shield stamp added for 1989-90; it is popularly known as the '87-88 Fluid Feel'. Wilson revised the blade with the 1991 Tour Blade."
+confidence: low

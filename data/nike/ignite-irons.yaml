@@ -1,0 +1,78 @@
+brand: Nike
+brand_slug: nike
+model: Ignite
+slug: ignite-irons
+club_type: irons
+year_introduced: 2006
+year_discontinued: null
+category: game-improvement
+construction: cast cavity back
+material: stainless steel
+successor: Nike Ignite 2
+predecessor: null
+description: >
+  The Ignite was Nike's value-tier game-improvement iron, sold alongside and below the
+  more heavily marketed Slingshot line: a cast cavity-back head with a deep undercut,
+  wide sole and pronounced offset aimed at beginners and high-handicap players rather
+  than the Slingshot's broader mid-market pitch. The stock set replaced the traditional
+  3-iron with a 3-hybrid (labelled 3H) ahead of 4-iron through pitching wedge, with a
+  sand wedge and, on some listings, an approach wedge sold as add-ons. Nike ran the name
+  as a multi-year budget franchise — Ignite, then Ignite 2 and Ignite 3 — each generation
+  getting little independent marketing, which is why retailer and forum documentation is
+  thin compared with Nike's flagship iron lines of the same years.
+specs:
+  - club: "3H"
+    loft: 20.0
+    lie: 59.5
+  - club: "4"
+    loft: 23.0
+    lie: 60.5
+  - club: "5"
+    loft: 26.0
+    lie: 61.5
+  - club: "6"
+    loft: 30.0
+    lie: 62.5
+  - club: "7"
+    loft: 34.0
+    lie: 63.0
+  - club: "8"
+    loft: 38.0
+    lie: 63.5
+  - club: "9"
+    loft: 42.0
+    lie: 64.0
+  - club: "PW"
+    loft: 46.0
+    lie: 64.5
+  - club: "SW"
+    loft: 54.0
+    lie: 65.0
+stock_shafts:
+  - name: "True Temper Ignite steel"
+    material: steel
+  - name: "Nike Ignite graphite"
+    material: graphite
+sources:
+  - "Confidence note up front: this is a genuinely obscure, thinly-documented budget SKU. No Nike catalog page, press release or archived Nike-hosted spec chart could be found for the Ignite IRON (as opposed to the well-documented Ignite DRIVER/fairway-wood family). Every number below rests on secondary/retailer sources, several of which look like they may have reused another Nike model's numbers, so treat the loft/lie table as indicative rather than certified."
+  - "livestrongbay.blogspot.com 'Nike Ignite Irons Degree Specifications' — the only retrieved per-club loft/lie table, supplying every value in specs above (3-hybrid through sand wedge). IMPORTANT CAVEAT: this loft/lie progression is identical, club for club, to data/nike/slingshot-irons.yaml's chart (18/58.5 for the 2-iron this set omits, then 20/59.5, 23/60.5, 26/61.5, 30/62.5, 34/63, 38/63.5, 42/64, 46/64.5 for 3H through PW) except the sand wedge, which this source gives as 54 degrees vs Slingshot's 55. That could mean Nike genuinely reused one cast loft/lie ladder across its 2003-06 entry-level iron families, or it could mean this content-mill page copied the Slingshot table and relabeled it Ignite. No second, independent source was found to separate the two possibilities, which is the main reason confidence is low."
+  - "2ndswing.com 'Nike Ignite Iron Set' product page — cast construction, 'deep undercut and large amount of offset', configurations sold as 4-PW, 4-PW+AW and 3H-PW, steel or graphite shafts (True Temper Ignite and Nike-branded UST-family steel, plus graphite), Uniflex/Regular flex options."
+  - "golfavenue.com 'Nike Ignite Iron Set' and golflink.com 'Nike Ignite Hybrid Iron Set' reviews — corroborate the 4-PW-plus-3-hybrid set composition, wide sole, deep cavity and beginner/high-handicap market positioning; both note the line is long discontinued."
+  - "southamptongolfclub.com Ignite review and zipgolfer.com 'Nike Ignite 2 Irons Set' listing, plus GolfWRX forum thread titles ('Nike Ignite-3 Irons', 'nike ignite 2 irons', 'Nike Ignite Steel Irons', 'Nike Ignite - Previous Model Year Reviews') — establish that Ignite ran as a multi-generation budget franchise (Ignite, Ignite 2, Ignite 3) into the later 2000s/early 2010s, with GolfWRX posters repeatedly noting how little official documentation exists for any generation. This is the basis for successor: Nike Ignite 2 and for the description's note on thin marketing."
+  - "Year is the weakest-sourced field. This task's brief assumed a 2005 announcement, but no source found actually supports 2005 for the IRONS specifically — the only 2003-2005 Wayback Machine (web.archive.org CDX index of nike.com/nikegolf) captures of any 'ignite' path are for the Ignite 410cc/460cc drivers and the Ignite T60 fairway wood (plus a December 2003 driver press release, article 120903_pr_ignite.xml); no clubs/irons page or dedicated iron spec chart under the Ignite name appears in any capture through 2009. swingyard.com's 'Nike Irons By Year' table instead places Ignite in 2006, grouped with Nike CCi Forged and Slingshot OSS — and this repository's own independently-sourced files for those two models (data/nike/cci-forged-irons.yaml, data/nike/slingshot-oss-irons.yaml) both give year_introduced: 2006, which corroborates 2006 as the more likely year for a coordinated Nike Golf iron refresh. year_introduced is set to 2006 on that basis, overriding the brief's 2005 assumption; year_discontinued is left null because no source dates the end of the original (Ignite 1) run before Ignite 2 arrived."
+  - "No source gives club length, offset or bounce for any Ignite iron, so those keys are omitted rather than estimated."
+related_models:
+  - slug: "nike/slingshot-irons"
+    label: "Contemporary Nike mid-tier game-improvement iron: Slingshot"
+  - slug: "nike/slingshot-oss-irons"
+    label: "Same-year (2006) Nike iron refresh: Slingshot OSS"
+faq:
+  - q: "What is the loft of a Nike Ignite 7-iron?"
+    a: "The one spec table located for this model lists the Ignite 7-iron at 34 degrees with a 63-degree lie. That figure is not independently corroborated and matches the Nike Slingshot's 7-iron exactly, so it should be treated as indicative rather than certified."
+  - q: "What clubs came in a stock Nike Ignite set?"
+    a: "Retailer listings describe a 4-iron through pitching wedge set with a 3-hybrid (3H) in place of a traditional 3-iron, with a sand wedge and sometimes an approach wedge available as add-ons."
+  - q: "When did the Nike Ignite irons come out, and how do they relate to Ignite 2 and Ignite 3?"
+    a: "The exact year is poorly documented. Secondary sources point to 2006, the same year Nike refreshed its Slingshot OSS and CCi Forged irons. Ignite continued as a running budget franchise, with Ignite 2 and later Ignite 3 following as successive generations, each with little dedicated marketing."
+  - q: "Where did the Nike Ignite sit in Nike's iron lineup?"
+    a: "Below the Slingshot, which got a dedicated marketing mini-site and Golf Digest Hot List recognition. The Ignite was Nike's lower-price, more basic game-improvement offering aimed at beginners and high-handicap players."
+confidence: low

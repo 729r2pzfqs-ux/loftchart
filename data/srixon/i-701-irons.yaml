@@ -1,0 +1,78 @@
+brand: Srixon
+brand_slug: srixon
+model: I-701
+slug: i-701-irons
+club_type: irons
+year_introduced: 2007
+year_discontinued: 2009
+category: players
+construction: forged pocket cavity
+material: forged 1025/1020 carbon steel
+successor: Srixon Z-TX
+predecessor: Srixon I-506
+description: >
+  The standard I-701 launched alongside the I-701 Tour on 8 August 2007 as the more
+  forgiving half of Srixon's forged players pair. Where the Tour is a one-piece
+  1025 forging, the standard I-701 is a two-piece forged head that welds a softer
+  1020 carbon steel face to a 1025 body and hollows a pocket cavity behind the
+  face, dropping the centre of gravity lower and deeper for easier launch. Srixon
+  confirmed to owners that it shared the Tour's lofts and lies — a traditional
+  34-degree 7-iron and 46-degree pitching wedge — and it was sold 3-PW with True
+  Temper Dynamic Gold shafts until the Z-TX generation arrived.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 59.5
+    length: 38.75
+  - club: "4"
+    loft: 24.0
+    lie: 60.0
+    length: 38.25
+  - club: "5"
+    loft: 27.0
+    lie: 60.5
+    length: 37.75
+  - club: "6"
+    loft: 30.0
+    lie: 61.0
+    length: 37.25
+  - club: "7"
+    loft: 34.0
+    lie: 61.5
+    length: 36.75
+  - club: "8"
+    loft: 38.0
+    lie: 62.0
+    length: 36.25
+  - club: "9"
+    loft: 42.0
+    lie: 62.5
+    length: 35.75
+  - club: "PW"
+    loft: 46.0
+    lie: 63.0
+    length: 35.5
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+    flex: ["R300", "S300"]
+sources:
+  - "thegolfwire.com 'Srixon Introduces I-701 Series Irons', 8 August 2007 — announcement date, two-piece forged construction (1020 face on 1025 body) with pocket cavity against the Tour's one-piece forging, 3-PW set with Dynamic Gold stock shafts"
+  - "GolfWRX 'Srixon I-701 Tour iron Specs?' thread — a 2015 poster who contacted Srixon reports the standard I-701 shared the I-701 Tour's lofts and lies; the loft/lie/length table above therefore mirrors this database's srixon/i-701-tour entry, whose assembly from owner-recorded factory materials (and its length caveats) is documented there"
+  - "Lengths carry the same medium-confidence caveat as the I-701 Tour entry: no factory length sheet survives, and the half-inch ladder is anchored by factory-spec examples on the used market"
+  - "No offset, bounce or swing-weight figures could be corroborated; those keys are omitted"
+related_models:
+  - slug: "srixon/i-701-tour-irons"
+    label: "One-piece forged sibling: Srixon I-701 Tour"
+  - slug: "srixon/i-506-irons"
+    label: "Predecessor: Srixon I-506"
+  - slug: "srixon/z-tx-irons"
+    label: "Successor: Srixon Z-TX"
+faq:
+  - q: "What is the loft of a Srixon I-701 7-iron?"
+    a: "The Srixon I-701 7-iron has a loft of 34 degrees, with a 61.5-degree lie and a 36.75-inch length — the same specification as the I-701 Tour."
+  - q: "What is the difference between the Srixon I-701 and I-701 Tour?"
+    a: "The standard I-701 is a two-piece forging with a softer 1020 face and a pocket cavity for a lower, deeper centre of gravity and easier launch; the Tour is a one-piece 1025 forging with a slightly higher centre of gravity for a more penetrating flight. Srixon confirmed the two shared lofts and lies."
+  - q: "When was the Srixon I-701 sold?"
+    a: "From its announcement on 8 August 2007 until the Z-TX generation replaced the 701 series in 2009."
+confidence: medium

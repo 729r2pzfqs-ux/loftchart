@@ -1,0 +1,79 @@
+brand: Srixon
+brand_slug: srixon
+model: Z-TX
+slug: z-tx-irons
+club_type: irons
+year_introduced: 2009
+year_discontinued: 2012
+category: players
+construction: forged cavity back
+material: forged 1025 carbon steel
+successor: null
+predecessor: Srixon I-701 Tour
+description: >
+  The Z-TX replaced the I-701 series as Srixon's flagship forged players iron,
+  announced in Japan in late 2008 and internationally in 2009, and commonly sold as
+  a 2010 model in the US. The head is forged from 1025 carbon steel with a
+  proprietary heat treatment, adds five grams of tungsten in the heel and toe of
+  the sole for stability, and uses a stepped sole so the longer blade plays like a
+  shorter one through the turf. A thinner face centre expanded the sweet spot by a
+  claimed 20 percent. Lofts stay traditional at 34 degrees on the 7-iron and 46 on
+  the pitching wedge; Srixon's Japanese-market Z-925 series succeeded it in 2012
+  before the international Z 545/745 relaunch of 2014.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 60.0
+    length: 38.75
+  - club: "4"
+    loft: 24.0
+    lie: 60.5
+    length: 38.25
+  - club: "5"
+    loft: 27.0
+    lie: 61.0
+    length: 37.75
+  - club: "6"
+    loft: 30.0
+    lie: 61.5
+    length: 37.25
+  - club: "7"
+    loft: 34.0
+    lie: 62.0
+    length: 36.75
+  - club: "8"
+    loft: 38.0
+    lie: 62.5
+    length: 36.25
+  - club: "9"
+    loft: 42.0
+    lie: 63.0
+    length: 35.75
+  - club: "PW"
+    loft: 46.0
+    lie: 63.5
+    length: 35.25
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+    flex: ["R300", "S300"]
+sources:
+  - "InTheHoleGolf Srixon Z-TX iron set page (https://www.intheholegolf.com/SRX-Z-TX-IR/Srixon-Z-TX-Iron-Set.html) — supplied every loft, lie and length above plus the factory face-progression figures (3.5mm at the 3-iron to 5.3mm at the PW), the 3-PW set composition and Dynamic Gold stock shaft"
+  - "The Hackers Paradise Z-TX forged irons review, December 2009 — forged 1025 construction with proprietary heat treatment, 5g tungsten heel/toe sole weights, stepped sole, 20% larger sweet spot claim, $899 MSRP, low-to-mid handicap target"
+  - "Year convention: the Z-TX generation was announced in Japan in late 2008 and reached international markets in 2009 (this database's srixon/i-701-tour entry records the same succession); US retailers list it as a 2010 model. year_discontinued 2012 reflects the Japanese-market Z-925 series that succeeded it; the international line was not refreshed until the Z 545/745 in 2014"
+  - "Offset, bounce and swing weight were not published in the surviving table and are omitted; confidence is medium"
+related_models:
+  - slug: "srixon/i-701-tour-irons"
+    label: "Predecessor: Srixon I-701 Tour"
+  - slug: "srixon/i-701-irons"
+    label: "Predecessor's standard model: Srixon I-701"
+  - slug: "srixon/z-745-irons"
+    label: "Later forged players lineage: Srixon Z 745"
+faq:
+  - q: "What is the loft of a Srixon Z-TX 7-iron?"
+    a: "The Srixon Z-TX 7-iron has a loft of 34 degrees, a lie of 62 degrees and a length of 36.75 inches."
+  - q: "When did the Srixon Z-TX irons come out?"
+    a: "The Z-TX generation was announced in Japan in late 2008 and internationally in 2009, and was sold in the US mainly as a 2010 model."
+  - q: "What replaced the Srixon I-701 Tour?"
+    a: "The Z-TX — it carried the flagship forged players role forward with the same 1025 forging tradition, adding tungsten sole weights and a stepped sole."
+confidence: medium

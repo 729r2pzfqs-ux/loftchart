@@ -1,0 +1,116 @@
+brand: Cleveland
+brand_slug: cleveland
+model: 588 MT
+slug: 588-mt-irons
+club_type: irons
+year_introduced: 2013
+year_discontinued: 2015
+category: game-improvement
+predecessor: null
+successor: null
+construction: investment cast mid-size cavity back
+material: stainless steel
+description: >
+  The 588 MT (Mid Trajectory) is the middle of Cleveland's three cast 2013
+  588 irons — larger and more forgiving than the compact 588 TT, more
+  conventional than the ultra-high-launch 588 Altitude. Cleveland published
+  an identical spec ladder for the MT and TT, with strong lofts of 31 degrees
+  at the 7-iron and 44 at the pitching wedge; the MT's bigger head, wider
+  sole and higher flight make it the game-improvement pick of the pair. The
+  standard set was eight pieces, 4-iron through the 49-degree DW gap wedge,
+  in right and left hand. Steel lengths are below; graphite builds were 0.25
+  inch longer. Note that this record files the MT as game-improvement on the
+  strength of Cleveland's own positioning, even though it is sometimes listed
+  alongside the TT as a players model.
+specs:
+  - club: "3"
+    loft: 19.0
+    lie: 60.0
+    length: 39.75
+    offset: 0.175
+    bounce: 2.0
+    swing_weight: D3
+  - club: "4"
+    loft: 21.0
+    lie: 60.75
+    length: 39.125
+    offset: 0.165
+    bounce: 2.5
+    swing_weight: D3
+  - club: "5"
+    loft: 24.0
+    lie: 61.5
+    length: 38.5
+    offset: 0.155
+    bounce: 3.0
+    swing_weight: D3
+  - club: "6"
+    loft: 27.0
+    lie: 62.25
+    length: 37.875
+    offset: 0.145
+    bounce: 3.5
+    swing_weight: D3
+  - club: "7"
+    loft: 31.0
+    lie: 63.0
+    length: 37.25
+    offset: 0.135
+    bounce: 4.0
+    swing_weight: D3
+  - club: "8"
+    loft: 35.0
+    lie: 63.5
+    length: 36.75
+    offset: 0.120
+    bounce: 5.0
+    swing_weight: D3
+  - club: "9"
+    loft: 39.0
+    lie: 64.0
+    length: 36.25
+    offset: 0.100
+    bounce: 6.0
+    swing_weight: D3
+  - club: "PW"
+    loft: 44.0
+    lie: 64.5
+    length: 35.75
+    offset: 0.080
+    bounce: 8.0
+    swing_weight: D3
+  - club: "DW"
+    loft: 49.0
+    lie: 64.5
+    length: 35.5
+    offset: 0.070
+    bounce: 10.0
+    swing_weight: D4
+  - club: "SW"
+    loft: 54.0
+    lie: 64.5
+    length: 35.25
+    offset: 0.060
+    bounce: 12.0
+    swing_weight: D4
+stock_shafts:
+  - name: "True Temper Traction 85"
+    material: steel
+  - name: "Cleveland Actionlite 55"
+    material: graphite
+sources:
+  - "Cleveland Golf official 588 MT product page (clevelandgolf.com/CA_588-mt-irons__588_mt_irons__viewProd_irons.html), archived 2013-07-15 via web.archive.org — retrieved directly; supplies the full 3-iron-through-SW table (loft, lie, offset, bounce, steel and graphite lengths, steel and graphite swing weights) and the standard 8-piece 4-DW set. The table is cell-for-cell identical to the official 588 TT table; the models differ in head size and construction, not published specs."
+  - "GolfClubSpec.com Cleveland 588 MT entry (golfclubspec.com/iron_results.php?id=257), year 2013 — matches the official table and supplies the Actionlite 55 graphite and Traction 85 steel stock shafts"
+related_models:
+  - slug: "cleveland/588-tt-irons"
+    label: "Compact sibling with the same lofts: Cleveland 588 TT"
+  - slug: "cleveland/588-altitude-irons"
+    label: "High-launch sibling: Cleveland 588 Altitude"
+faq:
+  - q: "What is the loft of a Cleveland 588 MT 7-iron?"
+    a: "The Cleveland 588 MT 7-iron has a loft of 31 degrees, a lie of 63 degrees and a steel-shaft length of 37.25 inches."
+  - q: "Who are the Cleveland 588 MT irons for?"
+    a: "Cleveland aimed the MT (Mid Trajectory) at mid-handicap players who want a mid-size head with strong lofts and higher flight — a step more forgiving than the compact 588 TT, a step more conventional than the 588 Altitude."
+  - q: "Do the Cleveland 588 MT and 588 TT have different lofts?"
+    a: "No — Cleveland published identical lofts, lies, lengths and offsets for both. The difference is in the head: the MT is larger with a wider sole, the TT more compact with a thinner topline."
+confidence: high

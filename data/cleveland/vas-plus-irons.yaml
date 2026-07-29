@@ -1,0 +1,97 @@
+brand: Cleveland
+brand_slug: cleveland
+model: VAS+
+slug: vas-plus-irons
+club_type: irons
+year_introduced: 1996
+year_discontinued: 1998
+category: game-improvement
+construction: investment cast with full-cavity VAS damping plate and inset hosel
+material: stainless steel
+predecessor: Cleveland VAS 792
+successor: null
+description: >
+  The VAS+ is the 1996 refinement of Cleveland's radical VAS 792 of 1993 —
+  the inset-hosel, shovel-backed iron Corey Pavin used to win the 1995 U.S.
+  Open at Shinnecock Hills. VAS stands for Vibration Absorbing System: a full
+  cavity plate damps impact shock so completely that Cleveland could thin the
+  face and push weight to the perimeter, while the hosel sits inset from the
+  face — MIT testing under Dr. Rudrapatna Ramnath found the layout reduced
+  torque transmitted to the shaft and squared the face more easily. Sets ran
+  1-iron (or 2-iron) through PW, DW, SW and LW with True Temper boron
+  composite or steel shafts in Cleveland's Diamond (firm) and Square (medium)
+  flex designations. Lofts are traditional with a 33.5-degree 7-iron. Note
+  the task brief requested the 1993 VAS as a players iron: no per-club
+  specification table for the original VAS 792 could be corroborated
+  anywhere, so this record covers the fully documented VAS+, which period
+  sources treat as a game-improvement design. The DW's specs were not
+  published in the compiled tables and it is omitted below.
+specs:
+  - club: "1"
+    loft: 15.5
+    lie: 58.5
+    length: 39.75
+  - club: "2"
+    loft: 18.0
+    lie: 59.0
+    length: 39.25
+  - club: "3"
+    loft: 21.0
+    lie: 59.5
+    length: 38.75
+  - club: "4"
+    loft: 24.0
+    lie: 60.0
+    length: 38.25
+  - club: "5"
+    loft: 27.0
+    lie: 60.5
+    length: 37.75
+  - club: "6"
+    loft: 30.0
+    lie: 61.0
+    length: 37.25
+  - club: "7"
+    loft: 33.5
+    lie: 61.5
+    length: 36.75
+  - club: "8"
+    loft: 37.0
+    lie: 62.0
+    length: 36.25
+  - club: "9"
+    loft: 41.0
+    lie: 62.5
+    length: 35.75
+  - club: "PW"
+    loft: 45.0
+    lie: 63.0
+    length: 35.5
+  - club: "SW"
+    loft: 55.0
+    lie: 64.0
+    length: 35.0
+  - club: "LW"
+    loft: 60.0
+    lie: 64.0
+    length: 35.0
+stock_shafts:
+  - name: "True Temper boron composite (Diamond firm / Square medium)"
+    material: graphite
+  - name: "True Temper steel (Diamond / Square)"
+    material: steel
+sources:
+  - "GolfClubSpec.com Cleveland VAS+ entry (golfclubspec.com/iron_results.php?id=44, year 1996) and equip2golf.com Cleveland VAS+ specification page (1996-1998) — same publisher family, compiled from period brochures; supply the loft/lie/length table for the 1-iron through lob wedge and the Golf Pride Tour Wrap grip. No swing weights or offsets were published, and confidence is medium accordingly."
+  - "Cleveland Golf official 1996 irons page (clevelandgolf.com/04airon.html), archived 1996-10-31 via web.archive.org — retrieved directly; corroborates the VAS+ as Cleveland's 1996 iron line, the full-cavity VAS plate and thin-face perimeter-weighting story, the MIT inset-hosel testing, the set composition (#1 or #2 through PW, DW, SW, LW) and the Strong/Firm/Medium/Flexible fitting system with Tour Wrap grips"
+  - "GolfClubShaftReview compiled Cleveland stock-shaft list (golfclubshaftreview.com, cleveland1.2.pdf) — 1996 VAS+ Diamond and Square irons with True Temper boron composite and steel shafts. The original VAS 792 (1993) has no corroborable per-club spec table in any source consulted; its history is covered in the description instead."
+related_models:
+  - slug: "cleveland/ta5-irons"
+    label: "Cleveland's next game-improvement generation: TA5"
+faq:
+  - q: "What is the loft of a Cleveland VAS+ 7-iron?"
+    a: "The Cleveland VAS+ 7-iron has a loft of 33.5 degrees, a lie of 61.5 degrees and a length of 36.75 inches."
+  - q: "What is the difference between the Cleveland VAS 792 and VAS+?"
+    a: "The VAS 792 of 1993 was the original inset-hosel design — the set Corey Pavin used to win the 1995 U.S. Open — while the VAS+ of 1996 refined the same Vibration Absorbing System concept with a new assembly process and cleaner styling. Cleveland never published a per-club spec table for the 792 that survives today."
+  - q: "What does VAS mean on Cleveland irons?"
+    a: "Vibration Absorbing System — a full cavity damping plate that soaks up impact shock, which let Cleveland thin the clubface and move weight to the perimeter for forgiveness without harsh feel."
+confidence: medium

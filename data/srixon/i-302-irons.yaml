@@ -1,0 +1,91 @@
+brand: Srixon
+brand_slug: srixon
+model: I-302
+slug: i-302-irons
+club_type: irons
+year_introduced: 2003
+year_discontinued: 2005
+category: players
+construction: forged cavity back
+material: forged 1025 carbon steel
+successor: Srixon I-506
+predecessor: null
+description: >
+  The I-302 was Srixon's first widely-sold forged players iron in the US, a
+  traditionally shaped cavity back forged from soft 1025 carbon steel with a
+  six-times-struck process against the standard four. Its perimeter-weighted
+  "Tour Cavity" varies in shape from long irons to short, placing the centre of
+  gravity deep and low for a larger sweet spot while the thin topline and
+  double-round radiused sole court accomplished players; stock shafts were Royal
+  Precision Rifle 5.0/6.0. It is filed as a players iron on Srixon's own
+  positioning. The factory chart ran 2-iron to sand wedge with per-club bounce
+  but no lengths, so lengths are omitted here.
+specs:
+  - club: "2"
+    loft: 18.0
+    lie: 59.0
+    bounce: 0.5
+  - club: "3"
+    loft: 21.0
+    lie: 59.5
+    bounce: 1.0
+  - club: "4"
+    loft: 24.0
+    lie: 60.0
+    bounce: 1.5
+  - club: "5"
+    loft: 27.0
+    lie: 60.5
+    bounce: 2.0
+  - club: "6"
+    loft: 30.0
+    lie: 61.0
+    bounce: 2.5
+  - club: "7"
+    loft: 34.0
+    lie: 61.5
+    bounce: 3.0
+  - club: "8"
+    loft: 38.0
+    lie: 62.0
+    bounce: 3.5
+  - club: "9"
+    loft: 42.0
+    lie: 62.5
+    bounce: 4.5
+  - club: "PW"
+    loft: 46.0
+    lie: 63.0
+    bounce: 6.0
+  - club: "AW"
+    loft: 51.0
+    lie: 63.0
+    bounce: 7.5
+  - club: "SW"
+    loft: 57.0
+    lie: 63.0
+    bounce: 10.0
+stock_shafts:
+  - name: "Royal Precision Rifle"
+    material: steel
+    flex: ["5.0", "6.0"]
+sources:
+  - "Srixon's official I-302 specification chart (srixon.com/club_iron_i302.asp with images/clubs/i302_spec_s.gif, 2004, recovered via archive.org) — supplied every loft, lie and bounce figure above, the Royal Precision Rifle 5.0/6.0 stock shafts, and the perimeter-weighted Tour Cavity / 6x-struck 1025 forging construction used for the category here"
+  - "GolfWRX 'Lofts of the Srixon i-302's' thread (2007) — an owner-posted factory table matches the archived chart cell-for-cell, including the bounce ladder"
+  - "Golf Monthly and Golfmagic I-302 reviews (2003) — UK launch coverage aimed at low-to-mid handicappers; the I-506 replaced it in Srixon's forged line in 2005"
+  - "Club lengths were not printed on the factory chart and no corroborated length table survives, so lengths are omitted rather than inferred; offset and swing weight likewise. The published numbers are factory data, so confidence is high"
+related_models:
+  - slug: "srixon/i-506-irons"
+    label: "Successor: Srixon I-506"
+  - slug: "srixon/i-403-ad-irons"
+    label: "Cast game-improvement sibling: Srixon I-403 AD"
+  - slug: "srixon/i-701-tour-irons"
+    label: "Later flagship of the forged line: Srixon I-701 Tour"
+faq:
+  - q: "What is the loft of a Srixon I-302 7-iron?"
+    a: "The Srixon I-302 7-iron has a loft of 34 degrees, a lie of 61.5 degrees and 3 degrees of bounce per Srixon's factory chart."
+  - q: "What is special about the Srixon I-302's forging?"
+    a: "Srixon forged the 1025 carbon steel heads with a six-times-struck process rather than the standard four strikes, claiming more uniform grain and more precise face shaping."
+  - q: "What shafts came in the Srixon I-302?"
+    a: "Royal Precision Rifle steel shafts in 5.0 and 6.0 flexes were stock."
+confidence: high

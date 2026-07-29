@@ -1,0 +1,72 @@
+brand: Mizuno
+brand_slug: mizuno
+model: MS-1
+slug: ms-1-irons
+club_type: irons
+year_introduced: 1980
+year_discontinued: 1990
+category: blade
+construction: forged reverse muscle back
+material: forged carbon steel
+successor: null
+predecessor: null
+description: >
+  The MS-1 opened Mizuno's MS ("Mizuno Staff") line in 1980 and became its
+  longest-running blade, staying in the range for over a decade through many
+  stamping iterations. It is a scotch-blade design with a square toe, a reverse
+  muscle, and essentially zero bounce and zero offset — as traditional as forged
+  irons come, aimed squarely at purists. Lofts run 21 degrees at the 3-iron to a
+  48-degree pitching wedge, the same ladder Mizuno kept for the MS-11 at the
+  decade's end. Factory lengths were never published in surviving sources, so
+  they are omitted. This model is sometimes dated to the early 1980s generally;
+  vintage-Mizuno references place the launch at 1980.
+specs:
+  - club: "2"
+    loft: 18.0
+  - club: "3"
+    loft: 21.0
+    lie: 57.0
+  - club: "4"
+    loft: 24.0
+    lie: 58.0
+  - club: "5"
+    loft: 27.0
+    lie: 59.0
+  - club: "6"
+    loft: 31.0
+    lie: 60.0
+  - club: "7"
+    loft: 35.0
+    lie: 61.0
+  - club: "8"
+    loft: 39.0
+    lie: 62.0
+  - club: "9"
+    loft: 43.0
+    lie: 63.0
+  - club: "PW"
+    loft: 48.0
+    lie: 63.0
+  - club: "SW"
+    loft: 56.0
+    lie: 63.0
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+sources:
+  - "GolfWRX 'Mizuno MS-1' thread (2021) — a collector's spec list from a vintage-Mizuno reference site: lofts 18/21/24/27/31/35/39/43/48/56 for 2-SW, with lies starting at 57 degrees on the 3-iron and rising one degree per club until the 9-iron through SW, which are all 63 degrees. The 2-iron's lie was not stated and is omitted"
+  - "MizunoDBG vintage-Mizuno blog (mizunotp.tech.blog, 'Mizuno MS iron sets') — 1980 launch, 10+ year sales run with many stampings, scotch-blade square-toe design with zero bounce and offset, and the MS line's 'Mizuno Staff' positioning for professionals and better golfers"
+  - "Factory lengths, offsets and swing weights were never published in surviving sources and are omitted. The loft ladder matches the factory table for the closing MS-11 of the same line, which supports it, but the primary source is a forum transcription, so confidence is low"
+related_models:
+  - slug: "mizuno/ms-11-irons"
+    label: "The MS line's closing blade: Mizuno MS-11"
+  - slug: "mizuno/tn-87-irons"
+    label: "Mizuno's legendary blade of the late 80s: Mizuno Pro TN-87"
+faq:
+  - q: "What is the loft of a Mizuno MS-1 7-iron?"
+    a: "The Mizuno MS-1 7-iron has a loft of 35 degrees and a lie of 61 degrees."
+  - q: "When were Mizuno MS-1 irons made?"
+    a: "The MS-1 launched the Mizuno Staff line in 1980 and stayed in the range for over a decade, with many small stamping changes along the way."
+  - q: "Are Mizuno MS-1 irons forgiving?"
+    a: "No — the MS-1 is a square-toe scotch blade with a reverse muscle and virtually no bounce or offset, one of the most traditional and demanding designs Mizuno has made."
+confidence: low

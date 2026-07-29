@@ -69,6 +69,10 @@ sources:
   - "golfbidder.co.uk I-701 Tour page — 2007 model year, the 1025 forged cavity-back description and the higher-CG penetrating-flight positioning against the standard I-701. year_discontinued 2009 reflects the Srixon Z-TX forged players iron that replaced the 701 series (announced late 2008 in Japan, 2009 internationally)"
   - "No offset, bounce or swing-weight figures could be corroborated; those keys are omitted"
 related_models:
+  - slug: "srixon/i-701-irons"
+    label: "Two-piece forged sibling: Srixon I-701"
+  - slug: "srixon/z-tx-irons"
+    label: "Successor: Srixon Z-TX"
   - slug: "srixon/z-765-irons"
     label: "Later Srixon forged players cavity-back: Z 765"
   - slug: "srixon/z-965-irons"

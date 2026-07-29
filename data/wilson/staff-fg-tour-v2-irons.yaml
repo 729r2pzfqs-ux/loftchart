@@ -1,0 +1,88 @@
+brand: Wilson
+brand_slug: wilson
+model: Staff FG Tour V2
+slug: staff-fg-tour-v2-irons
+club_type: irons
+year_introduced: 2011
+year_discontinued: 2014
+category: players
+construction: forged cavity back
+material: forged 8620 carbon steel
+successor: Wilson Staff FG Tour V4
+predecessor: Wilson Staff FG Tour
+description: >
+  The FG Tour V2 is the second generation of Wilson's forged players cavity back,
+  announced with the 2012 line on 10 November 2011 and developed with Padraig
+  Harrington, Ricky Barnes and Kevin Streelman. Forged from 8620 mild carbon steel
+  with the mass concentrated directly behind the impact zone, it carries a thinner
+  topline and less offset than the original FG Tour while keeping the identical
+  traditional loft ladder — a 35-degree 7-iron and 47-degree pitching wedge.
+  Retailers commonly list it as a 2012 model; this entry uses the announcement year
+  per this database's convention.
+specs:
+  - club: "2"
+    loft: 18.0
+    lie: 59.0
+    length: 39.75
+    swing_weight: D2
+  - club: "3"
+    loft: 21.0
+    lie: 59.5
+    length: 39.25
+    swing_weight: D2
+  - club: "4"
+    loft: 24.0
+    lie: 60.0
+    length: 38.75
+    swing_weight: D2
+  - club: "5"
+    loft: 27.0
+    lie: 61.0
+    length: 38.25
+    swing_weight: D2
+  - club: "6"
+    loft: 31.0
+    lie: 61.5
+    length: 37.75
+    swing_weight: D2
+  - club: "7"
+    loft: 35.0
+    lie: 62.0
+    length: 37.25
+    swing_weight: D2
+  - club: "8"
+    loft: 39.0
+    lie: 63.0
+    length: 36.75
+    swing_weight: D2
+  - club: "9"
+    loft: 43.0
+    lie: 63.5
+    length: 36.25
+    swing_weight: D2
+  - club: "PW"
+    loft: 47.0
+    lie: 64.0
+    length: 35.75
+    swing_weight: D2
+stock_shafts:
+  - name: "KBS Tour"
+    material: steel
+sources:
+  - "2nd Swing Golf specification table for the Wilson Staff FG Tour V2 single irons (https://www.2ndswing.com/golf-clubs/single-irons/wilson-staff-fg-tour-v2-single-iron) — supplied the 2-PW loft, lie, length and D2 swing weight data. The table prints the 8-iron loft as 36 degrees, an evident typo corrected to 39 here: the surrounding ladder runs 35-39-43 in every other FG Tour generation (original, V4) and a 36-degree 8-iron would leave a 1-degree gap to the 7-iron and a 7-degree gap to the 9-iron"
+  - "The Golf Wire 'Wilson Golf Introduces New Line Of Premium Golf Equipment For 2012', 10 November 2011 — announcement date, development with Harrington/Barnes/Streelman, thinner topline and reduced offset versus the original FG Tour, retail availability from Spring 2012 (hence the common 2012 model-year designation)"
+  - "GolfWRX and Independent Golf Reviews FG Tour V2 reviews — 8620 mild carbon steel forging with mass behind the impact zone, KBS Tour stock steel shaft with Lamkin Crossline grip"
+  - "Offset and bounce were not published in the surviving tables and are omitted; confidence is medium"
+related_models:
+  - slug: "wilson/staff-fg-tour-irons"
+    label: "Predecessor: Wilson Staff FG Tour"
+  - slug: "wilson/staff-fg-tour-v4-irons"
+    label: "Successor: Wilson Staff FG Tour V4"
+faq:
+  - q: "What is the loft of a Wilson Staff FG Tour V2 7-iron?"
+    a: "The Wilson Staff FG Tour V2 7-iron has a loft of 35 degrees, a lie of 62 degrees and a length of 37.25 inches."
+  - q: "When did the Wilson Staff FG Tour V2 irons come out?"
+    a: "Wilson announced them on 10 November 2011 as part of its 2012 line, with full retail availability from Spring 2012. The FG Tour V4 replaced them in 2014."
+  - q: "What shaft came stock in the FG Tour V2 irons?"
+    a: "The stock steel shaft was the KBS Tour, fitted with a Lamkin Crossline grip."
+confidence: medium

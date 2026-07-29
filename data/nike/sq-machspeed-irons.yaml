@@ -1,0 +1,103 @@
+brand: Nike
+brand_slug: nike
+model: SQ MachSpeed
+slug: sq-machspeed-irons
+club_type: irons
+year_introduced: 2010
+year_discontinued: 2011
+category: game-improvement
+construction: two-piece cavity back, off-the-face-weld construction with an undercut cavity behind the face
+material: stainless steel body with an AM355 alloy face insert welded to the body
+successor: Nike VR_S
+predecessor: null
+description: >
+  The SQ MachSpeed is a super-game-improvement cavity-back iron Nike Golf introduced
+  for retail on February 25, 2010, carrying the "SQ" (Sasquatch) branding it had used
+  since the mid-2000s on its square-headed, forgiveness-focused drivers and fairway
+  woods over to an iron aimed at mid-to-high handicappers. A two-piece, off-the-face-weld
+  construction pairs a stainless-steel body with a hot AM355 alloy face insert, and a deep
+  undercut behind the face relocates roughly 50 grams of weight into Nike's PowerBow
+  perimeter-weighting system for a low, deep center of gravity, higher launch and a
+  softer landing. The stock men's steel set ran 4-iron through pitching wedge plus an
+  approach/gap wedge (8 clubs), with a 3-iron and sand wedge available individually and
+  a women's set substituting 5- and 6-hybrids for the longest irons. Lofts run from 20
+  degrees in the 3-iron up to 50 degrees in the approach wedge, with the 7-iron at 33
+  degrees.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 60.5
+    length: 39.25
+    bounce: 2.0
+  - club: "4"
+    loft: 23.0
+    lie: 61.5
+    length: 38.75
+    bounce: 3.0
+  - club: "5"
+    loft: 26.0
+    lie: 62.5
+    length: 38.25
+    bounce: 4.0
+  - club: "6"
+    loft: 29.0
+    lie: 63.5
+    length: 37.75
+    bounce: 5.0
+  - club: "7"
+    loft: 33.0
+    lie: 64.0
+    length: 37.25
+    bounce: 6.0
+  - club: "8"
+    loft: 37.0
+    lie: 64.5
+    length: 36.75
+    bounce: 7.0
+  - club: "9"
+    loft: 41.0
+    lie: 65.0
+    length: 36.25
+    bounce: 8.0
+  - club: "PW"
+    loft: 45.0
+    lie: 65.5
+    length: 36.0
+    bounce: 9.0
+  - club: "AW"
+    loft: 50.0
+    lie: 65.5
+    length: 36.0
+    bounce: 9.0
+stock_shafts:
+  - name: "True Temper Dynalite 90"
+    material: steel
+    weight: "90g"
+    flex: ["A", "R", "S"]
+  - name: "UST Mamiya SQ ProForce AXIVCore"
+    material: graphite
+    weight: "70g"
+    flex: ["A", "R", "S"]
+related_models:
+  - slug: "nike/slingshot-4d-irons"
+    label: "Contemporary sibling: Nike Slingshot 4D"
+  - slug: "nike/vrs-irons"
+    label: "Successor: Nike VR_S"
+sources:
+  - "NBC Sports / Golf Channel wire equipment-insider article 'Nike Golf introduces the SQ MachSpeed iron' - the February 25, 2010 retail date, the AM355 alloy / off-the-face weld construction, the PowerBow undercut moving 50 grams of weight, and the Tom Stites (Nike Golf Director of Club Creation) quote that 'this iron is all about helping golfers increase their ball speed in order to generate distance'"
+  - "The Sand Trap 'Nike MachSpeed Irons and Hybrids Complete 2010 MachSpeed Lineup' bag-drop post - confirms the two-piece AM355/off-face-weld construction and PowerBow description, gives the True Temper Dynalite 90 (steel, 90g) and UST SQ ProForce AXIVCore (graphite, 70g) stock shaft names and weights, and situates MachSpeed alongside the concurrent Slingshot line in Nike's super-game-improvement tier; a related 2011 Sand Trap lineup post lists 'Slingshot and SQ MACHSPEED' as Nike's 2011 super-game-improvement irons, the basis for year_discontinued 2011 ahead of the 2012 VR_S launch"
+  - "The Hackers Paradise 'Nike MachSpeed Irons Review - His & Hers' - confirms the men's stock set is 4-iron through pitching wedge plus an approach/gap wedge (8 clubs), describes the women's set substituting 5- and 6-hybrids for the long irons, and gives the pricing grid: steel MSRP $839.99 / street $699.99, graphite (men's and women's) MSRP $959.99 / street $799.99, all in Stiff/Regular/Senior-Uniflex ('A') flex"
+  - "2ndswing.com Nike Sasquatch MachSpeed iron-set listing - full per-club loft/lie/length/bounce chart from 3-iron through AW (3i 20/60.5/39.25/2 through AW 50/65.5/36/9), matching the boxed-set options offered (3-PW+AW/SW, 4-PW+AW, 5-PW+AW, 4-9); also names a 'Nike Sasquatch Diamana' premium shaft option not corroborated elsewhere, so it is omitted from stock_shafts above"
+  - "intheholegolf.com Nike SQ Machspeed Iron Set listing - independently corroborates the 4-PW+AW loft/lie/length ladder (4i 23/61.5/38.75 through AW 50/65.5/36) against the 2ndswing chart, and separately confirms the True Temper DynaLite 90 steel shaft and the SQ ProForce AXIVCore by UST Mamiya graphite shaft (+$100) as the two stock offerings"
+  - "Today's Golfer 'Nike MachSpeed Irons' and 'Nike SQ Machspeed Irons' equipment-review pages - describe the club as a cavity-back with moderate offset and medium forgiveness aimed at mid-to-high handicappers (note: one of the two Today's Golfer listings mislabels the head type as 'muscle back' in a spec-table field, which conflicts with its own body text and with every other source describing PowerBow/undercut cavity construction, so 'cavity back' is used here); confirms the Gold award in Today's Golfer's irons test (issue 270) and a UK graphite-set price of GBP 540"
+  - "The naming and 'SQ' branding: Nike's Sasquatch ('SQ') square-headed drivers and fairway woods predate the MachSpeed by several years and are the origin of the 'SQ' prefix; no source found describes the MachSpeed iron head itself as square-shaped, so the description treats 'SQ' as a branding carryover signaling the same forgiveness/stability positioning, not a literal geometric claim. Confirmed the model is not previously catalogued in this repository's data/nike/ directory (no existing sq-*.yaml file) before this entry was added"
+confidence: high
+faq:
+  - q: "What is the loft of a Nike SQ MachSpeed 7-iron?"
+    a: "The Nike SQ MachSpeed 7-iron has a loft of 33 degrees, with a 64-degree lie and a 37.25-inch steel-shaft length."
+  - q: "What clubs came in a stock Nike SQ MachSpeed iron set?"
+    a: "The men's stock steel set ran 4-iron through pitching wedge plus an approach/gap wedge (8 clubs), with a 3-iron and sand wedge sold individually. The women's set substituted 5- and 6-hybrids for the longest irons ahead of a 7-iron-through-sand-wedge graphite run."
+  - q: "What does the 'SQ' in Nike SQ MachSpeed mean?"
+    a: "'SQ' is short for Sasquatch, the branding Nike had already used for years on its square-headed forgiveness-focused drivers and fairway woods. Applied to the MachSpeed iron it signals the same game-improvement, forgiveness-first positioning rather than describing a square clubhead shape."
+  - q: "What replaced the Nike SQ MachSpeed irons?"
+    a: "Nike's SQ MachSpeed and Slingshot lines both remained in the 2011 super-game-improvement lineup before Nike replaced them with the VR_S irons for 2012."

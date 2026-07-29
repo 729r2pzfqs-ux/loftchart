@@ -1,0 +1,122 @@
+brand: Cleveland
+brand_slug: cleveland
+model: TA6
+slug: ta6-irons
+club_type: irons
+year_introduced: 2004
+year_discontinued: 2006
+category: game-improvement
+construction: investment cast wide-sole cavity back with VAS vibration damping
+material: 17-4 stainless steel, satin finish
+predecessor: Cleveland TA5
+successor: null
+description: >
+  The TA6 took over from the TA5 as the game-improvement model in Cleveland's
+  Tour Action range for 2004. Material is pulled out of the cavity and moved
+  into a wider sole and the extreme perimeter, dropping the centre of gravity
+  lower and further from the face for quicker launch and a higher moment of
+  inertia, with the patented Vibration Absorbing System damping impact. The
+  long irons use a lower-profile head while the scoring clubs keep a deeper,
+  more traditional face, and offset is generous throughout — 0.310 inch at
+  the 1-iron down to zero at the sand wedge, published in the normal
+  decreasing direction. Heads are cast 17-4 stainless in a satin finish on
+  True Temper Action Lite steel or a lightweight graphite. Note that some
+  lists date the TA6 to 2001; it is absent from Cleveland's own April 2003
+  iron line-up and appears in 2004, matching the compiled shaft records, and
+  a W-Series women's version followed in 2005.
+specs:
+  - club: "1"
+    loft: 16.0
+    lie: 59.25
+    length: 39.75
+    offset: 0.310
+    swing_weight: D2
+  - club: "2"
+    loft: 18.5
+    lie: 59.75
+    length: 39.25
+    offset: 0.310
+    swing_weight: D2
+  - club: "3"
+    loft: 21.0
+    lie: 60.25
+    length: 38.75
+    offset: 0.275
+    swing_weight: D2
+  - club: "4"
+    loft: 24.0
+    lie: 60.75
+    length: 38.25
+    offset: 0.240
+    swing_weight: D2
+  - club: "5"
+    loft: 27.0
+    lie: 61.25
+    length: 37.75
+    offset: 0.210
+    swing_weight: D2
+  - club: "6"
+    loft: 30.0
+    lie: 61.75
+    length: 37.25
+    offset: 0.180
+    swing_weight: D2
+  - club: "7"
+    loft: 33.5
+    lie: 62.5
+    length: 36.75
+    offset: 0.150
+    swing_weight: D2
+  - club: "8"
+    loft: 37.0
+    lie: 63.25
+    length: 36.25
+    offset: 0.125
+    swing_weight: D2
+  - club: "9"
+    loft: 41.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.100
+    swing_weight: D2
+  - club: "PW"
+    loft: 45.0
+    lie: 64.5
+    length: 35.5
+    offset: 0.075
+    swing_weight: D3
+  - club: "DW"
+    loft: 50.0
+    lie: 64.75
+    length: 35.25
+    offset: 0.050
+    swing_weight: D4
+  - club: "SW"
+    loft: 55.0
+    lie: 65.0
+    length: 35.0
+    offset: 0.000
+    swing_weight: D5
+stock_shafts:
+  - name: "True Temper Action Lite"
+    material: steel
+    flex: ["A", "R", "S"]
+  - name: "Cleveland Action Lite graphite"
+    material: graphite
+    flex: ["A", "R", "S"]
+sources:
+  - "Cleveland Golf official TA6 product page (clevelandgolf.com/proshop/irons/ta6.php), archived 2004-02-22 via web.archive.org — retrieved directly; supplies the full 1-iron-through-SW table (loft, lie, steel and graphite lengths, swing weights, offset), the 17-4 satin construction, the wide-sole design story and the Action Lite steel/graphite stock shafts. Steel lengths are recorded here; graphite builds were 0.25 inch longer."
+  - "GolfClubShaftReview compiled Cleveland stock-shaft list (golfclubshaftreview.com, cleveland1.2.pdf) — lists TA-6 irons in 2004 with Action Lite steel and graphite (A/R/S), plus the 2005 W-Series Offset TA-6; the model is also absent from Cleveland's archived April 2003 proshop iron index, together fixing the introduction at 2004 rather than the task-brief's 2001"
+related_models:
+  - slug: "cleveland/ta5-irons"
+    label: "Predecessor: Cleveland TA5"
+  - slug: "cleveland/launcher-irons"
+    label: "Cleveland's next game-improvement line: Launcher irons"
+faq:
+  - q: "What is the loft of a Cleveland TA6 7-iron?"
+    a: "The Cleveland TA6 7-iron has a loft of 33.5 degrees, a lie of 62.5 degrees and a steel-shaft length of 36.75 inches."
+  - q: "What year are the Cleveland TA6 irons?"
+    a: "The TA6 appears in Cleveland's line in 2004 — it is absent from the company's own April 2003 iron catalogue — and a W-Series women's version followed in 2005. Some retailer lists date it 2001, which the period records contradict."
+  - q: "How much offset do Cleveland TA6 irons have?"
+    a: "A lot by Cleveland standards: 0.310 inch in the 1- and 2-irons, tapering to 0.150 inch at the 7-iron and zero at the sand wedge, to help square the face at impact."
+confidence: high

@@ -85,6 +85,8 @@ sources:
   - "Equip2Golf King Cobra I Oversize specification page (equip2golf.com/specifications/cobra/King_cobra_I_oversize.html) — full loft/lie/length/swing-weight table for the D1 driving iron through sand wedge, dated 1994-1995, with the Dynamic Gold steel and King Cobra Autoclave graphite stock shafts"
   - "GolfClubSpec.com King Cobra I Oversize entry (golfclubspec.com/iron_results.php?id=51) — same table, year 1994. HONEST SOURCING NOTE: GolfClubSpec and Equip2Golf are the same publisher, so these are effectively one source family compiled from period brochures; no offset figures were published, and confidence is medium accordingly. The 17-degree club is Cobra's D1 driving iron, recorded here in the 2-iron slot."
 related_models:
+  - slug: "cobra/king-cobra-ii-oversize-irons"
+    label: "Successor: King Cobra II Oversize"
   - slug: "cobra/ss-oversize-irons"
     label: "Later Cobra oversize iron: King Cobra SS Oversize"
   - slug: "cobra/king-os-irons"

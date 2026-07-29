@@ -1,0 +1,95 @@
+brand: Cleveland
+brand_slug: cleveland
+model: CG Black (2015)
+slug: cg-black-2015-irons
+club_type: irons
+year_introduced: 2014
+year_discontinued: 2017
+category: game-improvement
+construction: investment cast ultralight cavity back
+material: stainless steel with black finish
+predecessor: Cleveland CG Black (2012)
+successor: Cleveland Launcher HB
+description: >
+  The 2015 CG Black is the second generation of Cleveland's ultralight
+  distance line, announced in the autumn of 2014 (at retail from 7 November
+  2014) and sold as the 2015 range alongside a matching driver, fairways and
+  hybrids. The whole club is built light — sub-standard head weights, light
+  shafts and grips and long assemblies, with the 4-iron at 39.5 inches — so
+  moderate-speed players can generate more clubhead speed; lofts are strong
+  through the middle of the set with a 30-degree 7-iron and 44-degree
+  pitching wedge. Cleveland published the set 4-iron through sand wedge, with
+  the 50-degree wedge labelled DW, in right and left hand. A more compact
+  CG Black CB followed in February 2015. This record uses 2014 on the
+  announcement-year convention; the line is usually catalogued as 2015.
+specs:
+  - club: "4"
+    loft: 22.0
+    lie: 60.5
+    length: 39.5
+    bounce: 1.0
+    swing_weight: D3
+  - club: "5"
+    loft: 24.0
+    lie: 61.0
+    length: 38.75
+    bounce: 2.0
+    swing_weight: D3
+  - club: "6"
+    loft: 27.0
+    lie: 61.5
+    length: 38.0
+    bounce: 2.0
+    swing_weight: D3
+  - club: "7"
+    loft: 30.0
+    lie: 62.0
+    length: 37.25
+    bounce: 3.0
+    swing_weight: D3
+  - club: "8"
+    loft: 34.0
+    lie: 62.5
+    length: 36.75
+    bounce: 4.0
+    swing_weight: D3
+  - club: "9"
+    loft: 39.0
+    lie: 63.0
+    length: 36.25
+    bounce: 5.0
+    swing_weight: D3
+  - club: "PW"
+    loft: 44.0
+    lie: 63.5
+    length: 35.75
+    bounce: 6.0
+    swing_weight: D3
+  - club: "DW"
+    loft: 50.0
+    lie: 63.5
+    length: 35.5
+    bounce: 8.0
+    swing_weight: D4
+  - club: "SW"
+    loft: 56.0
+    lie: 63.5
+    length: 35.25
+    bounce: 12.0
+    swing_weight: D4
+sources:
+  - "Cleveland Golf official CG Black irons product page (clevelandgolf.com/CA_cg-black-irons__14cg_blackbi__viewProd_irons.html), archived 2015-06-22 via web.archive.org — retrieved directly; supplies the full 4-iron-through-SW table (loft, bounce, length, lie, steel and graphite swing weights) and right/left-hand availability. Cleveland printed a single length column; steel swing weights are recorded here."
+  - "Launch coverage dating the range: Haggin Oaks 'Cleveland Golf Introduces New CG Black Line For Fall 2014' and Plugged In Golf 'Cleveland Announces New 2015 CG Black Line' — full line available 7 November 2014, CG Black CB irons from February 2015. Stock shaft details were not published in the sources consulted and are omitted."
+related_models:
+  - slug: "cleveland/launcher-hb-irons"
+    label: "Successor concept: Cleveland Launcher HB"
+  - slug: "cleveland/588-altitude-irons"
+    label: "Previous Cleveland high-launch distance iron: 588 Altitude"
+faq:
+  - q: "What is the loft of a Cleveland CG Black 7-iron?"
+    a: "The 2015 Cleveland CG Black 7-iron has a loft of 30 degrees, a lie of 62 degrees and a length of 37.25 inches."
+  - q: "What year are the Cleveland CG Black irons?"
+    a: "There are two generations: a 2012 original and this second-generation line, announced in autumn 2014 and sold as the 2015 CG Black range from 7 November 2014."
+  - q: "Why are the Cleveland CG Black irons built so long and light?"
+    a: "The entire club — head, shaft and grip — is lighter than standard and assembled longer (39.5 inches at the 4-iron), so golfers with moderate swing speeds can swing faster and gain distance without changing their swing."
+confidence: high

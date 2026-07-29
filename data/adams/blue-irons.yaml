@@ -1,0 +1,88 @@
+brand: Adams
+brand_slug: adams
+model: Blue
+slug: blue-irons
+club_type: irons
+year_introduced: 2015
+year_discontinued: 2016
+category: super-game-improvement
+construction: investment cast
+material: stainless steel
+successor: null
+predecessor: null
+description: >
+  The Blue was Adams Golf's last new iron release, launched on 3 April 2015 as a
+  super-game-improvement set sold alongside a matching driver, fairway wood and hybrid.
+  The 8-club stock set runs 5-iron through sand wedge; rather than offer a 4-iron, Adams
+  steered golfers toward the companion Blue hybrid (19-25 degrees) for the long-iron
+  slots. Velocity Slot Technology in the sole lets the cast, one-piece face flex more at
+  impact for higher ball speed on mishits, paired with a low, rearward center of gravity,
+  a thick top line and generous offset aimed at high-handicap and beginner golfers. It
+  reached shops only months before TaylorMade quietly stopped developing new Adams
+  products and shut down adamsgolf.com, marking the effective end of the Adams iron line.
+specs:
+  - club: "5"
+    loft: 24.0
+    lie: 62.0
+    length: 37.75
+    offset: 0.224
+  - club: "6"
+    loft: 27.0
+    lie: 62.5
+    length: 37.25
+    offset: 0.209
+  - club: "7"
+    loft: 31.5
+    lie: 63.0
+    length: 36.75
+    offset: 0.193
+  - club: "8"
+    loft: 36.0
+    lie: 63.5
+    length: 36.25
+    offset: 0.173
+  - club: "9"
+    loft: 40.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.161
+  - club: "PW"
+    loft: 45.0
+    lie: 64.5
+    length: 35.5
+    offset: 0.146
+  - club: "AW"
+    loft: 50.0
+    lie: 64.5
+    length: 35.5
+    offset: 0.146
+  - club: "SW"
+    loft: 55.0
+    lie: 65.0
+    length: 35.25
+    offset: 0.059
+stock_shafts:
+  - name: "True Temper Dynalite SlimTech 85"
+    material: steel
+  - name: "Aldila SlimTech 55"
+    material: graphite
+sources:
+  - "InTheHoleGolf.com, Adams Blue Iron Set page (https://www.intheholegolf.com/AG15-BLUEIS/Adams-Blue-Iron-Set.html) — retailer reproduction of the Adams spec table giving loft, lie, length (graphite/steel) and offset for 5-iron through SW, plus set composition (5-PW, AW, SW) and stock steel/graphite SlimTech shaft names"
+  - "2nd Swing Golf, Adams 2015 Blue Single Iron page (https://www.2ndswing.com/golf-clubs/single-irons/adams-2015-blue-single-iron) — independent corroboration of the same loft/lie/length/offset table per club, including tip diameter; used to resolve one offset discrepancy (8-iron offset taken as 4.4mm from this source rather than 5.4mm from a differently-formatted retailer table, since 4.4mm keeps the offset column monotonically decreasing from 5-iron to SW as expected)"
+  - "Golf Shake, 'Adams Golf announce launch of Blue line of products' (https://www.golfshake.com/news/view/8595/Adams_Golf_announce_launch_of_Blue_line_of_products.html) — 3 April 2015 UK launch date, Velocity Slot Technology and low/back CG description, SlimTech shaft rationale, and combo/iron-only set pricing"
+  - "GolfWRX search results and multiple equipment reviews (Golfmagic, Golf Monthly, National Club Golfer, Golfalot) — corroborate the one-piece cast construction, thick top line/offset aimed at game-improvement and beginner golfers, and that Adams marketed the range without a 4-iron head, pointing buyers to the separate Blue hybrid (19, 21, 23, 25 degrees) instead"
+  - "Pitchmarks, 'Adams Irons By Year: The Complete List!' (https://pitchmarks.com/adams-irons-by-year/) and secondary equipment-history sites (tellmemoregolf.com, caddiehq.com, dnaofsports.com 'What Happened To Adams Golf' articles) — state that Blue (2015) was the last Adams iron model released, and that Adams stopped manufacturing and took down adamsgolf.com around 2016, ahead of adidas selling TaylorMade/Adams/Ashworth to KPS Capital Partners in 2017; no primary Adams press release fixes an exact discontinuation date, so year_discontinued: 2016 and confidence are based on this secondary consensus rather than a manufacturer statement"
+  - "adamsgolf.com product pages from 2015-2016 are not retrievable through normal web access in this session, so all specs above come from retailer/press reproductions rather than the original manufacturer spec sheet, hence confidence: medium"
+related_models:
+  - slug: "adams/idea-a12-irons"
+    label: "Earlier Adams super-game-improvement generation: Idea a12 OS (2011)"
+  - slug: "adams/xtd-irons"
+    label: "Adams' prior iron release: 2014 XTD (game-improvement category)"
+faq:
+  - q: "What is the loft of an Adams Blue 7-iron?"
+    a: "31.5 degrees, with a 63-degree lie and a 36.75-inch steel-shaft length (37 inches in graphite)."
+  - q: "What clubs come in a stock Adams Blue iron set?"
+    a: "Eight clubs: 5, 6, 7, 8, 9, PW, AW and SW. Adams did not offer a 4-iron head in the Blue line, pairing the set instead with the separate Blue hybrid (19-25 degrees) for the long-iron slots."
+  - q: "Was the Adams Blue the last iron model Adams Golf released?"
+    a: "As far as can be verified, yes. Launched 3 April 2015, it appears to be the final new Adams-branded iron line before TaylorMade stopped developing new Adams products and took down adamsgolf.com around 2016, ahead of adidas selling both TaylorMade and Adams to KPS Capital Partners in 2017."
+confidence: medium

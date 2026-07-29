@@ -1,0 +1,106 @@
+brand: Cobra
+brand_slug: cobra
+model: KING Forged MB
+slug: king-forged-mb-irons
+club_type: irons
+year_introduced: 2018
+year_discontinued: 2021
+category: blade
+construction: five-step forged muscle back with CNC-milled face and grooves
+material: 1025 carbon steel with a DBM (Diamonized Black Metal) finish
+predecessor: null
+successor: Cobra King MIM Tour
+description: >
+  The KING Forged MB is the muscle-back half of the KING Forged CB/MB pair
+  Cobra announced with Rickie Fowler on 30 October 2018 (at retail from 2
+  November 2018, and often catalogued as a 2019 or 2020 iron). The design
+  mimics Fowler's custom gamers: a compact players' shape, five-step forged
+  from a single billet of 1025 carbon steel, with a CNC-milled face, tighter
+  wedge-style groove spacing in the scoring clubs and a black DBM finish. The
+  standard set ran cavity backs 4-6 and these musclebacks 7-PW, with a full MB
+  set available in right hand and optional 2-iron, 3-iron and gap wedge heads.
+  Lofts are traditional at 34 degrees in the 7-iron, but the build is long for
+  a tour iron — 37.5 inches at the 7-iron with the stock Cobra Connect grip
+  (0.25 inch shorter with a standard grip). Offsets below are converted from
+  the millimetre figures Cobra published.
+specs:
+  - club: "2"
+    loft: 19.0
+    lie: 60.0
+    length: 40.0
+    offset: 0.110
+    swing_weight: D2
+  - club: "3"
+    loft: 21.0
+    lie: 60.5
+    length: 39.5
+    offset: 0.098
+    swing_weight: D2
+  - club: "4"
+    loft: 24.0
+    lie: 61.0
+    length: 39.0
+    offset: 0.091
+    swing_weight: D2
+  - club: "5"
+    loft: 27.0
+    lie: 61.5
+    length: 38.5
+    offset: 0.079
+    swing_weight: D2
+  - club: "6"
+    loft: 30.0
+    lie: 62.0
+    length: 38.0
+    offset: 0.071
+    swing_weight: D2
+  - club: "7"
+    loft: 34.0
+    lie: 62.5
+    length: 37.5
+    offset: 0.059
+    swing_weight: D2
+  - club: "8"
+    loft: 38.0
+    lie: 63.0
+    length: 37.0
+    offset: 0.051
+    swing_weight: D2
+  - club: "9"
+    loft: 42.0
+    lie: 63.5
+    length: 36.5
+    offset: 0.051
+    swing_weight: D2
+  - club: "PW"
+    loft: 46.0
+    lie: 64.0
+    length: 36.25
+    offset: 0.051
+    swing_weight: D3
+  - club: "GW"
+    loft: 50.0
+    lie: 64.0
+    length: 36.0
+    offset: 0.051
+    swing_weight: D3
+stock_shafts:
+  - name: "FST KBS $-Taper (black PVD)"
+    material: steel
+    flex: ["R", "S"]
+sources:
+  - "Cobra Golf official KING Forged irons page (cobragolf.com/king-forged-irons), archived 2019-07-23 via web.archive.org — retrieved directly; supplies the shared CB/MB spec table (2-iron through gap wedge: loft, lie, offset in millimetres, steel lengths with Connect and standard grips, swing weights), the five-step 1025 forging, tungsten toe/sole weighting in the cavity backs, CNC-milled face and DBM finish. Offsets here are those millimetre figures converted to inches."
+  - "Cobra Golf launch press release via the Haggin Oaks blog, 'Cobra Golf and Rickie Fowler Announce New KING Forged CB/MB Irons', dated 2018-10-30 — retail availability from 2 November 2018 at $1,099, standard 4-PW set (CB 4-6, MB 7-PW), optional 2i/3i/GW, KBS $-Taper black shafts in R/S, Tour Velvet Cobra Connect grips, full MB set in right hand only. NOTE: this record uses 2018 on the announcement-year convention; reviews commonly date the pair 2019, and some lists 2020."
+related_models:
+  - slug: "cobra/king-forged-cb-irons"
+    label: "Cavity-back sibling sold in the same set: Cobra KING Forged CB"
+  - slug: "cobra/king-mim-tour-irons"
+    label: "Successor tour iron: Cobra King MIM Tour"
+faq:
+  - q: "What is the loft of a Cobra KING Forged MB 7-iron?"
+    a: "The Cobra KING Forged MB 7-iron has a loft of 34 degrees, a lie of 62.5 degrees and a length of 37.5 inches with the stock Cobra Connect grip."
+  - q: "Can you buy a full set of Cobra KING Forged MB irons?"
+    a: "The standard retail set mixed cavity backs (4-6) with musclebacks (7-PW), but Cobra offered a full MB configuration in right hand, plus optional 2-iron, 3-iron and gap wedge heads."
+  - q: "When did the Cobra KING Forged MB come out?"
+    a: "Cobra and Rickie Fowler announced the KING Forged CB/MB pair on 30 October 2018 and it reached retail on 2 November 2018, so it is usually listed as a 2019 model."
+confidence: high

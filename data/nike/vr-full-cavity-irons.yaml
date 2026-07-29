@@ -1,0 +1,94 @@
+brand: Nike
+brand_slug: nike
+model: VR Full Cavity
+slug: vr-full-cavity-irons
+club_type: irons
+year_introduced: 2008
+year_discontinued: 2010
+category: game-improvement
+construction: cast, undercut full cavity back
+material: 431 stainless steel
+successor: Nike VR_S
+predecessor: null
+description: >
+  The Victory Red Full Cavity - retailers and reviewers shortened it to "VR Full Cavity"
+  well before Nike itself adopted the VR abbreviation for the 2010 VR Pro generation - was
+  the third and most forgiving tier of Nike's three-way Victory Red iron launch, announced
+  alongside the muscleback Victory Red Forged TW Blade and the mid-tier Victory Red Forged
+  Split Cavity. It is cast from 431 stainless steel, about 25% softer than the 17-4
+  stainless commonly used elsewhere, with a deep undercut cavity, wide sole, thick topline,
+  more offset than its forged siblings, and progressive face thickness for a lower,
+  deeper centre of gravity. Lofts start level with the Split Cavity and TW Blade at the
+  4-iron (24 degrees) but run about two degrees stronger by the pitching wedge (45 versus
+  47), consistent with its game-improvement, more distance-oriented role. The stock set is
+  4-iron through approach wedge in steel or graphite, with a women's 5-iron through sand
+  wedge set offered in graphite only.
+specs:
+  - club: "4"
+    loft: 24.0
+    lie: 60.0
+    length: 38.5
+    bounce: 3.0
+  - club: "5"
+    loft: 27.0
+    lie: 61.0
+    length: 38.0
+    bounce: 4.0
+  - club: "6"
+    loft: 30.0
+    lie: 62.0
+    length: 37.5
+    bounce: 5.0
+  - club: "7"
+    loft: 33.0
+    lie: 62.5
+    length: 37.0
+    bounce: 6.0
+  - club: "8"
+    loft: 37.0
+    lie: 63.0
+    length: 36.5
+    bounce: 7.0
+  - club: "9"
+    loft: 41.0
+    lie: 63.5
+    length: 36.0
+    bounce: 8.0
+  - club: "PW"
+    loft: 45.0
+    lie: 64.0
+    length: 35.75
+    bounce: 9.0
+  - club: "AW"
+    loft: 50.0
+    lie: 64.0
+    length: 35.75
+    bounce: 10.0
+stock_shafts:
+  - name: "True Temper Dynamic Gold HL (High Launch)"
+    material: steel
+    flex: ["R300", "S300"]
+sources:
+  - "The Golf Wire, 'Nike Golf Introduces Series of Victory Red Irons for Golfers who Demand Tour Proven Craftsmanship, Performance and Forgiveness' (press release, 26 August 2008; retail from 1 November 2008) - names the three-model launch (Victory Red Forged TW Blades, Victory Red Forged Split Cavity, and the Full Cavity), gives the Full Cavity's 431 stainless steel construction (25% softer than 17-4), 4-AW set composition, women's 5-SW graphite set, and pricing ($799.99 steel / $999.99 graphite / $999.99 women's)"
+  - "InTheHoleGolf.com 'Nike Victory Red Full Cavity Irons' retailer spec page (intheholegolf.com/VRFC/Nike-Victory-Red-Full-Cavity-Irons.html) - supplies the full loft, lie, bounce, and steel/graphite length table for 4-iron through AW used above, plus the Victory Red grip by Eaton and the undercut-cavity/perimeter-weighting description"
+  - "2nd Swing Golf 'Nike Victory Red Cavity Back Iron Set' page (2ndswing.com/golf-clubs/iron-sets/nike-victory-red-cavity-back-iron-set) - independently lists an identical loft/lie/length/bounce ladder for 4-iron through PW and names the stock shaft as True Temper Dynamic Gold High Launch, confirmed in S300 by this listing and in R300 by a Walmart pre-owned listing for the same set ('Nike Victory Red Full Cavity 4-PW, AW Iron Set... TT Dynamic Gold HL R300')"
+  - "Today's Golfer 'Nike Golf VR Full-Cavity Better Player Irons Review' and The Hackers Paradise 'Nike Victory Red Full Cavity Review' both describe the 431-stainless, undercut-cavity, perimeter-weighted construction and note the model has more offset than the Victory Red TW Blade and Forged Split Cavity; neither publishes a full per-club spec table"
+  - "This repository's sibling file data/nike/vr-split-cavity-irons.yaml documents the same three-way 2008 Victory Red launch (TheSandTrap.com bag-drop coverage, 18 November 2008) and already lists this model as its 2008-launch sibling; that cross-reference, plus the press release above, is why year_introduced is recorded as 2008 rather than 2010 - no evidence was found for a distinct 2010 'VR Full Cavity' product launched alongside the 2010 VR Pro Blade, and forum/resale listings (GolfWRX 'Previous Model Year Reviews' board, Golf Monthly marketplace posts from March 2011, eBay/Walmart pre-owned listings) show this same 2008 set still being bought, sold and discussed through 2010-2011"
+  - "No nikegolf.com page from this era is retrievable via the Wayback Machine (the domain's CDX index returns no matching captures), so all per-club figures come from retailer/review reproductions rather than a Nike-original chart; offset is not published in any source found and is omitted rather than inferred. year_discontinued and successor are inferred - no source names a direct replacement, but Nike's next cast game-improvement iron in this repository is the 2012 VR_S (data/nike/vrs-irons.yaml), which is the closest categorical descendant; confidence is medium given the retailer-table agreement offset by the lack of a manufacturer-original source"
+related_models:
+  - slug: "nike/vr-split-cavity-irons"
+    label: "Sibling in the 2008 Victory Red launch: Nike VR Split Cavity"
+  - slug: "nike/vr-pro-blade-irons"
+    label: "Later Nike blade replacing this generation's TW Blade: Nike VR Pro Blade"
+  - slug: "nike/vrs-irons"
+    label: "Inferred cast game-improvement successor: Nike VR_S"
+faq:
+  - q: "What is the loft of a Nike VR Full Cavity 7-iron?"
+    a: "The Nike VR Full Cavity 7-iron has a loft of 33 degrees, with a 62.5-degree lie and a 37-inch steel-shaft length (36.5 inches in the graphite version)."
+  - q: "How does the VR Full Cavity compare to the Victory Red Split Cavity and TW Blade?"
+    a: "The Full Cavity shares an identical 24-degree 4-iron with its forged siblings but runs progressively stronger from there - a 33-degree 7-iron against 35 degrees for both the Split Cavity and TW Blade, and a 45-degree pitching wedge against their 47 degrees - reflecting its game-improvement, more distance-oriented design and added offset."
+  - q: "What clubs came in a stock Nike Victory Red Full Cavity set?"
+    a: "The standard set was 4-iron through a 50-degree approach wedge (8 clubs), offered in steel or graphite. A women's 5-iron through sand wedge set was offered in graphite only. No 3-iron appears on the retailer specification tables found for this model."
+  - q: "Was the Nike VR Full Cavity introduced in 2010?"
+    a: "No. It was announced in 2008 (26 August 2008 per Nike's press release, with a 1 November 2008 retail date) as part of the same three-way Victory Red launch as the Victory Red Forged TW Blade and Forged Split Cavity. It remained in retail and resale channels well into 2010-2011, which is likely why it is sometimes associated with the 2010 VR Pro generation, but no evidence of a separate 2010 launch was found."
+confidence: medium

@@ -1,0 +1,95 @@
+brand: Adams
+brand_slug: adams
+model: Idea Tech a4OS
+slug: idea-a4-os-irons
+club_type: irons
+year_introduced: 2008
+year_discontinued: 2009
+category: super-game-improvement
+construction: cast
+material: stainless steel with magnesium-crowned hybrid heads (3H-5H) and thermoplastic-urethane-insert hybrid-style irons (6-PW)
+successor: Adams Idea a7 OS
+predecessor: Adams Idea a3 OS
+description: >
+  The Idea Tech a4OS is the maximum-forgiveness half of Adams' 2008 a4 generation,
+  launched 1 November 2008 as the successor to the Idea a3 OS and the far more
+  forgiving sibling of the standard Idea Tech a4 (recorded in this dataset as Idea
+  a4). It is a hybrid-iron combo set built around Boxer Technology, a magnesium
+  crown and dual tungsten heel-toe weighting: the stock eight-club make-up is
+  described by Adams as "3-PW, including seven hybrids" - full 3, 4 and 5 hybrids
+  followed by iron-like hybrid heads at 6, 7, 8 and 9 and a conventional pitching
+  wedge. Lofts run from 19 degrees at the 3-hybrid to 44 degrees at the pitching
+  wedge, one to four degrees stronger through the set than the standard Idea Tech
+  a4, which uses only two hybrids ahead of six forged irons. The set won a Golf
+  Digest 2009 Hot List gold award as a Category Leader in Innovation in the
+  super-game-improvement group before Adams replaced it with the Idea a7 OS in
+  August 2009.
+specs:
+  - club: "3H"
+    loft: 19.0
+    lie: 59.25
+    length: 40.5
+    swing_weight: D1
+  - club: "4H"
+    loft: 22.0
+    lie: 60.0
+    length: 39.75
+    swing_weight: D1
+  - club: "5H"
+    loft: 25.0
+    lie: 61.0
+    length: 39.0
+    swing_weight: D1
+  - club: "6"
+    loft: 28.0
+    lie: 61.5
+    length: 38.25
+    swing_weight: D1
+  - club: "7"
+    loft: 32.0
+    lie: 62.25
+    length: 37.5
+    swing_weight: D1
+  - club: "8"
+    loft: 36.0
+    lie: 63.0
+    length: 36.75
+    swing_weight: D1
+  - club: "9"
+    loft: 40.0
+    lie: 63.75
+    length: 36.0
+    swing_weight: D1
+  - club: "PW"
+    loft: 44.0
+    lie: 64.0
+    length: 35.75
+    swing_weight: D2
+stock_shafts:
+  - name: "Graphite Design Tour AD YSQ-HL"
+    material: graphite
+    flex: ["A", "R", "S"]
+  - name: "True Temper GS 75"
+    material: steel
+    flex: ["R", "S"]
+sources:
+  - "Adams Golf official Idea Tech a4OS page, specs tab, 14 November 2008 capture (https://web.archive.org/web/20081114185434/http://www.adamsgolf.com/products/irons/a4os.php?page=specs) - contemporaneous manufacturer spec table giving loft, lie, length and graphite/steel swing weight for the 3-hybrid through PW, the eight-club '3-PW, including seven hybrids' set makeup, the Graphite Design Tour AD YSQ-HL and True Temper GS 75 stock shafts, and the Adams Traction Tour Velvet grip. Swing weights above use the graphite (SW-G) column, the only option offered on the 3, 4 and 5 hybrids; steel is offered only on the 6 through PW positions and runs one point heavier, building to D2 uniformly across 6 through 9 and matching the pitching wedge's D2"
+  - "GlobeNewswire, 'Adams Golf Unveils Super Premium and Easy-to-Hit Idea Tech a4OS Hybrid Irons and Insight Tech a4OS Woods', 9 September 2008 (https://www.globenewswire.com/news-release/2008/09/09/384375/10185/en/Adams-Golf-Unveils-Super-Premium-and-Easy-to-Hit-Idea-Tech-a4OS-Hybrid-Irons-and-Insight-Tech-a4OS-Woods.html) - product-unveiling date, construction/material detail (Boxer Technology, magnesium crown, dual tungsten perimeter weighting, maraging-steel face, TPU vibration-dampening insert), and pricing (249.99 USD per individual hybrid, 999.99 USD full graphite set, 899.99 USD full steel set). The 1 November 2008 on-sale date is corroborated by the 3 November 2008 earliest Wayback capture of the product page"
+  - "InTheHoleGolf.com Adams Idea Tech a4OS Iron Set page (https://www.intheholegolf.com/AGA4OSIS/Adams-Idea-Tech-a4OS-Iron-Set.html) - independent retailer corroboration of the same loft/lie/length/swing-weight table and the '3-PW, including seven hybrids' makeup. One conflict: this page lists the 3-hybrid length as 40.25 inches against the manufacturer capture's 40.5 inches; the manufacturer figure is used above"
+  - "The Golf Wire, 'Adams Golf's Leadership Position Recognized with Four 2009 Hot List Gold Awards' (https://thegolfwire.com/140145-2/) - Golf Digest 2009 Hot List gold award for the Idea Tech a4OS as Category Leader in Innovation in the super-game-improvement group"
+  - "year_discontinued is 2009, the year Adams announced the successor Idea a7 OS (6 August 2009, per the sourcing on data/adams/idea-a7-os-irons.yaml, whose predecessor field records this model as 'Adams Idea Tech a4OS'). Individual GW, SW and LW extension heads (approximately 49, 55 and 58 degrees per secondhand marketplace listings on eBay and SidelineSwap) were sold separately to extend the set, but no manufacturer table corroborating their lie/length/bounce was found, so they are omitted from specs above rather than estimated"
+related_models:
+  - slug: "adams/idea-a3-os-irons"
+    label: "Predecessor: Adams Idea a3 OS"
+  - slug: "adams/idea-a7-os-irons"
+    label: "Successor: Adams Idea a7 OS"
+  - slug: "adams/idea-a4-irons"
+    label: "Sibling: Adams Idea a4 (standard)"
+faq:
+  - q: "What is the loft of an Adams Idea Tech a4OS 7-iron?"
+    a: "32 degrees, with a 62.25-degree lie and a 37.5-inch length. Like the rest of the mid-set, this '7' is an iron-like hybrid head rather than a conventional forged iron."
+  - q: "What clubs come in a stock Adams Idea Tech a4OS set?"
+    a: "Eight clubs, described by Adams as '3-PW, including seven hybrids': full 3, 4 and 5 hybrids, then iron-like hybrid heads at 6, 7, 8 and 9, and a conventional pitching wedge. Matching GW, SW and LW heads were sold separately to extend the set."
+  - q: "What is the difference between the Idea Tech a4 and the Idea Tech a4OS?"
+    a: "The standard Idea Tech a4 uses only a 3-hybrid and 4-hybrid ahead of six forged 8620 carbon-steel irons running 26 degrees at the 5-iron. The a4OS is the far more forgiving cast version, replacing five more clubs with hybrid or hybrid-style heads and running one to four degrees stronger through the set, with a 19-degree 3-hybrid and a 44-degree pitching wedge."
+confidence: high

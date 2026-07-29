@@ -1,0 +1,79 @@
+brand: Srixon
+brand_slug: srixon
+model: I-403 AD
+slug: i-403-ad-irons
+club_type: irons
+year_introduced: 2004
+year_discontinued: 2005
+category: game-improvement
+construction: lost wax precision cast cavity back
+material: 255 soft stainless steel with tungsten-nickel sole weights
+successor: null
+predecessor: null
+description: >
+  The I-403 AD was the forgiving, cast half of Srixon's early-2000s iron range —
+  AD standing for the Accuracy and Distance branding it shared with the W-403 AD
+  woods. Lost-wax cast from soft 255 stainless steel, it packs tungsten-nickel
+  sole weights that Srixon claimed moved the centre of gravity lower than any
+  competing iron, with variable hosel lengths and back weighting tuned through
+  the set so the long irons launch easily and the short irons flight down for
+  scoring. Progressive offset and a satin finish rounded out a club Srixon aimed
+  at players of all abilities. The factory chart ran 3-iron to sand wedge and
+  published no lengths, so those are omitted here.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 60.0
+  - club: "4"
+    loft: 23.0
+    lie: 60.5
+  - club: "5"
+    loft: 26.0
+    lie: 61.0
+  - club: "6"
+    loft: 29.0
+    lie: 61.5
+  - club: "7"
+    loft: 33.0
+    lie: 62.0
+  - club: "8"
+    loft: 37.0
+    lie: 62.5
+  - club: "9"
+    loft: 41.0
+    lie: 63.0
+  - club: "PW"
+    loft: 45.0
+    lie: 63.5
+  - club: "AW"
+    loft: 50.0
+    lie: 63.5
+  - club: "SW"
+    loft: 55.0
+    lie: 63.5
+stock_shafts:
+  - name: "Srixon SV-3000"
+    material: graphite
+    weight: "62-65g"
+    flex: ["R", "S"]
+  - name: "True Temper Dynalite Steel"
+    material: steel
+    weight: "111-114g"
+    flex: ["R", "S"]
+sources:
+  - "Srixon's official I-403AD specification chart (srixon.com/club_iron_403.asp with images/irons/403chart.gif, 2004, recovered via archive.org) — supplied every loft and lie above plus the SV-3000 graphite (65g S / 62g R, mid flex point) and True Temper Dynalite steel (114g S / 111g R, high flex point) stock shafts, and the 255 soft stainless + tungsten-nickel weighting and lost-wax casting construction"
+  - "The same archived page's marketing copy — Digital Impact design, lowest-CG claim, variable hosel lengths, progressive offset, satin finish, available in left hand and ladies"
+  - "Club lengths were not printed on the factory chart and no corroborated length table survives, so lengths are omitted rather than inferred; offset and bounce likewise. The loft/lie numbers themselves are factory data, so confidence is high"
+related_models:
+  - slug: "srixon/i-302-irons"
+    label: "Forged players sibling: Srixon I-302"
+  - slug: "srixon/i-506-irons"
+    label: "Next forged Srixon iron: Srixon I-506"
+faq:
+  - q: "What is the loft of a Srixon I-403 AD 7-iron?"
+    a: "The Srixon I-403 AD 7-iron has a loft of 33 degrees and a lie of 62 degrees per Srixon's factory chart."
+  - q: "What does AD stand for on the Srixon I-403 AD?"
+    a: "Accuracy and Distance — the branding Srixon used across its 2004 403 AD woods and irons."
+  - q: "Are the Srixon I-403 AD irons forgiving?"
+    a: "Yes — they are the cast game-improvement model of Srixon's early-2000s range, with tungsten-nickel sole weights for a very low centre of gravity and progressive offset, while the forged I-302 served the better-player end."
+confidence: high

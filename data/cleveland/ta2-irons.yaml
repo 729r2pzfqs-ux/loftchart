@@ -1,0 +1,121 @@
+brand: Cleveland
+brand_slug: cleveland
+model: TA2 Micro-Cavity
+slug: ta2-irons
+club_type: irons
+year_introduced: 2003
+year_discontinued: 2004
+category: players
+construction: micro-cavity back with perimeter weighting
+material: carbon steel
+predecessor: null
+successor: null
+description: >
+  The TA2 Micro-Cavity is a late addition to Cleveland's Tour Action range,
+  aimed at low-to-mid handicappers who want "the forgiveness of a cavity-back
+  and the workability of a blade". Its shallow micro cavity and moderate
+  perimeter weighting enlarge the sweet spot and stabilise the face while the
+  head design shortens the duration of impact vibration for a solid,
+  blade-like feel. Lofts are traditional — 34 degrees at the 7-iron and 46 at
+  the pitching wedge — on Dynamic Gold stock, with Sensicore, Rifle and
+  Flighted Rifle custom options. Despite the low model number, the TA2 is one
+  of the last Tour Action irons: it appears in Cleveland's line in 2003,
+  after the TA7, and the task-brief's 1996 date belongs to no TA2 — the 1996
+  Cleveland iron was the VAS+. Cleveland's published length columns contain
+  three internally inconsistent cells; see sources.
+specs:
+  - club: "1"
+    loft: 16.0
+    lie: 57.0
+    length: 39.75
+    offset: 0.185
+    swing_weight: D2
+  - club: "2"
+    loft: 18.0
+    lie: 58.0
+    length: 39.25
+    offset: 0.170
+    swing_weight: D2
+  - club: "3"
+    loft: 21.0
+    lie: 59.0
+    length: 38.75
+    offset: 0.155
+    swing_weight: D2
+  - club: "4"
+    loft: 24.0
+    lie: 60.0
+    length: 38.25
+    offset: 0.140
+    swing_weight: D2
+  - club: "5"
+    loft: 27.0
+    lie: 61.0
+    length: 37.75
+    offset: 0.125
+    swing_weight: D2
+  - club: "6"
+    loft: 30.5
+    lie: 62.0
+    length: 37.25
+    offset: 0.115
+    swing_weight: D2
+  - club: "7"
+    loft: 34.0
+    lie: 62.5
+    length: 36.75
+    offset: 0.105
+    swing_weight: D2
+  - club: "8"
+    loft: 38.0
+    lie: 63.0
+    length: 36.25
+    offset: 0.095
+    swing_weight: D2
+  - club: "9"
+    loft: 42.0
+    lie: 63.5
+    length: 35.75
+    offset: 0.090
+    swing_weight: D2
+  - club: "PW"
+    loft: 46.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.085
+    swing_weight: D3
+  - club: "DW"
+    loft: 51.0
+    lie: 64.0
+    length: 35.25
+    offset: 0.085
+    swing_weight: D4
+  - club: "SW"
+    loft: 56.0
+    lie: 64.0
+    length: 35.0
+    offset: 0.000
+    swing_weight: D5
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+    flex: ["R300", "S300", "X100"]
+  - name: "Cleveland GAT 100"
+    material: graphite
+    flex: ["R", "S", "X"]
+sources:
+  - "Cleveland Golf official TA2 Micro-Cavity product page (clevelandgolf.com/proshop/irons/ta2.php), archived 2003-06-08 via web.archive.org — retrieved directly; supplies the 1-iron-through-SW table (loft, lie, steel and graphite lengths, swing weights, offset), the micro-cavity design story and the Dynamic Gold / Rifle / Flighted Rifle / GAT 100 shaft options. HONEST SOURCING NOTE: three steel-length cells in Cleveland's table are internally inconsistent (the 7-iron prints 39.75, the 8-iron 36.75 and the SW 35.50); the values here follow the half-inch ladder used by the other nine clubs and the graphite column (steel = graphite - 0.25 inch), giving 36.75, 36.25 and 35.00 respectively."
+  - "GolfClubShaftReview compiled Cleveland stock-shaft list (golfclubshaftreview.com, cleveland1.2.pdf) — lists 'TA-2 Irons (Micro-Cavity)' in 2003 with Dynamic Gold R3/S3/X1, corroborating the 2003 model year"
+related_models:
+  - slug: "cleveland/ta7-irons"
+    label: "Contemporary Tour Action players iron: Cleveland TA7"
+  - slug: "cleveland/cg2-irons"
+    label: "Concept successor in the CG line: Cleveland CG2"
+faq:
+  - q: "What is the loft of a Cleveland TA2 7-iron?"
+    a: "The Cleveland TA2 Micro-Cavity 7-iron has a loft of 34 degrees, a lie of 62.5 degrees and a steel-shaft length of 36.75 inches."
+  - q: "What year are the Cleveland TA2 irons?"
+    a: "The TA2 Micro-Cavity joined Cleveland's line in 2003, near the end of the Tour Action era — the model numbers were never chronological. There was no 1996 TA2; Cleveland's 1996 iron was the VAS+."
+  - q: "Who are the Cleveland TA2 Micro-Cavity irons for?"
+    a: "Low-to-mid handicappers who want a blade-like head with a small safety margin: the shallow micro cavity adds forgiveness and face stability while keeping the workability and solid feel of a blade."
+confidence: medium

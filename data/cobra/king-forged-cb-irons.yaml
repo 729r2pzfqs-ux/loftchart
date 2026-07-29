@@ -3,7 +3,7 @@ brand_slug: cobra
 model: KING Forged CB
 slug: king-forged-cb-irons
 club_type: irons
-year_introduced: 2019
+year_introduced: 2018
 year_discontinued: 2021
 category: players
 construction: five-step forged with a tungsten sole weight
@@ -65,7 +65,10 @@ sources:
   - "drivingrangeheroes.com 'Cobra King Forged CB / MB Irons Review' — the stock loft, lie and length table for the 2-iron through gap wedge, the 2019 release year, the KBS $-Taper black stock shaft, the Golf Pride Tour Velvet Cobra Connect grip, and the CB/MB split-set option."
   - "2ndswing.com Cobra King Forged CB Iron Set and Cobra KING Forged CB MB Iron Set pages — confirm the five-step forging, the tour-inspired shaping and the sets sold as 4-9 and 5-PW."
   - "Note: offset, bounce and swing weight were not published in the sources consulted and are omitted rather than estimated."
+  - "Cobra/Rickie Fowler launch press release via the Haggin Oaks blog, dated 2018-10-30 with retail from 2 November 2018 — fixes the announcement year at 2018 (reviews commonly date the pair 2019)."
 related_models:
+  - slug: "cobra/king-forged-mb-irons"
+    label: "Muscle-back sibling sold in the same set: Cobra KING Forged MB"
   - slug: "cobra/king-forged-tec-irons"
     label: "Cobra's players-distance forging: Cobra KING Forged Tec"
   - slug: "cobra/king-mim-tour-irons"
@@ -76,7 +79,7 @@ faq:
   - q: "Can you mix Cobra KING Forged CB and MB irons?"
     a: "Yes — Cobra sold the pair as a deliberate combo. A common build runs cavity backs through the 6-iron and musclebacks from the 7-iron down, and Cobra offered full CB, full MB or split sets."
   - q: "When were Cobra KING Forged CB irons made?"
-    a: "They were released in 2019."
+    a: "Cobra and Rickie Fowler announced the KING Forged CB/MB pair on 30 October 2018, with retail availability from 2 November 2018; reviews commonly list them as 2019 irons."
   - q: "Why are Cobra KING Forged CB irons so long?"
     a: "Cobra builds them at 37.50 inches for the 7-iron, half an inch longer than most tour cavity backs, which is consistent across the KING forged line of that period."
 confidence: medium

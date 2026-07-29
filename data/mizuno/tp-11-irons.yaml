@@ -1,0 +1,83 @@
+brand: Mizuno
+brand_slug: mizuno
+model: TP-11
+slug: tp-11-irons
+club_type: irons
+year_introduced: 1988
+year_discontinued: 1994
+category: game-improvement
+construction: forged shallow cavity back
+material: forged carbon steel
+successor: null
+predecessor: null
+description: >
+  The TP-11 was the long-running easier-to-hit model in Mizuno's European TP range,
+  a forged shallow cavity sold from 1988 to 1994 alongside the more demanding TP-9
+  blade. Its reputation was made in April 1988 when Sandy Lyle won the Masters
+  playing Mizuno's TP irons, famously escaping the 18th-hole fairway bunker with a
+  7-iron to set up his winning birdie. Mizuno's own retrospective timeline records
+  a mildly irregular loft ladder — a 37-degree 7-iron and 49-degree pitching wedge —
+  with lies flat by modern standards. Vintage-Mizuno historians link it to Mizuno's
+  US MS-9/MP-9 generation, though period owners also equate it with the Japanese
+  Mizuno Pro MS-11 stamping; the equivalence is disputed, so it is recorded here
+  simply as the European model. Mizuno published no length table, so lengths are
+  omitted.
+specs:
+  - club: "1"
+    loft: 17.0
+    lie: 55.0
+  - club: "2"
+    loft: 19.0
+    lie: 56.0
+  - club: "3"
+    loft: 22.0
+    lie: 57.0
+  - club: "4"
+    loft: 26.0
+    lie: 58.0
+  - club: "5"
+    loft: 29.5
+    lie: 59.0
+  - club: "6"
+    loft: 33.0
+    lie: 60.0
+  - club: "7"
+    loft: 37.0
+    lie: 60.5
+  - club: "8"
+    loft: 41.0
+    lie: 61.0
+  - club: "9"
+    loft: 45.0
+    lie: 61.5
+  - club: "PW"
+    loft: 49.0
+    lie: 62.0
+  - club: "SW"
+    loft: 55.0
+    lie: 62.0
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+  - name: "Mizuno Exsar IS2 Tour spec"
+    material: graphite
+sources:
+  - "Mizuno Europe's official 'Irons Timeline' (golf.mizunoeurope.com/irons/irons-timeline.php, 2010 capture recovered via archive.org) — the TP-11 table supplied every loft and lie above (1-iron to SW) plus the Dynamic Gold and Exsar IS2 Tour spec stock shafts and right/left-hand availability"
+  - "qsponge.com 'What is loft angle of Mizuno TP-11 Irons?' — an independently scraped copy of the same table, matching cell-for-cell apart from rounding the 5-iron to 29 degrees"
+  - "MizunoDBG vintage-Mizuno blog (mizunotp.tech.blog, 'History of Mizuno TP') — 1988-1994 production window, the Sandy Lyle 1988 Masters association, and the US MS-9/MP-9 and Japan Pro MS-11 equivalence claims noted (and flagged as disputed) in the description"
+  - "Mizuno never published club lengths for the TP-11 in the surviving timeline, so lengths are omitted rather than inferred; offset and bounce likewise. Confidence is medium: the loft/lie data is manufacturer-published but reached us through an archived retrospective"
+related_models:
+  - slug: "mizuno/tp-9-irons"
+    label: "Blade sibling in the TP range: Mizuno TP-9"
+  - slug: "mizuno/ms-11-irons"
+    label: "Japanese-market Mizuno Pro of the same era: Mizuno MS-11"
+  - slug: "mizuno/mp-9-irons"
+    label: "US counterpart generation: Mizuno MP-9"
+faq:
+  - q: "What is the loft of a Mizuno TP-11 7-iron?"
+    a: "The Mizuno TP-11 7-iron has a loft of 37 degrees and a lie of 60.5 degrees per Mizuno's own irons timeline."
+  - q: "Did Sandy Lyle win the Masters with Mizuno TP irons?"
+    a: "Yes — Lyle won the 1988 Masters playing Mizuno's TP irons, sealing it with his famous 7-iron from the 18th fairway bunker, and the TP-11 traded on that association throughout its 1988-1994 run."
+  - q: "Is the Mizuno TP-11 a blade?"
+    a: "No — it is a forged shallow cavity back, the easier-to-hit companion to the TP-9 blade, though by modern standards its compact head and flat lies still suit better players."
+confidence: medium
