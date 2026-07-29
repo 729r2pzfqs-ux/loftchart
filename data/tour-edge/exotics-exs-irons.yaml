@@ -1,0 +1,92 @@
+brand: Tour Edge
+brand_slug: tour-edge
+model: Exotics EXS
+slug: exotics-exs-irons
+club_type: irons
+year_introduced: 2018
+year_discontinued: 2020
+category: players-distance
+construction: hollow cavity in the lower half of the head with a forged cup face and web-shaped variable-thickness design
+material: steel body and forged cup face, with a 19-gram tungsten toe weight (4-7 iron) and a thermoplastic-elastomer damping insert in the upper cavity
+successor: Tour Edge Exotics EXS 220
+predecessor: null
+description: >
+  The Exotics EXS was Tour Edge's first "unapologetically strong"-lofted
+  distance iron, announced 10 October 2018 for 1 November 2018 retail (the
+  set is nonetheless widely sold and reviewed as a 2019-model-year club).
+  Founder Dave Glod built it around a hollow lower cavity and a forged cup
+  face with a web-shaped variable-thickness pattern to boost ball speed and
+  limit falloff on off-center hits, a 19-gram tungsten weight in the mid-toe
+  of the 4- through 7-irons for stability, and a thermoplastic-elastomer
+  insert (with a vibration-damping gel coating) fitted into the top of the
+  hollow cavity to control feel. A distinctive ramped sole raises the middle
+  section to open up heel and toe relief for turf interaction. The 21.5-degree
+  5-iron was among the strongest in the game-improvement category at launch.
+  The seven-piece set (4-PW) retailed for $700 in steel, $800 in graphite,
+  with AW, GW and SW available; stock shafts were the KBS Max 80 steel and
+  Mitsubishi Tensei CK Blue graphite.
+specs:
+  - club: "4"
+    loft: 19.0
+    lie: 61.0
+    length: 38.75
+  - club: "5"
+    loft: 21.5
+    lie: 61.5
+    length: 38.25
+  - club: "6"
+    loft: 24.0
+    lie: 62.0
+    length: 37.75
+  - club: "7"
+    loft: 27.5
+    lie: 62.5
+    length: 37.25
+  - club: "8"
+    loft: 32.0
+    lie: 63.0
+    length: 36.75
+  - club: "9"
+    loft: 37.0
+    lie: 63.5
+    length: 36.25
+  - club: "PW"
+    loft: 42.0
+    lie: 64.0
+    length: 35.75
+  - club: "AW"
+    loft: 46.0
+    lie: 64.0
+    length: 35.75
+  - club: "GW"
+    loft: 51.0
+    lie: 64.0
+    length: 35.75
+  - club: "SW"
+    loft: 56.0
+    lie: 64.0
+    length: 35.75
+stock_shafts:
+  - name: "KBS Max 80"
+    material: steel
+    weight: "80g"
+  - name: "Mitsubishi Tensei CK Blue"
+    material: graphite
+sources:
+  - "golfdigest.com 'Tour Edge Exotics EXS irons make distance push with hollow design, multiple materials and strong lofts' (Mike Stachura, 10 Oct 2018) — the manufacturer briefing: hollow lower-cavity construction with a forged cup face and web-shaped variable-thickness design, 19-gram tungsten toe weight in the 4-7 irons, thermoplastic-elastomer damping insert with a vibration-control gel coating, the ramped sole design, the 4-iron-to-56-degree-sand-wedge range, KBS Max 80 steel / Mitsubishi Tensei CK Blue graphite stock shafts, 1 November 2018 retail availability and $700 (steel) / $800 (graphite) seven-piece set pricing."
+  - "qsponge.com 'What are the loft angles of Tour Edge Exotics EXS irons?' and carlsgolfland.com product spec table — full loft/lie/length chart for 4 through SW (19/61/38.75 down to 56/64/35.75), matching club-for-club the numbers Tour Edge later reused on the Exotics E723 chart already recorded on this site."
+  - "Year note: callawaygolfpreowned.com's own listing filename ('tour-edge-irons-2018-exotics-exs') and the Golf Digest announcement date place the actual announcement/retail in October-November 2018; year_introduced records that per the schema's announcement-year convention, though the set is commonly marketed and reviewed as a 2019 model (golfingmagazine.net and untilthenexttee.blog reviews are both dated 2019)."
+  - "Note on year_discontinued: set to 2020, the year Tour Edge announced the Exotics EXS 220 successor."
+related_models:
+  - slug: "tour-edge/exotics-exs-220-irons"
+    label: "Successor: Tour Edge Exotics EXS 220"
+  - slug: "tour-edge/exotics-exs-pro-irons"
+    label: "Later limited-edition forged players sibling: Tour Edge Exotics EXS Pro"
+faq:
+  - q: "What is the loft of a Tour Edge Exotics EXS 7-iron?"
+    a: "The Exotics EXS 7-iron has a loft of 27.5 degrees, a lie of 62.5 degrees and a standard length of 37.25 inches."
+  - q: "How strong is the Tour Edge Exotics EXS 5-iron loft?"
+    a: "At 21.5 degrees, it was among the strongest 5-iron lofts in the game-improvement category at its October 2018 launch — only a couple of niche competitor models were stronger at the time."
+  - q: "What clubs came in the Tour Edge Exotics EXS iron set?"
+    a: "A seven-piece stock set ran 4-iron through pitching wedge, with AW, GW and SW available as additional pieces, for a full 4-through-SW range."
+confidence: high

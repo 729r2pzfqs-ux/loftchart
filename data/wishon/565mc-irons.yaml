@@ -1,0 +1,74 @@
+brand: Wishon
+brand_slug: wishon
+model: 565MC
+slug: 565mc-irons
+club_type: irons
+year_introduced: 2016
+year_discontinued: null
+category: players
+construction: forged deep cavity back with CNC-machined center cavity and half-moon weighting
+material: forged 1035C carbon steel
+successor: null
+predecessor: Wishon 560MC
+description: >
+  The 565MC is Tom Wishon's second-generation update to his 560MC forged
+  cavity back, introduced in January 2016 and announced on GolfWRX with a
+  cosmetic change designer Tom Wishon explained directly in the thread: the
+  cavity badge medallion was dropped in favor of a fully CNC-machined
+  surface milling pattern across the cavity floor and muscle weight, made
+  possible by advances in the forging and machining process since the
+  original 560MC. A center cavity half-moon weighting increases solid,
+  on-center feel and adds a very slight increase in trajectory versus the
+  560MC, while the fully CNC-machined back cavity holds a precise centre of
+  gravity position at every loft. Low offset (2 mm throughout the 5-9 irons)
+  and a slightly thinner topline than the 560MC keep the look compact and
+  traditional; early buyers on GolfWRX noted the head carries comparatively
+  little bounce. Double nickel chrome pearl plating with a glass bead blast
+  highlight, USGA/R&A-compliant CNC grooves. Sold as bare heads or custom
+  builds (3-PW/AW) through Wishon-authorized clubmakers rather than retail,
+  at $140-225 per head depending on volume.
+specs:
+  - club: "5"
+    loft: 26.0
+    lie: 59.0
+    length: 38.0
+    offset: 0.079
+  - club: "6"
+    loft: 30.0
+    lie: 60.0
+    length: 37.5
+    offset: 0.079
+  - club: "7"
+    loft: 34.0
+    lie: 61.0
+    length: 37.0
+    offset: 0.079
+  - club: "8"
+    loft: 38.0
+    lie: 62.0
+    length: 36.5
+    offset: 0.079
+  - club: "9"
+    loft: 42.0
+    lie: 63.0
+    length: 36.0
+    offset: 0.079
+  - club: "PW"
+    loft: 46.0
+    lie: 64.0
+    length: 36.0
+    offset: 0.079
+sources:
+  - "Wishon Golf official '565MC Forged Irons' design page (wishongolf.com/designs/iron-sets/new-565mc-forged-irons/) — the manufacturer factory chart used here: #5-PW lofts 26/30/34/38/42/46 degrees, lies 59-64, offset 2 mm (0.079 in, converted) throughout, head weights 254-285 g, sole angle 2-5 degrees, forged 1035C carbon steel, double nickel chrome pearl plated finish and CNC-machined scorelines compliant with 2010 USGA/R&A rules."
+  - "GolfWRX 'Wishon NEW 565MC Irons!!!' thread (forums.golfwrx.com/discussion/1278710), posted 19 January 2016, with designer Tom Wishon participating directly — fixes year_introduced 2016, explains the cavity-floor surface milling replacing the 560MC's medallion badge, and includes buyer feedback that the head carries relatively little bounce (no numeric bounce figure was published, hence its omission here)."
+  - "golfclub-technology.com '585PC/565MC Irons' page — describes the 565MC as Tom Wishon's second generation of the 560 Series forged iron (the original 560MC dated to 2007), the half-moon center-cavity weighting for on-center feel and slight added trajectory versus the 560MC, and the low-offset, slightly-thinner-topline design versus its predecessor."
+  - "Condor Golf 'Wishon 565MC Forged Irons (#6-PW)' retail listing — length chart of 38 inches (#5) down to 36 inches for both #9 and PW in the standard steel build (graphite 0.5 inch longer throughout), and per-club/volume pricing of $140-225 per head; available 3 through PW and AW in right hand only per Wishon's own design page."
+related_models: []
+faq:
+  - q: "What is the loft of a Wishon 565MC 7-iron?"
+    a: "The Wishon 565MC 7-iron has a loft of 34 degrees, a lie of 61 degrees and a standard length of 37 inches."
+  - q: "How does the Wishon 565MC differ from the 560MC?"
+    a: "It is Tom Wishon's second-generation update: the cavity badge medallion is replaced by a fully CNC-machined surface milling pattern, a center cavity half-moon weighting adds solid feel and a touch more trajectory, and the topline runs slightly thinner than the original 560MC."
+  - q: "How do you buy Wishon 565MC irons?"
+    a: "As bare heads or custom-built sets through Wishon-authorized clubmakers - there is no off-the-rack retail version - priced from $140 to $225 per head depending on volume, available 3-iron through pitching wedge and approach wedge in right hand only."
+confidence: medium

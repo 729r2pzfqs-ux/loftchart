@@ -1,0 +1,103 @@
+brand: Bridgestone
+brand_slug: bridgestone
+model: J33 Forged Blade
+slug: j33-forged-blade-irons
+club_type: irons
+year_introduced: 2005
+year_discontinued: 2008
+category: blade
+construction: forged with a long hosel
+material: 1020 mild carbon steel
+successor: Bridgestone J36 Blade
+predecessor: null
+description: >
+  The J33 Forged Blade was the muscle-back of Bridgestone's J33 forged line,
+  aimed at "professionals and low handicap amateurs." The head is forged
+  from 1020 mild carbon steel with a long hosel design that raises the
+  center of gravity for extra shot-shaping ability, reduced offset, a thin
+  top line, a small head and a narrow sole with a leading-edge grind and
+  satin chrome finish. Lofts are traditional for the era (36-degree 7-iron,
+  48-degree pitching wedge, starting from a 2-iron), built to a D3 swing
+  weight on a stock True Temper Dynamic Gold S300 shaft with a Golf Pride
+  Tour Velvet grip. It was sold right hand only. The Condition of
+  Competition rule made the J33 irons non-conforming for professional play
+  from 1 January 2010, and the J36 generation succeeded it in Bridgestone's
+  line-up in 2008.
+specs:
+  - club: "2"
+    loft: 19.0
+    lie: 59.0
+    length: 39.25
+    offset: 0.083
+    swing_weight: D3
+  - club: "3"
+    loft: 22.0
+    lie: 60.0
+    length: 38.75
+    offset: 0.083
+    swing_weight: D3
+  - club: "4"
+    loft: 25.0
+    lie: 61.0
+    length: 38.25
+    offset: 0.083
+    swing_weight: D3
+  - club: "5"
+    loft: 28.0
+    lie: 62.0
+    length: 37.75
+    offset: 0.071
+    swing_weight: D3
+  - club: "6"
+    loft: 32.0
+    lie: 62.5
+    length: 37.25
+    offset: 0.071
+    swing_weight: D3
+  - club: "7"
+    loft: 36.0
+    lie: 63.0
+    length: 36.75
+    offset: 0.071
+    swing_weight: D3
+  - club: "8"
+    loft: 40.0
+    lie: 63.5
+    length: 36.25
+    offset: 0.059
+    swing_weight: D3
+  - club: "9"
+    loft: 44.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.039
+    swing_weight: D3
+  - club: "PW"
+    loft: 48.0
+    lie: 64.5
+    length: 35.25
+    offset: 0.039
+    swing_weight: D3
+stock_shafts:
+  - name: "True Temper Dynamic Gold S300"
+    material: steel
+sources:
+  - "Bridgestone Golf official J33 Forged Blade Irons page, bridgestonegolf.com/en-us/clubs/archive/2005-models/j33-forged-blade-irons (archive.org capture of 22 July 2019) — full factory spec table: 2-PW lofts 19/22/25/28/32/36/40/44/48, lies 59-64.5, lengths 39.25 to 35.25 inches, D3 swing weight throughout, offsets 2.1/2.1/2.1/1.8/1.8/1.8/1.5/1.0/1.0 mm (converted here at 25.4 mm per inch; no bounce figures were published for this model), forged 1020 mild carbon steel with a long hosel design, reduced offset, thin top line, small head, narrow sole, satin chrome finish and leading edge grind, True Temper Dynamic Gold S300 shaft, Golf Pride Tour Velvet grip, 'Available Right Hand Only', and the Condition of Competition conforming/non-conforming dates"
+  - "web.archive.org capture of bridgestonegolf.com/en/prodj33blades.aspx from 26 October 2005 (HTTP 200) shows the J33 Forged Blade already live on Bridgestone's site in October 2005, corroborating the 2005 introduction year given in the gap-analysis brief"
+  - "mygolfspy.com, 'Bridgestone Is Back: 7 Things You Need To Know About Bridgestone's New Forged Irons' — corroborates the 2005 launch of the J33 forged family"
+  - "year_discontinued 2008 follows Bridgestone's own archive filing of the J36 generation (clubs/archive/2008-models/), which fixes the successor field"
+related_models:
+  - slug: "bridgestone/j36-blade-irons"
+    label: "Successor: J36 Blade"
+  - slug: "bridgestone/j33-forged-cavity-back-irons"
+    label: "Cavity-back sibling: J33 Forged Cavity Back"
+faq:
+  - q: "What is the loft of a Bridgestone J33 Forged Blade 7-iron?"
+    a: "The Bridgestone J33 Forged Blade 7-iron has a loft of 36 degrees, with a 63-degree lie, a 36.75-inch length and a D3 swing weight."
+  - q: "What makes the Bridgestone J33 Forged Blade a true muscle-back?"
+    a: "A long hosel that raises the center of gravity for shot-shaping, reduced offset, a thin top line and a narrow sole — all forged from 1020 mild carbon steel into a small, satin-chrome head."
+  - q: "What replaced the Bridgestone J33 Forged Blade?"
+    a: "The J36 Blade, part of Bridgestone's next forged iron generation, which arrived in Bridgestone's 2008 line-up."
+  - q: "What clubs came in a stock Bridgestone J33 Forged Blade set?"
+    a: "It was sold right hand only, spanning a 2-iron through pitching wedge, on a stock True Temper Dynamic Gold S300 shaft."
+confidence: high

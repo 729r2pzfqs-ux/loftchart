@@ -83,6 +83,8 @@ related_models:
     label: "Successor: XXIO Eleven"
   - slug: "xxio/xxio-9-irons"
     label: "Predecessor: XXIO 9"
+  - slug: "xxio/prime-10-irons"
+    label: "Contemporaneous ultra-light premium line: XXIO Prime 10"
 faq:
   - q: "What is the loft of an XXIO 10 7-iron?"
     a: "The XXIO 10 7-iron has a loft of 29 degrees, a lie of 62.5 degrees and a graphite-build length of 37.25 inches."

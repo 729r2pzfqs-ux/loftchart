@@ -1,0 +1,89 @@
+brand: Ben Hogan
+brand_slug: ben-hogan
+model: Edge GS
+slug: edge-gs-irons
+club_type: irons
+year_introduced: 1991
+year_discontinued: 1995
+category: game-improvement
+construction: forged cavity-back, custom grind
+material: forged carbon steel
+successor: Ben Hogan Edge GCD
+predecessor: Ben Hogan Edge Forged
+description: >
+  The Edge GS refined Hogan's original 1990 Edge Forged cavity-back with a
+  custom sole grind attributed to Hogan master model-maker Gene Sheely — the
+  "GS" initials — reportedly developed first for Hogan's tour players and
+  its own management group because the standard Edge "did not look too
+  good" at address. It kept the Edge Forged's cavity-back, perimeter-weighted
+  construction while refining the grind and profile, and was sold in
+  configurations spanning 2-iron through Equalizer and sand wedge. Vintage
+  listings confirm a 36-degree 7-iron loft; the remaining loft, lie and
+  length ladder below is not from a located Edge GS-specific factory sheet
+  but from Hogan's contemporaneous "1999 Apex" factory table, which shares
+  the identical 36-degree 7-iron and the same lie/length progression Hogan
+  used across its forged iron lines of this era — recorded here as the
+  closest documented match rather than an Edge GS-specific figure, hence the
+  low confidence.
+specs:
+  - club: "2"
+    loft: 19.0
+    lie: 57.0
+    length: 39.25
+  - club: "3"
+    loft: 22.0
+    lie: 58.0
+    length: 38.75
+  - club: "4"
+    loft: 25.5
+    lie: 59.0
+    length: 38.25
+  - club: "5"
+    loft: 29.0
+    lie: 60.0
+    length: 37.75
+  - club: "6"
+    loft: 32.5
+    lie: 61.0
+    length: 37.25
+  - club: "7"
+    loft: 36.0
+    lie: 62.0
+    length: 36.75
+  - club: "8"
+    loft: 40.0
+    lie: 62.5
+    length: 36.25
+  - club: "9"
+    loft: 44.0
+    lie: 63.0
+    length: 35.75
+  - club: "PW"
+    loft: 48.0
+    lie: 63.5
+    length: 35.5
+  - club: "SW"
+    loft: 56.0
+    lie: 64.0
+    length: 35.0
+stock_shafts:
+  - name: "Ben Hogan Apex"
+    material: steel
+sources:
+  - "SidelineSwap listing 'Ben Hogan Edge Forged GS 7 Iron' (Ft. Worth, TX) — states the 7-iron loft as 36 degrees on an Apex 4 stiff steel shaft, 37.5-inch length"
+  - "mygolfspy.com 'History's Mysteries: The Hogan Edge' — 'The 1991 update was called the Edge GS after Hogan master model maker Gene Sheely,' developed initially as a custom grind for Hogan tour players and the company's own management group because the original Edge 'did not look too good'; the Edge line stayed current in Hogan's catalog for nearly a decade before the 1995 Edge GCD"
+  - "Ben Hogan's own archived 'old_iron_specs' model chooser (benhogan.com/old_iron_specs/iron_choose.html, Wayback capture of 15 October 2002) lists '1991 Edge GS' as a distinct catalogued spec sheet, separate from '1990 Edge' — corroborating the 1991 introduction year used here over the gap-analysis brief's 1992"
+  - "2ndswing.com, golfroots.com and mikesgolfoutlet.com Edge Forged GS listings — corroborate set configurations spanning 2-iron through Equalizer/sand wedge (seen as '2-6, 8-9', '3-PW, SW' and '4-EW, SW' partial sets) and the forged cavity-back construction"
+  - "Loft/lie/length figures beyond the confirmed 36-degree 7-iron are Hogan's documented '1999 Apex' factory table (equip2golf.com/specifications/hogan/hogan_apex.html: 2-PW/SW lofts 19/22/25.5/29/32.5/36/40/44/48/56, lies 57-64, lengths 39.25-35), used as the closest available match because it shares the identical 7-iron loft and Hogan kept this lie/length progression consistent across its forged iron lines through the 1990s; no Edge GS-specific factory sheet was located despite extensive search, so confidence is set to low"
+  - "Deviation from the initial gap-analysis brief: year_introduced is recorded as 1991 rather than 1992, matching both Hogan's own archived model chooser and MyGolfSpy's history of the line"
+related_models: []
+faq:
+  - q: "What is the loft of a Ben Hogan Edge GS 7-iron?"
+    a: "The Ben Hogan Edge GS 7-iron has a loft of 36 degrees, confirmed from vintage club listings; the surrounding lie and length figures are drawn from Hogan's closest documented same-era table rather than an Edge GS-specific sheet."
+  - q: "What does GS stand for on the Ben Hogan Edge GS?"
+    a: "Gene Sheely, the Hogan master model-maker credited with the custom sole grind that refined the original 1990 Edge Forged into the Edge GS in 1991."
+  - q: "Why was the Ben Hogan Edge GS created?"
+    a: "According to MyGolfSpy's history of the line, it began as a custom grind Gene Sheely built for Hogan's own tour players and management group because the standard Edge Forged did not look as good at address; it was then adopted into the regular line-up."
+  - q: "What replaced the Ben Hogan Edge GS?"
+    a: "The Edge GCD, which capitalized on the oversized-iron trend when it arrived in 1994-95."
+confidence: low

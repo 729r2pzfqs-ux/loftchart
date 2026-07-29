@@ -1,0 +1,75 @@
+brand: Miura
+brand_slug: miura
+model: CB-2008
+slug: cb-2008-irons
+club_type: irons
+year_introduced: 2017
+year_discontinued: 2018
+category: game-improvement
+construction: two-piece forged face welded to a stainless composite pocket cavity (5-8); one-piece forged (9-PW)
+material: forged carbon steel face and SUS stainless cavity body
+successor: Miura IC-601
+predecessor: Miura P9005G
+description: >
+  The CB-2008 was Miura's most forgiving iron to date when the company
+  announced it on 6 June 2017, part of the transitional "MG Collection"
+  launch alongside the CB-1008 and MB-5005 that reached Western retail that
+  autumn. Miura's own release framed it as proof "forged irons are not
+  reserved for the game's most skilled players": the 5-through-8 heads weld
+  a 4 mm forged face to a SUS stainless composite pocket cavity - the first
+  composite-body iron made exclusively at the Himeji factory - for the
+  widest sole Miura had built, 20 mm at the 7-iron, while the 9-iron and
+  pitching wedge revert to a conventional one-piece forging. It continued a
+  house lineage of progressively easier-to-hit Miura irons that ran P9005,
+  P9005G, then the CB-2008, before the dedicated IC-601 arrived within the
+  same product cycle and took over the forgiving-iron slot; the CB-2008's
+  own run appears to have been brief. Miura sells the head through
+  authorised fitters built to order, so no stock shaft is recorded.
+specs:
+  - club: "5"
+    loft: 25.0
+    lie: 60.0
+    length: 38.0
+  - club: "6"
+    loft: 28.0
+    lie: 60.5
+    length: 37.5
+  - club: "7"
+    loft: 32.0
+    lie: 61.0
+    length: 37.0
+  - club: "8"
+    loft: 36.0
+    lie: 61.5
+    length: 36.5
+  - club: "9"
+    loft: 40.0
+    lie: 62.0
+    length: 36.0
+  - club: "PW"
+    loft: 45.0
+    lie: 62.5
+    length: 35.75
+sources:
+  - "Tour Shop Fresno 'Miura Giken CB-2008 Irons' and Usher Golf/chipandputt.com 'Miura CB-2008' spec pages (both authorized Miura dealers) — agree exactly on the 5-PW factory chart used here: lofts 25/28/32/36/40/45 degrees, lies 60.0 to 62.5 degrees, and head weights 256-293 g; neither dealer publishes a length column."
+  - "Miura Golf equipment blog 'Miura Golf Debuts CB 2008 Irons For All Skill Levels' (miuragolf.com/blogs/equipment) — the 6 June 2017 announcement date, the 5-8 pocket-cavity/9-PW one-piece construction split, the 4 mm forged face welded to a SUS composite body, the 20 mm 7-iron sole (widest in Miura's history to that point) and the first-composite-body-iron-at-Himeji claim."
+  - "MyGolfSpy 'Miura MG Collection – CB-1008 & CB-2008' (6 October 2017) — the shared US MG Collection launch date and pricing context for the CB-2008 alongside its CB-1008 and MB-5005 siblings, which this site's CB-1008 entry also cites."
+  - "GolfWRX forum synthesis on Miura's game-improvement lineage: 'Miura Golf entered the semi game improvement iron segment starting with the P9005, followed by the P9005G, then the 2 piece CB-2008 and now the IC-601' — the basis for the predecessor/successor fields; this site's own IC-601 entry dates that model to late 2017, so the CB-2008's run inside the lineage was short. No source gives an exact CB-2008 discontinuation date, so year_discontinued 2018 is an inferred estimate, not a confirmed figure."
+  - "LENGTH NOTE (confidence: medium-low): no Miura CB-2008-specific length chart was found in any dealer or archived-manufacturer source. The lengths above follow this site's Miura IC-601 entry (38.0-inch 5-iron through 35.75-inch PW) — a same-era, similarly-lofted Miura factory chart used as the best available proxy, not a CB-2008-specific figure. Offset and bounce are omitted because no source publishes either for this head."
+related_models:
+  - slug: "miura/cb-1008-irons"
+    label: "MG Collection sibling launched alongside it: Miura CB-1008"
+  - slug: "miura/mb-5005-irons"
+    label: "MG Collection muscleback sibling: Miura MB-5005"
+  - slug: "miura/ic-601-irons"
+    label: "The dedicated game-improvement iron that took over its slot: Miura IC-601"
+faq:
+  - q: "What is the loft of a Miura CB-2008 7-iron?"
+    a: "The Miura CB-2008 7-iron has a loft of 32 degrees and a lie of 61 degrees, per matching dealer spec charts."
+  - q: "Is the Miura CB-2008 forged?"
+    a: "Partly. The 5-8 irons weld a 4 mm forged carbon-steel face to a stainless composite pocket-cavity body - Miura's first composite-body iron - while the 9-iron and pitching wedge are conventional one-piece forgings."
+  - q: "What replaced the Miura CB-2008?"
+    a: "The IC-601, which arrived within the same product cycle as Miura's next, more dedicated step in forgiving-iron design; the CB-2008 does not appear to have stayed in the catalog long."
+  - q: "How forgiving is the Miura CB-2008 compared to other Miura irons?"
+    a: "Very, by Miura standards: a 20 mm sole at the 7-iron, the widest Miura had built at the time, and Miura marketed it explicitly as proof that forged irons could work for golfers of all skill levels, not just better players."
+confidence: medium

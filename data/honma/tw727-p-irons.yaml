@@ -1,0 +1,117 @@
+brand: Honma
+brand_slug: honma
+model: TW727 P
+slug: tw727-p-irons
+club_type: irons
+year_introduced: 2015
+year_discontinued: 2016
+category: players-distance
+construction: forged, two-piece (maraging stainless face welded to a mild-steel body)
+material: maraging stainless steel face, mild steel body, satin finish with double-layer plating, gloss silver paint
+successor: Honma TW737 P
+predecessor: null
+description: >
+  The P is the distance model of Honma's January 2015 Tour World 727 range,
+  marketed as pursuing distance and easy launch. Unlike the later TW737 P
+  (a cast, single-material pocket cavity), the TW727 P is a forged two-piece
+  head with a maraging stainless-steel face welded to a mild-steel body. Lofts
+  and lie angles carried over essentially unchanged into the TW737 P released
+  the following year. The set runs 3 through 11 plus a 56-degree sand wedge —
+  Honma numbers the scoring clubs, so the 43-degree 10 is the pitching wedge
+  and the 49-degree 11 the gap wedge. Lengths below are the N.S. Pro 950GH
+  steel build; Vizard IB85 and Vizard I55 graphite builds ran roughly a
+  quarter inch longer.
+specs:
+  - club: "3"
+    loft: 19.0
+    lie: 59.5
+    length: 39.0
+    offset: 0.128
+    swing_weight: D2
+  - club: "4"
+    loft: 21.0
+    lie: 60.0
+    length: 38.5
+    offset: 0.128
+    swing_weight: D2
+  - club: "5"
+    loft: 24.0
+    lie: 60.5
+    length: 38.0
+    offset: 0.140
+    swing_weight: D2
+  - club: "6"
+    loft: 27.0
+    lie: 61.0
+    length: 37.5
+    offset: 0.148
+    swing_weight: D2
+  - club: "7"
+    loft: 30.0
+    lie: 61.5
+    length: 37.0
+    offset: 0.157
+    swing_weight: D2
+  - club: "8"
+    loft: 34.0
+    lie: 62.0
+    length: 36.5
+    offset: 0.167
+    swing_weight: D2
+  - club: "9"
+    loft: 38.0
+    lie: 62.5
+    length: 36.0
+    offset: 0.167
+    swing_weight: D2
+  - club: "10"
+    loft: 43.0
+    lie: 63.0
+    length: 35.5
+    offset: 0.167
+    swing_weight: D2
+  - club: "11"
+    loft: 49.0
+    lie: 63.0
+    length: 35.0
+    offset: 0.187
+    swing_weight: D2
+  - club: "SW"
+    loft: 56.0
+    lie: 63.5
+    length: 35.0
+    offset: 0.207
+    swing_weight: D3
+stock_shafts:
+  - name: "Nippon N.S. Pro 950GH"
+    material: steel
+    flex: ["R", "S"]
+  - name: "Honma Vizard IB85"
+    material: graphite
+    flex: ["S"]
+  - name: "Honma Vizard I55"
+    material: graphite
+    flex: ["R", "S"]
+  - name: "Mitsubishi ARMRQ8"
+    material: graphite
+    flex: ["R", "S"]
+sources:
+  - "golfnavi.info spec database, 'TW727 P アイアン' (golfnavi.info/spec/... under the tw727p-iron.php slug) — full loft/lie/face-progression/length table sourced from Honma's Japan-market official spec sheet, data recorded 5 Dec 2014 ahead of the January 2015 launch: lofts 19/21/24/27/30/34/38/43/49/56, lies 59.5-63.5, face progression (offset) 3.25/3.25/3.55/3.75/4.0/4.25/4.25/4.25/4.75/5.25 mm (converted to inches here), N.S. Pro 950GH lengths 39.0 down to 35.0 inches, D2 swing weight (D3 SW), the forged two-piece maraging-stainless-face/mild-steel-body construction with satin double-layer plating plus gloss silver paint, the 3-11-plus-SW set, and the Vizard IB85 / Vizard I55 / N.S. Pro 950GH / ARMRQ8 62 / ARMRQ8 54 stock shaft options. Manufacturer description quoted on the page reads '飛距離とつかまりの良さを追求' (pursuing distance and easy launch). The page's comparison table confirms the TW737 P that followed in 2016 carried the identical 19-56 loft range and near-identical 59.5-63.5 lie range."
+  - "golfpunkhq.com 'The Honma TW727 Iron Range' — describes the P as the range's most forgiving variant, with a two-piece head design, deep undercuts in the long irons for forgiveness and progressively shallower cavities toward the short irons for feel; corroborates the January 2015 launch."
+  - "Note on category: classified 'players-distance' here (rather than 'players') for consistency with the successor TW737 P, which this site already records as players-distance, and because golfnavi.info's own description emphasises distance and forgiveness over workability."
+  - "Note on year_discontinued: set to 2016, the year Honma announced the TW737 P; this generation is thinly documented in English-language sources, so confidence is medium."
+related_models:
+  - slug: "honma/tw727-v-irons"
+    label: "Same generation, cavity-back players head: Honma TW727 V"
+  - slug: "honma/tw727-vn-irons"
+    label: "Same generation, compact near-blade head: Honma TW727 Vn"
+  - slug: "honma/tw737-p-irons"
+    label: "Successor: Honma TW737 P"
+faq:
+  - q: "What is the loft of a Honma TW727 P 7-iron?"
+    a: "The Honma TW727 P 7-iron has a loft of 30 degrees, a lie of 61.5 degrees and an N.S. Pro 950GH steel length of 37 inches."
+  - q: "Is the Honma TW727 P forged or cast?"
+    a: "It is forged, and built as a two-piece head with a maraging stainless-steel face welded to a mild-steel body. This differs from the TW737 P that replaced it, which is a single-material cast head."
+  - q: "What is the set makeup of the Honma TW727 P?"
+    a: "3-iron through the numbered wedges plus a sand wedge: the 43-degree 10 is the pitching wedge, the 49-degree 11 the gap wedge, and the SW is 56 degrees."
+confidence: medium

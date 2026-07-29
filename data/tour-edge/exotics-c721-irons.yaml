@@ -78,6 +78,8 @@ related_models:
     label: "Successor: Tour Edge Exotics C722"
   - slug: "tour-edge/exotics-e721-irons"
     label: "Game-improvement sibling: Tour Edge Exotics E721"
+  - slug: "tour-edge/exotics-exs-220-irons"
+    label: "Predecessor: Tour Edge Exotics EXS 220"
 faq:
   - q: "What is the loft of a Tour Edge Exotics C721 7-iron?"
     a: "The Exotics C721 7-iron has a loft of 30 degrees, a lie of 62.5 degrees and a length of 37.25 inches."

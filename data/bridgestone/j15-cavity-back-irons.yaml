@@ -93,6 +93,10 @@ related_models:
     label: "Predecessor: J40 Cavity Back"
   - slug: "bridgestone/tour-b-x-cb-irons"
     label: "Successor: Tour B X-CB"
+  - slug: "bridgestone/j15-driving-forged-irons"
+    label: "Same-generation stablemate: J15 Driving Forged"
+  - slug: "bridgestone/j15-dual-pocket-forged-irons"
+    label: "More forgiving same-generation stablemate: J15 Dual Pocket Forged"
 faq:
   - q: "What is the loft of a Bridgestone J15CB 7-iron?"
     a: "The Bridgestone J15 Cavity Back 7-iron has a loft of 32 degrees, with a 62.5-degree lie and a 37-inch length."

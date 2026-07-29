@@ -94,8 +94,10 @@ sources:
 related_models:
   - slug: "bridgestone/j40-cavity-back-irons"
     label: "Compact sibling: Bridgestone J40 Cavity Back"
-  - slug: "bridgestone/tour-b-jgr-hf2-irons"
-    label: "Later forgiving forged Bridgestone: Tour B JGR HF2"
+  - slug: "bridgestone/j38-dual-pocket-cavity-irons"
+    label: "Predecessor: J38 Dual Pocket Cavity"
+  - slug: "bridgestone/j15-dual-pocket-forged-irons"
+    label: "Successor: J15 Dual Pocket Forged"
 faq:
   - q: "What is the loft of a Bridgestone J40 Dual Pocket Cavity 7-iron?"
     a: "The Bridgestone J40 Dual Pocket Cavity 7-iron has a loft of 34 degrees, with a 63-degree lie, a 36.75-inch length and a D1 swing weight."

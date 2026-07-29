@@ -89,6 +89,13 @@ sources:
   - "IntoTheGrain.com, 'Bridgestone Unveils J40 Irons', carrying Bridgestone's press release — retail availability at golf specialty and green-grass retailers nationwide in October 2011 ('arriving in time for the holiday season'), the $699 street / $799 MSRP 5-PW set pricing, $115-per-club 3- and 4-irons, the V-cut cavity design and the forged 1020 mild carbon steel construction. year_introduced 2011 is the announcement year; bridgestonegolf.com's own archive later filed the J40 clubs under '2011 models'"
   - "Golf Monthly, 'Bridgestone J15 irons introduced', 26 January 2015 — the J15 iron family (including the J15CB cavity back) introduced in January 2015 as Bridgestone's next iron generation, which sets year_discontinued 2015 and the successor field"
   - "Project X flighted is listed by Bridgestone only as 'Project X flighted shaft' without weight or flex detail, so those keys are omitted"
+related_models:
+  - slug: "bridgestone/j38-cavity-back-irons"
+    label: "Predecessor: J38 Cavity Back"
+  - slug: "bridgestone/j15-cavity-back-irons"
+    label: "Successor: J15 Cavity Back"
+  - slug: "bridgestone/j40-dual-pocket-cavity-irons"
+    label: "More forgiving sibling: J40 Dual Pocket Cavity"
 faq:
   - q: "What is the loft of a Bridgestone J40 Cavity Back 7-iron?"
     a: "The Bridgestone J40 Cavity Back 7-iron has a loft of 35 degrees, with a 63-degree lie, a 36.75-inch length and a D1 swing weight."

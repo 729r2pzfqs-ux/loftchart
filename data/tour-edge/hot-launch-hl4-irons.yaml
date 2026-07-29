@@ -79,6 +79,8 @@ related_models:
     label: "Successor: Tour Edge Hot Launch C521"
   - slug: "tour-edge/hot-launch-e521-irons"
     label: "Iron-wood branch of the next generation: Tour Edge Hot Launch E521"
+  - slug: "tour-edge/hot-launch-hl3-irons"
+    label: "Predecessor: Tour Edge Hot Launch HL3"
 faq:
   - q: "What is the loft of a Tour Edge HL4 7-iron?"
     a: "The Hot Launch HL4 7-iron has a loft of 31 degrees, a lie of 62.5 degrees and a length of 37.25 inches."

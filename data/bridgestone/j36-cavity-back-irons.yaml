@@ -1,0 +1,98 @@
+brand: Bridgestone
+brand_slug: bridgestone
+model: J36 Cavity Back
+slug: j36-cavity-back-irons
+club_type: irons
+year_introduced: 2008
+year_discontinued: 2010
+category: players
+construction: forged with progressive muscle thickness
+material: 1020 mild carbon steel
+successor: Bridgestone J38 Cavity Back
+predecessor: Bridgestone J33 Forged Cavity Back
+description: >
+  The J36 Cavity Back was the better-player cavity iron of Bridgestone's J36
+  forged line, aimed at "professionals to mid handicap amateurs." The head
+  is premium-forged from 1020 mild carbon steel with progressive muscle
+  thickness through the set for enhanced feel, a progressive-offset cavity
+  design, a tapered sole for shot-making versatility and trailing-edge relief
+  for a variety of lies. Lofts are traditional for the era (35-degree
+  7-iron, 47-degree pitching wedge), built to a D3 swing weight on a stock
+  Rifle Project X flighted steel shaft with a Golf Pride Tour Velvet grip.
+  It was sold right hand only as a 3-iron through pitching wedge. The
+  Condition of Competition rule made the J36 irons non-conforming for
+  professional play from 1 January 2010 (grooves), the same year the J38
+  generation succeeded it.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 60.0
+    length: 38.75
+    offset: 0.106
+    swing_weight: D3
+  - club: "4"
+    loft: 24.0
+    lie: 61.0
+    length: 38.25
+    offset: 0.102
+    swing_weight: D3
+  - club: "5"
+    loft: 27.0
+    lie: 62.0
+    length: 37.75
+    offset: 0.094
+    swing_weight: D3
+  - club: "6"
+    loft: 31.0
+    lie: 62.5
+    length: 37.25
+    offset: 0.087
+    swing_weight: D3
+  - club: "7"
+    loft: 35.0
+    lie: 63.0
+    length: 36.75
+    offset: 0.079
+    swing_weight: D3
+  - club: "8"
+    loft: 39.0
+    lie: 63.5
+    length: 36.25
+    offset: 0.071
+    swing_weight: D3
+  - club: "9"
+    loft: 43.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.063
+    swing_weight: D3
+  - club: "PW"
+    loft: 47.0
+    lie: 64.5
+    length: 35.5
+    offset: 0.055
+    swing_weight: D3
+stock_shafts:
+  - name: "Rifle Project X Flighted"
+    material: steel
+sources:
+  - "Bridgestone Golf official J36 Cavity Back Irons page, bridgestonegolf.com/en-us/clubs/archive/2008-models/j36-cavity-back-irons (archive.org capture of 16 July 2019) — full factory spec table: 3-PW lofts 21/24/27/31/35/39/43/47, lies 60-64.5, lengths 38.75 to 35.5 inches, D3 swing weight throughout, offsets 2.7-1.4 mm (converted here at 25.4 mm per inch; no bounce figures were published for this model), premium-forged 1020 mild carbon steel with progressive muscle thickness and progressive offset, Rifle Project X flighted shaft, Golf Pride Tour Velvet grip, 'Available right hand only', and the Condition of Competition conforming/non-conforming dates (amateur conforming until 2024, elite-amateur until 2014, non-conforming for professional play from 1 January 2010)"
+  - "Note: the loft/lie/length/swing-weight/offset ladder published on Bridgestone's archived J36 Cavity Back page is numerically identical to the J36 Blade Irons page archived the same year — both are recorded here as published rather than assumed to be a data-entry duplicate, since the two models otherwise carry distinct construction copy (cavity vs. muscle-back) and distinct product photography"
+  - "year_introduced 2008 and year_discontinued 2010 follow Bridgestone's own archive path (clubs/archive/2008-models/) and the J38 generation's 2010 archive filing, which fixes this model's successor"
+related_models:
+  - slug: "bridgestone/j33-forged-cavity-back-irons"
+    label: "Predecessor: J33 Forged Cavity Back"
+  - slug: "bridgestone/j38-cavity-back-irons"
+    label: "Successor: J38 Cavity Back"
+  - slug: "bridgestone/j36-blade-irons"
+    label: "Blade sibling with the same loft ladder: J36 Blade"
+faq:
+  - q: "What is the loft of a Bridgestone J36 Cavity Back 7-iron?"
+    a: "The Bridgestone J36 Cavity Back 7-iron has a loft of 35 degrees, with a 63-degree lie, a 36.75-inch length and a D3 swing weight."
+  - q: "Are Bridgestone J36 Cavity Back irons forged?"
+    a: "Yes. The heads are premium-forged from 1020 mild carbon steel with progressive muscle thickness through the set for feel."
+  - q: "What replaced the Bridgestone J36 Cavity Back?"
+    a: "The J38 Cavity Back, part of Bridgestone's next forged iron generation, which arrived as the J36 irons became non-conforming for professional play under the Condition of Competition groove rule from 1 January 2010."
+  - q: "What clubs came in a stock Bridgestone J36 Cavity Back set?"
+    a: "It was sold right hand only as a 3-iron through pitching wedge set, on a stock Rifle Project X flighted steel shaft."
+confidence: high

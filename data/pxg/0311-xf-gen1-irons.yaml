@@ -1,0 +1,111 @@
+brand: PXG
+brand_slug: pxg
+model: 0311 XF GEN1
+slug: 0311-xf-gen1-irons
+club_type: irons
+year_introduced: 2016
+year_discontinued: 2018
+category: game-improvement
+construction: forged hollow body with TPE injection and tungsten perimeter weighting
+material: forged S25C carbon steel body with a 1.5 mm HT1770 maraging steel face
+successor: PXG 0311 XF GEN2
+predecessor: null
+description: >
+  The 0311XF — "XF" for Xtreme Forgiveness — was PXG's first game-improvement
+  iron, announced on 6 September 2016 as a longer-bladed, wider-soled,
+  higher-offset version of the original 0311's technology package for
+  golfers who wanted extreme forgiveness without losing the look of a PXG
+  blade. It keeps the forged S25C carbon steel hollow body, a large internal
+  cavity injected with TPE for feel and forgiveness, a 1.5 mm HT1770
+  maraging steel face and tungsten perimeter weighting, all inside a larger,
+  more confidence-inspiring profile than the original 0311 or the 0311T.
+  PXG published the range from 3-iron through a 59-degree lob wedge, with
+  the scoring clubs stamped W, G, S and L — listed here as PW, GW, SW and
+  LW. Every set was built to order from PXG's shaft menu, so no stock shaft
+  is recorded.
+specs:
+  - club: "3"
+    loft: 18.0
+    lie: 60.5
+    length: 39.5
+    offset: 0.270
+    bounce: 5.0
+  - club: "4"
+    loft: 20.5
+    lie: 61.0
+    length: 38.875
+    offset: 0.235
+    bounce: 6.0
+  - club: "5"
+    loft: 23.0
+    lie: 61.5
+    length: 38.25
+    offset: 0.205
+    bounce: 7.0
+  - club: "6"
+    loft: 26.0
+    lie: 62.0
+    length: 37.625
+    offset: 0.180
+    bounce: 8.0
+  - club: "7"
+    loft: 30.0
+    lie: 62.5
+    length: 37.0
+    offset: 0.145
+    bounce: 9.0
+  - club: "8"
+    loft: 34.0
+    lie: 63.0
+    length: 36.5
+    offset: 0.115
+    bounce: 10.0
+  - club: "9"
+    loft: 39.0
+    lie: 63.5
+    length: 36.0
+    offset: 0.090
+    bounce: 11.0
+  - club: "PW"
+    loft: 44.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.070
+    bounce: 12.0
+  - club: "GW"
+    loft: 49.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.060
+    bounce: 12.0
+  - club: "SW"
+    loft: 54.0
+    lie: 64.0
+    length: 35.25
+    offset: 0.050
+    bounce: 12.0
+  - club: "LW"
+    loft: 59.0
+    lie: 64.0
+    length: 35.0
+    offset: 0.040
+    bounce: 10.0
+sources:
+  - "PXG's own 0311XF GEN1 Irons page (pxg.com/en-us/clubs/irons/gen1/0311xf), archive.org capture of 21 September 2019 — the full spec table (loft, lie, length in inches, bounce and offset for the 3-iron through the L wedge), and the full technology copy: longer blade length with noticeable offset, wide sole for a slightly steeper angle of attack, a large TPE-filled internal cavity, 1.5 mm HT1770 maraging steel face, CNC-milled perimeter tungsten weighting and an S25C soft-carbon-steel forged body."
+  - "prweb.com press release 'New PXG 0311XF Irons Appeal to Golfers Who Desire Xtreme Forgiveness', 6 September 2016, and golfdigest.com 'New PXG 0311XF creates forgiveness in blade-like shape' — the announcement date, the game-improvement positioning ('extreme forgiveness and a superior feel, while maintaining the irresistible look of a PXG blade'), and the longer blade length, wider sole and larger profile versus the original 0311."
+  - "The repo's existing 0311 XF GEN2 entry (pxg/0311-xf-gen2-irons.yaml) names 'PXG 0311 XF GEN1' as its predecessor, corroborating this as the direct forerunner of the GEN2 XF."
+related_models:
+  - slug: "pxg/0311-gen1-irons"
+    label: "The original iron the XF grew from: PXG 0311"
+  - slug: "pxg/0311-xf-gen2-irons"
+    label: "Successor: PXG 0311 XF GEN2"
+faq:
+  - q: "What is the loft of a PXG 0311XF GEN1 7-iron?"
+    a: "The PXG 0311XF GEN1 7-iron has a loft of 30 degrees, a lie of 62.5 degrees and a length of 37.0 inches."
+  - q: "What does XF stand for on the PXG 0311XF?"
+    a: "Xtreme Forgiveness. PXG built it with a longer blade length, wider sole and more offset than the original 0311 to make it PXG's most forgiving iron at the time, while keeping the same blade-inspired look."
+  - q: "When did the PXG 0311XF come out?"
+    a: "PXG announced it on 6 September 2016, roughly a year after the original 0311. The XF GEN2 replaced it when PXG's GEN2 range launched in 2018."
+  - q: "What clubs came in a PXG 0311XF GEN1 set?"
+    a: "PXG published specs from the 3-iron through a 59-degree lob wedge, including a 44-degree pitching wedge, 49-degree gap wedge and 54-degree sand wedge. Sets were built to order rather than sold in a fixed composition."
+confidence: high

@@ -1,0 +1,101 @@
+brand: PXG
+brand_slug: pxg
+model: 0311 ST GEN4
+slug: 0311-st-gen4-irons
+club_type: irons
+year_introduced: 2021
+year_discontinued: null
+category: players
+construction: triple-forged, progressive cavity-to-blade with Precision Weighting Technology
+material: triple-forged 8620 carbon steel
+successor: null
+predecessor: PXG 0311 ST
+description: >
+  The 0311 ST GEN4 Blades reached retail around 6 August 2021 (Chrome
+  $349, Xtreme Dark $399) after appearing in James Hahn's and Wyndham
+  Clark's bags on tour, succeeding the earlier 0311 ST as PXG's tour blade.
+  Each head is triple-forged from 8620 carbon steel and finished with PXG's
+  proprietary Precision Weighting Technology, which lets fitters dial in
+  swing weight without shifting the center of gravity. The set is
+  progressive: the 3-, 4- and 5-iron get a slightly larger profile and a
+  small internal cavity for extra MOI and forgiveness, the 6- and 7-iron
+  step down to a thinner top line and moderate blade size, and the 8-iron
+  through gap wedge finish as thin-topline, shorter-blade pure blades for
+  complete control. Minimal, progressive offset runs throughout. PXG
+  publishes the chart from 3-iron through gap wedge, stamping the scoring
+  clubs W and G — listed here as PW and GW.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 60.5
+    length: 39.5
+    offset: 0.120
+    bounce: 2.0
+  - club: "4"
+    loft: 23.0
+    lie: 61.0
+    length: 38.875
+    offset: 0.100
+    bounce: 3.0
+  - club: "5"
+    loft: 26.0
+    lie: 61.5
+    length: 38.25
+    offset: 0.085
+    bounce: 4.0
+  - club: "6"
+    loft: 29.0
+    lie: 62.0
+    length: 37.625
+    offset: 0.070
+    bounce: 5.0
+  - club: "7"
+    loft: 33.0
+    lie: 62.5
+    length: 37.0
+    offset: 0.055
+    bounce: 6.0
+  - club: "8"
+    loft: 37.0
+    lie: 63.0
+    length: 36.5
+    offset: 0.040
+    bounce: 7.0
+  - club: "9"
+    loft: 42.0
+    lie: 63.5
+    length: 35.75
+    offset: 0.025
+    bounce: 8.0
+  - club: "PW"
+    loft: 47.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.015
+    bounce: 10.0
+  - club: "GW"
+    loft: 52.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.010
+    bounce: 12.0
+sources:
+  - "PXG's own 0311 ST GEN4 Blades page (pxg.com/en-us/clubs/irons/0311st-gen4), archive.org capture of 18 August 2021 — the full 'PXG 0311 ST GEN4 BLADES SPECS' table (loft, standard length, standard lie, offset and bounce for the 3-iron through the G wedge), the $349 Chrome price, and the description of the progressive 3-5/6-7/8-G head design and Precision Weighting Technology."
+  - "golf.com 'PXG launches 0311 ST Gen4 blade irons to retail: FIRST LOOK', published 6 August 2021 — the retail release date, $349 Chrome / $399 Xtreme Dark pricing, the triple-forged 8620 carbon steel construction, precision milling in place of hand polishing, and James Hahn and Wyndham Clark already playing them on tour before release."
+  - "mygolfspy.com 'PXG 0311 ST GEN4 IRONS' and golfwrx.com 'PXG launches new 0311 ST Gen4 blade irons' — corroborate the triple-forged construction and the tour-first release pattern typical of PXG's ST blade line."
+  - "PXG's own site navigation (captured alongside the GEN4 spec page) lists a plain '0311 ST' under its 'GEN3' era irons, separate from and preceding this '0311 ST GEN4' — used here as the predecessor, though that earlier ST is not yet covered in this database. Swing weight was not published, and every set was built to order from PXG's shaft menu, so no stock shaft is recorded."
+related_models:
+  - slug: "pxg/0317-st-irons"
+    label: "PXG's other muscle-back-lineage blade of the same era: 0317 ST"
+  - slug: "pxg/0311-t-gen5-irons"
+    label: "PXG's compact tour iron of the same era: 0311 T GEN5"
+faq:
+  - q: "What is the loft of a PXG 0311 ST GEN4 7-iron?"
+    a: "The PXG 0311 ST GEN4 7-iron has a loft of 33 degrees, a standard lie of 62.5 degrees and a standard length of 37.0 inches."
+  - q: "Are PXG 0311 ST GEN4 irons true blades all the way through the set?"
+    a: "Not quite. The 3-, 4- and 5-iron carry a slightly larger profile with a small cavity for extra forgiveness, the 6- and 7-iron are a moderate blade, and only the 8-iron through gap wedge are pure, thin-topline blades."
+  - q: "What is Precision Weighting Technology on the PXG 0311 ST GEN4?"
+    a: "A proprietary system that lets PXG fitters adjust swing weight without moving the club's center of gravity, so players can dial in feel independent of the head's launch and forgiveness characteristics."
+  - q: "When did the PXG 0311 ST GEN4 come out?"
+    a: "It reached retail around 6 August 2021 at $349 per club in Chrome (or $399 in Xtreme Dark), after James Hahn and Wyndham Clark had already put it in play on the PGA Tour."
+confidence: high

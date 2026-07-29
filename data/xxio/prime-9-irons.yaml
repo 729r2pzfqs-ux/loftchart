@@ -1,0 +1,89 @@
+brand: XXIO
+brand_slug: xxio
+model: Prime 9
+slug: prime-9-irons
+club_type: irons
+year_introduced: 2016
+year_discontinued: 2018
+category: super-game-improvement
+construction: cast, with a tungsten-nickel sole weight and a high-density tungsten-nickel inner weight in the long irons
+material: 630 stainless steel body with a mirror, satin and high-gloss bead-blast finish
+successor: XXIO Prime 10
+predecessor: null
+description: >
+  Prime 9 was the first XXIO Prime iron, launched 17 December 2016 alongside
+  the XXIO Forged irons as a new ultra-light tier above the numbered XXIO
+  line. XXIO built it for the lowest and deepest centre of gravity in an
+  XXIO iron to that point, using a 630 stainless-steel body with a
+  tungsten-nickel sole weight (28 grams in the 7-iron) and an additional
+  high-density tungsten-nickel inner weight in the long irons. The stock
+  XXIO Prime SP-900 graphite shaft is extremely light, built with Toray
+  T1100G material and a shock-absorbing tip section to add draw bias. Total
+  club weight is just 339 grams for the 5- and 6-irons and 349 grams for the
+  7-9 irons. The stock set was 7-9-PW, sold individually as 5, 6, AW and SW.
+specs:
+  - club: "5"
+    loft: 22.0
+    lie: 61.5
+    length: 38.25
+    bounce: 1.0
+  - club: "6"
+    loft: 25.0
+    lie: 62.0
+    length: 37.75
+    bounce: 1.0
+  - club: "7"
+    loft: 28.0
+    lie: 62.5
+    length: 37.25
+    bounce: 1.0
+  - club: "8"
+    loft: 32.0
+    lie: 63.0
+    length: 36.75
+    bounce: 2.0
+  - club: "9"
+    loft: 37.0
+    lie: 63.0
+    length: 36.25
+    bounce: 3.0
+  - club: "PW"
+    loft: 42.0
+    lie: 63.5
+    length: 35.75
+    bounce: 4.0
+  - club: "AW"
+    loft: 48.0
+    lie: 63.5
+    length: 35.75
+    bounce: 5.0
+  - club: "SW"
+    loft: 56.0
+    lie: 63.5
+    length: 35.75
+    bounce: 12.0
+stock_shafts:
+  - name: "XXIO Prime SP-900"
+    material: graphite
+    flex: ["R", "SR"]
+sources:
+  - "golfwrx.com 'The shafts are how light? XXIO's new Prime drivers, fairway woods, hybrids and irons' (14 Nov 2016, reporting the 17 Dec 2016 on-sale date) — the original manufacturer briefing for the first XXIO Prime irons: 630 stainless-steel body construction with mirror/satin/high-gloss bead-blast finish, tungsten-nickel sole weight (28g in the 7-iron) plus an additional tungsten-nickel inner weight in the long irons, 339g (5-6 iron) / 349g (7-9 iron) total club weight, the SP-900 graphite shaft in SR/R flex, and the 7-9-PW stock set sold with 5/6/AW/SW as singles."
+  - "sdgolfpro.com 'XXIO Prime 9 Irons' product listing — full loft/lie/bounce/length table for 5 through SW (22-56 degrees, 61.5-63.5 degrees, 1-12 degrees bounce, 38.25-35.75 inches)."
+  - "mrtopesgolf.com individual-club listing for a Prime 9 6-iron on the 'XXIO SP-900 Prime R' shaft, 37.75 inches — corroborates the length table and the SP-900 shaft naming."
+  - "2ndswing.com and Amazon listings for the XXIO Prime Royal Edition / later Prime generations corroborate that the AW and SW share the PW's 35.75-inch length in this iron family, matching the sdgolfpro table exactly."
+  - "Note on category and naming: retailers and this site's own naming convention refer to this launch generation as 'Prime 9' to align it with the contemporaneous 9th-numbered-generation XXIO cycle; XXIO's own 2016 marketing called it simply 'XXIO Prime' with no number, since it was the first Prime release."
+related_models:
+  - slug: "xxio/xxio-9-irons"
+    label: "Contemporaneous numbered-generation flagship: XXIO 9"
+  - slug: "xxio/prime-10-irons"
+    label: "Successor: XXIO Prime 10"
+  - slug: "xxio/prime-irons"
+    label: "Current XXIO Prime generation (2025 relaunch)"
+faq:
+  - q: "What is the loft of an XXIO Prime 9 7-iron?"
+    a: "The XXIO Prime 9 7-iron has a loft of 28 degrees, a lie of 62.5 degrees and a length of 37.25 inches."
+  - q: "What is the Prime 9 iron head made of?"
+    a: "A cast 630 stainless-steel body with a tungsten-nickel sole weight and, in the long irons, an additional high-density tungsten-nickel inner weight for a low, deep centre of gravity. Unlike later Prime generations, XXIO's own launch materials do not describe a separate titanium face insert for this generation."
+  - q: "How light is the XXIO Prime 9 iron?"
+    a: "Very light: total club weight is 339 grams for the 5- and 6-irons and 349 grams for the 7-9 irons, built around the extremely light XXIO Prime SP-900 graphite shaft."
+confidence: medium

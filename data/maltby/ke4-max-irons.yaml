@@ -1,0 +1,89 @@
+brand: Maltby
+brand_slug: maltby
+model: KE4 Max
+slug: ke4-max-irons
+club_type: irons
+year_introduced: 2022
+year_discontinued: null
+category: super-game-improvement
+construction: investment cast cavity back with perimeter weighting
+material: 17-4 stainless steel
+successor: null
+predecessor: null
+description: >
+  The KE4 Max sits at the forgiving end of Maltby's long-running KE4 line,
+  cast from 17-4 stainless with an extremely thick topline, a wide sole and
+  generous offset built for maximum forgiveness rather than shot-shaping.
+  The GolfWorks' own Maltby MPF ratings chart dates it to 2022 with an MPF
+  of 959 - Maltby's own "Ultra Game Improvement" tier - and the company
+  advertises the model as carrying the strongest lofts in its premium iron
+  range: a 30-degree 7-iron and 43-degree pitching wedge across a 4-GW
+  factory chart, with a matching 48-degree gap wedge. A 4-way radiused sole
+  varies bounce and sole width by club for turf interaction across lofts,
+  and a vertical centre of gravity of 0.758 inches keeps launch high
+  through the set. Sold as bare heads or built-to-order paks (commonly
+  4-PW or 4-GW) through The GolfWorks, with custom loft and lie available
+  at no charge on professionally assembled sets; a separate KE4 MAX-F
+  forged model shares the name but uses a different, forged construction.
+specs:
+  - club: "4"
+    loft: 20.0
+    lie: 60.5
+    length: 38.5
+    offset: 0.180
+    bounce: 3.0
+  - club: "5"
+    loft: 23.0
+    lie: 61.25
+    length: 38.0
+    offset: 0.165
+    bounce: 3.0
+  - club: "6"
+    loft: 26.0
+    lie: 62.0
+    length: 37.5
+    offset: 0.150
+    bounce: 4.0
+  - club: "7"
+    loft: 30.0
+    lie: 62.5
+    length: 37.0
+    offset: 0.135
+    bounce: 4.0
+  - club: "8"
+    loft: 34.0
+    lie: 63.0
+    length: 36.5
+    offset: 0.120
+    bounce: 4.0
+  - club: "9"
+    loft: 38.0
+    lie: 63.5
+    length: 36.0
+    offset: 0.105
+    bounce: 5.0
+  - club: "PW"
+    loft: 43.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.105
+    bounce: 5.0
+  - club: "GW"
+    loft: 48.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.100
+    bounce: 5.0
+sources:
+  - "The GolfWorks official Maltby KE4 MAX Iron Heads spec chart image (golfworks.com/content/description/ma0337specs.jpg, linked from p/ma0337/) — the manufacturer factory chart used here: 4-GW lofts 20/23/26/30/34/38/43/48 degrees, lies 60.5-64, offsets 0.180 to 0.100 inches, bounces 3-5 degrees, head weights 246-290 g, .370 hosel, Mirror Satin finish and 17-4 stainless steel material."
+  - "GolfWorks Maltby MPF Ratings chart (golfworks.com/content/PDFs/Head_MPFs/MPFRatingsChart.pdf, retrieved July 2026) — 'MALTBY KE4 Max #6 2022, MPF 959', fixing year_introduced 2022."
+  - "The GolfWorks product description copy (p/ma0337/, p/cma0337/) and Ralph Maltby Q&A ('KE4 Max vs TS3', 'Differences between KE4 Tour+ vs KE4 Max') — the cast (not forged) 17-4 stainless construction, the 'Ultra Game Improvement' positioning as the most forgiving model in the KE4 family, extremely thick topline and wide sole, 4-way radiused sole with progressive bounce, 0.758-inch vertical CG, and the separately-sold KE4 MAX-F forged sibling that should not be confused with this cast model."
+  - "The GolfWorks 'Standard Lengths' chart (golfworks.com/content/description/standard-playing-lengths.png, linked from the same product page) — men's steel iron lengths of 38.5 (4-iron) down to 35.5 inches (PW/GW), used here because Maltby sells this head component-style and does not publish a model-specific length column."
+faq:
+  - q: "What is the loft of a Maltby KE4 Max 7-iron?"
+    a: "The Maltby KE4 Max 7-iron has a loft of 30 degrees, a lie of 62.5 degrees and a standard length of 37 inches."
+  - q: "Is the Maltby KE4 Max forged or cast?"
+    a: "Cast - 17-4 stainless steel, in Maltby's own 'Ultra Game Improvement' tier. A separate KE4 MAX-F model uses a forged 1025C carbon steel construction and sits in the Super Game Improvement category instead."
+  - q: "How forgiving is the Maltby KE4 Max?"
+    a: "Very: the GolfWorks' own MPF chart rates it 959 at the 6-iron, among the highest ratings in Maltby's premium iron range, with an extremely thick topline, wide sole and generous offset built for maximum forgiveness."
+confidence: medium

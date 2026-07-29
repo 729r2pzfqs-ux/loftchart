@@ -1,0 +1,90 @@
+brand: Tour Edge
+brand_slug: tour-edge
+model: Exotics EXS 220
+slug: exotics-exs-220-irons
+club_type: irons
+year_introduced: 2020
+year_discontinued: 2021
+category: game-improvement
+construction: hollow cavity in the lower half of the 4-7 irons with a forged maraging-steel cup face; 8-SW are solid 431 stainless steel
+material: maraging-steel cup face (4-7), 431 stainless steel short irons, with a 19-gram tungsten toe weight (4-7 iron) and a gel-coated TPE damping insert
+successor: Tour Edge Exotics C721
+predecessor: Tour Edge Exotics EXS
+description: >
+  The Exotics EXS 220 succeeded the original EXS on 13 January 2020, keeping
+  the same "distance, distance, distance" brief from founder Dave Glod: a
+  19-degree 4-iron through a 42-degree pitching wedge, unchanged from the
+  EXS lofts. The 4- through 7-irons carry over the hollow-cavity, forged
+  cup-face construction, now specified as maraging steel, with the same
+  19-gram tungsten toe weight for stability; the 8-iron through sand wedge
+  switch to a solid 431 stainless-steel construction. The EXS 220 keeps the
+  EXS's ramped sole design and a TPE polymer insert coated in a shock-
+  absorbing gel for feel. Tour Edge robot-tested a wide range of shafts to
+  fit optimal options to each flex, and the set was included in the brand's
+  48-hour custom-delivery program. The eight-piece set (steel shaft) retailed
+  for $880, $20 more per club in graphite. A companion hollow-body iron-wood,
+  the EXS 220h, launched alongside it as the more forgiving stablemate.
+specs:
+  - club: "4"
+    loft: 19.0
+    lie: 61.0
+    length: 38.75
+  - club: "5"
+    loft: 21.5
+    lie: 61.5
+    length: 38.25
+  - club: "6"
+    loft: 24.0
+    lie: 62.0
+    length: 37.75
+  - club: "7"
+    loft: 27.5
+    lie: 62.5
+    length: 37.25
+  - club: "8"
+    loft: 32.0
+    lie: 63.0
+    length: 36.75
+  - club: "9"
+    loft: 37.0
+    lie: 63.5
+    length: 36.25
+  - club: "PW"
+    loft: 42.0
+    lie: 64.0
+    length: 35.75
+  - club: "AW"
+    loft: 46.0
+    lie: 64.0
+    length: 35.75
+  - club: "GW"
+    loft: 51.0
+    lie: 64.0
+    length: 35.75
+  - club: "SW"
+    loft: 56.0
+    lie: 64.0
+    length: 35.75
+stock_shafts:
+  - name: "Robot-fit steel and graphite shaft options (model varies by flex)"
+    material: steel
+sources:
+  - "golfdigest.com 'Tour Edge Exotics EXS 220 and 220h irons push distance with hollow design and strong lofts' (Mike Johnson, 13 Jan 2020) — the manufacturer briefing: hollow-cavity 4-7 irons with a forged maraging-steel cup face and web-shaped variable-thickness design, 19-gram tungsten toe weight in the 4-7 irons, solid 431 stainless-steel construction for the 8-SW short irons, the ramped sole carried over from the EXS, the TPE-polymer/gel damping insert, robot-tested shaft fitting, the 48-hour custom-delivery program, and $880 eight-piece steel-shaft set pricing ($20/club more in graphite)."
+  - "golf.com 'Tour Edge Exotics EXS 220 irons review and photos: ClubTest 2020' — corroborates the 19-degree 4-iron through 42-degree PW loft range and the strong-loft, distance-focused positioning."
+  - "carlsgolfland.com and 2ndswing.com Exotics EXS 220 spec listings — full loft/lie/length table for 4 through SW, identical club for club to the original EXS chart already recorded on this site (19/61/38.75 down to 56/64/35.75)."
+  - "Note on year_discontinued: set to 2021, the year Tour Edge announced the Exotics C721/E721 range, whose data files on this site already record 'Tour Edge Exotics EXS 220' (this model) and 'Tour Edge Exotics EXS 220h' (the companion iron-wood, not covered on this site) as their respective predecessors."
+related_models:
+  - slug: "tour-edge/exotics-exs-irons"
+    label: "Predecessor: Tour Edge Exotics EXS"
+  - slug: "tour-edge/exotics-c721-irons"
+    label: "Successor: Tour Edge Exotics C721"
+  - slug: "tour-edge/exotics-exs-pro-irons"
+    label: "Same-year limited-edition forged players sibling: Tour Edge Exotics EXS Pro"
+faq:
+  - q: "What is the loft of a Tour Edge Exotics EXS 220 7-iron?"
+    a: "The Exotics EXS 220 7-iron has a loft of 27.5 degrees, a lie of 62.5 degrees and a standard length of 37.25 inches — unchanged from the original EXS."
+  - q: "What changed between the Tour Edge Exotics EXS and EXS 220?"
+    a: "The loft, lie and length table carried over unchanged. The EXS 220 specified its forged 4-7 iron cup face as maraging steel and moved the 8-through-SW short irons to a solid 431 stainless-steel construction, and Tour Edge added robot-tested shaft fitting across the line."
+  - q: "What is the difference between the Tour Edge Exotics EXS 220 and EXS 220h?"
+    a: "The 220 is the standard hollow/solid hybrid-construction game-improvement iron described here. The 220h is a separate, more forgiving hollow-body iron-wood built from 17-4 stainless steel with a wider 26.5mm sole, aimed at higher-MOI, easier-launching players."
+confidence: high

@@ -1,0 +1,80 @@
+brand: Tommy Armour
+brand_slug: tommy-armour
+model: 986 Tour
+slug: 986-tour-irons
+club_type: irons
+year_introduced: 1986
+year_discontinued: 1995
+category: blade
+construction: forged one-piece blade
+material: forged carbon steel
+successor: null
+predecessor: null
+description: >
+  The Silver Scot 986 Tour is a traditional forged blade from Tommy Armour's
+  PGA Golf era, sold alongside the brand's persimmon-headed 986 Tour woods —
+  collector listings for complete 986 Tour bags routinely pair the persimmon
+  driver and fairway woods with this iron head. Player forum consensus (a
+  long-running GolfWRX thread on the model) dates production to 1986 through
+  1995, with "PGA" stamped on the sole of the earliest heads, and describes a
+  straight-blade profile with no offset — some owners note it may even run
+  slightly onset — putting it closer in feel to a true muscle-back than the
+  cavity-backed 845s Silver Scot the same company sold at the same time.
+  Forum players comparing notes on the model's lofts, which are strong for a
+  1980s blade, matched them up against the contemporary Wilson Staff FG-17 and
+  FG-51 tour blades rather than any factory chart, since Tommy Armour's own
+  spec sheet for the model has not surfaced online. Sold 3-iron through
+  pitching wedge with True Temper Dynamic Gold shafts in the standard tour
+  stiff/regular flexes of the day.
+specs:
+  - club: "3"
+    loft: 23.0
+    lie: 58.5
+    length: 38.5
+  - club: "4"
+    loft: 26.0
+    lie: 59.5
+    length: 38.0
+  - club: "5"
+    loft: 29.0
+    lie: 60.0
+    length: 37.5
+  - club: "6"
+    loft: 33.0
+    lie: 61.0
+    length: 37.0
+  - club: "7"
+    loft: 37.0
+    lie: 61.5
+    length: 36.5
+  - club: "8"
+    loft: 41.0
+    lie: 62.0
+    length: 36.0
+  - club: "9"
+    loft: 45.0
+    lie: 62.5
+    length: 35.5
+  - club: "PW"
+    loft: 49.0
+    lie: 63.0
+    length: 35.5
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+    flex: ["X", "S", "R"]
+sources:
+  - "GolfWRX forum thread 'Tommy Armour Silver Scott 986 Tour Blades' (forums.golfwrx.com/topic/616450), read via cached text — the primary source for the facts recorded here: production dated by consensus to '1986 to 1995', the first model year stamped 'PGA' on the sole, a no-offset (possibly onset) blade profile, and lofts strong enough that players cross-referenced them against the contemporary Wilson Staff FG-17 and FG-51 tour blades rather than a Tommy Armour factory chart, with candidate 2-iron/5-iron/PW readings of either 20/30/50 or 19/29/49 degrees offered in the thread."
+  - "SPEC-PROVENANCE NOTE (confidence: low): no manufacturer catalog, retailer spec chart, or GolfWorks/equip2golf database entry for the 986 Tour's per-club loft, lie or length could be located — unlike the cast 845s Silver Scot and 855s Silver Scot, which have documented factory charts (see those entries), this forged blade appears to be undocumented online outside forum recollection and individual auction listings. The loft ladder above is built from the GolfWRX thread's 3-degree-per-club long-iron / 4-degree-per-club short-iron framework anchored near its cited 5-iron/PW readings; lie and length follow the same standard-steel progression as this site's Tommy Armour 845s Silver Scot entry (same manufacturer and era) rather than model-specific figures. Treat every spec below as an informed approximation, not a verified factory number."
+  - "Retail/auction listings (2nd Swing 'Tommy Armour Silver Scot 986 Tour Blade Iron Set'; Worthpoint 'Tommy Armour 986 Tour Persimmon woods & irons Staff Bag'; multiple eBay/PicClick listings) — corroborate the 3-iron-through-pitching-wedge set makeup, True Temper Dynamic Gold shafts, and the persimmon-wood-era (mid-1980s) production window, without providing a per-club numeric chart."
+related_models:
+  - slug: "tommy-armour/845s-silver-scot-irons"
+    label: "Cavity-back contemporary from the same PGA Golf era: Tommy Armour 845s Silver Scot"
+faq:
+  - q: "What is the loft of a Tommy Armour 986 Tour 7-iron?"
+    a: "No factory chart for the 986 Tour has surfaced online. Based on forum cross-referencing against the contemporary Wilson Staff FG-17/FG-51 blades, the 7-iron loft is approximately 37 degrees — treat this as an informed estimate rather than a verified manufacturer figure."
+  - q: "When was the Tommy Armour 986 Tour made?"
+    a: "Player forum consensus dates production to 1986 through 1995, under Tommy Armour's PGA Golf ownership, with the earliest heads stamped 'PGA' on the sole."
+  - q: "Is the Tommy Armour 986 Tour a blade or a cavity back?"
+    a: "A true forged one-piece blade with no offset (some owners describe it as slightly onset) — a traditional players' blade, unlike the cavity-backed, cast 845s Silver Scot the company sold at the same time."
+confidence: low

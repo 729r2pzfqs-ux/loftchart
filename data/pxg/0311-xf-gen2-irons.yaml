@@ -98,6 +98,8 @@ sources:
 related_models:
   - slug: "pxg/0311-gen1-irons"
     label: "The original iron the GEN2 line grew from: PXG 0311"
+  - slug: "pxg/0311-xf-gen1-irons"
+    label: "Predecessor: PXG 0311 XF GEN1"
   - slug: "pxg/0311-p-gen2-irons"
     label: "Players sibling: PXG 0311 P GEN2"
   - slug: "pxg/0311-t-gen2-irons"

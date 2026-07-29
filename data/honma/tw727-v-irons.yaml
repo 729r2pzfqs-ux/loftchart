@@ -1,0 +1,96 @@
+brand: Honma
+brand_slug: honma
+model: TW727 V
+slug: tw727-v-irons
+club_type: irons
+year_introduced: 2015
+year_discontinued: 2016
+category: players
+construction: forged
+material: mild steel (S25C), forged, half-mirror and mirror finish with double-layer plating
+successor: Honma TW737 V
+predecessor: null
+description: >
+  The V is the cavity-back players iron of Honma's January 2015 Tour World 727
+  range, forged from S25C mild steel and marketed as combining distance with
+  workability. Lofts and lie angles carried over essentially unchanged into
+  the TW737 V released the following year (32-degree 7-iron in both). The set
+  runs 3 through 10 — Honma numbers the pitching wedge as the 10-iron at 46
+  degrees. Lengths below are the N.S. Pro Modus3 Tour 120 steel build; Vizard
+  IB95 graphite builds ran 0.375 inch longer.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 59.5
+    length: 38.75
+    offset: 0.138
+    swing_weight: D2
+  - club: "4"
+    loft: 22.0
+    lie: 60.0
+    length: 38.25
+    offset: 0.138
+    swing_weight: D2
+  - club: "5"
+    loft: 25.0
+    lie: 60.5
+    length: 37.75
+    offset: 0.146
+    swing_weight: D2
+  - club: "6"
+    loft: 28.0
+    lie: 61.0
+    length: 37.25
+    offset: 0.165
+    swing_weight: D2
+  - club: "7"
+    loft: 32.0
+    lie: 61.5
+    length: 36.75
+    offset: 0.165
+    swing_weight: D2
+  - club: "8"
+    loft: 36.0
+    lie: 62.0
+    length: 36.25
+    offset: 0.165
+    swing_weight: D2
+  - club: "9"
+    loft: 41.0
+    lie: 62.5
+    length: 35.75
+    offset: 0.173
+    swing_weight: D2
+  - club: "10"
+    loft: 46.0
+    lie: 63.0
+    length: 35.25
+    offset: 0.173
+    swing_weight: D2
+stock_shafts:
+  - name: "Nippon N.S. Pro Modus3 Tour 120"
+    material: steel
+    flex: ["S"]
+  - name: "Honma Vizard IB95"
+    material: graphite
+    flex: ["S"]
+sources:
+  - "golfnavi.info spec database, 'TW727 V アイアン' (golfnavi.info/spec/11829) — full loft/lie/face-progression/length table sourced from Honma's Japan-market official spec sheet, data recorded 5 Dec 2014 ahead of the January 2015 launch: lofts 20/22/25/28/32/36/41/46, lies 59.5-63, face progression (offset) 3.5/3.5/3.7/4.2/4.2/4.2/4.4/4.4 mm (converted to inches here), N.S. Pro Modus3 Tour 120 lengths 38.75 down to 35.25 inches, D2 swing weight throughout, forged S25C mild-steel head with half-mirror/mirror double-layer plating, 3-10 set, and the Vizard IB95 / Modus3 Tour 120 stock shaft pair. Same page's comparison table confirms the TW737 V that followed in 2016 carried the identical 20-46 loft range and 59.5-63 lie range."
+  - "golfpunkhq.com 'The Honma TW727 Iron Range' — describes the V as having 'a wider sole and deeper cavity making it more forgiving, with stronger lofts' than the Vn, and as the range's recommended mid-market cavity-back option; corroborates the January 2015 launch."
+  - "mrtopesgolf.com individual-club listings for TW727V 4-iron (38.25 in) and 6-iron (37.25 in) on steel shafts — corroborate the N.S. Pro Modus3 Tour 120 lengths in the golfnavi table exactly."
+  - "Note on year_discontinued: set to 2016, the year Honma announced the TW737 V; this generation is thinly documented in English-language sources (mostly used-club retailer listings), so confidence is medium."
+related_models:
+  - slug: "honma/tw727-vn-irons"
+    label: "Same generation, more compact near-blade head: Honma TW727 Vn"
+  - slug: "honma/tw727-p-irons"
+    label: "Same generation, pocket-cavity distance head: Honma TW727 P"
+  - slug: "honma/tw737-v-irons"
+    label: "Successor: Honma TW737 V"
+faq:
+  - q: "What is the loft of a Honma TW727 V 7-iron?"
+    a: "The Honma TW727 V 7-iron has a loft of 32 degrees, a lie of 61.5 degrees and an N.S. Pro Modus3 Tour 120 steel length of 36.75 inches."
+  - q: "What is the difference between the Honma TW727 V and TW727 Vn?"
+    a: "The V has a wider sole and deeper cavity with stronger lofts (32-degree 7-iron) for more forgiveness and distance, while the Vn is a more compact, muscle-back-feeling half-cavity with weaker lofts (34-degree 7-iron) aimed at better players who want a blade-like look."
+  - q: "How does the Honma TW727 V compare to the TW737 V that replaced it?"
+    a: "The two share essentially the same specification: identical 20-to-46-degree loft range, the same 59.5-to-63-degree lie progression and the same forged S25C mild-steel construction. The TW737 V that followed in 2016 is a close continuation of the same head rather than a redesign."
+confidence: medium

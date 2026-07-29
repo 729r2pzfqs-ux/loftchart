@@ -1,0 +1,105 @@
+brand: Bridgestone
+brand_slug: bridgestone
+model: J33 Forged Cavity Back
+slug: j33-forged-cavity-back-irons
+club_type: irons
+year_introduced: 2005
+year_discontinued: 2008
+category: players
+construction: forged with progressive muscle thickness
+material: 1020 mild carbon steel
+successor: Bridgestone J36 Cavity Back
+predecessor: null
+description: >
+  The J33 Forged Cavity Back, developed with Bridgestone staff players Fred
+  Couples and Stuart Appleby, was the better-player cavity iron of
+  Bridgestone's J33 forged line, aimed at "professionals to mid handicap
+  amateurs." The head is forged from 1020 mild carbon steel with progressive
+  muscle thickness for enhanced feel and a progressive horizontal center of
+  gravity that keeps long irons easy to square while the short irons stay
+  stable through impact, plus progressive offset and a rolled leading edge
+  for consistency through the turf. Lofts are traditional for the era
+  (35-degree 7-iron, 47-degree pitching wedge, starting from a 2-iron),
+  built to a D3 swing weight on a stock True Temper Dynamic Gold S300 shaft
+  with a Golf Pride Tour Velvet grip. It was sold right hand only. The
+  Condition of Competition rule made the J33 irons non-conforming for
+  professional play from 1 January 2010, and the J36 generation succeeded it
+  in Bridgestone's line-up in 2008.
+specs:
+  - club: "2"
+    loft: 18.0
+    lie: 59.0
+    length: 39.25
+    offset: 0.126
+    swing_weight: D3
+  - club: "3"
+    loft: 21.0
+    lie: 60.0
+    length: 38.75
+    offset: 0.118
+    swing_weight: D3
+  - club: "4"
+    loft: 24.0
+    lie: 61.0
+    length: 38.25
+    offset: 0.110
+    swing_weight: D3
+  - club: "5"
+    loft: 27.0
+    lie: 62.0
+    length: 37.75
+    offset: 0.102
+    swing_weight: D3
+  - club: "6"
+    loft: 31.0
+    lie: 62.5
+    length: 37.25
+    offset: 0.094
+    swing_weight: D3
+  - club: "7"
+    loft: 35.0
+    lie: 63.0
+    length: 36.75
+    offset: 0.087
+    swing_weight: D3
+  - club: "8"
+    loft: 39.0
+    lie: 63.5
+    length: 36.25
+    offset: 0.079
+    swing_weight: D3
+  - club: "9"
+    loft: 43.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.071
+    swing_weight: D3
+  - club: "PW"
+    loft: 47.0
+    lie: 64.5
+    length: 35.25
+    offset: 0.063
+    swing_weight: D3
+stock_shafts:
+  - name: "True Temper Dynamic Gold S300"
+    material: steel
+sources:
+  - "Bridgestone Golf official J33 Forged Cavity Back Irons page, bridgestonegolf.com/en-us/clubs/archive/2006-models/j33-forged-cavity-back-irons (archive.org capture of 23 September 2019) — full factory spec table: 2-PW lofts 18/21/24/27/31/35/39/43/47, lies 59-64.5, lengths 39.25 to 35.25 inches, D3 swing weight throughout, offsets 3.2-1.6 mm (converted here at 25.4 mm per inch; no bounce figures were published for this model), forged 1020 mild carbon steel with progressive muscle thickness, progressive horizontal center of gravity and progressive offset, True Temper Dynamic Gold S300 shaft, Golf Pride Tour Velvet grip, 'Available Right Hand Only', and the Condition of Competition conforming/non-conforming dates"
+  - "web.archive.org capture of bridgestonegolf.com/en/prodj33cavity.aspx from 26 November 2005 (HTTP 200) shows the J33 Cavity Back already live on Bridgestone's site in November 2005, corroborating a 2005 introduction despite the company's later archive re-filing this same model under a '2006-models' folder path"
+  - "mygolfspy.com, 'Bridgestone Is Back: 7 Things You Need To Know About Bridgestone's New Forged Irons', and 2ndswing.com's J33 Forged Cavity Back listing — corroborate the 2005 launch and the Fred Couples / Stuart Appleby development collaboration"
+  - "year_discontinued 2008 follows Bridgestone's own archive filing of the J36 generation (clubs/archive/2008-models/), which fixes the successor field"
+related_models:
+  - slug: "bridgestone/j36-cavity-back-irons"
+    label: "Successor: J36 Cavity Back"
+  - slug: "bridgestone/j33-forged-blade-irons"
+    label: "Blade sibling: J33 Forged Blade"
+faq:
+  - q: "What is the loft of a Bridgestone J33 Forged Cavity Back 7-iron?"
+    a: "The Bridgestone J33 Forged Cavity Back 7-iron has a loft of 35 degrees, with a 63-degree lie, a 36.75-inch length and a D3 swing weight."
+  - q: "Who helped develop the Bridgestone J33 Forged Cavity Back?"
+    a: "Bridgestone Golf engineers worked with staff players Fred Couples and Stuart Appleby on the J33 forged iron family."
+  - q: "What replaced the Bridgestone J33 Forged Cavity Back?"
+    a: "The J36 Cavity Back, part of Bridgestone's next forged iron generation, which arrived in Bridgestone's 2008 line-up."
+  - q: "What clubs came in a stock Bridgestone J33 Forged Cavity Back set?"
+    a: "It was sold right hand only, spanning a 2-iron through pitching wedge, on a stock True Temper Dynamic Gold S300 shaft."
+confidence: high

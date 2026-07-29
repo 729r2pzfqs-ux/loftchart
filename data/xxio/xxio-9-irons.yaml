@@ -83,6 +83,8 @@ sources:
 related_models:
   - slug: "xxio/xxio-10-irons"
     label: "Successor: XXIO 10"
+  - slug: "xxio/prime-9-irons"
+    label: "Contemporaneous ultra-light premium line: XXIO Prime 9"
   - slug: "xxio/prime-irons"
     label: "XXIO's softer-swing premium line: XXIO Prime"
 faq:

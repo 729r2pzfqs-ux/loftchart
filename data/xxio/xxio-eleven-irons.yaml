@@ -76,6 +76,8 @@ related_models:
     label: "Successor: XXIO 12"
   - slug: "xxio/x-2020-irons"
     label: "Same-year better-player stablemate: XXIO X (2020)"
+  - slug: "xxio/prime-11-irons"
+    label: "Contemporaneous ultra-light premium line: XXIO Prime 11"
 faq:
   - q: "What is the loft of an XXIO Eleven 7-iron?"
     a: "The XXIO Eleven 7-iron has a loft of 28 degrees, a lie of 62.5 degrees and a length of 37.25 inches."

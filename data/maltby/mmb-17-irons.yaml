@@ -1,0 +1,84 @@
+brand: Maltby
+brand_slug: maltby
+model: MMB-17
+slug: mmb-17-irons
+club_type: irons
+year_introduced: 2013
+year_discontinued: null
+category: blade
+construction: forged, modified muscle back with weight relief pocket (3-7) and tungsten toe weighting (3-5)
+material: forged 8620 carbon steel
+successor: null
+predecessor: null
+description: >
+  The MMB-17 - Modified Muscle Back - is Maltby's forged blade-style iron
+  softened just enough for a wider market: a weight relief pocket and
+  inverted muscle design in the 3-through-7 irons, tungsten toe weighting in
+  the 3-, 4- and 5-irons, and Maltby's MG multi-groove face, all forged from
+  8620 carbon steel for a soft feel. The GolfWorks' own Maltby MPF ratings
+  chart dates it to 2013 with an MPF of 714, in the Super Game Improvement
+  band by Maltby's own measurement despite reading as a traditional blade at
+  address. Lofts run a 39-degree 8-iron and 47-degree pitching wedge with a
+  matching 51-degree gap wedge, both wedges built to the same 291-gram head
+  weight; a "DBM Black Forged" special finish was also sold under the PF701+
+  name. Sold as bare heads or built-to-order sets (commonly 4-PW or 4-P plus
+  approach wedge) through The GolfWorks rather than off the rack.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 60.0
+    offset: 0.145
+    bounce: 3.0
+  - club: "4"
+    loft: 24.0
+    lie: 60.5
+    offset: 0.138
+    bounce: 3.0
+  - club: "5"
+    loft: 27.0
+    lie: 61.0
+    offset: 0.131
+    bounce: 3.0
+  - club: "6"
+    loft: 31.0
+    lie: 61.5
+    offset: 0.124
+    bounce: 3.0
+  - club: "7"
+    loft: 35.0
+    lie: 62.0
+    offset: 0.117
+    bounce: 3.0
+  - club: "8"
+    loft: 39.0
+    lie: 62.5
+    offset: 0.110
+    bounce: 3.0
+  - club: "9"
+    loft: 43.0
+    lie: 63.0
+    offset: 0.105
+    bounce: 3.0
+  - club: "PW"
+    loft: 47.0
+    lie: 64.0
+    offset: 0.100
+    bounce: 5.0
+  - club: "GW"
+    loft: 51.0
+    lie: 64.0
+    offset: 0.100
+    bounce: 5.0
+sources:
+  - "GolfWorks Maltby MPF Ratings chart (golfworks.com/content/PDFs/Head_MPFs/MPFRatingsChart.pdf, retrieved July 2026) — 'MALTBY MMB-17 Forged #6 2013, MPF 714', fixing year_introduced 2013 and the Super Game Improvement playability band."
+  - "GolfWorks-format retailer spec tables (audiogolfguide.com 'Maltby MMB-17 DBM Black Forged PF701+ Iron Set', golfironsi.com 'Maltby MMB-17 DBM Black Forged Iron Set 4-PW' and 'Maltby MMB-17 Forged Blade Iron Set 4-GW', read via search-indexed content) — the confirmed anchor points used to build the chart above: 3-iron 21 degrees/60 lie, 4-iron 24/60.5, 5-iron 27/61, 6-iron 31/61.5, 8-iron 39/62.5/276 g, 9-iron 43/63/284 g, PW 47/64/291 g/0.100 in offset/5 degrees bounce, GW 51/64/291 g/0.100 in/5 degrees bounce; irons 3-9 bounce of 3 degrees; offset for irons 3-8 spanning 0.145 down to 0.110 inches. Also: forged 8620 carbon steel, tungsten toe weighting in the 3-5 irons, weight relief pocket/inverted muscle in 3-7, and MG multi-groove face."
+  - "The GolfWorks 'Maltby DBM, TE, MMB-17 Irons' comparison article (golfworks.com/maltby-dbm-te-mmb-17-irons/a/1711/) — positions the MMB-17 within Maltby's blade/players-cavity family."
+  - "INTERPOLATION NOTE (confidence: medium): the 7-iron loft (35) and lie (62) are not independently sourced but are arithmetically forced by the confirmed, evenly-spaced 4-degree/0.5-degree steps between the sourced 6-iron (31/61.5) and 8-iron (39/62.5) anchors. The 9-iron offset (0.105) is a linear interpolation between the sourced 8-iron (0.110) and PW (0.100) values, not an independently confirmed figure. No manufacturer length column was found for this model - GolfWorks sells it as a bare head/custom-build product - so length is omitted rather than guessed."
+faq:
+  - q: "What is the loft of a Maltby MMB-17 7-iron?"
+    a: "Based on the confirmed 6-iron (31 degrees) and 8-iron (39 degrees) anchor points on the manufacturer-format chart, the 7-iron loft is 35 degrees, following the even 4-degree-per-club progression documented from the 6-iron through the gap wedge."
+  - q: "What does MMB stand for in the Maltby MMB-17?"
+    a: "Modified Muscle Back - a forged blade-style shape softened with a weight relief pocket, inverted muscle design in the 3-through-7 irons and tungsten toe weighting in the long irons, aimed at a wider range of players than a pure blade."
+  - q: "How forgiving is the Maltby MMB-17?"
+    a: "The GolfWorks' own MPF chart rates it 714 at the 6-iron - inside Maltby's Super Game Improvement playability band - despite its traditional blade-style look at address."
+confidence: medium

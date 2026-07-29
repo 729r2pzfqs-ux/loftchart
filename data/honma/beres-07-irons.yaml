@@ -1,0 +1,94 @@
+brand: Honma
+brand_slug: honma
+model: Beres 07
+slug: beres-07-irons
+club_type: irons
+year_introduced: 2019
+year_discontinued: 2021
+category: super-game-improvement
+construction: forged mild-steel body with a maraging-steel cast L-cup face (5-9) and a maraging-steel rolled flat face (10-SW)
+material: mild steel body, maraging steel face
+successor: Honma Beres 08
+predecessor: null
+description: >
+  The seventh-generation Beres is Honma's ultra-premium lightweight line: a
+  forged mild-steel body carries a cast maraging-steel L-cup face with inside
+  and outside sole slots in the 5- through 9-irons, and a rolled maraging-steel
+  flat face in the scoring clubs, all built for golfers with moderate swing
+  speeds who want hand-finished Sakata craftsmanship. Lofts are strong for the
+  category (27-degree 7-iron) because the deep, low centre of gravity is tuned
+  to launch high regardless. Stock shafts are Honma's ARMRQ 47 / ARMRQ 42
+  graphite in ascending 2-Star to 5-Star grades at very light C9-D1 swing
+  weights, with matching grades of shaft technology and price. Honma numbers
+  the scoring clubs: the 40-degree 10 is the pitching wedge and the 45-degree
+  11 the gap wedge, ahead of 50-degree AW and 55-degree SW. The loft, lie and
+  offset table carried over unchanged into the Beres 08 that replaced it in
+  2021; only the lengths grew, by a quarter inch through the mid-irons.
+specs:
+  - club: "5"
+    loft: 21.0
+    lie: 61.0
+    length: 38.0
+    offset: 0.157
+  - club: "6"
+    loft: 24.0
+    lie: 61.5
+    length: 37.5
+    offset: 0.146
+  - club: "7"
+    loft: 27.0
+    lie: 62.0
+    length: 37.0
+    offset: 0.138
+  - club: "8"
+    loft: 31.0
+    lie: 62.5
+    length: 36.5
+    offset: 0.138
+  - club: "9"
+    loft: 35.0
+    lie: 63.0
+    length: 36.0
+    offset: 0.138
+  - club: "10"
+    loft: 40.0
+    lie: 63.0
+    length: 35.5
+    offset: 0.138
+  - club: "11"
+    loft: 45.0
+    lie: 63.0
+    length: 35.0
+    offset: 0.118
+  - club: "AW"
+    loft: 50.0
+    lie: 63.0
+    length: 35.0
+    offset: 0.118
+  - club: "SW"
+    loft: 55.0
+    lie: 64.0
+    length: 35.0
+    offset: 0.079
+stock_shafts:
+  - name: "Honma ARMRQ 47 (2-Star to 5-Star grades)"
+    material: graphite
+    flex: ["R", "SR", "S"]
+  - name: "Honma ARMRQ 42 (3-Star grade)"
+    material: graphite
+    flex: ["R", "SR", "S"]
+sources:
+  - "Honma's own Beres 07 product page, specification table (honmagolf.com/sea/product-details/5886) — every loft, lie, offset and length recorded here verbatim from the raw HTML spec grid: lofts 21/24/27/31/35/40/45/50/55, lie 61.0-63.0 across the 5-9 irons with a merged 63.0-degree band spanning 9 through AW and 64.0 degrees for the SW alone (matching the same merged-cell layout later reused on the Beres 08 and Beres Aizu pages), offsets 4.00/3.70/3.50/3.50/3.50/3.50/3.00/3.00/2.00 mm (converted to inches here) with a merged 3.50 mm band across 7-10 and 3.00 mm across 11-AW, lengths 38.0 down to 35.0 inches with a merged 35.0-inch band across 11-AW-SW, the forged mild-steel body with cast/rolled maraging-steel face, the ARMRQ 47 (2S-5S) and ARMRQ 42 (3S) shaft options, and the C9-D1 swing weight range across flex and grade."
+  - "PGA Tour Superstore 'Honma BERES 07 3-Star Iron Set' listing — corroborates the 5-11/AW/SW set makeup and the ARMRQ 3-Star shaft grade naming."
+  - "Year note: year_introduced 2019 and year_discontinued 2021 follow Honma's roughly two-year Beres cycle (07 in 2019, 08 in 2021, 09 in 2023), consistent with the year_introduced already recorded for Beres 08 and Beres 09 on this site."
+related_models:
+  - slug: "honma/beres-08-irons"
+    label: "Successor: Honma Beres 08"
+faq:
+  - q: "What is the loft of a Honma Beres 07 7-iron?"
+    a: "The Honma Beres 07 7-iron has a loft of 27 degrees, a lie of 62 degrees and a length of 37 inches — a strong loft that the deep, low centre of gravity is designed to launch high despite the number."
+  - q: "How does the Honma Beres 07 compare to the Beres 08 that replaced it?"
+    a: "The loft, lie and offset table is identical between the two generations. The Beres 08 grew the lengths by a quarter inch through the mid-irons (5-10) and updated the face alloy naming (AM355P cast face, ES235 rolled face) and shaft lineup (ARMRQ MX)."
+  - q: "Who are Honma Beres 07 irons for?"
+    a: "Golfers with moderate swing speeds who want an easy-to-accelerate club: the ARMRQ 47/42 graphite builds run very light C9-D1 swing weights, wrapped in Honma's hand-finished Sakata craftsmanship and star-graded shaft technology."
+confidence: high

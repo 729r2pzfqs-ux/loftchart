@@ -1,0 +1,93 @@
+brand: Ben Hogan
+brand_slug: ben-hogan
+model: Apex Redline
+slug: apex-redline-irons
+club_type: irons
+year_introduced: 1988
+year_discontinued: 1990
+category: blade
+construction: forged muscle-back
+material: forged carbon steel
+successor: Ben Hogan Apex BH Grind
+predecessor: Ben Hogan Apex PC
+description: >
+  Collectors call this 1988-89 Apex generation the "Redline" for the red
+  paint line Hogan ran under the signature on the back of the muscle-back —
+  a cosmetic marker distinguishing it from the otherwise similar-looking
+  1984-87 Apex PC that preceded it. Equip2Golf's own chronological Apex
+  history describes it as "a beautiful blade with larger sole flange and
+  lower center of gravity," and it is widely regarded among Hogan
+  collectors as one of the purest true blades the company ever forged —
+  narrow topline and sole, minimal offset, a cascading-step muscle-back and
+  a pinned, chrome-forged finish. Hogan's own 1988-89 factory spec sheet for
+  the Redline could not be located; the loft, lie and length ladder below is
+  instead the verified table for its direct successor, the 1990-92 Apex BH
+  Grind — the next generation of the same small-blade lineage — and should
+  be read as a close approximation rather than a Redline-specific factory
+  figure. Confidence is marked low for that reason.
+specs:
+  - club: "1"
+    loft: 17.5
+    lie: 56.0
+    length: 39.75
+  - club: "2"
+    loft: 19.5
+    lie: 57.0
+    length: 39.25
+  - club: "3"
+    loft: 23.0
+    lie: 58.0
+    length: 38.75
+  - club: "4"
+    loft: 26.5
+    lie: 59.0
+    length: 38.25
+  - club: "5"
+    loft: 30.0
+    lie: 60.0
+    length: 37.75
+  - club: "6"
+    loft: 33.5
+    lie: 61.0
+    length: 37.25
+  - club: "7"
+    loft: 37.0
+    lie: 62.0
+    length: 36.75
+  - club: "8"
+    loft: 41.0
+    lie: 62.5
+    length: 36.25
+  - club: "9"
+    loft: 45.0
+    lie: 63.0
+    length: 35.75
+  - club: "PW"
+    loft: 49.0
+    lie: 63.5
+    length: 35.5
+  - club: "SW"
+    loft: 56.0
+    lie: 65.0
+    length: 35.0
+stock_shafts:
+  - name: "Ben Hogan Apex Extra"
+    material: steel
+sources:
+  - "equip2golf.com/archives/history/hogan_apex.html (Wayback capture of 8 March 2004) — Hogan's own chronological Apex history dates '1988-1989 Apex' as 'a beautiful blade with larger sole flange and lower center of gravity. Has Ben Hogan signature with red line under it,' immediately preceded by '1984-1987 Apex PC' and followed by '1990-1992 Apex BH Grind, a small blade with square toe'"
+  - "GolfWRX forum thread 'Hogan Iron Spec Sheet' (started by Chuck_22046, 31 October 2014) — a collector-compiled year-by-year Hogan model list separately entries '1988 Hogan Apex Redlines' (status: Complete) and '1990 Apex BH Grind' (status: Complete, later given lie angles); confirms 'Redline' as the collector name for the 1988-89 Apex and that it is a distinct spec generation from the following BH Grind"
+  - "hobbyjon.com 'The Vintage Golfer - 1988 Ben Hogan Apex Redline Forged Irons' and multiple 2014-2015 eBay/GolfWRX listings for '1988-89 Redline' single irons on Ben Hogan Apex Extra steel shafts — corroborate the forged, pinned-shaft, chrome-finish muscle-back construction and the 1988-89 production window"
+  - "Loft/lie/length figures used here are the 1990 Hogan factory catalog table for the Apex BH Grind (posted verbatim by forum user Shallowface in the GolfWRX 'Hogan Iron Spec Sheet' thread, 6 December 2014: club/length/loft/lie 1 39.75/17.5/56 through S 35/56/65), used as the closest documented same-lineage stand-in because no 1988-89 Redline-specific factory sheet could be found; confidence is set to low accordingly"
+related_models:
+  - slug: "ben-hogan/apex-1972-irons"
+    label: "Earlier Apex generation: Apex (1972)"
+faq:
+  - q: "Why is the 1988-89 Ben Hogan Apex called the 'Redline'?"
+    a: "Collectors named it for the thin red paint line Hogan ran under the Ben Hogan signature on the back of the muscle-back, which distinguishes it from the visually similar 1984-87 Apex PC that came before it."
+  - q: "What is the loft of a Ben Hogan Apex Redline 7-iron?"
+    a: "No factory spec sheet for the 1988-89 Redline itself has been located; the best documented approximation, from the 1990 factory table for its direct successor the Apex BH Grind, gives the 7-iron a 37-degree loft, 62-degree lie and 36.75-inch length."
+  - q: "What replaced the Ben Hogan Apex Redline?"
+    a: "The Apex BH Grind, a small-blade generation with a square toe that Hogan's own history places immediately after the Redline, current from 1990 to 1992."
+  - q: "Are Ben Hogan Apex Redline irons forged?"
+    a: "Yes. Collectors and vintage-club dealers consistently describe them as forged, chrome-finished muscle-backs with a pinned shaft — among the purest true blades Hogan ever made."
+confidence: low

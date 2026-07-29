@@ -1,0 +1,97 @@
+brand: Bridgestone
+brand_slug: bridgestone
+model: J36 Blade
+slug: j36-blade-irons
+club_type: irons
+year_introduced: 2008
+year_discontinued: null
+category: blade
+construction: forged muscle-back
+material: 1020 mild carbon steel
+successor: null
+predecessor: Bridgestone J33 Forged Blade
+description: >
+  The J36 Blade was the muscle-back of Bridgestone's J36 forged line, aimed
+  at "professionals to low handicap amateurs." The head is premium-forged
+  from 1020 mild carbon steel with a high center of gravity for a
+  penetrating ball flight, a thin top line and sole, and a compact profile
+  with progressive offset for shot-shaping. It shares Bridgestone's J36
+  Cavity Back's exact loft, lie, length and swing-weight ladder (35-degree
+  7-iron, 47-degree pitching wedge, D3 throughout) with the same Rifle
+  Project X flighted steel shaft and Golf Pride Tour Velvet grip as stock,
+  sold right hand only as a 3-iron through pitching wedge. The Condition of
+  Competition rule made the J36 irons non-conforming for professional play
+  from 1 January 2010. Bridgestone did not carry a pure muscle-back forward
+  into the J38 generation that followed — the next Bridgestone blade
+  documented in this database is the 2015 J15 Muscle Back.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 60.0
+    length: 38.75
+    offset: 0.106
+    swing_weight: D3
+  - club: "4"
+    loft: 24.0
+    lie: 61.0
+    length: 38.25
+    offset: 0.102
+    swing_weight: D3
+  - club: "5"
+    loft: 27.0
+    lie: 62.0
+    length: 37.75
+    offset: 0.094
+    swing_weight: D3
+  - club: "6"
+    loft: 31.0
+    lie: 62.5
+    length: 37.25
+    offset: 0.087
+    swing_weight: D3
+  - club: "7"
+    loft: 35.0
+    lie: 63.0
+    length: 36.75
+    offset: 0.079
+    swing_weight: D3
+  - club: "8"
+    loft: 39.0
+    lie: 63.5
+    length: 36.25
+    offset: 0.071
+    swing_weight: D3
+  - club: "9"
+    loft: 43.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.063
+    swing_weight: D3
+  - club: "PW"
+    loft: 47.0
+    lie: 64.5
+    length: 35.5
+    offset: 0.055
+    swing_weight: D3
+stock_shafts:
+  - name: "Rifle Project X Flighted"
+    material: steel
+sources:
+  - "Bridgestone Golf official J36 Blade Irons page, bridgestonegolf.com/en-us/clubs/archive/2008-models/j36-blade-irons (archive.org capture of 23 September 2019) — full factory spec table: 3-PW lofts 21/24/27/31/35/39/43/47, lies 60-64.5, lengths 38.75 to 35.5 inches, D3 swing weight throughout, offsets 2.7-1.4 mm (converted here at 25.4 mm per inch; no bounce figures were published for this model), premium-forged 1020 mild carbon steel with high center of gravity, thin top line and sole, compact head with progressive offset, Rifle Project X flighted shaft, Golf Pride Tour Velvet grip, 'Available right hand only', and 'professionals to low handicap amateurs'; also fixes the Condition of Competition conforming/non-conforming dates"
+  - "Note: the loft/lie/length/swing-weight/offset ladder published on Bridgestone's archived J36 Blade page is numerically identical to the J36 Cavity Back page archived the same year — both are recorded here as published rather than assumed to be a data-entry duplicate, since the two models otherwise carry distinct construction copy (muscle-back vs. cavity) and distinct product photography"
+  - "No J36-generation successor blade was located in Bridgestone's J38 archive (only a Cavity Back and Dual Pocket Cavity iron are catalogued there); year_discontinued is left null and the next Bridgestone blade in this database is the 2015 J15 Muscle Back, which is not yet covered"
+related_models:
+  - slug: "bridgestone/j33-forged-blade-irons"
+    label: "Predecessor: J33 Forged Blade"
+  - slug: "bridgestone/j36-cavity-back-irons"
+    label: "Cavity-back sibling with the same loft ladder: J36 Cavity Back"
+faq:
+  - q: "What is the loft of a Bridgestone J36 Blade 7-iron?"
+    a: "The Bridgestone J36 Blade 7-iron has a loft of 35 degrees, with a 63-degree lie, a 36.75-inch length and a D3 swing weight."
+  - q: "Are Bridgestone J36 Blade irons forged?"
+    a: "Yes. The heads are premium-forged from 1020 mild carbon steel with a high center of gravity for a penetrating flight, a thin top line and sole, and a compact profile."
+  - q: "What is the difference between the Bridgestone J36 Blade and the J36 Cavity Back?"
+    a: "Both share the identical published loft, lie, length and swing-weight ladder, but the Blade is a true muscle-back with a thin top line and compact profile for low-handicap players, while the Cavity Back adds a progressive-offset cavity for more forgiveness."
+  - q: "What clubs came in a stock Bridgestone J36 Blade set?"
+    a: "It was sold right hand only as a 3-iron through pitching wedge set, on a stock Rifle Project X flighted steel shaft."
+confidence: high

@@ -1,0 +1,95 @@
+brand: Tour Edge
+brand_slug: tour-edge
+model: Exotics EXS Pro
+slug: exotics-exs-pro-irons
+club_type: irons
+year_introduced: 2020
+year_discontinued: null
+category: players
+construction: forged cavity back, CNC-milled, with a tungsten toe weight in the 3-6 irons and a steel/ABS-polymer/damping-gel acoustic insert in the cavity
+material: S25C carbon steel
+successor: null
+predecessor: null
+description: >
+  The Exotics EXS Pro Forged was a limited-edition, tour-driven players iron
+  released 15 June 2020 in a run of just 250 sets, built from higher-grade
+  Japanese S25C carbon steel and CNC-milled throughout. It pairs a compact,
+  short heel-to-toe forged cavity-back shape with a 10-gram tungsten toe
+  weight in the 3- through 6-irons for extra forgiveness, and an acoustic
+  engineering cavity insert combining steel, ABS polymer and a damping gel
+  for feel. It launched alongside a companion true-blade model, the Exotics
+  EXS Blade, which uses weaker lofts (27-degree 5-iron versus this model's
+  25) and a thinner top line; the Pro Forged has a slightly thicker top line
+  and a stronger, more distance-oriented loft set for a players club (a
+  25-degree 5-iron and 46-degree pitching wedge, developed with PGA Tour
+  player feedback and robotic testing).
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 60.0
+    length: 38.75
+    offset: 0.169
+  - club: "4"
+    loft: 22.0
+    lie: 60.5
+    length: 38.25
+    offset: 0.161
+  - club: "5"
+    loft: 25.0
+    lie: 61.0
+    length: 37.75
+    offset: 0.154
+  - club: "6"
+    loft: 28.0
+    lie: 61.5
+    length: 37.25
+    offset: 0.146
+  - club: "7"
+    loft: 32.0
+    lie: 62.0
+    length: 36.75
+    offset: 0.138
+  - club: "8"
+    loft: 37.0
+    lie: 62.5
+    length: 36.25
+    offset: 0.130
+  - club: "9"
+    loft: 41.0
+    lie: 63.0
+    length: 35.75
+    offset: 0.122
+  - club: "PW"
+    loft: 46.0
+    lie: 63.0
+    length: 35.25
+    offset: 0.110
+  - club: "AW"
+    loft: 50.0
+    lie: 63.5
+    length: 35.25
+    offset: 0.110
+stock_shafts:
+  - name: "True Temper Elevate Tour VSS Pro"
+    material: steel
+    flex: ["R", "S"]
+  - name: "True Temper Dynamic Gold 105"
+    material: steel
+    flex: ["R300", "S300"]
+sources:
+  - "thegolfwire.com '\"Straight From the Tour Van\" Exotics EXS Pro Forged Irons, EXS Blade Irons/Blade Wedges Announced' — full specification table for 3 through AW (loft 20-50 degrees, lie 60-63.5 degrees, offset 4.3mm down to 2.8mm converted to inches here, length 38.75-35.25 inches), the higher-grade Japanese S25C carbon-steel CNC-milled construction, the forged cavity back with tungsten toe weighting in the 3-6 irons, the steel/ABS-polymer/damping-gel acoustic cavity insert, the True Temper Elevate Tour VSS Pro (R/S) and Dynamic Gold 105 (R300/S300) stock shafts, GolfPride Tour 360 grip, 15 June 2020 release and $149.99-per-club pricing limited to 250 sets."
+  - "golf.com 'Tour Edge launches full line of tour-driven Exotics EXS Pro Series products' and calgolfnews.com — corroborate the 250-set limited run, the June 2020 launch, the S25C carbon-steel CNC-milled construction, and the distinction from the companion true-blade Exotics EXS Blade (27-degree 5-iron, thinner top line) released the same day."
+  - "Note on category: classified 'players' here — a compact forged cavity back with a slightly thicker top line than the companion Blade model, sitting between that true blade and a players-distance iron; not a game-improvement club."
+related_models:
+  - slug: "tour-edge/exotics-exs-220-irons"
+    label: "Same-year mainline game-improvement sibling: Tour Edge Exotics EXS 220"
+  - slug: "tour-edge/exotics-exs-irons"
+    label: "Predecessor mainline model in the EXS name: Tour Edge Exotics EXS"
+faq:
+  - q: "What is the loft of a Tour Edge Exotics EXS Pro 7-iron?"
+    a: "The Exotics EXS Pro Forged 7-iron has a loft of 32 degrees, a lie of 62 degrees and a standard length of 36.75 inches."
+  - q: "How limited was the Tour Edge Exotics EXS Pro release?"
+    a: "Very: Tour Edge built only 250 sets of the EXS Pro Forged, released 15 June 2020 at $149.99 per club, developed with feedback from PGA Tour players and extensive robotic testing."
+  - q: "What is the difference between the Exotics EXS Pro Forged and Exotics EXS Blade?"
+    a: "Both launched the same day from the same S25C carbon steel, but the Pro Forged is a compact cavity back with a slightly thicker top line and stronger lofts (25-degree 5-iron), while the Blade is a true muscle-back with a thinner top line and weaker lofts (27-degree 5-iron)."
+confidence: medium

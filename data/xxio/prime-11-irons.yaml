@@ -1,0 +1,87 @@
+brand: XXIO
+brand_slug: xxio
+model: Prime 11
+slug: prime-11-irons
+club_type: irons
+year_introduced: 2020
+year_discontinued: 2023
+category: super-game-improvement
+construction: cast body with a thin, forged Super-TIX PLUS titanium face insert and dynamic variable face thickness
+material: Super-TIX PLUS titanium face on a stainless steel body with a high-density tungsten-nickel toe weight
+successor: XXIO Prime 12
+predecessor: XXIO Prime 10
+description: >
+  Prime 11 is the third XXIO Prime iron generation, carrying over the same
+  loft, lie, bounce and length table used since the Prime 9 while refining
+  the Super-TIX PLUS titanium face with dynamic variable thickness and
+  adding a high-density tungsten-nickel toe weight for stability, plus a
+  progressive centre-of-gravity height that runs lower in the long irons
+  for carry and higher in the short irons for control. Lofts are notably
+  strong for a super-game-improvement iron (a 42-degree pitching wedge
+  against a roughly 45-degree category average). The stock XXIO Prime
+  SP-1100 graphite shaft again uses Toray T1100G carbon fibre and Nanoalloy
+  resin. Swing weight is C7 through the irons, C8 in the wedges. The stock
+  set was 7-9-PW, sold individually as 5, 6, AW and SW.
+specs:
+  - club: "5"
+    loft: 22.0
+    lie: 61.5
+    length: 38.25
+    bounce: 1.0
+  - club: "6"
+    loft: 25.0
+    lie: 62.0
+    length: 37.75
+    bounce: 1.0
+  - club: "7"
+    loft: 28.0
+    lie: 62.5
+    length: 37.25
+    bounce: 1.0
+  - club: "8"
+    loft: 32.0
+    lie: 63.0
+    length: 36.75
+    bounce: 2.0
+  - club: "9"
+    loft: 37.0
+    lie: 63.0
+    length: 36.25
+    bounce: 3.0
+  - club: "PW"
+    loft: 42.0
+    lie: 63.5
+    length: 35.75
+    bounce: 4.0
+  - club: "AW"
+    loft: 48.0
+    lie: 63.5
+    length: 35.75
+    bounce: 5.0
+  - club: "SW"
+    loft: 56.0
+    lie: 63.5
+    length: 35.75
+    bounce: 12.0
+stock_shafts:
+  - name: "XXIO Prime SP-1100"
+    material: graphite
+    flex: ["R", "SR"]
+sources:
+  - "2ndswing.com 'XXIO Prime 11 Iron Set' specification table — full loft/length/lie/bounce table for the 5-iron through sand wedge (22-56 degrees, 38.25-35.75 inches, 61.5-63.5 degrees lie, 1-12 degrees bounce), the 5-9/PW/AW/SW eight-club set makeup, and C7 swing weight through the irons stepping to C8 in the wedges."
+  - "golfclubguru.com 'XXIO Prime 11 Men's Iron Set Review' — corroborates the cast construction, the 42-degree pitching wedge as notably strong versus a roughly 45-degree category average, wide soles with moderate offset, and low perimeter weighting for a high launch."
+  - "thegolfguys.com and pgatoursuperstore.com product listings — corroborate the Super-TIX PLUS titanium face, dynamic variable face thickness, progressive centre-of-gravity by loft, and the SP-1100 shaft (Toray T1100G, Nanoalloy resin)."
+  - "Year note: year_introduced 2020 pairs Prime 11 with the contemporaneous XXIO Eleven numbered generation (announced Japan late 2019, US retail February 2020, per the xxio-eleven-irons.yaml entry on this site); year_discontinued 2023 follows Amazon/retailer listings dating the next Prime generation, Prime 12, to 2023."
+related_models:
+  - slug: "xxio/xxio-eleven-irons"
+    label: "Contemporaneous numbered-generation flagship: XXIO Eleven"
+  - slug: "xxio/prime-10-irons"
+    label: "Predecessor: XXIO Prime 10"
+faq:
+  - q: "What is the loft of an XXIO Prime 11 7-iron?"
+    a: "The XXIO Prime 11 7-iron has a loft of 28 degrees, a lie of 62.5 degrees and a length of 37.25 inches."
+  - q: "Why is the XXIO Prime 11 pitching wedge loft so strong?"
+    a: "At 42 degrees it is roughly 3 degrees stronger than a typical super-game-improvement pitching wedge, which pushes distance up at the cost of needing a dedicated gap wedge to cover the yardage that a more traditional 45-degree PW would fill."
+  - q: "What is the swing weight of the XXIO Prime 11?"
+    a: "C7 through the irons, stepping up to C8 in the PW, AW and SW — very light, in keeping with the rest of the Prime line's ultra-lightweight positioning."
+confidence: high

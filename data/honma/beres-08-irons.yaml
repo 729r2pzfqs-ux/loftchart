@@ -79,6 +79,10 @@ sources:
 related_models:
   - slug: "honma/beres-09-irons"
     label: "Successor: Honma Beres 09"
+  - slug: "honma/beres-07-irons"
+    label: "Predecessor: Honma Beres 07"
+  - slug: "honma/beres-aizu-irons"
+    label: "Same head, 2022 limited-edition Aizu lacquer finish: Honma Beres Aizu"
   - slug: "honma/tworld-gs-irons"
     label: "Same year, more affordable lightweight concept: Honma T//World GS"
 faq:

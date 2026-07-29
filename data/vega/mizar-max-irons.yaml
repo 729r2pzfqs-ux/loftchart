@@ -1,0 +1,52 @@
+brand: Vega
+brand_slug: vega
+model: Mizar Max
+slug: mizar-max-irons
+club_type: irons
+year_introduced: 2023
+year_discontinued: null
+category: players-distance
+construction: soft steel body with internal cavity and a floating titanium face
+material: steel body, 2.8 mm titanium face
+successor: null
+predecessor: null
+description: >
+  The Mizar Max is Vega's driving iron rather than a full iron set - at
+  launch MyGolfSpy called it "the only driving iron on the market" with a
+  titanium face, adding that Vega had plans to extend it into a full set
+  that had not materialised as of Vega's 2025 range announcement (which
+  instead introduced a separate game-improvement model, the Lyra). A soft
+  steel body with an internal cavity carries a thin, 2.8 mm floating
+  titanium face for extra ball speed, in a thin-topline, squat heel-to-toe
+  profile with sole relief aimed at accomplished players wanting a
+  penetrating, high-launching long-iron replacement rather than higher
+  handicappers needing forgiveness through a full set. Vega sells it only
+  as the #2, #3 and #4 heads, with fully CNC-milled grooves and surface
+  texturing and the same interchangeable weight-bar system as the rest of
+  the Mizar range.
+specs:
+  - club: "2"
+    loft: 14.0
+    lie: 59.0
+    length: 39.5
+  - club: "3"
+    loft: 17.0
+    lie: 59.5
+    length: 39.0
+  - club: "4"
+    loft: 20.0
+    lie: 60.0
+    length: 38.5
+sources:
+  - "vega-golf.com official product page 'Vega Mizar Max Driving Iron' — the full chart used here: lofts 14/17/20 degrees for the #2, #3 and #4 heads only, lies 59-60, face progression 2-2.5 degrees, steel lengths 39.5 to 38.5 inches (graphite 0.5 inch longer), head weights 234-248 g, the soft-steel-body/floating-2.8mm-titanium-face construction, and CNC-milled grooves and surface texturing. No bounce figures are published."
+  - "MyGolfSpy 'VEGA Reaches for the Stars with Mizar Irons' — describes the Mizar Max as a dedicated driving iron ('the only driving iron on the market' with a titanium face at the time), a 'thin topline and squat heel-to-toe profile,' and notes Vega's stated plan to expand it into a full set, which had not appeared as a distinct 'Mizar Max' iron set as of this site's research (July 2026)."
+  - "Golfalot 'Vega Launch 2025 Irons Range' — Vega's 2025 range lists Mizar Pro Blade, Mizar Pro Cavity Back and a separate game-improvement model (Lyra Irons) but no 'Mizar Max' full iron set, corroborating that the driving-iron-only scope recorded here is still current."
+  - "SCOPE NOTE: this entry departs from a typical full 4-PW/GW iron set because no such set exists for the Mizar Max name - Vega has sold it only as a 2/3/4-iron driving-iron head since its 2023 introduction. category is recorded as players-distance (a long-iron/hybrid replacement for accomplished players) rather than game-improvement, since nothing in Vega's own marketing or independent reviews describes it as forgiveness-first; treat this file as documenting the real, narrower product rather than a hypothetical full set."
+faq:
+  - q: "Is the Vega Mizar Max a full iron set?"
+    a: "No. Vega sells it only as a driving iron in the #2, #3 and #4 lofts - a long-iron/hybrid replacement - not as a complete 4-PW or similar set, despite early coverage noting Vega's plans to expand it."
+  - q: "What is the loft of a Vega Mizar Max 4-iron?"
+    a: "20 degrees, with a 60-degree lie and a 38.5-inch steel length - the strongest (shortest-headed) club in the three-piece Mizar Max range."
+  - q: "What makes the Vega Mizar Max different from the Mizar Pro?"
+    a: "The Mizar Max pairs a soft steel body with a thin 2.8 mm floating titanium face for extra ball speed in a driving-iron head, while the Mizar Pro is a full forged S20C iron set (Blade or Cavity) covering 4-iron through pitching wedge."
+confidence: medium

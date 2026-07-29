@@ -1,0 +1,85 @@
+brand: Ben Hogan
+brand_slug: ben-hogan
+model: Medallion
+slug: medallion-irons
+club_type: irons
+year_introduced: 1982
+year_discontinued: 1983
+category: game-improvement
+construction: investment cast
+material: cast stainless steel
+successor: Ben Hogan Radial Cast
+predecessor: Ben Hogan Medallion (1978)
+description: >
+  The Medallion was Hogan's cast, game-improvement iron of the late 1970s
+  and early 1980s, offered alongside the company's forged blades for
+  players who wanted more forgiveness. This 1982 revision — identifiable by
+  its "BH" sunburst medallion badge and offset hosel, as distinct from the
+  original 1978-81 version — is nearly identical in profile to its
+  predecessor apart from the badge; collectors report no other detectable
+  differences between the two. A confirmed 2-iron of 19.5 degrees loft and
+  39.5-inch length matches the loft (though not the length) of Hogan's
+  contemporaneous forged Radial almost exactly; the rest of the ladder below
+  extrapolates from that single confirmed point using the same step pattern
+  documented across Hogan's Radial and Apex-era tables of the period, since
+  no complete Medallion-specific factory sheet was located. Confidence is
+  marked low for that reason. Hogan's letter wedge is recorded here as PW.
+specs:
+  - club: "2"
+    loft: 19.5
+    lie: 57.0
+    length: 39.5
+  - club: "3"
+    loft: 23.0
+    lie: 58.0
+    length: 39.0
+  - club: "4"
+    loft: 26.5
+    lie: 59.0
+    length: 38.5
+  - club: "5"
+    loft: 30.0
+    lie: 60.0
+    length: 38.0
+  - club: "6"
+    loft: 33.5
+    lie: 61.0
+    length: 37.5
+  - club: "7"
+    loft: 37.0
+    lie: 62.0
+    length: 37.0
+  - club: "8"
+    loft: 41.0
+    lie: 63.0
+    length: 36.5
+  - club: "9"
+    loft: 45.0
+    lie: 63.5
+    length: 36.0
+  - club: "PW"
+    loft: 50.0
+    lie: 64.0
+    length: 35.5
+stock_shafts:
+  - name: "Ben Hogan Apex"
+    material: steel
+sources:
+  - "district.net vintage-club listing 'Ben Hogan Golf Medallion Forged 2 Iron' — states a 19.5-degree loft and 39.5-inch length for the Medallion 2-iron on an Apex stiff steel shaft"
+  - "GolfWRX forum thread 'Hogan Iron Spec Sheet' (Chuck_22046, 31 October 2014) — the collector index separately lists '1978 Medallion (78-81)' and '1982 Medallion' as distinct, both-'Complete' spec entries; a related thread ('Vintage Ben Hogan. Iron Specs', April 2021) discusses the 1982 Medallion specifically and confirms it is distinguished from the 1978-81 version mainly by its 'BH' sunburst medallion badge, with collectors reporting no other detectable construction difference between the two badge years"
+  - "3Jack Golf Blog and multiple 2ndswing/GolfWRX/collector listings — corroborate the Medallion as a cast stainless steel, game-improvement iron sold through the early 1980s, commonly as a 2-9 or 2-PW set"
+  - "Loft/lie/length figures beyond the confirmed 2-iron are extrapolated using the same per-club step pattern documented in Hogan's contemporaneous Radial factory table (this repo's ben-hogan/radial-irons.yaml, sourced from qsponge.com) — the closest same-era Hogan iron with a fully documented ladder and an identical 19.5-degree 2-iron loft; no complete Medallion-specific factory sheet was located despite extensive search, so confidence is set to low"
+  - "Deviation from the initial gap-analysis brief: year_introduced is recorded as 1982 rather than 1985. Hogan's own archived spec-sheet chooser and independent collector sources catalog only a 1978 and a 1982 Medallion — no 1985 edition is documented anywhere located — so the closer-to-1985 of the two verified years is used, with year_discontinued set to 1983 on the strength of GolfWRX collector sourcing that the (cast) Radial succeeded the Medallion in Hogan's game-improvement slot"
+related_models:
+  - slug: "ben-hogan/radial-irons"
+    label: "Later Hogan forgiveness-oriented iron with the same 2-iron loft: Radial"
+faq:
+  - q: "What is the loft of a Ben Hogan Medallion 7-iron?"
+    a: "No complete factory sheet for the Medallion was located; extrapolating from the confirmed 19.5-degree 2-iron using the same step pattern as Hogan's contemporaneous Radial gives a 37-degree 7-iron, 62-degree lie and 37-inch length."
+  - q: "What is the difference between the 1978 and 1982 Ben Hogan Medallion?"
+    a: "Collectors report the two are distinguished mainly by the 'BH' sunburst medallion badge used on the 1982 version — no other construction difference has been reliably documented between the badge years."
+  - q: "Is the Ben Hogan Medallion forged or cast?"
+    a: "Cast. It used investment-cast stainless steel, unlike most of Hogan's better-known forged blades, aimed at golfers who wanted more forgiveness than the company's players irons offered."
+  - q: "What replaced the Ben Hogan Medallion?"
+    a: "The cast Radial, which carried a similar forgiveness-first approach with a distinctive wide radial sole, per GolfWRX collector sourcing."
+confidence: low

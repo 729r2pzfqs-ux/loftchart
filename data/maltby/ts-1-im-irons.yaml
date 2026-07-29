@@ -1,0 +1,100 @@
+brand: Maltby
+brand_slug: maltby
+model: TS-1 IM
+slug: ts-1-im-irons
+club_type: irons
+year_introduced: 2023
+year_discontinued: null
+category: game-improvement
+construction: three-piece billet forged hollow body with injected polymer face backing ("Injected Muscle")
+material: forged 1025C carbon steel body, 2.1 mm MS300 super maraging steel face, internal tungsten toe weight
+successor: null
+predecessor: Maltby TS-1
+description: >
+  The TS-1 IM - "Injected Muscle" - extends Maltby's Tour Series hollow-forged
+  concept with a stronger MS300 super maraging steel face (2.1 mm, chosen for
+  higher elongation and yield strength than standard maraging) welded to a
+  forged 1025C carbon steel body, with the same internal tungsten weight low
+  and toward the toe as the original TS-1 and a polymer-filled void behind
+  the face for added ball speed. The GolfWorks' own Maltby MPF ratings chart
+  dates it to 2023 with an MPF of 728, just above the original TS-1's 711 -
+  both inside Maltby's Super Game Improvement playability band despite the
+  compact, tour-style head. Precision five-step forged, Pearl Chrome finish,
+  a universal hosel accepting .370 parallel or .355 taper shafts, and
+  optional custom loft/lie within +/-2 degrees at no charge on
+  professionally assembled sets. Sold as bare heads or built-to-order paks
+  (3-PW/GW, 4-PW/GW or 5-PW/GW) through The GolfWorks rather than off the
+  rack.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 60.0
+    length: 39.0
+    offset: 0.110
+    bounce: 3.0
+  - club: "4"
+    loft: 22.0
+    lie: 60.5
+    length: 38.5
+    offset: 0.110
+    bounce: 3.0
+  - club: "5"
+    loft: 25.5
+    lie: 61.0
+    length: 38.0
+    offset: 0.100
+    bounce: 3.0
+  - club: "6"
+    loft: 29.0
+    lie: 61.5
+    length: 37.5
+    offset: 0.100
+    bounce: 4.0
+  - club: "7"
+    loft: 32.5
+    lie: 62.0
+    length: 37.0
+    offset: 0.090
+    bounce: 4.0
+  - club: "8"
+    loft: 36.0
+    lie: 62.5
+    length: 36.5
+    offset: 0.090
+    bounce: 4.0
+  - club: "9"
+    loft: 40.0
+    lie: 63.0
+    length: 36.0
+    offset: 0.080
+    bounce: 5.0
+  - club: "PW"
+    loft: 44.0
+    lie: 63.5
+    length: 35.5
+    offset: 0.080
+    bounce: 5.0
+  - club: "GW"
+    loft: 48.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.080
+    bounce: 5.0
+sources:
+  - "The GolfWorks official Maltby TS1 IM Forged Iron spec chart image (golfworks.com/content/description/ma0344specs.jpg, linked from the 'Maltby TS1 IM Forged Iron Heads' product page p/ma0344/) — the manufacturer factory chart used here: 3-GW lofts 20/22/25.5/29/32.5/36/40/44/48 degrees, lies 60-64, offsets 0.110 to 0.080 inches, bounces 3-5 degrees, head weights 239-292 g, universal hosel, Pearl Chrome finish, MS300 maraging face and 1025C carbon steel body, and the MPF 728 rating."
+  - "GolfWorks Maltby MPF Ratings chart (golfworks.com/content/PDFs/Head_MPFs/MPFRatingsChart.pdf, retrieved July 2026) — 'MALTBY TS1-IM Forged #6 2023, MPF 728', fixing year_introduced 2023; the same chart lists the standard TS1 under 2019 at MPF 711, the basis for the predecessor field."
+  - "The GolfWorks product pages for the 'Maltby TS1 IM Forged Iron Paks' (p/pma0344/) and 'Maltby TS1 IM Custom Irons' (p/cma0344/) — confirm the true 3-piece billet-forged design, the 2.1 mm MS300 super maraging face welded to the forged 1025C body, the internal tungsten toe weight, the polymer-injected void behind the face, the 5-step precision forging process, the universal .370/.355 hosel, and the 3-PW/GW, 4-PW/GW or 5-PW/GW pak configurations sold as bare heads or custom-built sets."
+  - "Length note: The GolfWorks does not publish a length column on the TS1 IM spec chart (weight is given instead); lengths above follow this site's Maltby TS-1 entry, which uses The GolfWorks' published Standard Lengths chart (golfworks.com/images/art/StdLengths.pdf, men's steel) as the best available proxy for the same product family sold the same way (component heads built to order)."
+related_models:
+  - slug: "maltby/ts-1-irons"
+    label: "Predecessor without the injected polymer face backing: Maltby TS-1"
+  - slug: "maltby/ts-4-irons"
+    label: "Tour Series blade at the other end of the line: Maltby TS-4"
+faq:
+  - q: "What is the loft of a Maltby TS-1 IM 7-iron?"
+    a: "The Maltby TS-1 IM 7-iron has a loft of 32.5 degrees and a lie of 62 degrees, with 0.090 inches of offset and a 4-degree bounce."
+  - q: "What does 'IM' mean in the Maltby TS-1 IM?"
+    a: "Injected Muscle - a polymer-filled void behind a 2.1 mm MS300 super maraging steel face, welded to a forged 1025C carbon steel body with an internal tungsten toe weight, aimed at more ball speed than the original TS-1."
+  - q: "How forgiving is the Maltby TS-1 IM?"
+    a: "The GolfWorks' own MPF chart rates it 728 at the 6-iron - inside Maltby's Super Game Improvement playability band - despite a compact, tour-style profile, slightly higher than the original TS-1's 711."
+confidence: medium

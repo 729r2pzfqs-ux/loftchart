@@ -1,0 +1,106 @@
+brand: Bridgestone
+brand_slug: bridgestone
+model: J38 Dual Pocket Cavity
+slug: j38-dual-pocket-cavity-irons
+club_type: irons
+year_introduced: 2010
+year_discontinued: 2011
+category: players
+construction: midsize forged, dual pocket cavity
+material: 1020 carbon steel
+successor: Bridgestone J40 Dual Pocket Cavity
+predecessor: null
+description: >
+  The J38 Dual Pocket Cavity — Bridgestone's own product page titles it the
+  "J38 Dual Cavity Irons" — was the more forgiving of the two J38 forged
+  irons, again aimed at "professionals to mid handicap amateurs." The midsize
+  head is premium-forged from 1020 carbon steel with Bridgestone's dual
+  pocket cavity removing discretionary weight to the perimeter for
+  forgiveness while keeping more mass directly behind the hitting area for
+  feel, plus a tapered sole and trailing/leading-edge relief. Lofts are one
+  degree stronger than the J38 Cavity Back through most of the set
+  (34-degree 7-iron, 46-degree pitching wedge) with correspondingly more
+  offset, every club built to a D1 swing weight on a stock Project X
+  flighted steel shaft with a Golf Pride Tour Velvet grip. It was sold right
+  hand only as a 3-iron through pitching wedge. The J40 Dual Pocket Cavity
+  succeeded it in the 2011 model generation.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 60.0
+    length: 38.75
+    offset: 0.126
+    bounce: 2.0
+    swing_weight: D1
+  - club: "4"
+    loft: 23.0
+    lie: 61.0
+    length: 38.25
+    offset: 0.122
+    bounce: 2.0
+    swing_weight: D1
+  - club: "5"
+    loft: 26.0
+    lie: 62.0
+    length: 37.75
+    offset: 0.114
+    bounce: 2.0
+    swing_weight: D1
+  - club: "6"
+    loft: 30.0
+    lie: 62.5
+    length: 37.25
+    offset: 0.106
+    bounce: 2.5
+    swing_weight: D1
+  - club: "7"
+    loft: 34.0
+    lie: 63.0
+    length: 36.75
+    offset: 0.098
+    bounce: 3.0
+    swing_weight: D1
+  - club: "8"
+    loft: 38.0
+    lie: 63.5
+    length: 36.25
+    offset: 0.091
+    bounce: 3.0
+    swing_weight: D1
+  - club: "9"
+    loft: 42.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.083
+    bounce: 3.0
+    swing_weight: D1
+  - club: "PW"
+    loft: 46.0
+    lie: 64.5
+    length: 35.5
+    offset: 0.075
+    bounce: 3.0
+    swing_weight: D1
+stock_shafts:
+  - name: "Project X Flighted"
+    material: steel
+sources:
+  - "Bridgestone Golf official J38 Dual Pocket Cavity Irons page, bridgestonegolf.com/en-us/clubs/archive/2010-models/j38-dual-pocket-cavity-irons (archive.org capture of 16 July 2019; the page's own <h1> reads 'J38 Dual Cavity Irons') — full factory spec table: 3-PW lofts 20/23/26/30/34/38/42/46, lies 60-64.5, lengths 38.75 to 35.5 inches, D1 swing weight throughout, offsets 3.2-1.9 mm (converted here at 25.4 mm per inch), bounce 2-3 degrees, midsize premium-forged 1020 carbon steel with a dual pocket cavity, Project X flighted shaft, Golf Pride Tour Velvet grip, and 'Available Right Hand Only: 3, 4-PW'"
+  - "The repo's existing J40 Dual Pocket Cavity entry (bridgestone/j40-dual-pocket-cavity-irons.yaml), whose predecessor field names 'Bridgestone J38 Dual Pocket Cavity' directly, fixing year_discontinued at 2011 (the J40 generation's announcement year); that same entry's own predecessor lineage confirms this model followed a J36-era pocket-cavity iron, though no J38-specific predecessor page was located to link directly"
+  - "Deviation from the initial gap-analysis brief: category is recorded here as players rather than game-improvement, matching the identical evidence-based categorization of its direct successor, the J40 Dual Pocket Cavity, which carries near-identical lofts (34-degree 7-iron) and modest offset (1.9-3.2 mm) and is filed players in this database"
+  - "year_introduced 2010 follows Bridgestone's own archive path (clubs/archive/2010-models/); no separate announcement-date press release was located for the J38 generation, so the archive year is used per the schema convention"
+related_models:
+  - slug: "bridgestone/j40-dual-pocket-cavity-irons"
+    label: "Successor: J40 Dual Pocket Cavity"
+  - slug: "bridgestone/j38-cavity-back-irons"
+    label: "Compact sibling: J38 Cavity Back"
+faq:
+  - q: "What is the loft of a Bridgestone J38 Dual Pocket Cavity 7-iron?"
+    a: "The Bridgestone J38 Dual Pocket Cavity 7-iron has a loft of 34 degrees, with a 63-degree lie, a 36.75-inch length and a D1 swing weight."
+  - q: "What is the difference between the Bridgestone J38 Dual Pocket Cavity and the J38 Cavity Back?"
+    a: "Both are forged from 1020 carbon steel, but the Dual Pocket Cavity uses two milled pockets to move weight to the perimeter for more forgiveness and lofts about a degree stronger (34-degree 7-iron versus 35), while the Cavity Back is the more compact, traditional-loft head with a magnesium-composite insert."
+  - q: "What replaced the Bridgestone J38 Dual Pocket Cavity?"
+    a: "The J40 Dual Pocket Cavity, part of Bridgestone's next forged iron generation."
+  - q: "What clubs came in a stock Bridgestone J38 Dual Pocket Cavity set?"
+    a: "It was sold right hand only as a 3-iron through pitching wedge set, on a stock Project X flighted steel shaft."
+confidence: high

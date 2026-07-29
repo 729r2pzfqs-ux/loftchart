@@ -1,0 +1,133 @@
+brand: Ben Hogan
+brand_slug: ben-hogan
+model: Apex FTX
+slug: apex-ftx-irons
+club_type: irons
+year_introduced: 2004
+year_discontinued: null
+category: players
+construction: forged, cavity-to-blade transition set
+material: forged carbon steel
+successor: null
+predecessor: null
+description: >
+  The Apex F•T•X ("Forged Transition Set") is a precision forged
+  iron whose head design changes gradually from club to club rather than
+  splitting the set into a fixed long-iron and short-iron style. Hogan's own
+  catalog copy describes it as "a precision designed, shot-making instrument"
+  built for "the most demanding players and shot-makers": the 1-iron through
+  7-iron carry the perimeter weighting of a cavity-back blade with longer
+  blade lengths for playability and a muscle pad inside the cavity for feel,
+  and from the 8-iron through the wedges the cavity disappears entirely into
+  a true muscle-back blade, with the muscle pad enlarging as the loft
+  increases for scoring-club control. Lofts are traditional (34-degree
+  7-iron, 46-degree Equalizer) with Hogan's characteristically flat lies (59
+  degrees at the 1-iron, 64 across the wedges) and a range running from a
+  16-degree 1-iron to a 60-degree lob wedge. Hogan's letter wedges are
+  recorded here as PW (Equalizer, 46°), GW (FW wedge, 50°), SW
+  (56°) and LW (60°). It was sold right hand 1-E/F/S/L and left hand
+  2-E/S, at $1,000 (steel) or $1,080 (graphite).
+specs:
+  - club: "1"
+    loft: 16.0
+    lie: 59.0
+    length: 39.75
+    offset: 0.240
+    bounce: 1.0
+  - club: "2"
+    loft: 18.0
+    lie: 59.5
+    length: 39.25
+    offset: 0.220
+    bounce: 1.5
+  - club: "3"
+    loft: 20.0
+    lie: 60.0
+    length: 38.75
+    offset: 0.200
+    bounce: 2.0
+  - club: "4"
+    loft: 23.0
+    lie: 60.5
+    length: 38.25
+    offset: 0.180
+    bounce: 2.5
+  - club: "5"
+    loft: 26.0
+    lie: 61.0
+    length: 37.75
+    offset: 0.160
+    bounce: 3.0
+  - club: "6"
+    loft: 30.0
+    lie: 61.5
+    length: 37.25
+    offset: 0.140
+    bounce: 4.0
+  - club: "7"
+    loft: 34.0
+    lie: 62.0
+    length: 36.75
+    offset: 0.127
+    bounce: 5.0
+  - club: "8"
+    loft: 38.0
+    lie: 62.5
+    length: 36.25
+    offset: 0.113
+    bounce: 6.0
+  - club: "9"
+    loft: 42.0
+    lie: 63.0
+    length: 35.75
+    offset: 0.100
+    bounce: 7.0
+  - club: "PW"
+    loft: 46.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.100
+    bounce: 8.0
+  - club: "GW"
+    loft: 50.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.100
+    bounce: 9.0
+  - club: "SW"
+    loft: 56.0
+    lie: 64.0
+    length: 35.0
+    offset: 0.040
+    bounce: 12.0
+  - club: "LW"
+    loft: 60.0
+    lie: 64.0
+    length: 35.0
+    offset: 0.030
+    bounce: 5.0
+stock_shafts:
+  - name: "Ben Hogan Apex (steel)"
+    material: steel
+  - name: "Ben Hogan Apex (graphite)"
+    material: graphite
+sources:
+  - "Ben Hogan official Apex FTX catalog spread, archive.org capture of bridgestonegolf-era benhogan.com/products/PDF/ApexFTX-Irons.pdf (Wayback capture of 26 February 2005) — full 1-to-LW standard specifications table: lofts 16/18/20/23/26/30/34/38/42/46/50/56/60, lie angles 59.0-64 degrees, bounce 1-12 degrees, steel lengths 39.75 to 35 inches (graphite a half inch longer per club), offsets .240 down to .030 inches, the cavity-to-blade transition copy, the 'professionals and demanding shot-makers' positioning, 'Available Right Hand: 1-E, F, S, L • Left Hand: 2-E, S' and SRP of $1,000 steel / $1,080 graphite"
+  - "golfclubshaftreview.com Ben Hogan shaft-ladder PDF (benhogan_1.2.pdf) — confirms '2004 Apex FTX Irons' with an Apex-branded steel shaft, corroborating the 2004 introduction year"
+  - "2ndswing.com and golfavenue.com Apex FTX iron-set listings — confirm the forged 1020-carbon-steel construction and the long-iron-cavity/short-iron-blade transitional design"
+  - "Deviation from the initial gap-analysis brief: category is recorded here as players rather than game-improvement. Hogan's own marketing copy pitches the FTX at 'the most demanding players and shot-makers,' its lofts and lengths match the players-category Apex Plus almost exactly, and its defining feature (a cavity that shrinks into a true muscle-back blade by the 8-iron) is a better-player trait, not a game-improvement one"
+related_models:
+  - slug: "ben-hogan/apex-edge-pro-irons"
+    label: "Same-era players stablemate: Apex Edge Pro"
+  - slug: "ben-hogan/apex-plus-irons"
+    label: "Similar forged transitional design: Apex Plus"
+faq:
+  - q: "What is the loft of a Ben Hogan Apex FTX 7-iron?"
+    a: "The Ben Hogan Apex FTX 7-iron has a loft of 34 degrees, with a 62-degree lie, a 36.75-inch length and 0.127 inches of offset."
+  - q: "What does F•T•X stand for on the Ben Hogan Apex FTX?"
+    a: "Forged Transition Set. The clubhead shape changes gradually club to club: the long irons carry cavity-back perimeter weighting for playability, while from the 8-iron down the cavity disappears into a true muscle-back blade for scoring-club feel and control."
+  - q: "Are Ben Hogan Apex FTX irons forged?"
+    a: "Yes. Every head, from the cavity-back long irons to the muscle-back short irons, is precision forged, and Hogan marketed the set at 'the most demanding players and shot-makers.'"
+  - q: "What clubs came in a stock Ben Hogan Apex FTX set?"
+    a: "It was offered right hand from 1-iron through Equalizer, FW wedge, SW and LW, and left hand from 2-iron through Equalizer and SW, at $1,000 in steel or $1,080 in graphite."
+confidence: high

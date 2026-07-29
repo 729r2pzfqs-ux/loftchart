@@ -1,0 +1,79 @@
+brand: Stix
+brand_slug: stix
+model: Compete
+slug: compete-irons
+club_type: irons
+year_introduced: 2024
+year_discontinued: null
+category: players-distance
+construction: two-piece hollow body
+material: AM355P high-strength stainless steel face, 17-4 stainless steel body
+successor: null
+predecessor: null
+description: >
+  The Compete marked a sharp turn for Stix Golf away from the beginner- and
+  mid-handicapper-focused Play and Perform lines toward "better players who
+  want more control and workability," per independent review coverage - the
+  company's first players-oriented release. A two-piece hollow body pairs an
+  ultra-thin, high-strength AM355P stainless steel face with a 17-4 stainless
+  body for faster ball speed than the 431 stainless used in Stix's earlier
+  irons, while keeping a tournament-grade, compact profile. MyGolfSpy's
+  review called it a player's-distance iron that stood out for accuracy
+  rather than raw distance. Sold 4-PW at $699 with a 120-gram steel
+  performance shaft standard (graphite optional) and a soft rubber grip, in
+  Reg, Stiff and Active flex options; a Jack Nicklaus-branded "Nicklaus
+  Compete" version followed as Stix's first muscle-back iron collaboration.
+specs:
+  - club: "4"
+    loft: 22.0
+    lie: 60.5
+    length: 38.5
+    swing_weight: D2
+  - club: "5"
+    loft: 25.0
+    lie: 61.0
+    length: 38.0
+    swing_weight: D2
+  - club: "6"
+    loft: 28.0
+    lie: 61.5
+    length: 37.5
+    swing_weight: D2
+  - club: "7"
+    loft: 31.0
+    lie: 62.0
+    length: 37.0
+    swing_weight: D2
+  - club: "8"
+    loft: 35.0
+    lie: 62.5
+    length: 36.5
+    swing_weight: D2
+  - club: "9"
+    loft: 40.0
+    lie: 63.0
+    length: 36.0
+    swing_weight: D2.5
+  - club: "PW"
+    loft: 46.0
+    lie: 63.5
+    length: 35.5
+    swing_weight: D2.5
+stock_shafts:
+  - name: "Stix steel performance shaft"
+    material: steel
+    weight: "120g"
+    flex: ["R", "S", "Active"]
+sources:
+  - "stix.golf 'Stix Compete Iron Set (4-PW) — Hollow Body, Tournament Grade' official product page (retrieved July 2026) — the full manufacturer spec table used here: lofts 22/25/28/31/35/40/46 degrees, lies 60.5-63.5, lengths 38.5 down to 35.5 inches, head weights 254-294 g, 120 g steel shaft weight, swing weights D2-D2.5, two-piece hollow-body construction with AM355P steel face and 17-4 stainless body, $699 price, and Reg/Stiff/Active flex options."
+  - "breakingeighty.com 'The New Stix Compete Irons Deserve Your Attention' — the positioning shift from the beginner/mid-handicap Play and Perform lines toward better players wanting control and workability, the AM355P face versus the older 431 stainless models, and the $649-699 pricing."
+  - "MyGolfSpy 'Stix Golf Compete Hollow Body' review (2025) — explicitly categorizes the model as a 'player's distance iron' noted for accuracy, corroborating the hollow-body/thin-face construction."
+  - "Golf.com 'Stix Golf and Nicklaus unveil first collab sets' (2 April 2025) — covers the Jack Nicklaus-branded Nicklaus Compete Iron Set, described by Stix founder Gabe Coyne as the brand's first muscleback iron, built on the same Compete platform; independent review coverage of the base Compete line clusters in 2025, so the 2024 introduction recorded here is the earlier of the two plausible years and should be treated as an estimate."
+faq:
+  - q: "What is the loft of a Stix Compete 7-iron?"
+    a: "The Stix Compete 7-iron has a loft of 31 degrees, a lie of 62 degrees and a length of 37 inches."
+  - q: "How does the Stix Compete differ from the Stix Perform?"
+    a: "The Compete is Stix's first line built for better players rather than beginners or mid-handicappers - a two-piece hollow body with an ultra-thin AM355P stainless face for more ball speed, versus the Perform's cast 431 stainless deep cavity back."
+  - q: "What is the Nicklaus Compete Iron Set?"
+    a: "A Jack Nicklaus-branded version of the Compete platform, announced in April 2025 as Stix's first muscleback iron collaboration, built to the same tournament-grade positioning as the standard Compete."
+confidence: medium

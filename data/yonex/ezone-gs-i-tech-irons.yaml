@@ -1,0 +1,84 @@
+brand: Yonex
+brand_slug: yonex
+model: EZONE GS i-Tech
+slug: ezone-gs-i-tech-irons
+club_type: irons
+year_introduced: 2023
+year_discontinued: null
+category: game-improvement
+construction: four-piece graphite-hybrid (cast body, maraging face, tungsten plate, graphite insert) with G-Brid flexing face
+material: mild carbon steel body, maraging steel face, tungsten and graphite inserts
+successor: null
+predecessor: Yonex EZONE GS
+description: >
+  The EZONE GS i-Tech succeeded the EZONE GS as Yonex's international-market
+  game-improvement iron, reviewed by Golf Monthly in February 2023. It keeps
+  the GS line's four-piece graphite-hybrid head - a cast mild-carbon-steel
+  body, a maraging steel face, a tungsten plate low in the head and Yonex's
+  signature carbon graphite insert damping vibration between the metals -
+  and adds a "G-Brid" face design that flexes inward at impact, cutting head
+  weight by roughly 20% to lower the centre of gravity for a higher, faster
+  launch, plus a Groove Flow Concept that angles the grooves rather than
+  cutting them straight across for straighter ball flights. Lofts are
+  essentially unchanged from the EZONE GS, with a 29-degree 7-iron and a
+  43-degree pitching wedge across a 4-iron-to-sand-wedge factory range. A
+  six-piece set retailed at £749 in the UK with either Yonex's own EX-GO2
+  graphite or Nippon N.S.Pro Modus3 Tour 120 steel in the fitting matrix.
+specs:
+  - club: "4"
+    loft: 21.0
+    lie: 61.0
+    length: 39.5
+  - club: "5"
+    loft: 23.0
+    lie: 61.5
+    length: 38.75
+  - club: "6"
+    loft: 26.0
+    lie: 62.0
+    length: 38.0
+  - club: "7"
+    loft: 29.0
+    lie: 62.5
+    length: 37.5
+  - club: "8"
+    loft: 33.0
+    lie: 63.0
+    length: 37.0
+  - club: "9"
+    loft: 38.0
+    lie: 63.5
+    length: 36.5
+  - club: "PW"
+    loft: 43.0
+    lie: 64.0
+    length: 36.0
+  - club: "AW"
+    loft: 48.0
+    lie: 64.0
+    length: 35.75
+  - club: "SW"
+    loft: 54.0
+    lie: 64.0
+    length: 35.5
+stock_shafts:
+  - name: "Yonex EX-GO2 graphite"
+    material: graphite
+    weight: "45-52g"
+  - name: "Nippon N.S.Pro Modus3 Tour 120"
+    material: steel
+sources:
+  - "affordablegolf.co.uk 'Yonex Ezone GS i-Tech Irons - Steel' spec table — the full 4-iron-through-sand-wedge chart used here: lofts 21/23/26/29/33/38/43/48/54 degrees, lies 61.0-64.0, lengths 39.5 down to 35.5 inches, right- and left-hand, plus the G-Brid face copy (20% head-weight reduction, inward-flexing face at impact) and the KBS Max 85 steel fitting-matrix option."
+  - "Golf Monthly, 'Is This The Most Underrated Iron of 2023?' (golfmonthly.com/reviews/irons/is-this-the-most-underrated-iron-of-2023), published 28 February 2023 — the four-piece construction with graphite vibration-damping insert, the £749 six-piece set price with any fitting-matrix steel or graphite shaft, the Yonex EX-GO2 graphite shaft (45-52 g) and Nippon N.S.Pro Modus3 Tour 120 steel option used in testing, and the Groove Flow Concept's angled grooves."
+  - "This site's Yonex EZONE GS entry (predecessor) — corroborates the shared four-piece graphite-hybrid construction lineage and near-identical loft ladder (29-degree 7-iron, 43-degree PW), supporting year_introduced 2023 as the direct successor generation."
+related_models:
+  - slug: "yonex/ezone-gs-irons"
+    label: "Predecessor: Yonex EZONE GS"
+faq:
+  - q: "What is the loft of a Yonex EZONE GS i-Tech 7-iron?"
+    a: "The Yonex EZONE GS i-Tech 7-iron has a loft of 29 degrees, a lie of 62.5 degrees and a length of 37.5 inches."
+  - q: "What does the G-Brid face do on the EZONE GS i-Tech?"
+    a: "It lets the face flex inward at impact, which Yonex says cuts head weight by about 20% and lowers the centre of gravity for a higher launch and more ball speed."
+  - q: "How does the EZONE GS i-Tech differ from the original EZONE GS?"
+    a: "The head keeps the same four-piece graphite-hybrid construction and a nearly identical loft ladder, but adds the flexing G-Brid face and an angled Groove Flow Concept aimed at straighter ball flights."
+confidence: medium

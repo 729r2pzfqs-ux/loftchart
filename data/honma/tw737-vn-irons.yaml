@@ -1,0 +1,96 @@
+brand: Honma
+brand_slug: honma
+model: TW737 Vn
+slug: tw737-vn-irons
+club_type: irons
+year_introduced: 2016
+year_discontinued: 2018
+category: players
+construction: forged
+material: mild steel, forged, half-mirror and mirror finish with double-layer plating
+successor: null
+predecessor: Honma TW727 Vn
+description: >
+  The Vn is the near-blade head of Honma's 2016 Tour World 737 range: a forged
+  mild-steel muscle-back-leaning shape aimed at better players who want a
+  compact, workable look, but with the weakest lofts of the three 737 heads
+  (34-degree 7-iron, versus 32 for the V and 30 for the Vs) to keep flight
+  height and forgiveness in check for that shape. The set runs 3 through 10 —
+  Honma numbers the pitching wedge as the 10-iron at 46 degrees. Lengths below
+  are the Dynamic Gold steel build; Vizard IB95 graphite builds ran 0.375 inch
+  longer. Honma did not carry the Vn head forward into the TW747 range, which
+  shipped only V, Vx and P heads.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 59.5
+    length: 38.75
+    offset: 0.108
+    swing_weight: D2
+  - club: "4"
+    loft: 24.0
+    lie: 60.0
+    length: 38.25
+    offset: 0.100
+    swing_weight: D2
+  - club: "5"
+    loft: 27.0
+    lie: 60.5
+    length: 37.75
+    offset: 0.081
+    swing_weight: D2
+  - club: "6"
+    loft: 30.0
+    lie: 61.0
+    length: 37.25
+    offset: 0.073
+    swing_weight: D2
+  - club: "7"
+    loft: 34.0
+    lie: 61.5
+    length: 36.75
+    swing_weight: D2
+  - club: "8"
+    loft: 38.0
+    lie: 62.0
+    length: 36.25
+    swing_weight: D2
+  - club: "9"
+    loft: 42.0
+    lie: 62.5
+    length: 35.75
+    swing_weight: D2
+  - club: "10"
+    loft: 46.0
+    lie: 63.0
+    length: 35.25
+    swing_weight: D2
+stock_shafts:
+  - name: "True Temper Dynamic Gold"
+    material: steel
+    flex: ["S200", "S", "SR", "X"]
+  - name: "Honma Vizard IB95"
+    material: graphite
+    flex: ["S200", "S", "SR", "X"]
+sources:
+  - "Honma's own TW737 Vn product page, specification table (honmagolf.com/sea/product-details/215) — every loft, lie and Dynamic Gold length recorded here (38.75 down to 35.25 inches), the D2 swing weight progression, the mild-steel forged construction with half-mirror/mirror double-layer plating, the 3-10 set, and the Dynamic Gold / Vizard IB95 stock shaft options in S200/S/SR/X flex. Offset is published for the 3-6 irons only (2.75/2.55/2.05/1.85 mm, converted to inches here); Honma does not publish offset for the 7-iron down."
+  - "thehackersparadise.com 'Honma Tour World 737Vn (TW737Vn) Irons Review' (5 Jan 2017) — describes the Vn as 'the weakest of the three lofted irons' in the TW737 line relative to the V and Vs, and confirms the compact, near-blade players shape with Honma's 'W' double-forging process. Corroborates the 2016 announcement for the 2017 model year."
+  - "mrtopesgolf.com individual-club listing for a TW737 Vn 5-iron on N.S. Pro Modus3 Tour 120 shaft — corroborates the 37.75-inch standard 5-iron length."
+  - "Note on successor: Honma's TW747 range (announced October 2018) shipped only V, Vx and P heads, no Vn; year_discontinued 2018 marks that range announcement, and successor is left null since no direct TW747 equivalent was published."
+related_models:
+  - slug: "honma/tw737-v-irons"
+    label: "Same generation, standard-loft players head: Honma TW737 V"
+  - slug: "honma/tw737-vs-irons"
+    label: "Same generation, stronger-lofted semi-players head: Honma TW737 Vs"
+  - slug: "honma/tw737-p-irons"
+    label: "Same generation, pocket-cavity distance head: Honma TW737 P"
+  - slug: "honma/tw747-vx-irons"
+    label: "Closest near-blade head in the following generation: Honma TW747 Vx"
+faq:
+  - q: "What is the loft of a Honma TW737 Vn 7-iron?"
+    a: "The Honma TW737 Vn 7-iron has a loft of 34 degrees, a lie of 61.5 degrees and a Dynamic Gold steel length of 36.75 inches."
+  - q: "What does the 'n' in Honma TW737 Vn mean?"
+    a: "It marks the near-blade head of the TW737 range — a compact, forged shape for better players with the weakest (highest-degree) lofts of the three 737 heads, so it keeps a traditional flight and feel despite the workable shape."
+  - q: "How does the Honma TW737 Vn compare to the V and Vs?"
+    a: "All three share the same forged mild-steel construction and 3-10 set makeup, but the Vn has the weakest lofts (34-degree 7-iron) and most compact, blade-like shape, the V sits in the middle (32-degree 7-iron), and the Vs has the strongest lofts (30-degree 7-iron) in a slightly larger head."
+confidence: medium

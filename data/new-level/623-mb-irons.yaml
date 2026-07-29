@@ -1,0 +1,90 @@
+brand: New Level
+brand_slug: new-level
+model: 623-MB
+slug: 623-mb-irons
+club_type: irons
+year_introduced: 2021
+year_discontinued: 2025
+category: blade
+construction: forged muscle back
+material: forged 1025 carbon steel
+successor: null
+predecessor: null
+description: >
+  The 623-MB is the compact muscle-back at the top of New Level's original
+  623 family, aimed at elite amateurs and professionals rather than the
+  wider-market 623-M. New Level teased the 623 line in late October 2021
+  with a January 2022 retail date — the same announcement that introduced
+  the 623-CB — and pitched the MB as a true player's iron: a traditional
+  muscle-back shape with a thin topline, narrow sole and minimal offset for
+  precise turf interaction and full workability, built from forged 1025
+  carbon steel for a soft, forged feel. New Level's retail spec chart lists
+  the 623-MB on the same loft, lie and bounce ladder as the 623-CB — a
+  34-degree 7-iron and 46-degree pitching wedge across the stock 4-PW run —
+  so the MB and CB share one set of numbers and are differentiated by head
+  shape rather than loft, while the 623-M runs one degree weaker throughout.
+  Sold right- and left-handed, built to order from New Level's shaft menu, so
+  no stock shaft is recorded. It left the range when the 702 series,
+  including a direct 702-MB successor, arrived in 2025.
+specs:
+  - club: "4"
+    loft: 24.0
+    lie: 60.5
+    length: 38.5
+    offset: 0.110
+    bounce: 0.0
+  - club: "5"
+    loft: 27.0
+    lie: 61.0
+    length: 38.0
+    offset: 0.110
+    bounce: 1.0
+  - club: "6"
+    loft: 30.0
+    lie: 61.5
+    length: 37.5
+    offset: 0.098
+    bounce: 1.0
+  - club: "7"
+    loft: 34.0
+    lie: 62.0
+    length: 37.0
+    offset: 0.098
+    bounce: 2.0
+  - club: "8"
+    loft: 38.0
+    lie: 62.5
+    length: 36.5
+    offset: 0.079
+    bounce: 3.0
+  - club: "9"
+    loft: 42.0
+    lie: 63.0
+    length: 36.0
+    offset: 0.079
+    bounce: 4.0
+  - club: "PW"
+    loft: 46.0
+    lie: 63.5
+    length: 35.75
+    offset: 0.079
+    bounce: 5.0
+sources:
+  - "2nd Swing Golf 'New Level 623-MB Forged Iron Set' spec table (2ndswing.com/golf-clubs/iron-sets/new-level-623-mb-forged-iron-set/) — the full manufacturer-format chart used here: 4-PW lofts 24/27/30/34/38/42/46 degrees, lies 60.5-63.5, offsets 2.8 down to 2.0 mm (converted to inches), bounces 0-5 degrees, lengths 38.5 down to 35.75 inches, right- and left-hand available. These figures are identical to this site's New Level 623-CB entry, which follows the same manufacturer-format retailer chart — consistent with New Level building the CB and MB off one shared loft/lie/bounce ladder and differentiating them by head shape and offset feel rather than by numbers."
+  - "MyGolfSpy 'New Level Irons: Model By Model' — describes the 623-MB as a compact muscle-back with limited offset and a narrow sole for elite amateurs and professionals, dates its release to January 2022, and confirms a 4-PW, right-hand-only stock configuration (steel or graphite); other retailer listings (Golf Avenue) show left-hand availability as well."
+  - "Retailer product copy (oldiegolf.com, golfavenue.com listings) — 'forged from 1025 carbon steel,' minimal offset, thin topline and narrow sole, and the true-player's-iron positioning against the more forgiving 623-CB."
+  - "New Level Golf Co. on X/Twitter, late October 2021, announcing the 623 family (cited in this site's 623-CB entry) — the basis for year_introduced 2021 as the announcement year, against the January 2022 retail date."
+  - "Note: year_discontinued 2025 is inferred, as with this site's other 623-series entries — newlevelgolf.com's current catalog (checked July 2026) lists only the 702 series (including a 702-MB) plus 623-M Dead Golfer Edition and 902/GI22 models; the standard 623-MB is no longer offered. No stock shaft or swing weight is recorded because New Level builds every set to order from its shaft menu."
+related_models:
+  - slug: "new-level/623-cb-irons"
+    label: "Cavity-back stablemate sharing the same loft ladder: New Level 623-CB"
+  - slug: "new-level/623-m-irons"
+    label: "Milder muscle iron in the same family: New Level 623-M"
+faq:
+  - q: "What is the loft of a New Level 623-MB 7-iron?"
+    a: "The New Level 623-MB 7-iron has a loft of 34 degrees, a lie of 62 degrees and a length of 37 inches — the same numbers as the 623-CB."
+  - q: "How does the 623-MB differ from the 623-CB and 623-M?"
+    a: "The MB and CB share an identical loft, lie, offset and bounce ladder and are differentiated by head shape: the MB is a compact muscle-back for elite ball-strikers, the CB a cavity-back with a little more forgiveness. The 623-M sits one degree weaker throughout and is New Level's own description of a 'nearly a blade' muscle iron for a broader market."
+  - q: "When did the New Level 623-MB come out?"
+    a: "New Level announced the 623 family in late October 2021, with the 623-MB and 623-CB reaching retail together in January 2022. It was discontinued when the 702 series, including a 702-MB, arrived in 2025."
+confidence: medium

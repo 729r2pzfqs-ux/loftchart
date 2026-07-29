@@ -1,0 +1,87 @@
+brand: XXIO
+brand_slug: xxio
+model: Prime 10
+slug: prime-10-irons
+club_type: irons
+year_introduced: 2018
+year_discontinued: 2020
+category: super-game-improvement
+construction: cast body with a thin, forged Super-TIX PLUS titanium face insert and a CNC-milled speed groove
+material: Super-TIX PLUS titanium face on a stainless steel body with tungsten-nickel weighting
+successor: XXIO Prime 11
+predecessor: XXIO Prime 9
+description: >
+  Prime 10 is the second XXIO Prime iron generation, following the original
+  Prime 9 into the US market in 2018. It carried over the same loft, lie,
+  bounce and length table as the Prime 9 while adding a thin, forged
+  Super-TIX PLUS titanium face insert with a CNC-milled speed groove in
+  place of the first generation's stainless-only face, for more ball speed
+  from the same very light head weight. The offset is pronounced in the
+  long irons and tapers sharply toward the wedges for control. The stock
+  shaft is the XXIO Prime SP-1000, built with Toray T1100G carbon fibre and
+  Nanoalloy resin. The stock set was 7-9-PW, sold individually as 5, 6, AW
+  and SW.
+specs:
+  - club: "5"
+    loft: 22.0
+    lie: 61.5
+    length: 38.25
+    bounce: 1.0
+  - club: "6"
+    loft: 25.0
+    lie: 62.0
+    length: 37.75
+    bounce: 1.0
+  - club: "7"
+    loft: 28.0
+    lie: 62.5
+    length: 37.25
+    bounce: 1.0
+  - club: "8"
+    loft: 32.0
+    lie: 63.0
+    length: 36.75
+    bounce: 2.0
+  - club: "9"
+    loft: 37.0
+    lie: 63.0
+    length: 36.25
+    bounce: 3.0
+  - club: "PW"
+    loft: 42.0
+    lie: 63.5
+    length: 35.75
+    bounce: 4.0
+  - club: "AW"
+    loft: 48.0
+    lie: 63.5
+    length: 35.75
+    bounce: 5.0
+  - club: "SW"
+    loft: 56.0
+    lie: 63.5
+    length: 35.75
+    bounce: 12.0
+stock_shafts:
+  - name: "XXIO Prime SP-1000"
+    material: graphite
+    flex: ["R", "SR"]
+sources:
+  - "Manufacturer/retailer copy for 'XXIO Prime 10 Irons' (carlsgolfland.com, vkgolfshop.com product listings) — confirms the thin, forged Super-TIX PLUS titanium face with a CNC-milled speed groove, the XXIO Prime SP-1000 graphite shaft (Toray T1100G carbon fibre, Nanoalloy resin), and the pronounced-to-tapering offset profile from long irons to wedges."
+  - "Note on loft/lie/bounce/length table: no independent Prime-10-specific spec chart could be retrieved (the retailer pages that carry it are behind a bot-check wall). The table recorded here is carried over from the confirmed Prime 9 and Prime 11 tables, which are identical to each other club for club (loft, lie, bounce and length all match exactly across both independently-sourced tables — sdgolfpro.com for Prime 9, 2ndswing.com for Prime 11), and XXIO's Prime line is documented elsewhere (see Honma and XXIO sibling files on this site) as typically holding a loft/lie table constant across a generation or two while changing face material and shaft. Confidence is set to medium/low specifically because of this extrapolation."
+  - "Year note: year_introduced 2018 and year_discontinued 2020 follow XXIO's Prime numbering cadence, pairing Prime 10 with the contemporaneous 10th-generation XXIO cycle (announced Japan late 2017, US retail early 2018, per the xxio-10-irons.yaml entry on this site) and ending at the Prime 11 introduction."
+related_models:
+  - slug: "xxio/xxio-10-irons"
+    label: "Contemporaneous numbered-generation flagship: XXIO 10"
+  - slug: "xxio/prime-9-irons"
+    label: "Predecessor: XXIO Prime 9"
+  - slug: "xxio/prime-11-irons"
+    label: "Successor: XXIO Prime 11"
+faq:
+  - q: "What is the loft of an XXIO Prime 10 7-iron?"
+    a: "The XXIO Prime 10 7-iron has a loft of 28 degrees, a lie of 62.5 degrees and a length of 37.25 inches, the same table used by the Prime 9 and Prime 11 generations either side of it."
+  - q: "What changed between the XXIO Prime 9 and Prime 10?"
+    a: "The head geometry held steady, but the Prime 10 added a thin, forged Super-TIX PLUS titanium face insert with a CNC-milled speed groove in place of the Prime 9's stainless-only face, plus a new SP-1000 stock shaft, for more ball speed at the same very light swing weight."
+  - q: "What shaft came stock in the XXIO Prime 10?"
+    a: "The XXIO Prime SP-1000, a graphite shaft built with Toray T1100G carbon fibre and Nanoalloy resin, in R and SR flex."
+confidence: low

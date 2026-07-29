@@ -1,0 +1,91 @@
+brand: Maltby
+brand_slug: maltby
+model: STi2
+slug: sti2-irons
+club_type: irons
+year_introduced: 2020
+year_discontinued: 2025
+category: super-game-improvement
+construction: investment cast, undercut cavity with variable face thickness
+material: 431 stainless steel
+successor: Maltby STi2 GEN 2
+predecessor: null
+description: >
+  The STi2 is a precision-cast 431 stainless iron Maltby markets as landing
+  in its Super Game Improvement design category despite a mid-sized,
+  "confidence-building" profile at address rather than an oversized
+  cavity-back look. An undercut cavity keeps the centre of gravity low and
+  deep (0.729 inches), a Variable Face Thickness design boosts ball speed
+  on off-centre strikes, and Silica Gel damping in the 4-through-7 irons
+  cuts vibration; 431 stainless was chosen specifically for a softer,
+  more forged-like feel than typical cast alloys. The GolfWorks' own Maltby
+  MPF ratings chart dates it to 2020 with an MPF of 772, and progressive
+  offset runs from 0.138 inches in the 4-iron down to 0.098 inches in the
+  scoring clubs. Lofts span a 32-degree 7-iron and 44-degree pitching wedge
+  across a 4-GW factory chart. Sold as bare heads or built-to-order paks
+  through The GolfWorks; the STi2 GEN 2 replaced it in the catalog in 2025.
+specs:
+  - club: "4"
+    loft: 22.0
+    lie: 61.0
+    length: 38.5
+    offset: 0.138
+    bounce: 3.0
+  - club: "5"
+    loft: 25.0
+    lie: 61.5
+    length: 38.0
+    offset: 0.129
+    bounce: 3.0
+  - club: "6"
+    loft: 28.5
+    lie: 62.0
+    length: 37.5
+    offset: 0.118
+    bounce: 4.0
+  - club: "7"
+    loft: 32.0
+    lie: 62.5
+    length: 37.0
+    offset: 0.114
+    bounce: 4.0
+  - club: "8"
+    loft: 36.0
+    lie: 63.0
+    length: 36.5
+    offset: 0.108
+    bounce: 5.0
+  - club: "9"
+    loft: 40.0
+    lie: 63.5
+    length: 36.0
+    offset: 0.098
+    bounce: 5.0
+  - club: "PW"
+    loft: 44.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.098
+    bounce: 5.0
+  - club: "GW"
+    loft: 48.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.098
+    bounce: 6.0
+sources:
+  - "The GolfWorks official Maltby STi2 Iron Heads spec chart image, mirrored on GolfWorks Canada (golfworks.ca/maltby-sti2-irons-heads/p/ma0317/, image at store-k9nvqai7wz.mybigcommerce.com/content/description/ma0317specs.jpg; the equivalent US product page has since been retired following the GEN 2 launch) — the manufacturer factory chart used here: 4-GW lofts 22/25/28.5/32/36/40/44/48 degrees, lies 61-64, offsets 0.138 to 0.098 inches, bounces 3-6 degrees, head weights 246-292 g, .370 hosel, Mirror/Satin finish, 431 stainless steel, and the MPF 701+ rating."
+  - "GolfWorks Maltby MPF Ratings chart (golfworks.com/content/PDFs/Head_MPFs/MPFRatingsChart.pdf, retrieved July 2026) — 'MALTBY STi2 #6 2020, MPF 772' and 'MALTBY STi2 2nd Gen #6 2025, MPF 772', fixing year_introduced 2020 and year_discontinued 2025 (same MPF rating carried over to the GEN 2 refresh)."
+  - "Bob Sailer Golf Service 'Maltby STi2 Irons' page (bobsailergolf.com, page since updated to cover the GEN 2 model) and staffordgolfstore.com 'Maltby STi2 Irons Heads Only' — corroborate the precision-cast 431 stainless construction chosen for a softer, forged-like feel, the undercut cavity with 0.729-inch CG depth, Variable Face Thickness design, Silica Gel damping in the 4-7 irons, progressive offset, and the Super Game Improvement Design category classification Maltby applies to this model."
+  - "The GolfWorks 'Standard Lengths' chart (golfworks.com/content/description/standard-playing-lengths.png) — men's steel iron lengths of 38.5 (4-iron) down to 35.5 inches (PW/GW), used here because Maltby sells this head component-style and does not publish a model-specific length column."
+related_models:
+  - slug: "maltby/ke4-max-irons"
+    label: "More forgiving cast sibling in the same tier: Maltby KE4 Max"
+faq:
+  - q: "What is the loft of a Maltby STi2 7-iron?"
+    a: "The Maltby STi2 7-iron has a loft of 32 degrees, a lie of 62.5 degrees and a standard length of 37 inches."
+  - q: "Why did Maltby use 431 stainless steel for the STi2?"
+    a: "431 stainless is softer than the more common 17-4 stainless used in many cast irons, chosen specifically to give the STi2 a feel closer to a forged iron despite being cast."
+  - q: "What replaced the Maltby STi2?"
+    a: "The STi2 GEN 2, which took over the same Super Game Improvement slot in The GolfWorks' catalog around 2025."
+confidence: medium

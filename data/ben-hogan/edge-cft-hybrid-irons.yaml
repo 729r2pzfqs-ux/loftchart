@@ -1,0 +1,130 @@
+brand: Ben Hogan
+brand_slug: ben-hogan
+model: Edge CFT Hybrid
+slug: edge-cft-hybrid-irons
+club_type: irons
+year_introduced: 2004
+year_discontinued: null
+category: players-distance
+construction: two-piece, Compression Forged Titanium face on a 17-4 stainless frame
+material: compression forged titanium face, 17-4 stainless steel body
+successor: null
+predecessor: Ben Hogan Edge CFT
+description: >
+  The Edge C•F•T Hybrid "h" Iron Set — the gap-analysis brief's "Apex Edge
+  CFT" refers to this 2004 line, which built on the 2003 Edge CFT by adding
+  true hybrid heads — pairs Hogan's Compression Forged Titanium face
+  technology (a titanium face compression-forged onto a 17-4 stainless
+  steel body for perimeter and sole weighting) with 3h and 4h hybrid heads
+  that replace the standard 3- and 4-irons for easier long-iron shotmaking. A
+  low, deep center of gravity from the two-piece, undercut-cavity
+  construction is pitched for a higher launch angle and higher moment of
+  inertia — "higher, longer and more accurate ball flight." Every club from
+  1 through 5 was also offered as a conventional iron head alongside its "h"
+  hybrid counterpart, so the loft/lie/length ladder below uses the standard
+  iron heads for 1-9 plus the wedges. Hogan's letter wedges are recorded
+  here as PW (Equalizer, 46°), GW (F wedge, 50°), SW (56°) and LW (60°). It
+  was sold right hand 1-E/F/S/L and left hand 2-E/S, at $825 (steel) or $900
+  (graphite).
+specs:
+  - club: "1"
+    loft: 16.0
+    lie: 59.5
+    length: 39.75
+    offset: 0.262
+    bounce: 0.0
+  - club: "2"
+    loft: 18.0
+    lie: 60.0
+    length: 39.25
+    offset: 0.252
+    bounce: 1.0
+  - club: "3"
+    loft: 20.0
+    lie: 60.5
+    length: 38.75
+    offset: 0.242
+    bounce: 1.0
+  - club: "4"
+    loft: 23.0
+    lie: 61.0
+    length: 38.25
+    offset: 0.232
+    bounce: 2.0
+  - club: "5"
+    loft: 26.0
+    lie: 61.5
+    length: 37.75
+    offset: 0.217
+    bounce: 2.0
+  - club: "6"
+    loft: 30.0
+    lie: 62.0
+    length: 37.25
+    offset: 0.202
+    bounce: 3.0
+  - club: "7"
+    loft: 34.0
+    lie: 62.5
+    length: 36.75
+    offset: 0.182
+    bounce: 3.0
+  - club: "8"
+    loft: 38.0
+    lie: 63.0
+    length: 36.25
+    offset: 0.162
+    bounce: 4.0
+  - club: "9"
+    loft: 42.0
+    lie: 63.5
+    length: 35.75
+    offset: 0.137
+    bounce: 4.0
+  - club: "PW"
+    loft: 46.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.107
+    bounce: 5.0
+  - club: "GW"
+    loft: 50.0
+    lie: 64.0
+    length: 35.5
+    offset: 0.087
+    bounce: 6.0
+  - club: "SW"
+    loft: 56.0
+    lie: 64.0
+    length: 35.0
+    offset: 0.087
+    bounce: 8.0
+  - club: "LW"
+    loft: 60.0
+    lie: 64.0
+    length: 35.0
+    offset: 0.087
+    bounce: 4.0
+stock_shafts:
+  - name: "Ben Hogan Apex Edge (steel)"
+    material: steel
+  - name: "Ben Hogan Apex Edge (graphite)"
+    material: graphite
+sources:
+  - "Ben Hogan official Edge C•F•T Hybrid 'h' Iron Set catalog spread, benhogan.com/products/PDF/EdgeCFT-hybrid-set.pdf (Wayback capture of 26 February 2005) — full standard specifications table across both conventional and 'h' hybrid heads for 1/1h through 5/5h plus 6-9 and E/F/S/L: lofts 16-60 degrees (conventional column), lie angles 59.5-64 degrees, bounce 0-8 degrees, steel lengths 39.75 to 35 inches (graphite a half inch longer), offsets .262 down to .087 inches, the Compression Forged Titanium face / 17-4 stainless frame / undercut 3-D weighting copy, 'Available Right Hand: 1-E, F, S, L • Left Hand: 2-E, S' and SRP $825 steel / $900 graphite"
+  - "golfclubshaftreview.com Ben Hogan shaft-ladder PDF (benhogan_1.2.pdf) — lists '2003 Edge CFT Irons' and '2004 Edge CFT Hybrid Irons' as separate, consecutive entries with an Apex Edge steel or graphite shaft, corroborating the 2004 introduction year for the hybrid-equipped set used here"
+  - "thesandtrap.com forum thread 'Ben Hogan Edge CFT Iron Info' and 2ndswing.com's Edge CFT Hybrid iron-set listing — corroborate the 3h/4h hybrids replacing the 3- and 4-irons for easier long-iron play, and the two-piece titanium-face/stainless-body construction"
+  - "Deviation from the initial gap-analysis brief: the model is filed here as 'Edge CFT Hybrid' rather than 'Apex Edge CFT,' matching Hogan's own product name; the plain, non-hybrid 'Edge CFT' launched in 2003 and is the direct predecessor named in the description"
+related_models:
+  - slug: "ben-hogan/apex-edge-pro-irons"
+    label: "Earlier forged Hogan players-distance iron: Apex Edge Pro"
+faq:
+  - q: "What is the loft of a Ben Hogan Edge CFT Hybrid 7-iron?"
+    a: "The Ben Hogan Edge CFT Hybrid 7-iron has a loft of 34 degrees, with a 62.5-degree lie and a 36.75-inch length."
+  - q: "What is Compression Forged Titanium on the Edge CFT Hybrid?"
+    a: "A titanium face compression-forged onto a 17-4 stainless steel body, with an undercut cavity that shifts weight to the perimeter and sole for a lower, deeper center of gravity and higher launch."
+  - q: "Which clubs in the Edge CFT Hybrid set are hybrids instead of irons?"
+    a: "The 3-iron and 4-iron were replaced by 3h and 4h hybrid heads in the set Hogan positioned as its improved long-iron option, though conventional 3- and 4-iron heads (and 1h, 2h and 5h hybrids) were also available individually."
+  - q: "What clubs came in a stock Ben Hogan Edge CFT Hybrid set?"
+    a: "It was offered right hand from 1-iron through Equalizer, F wedge, SW and LW, and left hand from 2-iron through Equalizer and SW, at $825 in steel or $900 in graphite."
+confidence: high
