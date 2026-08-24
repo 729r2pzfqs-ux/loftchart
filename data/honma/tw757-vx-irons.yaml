@@ -4,11 +4,11 @@ model: TW757 Vx
 slug: tw757-vx-irons
 club_type: irons
 year_introduced: 2022
-year_discontinued: null
+year_discontinued: 2024
 category: players
 construction: one-piece forged cavity back with a tungsten toe weight
 material: S20C forged carbon steel with a 7 g tungsten toe weight in the 4 to 8 irons
-successor: null
+successor: Honma TW767 Vx
 predecessor: Honma TW747 Vx
 description: >
   The Vx is the players iron of Honma's 2022 Tour World 757 range, a one-piece S20C
@@ -58,12 +58,14 @@ sources:
   - "Honma's own TW757 Vx product page, specification table (https://honmagolf.com/sea/product-details/8942) — supplied every loft, lie and length above, the offsets for the 4 to 6 irons, both stock shafts and the set range."
   - "Note on offset: Honma publishes offset in millimetres (3.0, 2.5 and 2.0 mm for the 4 to 6 irons), converted to inches here; it is not published for the 7-iron and below, so the key is omitted there. Honma's chart also lists an A wedge at 49 degrees with no lie or length, so that club is not recorded."
   - "prnewswire.com 'Honma Golf Announces New T//World TW757 Collection', 29 March 2022 — announcement date, and the one-piece S20C forging with a 7 g tungsten toe weight in the 4 to 8 irons."
-  - "Note: year_discontinued is null — no successor to the TW757 Vx had been announced in the sources retrieved."
+  - "firstcallgolf.com 'Honma Golf Launches Tour World 767 Collection' (release dated 22 October 2024) — the TW767 range shipped a Vx head continuing this model line, which is the basis for the successor and year_discontinued recorded here."
 related_models:
   - slug: "honma/tw747-vx-irons"
     label: "Predecessor: Honma TW747 Vx"
   - slug: "honma/tw757-p-irons"
     label: "The players-distance head of the same range: Honma TW757 P"
+  - slug: "honma/tw767-vx-irons"
+    label: "Successor: Honma TW767 Vx"
 faq:
   - q: "What is the loft of a Honma TW757 Vx 7-iron?"
     a: "The Honma TW757 Vx 7-iron has a loft of 30 degrees, a lie of 61.5 degrees and a length of 37.125 inches."

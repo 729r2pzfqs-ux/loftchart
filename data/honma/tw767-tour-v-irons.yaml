@@ -1,0 +1,85 @@
+brand: Honma
+brand_slug: honma
+model: TW767 Tour V
+slug: tw767-tour-v-irons
+club_type: irons
+year_introduced: 2024
+year_discontinued: null
+category: players
+construction: one-piece forged, soft iron
+material: S20C soft carbon steel
+successor: null
+predecessor: null
+description: >
+  The Tour V is the compact, one-piece forged iron of Honma's T//World 767 range,
+  built for accomplished ball-strikers who want a thin topline and low offset over
+  outright forgiveness. It carries the lowest offset of the four TW767 iron models
+  at every club and the strongest lofts, running a 32-degree 7-iron and a 45-degree
+  pitching wedge. Honma revived the plain "V" nomenclature for this release; the
+  previous TW757 generation did not include a corresponding one-piece blade-style
+  model, so this line has no direct predecessor in that generation.
+specs:
+  - club: "4"
+    loft: 22.0
+    lie: 60.0
+    length: 38.25
+    offset: 0.098
+  - club: "5"
+    loft: 25.0
+    lie: 60.5
+    length: 37.75
+    offset: 0.098
+  - club: "6"
+    loft: 28.0
+    lie: 61.0
+    length: 37.25
+    offset: 0.098
+  - club: "7"
+    loft: 32.0
+    lie: 61.5
+    length: 36.75
+    offset: 0.079
+  - club: "8"
+    loft: 36.0
+    lie: 62.0
+    length: 36.25
+    offset: 0.079
+  - club: "9"
+    loft: 40.0
+    lie: 62.5
+    length: 35.75
+    offset: 0.059
+  - club: "P"
+    loft: 45.0
+    lie: 63.0
+    length: 35.25
+    offset: 0.059
+stock_shafts:
+  - name: "Nippon N.S.Pro Modus3 Tour 115"
+    material: steel
+    flex: ["S"]
+  - name: "Honma VIZARD EZ-C"
+    material: graphite
+  - name: "Honma VIZARD EZ-IB"
+    material: graphite
+sources:
+  - "Honma's own T//World Tour V product page, specification table (https://www.honmagolf.com/sea/product-details/10954) — supplied every loft, lie, length and offset above, the one-piece S20C forged construction, and the three stock shaft options."
+  - "Note on offset: Honma publishes offset in millimetres (2.5 mm for the 4 to 6 irons, 2.0 mm for the 7 and 8 irons, 1.5 mm for the 9 and P) and is converted to inches here."
+  - "thehackersparadise.com 'Honma TW767 Tour V Irons Review' — confirms a 32-degree 7-iron and 45-degree pitching wedge, a 5-PW set makeup, N.S.Pro Modus3 Tour 115 stock shaft, and that the irons were available for order as of the review date (6 March 2025)."
+  - "firstcallgolf.com 'Honma Golf Launches Tour World 767 Collection' (release dated 22 October 2024) — announcement date for the TW767 range, used for year_introduced."
+  - "Note: predecessor and successor are recorded as null. The TW757 generation (announced 2022) did not ship a one-piece 'V'-branded model — only P and Vx — so there is no direct predecessor in that generation. No successor to the Tour V had been separately announced as of the sources retrieved; Honma's current T//World 2026 (TW777) marketing material continues to list a 'Tour V' head, but no distinct TW777-generation spec sheet for it could be found — see the TW777 PCB Max file for the one iron confirmed as new for that generation."
+related_models:
+  - slug: "honma/tw767-vx-irons"
+    label: "Same generation, players cavity-back: Honma TW767 Vx"
+  - slug: "honma/tw767-px-irons"
+    label: "Same generation, players-distance head: Honma TW767 Px"
+  - slug: "honma/tw767-hx-irons"
+    label: "Same generation, game-improvement head: Honma TW767 Hx"
+faq:
+  - q: "What is the loft of a Honma TW767 Tour V 7-iron?"
+    a: "The Honma TW767 Tour V 7-iron has a loft of 32 degrees, a lie of 61.5 degrees and a length of 36.75 inches."
+  - q: "What set makeup does the Honma TW767 Tour V ship in?"
+    a: "The Tour V is sold 4-P (4-iron through pitching wedge); Honma's spec chart also carries the 4-iron as an added-order option in some markets."
+  - q: "When was the Honma TW767 Tour V released?"
+    a: "Honma announced the T//World TW767 collection on 22 October 2024, with the Tour V available to order by early 2025."
+confidence: high

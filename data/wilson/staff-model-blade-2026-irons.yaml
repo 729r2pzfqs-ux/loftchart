@@ -1,0 +1,112 @@
+brand: Wilson
+brand_slug: wilson
+model: Staff Model Blade (2026)
+slug: staff-model-blade-2026-irons
+club_type: irons
+year_introduced: 2026
+year_discontinued: null
+category: blade
+construction: forged
+material: forged 8620 carbon steel, precision milled
+successor: null
+predecessor: Staff Model Blade (2019)
+description: >
+  The second-generation Staff Model Blade was announced 27 January 2026
+  alongside a refreshed Staff Model CB and the all-new hollow-body Staff Model
+  XB, with the three positioned as one forged family designed together rather
+  than separate projects; US retail followed in early February 2026. The head
+  is forged from 8620 carbon steel with a precision-milled face and Wilson's
+  Fluid Feel Hosel, which strips mass from the hosel and shifts it toward the
+  toe. Compared with the 2019 Blade, the profile is more compact with a
+  shorter blade length and noticeably tighter offset (0.105 inches at the
+  3-iron tapering to 0.045 at the pitching wedge, versus an unpublished offset
+  on the original), and the bright chrome finish is replaced by a brushed
+  satin look. Lofts, lies and lengths carry over unchanged from the 2019
+  model, with a 34-degree 7-iron and 46-degree pitching wedge. The stock set
+  is 3-iron through pitching wedge (eight clubs); a seven-piece steel set
+  lists at $1,399.99 / £1,169. Figures below are the standard men's
+  steel-shaft specification.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 59.5
+    length: 39.25
+    offset: 0.105
+    bounce: 2.5
+    swing_weight: D2
+  - club: "4"
+    loft: 23.0
+    lie: 60.0
+    length: 38.75
+    offset: 0.095
+    bounce: 2.5
+    swing_weight: D2
+  - club: "5"
+    loft: 26.0
+    lie: 61.0
+    length: 38.25
+    offset: 0.085
+    bounce: 2.5
+    swing_weight: D2
+  - club: "6"
+    loft: 30.0
+    lie: 61.5
+    length: 37.75
+    offset: 0.075
+    bounce: 3.0
+    swing_weight: D2
+  - club: "7"
+    loft: 34.0
+    lie: 62.0
+    length: 37.25
+    offset: 0.065
+    bounce: 4.0
+    swing_weight: D2
+  - club: "8"
+    loft: 38.0
+    lie: 63.0
+    length: 36.75
+    offset: 0.058
+    bounce: 5.0
+    swing_weight: D2
+  - club: "9"
+    loft: 42.0
+    lie: 63.5
+    length: 36.25
+    offset: 0.052
+    bounce: 5.5
+    swing_weight: D2
+  - club: "PW"
+    loft: 46.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.045
+    bounce: 6.0
+    swing_weight: D2
+stock_shafts:
+  - name: "True Temper Dynamic Gold MID 115"
+    material: steel
+    flex: ["R", "S", "X"]
+sources:
+  - "2nd Swing Golf 'Wilson Staff 2026 Staff Model Blade Iron Set' (2026 STAFF MB STS) product page, retrieved directly (rendered page, not a search summary) August 2026 — full loft/length/lie/bounce/offset/swing-weight table for 3-iron through PW, 3-PW stock set makeup, True Temper Dynamic Gold MID 115 stock steel shaft (R/S/X) and Golf Pride Z-Grip Standard stock grip. Retailer-published table, not a Wilson spec sheet."
+  - "Today's Golfer, 'Wilson Staff Model Irons 2026: Everything You Need to Know', published 27 January 2026 — independently matching 7-iron loft/lie/length (34°/62°/37.25\"), 3-PW availability, True Temper Dynamic Gold Mid 115 stock shaft, and $1,399.99 / £1,169 seven-piece pricing."
+  - "Golfmagic, 'Wilson gets serious about its irons with three new forged Staff Models for 2026' — 27 January 2026 announcement date, early-February retail timing, forged 8620 carbon steel construction across the family, and the framing of Blade/CB/XB as one designed-together range."
+  - "MyGolfSpy, 'These New Wilson Staff Model Irons Bring Some Serious Heat' — corroborates the three-model family launch and the compact/reduced-offset repositioning of the 2026 Blade."
+  - "Bounce and offset figures come only from the 2nd Swing table; no other source consulted published per-club bounce/offset for the 2026 Blade, so confidence on those two fields is lower than on loft/lie/length, which two independent sources agree on for the 7-iron."
+related_models:
+  - slug: "wilson/staff-model-blade-irons"
+    label: "Predecessor: Wilson Staff Model Blade (2019)"
+  - slug: "wilson/staff-model-cb-2026-irons"
+    label: "Companion cavity back: Wilson Staff Model CB (2026)"
+  - slug: "wilson/staff-model-xb-2026-irons"
+    label: "Companion hollow-body: Wilson Staff Model XB (2026)"
+faq:
+  - q: "What is the loft of a 2026 Wilson Staff Model Blade 7-iron?"
+    a: "The 2026 Staff Model Blade 7-iron has a loft of 34 degrees, a 62-degree lie and a 37.25-inch steel-shaft length — unchanged from the original 2019 Staff Model Blade."
+  - q: "What is different about the 2026 Wilson Staff Model Blade versus the 2019 original?"
+    a: "Lofts, lies and lengths carry over unchanged, but the 2026 version has a more compact head with a shorter blade length, noticeably tighter offset through the set, and a brushed satin finish in place of the original's bright chrome."
+  - q: "What clubs come in a 2026 Wilson Staff Model Blade set?"
+    a: "The stock set is 3-iron through pitching wedge, eight clubs, sold as a set for $1,399.99 (about £1,169) in steel."
+  - q: "When was the 2026 Wilson Staff Model Blade released?"
+    a: "Wilson announced the Blade alongside the refreshed CB and new XB on 27 January 2026, with US retail following in early February 2026."
+confidence: medium

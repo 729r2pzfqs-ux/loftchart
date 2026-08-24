@@ -1,0 +1,97 @@
+brand: Ben Hogan
+brand_slug: ben-hogan
+model: Legend
+slug: legend-irons
+club_type: irons
+year_introduced: 2025
+year_discontinued: null
+category: players-distance
+construction: hollow body, forged face, foam-filled interior
+material: forged steel (exact alloy grade not published by Ben Hogan)
+successor: null
+predecessor: null
+description: >
+  The Legend is Ben Hogan Golf's first hollow-body, foam-filled iron,
+  announced 14 January 2025 alongside the Fort Worth MB, Fort Worth CB and
+  M50-01 at the PGA Show (Golf Brands booth #2301) and engineered with the
+  help of AI-assisted design. A forged face sits on a hollow head injected
+  with a high-performance foam, tuned in mass and density club by club, which
+  Hogan says redistributes discretionary mass for an enlarged "Effective
+  Hitting Area" and better acoustics/feel on off-center hits. It carries the
+  V-SOLE with its high-bounce leading edge and lower-bounce trailing edge.
+  Reviewers (Plugged In Golf, GolfMagic) class it as a players-distance/
+  game-improvement iron aimed at mid-to-low handicappers, comparing it
+  directly to distance-forgiveness irons like the TaylorMade P790 at roughly
+  two-thirds the price. It is offered as a 4-PW or 5-PW stock set, hand-built
+  to order in Hogan's USA workshop (10-15 working days), with full custom
+  loft/lie/length adjustment available. Neither bounce nor swing weight is
+  published on Hogan's spec chart for this model.
+specs:
+  - club: "4"
+    loft: 20.0
+    lie: 60.5
+    length: 39.00
+    offset: 0.181
+  - club: "5"
+    loft: 23.5
+    lie: 61.0
+    length: 38.25
+    offset: 0.161
+  - club: "6"
+    loft: 26.5
+    lie: 61.5
+    length: 37.50
+    offset: 0.142
+  - club: "7"
+    loft: 30.5
+    lie: 62.0
+    length: 37.00
+    offset: 0.118
+  - club: "8"
+    loft: 35.0
+    lie: 62.5
+    length: 36.50
+    offset: 0.110
+  - club: "9"
+    loft: 39.0
+    lie: 63.0
+    length: 36.00
+    offset: 0.106
+  - club: "PW"
+    loft: 44.0
+    lie: 63.5
+    length: 35.75
+    offset: 0.098
+stock_shafts:
+  - name: "KBS Tour"
+    material: steel
+    flex: ["R", "S", "X"]
+  - name: "KBS Tour TGI"
+    material: graphite
+    weight: "60g (R) / 80g (S)"
+    flex: ["R", "S"]
+sources:
+  - "Ben Hogan Golf official Legend Irons product page, https://www.benhogangolf.com/legend-irons/ (retrieved August 2026) - full club-by-club SPECIFICATIONS table (Club/Length/Lie/Loft/Offset in mm) for 4 through PW: lengths 39.00-35.75in, lie 60.5-63.5deg, loft 20-44deg, offset 4.6-2.5mm; product description confirms 'Hogan's first hollow body, foam filled iron head', the V-SOLE description, 4-PW/5-PW stock configuration and the $949.99 (customized from $849.99) pricing; stock shaft options (KBS Tour Steel R/S/X, KBS Tour TGI Graphite 60g R / 80g S) taken from the page's shaft-selector option list"
+  - "Offset values converted from the millimeters published on Hogan's spec table to inches (mm / 25.4) to match this database's unit convention, e.g. 4.6mm = 0.181in, 2.5mm = 0.098in"
+  - "The First Call, 'Ben Hogan: Launching new equipment range at PGA Show', 14 January 2025 (https://www.firstcallgolf.com/industry-news/release/2025-01-14/ben-hogan-launches-new-equipment-range-at-pga-show-booth-2301) and The Golf Wire's matching release - confirm the 14 January 2025 announcement at PGA Show booth #2301 alongside the Fort Worth MB/CB and M50-01, and describe the Legend as using 'AI enhanced technology' with a 'forged face with a foam filled interior'"
+  - "Plugged In Golf, 'Ben Hogan Legend Irons Review' (https://pluggedingolf.com/ben-hogan-legend-irons-review/) - classifies the Legend as a players-distance/game-improvement iron and compares it directly to the TaylorMade P790 on price and positioning; GolfMagic's 2025 review (https://www.golfmagic.com/equipment/irons/ben-hogan-legend-irons-2025-review) independently corroborates the hollow-body foam-filled construction, V-SOLE, 4-PW/5-PW configuration and hand-built-to-order custom fitting"
+  - "Bounce and swing weight are omitted from the spec rows because Ben Hogan's published Legend spec table does not include them, unlike the leading/trailing bounce figures given for the Fort Worth MB and CB launched the same day"
+related_models:
+  - slug: "ben-hogan/fort-worth-mb-irons"
+    label: "Same 2025 launch, muscle-back blade: Fort Worth MB"
+  - slug: "ben-hogan/fort-worth-cb-irons"
+    label: "Same 2025 launch, cavity back: Fort Worth CB"
+  - slug: "ben-hogan/m50-01-irons"
+    label: "Same 2025 launch, forged players-distance: M50-01"
+  - slug: "ben-hogan/ptx-pro-irons"
+    label: "Earlier Hogan players-distance iron: PTx Pro"
+faq:
+  - q: "What is the loft of a Ben Hogan Legend 7-iron?"
+    a: "The Ben Hogan Legend 7-iron has a loft of 30.5 degrees, a lie of 62 degrees and a length of 37.00 inches, with 0.118 inches of offset."
+  - q: "Is the Ben Hogan Legend a hollow-body iron?"
+    a: "Yes. Ben Hogan describes it as the company's first hollow-body, foam-filled iron head - a forged face over a hollow body injected with a tuned foam fill, intended to redistribute mass for a larger effective hitting area and better feel on mis-hits."
+  - q: "What clubs come in a stock Ben Hogan Legend set?"
+    a: "It is offered as a 4-PW (7-piece) or 5-PW (6-piece) stock set, hand-built to order in Hogan's USA workshop, at $949.99 for the standard build (custom builds from $849.99)."
+  - q: "When was the Ben Hogan Legend iron released?"
+    a: "It was announced 14 January 2025 at the PGA Show in Orlando, alongside the Fort Worth MB, Fort Worth CB and M50-01 - the same launch that introduced Ben Hogan's whole 2025 iron lineup."
+confidence: high

@@ -1,0 +1,124 @@
+brand: Wilson
+brand_slug: wilson
+model: Staff Model XB (2026)
+slug: staff-model-xb-2026-irons
+club_type: irons
+year_introduced: 2026
+year_discontinued: null
+category: players-distance
+construction: forged hollow body
+material: forged 8620 carbon steel with urethane injection and tungsten weighting
+successor: null
+predecessor: null
+description: >
+  The Staff Model XB is an all-new hollow-body model announced 27 January
+  2026 alongside a refreshed Staff Model Blade and Staff Model CB, positioned
+  as a players-distance iron with a tour-inspired profile rather than a
+  successor to any earlier Wilson Staff line. It is forged from 8620 carbon
+  steel with a hollow-body construction that shifts weight to the perimeter
+  for higher MOI, an internal urethane injection to damp vibration, and
+  tungsten weighting; Wilson's Fluid Feel Hosel and a precision-milled face
+  carry over from the Blade and CB. Lofts are meaningfully stronger than the
+  Blade/CB pair — a 32-degree 7-iron and 46-degree pitching wedge, versus 34
+  and 46 on those models — while lies and lengths match the rest of the 2026
+  family. The stock set runs 2-iron through gap wedge (ten clubs, with the
+  2-iron offered right-handed only); the retailer spec table lists this as a
+  4-PW stock configuration for pricing purposes, with a seven-piece steel set
+  at $1,399.99 / £1,169. Figures below are the standard men's steel-shaft
+  specification.
+specs:
+  - club: "2"
+    loft: 17.0
+    lie: 59.5
+    length: 39.75
+    offset: 0.120
+    bounce: 2.5
+    swing_weight: D2
+  - club: "3"
+    loft: 19.0
+    lie: 59.5
+    length: 39.25
+    offset: 0.120
+    bounce: 2.5
+    swing_weight: D2
+  - club: "4"
+    loft: 22.0
+    lie: 60.0
+    length: 38.75
+    offset: 0.110
+    bounce: 2.5
+    swing_weight: D2
+  - club: "5"
+    loft: 25.0
+    lie: 61.0
+    length: 38.25
+    offset: 0.100
+    bounce: 2.5
+    swing_weight: D2
+  - club: "6"
+    loft: 28.5
+    lie: 61.5
+    length: 37.75
+    offset: 0.090
+    bounce: 3.0
+    swing_weight: D2
+  - club: "7"
+    loft: 32.0
+    lie: 62.0
+    length: 37.25
+    offset: 0.075
+    bounce: 4.0
+    swing_weight: D2
+  - club: "8"
+    loft: 36.0
+    lie: 63.0
+    length: 36.75
+    offset: 0.065
+    bounce: 5.0
+    swing_weight: D2
+  - club: "9"
+    loft: 40.5
+    lie: 63.5
+    length: 36.25
+    offset: 0.055
+    bounce: 5.5
+    swing_weight: D2
+  - club: "PW"
+    loft: 46.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.050
+    bounce: 6.0
+    swing_weight: D2
+  - club: "GW"
+    loft: 50.0
+    lie: 64.25
+    length: 35.5
+    offset: 0.050
+    bounce: 7.0
+    swing_weight: D2
+stock_shafts:
+  - name: "Nippon NS Pro Modus 3 Tour 110"
+    material: steel
+    flex: ["R", "S"]
+sources:
+  - "2nd Swing Golf 'Wilson Staff 2026 Staff Model XB Iron Set' (2026 STAFF XB STS) product page, retrieved directly (rendered page, not a search summary) August 2026 — full loft/length/lie/bounce/offset/swing-weight table for 2-iron through GW (2-iron right-handed only), 4-PW stock set makeup, Nippon NS Pro Modus 3 Tour 110 stock steel shaft (R/S) and Golf Pride Z-Grip Standard stock grip. Retailer-published table, not a Wilson spec sheet."
+  - "Today's Golfer, 'Wilson Staff Model Irons 2026: Everything You Need to Know', published 27 January 2026 — independently matching 7-iron loft/lie/length (32°/62°/37.25\"), 2-GW availability, Nippon Modus Tour 110 stock shaft, and $1,399.99 / £1,169 seven-piece pricing. Describes XB as a 'players' distance iron' for 'a wide range of golfers seeking forgiveness with distance'."
+  - "Golfmagic, 'Wilson gets serious about its irons with three new forged Staff Models for 2026' — 27 January 2026 announcement date, describes XB as a new hollow-body 'Players Performance' model with a thicker topline and larger profile than the CB, internal urethane insert, engineered rib supports, a parabolic mass pad and tungsten weights for MOI and ball speed."
+  - "Golfalot and Plugged In Golf 2026 XB reviews (search-indexed) corroborate the forged 8620 carbon steel hollow-body construction, urethane injection for sound/feel, and positioning as a distance-and-forgiveness option built around a tour-inspired shape; full review text could not be retrieved directly (403 responses) so these are counted as secondary corroboration only, not a primary source for the numeric spec table."
+  - "The XB has no direct predecessor in Wilson's Staff Model line; it is reported everywhere consulted as an all-new addition, not a renamed or relaunched prior model, so predecessor is left null rather than guessed."
+related_models:
+  - slug: "wilson/staff-model-blade-2026-irons"
+    label: "Companion blade: Wilson Staff Model Blade (2026)"
+  - slug: "wilson/staff-model-cb-2026-irons"
+    label: "Companion cavity back: Wilson Staff Model CB (2026)"
+faq:
+  - q: "What is the loft of a Wilson Staff Model XB 7-iron?"
+    a: "The Staff Model XB 7-iron has a loft of 32 degrees, a 62-degree lie and a 37.25-inch steel-shaft length — two degrees stronger than the 34-degree 7-iron on the companion 2026 Staff Model Blade and CB."
+  - q: "Is the Staff Model XB a new model or a relaunch of an older Wilson iron?"
+    a: "It is an all-new model, introduced alongside the refreshed Staff Model Blade and CB on 27 January 2026. It has no prior-generation predecessor in Wilson's lineup."
+  - q: "What clubs come in a Wilson Staff Model XB set?"
+    a: "The model is built from 2-iron (right-handed only) through a 50-degree gap wedge, ten clubs in total, with 4-PW as the retailer's stock configuration and a seven-piece steel set priced at $1,399.99 (about £1,169)."
+  - q: "How is the Staff Model XB different from the Staff Model CB?"
+    a: "The XB is a hollow-body construction with an internal urethane insert and tungsten weighting for higher MOI, aimed at a players-distance category, while the CB is a solid forged cavity back. The XB also runs meaningfully stronger lofts — a 32-degree 7-iron versus the CB's 34 degrees."
+confidence: medium

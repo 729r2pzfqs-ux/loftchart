@@ -1,0 +1,91 @@
+brand: Honma
+brand_slug: honma
+model: TW767 Vx
+slug: tw767-vx-irons
+club_type: irons
+year_introduced: 2024
+year_discontinued: null
+category: players
+construction: one-piece forged cavity back with a tungsten toe weight
+material: S20C forged carbon steel with a tungsten weight in the 4 to 8 irons
+successor: null
+predecessor: Honma TW757 Vx
+description: >
+  The Vx is the players cavity-back iron of Honma's T//World 767 range, forged from
+  S20C carbon steel with a thickened cavity for a softer, deeper sound at impact than
+  the TW757 Vx it replaces. Lofts and lie angles are unchanged club for club from the
+  TW757 Vx — a 30-degree 7-iron — while the set is now offered from the 4-iron down
+  to an A-wedge stamped at 49 degrees. The 4 to 8 irons carry a tungsten toe weight;
+  the 9-iron through A-wedge are single-piece forgings without added tungsten.
+specs:
+  - club: "4"
+    loft: 21.0
+    lie: 60.0
+    length: 38.5
+    offset: 0.138
+  - club: "5"
+    loft: 24.0
+    lie: 60.5
+    length: 38.0
+    offset: 0.138
+  - club: "6"
+    loft: 27.0
+    lie: 61.0
+    length: 37.5
+    offset: 0.118
+  - club: "7"
+    loft: 30.0
+    lie: 61.5
+    length: 37.0
+    offset: 0.118
+  - club: "8"
+    loft: 34.0
+    lie: 62.0
+    length: 36.5
+    offset: 0.118
+  - club: "9"
+    loft: 38.0
+    lie: 62.5
+    length: 36.0
+    offset: 0.098
+  - club: "P"
+    loft: 43.0
+    lie: 63.0
+    length: 35.5
+    offset: 0.098
+  - club: "A"
+    loft: 49.0
+    lie: 63.0
+    length: 35.5
+    offset: 0.079
+stock_shafts:
+  - name: "Nippon N.S.Pro 950GH neo"
+    material: steel
+  - name: "Nippon N.S.Pro Modus3 Tour 115"
+    material: steel
+    flex: ["S"]
+  - name: "Honma VIZARD EZ-C"
+    material: graphite
+  - name: "Honma VIZARD EZ-IB"
+    material: graphite
+sources:
+  - "Honma's own T//World Vx product page, specification table (https://www.honmagolf.com/sea/product-details/10960) — supplied every loft, lie, length and offset above, the S20C forged construction with tungsten weighting on the 4 to 8 irons, and the four stock shaft options."
+  - "Note on offset: Honma publishes offset in millimetres (3.5 mm for the 4 and 5 irons, 3.0 mm for the 6 to 8 irons, 2.5 mm for the 9 and P, 2.0 mm for the A) and is converted to inches here."
+  - "Note on length: Honma's chart lists two length columns depending on stock shaft; the figures above are the N.S.Pro 950GH neo (steel) column, matching this schema's steel-shaft-standard convention."
+  - "firstcallgolf.com 'Honma Golf Launches Tour World 767 Collection' (release dated 22 October 2024) — announcement date, used for year_introduced."
+  - "Note: year_discontinued is null — no successor to the TW767 Vx had been announced in the sources retrieved. Honma's current T//World 2026 (TW777) marketing material continues to list a 'Vx' head, but no distinct TW777-generation spec sheet for it could be found, and the TW767 Vx's own US product page still references the TW767 product manual — see the TW777 PCB Max file for the one iron confirmed as genuinely new for that generation."
+related_models:
+  - slug: "honma/tw757-vx-irons"
+    label: "Predecessor: Honma TW757 Vx"
+  - slug: "honma/tw767-tour-v-irons"
+    label: "Same generation, more compact blade-like head: Honma TW767 Tour V"
+  - slug: "honma/tw767-px-irons"
+    label: "Same generation, players-distance head: Honma TW767 Px"
+faq:
+  - q: "What is the loft of a Honma TW767 Vx 7-iron?"
+    a: "The Honma TW767 Vx 7-iron has a loft of 30 degrees, a lie of 61.5 degrees and a length of 37.0 inches in the steel-shaft build."
+  - q: "What is the difference between the Honma TW757 Vx and TW767 Vx?"
+    a: "The lofts, lies and lengths are unchanged club for club between the two generations. The TW767 Vx thickens the cavity for a deeper impact sound and extends the stock set down to a 49-degree A-wedge."
+  - q: "When were the Honma TW767 Vx irons released?"
+    a: "Honma announced the T//World TW767 collection on 22 October 2024."
+confidence: high
