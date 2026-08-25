@@ -366,6 +366,7 @@ def head(title, desc, path, ld=None, og_type="website", noindex=False):
 <link rel="stylesheet" href="/css/style.css">
 {ldblocks}
 {analytics}
+<script src="https://analytics.ahrefs.com/analytics.js" data-key="Q1ltvzQDnlsCUSrZfvGd0g" async></script>
 </head>
 <body>
 <header class="site-header">
