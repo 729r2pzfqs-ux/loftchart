@@ -93,7 +93,11 @@ homepage.
   gtag snippet and switch the privacy page back to its no-analytics wording.
 - `CNAME` and `.nojekyll` are written into `docs/` by the generator, so they survive
   the rebuild.
-- Contact address is `info@loftchart.com`.
+- Contact address is `info@loftchart.com` (`EMAIL` in `generate.py`). It is never emitted
+  literally: HTML uses the entity-encoded `EMAIL_HTML`, and JSON-LD uses a `\u0040`
+  escape. Cloudflare's email obfuscation otherwise rewrites every `mailto:` into a
+  `/cdn-cgi/l/email-protection` URL that 404s for JS-less crawlers, which made Ahrefs
+  flag every page as linking to a broken page. Keep it encoded.
 
 ## Disclaimer
 
