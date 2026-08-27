@@ -75,6 +75,7 @@ python3 -m http.server 8231 -d docs
 | `/compare/<a>-vs-<b>/` | side-by-side comparison with differences highlighted |
 | `/years/`, `/years/<year>/` | release-year hubs |
 | `/category/`, `/category/<cat>/` | iron-category hubs with a 7-iron comparison table |
+| `/wedge-lofts/`, `/wedge-lofts/<wedge>/` | wedge loft guides — one per wedge, tables computed from the archive |
 | `/about/`, `/privacy/`, `/404.html` | static pages |
 | `/sitemap.xml`, `/robots.txt`, `/search-index.json`, `/site.webmanifest` | feeds |
 
@@ -82,6 +83,12 @@ Comparison pages are generated automatically wherever a model's `predecessor`,
 `successor` or `related_models` resolves to another model on file of the same club
 type. The "which should you choose?" copy is derived from the actual loft deltas,
 not written by hand.
+
+Wedge guide pages answer the "what degree is a sand wedge" queries. They carry no
+data of their own: every loft figure in their brand, decade and summary tables is
+computed at build time from the sets already on file, so they stay in step with the
+archive as models are added. `WEDGE_TYPES` in `generate.py` holds the prose, loft
+bands, bounce ranges and carry distances; the tables are derived.
 
 Structured data: `BreadcrumbList` everywhere, `Article` + `FAQPage` on model pages,
 `ItemList` on hub pages, `WebSite` + `SearchAction` and `Organization` on the
