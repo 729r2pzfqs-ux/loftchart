@@ -33,9 +33,18 @@ GA_ENABLED = bool(GA_ID) and GA_ID != "G-XXXXXXXXXX"
 EMAIL = "info@loftchart.com"
 # Cloudflare's email obfuscation rewrites any literal mailto: it finds into a
 # /cdn-cgi/l/email-protection URL that 404s for crawlers without JS, so every page
-# got flagged as linking to a broken page. HTML entities keep the address out of
-# Cloudflare's regex while browsers still decode it back to the real mailto:.
+# got flagged as linking to a broken page. Entity encoding alone does not help -
+# Cloudflare decodes entities before it scans - so every address also sits inside
+# the documented <!--email_off--> opt-out markers. The entities stay as a second
+# layer for any other scraper that does not decode them.
 EMAIL_HTML = EMAIL.replace("@", "&#64;").replace(".", "&#46;")
+EMAIL_OFF = "<!--email_off-->"
+
+
+def email_link(text=None):
+    """A mailto: anchor fenced off from Cloudflare's email obfuscator."""
+    return (f'{EMAIL_OFF}<a href="mailto:{EMAIL_HTML}">'
+            f'{EMAIL_HTML if text is None else text}</a>{EMAIL_OFF}')
 TODAY = date.today().isoformat()
 
 CLUB_TYPE_LABEL = {
@@ -230,13 +239,12 @@ def club_sort_key(c):
 
 
 def ldjson(obj):
-    # HTML entities are not decoded inside a <script>, so the JSON-LD copy of the
-    # address is hidden from Cloudflare with a JSON \u escape instead - same string
-    # once parsed, but no literal "@" for the obfuscator to latch onto.
+    # Escapes inside a <script> would survive into the parsed JSON as literal
+    # text, so the address is written plainly and the whole block is fenced with
+    # the email_off markers Cloudflare's obfuscator honours.
     payload = json.dumps(obj, ensure_ascii=False, separators=(",", ":"))
-    return ('<script type="application/ld+json">'
-            + payload.replace(EMAIL, EMAIL.replace("@", "\\u0040"))
-            + "</script>")
+    tag = '<script type="application/ld+json">' + payload + "</script>"
+    return EMAIL_OFF + tag + EMAIL_OFF if EMAIL in payload else tag
 
 
 def write(path, content):
@@ -430,7 +438,7 @@ def foot(brands):
       provided for reference only. Brand and model names are the trademarks of their
       respective owners; LoftChart is not affiliated with, endorsed by or sponsored by any
       golf club manufacturer.</p>
-      <p>© {date.today().year} LoftChart.com · <a href="mailto:{EMAIL_HTML}">{EMAIL_HTML}</a></p>
+      <p>© {date.today().year} LoftChart.com · {email_link()}</p>
     </div>
   </div>
 </footer>
@@ -685,13 +693,13 @@ def model_page(m, brands, models_by_key, compares_by_key):
         conf_note = ('<div class="note"><p><strong>Data confidence: '
                      f'{esc(conf)}.</strong> These figures are compiled from secondary '
                      "sources rather than a manufacturer spec sheet. If you have an "
-                     f'original catalogue page, <a href="mailto:{EMAIL_HTML}">send it over</a> '
+                     f'original catalogue page, {email_link("send it over")} '
                      "and we will update the chart.</p></div>")
 
     sources_html = ("<div class=\"sources\"><strong>Data compiled from:</strong><ul>"
                     + "".join(f"<li>{esc(s)}</li>" for s in (m.get("sources") or []))
                     + f"</ul><p>Last reviewed {TODAY}. Spot an error? "
-                    f'<a href="mailto:{EMAIL_HTML}">{EMAIL_HTML}</a></p></div>')
+                    f'{email_link()}</p></div>')
 
     article_ld = {
         "@context": "https://schema.org",
@@ -1409,7 +1417,7 @@ def about_page(brands, models):
 
   <h2>Corrections</h2>
   <p>If you have an original catalogue page or spec sheet that contradicts something here, we
-  want it. Email <a href="mailto:{EMAIL_HTML}">{EMAIL_HTML}</a> with the source and we will update the
+  want it. Email {email_link()} with the source and we will update the
   chart and credit it.</p>
 
   <h2>Independence</h2>
@@ -1476,7 +1484,7 @@ def privacy_page(brands):
   top of the page.</p>
 
   <h2>Contact</h2>
-  <p>Questions about this policy: <a href="mailto:{EMAIL_HTML}">{EMAIL_HTML}</a>.</p>
+  <p>Questions about this policy: {email_link()}.</p>
 </div>
 """
     page("/privacy/", title, desc, body, brands, [bc])
