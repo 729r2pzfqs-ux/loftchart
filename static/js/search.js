@@ -1,4 +1,36 @@
-/* LoftChart client-side model search */
+/* LoftChart client-side behaviour: mobile nav, model search, filter chips.
+   Each block guards on its own elements — pages carry different subsets
+   (the search box only exists on the homepage and 404 page). */
+
+/* mobile nav toggle */
+(function () {
+  "use strict";
+
+  var toggle = document.querySelector(".nav-toggle");
+  var nav = document.getElementById("site-nav");
+  if (!toggle || !nav) return;
+
+  function setOpen(open) {
+    nav.classList.toggle("open", open);
+    toggle.setAttribute("aria-expanded", open ? "true" : "false");
+    toggle.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+  }
+
+  toggle.addEventListener("click", function () {
+    setOpen(!nav.classList.contains("open"));
+  });
+
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && nav.classList.contains("open")) setOpen(false);
+  });
+
+  document.addEventListener("click", function (e) {
+    if (nav.classList.contains("open") &&
+        !nav.contains(e.target) && !toggle.contains(e.target)) setOpen(false);
+  });
+})();
+
+/* model search */
 (function () {
   "use strict";
 
@@ -90,8 +122,13 @@
   document.addEventListener("click", function (e) {
     if (!box.contains(e.target) && e.target !== input) box.innerHTML = "";
   });
+})();
 
-  /* club-type filter chips on brand pages */
+/* club-type filter chips on brand pages — previously bound after the search
+   guard above, so they never worked on pages without a search box */
+(function () {
+  "use strict";
+
   var chips = document.querySelectorAll("[data-filter]");
   if (chips.length) {
     chips.forEach(function (chip) {

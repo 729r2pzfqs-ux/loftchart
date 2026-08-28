@@ -392,7 +392,10 @@ def head(title, desc, path, ld=None, og_type="website", noindex=False):
       <svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="12" fill="#FAFAF7" opacity=".08"/><path d="M25 24 L28 9" stroke="#FAFAF7" stroke-width="7" stroke-linecap="round" fill="none"/><path d="M21 44 L46 45 L50 30 L23 22 Z" fill="#FAFAF7" stroke="#FAFAF7" stroke-width="4.5" stroke-linejoin="round"/><g stroke="#1B4332" stroke-width="2.4" stroke-linecap="round"><path d="M25 30.5 H45"/><path d="M24 35.5 H45.5"/><path d="M23.5 40.5 H46"/></g></svg>
       <span>Loft<span class="dot">Chart</span></span>
     </a>
-    <nav class="site-nav">
+    <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+      <span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span>
+    </button>
+    <nav class="site-nav" id="site-nav">
       <a href="/brands/">Brands</a>
       <a href="/years/">Years</a>
       <a href="/category/">Categories</a>
@@ -587,6 +590,36 @@ def availability(m):
   2nd Swing and Golf Avenue, and should be measured against this chart before buying.</p>"""
 
 
+# Source citations are prose with the raw URL embedded ("retrieved from
+# http://web.archive.org/web/2012.../ir_spec.htm - manufacturer spec table").
+# The reader needs a working link and the host, not eighty characters of path,
+# so each URL is swapped for a compact anchor. Trailing punctuation belongs to
+# the sentence, not the URL.
+SOURCE_URL_RE = re.compile(r'https?://[^\s<>"\')\]]+')
+WAYBACK_RE = re.compile(
+    r'https?://web\.archive\.org/web/(\d{4})[^/]*/(?:https?:/{1,2})?(?:www\.)?([^/\s]+)')
+
+
+def source_link(url):
+    m = WAYBACK_RE.match(url)
+    if m:
+        label = f"{m.group(2).split(':')[0]}, archived {m.group(1)}"
+    else:
+        label = re.sub(r'^www\.', '', url.split('/')[2].split(':')[0])
+    return f'<a href="{esc(url)}" rel="nofollow noopener">{esc(label)}</a>'
+
+
+def linkify_source(text):
+    out, pos = [], 0
+    for m in SOURCE_URL_RE.finditer(text):
+        url = m.group(0).rstrip('.,;:')
+        out.append(esc(text[pos:m.start()]))
+        out.append(source_link(url))
+        pos = m.start() + len(url)
+    out.append(esc(text[pos:]))
+    return "".join(out)
+
+
 def model_page(m, brands, models_by_key, compares_by_key):
     s7 = seven_iron(m)
     title = fit_title(f"{m['title']} Specs", " — Loft & Lie Chart", f" | {SITE_NAME}")
@@ -701,7 +734,7 @@ def model_page(m, brands, models_by_key, compares_by_key):
                      "and we will update the chart.</p></div>")
 
     sources_html = ("<div class=\"sources\"><strong>Data compiled from:</strong><ul>"
-                    + "".join(f"<li>{esc(s)}</li>" for s in (m.get("sources") or []))
+                    + "".join(f"<li>{linkify_source(s)}</li>" for s in (m.get("sources") or []))
                     + f"</ul><p>Last reviewed {TODAY}. Spot an error? "
                     f'{email_link()}</p></div>')
 
@@ -736,6 +769,13 @@ def model_page(m, brands, models_by_key, compares_by_key):
 
     availability_html = availability(m)
 
+    # Each block after the chart sits in its own .model-section so the CSS can
+    # draw a hairline between them; empty blocks are dropped rather than
+    # rendering a divider with nothing under it.
+    sections_html = "".join(
+        f'<section class="model-section">{s}</section>'
+        for s in (about, shafts, related_html, faq_html, availability_html) if s)
+
     body = f"""{nav}
 <div class="wrap">
   <div class="page-head">
@@ -752,12 +792,7 @@ def model_page(m, brands, models_by_key, compares_by_key):
   <p class="table-note">Lofts and lies are the factory standard build. Individual clubs may
   differ if they have been bent, re-shafted or re-gripped during their life.</p>
 
-  {about}
-  {shafts}
-  {related_html}
-  {faq_html}
-
-  {availability_html}
+  {sections_html}
 
   {sources_html}
 </div>
@@ -874,7 +909,7 @@ def brands_index(brands, by_brand, all_models):
             f'<a class="card brand-card" href="/{b["slug"]}/" '
             f'style="--brand-color:{esc(b.get("color", "#C9A94E"))}">'
             f'<span class="card-title">{esc(b["name"])}</span>'
-            f'<span class="card-meta">{len(ms)} models · {min(years)}–{max(years)}</span>'
+            f'<span class="card-meta">{plural(len(ms), "model")} · {min(years)}–{max(years)}</span>'
             f'<span class="card-spec">Founded {esc(b.get("founded", "—"))}</span></a>')
 
     body = f"""{nav}
@@ -1025,7 +1060,7 @@ def categories_index(by_cat, brands, all_models):
     cards = "".join(
         f'<a class="card" href="/category/{esc(c)}/">'
         f'<span class="card-title">{esc(CATEGORY_LABEL.get(c, c))}</span>'
-        f'<span class="card-meta">{len(by_cat[c])} models</span>'
+        f'<span class="card-meta">{plural(len(by_cat[c]), "model")}</span>'
         f'<span class="card-spec">{esc(CATEGORY_BLURB.get(c, "")[:88])}…</span></a>'
         for c in cats)
     body = f"""{nav}
@@ -1332,7 +1367,7 @@ def homepage(brands, models, by_brand):
         f'<a class="card brand-card" href="/{b["slug"]}/" '
         f'style="--brand-color:{esc(b.get("color", "#C9A94E"))}">'
         f'<span class="card-title">{esc(b["name"])}</span>'
-        f'<span class="card-meta">{len(by_brand.get(b["slug"], []))} models</span></a>'
+        f'<span class="card-meta">{plural(len(by_brand.get(b["slug"], [])), "model")}</span></a>'
         for b in brands if by_brand.get(b["slug"]))
 
     website_ld = {
