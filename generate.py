@@ -397,6 +397,7 @@ def head(title, desc, path, ld=None, og_type="website", noindex=False):
       <a href="/years/">Years</a>
       <a href="/category/">Categories</a>
       <a href="/wedge-lofts/">Wedge Lofts</a>
+      <a href="/driver-lofts/">Driver Lofts</a>
       <a href="/compare/">Compare</a>
       <a href="/about/">About</a>
     </nav>
@@ -422,6 +423,7 @@ def foot(brands):
           <li><a href="/years/">By year</a></li>
           <li><a href="/category/">By category</a></li>
           <li><a href="/wedge-lofts/">Wedge loft chart</a></li>
+          <li><a href="/driver-lofts/">Driver loft chart</a></li>
           <li><a href="/compare/">Comparisons</a></li>
         </ul>
       </div>
@@ -1319,6 +1321,13 @@ def homepage(brands, models, by_brand):
         f'<span class="card-spec">{w["band"][0]}°–{w["band"][1]}° · '
         f'{esc(w["distances"][1][1])} carry</span></a>' for w in WEDGE_TYPES)
 
+    driver_home_cards = (
+        '<a class="card" href="/driver-lofts/">'
+        '<span class="card-title">Driver Loft Chart</span>'
+        '<span class="card-meta">The reference table</span>'
+        '<span class="card-spec">8°–12° · stock lofts for every major brand</span></a>'
+        + driver_guide_card_items())
+
     brand_cards = "".join(
         f'<a class="card brand-card" href="/{b["slug"]}/" '
         f'style="--brand-color:{esc(b.get("color", "#C9A94E"))}">'
@@ -1376,6 +1385,12 @@ def homepage(brands, models, by_brand):
   with the numbers taken from the spec charts on this site. Start with the
   <a href="/wedge-lofts/">wedge loft chart</a>.</p>
   <div class="grid">{wedge_cards}</div>
+
+  <h2>Driver loft guides</h2>
+  <p>What degree a driver should be, how loft maps to swing speed, and the head-to-head
+  loft questions — with the stock lofts every major brand builds collected on the
+  <a href="/driver-lofts/">driver loft chart</a>.</p>
+  <div class="grid">{driver_home_cards}</div>
 
   <h2>What is a loft chart?</h2>
   <p>A loft chart lists the factory loft of every club in a set, usually alongside lie angle,
@@ -2365,6 +2380,768 @@ def wedge_pages(models, brands):
 
 
 # --------------------------------------------------------------------------
+# driver loft pages
+#
+# Standalone informational pages for the "driver loft" queries: a hub chart at
+# /driver-lofts/ and four fitting guides under /guides/. Unlike the wedge
+# guides, none of this can be computed from data/ — the archive is iron sets —
+# so every figure is curated by hand from manufacturer catalogues and standard
+# fitting conventions, and the sources block on each page says so plainly.
+# --------------------------------------------------------------------------
+
+# (loft, typical swing speed, who it suits, flight character) — the at-a-glance
+# chart on the hub. Bands overlap on purpose: loft choice is a fitting window,
+# not a lookup, and pretending otherwise would be false precision.
+DRIVER_LOFT_BANDS = [
+    ("8°", "110+ mph", "Tour players and elite amateurs", "Very low launch and spin — needs serious speed to stay airborne"),
+    ("9°", "100–115 mph", "Fast-swinging low handicaps", "Low-mid launch, penetrating flight"),
+    ("9.5°", "95–110 mph", "Faster amateurs", "Mid launch, the classic 'better player' loft"),
+    ("10.5°", "85–105 mph", "Most amateur golfers", "Mid-high launch — the most common driver loft sold"),
+    ("11°–12°", "75–95 mph", "Moderate swing speeds, beginners", "High launch, more backspin, straighter flight"),
+    ("13°+", "Under 80 mph", "Slower swings, seniors, juniors", "Maximum height and carry at low ball speeds"),
+]
+
+# (brand name, brand slug, current line, stock lofts, hosel adjustment) — the
+# by-brand table. Maintained by hand against the 2023–2025 flagship catalogues;
+# a new release is a one-line edit here.
+DRIVER_BRAND_ROWS = [
+    ("Callaway", "callaway", "Elyte (2025)",
+     "9°, 10.5°, 12°; Triple Diamond 8°, 9°, 10.5°", "OptiFit, −1° to +2°"),
+    ("Cobra", "cobra", "DS-Adapt (2025)",
+     "8°–12° across LS, X and Max heads", "Adjustable (FutureFit 33)"),
+    ("Mizuno", "mizuno", "ST-Max 230 (2024)",
+     "9.5°, 10.5°, 12°", "±2° (Quick Switch)"),
+    ("Ping", "ping", "G440 (2025)",
+     "Max 9°, 10.5°, 12°; LST 9°, 10.5°; SFT 10.5°", "±1.5° (Trajectory Tuning)"),
+    ("PXG", "pxg", "0311 Black Ops (2024)",
+     "9°, 10.5°, 12°", "±1.5°"),
+    ("Srixon", "srixon", "ZXi (2025)",
+     "8.5°, 9.5°, 10.5°", "±1°"),
+    ("TaylorMade", "taylormade", "Qi35 (2025)",
+     "9°, 10.5°, 12°; LS 8°, 9°, 10.5°", "±2° (Loft Sleeve)"),
+    ("Titleist", "titleist", "GT2 / GT3 (2024)",
+     "GT2 8°, 9°, 10°, 11°; GT3 8°, 9°, 10°", "SureFit, −0.75° to +1.5°"),
+    ("Wilson", "wilson", "Dynapwr (2023)",
+     "9°, 10.5°, 13°", "Adjustable"),
+    ("XXIO", "xxio", "XXIO 13 (2024)",
+     "9.5°, 10.5°, 11.5°", "Fixed hosel"),
+]
+
+# (speed band, recommended loft, typical driver carry, typical player) — the
+# recommendation chart shared conceptually by all four guides but rendered in
+# full only on the swing-speed page.
+DRIVER_SPEED_ROWS = [
+    ("Under 70 mph", "12°–14°", "Up to ~150 yd", "Many seniors and beginners"),
+    ("70–85 mph", "11°–13°", "150–190 yd", "Slower amateur swings"),
+    ("85–95 mph", "10.5°–12°", "190–225 yd", "The average male amateur (~93 mph)"),
+    ("95–105 mph", "9°–10.5°", "225–255 yd", "Faster amateurs, low handicaps"),
+    ("105–115 mph", "8.5°–9.5°", "255–285 yd", "Elite amateurs, long hitters"),
+    ("Over 115 mph", "7°–9°", "285+ yd", "Tour-level speed"),
+]
+
+# Card metadata for the hub grid, the homepage section and the sitemap.
+DRIVER_GUIDES = [
+    {"slug": "driver-loft-by-swing-speed",
+     "card_title": "Driver Loft by Swing Speed",
+     "card_meta": "Fitting chart",
+     "card_spec": "Under 85 mph: 11°–13° · over 105 mph: 8.5°–9.5°"},
+    {"slug": "best-driver-loft-for-beginners",
+     "card_title": "Best Driver Loft for Beginners",
+     "card_meta": "Buying guide",
+     "card_spec": "Why 10.5°–12° beats 9° until the speed arrives"},
+    {"slug": "10-5-vs-12-degree-driver",
+     "card_title": "10.5° vs 12° Driver",
+     "card_meta": "Loft comparison",
+     "card_spec": "Launch, spin, carry and slice correction compared"},
+    {"slug": "9-vs-10-5-degree-driver",
+     "card_title": "9° vs 10.5° Driver",
+     "card_meta": "Loft comparison",
+     "card_spec": "The speed threshold where lower loft starts to pay"},
+]
+
+
+def faq_block(faq):
+    """(html, FAQPage schema) from a list of (question, plain-text answer)."""
+    blocks = "".join(f"<details><summary>{esc(q)}</summary>"
+                     f'<p class="faq-body">{esc(a)}</p></details>' for q, a in faq)
+    html_ = f'<h2>Frequently asked questions</h2><div class="faq">{blocks}</div>'
+    ld = {"@context": "https://schema.org", "@type": "FAQPage",
+          "mainEntity": [{"@type": "Question", "name": q,
+                          "acceptedAnswer": {"@type": "Answer", "text": a}}
+                         for q, a in faq]}
+    return html_, ld
+
+
+def driver_article_ld(headline, desc, path, keywords):
+    return {
+        "@context": "https://schema.org", "@type": "TechArticle",
+        "headline": headline,
+        "description": desc,
+        "datePublished": TODAY, "dateModified": TODAY,
+        "mainEntityOfPage": {"@type": "WebPage", "@id": SITE + path},
+        "author": {"@type": "Organization", "name": SITE_NAME, "url": SITE},
+        "publisher": {"@type": "Organization", "name": SITE_NAME, "url": SITE},
+        "about": {"@type": "Thing", "name": "Golf driver loft"},
+        "keywords": keywords,
+    }
+
+
+DRIVER_SOURCES = f"""<div class="sources"><strong>How these figures were compiled:</strong>
+  <ul>
+    <li>Loft bands, launch and spin windows, and carry figures are the accepted
+    club-fitting conventions for a standard men&rsquo;s build, given as ranges because no
+    governing body defines them and strike quality moves every one of them.</li>
+    <li>Brand loft options are compiled by hand from current manufacturer catalogues
+    (2023&ndash;2025 flagship lines). Drivers are not yet part of the LoftChart spec archive
+    itself &mdash; the full club-by-club charts here cover iron sets.</li>
+  </ul>
+  <p>Last reviewed {TODAY}. Spot an error? {email_link()}</p></div>"""
+
+
+def driver_guide_card_items(exclude=None):
+    return "".join(
+        f'<a class="card" href="/guides/{g["slug"]}/">'
+        f'<span class="card-title">{esc(g["card_title"])}</span>'
+        f'<span class="card-meta">{esc(g["card_meta"])}</span>'
+        f'<span class="card-spec">{esc(g["card_spec"])}</span></a>'
+        for g in DRIVER_GUIDES if g["slug"] != exclude)
+
+
+def driver_guide_cards(exclude=None):
+    return f'<div class="grid">{driver_guide_card_items(exclude)}</div>'
+
+
+def driver_index(brands):
+    """The /driver-lofts/ hub — the 'driver loft chart' overview page."""
+    title = fit_title("Driver Loft Chart — What Degree Is a Driver?",
+                      f" | {SITE_NAME}")
+    desc = fit_desc(
+        "Most drivers are 9° to 12° and 10.5° is the most common loft sold. ",
+        ["Full chart by brand, loft by swing speed, and what adjustable hosels "
+         "really change.",
+         "Loft chart by brand, loft by swing speed, and hosel adjustability.",
+         "Loft chart by brand and swing speed."])
+
+    nav, bc = crumbs([("Home", "/"), ("Driver Lofts", None)])
+
+    band_rows = "".join(
+        f'<tr><th scope="row">{esc(loft)}</th><td>{esc(speed)}</td>'
+        f"<td>{esc(who)}</td><td>{esc(flight)}</td></tr>"
+        for loft, speed, who, flight in DRIVER_LOFT_BANDS)
+
+    brand_rows = "".join(
+        f'<tr><th scope="row"><a href="/{esc(slug)}/">{esc(name)}</a></th>'
+        f"<td>{esc(line)}</td><td>{esc(lofts)}</td><td>{esc(adj)}</td></tr>"
+        for name, slug, line, lofts, adj in DRIVER_BRAND_ROWS)
+
+    faq = [
+        ("What loft should my driver be?",
+         "Match it to swing speed. Under 85 mph, 11 to 13 degrees; 85 to 95 mph, "
+         "10.5 to 12; 95 to 105 mph, 9 to 10.5; above 105 mph, 8 to 9.5. When in "
+         "doubt take the higher loft — too little loft costs an amateur far more "
+         "carry than too much."),
+        ("What loft driver do pros use?",
+         "Mostly 8 to 10.5 degrees, but at 115 to 125 mph of clubhead speed. A tour "
+         "player generates enough ball speed to fly a low-lofted driver; the same "
+         "head at 90 mph launches too low, spins too little and falls out of the "
+         "air. Copying tour lofts is the most common driver-buying mistake."),
+        ("Is a 10.5 degree driver good for the average golfer?",
+         "Yes — it is the default for a reason. The average male amateur swings "
+         "around 93 mph, which sits squarely in the 10.5 to 12 degree window. That "
+         "is why 10.5 is the best-selling loft in nearly every manufacturer's "
+         "line."),
+        ("What does adjusting a driver hosel actually do?",
+         "Rotating the hosel adds or removes loft, typically within a 1.5 to 4 "
+         "degree total range depending on brand. It also changes the face angle: "
+         "adding loft closes the face slightly and reducing loft opens it, which "
+         "is why lofting up also helps a slice."),
+        ("Is a higher lofted driver easier to hit?",
+         "Generally yes. More loft launches the ball higher, adds backspin that "
+         "keeps mis-hits airborne, and reduces the share of sidespin, so curved "
+         "shots curve less. The trade-off — a ballooning flight — only appears at "
+         "high swing speeds."),
+    ]
+    faq_html, faq_ld = faq_block(faq)
+
+    article_ld = driver_article_ld(
+        "Driver Loft Chart", desc, "/driver-lofts/",
+        "driver loft chart, driver degrees, what loft driver, 10.5 degree driver, "
+        "driver loft by brand")
+    list_ld = {
+        "@context": "https://schema.org", "@type": "ItemList",
+        "name": "Driver loft guides",
+        "numberOfItems": len(DRIVER_GUIDES),
+        "itemListElement": [
+            {"@type": "ListItem", "position": i,
+             "url": f"{SITE}/guides/{g['slug']}/", "name": g["card_title"]}
+            for i, g in enumerate(DRIVER_GUIDES, 1)],
+    }
+
+    body = f"""{nav}
+<div class="wrap">
+  <div class="page-head">
+    <h1>Driver Loft Chart</h1>
+    <p class="lede">What degree a driver is, which loft fits which swing, and the stock
+    lofts every major manufacturer currently builds.</p>
+  </div>
+
+  <p><strong>Most drivers are lofted between 9° and 12°, and 10.5° is the most common
+  loft sold.</strong> The full retail range runs from 7° tour heads to 14° high-launch
+  builds, and nearly every modern driver adds an adjustable hosel that moves the stated
+  loft by 1°–2° in each direction. The right number is set by swing speed and launch,
+  not by preference — and for most amateurs it is higher than they think.</p>
+
+  <dl class="facts">
+    <div><dt>Standard range</dt><dd>8°–12°</dd></div>
+    <div><dt>Most common sold</dt><dd>10.5°</dd></div>
+    <div><dt>Beginners &amp; moderate swings</dt><dd>10.5°–12°</dd></div>
+    <div><dt>Fast swings (105+ mph)</dt><dd>8°–9.5°</dd></div>
+    <div><dt>Typical hosel adjustment</dt><dd>±1°–2°</dd></div>
+  </dl>
+
+  <h2>Driver lofts at a glance</h2>
+  <div class="table-scroll"><table class="specs">
+    <caption>Which driver loft suits which swing — fitting windows, not hard rules.</caption>
+    <thead><tr><th scope="col">Loft</th><th scope="col">Typical swing speed</th>
+    <th scope="col">Who it suits</th><th scope="col">Flight</th></tr></thead>
+    <tbody>{band_rows}</tbody></table></div>
+  <p class="table-note">Bands overlap on purpose: attack angle, spin and strike move the
+  right answer within them. The <a href="/guides/driver-loft-by-swing-speed/">swing speed
+  guide</a> walks through picking a number.</p>
+
+  <h2>Stock driver lofts by brand</h2>
+  <div class="table-scroll"><table class="specs">
+    <caption>Stock loft options for each manufacturer&rsquo;s current driver line.</caption>
+    <thead><tr><th scope="col">Brand</th><th scope="col">Current line</th>
+    <th scope="col">Stock lofts</th><th scope="col">Hosel adjustment</th></tr></thead>
+    <tbody>{brand_rows}</tbody></table></div>
+  <p class="table-note">Compiled from manufacturer catalogues for the 2023–2025 flagship
+  lines. Draw-biased and high-launch variants (Max D, HL, Lite) usually add a 12°–13°
+  option on top of what is listed. Brand links go to each manufacturer&rsquo;s iron spec
+  archive on this site.</p>
+
+  <h2>How loft turns into carry</h2>
+  <p>A driver flies furthest when launch angle and backspin match ball speed. For most
+  amateurs that means launching at roughly 12°–16° with 2,000–3,000 rpm of spin. The
+  slower the swing, the more loft it takes to get there: a ball leaving at 130 mph needs
+  height and hang time it cannot generate from a 9° face, while a 175 mph ball off the
+  same face rides its own speed on a flat, efficient trajectory.</p>
+  <p>The mistake almost always runs one way. Too much loft costs a fast swinger a few
+  yards of ballooning; too little loft costs a slow swinger 15–20 yards of carry, because
+  the ball never gets up. When a fitting is not an option, take the higher loft.</p>
+
+  <h2>Adjustable hosels move more than loft</h2>
+  <p>Most current drivers are sold in fewer stock lofts than a decade ago because the
+  hosel now covers the gaps — typically ±1° to ±2° around the stated number. Two things
+  are worth knowing before turning one. First, the stamped loft is the middle of the
+  range, so a 10.5° head can usually play from about 9° to 12°. Second, adding loft
+  closes the face slightly and removing loft opens it, which is why lofting up is also a
+  standard slice fix and why a lowered driver can start drifting right.</p>
+
+  <h2>Loft is not the whole story</h2>
+  <p>Attack angle — whether the club is travelling up or down at impact — shifts the
+  effective launch. A player who hits up on the ball 3°–4° adds that much launch for
+  free and can play a lower loft; a player who hits down needs more loft on the face to
+  compensate. This is why two golfers with identical swing speeds can be correctly fitted
+  two degrees apart, and why the charts above are windows rather than single numbers.</p>
+
+  <h2>Driver loft guides</h2>
+  {driver_guide_cards()}
+
+  {faq_html}
+
+  <p>Looking for the other end of the bag? The <a href="/wedge-lofts/">wedge loft
+  chart</a> covers pitching, gap, sand and lob wedge degrees the same way.</p>
+
+  {DRIVER_SOURCES}
+</div>
+"""
+    page("/driver-lofts/", title, desc, body, brands,
+         [bc, article_ld, list_ld, faq_ld], og_type="article")
+
+
+def driver_speed_guide(brands):
+    slug = "driver-loft-by-swing-speed"
+    title = fit_title("Driver Loft by Swing Speed", " — Chart", f" | {SITE_NAME}")
+    desc = fit_desc(
+        "Driver loft by swing speed: under 85 mph play 11°–13°, 85–95 mph "
+        "10.5°–12°, 95–105 mph 9°–10.5°, over 105 mph 8.5°–9.5°. ",
+        ["Full chart with typical carry distances.",
+         "Chart with carry distances.",
+         "Full recommendation chart."])
+
+    nav, bc = crumbs([("Home", "/"), ("Driver Lofts", "/driver-lofts/"),
+                      ("Loft by Swing Speed", None)])
+
+    rows = "".join(
+        f'<tr><th scope="row">{esc(speed)}</th><td>{esc(loft)}</td>'
+        f"<td>{esc(carry)}</td><td>{esc(player)}</td></tr>"
+        for speed, loft, carry, player in DRIVER_SPEED_ROWS)
+
+    faq = [
+        ("What driver loft do I need for an 85 mph swing speed?",
+         "10.5 to 12 degrees. At 85 mph the ball leaves the face around 125 mph, "
+         "which needs a high launch and healthy backspin to maximise carry. An "
+         "adjustable 10.5 degree head turned up a degree is a sensible way to "
+         "cover the whole window."),
+        ("What driver loft is best for a 95 mph swing?",
+         "9.5 to 10.5 degrees for most players. 95 mph sits on the boundary "
+         "between the mid and fast bands, so attack angle decides it: hit up on "
+         "the ball and 9.5 works, hit level or down and 10.5 carries further."),
+        ("What loft should a 100 mph swing use?",
+         "9 to 10.5 degrees. At 100 mph a well-struck drive carries around 240 "
+         "yards, and the launch-spin window is wide enough that strike pattern "
+         "and attack angle matter more than the degree on the sole. This is the "
+         "speed where a proper fitting starts paying for itself."),
+        ("Does more loft mean less distance?",
+         "Only above the speed that needs it. Below roughly 95 mph, more loft "
+         "usually means more carry, because the ball stays in the air long enough "
+         "to use its speed. The lower-loft-equals-longer rule is true at tour "
+         "speed and false for most amateurs."),
+        ("How do I find my swing speed without a launch monitor?",
+         "Divide your true driver carry — the number in the air, not with roll — "
+         "by 2.3. A 200 yard carry puts you near 87 mph. It is rough, but it "
+         "lands you in the right loft band, and any simulator, fitting bay or "
+         "driving-range monitor will give you the exact figure."),
+    ]
+    faq_html, faq_ld = faq_block(faq)
+
+    article_ld = driver_article_ld(
+        "Driver Loft by Swing Speed", desc, f"/guides/{slug}/",
+        "driver loft by swing speed, driver loft chart swing speed, "
+        "what loft driver for 90 mph, driver fitting")
+
+    body = f"""{nav}
+<div class="wrap">
+  <div class="page-head">
+    <h1>Driver Loft by Swing Speed</h1>
+    <p class="lede">Swing speed sets the loft window. Find your band, then let attack
+    angle and ball flight settle the exact number.</p>
+  </div>
+
+  <p><strong>The slower the swing, the more loft the driver needs.</strong> Under 85 mph
+  the right answer is 11°–13°; between 85 and 95 mph — where most male amateurs sit —
+  it is 10.5°–12°; from 95 to 105 mph it is 9°–10.5°; and only above about 105 mph does
+  a driver lofted under 9° start paying for itself.</p>
+
+  <h2>Recommended driver loft by swing speed</h2>
+  <div class="table-scroll"><table class="specs">
+    <caption>Driver loft recommendations by clubhead speed, with typical well-struck
+    carry for each band.</caption>
+    <thead><tr><th scope="col">Swing speed</th><th scope="col">Recommended loft</th>
+    <th scope="col">Typical carry</th><th scope="col">Typical player</th></tr></thead>
+    <tbody>{rows}</tbody></table></div>
+  <p class="table-note">Speeds are driver clubhead speed, not ball speed. Carry figures
+  assume a reasonable strike; thin and heel strikes shed distance at every speed.</p>
+
+  <h2>Why slower swings need more loft</h2>
+  <p>Carry distance is launch angle, backspin and ball speed working together. The
+  distance-maximising window for an amateur is roughly a 12°–16° launch with
+  2,000–3,000 rpm of spin. A fast swing reaches that window with a low-lofted face
+  because sheer ball speed does the climbing; a slower swing launched at 9° comes out
+  low and under-spun, runs out of hang time, and lands 15–20 yards short of the same
+  swing with a 12° face. Loft is how a moderate swing buys the airtime a fast swing
+  gets free.</p>
+
+  <h2>Adjust for attack angle</h2>
+  <p>The table assumes a roughly level strike. If you hit up on the ball — teeing high,
+  ball forward, driver sweeping upward 3°–4° — you add that much launch and can sit at
+  the low end of your band, or a band lower. If you hit down on it, as most slicers and
+  former iron-first golfers do, move up within the band. A launch monitor reads attack
+  angle directly; ball flight hints at it too, with a low-spinning knuckling drive
+  suggesting up, and a high-spinning ballooning one suggesting down.</p>
+
+  <h2>Use the hosel to fine-tune, not to span bands</h2>
+  <p>An adjustable hosel moves most current drivers ±1°–2°, which comfortably covers
+  fine-tuning within a band — a 10.5° head plays anywhere from about 9.5° to 12°. What
+  it does not do is turn a tour head into a beginner&rsquo;s driver: the head&rsquo;s
+  centre of gravity and face design are built around its stated loft. Buy the loft in
+  the middle of your band and adjust from there; the
+  <a href="/driver-lofts/">driver loft chart</a> lists what each brand sells.</p>
+
+  <h2>Related guides</h2>
+  {driver_guide_cards(exclude=slug)}
+
+  {faq_html}
+
+  {DRIVER_SOURCES}
+</div>
+"""
+    page(f"/guides/{slug}/", title, desc, body, brands,
+         [bc, article_ld, faq_ld], og_type="article")
+
+
+def driver_beginner_guide(brands):
+    slug = "best-driver-loft-for-beginners"
+    title = fit_title("Best Driver Loft for Beginners", " — 10.5° or 12°?",
+                      f" | {SITE_NAME}")
+    desc = fit_desc(
+        "The best driver loft for beginners is 10.5° to 12°. ",
+        ["Higher loft launches the ball, spins it straighter and keeps slices "
+         "and thin strikes in play — here is why.",
+         "Higher loft launches the ball, flies straighter and keeps mis-hits in "
+         "play — here is why.",
+         "Why higher loft launches, straightens and forgives."])
+
+    nav, bc = crumbs([("Home", "/"), ("Driver Lofts", "/driver-lofts/"),
+                      ("Best Loft for Beginners", None)])
+
+    cmp_rows = [
+        ("Launch", "Low — drives often never reach full height",
+         "Mid-high — reaches a full flight window", "High — maximum airtime"),
+        ("Backspin", "Too little at slow speeds; ball falls out of the air",
+         "Enough to hold the ball up", "Plenty — flight stays stable"),
+        ("Slice behaviour", "Sidespin dominates — big curves",
+         "Noticeably straighter", "Straightest of the three"),
+        ("Typical carry", "Shortest — low, diving flight",
+         "Longer — full carry window", "Longest for most beginners"),
+        ("Thin / low-face strikes", "Often top or skim along the ground",
+         "Usually still airborne", "Most survivable"),
+    ]
+    cmp_html = "".join(
+        f'<tr><th scope="row">{esc(k)}</th><td>{esc(a)}</td><td>{esc(b)}</td>'
+        f"<td>{esc(c)}</td></tr>" for k, a, b, c in cmp_rows)
+
+    faq = [
+        ("Is a 12 degree driver good for a beginner?",
+         "Yes — for most beginners it is the better buy. Twelve degrees launches "
+         "the ball properly at slower swing speeds, spins it straight enough to "
+         "tame the early slice, and turns low-face strikes into playable drives "
+         "instead of tops."),
+        ("Should a beginner use a 9.5 degree driver?",
+         "Almost never. A 9.5 degree face needs around 100 mph of clubhead speed "
+         "to fly properly, and most beginners swing 75 to 90 mph. The result is a "
+         "low, curving drive that costs both carry and confidence. Loft is the "
+         "cheapest forgiveness there is."),
+        ("Do beginners lose distance with a 12 degree driver?",
+         "No — they usually gain it. Below roughly 90 mph of swing speed, the "
+         "extra launch and spin of a 12 degree face keep the ball in the air "
+         "longer, and total carry goes up, not down. Lower lofts only win once "
+         "swing speed can support them."),
+        ("What about 13 and 14 degree high-launch drivers?",
+         "Worth a look below about 75 mph of swing speed. Most manufacturers "
+         "build a lightweight high-launch version of their flagship driver at "
+         "12 to 13.5 degrees for exactly this player, often with a draw bias "
+         "added."),
+    ]
+    faq_html, faq_ld = faq_block(faq)
+
+    article_ld = driver_article_ld(
+        "Best Driver Loft for Beginners", desc, f"/guides/{slug}/",
+        "best driver loft for beginners, beginner driver loft, "
+        "12 degree driver beginner, high handicap driver loft")
+
+    body = f"""{nav}
+<div class="wrap">
+  <div class="page-head">
+    <h1>Best Driver Loft for Beginners</h1>
+    <p class="lede">The short answer is more loft than you think — and the reasons are
+    physics, not politeness.</p>
+  </div>
+
+  <p><strong>The best driver loft for most beginners is 10.5° to 12°.</strong> Pick 12°
+  if your drives fly low, slice hard or carry under about 180 yards; pick 10.5° if you
+  already flight the ball well and are gaining speed. What almost no beginner should buy
+  is the 8°–9.5° head the marketing is photographed with — those lofts are built for
+  swing speeds most golfers never reach.</p>
+
+  <h2>Why higher loft helps a new golfer</h2>
+  <p>Three separate effects stack in the same direction.</p>
+  <ul>
+    <li><strong>Carry.</strong> A beginner&rsquo;s swing speed — typically 75–90 mph —
+    produces a ball speed that needs a high launch and generous backspin to stay
+    airborne. Loft supplies both. The same swing that dribbles a 9° driver flights a
+    12° one.</li>
+    <li><strong>Straighter flight.</strong> Loft adds backspin, and backspin crowds out
+    the tilt that turns a drive into a slice. The physics is blunt: the more backspin on
+    the ball, the smaller the share of its spin that can curve it sideways. A 12° driver
+    does not cure a slice, but it shrinks one visibly.</li>
+    <li><strong>Mis-hit margin.</strong> Beginners strike the bottom half of the face
+    far more often than the middle. Low-face contact delofts the club at the worst
+    moment; starting from 12° leaves enough loft behind for the ball to fly anyway,
+    where the same strike on a 9° face skims the ground.</li>
+  </ul>
+
+  <h2>The same swing at 9°, 10.5° and 12°</h2>
+  <div class="table-scroll"><table class="specs">
+    <caption>What each loft gives a typical beginner&rsquo;s swing (around 80–90 mph).</caption>
+    <thead><tr><th scope="col"></th><th scope="col">9°</th>
+    <th scope="col">10.5°</th><th scope="col">12°</th></tr></thead>
+    <tbody>{cmp_html}</tbody></table></div>
+  <p class="table-note">Directional tendencies, not lab numbers — strike quality moves
+  every row. The pattern is what matters: at beginner speeds, every column improves as
+  loft goes up.</p>
+
+  <h2>Choosing between 10.5° and 12°</h2>
+  <p>Both are defensible; the tiebreakers are flight and miss. Drives that come off low
+  and run out of air, a slice that starts the ball right and keeps going, or a carry
+  under about 180 yards all point to 12°. A beginner who already launches the ball well
+  — often a younger player, or one arriving from another hitting sport — can take 10.5°
+  and grow into it, especially since a modern
+  <a href="/driver-lofts/">adjustable hosel</a> will let it play anywhere from 9.5° to
+  12°. The full comparison is in the
+  <a href="/guides/10-5-vs-12-degree-driver/">10.5° vs 12° guide</a>.</p>
+
+  <h2>Buy the forgiving version, not the tour version</h2>
+  <p>Every manufacturer sells its driver in a standard head, a low-spin tour head, and a
+  forgiving high-launch or draw-biased head. Beginners belong in the third column — the
+  Max, HL and D-type builds — which is also where the 12° and 13° lofts live. The
+  <a href="/driver-lofts/">driver loft chart</a> lists what each brand currently
+  offers, and the <a href="/guides/driver-loft-by-swing-speed/">swing speed guide</a>
+  shows where you will sit as your speed builds.</p>
+
+  <h2>Related guides</h2>
+  {driver_guide_cards(exclude=slug)}
+
+  {faq_html}
+
+  {DRIVER_SOURCES}
+</div>
+"""
+    page(f"/guides/{slug}/", title, desc, body, brands,
+         [bc, article_ld, faq_ld], og_type="article")
+
+
+def driver_10_5_vs_12(brands):
+    slug = "10-5-vs-12-degree-driver"
+    title = fit_title("10.5 vs 12 Degree Driver", " — Which Loft?", f" | {SITE_NAME}")
+    desc = fit_desc(
+        "10.5° suits driver swings of roughly 90 mph and up; 12° launches higher "
+        "and flies straighter below that. ",
+        ["Launch, spin, carry and slice correction compared.",
+         "Launch, spin and carry compared.",
+         "Full loft comparison."])
+
+    nav, bc = crumbs([("Home", "/"), ("Driver Lofts", "/driver-lofts/"),
+                      ("10.5° vs 12°", None)])
+
+    cmp_rows = [
+        ("Best-fit swing speed", "Roughly 90–105 mph", "Roughly 70–90 mph"),
+        ("Launch", "Mid — 12°–14° for most", "High — 14°–17° for most"),
+        ("Backspin", "Moderate", "Higher — flight holds up longer"),
+        ("Flight shape", "Flatter, more roll-out", "Higher peak, steeper landing, less roll"),
+        ("Slice correction", "Some", "More — extra backspin straightens curve"),
+        ("Typical buyer", "Average and faster amateurs", "Slower swings, beginners, high launch seekers"),
+    ]
+    cmp_html = "".join(
+        f'<tr><th scope="row">{esc(k)}</th><td>{esc(a)}</td><td>{esc(b)}</td></tr>'
+        for k, a, b in cmp_rows)
+
+    faq = [
+        ("Is a 12 degree driver too much loft?",
+         "Not below about 90 mph of swing speed — there it is usually the longer "
+         "club, because the extra launch and spin keep the ball airborne. Above "
+         "roughly 95 mph, 12 degrees starts to balloon and shed distance, and "
+         "10.5 or less fits better."),
+        ("Will I lose distance going from 10.5 to 12 degrees?",
+         "Only if your swing is fast enough that 10.5 already launches properly. "
+         "For slower swings the move usually adds carry; for a 100 mph swing it "
+         "usually costs a handful of yards of ballooning flight and roll-out."),
+        ("Can I just adjust a 10.5 driver up to 12?",
+         "Usually, yes. Most adjustable hosels add at least 1.5 degrees, taking a "
+         "10.5 head to 12. Two caveats: adding loft also closes the face slightly, "
+         "and the head is still built around 10.5, so a player who knows they need "
+         "12 is better served buying it."),
+        ("Does a 12 degree driver help a slice?",
+         "It helps, without curing it. More loft means more backspin, which "
+         "reduces the sideways tilt of the spin axis, so the same swing curves "
+         "less. Combined with a draw-biased head it is the standard "
+         "equipment-side answer to a slice."),
+    ]
+    faq_html, faq_ld = faq_block(faq)
+
+    article_ld = driver_article_ld(
+        "10.5 vs 12 Degree Driver", desc, f"/guides/{slug}/",
+        "10.5 vs 12 degree driver, 12 degree driver, driver loft comparison")
+
+    body = f"""{nav}
+<div class="wrap">
+  <div class="page-head">
+    <h1>10.5° vs 12° Driver</h1>
+    <p class="lede">One and a half degrees, and the most common upgrade question at the
+    forgiving end of the rack.</p>
+  </div>
+
+  <p><strong>10.5° fits driver swings of roughly 90 mph and up; 12° is the better fit
+  below that.</strong> The dividing line is whether your swing generates the ball speed
+  to launch a 10.5° face properly. If it does, 12° trades a little distance for height;
+  if it does not, 12° is both the straighter and the longer club — the rare equipment
+  choice with no real downside.</p>
+
+  <h2>Side by side</h2>
+  <div class="table-scroll"><table class="specs">
+    <caption>10.5° and 12° drivers compared for a typical amateur swing.</caption>
+    <thead><tr><th scope="col"></th><th scope="col">10.5°</th>
+    <th scope="col">12°</th></tr></thead>
+    <tbody>{cmp_html}</tbody></table></div>
+  <p class="table-note">Launch and spin figures assume a centred strike at the speeds
+  shown; attack angle moves both. Loft on the face at impact also depends on shaft bend
+  and delivery, which is why fitted numbers beat chart numbers.</p>
+
+  <h2>The carry question, honestly</h2>
+  <p>At 80–85 mph, the 12° driver typically carries further — the 10.5° flight peaks too
+  low and lands early, while the extra loft buys hang time the swing cannot. Around
+  90 mph the two carry within a few yards of each other and the choice becomes flight
+  preference. By 100 mph the 12° is clearly shorter, spinning up and climbing instead of
+  driving forward. Distance is an argument <em>for</em> 12° at the speeds most people
+  who ask this question actually swing at — see the
+  <a href="/guides/driver-loft-by-swing-speed/">loft by swing speed chart</a> for the
+  full bands.</p>
+
+  <h2>The slice factor</h2>
+  <p>The 12° head is meaningfully straighter for a slicer. Extra loft adds backspin, and
+  backspin crowds out the axis tilt that curves the ball; the same out-to-in swing that
+  slices a 10.5° driver 40 yards might slice a 12° one 25. Manufacturers know it, which
+  is why draw-biased heads are routinely offered at 12° and rarely at 9°.</p>
+
+  <h2>Splitting the difference</h2>
+  <p>Most current adjustable hosels take a 10.5° head to 12° — a legitimate way to test
+  the question with a driver you already own. Turn it up, play a month, and watch carry
+  and dispersion rather than looks at address. Remember that lofting up closes the face
+  fractionally, and that the reverse experiment (buying 12° and turning it down) gives
+  the same coverage. The <a href="/driver-lofts/">driver loft chart</a> lists each
+  brand&rsquo;s stock lofts and adjustment ranges. If you are choosing your first
+  driver rather than tuning one, start with the
+  <a href="/guides/best-driver-loft-for-beginners/">beginner loft guide</a>.</p>
+
+  <h2>Related guides</h2>
+  {driver_guide_cards(exclude=slug)}
+
+  {faq_html}
+
+  {DRIVER_SOURCES}
+</div>
+"""
+    page(f"/guides/{slug}/", title, desc, body, brands,
+         [bc, article_ld, faq_ld], og_type="article")
+
+
+def driver_9_vs_10_5(brands):
+    slug = "9-vs-10-5-degree-driver"
+    title = fit_title("9 vs 10.5 Degree Driver", " — Which to Play?", f" | {SITE_NAME}")
+    desc = fit_desc(
+        "A 9° driver only out-carries a 10.5° at swing speeds around 100 mph and "
+        "above. ",
+        ["Side-by-side launch, spin and carry, plus how attack angle moves the "
+         "threshold.",
+         "Side-by-side launch, spin and carry comparison.",
+         "Full loft comparison with carry figures."])
+
+    nav, bc = crumbs([("Home", "/"), ("Driver Lofts", "/driver-lofts/"),
+                      ("9° vs 10.5°", None)])
+
+    cmp_rows = [
+        ("Best-fit swing speed", "Roughly 100+ mph", "Roughly 85–105 mph"),
+        ("Launch", "Low-mid — 10°–13°", "Mid — 12°–15°"),
+        ("Backspin", "Lower — flight can knuckle if underspun", "Moderate — stable flight"),
+        ("Flight shape", "Flat, penetrating, more roll", "Higher carry, softer landing"),
+        ("Wind performance", "Stronger into wind", "More affected into wind"),
+        ("Mis-hit tolerance", "Less — low strikes dive", "More — mis-hits stay airborne"),
+        ("Typical buyer", "Fast, low-spin players", "The broad middle of amateur golf"),
+    ]
+    cmp_html = "".join(
+        f'<tr><th scope="row">{esc(k)}</th><td>{esc(a)}</td><td>{esc(b)}</td></tr>'
+        for k, a, b in cmp_rows)
+
+    faq = [
+        ("Is a 9 degree driver harder to hit?",
+         "Yes, at most amateur speeds. Less loft means less backspin, so mis-hits "
+         "curve more and low-face strikes dive. The penetrating flight that makes "
+         "9 degrees attractive only appears when ball speed is high enough to "
+         "sustain it — around 100 mph of clubhead speed and up."),
+        ("Will a 9 degree driver go further than a 10.5?",
+         "Only for fast swingers. Above roughly 100 to 105 mph, the lower loft "
+         "turns extra ball speed into a flatter, longer flight with more roll. "
+         "Below that, the 9 degree launches too low and lands short of the 10.5 — "
+         "lower loft is a reward for speed, not a source of it."),
+        ("What swing speed do you need for a 9 degree driver?",
+         "Around 100 mph as a floor, and 105-plus to get the full benefit — "
+         "carrying a 250 yard drive on a 9 degree face takes serious ball speed. "
+         "Players who hit up on the ball 3 to 4 degrees can run a 9 at slightly "
+         "lower speeds, because the upward strike adds launch the loft does "
+         "not."),
+        ("Why do pros use 9 degree drivers when amateurs shouldn't?",
+         "Because at 115 to 125 mph, spin is the enemy and launch comes free. "
+         "Tour players fight excess spin that costs them distance, so they play "
+         "8 to 10 degrees; an amateur at 90 mph has the opposite problem and "
+         "needs the loft they are giving up."),
+    ]
+    faq_html, faq_ld = faq_block(faq)
+
+    article_ld = driver_article_ld(
+        "9 vs 10.5 Degree Driver", desc, f"/guides/{slug}/",
+        "9 vs 10.5 degree driver, 9 degree driver, driver loft comparison")
+
+    body = f"""{nav}
+<div class="wrap">
+  <div class="page-head">
+    <h1>9° vs 10.5° Driver</h1>
+    <p class="lede">The classic loft question — and the one where ego most reliably picks
+    the wrong answer.</p>
+  </div>
+
+  <p><strong>A 9° driver only beats a 10.5° at swing speeds around 100 mph and
+  above.</strong> Below that threshold the lower loft launches too low, spins too
+  little, and lands short — which is why 10.5° is the right call for the broad middle
+  of amateur golf, and why 9° heads outsell their fit. Lower loft is a reward for ball
+  speed, not a shortcut to it.</p>
+
+  <h2>Side by side</h2>
+  <div class="table-scroll"><table class="specs">
+    <caption>9° and 10.5° drivers compared across the speeds amateurs actually swing at.</caption>
+    <thead><tr><th scope="col"></th><th scope="col">9°</th>
+    <th scope="col">10.5°</th></tr></thead>
+    <tbody>{cmp_html}</tbody></table></div>
+  <p class="table-note">Tendencies for a centred strike. Modern low-spin heads have
+  pushed the workable speed for 9° slightly lower than older designs, but the physics
+  of the threshold has not moved.</p>
+
+  <h2>Where the 100 mph threshold comes from</h2>
+  <p>Maximum carry wants launch and spin matched to ball speed. At 100+ mph of clubhead
+  speed, a 9° face still launches near 11°–12° with spin low enough to fly flat and run
+  — the classic strong-player flight. At 90 mph, that same face launches around 9°–10°
+  with under 2,000 rpm on mis-hits, and the ball simply runs out of lift. The 10.5°
+  covers both cases adequately; the 9° covers only the first. The full band-by-band
+  breakdown is in the
+  <a href="/guides/driver-loft-by-swing-speed/">loft by swing speed guide</a>.</p>
+
+  <h2>The exceptions that make 9° work at lower speeds</h2>
+  <p>Two player types can legitimately play 9° in the mid-90s mph. Players who hit up on
+  the ball steeply — positive attack angles of 3°–5°, common in long-drive technique —
+  add launch at impact and can pair it with low loft. And naturally high-spin players,
+  who balloon everything, sometimes use lower loft to pull spin back into the window.
+  Both cases show up on a launch monitor, not in a mirror: the fitting data, not the
+  stamp, makes the call.</p>
+
+  <h2>Buying advice</h2>
+  <p>If you are between the two, take the 10.5° — its adjustable hosel almost certainly
+  reaches 9.5° or 9° anyway, while a 9° head turned up plays with a slightly closed
+  face it was not designed around. Check your carry distance honestly against the
+  <a href="/guides/driver-loft-by-swing-speed/">swing speed chart</a>, and see the
+  <a href="/driver-lofts/">driver loft chart</a> for what each manufacturer builds at
+  each loft.</p>
+
+  <h2>Related guides</h2>
+  {driver_guide_cards(exclude=slug)}
+
+  {faq_html}
+
+  {DRIVER_SOURCES}
+</div>
+"""
+    page(f"/guides/{slug}/", title, desc, body, brands,
+         [bc, article_ld, faq_ld], og_type="article")
+
+
+def driver_pages(brands):
+    driver_index(brands)
+    driver_speed_guide(brands)
+    driver_beginner_guide(brands)
+    driver_10_5_vs_12(brands)
+    driver_9_vs_10_5(brands)
+
+
+# --------------------------------------------------------------------------
 # feeds
 # --------------------------------------------------------------------------
 
@@ -2563,6 +3340,7 @@ def main():
     categories_index(by_cat, brands, models)
 
     wedge_pages(models, brands)
+    driver_pages(brands)
 
     homepage(brands, models, by_brand)
     about_page(brands, models)
@@ -2582,8 +3360,10 @@ def main():
     thin_years = [y for y, ms in by_year.items() if len(ms) < YEAR_MIN_MODELS]
     urls = [("/", "1.0"), ("/brands/", "0.8"), ("/years/", "0.6"),
             ("/category/", "0.6"), ("/wedge-lofts/", "0.9"),
+            ("/driver-lofts/", "0.9"),
             ("/about/", "0.4"), ("/privacy/", "0.2")]
     urls += [(f"/wedge-lofts/{w['slug']}/", "0.8") for w in WEDGE_TYPES]
+    urls += [(f"/guides/{g['slug']}/", "0.8") for g in DRIVER_GUIDES]
     urls += [(m["url"], "0.9") for m in models]
     urls += [(f"/{b['slug']}/", "0.8") for b in brands if by_brand.get(b["slug"])]
     urls += [(f"/years/{y}/", "0.5") for y in by_year if y not in thin_years]
