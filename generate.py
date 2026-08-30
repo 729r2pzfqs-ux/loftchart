@@ -39,12 +39,13 @@ EMAIL = "info@loftchart.com"
 # layer for any other scraper that does not decode them.
 EMAIL_HTML = EMAIL.replace("@", "&#64;").replace(".", "&#46;")
 EMAIL_OFF = "<!--email_off-->"
+EMAIL_OFF_END = "<!--/email_off-->"
 
 
 def email_link(text=None):
     """A mailto: anchor fenced off from Cloudflare's email obfuscator."""
     return (f'{EMAIL_OFF}<a href="mailto:{EMAIL_HTML}">'
-            f'{EMAIL_HTML if text is None else text}</a>{EMAIL_OFF}')
+            f'{EMAIL_HTML if text is None else text}</a>{EMAIL_OFF_END}')
 TODAY = date.today().isoformat()
 
 CLUB_TYPE_LABEL = {
@@ -244,7 +245,7 @@ def ldjson(obj):
     # the email_off markers Cloudflare's obfuscator honours.
     payload = json.dumps(obj, ensure_ascii=False, separators=(",", ":"))
     tag = '<script type="application/ld+json">' + payload + "</script>"
-    return EMAIL_OFF + tag + EMAIL_OFF if EMAIL in payload else tag
+    return EMAIL_OFF + tag + EMAIL_OFF_END if EMAIL in payload else tag
 
 
 def write(path, content):
