@@ -1092,26 +1092,11 @@ def compare_slug(a, b):
     return f"{a['brand_slug']}-{ab}-vs-{b['brand_slug']}-{bb}"
 
 
-# A comparison table is only worth a page if it actually shows differences.
-# Below this many highlighted cells the page is two copies of the same chart
-# with a verdict paragraph on top — thin content, and 65 pairs had zero.
-MIN_COMPARE_DIFFS = 3
-
-
-def spec_diff_count(a, b):
-    """Number of highlighted cells the compare table would render for this pair."""
-    aspec = {r["club"]: r for r in a["specs"]}
-    bspec = {r["club"]: r for r in b["specs"]}
-    n = 0
-    for c in set(aspec) & set(bspec):
-        ra, rb = aspec[c], bspec[c]
-        for k in ("loft", "lie", "length"):
-            va, vb = ra.get(k), rb.get(k)
-            if va is not None and vb is not None and va != vb:
-                n += 1
-    return n
-
-
+# Every declared pair gets a page, identical specs included. Pairs with few
+# differing cells were once dropped as thin content, but Google had already
+# indexed those URLs and reported them as 404s; the pages are noindexed
+# anyway, and "the lofts are identical" is itself the answer people searching
+# a comparison want.
 def find_pairs(models, by_key):
     """Pair each model with its declared predecessor/successor when both are on file."""
     pairs = OrderedDict()
@@ -1579,6 +1564,34 @@ def not_found(brands):
     write("404.html", head("Page not found | " + SITE_NAME,
                            "The page you requested could not be found.",
                            "/404.html", noindex=True) + body + foot(brands))
+
+
+# Crawled URLs that never had a page and never will — mostly mis-parsed slugs
+# search engines picked up. GitHub Pages cannot serve a 301, so each one gets
+# a stub that meta-refreshes to the real page and declares it canonical.
+REDIRECTS = {
+    # "1100s" is a mangled crawl of the T100S; the T150 replaced that model.
+    "/compare/titleist-1100s-vs-t150/": "/compare/titleist-t100s-vs-t150/",
+}
+
+
+def redirect_pages():
+    for old, new in REDIRECTS.items():
+        target = os.path.join(OUT, new.lstrip("/"), "index.html")
+        if not os.path.exists(target):
+            raise SystemExit(f"redirect target missing: {old} -> {new}")
+        write(old.rstrip("/") + "/index.html", f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Redirecting</title>
+<meta name="robots" content="noindex">
+<meta http-equiv="refresh" content="0;url={new}">
+<link rel="canonical" href="{SITE}{new}">
+</head>
+<body><p>This page has moved to <a href="{new}">{SITE}{new}</a>.</p></body>
+</html>
+""")
 
 
 # --------------------------------------------------------------------------
@@ -3348,8 +3361,6 @@ def main():
 
     # comparison pages first, so model pages can link to them
     pairs = find_pairs(models, by_key)
-    skipped = [(a, b) for a, b in pairs if spec_diff_count(a, b) < MIN_COMPARE_DIFFS]
-    pairs = [(a, b) for a, b in pairs if spec_diff_count(a, b) >= MIN_COMPARE_DIFFS]
     pairs_built = []
     compares_by_key = defaultdict(list)
     for a, b in pairs:
@@ -3382,6 +3393,7 @@ def main():
     about_page(brands, models)
     privacy_page(brands)
     not_found(brands)
+    redirect_pages()
 
     audit_descriptions()
     audit_titles()
@@ -3407,8 +3419,7 @@ def main():
     sitemap(urls)
 
     print(f"Built {len(models)} models, {len([b for b in brands if by_brand.get(b['slug'])])} "
-          f"brands, {len(pairs_built)} comparisons "
-          f"({len(skipped)} pairs skipped for <{MIN_COMPARE_DIFFS} differing cells), "
+          f"brands, {len(pairs_built)} comparisons, {len(REDIRECTS)} redirect stubs, "
           f"{len(urls)} indexable URLs, {len(thin_years)} year pages noindexed → {OUT}")
     if errors:
         print(f"({len(errors)} non-fatal data warnings — see above)")
