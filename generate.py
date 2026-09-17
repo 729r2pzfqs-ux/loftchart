@@ -30,6 +30,7 @@ SITE_NAME = "LoftChart"
 # collects nothing in return.
 GA_ID = "G-0LYNSK0WVL"
 GA_ENABLED = bool(GA_ID) and GA_ID != "G-XXXXXXXXXX"
+ADSENSE_CLIENT = "ca-pub-5861928596436289"
 EMAIL = "info@loftchart.com"
 # Cloudflare's email obfuscation rewrites any literal mailto: it finds into a
 # /cdn-cgi/l/email-protection URL that 404s for crawlers without JS, so every page
@@ -355,6 +356,10 @@ def head(title, desc, path, ld=None, og_type="website", noindex=False):
         "function gtag(){dataLayer.push(arguments);}"
         f"gtag('js',new Date());gtag('config','{GA_ID}');</script>"
     ) if GA_ENABLED else ""
+    adsense = (
+        '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
+        f'?client={ADSENSE_CLIENT}" crossorigin="anonymous"></script>'
+    ) if ADSENSE_CLIENT else ""
     robots = '<meta name="robots" content="noindex,follow">' if noindex else ""
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -384,6 +389,7 @@ def head(title, desc, path, ld=None, og_type="website", noindex=False):
 <link rel="stylesheet" href="/css/style.css">
 {ldblocks}
 {analytics}
+{adsense}
 <script src="https://analytics.ahrefs.com/analytics.js" data-key="Q1ltvzQDnlsCUSrZfvGd0g" async></script>
 </head>
 <body>
@@ -1504,6 +1510,17 @@ def privacy_page(brands):
   <a href="https://tools.google.com/dlpage/gaoptout" rel="noopener">Google Analytics opt-out
   browser add-on</a>, or by blocking cookies in your browser settings.</p>""" if GA_ENABLED else """  <p>We do not run analytics on this site. No analytics or advertising cookies are set, and
   we do not build any profile of you or your visit.</p>"""
+    advertising_section = """  <h2>Advertising</h2>
+  <p>We use Google AdSense to show ads. Google and its partners use cookies to serve ads
+  based on your prior visits to this and other websites. Google&rsquo;s use of advertising
+  cookies enables it and its partners to serve ads based on your visits to this site and/or
+  other sites on the Internet. You can opt out of personalised advertising in
+  <a href="https://adssettings.google.com" rel="noopener">Google&rsquo;s Ads Settings</a>,
+  or opt out of some third-party vendors&rsquo; use of cookies for personalised advertising at
+  <a href="https://www.aboutads.info/choices/" rel="noopener">aboutads.info</a>. See
+  <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">how Google
+  uses information from sites that use its services</a>.</p>
+""" if ADSENSE_CLIENT else ""
     body = f"""{nav}
 <div class="wrap narrow">
   <div class="page-head">
@@ -1517,6 +1534,7 @@ def privacy_page(brands):
   <h2>Analytics</h2>
 {analytics_section}
 
+{advertising_section}
   <h2>Fonts</h2>
   <p>Typefaces are served from Google Fonts, which means your browser makes a request to
   Google&rsquo;s servers when a page loads. That request includes your IP address and user
