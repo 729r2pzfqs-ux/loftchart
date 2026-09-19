@@ -602,3 +602,14 @@ main { flex: 1 0 auto; }
   body { background: #fff; }
   .table-scroll { overflow: visible; box-shadow: none; }
 }
+
+/* ---------- ad exclusion zone ----------
+   Google Auto Ads places its own containers anywhere in the page flow. Every
+   spec table is wrapped in .data-table-zone (id kept as an equivalent hook),
+   so any placement landing inside the club data is hidden rather than allowed
+   to break up the rows readers came for. */
+
+#data-table-zone .google-auto-placed,
+#data-table-zone ins.adsbygoogle,
+.data-table-zone .google-auto-placed,
+.data-table-zone ins.adsbygoogle { display: none !important; }

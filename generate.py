@@ -545,7 +545,7 @@ def spec_table(m, caption=None):
         body.append(f'<tr><th scope="row">{esc(r["club"])}</th>{"".join(cells)}</tr>')
 
     cap = f"<caption>{esc(caption)}</caption>" if caption else ""
-    return (f'<div class="table-scroll"><table class="specs">{cap}'
+    return (f'<div class="table-scroll data-table-zone"><table class="specs">{cap}'
             f'<thead><tr><th scope="col">Club</th>{thead}</tr></thead>'
             f'<tbody>{"".join(body)}</tbody></table></div>')
 
@@ -1037,7 +1037,7 @@ def category_page(cat, ms, brands):
     <p class="lede">{esc(CATEGORY_BLURB.get(cat, ''))}</p>
   </div>
   <h2>7-iron specifications compared</h2>
-  <div class="table-scroll"><table class="specs">
+  <div class="table-scroll data-table-zone"><table class="specs">
     <thead><tr><th scope="col">Model</th><th scope="col">Years</th><th scope="col">Loft (°)</th>
     <th scope="col">Lie (°)</th><th scope="col">Length (in)</th></tr></thead>
     <tbody>{rows}</tbody></table></div>
@@ -1258,7 +1258,7 @@ def compare_page(a, b, brands):
   <div class="cmp-cols">{col_card(a)}{col_card(b)}</div>
 
   <h2>Specification comparison</h2>
-  <div class="table-scroll"><table class="specs">
+  <div class="table-scroll data-table-zone"><table class="specs">
     <thead><tr><th scope="col">Club</th>{head_cells}</tr></thead>
     <tbody>{''.join(rows)}</tbody></table></div>
   <p class="table-note">Highlighted cells differ between the two sets. Lofts and lies are
@@ -1873,7 +1873,7 @@ def wedge_ladder_table(current=None):
                 else f'<a href="/wedge-lofts/{slug}/">{esc(name)}</a>')
         rows.append(f'<tr><th scope="row">{cell}</th><td>{esc(abbr)}</td>'
                     f"<td>{band}</td><td>{esc(carry)}</td></tr>")
-    return f"""<div class="table-scroll"><table class="specs">
+    return f"""<div class="table-scroll data-table-zone"><table class="specs">
     <caption>The wedge ladder — typical lofts and full-swing carry for an average
     male amateur.</caption>
     <thead><tr><th scope="col">Wedge</th><th scope="col">Marked</th>
@@ -1884,7 +1884,7 @@ def wedge_ladder_table(current=None):
 def wedge_distance_table(w):
     rows = "".join(f'<tr><th scope="row">{esc(label)}</th><td>{esc(carry)}</td></tr>'
                    for label, carry in w["distances"])
-    return f"""<div class="table-scroll"><table class="specs">
+    return f"""<div class="table-scroll data-table-zone"><table class="specs">
     <caption>Typical full-swing carry distance for {w["article"].lower()} {esc(w["name"].lower())}.</caption>
     <thead><tr><th scope="col">{WEDGE_DISTANCE_HEAD[0]}</th>
     <th scope="col">{WEDGE_DISTANCE_HEAD[1]}</th></tr></thead>
@@ -1912,7 +1912,7 @@ def wedge_extra_section(slug, models, pairs, stats):
   in the set it absorbs the whole shift. That is why a modern 7-iron can fly as far as a
   1990s 5-iron, and why the club stamped &ldquo;PW&rdquo; in one bag is not the same club
   as the PW in another.</p>
-  <div class="table-scroll"><table class="specs">
+  <div class="table-scroll data-table-zone"><table class="specs">
     <caption>Pitching wedge loft by decade of release, across the {len(pairs)} sets on
     file here.</caption>
     <thead><tr><th scope="col">Released</th><th scope="col">Sets on file</th>
@@ -1997,7 +1997,7 @@ def wedge_extra_section(slug, models, pairs, stats):
   describe the wedge that sits between the pitching wedge and the sand wedge, at 48°–52°.
   Only the stamping differs, and the stamping is a marketing decision — which is why the
   labels below all appear on sets in this archive at effectively the same loft.</p>
-  <div class="table-scroll"><table class="specs">
+  <div class="table-scroll data-table-zone"><table class="specs">
     <caption>What each manufacturer calls the wedge below the pitching wedge.</caption>
     <thead><tr><th scope="col">Marked</th><th scope="col">Used by</th></tr></thead>
     <tbody>{rows}</tbody></table></div>
@@ -2193,7 +2193,7 @@ def wedge_page(w, models, brands):
   <h2>{esc(name)} loft by brand</h2>
   <p>Every figure below is taken from the factory spec charts on this site, covering sets
   introduced from {WEDGE_ERA} onward.</p>
-  <div class="table-scroll"><table class="specs">
+  <div class="table-scroll data-table-zone"><table class="specs">
     <caption>{esc(name)} loft by manufacturer, sets introduced {WEDGE_ERA} or later.</caption>
     <thead><tr><th scope="col">Brand</th><th scope="col">Sets on file</th>
     <th scope="col">Loft range</th><th scope="col">Most common</th></tr></thead>
@@ -2365,7 +2365,7 @@ def wedge_index(models, brands):
     together — with the loft figures taken from the factory spec charts on this site.</p>
   </div>
 
-  <div class="table-scroll"><table class="specs">
+  <div class="table-scroll data-table-zone"><table class="specs">
     <caption>Standard wedge lofts, typical carry for an average male amateur, and the
     bounce each wedge normally carries.</caption>
     <thead><tr><th scope="col">Wedge</th><th scope="col">Marked</th>
@@ -2403,7 +2403,7 @@ def wedge_index(models, brands):
   <p>Median loft for each wedge slot, across sets introduced {WEDGE_ERA} or later. A dash
   means the manufacturer does not supply that wedge with its iron sets often enough to give
   a meaningful figure — most brands leave the lob wedge to their specialty wedge line.</p>
-  <div class="table-scroll"><table class="specs">
+  <div class="table-scroll data-table-zone"><table class="specs">
     <caption>Median set-wedge loft by manufacturer, sets introduced {WEDGE_ERA} or later.</caption>
     <thead><tr><th scope="col">Brand</th><th scope="col">PW</th><th scope="col">GW</th>
     <th scope="col">AW</th><th scope="col">SW</th><th scope="col">LW</th></tr></thead>
@@ -2667,7 +2667,7 @@ def driver_index(brands):
   </dl>
 
   <h2>Driver lofts at a glance</h2>
-  <div class="table-scroll"><table class="specs">
+  <div class="table-scroll data-table-zone"><table class="specs">
     <caption>Which driver loft suits which swing — fitting windows, not hard rules.</caption>
     <thead><tr><th scope="col">Loft</th><th scope="col">Typical swing speed</th>
     <th scope="col">Who it suits</th><th scope="col">Flight</th></tr></thead>
@@ -2677,7 +2677,7 @@ def driver_index(brands):
   guide</a> walks through picking a number.</p>
 
   <h2>Stock driver lofts by brand</h2>
-  <div class="table-scroll"><table class="specs">
+  <div class="table-scroll data-table-zone"><table class="specs">
     <caption>Stock loft options for each manufacturer&rsquo;s current driver line.</caption>
     <thead><tr><th scope="col">Brand</th><th scope="col">Current line</th>
     <th scope="col">Stock lofts</th><th scope="col">Hosel adjustment</th></tr></thead>
@@ -2792,7 +2792,7 @@ def driver_speed_guide(brands):
   a driver lofted under 9° start paying for itself.</p>
 
   <h2>Recommended driver loft by swing speed</h2>
-  <div class="table-scroll"><table class="specs">
+  <div class="table-scroll data-table-zone"><table class="specs">
     <caption>Driver loft recommendations by clubhead speed, with typical well-struck
     carry for each band.</caption>
     <thead><tr><th scope="col">Swing speed</th><th scope="col">Recommended loft</th>
@@ -2930,7 +2930,7 @@ def driver_beginner_guide(brands):
   </ul>
 
   <h2>The same swing at 9°, 10.5° and 12°</h2>
-  <div class="table-scroll"><table class="specs">
+  <div class="table-scroll data-table-zone"><table class="specs">
     <caption>What each loft gives a typical beginner&rsquo;s swing (around 80–90 mph).</caption>
     <thead><tr><th scope="col"></th><th scope="col">9°</th>
     <th scope="col">10.5°</th><th scope="col">12°</th></tr></thead>
@@ -3036,7 +3036,7 @@ def driver_10_5_vs_12(brands):
   choice with no real downside.</p>
 
   <h2>Side by side</h2>
-  <div class="table-scroll"><table class="specs">
+  <div class="table-scroll data-table-zone"><table class="specs">
     <caption>10.5° and 12° drivers compared for a typical amateur swing.</caption>
     <thead><tr><th scope="col"></th><th scope="col">10.5°</th>
     <th scope="col">12°</th></tr></thead>
@@ -3154,7 +3154,7 @@ def driver_9_vs_10_5(brands):
   speed, not a shortcut to it.</p>
 
   <h2>Side by side</h2>
-  <div class="table-scroll"><table class="specs">
+  <div class="table-scroll data-table-zone"><table class="specs">
     <caption>9° and 10.5° drivers compared across the speeds amateurs actually swing at.</caption>
     <thead><tr><th scope="col"></th><th scope="col">9°</th>
     <th scope="col">10.5°</th></tr></thead>
