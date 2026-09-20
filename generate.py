@@ -350,11 +350,13 @@ def head(title, desc, path, ld=None, og_type="website", noindex=False):
     # but exempted from the audit since they never surface in search.
     DESC_REGISTRY[path] = {"desc": desc, "title": title, "noindex": noindex}
     ldblocks = "".join(ldjson(o) for o in (ld or []))
-    # Consent mode: deny every signal until the consent banner grants it. This
-    # has to run before the gtag snippet - once a tag has fired without a
-    # default, the hit has already gone out - so the dataLayer/gtag stub is
-    # defined here rather than alongside the config call below. wait_for_update
-    # holds the tag for 500ms so the CMP's update lands before the first hit.
+    # Consent mode: deny every signal until the CMP grants it. This has to be
+    # the first tag in the head - AdSense delivers the consent UI at runtime via
+    # adsbygoogle.js, so both that script and gtag must already see a default on
+    # the dataLayer, and once a tag has fired without one the hit has already
+    # gone out. The dataLayer/gtag stub is therefore defined here rather than
+    # alongside the config call below. wait_for_update holds the tags for 500ms
+    # so the CMP's update lands before the first hit.
     consent = (
         "<script>window.dataLayer=window.dataLayer||[];"
         "function gtag(){dataLayer.push(arguments);}"
@@ -398,8 +400,8 @@ def head(title, desc, path, ld=None, og_type="website", noindex=False):
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
 <link rel="stylesheet" href="/css/style.css">
 {ldblocks}
-{adsense}
 {consent}
+{adsense}
 {analytics}
 <script src="https://analytics.ahrefs.com/analytics.js" data-key="Q1ltvzQDnlsCUSrZfvGd0g" async></script>
 </head>
