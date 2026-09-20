@@ -31,6 +31,20 @@ SITE_NAME = "LoftChart"
 GA_ID = "G-0LYNSK0WVL"
 GA_ENABLED = bool(GA_ID) and GA_ID != "G-XXXXXXXXXX"
 ADSENSE_CLIENT = "ca-pub-5861928596436289"
+
+# Consent mode regions that default to denied: the EU27 plus the rest of the
+# EEA (IS/LI/NO), the UK and Switzerland. Google matches `region` on ISO 3166
+# codes, so Greece is GR here - the Eurostat spelling EL would match nothing
+# and silently drop Greek visitors onto the granted fallback. Everyone outside
+# this list gets the granted default from the second call.
+CONSENT_DENIED_REGIONS = [
+    "BE", "BG", "CZ", "DK", "DE", "EE", "IE", "GR", "ES", "FR", "HR", "IT",
+    "CY", "LV", "LT", "LU", "HU", "MT", "NL", "AT", "PL", "PT", "RO", "SI",
+    "SK", "FI", "SE", "GB", "CH", "IS", "LI", "NO",
+]
+# Rendered compact - Python's list repr pads after every comma, which is 31
+# wasted bytes on every page.
+CONSENT_REGION_JS = "[" + ",".join(f"'{c}'" for c in CONSENT_DENIED_REGIONS) + "]"
 EMAIL = "info@loftchart.com"
 # Cloudflare's email obfuscation rewrites any literal mailto: it finds into a
 # /cdn-cgi/l/email-protection URL that 404s for crawlers without JS, so every page
@@ -350,19 +364,27 @@ def head(title, desc, path, ld=None, og_type="website", noindex=False):
     # but exempted from the audit since they never surface in search.
     DESC_REGISTRY[path] = {"desc": desc, "title": title, "noindex": noindex}
     ldblocks = "".join(ldjson(o) for o in (ld or []))
-    # Consent mode: deny every signal until the CMP grants it. This has to be
-    # the first tag in the head - AdSense delivers the consent UI at runtime via
+    # Consent mode: deny every signal for EEA/UK/CH visitors until the CMP
+    # grants it, and grant by default everywhere else. This has to be the first
+    # tag in the head - AdSense delivers the consent UI at runtime via
     # adsbygoogle.js, so both that script and gtag must already see a default on
     # the dataLayer, and once a tag has fired without one the hit has already
     # gone out. The dataLayer/gtag stub is therefore defined here rather than
     # alongside the config call below. wait_for_update holds the tags for 500ms
-    # so the CMP's update lands before the first hit.
+    # so the CMP's update lands before the first hit; it only applies to the
+    # regional call, since the fallback is already granted and has nothing to
+    # wait for. The regional call is emitted first so the narrower rule is on
+    # the dataLayer before the catch-all.
     consent = (
         "<script>window.dataLayer=window.dataLayer||[];"
         "function gtag(){dataLayer.push(arguments);}"
         "gtag('consent','default',{'analytics_storage':'denied',"
         "'ad_storage':'denied','ad_user_data':'denied',"
-        "'ad_personalization':'denied','wait_for_update':500});</script>"
+        "'ad_personalization':'denied','wait_for_update':500,"
+        f"'region':{CONSENT_REGION_JS}}});"
+        "gtag('consent','default',{'analytics_storage':'granted',"
+        "'ad_storage':'granted','ad_user_data':'granted',"
+        "'ad_personalization':'granted'});</script>"
     ) if GA_ENABLED else ""
     analytics = (
         f'<script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>\n'
