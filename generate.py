@@ -350,11 +350,21 @@ def head(title, desc, path, ld=None, og_type="website", noindex=False):
     # but exempted from the audit since they never surface in search.
     DESC_REGISTRY[path] = {"desc": desc, "title": title, "noindex": noindex}
     ldblocks = "".join(ldjson(o) for o in (ld or []))
-    analytics = (
-        f'<script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>\n'
+    # Consent mode: deny every signal until the consent banner grants it. This
+    # has to run before the gtag snippet - once a tag has fired without a
+    # default, the hit has already gone out - so the dataLayer/gtag stub is
+    # defined here rather than alongside the config call below. wait_for_update
+    # holds the tag for 500ms so the CMP's update lands before the first hit.
+    consent = (
         "<script>window.dataLayer=window.dataLayer||[];"
         "function gtag(){dataLayer.push(arguments);}"
-        f"gtag('js',new Date());gtag('config','{GA_ID}');</script>"
+        "gtag('consent','default',{'analytics_storage':'denied',"
+        "'ad_storage':'denied','ad_user_data':'denied',"
+        "'ad_personalization':'denied','wait_for_update':500});</script>"
+    ) if GA_ENABLED else ""
+    analytics = (
+        f'<script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>\n'
+        f"<script>gtag('js',new Date());gtag('config','{GA_ID}');</script>"
     ) if GA_ENABLED else ""
     adsense = (
         '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
@@ -388,8 +398,9 @@ def head(title, desc, path, ld=None, og_type="website", noindex=False):
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
 <link rel="stylesheet" href="/css/style.css">
 {ldblocks}
-{analytics}
 {adsense}
+{consent}
+{analytics}
 <script src="https://analytics.ahrefs.com/analytics.js" data-key="Q1ltvzQDnlsCUSrZfvGd0g" async></script>
 </head>
 <body>
@@ -1506,7 +1517,9 @@ def privacy_page(brands):
   addresses are anonymised by Google Analytics 4 by default. This data is processed by Google
   and is governed by
   <a href="https://policies.google.com/privacy" rel="noopener">Google&rsquo;s privacy
-  policy</a>. You can opt out site-wide using the
+  policy</a>. Analytics and advertising storage start out denied on every page load, so
+  these cookies are only set once you consent to them; until then Google&rsquo;s tags run in
+  a mode that stores nothing on your device. You can opt out site-wide using the
   <a href="https://tools.google.com/dlpage/gaoptout" rel="noopener">Google Analytics opt-out
   browser add-on</a>, or by blocking cookies in your browser settings.</p>""" if GA_ENABLED else """  <p>We do not run analytics on this site. No analytics or advertising cookies are set, and
   we do not build any profile of you or your visit.</p>"""
