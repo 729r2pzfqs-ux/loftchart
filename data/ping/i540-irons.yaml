@@ -5,6 +5,7 @@ slug: i540-irons
 club_type: irons
 year_introduced: 2026
 year_discontinued: null
+current_as_of: "2026-09"
 category: players-distance
 construction: forged hollow body with a maraging steel face
 material: hollow 17-4 stainless body with a forged variable-thickness maraging steel face and tungsten sole weighting
@@ -95,6 +96,7 @@ sources:
   - "golfreviewsguide.com 'Ping i540 Irons 2026' — corroborated the 4-iron-through-UW range (19 to 47 degrees), the March 10 2026 launch date, the inR-Air and i-Beam descriptions and the Power Spec / Retro Spec loft options."
   - "Note: the published 4-6 iron lengths (39.25/38.5/37.75) are longer than the i530's (38.875/38.25/37.625) while the 7-iron down is unchanged; the 39.25-inch 4-iron matches the convention on Ping's current G440 spec sheet. Lofts, lies, bounce and swing weights are identical to the i530 table on ping.com."
   - "Note: year_discontinued is null and successor is null — the i540 is a current model with no successor announced in the sources retrieved."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Tagged as new among Ping's current irons (https://ping.com/en-us/golf-clubs/irons)."
 related_models:
   - slug: "ping/i530-irons"
     label: "Predecessor: Ping i530"

@@ -3,7 +3,7 @@ brand_slug: mizuno
 model: Pro 245
 slug: pro-245-irons
 club_type: irons
-year_introduced: 2024
+year_introduced: 2023
 year_discontinued: 2026
 category: players-distance
 construction: Grain Flow Forged HD, hollow body multi-material
@@ -20,6 +20,13 @@ description: >
   and gap wedge were each strengthened by a degree. The stock set is 2-GW in right hand
   and 4-GW in left. Lofts, lies and lengths listed are the men's standard steel-shaft
   build.
+length_note: >
+  These lengths are the figures Mizuno published at launch, measured by its
+  traditional method. Mizuno has since moved its spec tables to the USGA / R&A
+  method, which lists the same clubs about a quarter inch longer (37.25 inches
+  at the 7-iron rather than 37.0); Mizuno states that actual club length is
+  unchanged. Newer Mizuno charts, from the JPX925 onward, use the longer
+  figures.
 specs:
   - club: "2"
     loft: 16.5
@@ -95,10 +102,12 @@ stock_shafts:
     weight: "118-120 g"
     flex: ["S300", "X100"]
 sources:
+  - "Length basis: Mizuno's own specification page for the Mizuno Pro 243 (https://mizunogolf.com/us/golf-clubs/mp-series/mizuno-pro-243/club-specification/, retrieved 29 September 2026) states that Mizuno is changing its official iron measurement method to match the USGA / R&A standard and that its published lengths are consequently about 1/4 inch longer while actual club length is unchanged."
   - "Mizuno official Mizuno Pro 245 product page, mizunogolf.com/au/golf-clubs/mp-series/mizuno-pro-245/ (Specification tab: club, loft, lie, offset, length, bounce; dexterity RH 2-GW / LH 4-GW), archived 22 April 2024 via archive.org"
   - "Mizuno official Mizuno Pro 245 club-specification page, mizunogolf.com/us/golf-clubs/mp-series/mizuno-pro-245/club-specification/ (live, corroborating the same table)"
   - "Same product page, construction section (hollow body GFF 4135 Chromoly face and neck 2-8 iron, 46 g internal tungsten 2-7 iron, partial hollow 1025E scoring irons 9-GW)"
   - "year_discontinued is 2026: Mizuno announced the Pro Modern Series on 5 January 2026, with the Pro M-15 as the 245's direct successor (todays-golfer.com 'Mizuno Pro M-13 and M-15 irons: everything you need to know')"
+  - "Years follow the announcement-year convention. Mizuno Pro 241, 243 and 245 announced 16 October 2023, with pre-orders from 8 January 2024 and retail from 25 January 2024 (https://golf.com/gear/irons/mizuno-pro-24x-irons-5-things-need-know/); the year is the announcement, not the retail year."
 related_models:
   - slug: "mizuno/pro-m15-irons"
     label: "Successor: Mizuno Pro M-15"

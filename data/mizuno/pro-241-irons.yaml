@@ -3,7 +3,7 @@ brand_slug: mizuno
 model: Pro 241
 slug: pro-241-irons
 club_type: irons
-year_introduced: 2024
+year_introduced: 2023
 year_discontinued: null
 category: blade
 construction: Grain Flow Forged HD
@@ -20,6 +20,13 @@ description: >
   scoring irons, and the 3-iron lie is half a degree more upright. The stock set is
   3-PW in right hand and 4-PW in left. Lofts, lies and lengths listed are the men's
   standard steel-shaft build.
+length_note: >
+  These lengths are the figures Mizuno published at launch, measured by its
+  traditional method. Mizuno has since moved its spec tables to the USGA / R&A
+  method, which lists the same clubs about a quarter inch longer (37.25 inches
+  at the 7-iron rather than 37.0); Mizuno states that actual club length is
+  unchanged. Newer Mizuno charts, from the JPX925 onward, use the longer
+  figures.
 specs:
   - club: "3"
     loft: 21.0
@@ -83,8 +90,10 @@ stock_shafts:
     weight: "118-120 g"
     flex: ["S300", "X100"]
 sources:
+  - "Length basis: Mizuno's own specification page for the Mizuno Pro 243 (https://mizunogolf.com/us/golf-clubs/mp-series/mizuno-pro-243/club-specification/, retrieved 29 September 2026) states that Mizuno is changing its official iron measurement method to match the USGA / R&A standard and that its published lengths are consequently about 1/4 inch longer while actual club length is unchanged."
   - "Mizuno official Mizuno Pro 241 product page, mizunogolf.com/ca/golf-clubs/mp-series/mizuno-pro-241/ (Specification tab: club, loft, lie, offset, length, bounce; dexterity RH 3-PW / LH 4-PW), archived 22 April 2024 via archive.org"
   - "Same page, construction section (one-piece Grain Flow Forged HD 1025E Pure Select, soft copper underlay, increased bounce angle) and Custom Shafts tab"
+  - "Years follow the announcement-year convention. Mizuno Pro 241, 243 and 245 announced 16 October 2023, with pre-orders from 8 January 2024 and retail from 25 January 2024 (https://golf.com/gear/irons/mizuno-pro-24x-irons-5-things-need-know/); the year is the announcement, not the retail year."
 related_models:
   - slug: "mizuno/pro-221-irons"
     label: "Predecessor: Mizuno Pro 221"

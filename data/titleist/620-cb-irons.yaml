@@ -5,6 +5,7 @@ slug: 620-cb-irons
 club_type: irons
 year_introduced: 2019
 year_discontinued: null
+current_as_of: "2026-09"
 category: players
 construction: forged cavity back with co-forged tungsten in the long irons
 material: forged carbon steel with co-forged high-density tungsten in the 3 and 4 irons
@@ -62,6 +63,7 @@ sources:
   - "Titleist archived product page, titleist.com/golf-clubs/irons/620cb, via the Internet Archive ('Titleist 620 Specifications' table: loft rows for 620 CB and 620 MB plus shared lie and length rows; 'Available Irons: 3-P'; Project X LZ featured shaft and Golf Pride Tour Velvet 360 White grip)"
   - "Same archived page, product copy - reduced offset and topline, progressive blade length, co-forged tungsten in the 3 and 4 iron, tour-refined sole"
   - "The archived Titleist table publishes no offset, bounce or swing weight rows for the 620 models, so those keys are omitted rather than estimated"
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Listed on Titleist's irons page (https://www.titleist.com/golf-clubs/irons/)."
 related_models:
   - slug: "titleist/718-cb-irons"
     label: "Predecessor: Titleist 718 CB"

@@ -4,7 +4,7 @@ model: AMP
 slug: amp-irons
 club_type: irons
 year_introduced: 2012
-year_discontinued: 2013
+year_discontinued: 2012
 category: game-improvement
 construction: investment cast multi-material cavity back with a full-cavity urethane layer
 material: 17-4 Hyper Steel face in the 3- through 7-irons over a multi-alloy body with a thermoplastic urethane cavity insert
@@ -91,6 +91,7 @@ stock_shafts:
 sources:
   - "Cobra Golf official 'AMP Irons' product page (cobragolf.com/amp-iron), archived 2013-01-14 via web.archive.org — retrieved directly; supplies the full Specifications table (model, loft, length, lie, graphite and steel swing weight, stock flex, RH/LH) for the 3-iron through lob wedge, the E9 Face Technology / Advanced Material Placement / V-Skid sole descriptions, the hyper 17-4 stainless face in the 3-7 irons and the full-cavity TPU layer, and the True Temper Dynalite 90 and Cobra AMP by Aldila shaft tables"
   - "GlobalGolf article 'New 2012 Cobra AMP Series' — corroborates the 2012 launch, the eight-club 4-PW plus gap wedge stock set in both steel and graphite, the True Temper Dynalite 90 steel and Aldila-built AMP graphite stock shafts and the Lamkin N-DUR 3GEN grip"
+  - "Years follow the announcement-year convention. year_discontinued is 2012: the AMP Cell irons that replaced this set were announced on 25 September 2012 (https://web.archive.org/web/20120926070947/http://www.golfwrx.com/41443/cobra-amp-cell-irons/)."
 related_models:
   - slug: "cobra/amp-cell-irons"
     label: "Successor: Cobra AMP Cell"
@@ -102,5 +103,5 @@ faq:
   - q: "What clubs come in a stock Cobra AMP set?"
     a: "The stock set is eight clubs — 4-iron through pitching wedge plus a gap wedge — in steel or graphite. Cobra also catalogued a 3-iron, sand wedge and lob wedge."
   - q: "What is the difference between the Cobra AMP and the Cobra AMP Cell irons?"
-    a: "The AMP is a conventional cast multi-alloy cavity back with an E9 face. The AMP Cell that replaced it in 2013 welds a thin high-strength steel face onto a softer 431 stainless body in the 4- through 7-irons. Their 7-iron through pitching wedge lofts are identical; the AMP Cell is a degree stronger from the 3- through the 6-iron."
+    a: "The AMP is a conventional cast multi-alloy cavity back with an E9 face. The AMP Cell that replaced it, announced in September 2012 and sold as the 2013 line, welds a thin high-strength steel face onto a softer 431 stainless body in the 4- through 7-irons. Their 7-iron through pitching wedge lofts are identical; the AMP Cell is a degree stronger from the 3- through the 6-iron."
 confidence: high

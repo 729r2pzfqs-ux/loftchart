@@ -5,6 +5,7 @@ slug: p790-2025-irons
 club_type: irons
 year_introduced: 2025
 year_discontinued: null
+current_as_of: "2026-09"
 category: players-distance
 construction: forged hollow body
 material: forged hollow body with a high-strength 4340M forged face and SpeedFoam Air filling
@@ -79,6 +80,7 @@ sources:
   - "fairwayjockey.com TaylorMade 2025 P790 custom irons page — a third matching loft/lie/length table for the 4-iron through approach wedge."
   - "golf.com 'TaylorMade 2025 P790 irons: 4 things to know' via search excerpt — preorders opened 18 February 2025 with retail on 13 March 2025, at $1,399.99 steel / $1,499.99 graphite for the 7-piece set."
   - "Note: offset and bounce were not published in the sources consulted and are omitted rather than estimated. Swing weight is the steel build; the sources also list D0/D1 for graphite. Confidence is medium because the numbers come from retailer and magazine reproductions of TaylorMade's spec table rather than directly from taylormadegolf.com, which was unreachable when this file was researched."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Listed at full price on TaylorMade's irons page (https://www.taylormadegolf.com/taylormade-irons/)."
 related_models:
   - slug: "taylormade/p790-2023-irons"
     label: "Predecessor: TaylorMade P790 (2023)"

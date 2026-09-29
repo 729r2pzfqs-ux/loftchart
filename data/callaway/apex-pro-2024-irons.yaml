@@ -4,11 +4,11 @@ model: Apex Pro (2024)
 slug: apex-pro-2024-irons
 club_type: irons
 year_introduced: 2023
-year_discontinued: null
+year_discontinued: 2025
 category: players-distance
 construction: forged hollow body with a cup face
 material: forged 1025 carbon steel body with a high-strength face cup and tungsten weighting
-successor: null
+successor: Callaway Apex Ai150
 predecessor: Callaway Apex Pro 21
 description: >
   Announced in 2023 and sold as the '24 model, the Apex Pro combines a
@@ -72,6 +72,7 @@ sources:
   - "callawaygolf.com Apex Pro Irons product page specification table (https://www.callawaygolf.com/golf-clubs/irons/irons-2024-apex-pro.html) — loft, lie, length and offset (in millimetres) for the 3-iron through approach wedge. Offset is converted to inches here."
   - "golf.com \"Callaway's 2023 Apex irons: 5 things you need to know\" — the 2023 announcement of the Apex Pro, CB and MB as the '24 range, and the Apex Pro's hollow long-iron construction."
   - "Note: bounce and swing weight were not published on the product page and are omitted rather than estimated."
+  - "Status check, 29 September 2026: year_discontinued is 2025: the Apex Ai150 was launched as the replacement for the Apex Pro, with pre-orders from 10 July 2025 (https://golf.com/gear/irons/callaway-apex-ai150-irons-4-things-know/)."
 related_models:
   - slug: "callaway/apex-pro-21-irons"
     label: "Predecessor: Callaway Apex Pro 21"

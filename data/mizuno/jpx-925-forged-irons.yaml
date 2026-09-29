@@ -5,6 +5,7 @@ slug: jpx-925-forged-irons
 club_type: irons
 year_introduced: 2024
 year_discontinued: null
+current_as_of: "2026-09"
 category: players-distance
 construction: Grain Flow Forged cavity back
 material: forged carbon steel
@@ -16,6 +17,13 @@ description: >
   Metal at the 7-iron — 30 against 28 — with a much tighter offset progression,
   0.150 inches at the 4-iron against the Hot Metal's 0.224, and the bounce climbs a
   degree per club through the set.
+length_note: >
+  These lengths use the USGA / R&A measuring method, which Mizuno adopted for
+  its published spec tables with this generation. They read about a quarter
+  inch longer than the figures Mizuno published for earlier models such as the
+  JPX923 and Mizuno Pro 241, 243 and 245, but Mizuno states that actual club
+  length is unchanged. Subtract 0.25 inches to compare with an older Mizuno
+  chart.
 specs:
   - club: "4"
     loft: 21.0
@@ -71,10 +79,12 @@ stock_shafts:
   - name: "Mitsubishi MMT Iron"
     material: graphite
 sources:
+  - "Length basis: Mizuno's own specification page for the Mizuno Pro 243 (https://mizunogolf.com/us/golf-clubs/mp-series/mizuno-pro-243/club-specification/, retrieved 29 September 2026) states that Mizuno is changing its official iron measurement method to match the USGA / R&A standard and that its published lengths are consequently about 1/4 inch longer while actual club length is unchanged."
   - "2nd Swing Golf specification table for the Mizuno JPX 925 Forged iron set (https://www.2ndswing.com/golf-clubs/iron-sets/mizuno-jpx-925-forged-iron-set) — supplied every loft, lie, length, offset and bounce above, both stock shafts and the Golf Pride MCC grip."
   - "mygolfspy.com 'Why the New Mizuno JPX 925 Forged Irons Confuse Me' and todays-golfer.com's JPX 925 coverage — the JPX 925 Forged hit the USGA conforming list on 19 August 2024 and launched that autumn. year_introduced records the 2024 announcement; retailers list it as the 2025 line."
   - "Note: swing weight is omitted — the source table did not carry a swing-weight column. Confidence is medium."
   - "Note on succession: this database already records the JPX-923 Forged as being succeeded by the Mizuno Pro 245, so no predecessor is asserted here rather than contradicting that entry."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Listed on Mizuno's irons page with no newer JPX generation (https://mizunogolf.com/us/irons/)."
 related_models:
   - slug: "mizuno/jpx-923-forged-irons"
     label: "The previous JPX forged iron: Mizuno JPX-923 Forged"

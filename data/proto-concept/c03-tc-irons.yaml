@@ -5,6 +5,7 @@ slug: c03-tc-irons
 club_type: irons
 year_introduced: 2023
 year_discontinued: null
+current_as_of: "2026-09"
 category: players
 construction: forged tour cavity back (soft-iron forging with CNC-milled undercut on #4-#7)
 material: S20C/S25C soft carbon steel
@@ -57,6 +58,7 @@ sources:
   - "shop.torquegolf.com 'Proto Concept Irons C03' listing - independent corroboration of the 25/28/32/36/40/45 loft/lie/FP chart for #5-PW, bounce 3-8 degrees, and S25C soft-iron construction with CNC undercutting on #5-#7"
   - "protoconceptgolf.com blog 'FIRST LOOK: PROTO CONCEPT CO3 TC IRON REVIEW', published 2023-05-19 - fixes the announcement date used for year_introduced"
   - "mygolfspy.com First Look and full review of the Proto Concept C03TC (July 2023) - corroborates the spring/2023 release window and the improved-sole, CNC-undercut cavity design versus the C01"
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Live and available on Proto-Concept's store (https://protoconceptgolf.com/products/c03tc)."
 related_models:
   - slug: "proto-concept/c01-irons"
     label: "Muscle-back sibling: Proto-Concept C01"

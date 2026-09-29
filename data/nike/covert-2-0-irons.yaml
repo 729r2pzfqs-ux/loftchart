@@ -4,7 +4,7 @@ model: VR_S Covert 2.0
 slug: covert-2-0-irons
 club_type: irons
 year_introduced: 2014
-year_discontinued: 2015
+year_discontinued: 2014
 category: game-improvement
 construction: investment cast cavity back
 material: stainless steel with a high-strength steel face
@@ -75,6 +75,7 @@ sources:
   - "InTheHoleGolf 'Nike VR_S Covert 2.0 Iron Set' specification table (product code NG14, retrieved July 2026) - supplied loft, lie, length and offset for 3-iron through AW; steel lengths used here, with the listed graphite builds roughly a quarter inch longer."
   - "2nd Swing Golf VRS Covert 2.0 listings - corroborate the 4-PW/AW set composition and the True Temper Dynalite 105 steel and Kuro Kage graphite stock shafts."
   - "The loft ladder (21/24/27/31/35/39/44/48 for 4-AW) is identical to the first-generation VR_S Covert table used elsewhere in this repository, which supports the retailer numbers; nikegolf.com pages from this era are not retrievable via the Wayback CDX index, so all figures are retailer-sourced, hence confidence: medium."
+  - "Years follow the announcement-year convention. year_discontinued is 2014: the Vapor Speed irons that replaced this set were announced on 19 August 2014 (https://www.golfmonthly.com/gear/gear-news/nike-vapor-irons-unveiled-56712)."
 related_models:
   - slug: "nike/covert-irons"
     label: "Predecessor: Nike VR_S Covert"

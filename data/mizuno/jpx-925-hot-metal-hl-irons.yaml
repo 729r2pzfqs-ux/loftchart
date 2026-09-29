@@ -5,6 +5,7 @@ slug: jpx-925-hot-metal-hl-irons
 club_type: irons
 year_introduced: 2024
 year_discontinued: null
+current_as_of: "2026-09"
 category: super-game-improvement
 construction: cast multi-material with a thin face and tungsten weighting
 material: Nickel Chromoly 4335 with tungsten weighting in the 4 to 7 irons
@@ -18,6 +19,13 @@ description: >
   4-iron. Unlike the previous HL generation it is catalogued from a 4-iron,
   running through a 55-degree sand wedge, in right hand only. Lofts, lies and
   lengths listed are the men's standard steel-shaft build.
+length_note: >
+  These lengths use the USGA / R&A measuring method, which Mizuno adopted for
+  its published spec tables with this generation. They read about a quarter
+  inch longer than the figures Mizuno published for earlier models such as the
+  JPX923 and Mizuno Pro 241, 243 and 245, but Mizuno states that actual club
+  length is unchanged. Subtract 0.25 inches to compare with an older Mizuno
+  chart.
 specs:
   - club: "4"
     loft: 22.0
@@ -65,9 +73,11 @@ specs:
     length: 35.25
     offset: 0.102
 sources:
+  - "Length basis: Mizuno's own specification page for the Mizuno Pro 243 (https://mizunogolf.com/us/golf-clubs/mp-series/mizuno-pro-243/club-specification/, retrieved 29 September 2026) states that Mizuno is changing its official iron measurement method to match the USGA / R&A standard and that its published lengths are consequently about 1/4 inch longer while actual club length is unchanged."
   - "mizunogolf.com JPX925 Hot Metal series club-specification page (manufacturer table: loft, lie, offset, length, 4-SW, RH only)"
   - "todays-golfer.com Mizuno JPX 925 Hot Metal HL review (corroborates the high-launch positioning and 2024 launch)"
   - "Bounce and swing weight are not published on the manufacturer specification page and are omitted"
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Listed on Mizuno's irons page with no newer JPX generation (https://mizunogolf.com/us/irons/)."
 related_models:
   - slug: "mizuno/jpx-925-hot-metal-irons"
     label: "Standard-loft model of the same generation: Mizuno JPX-925 Hot Metal"

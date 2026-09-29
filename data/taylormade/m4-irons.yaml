@@ -4,12 +4,12 @@ model: M4
 slug: m4-irons
 club_type: irons
 year_introduced: 2018
-year_discontinued: 2018
+year_discontinued: 2019
 category: game-improvement
 construction: investment cast with RIBCOR and Speed Pocket
 material: stainless steel
 successor: M6
-predecessor: r7
+predecessor: TaylorMade M2 (2017)
 description: >
   The M4 was TaylorMade's mainstream game-improvement iron for 2018, replacing
   the 2017 M2. Its new feature was RIBCOR, a pair of internal ribs that run
@@ -91,11 +91,12 @@ stock_shafts:
     flex: ["A", "R", "S"]
 sources:
   - "TaylorMade official 2018 M4 Irons sell sheet PDF, taylormadegolf.com/on/demandware.static/-/Sites-TMaG-Library/en_US/docs/productspecs/2018/M4 Iron_Sell Sheets.pdf"
+  - "Years follow the announcement-year convention. M3 and M4 irons announced 2 January 2018 (https://www.golfmonthly.com/gear/gear-news/taylormade-m3-and-m4-woods-and-irons-launched-147945); year_discontinued is 2019, when the M5 and M6 irons were announced on 7 January 2019."
 related_models:
   - slug: "taylormade/m2-irons"
     label: "Earlier M-family: TaylorMade M2"
-  - slug: "taylormade/r7-irons"
-    label: "Predecessor: TaylorMade r7"
+  - slug: "taylormade/m2-2017-irons"
+    label: "Predecessor: TaylorMade M2 (2017)"
   - slug: "taylormade/m6-irons"
     label: "Successor: TaylorMade M6"
 faq:

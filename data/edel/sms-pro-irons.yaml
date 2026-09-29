@@ -5,6 +5,7 @@ slug: sms-pro-irons
 club_type: irons
 year_introduced: 2023
 year_discontinued: null
+current_as_of: "2026-09"
 category: players
 construction: one-piece forged cavity with movable weight ports and CNC-milled tri-step sole
 material: 1025 carbon steel, multi-step Precision Grain Forged
@@ -71,6 +72,7 @@ sources:
   - "Golf Reviews Guide and The Hackers Paradise SMS Pro reviews, and MyGolfSpy's 2023 players-iron review — corroborate the loft chart (20-degree 3-iron through 45-degree pitching wedge), the $250-per-club / $1,750-set pricing, the 1025 Precision Grain Forging and the right-hand-only availability."
   - "golf.com 'FIRST LOOK: Edel Golf adds SMS Pro to Swing Match System line of irons', 23 January 2023, and GolfWRX 'Edel SMS Pro irons expand Swing Match System offerings' — the announcement date and 24 February 2023 retail availability that fix year_introduced at 2023, the 3-PW set composition, KBS Tour stock shaft with Golf Pride grips, the two 2-gram titanium plus one 8-gram tungsten stock weights with optional 4/6/10-gram weights, and the milled tri-step sole design."
   - "edelgolf.com/products/sms-pro-irons (retrieved July 2026) — the model remains current, with the Precision Grain Forging, CNC-milled tri-step sole and Swing Match weighting copy; Edel's page publishes no per-club chart, so confidence is medium: the lofts are corroborated across several sources but the lie, length and offset columns rest on the 2nd Swing chart alone."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Live and available on Edel's store (https://edelgolf.com/products/sms-pro-irons)."
 related_models:
   - slug: "edel/sms-irons"
     label: "Hollow-body players-distance sibling: Edel SMS"

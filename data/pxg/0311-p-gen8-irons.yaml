@@ -5,6 +5,7 @@ slug: 0311-p-gen8-irons
 club_type: irons
 year_introduced: 2026
 year_discontinued: null
+current_as_of: "2026-09"
 category: players-distance
 construction: forged hollow body with a QuantumCOR core and interchangeable perimeter weights
 material: 5X forged 8620 carbon steel body with an ultra-thin HT1770 maraging steel face and internal tungsten toe weighting
@@ -81,6 +82,7 @@ sources:
   - "todays-golfer.com 'PXG 0311 GEN8 irons: everything you need to know' — pricing of $229 per club in Chrome and $249 in Xtreme Dark, the roughly 11 grams moved to the perimeter, and the claimed MOI gains by model (XP +6%, P +4%, T +17%)."
   - "pluggedingolf.com 'PXG 0311 P GEN8 Irons Review' — the two weight ports taking interchangeable weights, the internal tungsten toe weight, the claimed 4 per cent MOI gain over GEN7, and the P's position between the T and XP heads (about two degrees stronger than the T, three weaker than the XP)."
   - "Note: swing weight is omitted because the Dual Perimeter Weighting System makes it adjustable at fitting, and PXG publishes no fixed figure. No stock shaft is recorded because PXG builds to order from a shaft menu."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. GEN8 irons live at full price on PXG's store (https://www.pxg.com/products/gen8-irons)."
 related_models:
   - slug: "pxg/0311-p-gen7-irons"
     label: "Predecessor: PXG 0311 P GEN7"

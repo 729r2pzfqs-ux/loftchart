@@ -4,11 +4,11 @@ model: TW767 Px
 slug: tw767-px-irons
 club_type: irons
 year_introduced: 2024
-year_discontinued: null
+year_discontinued: 2026
 category: players-distance
 construction: multi-piece forged body with a cap-back and L-cup face insert
 material: S25C forged soft iron body with an AM355P face (4 to 8) and an ES235 face (9 to A)
-successor: null
+successor: Honma T//WORLD Px (2026)
 predecessor: Honma TW757 P
 description: >
   The Px is the players-distance iron of Honma's T//World 767 range and Honma's
@@ -70,7 +70,7 @@ sources:
   - "Note on length: Honma's chart lists two length columns depending on stock shaft; the figures above are the N.S.Pro 950GH neo (steel) column, matching this schema's steel-shaft-standard convention. Graphite-shaft (VIZARD EZ-C) lengths run 0.25 inch longer at each club."
   - "pluggedingolf.com 'Honma TW767 Px Irons Review' — corroborates the S25C forged body with an L-Cup face on the 5-8 irons, a flat ES235 face on 9-AW, the first Cap-Back design in the TW range, and an October 2024 release."
   - "firstcallgolf.com 'Honma Golf Launches Tour World 767 Collection' (release dated 22 October 2024) — announcement date, used for year_introduced."
-  - "Note: year_discontinued is null — no successor to the TW767 Px had been announced in the sources retrieved. Honma's current T//World 2026 (TW777) marketing material continues to list a 'Px' head, but no distinct TW777-generation spec sheet for it could be found, and the TW767 Px's own US product page still references the TW767 product manual — see the TW777 PCB Max file for the one iron confirmed as genuinely new for that generation."
+  - "Status check, 29 September 2026: year_discontinued is 2026: Honma's US store now sells the T//WORLD Px 26 (https://us.honmagolf.com/products/tworld-px) and no TW767 irons; the 2026 T//WORLD Tour V, Vx and Px launched in Japan on 19 June 2026 (https://www.tourspecgolf.com/blog/honma-t-world-2026-irons-a-softer-faster-more-refined-players-iron-line/)."
 related_models:
   - slug: "honma/tw757-p-irons"
     label: "Predecessor: Honma TW757 P"

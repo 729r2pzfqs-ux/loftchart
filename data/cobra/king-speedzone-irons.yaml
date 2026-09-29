@@ -3,7 +3,7 @@ brand_slug: cobra
 model: KING Speedzone
 slug: king-speedzone-irons
 club_type: irons
-year_introduced: 2020
+year_introduced: 2019
 year_discontinued: 2020
 category: game-improvement
 construction: cast hollow-body distance iron with a forged face insert and carbon fibre topline
@@ -87,6 +87,7 @@ stock_shafts:
     flex: ["S", "R", "A"]
 sources:
   - "Cobra Golf official SPEEDZONE Irons product page, archived 2020 via web.archive.org — retrieved directly; supplies the full specification table (iron, loft, lie angle, offset, COBRA CONNECT length, standard length, graphite and steel swing weight, graphite and steel shaft flex, RH/LH) for the 4-iron through sand wedge, the 'STOCK SET COMPOSITION - 7 Clubs: 5-GW (RH, LH), 4-PW (RH)' block, the carbon fibre topline and forged PWRSHELL face descriptions and the KBS Tour 90 / UST Recoil 460 ESX shaft options"
+  - "Years follow the announcement-year convention. SpeedZone irons announced 19 November 2019 (GolfWRX, https://web.archive.org/web/20191120192159/http://www.golfwrx.com/580110/cobra-golf-speedzone-irons-and-hybrids/) and sold as the 2020 line; Radspeed announced 8 December 2020."
 related_models:
   - slug: "cobra/king-f8-irons"
     label: "Earlier Cobra game-improvement iron: KING F8"

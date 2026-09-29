@@ -3,8 +3,8 @@ brand_slug: mizuno
 model: Pro 223
 slug: pro-223-irons
 club_type: irons
-year_introduced: 2022
-year_discontinued: 2024
+year_introduced: 2021
+year_discontinued: 2023
 category: players
 construction: Grain Flow Forged HD, multi-material
 material: 1025E Pure Select mild carbon steel with forged Chromoly face in the 4-7 irons
@@ -76,6 +76,7 @@ stock_shafts:
 sources:
   - "Mizuno official Mizuno Pro 223 product page, mizunogolf.com/us/golf-clubs/mp-series/mizuno-pro-223/ (Specification tab: club, loft, lie, offset, length; dexterity RH 4-GW / LH 4-GW), archived March 2022 via archive.org"
   - "Same page, construction section (forged Chromoly with flow micro slot 4-7 iron, 1025E Pure Select 8-PW) and Custom Shafts tab"
+  - "Years follow the announcement-year convention. Mizuno Pro 221, 223 and 225 announced 9 December 2021 with retail from 3 February 2022 (https://golf.com/gear/irons/mizuno-pro-221-223-and-225-irons-first-look/); the year is the announcement, not the retail year. year_discontinued is 2023, when the Mizuno Pro 241, 243 and 245 were announced on 16 October 2023."
 related_models:
   - slug: "mizuno/pro-243-irons"
     label: "Successor: Mizuno Pro 243"

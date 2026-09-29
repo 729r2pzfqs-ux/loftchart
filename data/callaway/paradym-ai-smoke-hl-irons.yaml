@@ -4,11 +4,11 @@ model: Paradym Ai Smoke HL
 slug: paradym-ai-smoke-hl-irons
 club_type: irons
 year_introduced: 2024
-year_discontinued: null
+year_discontinued: 2025
 category: super-game-improvement
 construction: cast body with an Ai Smart Face and a hollow long-iron construction
 material: 450 steel face on a stainless body with tungsten weighting and urethane microspheres
-successor: null
+successor: Callaway Elyte HL
 predecessor: null
 description: >
   HL is the high-launch head in Callaway's 2024 Paradym Ai Smoke iron family, built
@@ -89,7 +89,7 @@ sources:
   - "Note on offset: Callaway publishes offset in millimetres (5.3 mm down to 1.3 mm), converted to inches here."
   - "Note on swing weight: Callaway publishes two columns, C9 for the graphite build and D1 for the steel build. The D1 steel figures are recorded here because this database uses the standard men's steel-shaft build; an HL set ordered in the stock Cypher Black graphite will measure two points lighter."
   - "golf.com 'What I learned getting fit for Callaway's Paradym Ai Smoke irons' — the Paradym Ai Smoke iron family launched for 2024 in three heads: Ai Smoke, Ai Smoke HL and Ai Smoke Max Fast."
-  - "Note: year_discontinued and successor are null. Callaway replaced the standard Paradym Ai Smoke with the Elyte in 2025, but the sources retrieved do not name a direct HL replacement, so none is asserted."
+  - "Status check, 29 September 2026: year_discontinued is 2025: the Elyte family, including the Elyte HL, was announced in January 2025 as the follow-up to the Paradym Ai Smoke line (https://callawaymedia.com/wp-content/uploads/2025/01/Elyte-Press-Release-January2.pdf)."
 related_models:
   - slug: "callaway/paradym-ai-smoke-irons"
     label: "The standard head of the same family: Callaway Paradym Ai Smoke"

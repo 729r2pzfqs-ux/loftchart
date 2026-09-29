@@ -4,7 +4,7 @@ model: Aerojet
 slug: aerojet-irons
 club_type: irons
 year_introduced: 2023
-year_discontinued: 2023
+year_discontinued: 2024
 category: game-improvement
 construction: cast hollow-body distance iron with a forged face insert and a suspended PWR-BRIDGE weight
 material: stainless steel body with a forged stainless steel PWRSHELL H.O.T. face insert
@@ -85,6 +85,7 @@ stock_shafts:
     flex: ["Lite", "R", "S"]
 sources:
   - "Cobra Golf official Aerojet Irons product page, archived 2023-02-05 via web.archive.org — retrieved directly; supplies the full specification table (club, loft, lie angle, offset in mm, length, graphite and steel swing weight, graphite and steel flex, RH/LH) for the 4-iron through sand wedge, the 4-PW and 5-GW stock set options in right and left hand and in steel and graphite, the PWRSHELL / H.O.T. Face / PWR-BRIDGE weighting descriptions and the no-upcharge KBS Tour 90 steel and KBS PGI graphite shaft options"
+  - "Years follow the announcement-year convention. Aerojet irons announced 9 January 2023 (golf.com/gear/irons/cobra-aerojet-irons-hybrids-2023/); year_discontinued is 2024, when the Darkspeed irons were announced on 11 January 2024 (golf.com/gear/cobra-darkspeed-hybrids-irons/)."
 related_models:
   - slug: "cobra/ltdx-irons"
     label: "Predecessor: Cobra LTDx"

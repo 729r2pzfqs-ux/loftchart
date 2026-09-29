@@ -5,6 +5,7 @@ slug: ts-4-irons
 club_type: irons
 year_introduced: 2023
 year_discontinued: null
+current_as_of: "2026-09"
 category: blade
 construction: billet forged muscle back, co-forged tungsten toe weight, CMC inserts
 material: forged 1025C carbon steel with tungsten and Ceramic Matrix Composite
@@ -87,6 +88,7 @@ sources:
   - "The GolfWorks Head MPF Ratings chart (golfworks.com/content/PDFs/Head_MPFs/MPFRatingsChart.pdf, updated July 2026) — 'MALTBY TS4 Forged #6 2023, MPF 755' in the Super Game Improvement section, fixing year_introduced 2023; the TS4 DBM Black is listed separately at 2025."
   - "GolfWRX club-techs thread 'Maltby TS4 Heads' (2023) — early-owner coverage in the model's release year."
   - "Lengths are from The GolfWorks' published Standard Lengths chart (golfworks.com/images/art/StdLengths.pdf, men's steel: 39.0-inch 3-iron through 35.5-inch PW and GW) because Maltby heads are sold component-style and built to order; playing lengths vary per build, hence confidence medium."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. TS4 forged iron heads listed for sale at GolfWorks (https://www.golfworks.com/maltby-ts4-forged-iron-heads/p/ma0348/)."
 related_models:
   - slug: "maltby/ts-3-irons"
     label: "Compact high-MPF stablemate released the same year: Maltby TS-3"

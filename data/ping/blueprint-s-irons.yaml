@@ -5,6 +5,7 @@ slug: blueprint-s-irons
 club_type: irons
 year_introduced: 2024
 year_discontinued: null
+current_as_of: "2026-09"
 category: players
 construction: forged
 material: forged 8620 carbon steel
@@ -91,6 +92,7 @@ stock_shafts:
 sources:
   - "ping.com Blueprint S Irons product page, Specifications table (https://ping.com/en-us/golf-clubs/irons/blueprint-s-iron) — every loft, lie, length, offset, bounce and swing weight above, the 3-iron to pitching wedge range and the stock shaft list. Lie is quoted for the black colour code at standard length."
   - "swingyard.com 'PING Irons by Year' — dates Blueprint S to 2024 and describes the Precision Pocket Forging used in the 3, 4 and 5 irons."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Listed among Ping's current irons (https://ping.com/en-us/golf-clubs/irons)."
 related_models:
   - slug: "ping/blueprint-t-irons"
     label: "Muscleback sibling: Ping Blueprint T"

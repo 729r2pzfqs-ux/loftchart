@@ -4,7 +4,7 @@ model: M6
 slug: m6-irons
 club_type: irons
 year_introduced: 2019
-year_discontinued: 2019
+year_discontinued: 2020
 category: game-improvement
 construction: investment cast with Speed Bridge and Speed Pocket
 material: stainless steel
@@ -94,6 +94,7 @@ stock_shafts:
 sources:
   - "TaylorMade official 2019 M6 Irons sell sheet PDF, taylormadegolf.com/on/demandware.static/-/Sites-TMaG-Library/docs/productspecs/2019/TM18BRD0079_ M6_Irons Sell Sheet v6_HI.pdf"
   - "TaylorMade 2020 Fall Custom Component booklet, 'Game Improvement Iron Length Change Notification' (ground-plane measurement change effective 1 November 2018)"
+  - "Years follow the announcement-year convention. M5 and M6 irons announced 7 January 2019 (PGATour.com, https://web.archive.org/web/20210925233422/https://www.pgatour.com/equipmentreport/2019/01/07/golf-clubs-bag-taylormade-launches-m5-m6-irons-speed-bridge-design.html); year_discontinued is 2020, when the SIM Max irons were announced on 10 January 2020."
 related_models:
   - slug: "taylormade/m4-irons"
     label: "Predecessor: TaylorMade M4"

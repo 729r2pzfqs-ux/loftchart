@@ -5,6 +5,7 @@ slug: p7cb-irons
 club_type: irons
 year_introduced: 2024
 year_discontinued: null
+current_as_of: "2026-09"
 category: players
 construction: forged with co-forged tungsten
 material: 1025 carbon steel
@@ -71,6 +72,7 @@ sources:
   - "2ndswing.com TaylorMade 2024 P7CB Iron Set specification table — loft, lie, length and swing weight for the 3-iron through gap wedge, plus the Dynamic Gold Mid 115 stock shaft and the 4-PW stock make-up."
   - "todays-golfer.com 'Not your typical tour forging: TaylorMade P7CB iron review' and taylormadegolf.com product copy — the Compact Grain Forging process, the 1025 carbon steel, the milled face and grooves, the co-forged tungsten and the constant centre of gravity."
   - "Note: offset and bounce were not published in the sources consulted and are omitted rather than estimated. A separate independent database lists P7CB lofts one degree stronger in the 6, 8 and 9 irons and describes its own figures as approximate; the manufacturer-matching 2ndswing table is used here."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Listed at full price on TaylorMade's irons page (https://www.taylormadegolf.com/taylormade-irons/)."
 related_models:
   - slug: "taylormade/p7mc-irons"
     label: "Cavity-back predecessor in the P7 line: TaylorMade P7MC"

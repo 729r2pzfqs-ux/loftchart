@@ -5,6 +5,7 @@ slug: xxio-14-plus-irons
 club_type: irons
 year_introduced: 2025
 year_discontinued: null
+current_as_of: "2026-09"
 category: game-improvement
 construction: multi-piece cast body with a bonded titanium face
 material: titanium face with tungsten sole weighting
@@ -61,6 +62,7 @@ sources:
   - "XXIO's own XXIO 14+ irons product page, specification table (https://srixonasia.com/product/xxio-14-plus-irons/) — supplied every loft, lie, length and swing weight, the Fujikura Speeder NX DST stock shaft, the Golf Pride Tour Velvet 58R grip and the seven-club 5-AW set makeup."
   - "firstcallgolf.com 'Crafted for Effortless Play, XXIO Introduces the All-New XXIO 14' — unveiled November 2025, on sale 8 December 2025, and the note that the 14+ is aimed at slightly faster swing speeds than the standard 14."
   - "Note on the year: year_introduced is the November 2025 announcement. Retailers list the set as a 2026 model."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Product page live and in stock on XXIO's US site (https://us.dunlopsports.com/xxio/clubs/irons/)."
 related_models:
   - slug: "xxio/xxio-14-irons"
     label: "Same generation, weaker lofts: XXIO 14"

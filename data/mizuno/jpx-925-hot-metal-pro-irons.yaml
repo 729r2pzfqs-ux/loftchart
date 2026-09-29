@@ -5,6 +5,7 @@ slug: jpx-925-hot-metal-pro-irons
 club_type: irons
 year_introduced: 2024
 year_discontinued: null
+current_as_of: "2026-09"
 category: players-distance
 construction: cast multi-material with a thin face and tungsten weighting
 material: Nickel Chromoly 4335 with tungsten weighting in the 4 to 7 irons
@@ -21,6 +22,13 @@ description: >
   54-degree sand wedge. Mizuno launched the JPX 925 line in September 2024 and
   retailers catalogue it as the 2025 range, so year_introduced records the
   announcement year.
+length_note: >
+  These lengths use the USGA / R&A measuring method, which Mizuno adopted for
+  its published spec tables with this generation. They read about a quarter
+  inch longer than the figures Mizuno published for earlier models such as the
+  JPX923 and Mizuno Pro 241, 243 and 245, but Mizuno states that actual club
+  length is unchanged. Subtract 0.25 inches to compare with an older Mizuno
+  chart.
 specs:
   - club: "4"
     loft: 19.0
@@ -68,10 +76,12 @@ stock_shafts:
   - name: "Mitsubishi MMT"
     material: graphite
 sources:
+  - "Length basis: Mizuno's own specification page for the Mizuno Pro 243 (https://mizunogolf.com/us/golf-clubs/mp-series/mizuno-pro-243/club-specification/, retrieved 29 September 2026) states that Mizuno is changing its official iron measurement method to match the USGA / R&A standard and that its published lengths are consequently about 1/4 inch longer while actual club length is unchanged."
   - "Mizuno official JPX925 Hot Metal family club-specification page, mizunogolf.com/us/golf-clubs/jpx925-series/jpx925-hot-metals/club-specification/ (live, fetched July 2026) — full Hot Metal Pro 4-GW table of loft, lie, offset and length, and the dexterity note 'RH & LH: 4-GW'. The page carries no bounce or swing weight columns, so those keys are omitted"
   - "Mizuno official JPX925 Hot Metal family product page, mizunogolf.com/us/golf-clubs/jpx925-series/jpx925-hot-metals/ — Nickel Chromoly 4335 construction, tungsten weighting low in the 4-7 irons, the 'Players Speed Cavity' positioning for low-to-mid handicaps, and the head-length comparison (Pro 80.9 mm, standard Hot Metal 85.4 mm, HL 86.6 mm)"
   - "2nd Swing Golf specification table for the Mizuno JPX 925 Hot Metal Pro iron set (2ndswing.com/golf-clubs/iron-sets/mizuno-jpx-925-hot-metal-pro-iron-set) — corroborated every loft, lie and length above and supplied the stock shafts (Dynamic Gold 105 steel, Mitsubishi MMT graphite) and Lamkin UTX+ grip; shaft weights and flex ranges are not listed there, so they are omitted"
   - "golfwrx.com '2024 Mizuno JPX 925 Hot Metal irons: GolfWRX Launch Report' — the JPX 925 Hot Metal line launched in September 2024; retailers catalogue it as the 2025 line, so year_introduced records the 2024 announcement per this database's convention"
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Listed on Mizuno's irons page with no newer JPX generation (https://mizunogolf.com/us/irons/)."
 related_models:
   - slug: "mizuno/jpx-923-hot-metal-pro-irons"
     label: "Predecessor: Mizuno JPX-923 Hot Metal Pro"

@@ -5,6 +5,7 @@ slug: dynapwr-irons
 club_type: irons
 year_introduced: 2025
 year_discontinued: null
+current_as_of: "2026-09"
 category: game-improvement
 material: stainless steel
 construction: cast hollow body
@@ -84,6 +85,7 @@ sources:
   - "Today's Golfer 'Wilson DYNAPWR irons review' (2025) — separately confirms the 28-degree 7-iron at 62 degrees lie and 37.5 inches, the 4i-GW set and the KBS MAX Ultralite / UST Recoil Dart shaft pairing."
   - "Plugged In Golf '2025 Wilson DYNAPWR Irons Review' — confirms the hollow body, Energy Transfer Chassis, PKR-Cup face and Velocity Optimization Channel, and that the Power Holes used by the previous generations were removed. This is the basis for treating DYNAPWR as a separate head from the 2023 Dynapower rather than a restyled name."
   - "Bounce is omitted: no retrieved source published a bounce column for this model. Swing weight shown is the steel-shaft figure; the graphite build is listed one point lighter at D1."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. DYNAPWR steel irons in stock on Wilson's site (https://www.wilson.com/en-us/product/dynapwr-stl-wg1p0377)."
 related_models:
   - slug: "wilson/dynapower-irons"
     label: "Predecessor: Wilson Dynapower"

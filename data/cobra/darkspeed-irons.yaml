@@ -78,7 +78,7 @@ specs:
     offset: 0.039
     swing_weight: D2
 stock_shafts:
-  - name: "KBS Tour 90"
+  - name: "KBS Tour Lite"
     material: steel
     flex: ["S", "R"]
   - name: "KBS PGI 65 / 75 / 85"

@@ -4,7 +4,7 @@ model: SIM2 Max
 slug: sim2-max-irons
 club_type: irons
 year_introduced: 2021
-year_discontinued: 2021
+year_discontinued: 2022
 category: game-improvement
 construction: investment cast Cap Back design with Thru-Slot Speed Pocket
 material: stainless steel
@@ -99,6 +99,7 @@ stock_shafts:
 sources:
   - "TaylorMade official SIM2 Max Irons product page specifications table, taylormadegolf.com/SIM2-Max-Irons/DW-TA164.html (archived May 2021 via archive.org)"
   - "TaylorMade 2021 Custom Component Booklet (updated 03/02/21), 2021 Irons spec pages, taylormadegolf.com/.../manuals/2021CustomComponentBooklet.pdf"
+  - "Years follow the announcement-year convention. SIM2 Max irons announced 19 January 2021 (GolfWRX, https://web.archive.org/web/20210119152811/https://www.golfwrx.com/643043/2021-taylormade-sim2-max-and-sim2-max-os-irons/); year_discontinued is 2022, when the Stealth irons were announced on 4 January 2022 (https://golf.com/gear/irons/taylormade-stealth-irons-first-look/)."
 related_models:
   - slug: "taylormade/sim-max-irons"
     label: "Predecessor: TaylorMade SIM Max"

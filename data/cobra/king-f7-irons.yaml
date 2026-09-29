@@ -3,7 +3,7 @@ brand_slug: cobra
 model: KING F7
 slug: king-f7-irons
 club_type: irons
-year_introduced: 2017
+year_introduced: 2016
 year_discontinued: 2017
 category: game-improvement
 construction: progressive cast set — full hollow long irons, half hollow mid irons, cavity back short irons
@@ -90,6 +90,7 @@ stock_shafts:
     material: graphite
 sources:
   - "Cobra Golf official KING F7 Iron Set product page, archived 2017 via web.archive.org — retrieved directly; supplies the full specification table (model, loft, lie, offset in mm, graphite and steel length, graphite and steel swing weight, RH/LH) for the 3-iron through sand wedge, the 'Stock Set: 5-GW (7 Clubs)' composition, the TECFLO full hollow / half hollow / cavity back construction breakdown, the 17-4 stainless PWRSHELL L-Cup face description and the True Temper KING F7 / Fujikura Pro 63i shaft options"
+  - "Years follow the announcement-year convention. KING F7 irons announced 10 October 2016 (https://www.golfmagic.com/equipment-news/cobra-unveils-king-f7-iron) and sold as the 2017 line; KING F8 announced 15 November 2017."
 related_models:
   - slug: "cobra/fly-z-irons"
     label: "Earlier Cobra game-improvement iron: Fly-Z"

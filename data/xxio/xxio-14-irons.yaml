@@ -5,6 +5,7 @@ slug: xxio-14-irons
 club_type: irons
 year_introduced: 2025
 year_discontinued: null
+current_as_of: "2026-09"
 category: game-improvement
 construction: multi-piece cast body with a bonded titanium face
 material: titanium face with tungsten sole weighting
@@ -66,6 +67,7 @@ sources:
   - "XXIO's own XXIO 14 irons product page, specification table (https://srixonasia.com/product/xxio-14-irons/) — supplied every loft, lie, length, swing weight and club weight, the MP1400 stock shaft and the eight-club 5-SW set makeup."
   - "firstcallgolf.com 'Crafted for Effortless Play, XXIO Introduces the All-New XXIO 14' and the matching Dunlop Sports news release — unveiled November 2025, on sale from 8 December 2025, and the first XXIO numbered line to ship in both a standard and a plus model."
   - "Note on the year: year_introduced is the November 2025 announcement, per this database's convention. Retailers catalogue the set as the 2026 line because it reached shop floors in December 2025 and sold through 2026."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Product page live and in stock on XXIO's US site; XXIO 14 is the newest numbered line (https://us.dunlopsports.com/xxio/clubs/irons/)."
 related_models:
   - slug: "xxio/xxio-13-irons"
     label: "Predecessor: XXIO 13"

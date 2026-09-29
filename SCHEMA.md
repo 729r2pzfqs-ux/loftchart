@@ -9,7 +9,8 @@ model: Eye 2                     # display name WITHOUT the club type suffix
 slug: eye-2-irons                # matches filename
 club_type: irons                 # irons | driver | fairway_wood | hybrid | wedges | putter
 year_introduced: 1982            # int
-year_discontinued: 1993          # int, or null if current
+year_discontinued: 1993          # int, or null if no end year is on file
+current_as_of: "2026-09"         # OMIT unless confirmed current — see Rules
 category: game-improvement       # blade | players | players-distance | game-improvement | super-game-improvement
 construction: investment cast    # e.g. "investment cast", "forged", "cast/forged hybrid"
 material: 17-4 stainless steel
@@ -17,6 +18,8 @@ successor: Ping ISI              # display string or null
 predecessor: Ping Eye            # display string or null
 description: >                   # 2-4 sentences, factual, no marketing fluff
   One of the most iconic iron sets ever made...
+length_note: >                   # OMIT unless the length basis needs explaining
+  Lengths use the USGA / R&A measuring method...
 specs:                           # one entry per club, in set order (long -> short)
   - club: "3"                    # ALWAYS a quoted string: "3", "PW", "UW", "SW", "LW"
     loft: 21.0                   # float, degrees
@@ -58,6 +61,18 @@ confidence: high                 # high | medium | low — how well-verified the
   in different calendar years — Mizuno's Pro line announced in Q4 and shipped the
   following Q1 — record which basis the year uses in `sources`, so the gap is visible
   rather than silently resolved one way or the other.
+- A null `year_discontinued` does **not** mean the model is current. The site only
+  calls a set current ("2024–present", "a current set in the range") when the file
+  carries `current_as_of: "YYYY-MM"`, the month someone last confirmed it was still in
+  the maker's own catalogue with no replacement announced. Without it the page reads
+  "from 2024" and says the end date is not confirmed. Remove `current_as_of` when you
+  record a `successor` or a `year_discontinued`; the build warns if both are present.
+- Page dates are never the build date. A model page's "Last updated", `datePublished`,
+  `dateModified` and sitemap `lastmod` come from the git history of its YAML file. The
+  wedge and driver guides carry theirs as `*_PUBLISHED` / `*_REVIEWED` constants in
+  `generate.py`; move a `*_REVIEWED` date only after re-checking the figures.
+- Use `length_note` where a maker's published lengths are not comparable with its other
+  charts, as with Mizuno's move to the USGA / R&A measuring method.
 - Lofts/lies/lengths are the **standard steel-shaft men's** spec unless noted in `description`.
 - Every model needs at least loft + lie + length for each club.
 - Cover the real stock set composition for that model (e.g. 3-PW, 4-PW, 4-GW, plus U/SW/LW

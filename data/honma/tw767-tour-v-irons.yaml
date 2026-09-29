@@ -4,11 +4,11 @@ model: TW767 Tour V
 slug: tw767-tour-v-irons
 club_type: irons
 year_introduced: 2024
-year_discontinued: null
+year_discontinued: 2026
 category: players
 construction: one-piece forged, soft iron
 material: S20C soft carbon steel
-successor: null
+successor: Honma T//WORLD Tour V (2026)
 predecessor: null
 description: >
   The Tour V is the compact, one-piece forged iron of Honma's T//World 767 range,
@@ -67,7 +67,8 @@ sources:
   - "Note on offset: Honma publishes offset in millimetres (2.5 mm for the 4 to 6 irons, 2.0 mm for the 7 and 8 irons, 1.5 mm for the 9 and P) and is converted to inches here."
   - "thehackersparadise.com 'Honma TW767 Tour V Irons Review' — confirms a 32-degree 7-iron and 45-degree pitching wedge, a 5-PW set makeup, N.S.Pro Modus3 Tour 115 stock shaft, and that the irons were available for order as of the review date (6 March 2025)."
   - "firstcallgolf.com 'Honma Golf Launches Tour World 767 Collection' (release dated 22 October 2024) — announcement date for the TW767 range, used for year_introduced."
-  - "Note: predecessor and successor are recorded as null. The TW757 generation (announced 2022) did not ship a one-piece 'V'-branded model — only P and Vx — so there is no direct predecessor in that generation. No successor to the Tour V had been separately announced as of the sources retrieved; Honma's current T//World 2026 (TW777) marketing material continues to list a 'Tour V' head, but no distinct TW777-generation spec sheet for it could be found — see the TW777 PCB Max file for the one iron confirmed as new for that generation."
+  - "Note: predecessor is recorded as null. The TW757 generation (announced 2022) did not ship a one-piece 'V'-branded model — only P and Vx — so there is no direct predecessor in that generation."
+  - "Status check, 29 September 2026: year_discontinued is 2026: Honma's US store now sells the T//WORLD Tour V 26 (https://us.honmagolf.com/products/tworld-tour-v) and no TW767 irons; the 2026 T//WORLD Tour V, Vx and Px launched in Japan on 19 June 2026 (https://www.tourspecgolf.com/blog/honma-t-world-2026-irons-a-softer-faster-more-refined-players-iron-line/)."
 related_models:
   - slug: "honma/tw767-vx-irons"
     label: "Same generation, players cavity-back: Honma TW767 Vx"

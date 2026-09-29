@@ -3,7 +3,7 @@ brand_slug: xxio
 model: Prime 11
 slug: prime-11-irons
 club_type: irons
-year_introduced: 2020
+year_introduced: 2021
 year_discontinued: 2023
 category: super-game-improvement
 construction: cast body with a thin, forged Super-TIX PLUS titanium face insert and dynamic variable face thickness
@@ -71,7 +71,8 @@ sources:
   - "2ndswing.com 'XXIO Prime 11 Iron Set' specification table — full loft/length/lie/bounce table for the 5-iron through sand wedge (22-56 degrees, 38.25-35.75 inches, 61.5-63.5 degrees lie, 1-12 degrees bounce), the 5-9/PW/AW/SW eight-club set makeup, and C7 swing weight through the irons stepping to C8 in the wedges."
   - "golfclubguru.com 'XXIO Prime 11 Men's Iron Set Review' — corroborates the cast construction, the 42-degree pitching wedge as notably strong versus a roughly 45-degree category average, wide soles with moderate offset, and low perimeter weighting for a high launch."
   - "thegolfguys.com and pgatoursuperstore.com product listings — corroborate the Super-TIX PLUS titanium face, dynamic variable face thickness, progressive centre-of-gravity by loft, and the SP-1100 shaft (Toray T1100G, Nanoalloy resin)."
-  - "Year note: year_introduced 2020 pairs Prime 11 with the contemporaneous XXIO Eleven numbered generation (announced Japan late 2019, US retail February 2020, per the xxio-eleven-irons.yaml entry on this site); year_discontinued 2023 follows Amazon/retailer listings dating the next Prime generation, Prime 12, to 2023."
+  - "Year note: year_discontinued 2023 follows Amazon/retailer listings dating the next Prime generation, Prime 12, to 2023."
+  - "Years follow the announcement-year convention. This XXIO Prime generation was announced by Sumitomo Rubber on 20 January 2021, on sale from 20 February 2021 (https://www.srigroup.co.jp/newsrelease/2021/sp/2021_sp06.html)."
 related_models:
   - slug: "xxio/xxio-eleven-irons"
     label: "Contemporaneous numbered-generation flagship: XXIO Eleven"

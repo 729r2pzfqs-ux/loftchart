@@ -5,6 +5,7 @@ slug: apex-mb-2024-irons
 club_type: irons
 year_introduced: 2023
 year_discontinued: null
+current_as_of: "2026-09"
 category: blade
 construction: one-piece forged muscle back
 material: forged 1025 carbon steel
@@ -71,6 +72,7 @@ sources:
   - "Note on an omitted club: the same table carries a gap wedge row at 50 degrees, but gives its length as 35 inches — three quarters of an inch shorter than the pitching wedge, against a quarter-inch step everywhere else in the set — and prints its lie with an inch mark rather than a degree mark. Those two errors put the row in doubt, so it is left out rather than reproduced."
   - "golf.com 'Callaway's 2023 Apex irons: 5 things you need to know' — the Apex MB, CB and Pro were announced in 2023 and sold as the 2024 line, which is why retailers catalogue this model as the Apex MB 24. year_introduced records the announcement year per this database's convention."
   - "Note: confidence is medium — the numbers come from a retailer spec table rather than a Callaway spec sheet. year_discontinued is null; no replacement was recorded in the sources retrieved."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Listed on Callaway's iron sets page (https://www.callawaygolf.com/golf-clubs/iron-sets/); the Apex MB Tour Raw of August 2026 is a limited release rather than a replacement."
 related_models:
   - slug: "callaway/apex-mb-21-irons"
     label: "Predecessor: Callaway Apex MB 21"

@@ -3,7 +3,7 @@ brand_slug: taylormade
 model: RocketBallz Max
 slug: rocketballz-max-irons
 club_type: irons
-year_introduced: 2012
+year_introduced: 2011
 year_discontinued: 2012
 category: super-game-improvement
 construction: hollow, pull-face metalwood construction with tungsten sole weighting
@@ -103,7 +103,8 @@ stock_shafts:
 sources:
   - "TaylorMade official 2012 Irons catalog, RocketBallz Max page (p.20), taylormadegolf.com/on/demandware.static/-/Sites-TMaG-Library/default/v1463473265710/docs/productspecs/TM_SPR_2012_Catalog_21.pdf — full specification table giving loft, lie, offset in mm (converted to inches here), bounce, length and steel/graphite swingweights (D3.5 steel, D2.5 graphite through the irons; steel values used), plus the KBS Satin 90 and Matrix Program 55 stock shafts and RBZ Max Winn grip."
   - "NOTE on lengths: the catalog prints 39.21 and 38.41 inches for the 4- and 5-irons, reflecting the graphite stock build in the long irons; from the 6-iron down the ladder is the conventional steel progression. No left-handed lob wedge was offered."
-  - "NOTE on dates: year_introduced is the 2012 catalog year; year_discontinued is 2012 because the RocketBladez family that replaced the RocketBallz line was announced in late 2012."
+  - "NOTE on dates: the RocketBallz Max irons were shown in December 2011 and sold as the 2012 catalog line; year_discontinued is 2012 because the RocketBladez family that replaced the RocketBallz line was announced in late 2012."
+  - "Years follow the announcement-year convention. RocketBallz Max irons were shown with the RocketBallz irons at TaylorMade's December 2011 launch (specs and pricing reported 16 December 2011, https://thesandtrap.com/forums/topic/54759-taylormade-rockerballz-irons-and-rocketballz-max-irons/) and sold as the 2012 line."
 related_models:
   - slug: "taylormade/rocketballz-irons"
     label: "Standard sibling: TaylorMade RocketBallz"

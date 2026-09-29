@@ -5,6 +5,7 @@ slug: ts-1-im-irons
 club_type: irons
 year_introduced: 2023
 year_discontinued: null
+current_as_of: "2026-09"
 category: game-improvement
 construction: three-piece billet forged hollow body with injected polymer face backing ("Injected Muscle")
 material: forged 1025C carbon steel body, 2.1 mm MS300 super maraging steel face, internal tungsten toe weight
@@ -85,6 +86,7 @@ sources:
   - "GolfWorks Maltby MPF Ratings chart (golfworks.com/content/PDFs/Head_MPFs/MPFRatingsChart.pdf, retrieved July 2026) — 'MALTBY TS1-IM Forged #6 2023, MPF 728', fixing year_introduced 2023; the same chart lists the standard TS1 under 2019 at MPF 711, the basis for the predecessor field."
   - "The GolfWorks product pages for the 'Maltby TS1 IM Forged Iron Paks' (p/pma0344/) and 'Maltby TS1 IM Custom Irons' (p/cma0344/) — confirm the true 3-piece billet-forged design, the 2.1 mm MS300 super maraging face welded to the forged 1025C body, the internal tungsten toe weight, the polymer-injected void behind the face, the 5-step precision forging process, the universal .370/.355 hosel, and the 3-PW/GW, 4-PW/GW or 5-PW/GW pak configurations sold as bare heads or custom-built sets."
   - "Length note: The GolfWorks does not publish a length column on the TS1 IM spec chart (weight is given instead); lengths above follow this site's Maltby TS-1 entry, which uses The GolfWorks' published Standard Lengths chart (golfworks.com/images/art/StdLengths.pdf, men's steel) as the best available proxy for the same product family sold the same way (component heads built to order)."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. TS1 IM forged iron heads listed for sale at GolfWorks (https://www.golfworks.com/search.php?search_query=TS1+IM)."
 related_models:
   - slug: "maltby/ts-1-irons"
     label: "Predecessor without the injected polymer face backing: Maltby TS-1"

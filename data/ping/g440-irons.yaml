@@ -5,6 +5,7 @@ slug: g440-irons
 club_type: irons
 year_introduced: 2025
 year_discontinued: null
+current_as_of: "2026-09"
 category: game-improvement
 construction: investment cast
 material: stainless steel with a next-generation PurFlex cavity badge
@@ -107,6 +108,7 @@ sources:
   - "Earliest archived Ping G440 iron page is dated 17 January 2025, consistent with a January 2025 announcement and with the year_discontinued of 2025 already recorded in ping/g430-irons.yaml. golflink.com 'PING Irons by Year' also dates the G440 to 2025."
   - "Note: year_discontinued is null — the G440 is the current Ping game-improvement iron in the sources retrieved."
   - "Note: Ping's G440 page does not state the head alloy, so the material field records only the construction and the PurFlex cavity badge rather than repeating the G430's 'Hyper 17-4' marketing term without a source."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Listed among Ping's current irons (https://ping.com/en-us/golf-clubs/irons)."
 related_models:
   - slug: "ping/g430-irons"
     label: "Predecessor: Ping G430"

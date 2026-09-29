@@ -3,7 +3,7 @@ brand_slug: taylormade
 model: RocketBladez
 slug: rocketbladez-irons
 club_type: irons
-year_introduced: 2013
+year_introduced: 2012
 year_discontinued: 2014
 category: game-improvement
 construction: investment cast with Speed Pocket sole slot
@@ -75,6 +75,7 @@ sources:
   - "2nd Swing Golf RocketBladez iron set spec table (lofts and lies agree; its lengths are rounded and differ slightly)"
   - "Rotary Swing review of the TaylorMade RocketBladez, which independently cites the 30.5-degree 7-iron, 20-degree 4-iron and 23-degree 5-iron"
   - "NOTE: no manufacturer spec sheet was located. The archived taylormadegolf.com product page loads its spec table via script and did not preserve the numbers. Lofts and lies are corroborated across sources; lengths follow the TaylorMade progression of the era and come from a single source."
+  - "Years follow the announcement-year convention. RocketBladez irons announced 23 October 2012 (GolfWRX, https://web.archive.org/web/20121026021052/http://www.golfwrx.com/46833/taylormade-releases-rocketbladez-irons) and sold as the 2013 line."
 related_models:
   - slug: "taylormade/rocketballz-irons"
     label: "Predecessor: TaylorMade RocketBallz"

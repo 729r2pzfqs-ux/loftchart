@@ -4,7 +4,7 @@ model: ZX5 Mk II
 slug: zx5-mkii-irons
 club_type: irons
 year_introduced: 2023
-year_discontinued: 2025
+year_discontinued: 2024
 category: players-distance
 construction: forged multi-material
 material: forged carbon steel body with forged face insert and second-generation MainFrame milling
@@ -72,6 +72,7 @@ sources:
   - "Lie angles are the shared ZX Mk II progression (60 to 63.5 degrees) taken from the per-club tables on the Srixon ZX7 Mk II, ZX4 Mk II and ZX5 Mk II Black Chrome pages, which are identical across the line"
   - "Announcement date of 11 January 2023 and retail availability from 20 January 2023 per Srixon's 'Srixon Unveils the All-New ZX Mk II Irons' press release and Today's Golfer launch coverage"
   - "Confidence is medium rather than high because the standard-finish ZX5 Mk II product page was not reachable; the offset figures come from the identical black chrome head and the loft/length figures from Srixon's own comparison tables"
+  - "Years follow the announcement-year convention. year_discontinued is 2024: Srixon's media release for the ZXi irons was published on 4 November 2024 (https://www.golfaustralia.com.au/news/new-release-srixons-all-new-zxi-irons-612820); European and US launch coverage followed in January 2025."
 related_models:
   - slug: "srixon/zx7-mkii-irons"
     label: "Players model in the same line: Srixon ZX7 Mk II"

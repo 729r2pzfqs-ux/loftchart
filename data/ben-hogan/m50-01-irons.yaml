@@ -5,6 +5,7 @@ slug: m50-01-irons
 club_type: irons
 year_introduced: 2025
 year_discontinued: null
+current_as_of: "2026-09"
 category: players-distance
 construction: one-piece forged, CNC-milled face
 material: 1020C carbon steel
@@ -90,6 +91,7 @@ sources:
   - "golfreviewsguide.com, 'Ben Hogan M50-01 Irons (New 2025 Model Reviewed)' (published 27 March 2025, https://golfreviewsguide.com/ben-hogan-m50-01-irons/) - explicitly calls the M50-01 Hogan's 'player's distance category' iron for elite/low-handicap golfers wanting feel, workability and some forgiveness, comparable to the 2024 PTx Tour; states lofts run about 2 degrees stronger than traditional through the set, and gives pricing of $799.99 (6-piece, 5-PW) and $899.99 (7-piece, 4-PW)"
   - "The First Call, 'Ben Hogan: Launching new equipment range at PGA Show', 14 January 2025 - confirms the joint announcement date and booth (#2301), and describes the M50-01 as a 'forged CNC players distance iron offering incredible feel with increased power'"
   - "Only trailing bounce is published for this model (no leading-bounce column, unlike the Fort Worth MB/CB chart), and swing weight is not published; both are omitted from the spec rows accordingly"
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Listed in the irons category and in stock on Ben Hogan's site (https://www.benhogangolf.com/irons/)."
 related_models:
   - slug: "ben-hogan/legend-irons"
     label: "Same 2025 launch, hollow-body players-distance: Legend"

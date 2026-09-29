@@ -5,6 +5,7 @@ slug: jpx-925-hot-metal-irons
 club_type: irons
 year_introduced: 2024
 year_discontinued: null
+current_as_of: "2026-09"
 category: game-improvement
 construction: cast multi-material with a thin face and tungsten weighting
 material: Nickel Chromoly 4335 with tungsten weighting in the 4 to 7 irons
@@ -17,6 +18,13 @@ description: >
   the JPX 923 Tour — with a long 4-iron at 19 degrees, and offset is the widest in
   Mizuno's range at 0.224 inches at the top of the set. The set runs to a 54-degree
   sand wedge.
+length_note: >
+  These lengths use the USGA / R&A measuring method, which Mizuno adopted for
+  its published spec tables with this generation. They read about a quarter
+  inch longer than the figures Mizuno published for earlier models such as the
+  JPX923 and Mizuno Pro 241, 243 and 245, but Mizuno states that actual club
+  length is unchanged. Subtract 0.25 inches to compare with an older Mizuno
+  chart.
 specs:
   - club: "4"
     loft: 19.0
@@ -69,9 +77,11 @@ stock_shafts:
   - name: "UST Recoil Dart ESX"
     material: graphite
 sources:
+  - "Length basis: Mizuno's own specification page for the Mizuno Pro 243 (https://mizunogolf.com/us/golf-clubs/mp-series/mizuno-pro-243/club-specification/, retrieved 29 September 2026) states that Mizuno is changing its official iron measurement method to match the USGA / R&A standard and that its published lengths are consequently about 1/4 inch longer while actual club length is unchanged."
   - "2nd Swing Golf specification table for the Mizuno JPX 925 Hot Metal iron set (https://www.2ndswing.com/golf-clubs/iron-sets/mizuno-jpx-925-hot-metal-iron-set) — supplied every loft, lie, length and offset above, both stock shafts, the Lamkin UT+ grip and the note that tungsten sits in the 4 to 7 irons."
   - "golfwrx.com '2024 Mizuno JPX 925 Hot Metal irons: GolfWRX Launch Report' and todays-golfer.com 'Mizuno JPX 925 irons have a completely new design for 2024' — Mizuno launched the JPX 925 Hot Metal line in September 2024. Retailers catalogue it as the 2025 line, so year_introduced records the 2024 announcement per this database's convention."
   - "Note: bounce and swing weight are omitted — the source table carried neither column. Confidence is medium."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Listed on Mizuno's irons page with no newer JPX generation (https://mizunogolf.com/us/irons/)."
 related_models:
   - slug: "mizuno/jpx-923-hot-metal-irons"
     label: "Predecessor: Mizuno JPX-923 Hot Metal"

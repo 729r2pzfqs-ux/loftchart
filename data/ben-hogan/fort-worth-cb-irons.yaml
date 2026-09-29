@@ -5,6 +5,7 @@ slug: fort-worth-cb-irons
 club_type: irons
 year_introduced: 2025
 year_discontinued: null
+current_as_of: "2026-09"
 category: players
 construction: forged cavity back, co-forged Ceramic Matrix Composite (CMC) core
 material: 1025C carbon steel with a co-forged ceramic matrix composite core
@@ -78,6 +79,7 @@ sources:
   - "The First Call, 'Ben Hogan: Launching new equipment range at PGA Show', 14 January 2025 - confirms the joint announcement date and booth (#2301) for the Fort Worth MB, Fort Worth CB, Legend and M50-01, and describes the pair as targeting 'better golfers' with Ceramic Matrix technology that 'optimizes the COG for each club'"
   - "Deviation worth flagging: Ben Hogan's official spec tables for the Fort Worth CB and Fort Worth MB are identical in every published column - loft, lie, length, offset, head weight, leading/trailing bounce and blade length - which was cross-checked directly against each model's own official page. Per Hogan's own data the two models share identical external head geometry and differ only in internal construction (an open, perimeter-weighted cavity on the CB vs. a solid muscle-back forging on the MB)"
   - "Swing weight is not published on Hogan's current spec chart for this model and is omitted here accordingly"
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Listed in the irons category and in stock on Ben Hogan's site (https://www.benhogangolf.com/irons/)."
 related_models:
   - slug: "ben-hogan/fort-worth-mb-irons"
     label: "Same 2025 launch, muscle-back blade: Fort Worth MB"

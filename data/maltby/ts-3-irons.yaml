@@ -5,6 +5,7 @@ slug: ts-3-irons
 club_type: irons
 year_introduced: 2023
 year_discontinued: null
+current_as_of: "2026-09"
 category: super-game-improvement
 construction: five-step precision forged, co-forged tungsten toe weight, progressive cavity
 material: forged 1025C carbon steel with co-forged tungsten weight
@@ -82,6 +83,7 @@ sources:
   - "The GolfWorks Head MPF Ratings chart (golfworks.com/content/PDFs/Head_MPFs/MPFRatingsChart.pdf, updated July 2026) — 'MALTBY TS3 Forged #6 2023, MPF 849' in the Super Game Improvement section, fixing both year_introduced 2023 and the category recorded here."
   - "GolfWRX club-techs threads 'The GolfWorks - Maltby 2023 New Releases' and 'Maltby TS3 Irons' (May 2023) — the TS3's arrival on the GolfWorks site as part of the 2023 lineup."
   - "Lengths are from The GolfWorks' published Standard Lengths chart (golfworks.com/images/art/StdLengths.pdf, men's steel: 38.5-inch 4-iron through 35.5-inch PW and GW) because Maltby heads are sold component-style and built to order; playing lengths vary per build, hence confidence medium."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. TS3 iron head listed for sale at GolfWorks (https://www.golfworks.com/maltby-ts3-iron-head/p/ma0340/)."
 related_models:
   - slug: "maltby/ts-4-irons"
     label: "Tour Series blade released the same year: Maltby TS-4"

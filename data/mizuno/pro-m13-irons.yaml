@@ -5,6 +5,7 @@ slug: pro-m13-irons
 club_type: irons
 year_introduced: 2026
 year_discontinued: null
+current_as_of: "2026-09"
 category: players
 construction: Grain Flow Forged HD, split-set multi-material
 material: 4120 Chromoly pocket-cavity 4-5 irons with 431 stainless back, micro-slot forged 6-8 irons, one-piece 1025E from the 9-iron down
@@ -24,6 +25,13 @@ description: >
   quarter inch longer than the 243 table, matching Mizuno's JPX-style build specs.
   Mizuno unveiled the Modern Series on 5 January 2026, with presale from 19 January
   and in-store availability on 5 February 2026.
+length_note: >
+  These lengths use the USGA / R&A measuring method, which Mizuno adopted for
+  its published spec tables with this generation. They read about a quarter
+  inch longer than the figures Mizuno published for earlier models such as the
+  JPX923 and Mizuno Pro 241, 243 and 245, but Mizuno states that actual club
+  length is unchanged. Subtract 0.25 inches to compare with an older Mizuno
+  chart.
 specs:
   - club: "4"
     loft: 22.0
@@ -71,10 +79,12 @@ stock_shafts:
     weight: "120 g class"
     flex: ["S"]
 sources:
+  - "Length basis: Mizuno's own specification page for the Mizuno Pro 243 (https://mizunogolf.com/us/golf-clubs/mp-series/mizuno-pro-243/club-specification/, retrieved 29 September 2026) states that Mizuno is changing its official iron measurement method to match the USGA / R&A standard and that its published lengths are consequently about 1/4 inch longer while actual club length is unchanged."
   - "Mizuno official Pro M-13 club-specification page, mizunogolf.com/us/golf-clubs/mp-series/mizuno-pro-m13/club-specification/ (live, fetched July 2026) — full 4-GW table of loft, lie, length and bounce, plus the dexterity note 'RH & LH: 4-GW'. The page does not publish offset or swing weight, so those keys are omitted"
   - "Mizuno official Pro M-13 product page, mizunogolf.com/us/golf-clubs/mp-series/mizuno-pro-m13/ — construction copy: pocket-cavity Grain Flow Forged 4120 Chromoly with 431 stainless in the 4-5 irons, micro-slot Grain Flow Forged 6-8 irons with a 0.3 mm thinner face, one-piece 1025E 9-GW, the 1.37 mm Contour Ellipse face (~35% thinner than Pro 243), Triple Cut Sole and Nickel Chrome Satin Brush finish"
   - "todays-golfer.com 'Mizuno Pro M-13 and M-15 irons: everything you need to know' — M-13 replaces the Pro 243 as the players cavity-back, $215 per iron, stock shaft Nippon Modus Tour 120g (S)"
   - "golf.com 'Mizuno launches new Mizuno Pro Modern series with M-13, M-15 irons, Fli-Hi utility' and the MyGolfSpy forum launch thread — Modern Series announced 5 January 2026, presale from 19 January, retail 5 February 2026. Announcement and retail both fall in 2026, so year_introduced carries no announcement-vs-model-year gap this cycle"
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Listed on Mizuno's irons page (https://mizunogolf.com/us/irons/)."
 related_models:
   - slug: "mizuno/pro-243-irons"
     label: "Predecessor: Mizuno Pro 243"

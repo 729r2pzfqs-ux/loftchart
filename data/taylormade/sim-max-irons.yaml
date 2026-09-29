@@ -4,7 +4,7 @@ model: SIM Max
 slug: sim-max-irons
 club_type: irons
 year_introduced: 2020
-year_discontinued: 2020
+year_discontinued: 2021
 category: game-improvement
 construction: investment cast with Speed Bridge and Thru-Slot Speed Pocket
 material: stainless steel
@@ -99,6 +99,7 @@ stock_shafts:
 sources:
   - "TaylorMade official SIM Max Irons product page specifications table, taylormadegolf.com/SIM-Max-Irons/DW-AL474.html (archived December 2020 via archive.org)"
   - "TaylorMade 2020 Fall Custom Component booklet, 2020 Irons spec pages, taylormadegolf.com/.../TaylorMade/Product_Specs/2020_Fall_Custom.pdf"
+  - "Years follow the announcement-year convention. SIM Max irons announced 10 January 2020 (https://golf.com/gear/irons/taylormade-sim-sim-max-os-irons-first-look/); year_discontinued is 2021, when the SIM2 Max irons were announced on 19 January 2021."
 related_models:
   - slug: "taylormade/m6-irons"
     label: "Predecessor: TaylorMade M6"

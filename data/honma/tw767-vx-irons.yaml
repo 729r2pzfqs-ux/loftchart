@@ -4,11 +4,11 @@ model: TW767 Vx
 slug: tw767-vx-irons
 club_type: irons
 year_introduced: 2024
-year_discontinued: null
+year_discontinued: 2026
 category: players
 construction: one-piece forged cavity back with a tungsten toe weight
 material: S20C forged carbon steel with a tungsten weight in the 4 to 8 irons
-successor: null
+successor: Honma T//WORLD Vx (2026)
 predecessor: Honma TW757 Vx
 description: >
   The Vx is the players cavity-back iron of Honma's T//World 767 range, forged from
@@ -73,7 +73,7 @@ sources:
   - "Note on offset: Honma publishes offset in millimetres (3.5 mm for the 4 and 5 irons, 3.0 mm for the 6 to 8 irons, 2.5 mm for the 9 and P, 2.0 mm for the A) and is converted to inches here."
   - "Note on length: Honma's chart lists two length columns depending on stock shaft; the figures above are the N.S.Pro 950GH neo (steel) column, matching this schema's steel-shaft-standard convention."
   - "firstcallgolf.com 'Honma Golf Launches Tour World 767 Collection' (release dated 22 October 2024) — announcement date, used for year_introduced."
-  - "Note: year_discontinued is null — no successor to the TW767 Vx had been announced in the sources retrieved. Honma's current T//World 2026 (TW777) marketing material continues to list a 'Vx' head, but no distinct TW777-generation spec sheet for it could be found, and the TW767 Vx's own US product page still references the TW767 product manual — see the TW777 PCB Max file for the one iron confirmed as genuinely new for that generation."
+  - "Status check, 29 September 2026: year_discontinued is 2026: Honma's US store now sells the T//WORLD Vx 26 (https://us.honmagolf.com/products/tworld-vx) and no TW767 irons; the 2026 T//WORLD Tour V, Vx and Px launched in Japan on 19 June 2026 (https://www.tourspecgolf.com/blog/honma-t-world-2026-irons-a-softer-faster-more-refined-players-iron-line/)."
 related_models:
   - slug: "honma/tw757-vx-irons"
     label: "Predecessor: Honma TW757 Vx"

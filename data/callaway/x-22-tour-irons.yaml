@@ -3,7 +3,7 @@ brand_slug: callaway
 model: X-22 Tour
 slug: x-22-tour-irons
 club_type: irons
-year_introduced: 2009
+year_introduced: 2008
 year_discontinued: 2011
 category: players
 construction: investment cast
@@ -73,6 +73,7 @@ sources:
   - "2ndswing.com Callaway X-22 Tour Iron Set specification table — agrees cell for cell on loft, lie, length and bounce"
   - "Golf Monthly 'Callaway X-22, X-22 Tour and X-Forged irons 09' — the X-22 Tour was unveiled at Golf Europe in Munich in October 2008 as a 2009-season model, with the sleeker hosel lowering and centring the centre of gravity"
   - "Note: offset was not published in the sources located, so the column is omitted rather than estimated"
+  - "Years follow the announcement-year convention. The X-22 and X-22 Tour were announced in October 2008 (https://www.golfmonthly.com/gear/gear-blog/callaway-x-22-x-22-tour-and-x-forged-irons-09-22003, 6 October 2008) and sold as the 2009 line."
 related_models:
   - slug: "callaway/x-22-irons"
     label: "Standard model: Callaway X-22"

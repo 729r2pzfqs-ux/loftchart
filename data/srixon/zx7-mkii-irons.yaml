@@ -4,7 +4,7 @@ model: ZX7 Mk II
 slug: zx7-mkii-irons
 club_type: irons
 year_introduced: 2023
-year_discontinued: 2025
+year_discontinued: 2024
 category: players
 construction: forged
 material: forged 1020 carbon steel with a PureFrame ridge behind the sweet spot
@@ -91,6 +91,7 @@ sources:
   - "Srixon / Dunlop Sports official ZX7 Mk II irons product page (us.dunlopsports.com/srixon/clubs/irons/zx7-mk-ii-irons/zx7-mk-ii-irons/11226898.html, corroborated against the identical eu.dunlopsports.com page) — full per-club specification table (head, loft, hand, lie, offset in mm, length, swing weight, 3-iron through SW), the ZX Mk II loft and length comparison tables, the ZX7/ZX5/ZX4 blade length, topline, hosel offset and sole width comparison, and the Nippon N.S. PRO Modus3 Tour 120 stock shaft table with Golf Pride Tour Velvet 360 grips"
   - "Same Srixon page, technology copy: PureFrame described as a ridge forged into the body behind the sweet spot as an 80 percent thicker portion of 1020 Carbon Steel"
   - "Announcement date of 11 January 2023 and retail availability from 20 January 2023 per Srixon's 'Srixon Unveils the All-New ZX Mk II Irons' press release and Today's Golfer launch coverage"
+  - "Years follow the announcement-year convention. year_discontinued is 2024: Srixon's media release for the ZXi irons was published on 4 November 2024 (https://www.golfaustralia.com.au/news/new-release-srixons-all-new-zxi-irons-612820); European and US launch coverage followed in January 2025."
 related_models:
   - slug: "srixon/zx5-mkii-irons"
     label: "Distance model in the same line: Srixon ZX5 Mk II"

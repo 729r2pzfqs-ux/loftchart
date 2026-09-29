@@ -3,7 +3,7 @@ brand_slug: taylormade
 model: RocketBallz
 slug: rocketballz-irons
 club_type: irons
-year_introduced: 2012
+year_introduced: 2011
 year_discontinued: 2012
 category: game-improvement
 construction: investment cast, two-piece metalwood-inspired construction in 3-5 irons
@@ -112,7 +112,8 @@ sources:
   - "TaylorMade official 2012 Irons catalog, RocketBallz irons page (p.19), specification table giving loft, lie, offset in mm, bounce, length and steel/graphite swingweight, taylormadegolf.com/on/demandware.static/-/Sites-TMaG-Library/default/v1463473265710/docs/productspecs/TM_SPR_2012_Catalog_21.pdf"
   - "Same catalog page, feature list and shaft/grip block (two-piece metalwood-inspired 3-5 irons, Toe-Bar face, ATV wedge sole, RBZ Steel 85g/106g and RBZ Graphite 65 shafts, RBZ Iron grip)"
   - "QSponge club spec database, TaylorMade RocketBallz irons table, used as an independent check on the lofts, lies and lengths — it agrees with the catalog on every club"
-  - "NOTE on dates: year_introduced is the 2012 catalog year. year_discontinued is 2012 because the successor RocketBladez was announced in late 2012, even though it was sold as the 2013 model."
+  - "NOTE on dates: the RocketBallz irons were announced in December 2011 and sold as the 2012 catalog line. year_discontinued is 2012 because the successor RocketBladez was announced in late 2012, even though it was sold as the 2013 model."
+  - "Years follow the announcement-year convention. RocketBallz irons announced 8 December 2011 (https://www.golfmonthly.com/gear/brands/taylormade/taylormade-introduces-rocketballz-irons-9126) and sold as the 2012 line; RocketBladez announced 23 October 2012."
 related_models:
   - slug: "taylormade/burner-2-0-irons"
     label: "Predecessor: TaylorMade Burner 2.0"

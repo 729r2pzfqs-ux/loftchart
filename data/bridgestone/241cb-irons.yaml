@@ -4,11 +4,11 @@ model: 241CB
 slug: 241cb-irons
 club_type: irons
 year_introduced: 2024
-year_discontinued: null
+year_discontinued: 2026
 category: players
 construction: forged
 material: soft carbon steel (S20C)
-successor: null
+successor: Bridgestone B-FORGED 100CB
 predecessor: Bridgestone 221CB
 description: >
   The 241CB is the players cavity-back in Bridgestone's B-Series tour iron
@@ -68,6 +68,7 @@ sources:
   - "Same press release: the 'previous model' comparison images explicitly show the 221CB and 222CB+ as the models the 241CB/242CB+ replace, and the muscle-cavity and dual-cut Tour Contact Sole descriptions"
   - "Golf Partner USA and TourSpecGolf retail listings for the 241CB — corroborate the 5-PW set make-up, forged cavity-back description and MODUS3 TOUR120 stock shaft"
   - "Bridgestone publishes face progression (3.85-5.15 mm) rather than offset, and no bounce figures; those keys are omitted rather than estimated. The 4-iron (22 degrees, 60.5 lie) is custom-order only with no published stock length, so it is described here rather than tabled"
+  - "Status check, 29 September 2026: year_discontinued is 2026: the B-FORGED 100CB and 200CB+ were announced as the direct successors, on sale from 4 September 2026 (https://www.tourspecgolf.com/blog/bridgestone-b-forged-100cb-200cb-plus-irons/, 2 August 2026)."
 related_models:
   - slug: "bridgestone/221cb-irons"
     label: "Predecessor: Bridgestone 221CB"

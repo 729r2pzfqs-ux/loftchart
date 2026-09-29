@@ -8,7 +8,7 @@ year_discontinued: 2007
 category: game-improvement
 construction: investment cast
 material: stainless steel
-successor: M4
+successor: null
 predecessor: rac OS
 description: >
   The r7 iron was TaylorMade's mainstream game-improvement model for 2006, replacing the
@@ -109,8 +109,6 @@ related_models:
     label: "Draw-biased sister model: TaylorMade r7 Draw"
   - slug: "taylormade/r7-cgb-max-irons"
     label: "More forgiving r7 model: TaylorMade r7 CGB Max"
-  - slug: "taylormade/m4-irons"
-    label: "Successor: TaylorMade M4"
 faq:
   - q: "What is the loft of a TaylorMade r7 7-iron?"
     a: "The TaylorMade r7 7-iron has a loft of 32 degrees, with a 63-degree lie and a 36.75-inch steel-shaft length."

@@ -4,7 +4,7 @@ model: Eye 2
 slug: eye-2-irons
 club_type: irons
 year_introduced: 1982
-year_discontinued: 1993
+year_discontinued: 1990
 category: game-improvement
 construction: investment cast
 material: 17-4 stainless steel
@@ -74,6 +74,7 @@ sources:
   - "TGW / PGA Tour Superstore Ping colour code chart guides (black dot = standard lie)"
   - "Note: earlier revisions of this file carried 24.7 / 40.2 / 50.7 / 57.7 at the 4, 8, PW and SW on the grounds that they were 'the more widely reproduced' figures. Ping's own archived Classics chart lists 25.0 / 40.0 / 50.5 / 57.5, and equip2golf agrees; the manufacturer figures are used here. Ping notes on that chart that loft and lie are rounded to the nearest 0.5 degree, so the true unrounded values may sit slightly off these, but no published Ping source gives them."
   - "Note: Ping never officially published per-club offset or bounce figures for the Eye 2; those keys are deliberately omitted rather than sourced from secondary listings."
+  - "Years follow the announcement-year convention. year_discontinued is 1990: Ping's own Classics page states the Eye2 was first introduced in September 1982 and the Eye2+ in April 1990 (https://web.archive.org/web/20040607003749/http://ping.com:80/classics/irons/eye2.html). This is the succession date; the same page shows Ping continued to build Eye2 irons to order afterwards."
 related_models:
   - slug: "ping/eye-2-plus-irons"
     label: "Successor update: Ping Eye 2 Plus (April 1990)"
@@ -85,7 +86,7 @@ faq:
   - q: "What does the black dot on a Ping Eye 2 mean?"
     a: "Black is Ping's standard lie angle. Other dot colours shift the lie flatter (gold, brown, orange, red) or more upright (blue, green, white, silver, maroon) in one-degree steps."
   - q: "When were Ping Eye 2 irons made?"
-    a: "The Eye 2 was introduced in September 1982 and remained in the line until 1993, when the Zing had taken over as Ping's mainstream game-improvement iron. It is the best-selling iron model in golf history."
+    a: "The Eye 2 was introduced in September 1982 and was succeeded by the Eye 2 Plus in April 1990, although Ping went on building Eye 2 irons to order for years afterwards. It is the best-selling iron model in golf history."
   - q: "Are Ping Eye 2 irons conforming?"
     a: "Square-groove Eye 2 irons manufactured before 1 April 1990 remain conforming for general play under the terms of Ping's 1990 settlement with the USGA and the PGA Tour, which grandfathered those clubs. That settlement stayed in force when the tighter groove rule took effect in 2010, briefly making pre-1990 Eye 2 wedges a talking point on tour. Later Eye 2 production is subject to the normal groove rules."
   - q: "Are Ping Eye 2 lofts weak compared to modern irons?"

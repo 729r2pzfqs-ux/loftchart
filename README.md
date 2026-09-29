@@ -91,8 +91,8 @@ archive as models are added. `WEDGE_TYPES` in `generate.py` holds the prose, lof
 bands, bounce ranges and carry distances; the tables are derived.
 
 Structured data: `BreadcrumbList` everywhere, `Article` + `FAQPage` on model pages,
-`ItemList` on hub pages, `WebSite` + `SearchAction` and `Organization` on the
-homepage.
+`ItemList` on hub pages, `WebSite` and `Organization` on the homepage. There is no
+`SearchAction`: search runs client-side on the homepage and has no results URL.
 
 ## Notes
 

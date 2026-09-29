@@ -3,8 +3,8 @@ brand_slug: cobra
 model: KING Radspeed
 slug: king-radspeed-irons
 club_type: irons
-year_introduced: 2021
-year_discontinued: 2021
+year_introduced: 2020
+year_discontinued: 2022
 category: game-improvement
 construction: cast hollow-body distance iron with a forged face insert, carbon fibre topline and 3D-printed medallion
 material: stainless steel body with a thin forged 17-4 stainless steel PWRSHELL face insert
@@ -87,6 +87,7 @@ stock_shafts:
     flex: ["S", "R", "A"]
 sources:
   - "Cobra Golf official RADSPEED Iron Set product page, archived 2021-03-25 via web.archive.org — retrieved directly; supplies the full specification table (iron, loft, lie angle, offset, length with COBRA CONNECT, length with standard grip, graphite and steel swing weight, graphite and steel shaft flex, RH/LH) for the 4-iron through sand wedge, the 'STOCK SET COMPOSITION - 7 Clubs: 5-GW (RH, LH), 4-PW (RH)' block, the forged 17-4 PWRSHELL face, carbon fibre topline and 3D-printed medallion descriptions and the KBS Tour 90 / UST Recoil 460 ESX shaft options"
+  - "Years follow the announcement-year convention. Radspeed irons announced 8 December 2020 (https://mygolfspy.com/news-opinion/cobra-radspeed-irons/) and sold as the 2021 line; LTDx irons announced 19 January 2022 (https://golf.com/gear/irons/cobra-ltdx-irons-first-look/)."
 related_models:
   - slug: "cobra/king-speedzone-irons"
     label: "Predecessor: Cobra KING Speedzone"

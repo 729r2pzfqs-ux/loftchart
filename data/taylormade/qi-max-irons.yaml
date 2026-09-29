@@ -5,6 +5,7 @@ slug: qi-max-irons
 club_type: irons
 year_introduced: 2026
 year_discontinued: null
+current_as_of: "2026-09"
 category: game-improvement
 construction: investment cast Cap Back design with a Speed Pocket and sound stabilization bar
 material: cast 17-4 stainless steel body and hosel with a forged high-strength HT1770 steel face insert
@@ -101,6 +102,7 @@ sources:
   - "todays-golfer.com Qi Max irons review — states directly that TaylorMade stuck with the Qi iron through 2025 and that 'for 2026, Qi Max is taking its place', confirming the succession recorded here, along with the 28-degree 7-iron."
   - "Golf Digest 2026 Hot List entry for the TaylorMade Qi Max — the cast 17-4 stainless steel body and hosel with a forged high-strength HT1770 steel face insert. The page blocks direct fetching, so this detail was taken from its search excerpt; the per-club numbers above do not rely on it."
   - "Confidence is medium rather than high because taylormadegolf.com was unreachable when this file was researched: the numbers are TaylorMade's published specifications as reproduced identically by two independent secondary sources, not read directly from the manufacturer's page."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Listed at full price on TaylorMade's irons page (https://www.taylormadegolf.com/taylormade-irons/)."
 related_models:
   - slug: "taylormade/qi-irons"
     label: "Predecessor: TaylorMade Qi"

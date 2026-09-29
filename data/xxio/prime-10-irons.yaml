@@ -3,8 +3,8 @@ brand_slug: xxio
 model: Prime 10
 slug: prime-10-irons
 club_type: irons
-year_introduced: 2018
-year_discontinued: 2020
+year_introduced: 2019
+year_discontinued: 2021
 category: super-game-improvement
 construction: cast body with a thin, forged Super-TIX PLUS titanium face insert and a CNC-milled speed groove
 material: Super-TIX PLUS titanium face on a stainless steel body with tungsten-nickel weighting
@@ -12,7 +12,7 @@ successor: XXIO Prime 11
 predecessor: XXIO Prime 9
 description: >
   Prime 10 is the second XXIO Prime iron generation, following the original
-  Prime 9 into the US market in 2018. It carried over the same loft, lie,
+  Prime 9 into the US market in 2019. It carried over the same loft, lie,
   bounce and length table as the Prime 9 while adding a thin, forged
   Super-TIX PLUS titanium face insert with a CNC-milled speed groove in
   place of the first generation's stainless-only face, for more ball speed
@@ -69,7 +69,7 @@ stock_shafts:
 sources:
   - "Manufacturer/retailer copy for 'XXIO Prime 10 Irons' (carlsgolfland.com, vkgolfshop.com product listings) — confirms the thin, forged Super-TIX PLUS titanium face with a CNC-milled speed groove, the XXIO Prime SP-1000 graphite shaft (Toray T1100G carbon fibre, Nanoalloy resin), and the pronounced-to-tapering offset profile from long irons to wedges."
   - "Note on loft/lie/bounce/length table: no independent Prime-10-specific spec chart could be retrieved (the retailer pages that carry it are behind a bot-check wall). The table recorded here is carried over from the confirmed Prime 9 and Prime 11 tables, which are identical to each other club for club (loft, lie, bounce and length all match exactly across both independently-sourced tables — sdgolfpro.com for Prime 9, 2ndswing.com for Prime 11), and XXIO's Prime line is documented elsewhere (see Honma and XXIO sibling files on this site) as typically holding a loft/lie table constant across a generation or two while changing face material and shaft. Confidence is set to medium/low specifically because of this extrapolation."
-  - "Year note: year_introduced 2018 and year_discontinued 2020 follow XXIO's Prime numbering cadence, pairing Prime 10 with the contemporaneous 10th-generation XXIO cycle (announced Japan late 2017, US retail early 2018, per the xxio-10-irons.yaml entry on this site) and ending at the Prime 11 introduction."
+  - "Years follow the announcement-year convention. This XXIO Prime generation was announced by Sumitomo Rubber on 15 January 2019, on sale in Japan from 9 March 2019 (https://www.srigroup.co.jp/newsrelease/2019/sp/2019_s07.html), with the North American launch announced on 18 January 2019. year_discontinued is 2021: the following generation was announced on 20 January 2021 (https://www.srigroup.co.jp/newsrelease/2021/sp/2021_sp06.html)."
 related_models:
   - slug: "xxio/xxio-10-irons"
     label: "Contemporaneous numbered-generation flagship: XXIO 10"

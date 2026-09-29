@@ -3,8 +3,8 @@ brand_slug: mizuno
 model: Pro 221
 slug: pro-221-irons
 club_type: irons
-year_introduced: 2022
-year_discontinued: 2024
+year_introduced: 2021
+year_discontinued: 2023
 category: blade
 construction: Grain Flow Forged HD
 material: 1025E Pure Select mild carbon steel
@@ -76,6 +76,7 @@ stock_shafts:
 sources:
   - "Mizuno official Mizuno Pro 221 product page, mizunogolf.com/us/golf-clubs/mp-series/mizuno-pro-221/ (Specification tab: club, loft, lie, offset, length), archived January 2022 via archive.org"
   - "Same page, Custom Shafts tab, for the no-upcharge steel shaft options"
+  - "Years follow the announcement-year convention. Mizuno Pro 221, 223 and 225 announced 9 December 2021 with retail from 3 February 2022 (https://golf.com/gear/irons/mizuno-pro-221-223-and-225-irons-first-look/); the year is the announcement, not the retail year. year_discontinued is 2023, when the Mizuno Pro 241, 243 and 245 were announced on 16 October 2023."
 related_models:
   - slug: "mizuno/pro-241-irons"
     label: "Successor: Mizuno Pro 241"

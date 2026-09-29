@@ -3,16 +3,16 @@ brand_slug: taylormade
 model: M1
 slug: m1-irons
 club_type: irons
-year_introduced: 2017
-year_discontinued: 2017
+year_introduced: 2016
+year_discontinued: 2018
 category: players
 construction: investment cast multi-material with high-density tungsten
 material: stainless steel with tungsten weighting
-successor: P770
+successor: TaylorMade M3
 predecessor: null
 description: >
-  The M1 iron was TaylorMade's only M-family players iron, sold for a single
-  season in 2017 alongside the larger M2. It pairs a thin high-COR face with
+  The M1 iron was TaylorMade's only M-family players iron, announced in
+  December 2016 and sold as the 2017 model alongside the larger M2. It pairs a thin high-COR face with
   Face Slot Technology in the heel and toe and a Speed Pocket in the sole, while
   a 180-degree fluted hosel and high-density tungsten in the 3-iron through
   7-iron move the centre of gravity low. Head size, blade length and offset are
@@ -91,11 +91,14 @@ stock_shafts:
     flex: ["A", "R", "S"]
 sources:
   - "TaylorMade official 2017 M1 Irons spec sheet PDF, taylormadegolf.com/on/demandware.static/-/Sites-TMaG-Library/default/docs/productspecs/2017/M1 Irons.PDF (via archive.org)"
+  - "Years follow the announcement-year convention. 2017 M1 and M2 irons announced 9 December 2016 (GolfWRX, https://web.archive.org/web/20161210090231/http://www.golfwrx.com/417134/taylormade-2017-m1-and-m2-irons-what-you-need-to-know/). year_discontinued is 2018, when the M3 irons were announced on 2 January 2018 (https://www.golfmonthly.com/gear/gear-news/taylormade-m3-and-m4-woods-and-irons-launched-147945). The P770 of January 2017 was a contemporary in the range, not a replacement."
 related_models:
+  - slug: "taylormade/m3-irons"
+    label: "Successor: TaylorMade M3"
   - slug: "taylormade/m2-irons"
     label: "Sibling: TaylorMade M2"
   - slug: "taylormade/p770-2017-irons"
-    label: "Successor in the better-player slot: TaylorMade P770 (2017)"
+    label: "Better-player sibling: TaylorMade P770 (2017)"
 faq:
   - q: "What is the loft of a TaylorMade M1 7-iron?"
     a: "The TaylorMade M1 7-iron has a loft of 30.5 degrees, with a 62.5-degree lie and a 36.75-inch steel-shaft length."

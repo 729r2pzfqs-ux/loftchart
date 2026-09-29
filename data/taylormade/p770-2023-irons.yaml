@@ -3,7 +3,7 @@ brand_slug: taylormade
 model: P770 (2023)
 slug: p770-2023-irons
 club_type: irons
-year_introduced: 2023
+year_introduced: 2022
 year_discontinued: 2024
 category: players
 construction: forged hollow body
@@ -27,49 +27,49 @@ specs:
     swing_weight: D1
   - club: "4"
     loft: 22.5
-    lie: 60.5
+    lie: 61.0
     length: 38.50
     offset: 0.118
     swing_weight: D1
   - club: "5"
     loft: 25.5
-    lie: 61.0
+    lie: 61.5
     length: 38.00
     offset: 0.110
     swing_weight: D1
   - club: "6"
     loft: 29.0
-    lie: 61.5
+    lie: 62.0
     length: 37.50
     offset: 0.102
     swing_weight: D1
   - club: "7"
     loft: 33.0
-    lie: 62.0
+    lie: 62.5
     length: 37.00
     offset: 0.094
     swing_weight: D1
   - club: "8"
     loft: 37.0
-    lie: 62.5
+    lie: 63.0
     length: 36.50
     offset: 0.087
     swing_weight: D1
   - club: "9"
     loft: 41.0
-    lie: 63.0
+    lie: 63.5
     length: 36.00
     offset: 0.075
     swing_weight: D1
   - club: "PW"
     loft: 46.0
-    lie: 63.5
+    lie: 64.0
     length: 35.75
     offset: 0.063
     swing_weight: D2
   - club: "AW"
     loft: 51.0
-    lie: 63.5
+    lie: 64.0
     length: 35.50
     offset: 0.063
     swing_weight: D2
@@ -77,10 +77,12 @@ stock_shafts:
   - name: "FST KBS Tour"
     material: steel
 sources:
+  - "TaylorMade official P770 Irons product page (DW-TA240), archived 25 May 2023: https://web.archive.org/web/20230525013436/https://www.taylormadegolf.com/P770-IRONS/DW-TA240.html?lang=en_US — manufacturer specification table. Lie angles are taken from this table (60.5 degrees at the 3-iron rising in half-degree steps to 64 at the pitching wedge and approach wedge); the 2nd Swing table below lists the 4-iron to approach wedge half a degree flatter, which is a retailer transcription error. Loft, length, offset and swing weight agree between the two."
   - "2ndswing.com TaylorMade 2023 P770 Iron Set specification table — loft, lie, length, offset (in millimetres) and swing weight for the 3-iron through approach wedge, the 4-PW stock make-up, the KBS Tour stock shaft and the Golf Pride Z-Grip 360 grip. Offset is converted to inches here."
   - "pluggedingolf.com '2023 TaylorMade P770 Irons Review' — confirms the 2023 launch, the forged hollow-body construction with a thin forged 4140 face, the reduced long-iron offset against the previous P770, and the FLTD CG progression."
   - "Note: bounce was not published in the sources consulted and is omitted rather than estimated."
   - "Succession: TaylorMade announced the next-generation P770 alongside the P7CB on 31 July 2024 (taylormadegolf.com press release, covered by Irish Golfer Magazine on 1 August 2024), marketed for the 2024/25 season, which is why year_discontinued reads 2024."
+  - "Years follow the announcement-year convention. The second-generation P770 was announced on 6 December 2022 with retail from 20 January 2023 (https://golf.com/gear/first-look-2023-taylormade-p770-irons-forged-2023/) and is sold as the 2023 model."
 related_models:
   - slug: "taylormade/p770-irons"
     label: "Predecessor: TaylorMade P770"
@@ -92,7 +94,7 @@ related_models:
     label: "Players sibling: TaylorMade P7MC"
 faq:
   - q: "What is the loft of a TaylorMade P770 (2023) 7-iron?"
-    a: "The 2023 P770 7-iron has a loft of 33 degrees, a lie of 62.0 degrees and a steel-shaft length of 37.00 inches."
+    a: "The 2023 P770 7-iron has a loft of 33 degrees, a lie of 62.5 degrees and a steel-shaft length of 37.00 inches."
   - q: "How do 2023 P770 lofts compare with the P790?"
     a: "The P770 is two to three degrees weaker through the set — 33 degrees at the 7-iron against the P790's 30.5, and a 46-degree pitching wedge against 45 — at the same lengths."
   - q: "What changed between the 2020 and 2023 P770?"

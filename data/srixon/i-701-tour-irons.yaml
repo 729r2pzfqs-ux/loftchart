@@ -20,11 +20,10 @@ description: >
   I-701 for a more penetrating flight. It was sold 3-PW in right hand
   only at $1,199 with True Temper Dynamic Gold shafts, was in the bags of
   Henrik Stenson and Tim Clark at launch, and retains a cult following on
-  equipment forums. Srixon never published a full factory spec sheet that
-  survives online: the loft and lie table below was assembled by owners
-  from factory materials (and Srixon confirmed to one owner that the
-  standard I-701 shared it), and lengths are the standard half-inch
-  ladder anchored by factory-spec examples, so confidence is medium.
+  equipment forums. Lofts and lies below match the table in Srixon's
+  launch press release. No factory length chart survives online, so
+  lengths are the standard half-inch ladder anchored by factory-spec
+  examples, and confidence is medium.
 specs:
   - club: "3"
     loft: 21.0
@@ -63,6 +62,7 @@ stock_shafts:
     material: steel
     flex: ["R300", "S300"]
 sources:
+  - "Srixon launch press release of 8 August 2007, reproduced in full by The Golf Wire (https://thegolfwire.com/119766-2/) — carries the manufacturer loft and lie table for both models, 2-iron to pitching wedge. Lofts are the same for both (18, 21, 24, 27, 30, 34, 38, 42, 46); lies are 59.5 to 63.5 for the standard I-701 and 59 to 63 for the I-701 Tour, so the standard model is half a degree more upright at every club. The release gives no lengths."
   - "thegolfwire.com 'Srixon Introduces I-701 Series Irons', 8 August 2007 — announcement date, one-piece forged 1025 carbon steel construction for the Tour (against the two-piece 1025/1020 standard I-701), face-press milling and engraved U-grooves, 3-PW set at $1,199 with Dynamic Gold R300/S300 stock shafts, right hand only, 21-degree 3-iron and 46-degree PW, and the Stenson/Clark tour usage"
   - "GolfWRX thread 'Srixon I-701 Tour iron Specs?' (2010-2015) — an owner-assembled table from factory materials giving lofts 18/21/24/27/30/34/38/42/46 and lies 59-63 for 2-PW (the 3-PW stock range is recorded here), with the thread's factory spec attachment since lost; a 2015 poster who contacted Srixon reports the standard I-701 shared the Tour's specs. These lofts bracket the press release's 21-degree 3-iron and 46-degree PW"
   - "Lengths: no surviving factory sheet — the half-inch ladder above is anchored by a used-market I-701 Tour 5-iron listed at 37.75 inches and a factory spec sticker on an I-701 6-iron at 37.25 inches (GolfWRX), and matches the standard men's steel ladder of the era; treat lengths as medium-confidence"
@@ -81,7 +81,7 @@ faq:
   - q: "What is the loft of a Srixon I-701 Tour 7-iron?"
     a: "The Srixon I-701 Tour 7-iron has a loft of 34 degrees, with a 61.5-degree lie and a 36.75-inch length."
   - q: "What is the difference between the Srixon I-701 and I-701 Tour?"
-    a: "The Tour is a one-piece forging of 1025 carbon steel with a slightly higher centre of gravity for a penetrating flight, while the standard I-701 is a two-piece forged head with a softer 1020 face and a pocket cavity for a lower, deeper centre of gravity. According to Srixon, the two shared the same lofts and lies."
+    a: "The Tour is a one-piece forging of 1025 carbon steel with a slightly higher centre of gravity for a penetrating flight, while the standard I-701 is a two-piece forged head with a softer 1020 face and a pocket cavity for a lower, deeper centre of gravity. The two share the same lofts; the Tour is half a degree flatter in lie at every club."
   - q: "When did the Srixon I-701 Tour come out?"
     a: "Srixon announced the I-701 series on 8 August 2007, with the Tour at $1,199 for a 3-PW set in right hand only. The Z-TX replaced the series from 2009."
   - q: "Who played the Srixon I-701 Tour irons?"

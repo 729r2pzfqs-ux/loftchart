@@ -4,7 +4,7 @@ model: X-20 Tour
 slug: x-20-tour-irons
 club_type: irons
 year_introduced: 2007
-year_discontinued: 2009
+year_discontinued: 2008
 category: players
 construction: investment cast
 material: stainless steel
@@ -69,6 +69,7 @@ sources:
   - "2ndswing.com Callaway X-20 Tour Iron Set specification table — agrees cell for cell on loft, lie, length and bounce"
   - "golfclubspec.com iron specification record for the Callaway X-20 Tour — loft, lie and length agree with both tables (that database files the model under 2006, when the X-20 line was announced; 2007 is used here as the retail model year, matching the standard X-20 entry)"
   - "Note: swing weight is published only as a paired D2/D3 column whose builds are not labelled, so the field is omitted. Offset was not published in any source located"
+  - "Years follow the announcement-year convention. year_discontinued is 2008: the X-22 and X-22 Tour were announced in October 2008 (https://www.golfmonthly.com/gear/gear-blog/callaway-x-22-x-22-tour-and-x-forged-irons-09-22003, 6 October 2008)."
 related_models:
   - slug: "callaway/x-20-irons"
     label: "Standard model: Callaway X-20"

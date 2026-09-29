@@ -3,7 +3,7 @@ brand_slug: nike
 model: Vapor Fly Pro
 slug: vapor-fly-pro-irons
 club_type: irons
-year_introduced: 2016
+year_introduced: 2015
 year_discontinued: 2016
 category: players-distance
 construction: hollow-body cavity back
@@ -69,6 +69,7 @@ sources:
   - "Golfstead 'Nike Vapor Fly Pro Irons Review' specification table — loft, lie and length for 2-iron through PW plus the 49-degree AW, and the True Temper XP 95 stock steel shaft. Retrieved July 2026."
   - "The 7-iron row (32 degrees, 62.5-degree lie, 37.75 inches) is independently reproduced by an aggregated golf-club spec listing; the 2-PW-plus-AW set composition, the hollow 2-5 / RZN-pocket 6-8 / RZN-cavity 9-AW construction split and the XP 95 shaft are separately confirmed by The Hackers Paradise's 2016 review. nikegolf.com spec pages for this generation are not retrievable from the Wayback Machine, so confidence is medium."
   - "Golfalot's combined Vapor Fly / Vapor Fly Pro review — head-shape and construction differences between the two models. MyGolfSpy's 2016 Vapor Fly launch coverage for the January 2016 announcement and Nike's August 2016 exit from club manufacturing, which closes the model's run."
+  - "Years follow the announcement-year convention. Vapor Fly and Vapor Fly Pro irons announced 10 December 2015 (PGATour.com, https://web.archive.org/web/20151216235502/http://www.pgatour.com/equipmentreport/2015/12/10/nike-debut-vapor-fly-pro-irons.html) and sold as the 2016 line. year_discontinued 2016 is the end of production: Nike announced its exit from golf clubs in August 2016."
 related_models:
   - slug: "nike/vapor-fly-irons"
     label: "Game-improvement sibling: Nike Vapor Fly"

@@ -5,6 +5,7 @@ slug: "201t-mkii-irons"
 club_type: "irons"
 year_introduced: 2026
 year_discontinued: null
+current_as_of: "2026-09"
 category: "players"
 construction: "cast hollow body with machined variable-thickness face and tungsten weighting"
 material: "17-4 stainless steel body with machined 17-4 stainless face plate and tungsten weight bar in the 4- to 7-irons"
@@ -79,6 +80,7 @@ sources:
   - "golfsource.org Takomo 201T MKII page - independently reproduces the same loft set (22/25/29/33/37/42/47 with minor variation in the 4-, 5-, 6- and 8-irons); Takomo's own figures are used where they differ"
   - "GolfLink 'Takomo MKII Irons' first look - 7 January 2026 launch, 4-PW set makeup, $679 price and the 33-degree 7-iron / 47-degree PW"
   - "Club lengths: Takomo's MKII product pages do not publish a length row in their spec table (verified against takomogolf.com July 2026 - the table carries head weight, lie, loft, offset and face thickness only). Note this is specific to the MKII pages: the earlier WooCommerce-era pages for the 101, 101T and 201 did publish lengths. The 38.5\"-to-35.5\" half-inch progression used here is the one 2nd Swing Golf lists for the Takomo 201 and 301 CB sets, applied across the Takomo iron line; treat lengths as corroborated for the 201/301 and inferred for the other models"
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Available in Takomo's store (https://takomogolf.com/collections/irons)."
 related_models:
   - slug: "takomo/201-mkii-irons"
     label: "Larger sibling: Takomo 201 MKII"

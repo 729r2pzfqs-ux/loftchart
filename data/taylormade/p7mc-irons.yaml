@@ -4,11 +4,11 @@ model: P7MC
 slug: p7mc-irons
 club_type: irons
 year_introduced: 2020
-year_discontinued: null
+year_discontinued: 2022
 category: players
 construction: forged
 material: 1025 carbon steel
-successor: null
+successor: TaylorMade P7MC (2023)
 predecessor: TP CB
 description: >
   The P7MC is TaylorMade's tour cavity back, forged from 1025 carbon steel using
@@ -82,6 +82,7 @@ stock_shafts:
 sources:
   - "TaylorMade 2021 Custom Options & Specifications catalogue (updated 03/02/21), 2021 Irons pages - P7MC loft/lie/offset/bounce/length/swing-weight table, cross-identified by the P-Series Combo Guide stock-loft chart (MC column: 20, 23, 26, 30, 34, 38, 42.5, 47 degrees)"
   - "2ndswing.com TaylorMade P7MC Iron Set spec table (independent corroboration of loft, lie, length and offset; stock shaft and grip)"
+  - "Years follow the announcement-year convention. year_discontinued is 2022: a second-generation P7MC was announced on 6 December 2022 (https://golf.com/gear/first-look-2023-taylormade-p7mc-and-p7mb-irons/). This page records the 2020 generation."
 related_models:
   - slug: "taylormade/p7mb-irons"
     label: "Muscleback sibling: TaylorMade P7MB"

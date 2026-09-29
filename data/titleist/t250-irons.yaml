@@ -5,6 +5,7 @@ slug: t250-irons
 club_type: irons
 year_introduced: 2025
 year_discontinued: null
+current_as_of: "2026-09"
 category: players-distance
 construction: hollow-body, high-strength steel with a forged L-Face insert
 material: high-strength steel face and body with split high-density tungsten weighting
@@ -77,6 +78,7 @@ sources:
   - "2ndswing.com Titleist 2025 T250 iron set page — independent corroboration of every loft, lie and length above including the 18-degree 2-iron, plus the True Temper AMT Black stock shaft (listed there as AMT Tour Black) and 4-PW stock make-up"
   - "golf.com 'Titleist 2025 T-Series irons: 7 things to know' — pre-orders 10 July 2025, retail 21 August 2025, and confirmation that 'the new T250 replaces the T200 model' as the players-distance option"
   - "Titleist does not publish offset, bounce or swing weight for the 2025 T-Series spec table; those keys are omitted rather than estimated"
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Listed on Titleist's T-Series page (https://www.titleist.com/golf-clubs/irons/t-series/)."
 related_models:
   - slug: "titleist/t200-2023-irons"
     label: "Predecessor: Titleist T200 (2023)"

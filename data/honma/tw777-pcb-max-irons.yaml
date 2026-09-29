@@ -5,6 +5,7 @@ slug: tw777-pcb-max-irons
 club_type: irons
 year_introduced: 2025
 year_discontinued: null
+current_as_of: "2026-09"
 category: game-improvement
 construction: forged body with a full-cup face insert and internal vibration-damping emblem
 material: S25C forged soft iron body with an AM355P face (5 to 8) and an ES235 face (9 to SW)
@@ -77,6 +78,7 @@ sources:
   - "thehackersparadise.com 'Honma TW777 PCB Max Irons' and mygolfspy.com 'The New Honma TW777 Lineup' — confirm the S25C forged body, AM355P/ES235 face split, full-cup face, 'Honma CUT' milled topline, and that the PCB Max is Honma's account-confirmed new iron for the TW777 generation (explicitly described as new construction, not a TW767 carryover)."
   - "firstcallgolf.com 'Honma Golf Debuts the TW777 Series with New Carbon-Powered Performance' (release dated 11 December 2025) — announcement date, used for year_introduced. Honma markets the collection as the 'T//World 2026' line, but the announcement itself fell in December 2025."
   - "Note: predecessor and successor recorded as null. Honma's press material describes the PCB Max as filling the most-forgiving slot the TW767 Hx previously occupied, but no source explicitly states the Hx was discontinued or formally succeeded by the PCB Max, and the TW767 Hx product page remained live as of the sources retrieved — so no predecessor link is recorded here. Tour V, Vx and Px are not recorded as separate TW777-generation files: their current US product pages still reference the TW767 product manual, and no distinct TW777 spec sheet could be found for them, indicating they continue unchanged rather than being genuinely new models."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Live and available in Honma's US store (https://us.honmagolf.com/products/tw777-irons), continuing alongside the 2026 T//WORLD Tour V, Vx and Px."
 related_models:
   - slug: "honma/tw767-hx-irons"
     label: "Predecessor game-improvement head in the T//World lineup: Honma TW767 Hx"

@@ -3,7 +3,7 @@ brand_slug: taylormade
 model: RSi TP
 slug: rsi-tp-irons
 club_type: irons
-year_introduced: 2015
+year_introduced: 2014
 year_discontinued: 2015
 category: players
 construction: two-piece plasma-welded forged face and hosel with stainless back in the 3-7 irons, fully forged short irons
@@ -88,6 +88,7 @@ sources:
   - "pluggedingolf.com TaylorMade RSi TP irons review — independently corroborates the 34-degree 7-iron and describes the forged construction and Face Slots in the 3-7 irons."
   - "mygolfspy.com 'FIRST LOOK - 2015 TaylorMade RSi Irons' — the RSi family launched for the 2015 season; the TP model followed the RSi 1 and RSi 2 to retail in early 2015. year_discontinued is 2015 because the PSi and PSi Tour, its replacements, were announced that autumn."
   - "Note: stock_shafts is omitted — no accessible source stated the stock shaft for the TP model with confidence. Confidence is medium: the full table comes from a secondary spec database, corroborated on key values by reviews."
+  - "Years follow the announcement-year convention. RSi 1, RSi 2 and RSi TP irons announced 15 October 2014, with the RSi TP at retail from 15 January 2015 (GolfWRX, https://web.archive.org/web/20141017222455/http://www.golfwrx.com/248785/hello-face-slots-taylormade-rsi-1-rsi-2-and-rsi-tp-irons); PSi irons announced 9 September 2015."
 related_models:
   - slug: "taylormade/rsi-1-irons"
     label: "Game-improvement model of the same family: TaylorMade RSi 1"

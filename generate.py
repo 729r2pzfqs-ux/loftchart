@@ -11,6 +11,7 @@ import json
 import os
 import re
 import shutil
+import subprocess
 import sys
 from collections import defaultdict, OrderedDict
 from datetime import date
@@ -62,6 +63,64 @@ def email_link(text=None):
     return (f'{EMAIL_OFF}<a href="mailto:{EMAIL_HTML}">'
             f'{EMAIL_HTML if text is None else text}</a>{EMAIL_OFF_END}')
 TODAY = date.today().isoformat()
+
+# Dates shown on a page and written to its schema and sitemap entry are the
+# dates the content actually changed, never the date the site happened to be
+# rebuilt. Model pages take theirs from the history of their data file (see
+# git_dates); the hand-written guides carry theirs here, and *_REVIEWED moves
+# only when someone has re-checked the figures against their sources.
+WEDGE_PUBLISHED = "2026-08-27"
+WEDGE_REVIEWED = "2026-09-29"
+DRIVER_PUBLISHED = "2026-08-28"
+DRIVER_REVIEWED = "2026-09-29"
+PRIVACY_UPDATED = "2026-09-29"
+
+# A model with no discontinuation year is only described as current when its
+# file carries `current_as_of` — the month someone last confirmed it was still
+# in the maker's catalogue. Anything else is reported as "end date not
+# confirmed" rather than being passed off as a set that is still on the rack.
+MONTHS = ["January", "February", "March", "April", "May", "June", "July",
+          "August", "September", "October", "November", "December"]
+
+
+def long_date(iso):
+    """2026-09-29 -> 29 September 2026; 2026-09 -> September 2026."""
+    parts = str(iso).split("-")
+    month = MONTHS[int(parts[1]) - 1]
+    if len(parts) == 2:
+        return f"{month} {parts[0]}"
+    return f"{int(parts[2])} {month} {parts[0]}"
+
+
+def git_dates():
+    """Map each data file to the (first, last) commit date that touched it.
+
+    One `git log` pass over data/. A file with uncommitted changes, or one git
+    has not seen yet, is dated today: the edit being built is the latest one.
+    Outside a git checkout every file falls back to today.
+    """
+    dates = {}
+    try:
+        log = subprocess.run(
+            ["git", "log", "--format=@%cs", "--name-only", "--", "data"],
+            cwd=ROOT, capture_output=True, text=True, check=True).stdout
+        dirty = subprocess.run(
+            ["git", "status", "--porcelain", "--", "data"],
+            cwd=ROOT, capture_output=True, text=True, check=True).stdout
+    except (OSError, subprocess.CalledProcessError):
+        return dates
+    day = None
+    for line in log.splitlines():
+        if line.startswith("@"):
+            day = line[1:]
+        elif line.strip() and day:
+            first, last = dates.get(line, (day, day))
+            dates[line] = (min(first, day), max(last, day))
+    for line in dirty.splitlines():
+        path = line[3:].split(" -> ")[-1].strip().strip('"')
+        first, _ = dates.get(path, (TODAY, TODAY))
+        dates[path] = (first, TODAY)
+    return dates
 
 CLUB_TYPE_LABEL = {
     "irons": "Irons",
@@ -281,6 +340,7 @@ def load():
 
     models = []
     errors = []
+    file_dates = git_dates()
     for brand_dir in sorted(os.listdir(DATA)):
         d = os.path.join(DATA, brand_dir)
         if not os.path.isdir(d):
@@ -329,6 +389,12 @@ def load():
             m["brand_meta"] = by_slug[m["brand_slug"]]
             m["type_label"] = CLUB_TYPE_LABEL.get(m.get("club_type"), "Clubs")
             m["title"] = f"{m['brand']} {m['model']} {m['type_label']}"
+            m["published"], m["modified"] = file_dates.get(
+                rel.replace(os.sep, "/"), (TODAY, TODAY))
+            if m.get("current_as_of") and (m.get("year_discontinued")
+                                           or m.get("successor")):
+                errors.append(f"{rel}: current_as_of set on a model with a "
+                              "successor or discontinuation year")
             models.append(m)
 
     return brands, models, errors
@@ -342,15 +408,22 @@ def seven_iron(m):
     return mid
 
 
+def is_current(m):
+    """True only for a set confirmed to be in the maker's catalogue."""
+    return bool(m.get("current_as_of")) and not (
+        m.get("year_discontinued") or m.get("successor"))
+
+
 def year_range(m):
     a = m.get("year_introduced")
     b = m.get("year_discontinued")
     if a and b:
         return f"{a}–{b}"
     if a:
-        # A model with a known successor is not still in production, even when
-        # the research does not pin down the year it was replaced.
-        return f"from {a}" if m.get("successor") else f"{a}–present"
+        # "present" is a claim, and it is only made for a set someone has
+        # confirmed is still catalogued. A superseded model, or one whose end
+        # date simply is not on file, gets the open-ended "from" instead.
+        return f"{a}–present" if is_current(m) else f"from {a}"
     return "Year unknown"
 
 
@@ -620,13 +693,25 @@ def availability(m):
   routinely bent from standard during a fitting.</p>"""
 
     lineage = f" It replaced the {esc(pred)}." if pred else ""
+    intro_txt = f"Introduced in {intro}, t" if intro else "T"
+    if not is_current(m):
+        # No end year, no successor and nobody has confirmed it is still on
+        # sale: say exactly that instead of guessing in either direction.
+        return f"""<h2>Production status</h2>
+  <p>{intro_txt}he {brand} {model} has no confirmed end date on file.{lineage} LoftChart
+  records a discontinuation year only where a source dates it, and none has been found for
+  this set, so it may or may not still be in the {brand} catalogue — check with {brand} or a
+  retailer before counting on a new set. Used sets appear on eBay, 2nd Swing and Golf Avenue,
+  and should be measured against the chart above before buying, since irons are routinely
+  bent from standard.</p>"""
+
     # "a current ... " not "the current ...": several brands catalogue more than
     # one live set in the same category.
     slot = (f"a current {cat} set in the {brand} range" if cat
             else f"a current model in the {brand} range")
-    intro_txt = f"Introduced in {intro}, t" if intro else "T"
     return f"""<h2>Where it sits in the lineup</h2>
-  <p>{intro_txt}he {brand} {model} is {slot}, with no replacement announced.{lineage} New sets
+  <p>{intro_txt}he {brand} {model} is {slot} as of {long_date(m['current_as_of'])}, with no
+  replacement announced.{lineage} New sets
   are built to the standard lofts, lies and lengths in the chart above, though a fitting can
   move any of them — so confirm the numbers on the order sheet. Used sets appear on eBay,
   2nd Swing and Golf Avenue, and should be measured against this chart before buying.</p>"""
@@ -708,14 +793,25 @@ def model_page(m, brands, models_by_key, compares_by_key):
                       (m["brand"], f"/{m['brand_slug']}/"),
                       (f"{m['model']} {m['type_label']}", None)])
 
-    facts = [("Years produced", year_range(m)),
-             ("Category", CATEGORY_LABEL.get(m.get("category"), m.get("category", "—"))),
-             ("Construction", m.get("construction") or "—"),
-             ("Material", m.get("material") or "—"),
-             ("Set makeup", "–".join([m["specs"][0]["club"], m["specs"][-1]["club"]])
-              if m["specs"] else "—")]
+    # The release year and the category link to their hubs — the only
+    # contextual route from a chart to the other sets of its year and type.
+    intro = m.get("year_introduced")
+    years_html = esc(year_range(m))
+    if intro:
+        years_html = years_html.replace(
+            str(intro), f'<a href="/years/{intro}/">{intro}</a>', 1)
+    cat = m.get("category")
+    cat_html = esc(CATEGORY_LABEL.get(cat, cat or "—"))
+    if cat in CATEGORY_LABEL:
+        cat_html = f'<a href="/category/{esc(cat)}/">{cat_html}</a>'
+    facts = [("Years produced", years_html),
+             ("Category", cat_html),
+             ("Construction", esc(m.get("construction") or "—")),
+             ("Material", esc(m.get("material") or "—")),
+             ("Set makeup", esc("–".join([m["specs"][0]["club"], m["specs"][-1]["club"]])
+                                if m["specs"] else "—"))]
     facts_html = "".join(
-        f"<div><dt>{esc(k)}</dt><dd>{esc(v)}</dd></div>" for k, v in facts)
+        f"<div><dt>{esc(k)}</dt><dd>{v}</dd></div>" for k, v in facts)
 
     # shafts
     shafts = ""
@@ -777,7 +873,7 @@ def model_page(m, brands, models_by_key, compares_by_key):
 
     sources_html = ("<div class=\"sources\"><strong>Data compiled from:</strong><ul>"
                     + "".join(f"<li>{linkify_source(s)}</li>" for s in (m.get("sources") or []))
-                    + f"</ul><p>Last reviewed {TODAY}. Spot an error? "
+                    + f"</ul><p>Last updated {long_date(m['modified'])}. Spot an error? "
                     f'{email_link()}</p></div>')
 
     article_ld = {
@@ -785,8 +881,8 @@ def model_page(m, brands, models_by_key, compares_by_key):
         "@type": "TechArticle",
         "headline": f"{m['title']} Specifications",
         "description": desc,
-        "datePublished": TODAY,
-        "dateModified": TODAY,
+        "datePublished": m["published"],
+        "dateModified": m["modified"],
         "mainEntityOfPage": {"@type": "WebPage", "@id": SITE + m["url"]},
         "author": {"@type": "Organization", "name": SITE_NAME, "url": SITE},
         "publisher": {"@type": "Organization", "name": SITE_NAME, "url": SITE},
@@ -811,6 +907,12 @@ def model_page(m, brands, models_by_key, compares_by_key):
 
     availability_html = availability(m)
 
+    # A maker that changes how it measures a club makes two of its own charts
+    # disagree without the clubs changing; the note says which basis this is.
+    length_note = (f'<p class="table-note"><strong>Length note:</strong> '
+                   f'{esc(m["length_note"].strip())}</p>'
+                   if m.get("length_note") else "")
+
     # Each block after the chart sits in its own .model-section so the CSS can
     # draw a hairline between them; empty blocks are dropped rather than
     # rendering a divider with nothing under it.
@@ -833,6 +935,7 @@ def model_page(m, brands, models_by_key, compares_by_key):
   {spec_table(m, caption)}
   <p class="table-note">Lofts and lies are the factory standard build. Individual clubs may
   differ if they have been bent, re-shafted or re-gripped during their life.</p>
+  {length_note}
 
   {sections_html}
 
@@ -977,8 +1080,109 @@ def brands_index(brands, by_brand, all_models):
 YEAR_MIN_MODELS = 3
 
 
-def year_page(year, ms, brands):
+def club_row(m, club):
+    for row in m["specs"]:
+        if row["club"] == club:
+            return row
+    return None
+
+
+def median(values):
+    s = sorted(values)
+    mid = len(s) // 2
+    return s[mid] if len(s) % 2 else round((s[mid - 1] + s[mid]) / 2, 1)
+
+
+def year_summary(year, ms, by_year):
+    """The paragraph and table that make a year page more than a list of cards.
+
+    Everything here is computed from the sets on file, so it stays in step with
+    the archive; a year with no 7-iron on file simply gets no summary.
+    """
+    sevens = [(club_row(m, "7")["loft"], m) for m in ms
+              if club_row(m, "7") and club_row(m, "7").get("loft") is not None]
+    if not sevens:
+        return ""
+    sevens.sort(key=lambda p: (p[0], p[1]["brand"], p[1]["model"]))
+    lofts = [l for l, _ in sevens]
+
+    def named(m):
+        return f'<a href="{m["url"]}">{esc(m["brand"])} {esc(m["model"])}</a>'
+
+    if len(sevens) == 1:
+        text = (f"The one set on file for {year}, the {named(sevens[0][1])}, has a "
+                f"{num(lofts[0])}° 7-iron.")
+    elif lofts[0] == lofts[-1]:
+        text = (f"All {len(sevens)} sets on file for {year} have a {num(lofts[0])}° "
+                "7-iron.")
+    else:
+        text = (f"Across the {len(sevens)} sets on file for {year}, the 7-iron runs "
+                f"from {num(lofts[0])}° in the {named(sevens[0][1])} to "
+                f"{num(lofts[-1])}° in the {named(sevens[-1][1])}, with a median of "
+                f"{num(median(lofts))}°.")
+
+    wedges = [club_row(m, "PW")["loft"] for m in ms
+              if club_row(m, "PW") and club_row(m, "PW").get("loft") is not None]
+    if wedges:
+        text += (f" The median pitching wedge is {num(median(wedges))}°."
+                 if len(wedges) > 1 else
+                 f" The pitching wedge on file is {num(wedges[0])}°.")
+
+    # Context from a decade either side, where the archive has enough sets for
+    # the comparison to mean something.
+    context = []
+    for other in (year - 10, year + 10):
+        theirs = [club_row(m, "7")["loft"] for m in by_year.get(other, [])
+                  if club_row(m, "7") and club_row(m, "7").get("loft") is not None]
+        if len(theirs) >= YEAR_MIN_MODELS:
+            context.append(f"{num(median(theirs))}° among the "
+                           f'<a href="/years/{other}/">{other} releases</a>')
+    if context:
+        text += (" For comparison, the median 7-iron is "
+                 + " and ".join(context) + ".")
+
+    cats = defaultdict(int)
+    for m in ms:
+        cats[m.get("category")] += 1
+    mix = comma_list([
+        f'{n} <a href="/category/{esc(c)}/">{esc(CATEGORY_SHORT.get(c, c))}</a>'
+        for c, n in sorted(cats.items(), key=lambda kv: (-kv[1], kv[0])) if c])
+    mix_html = f"<p>By category: {mix}.</p>" if mix else ""
+
+    def cell(row, key):
+        return num(row[key]) if row and row.get(key) is not None else "—"
+
+    rows = "".join(
+        f'<tr><th scope="row">{named(m)}</th>'
+        f'<td>{esc(CATEGORY_SHORT.get(m.get("category"), "—"))}</td>'
+        f'<td>{cell(club_row(m, "7"), "loft")}</td>'
+        f'<td>{cell(club_row(m, "7"), "lie")}</td>'
+        f'<td>{cell(club_row(m, "7"), "length")}</td>'
+        f'<td>{cell(club_row(m, "PW"), "loft")}</td></tr>'
+        for _, m in sevens)
+    return f"""<h2>{year} lofts compared</h2>
+  <p>{text}</p>
+  {mix_html}
+  <div class="table-scroll data-table-zone"><table class="specs">
+    <thead><tr><th scope="col">Model</th><th scope="col">Category</th>
+    <th scope="col">7-iron loft (°)</th><th scope="col">7-iron lie (°)</th>
+    <th scope="col">7-iron length (in)</th><th scope="col">PW loft (°)</th></tr></thead>
+    <tbody>{rows}</tbody></table></div>
+  <p class="table-note">Strongest 7-iron first. Sets with no 7-iron on file are listed
+  below but left out of the table.</p>"""
+
+
+def year_page(year, ms, brands, by_year):
     ms = sorted(ms, key=lambda m: (m["brand"], m["model"]))
+    years = sorted(by_year)
+    at = years.index(year)
+    around = []
+    if at > 0:
+        around.append(f'<a href="/years/{years[at - 1]}/">← {years[at - 1]}</a>')
+    if at < len(years) - 1:
+        around.append(f'<a href="/years/{years[at + 1]}/">{years[at + 1]} →</a>')
+    around_html = (f'<p class="table-note">{" · ".join(around)} · '
+                   '<a href="/years/">All years</a></p>')
     title = f"{year} Golf Club Releases — Specifications | {SITE_NAME}"
     brand_names = sorted({m["brand"] for m in ms})
     blist = comma_list(brand_names)
@@ -1001,7 +1205,10 @@ def year_page(year, ms, brands):
     <p class="lede">{len(ms)} model{'s' if len(ms) != 1 else ''} on file introduced in
     {year}. Every entry links to its full loft, lie and length chart.</p>
   </div>
+  {year_summary(year, ms, by_year)}
+  <h2>Every {year} model</h2>
   <div class="grid">{''.join(model_card(m) for m in ms)}</div>
+  {around_html}
 </div>
 """
     # A year page listing one or two models is a thin duplicate of the cards it
@@ -1403,12 +1610,6 @@ def homepage(brands, models, by_brand):
         "name": SITE_NAME,
         "url": SITE + "/",
         "description": desc,
-        "potentialAction": {
-            "@type": "SearchAction",
-            "target": {"@type": "EntryPoint",
-                       "urlTemplate": SITE + "/search/?q={search_term_string}"},
-            "query-input": "required name=search_term_string",
-        },
     }
     org_ld = {
         "@context": "https://schema.org", "@type": "Organization",
@@ -1562,7 +1763,7 @@ def privacy_page(brands):
 <div class="wrap narrow">
   <div class="page-head">
     <h1>Privacy Policy</h1>
-    <p class="lede">Last updated {TODAY}.</p>
+    <p class="lede">Last updated {long_date(PRIVACY_UPDATED)}.</p>
   </div>
   <h2>What we collect</h2>
   <p>LoftChart is a static website. We do not ask for, collect or store personal information
@@ -1570,8 +1771,28 @@ def privacy_page(brands):
 
   <h2>Analytics</h2>
 {analytics_section}
+  <p>We also use Ahrefs Web Analytics to count page views and see which sites and searches
+  send visitors here. Its script is loaded from analytics.ahrefs.com on every page. Ahrefs
+  describes the service as cookieless: it does not set cookies or build a profile of you
+  across sites, and it reports visits in aggregate. Your browser still makes a request to
+  Ahrefs&rsquo; servers, which includes your IP address and user agent. That data is
+  governed by <a href="https://ahrefs.com/privacy" rel="noopener">Ahrefs&rsquo; privacy
+  policy</a>.</p>
 
 {advertising_section}
+  <h2>Hosting and delivery</h2>
+  <p>The site is hosted on GitHub Pages and delivered through Cloudflare&rsquo;s network.
+  Every request for a page therefore passes through Cloudflare and GitHub, which process
+  your IP address, user agent and the address of the page requested in order to deliver it
+  and to keep server logs. Cloudflare also runs automated checks to tell visitors from bots
+  and to block abusive traffic; these can load a small script from this site&rsquo;s
+  <code>/cdn-cgi/</code> path and may set a strictly necessary security cookie. We do not
+  receive or use this data to identify you. See
+  <a href="https://www.cloudflare.com/privacypolicy/" rel="noopener">Cloudflare&rsquo;s
+  privacy policy</a> and the
+  <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener">GitHub
+  privacy statement</a>.</p>
+
   <h2>Fonts</h2>
   <p>Typefaces are served from Google Fonts, which means your browser makes a request to
   Google&rsquo;s servers when a page loads. That request includes your IP address and user
@@ -1627,6 +1848,22 @@ def not_found(brands):
 REDIRECTS = {
     # "1100s" is a mangled crawl of the T100S; the T150 replaced that model.
     "/compare/titleist-1100s-vs-t150/": "/compare/titleist-t100s-vs-t150/",
+    # Comparison slugs put the older model first. Correcting announcement
+    # years in September 2026 swapped the order of these pairs, and fixing the
+    # M1 and M4 lineage retired two pairs outright; the old URLs were already
+    # in circulation, so each points at its replacement.
+    "/compare/cobra-amp-vs-amp-cell/": "/compare/cobra-amp-cell-vs-amp/",
+    "/compare/cobra-king-forged-tec-vs-king-f7/": "/compare/cobra-king-f7-vs-king-forged-tec/",
+    "/compare/cobra-king-os-vs-king-f7/": "/compare/cobra-king-f7-vs-king-os/",
+    "/compare/ping-blueprint-t-vs-blueprint-s/": "/compare/ping-blueprint-s-vs-blueprint-t/",
+    "/compare/taylormade-m-cgb-vs-m1/": "/compare/taylormade-m1-vs-m-cgb/",
+    "/compare/taylormade-m2-2017-vs-m1/": "/compare/taylormade-m1-vs-m2-2017/",
+    "/compare/taylormade-m2-vs-m1/": "/compare/taylormade-m1-vs-m2/",
+    "/compare/taylormade-psi-vs-rsi-tp/": "/compare/taylormade-rsi-tp-vs-psi/",
+    "/compare/taylormade-rsi-1-vs-rsi-tp/": "/compare/taylormade-rsi-tp-vs-rsi-1/",
+    "/compare/taylormade-rsi-2-vs-rsi-tp/": "/compare/taylormade-rsi-tp-vs-rsi-2/",
+    "/compare/taylormade-m1-vs-p770/": "/compare/taylormade-m1-vs-p770-2017/",
+    "/compare/taylormade-r7-vs-m4/": "/taylormade/m4-irons/",
 }
 
 
@@ -1689,7 +1926,7 @@ WEDGE_TYPES = [
         "article": "A",
         "keys": ("PW", "P"),
         "band": (43, 48),
-        "bounce": "2°–8°",
+        "bounce": "5°–12°",
         "also": "P, PW, 10-iron (pre-1970s sets)",
         "desc_tail": ("Loft by brand, how far it carries, and why a modern PW is "
                       "several degrees stronger than a 1990s one."),
@@ -1707,7 +1944,7 @@ WEDGE_TYPES = [
             ("Slower swing speed", "70–95 yd"),
             ("Average male amateur", "95–125 yd"),
             ("Low handicap / fast swing", "125–145 yd"),
-            ("PGA Tour average", "~140–150 yd"),
+            ("Tour professional (typical)", "~135–150 yd"),
         ],
     },
     {
@@ -1736,7 +1973,7 @@ WEDGE_TYPES = [
             ("Slower swing speed", "60–80 yd"),
             ("Average male amateur", "80–110 yd"),
             ("Low handicap / fast swing", "110–125 yd"),
-            ("PGA Tour average", "~115–125 yd"),
+            ("Tour professional (typical)", "~115–125 yd"),
         ],
     },
     {
@@ -1764,7 +2001,7 @@ WEDGE_TYPES = [
             ("Slower swing speed", "45–65 yd"),
             ("Average male amateur", "65–90 yd"),
             ("Low handicap / fast swing", "90–110 yd"),
-            ("PGA Tour average", "~100–110 yd"),
+            ("Tour professional (typical)", "~100–110 yd"),
         ],
     },
     {
@@ -1775,7 +2012,7 @@ WEDGE_TYPES = [
         "article": "A",
         "keys": ("LW", "L"),
         "band": (58, 62),
-        "bounce": "4°–10°",
+        "bounce": "4°–14°",
         "also": "LW, L, flop wedge",
         "desc_tail": ("Loft by brand, 58° vs 60°, and whether a lob wedge earns its place "
                       "in your bag."),
@@ -1793,7 +2030,7 @@ WEDGE_TYPES = [
             ("Slower swing speed", "30–50 yd"),
             ("Average male amateur", "50–75 yd"),
             ("Low handicap / fast swing", "75–95 yd"),
-            ("PGA Tour average", "~85–95 yd"),
+            ("Tour professional (typical)", "~85–95 yd"),
         ],
     },
     {
@@ -1820,7 +2057,7 @@ WEDGE_TYPES = [
             ("Slower swing speed", "60–80 yd"),
             ("Average male amateur", "80–110 yd"),
             ("Low handicap / fast swing", "110–125 yd"),
-            ("PGA Tour average", "~115–125 yd"),
+            ("Tour professional (typical)", "~115–125 yd"),
         ],
     },
 ]
@@ -2192,8 +2429,8 @@ def wedge_page(w, models, brands):
         "@type": "TechArticle",
         "headline": w["title_q"],
         "description": desc,
-        "datePublished": TODAY,
-        "dateModified": TODAY,
+        "datePublished": WEDGE_PUBLISHED,
+        "dateModified": WEDGE_REVIEWED,
         "mainEntityOfPage": {"@type": "WebPage", "@id": f"{SITE}/wedge-lofts/{w['slug']}/"},
         "author": {"@type": "Organization", "name": SITE_NAME, "url": SITE},
         "publisher": {"@type": "Organization", "name": SITE_NAME, "url": SITE},
@@ -2241,9 +2478,9 @@ def wedge_page(w, models, brands):
 
   <h2>How far does {w["article"].lower()} {lower} go?</h2>
   {wedge_distance_table(w)}
-  <p class="table-note">Carry distance, full swing, men&rsquo;s amateur. These are ranges
-  rather than a single number on purpose: swing speed and strike quality move wedge
-  distance far more than a degree or two of loft does.</p>
+  <p class="table-note">Carry distance, full swing. These are typical ranges rather than
+  published averages, and ranges rather than a single number on purpose: swing speed and
+  strike quality move wedge distance far more than a degree or two of loft does.</p>
 
   <h2>What {w["article"].lower()} {lower} is used for</h2>
   <ul>{uses}</ul>
@@ -2272,7 +2509,7 @@ def wedge_page(w, models, brands):
     for a standard men&rsquo;s build, given as ranges because no standard body defines
     them.</li>
   </ul>
-  <p>Last reviewed {TODAY}. Spot an error? {email_link()}</p></div>
+  <p>Last reviewed {long_date(WEDGE_REVIEWED)}. Spot an error? {email_link()}</p></div>
 </div>
 """
     page(f"/wedge-lofts/{w['slug']}/", title, desc, body, brands,
@@ -2386,7 +2623,7 @@ def wedge_index(models, brands):
         "@context": "https://schema.org", "@type": "TechArticle",
         "headline": "Wedge Loft Chart",
         "description": desc,
-        "datePublished": TODAY, "dateModified": TODAY,
+        "datePublished": WEDGE_PUBLISHED, "dateModified": WEDGE_REVIEWED,
         "mainEntityOfPage": {"@type": "WebPage", "@id": f"{SITE}/wedge-lofts/"},
         "author": {"@type": "Organization", "name": SITE_NAME, "url": SITE},
         "publisher": {"@type": "Organization", "name": SITE_NAME, "url": SITE},
@@ -2470,7 +2707,7 @@ def wedge_index(models, brands):
     for a standard men&rsquo;s build. No governing body defines them, so they are given as
     ranges.</li>
   </ul>
-  <p>Last reviewed {TODAY}. Spot an error? {email_link()}</p></div>
+  <p>Last reviewed {long_date(WEDGE_REVIEWED)}. Spot an error? {email_link()}</p></div>
 </div>
 """
     page("/wedge-lofts/", title, desc, body, brands,
@@ -2506,29 +2743,38 @@ DRIVER_LOFT_BANDS = [
 ]
 
 # (brand name, brand slug, current line, stock lofts, hosel adjustment) — the
-# by-brand table. Maintained by hand against the 2023–2025 flagship catalogues;
-# a new release is a one-line edit here.
+# by-brand table. Maintained by hand against each manufacturer's own driver
+# pages; DRIVER_CHECKED is the month that was last done and is printed with the
+# table, so a stale row reads as dated rather than as current. When a line is
+# replaced, edit its row here and move DRIVER_CHECKED and DRIVER_REVIEWED.
+DRIVER_CHECKED = "2026-09"
 DRIVER_BRAND_ROWS = [
-    ("Callaway", "callaway", "Elyte (2025)",
-     "9°, 10.5°, 12°; Triple Diamond 8°, 9°, 10.5°", "OptiFit, −1° to +2°"),
-    ("Cobra", "cobra", "DS-Adapt (2025)",
-     "8°–12° across LS, X and Max heads", "Adjustable (FutureFit 33)"),
-    ("Mizuno", "mizuno", "ST-Max 230 (2024)",
-     "9.5°, 10.5°, 12°", "±2° (Quick Switch)"),
+    ("Callaway", "callaway", "Quantum (2026)",
+     "Max 9°, 10.5°, 12°; Triple Diamond 8°, 9°, 10.5°; Triple Diamond Max 9°, 10.5°; "
+     "Max Fast 10.5°, 12°", "OptiFit, −1° to +2°"),
+    ("Cobra", "cobra", "OPTM (2026)",
+     "LS 9°, 10.5°; X 9°, 10.5°; Max-K 9°, 10.5°, 12°; Max-D 10.5°, 12°",
+     "±2° (FutureFit33)"),
+    ("Mizuno", "mizuno", "JPX One (2026)",
+     "9°, 10.5°, 12°; Select 9°, 10.5°", "±2° (Quick Switch)"),
     ("Ping", "ping", "G440 (2025)",
-     "Max 9°, 10.5°, 12°; LST 9°, 10.5°; SFT 10.5°", "±1.5° (Trajectory Tuning)"),
-    ("PXG", "pxg", "0311 Black Ops (2024)",
-     "9°, 10.5°, 12°", "±1.5°"),
-    ("Srixon", "srixon", "ZXi (2025)",
-     "8.5°, 9.5°, 10.5°", "±1°"),
-    ("TaylorMade", "taylormade", "Qi35 (2025)",
-     "9°, 10.5°, 12°; LS 8°, 9°, 10.5°", "±2° (Loft Sleeve)"),
-    ("Titleist", "titleist", "GT2 / GT3 (2024)",
-     "GT2 8°, 9°, 10°, 11°; GT3 8°, 9°, 10°", "SureFit, −0.75° to +1.5°"),
-    ("Wilson", "wilson", "Dynapwr (2023)",
-     "9°, 10.5°, 13°", "Adjustable"),
-    ("XXIO", "xxio", "XXIO 13 (2024)",
-     "9.5°, 10.5°, 11.5°", "Fixed hosel"),
+     "Max 9°, 10.5°, 12°; K 9°, 10.5°, 12°; LST 9°, 10.5°; SFT 9°, 10.5°",
+     "±1.5° (Trajectory Tuning)"),
+    ("PXG", "pxg", "Lightning (2026)",
+     "Max 10K+ 9°, 10.5°, 12°; Tour and Tour Mid 8°, 9°, 10.5°; Max Lite 10.5°, 11.5°",
+     "±1.5°"),
+    ("Srixon", "srixon", "ZXi (2025), ZXi RKT (2026)",
+     "9°, 10.5°; LS 8°, 9°, 10.5°; Max 9°, 10.5°, 12°", "±1.5°"),
+    ("TaylorMade", "taylormade", "Qi4D (2026)",
+     "8°, 9°, 10.5°, 12°; LS 8°, 9°, 10.5°; Max 9°, 10.5°, 12°; Max Lite 10.5°, 12°",
+     "±2° (Loft Sleeve)"),
+    ("Titleist", "titleist", "GTS2 / GTS3 / GTS4 (2026)",
+     "GTS2 and GTS3 8°, 9°, 10°, 11°; GTS4 8°, 9°, 10°", "SureFit, −0.75° to +1.5°"),
+    ("Wilson", "wilson", "Dynapwr (2025), Max+ (2026)",
+     "Carbon 8°, 9°, 10.5°; LS 8°, 9°, 10.5°; Max and Max+ 9°, 10.5°, 12°",
+     "−1° to +2° (six-way hosel)"),
+    ("XXIO", "xxio", "XXIO 14 (2026)",
+     "9.5°, 10.5°, 11.5°; XXIO 14+ 9°, 10.5°", "Up to 1.5° (Quick Tune)"),
 ]
 
 # (speed band, recommended loft, typical driver carry, typical player) — the
@@ -2581,7 +2827,7 @@ def driver_article_ld(headline, desc, path, keywords):
         "@context": "https://schema.org", "@type": "TechArticle",
         "headline": headline,
         "description": desc,
-        "datePublished": TODAY, "dateModified": TODAY,
+        "datePublished": DRIVER_PUBLISHED, "dateModified": DRIVER_REVIEWED,
         "mainEntityOfPage": {"@type": "WebPage", "@id": SITE + path},
         "author": {"@type": "Organization", "name": SITE_NAME, "url": SITE},
         "publisher": {"@type": "Organization", "name": SITE_NAME, "url": SITE},
@@ -2595,11 +2841,11 @@ DRIVER_SOURCES = f"""<div class="sources"><strong>How these figures were compile
     <li>Loft bands, launch and spin windows, and carry figures are the accepted
     club-fitting conventions for a standard men&rsquo;s build, given as ranges because no
     governing body defines them and strike quality moves every one of them.</li>
-    <li>Brand loft options are compiled by hand from current manufacturer catalogues
-    (2023&ndash;2025 flagship lines). Drivers are not yet part of the LoftChart spec archive
+    <li>Brand loft options are compiled by hand from each manufacturer&rsquo;s own driver
+    pages, last checked in {long_date(DRIVER_CHECKED)}. Drivers are not yet part of the LoftChart spec archive
     itself &mdash; the full club-by-club charts here cover iron sets.</li>
   </ul>
-  <p>Last reviewed {TODAY}. Spot an error? {email_link()}</p></div>"""
+  <p>Last reviewed {long_date(DRIVER_REVIEWED)}. Spot an error? {email_link()}</p></div>"""
 
 
 def driver_guide_card_items(exclude=None):
@@ -2645,7 +2891,7 @@ def driver_index(brands):
          "doubt take the higher loft — too little loft costs an amateur far more "
          "carry than too much."),
         ("What loft driver do pros use?",
-         "Mostly 8 to 10.5 degrees, but at 115 to 125 mph of clubhead speed. A tour "
+         "Mostly 8 to 10.5 degrees, but at around 115 mph of clubhead speed, and 125 mph or more for the fastest. A tour "
          "player generates enough ball speed to fly a low-lofted driver; the same "
          "head at 90 mph launches too low, spins too little and falls out of the "
          "air. Copying tour lofts is the most common driver-buying mistake."),
@@ -2715,14 +2961,18 @@ def driver_index(brands):
 
   <h2>Stock driver lofts by brand</h2>
   <div class="table-scroll data-table-zone"><table class="specs">
-    <caption>Stock loft options for each manufacturer&rsquo;s current driver line.</caption>
+    <caption>Stock loft options for each manufacturer&rsquo;s current driver line, as of
+    {long_date(DRIVER_CHECKED)}.</caption>
     <thead><tr><th scope="col">Brand</th><th scope="col">Current line</th>
     <th scope="col">Stock lofts</th><th scope="col">Hosel adjustment</th></tr></thead>
     <tbody>{brand_rows}</tbody></table></div>
-  <p class="table-note">Compiled from manufacturer catalogues for the 2023–2025 flagship
-  lines. Draw-biased and high-launch variants (Max D, HL, Lite) usually add a 12°–13°
-  option on top of what is listed. Brand links go to each manufacturer&rsquo;s iron spec
-  archive on this site.</p>
+  <p class="table-note">Checked against each manufacturer&rsquo;s own driver pages in
+  {long_date(DRIVER_CHECKED)}; the year is the model year of the line. Some lofts are
+  right-hand only, and lightweight builds of the same heads are not listed separately.
+  Srixon&rsquo;s ZXi RKT was announced in September 2026 for sale from 16 October 2026 in
+  the same lofts as the ZXi it replaces. Wilson&rsquo;s figures are taken from launch
+  coverage rather than Wilson&rsquo;s site. Brand links go to each manufacturer&rsquo;s
+  iron spec archive on this site.</p>
 
   <h2>How loft turns into carry</h2>
   <p>A driver flies furthest when launch angle and backspin match ball speed. For most
@@ -2735,8 +2985,8 @@ def driver_index(brands):
   the ball never gets up. When a fitting is not an option, take the higher loft.</p>
 
   <h2>Adjustable hosels move more than loft</h2>
-  <p>Most current drivers are sold in fewer stock lofts than a decade ago because the
-  hosel now covers the gaps — typically ±1° to ±2° around the stated number. Two things
+  <p>Most current drivers are sold in three or four stock lofts, and the hosel covers
+  the gaps — typically ±1° to ±2° around the stated number. Two things
   are worth knowing before turning one. First, the stamped loft is the middle of the
   range, so a 10.5° head can usually play from about 9° to 12°. Second, adding loft
   closes the face slightly and removing loft opens it, which is why lofting up is also a
@@ -3165,7 +3415,7 @@ def driver_9_vs_10_5(brands):
          "lower speeds, because the upward strike adds launch the loft does "
          "not."),
         ("Why do pros use 9 degree drivers when amateurs shouldn't?",
-         "Because at 115 to 125 mph, spin is the enemy and launch comes free. "
+         "Because at 115 mph and above, spin is the enemy and launch comes free. "
          "Tour players fight excess spin that costs them distance, so they play "
          "8 to 10 degrees; an amateur at 90 mph has the opposite problem and "
          "needs the loft they are giving up."),
@@ -3251,9 +3501,9 @@ def driver_pages(brands):
 
 def sitemap(urls):
     entries = "".join(
-        f"<url><loc>{esc(SITE + u)}</loc><lastmod>{TODAY}</lastmod>"
+        f"<url><loc>{esc(SITE + u)}</loc><lastmod>{mod}</lastmod>"
         f"<changefreq>monthly</changefreq><priority>{p}</priority></url>"
-        for u, p in urls)
+        for u, p, mod in urls)
     write("sitemap.xml",
           '<?xml version="1.0" encoding="UTF-8"?>\n'
           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
@@ -3434,7 +3684,7 @@ def main():
     brands_index(brands, by_brand, models)
 
     for y, ms in by_year.items():
-        year_page(y, ms, brands)
+        year_page(y, ms, brands, by_year)
     years_index(by_year, brands, models)
 
     for c, ms in by_cat.items():
@@ -3460,17 +3710,26 @@ def main():
 
     # Sitemap carries indexable pages only: no /compare/ (noindexed wholesale)
     # and no thin year page.
+    # lastmod is the date the page's content last changed: a model's own data
+    # file, the newest model on a hub, or the review date of a guide.
+    def newest(ms):
+        return max(m["modified"] for m in ms)
+
     thin_years = [y for y, ms in by_year.items() if len(ms) < YEAR_MIN_MODELS]
-    urls = [("/", "1.0"), ("/brands/", "0.8"), ("/years/", "0.6"),
-            ("/category/", "0.6"), ("/wedge-lofts/", "0.9"),
-            ("/driver-lofts/", "0.9"),
-            ("/about/", "0.4"), ("/privacy/", "0.2")]
-    urls += [(f"/wedge-lofts/{w['slug']}/", "0.8") for w in WEDGE_TYPES]
-    urls += [(f"/guides/{g['slug']}/", "0.8") for g in DRIVER_GUIDES]
-    urls += [(m["url"], "0.9") for m in models]
-    urls += [(f"/{b['slug']}/", "0.8") for b in brands if by_brand.get(b["slug"])]
-    urls += [(f"/years/{y}/", "0.5") for y in by_year if y not in thin_years]
-    urls += [(f"/category/{c}/", "0.6") for c in by_cat]
+    site_mod = newest(models)
+    urls = [("/", "1.0", site_mod), ("/brands/", "0.8", site_mod),
+            ("/years/", "0.6", site_mod), ("/category/", "0.6", site_mod),
+            ("/wedge-lofts/", "0.9", WEDGE_REVIEWED),
+            ("/driver-lofts/", "0.9", DRIVER_REVIEWED),
+            ("/about/", "0.4", site_mod), ("/privacy/", "0.2", PRIVACY_UPDATED)]
+    urls += [(f"/wedge-lofts/{w['slug']}/", "0.8", WEDGE_REVIEWED) for w in WEDGE_TYPES]
+    urls += [(f"/guides/{g['slug']}/", "0.8", DRIVER_REVIEWED) for g in DRIVER_GUIDES]
+    urls += [(m["url"], "0.9", m["modified"]) for m in models]
+    urls += [(f"/{b['slug']}/", "0.8", newest(by_brand[b["slug"]]))
+             for b in brands if by_brand.get(b["slug"])]
+    urls += [(f"/years/{y}/", "0.5", newest(ms)) for y, ms in by_year.items()
+             if y not in thin_years]
+    urls += [(f"/category/{c}/", "0.6", newest(ms)) for c, ms in by_cat.items()]
     sitemap(urls)
 
     print(f"Built {len(models)} models, {len([b for b in brands if by_brand.get(b['slug'])])} "

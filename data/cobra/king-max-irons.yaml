@@ -5,6 +5,7 @@ slug: king-max-irons
 club_type: irons
 year_introduced: 2026
 year_discontinued: null
+current_as_of: "2026-09"
 category: super-game-improvement
 construction: cast distance iron with a 360 SPEEDSHELL face and a 3D-printed internal medallion
 material: stainless steel with a 360 SPEEDSHELL H.O.T. Face insert and a 3D-printed lattice medallion
@@ -89,6 +90,7 @@ stock_shafts:
 sources:
   - "Cobra Golf official 'KING MAX Irons' product page (cobragolf.com/products/king-max-irons), retrieved live 28 July 2026 — supplies the full STOCK SPECS table (club, loft, lie, offset in mm, length, steel swing weight D2.5, graphite swing weights D3/D2.5/D1.5 by flex, RH/LH) for the 4-iron through sand wedge, the stock set comps (steel 5-GW; graphite 5-PW plus GW), the KBS Tour Lite 105g steel and KBS PGI 85/75/65 graphite shaft tables, the SuperStroke Crossline 360 Black grip, the $999 price, and the 3D-printed medallion / 360 SPEEDSHELL with H.O.T. Face descriptions. Offsets are published in millimetres (7.6 down to 2.1) and converted to inches here."
   - "The Golf Wire press release 'COBRA Golf Introduces New King and King Max Irons' and GolfWRX 'Cobra launches new King and King Max irons' — announced 19 January 2026, fittings and pre-sale from 3 February 2026, at retail 6 February 2026, $999 steel / $1,099 graphite in 5-GW sets. Cobra positions the MAX as the oversized model with 2-degree weaker lofts and added offset versus the standard KING."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. KING MAX irons live at full price in Cobra's irons collection (https://www.cobragolf.com/collections/golf-clubs-irons)."
 related_models:
   - slug: "cobra/ds-adapt-irons"
     label: "Cobra's previous game-improvement iron family: DS-ADAPT"

@@ -3,7 +3,7 @@ brand_slug: nike
 model: Vapor Pro
 slug: vapor-pro-irons
 club_type: irons
-year_introduced: 2015
+year_introduced: 2014
 year_discontinued: 2016
 category: players
 construction: forged cavity back
@@ -81,6 +81,7 @@ stock_shafts:
 sources:
   - "2nd Swing Golf 'Nike Vapor Pro Iron Set' specification table (retrieved July 2026) - full per-club table supplying loft, lie, length, bounce, offset and swing weight for 3-iron through PW, plus the stock Dynamic Gold shaft."
   - "nikegolf.com product pages for this generation are not retrievable; the Wayback CDX index returns only 2003-2005 redirect entries for the domain, so this is a retailer spec table rather than a manufacturer sheet. Confidence set to medium on that basis, though the table is complete and internally consistent across all six columns."
+  - "Years follow the announcement-year convention. Vapor Pro, Vapor Pro Combo and Vapor Speed irons announced 19 August 2014 (https://www.golfmonthly.com/gear/gear-news/nike-vapor-irons-unveiled-56712) and sold as the 2015 line."
 related_models:
   - slug: "nike/vr-pro-combo-irons"
     label: "Predecessor: Nike VR Pro Combo"

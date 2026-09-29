@@ -5,6 +5,7 @@ slug: t350-2025-irons
 club_type: irons
 year_introduced: 2025
 year_discontinued: null
+current_as_of: "2026-09"
 category: game-improvement
 construction: hollow-body, high-strength steel with a forged L-Face insert
 material: high-strength steel face and body with split high-density tungsten weighting
@@ -73,6 +74,7 @@ sources:
   - "golf.com 'Titleist 2025 T-Series irons: 7 things to know' — pre-orders 10 July 2025, retail 21 August 2025"
   - "Note on the 2025 T350 lie angles: Titleist's own table gives the same shared lie row for every 2025 T-Series model, which puts both wedges at 64 degrees; the 2023 T350 record's 63.5-degree W53 came from retailer tables"
   - "Titleist does not publish offset, bounce or swing weight for the 2025 T-Series spec table; those keys are omitted rather than estimated"
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Listed on Titleist's irons page (https://www.titleist.com/golf-clubs/irons/)."
 related_models:
   - slug: "titleist/t350-irons"
     label: "Predecessor: Titleist T350"

@@ -5,6 +5,7 @@ slug: "301-cb-irons"
 club_type: "irons"
 year_introduced: 2023
 year_discontinued: null
+current_as_of: "2026-09"
 category: "players"
 construction: "one-piece forged"
 material: "forged S20C carbon steel"
@@ -82,6 +83,7 @@ sources:
   - "takomogolf.com Iron 301 CB product page, Clubs spec tab (retrieved July 2026) - head weight, lie, loft and offset in mm for 4-iron through PW, one-piece forged S20C body, .370\" hosel, and the KBS Tour / KBS Tour Lite stock shaft tables with D2 standard swing weight"
   - "2nd Swing Golf 'Takomo Iron 301 CB Iron Set' specification table - independently reproduces the same lofts, lies and mm offsets and supplies the club lengths (38.5\" 4-iron down to 35.5\" PW)"
   - "Model years: takomogolf.com About Us brand timeline (retrieved July 2026) dates the Iron 101 to 2022, the 201 and 301 to 2023 and the MKII generation to 2026; GolfLink's Takomo brand profile instead dates the first Iron 101 shipment to 2021. Where the two disagree the year here is flagged as approximate"
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Listed in Takomo's irons collection; the 2026 MKII launch covered only the 101, 201 and 201T (https://takomogolf.com/collections/irons)."
 related_models:
   - slug: "takomo/301-mb-irons"
     label: "Muscle back version: Takomo 301 MB"

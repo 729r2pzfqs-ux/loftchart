@@ -5,6 +5,7 @@ slug: 0317-cb-irons
 club_type: irons
 year_introduced: 2023
 year_discontinued: null
+current_as_of: "2026-09"
 category: players
 construction: forged solid-body cavity back with CNC-milled face and back
 material: forged 8620 carbon steel
@@ -83,6 +84,7 @@ sources:
   - "pluggedingolf.com 'PXG 0317 CB Irons Review' — the solid-body forged construction, the Precision Weighting port in the centre of the head, the 3-iron-through-gap-wedge availability matching the 0317 ST for combo sets, and the release following the ST by roughly a year."
   - "The 0317 T record in this database — PXG showed the 0317 CB and 0317 T in November 2023 and put them on sale in January 2024, so year_introduced records the announcement year per this database's convention and some listings date the model 2024."
   - "Note: swing weight is not fixed — the Precision Weighting port is set at fitting — so it is omitted. Stock shafts are omitted because retail listings disagree (Dynamic Gold Mid 115 at 2ndswing; Elevate and KBS Tour elsewhere)."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. The 0317 irons are live and available in PXG's iron collection (https://www.pxg.com/products/0317-irons)."
 related_models:
   - slug: "pxg/0317-st-irons"
     label: "Muscle-back sibling on the same chart: PXG 0317 ST"

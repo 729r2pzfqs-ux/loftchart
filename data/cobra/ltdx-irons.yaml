@@ -4,7 +4,7 @@ model: LTDx
 slug: ltdx-irons
 club_type: irons
 year_introduced: 2022
-year_discontinued: 2022
+year_discontinued: 2023
 category: game-improvement
 construction: cast hollow-body distance iron with a forged L-cup face insert and a suspended steel core bar
 material: stainless steel body with a thin forged stainless steel PWRSHELL L-cup face
@@ -88,6 +88,7 @@ stock_shafts:
     flex: ["S", "R", "A"]
 sources:
   - "Cobra Golf official LTDx Irons product page, archived 2022 via web.archive.org — retrieved directly; supplies the full specification table (club, loft, lie angle, offset, length, graphite and steel swing weight by flex, graphite and steel shaft flex, RH/LH) for the 4-iron through sand wedge, the 'STOCK SET COMPOSITION - 7 Clubs: 5-GW (RH, LH), 4-PW (RH)' block with the note that graphite is custom-only, the steel core bar, PWRSHELL L-cup face and CNC milled face and groove descriptions and the KBS Tour 90 / KBS PGI shaft options"
+  - "Years follow the announcement-year convention. LTDx irons announced 19 January 2022 (https://golf.com/gear/irons/cobra-ltdx-irons-first-look/); year_discontinued is 2023, when the Aerojet irons were announced on 9 January 2023."
 related_models:
   - slug: "cobra/king-radspeed-irons"
     label: "Predecessor: Cobra KING Radspeed"

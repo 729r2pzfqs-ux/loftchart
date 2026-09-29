@@ -4,7 +4,7 @@ model: P770
 slug: p770-irons
 club_type: irons
 year_introduced: 2020
-year_discontinued: 2023
+year_discontinued: 2022
 category: players
 construction: forged hollow body
 material: forged 1025 carbon steel body with 4140 carbon steel face
@@ -89,8 +89,9 @@ stock_shafts:
 sources:
   - "TaylorMade 2021 Custom Options & Specifications catalogue (updated 03/02/21), 2021 Irons pages - P770 loft/lie/offset/bounce/length/swing-weight table, cross-identified by the P-Series Combo Guide stock-loft chart"
   - "2ndswing.com TaylorMade 2020 P770 Iron Set spec table (independent corroboration of loft, lie, length and offset; stock shaft and grip)"
-  - "Succession: TaylorMade announced the redesigned 2023 P770 in early 2023, which sets year_discontinued and the successor field"
+  - "Succession: TaylorMade announced the redesigned 2023 P770 on 6 December 2022, which sets year_discontinued and the successor field"
   - "Predecessor: the 2020 P770 took over the players slot from the P760 (2018) — TaylorMade described the new head as very close in shape to the P760 with a slightly longer blade (todays-golfer.com P770 2020 review). The P770 name itself dates to the unrelated solid forged 2017 original."
+  - "Years follow the announcement-year convention. year_discontinued is 2022: the second-generation P770 was announced on 6 December 2022 (https://golf.com/gear/first-look-2023-taylormade-p770-irons-forged-2023/)."
 related_models:
   - slug: "taylormade/p760-irons"
     label: "Predecessor: TaylorMade P760"

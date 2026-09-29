@@ -3,12 +3,12 @@ brand_slug: nike
 model: Vapor Speed
 slug: vapor-speed-irons
 club_type: irons
-year_introduced: 2015
-year_discontinued: null
+year_introduced: 2014
+year_discontinued: 2015
 category: game-improvement
 construction: cast cavity back with face-centred weighting
 material: cast stainless steel
-successor: null
+successor: Nike Vapor Fly
 predecessor: null
 description: >
   Vapor Speed is the game-improvement model of the Vapor family Nike unveiled with
@@ -93,8 +93,8 @@ stock_shafts:
 sources:
   - "2nd Swing Golf specification table for the Nike Vapor Speed iron set (https://www.2ndswing.com/golf-clubs/iron-sets/nike-vapor-speed-iron-set) — supplied every loft, lie, length, offset, bounce and swing weight above and the True Temper Dynalite stock shaft."
   - "golfcanada.ca 'Nike Golf unveils Vapor Iron Franchise' and golfmagic.com 'First Look: Nike Vapor Speed Irons' — the Vapor family (Pro, Pro Combo and Speed) was unveiled near New York in August 2014 with Tiger Woods and Rory McIlroy, and the Speed irons reached retail on 31 January 2015."
-  - "Note on the year: year_introduced records 2015 for consistency with the other Nike Vapor entries in this database, which use the retail year. The August 2014 unveiling is noted above so the gap is visible."
   - "Note: confidence is medium — the figures come from a retailer spec table rather than a Nike spec sheet, and Nike left the club business in 2016, so no manufacturer page survives."
+  - "Years follow the announcement-year convention. Vapor Speed irons announced 19 August 2014 (https://www.golfmonthly.com/gear/gear-news/nike-vapor-irons-unveiled-56712). year_discontinued is 2015: PGATour.com's 10 December 2015 launch report states that the Vapor Fly replaces the Vapor Speed (https://web.archive.org/web/20151216235502/http://www.pgatour.com/equipmentreport/2015/12/10/nike-debut-vapor-fly-pro-irons.html)."
 related_models:
   - slug: "nike/vapor-pro-irons"
     label: "The players model of the same family: Nike Vapor Pro"

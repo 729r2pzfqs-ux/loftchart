@@ -3,15 +3,15 @@ brand_slug: nike
 model: Vapor Fly
 slug: vapor-fly-irons
 club_type: irons
-year_introduced: 2016
+year_introduced: 2015
 year_discontinued: 2016
 category: game-improvement
 construction: hollow-body cavity back
 material: stainless steel with a high-strength steel face
 predecessor: Nike VR_S Covert
 description: >
-  The Vapor Fly was the game-improvement iron in Nike's final iron family, released in
-  2016 shortly before Nike exited club manufacturing altogether. The 4- through 7-irons
+  The Vapor Fly was the game-improvement iron in Nike's final iron family, announced in
+  December 2015 and sold as the 2016 line, shortly before Nike exited club manufacturing altogether. The 4- through 7-irons
   use a hollow cavity to raise launch, while the 8-iron, 9-iron and pitching wedge switch
   to an RZN-filled pocket for stability and feel. It has a thick topline, a wide sole and
   more offset than the Vapor Fly Pro sold alongside it. Lofts are strong for the period,
@@ -57,6 +57,7 @@ sources:
   - "The 7-iron figures (32 degrees, 62.5-degree lie, 37.75 inches) are independently corroborated by Golfalot's Vapor Fly review, which distinguishes the standard Vapor Fly from the compact Vapor Fly Pro sold alongside it. That agreement is the main check on this table. Retailer spec tables for the Vapor Fly Pro later confirmed the two models share the same loft ladder, so the Pro's difference is head size and offset rather than loft."
   - "nikegolf.com product pages for this generation are not retrievable; the Wayback CDX index returns only 2003-2005 redirect entries for the domain, and 2nd Swing's Vapor Fly page carries no spec table. Confidence is medium: only the 7-iron row has two independent sources behind it."
   - "MyGolfSpy '2016 Nike Vapor Fly' launch article and Golfalot's review - hollow 4-7 iron construction, RZN pocket in the short irons and the Vapor Fly / Vapor Fly Pro split. Background only, not spec numbers."
+  - "Years follow the announcement-year convention. Vapor Fly range announced 10 December 2015 (https://www.golfmonthly.com/gear/gear-news/nike-vapor-fly-range-revealed-82135) and sold as the 2016 line. year_discontinued 2016 is the end of production: Nike announced its exit from golf clubs in August 2016, so there was no successor."
 related_models:
   - slug: "nike/covert-irons"
     label: "Predecessor: Nike VR_S Covert"

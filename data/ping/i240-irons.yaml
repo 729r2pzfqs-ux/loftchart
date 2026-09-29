@@ -5,6 +5,7 @@ slug: i240-irons
 club_type: irons
 year_introduced: 2025
 year_discontinued: null
+current_as_of: "2026-09"
 category: players
 construction: investment cast with tungsten toe and tip weighting
 material: 431 stainless steel with tungsten toe and tip weights
@@ -96,6 +97,7 @@ sources:
   - "Ping's own i240 product page, Specifications table (https://ping.com/en-us/clubs/irons/i240) — supplied every loft, lie, length, offset, bounce and swing weight above, the stock shaft list and the 3-iron through UW range."
   - "golfwrx.com 'Ping launches new i240 irons and iDI driving iron series' and todays-golfer.com 'New Ping i240 irons are a BIG step from the Ping i230' — the i240 was seen on tour at the Memorial and launched in 2025."
   - "Note: year_discontinued is null — the i240 is the current i-series players iron in the sources retrieved."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Listed among Ping's current irons (https://ping.com/en-us/golf-clubs/irons)."
 related_models:
   - slug: "ping/i230-irons"
     label: "Predecessor: Ping i230"

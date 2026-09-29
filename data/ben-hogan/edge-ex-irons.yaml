@@ -5,6 +5,7 @@ slug: edge-ex-irons
 club_type: irons
 year_introduced: 2021
 year_discontinued: null
+current_as_of: "2026-09"
 category: game-improvement
 construction: forged open-cavity
 material: forged carbon steel
@@ -87,6 +88,7 @@ sources:
   - "Ben Hogan Golf press release 'Ben Hogan Golf Equipment Company Introduces Revolutionary Edge EX Irons Packed with Game Improvement Technologies', 13 April 2021, via Midwest Golfing Magazine (https://www.midwestgolfingmagazine.com/ben-hogan-golf-equipment-company-introduces-revolutionary-edge-ex-irons-packed-with-game-improvement-technologies/) - announcement date, the 20-to-44-degree loft ladder, the 5-, 6- and 7-piece configurations, the 800/720/630 USD prices, the Open Cavity Design description and the late-April 2021 ship date"
   - "Swing weights above are the KBS Tour V column; the same chart gives D1 through D2 for KBS Tour 90 and UST Recoil and D4 through D5 for Dynamic Gold. Bounce is omitted from the club rows because Ben Hogan publishes it as a leading/trailing V-Sole pair, running 10/2 degrees at the 4-iron to 18/4 degrees at the pitching wedge"
   - "year_discontinued and successor are null: the Edge EX is still the game-improvement iron in the Ben Hogan range and no replacement has been announced"
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Listed in the irons category and in stock on Ben Hogan's site (https://www.benhogangolf.com/irons/)."
 related_models:
   - slug: "ben-hogan/edge-irons"
     label: "Predecessor: Ben Hogan Edge"

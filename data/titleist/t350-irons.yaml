@@ -69,7 +69,7 @@ specs:
     swing_weight: D1
   - club: "W53"
     loft: 53
-    lie: 63.5
+    lie: 64
     length: 35.5
     offset: 0.063
     swing_weight: D1
@@ -78,6 +78,7 @@ stock_shafts:
     material: steel
     flex: ["R300", "S300"]
 sources:
+  - "Titleist official 2023 T-Series specification table, archived 6 August 2023: https://web.archive.org/web/20230806131159/https://www.titleist.com/product/t100/554C.html — manufacturer lie and length rows shared by the T-Series; gives 64 degrees for every club from the 9-iron down, including the 53 degree wedge."
   - "2ndSwing.com Titleist 2023 T350 iron set specification table (loft, length, offset, swing weight)"
   - "GolfDiscount.com and GolfHubz Titleist T350 specification tables - used for the lie progression, where they agree with each other and with the rest of the T-Series against a differing 2ndSwing column"
   - "Lie angles carry a source conflict: 2ndSwing lists the column half a degree lower across the set. The two-source progression used here matches every other T-Series model"

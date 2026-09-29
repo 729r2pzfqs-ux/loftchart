@@ -4,7 +4,7 @@ model: Stealth
 slug: stealth-irons
 club_type: irons
 year_introduced: 2022
-year_discontinued: 2023
+year_discontinued: 2024
 category: game-improvement
 construction: investment cast Cap Back design with toe wrap and Thru-Slot Speed Pocket
 material: stainless steel body with 450 stainless steel face
@@ -102,6 +102,7 @@ stock_shafts:
 sources:
   - "TaylorMade official Stealth Irons product page specifications table, taylormadegolf.com/Stealth-Irons/DW-TA203.html (archived April 2022 via archive.org)"
   - "TaylorMade Custom Component Booklet updated 1/10/22, 2022 Irons spec pages, taylormadegolf.com/.../manuals/Custom_Components_Jan.pdf"
+  - "Years follow the announcement-year convention. year_discontinued is 2024: the Qi irons that replaced this set were announced on 9 January 2024 (GolfWRX launch report, https://web.archive.org/web/20240524184831/https://www.golfwrx.com/730290/2024-taylormade-qi-irons-golfwrx-launch-report/)."
 related_models:
   - slug: "taylormade/sim2-max-irons"
     label: "Predecessor: TaylorMade SIM2 Max"

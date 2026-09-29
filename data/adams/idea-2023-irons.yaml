@@ -4,7 +4,7 @@ model: Idea (2023)
 slug: idea-2023-irons
 club_type: irons
 year_introduced: 2023
-year_discontinued: null
+year_discontinued: 2024
 category: game-improvement
 construction: hollow body
 successor: null
@@ -76,7 +76,7 @@ stock_shafts:
 sources:
   - "adamsgolf.com official 'Idea Irons' product page (adamsgolf.com/Idea-Irons/DW-TA289.html), Wayback Machine capture of 16 May 2023 — the 'STANDARD (R,S,A)' specification table with loft, lie, length, D1 swing weight and RH/LH availability for 4-iron through AW, the shorter RH-only 'LITE (L)' build at C3, and the KBS Max 85 / UST Helium Nanocore Black 6 and 5 stock shaft listings."
   - "MyGolfSpy 'Adams IDEA – A Revitalized New Lineup' — independently confirms the 30-degree 7-iron and 44.5-degree pitching wedge and notes the deliberately un-jacked lofts. Plugged In Golf's '2023 Adams IDEA Irons Review' confirms the hollow-body construction, Tri-Sole and the brand's 2023 rebirth as a direct-to-consumer value line."
-  - "Offset and bounce are omitted: Adams' published table does not include them. year_discontinued is null because the Idea irons remain in Adams' direct-to-consumer range with no announced successor as of July 2026."
+  - "Status check, 29 September 2026: year_discontinued is 2024 and there is no successor. Adams' direct-to-consumer storefront was live on 19 September 2024 and had been reduced to warranty and legal pages by 24 November 2024 (http://web.archive.org/web/20241124182754/https://www.adamsgolf.com/), so the range left the catalogue in autumn 2024. Offset and bounce are omitted: Adams' published table does not include them."
 related_models:
   - slug: "adams/idea-a12-irons"
     label: "Last of the original Idea hybrid-iron line: Adams Idea a12"

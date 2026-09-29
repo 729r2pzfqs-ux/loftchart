@@ -4,11 +4,11 @@ model: P7MB
 slug: p7mb-irons
 club_type: irons
 year_introduced: 2020
-year_discontinued: null
+year_discontinued: 2022
 category: blade
 construction: forged
 material: 1025 carbon steel
-successor: null
+successor: TaylorMade P7MB (2023)
 predecessor: P730
 description: >
   The P7MB is TaylorMade's muscleback blade, forged from 1025 carbon steel using
@@ -85,6 +85,7 @@ sources:
   - "Note: bounce is the one column no first-party TaylorMade source publishes for this model. The values recorded here are uncontradicted but unsourced."
   - "TaylorMade 2021 Custom Options & Specifications catalogue (updated 03/02/21), 2021 Irons pages - P7MB loft/lie/offset/bounce/length/swing-weight table, cross-identified by the P-Series Combo Guide stock-loft chart (MB column: 21, 24, 27, 31, 35, 39, 43, 47 degrees)"
   - "2ndswing.com TaylorMade P7MB Iron Set page (corroborates lie, length and the 1.9mm to 1.4mm offset progression; note that its loft column reproduces the P7MC values, so lofts here follow the TaylorMade catalogue)"
+  - "Years follow the announcement-year convention. year_discontinued is 2022: a second-generation P7MB was announced on 6 December 2022 (https://golf.com/gear/first-look-2023-taylormade-p7mc-and-p7mb-irons/). This page records the 2020 generation."
 related_models:
   - slug: "taylormade/p7mc-irons"
     label: "Cavity-back sibling: TaylorMade P7MC"

@@ -5,6 +5,7 @@ slug: 620-mb-irons
 club_type: irons
 year_introduced: 2019
 year_discontinued: null
+current_as_of: "2026-09"
 category: blade
 construction: forged muscle back
 material: forged 1025 carbon steel
@@ -57,22 +58,24 @@ specs:
   - club: "9"
     loft: 43.0
     lie: 64.0
-    length: 35.75
+    length: 36.0
     offset: 0.043
     swing_weight: D2
   - club: "PW"
     loft: 47.0
     lie: 64.0
-    length: 35.5
+    length: 35.75
     swing_weight: D2
 stock_shafts:
   - name: "True Temper Project X"
     material: steel
 sources:
+  - "Titleist official 620 MB product page, archived 18 October 2021: https://web.archive.org/web/20211018094737/https://www.titleist.com/product/620-mb/541C.html — manufacturer specification table. The 9-iron (36.00 in) and pitching wedge (35.75 in) lengths are taken from this table; the 2nd Swing table below lists them a quarter inch shorter, which is a retailer error."
   - "2nd Swing Golf specification table for the Titleist 620 MB iron set (https://www.2ndswing.com/golf-clubs/iron-sets/titleist-620-mb-iron-set) — supplied every loft, lie, length and swing weight above, the offsets for the 3 through 9-irons, the Project X stock shaft and the 4-PW stock set."
   - "Note on offset: the source publishes offset in millimetres (2.3 mm down to 1.1 mm at the 9-iron), converted to inches here. Its pitching wedge row reads '0.09mm', which is two orders of magnitude out of step with the rest of the column and is plainly a typo, so the PW offset key is omitted rather than guessed."
   - "swingyard.com 'Titleist Irons By Year' — the 620 MB and 620 CB were released in 2019."
   - "Note: bounce is omitted — the source table did not carry a bounce column. Confidence is medium. year_discontinued is null; the 620 MB remained in Titleist's range in the sources retrieved."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Listed on Titleist's irons page (https://www.titleist.com/golf-clubs/irons/)."
 related_models:
   - slug: "titleist/620-cb-irons"
     label: "Sold alongside it as the cavity back: Titleist 620 CB"

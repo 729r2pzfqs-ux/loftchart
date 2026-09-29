@@ -8,7 +8,7 @@ year_discontinued: 2018
 category: game-improvement
 construction: investment cast with Speed Pocket sole slot and heel/toe Face Slots
 material: stainless steel
-successor: null
+successor: TaylorMade M4
 predecessor: TaylorMade M2
 description: >
   The second-generation M2 iron was announced on 12 December 2016 and sold as the
@@ -105,7 +105,7 @@ related_models:
   - slug: "taylormade/m1-irons"
     label: "Players' companion in the same line: TaylorMade M1"
   - slug: "taylormade/m4-irons"
-    label: "Later in the line: TaylorMade M4"
+    label: "Successor: TaylorMade M4"
 faq:
   - q: "What is the loft of a TaylorMade 2017 M2 7-iron?"
     a: "The 2017 TaylorMade M2 7-iron has a loft of 28.5 degrees, with a 63-degree lie and a 37-inch steel-shaft length. That is the same loft as the 2016 M2 7-iron."
