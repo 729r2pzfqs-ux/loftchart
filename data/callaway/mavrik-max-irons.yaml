@@ -4,11 +4,11 @@ model: Mavrik Max
 slug: mavrik-max-irons
 club_type: irons
 year_introduced: 2020
-year_discontinued: null
+year_discontinued: 2022
 category: super-game-improvement
 construction: investment cast, multi-material
 material: cast stainless steel with an A.I.-designed Flash Face Cup and urethane microspheres
-successor: null
+successor: Callaway Rogue ST Max OS
 predecessor: null
 description: >
   The Mavrik Max is the most forgiving member of the 2020 Mavrik family, using a larger
@@ -75,7 +75,10 @@ sources:
   - "Today's Golfer, 'Callaway Mavrik irons' (January 2020) — confirms the 30 degree 7-iron loft and the Project X Catalyst graphite shaft"
   - "The steel shaft is recorded as KBS Max without a gram weight because sources give conflicting figures and none could be confirmed."
   - "Offset ladder added from the Callaway Demandware ProductSpecs feed (ProductSpecs-Get), the manufacturer-authored source behind the View Specs panel; Callaway publishes these in millimetres and the inch figures here are converted"
+  - "Status check, 29 September 2026: year_discontinued is 2022. The Rogue ST line was unveiled in January 2022, with the Rogue ST Max OS replacing the Mavrik Max (https://mygolfspy.com/news-opinion/callaway-rogue-st-irons-four-new-models/)."
 related_models:
+  - slug: "callaway/rogue-st-max-os-irons"
+    label: "Successor: Callaway Rogue ST Max OS"
   - slug: "callaway/mavrik-irons"
     label: "Sibling: Callaway Mavrik"
   - slug: "callaway/mavrik-pro-irons"

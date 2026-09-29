@@ -1860,8 +1860,10 @@ REDIRECTS = {
     "/compare/taylormade-m2-2017-vs-m1/": "/compare/taylormade-m1-vs-m2-2017/",
     "/compare/taylormade-m2-vs-m1/": "/compare/taylormade-m1-vs-m2/",
     "/compare/taylormade-psi-vs-rsi-tp/": "/compare/taylormade-rsi-tp-vs-psi/",
-    "/compare/taylormade-rsi-1-vs-rsi-tp/": "/compare/taylormade-rsi-tp-vs-rsi-1/",
-    "/compare/taylormade-rsi-2-vs-rsi-tp/": "/compare/taylormade-rsi-tp-vs-rsi-2/",
+    "/compare/taylormade-rsi-tp-vs-rsi-1/": "/compare/taylormade-rsi-1-vs-rsi-tp/",
+    "/compare/taylormade-rsi-tp-vs-rsi-2/": "/compare/taylormade-rsi-2-vs-rsi-tp/",
+    "/compare/taylormade-aeroburner-vs-rsi-1/": "/compare/taylormade-rsi-1-vs-aeroburner/",
+    "/compare/taylormade-psi-vs-rsi-2/": "/compare/taylormade-rsi-2-vs-psi/",
     "/compare/taylormade-m1-vs-p770/": "/compare/taylormade-m1-vs-p770-2017/",
     "/compare/taylormade-r7-vs-m4/": "/taylormade/m4-irons/",
 }

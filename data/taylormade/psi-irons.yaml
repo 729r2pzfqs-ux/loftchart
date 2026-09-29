@@ -4,11 +4,11 @@ model: PSi
 slug: psi-irons
 club_type: irons
 year_introduced: 2015
-year_discontinued: null
+year_discontinued: 2017
 category: players-distance
 construction: progressive set — cast long irons with a Speed Pocket, forged short irons
 material: forged carbon steel short irons with tungsten weighting in the 3 to 5 irons
-successor: null
+successor: TaylorMade P770 (2017)
 predecessor: null
 description: >
   The PSi was TaylorMade's better-player iron of the M1 era, announced alongside that
@@ -88,7 +88,10 @@ sources:
   - "Note on offset: the source publishes offset in millimetres (4.8 mm down to 1.4 mm) and those figures are converted to inches here. The lie column steps by half a degree except between the 5 and 6-irons, where it jumps a full degree; that is how the source table reads and it is reproduced rather than smoothed."
   - "golfchannel.com 'Equipment Insider: TaylorMade announces M1 driver, PSi irons' and golfshake.com 'TaylorMade launch PSi Irons' — announced 9 September 2015 with the M1 driver, at retail 6 November 2015. Tungsten in the 3 to 5 irons, forged 8-iron through sand wedge."
   - "Note: bounce is omitted — the source table did not carry a bounce column. Confidence is medium."
+  - "Status check, 29 September 2026: year_discontinued is 2017. The P770 and P750 Tour Proto, announced in January 2017, replaced the PSi and PSi Tour (https://www.todays-golfer.com/news-and-events/equipment-news/2017/january-/taylormade-reveal-new-p770-and-p750-irons/)."
 related_models:
+  - slug: "taylormade/p770-2017-irons"
+    label: "Successor: TaylorMade P770 (2017)"
   - slug: "taylormade/rsi-2-irons"
     label: "The model it followed: TaylorMade RSi 2"
   - slug: "taylormade/m1-irons"

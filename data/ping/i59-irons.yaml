@@ -4,11 +4,11 @@ model: i59
 slug: i59-irons
 club_type: irons
 year_introduced: 2021
-year_discontinued: null
+year_discontinued: 2024
 category: players
 construction: forged body with a bonded face and an internal aluminium insert
 material: forged 1025 carbon steel body, forged 17-4 stainless face and an aerospace-grade aluminium insert
-successor: null
+successor: Ping Blueprint S
 predecessor: null
 description: >
   The i59 is Ping's compact forged players iron, built from a 1025 carbon steel body
@@ -83,7 +83,10 @@ sources:
   - "golfwrx.com 'Ping launches new i59 irons' and golfmonthly.com's i59 review — Ping announced the i59 on 24 August 2021 and it reached retail on 2 September 2021; construction is a forged 1025 carbon steel body with a laser-cut 17-4 stainless face and an aerospace-grade aluminium insert, replacing the iBlade."
   - "Note: bounce is omitted — the source spec table did not carry a bounce column, and it is not estimated here. Confidence is medium because the numbers come from a retailer table rather than a Ping spec sheet."
   - "Note: predecessor, successor and year_discontinued are all null. Ping's forged players line branched rather than running in a single chain — the iBlade was followed by the Blueprint, and the i59 arrived beside it — so no single predecessor or successor is asserted here."
+  - "Status check, 29 September 2026: year_discontinued is 2024. Ping announced the Blueprint S and T on 9 January 2024, with the Blueprint S replacing the i59 (https://mygolfspy.com/news-opinion/ping-blueprint-irons-t-and-s-with-no-ai/)."
 related_models:
+  - slug: "ping/blueprint-s-irons"
+    label: "Successor: Ping Blueprint S"
   - slug: "ping/iblade-irons"
     label: "Ping's previous forged players iron: Ping iBlade"
   - slug: "ping/blueprint-irons"

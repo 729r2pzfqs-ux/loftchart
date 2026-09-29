@@ -4,7 +4,7 @@ model: Great Big Bertha (2023)
 slug: great-big-bertha-2023-irons
 club_type: irons
 year_introduced: 2022
-year_discontinued: null
+year_discontinued: 2024
 category: game-improvement
 construction: hollow body, multi-material
 material: forged titanium face on a commercially pure titanium body with up to 145g of tungsten
@@ -77,7 +77,8 @@ sources:
   - "2nd Swing Golf Callaway Great Big Bertha 23 iron set spec table (2ndswing.com/golf-clubs/iron-sets/callaway-great-big-bertha-23-iron-set) — independently matches on every loft, lie, length and offset"
   - "Golfstead 2023 Great Big Bertha irons review — the UST Mamiya Helium Nanocore graphite and Nippon N.S. Pro 850GH neo steel stock shafts, the 4-PW stock configuration, the up-to-145g tungsten speed cartridge and the well-over-3000-dollar set pricing"
   - "Note on offset: the sources publish offset in millimetres in exact 0.25 mm steps (5.08 mm to 2.54 mm), which convert to round hundredths of an inch (0.200 to 0.100), indicating Callaway authored the ladder in inches; the inch values are recorded. Bounce was not published and is omitted."
-  - "Note on years: Callaway announced the Great Big Bertha family — driver, fairway woods, hybrids and irons — in late October 2022, with all pieces at retail from 11 November 2022 (GolfWRX launch coverage; Forbes, 9 November 2022). The family is catalogued as the 2023 line, hence the model name, while year_introduced records the 2022 announcement per this database's convention. year_discontinued and successor are null — no replacement Great Big Bertha iron had been announced in the sources consulted."
+  - "Note on years: Callaway announced the Great Big Bertha family — driver, fairway woods, hybrids and irons — in late October 2022, with all pieces at retail from 11 November 2022 (GolfWRX launch coverage; Forbes, 9 November 2022). The family is catalogued as the 2023 line, hence the model name, while year_introduced records the 2022 announcement per this database's convention. No replacement Great Big Bertha iron has been announced."
+  - "Status check, 29 September 2026: year_discontinued is 2024. No successor. callawaygolf.com's iron sets page lists the Great Big Bertha on 8 September 2024 and not on 24 December 2024 (https://web.archive.org/web/20241224063233/https://www.callawaygolf.com/golf-clubs/iron-sets/)."
 related_models:
   - slug: "callaway/big-bertha-2023-irons"
     label: "Steel-bodied sibling of the same family: Callaway Big Bertha (2023)"

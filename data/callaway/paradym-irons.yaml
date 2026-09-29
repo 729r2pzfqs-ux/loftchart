@@ -4,11 +4,11 @@ model: Paradym
 slug: paradym-irons
 club_type: irons
 year_introduced: 2023
-year_discontinued: null
+year_discontinued: 2024
 category: game-improvement
 construction: investment cast, hollow body
 material: cast hollow-body Speed Frame construction with an A.I.-designed forged 455 face cup, up to 67g of tungsten and urethane microspheres
-successor: null
+successor: Callaway Paradym Ai Smoke
 predecessor: Callaway Rogue ST Max
 description: >
   Released in February 2023, the Paradym is a hollow-bodied cast iron built on what
@@ -83,7 +83,10 @@ sources:
   - "2nd Swing Golf Callaway Paradym iron set spec table (2ndswing.com/golf-clubs/iron-sets/callaway-paradym-iron-set) — independently matches Callaway on every loft, lie and length"
   - "One aggregator publishes the Paradym X lofts under the standard Paradym name; that table is contradicted by both sources above and has not been used."
   - "Offset ladder added from the Callaway Demandware ProductSpecs feed (ProductSpecs-Get), the manufacturer-authored source behind the View Specs panel; Callaway publishes these in millimetres and the inch figures here are converted"
+  - "Status check, 29 September 2026: year_discontinued is 2024. Callaway announced the Paradym Ai Smoke woods and irons on 3 January 2024 (https://ir.callawaygolf.com/news-releases/news-release-details/callaway-golf-announces-new-paradym-ai-smoke-woods-and-irons)."
 related_models:
+  - slug: "callaway/paradym-ai-smoke-irons"
+    label: "Successor: Callaway Paradym Ai Smoke"
   - slug: "callaway/paradym-x-irons"
     label: "Sibling: Callaway Paradym X"
 faq:

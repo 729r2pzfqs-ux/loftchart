@@ -4,7 +4,7 @@ model: Edge CFT Hybrid
 slug: edge-cft-hybrid-irons
 club_type: irons
 year_introduced: 2004
-year_discontinued: null
+year_discontinued: 2006
 category: players-distance
 construction: two-piece, Compression Forged Titanium face on a 17-4 stainless frame
 material: compression forged titanium face, 17-4 stainless steel body
@@ -115,6 +115,7 @@ sources:
   - "golfclubshaftreview.com Ben Hogan shaft-ladder PDF (benhogan_1.2.pdf) — lists '2003 Edge CFT Irons' and '2004 Edge CFT Hybrid Irons' as separate, consecutive entries with an Apex Edge steel or graphite shaft, corroborating the 2004 introduction year for the hybrid-equipped set used here"
   - "thesandtrap.com forum thread 'Ben Hogan Edge CFT Iron Info' and 2ndswing.com's Edge CFT Hybrid iron-set listing — corroborate the 3h/4h hybrids replacing the 3- and 4-irons for easier long-iron play, and the two-piece titanium-face/stainless-body construction"
   - "Deviation from the initial gap-analysis brief: the model is filed here as 'Edge CFT Hybrid' rather than 'Apex Edge CFT,' matching Hogan's own product name; the plain, non-hybrid 'Edge CFT' launched in 2003 and is the direct predecessor named in the description"
+  - "Status check, 29 September 2026: year_discontinued is 2006. benhogan.com's irons index lists the CFT-H on 8 February 2006; by 10 July 2006 its place is taken by a new Apex Edge (https://web.archive.org/web/20060710152359/http://www.benhogan.com/products/irons/index.html)."
 related_models:
   - slug: "ben-hogan/apex-edge-pro-irons"
     label: "Earlier forged Hogan players-distance iron: Apex Edge Pro"

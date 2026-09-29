@@ -4,11 +4,11 @@ model: Epic Forged Star
 slug: epic-forged-star-irons
 club_type: irons
 year_introduced: 2019
-year_discontinued: null
+year_discontinued: 2021
 category: super-game-improvement
 construction: forged hollow body with a cup face
 material: forged carbon steel body with a high-strength cup face, suspended tungsten core and urethane microspheres
-successor: null
+successor: Callaway Epic Max Star
 predecessor: null
 description: >
   Epic Forged Star is the ultra-lightweight build of the 2019 Epic Forged,
@@ -82,7 +82,8 @@ sources:
   - "Callaway Demandware ProductSpecs feed (ProductSpecs-Get), the manufacturer-authored source behind the View Specs panel on callawaygolfpreowned.com, product code irons-2019-epic-forged-star — loft, lie, length, offset, swing weight and the UST ATTAS Speed stock shaft for the 5-iron through sand wedge"
   - "Note on offset: the source publishes offset in millimetres (3.6 mm down to 1.9 mm), converted to inches here"
   - "prnewswire.com 'Callaway Golf Announces Epic Forged Irons, Epic Flash Hybrids And Epic Star Family Of Products' — announced 16 July 2019, at retail from 2 August 2019"
-  - "Bounce was not published in the sources located, so the column is omitted rather than estimated. year_discontinued is null; the sources retrieved do not record a direct replacement"
+  - "Bounce was not published in the sources located, so the column is omitted rather than estimated"
+  - "Status check, 29 September 2026: year_discontinued is 2021. Callaway unveiled the Epic Max Star family in November 2021 (https://www.golfwrx.com/662333/callaway-unveils-new-epic-max-star-family/)."
 related_models:
   - slug: "callaway/epic-forged-irons"
     label: "Standard-weight model: Callaway Epic Forged"

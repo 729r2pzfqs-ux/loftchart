@@ -3,7 +3,7 @@ brand_slug: taylormade
 model: RSi 2
 slug: rsi-2-irons
 club_type: irons
-year_introduced: 2015
+year_introduced: 2014
 year_discontinued: 2016
 category: players-distance
 construction: cast/forged hybrid
@@ -108,6 +108,7 @@ stock_shafts:
 sources:
   - "TaylorMade official 2015 RSi Irons sell sheets, RSi 2 page (full spec table: loft, lie, offset in mm, bounce, length, swingweight, KBS Tour 105 steel and Matrix Program F15 graphite shafts), taylormadegolf.com/docs/productspecs/2015/RSi-Irons-Sell-Sheets.pdf"
   - "TaylorMade RSi 2 product description (cast long irons with tungsten weighting, forged carbon steel short-iron face with milled grooves) — construction/material only, not the spec numbers"
+  - "Years follow the announcement-year convention. RSi 1, RSi 2 and RSi TP irons announced 15 October 2014, on sale from 14 November 2014 (https://www.golfmonthly.com/gear/gear-news/taylormade-rsi-irons-introduced-59098)."
 related_models:
   - slug: "taylormade/rsi-1-irons"
     label: "Game-improvement model in the same range: TaylorMade RSi 1"

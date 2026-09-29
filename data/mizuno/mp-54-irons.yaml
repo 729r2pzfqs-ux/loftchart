@@ -4,11 +4,11 @@ model: MP-54
 slug: mp-54-irons
 club_type: irons
 year_introduced: 2013
-year_discontinued: null
+year_discontinued: 2015
 category: players
 construction: Grain Flow Forged cavity back
 material: 1025E mild carbon steel, Grain Flow Forged in Hiroshima
-successor: null
+successor: Mizuno MP-25
 predecessor: Mizuno MP-53
 description: >
   The MP-54 was unveiled at the 2013 Open Championship at Muirfield alongside the MP-4
@@ -77,8 +77,10 @@ sources:
   - "2nd Swing Golf specification table for the Mizuno MP-54 iron set (https://www.2ndswing.com/golf-clubs/iron-sets/mizuno-mp-54-iron-set) — supplied every loft, lie, length, offset and bounce above, the shaft options in stock and the 3-PW set makeup."
   - "mizunogolf.com 'New MP-4 and MP-54 irons unveiled at the Open Championship' and golfwrx.com 'First Look: New Mizuno MP-4 and MP-54 irons' — both models were shown at Muirfield in July 2013 and shipped from 9 September 2013."
   - "Note: swing weight is omitted — the source table did not carry a swing-weight column. Confidence is medium."
-  - "Note: year_discontinued and successor are null — the sources retrieved do not pin down a single replacement."
+  - "Status check, 29 September 2026: year_discontinued is 2015. The MP-25, unveiled in summer 2015, was the direct replacement for the MP-54 (https://mygolfspy.com/mizuno-mp-25-irons-2015-2016/)."
 related_models:
+  - slug: "mizuno/mp-25-irons"
+    label: "Successor: Mizuno MP-25"
   - slug: "mizuno/mp-53-irons"
     label: "Predecessor: Mizuno MP-53"
   - slug: "mizuno/mp-4-irons"

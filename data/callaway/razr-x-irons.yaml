@@ -4,11 +4,11 @@ model: RAZR X
 slug: razr-x-irons
 club_type: irons
 year_introduced: 2011
-year_discontinued: null
+year_discontinued: 2012
 category: game-improvement
 construction: cast with an undercut cavity and variable face thickness
 material: cast stainless steel
-successor: null
+successor: Callaway X Hot
 predecessor: Callaway X-24 Hot
 description: >
   RAZR X was the mainstream game-improvement iron in the range Callaway announced in
@@ -93,6 +93,7 @@ sources:
   - "2nd Swing Golf specification table for the Callaway RAZR X iron set (https://www.2ndswing.com/golf-clubs/iron-sets/callaway-razr-x-iron-set) — supplied every loft, lie, bounce, both length columns and both swing-weight columns. The steel figures are the ones recorded here."
   - "prnewswire.com 'Callaway Golf Introduces New RAZR X Line of Irons', 20 January 2011 — the RAZR X, RAZR X Tour and RAZR X Forged were announced on that date with retail availability from 18 February 2011. Some listings date the line to 2010 because it was shown to trade late that year; the January 2011 press release is the announcement used here."
   - "Note: offset is omitted — the source table did not carry an offset column. Confidence is medium."
+  - "Status check, 29 September 2026: year_discontinued is 2012. The X Hot irons were announced on 17 December 2012; callawaygolf.com lists the RAZR X on 31 October 2012 and has X Hot in its place by 2 March 2013 (https://web.archive.org/web/20130302005059/http://www.callawaygolf.com/global/en-us.html)."
 related_models:
   - slug: "callaway/x-24-hot-irons"
     label: "Predecessor: Callaway X-24 Hot"

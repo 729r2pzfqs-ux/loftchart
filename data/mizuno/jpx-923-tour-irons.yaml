@@ -4,11 +4,11 @@ model: JPX-923 Tour
 slug: jpx-923-tour-irons
 club_type: irons
 year_introduced: 2022
-year_discontinued: null
+year_discontinued: 2025
 category: players
 construction: Grain Flow Forged HD cavity back
 material: 1025E mild carbon steel, Grain Flow Forged HD in Hiroshima
-successor: null
+successor: Mizuno Pro S-3
 predecessor: JPX-921 Tour
 description: >
   The Tour is the compact end of the JPX 923 family, a Grain Flow Forged cavity back
@@ -74,6 +74,7 @@ sources:
   - "golf.com '5 things you need to know about Mizuno's new JPX 923 irons' and mizunogolf.com's JPX923 summary — Mizuno announced the JPX 923 family in 2022, releasing the Hot Metal models on 13 October 2022 and the Forged and Tour models at retail in February 2023. year_introduced uses the announcement year, so a JPX 923 Tour set bought new will often be catalogued as a 2023 model."
   - "Note: bounce is omitted — the source table did not carry a bounce column. Confidence is medium."
   - "Predecessor is the JPX-921 Tour, the previous compact players model in the JPX line (announced August 2020), which the JPX 923 family replaced on its 2022 announcement."
+  - "Status check, 29 September 2026: year_discontinued is 2025. Mizuno ended the JPX Tour line when it launched the Pro S-3 in January 2025 (https://golf.com/gear/irons/mizuno-pro-s3-irons-3-things-know/); the S-3 is the functional rather than a named replacement."
 related_models:
   - slug: "mizuno/jpx-921-tour-irons"
     label: "Predecessor: Mizuno JPX-921 Tour"

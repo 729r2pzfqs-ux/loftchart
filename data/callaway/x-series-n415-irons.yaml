@@ -4,11 +4,11 @@ model: X Series N415
 slug: x-series-n415-irons
 club_type: irons
 year_introduced: 2015
-year_discontinued: null
+year_discontinued: 2016
 category: game-improvement
 construction: cast with a deep undercut cavity
 material: cast stainless steel
-successor: null
+successor: Callaway X Series N416
 predecessor: null
 description: >
   The X Series N415 is a value-priced game-improvement set Callaway sold from
@@ -69,6 +69,7 @@ sources:
   - "2ndswing.com Callaway X Series N415 Iron Set specification table — agrees cell for cell on loft, lie, length and the D1 steel swing weight"
   - "Bounce and offset were not published in the sources located, so those columns are omitted rather than estimated"
   - "year_introduced is 2015 from retail listings; Callaway did not issue a press release for this retail-channel model, so the year is held at the listing consensus and confidence for the year is lower than for the specs themselves"
+  - "Status check, 29 September 2026: year_discontinued is 2016. Callaway catalogues the follow-on set as the 2016 X Series N416 (https://www.callawaygolfpreowned.com/iron-sets/irons-2016-x-series-n416.html)."
 related_models:
   - slug: "callaway/xr-irons"
     label: "Callaway's mainline game-improvement iron of the same year: Callaway XR"

@@ -4,11 +4,11 @@ model: RAZR X Black
 slug: razr-x-black-irons
 club_type: irons
 year_introduced: 2012
-year_discontinued: null
+year_discontinued: 2012
 category: game-improvement
 construction: cast with an undercut cavity
 material: cast stainless steel with a black finish
-successor: null
+successor: Callaway X Hot
 predecessor: null
 description: >
   RAZR X Black extended the RAZR X iron family for 2012, announced at the PGA
@@ -78,6 +78,7 @@ sources:
   - "2ndswing.com Callaway RAZR X Black Iron Set specification table — agrees cell for cell on loft, lie, length and bounce"
   - "prnewswire.com 'Callaway Golf Presents 2012 New Product Lineup', 25 January 2012 — the RAZR X Black iron was announced at the PGA Merchandise Show that day, with retail availability from 16 March 2012 at $799 steel / $999 graphite"
   - "Swing weight is published only as two unlabelled sub-columns (D0/D2 through the irons), so a steel-specific value could not be isolated and the column is omitted. Offset was not published in the sources located"
+  - "Status check, 29 September 2026: year_discontinued is 2012. The X Hot irons were announced on 17 December 2012; callawaygolf.com lists the RAZR X Black on 31 October 2012 (https://web.archive.org/web/20121031114132/http://www.callawaygolf.com/global/en-us.html) and has dropped it by 2 March 2013."
 related_models:
   - slug: "callaway/razr-x-irons"
     label: "The 2011 model it derives from: Callaway RAZR X"

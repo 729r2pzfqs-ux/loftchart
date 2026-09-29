@@ -4,11 +4,11 @@ model: Idea a12
 slug: idea-a12-irons
 club_type: irons
 year_introduced: 2011
-year_discontinued: null
+year_discontinued: 2013
 category: super-game-improvement
 construction: investment cast
 material: stainless steel with an ultra-thin face
-successor: null
+successor: Adams New Idea
 predecessor: Adams Idea a7
 description: >
   This is the a12-generation hybrid-iron set that followed the Idea a7, announced on
@@ -70,7 +70,7 @@ sources:
   - "Adams Golf press release 'Adams Golf Takes the Next Step in Hybrid Technology With the Introduction of the Idea a12 OS Hybrid Irons and the Idea a12 Hybrids', via The Golf Wire, 16 September 2011 (https://thegolfwire.com/245403-2/) - announcement date, the exact set breakdown (4, 5, 6 hybrids; 7 and 8 Transitional Hybrids; 9, PW, GW cavity-back irons), the 699.99 USD steel and 799.99 USD graphite pricing, the early-October 2011 availability, and the four lofts of the standalone Idea a12 hybrid"
   - "InTheHoleGolf.com Adams Idea a12OS Hybrid Iron Set page (https://www.intheholegolf.com/AG-A12OSHYBIS/Adams-Idea-a12OS-Hybrid-Iron-Set.html) - independent corroboration of the same spec table, the 599.95 USD list price and the shaft options"
   - "Note on naming: Adams never sold an iron set called simply 'Idea a12'. Its 2012 site navigation lists Idea a12 only under Hybrids, while the Irons menu carries Idea a12 OS and Idea Pro a12. This entry documents the Idea a12 OS, the a12-generation hybrid-iron set that directly succeeded the Idea a7 hybrid-iron set, under the shortened name used for lineage elsewhere in this database"
-  - "year_discontinued is left null: Adams was wound down by TaylorMade after the 2012 acquisition and no successor to the a12 OS hybrid-iron set was announced, so there is no successor announcement year to record"
+  - "Status check, 29 September 2026: year_discontinued is 2013. Adams announced the New Idea hybrid irons on 26 September 2013, benchmarked directly against the Idea a12 OS, for retail in November 2013 (https://golfbusinessnews.com/news/new-products/new-idea-hybrid-irons-from-adams/)."
 related_models:
   - slug: "adams/idea-a7-irons"
     label: "Predecessor: Adams Idea a7"

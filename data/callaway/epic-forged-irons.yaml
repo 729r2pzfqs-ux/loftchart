@@ -4,7 +4,7 @@ model: Epic Forged
 slug: epic-forged-irons
 club_type: irons
 year_introduced: 2019
-year_discontinued: null
+year_discontinued: 2020
 category: players-distance
 construction: forged hollow body with a cup face
 material: forged carbon steel body with a high-strength cup face, tungsten weighting and urethane microspheres
@@ -86,7 +86,8 @@ sources:
   - "2nd Swing Golf specification table for the Callaway Epic Forged iron set (https://www.2ndswing.com/golf-clubs/iron-sets/callaway-epic-forged-iron-set) — supplied every loft, lie, length, offset and both swing-weight columns, plus the two stock shafts. The D2 figures recorded here are the SteelFiber FC build; the Tensei AV Silver build measures D0."
   - "Note on offset: the source publishes offset in millimetres (3.8 mm down to 1.9 mm), converted to inches here."
   - "prnewswire.com 'Callaway Golf Announces Epic Forged Irons, Epic Flash Hybrids And Epic Star Family Of Products' — announced 16 July 2019, at retail from 2 August 2019."
-  - "Note: bounce is omitted — the source table did not carry a bounce column. Confidence is medium. year_discontinued is null; the sources retrieved do not record a direct replacement."
+  - "Note: bounce is omitted — the source table did not carry a bounce column. Confidence is medium."
+  - "Status check, 29 September 2026: year_discontinued is 2020. No successor. callawaygolf.com's iron sets page lists the Epic Forged on 30 June 2020 and not on 26 September 2020 (https://web.archive.org/web/20200926073436/https://www.callawaygolf.com/golf-clubs/iron-sets/)."
 related_models:
   - slug: "callaway/apex-19-irons"
     label: "Callaway's other forged iron of the same year: Callaway Apex 19"

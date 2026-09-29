@@ -4,7 +4,7 @@ model: Rogue ST Pro
 slug: rogue-st-pro-irons
 club_type: irons
 year_introduced: 2022
-year_discontinued: null
+year_discontinued: 2023
 category: players-distance
 construction: hollow body with a cup face and tungsten weighting
 material: forged 450 face with a hollow body, high-density tungsten weighting and urethane microspheres
@@ -83,6 +83,7 @@ sources:
   - "Note on offset: the source publishes offset in millimetres (4.2 mm down to 1.7 mm), converted to inches here."
   - "golf.com 'FIRST LOOK: Callaway's Rogue ST iron line comes in four high-performing models' and nbcsports.com 'Need to know: Callaway Rogue ST irons' — the Rogue ST line was unveiled in January 2022, with pre-orders from 22 January and retail from 18 February."
   - "Note: bounce is omitted — the source table did not carry a bounce column. Confidence is medium."
+  - "Status check, 29 September 2026: year_discontinued is 2023. No successor. callawaygolf.com's iron sets page lists the Rogue ST Pro on 9 June 2023 and not on 3 December 2023 (https://web.archive.org/web/20231203082104/https://www.callawaygolf.com/golf-clubs/iron-sets/?setLocale=true)."
 related_models:
   - slug: "callaway/rogue-st-max-irons"
     label: "The larger head of the same family: Callaway Rogue ST Max"

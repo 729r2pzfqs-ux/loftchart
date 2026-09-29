@@ -4,11 +4,11 @@ model: SLDR
 slug: sldr-irons
 club_type: irons
 year_introduced: 2014
-year_discontinued: null
+year_discontinued: 2014
 category: players-distance
 construction: cast with a ThruSlot Speed Pocket
 material: cast stainless steel with a ThruSlot Speed Pocket in the sole
-successor: null
+successor: TaylorMade RSi 2
 predecessor: null
 description: >
   The SLDR iron was TaylorMade's attempt at a classic-looking head with the Speed
@@ -89,7 +89,10 @@ sources:
   - "Note on offset: the source publishes offset in millimetres (4.9 mm down to 1.0 mm), converted to inches here."
   - "golfshake.com 'TaylorMade launch SLDR Irons' and golfwrx.com 'TaylorMade unveils new SLDR S woods and irons' — the SLDR irons were announced in 2014 and reached retail on 6 June 2014."
   - "Note: bounce is recorded for the 8-iron only, because that is the only club for which a published figure was found. Confidence is medium given the correction above."
+  - "Status check, 29 September 2026: year_discontinued is 2014. The RSi irons were announced on 15 October 2014, with the RSi 2 replacing the SLDR irons (https://golfwrx.com/258441/review-taylormade-rsi-1-and-rsi-2-irons/)."
 related_models:
+  - slug: "taylormade/rsi-2-irons"
+    label: "Successor: TaylorMade RSi 2"
   - slug: "taylormade/speedblade-irons"
     label: "TaylorMade's game-improvement iron of the same period: TaylorMade SpeedBlade"
   - slug: "taylormade/tp-cb-irons"

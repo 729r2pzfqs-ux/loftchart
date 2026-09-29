@@ -4,7 +4,7 @@ model: J36 Blade
 slug: j36-blade-irons
 club_type: irons
 year_introduced: 2008
-year_discontinued: null
+year_discontinued: 2009
 category: blade
 construction: forged muscle-back
 material: 1020 mild carbon steel
@@ -79,7 +79,8 @@ stock_shafts:
 sources:
   - "Bridgestone Golf official J36 Blade Irons page, bridgestonegolf.com/en-us/clubs/archive/2008-models/j36-blade-irons (archive.org capture of 23 September 2019) — full factory spec table: 3-PW lofts 21/24/27/31/35/39/43/47, lies 60-64.5, lengths 38.75 to 35.5 inches, D3 swing weight throughout, offsets 2.7-1.4 mm (converted here at 25.4 mm per inch; no bounce figures were published for this model), premium-forged 1020 mild carbon steel with high center of gravity, thin top line and sole, compact head with progressive offset, Rifle Project X flighted shaft, Golf Pride Tour Velvet grip, 'Available right hand only', and 'professionals to low handicap amateurs'; also fixes the Condition of Competition conforming/non-conforming dates"
   - "Note: the loft/lie/length/swing-weight/offset ladder published on Bridgestone's archived J36 Blade page is numerically identical to the J36 Cavity Back page archived the same year — both are recorded here as published rather than assumed to be a data-entry duplicate, since the two models otherwise carry distinct construction copy (muscle-back vs. cavity) and distinct product photography"
-  - "No J36-generation successor blade was located in Bridgestone's J38 archive (only a Cavity Back and Dual Pocket Cavity iron are catalogued there); year_discontinued is left null and the next Bridgestone blade in this database is the 2015 J15 Muscle Back, which is not yet covered"
+  - "No J36-generation successor blade was located in Bridgestone's J38 archive (only a Cavity Back and Dual Pocket Cavity iron are catalogued there); the next Bridgestone blade in this database is the 2015 J15 Muscle Back, which is not yet covered"
+  - "Status check, 29 September 2026: year_discontinued is 2009. bridgestonegolf.com lists the J36 blade on 26 July 2009; by 24 December 2009 the club menu shows only the J38 irons (https://web.archive.org/web/20091224134101/http://www.bridgestonegolf.com/product/clubs/j38-460-driver)."
 related_models:
   - slug: "bridgestone/j33-forged-blade-irons"
     label: "Predecessor: J33 Forged Blade"

@@ -4,7 +4,7 @@ model: Apex FTX
 slug: apex-ftx-irons
 club_type: irons
 year_introduced: 2004
-year_discontinued: null
+year_discontinued: 2007
 category: players
 construction: forged, cavity-to-blade transition set
 material: forged carbon steel
@@ -116,6 +116,7 @@ sources:
   - "golfclubshaftreview.com Ben Hogan shaft-ladder PDF (benhogan_1.2.pdf) — confirms '2004 Apex FTX Irons' with an Apex-branded steel shaft, corroborating the 2004 introduction year"
   - "2ndswing.com and golfavenue.com Apex FTX iron-set listings — confirm the forged 1020-carbon-steel construction and the long-iron-cavity/short-iron-blade transitional design"
   - "Deviation from the initial gap-analysis brief: category is recorded here as players rather than game-improvement. Hogan's own marketing copy pitches the FTX at 'the most demanding players and shot-makers,' its lofts and lengths match the players-category Apex Plus almost exactly, and its defining feature (a cavity that shrinks into a true muscle-back blade by the 8-iron) is a better-player trait, not a game-improvement one"
+  - "Status check, 29 September 2026: year_discontinued is 2007. benhogan.com's irons index lists the Apex FTX on 18 November 2006; by 29 March 2007 its place is taken by a new Apex Plus (https://web.archive.org/web/20070329062258/http://www.benhogan.com/products/irons/index.html)."
 related_models:
   - slug: "ben-hogan/apex-edge-pro-irons"
     label: "Same-era players stablemate: Apex Edge Pro"
