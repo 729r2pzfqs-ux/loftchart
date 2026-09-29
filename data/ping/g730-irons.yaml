@@ -6,12 +6,15 @@ club_type: irons
 year_introduced: 2024
 year_discontinued: 2026
 category: super-game-improvement
-construction: hollow body with a maraging steel face
-material: maraging C300 steel face with a 17-4 stainless body and internal tungsten weighting
+construction: cavity back with a thin, heat-treated flexing face
+material: 17-4 stainless steel, heat-treated to Ping's "hyper 17-4" specification in the face
 successor: Ping G740
 predecessor: Ping G710
 description: >
-  The G730 replaces the G710 and is the strongest-lofted iron Ping has made:
+  The G730 replaces the G710 but drops that model's hollow body for a cavity
+  back: a 17-4 stainless steel head whose face is heat-treated so it can be
+  made thinner and flex more, with Ping's PurFlex badge in the cavity. It is
+  also the strongest-lofted iron Ping has made:
   28 degrees at the 7-iron and 40 at the pitching wedge, four degrees stronger
   through the set than the G710. The set starts at a 5-iron rather than a
   4-iron and is filled out with a 45-degree utility and 50- and 56-degree
@@ -98,6 +101,7 @@ stock_shafts:
   - name: "UST Recoil Dart"
     material: graphite
 sources:
+  - "Construction: Ping's G730 product page, archived 12 February 2025 (https://web.archive.org/web/20250212081844/https://ping.com/en-us/clubs/irons/g730) — describes a cavity-back design with the PurFlex cavity badge and a face of hyper 17-4 stainless steel, thinned through heat treating to increase flexing and lower the centre of gravity."
   - "ping.com G730 Irons product page, Specifications table (https://ping.com/en-us/golf-clubs/irons/g730-iron, cross-checked against the matching table on eu.ping.com/en-gb/clubs/irons/g730) — supplied every loft, lie, length, offset, bounce and swing weight above, the 5-iron to 56-degree set range, and the shaft list. Lie is quoted for the black colour code at standard length."
   - "Note: Ping's chart also carries Power Spec and Retro Spec loft alternatives as fitting options; only the standard lofts are recorded here."
   - "Status check, 29 September 2026: year_discontinued is 2026: Ping announced the G740 in March 2026 (https://ping.com/en-us/discover-ping/news/g740-irons-engineered-for-more-distance-forgiveness-and-consistency) and now lists the G730 as a fill-in or replacement model."

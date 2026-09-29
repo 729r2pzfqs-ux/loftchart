@@ -4,7 +4,7 @@ model: Beres 09
 slug: beres-09-irons
 club_type: irons
 year_introduced: 2023
-year_discontinued: 2025
+year_discontinued: 2026
 category: super-game-improvement
 construction: cast/forged hybrid (forged mild-steel body, cast face)
 material: forged mild steel 25C body with AM355P cast face (5-9) and ES235 face (10-SW)
@@ -78,7 +78,7 @@ stock_shafts:
     flex: ["R"]
 sources:
   - "Honma's own BERES09 IRON product page, specification table (honmagolf.com/int/product-details/10160) — every loft, lie, length and offset recorded here (offsets 4.0/3.7/3.5/3.0/2.0 mm converted to inches; the table's merged cells place the 63.0-degree lie across the 9 through AW, 64.0 on the SW, and the 3.5 mm offset across the 7 through 10), plus the forged Mild Steel 25C body with AM355P cast face (5-9) and ES235 face (10-SW), the ARMRQ FX and FX LIGHT shaft matrix at C8-D0 swing weights (343-394 g total), the GR Honma Rubber 41 GD grip and the 5-11/AW/SW set makeup."
-  - "Year note: year_introduced 2023 follows Honma's roughly two-year Beres cycle (08 announced 2021); year_discontinued 2025 reflects the Beres 10 generation, marketed as the 2026 model year and covered by TourSpecGolf and ExactGolf from late 2025, per this site's successor-announcement convention."
+  - "Year note: year_introduced 2023 follows Honma's roughly two-year Beres cycle (08 announced 2021); year_discontinued 2026 is the year the Beres 10 was announced: Minna no Golf Digest reported Honma's announcement on 27 January 2026 for sale in Japan from 30 January (https://www.golfdigest-minna.jp/_ct/17818026), and Honma's US release is dated 3 February 2026 (https://www.firstcallgolf.com/industry-news/release/2026-02-03/honma-golfs-beres-10-artistry-meets-pure-speed)."
 related_models:
   - slug: "honma/beres-08-irons"
     label: "Predecessor with identical head specs: Honma Beres 08"
