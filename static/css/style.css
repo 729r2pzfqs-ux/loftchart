@@ -542,6 +542,51 @@ table.specs td.na { color: #A5A59B; }
 .linklist li { margin-bottom: .4rem; }
 .linklist li::before { content: "→"; color: var(--gold); margin-right: .5rem; font-weight: 700; }
 
+/* ---------- diagrams ---------- */
+
+.figs {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+  gap: 1rem;
+  align-items: stretch;
+  margin: 0 0 1.6rem;
+}
+.figs-one { grid-template-columns: minmax(0, 1fr); }
+.figs > .fig:only-child { grid-column: 1 / -1; }
+.fig {
+  margin: 0;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1rem 1rem .85rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.fig svg text { font-family: inherit; }
+.fig figcaption {
+  font-size: .82rem;
+  color: var(--text-muted);
+  margin-top: .75rem;
+}
+.fig-key {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .25rem 1.25rem;
+  margin: 0 0 .6rem;
+  padding: 0;
+  font-size: .85rem;
+  font-weight: 600;
+}
+.fig-key li { display: flex; align-items: center; gap: .4rem; }
+.fig-key svg { flex: none; }
+@media (max-width: 767px) {
+  .figs { grid-template-columns: minmax(0, 1fr); }
+  .fig { padding: .75rem .6rem .7rem; }
+}
+
 /* ---------- compare ---------- */
 
 .diff { background: #FFF7E0 !important; font-weight: 700; }

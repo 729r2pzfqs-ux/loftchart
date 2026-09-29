@@ -90,6 +90,11 @@ computed at build time from the sets already on file, so they stay in step with 
 archive as models are added. `WEDGE_TYPES` in `generate.py` holds the prose, loft
 bands, bounce ranges and carry distances; the tables are derived.
 
+Diagrams are inline SVG drawn at build time from the same spec rows as the tables:
+a loft-by-club column chart and a loft angle sketch on every model page, and an
+overlay of both sets' lofts on every comparison page. There is no script and no image
+file; see the `diagrams` section of `generate.py`.
+
 Structured data: `BreadcrumbList` everywhere, `Article` + `FAQPage` on model pages,
 `ItemList` on hub pages, `WebSite` and `Organization` on the homepage. There is no
 `SearchAction`: search runs client-side on the homepage and has no results URL.

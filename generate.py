@@ -659,6 +659,246 @@ def spec_table(m, caption=None):
 
 
 # --------------------------------------------------------------------------
+# diagrams
+#
+# Inline SVG, drawn from the same spec rows as the tables, so a chart can never
+# disagree with the chart beside it. Colours are fixed hex values rather than
+# CSS variables because SVG presentation attributes do not resolve var(), and
+# the sizing that matters is inline so a page still lays out correctly against
+# a cached copy of the stylesheet. No script: the hover text is each mark's
+# own <title>.
+# --------------------------------------------------------------------------
+
+FIG_INK = "#1A1A1A"
+FIG_MUTED = "#5A5A54"
+FIG_GRID = "#E4E4DA"
+FIG_AXIS = "#B9B9AC"
+FIG_SURFACE = "#FFFFFF"
+FIG_GREEN = "#2D6A4F"
+# The comparison pair. The site green sits just under the chroma floor for a
+# two-series palette, so series A uses a slightly more saturated step of it;
+# checked against the gold for colour-blind separation and 3:1 contrast.
+FIG_A = "#25805A"
+FIG_B = "#A98C36"
+
+
+def xy(v):
+    """Coordinate with at most one decimal and no trailing zero."""
+    s = f"{v:.1f}"
+    return s[:-2] if s.endswith(".0") else s
+
+
+def svg_open(width, height, title, desc, ident, max_px):
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" '
+            f'width="{width}" height="{height}" role="img" '
+            f'aria-labelledby="{ident}-t {ident}-d" '
+            f'style="display:block;width:100%;max-width:{max_px}px;height:auto;margin:0 auto" '
+            f'font-size="9" fill="{FIG_INK}">'
+            f'<title id="{ident}-t">{esc(title)}</title>'
+            f'<desc id="{ident}-d">{esc(desc)}</desc>')
+
+
+def loft_rows(m):
+    return [r for r in m["specs"] if r.get("loft") is not None]
+
+
+def loft_chart(m):
+    """Column chart of loft by club, with the gap to the next club beneath."""
+    rows = loft_rows(m)
+    if len(rows) < 2:
+        return ""
+    W, H = 320, 232
+    left, right, top, base = 28, 4, 18, 180
+    n = len(rows)
+    slot = (W - left - right) / n
+    bar = min(24, slot - 3)
+    top_loft = max(r["loft"] for r in rows)
+    ymax = max(10, int(-(-top_loft // 10)) * 10)
+    scale = (base - top) / ymax
+    small = n > 10
+    size = 8 if small else 9
+
+    out = [svg_open(
+        W, H, f"{m['brand']} {m['model']} loft by club",
+        "Column chart of loft in degrees for each club in the set: "
+        + ", ".join(f"{r['club']} {num(r['loft'])}" for r in rows) + ".",
+        "lp", 520)]
+    for tick in range(0, ymax + 1, 10):
+        y = base - tick * scale
+        out.append(f'<line x1="{left}" x2="{W - right}" y1="{xy(y)}" y2="{xy(y)}" '
+                   f'stroke="{FIG_AXIS if tick == 0 else FIG_GRID}"/>')
+        out.append(f'<text x="{left - 5}" y="{xy(y + 3)}" text-anchor="end" '
+                   f'fill="{FIG_MUTED}">{tick}°</text>')
+
+    for i, r in enumerate(rows):
+        cx = left + slot * (i + 0.5)
+        h = r["loft"] * scale
+        x0, y0 = cx - bar / 2, base - h
+        rad = min(3, bar / 2, h)
+        out.append(
+            f'<path d="M{xy(x0)} {xy(base)}V{xy(y0 + rad)}Q{xy(x0)} {xy(y0)} '
+            f'{xy(x0 + rad)} {xy(y0)}H{xy(x0 + bar - rad)}Q{xy(x0 + bar)} {xy(y0)} '
+            f'{xy(x0 + bar)} {xy(y0 + rad)}V{xy(base)}Z" fill="{FIG_GREEN}">'
+            f'<title>{esc(r["club"])}: {num(r["loft"])}°</title></path>')
+        out.append(f'<text x="{xy(cx)}" y="{xy(y0 - 4)}" text-anchor="middle" '
+                   f'font-size="{size}" font-weight="600">{num(r["loft"])}'
+                   f'{"" if small else "°"}</text>')
+        out.append(f'<text x="{xy(cx)}" y="{base + 13}" text-anchor="middle" '
+                   f'font-size="{size}" font-weight="600">{esc(r["club"])}</text>')
+        if i + 1 < n:
+            gap = round(rows[i + 1]["loft"] - r["loft"], 1)
+            out.append(f'<text x="{xy(cx + slot / 2)}" y="{base + 31}" '
+                       f'text-anchor="middle" font-size="{size}" '
+                       f'fill="{FIG_MUTED}">+{num(gap)}</text>')
+    out.append(f'<text x="0" y="{base + 13}" font-size="8" fill="{FIG_MUTED}">Club</text>')
+    out.append(f'<text x="0" y="{base + 31}" font-size="8" fill="{FIG_MUTED}">Gap</text>')
+    out.append(f'<text x="0" y="8" font-size="8" fill="{FIG_MUTED}">Loft</text>')
+    out.append("</svg>")
+
+    gaps = [round(b["loft"] - a["loft"], 1) for a, b in zip(rows, rows[1:])]
+    if min(gaps) == max(gaps):
+        gap_txt = f"every gap is {num(gaps[0])}°"
+    else:
+        gap_txt = f"gaps run from {num(min(gaps))}° to {num(max(gaps))}°"
+    caption = (f"Loft for each club, {esc(rows[0]['club'])} to {esc(rows[-1]['club'])}. "
+               f"The Gap row is the loft added from one club to the next; {gap_txt}.")
+    return (f'<figure class="fig data-table-zone">{"".join(out)}'
+            f'<figcaption>{caption}</figcaption></figure>')
+
+
+def loft_angle(m):
+    """Side view of the face, tilted back from vertical by the set's own loft."""
+    import math
+    row = seven_iron(m)
+    if not row or row.get("loft") is None:
+        return ""
+    loft = row["loft"]
+    club = club_noun(m, row["club"])
+    W, H = 200, 176
+    px, py = 62, 150          # leading edge, on the ground
+    face = 104
+    rad = math.radians(loft)
+    tx, ty = px + face * math.sin(rad), py - face * math.cos(rad)
+    # the head behind the face: sole along the ground, back edge up to the topline
+    sole = 30 + 34 * math.sin(rad)
+    bx = px + sole
+    arc = 46
+    ax, ay = px + arc * math.sin(rad), py - arc * math.cos(rad)
+    # topline and back of the head, so the wedge reads as a club rather than
+    # a triangle: a short flat topline, then down to the trailing edge
+    hx, hy = tx + 9 * math.cos(rad), ty + 9 * math.sin(rad)
+
+    out = [svg_open(
+        W, H, f"{m['brand']} {m['model']} {club} loft angle",
+        f"Side view of the club face tilted {num(loft)} degrees back from vertical, "
+        f"the loft of the {club}.", "la", 300)]
+    out.append(f'<line x1="8" x2="{W - 8}" y1="{py}" y2="{py}" stroke="{FIG_AXIS}"/>')
+    out.append(f'<path d="M{px} {py}L{xy(tx)} {xy(ty)}L{xy(hx)} {xy(hy)}'
+               f'Q{xy(bx + 14)} {xy(py - 30)} {xy(bx + 8)} {py}Z" '
+               f'fill="{FIG_GREEN}" fill-opacity=".14"/>')
+    out.append(f'<line x1="{px}" x2="{px}" y1="{py}" y2="26" stroke="{FIG_MUTED}" '
+               f'stroke-dasharray="3 3"/>')
+    out.append(f'<path d="M{px} {py - arc}A{arc} {arc} 0 0 1 {xy(ax)} {xy(ay)}" '
+               f'fill="none" stroke="{FIG_B}" stroke-width="1.5"/>')
+    out.append(f'<line x1="{px}" x2="{xy(tx)}" y1="{py}" y2="{xy(ty)}" '
+               f'stroke="{FIG_GREEN}" stroke-width="3" stroke-linecap="round"/>')
+    out.append(f'<text x="{px - 8}" y="{py - arc + 2}" text-anchor="end" '
+               f'font-size="13" font-weight="700">{num(loft)}°</text>')
+    out.append(f'<text x="{px}" y="18" text-anchor="middle" font-size="8" '
+               f'fill="{FIG_MUTED}">Vertical</text>')
+    out.append(f'<text x="{xy(min(tx + 4, W - 30))}" y="{xy(max(ty - 5, 10))}" '
+               f'font-size="8" fill="{FIG_MUTED}">Face</text>')
+    out.append(f'<path d="M34 {py + 14}H12m5 -4l-5 4l5 4" fill="none" '
+               f'stroke="{FIG_MUTED}"/>')
+    out.append(f'<text x="38" y="{py + 17}" font-size="8" fill="{FIG_MUTED}">Target</text>')
+    out.append("</svg>")
+    caption = (f"The {esc(club)} face, drawn at its {num(loft)}° loft from the chart. "
+               "Head shape is schematic, not to scale.")
+    return (f'<figure class="fig data-table-zone">{"".join(out)}'
+            f'<figcaption>{caption}</figcaption></figure>')
+
+
+def compare_chart(a, b, clubs, aspec, bspec, label_a, label_b):
+    """Both sets' lofts on one chart, club by club."""
+    pts_a = [(i, aspec[c]["loft"]) for i, c in enumerate(clubs)
+             if c in aspec and aspec[c].get("loft") is not None]
+    pts_b = [(i, bspec[c]["loft"]) for i, c in enumerate(clubs)
+             if c in bspec and bspec[c].get("loft") is not None]
+    if len(pts_a) < 2 or len(pts_b) < 2:
+        return ""
+    W, H = 320, 232
+    left, right, top, base = 28, 8, 20, 202
+    n = len(clubs)
+    slot = (W - left - right) / n
+    lofts = [v for _, v in pts_a + pts_b]
+    lo = int(min(lofts) // 10) * 10
+    hi = max(lo + 10, int(-(-max(lofts) // 10)) * 10)
+    scale = (base - top) / (hi - lo)
+    size = 8 if n > 10 else 9
+
+    def px(i):
+        return left + slot * (i + 0.5)
+
+    def py(v):
+        return base - (v - lo) * scale
+
+    out = [svg_open(
+        W, H, f"{label_a} and {label_b} lofts compared",
+        f"Line chart of loft in degrees by club for the {label_a} and the {label_b}. "
+        + " ".join(
+            f"{c}: {num(aspec[c]['loft']) if c in aspec else 'none'} and "
+            f"{num(bspec[c]['loft']) if c in bspec else 'none'}." for c in clubs),
+        "cmp", 520)]
+    for tick in range(lo, hi + 1, 10):
+        y = py(tick)
+        out.append(f'<line x1="{left}" x2="{W - right}" y1="{xy(y)}" y2="{xy(y)}" '
+                   f'stroke="{FIG_AXIS if tick == lo else FIG_GRID}"/>')
+        out.append(f'<text x="{left - 5}" y="{xy(y + 3)}" text-anchor="end" '
+                   f'fill="{FIG_MUTED}">{tick}°</text>')
+    for i, c in enumerate(clubs):
+        out.append(f'<text x="{xy(px(i))}" y="{base + 14}" text-anchor="middle" '
+                   f'font-size="{size}" font-weight="600">{esc(c)}</text>')
+    for pts, colour in ((pts_a, FIG_A), (pts_b, FIG_B)):
+        path = "".join(f'{"M" if k == 0 else "L"}{xy(px(i))} {xy(py(v))}'
+                       for k, (i, v) in enumerate(pts))
+        out.append(f'<path d="{path}" fill="none" stroke="{colour}" stroke-width="2" '
+                   'stroke-linejoin="round" stroke-linecap="round"/>')
+    # Markers last, A as a disc and B as a smaller diamond on top, so both
+    # stay visible where the two sets share a loft.
+    for i, v in pts_a:
+        out.append(f'<circle cx="{xy(px(i))}" cy="{xy(py(v))}" r="5" fill="{FIG_A}" '
+                   f'stroke="{FIG_SURFACE}" stroke-width="2">'
+                   f'<title>{esc(label_a)} {esc(clubs[i])}: {num(v)}°</title></circle>')
+    for i, v in pts_b:
+        x, y = px(i), py(v)
+        out.append(f'<path d="M{xy(x)} {xy(y - 4)}L{xy(x + 4)} {xy(y)}L{xy(x)} '
+                   f'{xy(y + 4)}L{xy(x - 4)} {xy(y)}Z" fill="{FIG_B}" '
+                   f'stroke="{FIG_SURFACE}" stroke-width="1.5">'
+                   f'<title>{esc(label_b)} {esc(clubs[i])}: {num(v)}°</title></path>')
+    out.append(f'<text x="0" y="8" font-size="8" fill="{FIG_MUTED}">Loft</text>')
+    out.append("</svg>")
+
+    legend = (
+        '<ul class="fig-key">'
+        f'<li><svg viewBox="0 0 12 12" width="12" height="12" aria-hidden="true">'
+        f'<circle cx="6" cy="6" r="5" fill="{FIG_A}"/></svg>{esc(label_a)}</li>'
+        f'<li><svg viewBox="0 0 12 12" width="12" height="12" aria-hidden="true">'
+        f'<path d="M6 1L11 6L6 11L1 6Z" fill="{FIG_B}"/></svg>{esc(label_b)}</li></ul>')
+    shared = [c for c in clubs if c in aspec and c in bspec]
+    differing = [c for c in shared if aspec[c].get("loft") != bspec[c].get("loft")]
+    if not shared:
+        note = "The two sets have no club label in common."
+    elif not differing:
+        note = ("Lofts match on every club the two sets share, so the markers sit "
+                "on top of each other.")
+    else:
+        note = (f"Lofts differ on {len(differing)} of the {len(shared)} clubs the two "
+                "sets share. A lower point is a stronger loft.")
+    return (f'<figure class="fig data-table-zone">{legend}{"".join(out)}'
+            f'<figcaption>{note}</figcaption></figure>')
+
+
+# --------------------------------------------------------------------------
 # model page
 # --------------------------------------------------------------------------
 
@@ -913,6 +1153,10 @@ def model_page(m, brands, models_by_key, compares_by_key):
                    f'{esc(m["length_note"].strip())}</p>'
                    if m.get("length_note") else "")
 
+    chart, angle = loft_chart(m), loft_angle(m)
+    figures = (f'<h2>Loft progression</h2><div class="figs">{chart}{angle}</div>'
+               if chart or angle else "")
+
     # Each block after the chart sits in its own .model-section so the CSS can
     # draw a hairline between them; empty blocks are dropped rather than
     # rendering a divider with nothing under it.
@@ -936,6 +1180,8 @@ def model_page(m, brands, models_by_key, compares_by_key):
   <p class="table-note">Lofts and lies are the factory standard build. Individual clubs may
   differ if they have been bent, re-shafted or re-gripped during their life.</p>
   {length_note}
+
+  {figures}
 
   {sections_html}
 
@@ -1483,6 +1729,10 @@ def compare_page(a, b, brands):
                    f"file, so the difference is in head construction, feel and forgiveness "
                    f"rather than trajectory.")
 
+    chart = compare_chart(a, b, clubs, aspec, bspec, label_a, label_b)
+    overlay = (f'<h2>Lofts compared</h2><div class="figs figs-one">{chart}</div>'
+               if chart else "")
+
     def col_card(m):
         return (f'<a class="card" href="{m["url"]}">'
                 f'<span class="card-title">{esc(m["brand"])} {esc(m["model"])}</span>'
@@ -1505,6 +1755,8 @@ def compare_page(a, b, brands):
     <tbody>{''.join(rows)}</tbody></table></div>
   <p class="table-note">Highlighted cells differ between the two sets. Lofts and lies are
   factory standard.</p>
+
+  {overlay}
 
   <h2>Which should you choose?</h2>
   <p>{esc(verdict)}</p>
