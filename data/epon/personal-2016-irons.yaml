@@ -4,7 +4,7 @@ model: Personal 2016
 slug: personal-2016-irons
 club_type: irons
 year_introduced: 2016
-year_discontinued: null
+year_discontinued: 2022
 category: players
 construction: forged pocket cavity (S20C billet, black IP finish)
 material: S20C soft carbon steel
@@ -71,6 +71,7 @@ sources:
   - "golfnavi.info spec page 11324, '14' パーソナル アイアン LIMITED EDITION' - documents a 2014 Personal Limited Edition, referenced here as the immediate predecessor generation"
   - "daiichi-golf.co.jp blognet 2023/05/26 - documents a later 350-set 'パーソナル プレミアム' (Personal Premium) edition, referenced here as the successor generation"
   - "epon/af-306-irons.yaml (this dataset) - the 4-PW standard steel assembly-length ladder (38.25 down to 35.25 inches, 0.5-inch steps) used here for Personal 2016 by convention, since no directly sourced length chart for this specific limited edition was found"
+  - "Status check, 29 September 2026: year_discontinued is 2022. Epon announced the Personal Premium on 21 April 2022 (https://epongolf.co.jp/news/). The 2016 model was a limited run and is likely to have sold out earlier."
 related_models:
   - slug: "epon/af-306-irons"
     label: "Contemporaneous Epon players-category sibling: Epon AF-306"

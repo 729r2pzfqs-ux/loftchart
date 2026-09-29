@@ -5,6 +5,7 @@ slug: 649-mb-tour-irons
 club_type: irons
 year_introduced: 2021
 year_discontinued: null
+current_as_of: "2026-08"
 category: blade
 construction: forged muscle back with rear port and tungsten toe weight
 material: DT-4 steel, forged; 6 g tungsten toe weight
@@ -78,6 +79,7 @@ sources:
   - "Sub 70 official 649 MB Tour Raw product page (golfsub70.com/sub-70-649-mb-tour-forged-raw-irons.html, archive.org capture of 7 March 2021) — full specification table for 3-iron through PW: loft, lie, uniform 0.5 mm offset (converted to 0.02 inches here), bounce 0.5 to 4 degrees, head weights 245-295 g, standard steel lengths 39 to 35.75 inches (graphite 0.5 inch longer), DT-4 steel material, 4 mm topline, 76 mm blade at the 6-iron and .370 parallel hosel, plus the design copy: sole widened 1 mm over the 639 MB, rear port with 6 g moved to a tungsten toe weight, and the raw-finish patina note."
   - "MyGolfSpy 'Sub 70 Irons: Model By Model' — release date of 26 January 2021 and the model's positioning as Sub 70's minimal-offset, toe-weighted players blade."
   - "Note: Sub 70's own copy describes DT-4 as its soft forging steel (its 639-era pages call it a soft carbon steel, some pages 'soft stainless'); the same ambiguity is noted on the 639 CB entry. year_discontinued is null because the 649 MB Tour remains on sale in satin, raw and taper-tip versions as of 2026, alongside the 649 MB TR introduced in 2025. No stock shaft or swing weight is recorded because every set is built to order."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Listed in Sub 70's iron menu in the 16 August 2026 Wayback Machine capture of golfsub70.com; the live site could not be checked."
 related_models:
   - slug: "sub-70/639-mb-irons"
     label: "Predecessor blade it was developed from: Sub 70 639 MB"

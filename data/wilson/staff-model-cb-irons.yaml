@@ -4,11 +4,11 @@ model: Staff Model CB
 slug: staff-model-cb-irons
 club_type: irons
 year_introduced: 2020
-year_discontinued: null
+year_discontinued: 2024
 category: players
 construction: forged
 material: forged 8620 carbon steel with tungsten toe weighting
-successor: Staff Model CB (2026)
+successor: Wilson Staff Model CB (2024)
 predecessor: Wilson Staff FG Tour V6
 description: >
   The Staff Model CB is Wilson's forged players cavity back, announced in
@@ -89,13 +89,14 @@ sources:
   - "A matching loft/lie/length/offset ladder appears on Carl's Golfland and golfsource.org Staff Model CB spec listings, corroborating the numbers."
   - "The Golf News Net, 27 October 2020, 'Wilson Staff Model CB irons are the long-awaited sequel to the FG Tour V6s' — announcement date, FG Tour V6 lineage and the Tri-Brace construction."
   - "Bounce figures are omitted because the sources available did not agree on them."
+  - "Status check, 29 September 2026: year_discontinued is 2024. A new Staff Model CB was announced on 11 January 2024 (https://pluggedingolf.com/2024-wilson-staff-model-cb-irons-review/); that generation sits between this model and the 2026 one."
 related_models:
   - slug: "wilson/staff-model-blade-irons"
     label: "Companion blade: Wilson Staff Model Blade"
   - slug: "wilson/staff-fg-tour-v6-irons"
     label: "Predecessor: Wilson Staff FG Tour V6"
   - slug: "wilson/staff-model-cb-2026-irons"
-    label: "Successor: Wilson Staff Model CB (2026)"
+    label: "Later generation: Wilson Staff Model CB (2026)"
 faq:
   - q: "What is the loft of a Wilson Staff Model CB 7-iron?"
     a: "The Wilson Staff Model CB 7-iron has a loft of 34 degrees, with a 62-degree lie and a 37.25-inch steel-shaft length."

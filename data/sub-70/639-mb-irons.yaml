@@ -4,7 +4,7 @@ model: 639 MB
 slug: 639-mb-irons
 club_type: irons
 year_introduced: 2019
-year_discontinued: null
+year_discontinued: 2022
 category: blade
 construction: forged from a billet with a CNC-milled back
 material: DT-4 soft steel
@@ -75,7 +75,8 @@ specs:
 sources:
   - "Sub 70 official 639 MB Forged Black Irons product page (golfsub70.com/sub-70-639-mb-forged-black-irons.html, archive.org capture of 21 November 2021) — full specification table for 3-iron through PW: loft, lie, offset in millimetres (3.3 down to 1.5, converted to inches here), bounce, head weights 242 to 292 g, standard steel lengths 39 to 35.75 inches (graphite listed 0.5 inch longer), DT-4 steel material, Tour Black PVD finish on the black version, and the 4.6 mm top line / 74 mm blade length at the 6-iron. The steel lengths are recorded as the standard spec; the satin and raw finishes share the same chart."
   - "MyGolfSpy 'Sub 70 Irons: Model By Model' — 639 MB release date of July 2019 and compact-blade positioning; consistent with the earliest archive.org captures of golfsub70.com 639 pages from 21 July 2019."
-  - "Note: year_discontinued is null. The 659 MB was launched in May 2022 as the newer Sub 70 muscle-back, but the 639 MB remained available — an archive.org capture of the golfsub70.com iron lineup from 14 May 2025 still lists 639 MB/CB combo sets. Sub 70 builds every club to order from a no-upcharge shaft and grip menu, so no stock shaft is recorded. Sub 70's own copy calls the material 'DT-4 soft stainless steel'; its 659-era pages describe DT-4 as a soft carbon steel. There is no LoftChart page for the 659 MB yet, so the successor link points to the 659 CB family page."
+  - "Note: the 659 MB was launched in May 2022 as the newer Sub 70 muscle-back, but the 639 MB remained available — an archive.org capture of the golfsub70.com iron lineup from 14 May 2025 still lists 639 MB/CB combo sets. Sub 70 builds every club to order from a no-upcharge shaft and grip menu, so no stock shaft is recorded. Sub 70's own copy calls the material 'DT-4 soft stainless steel'; its 659-era pages describe DT-4 as a soft carbon steel. There is no LoftChart page for the 659 MB yet, so the successor link points to the 659 CB family page."
+  - "Status check, 29 September 2026: year_discontinued is 2022. The 659 MB that replaced it launched in May 2022; Sub 70 went on selling the 639 MB for some time afterwards."
 related_models:
   - slug: "sub-70/639-cb-irons"
     label: "Cavity-back sibling with a shared lie chart: Sub 70 639 CB"

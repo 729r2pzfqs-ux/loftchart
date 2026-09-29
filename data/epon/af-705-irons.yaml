@@ -4,11 +4,11 @@ model: AF-705
 slug: af-705-irons
 club_type: irons
 year_introduced: 2017
-year_discontinued: null
+year_discontinued: 2020
 category: game-improvement
 construction: forged one-piece pocket cavity (S20C billet, undercut cavity)
 material: S20C soft carbon steel
-successor: null
+successor: Epon AF-706
 predecessor: Epon AF-703
 description: >
   The AF-705 is a game-improvement iron in Epon's numbered "AF-7xx" distance
@@ -69,6 +69,7 @@ sources:
   - "g-one-golf.com Epon AF-705 custom order page (2017 catalogue, /products/maker_epon/2017/iron/af705/af705iron.html) - full spec table: lofts 23/26/29/33/38/43 plus 49/56 wedges, lies 61-63.5, gooseneck 5.0 down to 2.6 mm, head weights 254.5-293.5 g, standard steel assembly lengths 38 to 35.25 inches, S20C forged construction with nickel plating"
   - "g-one-golf.com 'アイアンデータ比較表 (ロフト)' (data/ironloft.html) - dates the AF-705 to its 2017 product year and lists the identical 23/26/29/33/38/43/49/56 loft ladder"
   - "epongolf.co.jp news release 'EPON AF-706Sアイアンを新発売' (2022.01.22) and the AF-706 model's own record - Epon's copy for the AF-706 describes it as the brand's first hollow-construction iron, establishing that the numerically prior AF-705 is a conventional one-piece forging rather than hollow"
+  - "Status check, 29 September 2026: year_discontinued is 2020. The AF-706 was launched in May 2020 as the follow-up to the AF-705 (https://www.golfwrx.com/608352/epon-launches-new-hollow-af-706/)."
 related_models:
   - slug: "epon/af-706-irons"
     label: "Numerically adjacent, later hollow-construction model: Epon AF-706"

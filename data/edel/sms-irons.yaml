@@ -5,6 +5,7 @@ slug: sms-irons
 club_type: irons
 year_introduced: 2022
 year_discontinued: null
+current_as_of: "2026-09"
 category: players-distance
 construction: hollow body with plasma-welded maraging steel face cup and urethane foam fill
 material: forged 1025 carbon steel body, maraging steel face
@@ -62,6 +63,7 @@ sources:
   - "Golf Reviews Guide 'Edel SMS Irons Review' and MyGolfSpy Labs 'Edel SMS Irons Test' — independently corroborate every loft (23 through 50, including the 32-degree 7-iron, which MyGolfSpy confirmed against Edel's product specs) and the 4-iron-to-GW set composition."
   - "Golf Monthly 'Edel SMS Iron' review and amateurgolf.com 'Edel SMS and SMS Pro Irons' review — corroborate the hollow 1025 body with plasma-welded maraging steel face cup, urethane foam fill, the 2g/8g/2g stock weight configuration and the $250-per-club price."
   - "Note: confidence is medium because Edel's own product pages no longer publish a per-club chart; the lofts are corroborated by three independent sources but the lie and length columns rest on the Driving Range Heroes chart alone. Their lie/length progression matches the chart Edel published for the SMS Pro. No stock shaft is recorded: Edel sells through fitters with a menu spanning KBS, Nippon, Project X and Aerotech, with Golf Pride Tour Velvet the standard grip."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Available in Edel's live store (https://edelgolf.com/products/sms-irons)."
 related_models:
   - slug: "edel/sms-pro-irons"
     label: "Compact one-piece-forged sibling: Edel SMS Pro"

@@ -4,11 +4,11 @@ model: Staff C300 Forged
 slug: staff-c300-forged-irons
 club_type: irons
 year_introduced: 2018
-year_discontinued: null
+year_discontinued: 2020
 category: players-distance
 construction: forged body with Power Holes through the sole and topline
 material: forged carbon steel with urethane-filled Power Holes
-successor: null
+successor: Wilson Staff D7 Forged
 predecessor: null
 description: >
   The C300 Forged is the compact version of Wilson's C300, keeping the Power Hole
@@ -66,7 +66,10 @@ sources:
   - "2nd Swing Golf specification table for the Wilson Staff C300 Forged iron set (https://www.2ndswing.com/golf-clubs/iron-sets/wilson-staff-c300-forged-iron-set) — supplied every loft, lie, length and swing weight above and the shaft options in stock."
   - "golfretailing.com 'Wilson launch two C300 Iron models' and todays-golfer.com's C300 Forged review — the C300 Forged was available from 22 January 2018; year_introduced records that retail date, which is the basis available in the sources retrieved."
   - "Note: offset and bounce are omitted — the source table carried neither column, and neither is estimated here. Confidence is medium."
+  - "Status check, 29 September 2026: year_discontinued is 2020. The D7 Forged, at retail from 21 January 2020, was the direct replacement for the C300 Forged (https://mygolfspy.com/news-opinion/wilson-d7-forged-irons-review/)."
 related_models:
+  - slug: "wilson/staff-d7-forged-irons"
+    label: "Successor: Wilson Staff D7 Forged"
   - slug: "wilson/staff-fg-tour-v6-irons"
     label: "Wilson's players iron of the same period: Wilson Staff FG Tour V6"
   - slug: "wilson/staff-d7-irons"

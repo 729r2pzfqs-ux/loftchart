@@ -5,6 +5,7 @@ slug: 799-irons
 club_type: irons
 year_introduced: 2021
 year_discontinued: null
+current_as_of: "2026-08"
 category: super-game-improvement
 construction: hollow body, TPE-injected, with a 1.7 mm face
 material: 455 Carpenter steel face on a hollow, TPE resin filled body
@@ -72,6 +73,7 @@ sources:
   - "Sub 70 official 799 Irons product page (golfsub70.com/sub-70-799-irons.html, archive.org capture of 13 November 2021) — full specification table for 4-iron through SW (the 49-degree wedge Sub 70 stamps AW is listed here as GW): loft, lie, offset in millimetres (5.7 down to 1.0, converted to inches here), head weights 249 to 301 g, standard lengths 39 to 35.75 inches, 455 Carpenter steel material, plus the launch copy: most forgiving Sub 70 iron ever, hollow body with the 699's 1.7 mm 455 Carpenter steel face, TPE resin injection, perimeter weighting, high MOI and a revised ultra-wide sole."
   - "MyGolfSpy 'Sub 70 Irons: Model By Model' — 799 release date of July 2021 and hollow-body game-improvement positioning."
   - "Note: the archived table prints a single 'Standard Length' row without a steel/graphite split, and no bounce row, so bounce is omitted. Sub 70 builds every set to order from a large no-upcharge shaft and grip menu, so no stock shaft is recorded. year_discontinued is null: the 799 still appears in the golfsub70.com iron lineup on an archive.org capture of 14 May 2025 and no successor has been announced."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Listed in Sub 70's iron menu in the 16 August 2026 Wayback Machine capture of golfsub70.com; the live site could not be checked."
 related_models:
   - slug: "sub-70/699-v2-irons"
     label: "Smaller game-improvement stablemate that shares its face tech: Sub 70 699 V2"

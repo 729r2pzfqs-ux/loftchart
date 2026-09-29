@@ -4,11 +4,11 @@ model: AF-306
 slug: af-306-irons
 club_type: irons
 year_introduced: 2022
-year_discontinued: null
+year_discontinued: 2025
 category: players
 construction: forged (one-piece S20C billet with forged-in tungsten toe weight)
 material: S20C soft carbon steel with tungsten inner weight
-successor: null
+successor: Epon AF-307
 predecessor: Epon AF-305
 description: >
   The AF-306 is Epon's compact deep-cavity players iron, released on 26 March
@@ -63,6 +63,7 @@ sources:
   - "one2one.jp Epon AF-306 product listing (Japanese custom-club dealer) — loft/lie/gooseneck/head-weight table: lofts 23/26/29/32/36/41/46, lies 60.5-63.5, gooseneck 3.5 down to 2.2 mm, head weights 252.5-294 g; 6-piece set standard with singles by special order"
   - "g-one-golf.com (ジーワンゴルフ) Epon AF-306 custom order page — same loft/lie/offset ladder plus standard assembly lengths, steel 38.25 to 35.25 inches (carbon +0.25); this page lists the 7-iron loft as 33°, an outlier against 32° on one2one and mycaddie, so 32° is used here"
   - "mycaddie.jp product 11728 — S20C head material, 32°/62° 7-iron, April 2022 retail date, corroborating the spec ladder"
+  - "Status check, 29 September 2026: year_discontinued is 2025. Epon announced the AF-307 on 31 January 2025, on sale from 21 February 2025 (https://epongolf.co.jp/news/category/press-release/)."
 related_models:
   - slug: "epon/af-506-irons"
     label: "Pocket-cavity sibling: Epon AF-506"

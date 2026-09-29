@@ -4,7 +4,7 @@ model: HALO XL Full-Face
 slug: halo-xl-full-face-irons
 club_type: irons
 year_introduced: 2024
-year_discontinued: 2025
+year_discontinued: 2026
 category: super-game-improvement
 construction: hollow hybrid-style body with an A.I.-designed MainFrame face and full-face grooves
 material: hollow stainless body with a MainFrame variable-thickness face and HydraZip face blast
@@ -91,7 +91,7 @@ sources:
   - "Cleveland Golf / Dunlop Sports US official 'HALO XL Full-Face Irons' product page (us.dunlopsports.com/cleveland-golf/clubs/irons/halo-xl-full-face-irons/halo-xl-full-face-irons/MHXLFF.html), archived 26 February 2024 via web.archive.org — retrieved directly; supplies the full HEAD / LOFT / HAND / LIE / OFFSET / LENGTH / steel and graphite swing weight table for the 4-iron through sand wedge (SW right-hand only), the KBS Tour Lite 110g steel and UST Helium Nanocore 60 graphite shaft tables, the Lamkin Crossline 360 grip, the full-face grooves / MainFrame / HydraZip / three-sole construction descriptions, and the 2024 Golf Digest Hot List gold medal. Offsets are published in millimetres (2.3 down to 0.6) and converted to inches here."
   - "Dunlop Sports press release 'Go Far, Get Close with Cleveland Golf's ZipCore XL and HALO XL Full-Face Irons', 15 January 2024 — the announcement date used for year_introduced."
   - "Fiddler's Green and Amazon retail listings — corroborate the 5-PW plus GW stock set composition in steel and graphite."
-  - "Status check, 29 September 2026: year_discontinued is 2025 with no Cleveland successor. Cleveland's US site no longer has an irons category; the HALO XL Full-Face product page was live on 15 August 2025 and redirected by 22 January 2026 (Wayback Machine captures of us.dunlopsports.com), so the set left the catalogue in late 2025."
+  - "Status check, 29 September 2026: year_discontinued is 2026. Cleveland's exit from irons was confirmed in February 2026 (https://mygolfspy.com/news-opinion/its-official-cleveland-golf-is-getting-out-of-the-woods-and-irons-business/); the product page was still live in late summer 2025 and redirected by 22 January 2026, so the set left the catalogue between those dates. There is no Cleveland successor."
 related_models:
   - slug: "cleveland/launcher-xl-halo-irons"
     label: "Predecessor: Cleveland Launcher XL Halo"
@@ -103,7 +103,7 @@ faq:
   - q: "What is special about the grooves on the HALO XL Full-Face irons?"
     a: "They run the full width of the face, from hosel to toe — Cleveland calls it an industry first for an iron — so off-centre strikes still get consistent spin. A HydraZip face blast adds friction in wet or dry conditions."
   - q: "When were the Cleveland HALO XL Full-Face irons released?"
-    a: "Cleveland announced them on 15 January 2024 alongside the ZipCore XL, and they won a gold medal on the 2024 Golf Digest Hot List. Cleveland removed them from its catalogue in late 2025, along with the rest of its iron range."
+    a: "Cleveland announced them on 15 January 2024 alongside the ZipCore XL, and they won a gold medal on the 2024 Golf Digest Hot List. Cleveland has since left the iron market, which it confirmed in February 2026, and the set is no longer in its catalogue."
   - q: "What clubs come in a stock HALO XL Full-Face set?"
     a: "The stock set is 5-iron through pitching wedge plus a 48-degree gap wedge. A 4-iron and a 54-degree sand wedge (right hand only) are also catalogued."
 confidence: high

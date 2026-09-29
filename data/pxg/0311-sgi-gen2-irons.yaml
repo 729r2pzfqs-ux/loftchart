@@ -4,7 +4,7 @@ model: 0311 SGI GEN2
 slug: 0311-sgi-gen2-irons
 club_type: irons
 year_introduced: 2018
-year_discontinued: null
+year_discontinued: 2020
 category: super-game-improvement
 construction: forged hollow body with a COR2 core
 material: forged carbon steel body with a thin maraging steel face and tungsten perimeter weighting
@@ -90,7 +90,8 @@ specs:
 sources:
   - "PXG's own 0311 SGI GEN2 Irons page (pxg.com/en-us/clubs/irons/gen2/0311sgi), archive.org capture of 20 July 2019 — the full 'PXG 0311 SGI GEN2 Irons Specs' table (loft, lie, length in inches, bounce and offset for the 4-iron through the L wedge), the $400 price, and the full technology copy: wide top line and low profile with a wide sole and noticeable offset, COR2-filled milled internal cavity, 1.5 mm HT1770 maraging steel face, 15-percent-larger internal face perimeter cut-out, CNC-milled perimeter tungsten weighting and an angled back surface shifting mass toward the toe."
   - "golf.com 'PXG introduces new and improved 0311 GEN2 irons for 2018' and golfwrx.com 'After nearly 3 years, PXG finally launches new 0311 (T, P, XF, SGI and X) Gen2 irons' — the 15 March 2018 announcement and 19 April 2018 on-sale date for the full GEN2 range including the SGI, described as 'a brand new model designed for players who want the easiest-to-hit clubs available... the most forgiving iron ever produced by PXG.'"
-  - "This repo's PXG data as of batch 8 — no '0311 SGI GEN3' (or later) file exists, and PXG's GEN3-and-up iron line-up runs P/T/XP only, indicating the SGI name and slot did not continue past GEN2; year_discontinued is left null in the absence of a confirmed retirement date."
+  - "This repo's PXG data as of batch 8 — no '0311 SGI GEN3' (or later) file exists, and PXG's GEN3-and-up iron line-up runs P/T/XP only, indicating the SGI name and slot did not continue past GEN2."
+  - "Status check, 29 September 2026: year_discontinued is 2020. No direct successor. PXG moved the model to its legacy catalogue by May 2020, after the GEN3 launch (http://web.archive.org/web/2020/https://www.pxg.com/en-us/clubs/legacy/irons/0311sgi)."
 related_models: []
 faq:
   - q: "What is the loft of a PXG 0311 SGI GEN2 7-iron?"

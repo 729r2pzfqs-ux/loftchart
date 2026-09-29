@@ -5,6 +5,7 @@ slug: 771csi-irons
 club_type: irons
 year_introduced: 2014
 year_discontinued: null
+current_as_of: "2026-09"
 category: game-improvement
 construction: investment cast body with a forged high-strength steel face insert, CNC-machined variable face thickness
 material: 1020C carbon steel body, HS300 high-strength steel face
@@ -69,6 +70,7 @@ sources:
   - "condorgolf.com Wishon 771CSI product listing - standard steel assembly length chart used here: 38.5 inches (#4) down to 35.75 inches (AW/GW), graphite shafts 0.5 inch longer; per-club and volume pricing"
   - "golfclub-technology.com '771CSI Irons' page - describes the CNC-machined variable-thickness face (roughly 2 mm at its thinnest), the 0.830 COR rating, and the 1020C carbon-steel body chosen specifically to allow a wider loft/lie fitting range than the stainless bodies used on Wishon's earlier high-COR thin-face designs"
   - "bobsailergolf.com 'Tom Wishon 771 CSI Irons' listing - independent corroboration that the 771CSI was a Golf Digest 2014 Hot List winner, used to date year_introduced"
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Listed in Wishon's live iron catalogue and not on its legacy designs page (https://wishongolf.com/products-irons/)."
 related_models:
   - slug: "wishon/565mc-irons"
     label: "Contemporaneous Wishon forged players iron: Wishon 565MC"

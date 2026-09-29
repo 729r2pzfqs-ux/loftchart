@@ -4,7 +4,7 @@ model: ZipCore XL
 slug: zipcore-xl-irons
 club_type: irons
 year_introduced: 2024
-year_discontinued: null
+year_discontinued: 2026
 category: game-improvement
 construction: cast cavity back, oversize XL head
 successor: null
@@ -92,6 +92,7 @@ sources:
   - "Same archived page, set-builder options (4-PW, 5-PW and 5-PW plus GW), stock shaft tables (KBS Tour Lite steel S/R 110g; UST Helium Nanocore 60 graphite S/R/A) and the Lamkin Crossline 360 50g grip"
   - "Same archived page, technology copy: ZipCore ('In 8i-SW lofts, ZipCore replaces heavy steel in the hosel and heel with an extremely lightweight yet strong, vibration dampening material'), MainFrame ('Designed with the help of AI... milled into the backside of the club face on ZipCore XL's 4i-7i'), XL Head Design ('a large, cavity back profile with enhanced shaping and weighting throughout the entire lineup'), HydraZip with loft-specific grooves and laser-milled wedge lofts, and the Action Mass CB 8-gram grip-end counterweight"
   - "MyGolfSpy launch coverage ('Cleveland ZipCore XL Irons: XL = Extra Large') and Today's Golfer review: unveiled January 2024 with US retail from 19 January 2024 at $899.99 steel / $999.99 graphite, replacing the Launcher XL. Category recorded as game-improvement following that coverage; the head is nonetheless Cleveland's largest and most forgiving iron, and some outlets class it super-game-improvement like its predecessor"
+  - "Status check, 29 September 2026: year_discontinued is 2026. Cleveland's exit from irons was confirmed in February 2026 (https://mygolfspy.com/news-opinion/its-official-cleveland-golf-is-getting-out-of-the-woods-and-irons-business/); the product page was still live in late summer 2025 and redirected by 22 January 2026, so the set left the catalogue between those dates. There is no Cleveland successor."
 related_models:
   - slug: "cleveland/launcher-xl-irons"
     label: "Predecessor: Cleveland Launcher XL"

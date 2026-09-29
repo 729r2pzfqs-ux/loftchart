@@ -4,11 +4,11 @@ model: X 2022
 slug: x-2022-irons
 club_type: irons
 year_introduced: 2022
-year_discontinued: null
+year_discontinued: 2023
 category: players-distance
 construction: cast body with a bonded high-strength face
 material: high-strength face with tungsten sole weighting
-successor: null
+successor: XXIO X (2024)
 predecessor: null
 description: >
   XXIO X is the brand's line for better players who still want the ultralight build,
@@ -61,6 +61,7 @@ sources:
   - "2nd Swing Golf specification table for the XXIO 2022 X iron set (https://www.2ndswing.com/golf-clubs/iron-sets/xxio-2022-x-iron-set) — supplied every loft, lie and length above, the graphite and steel swing weights, the Miyazaki AX-II stock shaft and the 5-AW set makeup."
   - "mygolfspy.com 'XXIO X Irons: A Better Player's Lightweight' — the positioning of the X line against the numbered XXIO sets."
   - "Note on confidence: the figures come from a retailer spec table rather than an XXIO spec sheet, so confidence is medium. The model is dated and named for its 2022 edition because XXIO has sold more than one generation of X iron under the same name; this file describes the 2022 chart only."
+  - "Status check, 29 September 2026: year_discontinued is 2023. Sumitomo Rubber announced the next XXIO X iron on 9 November 2023, on sale in Japan from 9 December 2023 and in the US from January 2024 (https://www.srigroup.co.jp/newsrelease/2023/sp/2023_sp69.html)."
 related_models:
   - slug: "xxio/xxio-12-irons"
     label: "XXIO's numbered set of the same year: XXIO 12"

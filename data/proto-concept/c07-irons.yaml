@@ -4,11 +4,11 @@ model: C07
 slug: c07-irons
 club_type: irons
 year_introduced: 2020
-year_discontinued: null
+year_discontinued: 2024
 category: game-improvement
 construction: pocket cavity (forged SAE8655 face on S20C body, 3-level face-thickness variation)
 material: SAE8655 chromium-molybdenum steel face, S20C carbon steel body
-successor: null
+successor: Proto-Concept C07PC
 predecessor: null
 description: >
   The C07 is the most forgiving model in PROTOCONCEPT's original C-series,
@@ -64,6 +64,7 @@ sources:
   - "shop.torquegolf.com 'Proto Concept Irons C07' listing - independent corroboration of the identical loft/lie ladder plus bounce 3-8.5 degrees and face progression 3.0-4.5 mm across #4-PW"
   - "mygolfspy.jp 'Know Your Japanese Brands: Proto Concept' (September 2021) - dates the C05 and C07 to the market from 2020 as part of PROTOCONCEPT's original C-series, alongside the brand's 2019 founding by the Endo forging house and Golf Partner"
   - "protoconceptgolf.com 'C07PC FORGED IRON' current product page - confirms the loft ladder (22/25/28/31/35/39/44) carried over unchanged from the original C07 into the current C07PC line, which adds a 49-degree gap wedge not present in the original set"
+  - "Status check, 29 September 2026: year_discontinued is 2024. The C07 is on the maker's discontinued models page (https://proto-c.jp/pages/previous_model) and the C07PC Forged was published on 27 September 2024."
 related_models:
   - slug: "proto-concept/c05-irons"
     label: "Players-distance sibling: Proto-Concept C05"

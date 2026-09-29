@@ -4,11 +4,11 @@ model: MB
 slug: mb-irons
 club_type: irons
 year_introduced: 2021
-year_discontinued: null
+year_discontinued: 2026
 category: blade
 construction: forged and 100% CNC-milled
 material: 1020 carbon steel
-successor: null
+successor: Haywood MB2
 predecessor: Haywood MB (2020)
 description: >
   The Haywood MB is the direct-to-consumer brand's forged muscle back,
@@ -83,6 +83,7 @@ sources:
   - "haywoodgolf on X/Twitter, 2 November 2021: 'Proudly introducing: The 2022 Haywood CB & MB Irons' — fixes this generation's announcement date (year_introduced follows the announcement-year convention)"
   - "fairwayjockey.com Haywood MB custom irons listing — independent corroboration of the 3-PW loft/lie/length chart"
   - "Wayback Machine snapshot of haywoodgolf.com/products/haywoodmb-irons (12 August 2020) — the original 'SignatureMB' first iteration on sale in 2020 at $550, recorded here as the predecessor"
+  - "Status check, 29 September 2026: year_discontinued is 2026. Haywood published the MB2 on 24 July 2026 (https://www.haywoodgolf.com/products/mb2-forged-muscle-back-irons); the original MB is still sold alongside it."
 related_models:
   - slug: "haywood/cb-irons"
     label: "Cavity-back sibling: Haywood CB"

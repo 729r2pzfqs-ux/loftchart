@@ -4,11 +4,11 @@ model: KING Forged Tec (2022)
 slug: king-forged-tec-2022-irons
 club_type: irons
 year_introduced: 2022
-year_discontinued: null
+year_discontinued: 2024
 category: players-distance
 construction: forged hollow body with a PWRSHELL face cup and foam microspheres
 material: forged 1025 carbon steel body with a forged PWRSHELL face and tungsten weighting
-successor: null
+successor: Cobra KING TEC (2024)
 predecessor: Cobra KING Forged Tec
 description: >
   The 2022 KING Forged Tec is a compact hollow-bodied players-distance iron: a
@@ -67,6 +67,7 @@ stock_shafts:
 sources:
   - "2ndswing.com Cobra 2022 KING Forged Tec Iron Set specification table — loft, length, lie, offset (in millimetres) and swing weight for the 4-iron through pitching wedge, the 4-PW stock make-up, the KBS $-Taper Lite stock shaft (115g in stiff, 110g in regular) and the Lamkin Crossline grip. Offset is converted to inches here."
   - "Note: bounce was not published in the source consulted and is omitted rather than estimated."
+  - "Status check, 29 September 2026: year_discontinued is 2024. Cobra announced the next-generation KING TEC irons in October 2024 (https://golf.com/gear/irons/cobra-king-tec-2024/)."
 related_models:
   - slug: "cobra/king-forged-tec-irons"
     label: "Predecessor: Cobra KING Forged Tec"

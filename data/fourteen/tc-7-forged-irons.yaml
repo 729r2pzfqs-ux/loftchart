@@ -5,6 +5,7 @@ slug: tc-7-forged-irons
 club_type: irons
 year_introduced: 2021
 year_discontinued: null
+current_as_of: "2026-09"
 category: players
 construction: one-piece forged undercut cavity back
 material: S25C soft carbon steel
@@ -65,6 +66,7 @@ sources:
   - "Fourteen official TC-7 Forged page (fourteen.co.jp/en/irons/tc7-forged and fourteengolf.us) — forged S25C soft steel, nickel chrome finish, undercut cavity, set composition #4 and #5-PW, and the stock N.S.PRO 950GH HT (R, S) and N.S.PRO Modus3 T105 (S) shafts; the manufacturer's page publishes no per-club chart, so the numbers above are recorded at medium confidence from the two agreeing retail/press charts."
   - "fourteengolf.us blog 'Fourteen's TC-7 Forged Shines in the 2022 Most Wanted Player's Iron', 10 February 2022 — the TC-7 rated best for feel, forgiveness and distance in MyGolfSpy's test (the overall winner was the New Level 623-CB). year_introduced 2021 follows the model's US-market debut — Japanese coverage (masa-golf.jp) records it as a US-only model drawing attention from April 2021, and it was in MyGolfSpy's test field assembled around the turn of 2022 — while 2nd Swing and most US reviews label it new for 2022."
   - "Note: offset and bounce are omitted — Fourteen publishes face progression in millimetres rather than offset, and no bounce figures. year_discontinued is null: the TC-7 Forged remains on fourteengolf.us as of July 2026 (the 2024 TB-7 blade and TC-touring models sit alongside it rather than replacing it)."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. In stock on Fourteen Golf USA (https://www.fourteengolf.us/products/tc-7-forged-irons-stock)."
 related_models:
   - slug: "new-level/623-cb-irons"
     label: "The iron that beat it to the 2022 Most Wanted title: New Level 623-CB"

@@ -4,11 +4,11 @@ model: CB
 slug: cb-irons
 club_type: irons
 year_introduced: 2021
-year_discontinued: null
+year_discontinued: 2026
 category: players
 construction: forged and 100% CNC-milled
 material: 1020 carbon steel
-successor: null
+successor: Haywood CB2
 predecessor: null
 description: >
   The Haywood CB is the Canadian direct-to-consumer brand's forged cavity
@@ -77,6 +77,7 @@ sources:
   - "haywoodgolf on X/Twitter, 2 November 2021: 'Proudly introducing: The 2022 Haywood CB & MB Irons' — fixes the announcement date; TXG reviewed the pair the following day"
   - "fairwayjockey.com Haywood CB custom irons listing — independent corroboration of the loft/lie/length chart and D2/D3 swing weights, 1020 carbon steel, 100% milled"
   - "haywoodgolf.com current CB page — same lofts, lengths, lies, offsets and bounce; swing weights restated as D1/D2 based on a 110 g shaft"
+  - "Status check, 29 September 2026: year_discontinued is 2026. Haywood published the CB2 on 24 July 2026 (https://www.haywoodgolf.com/products/cb2-forged-players-cavity-back-irons); the original CB is still sold alongside it."
 related_models:
   - slug: "haywood/mb-irons"
     label: "Blade sibling: Haywood MB"

@@ -5,6 +5,7 @@ slug: 659-cb-irons
 club_type: irons
 year_introduced: 2022
 year_discontinued: null
+current_as_of: "2026-08"
 category: players
 construction: forged and CNC milled from a single billet
 material: DT-4 soft carbon steel
@@ -85,6 +86,7 @@ sources:
   - "MyGolfSpy 'Sub 70 659 Irons (MB, TC and CB)' (mygolfspy.com/news-opinion) — 2022 launch coverage of the three-model 659 family; pricing of 109 dollars per club (763 dollars for a seven-piece set)."
   - "Driving Range Heroes 'Sub 70 659 Irons Review' (drivingrangeheroes.com, 6 July 2022) — corroborates the 7-iron at 32 degrees loft, 61.5 lie, 37 inches, and that all three 659 variants share one loft chart; notes prototypes were shown in summer 2021 ahead of the 2022 release."
   - "Note: swing weight is not published and Sub 70 builds every set to order from a large no-upcharge shaft and grip menu, so no single stock shaft is recorded. year_discontinued is null because the 659 CB remained in Sub 70's catalogue as of an August 2025 site capture, with no direct successor announced (the 2025 669 line sits in other categories)."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Listed in Sub 70's iron menu in the 16 August 2026 Wayback Machine capture of golfsub70.com; the live site could not be checked."
 related_models:
   - slug: "sub-70/639-cb-irons"
     label: "Predecessor: Sub 70 639 CB"

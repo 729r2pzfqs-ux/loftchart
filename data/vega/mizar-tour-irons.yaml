@@ -4,7 +4,7 @@ model: Mizar Tour
 slug: mizar-tour-irons
 club_type: irons
 year_introduced: 2019
-year_discontinued: null
+year_discontinued: 2025
 category: players-distance
 construction: forged one-piece body with constant-thickness carbon steel face insert
 material: S25C carbon steel body, 3.5 mm S20C carbon steel face
@@ -62,6 +62,7 @@ sources:
   - "golfwrx.com 'WRX Spotlight: Vega Mizar Tour irons' (October 2019) — dates the model's availability to 2019 and describes the same S25C one-piece forging with constant-thickness 3.5 mm face"
   - "golfwrx.com 'Club Junkie Review: Vega Golf VDC and Mizar Tour irons' (December 2022) — later-cycle corroboration; the archived manufacturer chart is unchanged across this period. Note: this database entry uses the 2019 first-availability date; some retail listings treat the Mizar Tour as a 2022 model from its 'next generation' remarketing"
   - "Stock build per vega-golf.com: VEGA Stellify steel shaft with VEGA Tour Density half-cord grip; heads also sold component-only"
+  - "Status check, 29 September 2026: year_discontinued is 2025. No successor. In Vega's main irons collection on 15 March 2025 and moved to its irons archive by 7 August 2025 (https://www.vega-golf.com/collections/irons-archive)."
 related_models:
   - slug: "vega/mizar-irons"
     label: "Original Star Range sibling: Vega Mizar"

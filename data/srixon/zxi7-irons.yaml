@@ -4,11 +4,11 @@ model: ZXi7
 slug: zxi7-irons
 club_type: irons
 year_introduced: 2024
-year_discontinued: null
+year_discontinued: 2026
 category: players
 construction: forged
 material: single-piece forged S15C carbon steel body with a PureFrame ridge and tungsten weighting
-successor: null
+successor: Srixon ZXi7 (2026)
 predecessor: Srixon ZX7 Mk II
 description: >
   The ZXi7 is the players model in Srixon's ZXi iron line, which replaced the ZX Mk II
@@ -101,7 +101,7 @@ sources:
   - "Same Dunlop Sports US page, technology copy: i-FORGED ('Proprietary Condensed Forging inserts added strength in the hosel area, which allows for the use of new, softer S15C steel in the single-piece Iron body'), the Ideal Steel note that S15C 'makes ZXi7 7% softer', Heat Softening, the enlarged PureFrame forged ridge behind the sweet spot, Tour V.T. Sole, progressive grooves and the players-iron shape description ('A thin topline, narrow sole, short blade, and minimal offset')"
   - "Same Dunlop Sports US page, stock shaft table: True Temper Dynamic Gold Mid 115/100 (S300 115g / R114 105g), with a Golf Pride Tour Velvet 360 52g grip. Srixon lists no stock graphite option for this model"
   - "Formal unveiling on 25 November 2024 per Golf Australia Magazine's ZXi launch release, with prototype ZXi5 and ZXi7 heads seeded on tour at the September 2024 Procore Championship (GolfWRX) and US retail availability in January 2025. year_introduced uses the announcement year per the repository convention, which is why it reads 2024 rather than the 2025 model year"
-  - "The successor field is set to null because the ZXi7 remains a current model and no successor record exists in this database"
+  - "Status check, 29 September 2026: year_discontinued is 2026. Srixon announced a second-generation ZXi7 on 8 September 2026, for launch on 16 October 2026 (https://www.firstcallgolf.com/industry-news/release/2026-09-08/feel-perfected-srixon-launches-second-generation-zxi-irons). This page records the first generation."
 related_models:
   - slug: "srixon/zx7-mkii-irons"
     label: "Predecessor: Srixon ZX7 Mk II"

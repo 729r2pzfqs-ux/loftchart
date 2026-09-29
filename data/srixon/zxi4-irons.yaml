@@ -4,11 +4,11 @@ model: ZXi4
 slug: zxi4-irons
 club_type: irons
 year_introduced: 2024
-year_discontinued: null
+year_discontinued: 2026
 category: game-improvement
 construction: hollow body with a forged face and third-generation MainFrame milling
 material: SUS17-47 stainless steel body with a forged face plate
-successor: null
+successor: Srixon ZXi5+
 predecessor: Srixon ZX4 Mk II
 description: >
   The ZXi4 is the game-improvement model in Srixon's ZXi iron line, unveiled with the
@@ -106,6 +106,7 @@ sources:
   - "Same Dunlop Sports US page, stock shaft tables: KBS Tour Lite steel (S and R, both 110g), KBS TGI Tour Graphite Iron (R 60g) and UST Mamiya Recoil Dart 65 (A/F2 56g), with a Golf Pride Tour Velvet 360 52g grip"
   - "ZXi line unveiled 25 November 2024 per Golf Australia Magazine's launch release, which lists the ZXi4 as the line's forged game-improvement entry, with US preorders from 13 January 2025 and retail from 24 January 2025 at $1,299 for a seven-piece set (Golf.com, 'Srixon ZXi4, ZXi5, ZXi7 and ZXiU irons: 4 things to know', which also describes the hollow body and forged face plate). year_introduced uses the announcement year per the repository convention, which is why it reads 2024 rather than the 2025 model year"
   - "An earlier revision of this record, built while the official page was unreachable, took the same loft/lie/length/swing-weight ladder from Today's Golfer and Fairway Jockey reproductions of Srixon's chart; the manufacturer table retrieved for this revision matches those secondary sources exactly, and confidence is high on that basis"
+  - "Status check, 29 September 2026: year_discontinued is 2026. The second-generation ZXi range announced on 8 September 2026 drops the ZXi4 in favour of a new ZXi5+ (https://irishgolfer.ie/equipment-apparel/2026/09/09/feel-perfected-srixon-launch-their-next-generation-of-zxi-irons/)."
 related_models:
   - slug: "srixon/zx4-mkii-irons"
     label: "Predecessor: Srixon ZX4 Mk II"

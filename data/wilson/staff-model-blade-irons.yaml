@@ -4,11 +4,11 @@ model: Staff Model Blade
 slug: staff-model-blade-irons
 club_type: irons
 year_introduced: 2019
-year_discontinued: null
+year_discontinued: 2024
 category: blade
 construction: forged
 material: soft-forged 8620 carbon steel, precision milled
-successor: Staff Model Blade (2026)
+successor: Wilson Staff Model Blade (2024)
 predecessor: Wilson Staff FG Tour 100
 description: >
   The Staff Model Blade is Wilson's muscle-back tour iron, unveiled in January
@@ -71,13 +71,14 @@ sources:
   - "2nd Swing Golf 'Wilson Staff Staff Model Blade Iron Set' specification table (club, loft, length, lie, swing weight, 2-iron through PW) and its 3-PW / 4-PW set listings — retrieved July 2026. Retailer-published table, not a Wilson spec sheet."
   - "Today's Golfer, January 2019, 'Wilson reveal new Staff Model blade irons' — reveal date and the tour-prototype background. Note the model is often grouped with the 2020 Staff Model CB as Wilson's players line, but the Blade itself was launched a year earlier."
   - "Plugged In Golf 'Wilson Staff Model Blades Irons Review' (2019) — Fluid Feel Hosel, soft-forged 8620 carbon steel construction and milled finishing. That review also notes Wilson did not publish bounce specs, so bounce is omitted here. Offset is omitted because available listings disagreed on it."
+  - "Status check, 29 September 2026: year_discontinued is 2024. A new Staff Model Blade was announced on 11 January 2024 (https://golf.com/gear/irons/wilson-staff-model-blade-cb-irons-2024/); that generation sits between this model and the 2026 one."
 related_models:
   - slug: "wilson/staff-model-cb-irons"
     label: "Companion cavity back: Wilson Staff Model CB"
   - slug: "wilson/staff-fg-tour-100-irons"
     label: "Predecessor: Wilson Staff FG Tour 100"
   - slug: "wilson/staff-model-blade-2026-irons"
-    label: "Successor: Wilson Staff Model Blade (2026)"
+    label: "Later generation: Wilson Staff Model Blade (2026)"
 faq:
   - q: "What is the loft of a Wilson Staff Model Blade 7-iron?"
     a: "The Wilson Staff Model Blade 7-iron has a loft of 34 degrees, with a 62-degree lie and a 37.25-inch steel-shaft length."

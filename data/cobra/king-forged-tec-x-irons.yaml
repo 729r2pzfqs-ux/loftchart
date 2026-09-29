@@ -4,12 +4,12 @@ model: KING Forged Tec X
 slug: king-forged-tec-x-irons
 club_type: irons
 year_introduced: 2022
-year_discontinued: null
+year_discontinued: 2024
 category: players-distance
 construction: forged hollow body with a PWRSHELL face, foam-filled, tungsten weighted
 material: forged body with a thin forged PWRSHELL face and a 65-gram internal tungsten weight
 predecessor: null
-successor: null
+successor: Cobra KING TEC X (2024)
 description: >
   The KING Forged Tec X is the larger, more forgiving sibling of Cobra's 2022
   KING Forged Tec: the same hollow-body, foam-filled construction with a thin
@@ -73,6 +73,7 @@ sources:
   - "Cobra Golf official Forged Tec X irons product page, archived 2022-11-30 via web.archive.org — full specification table (model, loft, lie angle, offset in mm, length, graphite and steel flex and swing weight, RH/LH) for the 4-iron through gap wedge, the 4-PW / 5-GW set options, and the hollow-body / forged PWRSHELL face / 65g tungsten construction description. Offsets are converted from millimetres to inches here."
   - "Golfalot review of the Cobra KING Forged Tec X 2022 irons — corroborates the 27-degree 7-iron, the 65g tungsten weight (45g more than the standard Forged Tec), the foam-filled hollow body and the larger profile with more offset"
   - "Today's Golfer 2022 Cobra KING Forged Tec family review — corroborates the Forged Tec X positioning as the wider-soled, stronger-lofted model of the 2022 Forged Tec line"
+  - "Status check, 29 September 2026: year_discontinued is 2024. Cobra announced the next-generation KING TEC X irons in October 2024 (https://golfwrx.com/748640/cobra-launches-king-tec-king-tec-x-and-king-tec-x-one-length-irons/)."
 related_models:
   - slug: "cobra/king-forged-tec-2022-irons"
     label: "Compact sibling: Cobra KING Forged Tec (2022)"

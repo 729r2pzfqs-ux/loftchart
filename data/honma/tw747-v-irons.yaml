@@ -4,11 +4,11 @@ model: TW747 V
 slug: tw747-v-irons
 club_type: irons
 year_introduced: 2018
-year_discontinued: null
+year_discontinued: 2020
 category: players
 construction: forged
 material: soft carbon steel, precision forged
-successor: null
+successor: Honma TR20 V
 predecessor: null
 description: >
   The V is the cavity-back players iron of Honma's 2018 Tour World 747 range, a
@@ -69,8 +69,10 @@ sources:
   - "Honma's own TW747 V product page, specification table (https://honmagolf.com/sea/product-details/2473) — supplied every loft, lie, length and the D2 swing weight for the S200 build, the AMT Tour White stock shaft and the eight-club 3-10 set makeup."
   - "Note on offset: Honma publishes offset in millimetres (2.80, 2.60, 2.10 and 1.90 mm for the 3 to 6 irons). Those are converted to inches here. Honma does not publish offset for the 7-iron and below, so the key is omitted for those clubs rather than estimated."
   - "mygolfway.com 'Honma Golf – New ground-breaking TWorld747 range' — the TW747 range was announced on 5 October 2018, which is the year recorded here."
-  - "Note: year_discontinued is null. The TW757 range that followed in 2022 shipped B, Vx and P heads with no direct V equivalent, so no successor is recorded."
+  - "Status check, 29 September 2026: year_discontinued is 2020. Honma announced the TR20 line on 20 January 2020 as the replacement for the TW747 line (https://www.honmagolf.com/int/news-detail/142)."
 related_models:
+  - slug: "honma/tr20-v-irons"
+    label: "Successor: Honma TR20 V"
   - slug: "honma/tw747-vx-irons"
     label: "Same generation, stronger-lofted players iron: Honma TW747 Vx"
   - slug: "honma/tw747-p-irons"

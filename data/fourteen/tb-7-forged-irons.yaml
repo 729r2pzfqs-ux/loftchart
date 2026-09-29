@@ -5,6 +5,7 @@ slug: tb-7-forged-irons
 club_type: irons
 year_introduced: 2022
 year_discontinued: null
+current_as_of: "2026-09"
 category: players
 construction: one-piece forged, compact Theater Blade hidden-cavity structure
 material: S20C soft carbon steel
@@ -68,6 +69,7 @@ sources:
   - "Fourteen Magazine 'TB-7 FORGED 発売のお知らせ' (fourteenmagazine.jp/article/detail/?id=160) and Golf Digest Japan gear news (news.golfdigest.co.jp/news/gear/article/144734) — fix the Japanese release date of 21 April 2022, used here as year_introduced per this site's convention of recording the Japan announcement date for Fourteen models (see the TB-5 Forged and TC-788 Forged entries); the 'not too easy, not too difficult' positioning for intermediate-to-improving golfers."
   - "Fourteen Golf USA blog 'Next Level Theater Blade: TB-7 Reviewed by Hiroichiro Yoshida' and 'TB-7 Forged Irons Development Story' (fourteengolf.us/blogs/articles) — the TB-5-to-TB-7 development lineage ('TB-5 Forged technology applied to a compact head'), the straighter/less-offset neck, and the operability-over-forgiveness trade-off against the TB-5."
   - "MyGolfSpy 'Fourteen TB-7 Irons Review' (2023) — independent US review corroborating the #4-PW configuration, the two Nippon stock shaft options, the $1,400 set price and the players-iron positioning ('distance king amongst player's irons' in that year's field, with forgiveness the acknowledged weak point). Offset is omitted: Fourteen publishes face progression in millimetres rather than offset, and no bounce figures are given."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Listed for sale on Fourteen Japan (https://www.fourteen.jp/products/club/iron/detail.php?id=205)."
 related_models:
   - slug: "fourteen/tb-5-forged-irons"
     label: "Larger-headed Theater Blade sharing the same loft ladder: Fourteen TB-5 Forged"

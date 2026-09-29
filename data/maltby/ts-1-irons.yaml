@@ -5,6 +5,7 @@ slug: ts-1-irons
 club_type: irons
 year_introduced: 2019
 year_discontinued: null
+current_as_of: "2026-09"
 category: players
 construction: three-piece billet forged hollow body, polymer filled, tungsten toe weight
 material: forged 1025C carbon steel body and 2 mm face, internal tungsten weight
@@ -87,6 +88,7 @@ sources:
   - "The GolfWorks Head MPF Ratings chart (golfworks.com/content/PDFs/Head_MPFs/MPFRatingsChart.pdf, updated July 2026) — 'MALTBY TS1 #6 2019, MPF 711', which fixes year_introduced 2019; the companion TS2 is listed at 2018."
   - "Fit2YouGolf 'Maltby TS-1 and TS-2 Forged Irons', 19 January 2019 — independent clubfitter coverage of both models at launch, corroborating the 32-degree TS-1 7-iron and the hollow forged construction."
   - "Lengths are from The GolfWorks' published Standard Lengths chart (golfworks.com/images/art/StdLengths.pdf, men's steel: 39.0-inch 3-iron through 35.5-inch PW and GW) because Maltby heads are sold component-style and built to order; playing lengths vary per build, hence confidence medium."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. In stock on GolfWorks (https://www.golfworks.com/maltby-ts-1-forged-iron-heads/p/ma0293/)."
 related_models:
   - slug: "maltby/ts-2-irons"
     label: "Larger players-distance sibling: Maltby TS-2"

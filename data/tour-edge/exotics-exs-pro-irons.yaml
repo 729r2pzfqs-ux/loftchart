@@ -4,11 +4,11 @@ model: Exotics EXS Pro
 slug: exotics-exs-pro-irons
 club_type: irons
 year_introduced: 2020
-year_discontinued: null
+year_discontinued: 2023
 category: players
 construction: forged cavity back, CNC-milled, with a tungsten toe weight in the 3-6 irons and a steel/ABS-polymer/damping-gel acoustic insert in the cavity
 material: S25C carbon steel
-successor: null
+successor: Tour Edge Exotics Pro 723
 predecessor: null
 description: >
   The Exotics EXS Pro Forged was a limited-edition, tour-driven players iron
@@ -80,6 +80,7 @@ sources:
   - "thegolfwire.com '\"Straight From the Tour Van\" Exotics EXS Pro Forged Irons, EXS Blade Irons/Blade Wedges Announced' — full specification table for 3 through AW (loft 20-50 degrees, lie 60-63.5 degrees, offset 4.3mm down to 2.8mm converted to inches here, length 38.75-35.25 inches), the higher-grade Japanese S25C carbon-steel CNC-milled construction, the forged cavity back with tungsten toe weighting in the 3-6 irons, the steel/ABS-polymer/damping-gel acoustic cavity insert, the True Temper Elevate Tour VSS Pro (R/S) and Dynamic Gold 105 (R300/S300) stock shafts, GolfPride Tour 360 grip, 15 June 2020 release and $149.99-per-club pricing limited to 250 sets."
   - "golf.com 'Tour Edge launches full line of tour-driven Exotics EXS Pro Series products' and calgolfnews.com — corroborate the 250-set limited run, the June 2020 launch, the S25C carbon-steel CNC-milled construction, and the distinction from the companion true-blade Exotics EXS Blade (27-degree 5-iron, thinner top line) released the same day."
   - "Note on category: classified 'players' here — a compact forged cavity back with a slightly thicker top line than the companion Blade model, sitting between that true blade and a players-distance iron; not a game-improvement club."
+  - "Status check, 29 September 2026: year_discontinued is 2023. The Exotics Pro 723 forged irons followed as the 2023 model (https://pluggedingolf.com/tour-edge-exotics-pro-723-irons-review/); the exact announcement date is not confirmed."
 related_models:
   - slug: "tour-edge/exotics-exs-220-irons"
     label: "Same-year mainline game-improvement sibling: Tour Edge Exotics EXS 220"

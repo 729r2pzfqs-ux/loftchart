@@ -5,6 +5,7 @@ slug: "101t-irons"
 club_type: "irons"
 year_introduced: 2022
 year_discontinued: null
+current_as_of: "2026-09"
 category: "players-distance"
 construction: "cast hollow body"
 material: "431 stainless steel body with 450 stainless steel face"
@@ -86,6 +87,7 @@ sources:
   - "Wayback Machine snapshot https://web.archive.org/web/20220625021503/https://takomogolf.com/iron-101t/ (archived 25 June 2022, the earliest capture of the 101T and Takomo's original WooCommerce site) - manufacturer-era spec table giving lofts 22/25/28/32/36/41/46, lies 61/61.5/62/62.6/63/63.5/64 and offsets 3.3/3.0/2.7/2.4/2.2/1.9/1.6 mm for 4-iron through PW, matching the values Takomo publishes today. The same page gives the steel shaft length row of 38.5\"/38\"/37.5\"/37\"/36.5\"/36\"/35.5\" used in this file, a 75 mm 7-iron blade length, D2 stock swing weight, a Lamkin Crossline grip, and describes a 431 steel hollow body. It categorises the club as \"a players distance iron\" for mid-to-scratch handicaps. Note the archived table prints the 7-iron lie as 62.6 where Takomo's current table reads 62.5; 62.5 is used here as the half-degree progression makes 62.6 look like a typo on the 2022 page"
   - "Launch timing: the June 2022 snapshot above is the first archived capture of the 101T and the model is absent from Takomo's site in the January 2022 captures, which places the launch in the first half of 2022 and corroborates the mid-2022 date given in Golfalot and Pitchmarks reviews (search-result summaries; the MyGolfSpy First Look article itself returned HTTP 403 and was not read)"
   - "Club lengths are Takomo's own published steel-shaft figures from the June 2022 snapshot above, not an inference from other models"
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. In stock in Takomo's irons collection (https://takomogolf.com/products/iron-101t)."
 related_models:
   - slug: "takomo/101-irons"
     label: "Larger sibling: Takomo 101"
