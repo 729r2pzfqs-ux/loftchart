@@ -69,6 +69,8 @@ sources:
   - "Note: bounce was not published in the source consulted and is omitted rather than estimated."
   - "Status check, 29 September 2026: year_discontinued is 2024. Cobra announced the next-generation KING TEC irons in October 2024 (https://golf.com/gear/irons/cobra-king-tec-2024/)."
 related_models:
+  - slug: "cobra/king-tec-2024-irons"
+    label: "Successor: Cobra KING TEC (2024)"
   - slug: "cobra/king-forged-tec-irons"
     label: "Predecessor: Cobra KING Forged Tec"
   - slug: "cobra/king-mim-tour-irons"

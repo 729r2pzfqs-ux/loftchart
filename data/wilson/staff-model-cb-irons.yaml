@@ -91,6 +91,8 @@ sources:
   - "Bounce figures are omitted because the sources available did not agree on them."
   - "Status check, 29 September 2026: year_discontinued is 2024. A new Staff Model CB was announced on 11 January 2024 (https://pluggedingolf.com/2024-wilson-staff-model-cb-irons-review/); that generation sits between this model and the 2026 one."
 related_models:
+  - slug: "wilson/staff-model-cb-2024-irons"
+    label: "Successor: Wilson Staff Model CB (2024)"
   - slug: "wilson/staff-model-blade-irons"
     label: "Companion blade: Wilson Staff Model Blade"
   - slug: "wilson/staff-fg-tour-v6-irons"

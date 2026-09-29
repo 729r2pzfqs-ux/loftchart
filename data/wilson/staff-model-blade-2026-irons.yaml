@@ -5,11 +5,12 @@ slug: staff-model-blade-2026-irons
 club_type: irons
 year_introduced: 2026
 year_discontinued: null
+current_as_of: "2026-09"
 category: blade
 construction: forged
 material: forged 8620 carbon steel, precision milled
 successor: null
-predecessor: Staff Model Blade (2019)
+predecessor: Wilson Staff Model Blade (2024)
 description: >
   The second-generation Staff Model Blade was announced 27 January 2026
   alongside a refreshed Staff Model CB and the all-new hollow-body Staff Model
@@ -88,14 +89,18 @@ stock_shafts:
     material: steel
     flex: ["R", "S", "X"]
 sources:
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Listed at full price on Wilson's irons page (https://www.wilson.com/en-us/golf/clubs/irons)."
+  - "Lineage: this model replaced the 2024 Staff Model Blade, the generation between it and the 2019 original that the description compares it with."
   - "2nd Swing Golf 'Wilson Staff 2026 Staff Model Blade Iron Set' (2026 STAFF MB STS) product page, retrieved directly (rendered page, not a search summary) August 2026 — full loft/length/lie/bounce/offset/swing-weight table for 3-iron through PW, 3-PW stock set makeup, True Temper Dynamic Gold MID 115 stock steel shaft (R/S/X) and Golf Pride Z-Grip Standard stock grip. Retailer-published table, not a Wilson spec sheet."
   - "Today's Golfer, 'Wilson Staff Model Irons 2026: Everything You Need to Know', published 27 January 2026 — independently matching 7-iron loft/lie/length (34°/62°/37.25\"), 3-PW availability, True Temper Dynamic Gold Mid 115 stock shaft, and $1,399.99 / £1,169 seven-piece pricing."
   - "Golfmagic, 'Wilson gets serious about its irons with three new forged Staff Models for 2026' — 27 January 2026 announcement date, early-February retail timing, forged 8620 carbon steel construction across the family, and the framing of Blade/CB/XB as one designed-together range."
   - "MyGolfSpy, 'These New Wilson Staff Model Irons Bring Some Serious Heat' — corroborates the three-model family launch and the compact/reduced-offset repositioning of the 2026 Blade."
   - "Bounce and offset figures come only from the 2nd Swing table; no other source consulted published per-club bounce/offset for the 2026 Blade, so confidence on those two fields is lower than on loft/lie/length, which two independent sources agree on for the 7-iron."
 related_models:
+  - slug: "wilson/staff-model-blade-2024-irons"
+    label: "Predecessor: Wilson Staff Model Blade (2024)"
   - slug: "wilson/staff-model-blade-irons"
-    label: "Predecessor: Wilson Staff Model Blade (2019)"
+    label: "Original generation: Wilson Staff Model Blade (2019)"
   - slug: "wilson/staff-model-cb-2026-irons"
     label: "Companion cavity back: Wilson Staff Model CB (2026)"
   - slug: "wilson/staff-model-xb-2026-irons"

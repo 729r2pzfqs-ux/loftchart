@@ -1,0 +1,91 @@
+brand: Wilson
+brand_slug: wilson
+model: Staff Model Blade (2024)
+slug: staff-model-blade-2024-irons
+club_type: irons
+year_introduced: 2024
+year_discontinued: 2026
+category: blade
+construction: forged
+material: 8620 carbon steel
+successor: Wilson Staff Model Blade (2026)
+predecessor: Wilson Staff Model Blade
+description: >
+  The second Staff Model Blade was announced on 11 January 2024 with a new
+  Staff Model CB, both forged from 8620 carbon steel with Wilson's Fluid Feel
+  hosel and extra mass in the toe. Lofts, lies and lengths are unchanged from
+  the 2019 original, with a 34-degree 7-iron and a 46-degree pitching wedge.
+  The stock set was 4-iron to pitching wedge with True Temper Dynamic Gold Mid
+  115 shafts; a retailer table also lists 2- and 3-irons, which are not
+  recorded here because only one source gives them. Wilson replaced the model
+  with the 2026 Staff Model Blade.
+specs:
+  - club: "4"
+    loft: 23.0
+    lie: 60.0
+    length: 38.75
+    offset: 0.1
+    swing_weight: D2
+  - club: "5"
+    loft: 26.0
+    lie: 61.0
+    length: 38.25
+    offset: 0.09
+    swing_weight: D2
+  - club: "6"
+    loft: 30.0
+    lie: 61.5
+    length: 37.75
+    offset: 0.08
+    swing_weight: D2
+  - club: "7"
+    loft: 34.0
+    lie: 62.0
+    length: 37.25
+    offset: 0.07
+    swing_weight: D2
+  - club: "8"
+    loft: 38.0
+    lie: 63.0
+    length: 36.75
+    offset: 0.063
+    swing_weight: D2
+  - club: "9"
+    loft: 42.0
+    lie: 63.5
+    length: 36.25
+    offset: 0.057
+    swing_weight: D2
+  - club: "PW"
+    loft: 46.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.05
+    swing_weight: D2
+stock_shafts:
+  - name: "True Temper Dynamic Gold Mid 115"
+    material: steel
+    weight: "114-116 g"
+    flex: ["R", "S", "X"]
+sources:
+  - "Two retailer specification tables that agree on every figure above for the 4-iron through pitching wedge: Golfio 'Wilson Staff Model Blades Forged Iron Set - 24' (https://www.golfio.com/products/wilson-staff-model-blades-forged-iron-set-24-men, retrieved 29 September 2026) and 2nd Swing 'Wilson Staff 2024 Staff Model Blade Iron Set' (https://www.2ndswing.com/golf-clubs/iron-sets/wilson-staff-2024-staff-model-blade-iron-set, retrieved 29 September 2026). Neither is a Wilson spec sheet: wilson.com could not be read, so confidence is medium."
+  - "golf.com 'Wilson Staff Model Blades, CB irons: Everything you need to know', published 11 January 2024 (https://golf.com/gear/irons/wilson-staff-model-blade-cb-irons-2024/) — announcement date, retail from 24 January 2024, the 4-PW stock set, forged 8620 carbon steel, the Fluid Feel hosel and the Dynamic Gold Mid 115 stock shaft."
+  - "Succession: Wilson announced a new family of Staff Model irons on 27 January 2026 (https://golfwrx.com/772458/wilson-introduces-new-family-of-staff-irons/), which sets year_discontinued."
+  - "Note: bounce appears in only one of the two tables and is omitted. 2nd Swing also lists a 2-iron (18 degrees) and a 3-iron (20 degrees); they are left out because no second source confirms them."
+related_models:
+  - slug: "wilson/staff-model-blade-irons"
+    label: "Predecessor: Wilson Staff Model Blade"
+  - slug: "wilson/staff-model-blade-2026-irons"
+    label: "Successor: Wilson Staff Model Blade (2026)"
+  - slug: "wilson/staff-model-cb-2024-irons"
+    label: "Companion cavity back: Wilson Staff Model CB (2024)"
+faq:
+  - q: "What is the loft of a Wilson Staff Model Blade (2024) 7-iron?"
+    a: "The 2024 Staff Model Blade 7-iron has a loft of 34 degrees, a lie of 62 degrees and a steel-shaft length of 37.25 inches."
+  - q: "Did the lofts change from the 2019 Staff Model Blade?"
+    a: "No. The 4-iron through pitching wedge run 23, 26, 30, 34, 38, 42 and 46 degrees on both, with the same lies and lengths."
+  - q: "How does the 2024 Staff Model Blade differ from the 2024 Staff Model CB?"
+    a: "Lofts, lies and lengths are the same. The Blade is a muscle back with slightly less offset in the longer irons, 0.10 inches at the 4-iron against 0.11 on the CB."
+  - q: "What is the pitching wedge loft on the 2024 Staff Model Blade?"
+    a: "46 degrees."
+confidence: medium

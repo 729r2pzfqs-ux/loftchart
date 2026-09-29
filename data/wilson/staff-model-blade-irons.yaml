@@ -73,6 +73,8 @@ sources:
   - "Plugged In Golf 'Wilson Staff Model Blades Irons Review' (2019) — Fluid Feel Hosel, soft-forged 8620 carbon steel construction and milled finishing. That review also notes Wilson did not publish bounce specs, so bounce is omitted here. Offset is omitted because available listings disagreed on it."
   - "Status check, 29 September 2026: year_discontinued is 2024. A new Staff Model Blade was announced on 11 January 2024 (https://golf.com/gear/irons/wilson-staff-model-blade-cb-irons-2024/); that generation sits between this model and the 2026 one."
 related_models:
+  - slug: "wilson/staff-model-blade-2024-irons"
+    label: "Successor: Wilson Staff Model Blade (2024)"
   - slug: "wilson/staff-model-cb-irons"
     label: "Companion cavity back: Wilson Staff Model CB"
   - slug: "wilson/staff-fg-tour-100-irons"

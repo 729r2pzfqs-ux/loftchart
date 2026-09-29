@@ -80,6 +80,8 @@ sources:
   - "Bounce and swing weight are not published for this model, so those keys are omitted."
   - "Status check, 29 September 2026: year_discontinued is 2026. The E525 no longer has a new-product page on touredge.com and is sold there only as certified pre-owned; the Hot Launch Max irons (https://www.touredge.com/products/hot-launch-max-irons-1) have taken its place."
 related_models:
+  - slug: "tour-edge/hot-launch-max-irons"
+    label: "Successor: Tour Edge Hot Launch Max"
   - slug: "tour-edge/hot-launch-c524-irons"
     label: "Predecessor: Tour Edge Hot Launch C524"
   - slug: "tour-edge/hot-launch-x525-irons"

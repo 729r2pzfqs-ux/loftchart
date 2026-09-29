@@ -5,11 +5,12 @@ slug: staff-model-cb-2026-irons
 club_type: irons
 year_introduced: 2026
 year_discontinued: null
+current_as_of: "2026-09"
 category: players
 construction: forged
 material: forged 8620 carbon steel, precision milled
 successor: null
-predecessor: Staff Model CB (2020)
+predecessor: Wilson Staff Model CB (2024)
 description: >
   The second-generation Staff Model CB was announced 27 January 2026 as part
   of a refreshed forged Staff Model family alongside the Blade and the new
@@ -95,14 +96,18 @@ stock_shafts:
     material: steel
     flex: ["R", "S", "X"]
 sources:
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Listed at full price on Wilson's irons page (https://www.wilson.com/en-us/golf/clubs/irons)."
+  - "Lineage: this model replaced the 2024 Staff Model CB, the generation between it and the 2020 original that the description compares it with."
   - "2nd Swing Golf 'Wilson Staff 2026 Staff Model CB Iron Set' (2026 STAFF CB STS) product page, retrieved directly (rendered page, not a search summary) August 2026 — full loft/length/lie/bounce/offset/swing-weight table for 3-iron through GW, 4-PW stock set makeup, True Temper Dynamic Gold Mid 115 stock steel shaft (R/S/X) and Golf Pride Z-Grip Standard stock grip. Note this is a different product page from the still-listed 2020 CB (2ndswing.com/staff-mod-cb-new-sts), which was checked separately to avoid conflating the two generations' tech descriptions. Retailer-published table, not a Wilson spec sheet."
   - "Today's Golfer, 'Wilson Staff Model Irons 2026: Everything You Need to Know', published 27 January 2026 — independently matching 7-iron loft/lie/length (34°/62°/37.25\"), 3-GW availability, True Temper Dynamic Gold Mid 115 stock shaft, and $1,399.99 / £1,169 seven-piece pricing."
   - "Golfmagic, 'Wilson gets serious about its irons with three new forged Staff Models for 2026' — 27 January 2026 announcement date, early-February retail timing, forged 8620 carbon steel construction, and the CB positioned as the mid-point between Blade and XB."
   - "Plugged In Golf, '2026 Wilson Staff Model CB Irons Review', published 16 March 2026 — corroborates forged 8620 carbon steel, Fluid Feel Hosel, brushed satin finish (replacing chrome), compact blade length with minimal offset and thin topline, and the positioning as 'the perfect middle ground for the skilled-but-not-Tour-level player'. This review does not mention a Tri-Brace stabiliser or tungsten toe weighting for the 2026 model."
   - "Bounce and offset figures come only from the 2nd Swing table; no other source consulted published per-club bounce/offset for the 2026 CB."
 related_models:
+  - slug: "wilson/staff-model-cb-2024-irons"
+    label: "Predecessor: Wilson Staff Model CB (2024)"
   - slug: "wilson/staff-model-cb-irons"
-    label: "Predecessor: Wilson Staff Model CB (2020)"
+    label: "Original generation: Wilson Staff Model CB (2020)"
   - slug: "wilson/staff-model-blade-2026-irons"
     label: "Companion blade: Wilson Staff Model Blade (2026)"
   - slug: "wilson/staff-model-xb-2026-irons"

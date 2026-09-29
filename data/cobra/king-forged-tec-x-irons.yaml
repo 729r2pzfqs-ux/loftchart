@@ -75,6 +75,8 @@ sources:
   - "Today's Golfer 2022 Cobra KING Forged Tec family review — corroborates the Forged Tec X positioning as the wider-soled, stronger-lofted model of the 2022 Forged Tec line"
   - "Status check, 29 September 2026: year_discontinued is 2024. Cobra announced the next-generation KING TEC X irons in October 2024 (https://golfwrx.com/748640/cobra-launches-king-tec-king-tec-x-and-king-tec-x-one-length-irons/)."
 related_models:
+  - slug: "cobra/king-tec-x-2024-irons"
+    label: "Successor: Cobra KING TEC X (2024)"
   - slug: "cobra/king-forged-tec-2022-irons"
     label: "Compact sibling: Cobra KING Forged Tec (2022)"
   - slug: "cobra/king-forged-tec-irons"

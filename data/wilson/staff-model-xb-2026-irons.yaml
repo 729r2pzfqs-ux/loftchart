@@ -5,6 +5,7 @@ slug: staff-model-xb-2026-irons
 club_type: irons
 year_introduced: 2026
 year_discontinued: null
+current_as_of: "2026-09"
 category: players-distance
 construction: forged hollow body
 material: forged 8620 carbon steel with urethane injection and tungsten weighting
@@ -102,6 +103,7 @@ stock_shafts:
     material: steel
     flex: ["R", "S"]
 sources:
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Listed at full price on Wilson's irons page (https://www.wilson.com/en-us/golf/clubs/irons)."
   - "2nd Swing Golf 'Wilson Staff 2026 Staff Model XB Iron Set' (2026 STAFF XB STS) product page, retrieved directly (rendered page, not a search summary) August 2026 — full loft/length/lie/bounce/offset/swing-weight table for 2-iron through GW (2-iron right-handed only), 4-PW stock set makeup, Nippon NS Pro Modus 3 Tour 110 stock steel shaft (R/S) and Golf Pride Z-Grip Standard stock grip. Retailer-published table, not a Wilson spec sheet."
   - "Today's Golfer, 'Wilson Staff Model Irons 2026: Everything You Need to Know', published 27 January 2026 — independently matching 7-iron loft/lie/length (32°/62°/37.25\"), 2-GW availability, Nippon Modus Tour 110 stock shaft, and $1,399.99 / £1,169 seven-piece pricing. Describes XB as a 'players' distance iron' for 'a wide range of golfers seeking forgiveness with distance'."
   - "Golfmagic, 'Wilson gets serious about its irons with three new forged Staff Models for 2026' — 27 January 2026 announcement date, describes XB as a new hollow-body 'Players Performance' model with a thicker topline and larger profile than the CB, internal urethane insert, engineered rib supports, a parabolic mass pad and tungsten weights for MOI and ball speed."
