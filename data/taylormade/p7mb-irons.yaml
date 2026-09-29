@@ -87,6 +87,8 @@ sources:
   - "2ndswing.com TaylorMade P7MB Iron Set page (corroborates lie, length and the 1.9mm to 1.4mm offset progression; note that its loft column reproduces the P7MC values, so lofts here follow the TaylorMade catalogue)"
   - "Years follow the announcement-year convention. year_discontinued is 2022: a second-generation P7MB was announced on 6 December 2022 (https://golf.com/gear/first-look-2023-taylormade-p7mc-and-p7mb-irons/). This page records the 2020 generation."
 related_models:
+  - slug: "taylormade/p7mb-2023-irons"
+    label: "Successor: TaylorMade P7MB (2023)"
   - slug: "taylormade/p7mc-irons"
     label: "Cavity-back sibling: TaylorMade P7MC"
   - slug: "taylormade/p730-irons"

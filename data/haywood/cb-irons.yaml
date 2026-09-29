@@ -79,6 +79,8 @@ sources:
   - "haywoodgolf.com current CB page — same lofts, lengths, lies, offsets and bounce; swing weights restated as D1/D2 based on a 110 g shaft"
   - "Status check, 29 September 2026: year_discontinued is 2026. Haywood published the CB2 on 24 July 2026 (https://www.haywoodgolf.com/products/cb2-forged-players-cavity-back-irons); the original CB is still sold alongside it."
 related_models:
+  - slug: "haywood/cb2-irons"
+    label: "Successor: Haywood CB2"
   - slug: "haywood/mb-irons"
     label: "Blade sibling: Haywood MB"
   - slug: "haywood/signature-irons"

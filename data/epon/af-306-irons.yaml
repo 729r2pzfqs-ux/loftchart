@@ -65,6 +65,8 @@ sources:
   - "mycaddie.jp product 11728 — S20C head material, 32°/62° 7-iron, April 2022 retail date, corroborating the spec ladder"
   - "Status check, 29 September 2026: year_discontinued is 2025. Epon announced the AF-307 on 31 January 2025, on sale from 21 February 2025 (https://epongolf.co.jp/news/category/press-release/)."
 related_models:
+  - slug: "epon/af-307-irons"
+    label: "Successor: Epon AF-307"
   - slug: "epon/af-506-irons"
     label: "Pocket-cavity sibling: Epon AF-506"
   - slug: "epon/af-706-irons"

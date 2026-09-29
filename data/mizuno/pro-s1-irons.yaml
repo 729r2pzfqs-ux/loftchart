@@ -1,0 +1,93 @@
+brand: Mizuno
+brand_slug: mizuno
+model: Pro S-1
+slug: pro-s1-irons
+club_type: irons
+year_introduced: 2025
+year_discontinued: null
+current_as_of: "2026-09"
+category: blade
+construction: Grain Flow Forged HD, one-piece muscle back with a channel back
+material: 1025E Pure Select mild carbon steel with a copper underlay
+successor: null
+predecessor: Mizuno Pro 241
+description: >
+  The Mizuno Pro S-1 is the muscle back of Mizuno's Pro Signature series and the
+  replacement for the Pro 241, revealed in July 2025 with pre-orders from
+  28 August and retail from 11 September 2025. It is one-piece Grain Flow Forged
+  HD from 1025E Pure Select mild carbon steel in Hiroshima, with a copper
+  underlay, a channel cut into the back of the head and a flatter sole with a
+  sharper leading edge and more bounce. Lofts and offsets carry over from the
+  Pro 241 unchanged, 34 degrees at the 7-iron and 46 at the pitching wedge,
+  while the published lies are half a degree more upright and the 3-iron is
+  dropped: the set is 4-PW in both hands. Figures are the men's standard
+  steel-shaft build; Mizuno does not publish bounce or swing weight for it.
+length_note: >
+  These lengths use the USGA / R&A measuring method, which Mizuno adopted for
+  its published spec tables with this generation. They read about a quarter
+  inch longer than the figures Mizuno published for earlier models such as the
+  JPX923 and Mizuno Pro 241, 243 and 245, but Mizuno states that actual club
+  length is unchanged. Subtract 0.25 inches to compare with an older Mizuno
+  chart.
+specs:
+  - club: "4"
+    loft: 24.0
+    lie: 60.5
+    length: 38.75
+    offset: 0.098
+  - club: "5"
+    loft: 27.0
+    lie: 61.0
+    length: 38.25
+    offset: 0.094
+  - club: "6"
+    loft: 30.0
+    lie: 61.5
+    length: 37.75
+    offset: 0.091
+  - club: "7"
+    loft: 34.0
+    lie: 62.0
+    length: 37.25
+    offset: 0.087
+  - club: "8"
+    loft: 38.0
+    lie: 62.5
+    length: 36.75
+    offset: 0.083
+  - club: "9"
+    loft: 42.0
+    lie: 63.0
+    length: 36.25
+    offset: 0.079
+  - club: "PW"
+    loft: 46.0
+    lie: 63.5
+    length: 35.75
+    offset: 0.075
+stock_shafts:
+  - name: "KBS Tour"
+    material: steel
+    weight: "110-130 g"
+    flex: ["R", "S", "X"]
+sources:
+  - "Length basis: Mizuno's own specification page for the Mizuno Pro 243 (https://mizunogolf.com/us/golf-clubs/mp-series/mizuno-pro-243/club-specification/, retrieved 29 September 2026) states that Mizuno is changing its official iron measurement method to match the USGA / R&A standard and that its published lengths are consequently about 1/4 inch longer while actual club length is unchanged. The Pro S-1 page itself carries no such footnote; its lengths (7-iron 37.25 inches) are on the new basis."
+  - "Mizuno official Pro S-1 club-specification page (https://mizunogolf.com/us/golf-clubs/mp-series/mizuno-pro-s1/club-specification/, retrieved 29 September 2026) — loft, lie, offset (published in inches) and length for the 4-iron through pitching wedge, and the dexterity note 'RH & LH: 4-PW'. The page does not publish bounce or swing weight, so those keys are omitted."
+  - "Mizuno official Pro S-1 product page (https://mizunogolf.com/us/golf-clubs/mp-series/mizuno-pro-s1/) — the same table, the construction copy (Grain Flow Forged HD from a single billet of 1025E Pure Select mild carbon steel, channel back, copper underlay, reduced sole camber, sharper leading edge, increased bounce angle, Nickel Chrome soft white satin finish) and the custom shaft list, which supplies the KBS Tour weights (R 110g, S 120g, X 130g)."
+  - "golf.com 'Mizuno Pro S-1 irons: 4 things to know', published 14 July 2025 (https://golf.com/gear/irons/mizuno-pro-s-1-irons/) — the announcement date used for year_introduced, pre-orders from 28 August and retail from 11 September 2025, 215 dollars per club, the S-1 as the successor to the Pro 241, KBS Tour as the stock shaft with a Golf Pride Tour Velvet grip, and a matching 7-iron of 34 degrees, 62-degree lie and 37.25 inches. Announcement and retail both fall in 2025."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Listed on Mizuno's irons page (https://mizunogolf.com/us/irons/)."
+related_models:
+  - slug: "mizuno/pro-241-irons"
+    label: "Predecessor: Mizuno Pro 241"
+  - slug: "mizuno/pro-s3-irons"
+    label: "Range sibling: Mizuno Pro S-3"
+faq:
+  - q: "What is the loft of a Mizuno Pro S-1 7-iron?"
+    a: "The Mizuno Pro S-1 7-iron has a loft of 34 degrees, with a 62-degree lie and a 37.25-inch steel-shaft length measured by the USGA / R&A method."
+  - q: "Are the Mizuno Pro S-1 lofts different from the Pro 241?"
+    a: "No. The lofts carry over unchanged, from 24 degrees at the 4-iron to 34 at the 7-iron and 46 at the pitching wedge, and so do the offsets. The published lies are half a degree more upright and the 3-iron is no longer part of the set."
+  - q: "Is the Mizuno Pro S-1 longer than the Pro 241?"
+    a: "Only on paper. The S-1 chart lists the 7-iron at 37.25 inches against 37.0 for the Pro 241, but Mizuno has moved its published lengths to the USGA / R&A measuring method, which reads about a quarter inch longer for the same club."
+  - q: "When were the Mizuno Pro S-1 irons released?"
+    a: "Mizuno revealed the Pro S-1 in July 2025, with pre-orders from 28 August and retail from 11 September 2025."
+confidence: high

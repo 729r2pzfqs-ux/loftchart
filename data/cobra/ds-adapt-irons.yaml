@@ -96,6 +96,8 @@ sources:
 related_models:
   - slug: "cobra/darkspeed-irons"
     label: "Predecessor: Cobra Darkspeed"
+  - slug: "cobra/king-2026-irons"
+    label: "Successor: Cobra KING (2026)"
 faq:
   - q: "What is the loft of a Cobra DS-ADAPT 7-iron?"
     a: "The Cobra DS-ADAPT 7-iron has a loft of 27 degrees, a lie of 63.5 degrees and a length of 37.25 inches."

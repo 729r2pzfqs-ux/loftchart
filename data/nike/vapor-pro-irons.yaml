@@ -85,6 +85,8 @@ sources:
 related_models:
   - slug: "nike/vr-pro-combo-irons"
     label: "Predecessor: Nike VR Pro Combo"
+  - slug: "nike/vapor-pro-combo-irons"
+    label: "Range sibling: Nike Vapor Pro Combo"
 faq:
   - q: "What is the loft of a Nike Vapor Pro 7-iron?"
     a: "The Nike Vapor Pro 7-iron has a loft of 35 degrees, with a 62.5-degree lie and a 37.25-inch steel-shaft length."

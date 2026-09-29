@@ -1,0 +1,97 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: P7MC (2023)
+slug: p7mc-2023-irons
+club_type: irons
+year_introduced: 2022
+year_discontinued: 2024
+category: players
+construction: forged
+material: 1025 carbon steel
+successor: TaylorMade P7CB
+predecessor: TaylorMade P7MC
+description: >
+  The second-generation P7MC is TaylorMade's forged tour cavity back, announced
+  on 6 December 2022 alongside a new P770 and P7MB and sold as the 2023 model.
+  The loft, lie, length and offset chart carries over unchanged from the 2020
+  P7MC — a 34-degree 7-iron and a 47-degree pitching wedge — but the standard
+  swing weight drops a point, to D2 through the 9-iron and D3 in the pitching
+  wedge. The set runs 3-iron through pitching wedge with no stock gap wedge.
+  Figures are the men's standard right-handed steel build.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 60.5
+    length: 39.0
+    offset: 0.114
+    swing_weight: D2
+  - club: "4"
+    loft: 23.0
+    lie: 61.0
+    length: 38.5
+    offset: 0.106
+    swing_weight: D2
+  - club: "5"
+    loft: 26.0
+    lie: 61.5
+    length: 38.0
+    offset: 0.098
+    swing_weight: D2
+  - club: "6"
+    loft: 30.0
+    lie: 62.0
+    length: 37.5
+    offset: 0.091
+    swing_weight: D2
+  - club: "7"
+    loft: 34.0
+    lie: 62.5
+    length: 37.0
+    offset: 0.083
+    swing_weight: D2
+  - club: "8"
+    loft: 38.0
+    lie: 63.0
+    length: 36.5
+    offset: 0.075
+    swing_weight: D2
+  - club: "9"
+    loft: 42.5
+    lie: 63.5
+    length: 36.0
+    offset: 0.067
+    swing_weight: D2
+  - club: "PW"
+    loft: 47.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.059
+    swing_weight: D3
+stock_shafts:
+  - name: "KBS Tour"
+    material: steel
+    weight: "120 g (S), 130 g (X)"
+    flex: ["S", "X"]
+sources:
+  - "TaylorMade official P7MC Irons product page (DW-TA239), archived 11 December 2023: https://web.archive.org/web/20231211024731/https://www.taylormadegolf.com/P7MC-Irons/DW-TA239.html?lang=en_US — manufacturer specification table giving loft, lie, offset in millimetres, length and swing weight for the 3-iron through pitching wedge, plus the KBS Tour stock shaft. Offset is converted to inches here."
+  - "Years follow the announcement-year convention. TaylorMade announced the new P770, P7MC and P7MB on 6 December 2022, with retail from 20 January 2023 (https://golf.com/gear/first-look-2023-taylormade-p7mc-and-p7mb-irons/). year_discontinued is 2024, the year the P7CB that took over the cavity-back place in the P7 line was introduced; the P7MC is no longer on TaylorMade's irons page (https://www.taylormadegolf.com/taylormade-irons/, checked 29 September 2026)."
+  - "Note: bounce is not published on the product page and is omitted rather than carried over from the 2020 model."
+related_models:
+  - slug: "taylormade/p7mc-irons"
+    label: "Predecessor: TaylorMade P7MC"
+  - slug: "taylormade/p7cb-irons"
+    label: "Successor: TaylorMade P7CB"
+  - slug: "taylormade/p7mb-2023-irons"
+    label: "Muscleback sibling: TaylorMade P7MB (2023)"
+  - slug: "taylormade/p770-2023-irons"
+    label: "Hollow-body sibling: TaylorMade P770 (2023)"
+faq:
+  - q: "What is the loft of a TaylorMade P7MC (2023) 7-iron?"
+    a: "The 2023 P7MC 7-iron has a loft of 34 degrees, a lie of 62.5 degrees and a steel-shaft length of 37.00 inches."
+  - q: "Did the P7MC lofts change between the 2020 and 2023 models?"
+    a: "No. Both generations run 20, 23, 26, 30, 34, 38, 42.5 and 47 degrees from 3-iron to pitching wedge, with the same lies, lengths and offsets. The published swing weight is one point lighter on the 2023 model, at D2 through the 9-iron and D3 in the pitching wedge."
+  - q: "Are the 2023 P7MC and P7MB lofts the same?"
+    a: "Yes. In the 2023 generation the two share one loft, lie and length chart, so they can be mixed in a combo set without a loft jump. The P7MB has less offset, from 1.9mm at the 3-iron to 1.4mm at the pitching wedge against 2.9mm to 1.5mm on the P7MC."
+  - q: "What is the pitching wedge loft on the 2023 P7MC?"
+    a: "47 degrees. The set runs 3-iron through pitching wedge, with no stock approach or gap wedge."
+confidence: high

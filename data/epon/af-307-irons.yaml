@@ -1,0 +1,88 @@
+brand: Epon
+brand_slug: epon
+model: AF-307
+slug: af-307-irons
+club_type: irons
+year_introduced: 2025
+year_discontinued: null
+current_as_of: "2026-09"
+category: players
+construction: forged (S20C carbon steel with tungsten weights on the toe and neck sides)
+material: S20C soft carbon steel with tungsten inner weights
+successor: null
+predecessor: Epon AF-306
+description: >
+  The AF-307 is Epon's compact forged cavity back, announced on 31 January
+  2025 and on sale from 21 February 2025 as the replacement for the AF-306.
+  Epon is the house label of Endo Manufacturing in Tsubame, Niigata. The head
+  is forged from S20C carbon steel with tungsten placed on both the toe side
+  and the neck side, which Epon says raises the moment of inertia while
+  shortening the centre-of-gravity distance for easier face rotation; the
+  face is taller than before and the blade is shaped to look lower at the
+  neck. Against the AF-306 the 9-iron and pitching wedge are one degree
+  stronger, at 40 and 45 degrees, with the 4- through 8-irons unchanged. The
+  figures below are Epon's own chart for the N.S.PRO MODUS3 TOUR 105 (S)
+  steel build; offsets are converted from Epon's millimetre figures.
+length_note: >
+  Epon states that club length is measured by the 60-degree method. The
+  lengths here are Epon's own published figures; the AF-306 page on this site
+  uses a Japanese dealer's assembly lengths, which run a quarter-inch shorter,
+  so the two charts are not directly comparable.
+specs:
+  - club: "4"
+    loft: 23.0
+    lie: 60.5
+    length: 38.5
+    offset: 0.138
+  - club: "5"
+    loft: 26.0
+    lie: 61.0
+    length: 38.0
+    offset: 0.130
+  - club: "6"
+    loft: 29.0
+    lie: 61.5
+    length: 37.5
+    offset: 0.122
+  - club: "7"
+    loft: 32.0
+    lie: 62.0
+    length: 37.0
+    offset: 0.114
+  - club: "8"
+    loft: 36.0
+    lie: 62.5
+    length: 36.5
+    offset: 0.106
+  - club: "9"
+    loft: 40.0
+    lie: 63.0
+    length: 36.0
+    offset: 0.098
+  - club: "PW"
+    loft: 45.0
+    lie: 63.5
+    length: 35.5
+    offset: 0.087
+stock_shafts:
+  - name: "Nippon N.S.PRO MODUS3 TOUR 105"
+    material: steel
+    flex: ["S"]
+sources:
+  - "Epon's own AF-307 product page, Specs table (https://epongolf.co.jp/product/af-307/, retrieved 29 September 2026) - supplied every loft, lie, offset and length above for the #4 through PW, the N.S.PRO MODUS3 TOUR 105 (S) build with a 409 g total weight at the 5-iron and D1.5 swing weight, the 'Carbon steel (S20C) Forged / Tungsten inside' head description and the statement that club length is measured by the 60-degree method. Offsets are published in millimetres (3.5 mm at the 4-iron down to 2.2 mm at the PW) and converted to inches here."
+  - "Epon press release 'AF-307を新発売（2025.02.21）' dated 31 January 2025 (https://epongolf.co.jp/news/8759/, retrieved 29 September 2026) - fixes the announcement date of 31 January 2025 and the on-sale date of 21 February 2025, and describes the tungsten on the toe and neck sides, the shorter centre-of-gravity distance, the taller face and the blade shaping."
+  - "Swing weight is published once for the build (D1.5) rather than per club, so the per-club key is omitted. Bounce is not published."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. The AF-307 has its own page among Epon's current products (https://epongolf.co.jp/product/af-307/) and no later AF-300-series release appears in Epon's press releases (https://epongolf.co.jp/news/category/press-release/)."
+related_models:
+  - slug: "epon/af-306-irons"
+    label: "Predecessor: Epon AF-306"
+faq:
+  - q: "What is the loft of an Epon AF-307 7-iron?"
+    a: "The Epon AF-307 7-iron has a loft of 32 degrees, with a 62-degree lie and a 37-inch length in the N.S.PRO MODUS3 TOUR 105 steel build."
+  - q: "How do the Epon AF-307 lofts differ from the AF-306?"
+    a: "The 4-iron through 8-iron are the same, from 23 to 36 degrees. The AF-307 9-iron is 40 degrees against 41, and the pitching wedge is 45 degrees against 46. Lies and offsets are unchanged."
+  - q: "When was the Epon AF-307 released?"
+    a: "Epon announced it on 31 January 2025 and put it on sale on 21 February 2025 through its Niigata direct store and authorised dealers."
+  - q: "Is the Epon AF-307 forged?"
+    a: "Yes. It is forged from S20C carbon steel, with tungsten weights on the toe and neck sides of the head."
+confidence: high

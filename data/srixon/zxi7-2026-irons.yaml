@@ -1,0 +1,115 @@
+brand: Srixon
+brand_slug: srixon
+model: ZXi7 (2026)
+slug: zxi7-2026-irons
+club_type: irons
+year_introduced: 2026
+year_discontinued: null
+current_as_of: "2026-09"
+category: players
+construction: forged
+material: single-piece forged S15C carbon steel body with a PureFrame iQ ridge and tungsten toe weighting
+successor: null
+predecessor: Srixon ZXi7
+description: >
+  The second-generation ZXi7 is the players model in Srixon's second ZXi iron line,
+  announced on 8 September 2026 with pre-sale from the same day and an official launch
+  date of 16 October 2026. It remains a single-piece S15C forging made by Endo in Japan,
+  now with PureFrame iQ, a wider and thicker forged ridge behind the sweet spot, and
+  slightly thinner toplines than the first generation. The lofts, lies, offsets and swing
+  weights in Srixon's table are identical to the first-generation ZXi7, with a 32-degree
+  7-iron and a 46-degree pitching wedge; the only published differences are the pitching
+  wedge, listed at 36.00 inches rather than 35.75, and the sand wedge, listed at 35.5
+  inches rather than 35.75. Heads run 3-iron through a 57-degree sand wedge, with 4-PW and
+  5-PW the stock sets and the 3-iron and sand wedge custom order only. Offsets are
+  converted from Srixon's published millimetre figures.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 60.0
+    length: 39.25
+    offset: 0.146
+    swing_weight: D3
+  - club: "4"
+    loft: 22.0
+    lie: 60.5
+    length: 38.75
+    offset: 0.138
+    swing_weight: D3
+  - club: "5"
+    loft: 25.0
+    lie: 61.0
+    length: 38.25
+    offset: 0.130
+    swing_weight: D3
+  - club: "6"
+    loft: 28.0
+    lie: 61.5
+    length: 37.75
+    offset: 0.122
+    swing_weight: D3
+  - club: "7"
+    loft: 32.0
+    lie: 62.0
+    length: 37.25
+    offset: 0.110
+    swing_weight: D3
+  - club: "8"
+    loft: 36.0
+    lie: 62.5
+    length: 36.75
+    offset: 0.094
+    swing_weight: D3
+  - club: "9"
+    loft: 41.0
+    lie: 63.0
+    length: 36.25
+    offset: 0.079
+    swing_weight: D3
+  - club: "PW"
+    loft: 46.0
+    lie: 63.5
+    length: 36.0
+    offset: 0.067
+    swing_weight: D3
+  - club: "AW"
+    loft: 51.0
+    lie: 63.5
+    length: 35.75
+    offset: 0.055
+    swing_weight: D4
+  - club: "SW"
+    loft: 57.0
+    lie: 63.5
+    length: 35.5
+    offset: 0.031
+    swing_weight: D4
+stock_shafts:
+  - name: "True Temper Dynamic Gold Mid 115"
+    material: steel
+    weight: "115g (S300)"
+    flex: ["S"]
+sources:
+  - "Srixon / Dunlop Sports US official ZXi7 irons product page, SKU MZXI7IRN27 (https://us.dunlopsports.com/srixon/clubs/irons/zxi7-irons/zxi7-irons/MZXI7IRN27.html, retrieved 29 September 2026) — full per-club specification table (head, loft, hand, lie, offset in mm, length, swing weight, 3-iron through SW), the footnote 'ZXi7 3 & ZXi7 SW Irons Offered Custom Only', the RH/LH column showing the 3-iron and sand wedge as right hand only, and the set options (4-PW, 5-PW and an individual AW)."
+  - "Note on offset: Srixon publishes offset in millimetres (3.7, 3.5, 3.3, 3.1, 2.8, 2.4, 2.0, 1.7, 1.4, 0.8) and it is converted to inches here (mm / 25.4)."
+  - "Note on length: compared with the first-generation table (SKU MZXI7IRN), every loft, lie, offset and swing weight is unchanged; only two lengths differ, the PW (36.00 inches against 35.75) and the SW (35.5 against 35.75). The second-generation page does not explain the change and does not repeat the first generation's footnote about the USGA / R&A measuring method, so no reason is given here."
+  - "Same Dunlop Sports US page, technology copy: i-FORGED with Condensed Forging in the hosel area and S15C steel in the single-piece body, PureFrame iQ, Tour V.T. Sole, progressive grooves, thinner toplines than the previous generation, forging by Endo, and a tungsten weight in the toe of the long and mid irons. Stock shaft table: True Temper Dynamic Gold Mid 115 (S300, 115g) with a Golf Pride Tour Velvet 360 52g grip; no stock graphite option is listed."
+  - "Announcement: Srixon press release dated 8 September 2026, 'Feel, perfected: Srixon launches second generation ZXi irons' (https://www.firstcallgolf.com/industry-news/release/2026-09-08/feel-perfected-srixon-launches-second-generation-zxi-irons) — pre-sale from 8 September 2026 and an official launch date of 16 October 2026. year_introduced uses the announcement year."
+  - "Status check, 29 September 2026: listed as a current product on Srixon's own US site under SKU MZXI7IRN27, 'Available To Order' with an estimated ship date shown, during the pre-sale period that runs to the 16 October 2026 launch. The first-generation ZXi7 (SKU MZXI7IRN) is still listed alongside it as 'ZXi7 Irons 2025'."
+related_models:
+  - slug: "srixon/zxi7-irons"
+    label: "Predecessor: Srixon ZXi7"
+  - slug: "srixon/zxi5-2026-irons"
+    label: "Range sibling: Srixon ZXi5 (2026)"
+  - slug: "srixon/zxi5-plus-irons"
+    label: "Range sibling: Srixon ZXi5+"
+faq:
+  - q: "What is the loft of a Srixon ZXi7 (2026) 7-iron?"
+    a: "The second-generation Srixon ZXi7 7-iron has a loft of 32 degrees, with a 62-degree lie and a published steel-shaft length of 37.25 inches."
+  - q: "Did the lofts change between the first and second generation Srixon ZXi7?"
+    a: "No. Srixon's table for the second generation has the same lofts, lies, offsets and swing weights as the first, from a 20-degree 3-iron to a 46-degree pitching wedge. Only two published lengths differ: the pitching wedge is listed at 36.00 inches instead of 35.75 and the sand wedge at 35.5 instead of 35.75."
+  - q: "When were the second-generation Srixon ZXi7 irons released?"
+    a: "Srixon announced them on 8 September 2026, opening pre-sale the same day, with an official launch date of 16 October 2026."
+  - q: "What clubs come in a stock Srixon ZXi7 (2026) set?"
+    a: "The stock sets are 4-iron through pitching wedge and 5-iron through pitching wedge, with the 51-degree approach wedge sold individually. The 3-iron and the 57-degree sand wedge are custom order only and right hand only."
+confidence: high

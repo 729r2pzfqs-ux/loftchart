@@ -79,6 +79,8 @@ sources:
   - "Bob Sailer Golf Service 'Maltby STi2 Irons' page (bobsailergolf.com, page since updated to cover the GEN 2 model) and staffordgolfstore.com 'Maltby STi2 Irons Heads Only' — corroborate the precision-cast 431 stainless construction chosen for a softer, forged-like feel, the undercut cavity with 0.729-inch CG depth, Variable Face Thickness design, Silica Gel damping in the 4-7 irons, progressive offset, and the Super Game Improvement Design category classification Maltby applies to this model."
   - "The GolfWorks 'Standard Lengths' chart (golfworks.com/content/description/standard-playing-lengths.png) — men's steel iron lengths of 38.5 (4-iron) down to 35.5 inches (PW/GW), used here because Maltby sells this head component-style and does not publish a model-specific length column."
 related_models:
+  - slug: "maltby/sti2-gen-2-irons"
+    label: "Successor: Maltby STi2 GEN 2"
   - slug: "maltby/ke4-max-irons"
     label: "More forgiving cast sibling in the same tier: Maltby KE4 Max"
 faq:

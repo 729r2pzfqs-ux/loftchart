@@ -72,6 +72,8 @@ sources:
 related_models:
   - slug: "bridgestone/221cb-irons"
     label: "Predecessor: Bridgestone 221CB"
+  - slug: "bridgestone/b-forged-100cb-irons"
+    label: "Successor: Bridgestone B-FORGED 100CB"
 faq:
   - q: "What is the loft of a Bridgestone 241CB 7-iron?"
     a: "The Bridgestone 241CB 7-iron has a loft of 32 degrees, with a 62-degree lie and a 37-inch length in the stock MODUS3 TOUR120 steel build (Japanese 60-degree measurement)."

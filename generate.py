@@ -2118,6 +2118,10 @@ REDIRECTS = {
     "/compare/taylormade-psi-vs-rsi-2/": "/compare/taylormade-rsi-2-vs-psi/",
     "/compare/taylormade-m1-vs-p770/": "/compare/taylormade-m1-vs-p770-2017/",
     "/compare/taylormade-r7-vs-m4/": "/taylormade/m4-irons/",
+    # The 2023 P7MC and P7MB got their own pages, and the P7CB and the 2023
+    # P770 now pair with those rather than with the 2020 generation.
+    "/compare/taylormade-p7mb-vs-p7cb/": "/compare/taylormade-p7mb-2023-vs-p7cb/",
+    "/compare/taylormade-p7mc-vs-p770-2023/": "/compare/taylormade-p770-2023-vs-p7mc-2023/",
 }
 
 

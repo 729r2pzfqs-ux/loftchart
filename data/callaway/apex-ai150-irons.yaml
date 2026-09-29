@@ -1,0 +1,102 @@
+brand: Callaway
+brand_slug: callaway
+model: Apex Ai150
+slug: apex-ai150-irons
+club_type: irons
+year_introduced: 2025
+year_discontinued: null
+current_as_of: "2026-09"
+category: players-distance
+construction: forged hollow body with a face cup in the long and mid irons
+material: forged 1025 carbon steel hollow body with a 455 steel face cup (3-7 irons) and a 17-4 stainless face (8-iron to AW)
+successor: null
+predecessor: Callaway Apex Pro (2024)
+description: >
+  The Apex Ai150 is the compact players-distance iron in Callaway's Apex Ai
+  range, launched in July 2025 as the replacement for the Apex Pro, with
+  pre-orders from 10 July and retail from 25 July 2025. It is a forged 1025
+  hollow body with a 455 face cup in the 3- to 7-irons and a 17-4 face from the
+  8-iron down, and uses the Ai10x face. Lofts are two degrees stronger than the
+  Apex Pro through the middle of the set, 31 degrees at the 7-iron against 33,
+  and one degree weaker than the Apex Ai200, with a 44-degree pitching wedge.
+  Figures are the men's standard right-handed steel build; the 3-iron is made
+  right-handed only, and swing weight and bounce are not published.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 60.0
+    length: 39.00
+    offset: 0.132
+  - club: "4"
+    loft: 22.0
+    lie: 60.5
+    length: 38.50
+    offset: 0.125
+  - club: "5"
+    loft: 24.0
+    lie: 61.0
+    length: 38.00
+    offset: 0.118
+  - club: "6"
+    loft: 27.0
+    lie: 61.5
+    length: 37.50
+    offset: 0.107
+  - club: "7"
+    loft: 31.0
+    lie: 62.0
+    length: 37.00
+    offset: 0.093
+  - club: "8"
+    loft: 35.0
+    lie: 62.5
+    length: 36.50
+    offset: 0.079
+  - club: "9"
+    loft: 39.0
+    lie: 63.0
+    length: 36.00
+    offset: 0.065
+  - club: "PW"
+    loft: 44.0
+    lie: 63.25
+    length: 35.75
+    offset: 0.060
+  - club: "AW"
+    loft: 49.0
+    lie: 63.5
+    length: 35.50
+    offset: 0.055
+stock_shafts:
+  - name: "True Temper Dynamic Gold Mid 115"
+    material: steel
+    weight: "115g"
+    flex: ["R", "S", "X"]
+  - name: "Mitsubishi Chemical MMT"
+    material: graphite
+    weight: "80g (R), 90g (S)"
+    flex: ["R", "S"]
+sources:
+  - "callawaygolf.com Apex Ai150 Irons product page specification table (https://www.callawaygolf.com/golf-clubs/irons/irons-2025-apex-ai150.html, retrieved 29 September 2026) — loft, lie, length and offset (in millimetres, to one decimal) for the 3-iron through approach wedge, the 3-iron listed RH only, the True Temper Dynamic Gold MID 115 steel stock shaft and the Golf Pride Z Grip Grey Cap (46g) grip. Callaway's European product page carries the identical table (https://eu.callawaygolf.com/en/gb/golf-clubs/iron-sets/irons-2025-apex-ai150.html)."
+  - "Callaway Apex Ai150 sell sheet (https://callawaymedia.com/wp-content/uploads/2025/06/2025-Apex-Ai-150-Sell-Sheet.pdf, retrieved 29 September 2026) — the same lofts, lies and lengths for the 3-iron through pitching wedge, offset in millimetres to two decimals (3.35, 3.18, 3, 2.72, 2.36, 2.01, 1.65, 1.52, 1.4), the construction (1025 forged hollow body, 455 face cup 3i-7i, 17-4 face 8i-W) and both stock shafts. The offsets recorded here are these two-decimal figures converted to inches (mm / 25.4); the product page rounds the same figures to one decimal."
+  - "Conflict on the approach wedge loft: both Callaway product pages give 49 degrees, while the sell sheet and Callaway's 2026 club spec chart PDF (https://callawaymedia.com/wp-content/uploads/2026/02/2026_Club-Spec-Charts_final.pdf) give 48 degrees. Every other figure agrees across all four documents. 49 degrees is recorded, following the live product pages, which are where the club is sold and configured."
+  - "golf.com 'Callaway Apex Ai150 irons: 4 things to know', published 10 July 2025 (https://golf.com/gear/irons/callaway-apex-ai150-irons-4-things-know/) — the announcement date used for year_introduced, pre-orders from 10 July 2025 and retail from 25 July 2025, the Ai150 as the replacement for the Apex Pro, and a matching 7-iron of 31 degrees, 62-degree lie and 37 inches. Callaway's media page (https://callawaymedia.com/portfolio/apex-ai150-irons/) gives the same pre-sale and retail dates."
+  - "Note: bounce and swing weight are not published in any of the Callaway documents consulted and are omitted rather than estimated."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. On sale at full price (1,649.99 dollars) on Callaway's own product page (https://www.callawaygolf.com/golf-clubs/irons/irons-2025-apex-ai150.html) and listed on Callaway Europe's iron sets page (https://eu.callawaygolf.com/en/gb/golf-clubs/iron-sets/)."
+related_models:
+  - slug: "callaway/apex-pro-2024-irons"
+    label: "Predecessor: Callaway Apex Pro (2024)"
+  - slug: "callaway/apex-ai200-irons"
+    label: "Range sibling: Callaway Apex Ai200"
+  - slug: "callaway/apex-ai300-irons"
+    label: "Range sibling: Callaway Apex Ai300"
+faq:
+  - q: "What is the loft of a Callaway Apex Ai150 7-iron?"
+    a: "The Callaway Apex Ai150 7-iron has a loft of 31 degrees, a lie of 62.0 degrees and a steel-shaft length of 37.00 inches."
+  - q: "When did the Callaway Apex Ai150 irons come out?"
+    a: "Callaway launched them in July 2025, with pre-orders from 10 July and retail from 25 July 2025, as the replacement for the Apex Pro."
+  - q: "Are Apex Ai150 lofts stronger than the Apex Pro?"
+    a: "Yes. The Ai150 is two degrees stronger through the middle of the set, 31 degrees at the 7-iron against 33 on the Apex Pro '24, and one degree stronger at the pitching wedge, 44 degrees against 45."
+  - q: "What is the difference between the Apex Ai150 and the Apex Ai200?"
+    a: "The Ai150 is the more compact of the two and its lofts are a degree weaker: 31 degrees at the 7-iron and 44 at the pitching wedge, against 30 and 43 on the Ai200. It also carries less offset, 0.093 inches at the 7-iron against 0.122."
+confidence: high

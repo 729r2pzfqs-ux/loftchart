@@ -104,6 +104,8 @@ sources:
 related_models:
   - slug: "ping/g710-irons"
     label: "Predecessor: Ping G710"
+  - slug: "ping/g740-irons"
+    label: "Successor: Ping G740"
   - slug: "ping/g440-irons"
     label: "Game-improvement sibling: Ping G440"
   - slug: "ping/i525-irons"

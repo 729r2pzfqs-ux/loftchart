@@ -1,0 +1,120 @@
+brand: Srixon
+brand_slug: srixon
+model: ZXi5 (2026)
+slug: zxi5-2026-irons
+club_type: irons
+year_introduced: 2026
+year_discontinued: null
+current_as_of: "2026-09"
+category: players-distance
+construction: forged multi-material
+material: forged S20C carbon steel body with a softened forged face, MainFrame iQ milling and tungsten toe weighting
+successor: null
+predecessor: Srixon ZXi5
+description: >
+  The second-generation ZXi5 is the model Srixon calls its players performance iron,
+  announced on 8 September 2026 with pre-sale from the same day and an official launch
+  date of 16 October 2026. It keeps a forged S20C body and softened forged face, made by
+  Endo in Japan, and replaces the earlier MainFrame milling with MainFrame iQ, a
+  variable-thickness pattern on the back of the face that Srixon says cuts face mass by up
+  to eight percent. The lofts, lies, offsets and swing weights in Srixon's table are
+  identical to the first-generation ZXi5, with a 31-degree 7-iron and a 44-degree pitching
+  wedge; the only published differences are the pitching wedge, listed at 36.00 inches
+  rather than 35.75, and the sand wedge, listed at 35.5 inches rather than 35.75. Heads
+  run 3-iron through a 56-degree sand wedge, with the 3-iron and sand wedge custom order
+  only. Offsets are converted from Srixon's published millimetre figures and swing
+  weights are the S-flex steel column.
+specs:
+  - club: "3"
+    loft: 20.0
+    lie: 60.0
+    length: 39.25
+    offset: 0.165
+    swing_weight: D3
+  - club: "4"
+    loft: 22.0
+    lie: 60.5
+    length: 38.75
+    offset: 0.157
+    swing_weight: D3
+  - club: "5"
+    loft: 24.0
+    lie: 61.0
+    length: 38.25
+    offset: 0.150
+    swing_weight: D3
+  - club: "6"
+    loft: 27.0
+    lie: 61.5
+    length: 37.75
+    offset: 0.142
+    swing_weight: D3
+  - club: "7"
+    loft: 31.0
+    lie: 62.0
+    length: 37.25
+    offset: 0.126
+    swing_weight: D3
+  - club: "8"
+    loft: 35.0
+    lie: 62.5
+    length: 36.75
+    offset: 0.118
+    swing_weight: D3
+  - club: "9"
+    loft: 39.0
+    lie: 63.0
+    length: 36.25
+    offset: 0.106
+    swing_weight: D3
+  - club: "PW"
+    loft: 44.0
+    lie: 63.5
+    length: 36.0
+    offset: 0.087
+    swing_weight: D3
+  - club: "AW"
+    loft: 50.0
+    lie: 63.5
+    length: 35.75
+    offset: 0.075
+    swing_weight: D4
+  - club: "SW"
+    loft: 56.0
+    lie: 63.5
+    length: 35.5
+    offset: 0.059
+    swing_weight: D4
+stock_shafts:
+  - name: "True Temper Dynamic Gold Mid 115/100"
+    material: steel
+    weight: "115g (S300), 105g (R300)"
+    flex: ["R", "S"]
+  - name: "Mitsubishi MMT Iron 60"
+    material: graphite
+    flex: ["A", "R", "S"]
+sources:
+  - "Srixon / Dunlop Sports US official ZXi5 irons product page, SKU MZXI5IRN27 (https://us.dunlopsports.com/srixon/clubs/irons/zxi5-irons/zxi5-irons/MZXI5IRN27.html, retrieved 29 September 2026) — full per-club specification table (head, loft, hand, lie, offset in mm, length, and swing weight in S, R and R/A flex columns, 3-iron through SW), the footnote 'ZXi5 3 & ZXi5 SW Irons Offered Custom Only', the RH/LH column showing the 3-iron and sand wedge as right hand only, and the set options (4-PW, 5-PW and an individual AW)."
+  - "Note on offset: Srixon publishes offset in millimetres (4.2, 4.0, 3.8, 3.6, 3.2, 3.0, 2.7, 2.2, 1.9, 1.5) and it is converted to inches here (mm / 25.4)."
+  - "Note on swing weight: the figures recorded are the S-flex steel column (D3, with D4 on the AW and SW). The page also lists D2/D3 for R flex and C9/D0 for the R/A graphite column."
+  - "Note on length: compared with the first-generation table (SKU MZXI5IRN), every loft, lie, offset and S-flex swing weight is unchanged; only two lengths differ, the PW (36.00 inches against 35.75) and the SW (35.5 against 35.75). The second-generation page does not explain the change and does not repeat the first generation's footnote about the USGA / R&A measuring method, so no reason is given here."
+  - "Same Dunlop Sports US page, technology copy: i-FORGED with Condensed Forging from the high toe along the topline and softened forged faces, MainFrame iQ, Tour V.T. Sole, progressive grooves, thinner toplines than the previous generation, forging by Endo, and 'a forged S20C steel body' with a tungsten weight in the toe of the long and mid irons. Stock shaft tables: True Temper Dynamic Gold Mid 115/100 (S300 115g, R300 105g) and Mitsubishi MMT Iron 60 graphite in S, R and A flex, with a Golf Pride Tour Velvet 360 52g grip. The graphite weights are omitted here because the page shows alternative figures for some flexes."
+  - "Announcement: Srixon press release dated 8 September 2026, 'Feel, perfected: Srixon launches second generation ZXi irons' (https://www.firstcallgolf.com/industry-news/release/2026-09-08/feel-perfected-srixon-launches-second-generation-zxi-irons) — pre-sale from 8 September 2026, an official launch date of 16 October 2026, and the statement that MainFrame iQ reduces face mass by as much as eight percent. year_introduced uses the announcement year."
+  - "Status check, 29 September 2026: listed as a current product on Srixon's own US site under SKU MZXI5IRN27, 'Available To Order' with an estimated ship date shown, during the pre-sale period that runs to the 16 October 2026 launch. The first-generation ZXi5 (SKU MZXI5IRN) is still listed alongside it as 'ZXi5 Irons 2025'."
+related_models:
+  - slug: "srixon/zxi5-irons"
+    label: "Predecessor: Srixon ZXi5"
+  - slug: "srixon/zxi7-2026-irons"
+    label: "Range sibling: Srixon ZXi7 (2026)"
+  - slug: "srixon/zxi5-plus-irons"
+    label: "Range sibling: Srixon ZXi5+"
+faq:
+  - q: "What is the loft of a Srixon ZXi5 (2026) 7-iron?"
+    a: "The second-generation Srixon ZXi5 7-iron has a loft of 31 degrees, with a 62-degree lie and a published steel-shaft length of 37.25 inches."
+  - q: "Did the lofts change between the first and second generation Srixon ZXi5?"
+    a: "No. Srixon's table for the second generation has the same lofts, lies, offsets and steel swing weights as the first, from a 20-degree 3-iron to a 44-degree pitching wedge. Only two published lengths differ: the pitching wedge is listed at 36.00 inches instead of 35.75 and the sand wedge at 35.5 instead of 35.75."
+  - q: "What is the difference between the Srixon ZXi5 (2026) and the ZXi5+?"
+    a: "The ZXi5+ is the stronger-lofted, more forgiving model, with a 29.5-degree 7-iron and 43-degree pitching wedge against 31 and 44 degrees on the ZXi5. Lies, lengths and published offsets are the same club for club, and Srixon describes the ZXi5+ as having longer blade lengths and wider soles."
+  - q: "When were the second-generation Srixon ZXi5 irons released?"
+    a: "Srixon announced them on 8 September 2026, opening pre-sale the same day, with an official launch date of 16 October 2026."
+confidence: high

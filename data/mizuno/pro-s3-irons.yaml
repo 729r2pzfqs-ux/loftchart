@@ -1,0 +1,94 @@
+brand: Mizuno
+brand_slug: mizuno
+model: Pro S-3
+slug: pro-s3-irons
+club_type: irons
+year_introduced: 2025
+year_discontinued: null
+current_as_of: "2026-09"
+category: players
+construction: Grain Flow Forged HD, one-piece
+material: 1025E Pure Select mild carbon steel with a copper underlay
+successor: null
+predecessor: Mizuno JPX-923 Tour
+description: >
+  The Mizuno Pro S-3 is a compact one-piece forged players iron announced in
+  January 2025, with pre-orders from 24 January and retail from 6 February
+  2025. It was the first model of the Mizuno Pro Signature series and took over
+  the role of the JPX923 Tour, the JPX Tour line ending with it, so it is a
+  functional rather than a named replacement. The head is Grain Flow Forged HD
+  from 1025E Pure Select mild carbon steel in Hiroshima with a copper underlay,
+  a thin topline and Mizuno's Triple Cut Sole. Lofts are traditional and match
+  the JPX923 Tour, 34 degrees at the 7-iron and 46 at the pitching wedge, and
+  the set is published 3-PW in both hands. Figures are the men's standard
+  steel-shaft build; Mizuno does not publish bounce or swing weight for it.
+length_note: >
+  These lengths use the USGA / R&A measuring method, which Mizuno adopted for
+  its published spec tables with this generation. They read about a quarter
+  inch longer than the figures Mizuno published for earlier models such as the
+  JPX923 and Mizuno Pro 241, 243 and 245, but Mizuno states that actual club
+  length is unchanged. Subtract 0.25 inches to compare with an older Mizuno
+  chart.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 60.0
+    length: 39.25
+    offset: 0.130
+  - club: "4"
+    loft: 24.0
+    lie: 60.5
+    length: 38.75
+    offset: 0.126
+  - club: "5"
+    loft: 27.0
+    lie: 61.0
+    length: 38.25
+    offset: 0.122
+  - club: "6"
+    loft: 30.0
+    lie: 61.5
+    length: 37.75
+    offset: 0.118
+  - club: "7"
+    loft: 34.0
+    lie: 62.0
+    length: 37.25
+    offset: 0.114
+  - club: "8"
+    loft: 38.0
+    lie: 62.5
+    length: 36.75
+    offset: 0.110
+  - club: "9"
+    loft: 42.0
+    lie: 63.0
+    length: 36.25
+    offset: 0.106
+  - club: "PW"
+    loft: 46.0
+    lie: 63.5
+    length: 35.75
+    offset: 0.102
+sources:
+  - "Length basis: Mizuno's own specification page for the Mizuno Pro 243 (https://mizunogolf.com/us/golf-clubs/mp-series/mizuno-pro-243/club-specification/, retrieved 29 September 2026) states that Mizuno is changing its official iron measurement method to match the USGA / R&A standard and that its published lengths are consequently about 1/4 inch longer while actual club length is unchanged. The Pro S-3 page itself carries no such footnote; its lengths (7-iron 37.25 inches) are on the new basis."
+  - "Mizuno official Pro S-3 club-specification page (https://mizunogolf.com/us/golf-clubs/mp-series/mizuno-pro-s3/club-specification/, retrieved 29 September 2026) — loft, lie, offset (published in inches) and length for the 3-iron through pitching wedge, and the dexterity note 'RH & LH: 3-PW'. The page does not publish bounce or swing weight, so those keys are omitted."
+  - "Mizuno official Pro S-3 product page (https://mizunogolf.com/us/golf-clubs/mp-series/mizuno-pro-s3/) — the same table and the construction copy: Grain Flow Forged HD at Mizuno's Hiroshima plant, 1025E Pure Select mild carbon steel, copper underlay, Triple Cut Sole with a bevelled leading edge, thin topline and sole, compact head length."
+  - "golf.com 'Mizuno Pro S-3 irons: 3 things to know', published 7 January 2025 (https://golf.com/gear/irons/mizuno-pro-s3-irons-3-things-know/) — the announcement date used for year_introduced, pre-orders from 24 January and retail from 6 February 2025, 200 dollars per club, the S-3 as the replacement for the JPX Tour line, its position between the Pro 241 muscle back and the Pro 243 cavity back, and its place at the start of the Mizuno Pro Signature family. Announcement and retail both fall in 2025."
+  - "Note: stock_shafts is omitted. Mizuno's pages list custom shaft options without naming the stock build, and the secondary sources consulted did not agree on it."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Listed on Mizuno's irons page (https://mizunogolf.com/us/irons/)."
+related_models:
+  - slug: "mizuno/jpx-923-tour-irons"
+    label: "Predecessor: Mizuno JPX-923 Tour"
+  - slug: "mizuno/pro-s1-irons"
+    label: "Range sibling: Mizuno Pro S-1"
+faq:
+  - q: "What is the loft of a Mizuno Pro S-3 7-iron?"
+    a: "The Mizuno Pro S-3 7-iron has a loft of 34 degrees, with a 62-degree lie and a 37.25-inch steel-shaft length measured by the USGA / R&A method."
+  - q: "Did the Mizuno Pro S-3 replace the JPX923 Tour?"
+    a: "In function, yes. Mizuno ended the JPX Tour line when it launched the Pro S-3 in January 2025, and the lofts are the same: 24 degrees at the 4-iron, 34 at the 7-iron and 46 at the pitching wedge."
+  - q: "What is the difference between the Mizuno Pro S-1 and S-3?"
+    a: "The S-1 is the muscle back of the Signature series; the S-3 sits between the muscle back and the cavity-back models of the Pro line. Lofts, lies and lengths are identical club for club; the S-3 carries more offset, 0.114 inches at the 7-iron against 0.087, and is published with a 21-degree 3-iron, which the S-1 is not."
+  - q: "When were the Mizuno Pro S-3 irons released?"
+    a: "Mizuno announced the Pro S-3 in January 2025, with pre-orders from 24 January and retail from 6 February 2025."
+confidence: high

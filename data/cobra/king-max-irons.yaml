@@ -92,6 +92,8 @@ sources:
   - "The Golf Wire press release 'COBRA Golf Introduces New King and King Max Irons' and GolfWRX 'Cobra launches new King and King Max irons' — announced 19 January 2026, fittings and pre-sale from 3 February 2026, at retail 6 February 2026, $999 steel / $1,099 graphite in 5-GW sets. Cobra positions the MAX as the oversized model with 2-degree weaker lofts and added offset versus the standard KING."
   - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. KING MAX irons live at full price in Cobra's irons collection (https://www.cobragolf.com/collections/golf-clubs-irons)."
 related_models:
+  - slug: "cobra/king-2026-irons"
+    label: "Range sibling: Cobra KING (2026)"
   - slug: "cobra/ds-adapt-irons"
     label: "Cobra's previous game-improvement iron family: DS-ADAPT"
   - slug: "cobra/air-x-2024-irons"

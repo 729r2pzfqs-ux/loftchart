@@ -1,0 +1,111 @@
+brand: Cobra
+brand_slug: cobra
+model: KING (2026)
+slug: king-2026-irons
+club_type: irons
+year_introduced: 2026
+year_discontinued: null
+current_as_of: "2026-09"
+category: game-improvement
+construction: multi-piece distance iron with a 360 SPEEDSHELL face insert, a polymer-encased internal weight and a 3D-printed medallion
+material: stainless steel body with a 360 SPEEDSHELL H.O.T. Face insert, an 80g catapult weight suspended in polymer and a 3D-printed lattice medallion
+successor: null
+predecessor: Cobra DS-ADAPT
+description: >
+  The KING is Cobra's standard game-improvement iron for 2026, announced in
+  January 2026 alongside the larger KING MAX as the replacement for the
+  DS-ADAPT, and at retail from 6 February 2026 at $999 in steel. It has the
+  more traditional shape and the stronger lofts of the two — a 27.5-degree
+  7-iron and a 42.5-degree pitching wedge, about 2 degrees stronger than the
+  KING MAX — and Cobra aims it at faster swingers in the 10 to 20 handicap
+  range. A 3D-printed lattice medallion frees mass to lower the centre of
+  gravity, an 80g catapult weight is suspended in polymer behind the 360
+  SPEEDSHELL face, and the SKID SOLE adds leading-edge bounce. Stock steel sets
+  are 4-iron through pitching wedge or 5-iron through gap wedge; graphite is
+  sold as 5-PW plus gap wedge. Swing weights below are the steel build, and
+  offsets are converted from Cobra's published millimetre figures.
+specs:
+  - club: "4"
+    loft: 19.0
+    lie: 62.0
+    length: 39.25
+    offset: 0.213
+    swing_weight: D2.5
+  - club: "5"
+    loft: 21.5
+    lie: 62.5
+    length: 38.5
+    offset: 0.181
+    swing_weight: D2.5
+  - club: "6"
+    loft: 24.5
+    lie: 63.0
+    length: 37.75
+    offset: 0.154
+    swing_weight: D2.5
+  - club: "7"
+    loft: 27.5
+    lie: 63.5
+    length: 37.25
+    offset: 0.126
+    swing_weight: D2.5
+  - club: "8"
+    loft: 32.0
+    lie: 64.0
+    length: 36.75
+    offset: 0.106
+    swing_weight: D2.5
+  - club: "9"
+    loft: 37.0
+    lie: 64.5
+    length: 36.25
+    offset: 0.083
+    swing_weight: D2.5
+  - club: "PW"
+    loft: 42.5
+    lie: 65.0
+    length: 36.0
+    offset: 0.063
+    swing_weight: D2.5
+  - club: "GW"
+    loft: 48.0
+    lie: 65.0
+    length: 35.75
+    offset: 0.043
+    swing_weight: D2.5
+  - club: "SW"
+    loft: 54.0
+    lie: 65.0
+    length: 35.5
+    offset: 0.043
+    swing_weight: D2.5
+stock_shafts:
+  - name: "KBS Tour Lite"
+    material: steel
+    weight: "105g"
+    flex: ["R", "S"]
+  - name: "KBS PGI 85 / 75 / 65"
+    material: graphite
+    weight: "65-85g"
+    flex: ["A", "R", "S"]
+sources:
+  - "Cobra Golf official 'KING Irons' product page, STOCK SPECS table (https://www.cobragolf.com/products/king-irons, retrieved live 29 September 2026) — supplies the club, loft, lie, offset in mm, length, steel swing weight D2.5, graphite swing weights D3/D2.5/D1.5 by flex and RH/LH columns for the 4-iron through sand wedge, the stock set comps (steel 4-PW and 5-GW; graphite 5-PW plus GW), the KBS Tour Lite 105g steel and KBS PGI 85/75/65 graphite shaft tables, the SuperStroke Crossline 360 Black grip, and the 3D-printed medallion, catapult weight, SKID SOLE and 360 SPEEDSHELL descriptions. Cobra names the model simply 'KING Irons'; '(2026)' is added here to separate it from Cobra's earlier KING-branded irons."
+  - "Offsets are published in millimetres (5.4, 4.6, 3.9, 3.2, 2.7, 2.1, 1.6, 1.1, 1.1) and converted here at 25.4 mm to the inch, rounded to three decimal places."
+  - "Cobra press release 'COBRA Golf Introduces New King and King Max Irons' as carried by The Golf Wire, published 20 January 2026 (https://thegolfwire.com/cobra-golf-king-max-irons/, retrieved 29 September 2026) — the January 2026 announcement used for year_introduced, fitting and pre-sale from 3 February 2026 and retail from 6 February 2026, $999 steel and $1,099 graphite, the 80g catapult weight (15g heavier than in the DS-ADAPT), the 10-20 handicap positioning and the KING MAX's 2-degree weaker lofts. Announcement and retail both fall in 2026."
+  - "The Shopify product record (https://www.cobragolf.com/products/king-irons.json) shows the page published on 5 February 2026 at $999; golfmagic.com's review (https://www.golfmagic.com/equipment/irons/cobra-king-king-max-irons-review) gives the 6 February 2026 release date and describes the KING as the DS-ADAPT's replacement."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. KING Irons listed at the full $999 price, with no compare-at price, in Cobra's irons collection (https://www.cobragolf.com/collections/golf-clubs-irons)."
+related_models:
+  - slug: "cobra/ds-adapt-irons"
+    label: "Predecessor: Cobra DS-ADAPT"
+  - slug: "cobra/king-max-irons"
+    label: "Range sibling: Cobra KING MAX"
+faq:
+  - q: "What is the loft of a Cobra KING (2026) 7-iron?"
+    a: "The Cobra KING (2026) 7-iron has a loft of 27.5 degrees, a lie of 63.5 degrees and a length of 37.25 inches."
+  - q: "How does the Cobra KING differ from the KING MAX?"
+    a: "The KING has the more traditional shape, less offset and lofts about 2 degrees stronger: a 27.5-degree 7-iron and 42.5-degree pitching wedge against 29.5 and 44.5 on the KING MAX. Lengths are the same. Cobra aims the KING at faster swingers and the MAX at moderate swing speeds."
+  - q: "How do the Cobra KING lofts compare with the DS-ADAPT?"
+    a: "They are half a degree weaker from the 5-iron to the pitching wedge — the 7-iron is 27.5 degrees against 27 and the pitching wedge 42.5 against 42 — while the 4-iron, gap wedge and sand wedge are unchanged at 19, 48 and 54 degrees. Lies and lengths are the same."
+  - q: "What clubs come in a stock Cobra KING set?"
+    a: "Stock steel sets are 4-iron through pitching wedge or 5-iron through gap wedge, and graphite sets are 5-iron through pitching wedge plus gap wedge. The specification table also lists a 54-degree sand wedge."
+confidence: high

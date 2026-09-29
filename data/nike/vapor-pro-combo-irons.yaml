@@ -1,0 +1,121 @@
+brand: Nike
+brand_slug: nike
+model: Vapor Pro Combo
+slug: vapor-pro-combo-irons
+club_type: irons
+year_introduced: 2014
+year_discontinued: 2016
+category: players
+construction: forged combo set with RZN-filled cavity long and mid irons and muscle-cavity short irons
+material: forged 1025 carbon steel with spring steel face inserts in the 2- to 7-irons
+successor: null
+predecessor: Nike VR Pro Combo
+description: >
+  The Vapor Pro Combo is the middle model of the Vapor iron family Nike unveiled in
+  August 2014 and sold as its 2015 line, sitting between the Vapor Pro blade and the
+  game-improvement Vapor Speed. It is a forged 1025 carbon steel combo set: the 2- to
+  7-irons have a cavity filled with Nike's RZN resin behind a spring steel face, and
+  the 8-iron through A-wedge are one-piece muscle-cavity heads. Lofts are one degree
+  stronger than the Vapor Pro throughout, with a 34-degree 7-iron and a 46-degree
+  pitching wedge. Nike's chart runs from a right-hand-only 2-iron to a 51-degree
+  A-wedge; the boxed retail set was eight clubs, 4-iron through A-wedge, with True
+  Temper DG Pro steel shafts.
+specs:
+  - club: "2"
+    loft: 18.0
+    lie: 59.0
+    length: 39.75
+    offset: 0.19
+    bounce: 3.0
+    swing_weight: D2.5
+  - club: "3"
+    loft: 20.0
+    lie: 59.0
+    length: 39.25
+    offset: 0.18
+    bounce: 3.0
+    swing_weight: D2.5
+  - club: "4"
+    loft: 23.0
+    lie: 60.0
+    length: 38.75
+    offset: 0.17
+    bounce: 4.0
+    swing_weight: D2.5
+  - club: "5"
+    loft: 26.0
+    lie: 61.0
+    length: 38.25
+    offset: 0.155
+    bounce: 5.0
+    swing_weight: D2.5
+  - club: "6"
+    loft: 30.0
+    lie: 62.0
+    length: 37.75
+    offset: 0.14
+    bounce: 6.0
+    swing_weight: D2.5
+  - club: "7"
+    loft: 34.0
+    lie: 62.5
+    length: 37.25
+    offset: 0.125
+    bounce: 7.0
+    swing_weight: D2.5
+  - club: "8"
+    loft: 38.0
+    lie: 63.0
+    length: 36.75
+    offset: 0.11
+    bounce: 8.0
+    swing_weight: D2.5
+  - club: "9"
+    loft: 42.0
+    lie: 63.5
+    length: 36.25
+    offset: 0.095
+    bounce: 9.0
+    swing_weight: D2.5
+  - club: "PW"
+    loft: 46.0
+    lie: 64.0
+    length: 36.0
+    offset: 0.08
+    bounce: 10.0
+    swing_weight: D2.5
+  - club: "AW"
+    loft: 51.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.065
+    bounce: 11.0
+    swing_weight: D2.5
+stock_shafts:
+  - name: "True Temper DG Pro"
+    material: steel
+    flex: ["R300", "S300", "X100"]
+sources:
+  - "Nike's own 'Tech Specs' chart for the Vapor Pro Combo irons, published as an image on the store.nike.com product page and archived at https://web.archive.org/web/20160616235756im_/http://images.nike.com/is/image/DotCom/en_us_vapor_pro_combo_irons?wid=1000 (capture of 16 June 2016, retrieved 29 September 2026). It supplied every loft, length, lie, bounce, offset and swing weight above for the 2-iron through A-wedge, the RZN cavity (2-7) and muscle cavity (8-A) split, and the True Temper DG Pro shaft in R300, S300 and X100. The chart is an image, so the figures were read from it by eye rather than parsed from text."
+  - "The product page that embeds that chart: https://web.archive.org/web/20160422094622/http://store.nike.com/us/en_us/pd/vapor-pro-combo-irons-4-iron-aw/pid-10260041/pgid-10995559 (capture of 22 April 2016) - 8-piece set, 4-iron through approach wedge, forged and milled 1025 carbon steel, True Temper DG Pro shaft. The chart lists the 2-iron as right-hand only; the 2- and 3-irons were not part of the boxed set."
+  - "Cross-check: 2nd Swing Golf's specification table (https://www.2ndswing.com/golf-clubs/iron-sets/nike-vapor-pro-combo-iron-set, retrieved 29 September 2026) matches Nike's chart in every cell. Today's Golfer (https://www.todays-golfer.com/equipment/golf-clubs/irons/nike/vapor/nike-vapor-pro-combo-irons/) and National Club Golfer independently give the 7-iron as 34 degrees, Today's Golfer with a 37.25-inch length."
+  - "Years follow the announcement-year convention. Vapor Pro, Vapor Pro Combo and Vapor Speed irons announced 19 August 2014 (https://www.golfmonthly.com/gear/gear-news/nike-vapor-irons-unveiled-56712; https://www.golfcanada.ca/articles/nike-golf-unveils-vapor-iron-franchise/), at retail from 31 October 2014 and sold as the 2015 line."
+  - "year_discontinued 2016 is the year the model left the catalogue, not a successor's announcement. PGATour.com's 10 December 2015 Vapor Fly launch report says Nike chose to leave the Vapor Pro and Vapor Pro Combo alone for 2016 (https://web.archive.org/web/20151216235502/http://www.pgatour.com/equipmentreport/2015/12/10/nike-debut-vapor-fly-pro-irons.html), so the Vapor Fly Pro is not recorded as a successor. The set was still on sale on store.nike.com on 22 April 2016, and Nike announced on 3 August 2016 that it would stop making clubs, balls and bags (https://www.golfmonthly.com/gear/gear-news/nike-to-stop-making-golf-clubs-111469). Hence successor: null."
+  - "Predecessor: The Hackers Paradise review of 17 November 2014 (https://www.thehackersparadise.com/nike-vapor-pro-combo-irons-review/) describes the set as the continued evolution of Nike's Pro-Combo irons; the VR Pro Combo was the Pro Combo model before it. Golfalot's review of 5 December 2014 (https://golfalot.com/equipment-review/nike-vapor-pro-combo-speed-irons-review) supplied the construction detail."
+related_models:
+  - slug: "nike/vr-pro-combo-irons"
+    label: "Predecessor: Nike VR Pro Combo"
+  - slug: "nike/vapor-pro-irons"
+    label: "Range sibling: Nike Vapor Pro"
+  - slug: "nike/vapor-speed-irons"
+    label: "Range sibling: Nike Vapor Speed"
+faq:
+  - q: "What is the loft of a Nike Vapor Pro Combo 7-iron?"
+    a: "The Nike Vapor Pro Combo 7-iron has a loft of 34 degrees, with a 62.5-degree lie and a 37.25-inch steel-shaft length."
+  - q: "What is the pitching wedge loft on the Nike Vapor Pro Combo?"
+    a: "The Vapor Pro Combo pitching wedge is 46 degrees, and the matching A-wedge is 51 degrees, a five-degree gap."
+  - q: "How do the Nike Vapor Pro Combo lofts compare to the Vapor Pro?"
+    a: "The Vapor Pro Combo is one degree stronger in every club: its 7-iron is 34 degrees against 35 for the Vapor Pro, and its pitching wedge 46 degrees against 47. Lengths and lies are the same, while the Pro Combo has more offset, 0.125 inches at the 7-iron against 0.080."
+  - q: "Which Nike Vapor Pro Combo irons have the RZN cavity?"
+    a: "The 2- through 7-irons have the RZN-filled cavity with a spring steel face. The 8-iron, 9-iron, pitching wedge and A-wedge are muscle-cavity heads."
+confidence: high

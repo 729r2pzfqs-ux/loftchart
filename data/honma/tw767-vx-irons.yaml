@@ -81,6 +81,8 @@ related_models:
     label: "Same generation, more compact blade-like head: Honma TW767 Tour V"
   - slug: "honma/tw767-px-irons"
     label: "Same generation, players-distance head: Honma TW767 Px"
+  - slug: "honma/tworld-vx-2026-irons"
+    label: "Successor: Honma T//WORLD Vx (2026)"
 faq:
   - q: "What is the loft of a Honma TW767 Vx 7-iron?"
     a: "The Honma TW767 Vx 7-iron has a loft of 30 degrees, a lie of 61.5 degrees and a length of 37.0 inches in the steel-shaft build."

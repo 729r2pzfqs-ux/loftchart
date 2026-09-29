@@ -8,7 +8,7 @@ year_discontinued: 2025
 category: game-improvement
 construction: cast cavity back with deep undercut cavity and VIBRCOR TPU fill
 material: 431 stainless steel
-successor: Tour Edge Hot Launch 525 series (E525/X525)
+successor: Tour Edge Hot Launch E525
 predecessor: Tour Edge Hot Launch C523
 description: >
   The Hot Launch C524 was the Competition Spec (C-range) iron in Tour Edge's
@@ -70,6 +70,8 @@ sources:
   - "thegolfwire.com / firstcallgolf.com 'Tour Edge unveils the all-new Hot Launch 525 Series' (dateline 2025-02-18, retail 1 March 2025) — basis for year_discontinued 2025 and for the successor note: the 525 Series replaced the C/E ranges with X525 and E525 models"
   - "Tour Edge does not publish offset, bounce, swing weight or per-shaft flex breakdowns for the C524 spec chart; those keys are omitted rather than estimated"
 related_models:
+  - slug: "tour-edge/hot-launch-e525-irons"
+    label: "Successor: Tour Edge Hot Launch E525"
   - slug: "tour-edge/hot-launch-e524-irons"
     label: "Iron-wood sibling: Tour Edge Hot Launch E524"
   - slug: "tour-edge/exotics-c723-irons"

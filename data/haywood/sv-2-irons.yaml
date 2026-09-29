@@ -1,0 +1,93 @@
+brand: Haywood
+brand_slug: haywood
+model: SV.2
+slug: sv-2-irons
+club_type: irons
+year_introduced: 2024
+year_discontinued: null
+current_as_of: "2026-09"
+category: game-improvement
+construction: hollow body, foam injected
+material: 431 stainless steel body with an S450 steel face
+successor: null
+predecessor: Haywood Signature
+description: >
+  The SV.2 is the second generation of Haywood's Signature iron, the hollow
+  game-improvement model in the Vancouver direct-to-consumer brand's range.
+  It keeps a 431 stainless body but moves to a thinner S450 face, with 18
+  grams of foam injected into the head for sound and feel and a fog silver
+  finish. Lofts are strong, with a 29.5-degree 7-iron and 43-degree pitching
+  wedge, and offset is progressive from 0.20 inches in the 4-iron to 0.06
+  inches in the approach wedge. Haywood's store published the model on 10
+  July 2024 together with the PD.1 players-distance iron. Built to order from
+  Haywood's shaft menu; swing weights are Haywood's figures for a 110-gram
+  shaft at standard length.
+specs:
+  - club: "4"
+    loft: 19.0
+    lie: 61.5
+    length: 38.5
+    offset: 0.20
+    swing_weight: D1
+  - club: "5"
+    loft: 22.0
+    lie: 62.0
+    length: 38.0
+    offset: 0.18
+    swing_weight: D1
+  - club: "6"
+    loft: 25.5
+    lie: 62.5
+    length: 37.5
+    offset: 0.16
+    swing_weight: D1
+  - club: "7"
+    loft: 29.5
+    lie: 63.0
+    length: 37.0
+    offset: 0.13
+    swing_weight: D1
+  - club: "8"
+    loft: 33.5
+    lie: 63.5
+    length: 36.5
+    offset: 0.10
+    swing_weight: D1
+  - club: "9"
+    loft: 38.0
+    lie: 64.0
+    length: 36.0
+    offset: 0.08
+    swing_weight: D1
+  - club: "PW"
+    loft: 43.0
+    lie: 64.5
+    length: 35.75
+    offset: 0.07
+    swing_weight: D2
+  - club: "AW"
+    loft: 48.0
+    lie: 64.5
+    length: 35.5
+    offset: 0.06
+    swing_weight: D2
+sources:
+  - "Haywood's own SV.2 product page, 'SV.2 specifications by club' table (https://www.haywoodgolf.com/products/sv-2-game-improvement-irons, retrieved 29 September 2026) - supplied every loft, length, lie, offset and swing weight above for the 4-iron through AW, the note that swing weights are based on standard length with a 110 g shaft, the 3.15-inch blade length, 0.3-inch top line and 0.90-inch sole width, and the 431 body, S450 face and 18 g foam-injection construction copy."
+  - "Announcement date: the Haywood store's product record (https://www.haywoodgolf.com/products/sv-2-game-improvement-irons.json, retrieved 29 September 2026) gives the SV.2 listing a published date of 10 July 2024 (created 13 June 2024), the same dates as the PD.1. year_introduced follows that date; no separate press release was found."
+  - "Bounce is not published for the SV.2 and is omitted. Haywood builds every set to order, so no stock shaft is recorded."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Listed and available to order on Haywood's irons collection (https://www.haywoodgolf.com/collections/irons) as the game-improvement model of the range."
+related_models:
+  - slug: "haywood/signature-irons"
+    label: "Predecessor: Haywood Signature"
+  - slug: "haywood/cb2-irons"
+    label: "Range sibling: Haywood CB2"
+  - slug: "haywood/mb2-irons"
+    label: "Range sibling: Haywood MB2"
+faq:
+  - q: "What is the loft of a Haywood SV.2 7-iron?"
+    a: "The Haywood SV.2 7-iron has a loft of 29.5 degrees, with a 63-degree lie, a 37-inch length and 0.13 inches of offset."
+  - q: "How do the Haywood SV.2 lofts compare with the Signature?"
+    a: "They are stronger through most of the set: the 4-iron goes from 20.5 to 19 degrees, the 7-iron from 30 to 29.5 and the pitching wedge from 44 to 43. Lies are half a degree more upright, and the SV.2 chart adds a 48-degree approach wedge."
+  - q: "Is the Haywood SV.2 forged?"
+    a: "No. It is a hollow game-improvement iron with a 431 stainless steel body, an S450 steel face and 18 grams of injected foam. Haywood's forged models are the CB2 and MB2."
+confidence: high

@@ -72,6 +72,9 @@ sources:
   - "Wayback Machine snapshot of stix.golf/products/stix-golf-iron-set-5-pw (26 January 2022) — the same heads in Stix's 2021-era sets with identical lofts and lies per club (22/25/28/33/39/45, lies 61-63.5), fixing the 2021 introduction"
   - "mygolfspy.com 'We Tried It: Stix Golf Perform Series' — independent corroboration of the Perform branding and the line's game-improvement positioning"
   - "Status check, 29 September 2026: year_discontinued is 2026. Stix launched the P02 Perform irons in January 2026 as the next generation of the Perform series (https://stix.golf/products/p02-perform-iron-set)."
+related_models:
+  - slug: "stix/p02-perform-irons"
+    label: "Successor: Stix P02 Perform"
 faq:
   - q: "What is the loft of a Stix Perform 7-iron?"
     a: "The Stix Perform 7-iron has a loft of 28 degrees, with a 62-degree lie and a 37-inch length."

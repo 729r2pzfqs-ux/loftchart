@@ -1,0 +1,92 @@
+brand: Haywood
+brand_slug: haywood
+model: MB2
+slug: mb2-irons
+club_type: irons
+year_introduced: 2026
+year_discontinued: null
+current_as_of: "2026-09"
+category: blade
+construction: forged and 100% CNC-milled
+material: 1020 carbon steel
+successor: null
+predecessor: Haywood MB
+description: >
+  The MB2 is Haywood's forged muscle back, published on the Vancouver
+  direct-to-consumer brand's site on 24 July 2026 alongside the CB2. Heads are
+  forged from 1020 carbon steel and fully CNC-milled, with a new V-Sole for
+  turf interaction, a thinner topline and a compact blade length. Lofts are
+  traditional - a 34-degree 7-iron and 46-degree pitching wedge - and match
+  the CB2 club-for-club for combo sets. The published chart runs 4-iron
+  through a 50-degree approach wedge; unlike the previous MB it lists no
+  3-iron. Built to order from Haywood's shaft menu; swing weights are
+  Haywood's figures for a 110-gram shaft at standard length.
+specs:
+  - club: "4"
+    loft: 23.0
+    lie: 60.5
+    length: 38.5
+    offset: 0.10
+    swing_weight: D3
+  - club: "5"
+    loft: 26.0
+    lie: 61.0
+    length: 38.0
+    offset: 0.09
+    swing_weight: D3
+  - club: "6"
+    loft: 30.0
+    lie: 61.5
+    length: 37.5
+    offset: 0.08
+    swing_weight: D3
+  - club: "7"
+    loft: 34.0
+    lie: 62.0
+    length: 37.0
+    offset: 0.07
+    swing_weight: D3
+  - club: "8"
+    loft: 38.0
+    lie: 62.5
+    length: 36.5
+    offset: 0.06
+    swing_weight: D3
+  - club: "9"
+    loft: 42.0
+    lie: 63.0
+    length: 36.0
+    offset: 0.05
+    swing_weight: D3
+  - club: "PW"
+    loft: 46.0
+    lie: 63.5
+    length: 35.75
+    offset: 0.04
+    swing_weight: D4
+  - club: "AW"
+    loft: 50.0
+    lie: 63.5
+    length: 35.5
+    offset: 0.03
+    swing_weight: D4
+sources:
+  - "Haywood's own MB2 product page, 'MB2 specifications by club' table (https://www.haywoodgolf.com/products/mb2-forged-muscle-back-irons, retrieved 29 September 2026) - supplied every loft, length, lie, offset and swing weight above for the 4-iron through AW, the note that swing weights are based on standard length with a 110 g shaft, the 3-inch blade length and 0.6-inch sole width, and the 1020 carbon steel, CNC-milled, V-Sole construction copy."
+  - "Announcement date: the Haywood store's product feed (https://www.haywoodgolf.com/products.json, retrieved 29 September 2026) gives the MB2 listing a published date of 24 July 2026 (created 20 July 2026). year_introduced follows that date; no separate press release was found."
+  - "Bounce is not published for the MB2 and is omitted. Haywood builds every set to order, so no stock shaft is recorded."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Listed and available to order on Haywood's irons collection (https://www.haywoodgolf.com/collections/irons), where the previous MB is still sold alongside it."
+related_models:
+  - slug: "haywood/mb-irons"
+    label: "Predecessor: Haywood MB"
+  - slug: "haywood/cb2-irons"
+    label: "Range sibling: Haywood CB2"
+  - slug: "haywood/sv-2-irons"
+    label: "Range sibling: Haywood SV.2"
+faq:
+  - q: "What is the loft of a Haywood MB2 7-iron?"
+    a: "The Haywood MB2 7-iron has a loft of 34 degrees, with a 62-degree lie, a 37-inch length and 0.07 inches of offset."
+  - q: "Did the lofts change from the Haywood MB to the MB2?"
+    a: "No. The 4-iron through pitching wedge keep the same lofts, lies, lengths and offsets as the previous MB. The MB2 chart adds a 50-degree approach wedge and no longer lists a 3-iron."
+  - q: "How does the Haywood MB2 differ from the CB2?"
+    a: "The two share identical lofts, lies and lengths. The MB2 is the muscle back, with a narrower 0.6-inch sole and 0.01 inches less offset per club; the CB2 adds a hidden undercut cavity and a 0.7-inch sole."
+confidence: high

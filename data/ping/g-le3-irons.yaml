@@ -84,6 +84,8 @@ sources:
 related_models:
   - slug: "ping/g-le2-irons"
     label: "Predecessor: Ping G Le2"
+  - slug: "ping/g-le4-irons"
+    label: "Successor: Ping G Le4"
   - slug: "ping/g430-irons"
     label: "Ping's men's game-improvement iron of the same period: Ping G430"
 faq:

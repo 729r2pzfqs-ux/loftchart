@@ -85,6 +85,8 @@ sources:
   - "Wayback Machine snapshot of haywoodgolf.com/products/haywoodmb-irons (12 August 2020) — the original 'SignatureMB' first iteration on sale in 2020 at $550, recorded here as the predecessor"
   - "Status check, 29 September 2026: year_discontinued is 2026. Haywood published the MB2 on 24 July 2026 (https://www.haywoodgolf.com/products/mb2-forged-muscle-back-irons); the original MB is still sold alongside it."
 related_models:
+  - slug: "haywood/mb2-irons"
+    label: "Successor: Haywood MB2"
   - slug: "haywood/cb-irons"
     label: "Cavity-back sibling: Haywood CB"
   - slug: "haywood/signature-irons"

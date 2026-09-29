@@ -1,0 +1,77 @@
+brand: Stix
+brand_slug: stix
+model: P02 Perform
+slug: p02-perform-irons
+club_type: irons
+year_introduced: 2026
+year_discontinued: null
+current_as_of: "2026-09"
+category: game-improvement
+construction: cast deep cavity back
+material: 17-4 stainless steel
+successor: null
+predecessor: Stix Perform
+description: >
+  The P02 Perform is the second generation of the iron in Stix Golf's
+  direct-to-consumer Perform sets, launched in January 2026. The deep cavity
+  back head moves from 431 to 17-4 stainless steel, with a larger cavity, a
+  2.5 mm face and a centre of gravity Stix says is lower and deeper than
+  before. Lofts are weaker than the first Perform through most of the set -
+  a 30-degree 7-iron against 28 - while the pitching wedge moves from 45 to
+  46 degrees. Sold 5-iron through pitching wedge with 120-gram steel shafts
+  in regular and stiff flex. Stix does not publish offset or bounce for this
+  model, so those keys are omitted.
+specs:
+  - club: "5"
+    loft: 23.0
+    lie: 61.0
+    length: 38.0
+    swing_weight: D2
+  - club: "6"
+    loft: 26.0
+    lie: 61.5
+    length: 37.5
+    swing_weight: D2
+  - club: "7"
+    loft: 30.0
+    lie: 62.0
+    length: 37.0
+    swing_weight: D2
+  - club: "8"
+    loft: 34.0
+    lie: 62.5
+    length: 36.5
+    swing_weight: D2.5
+  - club: "9"
+    loft: 40.0
+    lie: 63.0
+    length: 36.0
+    swing_weight: D2.5
+  - club: "PW"
+    loft: 46.0
+    lie: 63.5
+    length: 35.5
+    swing_weight: D2.5
+stock_shafts:
+  - name: "Stix steel"
+    material: steel
+    weight: "120g"
+    flex: ["R", "S"]
+sources:
+  - "Stix's own P02 Perform Iron Set product page, 'Iron Set Spec' table (https://stix.golf/products/p02-perform-iron-set, retrieved 29 September 2026) - supplied every loft, length, lie and swing weight above for the 5-iron through PW, plus head weights of 257 to 294 g, the 17-4 stainless steel head material and the 120 g shaft weight. The table heads the length row 'Length (+/- .5 inch)' and prints the pitching-wedge lie as 63.5 with an inch mark, read here as 63.5 degrees in line with the half-degree steps of the rest of the row."
+  - "Announcement date: the Stix store's product feed (https://stix.golf/products.json, retrieved 29 September 2026) gives the P02 Perform 12-club sets a published date of 29 January 2026 and the standalone iron set 5 March 2026. year_introduced follows the January date; the feed's 12-club set copy supplies the 17-4 deep cavity back, bigger cavity, progressive offset and 2.5 mm face description."
+  - "Offset and bounce are not published for the P02 Perform and are omitted rather than estimated. The iron set page states that only steel shafts are currently available for the standalone set; graphite is offered on irons within the 12-club sets."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Listed and available to order on Stix's own store (https://stix.golf/products/p02-perform-iron-set), described there as the next generation of the Perform Series."
+related_models:
+  - slug: "stix/perform-irons"
+    label: "Predecessor: Stix Perform"
+faq:
+  - q: "What is the loft of a Stix P02 Perform 7-iron?"
+    a: "The Stix P02 Perform 7-iron has a loft of 30 degrees, with a 62-degree lie and a 37-inch length."
+  - q: "How do the P02 Perform lofts compare with the original Stix Perform?"
+    a: "They are weaker through most of the set. The 5-iron goes from 22 to 23 degrees, the 6-iron from 25 to 26, the 7-iron from 28 to 30, the 8-iron from 33 to 34, the 9-iron from 39 to 40 and the pitching wedge from 45 to 46. Lies and lengths are unchanged."
+  - q: "What are Stix P02 Perform irons made of?"
+    a: "They are 17-4 stainless steel deep cavity backs. The first-generation Perform used 431 stainless steel."
+  - q: "What clubs come in a Stix P02 Perform iron set?"
+    a: "The set is six clubs, 5-iron through a 46-degree pitching wedge, with 120-gram steel shafts in regular or stiff flex."
+confidence: high

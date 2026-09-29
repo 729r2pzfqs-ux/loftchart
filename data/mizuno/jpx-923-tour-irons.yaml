@@ -76,6 +76,8 @@ sources:
   - "Predecessor is the JPX-921 Tour, the previous compact players model in the JPX line (announced August 2020), which the JPX 923 family replaced on its 2022 announcement."
   - "Status check, 29 September 2026: year_discontinued is 2025. Mizuno ended the JPX Tour line when it launched the Pro S-3 in January 2025 (https://golf.com/gear/irons/mizuno-pro-s3-irons-3-things-know/); the S-3 is the functional rather than a named replacement."
 related_models:
+  - slug: "mizuno/pro-s3-irons"
+    label: "Successor: Mizuno Pro S-3"
   - slug: "mizuno/jpx-921-tour-irons"
     label: "Predecessor: Mizuno JPX-921 Tour"
   - slug: "mizuno/jpx-923-forged-irons"

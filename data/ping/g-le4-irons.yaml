@@ -1,0 +1,101 @@
+brand: Ping
+brand_slug: ping
+model: G Le4
+slug: g-le4-irons
+club_type: irons
+year_introduced: 2026
+year_discontinued: null
+current_as_of: "2026-09"
+category: super-game-improvement
+construction: investment cast
+material: stainless steel with high-density tip and toe weights and a multi-material PurFlex cavity badge
+successor: null
+predecessor: Ping G Le3
+description: >
+  The G Le4 is the fourth generation of Ping's club line engineered
+  specifically for women, announced on 10 March 2026 as the replacement for the
+  G Le3. The irons are lightweight, perimeter-weighted stainless steel heads
+  with a thin face, high-density tip and toe weights and a PurFlex cavity
+  badge, sold as an iron/hybrid combination: the irons run 6-iron through sand
+  wedge, with G Le4 hybrids of 22, 26.5, 31 and 36 degrees (5H to 8H) available
+  above and alongside them. Lofts, lies and lengths are close to the G Le3 —
+  29.5 degrees at the 7-iron — with the pitching wedge half a degree weaker at
+  46.5 and the utility wedge half a degree stronger at 51.5. The specs below
+  are the women's standard graphite build with Ping's ALTA Le i shaft; no steel
+  shaft is offered. Ping also publishes Power Spec and Retro Spec loft options;
+  the figures below are the standard lofts only, with lies for the black
+  (standard) colour code.
+specs:
+  - club: "6"
+    loft: 25.0
+    lie: 61.5
+    length: 37.125
+    offset: 0.2
+    bounce: 8.1
+    swing_weight: C1
+  - club: "7"
+    loft: 29.5
+    lie: 62.0
+    length: 36.5
+    offset: 0.18
+    bounce: 9.7
+    swing_weight: C2
+  - club: "8"
+    loft: 35.0
+    lie: 62.7
+    length: 36.0
+    offset: 0.15
+    bounce: 10.1
+    swing_weight: C2
+  - club: "9"
+    loft: 41.0
+    lie: 63.5
+    length: 35.5
+    offset: 0.13
+    bounce: 11.6
+    swing_weight: C2.5
+  - club: "PW"
+    loft: 46.5
+    lie: 64.1
+    length: 35.0
+    offset: 0.11
+    bounce: 12.0
+    swing_weight: C4
+  - club: "UW"
+    loft: 51.5
+    lie: 64.1
+    length: 35.0
+    offset: 0.11
+    bounce: 13.1
+    swing_weight: C5
+  - club: "SW"
+    loft: 56.0
+    lie: 64.4
+    length: 34.5
+    offset: 0.08
+    bounce: 13.0
+    swing_weight: C6
+stock_shafts:
+  - name: "Ping ALTA Le i (Ultra Lite 44g / Lite 50g)"
+    material: graphite
+sources:
+  - "Ping's own G Le4 Irons/Hybrids product page, Key Specifications table (https://ping.com/en-us/golf-clubs/irons/g-le4-iron, retrieved 29 September 2026) — supplied every length, loft, lie, offset, bounce and swing weight above for the 6-iron through sand wedge, the 5H-8H hybrid specs quoted in the description, the note that 'Lie angle is based on Black Color Code at standard length', and the ALTA Le i (irons) and ALTA Le H (hybrids) graphite shafts in Ultra Lite and Lite flexes. Ping labels the pitching wedge 'W'; it is recorded here as PW. Lengths are the graphite build, the only one offered."
+  - "Note: Ping's chart also carries Power Spec lofts (28.5 degrees at the 7-iron) and Retro Spec lofts (30.5 degrees at the 7-iron) as fitting options; only the STANDARD lofts are recorded here. The hybrids are not recorded as rows because this file covers the irons."
+  - "Ping press release 'G Le4 family offers premium performance for women', dated 10 March 2026 (https://ping.com/en-us/discover-ping/news/g-le4-family-offers-premium-performance-for-women, retrieved 29 September 2026) — the announcement date used for year_introduced (fittings and pre-order opened the same day), the stainless steel heads with a thin face and high-density tip and toe weights, the PurFlex cavity badge, the 6-9 iron plus PW, UW and SW range, and the addition of an 8-hybrid."
+  - "Comparison with the G Le3 uses the G Le3 figures already on file, taken from Ping's G Le3 product page."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Tagged 'New' among Ping's current irons, while the G Le3 is tagged 'Fill In or Replacement' (https://ping.com/en-us/golf-clubs/irons)."
+related_models:
+  - slug: "ping/g-le3-irons"
+    label: "Predecessor: Ping G Le3"
+  - slug: "ping/g740-irons"
+    label: "Ping's men's super-game-improvement iron of the same launch: Ping G740"
+faq:
+  - q: "What is the loft of a Ping G Le4 7-iron?"
+    a: "The Ping G Le4 7-iron has a standard loft of 29.5 degrees, a standard (black dot) lie of 62.0 degrees and a graphite-shaft length of 36.5 inches."
+  - q: "What clubs are in the Ping G Le4 iron set?"
+    a: "The irons run from a 25-degree 6-iron to a 41-degree 9-iron, with a 46.5-degree pitching wedge, a 51.5-degree utility wedge and a 56-degree sand wedge. Matching G Le4 hybrids of 22, 26.5, 31 and 36 degrees (5H to 8H) fill the longer slots."
+  - q: "How do the Ping G Le4 lofts differ from the G Le3?"
+    a: "The 6-iron to 9-iron and the sand wedge keep the same standard lofts. The pitching wedge is half a degree weaker at 46.5 degrees and the utility wedge half a degree stronger at 51.5, which evens the gaps between the 9-iron and the sand wedge."
+  - q: "When were Ping G Le4 irons released?"
+    a: "Ping announced the G Le4 family on 10 March 2026, with custom fittings and pre-orders opening the same day."
+confidence: high

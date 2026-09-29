@@ -1,0 +1,97 @@
+brand: Honma
+brand_slug: honma
+model: Beres 10
+slug: beres-10-irons
+club_type: irons
+year_introduced: 2026
+year_discontinued: null
+current_as_of: "2026-09"
+category: super-game-improvement
+construction: cast/forged hybrid (forged mild-steel body, L-cup face)
+material: forged S25C mild steel body with an AM355P face (5-9) and an ES235 face (10-SW)
+successor: null
+predecessor: Honma Beres 09
+description: >
+  The tenth-generation Beres, sold in Japan as the BERES 2026 Model, continues
+  Honma's premium lightweight line with a head chart carried over unchanged from the
+  Beres 09: the same lofts, lies, lengths and offsets, with a 27-degree 7-iron. It
+  went on sale in Japan on 30 January 2026 and was announced for the US on 3 February
+  2026. Honma describes a revised "Speed Core Face" with a three-dimensional L-cup
+  face and variable thickness, and the styling is drawn from Edo Kiriko cut glass. The
+  set is graphite only, on new ARMRQ FLIGHT shafts in 3-Star to 5-Star grades at very
+  light C8 to D0 swing weights, which vary by flex and are not tabled here. Honma
+  numbers the scoring clubs: the 40-degree 10 is the pitching wedge and the 45-degree
+  11 the gap wedge, ahead of a 50-degree AW and 55-degree SW.
+specs:
+  - club: "5"
+    loft: 21.0
+    lie: 61.0
+    length: 38.25
+    offset: 0.157
+  - club: "6"
+    loft: 24.0
+    lie: 61.5
+    length: 37.75
+    offset: 0.146
+  - club: "7"
+    loft: 27.0
+    lie: 62.0
+    length: 37.25
+    offset: 0.138
+  - club: "8"
+    loft: 31.0
+    lie: 62.5
+    length: 36.75
+    offset: 0.138
+  - club: "9"
+    loft: 35.0
+    lie: 63.0
+    length: 36.25
+    offset: 0.138
+  - club: "10"
+    loft: 40.0
+    lie: 63.0
+    length: 35.75
+    offset: 0.138
+  - club: "11"
+    loft: 45.0
+    lie: 63.0
+    length: 35.5
+    offset: 0.118
+  - club: "AW"
+    loft: 50.0
+    lie: 63.0
+    length: 35.5
+    offset: 0.118
+  - club: "SW"
+    loft: 55.0
+    lie: 64.0
+    length: 35.0
+    offset: 0.079
+stock_shafts:
+  - name: "Honma ARMRQ FLIGHT (3-Star to 5-Star grades)"
+    material: graphite
+    flex: ["R", "SR", "S"]
+  - name: "Honma ARMRQ FLIGHT LIGHT"
+    material: graphite
+    weight: "light"
+    flex: ["R"]
+sources:
+  - "Honma's own BERES 10 IRON product page, specification table (https://www.honmagolf.com/int/product-details/11150, retrieved 29 September 2026) — every loft, lie, length and offset recorded here (offsets 4.0/3.7/3.5/3.0/2.0 mm converted to inches, mm / 25.4; the table's merged cells place the 63.0-degree lie across the 9 through AW, 64.0 on the SW, the 3.5 mm offset across the 7 through 10, the 3.0 mm offset across the 11 and AW, and the 35.5-inch length across the 11 and AW), plus the S25C body with AM355P face (5-9) and ES235 face (10-SW), the Speed Core Face and 3D L-cup face descriptions, and the ARMRQ FLIGHT shaft matrix. The Japanese page for the BERES 2026 iron (https://www.honmagolf.com/jp/product-details/11186) carries the identical head table."
+  - "Note on swing weight: the set is graphite only and Honma's swing weights vary by flex (C8 for LIGHT R and R, C9 for SR and S, with the SW one point heavier at C9 or D0; total weights about 342 to 393 g), so the swing_weight key is omitted rather than tied to one flex."
+  - "Note on bounce: Honma's US store page for the 3-Star Beres 10 iron (https://us.honmagolf.com/products/3-star-iron-beres-11) publishes a bounce row, but the same table drops one lie value and gives swing weights that disagree with the global page, and no second source for the bounce figures was found, so bounce is omitted."
+  - "Announcement: Minna no Golf Digest, 27 January 2026 (https://www.golfdigest-minna.jp/_ct/17818026) — reports Honma's announcement of the 'BERES 2026 Model' for sale in Japan from 30 January 2026. Honma's US release 'Honma Golf's BERES 10: artistry meets pure speed' is dated 3 February 2026 (https://www.firstcallgolf.com/industry-news/release/2026-02-03/honma-golfs-beres-10-artistry-meets-pure-speed) and gives the men's irons as forged S25C at $550, $1,350 and $5,000 per club for the 3-Star, 4-Star and 5-Star grades. year_introduced is 2026 on that basis; no earlier public announcement was found."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. On sale on Honma's US store in 3-Star, 4-Star and 5-Star grades (https://us.honmagolf.com/products/3-star-iron-beres-11) and listed under the BERES 10 family on honmagolf.com."
+related_models:
+  - slug: "honma/beres-09-irons"
+    label: "Predecessor: Honma Beres 09"
+faq:
+  - q: "What is the loft of a Honma Beres 10 7-iron?"
+    a: "The Honma Beres 10 7-iron has a loft of 27 degrees, a lie of 62 degrees and a length of 37.25 inches."
+  - q: "What changed between the Honma Beres 09 and Beres 10?"
+    a: "The head chart is identical: the same lofts, lies, lengths and offsets. The Beres 10 introduces the ARMRQ FLIGHT shaft family in place of the 09's ARMRQ FX, a revised Speed Core Face with a three-dimensional L-cup face, and new styling based on Edo Kiriko cut glass."
+  - q: "What are the 10 and 11 irons in a Honma Beres 10 set?"
+    a: "Honma numbers its scoring clubs. The 10 is the pitching wedge at 40 degrees and the 11 is the gap wedge at 45 degrees, followed by a 50-degree AW and a 55-degree SW."
+  - q: "When were Honma Beres 10 irons released?"
+    a: "The line went on sale in Japan, as the BERES 2026 Model, on 30 January 2026, and Honma announced it for the US on 3 February 2026."
+confidence: high

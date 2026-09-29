@@ -76,6 +76,8 @@ related_models:
     label: "Same generation, players-distance head: Honma TW767 Px"
   - slug: "honma/tw767-hx-irons"
     label: "Same generation, game-improvement head: Honma TW767 Hx"
+  - slug: "honma/tworld-tour-v-2026-irons"
+    label: "Successor: Honma T//WORLD Tour V (2026)"
 faq:
   - q: "What is the loft of a Honma TW767 Tour V 7-iron?"
     a: "The Honma TW767 Tour V 7-iron has a loft of 32 degrees, a lie of 61.5 degrees and a length of 36.75 inches."

@@ -96,6 +96,8 @@ sources:
   - "Years follow the announcement-year convention. Mizuno Pro 241, 243 and 245 announced 16 October 2023, with pre-orders from 8 January 2024 and retail from 25 January 2024 (https://golf.com/gear/irons/mizuno-pro-24x-irons-5-things-need-know/); the year is the announcement, not the retail year."
   - "Status check, 29 September 2026: year_discontinued is 2025. The Mizuno Pro S-1 replaced the Pro 241, with pre-orders from 28 August 2025 (https://mygolfspy.com/news-opinion/mizuno-pro-s-1-irons-building-the-signature-series/)."
 related_models:
+  - slug: "mizuno/pro-s1-irons"
+    label: "Successor: Mizuno Pro S-1"
   - slug: "mizuno/pro-221-irons"
     label: "Predecessor: Mizuno Pro 221"
   - slug: "mizuno/pro-243-irons"

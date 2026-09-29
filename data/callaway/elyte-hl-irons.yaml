@@ -1,0 +1,120 @@
+brand: Callaway
+brand_slug: callaway
+model: Elyte HL
+slug: elyte-hl-irons
+club_type: irons
+year_introduced: 2025
+year_discontinued: 2026
+category: game-improvement
+construction: Speed Frame cast body with an Ai10x face and a tri-sole design
+material: stainless body with an Ai10x face
+successor: null
+predecessor: Callaway Paradym Ai Smoke HL
+description: >
+  HL is the high-launch head in Callaway's 2025 Elyte iron family, announced on
+  2 January 2025 alongside the standard Elyte, Elyte X and Elyte Max Fast, and
+  follows the Paradym Ai Smoke HL. It is a degree weaker than the standard
+  Elyte at the 7-iron and pitching wedge, 30 and 43 degrees against 29 and 42,
+  and a quarter of an inch longer at 37.5 inches in the 7-iron. The set runs
+  from the 4-iron to a 56-degree sand wedge. Callaway replaced the Elyte family
+  with the Quantum irons in January 2026; there is no separate HL model in that
+  line, where HL became an optional loft specification on the Quantum Max and
+  Quantum Max OS. Figures are the men's standard build, with the steel swing
+  weight.
+specs:
+  - club: "4"
+    loft: 20.0
+    lie: 60.0
+    length: 39.75
+    offset: 0.185
+    swing_weight: D1
+  - club: "5"
+    loft: 23.0
+    lie: 60.75
+    length: 39.00
+    offset: 0.165
+    swing_weight: D1
+  - club: "6"
+    loft: 26.0
+    lie: 61.5
+    length: 38.25
+    offset: 0.150
+    swing_weight: D1
+  - club: "7"
+    loft: 30.0
+    lie: 62.25
+    length: 37.50
+    offset: 0.130
+    swing_weight: D1
+  - club: "8"
+    loft: 34.0
+    lie: 63.0
+    length: 36.75
+    offset: 0.106
+    swing_weight: D1
+  - club: "9"
+    loft: 38.0
+    lie: 63.75
+    length: 36.00
+    offset: 0.079
+    swing_weight: D1
+  - club: "PW"
+    loft: 43.0
+    lie: 64.0
+    length: 35.75
+    offset: 0.059
+    swing_weight: D1
+  - club: "AW"
+    loft: 48.0
+    lie: 64.0
+    length: 35.50
+    offset: 0.059
+    swing_weight: D1
+  - club: "GW"
+    loft: 52.0
+    lie: 64.0
+    length: 35.50
+    offset: 0.059
+    swing_weight: D1
+  - club: "SW"
+    loft: 56.0
+    lie: 64.0
+    length: 35.50
+    offset: 0.059
+    swing_weight: D1
+stock_shafts:
+  - name: "Project X Denali Charcoal 55 / 65 / 75"
+    material: graphite
+    flex: ["A", "R", "S"]
+  - name: "KBS MAX 80"
+    material: steel
+    weight: "86g (R), 90g (S)"
+    flex: ["R", "S"]
+sources:
+  - "callawaygolf.com Elyte HL Irons product page specification table (https://www.callawaygolf.com/golf-clubs/irons/irons-2025-elyte-hl.html, retrieved 29 September 2026) — loft, lie, length, offset (in millimetres) and swing weight for the 4-iron through sand wedge, all listed RH / LH, with the Project X Denali Charcoal 65 graphite as the default shaft. Offset is converted to inches here (mm / 25.4; 7-iron 3.3 mm = 0.130 in)."
+  - "Callaway Europe Elyte HL Irons product page specification table (https://eu.callawaygolf.com/en/gb/golf-clubs/iron-sets/irons-2025-elyte-hl.html, retrieved 29 September 2026) — an identical loft, lie, length, offset and swing weight table, plus the shaft tables: KBS MAX 80 steel (Regular 86g, Stiff 90g) and Project X Denali Charcoal 55 / 65 / 75 graphite. The steel shaft is taken from the European page; the US page showed only the default graphite configuration."
+  - "Note on swing weight: Callaway publishes 'D1/C9'. On the Paradym Ai Smoke HL page the same pair was labelled D1 for steel and C9 for graphite, and D1 is recorded here as the steel figure. Bounce is not published and is omitted rather than estimated."
+  - "Callaway Golf press release, 2 January 2025, 'Callaway Golf Announces New Elyte Family of Woods and Irons' (https://callawaymedia.com/wp-content/uploads/2025/01/Elyte-Press-Release-January2.pdf) — the announcement date used for year_introduced, pre-orders from 17 January and iron retail from 7 February 2025, the four iron models (Standard, X, HL and Max Fast), and the Speed Frame, Ai 10x Face and tri-sole construction."
+  - "Succession: Callaway announced the Quantum iron family on 16 January 2026 (https://callawaymedia.com/wp-content/uploads/2026/01/Quantum-Press-Release.pdf), so year_discontinued is 2026, as in the other Elyte files. Callaway's 2026 club spec chart (https://callawaymedia.com/wp-content/uploads/2026/02/2026_Club-Spec-Charts_final.pdf) lists three Quantum irons, Max, Max OS and Max Fast, with an 'HL' loft column on the Max and Max OS tables rather than a separate HL head, so successor is null."
+  - "Status check, 29 September 2026: not a current model. Still sold by Callaway but marked 'Sale' at a reduced price on its US product page and 'Price Drop' on its European page, with the Quantum line listed as the new range (https://eu.callawaygolf.com/en/gb/golf-clubs/iron-sets/)."
+related_models:
+  - slug: "callaway/paradym-ai-smoke-hl-irons"
+    label: "Predecessor: Callaway Paradym Ai Smoke HL"
+  - slug: "callaway/elyte-irons"
+    label: "Range sibling: Callaway Elyte"
+  - slug: "callaway/elyte-x-irons"
+    label: "Range sibling: Callaway Elyte X"
+  - slug: "callaway/elyte-max-fast-irons"
+    label: "Range sibling: Callaway Elyte Max Fast"
+  - slug: "callaway/quantum-max-os-irons"
+    label: "Later Callaway iron with an optional HL loft specification: Callaway Quantum Max OS"
+faq:
+  - q: "What is the loft of a Callaway Elyte HL 7-iron?"
+    a: "The Callaway Elyte HL 7-iron has a loft of 30 degrees, a lie of 62.25 degrees and a length of 37.50 inches."
+  - q: "What is the difference between the Callaway Elyte and Elyte HL?"
+    a: "The HL is built to launch higher. It is a degree weaker at the 7-iron and pitching wedge, 30 and 43 degrees against 29 and 42, and a quarter of an inch longer at the 7-iron, 37.5 inches against 37.25."
+  - q: "Are Elyte HL lofts the same as the Paradym Ai Smoke HL?"
+    a: "From the 7-iron to the pitching wedge, yes: 30, 34, 38 and 43 degrees. The Elyte HL is a degree stronger in the 4-, 5- and 6-irons, at 20, 23 and 26 degrees, and a degree weaker in the three wedges below the pitching wedge, at 48, 52 and 56 degrees."
+  - q: "Is there a Callaway Quantum HL iron?"
+    a: "Not as a separate model. The Quantum irons that replaced the Elyte family in January 2026 come as Max, Max OS and Max Fast, and HL is an optional loft specification on the Max and Max OS."
+confidence: high

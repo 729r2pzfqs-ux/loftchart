@@ -1,0 +1,95 @@
+brand: Haywood
+brand_slug: haywood
+model: CB2
+slug: cb2-irons
+club_type: irons
+year_introduced: 2026
+year_discontinued: null
+current_as_of: "2026-09"
+category: players
+construction: forged and 100% CNC-milled, with a hidden undercut cavity
+material: 1020 carbon steel
+successor: null
+predecessor: Haywood CB
+description: >
+  The CB2 is the second generation of Haywood's forged players cavity back,
+  published on the Vancouver direct-to-consumer brand's site on 24 July 2026
+  alongside the MB2. Heads are forged from 1020 carbon steel and fully
+  CNC-milled like the original CB, but add a hidden undercut cavity that
+  Haywood says makes this its most forgiving CB to date. The loft, lie, length
+  and offset chart is unchanged from the original CB - a 34-degree 7-iron and
+  46-degree pitching wedge - with a 50-degree approach wedge added to the
+  published range, and it matches the MB2 club-for-club for combo sets. Built
+  to order from Haywood's shaft menu rather than with a single stock shaft;
+  swing weights are Haywood's figures for a 110-gram shaft at standard length.
+specs:
+  - club: "4"
+    loft: 23.0
+    lie: 60.5
+    length: 38.5
+    offset: 0.11
+    swing_weight: D3
+  - club: "5"
+    loft: 26.0
+    lie: 61.0
+    length: 38.0
+    offset: 0.10
+    swing_weight: D3
+  - club: "6"
+    loft: 30.0
+    lie: 61.5
+    length: 37.5
+    offset: 0.09
+    swing_weight: D3
+  - club: "7"
+    loft: 34.0
+    lie: 62.0
+    length: 37.0
+    offset: 0.08
+    swing_weight: D3
+  - club: "8"
+    loft: 38.0
+    lie: 62.5
+    length: 36.5
+    offset: 0.07
+    swing_weight: D3
+  - club: "9"
+    loft: 42.0
+    lie: 63.0
+    length: 36.0
+    offset: 0.06
+    swing_weight: D3
+  - club: "PW"
+    loft: 46.0
+    lie: 63.5
+    length: 35.75
+    offset: 0.05
+    swing_weight: D4
+  - club: "AW"
+    loft: 50.0
+    lie: 63.5
+    length: 35.5
+    offset: 0.04
+    swing_weight: D4
+sources:
+  - "Haywood's own CB2 product page, 'CB2 specifications by club' table (https://www.haywoodgolf.com/products/cb2-forged-players-cavity-back-irons, retrieved 29 September 2026) - supplied every loft, length, lie, offset and swing weight above for the 4-iron through AW, the note that swing weights are based on standard length with a 110 g shaft, the 3-inch blade length and 0.7-inch sole width, and the 1020 carbon steel, CNC-milled, hidden-undercut-cavity construction copy."
+  - "Announcement date: the Haywood store's product feed (https://www.haywoodgolf.com/products.json, retrieved 29 September 2026) gives the CB2 listing a published date of 24 July 2026 (created 20 July 2026). year_introduced follows that date; no separate press release was found."
+  - "Bounce is not published for the CB2 and is omitted. Haywood builds every set to order, so no stock shaft is recorded."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Listed and available to order on Haywood's irons collection (https://www.haywoodgolf.com/collections/irons), where the original CB is still sold alongside it."
+related_models:
+  - slug: "haywood/cb-irons"
+    label: "Predecessor: Haywood CB"
+  - slug: "haywood/mb2-irons"
+    label: "Range sibling: Haywood MB2"
+  - slug: "haywood/sv-2-irons"
+    label: "Range sibling: Haywood SV.2"
+faq:
+  - q: "What is the loft of a Haywood CB2 7-iron?"
+    a: "The Haywood CB2 7-iron has a loft of 34 degrees, with a 62-degree lie, a 37-inch length and 0.08 inches of offset."
+  - q: "Did the lofts change from the Haywood CB to the CB2?"
+    a: "No. The 4-iron through pitching wedge keep the same lofts, lies, lengths and offsets as the original CB, from a 23-degree 4-iron to a 46-degree pitching wedge. The CB2 chart adds a 50-degree approach wedge."
+  - q: "Is the Haywood CB2 forged?"
+    a: "Yes. Heads are forged from 1020 carbon steel and 100% CNC-milled, with a hidden undercut cavity added for stability."
+  - q: "Can the Haywood CB2 be combined with the MB2?"
+    a: "Yes. The CB2 and MB2 share the same lofts, lies and lengths club-for-club, and Haywood sells a CB2 + MB2 combo set."
+confidence: high

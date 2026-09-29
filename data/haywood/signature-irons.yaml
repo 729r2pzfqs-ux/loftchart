@@ -4,7 +4,7 @@ model: Signature
 slug: signature-irons
 club_type: irons
 year_introduced: 2020
-year_discontinued: 2025
+year_discontinued: 2024
 category: players-distance
 construction: two-piece hollow body (431 stainless body, welded heat-treated 17-4 face)
 material: 431 stainless steel body with 17-4 stainless steel face
@@ -16,7 +16,7 @@ description: >
   stainless body is welded to a heat-treated 17-4 stainless face, giving a
   high-launching, distance-first head with generous progressive offset behind
   a fairly clean topline. It was on sale by mid-2020 and stayed in the line
-  until the SV.2 replaced it in 2025. Lofts are strong, with a 30-degree
+  until the SV.2 replaced it in 2024. Lofts are strong, with a 30-degree
   7-iron and 44-degree pitching wedge. The specs below are Haywood's revised
   2022 chart; at launch the published lengths ran a quarter-inch longer in
   4-iron through 9-iron (38.75 to 36.25 inches) with the same lofts, lies and
@@ -73,11 +73,14 @@ specs:
     bounce: 12.0
     swing_weight: D2
 sources:
+  - "year_discontinued is 2024: Haywood published the SV.2 that replaced this set on 10 July 2024, the date on the product record in Haywood's own store (https://www.haywoodgolf.com/products/sv-2-game-improvement-irons)."
   - "haywoodgolf.com Signature Series spec sheet (archived 16 March 2022) — full chart used here: lofts 20.5/23/26/30/34/39/44, lengths 38.5 to 35.75 inches, lies 61-64, offsets 0.22 to 0.08 inches, bounce 6-12, swing weights D1/D2"
   - "haywoodgolf.com Signature Irons spec sheet (archived 12 August 2020) — launch-era chart with identical lofts, lies, offsets and bounce but lengths 38.75 to 35.75 inches and swing weights D2/D3, fixing the 2020 availability and the later length revision"
   - "golf.com ClubTest coverage (February 2021 and 2022) — two-piece hollow 431 + 17-4 stainless construction, 4-PW set composition, distance-first character"
   - "britishcolumbiagolf.org profile of Haywood Golf — Vancouver-based direct-to-consumer brand founded by Joshua Haywood in 2018, wedges first, then irons"
 related_models:
+  - slug: "haywood/sv-2-irons"
+    label: "Successor: Haywood SV.2"
   - slug: "haywood/cb-irons"
     label: "Forged cavity sibling: Haywood CB"
   - slug: "haywood/mb-irons"
@@ -88,5 +91,5 @@ faq:
   - q: "Is the Haywood Signature forged?"
     a: "No. It is a two-piece hollow-body iron - a cast 431 stainless steel body welded to a heat-treated 17-4 stainless steel face. Haywood's forged models are the CB and MB."
   - q: "When was the Haywood Signature sold?"
-    a: "It launched Haywood's iron line in 2020 and remained the brand's game-improvement-leaning distance iron until the SV.2 replaced it in 2025."
+    a: "It launched Haywood's iron line in 2020 and remained the brand's game-improvement-leaning distance iron until the SV.2 replaced it in 2024."
 confidence: high

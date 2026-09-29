@@ -1,0 +1,119 @@
+brand: Srixon
+brand_slug: srixon
+model: ZXi5+
+slug: zxi5-plus-irons
+club_type: irons
+year_introduced: 2026
+year_discontinued: null
+current_as_of: "2026-09"
+category: players-distance
+construction: forged hollow body
+material: forged S20C carbon steel body with a softened forged face, MainFrame iQ milling and tungsten toe weighting
+successor: null
+predecessor: Srixon ZXi4
+description: >
+  The ZXi5+ is a new model in Srixon's second-generation ZXi iron line, announced on
+  8 September 2026 with pre-sale from the same day and an official launch date of
+  16 October 2026. Srixon describes it as a fully forged hollow players-distance iron with
+  longer blade lengths, wider soles and stronger lofts than the ZXi5, and it takes the
+  place in the four-model line that the hollow-bodied ZXi4 held in the first generation,
+  although Srixon presents it as an all-new model rather than a renamed ZXi4. It has a
+  29.5-degree 7-iron and a 43-degree pitching wedge: 1.5 degrees stronger than the ZXi5 at
+  the 7-iron and one degree weaker than the ZXi4. Heads run 3-iron through a 56-degree sand
+  wedge, with 4-PW and 5-PW the stock sets and the 3-iron custom order only. Offsets are
+  converted from Srixon's published millimetre figures and swing weights are the S-flex
+  steel column.
+specs:
+  - club: "3"
+    loft: 19.0
+    lie: 60.0
+    length: 39.25
+    offset: 0.165
+    swing_weight: D2
+  - club: "4"
+    loft: 21.0
+    lie: 60.5
+    length: 38.75
+    offset: 0.157
+    swing_weight: D2
+  - club: "5"
+    loft: 23.0
+    lie: 61.0
+    length: 38.25
+    offset: 0.150
+    swing_weight: D2
+  - club: "6"
+    loft: 26.0
+    lie: 61.5
+    length: 37.75
+    offset: 0.142
+    swing_weight: D2
+  - club: "7"
+    loft: 29.5
+    lie: 62.0
+    length: 37.25
+    offset: 0.126
+    swing_weight: D2
+  - club: "8"
+    loft: 33.5
+    lie: 62.5
+    length: 36.75
+    offset: 0.118
+    swing_weight: D2
+  - club: "9"
+    loft: 38.0
+    lie: 63.0
+    length: 36.25
+    offset: 0.106
+    swing_weight: D2
+  - club: "PW"
+    loft: 43.0
+    lie: 63.5
+    length: 36.0
+    offset: 0.087
+    swing_weight: D2
+  - club: "AW"
+    loft: 49.0
+    lie: 63.5
+    length: 35.75
+    offset: 0.075
+    swing_weight: D3
+  - club: "SW"
+    loft: 56.0
+    lie: 63.5
+    length: 35.5
+    offset: 0.059
+    swing_weight: D3
+stock_shafts:
+  - name: "True Temper Dynamic Gold Mid 100/90"
+    material: steel
+    weight: "106g (S300)"
+    flex: ["R", "S"]
+  - name: "Mitsubishi MMT Iron 60"
+    material: graphite
+    flex: ["A", "R"]
+sources:
+  - "Srixon / Dunlop Sports US official ZXi5+ irons product page, SKU MZXI5PLUSIRN27 (https://us.dunlopsports.com/srixon/clubs/irons/zxi5%2B-irons/zxi5%2B-irons/MZXI5PLUSIRN27.html, retrieved 29 September 2026) — full per-club specification table (head, loft, hand, lie, offset in mm, length, and swing weight in steel S and R and graphite R and A flex columns, 3-iron through SW), the footnote 'ZXi5+ 3 Iron Offered Custom Only', the RH/LH column showing the 3-iron and sand wedge as right hand only, and the set options (4-PW, 5-PW and individual AW and SW)."
+  - "Note on offset: Srixon publishes offset in millimetres (4.2, 4.0, 3.8, 3.6, 3.2, 3.0, 2.7, 2.2, 1.9, 1.5) and it is converted to inches here (mm / 25.4). The figures are the same as those published for the second-generation ZXi5."
+  - "Note on swing weight: the figures recorded are the S-flex steel column (D2, with D3 on the AW and SW). The graphite columns read C9, with D0 on the AW and SW."
+  - "Same Dunlop Sports US page, technology and overview copy: 'an all-new model', 'longer blade lengths, wider soles, and stronger lofts than ZXi5', i-FORGED with softened forged faces, MainFrame iQ, Tour V.T. Sole, progressive grooves, forging by Endo, and 'a forged S20C steel body' with a tungsten weight in the toe of the long and mid irons. Stock shaft tables: True Temper Dynamic Gold Mid 100/90 (S300 106g, R300) and Mitsubishi MMT Iron 60 graphite in R and A flex, with a Golf Pride Tour Velvet 360 52g grip. The R300 and graphite weights are omitted here because the page shows alternative figures for them."
+  - "Announcement: Srixon press release dated 8 September 2026, 'Feel, perfected: Srixon launches second generation ZXi irons' (https://www.firstcallgolf.com/industry-news/release/2026-09-08/feel-perfected-srixon-launches-second-generation-zxi-irons) — names the ZXi5+ as 'making its debut within the Srixon Iron family', quotes Srixon's product manager describing it as 'a fully forged hollow Players Distance Iron', and gives pre-sale from 8 September 2026 with an official launch date of 16 October 2026. year_introduced uses the announcement year."
+  - "Note on lineage: the release lists the second-generation family as ZXi7, ZXi5, ZXi5+ and ZXiU, with no ZXi4. predecessor is recorded as the ZXi4 because the ZXi5+ occupies the ZXi4's position in the line; Srixon itself does not call it a ZXi4 replacement, and the first-generation ZXi4 was still listed on Srixon's US site on 29 September 2026."
+  - "Status check, 29 September 2026: listed as a current product on Srixon's own US site under SKU MZXI5PLUSIRN27, 'Available To Order' with an estimated ship date shown, during the pre-sale period that runs to the 16 October 2026 launch."
+related_models:
+  - slug: "srixon/zxi4-irons"
+    label: "Predecessor: Srixon ZXi4"
+  - slug: "srixon/zxi5-2026-irons"
+    label: "Range sibling: Srixon ZXi5 (2026)"
+  - slug: "srixon/zxi7-2026-irons"
+    label: "Range sibling: Srixon ZXi7 (2026)"
+faq:
+  - q: "What is the loft of a Srixon ZXi5+ 7-iron?"
+    a: "The Srixon ZXi5+ 7-iron has a loft of 29.5 degrees, with a 62-degree lie and a published steel-shaft length of 37.25 inches."
+  - q: "What is the difference between the Srixon ZXi5+ and the ZXi5?"
+    a: "The ZXi5+ has stronger lofts, with a 29.5-degree 7-iron and 43-degree pitching wedge against 31 and 44 degrees on the second-generation ZXi5, and Srixon describes it as a hollow forged head with longer blade lengths and wider soles. Lies, lengths and published offsets are the same club for club."
+  - q: "Are the Srixon ZXi5+ lofts stronger than the ZXi4?"
+    a: "No, they are slightly weaker through the middle of the set. The ZXi5+ 7-iron is 29.5 degrees against 28.5 on the ZXi4, and the 8-iron is 33.5 against 33, while the 4-iron (21), 5-iron (23), 9-iron (38), pitching wedge (43), approach wedge (49) and sand wedge (56) are the same."
+  - q: "When were Srixon ZXi5+ irons released?"
+    a: "Srixon announced the ZXi5+ on 8 September 2026 as part of the second-generation ZXi line, opening pre-sale the same day, with an official launch date of 16 October 2026."
+confidence: high

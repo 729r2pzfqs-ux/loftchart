@@ -1,0 +1,102 @@
+brand: Honma
+brand_slug: honma
+model: T//WORLD Px (2026)
+slug: tworld-px-2026-irons
+club_type: irons
+year_introduced: 2026
+year_discontinued: null
+current_as_of: "2026-09"
+category: players-distance
+construction: two-piece, forged body with a cast L-cup face
+material: S25C forged soft iron body with a chromium molybdenum steel face (5 to 8) and an ES235 face (9 and 10)
+successor: null
+predecessor: Honma TW767 Px
+description: >
+  The 2026 Px is the distance-oriented model in Honma's T//WORLD iron line, announced
+  on 26 May 2026 and released in Japan on 19 June 2026 in place of the TW767 Px;
+  Honma's US store sells it as the "T//WORLD IRON Px 26". Honma describes it as a
+  two-piece construction, a forged S25C soft iron body with a high-strength L-cup
+  face, now chromium molybdenum steel in the 5 to 8 irons, and a vibration-damping
+  emblem in the cavity. Lofts, lies, lengths and offsets are unchanged from the TW767
+  Px through the 9-iron, with a 30-degree 7-iron, but the pitching wedge, which Honma
+  now numbers as the 10-iron, is 42 degrees rather than 43, and the published table
+  no longer includes an A-wedge. Figures are the N.S.PRO 950GH neo steel build in S
+  flex, with lengths measured by the Japanese 60-degree method; the VIZARD IRON Lite
+  graphite build is a quarter inch longer.
+specs:
+  - club: "5"
+    loft: 24.0
+    lie: 60.5
+    length: 38.0
+    offset: 0.138
+    bounce: 3.5
+    swing_weight: D2
+  - club: "6"
+    loft: 27.0
+    lie: 61.0
+    length: 37.5
+    offset: 0.118
+    bounce: 4.5
+    swing_weight: D2
+  - club: "7"
+    loft: 30.0
+    lie: 61.5
+    length: 37.0
+    offset: 0.118
+    bounce: 4.5
+    swing_weight: D2
+  - club: "8"
+    loft: 34.0
+    lie: 62.0
+    length: 36.5
+    offset: 0.118
+    bounce: 5.0
+    swing_weight: D2
+  - club: "9"
+    loft: 38.0
+    lie: 62.5
+    length: 36.0
+    offset: 0.098
+    bounce: 6.0
+    swing_weight: D2
+  - club: "10"
+    loft: 42.0
+    lie: 63.0
+    length: 35.5
+    offset: 0.098
+    bounce: 6.0
+    swing_weight: D2
+stock_shafts:
+  - name: "Nippon N.S.PRO 950GH neo"
+    material: steel
+    weight: "94.5g (R), 98g (S)"
+    flex: ["R", "S"]
+  - name: "Honma VIZARD IRON Lite"
+    material: graphite
+    weight: "55g (R), 61g (S)"
+    flex: ["R", "S"]
+sources:
+  - "Honma's own T//WORLD Px product page, specification table (https://www.honmagolf.com/int/product-details/11196, retrieved 29 September 2026) — supplied every loft, lie, offset, length and swing weight above for the #5 through #10, the material text ('#5-8: S25C Forged body + Chromium molybdenum face / Casting; #9-10: S25C Forged body + ES235 face / Casting'), the two-piece L-cup face description, and the N.S.PRO 950GH neo and VIZARD IRON Lite shaft tables. The Japanese edition of the same page (https://www.honmagolf.com/jp/product-details/11196) carries identical figures and states that length is measured by the 60-degree method."
+  - "Honma's US store page 'T//WORLD IRON Px 26' (https://us.honmagolf.com/products/tworld-px, retrieved 29 September 2026) — supplied the bounce row (3.5, 4.5, 4.5, 5.0, 6.0, 6.0), which the global page does not publish. On that page the offset row repeats the bounce figures exactly, which is taken to be a copying error: the offsets recorded here are from the global and Japanese pages (3.5, 3.0, 3.0, 3.0, 2.5, 2.5 mm). The 4.5-degree bounce at the 7-iron is independently confirmed by Minna no Golf Digest; the other bounce figures rest on the US page alone."
+  - "Note on offset: Honma publishes offset in millimetres and it is converted to inches here (mm / 25.4)."
+  - "Note on length and swing weight: Honma lists two builds. The figures above are the N.S.PRO 950GH neo steel column (D2); the VIZARD IRON Lite graphite build is 38.25 to 35.75 inches at D1."
+  - "Minna no Golf Digest, 26 May 2026 (https://www.golfdigest-minna.jp/_ct/17841757) — reports Honma's announcement of the T//WORLD IRON Tour V, Vx and Px for release on 19 June 2026, and independently gives the Px 7-iron as 30.0 degrees of loft, 4.5 degrees of bounce and 37.0 inches. year_introduced uses the announcement year."
+  - "TourSpecGolf, 'Honma T//WORLD 2026 Irons', 26 May 2026 (https://www.tourspecgolf.com/blog/honma-t-world-2026-irons-a-softer-faster-more-refined-players-iron-line/) — 19 June 2026 Japan launch, forged S25C body with a cup face, and a 30-degree 7-iron."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. On sale on Honma's US store as the T//WORLD IRON Px 26 (https://us.honmagolf.com/products/tworld-px) and listed in the current T//WORLD family on honmagolf.com."
+related_models:
+  - slug: "honma/tw767-px-irons"
+    label: "Predecessor: Honma TW767 Px"
+  - slug: "honma/tworld-tour-v-2026-irons"
+    label: "Range sibling: Honma T//WORLD Tour V (2026)"
+  - slug: "honma/tworld-vx-2026-irons"
+    label: "Range sibling: Honma T//WORLD Vx (2026)"
+faq:
+  - q: "What is the loft of a Honma T//WORLD Px (2026) 7-iron?"
+    a: "The 2026 Honma T//WORLD Px 7-iron has a loft of 30 degrees, a lie of 61.5 degrees and a length of 37.0 inches in the steel-shaft build."
+  - q: "What is the difference between the Honma TW767 Px and the 2026 Px?"
+    a: "Lofts, lies, lengths and offsets match from the 5-iron through the 9-iron. The 2026 pitching wedge, numbered as the 10-iron, is 42 degrees instead of 43, the published set no longer includes the 49-degree A-wedge, and the face of the 5 to 8 irons is chromium molybdenum steel."
+  - q: "What is the 10-iron in the Honma T//WORLD Px (2026) set?"
+    a: "Honma numbers the pitching wedge as the 10-iron. It has 42 degrees of loft, a 63-degree lie and a length of 35.5 inches in the steel-shaft build."
+  - q: "When were the 2026 Honma T//WORLD Px irons released?"
+    a: "Honma announced the T//WORLD Tour V, Vx and Px irons on 26 May 2026 and released them in Japan on 19 June 2026."
+confidence: high

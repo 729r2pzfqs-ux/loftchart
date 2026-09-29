@@ -10,7 +10,7 @@ category: players
 construction: forged with co-forged tungsten
 material: 1025 carbon steel
 successor: null
-predecessor: null
+predecessor: TaylorMade P7MC (2023)
 description: >
   The P7CB is a compact tour cavity back, forged from 1025 carbon steel under
   what TaylorMade calls Compact Grain Forging at 2,000 tons, with a milled face
@@ -74,10 +74,12 @@ sources:
   - "Note: offset and bounce were not published in the sources consulted and are omitted rather than estimated. A separate independent database lists P7CB lofts one degree stronger in the 6, 8 and 9 irons and describes its own figures as approximate; the manufacturer-matching 2ndswing table is used here."
   - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Listed at full price on TaylorMade's irons page (https://www.taylormadegolf.com/taylormade-irons/)."
 related_models:
+  - slug: "taylormade/p7mc-2023-irons"
+    label: "Predecessor: TaylorMade P7MC (2023)"
+  - slug: "taylormade/p7mb-2023-irons"
+    label: "Muscleback sibling: TaylorMade P7MB (2023)"
   - slug: "taylormade/p7mc-irons"
-    label: "Cavity-back predecessor in the P7 line: TaylorMade P7MC"
-  - slug: "taylormade/p7mb-irons"
-    label: "Muscleback sibling: TaylorMade P7MB"
+    label: "Earlier cavity back in the P7 line: TaylorMade P7MC"
   - slug: "taylormade/p770-2023-irons"
     label: "Hollow-body alternative: TaylorMade P770 (2023)"
 faq:

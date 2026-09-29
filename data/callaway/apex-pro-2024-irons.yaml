@@ -74,6 +74,8 @@ sources:
   - "Note: bounce and swing weight were not published on the product page and are omitted rather than estimated."
   - "Status check, 29 September 2026: year_discontinued is 2025: the Apex Ai150 was launched as the replacement for the Apex Pro, with pre-orders from 10 July 2025 (https://golf.com/gear/irons/callaway-apex-ai150-irons-4-things-know/)."
 related_models:
+  - slug: "callaway/apex-ai150-irons"
+    label: "Successor: Callaway Apex Ai150"
   - slug: "callaway/apex-pro-21-irons"
     label: "Predecessor: Callaway Apex Pro 21"
   - slug: "callaway/apex-cb-2024-irons"

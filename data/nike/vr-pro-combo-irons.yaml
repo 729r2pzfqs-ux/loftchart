@@ -8,7 +8,7 @@ year_discontinued: 2014
 category: players
 construction: forged combo set
 material: forged carbon steel
-successor: Nike Vapor Pro
+successor: Nike Vapor Pro Combo
 description: >
   The VR Pro Combo is Nike's forged combo set, built around three head shapes that
   change through the bag: a pocket-cavity design in the 3- to 5-irons for launch, a
@@ -69,8 +69,10 @@ sources:
   - "Year attribution is the soft spot: 2nd Swing files this table under the 'Victory Red' name without distinguishing the 2009 Victory Red launch from the 2011 VR Pro Combo. nikegolf.com product pages from this era are not retrievable - the Wayback CDX index for nikegolf.com returns only 2003-2005 redirect entries. Confidence set to medium for that reason."
   - "MyGolfSpy and The Sand Trap VR Pro Combo reviews corroborate the three-head combo construction and 3-PW set make-up, not the individual numbers."
 related_models:
+  - slug: "nike/vapor-pro-combo-irons"
+    label: "Successor: Nike Vapor Pro Combo"
   - slug: "nike/vapor-pro-irons"
-    label: "Successor: Nike Vapor Pro"
+    label: "Blade in the following range: Nike Vapor Pro"
 faq:
   - q: "What is the loft of a Nike VR Pro Combo 7-iron?"
     a: "The Nike VR Pro Combo 7-iron has a loft of 35 degrees, with a 62.5-degree lie and a 37-inch steel-shaft length."

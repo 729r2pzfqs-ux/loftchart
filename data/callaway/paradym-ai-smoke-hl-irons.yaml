@@ -91,6 +91,8 @@ sources:
   - "golf.com 'What I learned getting fit for Callaway's Paradym Ai Smoke irons' — the Paradym Ai Smoke iron family launched for 2024 in three heads: Ai Smoke, Ai Smoke HL and Ai Smoke Max Fast."
   - "Status check, 29 September 2026: year_discontinued is 2025: the Elyte family, including the Elyte HL, was announced in January 2025 as the follow-up to the Paradym Ai Smoke line (https://callawaymedia.com/wp-content/uploads/2025/01/Elyte-Press-Release-January2.pdf)."
 related_models:
+  - slug: "callaway/elyte-hl-irons"
+    label: "Successor: Callaway Elyte HL"
   - slug: "callaway/paradym-ai-smoke-irons"
     label: "The standard head of the same family: Callaway Paradym Ai Smoke"
   - slug: "callaway/paradym-ai-smoke-max-fast-irons"

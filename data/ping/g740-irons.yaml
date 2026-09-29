@@ -1,0 +1,122 @@
+brand: Ping
+brand_slug: ping
+model: G740
+slug: g740-irons
+club_type: irons
+year_introduced: 2026
+year_discontinued: null
+current_as_of: "2026-09"
+category: super-game-improvement
+construction: investment cast cavity back
+material: heat-treated 17-4 stainless steel with a multi-material PurFlex cavity badge
+successor: null
+predecessor: Ping G730
+description: >
+  The G740 is Ping's super-game-improvement iron, announced on 10 March 2026 as
+  the replacement for the G730. It is a perimeter-weighted cavity-back head in
+  heat-treated 17-4 stainless steel with a wider dual-camber sole, a longer
+  blade, a thicker topline and a PurFlex cavity badge with three flex zones.
+  The standard lofts are almost unchanged from the G730 — 28 degrees at the
+  7-iron and 40 at the pitching wedge, with the 5-iron half a degree stronger
+  at 21 — while the published standard lies are about one degree more upright
+  through the set. The set runs 5-iron to pitching wedge with a 45-degree
+  utility wedge and 50- and 56-degree wedges. Ping also publishes Power Spec
+  and Retro Spec loft options; the figures below are the standard lofts only,
+  with lies for the black (standard) colour code.
+specs:
+  - club: "5"
+    loft: 21.0
+    lie: 62.0
+    length: 38.5
+    offset: 0.25
+    bounce: 7.1
+    swing_weight: D0
+  - club: "6"
+    loft: 24.5
+    lie: 62.5
+    length: 37.75
+    offset: 0.22
+    bounce: 8.1
+    swing_weight: D0
+  - club: "7"
+    loft: 28.0
+    lie: 63.0
+    length: 37.0
+    offset: 0.19
+    bounce: 9.1
+    swing_weight: D0
+  - club: "8"
+    loft: 32.0
+    lie: 63.8
+    length: 36.5
+    offset: 0.17
+    bounce: 10.1
+    swing_weight: D0
+  - club: "9"
+    loft: 36.0
+    lie: 64.5
+    length: 36.0
+    offset: 0.15
+    bounce: 10.5
+    swing_weight: D0.5
+  - club: "PW"
+    loft: 40.0
+    lie: 65.0
+    length: 35.5
+    offset: 0.13
+    bounce: 11.1
+    swing_weight: D2
+  - club: "UW"
+    loft: 45.0
+    lie: 65.0
+    length: 35.5
+    offset: 0.12
+    bounce: 12.0
+    swing_weight: D2
+  - club: "50W"
+    loft: 50.0
+    lie: 65.0
+    length: 35.5
+    offset: 0.08
+    bounce: 12.0
+    swing_weight: D2
+  - club: "56W"
+    loft: 56.0
+    lie: 65.3
+    length: 35.25
+    offset: 0.08
+    bounce: 12.0
+    swing_weight: D3
+stock_shafts:
+  - name: "Ping AWT 3.0"
+    material: steel
+    weight: "96-114g"
+    flex: ["R", "S", "X"]
+  - name: "Ping ALTA CB Blue"
+    material: graphite
+    weight: "65-82g"
+    flex: ["SR", "R", "S"]
+sources:
+  - "Ping's own G740 Irons product page, Key Specifications table (https://ping.com/en-us/golf-clubs/irons/g740-iron, retrieved 29 September 2026) — supplied every length, loft, lie, offset, bounce and swing weight above for the 5-iron through the 56-degree wedge, the note that 'Lie angle is based on Black Color Code at standard length', and the shaft table. Ping labels the two highest-lofted wedges '50' and '56'; they are recorded here as 50W and 56W. Swing weights are the steel build; Ping states graphite builds are 2 to 3 points lighter."
+  - "Cross-check: the matching table on Ping's European site (https://eu.ping.com/en-gb/golf-clubs/irons/g740-iron, retrieved 29 September 2026) gives the same lofts and lies."
+  - "Note: Ping's chart also carries Power Spec lofts (26.5 degrees at the 7-iron) and Retro Spec lofts (30.0 degrees at the 7-iron) as fitting options; only the STANDARD lofts are recorded here."
+  - "Ping press release 'G740 engineered for more distance, forgiveness and consistency', dated 10 March 2026 (https://ping.com/en-us/discover-ping/news/g740-irons-engineered-for-more-distance-forgiveness-and-consistency, retrieved 29 September 2026) — the announcement date used for year_introduced (fittings and pre-order opened the same day), the heat-treated 17-4 stainless steel construction, dual-camber sole, cavity-back design and PurFlex badge, the 5-9, PW, UW, 50, 56 availability, and AWT 3.0 and ALTA CB Blue as the stock shafts."
+  - "Comparison with the G730 uses the G730 table on ping.com (https://ping.com/en-us/golf-clubs/irons/g730-iron, retrieved 29 September 2026)."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. Tagged 'New' among Ping's current irons, while the G730 is tagged 'Fill In or Replacement' (https://ping.com/en-us/golf-clubs/irons)."
+related_models:
+  - slug: "ping/g730-irons"
+    label: "Predecessor: Ping G730"
+  - slug: "ping/g440-irons"
+    label: "Game-improvement sibling: Ping G440"
+  - slug: "ping/g-le4-irons"
+    label: "Ping's women's line of the same launch: Ping G Le4"
+faq:
+  - q: "What is the loft of a Ping G740 7-iron?"
+    a: "The Ping G740 7-iron has a standard loft of 28 degrees, a standard (black dot) lie of 63.0 degrees and a steel-shaft length of 37.0 inches. Ping's optional Power Spec and Retro Spec builds are 26.5 and 30.0 degrees."
+  - q: "What is the pitching wedge loft on the Ping G740?"
+    a: "40 degrees in the standard loft, followed by a 45-degree utility wedge and 50- and 56-degree wedges."
+  - q: "How do the Ping G740 lofts compare with the G730?"
+    a: "They are nearly identical. The 6-iron through 56-degree wedge have the same standard lofts as the G730, and the 5-iron is half a degree stronger at 21 degrees. The published standard lies are about one degree more upright, 63.0 degrees at the 7-iron against 62.0."
+  - q: "When were Ping G740 irons released?"
+    a: "Ping announced the G740 on 10 March 2026, with custom fittings and pre-orders opening the same day."
+confidence: high

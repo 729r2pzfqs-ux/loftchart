@@ -84,6 +84,8 @@ sources:
   - "2ndswing.com TaylorMade P7MC Iron Set spec table (independent corroboration of loft, lie, length and offset; stock shaft and grip)"
   - "Years follow the announcement-year convention. year_discontinued is 2022: a second-generation P7MC was announced on 6 December 2022 (https://golf.com/gear/first-look-2023-taylormade-p7mc-and-p7mb-irons/). This page records the 2020 generation."
 related_models:
+  - slug: "taylormade/p7mc-2023-irons"
+    label: "Successor: TaylorMade P7MC (2023)"
   - slug: "taylormade/p7mb-irons"
     label: "Muscleback sibling: TaylorMade P7MB"
   - slug: "taylormade/p770-irons"

@@ -1,0 +1,102 @@
+brand: Honma
+brand_slug: honma
+model: T//WORLD Tour V (2026)
+slug: tworld-tour-v-2026-irons
+club_type: irons
+year_introduced: 2026
+year_discontinued: null
+current_as_of: "2026-09"
+category: players
+construction: one-piece forged, soft iron
+material: S15C soft carbon steel
+successor: null
+predecessor: Honma TW767 Tour V
+description: >
+  The 2026 Tour V is the compact semi-cavity players iron in Honma's T//WORLD iron
+  line, announced on 26 May 2026 and released in Japan on 19 June 2026 in place of the
+  TW767 Tour V; Honma's US store sells it as the "T//WORLD IRON TOUR V 26". The head
+  is a one-piece forging that moves from the S20C steel of the TW767 to softer S15C,
+  and Honma has raised the bounce, to 8 degrees at the 7-iron. Lofts, lies and offsets
+  are unchanged from the TW767 Tour V, with a 32-degree 7-iron, while the published
+  lengths are a quarter inch longer at every club. Honma numbers the pitching wedge
+  as the 10-iron, at 45 degrees. Figures are the stock N.S.PRO MODUS3 for T//WORLD
+  BLACK steel build in S flex, with lengths measured by the Japanese 60-degree method.
+specs:
+  - club: "4"
+    loft: 22.0
+    lie: 60.0
+    length: 38.5
+    offset: 0.098
+    bounce: 6.0
+    swing_weight: D2
+  - club: "5"
+    loft: 25.0
+    lie: 60.5
+    length: 38.0
+    offset: 0.098
+    bounce: 6.0
+    swing_weight: D2
+  - club: "6"
+    loft: 28.0
+    lie: 61.0
+    length: 37.5
+    offset: 0.098
+    bounce: 7.0
+    swing_weight: D2
+  - club: "7"
+    loft: 32.0
+    lie: 61.5
+    length: 37.0
+    offset: 0.079
+    bounce: 8.0
+    swing_weight: D2
+  - club: "8"
+    loft: 36.0
+    lie: 62.0
+    length: 36.5
+    offset: 0.079
+    bounce: 8.0
+    swing_weight: D2
+  - club: "9"
+    loft: 40.0
+    lie: 62.5
+    length: 36.0
+    offset: 0.059
+    bounce: 8.0
+    swing_weight: D2
+  - club: "10"
+    loft: 45.0
+    lie: 63.0
+    length: 35.5
+    offset: 0.059
+    bounce: 9.0
+    swing_weight: D2
+stock_shafts:
+  - name: "Nippon N.S.PRO MODUS3 for T//WORLD BLACK"
+    material: steel
+    weight: "105g (R), 108g (S), 111g (X)"
+    flex: ["R", "S", "X"]
+sources:
+  - "Honma's own T//WORLD TOUR V product page, specification table (https://www.honmagolf.com/int/product-details/11200, retrieved 29 September 2026) — supplied every loft, lie, offset, length and swing weight above for the #4 through #10, the 'S15C + Forged' material, and the N.S.PRO MODUS3 for T//WORLD BLACK shaft table. The Japanese edition of the same page (https://www.honmagolf.com/jp/product-details/11200) carries identical figures and states that length is measured by the 60-degree method."
+  - "Honma's US store page 'T//WORLD IRON TOUR V 26' (https://us.honmagolf.com/products/tworld-tour-v, retrieved 29 September 2026) — supplied the bounce row (6.0, 6.0, 7.0, 8.0, 8.0, 8.0, 9.0), which the global page does not publish, and matches the global page on lie, offset, length and swing weight. It prints the #10 loft as 40.5 degrees, which is taken to be a misprint: the global and Japanese pages both give 45.0, as does TourSpecGolf."
+  - "Note on offset: Honma publishes offset in millimetres (2.5 mm for the 4 to 6 irons, 2.0 mm for the 7 and 8 irons, 1.5 mm for the 9 and 10) and it is converted to inches here (mm / 25.4)."
+  - "Minna no Golf Digest, 26 May 2026 (https://www.golfdigest-minna.jp/_ct/17841757) — reports Honma's announcement of the T//WORLD IRON Tour V, Vx and Px for release on 19 June 2026, and independently gives the Tour V 7-iron as 32.0 degrees of loft, 8.0 degrees of bounce and 37.0 inches. year_introduced uses the announcement year."
+  - "TourSpecGolf, 'Honma T//WORLD 2026 Irons', 26 May 2026 (https://www.tourspecgolf.com/blog/honma-t-world-2026-irons-a-softer-faster-more-refined-players-iron-line/) — 19 June 2026 Japan launch, S15C one-piece forging, a 32-degree 7-iron and a 45-degree 10-iron."
+  - "Status check, 29 September 2026: confirmed as a current model with no replacement announced. On sale on Honma's US store as the T//WORLD IRON TOUR V 26 (https://us.honmagolf.com/products/tworld-tour-v) and listed in the current T//WORLD family on honmagolf.com."
+related_models:
+  - slug: "honma/tw767-tour-v-irons"
+    label: "Predecessor: Honma TW767 Tour V"
+  - slug: "honma/tworld-vx-2026-irons"
+    label: "Range sibling: Honma T//WORLD Vx (2026)"
+  - slug: "honma/tworld-px-2026-irons"
+    label: "Range sibling: Honma T//WORLD Px (2026)"
+faq:
+  - q: "What is the loft of a Honma T//WORLD Tour V (2026) 7-iron?"
+    a: "The 2026 Honma T//WORLD Tour V 7-iron has a loft of 32 degrees, a lie of 61.5 degrees and a steel-shaft length of 37.0 inches."
+  - q: "What is the difference between the Honma TW767 Tour V and the 2026 Tour V?"
+    a: "Lofts, lies and offsets are unchanged club for club. The 2026 head is forged from S15C rather than S20C steel, has more bounce (8 degrees at the 7-iron), and is listed a quarter inch longer at every club, for example 37.0 inches against 36.75 at the 7-iron."
+  - q: "What is the 10-iron in the Honma T//WORLD Tour V (2026) set?"
+    a: "Honma numbers the pitching wedge as the 10-iron. It has 45 degrees of loft, a 63-degree lie and a length of 35.5 inches."
+  - q: "When were the 2026 Honma T//WORLD Tour V irons released?"
+    a: "Honma announced the T//WORLD Tour V, Vx and Px irons on 26 May 2026 and released them in Japan on 19 June 2026."
+confidence: high
