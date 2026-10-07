@@ -1632,7 +1632,16 @@ def compare_page(a, b, brands):
     label_b = b["model"] if same_brand else f"{b['brand']} {b['model']}"
     # Sibling comparisons name the brand once — repeating "TaylorMade" twice
     # pushed most of these titles past the SERP cutoff.
-    title = fit_title(f"{a['brand']} {a['model']} vs {label_b}",
+    # Try progressively shorter cores for long model names.
+    core_full = f"{a['brand']} {a['model']} vs {label_b}"
+    core_short = f"{a['model']} vs {b['model']}"
+    core = core_full
+    if len(core) > TITLE_MAX:
+        core = core_short
+    if len(core) > TITLE_MAX:
+        # Truncate to fit — search engines truncate anyway past 60.
+        core = core[:TITLE_MAX - 1] + "…"
+    title = fit_title(core,
                       " — Spec Comparison", f" | {SITE_NAME}")
     head_part = f"{a['brand']} {a['model']} vs {label_b}: side-by-side specs. "
     if a7 and b7 and a7.get("loft") == b7.get("loft"):
@@ -1661,12 +1670,14 @@ def compare_page(a, b, brands):
             f"Compare {cols} across the full set.",
             f"Compare {cols} for every club.",
             "Compare every loft, lie and length difference.",
+            "Full spec comparison.",
         ])
     else:
         desc = fit_desc(head_part, [
             f"Compare {cols} for every club in the {label_a} and {label_b} sets.",
             f"Compare {cols} for every club.",
             "Compare loft, lie and length for every club.",
+            "Full spec comparison.",
         ])
     url = f"/compare/{slug}/"
     nav, bc = crumbs([("Home", "/"), ("Compare", "/compare/"),
@@ -1765,9 +1776,7 @@ def compare_page(a, b, brands):
   <a href="{b['url']}">{esc(b['brand'])} {esc(b['model'])} specs</a>.</p>
 </div>
 """
-    # Compare pages stay linked and usable, but out of the index for now: the
-    # domain should establish itself on the 241 model pages first.
-    page(url, title, desc, body, brands, [bc], noindex=True)
+    page(url, title, desc, body, brands, [bc])
     return slug
 
 
@@ -1798,7 +1807,7 @@ def compares_index(pairs_built, brands):
   <div class="grid">{cards or '<p>No comparisons available yet.</p>'}</div>
 </div>
 """
-    page("/compare/", title, desc, body, brands, [bc], noindex=True)
+    page("/compare/", title, desc, body, brands, [bc])
 
 
 # --------------------------------------------------------------------------
@@ -3966,8 +3975,7 @@ def main():
     robots()
     webmanifest()
 
-    # Sitemap carries indexable pages only: no /compare/ (noindexed wholesale)
-    # and no thin year page.
+    # Sitemap carries indexable pages only: no thin year page.
     # lastmod is the date the page's content last changed: a model's own data
     # file, the newest model on a hub, or the review date of a guide.
     def newest(ms):
@@ -3988,6 +3996,10 @@ def main():
     urls += [(f"/years/{y}/", "0.5", newest(ms)) for y, ms in by_year.items()
              if y not in thin_years]
     urls += [(f"/category/{c}/", "0.6", newest(ms)) for c, ms in by_cat.items()]
+    urls += [("/compare/", "0.7", site_mod)]
+    urls += [(f"/compare/{slug}/", "0.7",
+              max(a["modified"], b["modified"]))
+             for slug, a, b in pairs_built]
     sitemap(urls)
 
     print(f"Built {len(models)} models, {len([b for b in brands if by_brand.get(b['slug'])])} "
