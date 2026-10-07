@@ -431,7 +431,8 @@ def year_range(m):
 # chrome
 # --------------------------------------------------------------------------
 
-def head(title, desc, path, ld=None, og_type="website", noindex=False):
+def head(title, desc, path, ld=None, og_type="website", noindex=False,
+         googlebot_noindex=False):
     canon = SITE + path
     # Record the rendered (unescaped) description; noindex pages are tracked
     # but exempted from the audit since they never surface in search.
@@ -468,6 +469,10 @@ def head(title, desc, path, ld=None, og_type="website", noindex=False):
         f'?client={ADSENSE_CLIENT}" crossorigin="anonymous"></script>'
     ) if ADSENSE_CLIENT else ""
     robots = '<meta name="robots" content="noindex,follow">' if noindex else ""
+    # Googlebot-only noindex keeps a page out of Google while leaving it
+    # crawlable, linkable and indexable by other engines.
+    if googlebot_noindex and not noindex:
+        robots = '<meta name="googlebot" content="noindex">'
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -570,9 +575,11 @@ def foot(brands):
 """
 
 
-def page(path, title, desc, body, brands, ld=None, og_type="website", noindex=False):
+def page(path, title, desc, body, brands, ld=None, og_type="website", noindex=False,
+         googlebot_noindex=False):
     write(os.path.join(path.strip("/"), "index.html") if path != "/" else "index.html",
-          head(title, desc, path, ld, og_type, noindex) + body + foot(brands))
+          head(title, desc, path, ld, og_type, noindex,
+               googlebot_noindex) + body + foot(brands))
 
 
 def crumbs(items):
@@ -1586,18 +1593,24 @@ def compare_slug(a, b):
     return f"{a['brand_slug']}-{ab}-vs-{b['brand_slug']}-{bb}"
 
 
-# Every declared pair gets a page, identical specs included. Pairs with few
-# differing cells were once dropped as thin content, but Google had already
-# indexed those URLs and reported them as 404s; the pages are noindexed
-# anyway, and "the lofts are identical" is itself the answer people searching
-# a comparison want.
-def find_pairs(models, by_key):
-    """Pair each model with its declared predecessor/successor when both are on file."""
-    pairs = OrderedDict()
+def model_name_index(models):
+    """'brand model' and bare model name -> model, for resolving declared links."""
     name_index = {}
     for m in models:
         name_index[f"{m['brand']} {m['model']}".lower()] = m
         name_index[m["model"].lower()] = m
+    return name_index
+
+
+# Every declared pair gets a page, identical specs included. Pairs with few
+# differing cells were once dropped as thin content, but Google had already
+# indexed those URLs and reported them as 404s; most pages carry a googlebot
+# noindex anyway (see compare_indexable), and "the lofts are identical" is
+# itself the answer people searching a comparison want.
+def find_pairs(models, by_key):
+    """Pair each model with its declared predecessor/successor when both are on file."""
+    pairs = OrderedDict()
+    name_index = model_name_index(models)
 
     def resolve(m, value):
         if not value:
@@ -1622,7 +1635,420 @@ def find_pairs(models, by_key):
     return list(pairs.values())
 
 
-def compare_page(a, b, brands):
+# --------------------------------------------------------------------------
+# Which comparisons Google may index. Every declared pair still gets a page,
+# since they carry internal-navigation value, but most are vintage or niche
+# pairs nobody searches for. Only generation upgrades within the most-searched
+# current lines, plus the curated popular list below, stay indexable; the rest
+# get a googlebot-only noindex and are left out of the sitemap. When in doubt
+# a pair stays out: widening this later is cheap, unwinding thin pages is not.
+# --------------------------------------------------------------------------
+
+INDEX_MIN_YEAR = 2016
+
+# Model lines with real search demand, matched against the start of the
+# model name. Only these brands' pages are ever indexed.
+POPULAR_LINES = {
+    "titleist": r"(T\d{3}S?|620 (CB|MB)|718 (AP1|AP2|AP3|CB|MB))\b",
+    "taylormade": r"(P7(MB|MC|CB)\b|P7[579]0\b|P760\b|Qi\b|Stealth\b|SIM2? Max|M[2-6]\b)",
+    "ping": r"(G4\d\d|G7\d0|i2\d0|i5\d\d|i59|Blueprint)\b",
+    "callaway": r"(Apex|Paradym|Rogue ST|Mavrik|Elyte)\b",
+    "mizuno": r"(JPX-9\d\d|Pro \d{3}\b|Pro [SM]-\d+|MP-20)",
+    "cobra": r"(KING (Forged )?TEC|LTDx|Aerojet|Darkspeed|DS-ADAPT|KING F[789]\b|"
+             r"KING Speedzone|KING Radspeed)",
+    "srixon": r"(ZXi?\d|Z [579]85)",
+    "cleveland": r"(Launcher XL|ZipCore XL|HALO XL)",
+}
+
+# The "which one" decisions people actually search, shown first on /compare/
+# and always indexed. The build fails if one of these stops resolving.
+POPULAR_COMPARES = [
+    "titleist-t100-2025-vs-t150-2025",
+    "titleist-t100-2023-vs-t150",
+    "titleist-t150-2025-vs-t250",
+    "titleist-t100-2023-vs-t100-2025",
+    "titleist-t200-2023-vs-t350",
+    "titleist-620-cb-vs-620-mb",
+    "titleist-620-cb-vs-t100",
+    "taylormade-p770-2025-vs-p790-2025",
+    "taylormade-p770-2023-vs-p790-2023",
+    "taylormade-p790-2023-vs-p790-2025",
+    "taylormade-p7mb-2023-vs-p7mc-2023",
+    "taylormade-p770-2025-vs-p7cb",
+    "taylormade-stealth-vs-qi",
+    "ping-g430-vs-g440",
+    "ping-g425-vs-g430",
+    "ping-i230-vs-g430",
+    "ping-i230-vs-i240",
+    "ping-i525-vs-i530",
+    "ping-blueprint-s-vs-blueprint-t",
+    "callaway-apex-ai200-vs-apex-ai300",
+    "callaway-apex-ai200-vs-apex-ai150",
+    "callaway-apex-cb-2024-vs-apex-pro-2024",
+    "callaway-paradym-vs-paradym-x",
+    "callaway-paradym-ai-smoke-vs-elyte",
+    "mizuno-pro-243-vs-pro-245",
+    "mizuno-jpx-925-forged-vs-jpx-925-hot-metal",
+    "srixon-zx5-mkii-vs-zx7-mkii",
+    "srixon-zxi5-vs-zxi7",
+    "cobra-king-tec-2024-vs-king-tec-x-2024",
+]
+
+
+def on_popular_line(m):
+    pat = POPULAR_LINES.get(m["brand_slug"])
+    return bool(pat and re.match(pat, m["model"], re.I))
+
+
+def is_generation_step(a, b, names):
+    """True when b is a's declared successor, or a is b's declared predecessor."""
+    def res(v):
+        return names.get(str(v).strip().lower()) if v else None
+    s, p = res(a.get("successor")), res(b.get("predecessor"))
+    return bool((s and s["key"] == b["key"]) or (p and p["key"] == a["key"]))
+
+
+def compare_indexable(slug, a, b, names):
+    if slug in POPULAR_COMPARES:
+        return True
+    return (on_popular_line(a) and on_popular_line(b)
+            and min(a["year_introduced"], b["year_introduced"]) >= INDEX_MIN_YEAR
+            and is_generation_step(a, b, names))
+
+
+# --------------------------------------------------------------------------
+# compare page analysis: plain-language text generated from the spec data
+# --------------------------------------------------------------------------
+
+# Low number = less forgiving. Used to say which way a category gap runs.
+CATEGORY_RANK = {"blade": 0, "players": 1, "players-distance": 2,
+                 "game-improvement": 3, "super-game-improvement": 4}
+
+CATEGORY_GOLFER = {
+    "blade": "low single-digit handicaps who strike the ball consistently",
+    "players": "roughly scratch to 10 handicaps",
+    "players-distance": "roughly 5 to 15 handicaps who want extra distance from a compact head",
+    "game-improvement": "roughly 10 to 25 handicaps",
+    "super-game-improvement": "high handicaps, beginners and slower swing speeds",
+}
+
+
+def shared_ref_club(aspec, bspec):
+    """The club both sets are compared on: the 7-iron, or the middle shared club."""
+    common = [c for c in aspec if c in bspec
+              and aspec[c].get("loft") is not None and bspec[c].get("loft") is not None]
+    if "7" in common:
+        return "7"
+    common.sort(key=lambda c: (aspec[c]["loft"], club_sort_key(c)))
+    return common[len(common) // 2] if common else None
+
+
+def carry_yards(deg):
+    """Rule of thumb: one degree of loft is worth 3-4 yards of carry."""
+    lo, hi = round(deg * 3), round(deg * 4)
+    if hi <= 1:
+        return "a yard or so"
+    if lo == hi:
+        return f"about {lo} yards"
+    return f"roughly {lo} to {hi} yards"
+
+
+def build_traits(m):
+    t = f"{m.get('construction') or ''} {m.get('material') or ''}".lower()
+    # A forged face or face cup on a cast or hollow body says nothing about how
+    # the body is made, so it does not count towards the build method.
+    body = re.sub(r"forged[\w\s-]*?face( cup)?", "", t)
+    forged, cast = "forged" in body, "cast" in body
+    return {
+        "known": bool(t.strip()),
+        "method": ("forged and cast" if forged and cast else
+                   "forged" if forged else "cast" if cast else None),
+        "hollow": "hollow" in t,
+        "tungsten": "tungsten" in t,
+        "muscle": any(k in t for k in ("muscle", "blade")),
+    }
+
+
+def compare_analysis(a, b, label_a, label_b, aspec, bspec, generation=False):
+    """(paragraphs, faq) for a compare page, every sentence driven by the data."""
+    full_a = f"{a['brand']} {a['model']}"
+    ref = shared_ref_club(aspec, bspec)
+    shared = [c for c in aspec if c in bspec
+              and aspec[c].get("loft") is not None and bspec[c].get("loft") is not None]
+    # b minus a: positive means the b set is weaker lofted on that club.
+    deltas = {c: bspec[c]["loft"] - aspec[c]["loft"] for c in shared}
+    identical = bool(shared) and all(d == 0 for d in deltas.values())
+    paras, faq = [], []
+
+    # --- lofts --------------------------------------------------------------
+    if ref:
+        noun = club_noun(a, ref)
+        la, lb = aspec[ref]["loft"], bspec[ref]["loft"]
+        d = round(lb - la, 1)
+        stronger, weaker = (label_b, label_a) if d < 0 else (label_a, label_b)
+        if identical:
+            same_lie = all(aspec[c].get("lie") == bspec[c].get("lie") for c in shared)
+            same_len = all(aspec[c].get("length") == bspec[c].get("length") for c in shared)
+            extra = ""
+            if same_lie and same_len:
+                extra = (" Lie angles and lengths match as well, so any fitting "
+                         "adjustment made to one set would carry straight over to the other.")
+            paras.append(
+                f"Every club the two sets share has exactly the same loft, starting with a "
+                f"{num(la)}° {noun}. On paper there is no distance or trajectory difference: "
+                f"with the same swing, a {noun} from either set should launch and carry about "
+                f"the same. The real differences are in how the heads are built, how they "
+                f"look at address and how they feel at impact, none of which a spec table "
+                f"can show.{extra}")
+        else:
+            text = f"At the {noun}, the {label_a} is {num(la)}° and the {label_b} is {num(lb)}°"
+            if d:
+                text += (f", a {num(abs(d))}° gap. Each degree of loft is worth roughly 3 "
+                         f"to 4 yards of carry at the same swing speed, so the {stronger} "
+                         f"should carry {carry_yards(abs(d))} further with that club, on a "
+                         f"slightly lower, shallower flight than the {weaker}.")
+            else:
+                text += (", identical at the club most golfers compare on, although other "
+                         "clubs in the sets differ.")
+            if len(shared) > 1:
+                avg = sum(deltas.values()) / len(deltas)
+                big_c = max(shared, key=lambda c: (abs(deltas[c]), -club_sort_key(c)[0]))
+                if abs(avg) >= 0.25:
+                    way = "weaker" if avg > 0 else "stronger"
+                    text += (f" Across the {len(shared)} clubs both sets share, the "
+                             f"{label_b} averages {num(round(abs(avg), 1))}° {way}")
+                else:
+                    text += (f" Across the {len(shared)} clubs both sets share, the "
+                             f"differences roughly cancel out")
+                if abs(deltas[big_c]) > 0:
+                    text += (f", with the largest gap at the {club_noun(a, big_c)} "
+                             f"({num(aspec[big_c]['loft'])}° vs {num(bspec[big_c]['loft'])}°).")
+                else:
+                    text += "."
+            if "PW" in shared and deltas["PW"]:
+                pw = min(aspec["PW"]["loft"], bspec["PW"]["loft"])
+                text += (f" The pitching wedges are {num(aspec['PW']['loft'])}° and "
+                         f"{num(bspec['PW']['loft'])}°; the stronger one leaves a "
+                         f"{num(round(abs(50 - pw), 1))}° jump to a 50° gap wedge, which "
+                         f"matters when planning wedge gapping.")
+            paras.append(text)
+
+        lie_a, lie_b = aspec[ref].get("lie"), bspec[ref].get("lie")
+        len_a, len_b = aspec[ref].get("length"), bspec[ref].get("length")
+        bits = []
+        if lie_a is not None and lie_b is not None and lie_a != lie_b:
+            flatter = label_a if lie_a < lie_b else label_b
+            bits.append(f"the {flatter} {noun} sits {num(round(abs(lie_a - lie_b), 1))}° "
+                        f"flatter ({num(lie_a)}° vs {num(lie_b)}°), which nudges start "
+                        f"direction slightly right for a right-hander")
+        if len_a is not None and len_b is not None and len_a != len_b:
+            longer = label_a if len_a > len_b else label_b
+            bits.append(f"the {longer} {noun} is {num(round(abs(len_a - len_b), 2))} "
+                        f"inches longer ({num(len_a)}\" vs {num(len_b)}\")")
+        if bits and not identical:
+            paras[-1] += " Beyond loft, " + "; ".join(bits) + "."
+
+    # --- set make-up ----------------------------------------------------------
+    if a["specs"] and b["specs"]:
+        span_a = (a["specs"][0]["club"], a["specs"][-1]["club"], len(a["specs"]))
+        span_b = (b["specs"][0]["club"], b["specs"][-1]["club"], len(b["specs"]))
+        if span_a != span_b:
+            paras.append(
+                f"The sets are built differently: the {label_a} runs "
+                f"{club_noun(a, span_a[0])} to {club_noun(a, span_a[1])} "
+                f"({plural(span_a[2], 'club')}), the {label_b} "
+                f"{club_noun(b, span_b[0])} to {club_noun(b, span_b[1])} "
+                f"({plural(span_b[2], 'club')}).")
+
+    # --- category -------------------------------------------------------------
+    ca, cb = a.get("category"), b.get("category")
+    ra, rb = CATEGORY_RANK.get(ca), CATEGORY_RANK.get(cb)
+    if ra is not None and rb is not None:
+        sa, sb = CATEGORY_SHORT[ca], CATEGORY_SHORT[cb]
+        if ra == rb:
+            paras.append(
+                f"Both are {sa} irons, built for {CATEGORY_GOLFER[ca]}. "
+                f"{CATEGORY_BLURB[ca]} Because they target the same golfer, the decision "
+                f"comes down to the specific loft, feel and shaping differences rather "
+                f"than who the sets are made for.")
+        else:
+            easy, hard = (label_a, label_b) if ra > rb else (label_b, label_a)
+            ce, ch = (ca, cb) if ra > rb else (cb, ca)
+            steps = abs(ra - rb)
+            gap = "one step" if steps == 1 else f"{steps} steps"
+            paras.append(
+                f"The {label_a} is a {sa} iron and the {label_b} a {sb} iron, so they sit "
+                f"{gap} apart on the forgiveness scale. The {easy} is the more forgiving "
+                f"design, with a wider sole, more offset and more perimeter weighting "
+                f"for {CATEGORY_GOLFER[ce]}. The {hard} trades some of that for a more "
+                f"compact head, thinner topline and more control over flight and shape, "
+                f"which suits {CATEGORY_GOLFER[ch]}.")
+
+    # --- construction -----------------------------------------------------------
+    ta, tb = build_traits(a), build_traits(b)
+    cons = []
+    if ta["known"] and tb["known"]:
+        ca_txt, cb_txt = a.get("construction"), b.get("construction")
+        if ca_txt and cb_txt:
+            if ca_txt.lower() == cb_txt.lower():
+                cons.append(f"Both heads are listed as {ca_txt}.")
+            else:
+                cons.append(f"The {label_a} is listed as {ca_txt} and the {label_b} "
+                            f"as {cb_txt}.")
+        if ta["method"] != tb["method"] and {ta["method"], tb["method"]} == {"forged", "cast"}:
+            fg = label_a if ta["method"] == "forged" else label_b
+            cs = label_b if fg == label_a else label_a
+            cons.append(f"Forging, as in the {fg}, is generally credited with a softer "
+                        f"feel; casting, as in the {cs}, allows more complex cavity and "
+                        f"weighting shapes, which is why it dominates forgiving irons.")
+        if ta["hollow"] != tb["hollow"]:
+            hw = label_a if ta["hollow"] else label_b
+            sd = label_b if hw == label_a else label_a
+            cons.append(f"The {hw}'s hollow body lets the face flex more and moves mass "
+                        f"low and outward, usually giving higher launch and more ball speed "
+                        f"on off-centre strikes than the {sd}, at some cost in feel.")
+        elif ta["hollow"] and tb["hollow"]:
+            cons.append("Both use hollow-body heads, so both trade a little feel for face "
+                        "flex and launch help.")
+        if ta["tungsten"] != tb["tungsten"]:
+            tw = label_a if ta["tungsten"] else label_b
+            cons.append(f"The {tw} adds tungsten weighting, which lowers the centre of "
+                        f"gravity and raises stability on mis-hits, helping the long irons "
+                        f"launch.")
+        elif ta["tungsten"] and tb["tungsten"]:
+            cons.append("Both use tungsten weighting to lower the centre of gravity and "
+                        "steady the head on off-centre strikes.")
+        if ta["muscle"] != tb["muscle"]:
+            mb = label_a if ta["muscle"] else label_b
+            cons.append(f"The {mb}'s muscle-back shape keeps mass directly behind the "
+                        f"strike for feedback and control, where a cavity spreads it to "
+                        f"the perimeter for forgiveness.")
+        if len(cons) <= 1:
+            cons.append("With the build method this similar, differences in feel come "
+                        "down to head size, sole width, topline and offset rather than "
+                        "how the heads are made.")
+    elif identical:
+        cons.append("Neither listing gives full construction details, so compare head "
+                    "size, sole width and offset in person; that is where these sets differ.")
+    if cons:
+        paras.append(" ".join(cons))
+
+    # --- year gap ---------------------------------------------------------------
+    ya, yb = a.get("year_introduced"), b.get("year_introduced")
+    if ya and yb:
+        gap = abs(yb - ya)
+        loft_move = ""
+        if ref and aspec[ref]["loft"] != bspec[ref]["loft"]:
+            loft_move = (f" Here the {club_noun(a, ref)} loft moved from "
+                         f"{num(aspec[ref]['loft'])}° to {num(bspec[ref]['loft'])}°.")
+        if gap == 0:
+            if a["brand"] == b["brand"]:
+                paras.append(f"Both sets were introduced in {ya}, so this is a choice "
+                             f"between two models from the same lineup rather than an "
+                             f"upgrade: {a['brand']} designed them to sit side by side for "
+                             f"different players.")
+            else:
+                paras.append(f"Both sets were introduced in {ya}, so they are direct "
+                             f"rivals from the same generation of iron design.")
+        elif gap <= 3 and not generation:
+            if a["brand"] == b["brand"]:
+                paras.append(f"The {label_b} came out {plural(gap, 'year')} after the "
+                             f"{label_a}, but it is a different line rather than a direct "
+                             f"replacement, so the two were designed for different golfers "
+                             f"as well as different seasons.")
+            else:
+                paras.append(f"The two sets launched within {plural(gap, 'year')} of each "
+                             f"other ({ya} and {yb}), so they come from the same era of iron "
+                             f"design.{loft_move}")
+        elif gap <= 3:
+            paras.append(f"The {label_b} arrived {plural(gap, 'year')} after the {label_a}, "
+                         f"a typical one-generation refresh. Changes over that span are "
+                         f"usually incremental: refined face thickness, revised weighting, "
+                         f"updated looks and small loft tweaks rather than a new concept."
+                         f"{loft_move}")
+        else:
+            paras.append(f"There are {gap} years between these sets ({ya} and {yb}), more "
+                         f"than one design generation. Over that time irons moved toward "
+                         f"stronger lofts, thinner and faster faces, hollow and "
+                         f"multi-material heads and wider use of tungsten, so the newer set "
+                         f"is not simply a better version of the older one: it may launch "
+                         f"and spin quite differently.{loft_move}")
+
+    # --- FAQ --------------------------------------------------------------------
+    if ref:
+        noun = club_noun(a, ref)
+        la, lb = aspec[ref]["loft"], bspec[ref]["loft"]
+        d = round(lb - la, 1)
+        if identical:
+            ans = (f"No. Both have a {num(la)}° {noun} and the same loft on every club "
+                   f"they share, so neither is stronger lofted. The difference is in "
+                   f"construction and feel.")
+        elif d > 0:
+            ans = (f"Yes. The {full_a} {noun} is {num(la)}° against {num(lb)}° for the "
+                   f"{label_b}, {num(abs(d))}° stronger, which is worth "
+                   f"{carry_yards(abs(d))} of extra carry with the same swing.")
+        elif d < 0:
+            ans = (f"No. The {label_b} is the stronger-lofted set: its {noun} is "
+                   f"{num(lb)}° against {num(la)}° for the {full_a}, {num(abs(d))}° "
+                   f"stronger and worth {carry_yards(abs(d))} of extra carry.")
+        else:
+            ans = (f"Not at the {noun}, where both are {num(la)}°. Other clubs in the "
+                   f"sets differ, so compare the full table above.")
+        faq.append((f"Is the {full_a} stronger lofted than the {label_b}?", ans))
+
+        if identical:
+            ans = (f"There is none. Every club both sets include has the same loft, "
+                   f"including the {num(la)}° {noun}.")
+        else:
+            ans = (f"At the {noun} the difference is {num(abs(d))}° ({num(la)}° vs "
+                   f"{num(lb)}°).")
+            nz = [c for c in shared if deltas[c]]
+            if nz:
+                big_c = max(nz, key=lambda c: (abs(deltas[c]), -club_sort_key(c)[0]))
+                ans += (f" The largest gap on a shared club is "
+                        f"{num(round(abs(deltas[big_c]), 1))}° at the "
+                        f"{club_noun(a, big_c)}, and "
+                        + (f"all {len(shared)}" if len(nz) == len(shared)
+                           else f"{len(nz)} of the {len(shared)}")
+                        + " shared clubs differ.")
+        faq.append((f"What is the loft difference between the {full_a} and {label_b}?",
+                    ans))
+
+    if ra is not None and rb is not None:
+        if ra == rb:
+            faq.append((f"Are the {full_a} and {label_b} aimed at the same golfer?",
+                        f"Yes. Both are {CATEGORY_SHORT[ca]} irons, built for "
+                        f"{CATEGORY_GOLFER[ca]}. Choose on feel, looks and gapping, "
+                        f"ideally after hitting both."))
+        else:
+            easy, ce = (full_a, ca) if ra > rb else (label_b, cb)
+            hard, ch = (label_b, cb) if ra > rb else (full_a, ca)
+            faq.append((f"Which is better for higher handicap golfers, the {full_a} or "
+                        f"the {label_b}?",
+                        f"The {easy}. As a {CATEGORY_SHORT[ce]} iron it is the more "
+                        f"forgiving design, suited to {CATEGORY_GOLFER[ce]}. The {hard} "
+                        f"is a {CATEGORY_SHORT[ch]} iron, better suited to "
+                        f"{CATEGORY_GOLFER[ch]}."))
+
+    if ref:
+        lie_a, lie_b = aspec[ref].get("lie"), bspec[ref].get("lie")
+        len_a, len_b = aspec[ref].get("length"), bspec[ref].get("length")
+        if None not in (lie_a, lie_b, len_a, len_b):
+            noun = club_noun(a, ref)
+            if lie_a == lie_b and len_a == len_b:
+                ans = (f"At the {noun}, yes: both are {num(lie_a)}° lie and "
+                       f"{num(len_a)} inches long.")
+            else:
+                ans = (f"Not exactly. At the {noun} the {full_a} is {num(lie_a)}° lie and "
+                       f"{num(len_a)} inches, the {label_b} {num(lie_b)}° and "
+                       f"{num(len_b)} inches. Both can be bent or built to your own fit.")
+            faq.append((f"Do the {full_a} and {label_b} have the same lie and length?",
+                        ans))
+
+    return paras, faq
+
+
+def compare_page(a, b, brands, indexed=False, generation=False):
     slug = compare_slug(a, b)
     # Lead with the two 7-iron lofts: it is the number people are comparing,
     # and it keeps sibling comparisons from reading as near-duplicates.
@@ -1741,6 +2167,9 @@ def compare_page(a, b, brands):
                    f"rather than trajectory.")
 
     chart = compare_chart(a, b, clubs, aspec, bspec, label_a, label_b)
+    paras, faq = compare_analysis(a, b, label_a, label_b, aspec, bspec, generation)
+    analysis = "\n  ".join(f"<p>{esc(p)}</p>" for p in paras)
+    faq_html, faq_ld = faq_block(faq) if faq else ("", None)
     overlay = (f'<h2>Lofts compared</h2><div class="figs figs-one">{chart}</div>'
                if chart else "")
 
@@ -1769,15 +2198,55 @@ def compare_page(a, b, brands):
 
   {overlay}
 
+  <h2>What the differences mean</h2>
+  {analysis}
+
   <h2>Which should you choose?</h2>
   <p>{esc(verdict)}</p>
   <p>Both charts are reproduced in full on their own pages:
   <a href="{a['url']}">{esc(a['brand'])} {esc(a['model'])} specs</a> and
   <a href="{b['url']}">{esc(b['brand'])} {esc(b['model'])} specs</a>.</p>
+  {faq_html}
 </div>
 """
-    page(url, title, desc, body, brands, [bc])
+    page(url, title, desc, body, brands, [bc] + ([faq_ld] if faq_ld else []),
+         googlebot_noindex=not indexed)
     return slug
+
+
+def compare_card(slug, a, b):
+    """Index card: names with their 7-iron lofts, brands and years, category badges."""
+    aspec = {r["club"]: r for r in a["specs"]}
+    bspec = {r["club"]: r for r in b["specs"]}
+    ref = shared_ref_club(aspec, bspec)
+    # "T100 (2025)" would read "T100 (2025) (33°)" next to its loft.
+    na, nb = (re.sub(r" \((\d{4})\)$", r" \1", m["model"]) for m in (a, b))
+    if ref:
+        la, lb = aspec[ref]["loft"], bspec[ref]["loft"]
+        names = f"{na} ({num(la)}°) vs {nb} ({num(lb)}°)"
+        diff = round(abs(lb - la), 1)
+    else:
+        names = f"{na} vs {nb}"
+        diff = 0
+    ref_note = f" · {club_noun(a, ref)} lofts" if ref and ref != "7" else ""
+    cats = [c for c in dict.fromkeys([a.get("category"), b.get("category")]) if c]
+    badges = "".join(f'<span class="badge">{esc(CATEGORY_SHORT.get(c, c))}</span>'
+                     for c in cats)
+    brands_attr = a["brand"] if a["brand"] == b["brand"] else f"{a['brand']}|{b['brand']}"
+    search = " ".join([a["brand"], a["model"], b["brand"], b["model"]]
+                      + [CATEGORY_SHORT.get(c, c) for c in cats]).lower()
+    years = [y for y in (a.get("year_introduced"), b.get("year_introduced")) if y]
+    return (f'<a class="card" href="/compare/{slug}/"'
+            f' data-brands="{esc(brands_attr)}" data-cats="{esc("|".join(cats))}"'
+            f' data-search="{esc(search)}" data-year="{max(years) if years else 0}"'
+            f' data-year2="{min(years) if years else 0}"'
+            f' data-diff="{diff}" data-name="{esc(names.lower())}">'
+            f'<span class="card-title">{esc(names)}</span>'
+            f'<span class="card-meta">{esc(a["brand"])}'
+            f'{"" if a["brand"] == b["brand"] else " vs " + esc(b["brand"])} · '
+            f'{a.get("year_introduced")} vs {b.get("year_introduced")}{ref_note}</span>'
+            f'<span class="card-badges" style="display:flex;flex-wrap:wrap;gap:.3rem;'
+            f'margin-top:.5rem">{badges}</span></a>')
 
 
 def compares_index(pairs_built, brands):
@@ -1791,42 +2260,56 @@ def compares_index(pairs_built, brands):
          "Compare loft, lie and length for every club."])
     nav, bc = crumbs([("Home", "/"), ("Compare", None)])
 
-    # Collect unique brands for the filter dropdown
-    compare_brands = set()
-    for _slug, a, b in pairs_built:
-        compare_brands.add(a["brand"])
-        compare_brands.add(b["brand"])
-    sorted_brands = sorted(compare_brands)
+    by_slug = {slug: (a, b) for slug, a, b, _ in pairs_built}
+    popular = "".join(compare_card(s, *by_slug[s]) for s in POPULAR_COMPARES)
+
+    sorted_brands = sorted({m["brand"] for _s, a, b, _i in pairs_built for m in (a, b)})
     brand_options = "".join(
         f'<option value="{esc(br)}">{esc(br)}</option>' for br in sorted_brands)
+    present = {m.get("category") for _s, a, b, _i in pairs_built for m in (a, b)}
+    chip_style = ' style="font-family:inherit"'
+    cat_chips = (f'<button type="button" class="chip" data-cat="" aria-pressed="true"'
+                 f'{chip_style}>All categories</button>' + "".join(
+                     f'<button type="button" class="chip" data-cat="{c}" '
+                     f'aria-pressed="false"{chip_style}>{esc(CATEGORY_LABEL[c])}</button>'
+                     for c in CATEGORY_RANK if c in present))
 
-    # Build cards with data attributes for client-side filtering
-    cards = "".join(
-        f'<a class="card" href="/compare/{slug}/"'
-        f' data-brands="{esc(a["brand"])}'
-        f'{"" if a["brand"] == b["brand"] else "|" + esc(b["brand"])}"'
-        f' data-search="{esc(a["brand"].lower())} {esc(a["model"].lower())}'
-        f' {esc(b["brand"].lower())} {esc(b["model"].lower())}">'
-        f'<span class="card-title">{esc(a["model"])} vs {esc(b["model"])}</span>'
-        f'<span class="card-meta">{esc(a["brand"])}'
-        f'{"" if a["brand"] == b["brand"] else " vs " + esc(b["brand"])} · '
-        f'{a.get("year_introduced")} vs {b.get("year_introduced")}</span></a>'
-        for slug, a, b in pairs_built)
+    # Rendered newest first, so the default order needs no script.
+    def newest_key(p):
+        _s, a, b, _i = p
+        ys = [a.get("year_introduced") or 0, b.get("year_introduced") or 0]
+        return (-max(ys), -min(ys), a["brand"], a["model"], b["model"])
+    cards = "".join(compare_card(s, a, b)
+                    for s, a, b, _i in sorted(pairs_built, key=newest_key))
     body = f"""{nav}
 <div class="wrap">
   <div class="page-head">
     <h1>Specification Comparisons</h1>
     <p class="lede">Generation-to-generation spec comparisons, showing exactly which lofts
-    and lies changed between models.</p>
+    and lies changed between models. Each card shows both 7-iron lofts.</p>
   </div>
+
+  <h2>Popular comparisons</h2>
+  <p>The current-model decisions golfers search for most: Titleist T-series,
+  TaylorMade P-series, Ping G and i-series, Callaway Apex and Paradym, and more.
+  <a href="#all-comparisons">Skip to all {len(pairs_built):,} comparisons</a>.</p>
+  <div class="grid">{popular}</div>
+
+  <h2 id="all-comparisons">All comparisons</h2>
   <div class="compare-filters">
-    <input type="text" id="cmp-search" class="cmp-search" placeholder="Search comparisons…" autocomplete="off">
-    <select id="cmp-brand" class="cmp-brand-select">
+    <input type="text" id="cmp-search" class="cmp-search" placeholder="Search comparisons…" autocomplete="off" aria-label="Search comparisons">
+    <select id="cmp-brand" class="cmp-brand-select" aria-label="Filter by brand">
       <option value="">All brands</option>
       {brand_options}
     </select>
+    <select id="cmp-sort" class="cmp-brand-select" aria-label="Sort comparisons">
+      <option value="newest">Newest first</option>
+      <option value="diff">Biggest loft difference</option>
+      <option value="alpha">Alphabetical</option>
+    </select>
     <span id="cmp-count" class="cmp-count">{len(pairs_built)} comparisons</span>
   </div>
+  <div class="chips" id="cmp-cats" role="group" aria-label="Filter by category">{cat_chips}</div>
   <div class="grid" id="cmp-grid">{cards or '<p>No comparisons available yet.</p>'}</div>
   <p id="cmp-empty" class="cmp-empty" style="display:none">No comparisons match your filters.</p>
 </div>
@@ -1834,10 +2317,13 @@ def compares_index(pairs_built, brands):
 (function(){{
   var search=document.getElementById('cmp-search'),
       brand=document.getElementById('cmp-brand'),
+      sort=document.getElementById('cmp-sort'),
+      chips=document.getElementById('cmp-cats').querySelectorAll('.chip'),
       grid=document.getElementById('cmp-grid'),
       count=document.getElementById('cmp-count'),
       empty=document.getElementById('cmp-empty'),
-      cards=grid.querySelectorAll('.card');
+      cards=Array.prototype.slice.call(grid.querySelectorAll('.card')),
+      cat='';
   function filter(){{
     var q=search.value.toLowerCase().trim(),
         b=brand.value,
@@ -1845,16 +2331,35 @@ def compares_index(pairs_built, brands):
     for(var i=0;i<cards.length;i++){{
       var c=cards[i],
           matchQ=!q||c.getAttribute('data-search').indexOf(q)!==-1,
-          brands=c.getAttribute('data-brands').split('|'),
-          matchB=!b||brands.indexOf(b)!==-1;
-      if(matchQ&&matchB){{c.style.display='';n++;}}
+          matchB=!b||c.getAttribute('data-brands').split('|').indexOf(b)!==-1,
+          matchC=!cat||c.getAttribute('data-cats').split('|').indexOf(cat)!==-1;
+      if(matchQ&&matchB&&matchC){{c.style.display='';n++;}}
       else{{c.style.display='none';}}
     }}
     count.textContent=n+(n===1?' comparison':' comparisons');
     empty.style.display=n?'none':'block';
   }}
+  function num(c,k){{return parseFloat(c.getAttribute(k))||0;}}
+  function order(){{
+    var m=sort.value,
+        byName=function(x,y){{return x.getAttribute('data-name')<y.getAttribute('data-name')?-1:1;}};
+    cards.sort(function(x,y){{
+      if(m==='diff')return num(y,'data-diff')-num(x,'data-diff')||byName(x,y);
+      if(m==='alpha')return byName(x,y);
+      return num(y,'data-year')-num(x,'data-year')||num(y,'data-year2')-num(x,'data-year2')||byName(x,y);
+    }});
+    for(var i=0;i<cards.length;i++)grid.appendChild(cards[i]);
+  }}
+  for(var i=0;i<chips.length;i++){{
+    chips[i].addEventListener('click',function(){{
+      cat=this.getAttribute('data-cat');
+      for(var j=0;j<chips.length;j++)chips[j].setAttribute('aria-pressed',chips[j]===this?'true':'false');
+      filter();
+    }});
+  }}
   search.addEventListener('input',filter);
   brand.addEventListener('change',filter);
+  sort.addEventListener('change',order);
 }})();
 </script>
 """
@@ -3984,11 +4489,20 @@ def main():
 
     # comparison pages first, so model pages can link to them
     pairs = find_pairs(models, by_key)
+    names = model_name_index(models)
     pairs_built = []
     compares_by_key = defaultdict(list)
+    all_slugs = {compare_slug(a, b) for a, b in pairs}
+    missing = [s for s in POPULAR_COMPARES if s not in all_slugs]
+    if missing:
+        print("POPULAR_COMPARES slugs with no compare page:", file=sys.stderr)
+        for s_ in missing:
+            print("  -", s_, file=sys.stderr)
+        sys.exit(1)
     for a, b in pairs:
-        slug = compare_page(a, b, brands)
-        pairs_built.append((slug, a, b))
+        indexed = compare_indexable(compare_slug(a, b), a, b, names)
+        slug = compare_page(a, b, brands, indexed, is_generation_step(a, b, names))
+        pairs_built.append((slug, a, b, indexed))
         compares_by_key[a["key"]].append((slug, b))
         compares_by_key[b["key"]].append((slug, a))
     compares_index(pairs_built, brands)
@@ -4048,13 +4562,15 @@ def main():
              if y not in thin_years]
     urls += [(f"/category/{c}/", "0.6", newest(ms)) for c, ms in by_cat.items()]
     urls += [("/compare/", "0.7", site_mod)]
+    # Only the comparisons Google may index; the rest carry a googlebot noindex.
     urls += [(f"/compare/{slug}/", "0.7",
               max(a["modified"], b["modified"]))
-             for slug, a, b in pairs_built]
+             for slug, a, b, indexed in pairs_built if indexed]
     sitemap(urls)
 
     print(f"Built {len(models)} models, {len([b for b in brands if by_brand.get(b['slug'])])} "
-          f"brands, {len(pairs_built)} comparisons, {len(REDIRECTS)} redirect stubs, "
+          f"brands, {len(pairs_built)} comparisons "
+          f"({sum(1 for p in pairs_built if p[3])} indexed), {len(REDIRECTS)} redirect stubs, "
           f"{len(urls)} indexable URLs, {len(thin_years)} year pages noindexed → {OUT}")
     if errors:
         print(f"({len(errors)} non-fatal data warnings — see above)")
