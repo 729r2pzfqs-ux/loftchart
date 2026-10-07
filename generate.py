@@ -1790,8 +1790,23 @@ def compares_index(pairs_built, brands):
          "Compare 7-iron loft, lie, length and swing weight for every club.",
          "Compare loft, lie and length for every club."])
     nav, bc = crumbs([("Home", "/"), ("Compare", None)])
+
+    # Collect unique brands for the filter dropdown
+    compare_brands = set()
+    for _slug, a, b in pairs_built:
+        compare_brands.add(a["brand"])
+        compare_brands.add(b["brand"])
+    sorted_brands = sorted(compare_brands)
+    brand_options = "".join(
+        f'<option value="{esc(br)}">{esc(br)}</option>' for br in sorted_brands)
+
+    # Build cards with data attributes for client-side filtering
     cards = "".join(
-        f'<a class="card" href="/compare/{slug}/">'
+        f'<a class="card" href="/compare/{slug}/"'
+        f' data-brands="{esc(a["brand"])}'
+        f'{"" if a["brand"] == b["brand"] else "|" + esc(b["brand"])}"'
+        f' data-search="{esc(a["brand"].lower())} {esc(a["model"].lower())}'
+        f' {esc(b["brand"].lower())} {esc(b["model"].lower())}">'
         f'<span class="card-title">{esc(a["model"])} vs {esc(b["model"])}</span>'
         f'<span class="card-meta">{esc(a["brand"])}'
         f'{"" if a["brand"] == b["brand"] else " vs " + esc(b["brand"])} · '
@@ -1804,8 +1819,44 @@ def compares_index(pairs_built, brands):
     <p class="lede">Generation-to-generation spec comparisons, showing exactly which lofts
     and lies changed between models.</p>
   </div>
-  <div class="grid">{cards or '<p>No comparisons available yet.</p>'}</div>
+  <div class="compare-filters">
+    <input type="text" id="cmp-search" class="cmp-search" placeholder="Search comparisons…" autocomplete="off">
+    <select id="cmp-brand" class="cmp-brand-select">
+      <option value="">All brands</option>
+      {brand_options}
+    </select>
+    <span id="cmp-count" class="cmp-count">{len(pairs_built)} comparisons</span>
+  </div>
+  <div class="grid" id="cmp-grid">{cards or '<p>No comparisons available yet.</p>'}</div>
+  <p id="cmp-empty" class="cmp-empty" style="display:none">No comparisons match your filters.</p>
 </div>
+<script>
+(function(){{
+  var search=document.getElementById('cmp-search'),
+      brand=document.getElementById('cmp-brand'),
+      grid=document.getElementById('cmp-grid'),
+      count=document.getElementById('cmp-count'),
+      empty=document.getElementById('cmp-empty'),
+      cards=grid.querySelectorAll('.card');
+  function filter(){{
+    var q=search.value.toLowerCase().trim(),
+        b=brand.value,
+        n=0;
+    for(var i=0;i<cards.length;i++){{
+      var c=cards[i],
+          matchQ=!q||c.getAttribute('data-search').indexOf(q)!==-1,
+          brands=c.getAttribute('data-brands').split('|'),
+          matchB=!b||brands.indexOf(b)!==-1;
+      if(matchQ&&matchB){{c.style.display='';n++;}}
+      else{{c.style.display='none';}}
+    }}
+    count.textContent=n+(n===1?' comparison':' comparisons');
+    empty.style.display=n?'none':'block';
+  }}
+  search.addEventListener('input',filter);
+  brand.addEventListener('change',filter);
+}})();
+</script>
 """
     page("/compare/", title, desc, body, brands, [bc])
 

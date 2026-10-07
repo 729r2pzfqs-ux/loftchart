@@ -364,6 +364,53 @@ table.specs td.na { color: #A5A59B; }
 }
 .facts dd { margin: 0; font-weight: 600; font-size: .96rem; }
 
+/* ---------- compare filters ---------- */
+
+.compare-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem;
+  align-items: center;
+  margin: 0 0 1.25rem;
+}
+.cmp-search {
+  flex: 1 1 240px;
+  padding: .55rem .85rem;
+  font-size: .95rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--text);
+  outline: none;
+  transition: border-color .15s;
+}
+.cmp-search:focus { border-color: var(--green-light); }
+.cmp-search::placeholder { color: var(--text-muted); }
+.cmp-brand-select {
+  flex: 0 1 200px;
+  padding: .55rem .65rem;
+  font-size: .95rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+  outline: none;
+  transition: border-color .15s;
+}
+.cmp-brand-select:focus { border-color: var(--green-light); }
+.cmp-count {
+  font-size: .85rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+.cmp-empty {
+  text-align: center;
+  color: var(--text-muted);
+  padding: 2rem 0;
+  font-size: .95rem;
+}
+
 /* ---------- cards ---------- */
 
 .grid {
