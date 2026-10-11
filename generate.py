@@ -38,7 +38,7 @@ ADSENSE_CLIENT = "ca-pub-5861928596436289"
 # partner; leave empty to use plain search links instead.
 AWIN_PUBLISHER_ID = "3121068"
 AWIN_PROGRAM_ID = "95935"        # 2nd Swing Golf
-EBAY_CAMPAIGN_ID = ""            # eBay Partner Network — fill once approved
+EBAY_CAMPAIGN_ID = "5339221177"  # eBay Partner Network
 
 # Consent mode regions that default to denied: the EU27 plus the rest of the
 # EEA (IS/LI/NO), the UK and Switzerland. Google matches `region` on ISO 3166
