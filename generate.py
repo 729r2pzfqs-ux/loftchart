@@ -1088,6 +1088,42 @@ def guide_shop_block(heading, query, lede):
   </div>"""
 
 
+def guide_sticky_bar(label, query):
+    """Floating bottom bar for guide/aggregation pages."""
+    swing_url = _2ndswing_url(query)
+    ebay_url = _ebay_url(query)
+    return f"""<div id="sticky-bar" class="sticky-bar" hidden>
+  <div class="sticky-bar-inner">
+    <span class="sticky-bar-label">{esc(label)}</span>
+    <div class="sticky-bar-links">
+      <a href="{esc(swing_url)}" rel="sponsored nofollow noopener"
+         target="_blank" class="sticky-btn">2nd Swing</a>
+      <a href="{esc(ebay_url)}" rel="sponsored nofollow noopener"
+         target="_blank" class="sticky-btn">eBay</a>
+    </div>
+    <span class="sticky-bar-disc" title="We may earn a commission from purchases made through these links at no extra cost to you.">Affiliate links</span>
+    <button class="sticky-bar-close" aria-label="Dismiss">&times;</button>
+  </div>
+</div>
+<script>
+(function(){{
+  var bar=document.getElementById('sticky-bar'),
+      block=document.getElementById('shop-block'),
+      closed=false;
+  if(!bar||!block) return;
+  bar.querySelector('.sticky-bar-close').addEventListener('click',function(){{
+    bar.hidden=true; closed=true;
+  }});
+  if('IntersectionObserver' in window){{
+    new IntersectionObserver(function(entries){{
+      if(closed) return;
+      bar.hidden=entries[0].isIntersecting;
+    }},{{threshold:0}}).observe(block);
+  }}
+}})();
+</script>"""
+
+
 # Source citations are prose with the raw URL embedded ("retrieved from
 # http://web.archive.org/web/2012.../ir_spec.htm - manufacturer spec table").
 # The reader needs a working link and the host, not eighty characters of path,
@@ -2349,7 +2385,10 @@ def compare_page(a, b, brands, indexed=False, generation=False):
   <a href="{a['url']}">{esc(a['brand'])} {esc(a['model'])} specs</a> and
   <a href="{b['url']}">{esc(b['brand'])} {esc(b['model'])} specs</a>.</p>
   {faq_html}
+
+  {shop_block(a)}
 </div>
+{sticky_bar(a)}
 """
     page(url, title, desc, body, brands, [bc] + ([faq_ld] if faq_ld else []),
          googlebot_noindex=not indexed)
@@ -3498,6 +3537,7 @@ def wedge_page(w, models, brands):
   </ul>
   <p>Last reviewed {long_date(WEDGE_REVIEWED)}. Spot an error? {email_link()}</p></div>
 </div>
+{guide_sticky_bar(f"Shop {lower}s", f"golf {lower}")}
 """
     page(f"/wedge-lofts/{w['slug']}/", title, desc, body, brands,
          [bc, article_ld, faq_ld], og_type="article")
@@ -3699,6 +3739,7 @@ def wedge_index(models, brands):
   </ul>
   <p>Last reviewed {long_date(WEDGE_REVIEWED)}. Spot an error? {email_link()}</p></div>
 </div>
+{guide_sticky_bar("Shop wedges", "golf wedges")}
 """
     page("/wedge-lofts/", title, desc, body, brands,
          [bc, article_ld, list_ld, faq_ld], og_type="article")
@@ -4002,6 +4043,7 @@ def driver_index(brands):
 
   {DRIVER_SOURCES}
 </div>
+{guide_sticky_bar("Shop drivers", "golf driver")}
 """
     page("/driver-lofts/", title, desc, body, brands,
          [bc, article_ld, list_ld, faq_ld], og_type="article")
@@ -4116,6 +4158,7 @@ def driver_speed_guide(brands):
 
   {DRIVER_SOURCES}
 </div>
+{guide_sticky_bar("Shop drivers", "golf driver")}
 """
     page(f"/guides/{slug}/", title, desc, body, brands,
          [bc, article_ld, faq_ld], og_type="article")
@@ -4250,6 +4293,7 @@ def driver_beginner_guide(brands):
 
   {DRIVER_SOURCES}
 </div>
+{guide_sticky_bar("Shop drivers", "golf driver")}
 """
     page(f"/guides/{slug}/", title, desc, body, brands,
          [bc, article_ld, faq_ld], og_type="article")
@@ -4367,6 +4411,7 @@ def driver_10_5_vs_12(brands):
 
   {DRIVER_SOURCES}
 </div>
+{guide_sticky_bar("Shop drivers", "golf driver")}
 """
     page(f"/guides/{slug}/", title, desc, body, brands,
          [bc, article_ld, faq_ld], og_type="article")
@@ -4487,6 +4532,7 @@ def driver_9_vs_10_5(brands):
 
   {DRIVER_SOURCES}
 </div>
+{guide_sticky_bar("Shop drivers", "golf driver")}
 """
     page(f"/guides/{slug}/", title, desc, body, brands,
          [bc, article_ld, faq_ld], og_type="article")
