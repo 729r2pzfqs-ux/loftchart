@@ -710,7 +710,7 @@ table.specs td.na { color: #A5A59B; }
   .sticky-bar-label { font-size: .82rem; }
   .sticky-bar-disc { display: none; }
 }
-@media print { .sticky-bar { display: none; } }
+@media print { .sticky-bar, #shop-block { display: none; } }
 
 .sources {
   border-top: 1px solid var(--border);
