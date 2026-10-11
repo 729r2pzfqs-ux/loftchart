@@ -1066,6 +1066,28 @@ def sticky_bar(m):
 </script>"""
 
 
+def guide_shop_block(heading, query, lede):
+    """Affiliate shop block for guide/aggregation pages (drivers, wedges)."""
+    swing_url = _2ndswing_url(query)
+    ebay_url = _ebay_url(query)
+    gg_url = _globalgolf_url(query)
+    links = [
+        (swing_url, "2nd Swing", "2ndswing"),
+        (ebay_url, "eBay", "ebay"),
+        (gg_url, "GlobalGolf", "globalgolf"),
+    ]
+    buttons = "".join(
+        f'<a href="{esc(url)}" rel="sponsored nofollow noopener" '
+        f'target="_blank" class="shop-btn shop-{cls}">{label}</a>'
+        for url, label, cls in links)
+    return f"""<div id="shop-block">
+  <h2>{esc(heading)}</h2>
+  <p class="shop-lede">{esc(lede)}</p>
+  <div class="shop-links">{buttons}</div>
+  {AFFILIATE_DISCLOSURE}
+  </div>"""
+
+
 # Source citations are prose with the raw URL embedded ("retrieved from
 # http://web.archive.org/web/2012.../ir_spec.htm - manufacturer spec table").
 # The reader needs a working link and the host, not eighty characters of path,
@@ -3462,6 +3484,9 @@ def wedge_page(w, models, brands):
   <h2>Frequently asked questions</h2>
   <div class="faq">{faq_blocks}</div>
 
+  {guide_shop_block(f"Shop {lower}s", f"golf {lower}",
+                     f"Search for new and used {lower}s at these retailers:")}
+
   <div class="sources"><strong>How these figures were compiled:</strong>
   <ul>
     <li>Loft figures are computed from the {stats['n']} manufacturer spec charts on file at
@@ -3659,6 +3684,9 @@ def wedge_index(models, brands):
 
   <h2>Frequently asked questions</h2>
   <div class="faq">{faq_blocks}</div>
+
+  {guide_shop_block("Shop wedges", "golf wedges",
+                     "Search for new and used wedges at these retailers:")}
 
   <div class="sources"><strong>How these figures were compiled:</strong>
   <ul>
@@ -3966,6 +3994,9 @@ def driver_index(brands):
 
   {faq_html}
 
+  {guide_shop_block("Shop drivers", "golf driver",
+                     "Search for new and used drivers at these retailers:")}
+
   <p>Looking for the other end of the bag? The <a href="/wedge-lofts/">wedge loft
   chart</a> covers pitching, gap, sand and lob wedge degrees the same way.</p>
 
@@ -4079,6 +4110,9 @@ def driver_speed_guide(brands):
   {driver_guide_cards(exclude=slug)}
 
   {faq_html}
+
+  {guide_shop_block("Shop drivers", "golf driver",
+                     "Search for new and used drivers at these retailers:")}
 
   {DRIVER_SOURCES}
 </div>
@@ -4211,6 +4245,9 @@ def driver_beginner_guide(brands):
 
   {faq_html}
 
+  {guide_shop_block("Shop drivers", "golf driver",
+                     "Search for new and used drivers at these retailers:")}
+
   {DRIVER_SOURCES}
 </div>
 """
@@ -4324,6 +4361,9 @@ def driver_10_5_vs_12(brands):
   {driver_guide_cards(exclude=slug)}
 
   {faq_html}
+
+  {guide_shop_block("Shop drivers", "golf driver",
+                     "Search for new and used drivers at these retailers:")}
 
   {DRIVER_SOURCES}
 </div>
@@ -4441,6 +4481,9 @@ def driver_9_vs_10_5(brands):
   {driver_guide_cards(exclude=slug)}
 
   {faq_html}
+
+  {guide_shop_block("Shop drivers", "golf driver",
+                     "Search for new and used drivers at these retailers:")}
 
   {DRIVER_SOURCES}
 </div>
