@@ -15,6 +15,7 @@ import subprocess
 import sys
 from collections import defaultdict, OrderedDict
 from datetime import date
+from urllib.parse import quote_plus
 
 import yaml
 
@@ -32,6 +33,12 @@ SITE_NAME = "LoftChart"
 GA_ID = "G-0LYNSK0WVL"
 GA_ENABLED = bool(GA_ID) and GA_ID != "G-XXXXXXXXXX"
 ADSENSE_CLIENT = "ca-pub-5861928596436289"
+
+# Affiliate programme IDs. Set an ID to enable tracked links for that
+# partner; leave empty to use plain search links instead.
+AWIN_PUBLISHER_ID = "3121068"
+AWIN_PROGRAM_ID = "95935"        # 2nd Swing Golf
+EBAY_CAMPAIGN_ID = ""            # eBay Partner Network — fill once approved
 
 # Consent mode regions that default to denied: the EU27 plus the rest of the
 # EEA (IS/LI/NO), the UK and Switzerland. Google matches `region` on ISO 3166
@@ -969,7 +976,50 @@ def availability(m):
   move any of them — so confirm the numbers on the order sheet. Used sets appear on eBay,
   2nd Swing and Golf Avenue, and should be measured against this chart before buying.</p>"""
 
-    return section + "\n  " + AFFILIATE_DISCLOSURE
+    return section
+
+
+def _2ndswing_url(query):
+    base = f"https://www.2ndswing.com/search/?SearchTerm={quote_plus(query)}"
+    if AWIN_PUBLISHER_ID and AWIN_PROGRAM_ID:
+        encoded = quote_plus(base)
+        return (f"https://www.awin1.com/cread.php?awinmid={AWIN_PROGRAM_ID}"
+                f"&awinaffid={AWIN_PUBLISHER_ID}&ued={encoded}")
+    return base
+
+
+def _ebay_url(query):
+    base = (f"https://www.ebay.com/sch/i.html"
+            f"?_nkw={quote_plus(query)}&_sacat=0")
+    if EBAY_CAMPAIGN_ID:
+        return f"{base}&mkcid=1&mkrid=711-53200-19255-0&campid={EBAY_CAMPAIGN_ID}"
+    return base
+
+
+def _globalgolf_url(query):
+    return f"https://www.globalgolf.com/search/?q={quote_plus(query)}"
+
+
+def shop_block(m):
+    """Affiliate shop links for a model page."""
+    query = f"{m['brand']} {m['model']}"
+    query_golf = f"{query} golf"
+    brand, model = esc(m["brand"]), esc(m["model"])
+
+    links = [
+        (_2ndswing_url(query), "2nd Swing", "2ndswing"),
+        (_ebay_url(query_golf), "eBay", "ebay"),
+        (_globalgolf_url(query), "GlobalGolf", "globalgolf"),
+    ]
+    buttons = "".join(
+        f'<a href="{esc(url)}" rel="sponsored nofollow noopener" '
+        f'target="_blank" class="shop-btn shop-{cls}">{label}</a>'
+        for url, label, cls in links)
+
+    return f"""<h2>Shop {brand} {model}</h2>
+  <p class="shop-lede">Search for new and used sets at these retailers:</p>
+  <div class="shop-links">{buttons}</div>
+  {AFFILIATE_DISCLOSURE}"""
 
 
 # Source citations are prose with the raw URL embedded ("retrieved from
@@ -1183,12 +1233,15 @@ def model_page(m, brands, models_by_key, compares_by_key):
     figures = (f'<h2>Loft progression</h2><div class="figs">{chart}{angle}</div>'
                if chart or angle else "")
 
+    shop_html = shop_block(m)
+
     # Each block after the chart sits in its own .model-section so the CSS can
     # draw a hairline between them; empty blocks are dropped rather than
     # rendering a divider with nothing under it.
     sections_html = "".join(
         f'<section class="model-section">{s}</section>'
-        for s in (about, shafts, related_html, faq_html, availability_html) if s)
+        for s in (about, shafts, related_html, faq_html,
+                  availability_html, shop_html) if s)
 
     body = f"""{nav}
 <div class="wrap">

@@ -580,6 +580,64 @@ table.specs td.na { color: #A5A59B; }
   color: var(--text-muted);
   margin-top: .6rem;
 }
+
+/* ---------- shop block ---------- */
+
+.shop-lede {
+  color: var(--text-muted);
+  font-size: .94rem;
+  margin-bottom: .75rem;
+}
+.shop-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .6rem;
+}
+.shop-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .45rem;
+  padding: .6rem 1.2rem;
+  font-size: .92rem;
+  font-weight: 600;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--green);
+  box-shadow: var(--shadow);
+  transition: transform .12s ease, box-shadow .12s ease, border-color .12s ease;
+}
+.shop-btn:hover {
+  text-decoration: none;
+  color: var(--green);
+  transform: translateY(-1px);
+  border-color: var(--green-light);
+  box-shadow: 0 4px 14px rgba(27,67,50,.12);
+}
+.shop-btn::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: var(--green-light);
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+}
+.shop-2ndswing::before {
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M1 3h14v2H1zm0 4h14v2H1zm0 4h10v2H1z'/%3E%3C/svg%3E");
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M1 3h14v2H1zm0 4h14v2H1zm0 4h10v2H1z'/%3E%3C/svg%3E");
+}
+.shop-ebay::before {
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M2.5 4A2.5 2.5 0 0 0 0 6.5v3A2.5 2.5 0 0 0 2.5 12h2a2.5 2.5 0 0 0 2.12-1.18L8 8.5l1.38 2.32A2.5 2.5 0 0 0 11.5 12h2a2.5 2.5 0 0 0 2.5-2.5v-3A2.5 2.5 0 0 0 13.5 4h-2a2.5 2.5 0 0 0-2.12 1.18L8 7.5 6.62 5.18A2.5 2.5 0 0 0 4.5 4z'/%3E%3C/svg%3E");
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M2.5 4A2.5 2.5 0 0 0 0 6.5v3A2.5 2.5 0 0 0 2.5 12h2a2.5 2.5 0 0 0 2.12-1.18L8 8.5l1.38 2.32A2.5 2.5 0 0 0 11.5 12h2a2.5 2.5 0 0 0 2.5-2.5v-3A2.5 2.5 0 0 0 13.5 4h-2a2.5 2.5 0 0 0-2.12 1.18L8 7.5 6.62 5.18A2.5 2.5 0 0 0 4.5 4z'/%3E%3C/svg%3E");
+}
+.shop-globalgolf::before {
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='7' fill='none' stroke='currentColor' stroke-width='1.5'/%3E%3Cellipse cx='8' cy='8' rx='3' ry='7' fill='none' stroke='currentColor' stroke-width='1.5'/%3E%3Cpath d='M1.5 8h13' stroke='currentColor' stroke-width='1.5'/%3E%3C/svg%3E");
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='7' fill='none' stroke='currentColor' stroke-width='1.5'/%3E%3Cellipse cx='8' cy='8' rx='3' ry='7' fill='none' stroke='currentColor' stroke-width='1.5'/%3E%3Cpath d='M1.5 8h13' stroke='currentColor' stroke-width='1.5'/%3E%3C/svg%3E");
+}
+
 .sources {
   border-top: 1px solid var(--border);
   margin-top: 2.6rem;
