@@ -1000,26 +1000,70 @@ def _globalgolf_url(query):
     return f"https://www.globalgolf.com/search/?q={quote_plus(query)}"
 
 
+def _shop_links(m):
+    """Return (2ndswing_url, ebay_url, globalgolf_url) for a model."""
+    query = f"{m['brand']} {m['model']}"
+    return (_2ndswing_url(query), _ebay_url(f"{query} golf"),
+            _globalgolf_url(query))
+
+
 def shop_block(m):
     """Affiliate shop links for a model page."""
-    query = f"{m['brand']} {m['model']}"
-    query_golf = f"{query} golf"
+    swing_url, ebay_url, gg_url = _shop_links(m)
     brand, model = esc(m["brand"]), esc(m["model"])
 
     links = [
-        (_2ndswing_url(query), "2nd Swing", "2ndswing"),
-        (_ebay_url(query_golf), "eBay", "ebay"),
-        (_globalgolf_url(query), "GlobalGolf", "globalgolf"),
+        (swing_url, "2nd Swing", "2ndswing"),
+        (ebay_url, "eBay", "ebay"),
+        (gg_url, "GlobalGolf", "globalgolf"),
     ]
     buttons = "".join(
         f'<a href="{esc(url)}" rel="sponsored nofollow noopener" '
         f'target="_blank" class="shop-btn shop-{cls}">{label}</a>'
         for url, label, cls in links)
 
-    return f"""<h2>Shop {brand} {model}</h2>
+    return f"""<div id="shop-block">
+  <h2>Shop {brand} {model}</h2>
   <p class="shop-lede">Search for new and used sets at these retailers:</p>
   <div class="shop-links">{buttons}</div>
-  {AFFILIATE_DISCLOSURE}"""
+  {AFFILIATE_DISCLOSURE}
+  </div>"""
+
+
+def sticky_bar(m):
+    """Floating bottom bar that appears once the main shop block scrolls away."""
+    swing_url, ebay_url, _ = _shop_links(m)
+    brand, model = esc(m["brand"]), esc(m["model"])
+    return f"""<div id="sticky-bar" class="sticky-bar" hidden>
+  <div class="sticky-bar-inner">
+    <span class="sticky-bar-label">Shop {brand} {model}</span>
+    <div class="sticky-bar-links">
+      <a href="{esc(swing_url)}" rel="sponsored nofollow noopener"
+         target="_blank" class="sticky-btn">2nd Swing</a>
+      <a href="{esc(ebay_url)}" rel="sponsored nofollow noopener"
+         target="_blank" class="sticky-btn">eBay</a>
+    </div>
+    <span class="sticky-bar-disc" title="We may earn a commission from purchases made through these links at no extra cost to you.">Affiliate links</span>
+    <button class="sticky-bar-close" aria-label="Dismiss">&times;</button>
+  </div>
+</div>
+<script>
+(function(){{
+  var bar=document.getElementById('sticky-bar'),
+      block=document.getElementById('shop-block'),
+      closed=false;
+  if(!bar||!block) return;
+  bar.querySelector('.sticky-bar-close').addEventListener('click',function(){{
+    bar.hidden=true; closed=true;
+  }});
+  if('IntersectionObserver' in window){{
+    new IntersectionObserver(function(entries){{
+      if(closed) return;
+      bar.hidden=entries[0].isIntersecting;
+    }},{{threshold:0}}).observe(block);
+  }}
+}})();
+</script>"""
 
 
 # Source citations are prose with the raw URL embedded ("retrieved from
@@ -1234,6 +1278,7 @@ def model_page(m, brands, models_by_key, compares_by_key):
                if chart or angle else "")
 
     shop_html = shop_block(m)
+    sticky_html = sticky_bar(m)
 
     # Each block after the chart sits in its own .model-section so the CSS can
     # draw a hairline between them; empty blocks are dropped rather than
@@ -1241,7 +1286,7 @@ def model_page(m, brands, models_by_key, compares_by_key):
     sections_html = "".join(
         f'<section class="model-section">{s}</section>'
         for s in (about, shafts, related_html, faq_html,
-                  availability_html, shop_html) if s)
+                  availability_html) if s)
 
     body = f"""{nav}
 <div class="wrap">
@@ -1260,12 +1305,15 @@ def model_page(m, brands, models_by_key, compares_by_key):
   differ if they have been bent, re-shafted or re-gripped during their life.</p>
   {length_note}
 
+  {shop_html}
+
   {figures}
 
   {sections_html}
 
   {sources_html}
 </div>
+{sticky_html}
 """
     ld = [bc, article_ld] + ([faq_ld] if faq_ld else [])
     page(m["url"], title, desc, body, brands, ld, og_type="article")

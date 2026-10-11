@@ -638,6 +638,80 @@ table.specs td.na { color: #A5A59B; }
   -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='7' fill='none' stroke='currentColor' stroke-width='1.5'/%3E%3Cellipse cx='8' cy='8' rx='3' ry='7' fill='none' stroke='currentColor' stroke-width='1.5'/%3E%3Cpath d='M1.5 8h13' stroke='currentColor' stroke-width='1.5'/%3E%3C/svg%3E");
 }
 
+/* ---------- sticky shop bar ---------- */
+
+.sticky-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  background: var(--green);
+  box-shadow: 0 -2px 12px rgba(0,0,0,.18);
+  transition: transform .25s ease;
+}
+.sticky-bar[hidden] { display: none; }
+.sticky-bar-inner {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: .5rem 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+}
+.sticky-bar-label {
+  color: #fff;
+  font-weight: 600;
+  font-size: .88rem;
+  white-space: nowrap;
+  margin-right: auto;
+}
+.sticky-bar-links {
+  display: flex;
+  gap: .45rem;
+}
+.sticky-btn {
+  display: inline-block;
+  padding: .35rem .85rem;
+  font-size: .82rem;
+  font-weight: 600;
+  border-radius: 4px;
+  background: var(--gold);
+  color: var(--green);
+  white-space: nowrap;
+  transition: background .12s;
+}
+.sticky-btn:hover {
+  background: var(--gold-dark);
+  color: var(--green);
+  text-decoration: none;
+}
+.sticky-bar-disc {
+  font-size: .72rem;
+  color: rgba(255,255,255,.55);
+  white-space: nowrap;
+  cursor: help;
+  border-bottom: 1px dotted rgba(255,255,255,.35);
+}
+.sticky-bar-close {
+  background: none;
+  border: 0;
+  color: rgba(255,255,255,.6);
+  font-size: 1.2rem;
+  line-height: 1;
+  padding: .2rem .35rem;
+  cursor: pointer;
+  margin-left: .15rem;
+}
+.sticky-bar-close:hover { color: #fff; }
+
+@media (max-width: 640px) {
+  .sticky-bar-inner { gap: .5rem; }
+  .sticky-bar-label { font-size: .82rem; }
+  .sticky-bar-disc { display: none; }
+}
+@media print { .sticky-bar { display: none; } }
+
 .sources {
   border-top: 1px solid var(--border);
   margin-top: 2.6rem;
