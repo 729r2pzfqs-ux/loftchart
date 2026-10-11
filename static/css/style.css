@@ -575,6 +575,11 @@ table.specs td.na { color: #A5A59B; }
 }
 .note p:last-child { margin-bottom: 0; }
 
+.affiliate-note {
+  font-size: .82rem;
+  color: var(--text-muted);
+  margin-top: .6rem;
+}
 .sources {
   border-top: 1px solid var(--border);
   margin-top: 2.6rem;

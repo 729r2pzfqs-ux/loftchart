@@ -73,7 +73,7 @@ WEDGE_PUBLISHED = "2026-08-27"
 WEDGE_REVIEWED = "2026-09-29"
 DRIVER_PUBLISHED = "2026-08-28"
 DRIVER_REVIEWED = "2026-09-29"
-PRIVACY_UPDATED = "2026-09-29"
+PRIVACY_UPDATED = "2026-10-11"
 
 # A model with no discontinuation year is only described as current when its
 # file carries `current_as_of` — the month someone last confirmed it was still
@@ -909,6 +909,11 @@ def compare_chart(a, b, clubs, aspec, bspec, label_a, label_b):
 # model page
 # --------------------------------------------------------------------------
 
+AFFILIATE_DISCLOSURE = (
+    '<p class="affiliate-note">We may earn a commission from purchases made '
+    'through links on this page at no extra cost to you.</p>')
+
+
 def availability(m):
     """Closing section, written from the production status the data actually records.
 
@@ -923,45 +928,48 @@ def availability(m):
     cat = CATEGORY_SHORT.get(m.get("category"))
 
     if m.get("year_discontinued"):
-        return f"""<h2>Finding a used set</h2>
+        section = f"""<h2>Finding a used set</h2>
   <p>The {brand} {model} ran from {intro} to {m['year_discontinued']} and is no longer in
   production, so the used market is the only source. Search eBay, 2nd Swing, Golf Avenue and
   the PGA Tour Superstore trade-in listings, and check the loft and lie against the chart
   above before buying — sets this age have often been bent from standard.</p>"""
 
-    if succ:
+    elif succ:
         # Superseded, but no retirement year is recorded — say that plainly rather
         # than guessing at a date or claiming it is still current.
-        return f"""<h2>Buying a set</h2>
+        section = f"""<h2>Buying a set</h2>
   <p>{brand} has since introduced the {esc(succ)} above it in the range, so the {model} is at
   the end of its retail life rather than fully retired — closeout sets still turn up at
   retailers while stock lasts, and it is well represented used on eBay, 2nd Swing and Golf
   Avenue. Check the loft and lie against the chart above before buying a used set: irons are
   routinely bent from standard during a fitting.</p>"""
 
-    lineage = f" It replaced the {esc(pred)}." if pred else ""
-    intro_txt = f"Introduced in {intro}, t" if intro else "T"
-    if not is_current(m):
-        # No end year, no successor and nobody has confirmed it is still on
-        # sale: say exactly that instead of guessing in either direction.
-        return f"""<h2>Production status</h2>
+    else:
+        lineage = f" It replaced the {esc(pred)}." if pred else ""
+        intro_txt = f"Introduced in {intro}, t" if intro else "T"
+        if not is_current(m):
+            # No end year, no successor and nobody has confirmed it is still on
+            # sale: say exactly that instead of guessing in either direction.
+            section = f"""<h2>Production status</h2>
   <p>{intro_txt}he {brand} {model} has no confirmed end date on file.{lineage} LoftChart
   records a discontinuation year only where a source dates it, and none has been found for
   this set, so it may or may not still be in the {brand} catalogue — check with {brand} or a
   retailer before counting on a new set. Used sets appear on eBay, 2nd Swing and Golf Avenue,
   and should be measured against the chart above before buying, since irons are routinely
   bent from standard.</p>"""
-
-    # "a current ... " not "the current ...": several brands catalogue more than
-    # one live set in the same category.
-    slot = (f"a current {cat} set in the {brand} range" if cat
-            else f"a current model in the {brand} range")
-    return f"""<h2>Where it sits in the lineup</h2>
+        else:
+            # "a current ... " not "the current ...": several brands catalogue more than
+            # one live set in the same category.
+            slot = (f"a current {cat} set in the {brand} range" if cat
+                    else f"a current model in the {brand} range")
+            section = f"""<h2>Where it sits in the lineup</h2>
   <p>{intro_txt}he {brand} {model} is {slot} as of {long_date(m['current_as_of'])}, with no
   replacement announced.{lineage} New sets
   are built to the standard lofts, lies and lengths in the chart above, though a fitting can
   move any of them — so confirm the numbers on the order sheet. Used sets appear on eBay,
   2nd Swing and Golf Avenue, and should be measured against this chart before buying.</p>"""
+
+    return section + "\n  " + AFFILIATE_DISCLOSURE
 
 
 # Source citations are prose with the raw URL embedded ("retrieved from
@@ -974,13 +982,24 @@ WAYBACK_RE = re.compile(
     r'https?://web\.archive\.org/web/(\d{4})[^/]*/(?:https?:/{1,2})?(?:www\.)?([^/\s]+)')
 
 
+RETAILER_DOMAINS = {"2ndswing.com", "ebay.com", "globalgolf.com",
+                    "golfavenue.com", "pgatoursuperstore.com"}
+
+
+def _is_retailer_url(url):
+    host = url.split('/')[2].split(':')[0].lower()
+    host = re.sub(r'^www\.', '', host)
+    return host in RETAILER_DOMAINS
+
+
 def source_link(url):
     m = WAYBACK_RE.match(url)
     if m:
         label = f"{m.group(2).split(':')[0]}, archived {m.group(1)}"
     else:
         label = re.sub(r'^www\.', '', url.split('/')[2].split(':')[0])
-    return f'<a href="{esc(url)}" rel="nofollow noopener">{esc(label)}</a>'
+    rel = "sponsored nofollow noopener" if _is_retailer_url(url) else "nofollow noopener"
+    return f'<a href="{esc(url)}" rel="{rel}">{esc(label)}</a>'
 
 
 def linkify_source(text):
@@ -2534,6 +2553,17 @@ def about_page(brands, models):
   want it. Email {email_link()} with the source and we will update the
   chart and credit it.</p>
 
+  <h2 id="affiliate-disclosure">Affiliate disclosure</h2>
+  <p>LoftChart is a participant in affiliate programmes including the 2nd Swing Golf
+  affiliate programme (via Awin) and the eBay Partner Network. When a page links to a
+  retailer, the link may be an affiliate link, which means LoftChart earns a small
+  commission if you make a purchase — at no extra cost to you. This income helps cover the
+  hosting and research costs of maintaining the archive.</p>
+  <p>Affiliate relationships have no influence on which models are listed, which
+  specifications are published or how the data is presented. Every chart on this site
+  reflects the manufacturer&rsquo;s published figures, regardless of whether the model is
+  available through an affiliate partner.</p>
+
   <h2>Independence</h2>
   <p>LoftChart is not affiliated with, endorsed by or sponsored by any golf club
   manufacturer. Brand and model names are the trademarks of their respective owners and are
@@ -2619,9 +2649,17 @@ def privacy_page(brands):
   <p>The site search runs entirely in your browser against a JSON file downloaded with the
   page. Your search terms are not sent to us or to any third party.</p>
 
-  <h2>Outbound links</h2>
-  <p>Pages may link to retailers, auction sites and archived sources. Once you follow a link
-  you are subject to that site&rsquo;s privacy policy, not ours.</p>
+  <h2>Outbound links and affiliate programmes</h2>
+  <p>Pages may link to retailers, auction sites and archived sources. Some of these links are
+  affiliate links: LoftChart participates in the 2nd Swing Golf affiliate programme (via
+  Awin) and the eBay Partner Network. When you click an affiliate link, the partner may set
+  cookies or collect information in accordance with its own privacy policy in order to
+  attribute a referral. LoftChart receives only aggregate reporting (such as the number of
+  clicks and any resulting commissions) and does not receive personally identifiable
+  information about you from these programmes.</p>
+  <p>Once you follow any outbound link you are subject to that site&rsquo;s privacy policy,
+  not ours. See our <a href="/about/#affiliate-disclosure">affiliate disclosure</a> for more
+  detail on these relationships.</p>
 
   <h2>Children</h2>
   <p>This site is not directed at children under 13 and we do not knowingly collect data
