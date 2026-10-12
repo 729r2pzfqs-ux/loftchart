@@ -498,6 +498,7 @@ def head(title, desc, path, ld=None, og_type="website", noindex=False,
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#1B4332">
+<meta name="impact-site-verification" value="13634fd5-12af-4ed3-b703-3be8dd0b4fad">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
