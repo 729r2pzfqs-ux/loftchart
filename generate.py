@@ -993,7 +993,7 @@ def _ebay_url(query):
     base = (f"https://www.ebay.com/sch/i.html"
             f"?_nkw={quote_plus(query)}&_sacat=0")
     if EBAY_CAMPAIGN_ID:
-        return f"{base}&mkcid=1&mkrid=711-53200-19255-0&campid={EBAY_CAMPAIGN_ID}"
+        return f"{base}&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid={EBAY_CAMPAIGN_ID}&toolid=10001"
     return base
 
 
