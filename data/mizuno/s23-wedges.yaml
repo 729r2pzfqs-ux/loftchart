@@ -1,0 +1,101 @@
+brand: Mizuno
+brand_slug: mizuno
+model: S23
+slug: s23-wedges
+club_type: wedges
+year_introduced: 2023
+year_discontinued: 2025
+category: tour
+construction: one-piece Grain Flow Forged HD, 1025 boron carbon steel
+material: 1025 boron carbon steel
+predecessor: Mizuno S18
+successor: Mizuno Pro T-3
+description: >
+  The S23 is Mizuno's 2023 S-Series wedge, the slightly fuller, more
+  forgiving partner to the T24, Grain Flow Forged HD in Hiroshima from 1025
+  boron steel and replaced by the Mizuno Pro T-3 in 2025. QuadCut grooves
+  vary by loft, laser-etched HydroFlow micro grooves channel moisture, and
+  the head shape flows from a straight-edged teardrop at the strong lofts
+  to a rounder lob-wedge profile. The stock chart below lists the 12
+  loft/bounce/grind combinations sold off the rack; through Mizuno's custom
+  program the S23 could also be ordered at every degree of loft from 44 to
+  62. Finishes were White Satin and Copper Cobalt. Lie and length are
+  omitted because Mizuno's published US and UK charts disagree.
+grinds:
+  - code: S
+    name: S Grind
+    description: >
+      Minimal sole grind for fuller shots — the only sole at the gap lofts
+      and the standard sand-wedge option.
+  - code: D
+    name: D Grind
+    description: >
+      Moderate heel and toe relief for gentle face manipulation, at 54 to
+      58 degrees.
+  - code: C
+    name: C Grind
+    description: >
+      Heavy relief for more skilled players and firmer conditions, at 56 to
+      60 degrees.
+  - code: X
+    name: X Grind
+    description: >
+      Extreme heel, toe and trailing-edge relief for short-game artists —
+      the lowest-bounce option, at 58 and 60 degrees.
+specs:
+  - loft: 46.0
+    bounce: 8.0
+    grind: S
+  - loft: 50.0
+    bounce: 8.0
+    grind: S
+  - loft: 52.0
+    bounce: 10.0
+    grind: S
+  - loft: 54.0
+    bounce: 8.0
+    grind: D
+  - loft: 54.0
+    bounce: 10.0
+    grind: S
+  - loft: 56.0
+    bounce: 6.0
+    grind: C
+  - loft: 56.0
+    bounce: 10.0
+    grind: D
+  - loft: 58.0
+    bounce: 4.0
+    grind: X
+  - loft: 58.0
+    bounce: 8.0
+    grind: C
+  - loft: 58.0
+    bounce: 12.0
+    grind: D
+  - loft: 60.0
+    bounce: 6.0
+    grind: X
+  - loft: 60.0
+    bounce: 10.0
+    grind: C
+stock_shafts:
+  - name: "KBS Hi-Rev 2.0 115"
+    material: steel
+    flex: ["Wedge"]
+related_models:
+  - slug: "mizuno/t24-wedges"
+    label: "Sibling: Mizuno T24"
+sources:
+  - "Mizuno USA S23 Copper Cobalt product page via Wayback Machine capture of 26 May 2024 (Grain Flow Forged HD 1025 boron construction, 46-60 loft and 4-12 bounce options, KBS Hi-Rev 2.0 115 stock shaft), https://web.archive.org/web/20240526181338/https://mizunousa.com/golf-s23-copper-cobalt"
+  - "GolfBox S23 Copper Cobalt listing enumerating the 50-08 through 60-10 loft/bounce pairs; Golf Discount S23 listings adding the 46-08 and tagging grinds per combination (46/50/52/54-10 S, 54-08 D, 56-06 C, 56-10 D); 2nd Swing used-club listings tagging 58-04 X, 58-08 C, 58-12 D — all accessed October 2026 and mutually consistent"
+  - "Plugged In Golf S23 review (grind loft ranges — S to 58, D 54-58, C 56-60, X 58-62 custom; every-degree 44-62 custom program; White Satin and Copper Cobalt finishes), https://pluggedingolf.com/mizuno-s23-wedge-review/"
+  - "Note: lie and length are omitted — Mizuno's US and UK spec charts disagree on the measuring basis. The grind-per-combination mapping is reconstructed from retailer tags rather than a single OEM table."
+faq:
+  - q: "What lofts does the Mizuno S23 come in?"
+    a: "The stock chart runs 46 to 60 degrees in 12 loft/bounce/grind combinations; through Mizuno's custom program it could be ordered at every degree of loft from 44 to 62."
+  - q: "What grinds does the Mizuno S23 offer?"
+    a: "Four: the minimal S at the gap and sand lofts, D with moderate relief (54-58), C with heavy relief (56-60) and the extreme-relief low-bounce X (58-60)."
+  - q: "How does the S23 differ from the T24?"
+    a: "The S23 is the fuller, more forgiving shape with a simpler four-grind chart and a KBS Hi-Rev stock shaft at a lower price; the T24 is the compact tour head with five grinds and 17 combinations."
+confidence: medium

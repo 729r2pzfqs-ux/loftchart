@@ -1,0 +1,190 @@
+brand: Callaway
+brand_slug: callaway
+model: JAWS Raw
+slug: jaws-raw-wedges
+club_type: wedges
+year_introduced: 2022
+year_discontinued: 2024
+category: tour
+construction: cast 8620 carbon steel, raw unplated face, JAWS grooves
+material: 8620 carbon steel
+predecessor: Callaway JAWS MD5
+successor: Callaway Opus
+description: >
+  The JAWS Raw is Callaway's 2022 tour wedge, announced in June 2022, at
+  retail from July 2022 and replaced by the Opus in August 2024. It kept the
+  JAWS groove package from the MD5 era and left the face unplated so it
+  rusts into play, under Chrome and Black Plasma body finishes. The line is
+  unusually broad: 24 loft/bounce/grind combinations from 48 to 62 degrees
+  across five grinds, several of them right-hand only. Lengths run from
+  35.75 inches at 48 degrees to 35 inches at 58 and up, all at a 64-degree
+  lie.
+grinds:
+  - code: S
+    name: S Grind
+    description: >
+      Callaway's most-played sole — medium width with a slight rear ribbon,
+      moderate heel relief and a small leading-edge chamfer. Fits a wide
+      variety of conditions and swings, offered at every loft from 48 to 60.
+  - code: W
+    name: W Grind
+    description: >
+      Wide, full sole with 12 degrees of bounce — the most forgiving grind
+      through the turf, for steeper swings, soft conditions and sand.
+  - code: X
+    name: X Grind
+    description: >
+      High-bounce performance on a narrower sole for steep attack angles
+      that still want to open the face, at 54 to 60 degrees.
+  - code: Z
+    name: Z Grind
+    description: >
+      Forgiving low-bounce option with an aggressive leading-edge chamfer
+      for clean turf interaction, at 58 to 62 degrees.
+  - code: C
+    name: C Grind
+    description: >
+      Classic low-bounce C shape with heel and toe relief for open-face
+      shots from firm lies, at 54 to 60 degrees.
+specs:
+  - loft: 48.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.75
+  - loft: 50.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.5
+  - loft: 50.0
+    bounce: 12.0
+    grind: W
+    lie: 64.0
+    length: 35.5
+  - loft: 52.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.5
+  - loft: 52.0
+    bounce: 12.0
+    grind: W
+    lie: 64.0
+    length: 35.5
+  - loft: 54.0
+    bounce: 8.0
+    grind: C
+    lie: 64.0
+    length: 35.25
+  - loft: 54.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.25
+  - loft: 54.0
+    bounce: 12.0
+    grind: W
+    lie: 64.0
+    length: 35.25
+  - loft: 54.0
+    bounce: 12.0
+    grind: X
+    lie: 64.0
+    length: 35.25
+  - loft: 56.0
+    bounce: 8.0
+    grind: C
+    lie: 64.0
+    length: 35.25
+  - loft: 56.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.25
+  - loft: 56.0
+    bounce: 12.0
+    grind: W
+    lie: 64.0
+    length: 35.25
+  - loft: 56.0
+    bounce: 12.0
+    grind: X
+    lie: 64.0
+    length: 35.25
+  - loft: 58.0
+    bounce: 8.0
+    grind: C
+    lie: 64.0
+    length: 35.0
+  - loft: 58.0
+    bounce: 8.0
+    grind: Z
+    lie: 64.0
+    length: 35.0
+  - loft: 58.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.0
+  - loft: 58.0
+    bounce: 12.0
+    grind: W
+    lie: 64.0
+    length: 35.0
+  - loft: 58.0
+    bounce: 12.0
+    grind: X
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 8.0
+    grind: C
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 8.0
+    grind: Z
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 12.0
+    grind: W
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 12.0
+    grind: X
+    lie: 64.0
+    length: 35.0
+  - loft: 62.0
+    bounce: 8.0
+    grind: Z
+    lie: 64.0
+    length: 35.0
+stock_shafts:
+  - name: "True Temper Dynamic Gold Spinner 115"
+    material: steel
+    flex: ["Wedge"]
+  - name: "Project X Catalyst Wedge"
+    material: graphite
+    flex: ["Wedge"]
+related_models:
+  - slug: "callaway/jaws-raw-full-toe-wedges"
+    label: "Sibling: JAWS Raw Full Toe"
+sources:
+  - "Callaway Golf Canada JAWS Raw Chrome product page with the complete 24-row spec table (loft, bounce, sole, length, 64-degree lie, hand availability, swing weights), https://www.callawaygolf.ca/golf-clubs/wedges/wedges-2022-jaws-raw-chrome.html, accessed October 2026"
+  - "Colorado AvidGolfer JAWS Raw launch coverage, June 2022 (July 2022 retail, 180/190 dollar pricing, grind descriptions, Chrome and Black Plasma finishes, Dynamic Gold Spinner and Project X Catalyst stock shafts)"
+faq:
+  - q: "What lofts does the Callaway JAWS Raw come in?"
+    a: "48 to 62 degrees — 24 loft, bounce and grind combinations, one of the widest tour-wedge matrices of its generation. Several combinations are right-handed only."
+  - q: "What grinds does the JAWS Raw offer?"
+    a: "Five: the all-round S at every loft from 48 to 60, the wide high-bounce W (50-60), the high-bounce X (54-60), the low-bounce Z (58-62, the only 62-degree option) and the C grind (54-60)."
+  - q: "Why is the JAWS Raw face unplated?"
+    a: "Callaway leaves the hitting area raw so no plating interferes with the JAWS groove edges; the face rusts with use while the Chrome or Black Plasma body finish protects the rest of the head."
+confidence: high

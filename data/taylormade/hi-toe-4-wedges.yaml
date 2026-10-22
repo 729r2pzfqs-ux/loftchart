@@ -1,0 +1,139 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: Hi-Toe 4
+slug: hi-toe-4-wedges
+club_type: wedges
+year_introduced: 2024
+year_discontinued: 2026
+category: specialty
+construction: cast 8620 carbon steel, milled sole grinds, raw face with Spin Tread
+material: 8620 carbon steel
+predecessor: TaylorMade Hi-Toe 3
+successor: TaylorMade Hi-Toe 5
+description: >
+  The Hi-Toe 4 is the 2024 generation of TaylorMade's high-toe specialty
+  wedge, at retail from 14 August 2024 until the Hi-Toe 5 replaced it in
+  2026. It brings the MG4's Spin Tread laser milling to the raw high-toe
+  face, softens the look by shrinking the old sole cavities to a single toe
+  pocket plus a toe pad, and keeps full-face grooves on the 54- to 60-degree
+  heads. The grind story is all new: five milled "All Terrain" soles replace
+  the previous low/standard/high bounce trio, giving 17 loft/bounce/grind
+  combinations from 50 to 60 degrees. The retail finish is aged copper;
+  the MyHi-Toe 4 program added raw, chrome and black. Left-handed 58-degree
+  heads (and the 54 ATS) were custom-order only.
+grinds:
+  - code: ATS
+    name: ATS (All Terrain Standard)
+    description: >
+      The default sole, offered at every loft — a reinforced four-way camber
+      suited to all swing types and turf conditions.
+  - code: ATV
+    name: ATV (All Terrain Versatility)
+    description: >
+      Asymmetric bounce with a concave sole that gains bounce as the face
+      opens — for shallow attack angles on tight lies and firm turf.
+  - code: ATX
+    name: ATX (All Terrain XTRA)
+    description: >
+      New for Hi-Toe 4 — a mid-bounce triple sole whose leading edge resists
+      digging while aggressive trailing-edge relief cuts through the turf;
+      best for steeper swings.
+  - code: ATC
+    name: ATC (All Terrain C)
+    description: >
+      The lowest-bounce option, a classic C-grind with aggressive heel and
+      toe relief for firm conditions and shallow attack angles.
+  - code: ATW
+    name: ATW (All Terrain Wide)
+    description: >
+      The widest, most forgiving sole in the lineup, with high effective
+      bounce for steep swingers, soft or wet turf and sand.
+specs:
+  - loft: 50.0
+    bounce: 9.0
+    grind: ATS
+    lie: 64.0
+  - loft: 52.0
+    bounce: 9.0
+    grind: ATS
+    lie: 64.0
+  - loft: 54.0
+    bounce: 10.0
+    grind: ATS
+    lie: 64.0
+  - loft: 56.0
+    bounce: 10.0
+    grind: ATS
+    lie: 64.0
+  - loft: 56.0
+    bounce: 11.0
+    grind: ATV
+    lie: 64.0
+  - loft: 56.0
+    bounce: 12.0
+    grind: ATX
+    lie: 64.0
+  - loft: 56.0
+    bounce: 14.0
+    grind: ATW
+    lie: 64.0
+  - loft: 58.0
+    bounce: 8.0
+    grind: ATC
+    lie: 64.0
+  - loft: 58.0
+    bounce: 10.0
+    grind: ATS
+    lie: 64.0
+  - loft: 58.0
+    bounce: 11.0
+    grind: ATV
+    lie: 64.0
+  - loft: 58.0
+    bounce: 12.0
+    grind: ATX
+    lie: 64.0
+  - loft: 58.0
+    bounce: 14.0
+    grind: ATW
+    lie: 64.0
+  - loft: 60.0
+    bounce: 8.0
+    grind: ATC
+    lie: 64.0
+  - loft: 60.0
+    bounce: 10.0
+    grind: ATS
+    lie: 64.0
+  - loft: 60.0
+    bounce: 11.0
+    grind: ATV
+    lie: 64.0
+  - loft: 60.0
+    bounce: 12.0
+    grind: ATX
+    lie: 64.0
+  - loft: 60.0
+    bounce: 14.0
+    grind: ATW
+    lie: 64.0
+stock_shafts:
+  - name: "True Temper Dynamic Gold Tour Issue 115"
+    material: steel
+    flex: ["Wedge"]
+related_models:
+  - slug: "taylormade/mg5-wedges"
+    label: "Sibling line: TaylorMade MG5"
+sources:
+  - "MyGolfSpy Hi-Toe 4 launch article, 14 August 2024 (lofts 50-60, the five All Terrain grinds and their loft availability, 8620 carbon steel, aged copper, Dynamic Gold Tour Issue 115 shaft, Lamkin Crossline 360 grip, 179.99 dollars, LH custom-only notes), https://mygolfspy.com/news-opinion/first-look/taylormade-hi-toe-4-wedges/"
+  - "Fairway Jockey Hi-Toe 4 custom wedge configurator listing all 17 loft.bounce/grind options (50.09-60.14) with the 64-degree lie, accessed October 2026"
+  - "TaylorMade.com catalogue check, October 2026: the Hi-Toe 4 is no longer listed and the Hi-Toe 5 is sold as new, dating the discontinuation to 2026."
+  - "Note: club lengths are omitted — TaylorMade's own Hi-Toe 4 spec table is no longer online and retailer length figures could not be cross-confirmed."
+faq:
+  - q: "What lofts does the TaylorMade Hi-Toe 4 come in?"
+    a: "50 to 60 degrees in 2-degree steps — 17 loft, bounce and grind combinations in all."
+  - q: "What grinds does the Hi-Toe 4 offer?"
+    a: "Five milled All Terrain soles: ATS standard at every loft, ATV (56-60), the new triple-sole ATX (56-60), low-bounce ATC (58-60) and the wide ATW (56-60)."
+  - q: "What changed from the Hi-Toe 3 to the Hi-Toe 4?"
+    a: "Spin Tread laser milling was added to the raw face, the back-sole cavities shrank to a cleaner single pocket, and the three-bounce lineup was replaced by five All Terrain grinds — 17 combinations against the Hi-Toe 3's 10."
+confidence: high

@@ -1,0 +1,108 @@
+brand: Cleveland
+brand_slug: cleveland
+model: CBX4 ZipCore
+slug: cbx4-zipcore-wedges
+club_type: wedges
+year_introduced: 2024
+year_discontinued: null
+current_as_of: "2026-10"
+category: game-improvement
+construction: cast cavity back with ZipCore low-density core, Gelback TPU insert, UltiZip grooves
+material: stainless steel with ZipCore compound core
+predecessor: Cleveland CBX ZipCore
+successor: null
+description: >
+  The CBX 4 ZipCore is Cleveland's 2024 cavity-back wedge for golfers who
+  play game-improvement irons, at North American retail from 24 January
+  2024 and still in the catalogue. The fourth CBX generation adds more
+  ZipCore to the head (4.6 percent extra in the 54 and 56 for the highest
+  MOI ever in a CBX wedge, with heel/toe MOI up 7 percent overall),
+  HydraZip face blasts and laser lines for wet-weather friction, and
+  UltiZip grooves. Cleveland pre-selects one Dynamic Sole Grind per loft —
+  V-shaped on the gap lofts, S-shaped on the sand lofts, C-shaped on the
+  lob lofts — all with a leading-edge bounce chamfer against chunks. The
+  44-48 degree heads are right-handed only.
+grinds:
+  - code: V
+    name: V-Shaped Sole
+    description: >
+      Fitted to the 44-52 degree lofts — a V sole that glides over the turf
+      without digging on full-swing, square-face shots.
+  - code: S
+    name: S-Shaped Sole
+    description: >
+      Fitted to the 54 and 56 degree lofts with added bounce — built for
+      bunker shots and open-face finesse around the green.
+  - code: C
+    name: C-Shaped Sole
+    description: >
+      Fitted to the 58 and 60 degree lofts with heel relief — for lob shots
+      with an open face.
+specs:
+  - loft: 44.0
+    bounce: 12.0
+    grind: V
+    lie: 64.0
+    length: 35.75
+  - loft: 46.0
+    bounce: 12.0
+    grind: V
+    lie: 64.0
+    length: 35.5
+  - loft: 48.0
+    bounce: 12.0
+    grind: V
+    lie: 64.0
+    length: 35.5
+  - loft: 50.0
+    bounce: 12.0
+    grind: V
+    lie: 64.0
+    length: 35.5
+  - loft: 52.0
+    bounce: 12.0
+    grind: V
+    lie: 64.0
+    length: 35.5
+  - loft: 54.0
+    bounce: 14.0
+    grind: S
+    lie: 64.0
+    length: 35.25
+  - loft: 56.0
+    bounce: 14.0
+    grind: S
+    lie: 64.0
+    length: 35.25
+  - loft: 58.0
+    bounce: 12.0
+    grind: C
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 12.0
+    grind: C
+    lie: 64.0
+    length: 35.0
+stock_shafts:
+  - name: "KBS Hi-Rev 2.0 115"
+    material: steel
+    flex: ["Wedge"]
+  - name: "UST Recoil Dart 80"
+    material: graphite
+    flex: ["Wedge"]
+related_models:
+  - slug: "cleveland/rtz-wedges"
+    label: "Tour sibling: Cleveland RTZ"
+sources:
+  - "Worldwide Golf Shops / Cleveland CBX 4 ZipCore launch material (24 January 2024 US retail, 169.99/179.99 dollar pricing, three Dynamic Sole Grinds by loft, ZipCore/HydraZip/UltiZip, MOI gains), https://www.worldwidegolfshops.com/insider/post/cleveland-golfs-new-cbx-4-zipcore-wedges"
+  - "Carl's Golf Land CBX 4 ZipCore listing with the full nine-row spec table (loft, sole, bounce, 64-degree lie, lengths 35.75-35 inches, swing weights, hand availability), accessed October 2026"
+  - "Cleveland Golf US store (us.dunlopsports.com) CBX 4 ZipCore listing, accessed October 2026 — still sold new; KBS Hi-Rev 2.0 115 stock steel and UST Recoil Dart 80 stock graphite shafts"
+faq:
+  - q: "What lofts does the Cleveland CBX 4 ZipCore come in?"
+    a: "44 to 60 degrees in 2-degree steps — nine lofts, each in a single factory bounce and sole grind. The 44, 46 and 48 are right-handed only."
+  - q: "Can you choose a grind on the CBX 4 ZipCore?"
+    a: "No — Cleveland pairs each loft with one Dynamic Sole Grind: V-shaped at 44-52 (12 bounce), S-shaped at 54-56 (14 bounce) and C-shaped at 58-60 (12 bounce)."
+  - q: "Who is the CBX 4 ZipCore for?"
+    a: "Golfers who play cavity-back irons and want matching forgiveness in their wedges — it is Cleveland's game-improvement line beside the tour-focused RTZ."
+confidence: high

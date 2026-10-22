@@ -1,0 +1,219 @@
+brand: Titleist
+brand_slug: titleist
+model: Vokey SM9
+slug: vokey-sm9-wedges
+club_type: wedges
+year_introduced: 2022
+year_discontinued: 2024
+category: tour
+construction: cast carbon steel (8620 per Vokey's statements for the line)
+material: 8620 carbon steel
+predecessor: Titleist Vokey SM8
+successor: Titleist Vokey SM10
+description: >
+  The SM9 is the 2022 generation of the Vokey Design line, announced in
+  January 2022 and at retail from March 2022 until the SM10 replaced it in
+  March 2024. It raised the forward centre of gravity further than the SM8
+  for a lower, more controlled flight, and brought the low-bounce T grind
+  from WedgeWorks into the standard line, giving a 25-combination matrix
+  from 46 to 62 degrees across seven grinds (F, S, M, D, K, L, T) — the only
+  Vokey generation with both L and T in line. Grooves are cut to the edge
+  and the impact area is locally heat treated. Finishes were Tour Chrome,
+  Brushed Steel, Jet Black and Raw.
+grinds:
+  - code: F
+    name: F Grind
+    description: >
+      All-purpose grind suited to full shots and square-face shots — the
+      traditional sole, the most played sand wedge on tour, and the only
+      option at the strong lofts from 46 to 52 degrees.
+  - code: S
+    name: S Grind
+    description: >
+      A full sole narrowed by a trailing-edge grind for a faster feel
+      through the turf. Best in neutral to firm conditions for players who
+      control loft with their hands ahead or behind the ball.
+  - code: M
+    name: M Grind
+    description: >
+      Bob Vokey's favourite — for players who rotate the face open and
+      closed to manufacture shots, with a shallower, sweeping swing.
+  - code: D
+    name: D Grind
+    description: >
+      Heel, toe and trailing-edge versatility with forgiveness from high
+      measured bounce, for steeper attack angles and varied face positions.
+  - code: K
+    name: K Grind
+    description: >
+      The highest-bounce wedge in the lineup, with a wide full sole and
+      enhanced camber — the ultimate bunker club, forgiving from softer
+      sand and turf.
+  - code: L
+    name: L Grind
+    description: >
+      The lowest-bounce option, with heel, toe and trailing-edge relief for
+      firm conditions and precise players with complete control at impact.
+  - code: T
+    name: T Grind
+    description: >
+      The narrowest sole in the SM9 lineup — a low-bounce grind with maximum
+      heel, toe and trailing-edge relief for the ultimate in greenside
+      versatility, newly promoted from WedgeWorks into the standard line.
+specs:
+  - loft: 46.0
+    bounce: 10.0
+    grind: F
+    lie: 64.0
+    length: 35.75
+  - loft: 48.0
+    bounce: 10.0
+    grind: F
+    lie: 64.0
+    length: 35.75
+  - loft: 50.0
+    bounce: 8.0
+    grind: F
+    lie: 64.0
+    length: 35.5
+  - loft: 50.0
+    bounce: 12.0
+    grind: F
+    lie: 64.0
+    length: 35.5
+  - loft: 52.0
+    bounce: 8.0
+    grind: F
+    lie: 64.0
+    length: 35.5
+  - loft: 52.0
+    bounce: 12.0
+    grind: F
+    lie: 64.0
+    length: 35.5
+  - loft: 54.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.25
+  - loft: 54.0
+    bounce: 12.0
+    grind: D
+    lie: 64.0
+    length: 35.25
+  - loft: 54.0
+    bounce: 14.0
+    grind: F
+    lie: 64.0
+    length: 35.25
+  - loft: 56.0
+    bounce: 8.0
+    grind: M
+    lie: 64.0
+    length: 35.25
+  - loft: 56.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.25
+  - loft: 56.0
+    bounce: 12.0
+    grind: D
+    lie: 64.0
+    length: 35.25
+  - loft: 56.0
+    bounce: 14.0
+    grind: F
+    lie: 64.0
+    length: 35.25
+  - loft: 58.0
+    bounce: 4.0
+    grind: T
+    lie: 64.0
+    length: 35.0
+  - loft: 58.0
+    bounce: 8.0
+    grind: M
+    lie: 64.0
+    length: 35.0
+  - loft: 58.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.0
+  - loft: 58.0
+    bounce: 12.0
+    grind: D
+    lie: 64.0
+    length: 35.0
+  - loft: 58.0
+    bounce: 14.0
+    grind: K
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 4.0
+    grind: L
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 4.0
+    grind: T
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 8.0
+    grind: M
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 12.0
+    grind: D
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 14.0
+    grind: K
+    lie: 64.0
+    length: 35.0
+  - loft: 62.0
+    bounce: 8.0
+    grind: M
+    lie: 64.0
+    length: 35.0
+stock_shafts:
+  - name: "True Temper Dynamic Gold S200"
+    material: steel
+    weight: "130g"
+    flex: ["S"]
+  - name: "KBS Tour Lite 95"
+    material: steel
+    weight: "95g"
+    flex: ["Wedge"]
+  - name: "Mitsubishi Tensei AM2 Red"
+    material: graphite
+    flex: ["R", "L"]
+related_models:
+  - slug: "titleist/vokey-sm10-wedges"
+    label: "Successor: Vokey SM10"
+  - slug: "titleist/vokey-sm8-wedges"
+    label: "Predecessor: Vokey SM8"
+sources:
+  - "Titleist.com SM9 page with the full specification table (all 25 models with loft, bounce, grind and length; 64-degree standard lie; shafts and grips; grind descriptions), via web.archive.org capture of 19 February 2024, https://web.archive.org/web/20240219234412/https://www.titleist.com/golf-clubs/wedges/sm9 — manufacturer spec table"
+  - "2nd Swing and Rock Bottom Golf SM9/SM8-era spec listings (lie 64 degrees, lengths and D3/D5 swing weights by loft group), accessed October 2026"
+  - "Note: the head alloy (cast 8620 carbon steel) is per Bob Vokey's published statements for the line; Titleist's pages do not state it."
+faq:
+  - q: "What lofts does the Titleist Vokey SM9 come in?"
+    a: "The Vokey SM9 was sold from 46 to 62 degrees in 2-degree steps — 25 loft, bounce and grind combinations."
+  - q: "What grinds does the Vokey SM9 offer?"
+    a: "Seven: F (46-56 degrees), S (54-60), M (56-62), D (54-60), K (58-60), the low-bounce L (60 only) and the T grind (58-60), which moved from WedgeWorks into the standard line with this generation."
+  - q: "Is the Vokey SM9 still in production?"
+    a: "No — the SM10 replaced it in March 2024. SM9 wedges remain plentiful on the used market, and the loft, bounce and grind stamped on each head make used examples easy to identify against this chart."
+  - q: "What is the difference between the SM9 L grind and T grind?"
+    a: "Both carry 4 degrees of bounce at 60 degrees. The T grind has the narrowest sole in the lineup with maximum heel, toe and trailing-edge relief; the L is a slightly wider low-bounce sole for firm conditions. The SM9 was the only generation to offer both in the standard line."
+confidence: high

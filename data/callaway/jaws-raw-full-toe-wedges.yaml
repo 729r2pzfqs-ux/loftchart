@@ -1,0 +1,72 @@
+brand: Callaway
+brand_slug: callaway
+model: JAWS Raw Full Toe
+slug: jaws-raw-full-toe-wedges
+club_type: wedges
+year_introduced: 2023
+year_discontinued: 2024
+category: specialty
+construction: cast 8620 carbon steel, raw unplated face, full-face JAWS grooves, high-toe profile
+material: 8620 carbon steel
+predecessor: Callaway JAWS Full Toe
+successor: null
+description: >
+  The JAWS Raw Full Toe is Callaway's 2023 high-toe specialty wedge, at
+  retail from 7 April 2023. It moves the JAWS Full Toe concept onto the
+  JAWS Raw platform: sharp full-face grooves on an unplated face that rusts
+  into play, with a taller toe for open-face shots. The whole line uses the
+  new J Grind — moderate heel-to-toe camber, a slightly raised heel, a
+  pre-worn leading edge and a sole that widens toward the toe — at a single
+  10-degree bounce across four lofts. It left the range when the Opus
+  family replaced Callaway's wedge lineup from late 2024; the full-toe slot
+  continued with the Opus-generation full-toe models.
+grinds:
+  - code: J
+    name: J Grind
+    description: >
+      The only sole on the model — moderate camber from heel to toe, a
+      slightly higher heel for open-face versatility, extra camber front to
+      back and a pre-worn leading edge. Suits a medium divot and softer
+      conditions, and is forgiving from bunkers.
+specs:
+  - loft: 54.0
+    bounce: 10.0
+    grind: J
+    lie: 64.0
+    length: 35.25
+  - loft: 56.0
+    bounce: 10.0
+    grind: J
+    lie: 64.0
+    length: 35.25
+  - loft: 58.0
+    bounce: 10.0
+    grind: J
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 10.0
+    grind: J
+    lie: 64.0
+    length: 35.0
+stock_shafts:
+  - name: "True Temper Dynamic Gold Spinner"
+    material: steel
+    flex: ["Wedge"]
+  - name: "Project X Catalyst Wedge"
+    material: graphite
+    flex: ["Wedge"]
+related_models:
+  - slug: "callaway/jaws-raw-wedges"
+    label: "Sibling: JAWS Raw"
+sources:
+  - "Colorado AvidGolfer 'More Raw' JAWS Raw Full Toe coverage, 12 April 2023 (in stores 7 April 2023; 54-60 degree lofts at 10 bounce; J Grind description; 180 dollar price; Dynamic Gold Spinner and Project X Catalyst shafts), https://coloradoavidgolfer.com/more-raw/"
+  - "PGA Tour Superstore and Golf Discount JAWS Raw Full Toe Chrome listings (per-loft lengths 35.25/35.0 inches and 64-degree lie, J Grind as the only sole), accessed October 2026"
+faq:
+  - q: "What lofts does the Callaway JAWS Raw Full Toe come in?"
+    a: "Four: 54, 56, 58 and 60 degrees, all with 10 degrees of bounce on the J Grind sole."
+  - q: "What is the J Grind on the JAWS Raw Full Toe?"
+    a: "A sole designed around the full-toe shape: moderate heel-to-toe camber, a slightly raised heel so the face can open, a pre-worn leading edge and extra width toward the toe. It suits medium divots and softer conditions."
+  - q: "How is this different from the standard JAWS Raw?"
+    a: "Same raw-face JAWS groove platform, but with a taller toe, grooves across the whole face, a single grind and bounce instead of the standard model's 24-option matrix, and only the four scoring lofts."
+confidence: high

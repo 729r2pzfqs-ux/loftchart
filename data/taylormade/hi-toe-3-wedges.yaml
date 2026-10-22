@@ -1,0 +1,110 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: Hi-Toe 3
+slug: hi-toe-3-wedges
+club_type: wedges
+year_introduced: 2022
+year_discontinued: 2024
+category: specialty
+construction: cast 8620 carbon steel, milled sole, raw face, high-toe profile
+material: 8620 carbon steel
+predecessor: TaylorMade Hi-Toe Raw
+successor: TaylorMade Hi-Toe 4
+description: >
+  The Hi-Toe 3 is the 2022 generation of TaylorMade's high-toe specialty
+  wedge, at retail from 9 August 2022 until the Hi-Toe 4 replaced it in
+  August 2024. The tall toe and full-face scoring lines (extended to the
+  54-degree head this generation) are built for open-face shots, with raised
+  micro-ribs between the grooves and the most centered CG of any TaylorMade
+  wedge of its day for a lower, spinnier flight. A four-way camber sole
+  keeps the leading edge low; the previous generation's single 10-degree
+  bounce at 58 and 60 degrees grew into low- (7), standard- (10) and
+  high-bounce (13) options. The retail finish is aged copper; the MyHi-Toe 3
+  program added chrome, black and raw.
+grinds:
+  - code: SB
+    name: Standard Bounce
+    description: >
+      The four-way camber sole with a low leading edge, offered at every
+      loft from 50 to 60 degrees — wide enough to forgive, versatile when
+      the face is rotated open.
+  - code: LB
+    name: Low Bounce
+    description: >
+      Seven degrees of bounce at 58 and 60 degrees for firm turf, tight
+      lies, harder sand and players with a shallow, sweeping attack.
+  - code: HB
+    name: High Bounce
+    description: >
+      Thirteen degrees of bounce at 58 and 60 degrees for soft turf, fluffy
+      lies, soft sand and steep, digging swing styles.
+specs:
+  - loft: 50.0
+    bounce: 9.0
+    grind: SB
+    lie: 64.0
+    length: 35.5
+  - loft: 52.0
+    bounce: 9.0
+    grind: SB
+    lie: 64.0
+    length: 35.5
+  - loft: 54.0
+    bounce: 10.0
+    grind: SB
+    lie: 64.0
+    length: 35.25
+  - loft: 56.0
+    bounce: 10.0
+    grind: SB
+    lie: 64.0
+    length: 35.25
+  - loft: 58.0
+    bounce: 7.0
+    grind: LB
+    lie: 64.0
+    length: 35.0
+  - loft: 58.0
+    bounce: 10.0
+    grind: SB
+    lie: 64.0
+    length: 35.0
+  - loft: 58.0
+    bounce: 13.0
+    grind: HB
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 7.0
+    grind: LB
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 10.0
+    grind: SB
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 13.0
+    grind: HB
+    lie: 64.0
+    length: 35.0
+stock_shafts:
+  - name: "KBS Hi-Rev 2.0 115"
+    material: steel
+    flex: ["Wedge"]
+related_models:
+  - slug: "taylormade/mg4-wedges"
+    label: "Sibling line: TaylorMade MG4"
+sources:
+  - "TaylorMade Hi-Toe 3 Copper Wedge product page with the full spec table (all 10 combinations with loft, bounce, length, 64-degree lie, swing weight, 8620 carbon steel, aged copper), https://www.taylormadegolf.com/Hi-Toe-3-Copper-Wedge-/N8068609.html, accessed October 2026"
+  - "MyGolfSpy Hi-Toe 3 launch article, 9 August 2022 (availability date, bounce lineup, KBS Hi-Rev 2.0 stock shaft, Lamkin Crossline 360 grip, 179 dollar price, MyHi-Toe 3 finishes), https://mygolfspy.com/news-opinion/taylormade-hi-toe-3-wedges/"
+  - "2nd Swing Hi-Toe 3 listings (58-degree 7/10/13 and 60-degree bounce options cross-check), accessed October 2026"
+faq:
+  - q: "What lofts does the TaylorMade Hi-Toe 3 come in?"
+    a: "50 to 60 degrees in 2-degree steps. Standard bounce covers every loft; 58 and 60 degrees also come in low-bounce (7 degrees) and high-bounce (13 degrees) versions, for 10 combinations in all."
+  - q: "Does the Hi-Toe 3 have full-face grooves?"
+    a: "Yes, on the 54- through 60-degree heads — this generation extended the full-face scoring lines down to the 54. The 50 and 52 use standard grooves."
+  - q: "When did the Hi-Toe 3 come out and when was it replaced?"
+    a: "It went on sale on 9 August 2022 and was replaced by the Hi-Toe 4 in August 2024."
+confidence: high

@@ -1,0 +1,117 @@
+brand: Ping
+brand_slug: ping
+model: Glide 4.0
+slug: glide-4-0-wedges
+club_type: wedges
+year_introduced: 2022
+year_discontinued: 2024
+category: tour
+construction: cast 8620 carbon steel with activated elastomer insert
+material: 8620 carbon steel, elastomer insert
+predecessor: Ping Glide 3.0
+successor: Ping s159
+description: >
+  The Glide 4.0 is the last of Ping's Glide wedge line, announced on
+  15 March 2022 and replaced by the s159 in February 2024. Its
+  multi-material head pairs 8620 carbon steel with a larger, softer
+  activated elastomer insert for a muted feel, under a Hydropearl 2.0
+  chrome finish. The 46-52 heads carry wheel-cut grooves with a 20-degree
+  sidewall for full shots, while the 54-60 heads are milled with a tighter
+  28-degree sidewall for spin on finesse shots. The line runs 17 loft/grind
+  combinations from 46 to 60 degrees across four grinds, with a new Emery
+  blast face texture.
+grinds:
+  - code: S
+    name: S Grind
+    description: >
+      Fits most golfers — ample bounce through the mid-sole with trailing
+      edge and heel relief, offered at every loft from 46 to 60 degrees.
+  - code: W
+    name: W Grind
+    description: >
+      Traditional full-sole, high-bounce design — the most forgiving grind
+      through the turf, for softer conditions and steeper attack angles.
+  - code: T
+    name: T Grind
+    description: >
+      Low-bounce half-moon sole shaping with high lead-edge bounce, for
+      precise shot-making from firm turf at 58 and 60 degrees.
+  - code: E
+    name: E Grind
+    description: >
+      High-toe design with a dished sole inspired by the PING Eye2 sand
+      wedge — a bunker specialist.
+specs:
+  - loft: 46.0
+    bounce: 12.0
+    grind: S
+  - loft: 50.0
+    bounce: 12.0
+    grind: S
+  - loft: 52.0
+    bounce: 12.0
+    grind: S
+  - loft: 54.0
+    bounce: 10.0
+    grind: E
+  - loft: 54.0
+    bounce: 12.0
+    grind: S
+  - loft: 54.0
+    bounce: 14.0
+    grind: W
+  - loft: 56.0
+    bounce: 10.0
+    grind: E
+  - loft: 56.0
+    bounce: 12.0
+    grind: S
+  - loft: 56.0
+    bounce: 14.0
+    grind: W
+  - loft: 58.0
+    bounce: 6.0
+    grind: T
+  - loft: 58.0
+    bounce: 8.0
+    grind: E
+  - loft: 58.0
+    bounce: 10.0
+    grind: S
+  - loft: 58.0
+    bounce: 14.0
+    grind: W
+  - loft: 60.0
+    bounce: 6.0
+    grind: T
+  - loft: 60.0
+    bounce: 8.0
+    grind: E
+  - loft: 60.0
+    bounce: 10.0
+    grind: S
+  - loft: 60.0
+    bounce: 14.0
+    grind: W
+stock_shafts:
+  - name: "Ping Z-Z115"
+    material: steel
+    flex: ["Wedge"]
+  - name: "Ping Alta CB Slate"
+    material: graphite
+    flex: ["SR", "R", "S"]
+related_models:
+  - slug: "titleist/vokey-sm9-wedges"
+    label: "Rival: Titleist Vokey SM9"
+sources:
+  - "Ping Glide 4.0 launch press release, 15 March 2022, as carried by Golf Retailing and First Call Golf (complete grind-by-grind loft/bounce lineup — S 46-60, W 54-60 at 14, T 58-60 at 6, E 54-60; groove sidewalls; elastomer insert; Z-Z115 and Alta CB Slate stock shafts; 217.50/232.50 dollar pricing)"
+  - "MyGolfSpy Glide 4.0 launch coverage, March 2022 (Emery blast face, Hydropearl 2.0 chrome, fitting lineup), https://mygolfspy.com/news-opinion/ping-glide-4-0-wedges/"
+  - "Note: Ping removed the Glide 4.0 page from ping.com after the s159 launch, so per-loft lie and length figures could not be re-confirmed and are omitted."
+faq:
+  - q: "What lofts does the Ping Glide 4.0 come in?"
+    a: "46 to 60 degrees — 17 loft/grind combinations. There is no 48-degree option; that loft arrived with the s159."
+  - q: "What grinds does the Ping Glide 4.0 offer?"
+    a: "Four: the all-round S at every loft, the high-bounce W (54-60 at 14 degrees), the low-bounce T (58 and 60 at 6 degrees) and the Eye2-inspired high-toe E (54-60)."
+  - q: "What replaced the Ping Glide 4.0?"
+    a: "The s159, announced in February 2024, which widened the lineup to 25 combinations and added the low-bounce B grind."
+confidence: high

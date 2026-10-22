@@ -1,0 +1,210 @@
+brand: Ping
+brand_slug: ping
+model: s159
+slug: s159-wedges
+club_type: wedges
+year_introduced: 2024
+year_discontinued: null
+category: tour
+construction: cast 8620 carbon steel, precision-milled wheel-cut grooves
+material: 8620 carbon steel
+predecessor: Ping Glide 4.0
+successor: Ping S259
+description: >
+  The s159 is Ping's 2024 tour wedge, announced on 13 February 2024 as the
+  replacement for the Glide 4.0 and still in the catalogue alongside the
+  2026 S259. It widened the line to 25 loft/grind combinations by adding
+  the low-bounce B grind, a 48-degree S and a 62-degree T, and paired the
+  launch with Ping's WebFit Wedge fitting app. The 46-52 heads are milled
+  for maximum groove volume on full shots while the 54-62 heads carry
+  tighter-spaced MicroMax grooves; both Hydropearl 2.0 Chrome and Midnight
+  finishes are offered in every combination. Bounce figures below are
+  Ping's published effective bounce.
+grinds:
+  - code: S
+    name: S Grind
+    description: >
+      Fits a wide variety of conditions and techniques — ample mid-sole
+      bounce for full shots with heel and trailing-edge relief for
+      greenside versatility. The grind offered at every loft, including
+      the new 48-degree gapping option.
+  - code: W
+    name: W Grind
+    description: >
+      Traditional full-sole, high-bounce design — the most forgiving
+      through the turf and the pick for softer conditions and steeper
+      swings.
+  - code: Eye2
+    name: Eye2 Grind
+    description: >
+      High-toe shape and dished sole inspired by the PING Eye2 sand wedge,
+      long a tour favourite out of bunkers.
+  - code: H
+    name: H Grind
+    description: >
+      Half-moon grind for players with steeper angles of attack who like to
+      manipulate the handle — a shot-saver that performs best in softer
+      conditions.
+  - code: T
+    name: T Grind
+    description: >
+      The most versatile option for shot-making around the greens in medium
+      to firm conditions, with a 62-degree loft added at the request of
+      Ping's tour pros.
+  - code: B
+    name: B Grind
+    description: >
+      New for the s159 — a low-bounce, wide sole that sits low to the turf
+      on square-face shots, for shallow attack angles and neutral face
+      delivery in firmer conditions.
+specs:
+  - loft: 46.0
+    bounce: 12.0
+    grind: S
+    lie: 64.0
+    length: 35.5
+  - loft: 48.0
+    bounce: 12.0
+    grind: S
+    lie: 64.0
+    length: 35.5
+  - loft: 50.0
+    bounce: 12.0
+    grind: S
+    lie: 64.0
+    length: 35.5
+  - loft: 52.0
+    bounce: 12.0
+    grind: S
+    lie: 64.0
+    length: 35.5
+  - loft: 54.0
+    bounce: 10.0
+    grind: Eye2
+    lie: 64.3
+    length: 35.25
+  - loft: 54.0
+    bounce: 10.0
+    grind: H
+    lie: 64.3
+    length: 35.25
+  - loft: 54.0
+    bounce: 12.0
+    grind: S
+    lie: 64.3
+    length: 35.25
+  - loft: 54.0
+    bounce: 14.0
+    grind: W
+    lie: 64.3
+    length: 35.25
+  - loft: 56.0
+    bounce: 10.0
+    grind: Eye2
+    lie: 64.3
+    length: 35.25
+  - loft: 56.0
+    bounce: 10.0
+    grind: H
+    lie: 64.3
+    length: 35.25
+  - loft: 56.0
+    bounce: 12.0
+    grind: S
+    lie: 64.3
+    length: 35.25
+  - loft: 56.0
+    bounce: 14.0
+    grind: W
+    lie: 64.3
+    length: 35.25
+  - loft: 58.0
+    bounce: 6.0
+    grind: T
+    lie: 64.5
+    length: 35.0
+  - loft: 58.0
+    bounce: 8.0
+    grind: B
+    lie: 64.5
+    length: 35.0
+  - loft: 58.0
+    bounce: 8.0
+    grind: Eye2
+    lie: 64.5
+    length: 35.0
+  - loft: 58.0
+    bounce: 8.0
+    grind: H
+    lie: 64.5
+    length: 35.0
+  - loft: 58.0
+    bounce: 10.0
+    grind: S
+    lie: 64.5
+    length: 35.0
+  - loft: 58.0
+    bounce: 14.0
+    grind: W
+    lie: 64.5
+    length: 35.0
+  - loft: 60.0
+    bounce: 6.0
+    grind: T
+    lie: 64.5
+    length: 35.0
+  - loft: 60.0
+    bounce: 8.0
+    grind: B
+    lie: 64.5
+    length: 35.0
+  - loft: 60.0
+    bounce: 8.0
+    grind: Eye2
+    lie: 64.5
+    length: 35.0
+  - loft: 60.0
+    bounce: 8.0
+    grind: H
+    lie: 64.5
+    length: 35.0
+  - loft: 60.0
+    bounce: 10.0
+    grind: S
+    lie: 64.5
+    length: 35.0
+  - loft: 60.0
+    bounce: 14.0
+    grind: W
+    lie: 64.5
+    length: 35.0
+  - loft: 62.0
+    bounce: 6.0
+    grind: T
+    lie: 64.5
+    length: 35.0
+stock_shafts:
+  - name: "Ping Z-Z115"
+    material: steel
+    weight: "111g"
+    flex: ["Wedge"]
+  - name: "Ping Alta CB Black"
+    material: graphite
+    flex: ["SR", "R", "S"]
+related_models:
+  - slug: "titleist/vokey-sm10-wedges"
+    label: "Rival: Titleist Vokey SM10"
+sources:
+  - "Ping s159 wedge page with the complete 25-row key-specifications table (loft, length, lie, offset, effective bounce, swing weight per combination; grind availability; finishes; shafts), https://ping.com/en-us/golf-clubs/wedges/s159-wedge, accessed October 2026"
+  - "PGA Tour equipment report, 13 February 2024 (launch date, WebFit Wedge app introduction), https://pgatour.com/article/news/equipment-report/2024/02/13/ping-introduces-tour-inspired-s159-wedges-webfit-wedge-consumer-app"
+  - "Note: lie angles are Ping's Black color-code standard (64.0-64.5 degrees by loft) and bounce is Ping's published effective bounce."
+faq:
+  - q: "What lofts does the Ping s159 come in?"
+    a: "46 to 62 degrees — 25 loft/grind combinations, including the 48-degree S added for gapping and the 62-degree T added at the request of Ping's tour players."
+  - q: "What grinds does the Ping s159 offer?"
+    a: "Six: the all-round S at every loft from 46 to 60, the high-bounce W (54-60), the Eye2 high-toe (54-60), the half-moon H (54-60), the low-bounce T (58-62) and the new wide low-bounce B (58-60)."
+  - q: "Is the Ping s159 still sold?"
+    a: "Yes — as of October 2026 it remains in Ping's catalogue alongside the 2026 S259 that succeeded it at the top of the line."
+  - q: "What finishes does the s159 come in?"
+    a: "Hydropearl 2.0 Chrome and Midnight, both available in all 25 loft/grind combinations."
+confidence: high

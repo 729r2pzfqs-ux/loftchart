@@ -1,0 +1,127 @@
+brand: Mizuno
+brand_slug: mizuno
+model: T24
+slug: t24-wedges
+club_type: wedges
+year_introduced: 2023
+year_discontinued: 2025
+category: tour
+construction: one-piece Grain Flow Forged HD, 1025E Pure Select mild carbon steel with boron
+material: 1025 boron carbon steel
+predecessor: Mizuno T22
+successor: Mizuno Pro T-1
+description: >
+  The T24 is the 2023 generation of Mizuno's T-Series tour wedge, Grain Flow
+  Forged HD in Hiroshima and replaced by the Mizuno Pro T-1 in 2025. It
+  tightened the groove pattern with QuadCut+ milling (15 grooves on the
+  46-54 heads for full shots, 17 on the 56-60 for partials), kept the
+  laser-etched HydroFlow micro grooves for wet spin, and added a fifth sole
+  — the tour-inspired V with high bounce near the leading edge and extreme
+  trailing-edge relief. The 17-combination matrix runs 46 to 60 degrees,
+  with head shapes that flow from a straight-edged profile at the strong
+  lofts to a rounder teardrop at 58 and up. Finishes were Soft White Satin,
+  Denim Copper and Raw, with a copper underlay beneath the chrome for feel;
+  a Blue Ion limited run followed. Lie and length are omitted because
+  Mizuno's published US and UK charts disagree.
+grinds:
+  - code: S
+    name: S-Type
+    description: >
+      High bounce with limited relief for full shots — the only sole at the
+      46-52 gap lofts and the steep-swinger's pick at 54 and 56.
+  - code: D
+    name: D-Type
+    description: >
+      Mid bounce with moderate relief for gentle manipulation of the face —
+      the middle-of-the-road option at 54 to 58 degrees.
+  - code: C
+    name: C-Type
+    description: >
+      Mid-to-high bounce with generous heel and toe relief for a wide range
+      of players and conditions, at 56 to 60 degrees.
+  - code: V
+    name: V-Type
+    description: >
+      New for the T24 — high bounce concentrated near the leading edge with
+      aggressive trailing-edge relief, versatile square or open, at 56 to
+      60 degrees.
+  - code: X
+    name: X-Type
+    description: >
+      The lowest bounce in the line with extreme heel, toe and trailing-edge
+      relief — for advanced players and firm conditions, at 58 and 60
+      degrees.
+specs:
+  - loft: 46.0
+    bounce: 8.0
+    grind: S
+  - loft: 48.0
+    bounce: 10.0
+    grind: S
+  - loft: 50.0
+    bounce: 8.0
+    grind: S
+  - loft: 52.0
+    bounce: 10.0
+    grind: S
+  - loft: 54.0
+    bounce: 8.0
+    grind: D
+  - loft: 54.0
+    bounce: 10.0
+    grind: S
+  - loft: 56.0
+    bounce: 6.0
+    grind: C
+  - loft: 56.0
+    bounce: 8.0
+    grind: V
+  - loft: 56.0
+    bounce: 10.0
+    grind: D
+  - loft: 56.0
+    bounce: 12.0
+    grind: S
+  - loft: 58.0
+    bounce: 4.0
+    grind: X
+  - loft: 58.0
+    bounce: 8.0
+    grind: C
+  - loft: 58.0
+    bounce: 10.0
+    grind: V
+  - loft: 58.0
+    bounce: 12.0
+    grind: D
+  - loft: 60.0
+    bounce: 6.0
+    grind: X
+  - loft: 60.0
+    bounce: 10.0
+    grind: C
+  - loft: 60.0
+    bounce: 12.0
+    grind: V
+stock_shafts:
+  - name: "True Temper Dynamic Gold Tour Issue S400"
+    material: steel
+    flex: ["S"]
+related_models:
+  - slug: "mizuno/s23-wedges"
+    label: "Sibling: Mizuno S23"
+sources:
+  - "Mizuno USA T24 product page via Wayback Machine capture of 26 May 2024 (Grain Flow Forged HD 1025E Pure Select boron steel, QuadCut+ grooves, the five sole types and their descriptions, copper underlay, 180 dollar price, 46-60 loft and 4-12 bounce options, Dynamic Gold Tour Issue S400 stock shaft), https://web.archive.org/web/20240526050850/https://mizunousa.com/golf-t24-soft-white-satin"
+  - "Fairway Jockey T24 custom wedge listing enumerating all 17 loft.bounce/grind combinations (46.08S through 60.12V), accessed October 2026"
+  - "MyGolfSpy and Plugged In Golf T24 coverage (S-grind-only at 46-52, grind availability by loft, September 2023 launch), accessed October 2026"
+  - "Note: lie and length are omitted — Mizuno's US and UK spec charts disagree on the measuring basis."
+faq:
+  - q: "What lofts does the Mizuno T24 come in?"
+    a: "46 to 60 degrees in 2-degree steps — 17 loft, bounce and grind combinations. The 46-52 gap lofts come only in the S-Type sole."
+  - q: "What grinds does the Mizuno T24 offer?"
+    a: "Five sole types: S (46-56, high bounce, limited relief), D (54-58, mid bounce), C (56-60, generous relief), the new V (56-60, leading-edge bounce with aggressive trailing-edge relief) and X (58-60, the low-bounce option)."
+  - q: "Is the Mizuno T24 forged?"
+    a: "Yes — one-piece Grain Flow Forged HD from 1025E Pure Select mild carbon steel with boron, at Mizuno's Hiroshima plant."
+  - q: "What replaced the Mizuno T24?"
+    a: "The Mizuno Pro T-1 took over the tour-wedge slot in 2025, alongside the wider-soled Mizuno Pro T-3."
+confidence: high

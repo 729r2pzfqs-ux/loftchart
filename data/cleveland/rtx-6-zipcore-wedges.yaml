@@ -1,0 +1,135 @@
+brand: Cleveland
+brand_slug: cleveland
+model: RTX 6 ZipCore
+slug: rtx-6-zipcore-wedges
+club_type: wedges
+year_introduced: 2023
+year_discontinued: 2025
+category: tour
+construction: cast 8620 carbon steel with second-generation ZipCore low-density hosel core
+material: 8620 carbon steel
+predecessor: Cleveland RTX ZipCore
+successor: Cleveland RTZ
+description: >
+  The RTX 6 ZipCore is the sixth and final generation of Cleveland's RTX
+  tour wedge line, announced on 9 January 2023 and at retail from 20
+  January. It nearly doubled the ZipCore low-density hosel material of the
+  2020 original, with the core geometry tuned per loft, and introduced the
+  HydraZip face — Rotex milling plus loft-specific laser milling and face
+  blasting for wet-condition spin — alongside the sharpest UltiZip grooves
+  to that point. The matrix is deliberately simple: 16 loft/bounce/grind
+  combinations from 46 to 60 degrees across four grinds, each at a fixed
+  bounce. Cleveland retired the RTX name with this generation; the RTZ
+  replaced it in January 2025. Finishes were Tour Satin, Black Satin and
+  the raw Tour Rack.
+grinds:
+  - code: LOW
+    name: LOW Grind
+    description: >
+      A C-shaped sole at 6 degrees of bounce for the 58 and 60 degree lob
+      wedges — for shallow attack angles and players who take small divots.
+  - code: LOW+
+    name: LOW+ Grind
+    description: >
+      New for this generation at 54 and 56 degrees — the Low's C-shape with
+      a touch more bounce in the leading edge, at 8 degrees, for better
+      sand performance.
+  - code: MID
+    name: MID Grind
+    description: >
+      A traditional V-shaped sole at 10 degrees of bounce, offered at every
+      loft in the lineup — the all-conditions default.
+  - code: FULL
+    name: FULL Grind
+    description: >
+      The highest-bounce sole at 12 degrees, for the 54 to 60 degree
+      models — built for rough, bunkers, softer conditions and steeper
+      attack angles.
+specs:
+  - loft: 46.0
+    bounce: 10.0
+    grind: MID
+    lie: 64.0
+  - loft: 48.0
+    bounce: 10.0
+    grind: MID
+    lie: 64.0
+  - loft: 50.0
+    bounce: 10.0
+    grind: MID
+    lie: 64.0
+  - loft: 52.0
+    bounce: 10.0
+    grind: MID
+    lie: 64.0
+  - loft: 54.0
+    bounce: 8.0
+    grind: LOW+
+    lie: 64.0
+  - loft: 54.0
+    bounce: 10.0
+    grind: MID
+    lie: 64.0
+  - loft: 54.0
+    bounce: 12.0
+    grind: FULL
+    lie: 64.0
+  - loft: 56.0
+    bounce: 8.0
+    grind: LOW+
+    lie: 64.0
+  - loft: 56.0
+    bounce: 10.0
+    grind: MID
+    lie: 64.0
+  - loft: 56.0
+    bounce: 12.0
+    grind: FULL
+    lie: 64.0
+  - loft: 58.0
+    bounce: 6.0
+    grind: LOW
+    lie: 64.0
+  - loft: 58.0
+    bounce: 10.0
+    grind: MID
+    lie: 64.0
+  - loft: 58.0
+    bounce: 12.0
+    grind: FULL
+    lie: 64.0
+  - loft: 60.0
+    bounce: 6.0
+    grind: LOW
+    lie: 64.0
+  - loft: 60.0
+    bounce: 10.0
+    grind: MID
+    lie: 64.0
+  - loft: 60.0
+    bounce: 12.0
+    grind: FULL
+    lie: 64.0
+stock_shafts:
+  - name: "True Temper Dynamic Gold Spinner Tour Issue"
+    material: steel
+    weight: "128g"
+    flex: ["Wedge"]
+related_models:
+  - slug: "cleveland/rtz-wedges"
+    label: "Successor: Cleveland RTZ"
+sources:
+  - "MyGolfSpy RTX 6 ZipCore launch article, 9 January 2023 (retail 20 January 2023, 169.99 dollars; grind lineup with bounces — LOW 6 at 58-60, LOW+ 8 at 54-56, MID 10 at every loft, FULL 12 at 54-60; ZipCore, HydraZip and UltiZip details from Cleveland's engineering manager), https://mygolfspy.com/news-opinion/cleveland-rtx-6-zipcore-wedges/"
+  - "Cleveland Golf (Dunlop Sports) RTX 6 ZipCore Tour Rack product listing (Dynamic Gold Spinner Tour Issue stock shaft, Lamkin Crossline 360 grip, finishes), us.dunlopsports.com, accessed October 2026"
+  - "2nd Swing and TGW RTX 6 ZipCore listings (64-degree lie across the line, grind/loft grid cross-check), accessed October 2026"
+  - "Note: club lengths are omitted because retailer listings disagree on the measuring basis — Cleveland re-based its published lengths with the 2025 RTZ, so RTX 6 figures are not comparable across sources."
+faq:
+  - q: "What lofts does the Cleveland RTX 6 ZipCore come in?"
+    a: "The RTX 6 ZipCore was sold from 46 to 60 degrees in 2-degree steps — 16 loft, bounce and grind combinations."
+  - q: "What grinds does the Cleveland RTX 6 ZipCore offer?"
+    a: "Four, each at a fixed bounce: MID (10 degrees, every loft), FULL (12 degrees, 54-60), the C-shaped LOW (6 degrees, 58-60) and the new LOW+ (8 degrees, 54-56)."
+  - q: "Is the Cleveland RTX 6 ZipCore still in production?"
+    a: "No — Cleveland retired the RTX name with this generation and replaced it with the RTZ in January 2025, so the used and closeout market is the source."
+  - q: "What is the difference between the RTX 6 LOW and LOW+ grinds?"
+    a: "Both use the C-shaped sole. The LOW carries 6 degrees of bounce at 58 and 60 degrees; the LOW+, new for this generation at 54 and 56 degrees, adds a little more bounce at the leading edge for 8 degrees, aimed at better bunker performance."
+confidence: high

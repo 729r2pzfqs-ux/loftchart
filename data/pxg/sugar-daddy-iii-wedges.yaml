@@ -1,0 +1,130 @@
+brand: PXG
+brand_slug: pxg
+model: Sugar Daddy III
+slug: sugar-daddy-iii-wedges
+club_type: wedges
+year_introduced: 2024
+year_discontinued: null
+current_as_of: "2026-10"
+category: tour
+construction: triple forged and 100% CNC milled 8620 carbon steel
+material: 8620 carbon steel
+predecessor: PXG Sugar Daddy II
+successor: null
+description: >
+  The Sugar Daddy III is PXG's flagship milled wedge, introduced on
+  7 August 2024 and still sold alongside the 2026 Stick'em line (a parallel
+  range, not a replacement). Each head is triple forged from 8620 carbon
+  steel and then fully CNC milled, with a single Precision Weighting
+  Technology port behind the CG adjustable in 2-gram steps during fitting.
+  Variable-depth milled ports near the sole move the CG progressively
+  through the lofts, and the 16-groove face (one more than the Sugar Daddy
+  II) uses wider grooves with 25 percent more cross-sectional volume. The
+  12-combination matrix runs 50 to 60 degrees across three grinds — the
+  classic-shape S, the high-toe full-face-groove BP, and the low-bounce C —
+  in Chrome (299.99 dollars) and Xtreme Dark (349.99) finishes.
+grinds:
+  - code: S
+    name: S-Grind
+    description: >
+      New for the III — a classic head shape with traditional grooves and a
+      10-degree sole that tapers in width from heel to toe. The all-round
+      option, offered at every loft.
+  - code: BP
+    name: BP-Grind
+    description: >
+      High-toe design with full-face grooves and 12 degrees of bounce —
+      for lush turf, soft sand and steeper attack angles, at 54 to 60
+      degrees.
+  - code: C
+    name: C-Grind
+    description: >
+      Narrow, 7-degree sole with an aggressive heel-to-toe taper for lower
+      bounce and maximum open-face versatility, at 58 and 60 degrees.
+specs:
+  - loft: 50.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.5
+  - loft: 52.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.5
+  - loft: 54.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.25
+  - loft: 54.0
+    bounce: 12.0
+    grind: BP
+    lie: 64.0
+    length: 35.25
+  - loft: 56.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.25
+  - loft: 56.0
+    bounce: 12.0
+    grind: BP
+    lie: 64.0
+    length: 35.25
+  - loft: 58.0
+    bounce: 7.0
+    grind: C
+    lie: 64.0
+    length: 35.0
+  - loft: 58.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.0
+  - loft: 58.0
+    bounce: 12.0
+    grind: BP
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 7.0
+    grind: C
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 12.0
+    grind: BP
+    lie: 64.0
+    length: 35.0
+stock_shafts:
+  - name: "Project X Cypher 2.0"
+    material: graphite
+    flex: ["Wedge"]
+  - name: "Mitsubishi MMT 70"
+    material: graphite
+    flex: ["Wedge"]
+  - name: "UST Recoil Dart 75"
+    material: graphite
+    flex: ["Wedge"]
+related_models:
+  - slug: "pxg/stick-em-wedges"
+    label: "Sibling line: PXG Stick'em"
+sources:
+  - "PXG Sugar Daddy III product pages and launch release, 7 August 2024, via pxg.com and First Call Golf (grind lineup and lofts — S 50-60 at 10, BP 54-60 at 12, C 58-60 at 7; triple forged, 100 percent milled 8620; Precision Weighting Technology; 16-groove face; 299.99/349.99 dollar pricing), accessed October 2026"
+  - "PXG model spec table (64-degree lie on every loft; lengths 35.5 inches at 50-52, 35.25 at 54-56, 35 at 58-60; progressive offset), via pxg.com, accessed October 2026"
+faq:
+  - q: "What lofts does the PXG Sugar Daddy III come in?"
+    a: "50 to 60 degrees in 2-degree steps — 12 loft, bounce and grind combinations across the S, BP and C grinds."
+  - q: "What grinds does the Sugar Daddy III offer?"
+    a: "Three: the new classic-shape S at every loft (10 bounce), the high-toe BP with full-face grooves (54-60, 12 bounce) and the narrow low-bounce C (58-60, 7 bounce)."
+  - q: "Did the PXG Stick'em replace the Sugar Daddy III?"
+    a: "No — the 2026 Stick'em wedges are a parallel PXG line, and the Sugar Daddy III remains on sale as the fully milled flagship."
+  - q: "Is the Sugar Daddy III forged or milled?"
+    a: "Both: each 8620 carbon steel head is triple forged and then 100 percent CNC milled, with an adjustable Precision Weighting port behind the centre of gravity."
+confidence: high

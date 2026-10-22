@@ -1,0 +1,192 @@
+brand: Titleist
+brand_slug: titleist
+model: Vokey SM8
+slug: vokey-sm8-wedges
+club_type: wedges
+year_introduced: 2020
+year_discontinued: 2022
+category: tour
+construction: cast carbon steel (8620 per Vokey's statements for the line)
+material: 8620 carbon steel
+predecessor: Titleist Vokey SM7
+successor: Titleist Vokey SM9
+description: >
+  The SM8 is the 2020 generation of the Vokey Design line, at retail from
+  March 2020 until the SM9 replaced it in early 2022. Its reimagined
+  progressive centre of gravity — pushed forward ahead of the face — made it
+  the most accurate and forgiving Vokey to that point, with grooves cut to
+  the edge and a heat-treated impact area for durability. The standard
+  matrix ran 23 loft/bounce/grind combinations from 46 to 62 degrees across
+  six grinds (F, S, M, D, K, L); the low-bounce T grind was still a
+  WedgeWorks custom in this generation. Finishes were Tour Chrome, Brushed
+  Steel, Jet Black, Raw and a premium Slate Blue.
+grinds:
+  - code: F
+    name: F Grind
+    description: >
+      The all-purpose wedge grind for full wedge shots — a traditional sole
+      suited to square-face swings, and the only option at the strong lofts
+      from 46 to 52 degrees.
+  - code: S
+    name: S Grind
+    description: >
+      A narrow and versatile grind — a full sole trimmed by a trailing-edge
+      grind, best in neutral to firm conditions.
+  - code: M
+    name: M Grind
+    description: >
+      The multi-purpose grind for versatility — Bob Vokey's favourite, for
+      players who rotate the face to manufacture greenside shots.
+  - code: D
+    name: D Grind
+    description: >
+      The player's high-bounce grind — heel, toe and trailing-edge
+      versatility with forgiveness from high measured bounce, for steeper
+      attack angles.
+  - code: K
+    name: K Grind
+    description: >
+      The ultimate bunker club — the highest bounce in the lineup on a
+      wide, cambered full sole.
+  - code: L
+    name: L Grind
+    description: >
+      Precision for skilled shotmakers — the lowest-bounce option, offered
+      only as the 60.04, for firm conditions and complete control at impact.
+specs:
+  - loft: 46.0
+    bounce: 10.0
+    grind: F
+    lie: 64.0
+    length: 35.75
+  - loft: 48.0
+    bounce: 10.0
+    grind: F
+    lie: 64.0
+    length: 35.75
+  - loft: 50.0
+    bounce: 8.0
+    grind: F
+    lie: 64.0
+    length: 35.5
+  - loft: 50.0
+    bounce: 12.0
+    grind: F
+    lie: 64.0
+    length: 35.5
+  - loft: 52.0
+    bounce: 8.0
+    grind: F
+    lie: 64.0
+    length: 35.5
+  - loft: 52.0
+    bounce: 12.0
+    grind: F
+    lie: 64.0
+    length: 35.5
+  - loft: 54.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.25
+  - loft: 54.0
+    bounce: 12.0
+    grind: D
+    lie: 64.0
+    length: 35.25
+  - loft: 54.0
+    bounce: 14.0
+    grind: F
+    lie: 64.0
+    length: 35.25
+  - loft: 56.0
+    bounce: 8.0
+    grind: M
+    lie: 64.0
+    length: 35.25
+  - loft: 56.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.25
+  - loft: 56.0
+    bounce: 12.0
+    grind: D
+    lie: 64.0
+    length: 35.25
+  - loft: 56.0
+    bounce: 14.0
+    grind: F
+    lie: 64.0
+    length: 35.25
+  - loft: 58.0
+    bounce: 8.0
+    grind: M
+    lie: 64.0
+    length: 35.0
+  - loft: 58.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.0
+  - loft: 58.0
+    bounce: 12.0
+    grind: D
+    lie: 64.0
+    length: 35.0
+  - loft: 58.0
+    bounce: 14.0
+    grind: K
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 4.0
+    grind: L
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 8.0
+    grind: M
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 12.0
+    grind: D
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 14.0
+    grind: K
+    lie: 64.0
+    length: 35.0
+  - loft: 62.0
+    bounce: 8.0
+    grind: M
+    lie: 64.0
+    length: 35.0
+stock_shafts:
+  - name: "True Temper Dynamic Gold S200"
+    material: steel
+    flex: ["S"]
+related_models:
+  - slug: "titleist/vokey-sm9-wedges"
+    label: "Successor: Vokey SM9"
+sources:
+  - "Titleist.com SM8 page with the complete loft/bounce lineup per grind (F, S, M, D, K, L) and finishes, via web.archive.org capture of 19 April 2021, https://web.archive.org/web/20210419092543/https://www.titleist.com/golf-clubs/wedges/sm8 — manufacturer grind-by-grind option lists"
+  - "2nd Swing and Rock Bottom Golf SM8 spec listings (64-degree lie on all models, lengths 35.75/35.5/35.25/35.0 inches by loft group, D3/D5 swing weights, Dynamic Gold S200 stock shaft), accessed October 2026, in agreement with each other"
+  - "Note: the head alloy (cast 8620 carbon steel) is per Bob Vokey's published statements for the line; Titleist's pages do not state it."
+faq:
+  - q: "What lofts does the Titleist Vokey SM8 come in?"
+    a: "The Vokey SM8 was sold from 46 to 62 degrees in 2-degree steps — 23 loft, bounce and grind combinations."
+  - q: "What grinds does the Vokey SM8 offer?"
+    a: "Six in the standard line: F (46-56 degrees), S (54-60), M (56-62), D (54-60), K (58-60) and the low-bounce L at 60 degrees only. The T grind was a WedgeWorks custom in this generation."
+  - q: "Is the Vokey SM8 still in production?"
+    a: "No — the SM9 replaced it in early 2022, two generations ago. The used market is the only source, and SM8s remain among the most traded wedges on it."
+  - q: "What bounce options does the SM8 have at 58 and 60 degrees?"
+    a: "At 58 degrees: 8 (M), 10 (S), 12 (D) and 14 (K). At 60 degrees those four plus the 4-degree L grind."
+confidence: high

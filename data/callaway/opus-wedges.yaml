@@ -1,0 +1,154 @@
+brand: Callaway
+brand_slug: callaway
+model: Opus
+slug: opus-wedges
+club_type: wedges
+year_introduced: 2024
+year_discontinued: null
+category: tour
+construction: cast, compact tour shape, Spin Gen face with quartz blast
+material: 8620 mild carbon steel (per launch coverage)
+predecessor: Callaway JAWS Raw
+successor: Callaway Opus SP
+description: >
+  The Opus is the 2024 start of Callaway's current wedge family, replacing
+  the JAWS Raw at retail from September 2024 and still in the catalogue
+  below the 2025 Opus SP. Spin Gen Face Technology replaced the JAWS groove
+  package: more, tighter-spaced grooves, angled micro-grooves that channel
+  moisture off an open face, and a quartz face blast for wet-condition
+  friction. The line runs 17 loft/bounce/grind combinations from 48 to 60
+  degrees across four grinds, in Brushed Chrome and Black Shadow finishes.
+  The tungsten-toplined Opus Platinum is a separate model and is not
+  included in this chart.
+grinds:
+  - code: S
+    name: S Grind
+    description: >
+      The core sole, offered at every loft — mid bounce with enough heel
+      relief to stay versatile, suiting most players and conditions.
+  - code: W
+    name: W Grind
+    description: >
+      The widest sole in the line with the highest bounce, for steep attack
+      angles, soft conditions and sand.
+  - code: T
+    name: T Grind
+    description: >
+      Low-bounce shot-maker's sole with aggressive heel and toe relief that
+      sits snug to the ground with the face straight, open or closed — for
+      shallow attack angles and firm turf.
+  - code: C
+    name: C Grind
+    description: >
+      Mid-low bounce with heel-toe relief — more forgiving than the T and
+      more versatile than the S around the greens.
+specs:
+  - loft: 48.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.75
+  - loft: 50.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.5
+  - loft: 50.0
+    bounce: 12.0
+    grind: W
+    lie: 64.0
+    length: 35.5
+  - loft: 52.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.5
+  - loft: 52.0
+    bounce: 12.0
+    grind: W
+    lie: 64.0
+    length: 35.5
+  - loft: 54.0
+    bounce: 12.0
+    grind: S
+    lie: 64.0
+    length: 35.25
+  - loft: 54.0
+    bounce: 14.0
+    grind: W
+    lie: 64.0
+    length: 35.25
+  - loft: 56.0
+    bounce: 12.0
+    grind: S
+    lie: 64.0
+    length: 35.25
+  - loft: 56.0
+    bounce: 14.0
+    grind: W
+    lie: 64.0
+    length: 35.25
+  - loft: 58.0
+    bounce: 6.0
+    grind: T
+    lie: 64.0
+    length: 35.0
+  - loft: 58.0
+    bounce: 8.0
+    grind: C
+    lie: 64.0
+    length: 35.0
+  - loft: 58.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.0
+  - loft: 58.0
+    bounce: 12.0
+    grind: W
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 6.0
+    grind: T
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 8.0
+    grind: C
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 12.0
+    grind: W
+    lie: 64.0
+    length: 35.0
+stock_shafts:
+  - name: "True Temper Dynamic Gold 115"
+    material: steel
+    flex: ["Wedge"]
+  - name: "UST Recoil Dart"
+    material: graphite
+    flex: ["50", "65"]
+related_models:
+  - slug: "titleist/vokey-sm10-wedges"
+    label: "Rival: Titleist Vokey SM10"
+sources:
+  - "Callaway Golf Canada Opus product page spec table (all 17 combinations with loft, bounce, sole, length, 64-degree lie, hand availability), callawaygolf.ca, accessed October 2026"
+  - "GolfBox Opus launch rundown, 2024 (September 2024 availability; Spin Gen face details; Brushed Chrome and Black Shadow finishes; Dynamic Gold 115 and UST Recoil Dart stock shafts; grind-by-grind loft/bounce lineup in agreement with the Callaway table; Opus Platinum as a separate tungsten-weighted model), https://www.golfbox.com.au/golf-blog/new-callaway-opus-wedges/"
+  - "Note: Callaway does not state the head alloy on its product pages; 8620 mild carbon steel is per launch media."
+faq:
+  - q: "What lofts does the Callaway Opus come in?"
+    a: "48 to 60 degrees — 17 loft, bounce and grind combinations across the S, W, T and C grinds."
+  - q: "What grinds does the Callaway Opus offer?"
+    a: "Four: the all-round S at every loft, the wide high-bounce W (50-60), and the low-bounce T (6 degrees) and C (8 degrees) at 58 and 60."
+  - q: "What is the difference between the Opus and the Opus Platinum?"
+    a: "The Platinum adds a 17-gram tungsten topline weight that raises the centre of gravity for a lower, spinnier flight, comes in Blue Platinum, and offers only S and Z grinds at 54-60 degrees. It is a separate model from this chart."
+  - q: "Is the Callaway Opus still sold?"
+    a: "Yes — as of October 2026 it remains in Callaway's range below the Opus SP, which took over the top slot in 2025."
+confidence: high

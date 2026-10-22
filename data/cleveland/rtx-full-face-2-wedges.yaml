@@ -1,0 +1,88 @@
+brand: Cleveland
+brand_slug: cleveland
+model: RTX Full-Face 2
+slug: rtx-full-face-2-wedges
+club_type: wedges
+year_introduced: 2024
+year_discontinued: null
+current_as_of: "2026-10"
+category: specialty
+construction: cast with ZipCore low-density hosel core, subtle high-toe shape, full-face UltiZip grooves
+material: stainless steel with ZipCore compound core
+predecessor: Cleveland RTX Full-Face
+successor: null
+description: >
+  The RTX Full-Face 2 is Cleveland's 2024 full-face-groove specialty wedge,
+  announced and at retail on 24 January 2024. Grooves run from hosel to toe
+  across a subtly high-toe face with about a square inch more area than the
+  RTX 6 ZipCore — 34 percent more contact area in all — for spin on
+  open-face shots. It carries 96 percent more ZipCore material than the
+  original Full-Face for a 13 percent higher MOI, plus the UltiZip grooves
+  and loft-specific HydraZip wet-spin face treatment from the RTX 6. The
+  line runs 50 to 60 degrees in 2-degree steps plus a 64-degree flop model,
+  with an S-shaped sole on 50-56 and a C-shaped sole on 58-64. Finishes are
+  Tour Satin and the raw Tour Rack, whose customisation programme offers a
+  rounded or sharpened leading edge.
+grinds:
+  - code: S
+    name: S-Shaped Sole
+    description: >
+      The standard sole for the 50 to 56 degree heads — 8 degrees of bounce
+      at 50 and 52 for full shots, 10 degrees at the 54 and 56 degree sand
+      wedge lofts for bunker play.
+  - code: C
+    name: C-Shaped Sole
+    description: >
+      The sole of the 58, 60 and 64 degree models at 8 degrees of bounce,
+      with relief that keeps the leading edge low on open-face flop shots.
+specs:
+  - loft: 50.0
+    bounce: 8.0
+    grind: S
+    lie: 64.0
+    length: 35.375
+  - loft: 52.0
+    bounce: 8.0
+    grind: S
+    lie: 64.0
+    length: 35.375
+  - loft: 54.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.125
+  - loft: 56.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.125
+  - loft: 58.0
+    bounce: 8.0
+    grind: C
+    lie: 64.0
+    length: 34.875
+  - loft: 60.0
+    bounce: 8.0
+    grind: C
+    lie: 64.0
+    length: 34.875
+  - loft: 64.0
+    bounce: 8.0
+    grind: C
+    lie: 64.0
+stock_shafts:
+  - name: "True Temper Dynamic Gold Spinner Tour Issue"
+    material: steel
+    flex: ["Wedge"]
+sources:
+  - "MyGolfSpy RTX Full-Face 2 launch article, 24 January 2024 (on sale same day; lofts 50-60 plus 64; sole grinds and bounces by loft group; ZipCore/UltiZip/HydraZip details; Dynamic Gold Spinner Tour Issue shaft, Lamkin Crossline 360 grip, 179.99/199.99 dollar pricing; handedness), https://mygolfspy.com/news-opinion/cleveland-rtx-full-face-2-wedges/"
+  - "Cleveland Golf (Dunlop Sports) RTX Full-Face 2 Tour Satin listing (per-loft spec table with 64-degree lie and lengths, in agreement with Golf Galaxy's), us.dunlopsports.com, accessed October 2026"
+  - "Note: the 64-degree model's length is not in the retailer tables consulted, so it is left blank rather than estimated."
+faq:
+  - q: "What lofts does the Cleveland RTX Full-Face 2 come in?"
+    a: "50 to 60 degrees in 2-degree steps, plus a 64-degree flop model — 7 options in all. The 50 and 52 are right-handed only; 54 through 64 come in both hands."
+  - q: "What bounce does the Cleveland RTX Full-Face 2 have?"
+    a: "8 degrees on the S-shaped sole at 50 and 52 degrees, 10 degrees on the same sole at 54 and 56, and 8 degrees on the C-shaped sole of the 58, 60 and 64 degree models."
+  - q: "What is the difference between the RTX Full-Face 2 and the RTX 6 ZipCore?"
+    a: "The Full-Face 2 runs its grooves across the whole face of a subtly high-toe head with about 34 percent more contact area, built for open-face shots; the RTX 6 is the traditional-shape tour line with a four-grind matrix."
+confidence: high

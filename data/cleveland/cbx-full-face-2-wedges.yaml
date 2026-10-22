@@ -1,0 +1,88 @@
+brand: Cleveland
+brand_slug: cleveland
+model: CBX Full-Face 2
+slug: cbx-full-face-2-wedges
+club_type: wedges
+year_introduced: 2023
+year_discontinued: null
+category: specialty
+construction: cast hollow-cavity with ZipCore core, Gelback insert, high-toe full-face UltiZip grooves
+material: stainless steel with ZipCore compound core
+predecessor: Cleveland CBX Full-Face
+successor: null
+description: >
+  The CBX Full-Face 2 is Cleveland's 2023 full-face specialty wedge on the
+  forgiving CBX platform, announced on 18 January 2023 and at North
+  American retail from 3 February 2023 at 169.99 dollars. The high-toe face
+  is the biggest ever on a CBX — 13 percent more contact area than the RTX
+  Full-Face — with ZipCore and a hollow cavity pushing the CG behind the
+  impact zone, a Gelback insert for feel, HydraZip face blasts and
+  edge-to-edge UltiZip grooves. Every loft carries 12 degrees of bounce at
+  a uniform 35.5-inch length: the gap lofts use a Full sole for square,
+  full-swing shots and the 54-60 heads a C-shaped sole with heel relief for
+  open-face play. All grinds carry a leading-edge bounce chamfer against
+  chunked chips. The 50, 54 and 58 are right-handed only.
+grinds:
+  - code: Full
+    name: Full Sole
+    description: >
+      Fitted to the 50 and 52 degree lofts — a full-width, higher-bounce
+      sole for stable, square-faced full swings.
+  - code: C
+    name: C-Shaped Sole
+    description: >
+      Fitted to the 54-60 degree lofts — added bounce in the centre with
+      heel relief, balancing forgiveness with open-face greenside
+      versatility.
+specs:
+  - loft: 50.0
+    bounce: 12.0
+    grind: Full
+    lie: 64.0
+    length: 35.5
+  - loft: 52.0
+    bounce: 12.0
+    grind: Full
+    lie: 64.0
+    length: 35.5
+  - loft: 54.0
+    bounce: 12.0
+    grind: C
+    lie: 64.0
+    length: 35.5
+  - loft: 56.0
+    bounce: 12.0
+    grind: C
+    lie: 64.0
+    length: 35.5
+  - loft: 58.0
+    bounce: 12.0
+    grind: C
+    lie: 64.0
+    length: 35.5
+  - loft: 60.0
+    bounce: 12.0
+    grind: C
+    lie: 64.0
+    length: 35.5
+stock_shafts:
+  - name: "True Temper Dynamic Gold 115 Spinner Tour Issue"
+    material: steel
+    flex: ["Wedge"]
+  - name: "Project X Catalyst 80 Spinner"
+    material: graphite
+    flex: ["Wedge"]
+related_models:
+  - slug: "cleveland/rtx-full-face-2-wedges"
+    label: "Tour sibling: RTX Full-Face 2"
+sources:
+  - "GolfWRX CBX Full-Face 2 launch article, 18 January 2023 (3 February 2023 retail, 169.99 dollars, ZipCore/Gelback/HydraZip/UltiZip, 13 percent more face than RTX Full-Face, Full and C-Shaped soles by loft, bounce chamfer), https://golfwrx.com/703233/cleveland-golf-unveils-all-new-cbx-full-face-2-wedge/"
+  - "Golfio CBX Full-Face 2 listing with the full six-row spec table (lofts 50-60, 12-degree bounce and 64-degree lie throughout, uniform 35.5-inch length, hand availability, Dynamic Gold 115 Spinner Tour Issue and Project X Catalyst 80 Spinner stock shafts, Lamkin Crossline 360 grip), accessed October 2026"
+faq:
+  - q: "What lofts does the Cleveland CBX Full-Face 2 come in?"
+    a: "50 to 60 degrees in 2-degree steps, every loft with 12 degrees of bounce and a uniform 35.5-inch length. The 52, 56 and 60 come in both hands; the rest are right-handed only."
+  - q: "What is the difference between the CBX Full-Face 2 and the RTX Full-Face 2?"
+    a: "Both are full-face, high-toe designs, but the CBX adds cavity-back forgiveness — a hollow ZipCore cavity, a Gelback insert and 13 percent more contact area — while the RTX is the compact tour version."
+  - q: "What grinds does the CBX Full-Face 2 use?"
+    a: "Cleveland pairs the sole to the loft: a Full sole on the 50 and 52 for square full swings, and a C-shaped sole with heel relief on the 54-60 for open-face shots."
+confidence: high
