@@ -1,0 +1,86 @@
+brand: MacGregor
+brand_slug: macgregor
+model: V-FOIL 1025C
+slug: v-foil-1025c-irons
+club_type: irons
+year_introduced: 2001
+year_discontinued: null
+category: game-improvement
+construction: forged V-FOIL cavity back
+material: forged 1025 carbon steel, nickel chrome finish
+successor: null
+predecessor: null
+description: >
+  The Tourney VIP V-FOIL 1025C — clubs are stamped "VIP Tourney V-FOIL Forged"
+  — was the forgiving half of MacGregor's V-FOIL forged pair, sold alongside
+  the 1025M muscleback. Its V-FOIL cavity is about 23 percent larger than a
+  traditional blade's, and MacGregor pitched the result as forgiveness "any
+  0-36 handicapper will love" while keeping a forged 1025 carbon steel head
+  with progressive offset under a nickel chrome finish. Lofts are mid-era
+  traditional with a 33.5-degree 7-iron and 45-degree pitching wedge across
+  a 2-PW range. Stock shafts were True Temper's Pro-Pel Lite low-bend steel
+  or Graphite Design Distance Series graphite; published lengths are steel,
+  with graphite builds half an inch longer. The Maltby MPF chart dates the
+  design 2001; the spec database files it as a 2002 catalogue model, the
+  announcement-versus-model-year gap recorded here per convention.
+specs:
+  - club: "2"
+    loft: 18.0
+    lie: 59.5
+    length: 39.5
+  - club: "3"
+    loft: 21.0
+    lie: 60.0
+    length: 39.0
+  - club: "4"
+    loft: 24.0
+    lie: 61.0
+    length: 38.5
+  - club: "5"
+    loft: 27.0
+    lie: 61.5
+    length: 38.0
+  - club: "6"
+    loft: 30.0
+    lie: 62.0
+    length: 37.5
+  - club: "7"
+    loft: 33.5
+    lie: 62.5
+    length: 37.0
+  - club: "8"
+    loft: 37.0
+    lie: 63.0
+    length: 36.5
+  - club: "9"
+    loft: 41.0
+    lie: 63.5
+    length: 36.0
+  - club: "PW"
+    loft: 45.0
+    lie: 64.0
+    length: 35.5
+stock_shafts:
+  - name: "True Temper Pro-Pel Lite"
+    material: steel
+    weight: "light"
+    flex: ["R", "S"]
+  - name: "Graphite Design Distance Series"
+    material: graphite
+    flex: ["R", "S"]
+sources:
+  - "golfclubspec.com (Equip2Golf) 'MacGregor | Tourney VIP 1025C Forged', iron_results.php?id=138 — the full 2-PW loft/lie/length table used here (column alignment verified against the raw HTML cells), plus the stock shaft and grip notes and the steel-length basis"
+  - "macgregorgolf.com official 1025C product page, 1 February 2003 Wayback capture (web.archive.org/web/20030201094318id_/http://www.macgregorgolf.com:80/irons/1025c.html) — corroborates forged 1025 construction, nickel chrome finish, the exact stock shafts and the 0-36 handicapper / 23-percent-larger-cavity positioning"
+  - "The GolfWorks Maltby MPF ratings chart (golfworks.com/content/PDFs/Head_MPFs/MPFRatingsChart.pdf) — lists 'MACGREGOR V-Foil 1025c (forged)' as a 2001 introduction, the year recorded here; golfclubspec files the specs under 2002"
+  - "Note: MacGregor never published per-club offset or bounce for this model; those keys are omitted. No end-of-production year was published — the V-FOIL era gave way to MACTEC from 2004, but the date is unverified, so year_discontinued is left open"
+related_models:
+  - slug: "macgregor/v-foil-1025m-irons"
+    label: "Muscleback stablemate: MacGregor V-FOIL 1025M"
+faq:
+  - q: "What is the loft of a MacGregor V-FOIL 1025C 7-iron?"
+    a: "The MacGregor V-FOIL 1025C 7-iron has a loft of 33.5 degrees, a lie of 62.5 degrees and a steel-shaft length of 37 inches."
+  - q: "What is the difference between the MacGregor 1025C and 1025M?"
+    a: "Both are forged from 1025 carbon steel with V-FOIL weighting, but the 1025C is the cavity back — a cavity about 23 percent larger than a traditional blade, slightly stronger lofts (33.5 versus 35 degrees at the 7-iron) and lighter stock shafts — while the 1025M is the muscleback for better players."
+  - q: "Are MacGregor V-FOIL 1025C lengths for steel or graphite shafts?"
+    a: "The published lengths are for steel shafts. MacGregor's chart notes graphite builds run half an inch longer per club."
+confidence: medium

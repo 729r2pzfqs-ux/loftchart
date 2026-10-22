@@ -1,0 +1,79 @@
+brand: MacGregor
+brand_slug: macgregor
+model: VIP
+slug: vip-irons
+club_type: irons
+year_introduced: 2010
+year_discontinued: null
+category: players
+construction: forged muscle cavity
+material: forged 1020 carbon steel, 800-ton press
+successor: null
+predecessor: null
+description: >
+  This VIP is the 2010 relaunch of MacGregor's most famous iron name under
+  Golfsmith, which had acquired the brand rights in May 2009 after MacGregor
+  ceased US operations. It is not the 1967 Nicklaus VIP or the 1990s VIP by
+  Jack Nicklaus line — no verifiable factory spec table survives for those —
+  but a modern players iron: forged from 1020 carbon steel on an 800-ton press
+  with a precision-milled muscle cavity and a thin topline, pitched at players
+  who want shot-making and feel with a little help. Lofts are traditional for
+  a players iron of the era, with a 35-degree 7-iron and 47-degree pitching
+  wedge across the stock 3-PW set, and KBS Tour steel was the stock shaft.
+  A VIP Pro tour prototype had been spotted on tour as early as 2008 while
+  the relaunch was being prepared.
+specs:
+  - club: "3"
+    loft: 21.0
+    lie: 60.0
+    length: 39.0
+  - club: "4"
+    loft: 24.0
+    lie: 61.0
+    length: 38.5
+  - club: "5"
+    loft: 27.0
+    lie: 61.5
+    length: 38.0
+  - club: "6"
+    loft: 31.0
+    lie: 62.0
+    length: 37.5
+  - club: "7"
+    loft: 35.0
+    lie: 62.5
+    length: 37.0
+  - club: "8"
+    loft: 39.0
+    lie: 63.0
+    length: 36.5
+  - club: "9"
+    loft: 43.0
+    lie: 63.5
+    length: 36.0
+  - club: "PW"
+    loft: 47.0
+    lie: 64.0
+    length: 35.5
+stock_shafts:
+  - name: "KBS Tour"
+    material: steel
+    flex: ["R", "S"]
+sources:
+  - "macgregorgolf.com official VIP product page, 28 December 2010 Wayback capture (web.archive.org/web/20101228161205id_/http://macgregorgolf.com/clubs/irons/vip.php) — the full manufacturer loft/lie/length table used here, KBS Tour stock shaft, forged-1020/muscle-cavity construction copy"
+  - "Note: the earlier 17 April 2010 capture of the same page misprints the 5-iron loft as 21 degrees; the December 2010 capture and all later ones correct it to 27 degrees, which fits the ladder and is used here"
+  - "MyGolfSpy 'MacGregor 2009 VIP irons, DCT, Captiva putter' (19 July 2008) — the VIP Pro prototype tour sighting and relaunch timeline"
+  - "golfbusinessnews.com 'Golfsmith acquires rights to MacGregor Golf' (May 2009) — the brand's passage to Golfsmith, dating the relaunch era; no end-of-production year was ever published, so year_discontinued is left open (the page was still being served unchanged into 2012)"
+related_models:
+  - slug: "macgregor/mt-pro-m-irons"
+    label: "MacGregor's 2008 muscleback: MT PRO-M"
+  - slug: "macgregor/v-foil-1025m-irons"
+    label: "Earlier VIP-lineage forging: V-FOIL 1025M"
+faq:
+  - q: "What is the loft of a MacGregor VIP (2010) 7-iron?"
+    a: "The 2010 MacGregor VIP 7-iron has a loft of 35 degrees, a lie of 62.5 degrees and a length of 37 inches."
+  - q: "Is the 2010 MacGregor VIP the same as the Jack Nicklaus VIP?"
+    a: "No. The 1967 VIP and the 1990s VIP by Jack Nicklaus lines are earlier, unrelated designs; no verifiable factory spec tables survive for them. The 2010 VIP is a Golfsmith-era relaunch of the name on a modern forged muscle-cavity players iron."
+  - q: "What shaft came in the 2010 MacGregor VIP irons?"
+    a: "KBS Tour steel in regular or stiff flex was the stock shaft, per MacGregor's own product page."
+confidence: high

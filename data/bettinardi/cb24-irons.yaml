@@ -1,0 +1,77 @@
+brand: Bettinardi
+brand_slug: bettinardi
+model: CB24
+slug: cb24-irons
+club_type: irons
+year_introduced: 2024
+year_discontinued: null
+current_as_of: "2026-10"
+category: players
+construction: one-piece co-forged cavity back with tungsten and CMC inserts
+material: 1025 carbon steel with tungsten and ceramic matrix composite (CMC) weighting
+successor: null
+predecessor: null
+description: >
+  The CB24 is the cavity-back half of Bettinardi's first-generation iron line,
+  announced in March 2024 alongside the MB24 muscleback after prototypes
+  surfaced on the PGA Tour at the Arnold Palmer Invitational. The head is
+  co-forged in one piece from 1025 carbon steel with high-density tungsten and
+  military-grade ceramic matrix composite placed inside the body, shifting the
+  centre of gravity progressively through the set — lower in the long irons for
+  launch, higher in the scoring irons for spin control — and the cavity carries
+  Bettinardi's signature honeycomb milling. Lofts are traditional, with a
+  33-degree 7-iron and 45-degree pitching wedge, and the ladder is identical to
+  the MB24's so the two blend into combo sets; Bettinardi's suggested split runs
+  CB24 4-6 into MB24 7-PW. Sold as a 4-PW set (right- or left-handed) for
+  $1,200 through bettinardi.com and authorised fitters, with around two dozen
+  shaft options rather than a single stock build, which is why no stock shaft
+  is recorded. 2025 added Oil Rubbed Bronze and Black Rainbow PVD finishes on
+  the same head and specs.
+specs:
+  - club: "4"
+    loft: 23.0
+    lie: 61.0
+    length: 38.5
+  - club: "5"
+    loft: 26.0
+    lie: 61.5
+    length: 38.0
+  - club: "6"
+    loft: 29.0
+    lie: 62.0
+    length: 37.5
+  - club: "7"
+    loft: 33.0
+    lie: 62.5
+    length: 37.0
+  - club: "8"
+    loft: 37.0
+    lie: 63.0
+    length: 36.5
+  - club: "9"
+    loft: 41.0
+    lie: 63.5
+    length: 36.0
+  - club: "PW"
+    loft: 45.0
+    lie: 64.0
+    length: 35.75
+sources:
+  - "bettinardi.com product page 'Bettinardi CB24 Iron Set (4-PW)' (retrieved October 2026) — the manufacturer loft/lie/length table used here, plus material (1025 carbon steel/tungsten/CMC), Diamond Blast finish, $1,200 set price and current availability"
+  - "Bettinardi Golf press release 'Forge Your Legacy: Bettinardi Golf Premieres First-Generation Irons - The MB24 and CB24' (bettinardi.com/blogs/news, March 2024) — pre-orders opened 26 March 2024, dealer fittings from 5 April, left-handed CB24 from late June 2024"
+  - "GolfWRX 'Bettinardi launches first-generation CB24, MB24 irons' (March 2024) — tour sighting at the Arnold Palmer Invitational, identical lofts across MB24/CB24 for combo sets, and the recommended CB 4-6 / MB 7-PW split"
+  - "Bettinardi news post 'Bettinardi Golf Unveils Two New Finishes for MB24 & CB24 Irons' (2025) — Oil Rubbed Bronze and Black Rainbow PVD finish variants, same specs"
+  - "Retailer spec charts (Fairway Golf USA, Fairway Jockey, GolfBox) — agree with the manufacturer table cell-for-cell; Fairway Jockey adds per-club head weights (250 g to 293 g) and notes lengths are measured on the USGA 60-degree lie method; retail builds commonly ship with KBS Tour steel"
+related_models:
+  - slug: "bettinardi/mb24-irons"
+    label: "Muscleback stablemate: Bettinardi MB24"
+faq:
+  - q: "What is the loft of a Bettinardi CB24 7-iron?"
+    a: "The Bettinardi CB24 7-iron has a loft of 33 degrees, a lie of 62.5 degrees and a length of 37 inches."
+  - q: "Can the Bettinardi CB24 be combined with the MB24?"
+    a: "Yes. The two models share an identical loft, lie and length ladder, so they blend without bending. Bettinardi's recommended combo runs the CB24 in the 4- through 6-irons and the MB24 from 7-iron to pitching wedge."
+  - q: "How much do Bettinardi CB24 irons cost?"
+    a: "The 4-PW set lists at $1,200 through bettinardi.com and authorised Bettinardi fitters, with around 24 shaft and 18 grip options configured at fitting rather than a single stock build."
+  - q: "Are the CB24 irons Bettinardi's first irons?"
+    a: "Yes. The putter maker entered the iron category for the first time in March 2024 with the CB24 cavity back and MB24 muscleback, after prototypes were spotted on the PGA Tour."
+confidence: high

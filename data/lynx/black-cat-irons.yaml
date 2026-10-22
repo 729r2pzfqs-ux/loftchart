@@ -1,0 +1,100 @@
+brand: Lynx
+brand_slug: lynx
+model: Black Cat
+slug: black-cat-irons
+club_type: irons
+year_introduced: 1995
+year_discontinued: 1998
+category: game-improvement
+construction: investment cast oversize cavity back
+material: cast stainless steel
+successor: null
+predecessor: Lynx Parallax
+description: >
+  The Black Cat joined the Lynx line in 1995 as the larger, more forgiving
+  partner to the Parallax, another David Boone design from the brand's
+  mid-90s peak. The oversize cast cavity back carried notably strong lofts
+  for its day — a 35-degree 7-iron, 47-degree pitching wedge and a 15-degree
+  1-iron — with a gap wedge in the stock ladder, unusual for 1995. Published
+  lengths are for steel shafts, with graphite builds half an inch longer per
+  club. Stock options were Lynx's Lite-Lite lightweight True Temper steel,
+  True Temper Dynamic Flare steel or Lynx Unifiber graphite, with a Golf
+  Pride Wrap grip. Original-era production ended with the US company's 1998
+  bankruptcy; a Black Cat Tour players iron appeared in 1998 and Golfsmith
+  and today's UK owner later reused the Black Cat name on unrelated designs.
+specs:
+  - club: "1"
+    loft: 15.0
+    lie: 56.0
+    length: 39.5
+  - club: "2"
+    loft: 18.0
+    lie: 57.0
+    length: 39.0
+  - club: "3"
+    loft: 21.0
+    lie: 58.0
+    length: 38.5
+  - club: "4"
+    loft: 24.0
+    lie: 59.0
+    length: 38.0
+  - club: "5"
+    loft: 27.0
+    lie: 60.0
+    length: 37.5
+  - club: "6"
+    loft: 31.0
+    lie: 61.0
+    length: 37.0
+  - club: "7"
+    loft: 35.0
+    lie: 62.0
+    length: 36.5
+  - club: "8"
+    loft: 39.0
+    lie: 63.0
+    length: 36.0
+  - club: "9"
+    loft: 43.0
+    lie: 64.0
+    length: 35.5
+  - club: "PW"
+    loft: 47.0
+    lie: 64.0
+    length: 35.0
+  - club: "GW"
+    loft: 51.0
+    lie: 64.0
+    length: 35.0
+  - club: "SW"
+    loft: 56.0
+    lie: 64.0
+    length: 35.0
+  - club: "LW"
+    loft: 60.0
+    lie: 64.0
+    length: 35.0
+stock_shafts:
+  - name: "Lynx Lite-Lite (True Temper)"
+    material: steel
+    weight: "light"
+  - name: "True Temper Dynamic Flare"
+    material: steel
+  - name: "Lynx Unifiber"
+    material: graphite
+sources:
+  - "golfclubspec.com (Equip2Golf) 'Lynx | Black Cat', iron_results.php?id=97, filed under 1995 — the full 1-iron-to-LW loft/lie/length table used here (raw table cells verified: the 51- and 56-degree clubs sit in the GW and SW columns), the steel-length basis with graphite half an inch longer, and the stock shaft and grip notes"
+  - "MyGolfSpy 'History's Mysteries: The Nine Lives of Lynx Golf' — 'by 1995 the larger, more forgiving Black Cat joined the lineup', the David Boone attribution, and the 1998 bankruptcy that sets year_discontinued; the model is often informally dated 1996, but both sources here say 1995"
+  - "The GolfWorks Maltby MPF ratings chart (golfworks.com/content/PDFs/Head_MPFs/MPFRatingsChart.pdf) — corroborates the later Black Cat family timeline (Black Cat Tour 1998, Golfsmith-era Black Cats from 2005), confirming this original is the mid-90s model"
+related_models:
+  - slug: "lynx/parallax-irons"
+    label: "Predecessor: Lynx Parallax"
+faq:
+  - q: "What is the loft of a Lynx Black Cat 7-iron?"
+    a: "The Lynx Black Cat 7-iron has a loft of 35 degrees, a lie of 62 degrees and a steel-shaft length of 36.5 inches."
+  - q: "How do Lynx Black Cat lofts compare with the Parallax?"
+    a: "The Black Cat runs about one degree stronger through most of the set — 35 versus 36 degrees at the 7-iron and 47 versus 50 at the pitching wedge — and adds a 51-degree gap wedge the Parallax never had."
+  - q: "When were Lynx Black Cat irons made?"
+    a: "The original Black Cat joined the Lynx line in 1995 and production of the US-era design ended with the company's 1998 bankruptcy. Later clubs called Black Cat — including the 1998 Black Cat Tour and the Golfsmith-era and modern UK models — are unrelated designs."
+confidence: medium

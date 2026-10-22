@@ -247,6 +247,22 @@ brands:
   # ordered by prominence because foot() links the first seven, so new entries
   # append here rather than interleaving and silently rewriting the footer.
 
+  - name: Bettinardi
+    slug: bettinardi
+    founded: 1998
+    hq: "Tinley Park, Illinois, USA"
+    color: "#1B365D"
+    families:
+      - "CB24"
+      - "MB24"
+    blurb: >
+      Bettinardi Golf has milled putters in Tinley Park since Robert Bettinardi
+      founded the company in 1998, and entered the iron category in March 2024
+      with its first-generation MB24 and CB24. Both are one-piece co-forged from
+      1025 carbon steel with tungsten and ceramic-matrix-composite inserts, share
+      a single loft ladder so they blend into combo sets, and are sold through
+      fittings with a large shaft menu rather than one stock build.
+
   - name: Bridgestone
     slug: bridgestone
     founded: 1935
@@ -339,6 +355,42 @@ brands:
       build. Costco publishes set composition but not a per-club spec table, so
       the numbers here come from measured retail sets.
 
+  - name: Lynx
+    slug: lynx
+    founded: 1971
+    hq: "Weybridge, Surrey, UK"
+    color: "#8A1538"
+    families:
+      - "Parallax"
+      - "Black Cat"
+      - "Predator"
+      - "Master Model"
+    blurb: >
+      Golf Lynx was founded in the Los Angeles area in 1971 and grew into one of
+      the big investment-cast iron houses of the 1980s and 90s, with Fred Couples
+      and Ernie Els winning majors on its Parallax irons. The US company went
+      bankrupt in 1998 and the name passed through Golfsmith to today's UK owner,
+      which reuses classic Lynx model names on new designs, so the vintage specs
+      here are the ones collectors search for.
+
+  - name: MacGregor
+    slug: macgregor
+    founded: 1897
+    hq: "Albany, Georgia, USA"
+    color: "#0B3D2E"
+    families:
+      - "Tourney"
+      - "VIP"
+      - "MT"
+      - "V-FOIL"
+      - "MACTEC"
+    blurb: >
+      MacGregor traces to the Crawford, McGregor & Canby shops of 1890s Dayton,
+      Ohio, and its Tourney and VIP forgings — famously played by Jack Nicklaus —
+      are cornerstones of vintage club collecting. The company ceased US
+      operations in 2009 and the brand has changed hands since, so period spec
+      sheets survive mainly in archived catalog pages like the ones used here.
+
   - name: Maltby
     slug: maltby
     founded: 1976
@@ -382,6 +434,7 @@ brands:
     color: "#0B7A75"
     families:
       - "623 series"
+      - "480 series"
       - "702 series"
       - "902 series"
       - "PF series"

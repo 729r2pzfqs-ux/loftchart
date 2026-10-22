@@ -1,0 +1,84 @@
+brand: Ping
+brand_slug: ping
+model: Karsten I
+slug: karsten-i-irons
+club_type: irons
+year_introduced: 1969
+year_discontinued: null
+category: game-improvement
+construction: investment cast cavity back, heel-toe balanced
+material: 17-4 stainless steel
+successor: Ping Karsten II
+predecessor: null
+description: >
+  The Karsten I was Ping's first full iron line and the club that brought
+  Karsten Solheim's investment-cast, perimeter-weighted cavity back to market
+  in 1969, predating the Ping Eye by nearly a decade. Early heads are stamped
+  KARSTEN MFG. CO. PHOENIX ARIZ. with PAT PEND; later production carries the
+  KARSTEN I name, Ping's colour-dot lie system and the number of US Patent
+  3,655,188 — Solheim's "correlated golf club set" patent, filed in July 1969
+  and granted in April 1972. Ping never published a factory spec sheet for the
+  Karsten series, so the chart below is the per-club loft and lie table from
+  that patent, which collectors treat as the intended spec for the Karsten
+  family; the patent itself calls it an exemplary set whose lofts "may be
+  varied slightly", and a machine-measured surviving set runs within a degree
+  or two of it. The set ran 1-iron through 9-iron plus the two wedges stamped
+  W and S (listed as PW and SW below). No lengths appear in the patent or any
+  other primary source, so none are listed. The design was revised as the
+  Karsten II in the early 1970s, with the III and IV following before the Eye
+  replaced the family in 1978.
+specs:
+  - club: "1"
+    loft: 16.0
+    lie: 58.0
+  - club: "2"
+    loft: 18.1
+    lie: 58.8
+  - club: "3"
+    loft: 21.3
+    lie: 59.7
+  - club: "4"
+    loft: 24.5
+    lie: 60.5
+  - club: "5"
+    loft: 27.9
+    lie: 61.4
+  - club: "6"
+    loft: 32.0
+    lie: 62.3
+  - club: "7"
+    loft: 36.5
+    lie: 63.3
+  - club: "8"
+    loft: 41.3
+    lie: 64.2
+  - club: "9"
+    loft: 45.5
+    lie: 65.1
+  - club: "PW"
+    loft: 51.0
+    lie: 65.1
+  - club: "SW"
+    loft: 58.0
+    lie: 65.1
+sources:
+  - "US Patent 3,655,188, Karsten Solheim, 'Correlated golf club set' (filed 9 July 1969, granted 11 April 1972; patents.google.com/patent/US3655188A) — the per-club loft and lie table used here. The patent states angles in degrees and minutes (e.g. 2-iron 18°07', 5-iron 27°52', 8-iron 41°15'); they are converted to decimal degrees and rounded to one decimal place here. The patent calls the table 'an exemplary set' and notes lofts may vary slightly — hence confidence: low"
+  - "GolfWRX thread 'Searching for info on my old Ping irons' (2023) — owners report the 3655188 patent number stamped on Karsten-series heads, state the patent table 'applies to Karsten I, II and III / IIIA iron sets', and correct the common mis-transcription of the degree-minute values; the 'Karsten I spec sheet' image circulating in Ping collector groups is this patent table"
+  - "GolfWRX thread 'Put together a classic Ping Karsten iron and wood set with specs' (2021) — a green-dot Karsten I set measured on a loft machine (2-iron 17 through PW 50.5) sits within about a degree or two of the patent table"
+  - "Rick Shiels' Karsten I review (YouTube) and TheSandTrap and golfersgist timelines — all date the Karsten I to 1969; a surviving set carries a Ping customer-service build date of 22 July 1971, showing production into the 1970s"
+  - "Note: Ping's own archived Classics spec pages (the source used for the Eye 2) never covered the Karsten series — verified via the Wayback Machine's index. No model-specific factory table exists for the Karsten II, III or IV either, so those models are not listed on this site; a Ping internal document quoted by Ping customer service dates the Karsten IV to June 1976. year_discontinued is left open because the hand-off year to the Karsten II is not pinned by any document"
+related_models:
+  - slug: "ping/eye-irons"
+    label: "The Karsten family's 1978 replacement: Ping Eye"
+  - slug: "ping/eye-2-irons"
+    label: "The design's famous descendant: Ping Eye 2"
+faq:
+  - q: "What is the loft of a Ping Karsten I 7-iron?"
+    a: "Per Karsten Solheim's 1969 patent table — the only primary spec source for the model — the 7-iron loft is 36 degrees 30 minutes (36.5 degrees) with a 63.3-degree lie. Ping never published a retail spec sheet, and the patent notes production lofts could vary slightly."
+  - q: "When were Ping Karsten I irons made?"
+    a: "The Karsten I launched in 1969 as Ping's first full iron line and ran into the early 1970s — a surviving set has a Ping build date of July 1971 — before being revised as the Karsten II. The Karsten family (I through IV) preceded the Ping Eye of 1978."
+  - q: "Why are there no lengths listed for the Ping Karsten I?"
+    a: "No primary source records them. The patent table behind this chart specifies only lofts and lies, and Ping's archived Classics spec pages never covered the Karsten series."
+  - q: "What do the stampings on Karsten I irons mean?"
+    a: "The earliest heads read KARSTEN MFG. CO. PHOENIX ARIZ. with PAT PEND; later heads add the KARSTEN I name, Ping's colour-dot lie code and the number of patent 3,655,188, the Solheim patent whose loft table is reproduced above. The wedges are stamped W and S rather than PW and SW."
+confidence: low

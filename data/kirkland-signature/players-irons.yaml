@@ -5,6 +5,7 @@ slug: "players-irons"
 club_type: "irons"
 year_introduced: 2023
 year_discontinued: null
+current_as_of: "2026-10"
 category: "players-distance"
 construction: "forged hollow body"
 material: "stainless steel body with an injected urethane insert and internal tungsten weighting"
@@ -23,7 +24,9 @@ description: >
   set composition, not a per-club table, so the loft, lie and length figures below come from
   Driving Range Heroes' review of a retail set, with the 31-degree 7-iron independently
   confirmed by Golf Monthly and Today's Golfer. The initial run sold out within hours and the
-  set has restocked intermittently since.
+  set has sold in waves since, restocking through 2025 and 2026 at $549.99 to $599.99; it
+  remains Costco's current iron with no second generation announced — talk of a "v2" in
+  2025 traced back to restocks of this same listing.
 specs:
   - club: "4"
     loft: 20.0
@@ -64,6 +67,7 @@ sources:
   - "MyGolfSpy 'Kirkland Signature Player's Irons Review' (26 December 2023) - construction (stainless steel body, injected urethane insert, internal tungsten weight), the $499 debut price, the immediate sell-out, and the statement that the irons 'debuted just a few weeks ago', fixing the launch in December 2023"
   - "Independent Golf Reviews 'Kirkland Signature Player's Irons Review' (29 December 2023) - corroborates forged hollow-body construction with polymer insert and tungsten weighting, players-distance categorisation, 4-PW composition, RH-only, and the stock Elevate 115 / Lamkin Crossline specs"
   - "Golf Monthly 'Costco Kirkland Signature Irons Go On Sale' and Today's Golfer 'Kirkland Signature vs TaylorMade P790 irons' twin test - both independently list the 7-iron loft as 31 degrees, corroborating the Driving Range Heroes table at that club"
+  - "current_as_of October 2026: the 'Kirkland Signature 7-piece Players Iron Set, Right Handed' listing was confirmed live in costco.com search results on 22 October 2026 (members-only pricing), with 2025-2026 restocks documented at $549.99 (Slickdeals, June 2025) and $599.99; an April 2026 review still describes it as Kirkland's current flagship iron with 'no major 2026 refresh'. Claims of a 2025 'Players v2' could not be substantiated as a distinct model - the USGA conforming-list sighting and Indi Golf manufacturer reports attach to this same hollow-body design, and no second-generation spec sheet exists - so they are treated as restocks of this model"
 faq:
   - q: "What is the loft of a Kirkland Signature Player's 7-iron?"
     a: "The Kirkland Signature Player's 7-iron has a loft of 31 degrees, with a 62.5-degree lie and a 37-inch steel shaft - confirmed independently by Driving Range Heroes, Golf Monthly and Today's Golfer."
