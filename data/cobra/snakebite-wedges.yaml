@@ -1,0 +1,125 @@
+brand: Cobra
+brand_slug: cobra
+model: Snakebite
+slug: snakebite-wedges
+club_type: wedges
+year_introduced: 2023
+year_discontinued: 2025
+category: tour
+construction: cast head with CNC-milled face and grooves
+material: cast steel (alloy not published), satin chrome, QPQ black or raw finish
+predecessor: Cobra King Cobra SB
+successor: Cobra KING
+description: >
+  The Snakebite is Cobra's 2023 tour wedge generation, announced in March
+  2023, with the unplated Raw finish added in March 2024. Its CNC-milled
+  SNAKEBITE grooves are 11 percent deeper with 40 percent sharper edges than
+  the previous generation, cut narrow and deep on the 48 to 54 degree heads
+  and wider, shallower and full-face on 56 to 60. The matrix runs 13
+  loft/bounce/grind combinations from 48 to 60 degrees across three grinds.
+  Cobra replaced the line with the KING and KING X wedges in March 2025. A
+  one-length build and the cavity-back Snakebite-X variant were sold
+  alongside the standard model and are not charted here.
+grinds:
+  - code: V
+    name: Versatile Grind
+    description: >
+      The all-around grind for medium to firm conditions, with heel, toe and
+      trailing-edge relief for open-face shots and a centre notch that keeps
+      the leading edge close to the ground without adding effective bounce.
+  - code: C
+    name: Classic Grind
+    description: >
+      A medium-width, higher-bounce sole with progressive width from heel to
+      toe and trailing-edge relief, for neutral to steeper swings in a
+      variety of conditions.
+  - code: W
+    name: Widelow Grind
+    description: >
+      A wide, low-bounce sole for soft bunkers, soft turf and medium rough
+      that keeps the leading edge from digging.
+specs:
+  - loft: 48.0
+    bounce: 8.0
+    grind: V
+    lie: 64.0
+    length: 35.75
+  - loft: 50.0
+    bounce: 8.0
+    grind: V
+    lie: 64.0
+    length: 35.75
+  - loft: 52.0
+    bounce: 8.0
+    grind: V
+    lie: 64.0
+    length: 35.75
+  - loft: 52.0
+    bounce: 12.0
+    grind: C
+    lie: 64.0
+    length: 35.75
+  - loft: 54.0
+    bounce: 10.0
+    grind: V
+    lie: 64.0
+    length: 35.5
+  - loft: 56.0
+    bounce: 7.0
+    grind: W
+    lie: 64.0
+    length: 35.5
+  - loft: 56.0
+    bounce: 10.0
+    grind: V
+    lie: 64.0
+    length: 35.5
+  - loft: 56.0
+    bounce: 12.0
+    grind: C
+    lie: 64.0
+    length: 35.5
+  - loft: 58.0
+    bounce: 6.0
+    grind: W
+    lie: 64.0
+    length: 35.25
+  - loft: 58.0
+    bounce: 8.0
+    grind: V
+    lie: 64.0
+    length: 35.25
+  - loft: 60.0
+    bounce: 4.0
+    grind: W
+    lie: 64.0
+    length: 35.25
+  - loft: 60.0
+    bounce: 8.0
+    grind: V
+    lie: 64.0
+    length: 35.25
+  - loft: 60.0
+    bounce: 11.0
+    grind: C
+    lie: 64.0
+    length: 35.25
+stock_shafts:
+  - name: "KBS Hi-Rev 2.0"
+    material: steel
+    weight: "125g"
+    flex: ["Wedge"]
+sources:
+  - "Golfio Cobra King Snakebite retailer spec table (the full 13-row matrix with lie, length and swing weight), golfio.com, accessed October 2026"
+  - "Golf Galaxy Snakebite listing (independent matrix cross-check), golfgalaxy.com, accessed October 2026"
+  - "Plugged In Golf and GolfMagic launch coverage (announced 14 March 2023, finishes, grinds), accessed October 2026"
+  - "Driving Range Heroes Snakebite Raw coverage (Raw finish added March 2024, shafts), drivingrangeheroes.com"
+  - "Note: Cobra's own Snakebite product pages are no longer online — the current Cobra wedge line is the 2025 KING — so the matrix is from two retailer charts in agreement with Cobra's published fact sheet fragments. The head alloy was never published."
+faq:
+  - q: "What lofts does the Cobra Snakebite come in?"
+    a: "The Snakebite was sold from 48 to 60 degrees — 13 loft, bounce and grind combinations across the Versatile, Classic and Widelow grinds."
+  - q: "What grinds does the Cobra Snakebite offer?"
+    a: "Three: Versatile (8-10 degrees of bounce, every loft), Classic (11-12 degrees, 52-60) and the wide low-bounce Widelow (4-7 degrees, 56-60)."
+  - q: "Is the Cobra Snakebite still in production?"
+    a: "No. Cobra replaced it with the KING and KING X wedges in March 2025, so the used and closeout market is the source — the Raw finish version was the last addition, in 2024."
+confidence: medium

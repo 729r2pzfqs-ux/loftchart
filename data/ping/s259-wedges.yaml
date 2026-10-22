@@ -1,0 +1,207 @@
+brand: Ping
+brand_slug: ping
+model: S259
+slug: s259-wedges
+club_type: wedges
+year_introduced: 2026
+year_discontinued: null
+current_as_of: "2026-10"
+category: tour
+construction: investment cast 8620 carbon steel with elastomer insert
+material: 8620 carbon steel, Hydropearl 2.0 chrome or Midnight finish
+predecessor: Ping s159
+successor: null
+description: >
+  The s259 is Ping's 2026 tour wedge line, built on the s159 platform and
+  announced in mid-January 2026 with custom fitting from 13 January. The cast
+  8620 head carries a larger reshaped elastomer insert behind the face, and
+  the grooves change by loft — tighter-spaced MicroMax grooves from 54 to 62
+  degrees, milled full-shot grooves from 46 to 52. The matrix runs 25
+  loft/bounce/grind combinations from 46 to 62 degrees across the six
+  s159-era grinds (S, H, W, T, B, E), with the W grind newly extended down to
+  50 and 52 degrees. Ping stamps the bounce into each model name, so a
+  58 T-6 is the 58-degree T grind at 6 degrees of effective bounce. Bounce
+  figures here are Ping's published effective bounce.
+grinds:
+  - code: S
+    name: S Grind
+    description: >
+      The mid-to-higher-bounce all-rounder, offered at every loft. Square-face
+      full shots plus heel and trailing-edge relief for greenside creativity;
+      blends into the back of an iron set.
+  - code: H
+    name: H Grind
+    description: >
+      Based on a Ping Wrx half-moon tour grind. Versatility in softer
+      conditions and for steeper swings or players who manipulate the handle.
+  - code: W
+    name: W Grind
+    description: >
+      Maximum forgiveness through the turf — high bounce for soft turf and
+      sand, steep attack angles and shaft lean. New for s259, it extends down
+      to 50 and 52 degrees.
+  - code: T
+    name: T Grind
+    description: >
+      The lowest effective bounce in the line at 6 degrees, with steeper
+      trailing-edge relief so the face sits lower when opened. For open-face
+      shots from tight lies.
+  - code: B
+    name: B Grind
+    description: >
+      Low bounce for shallow attack angles and square setups, with a wider
+      sole for forgiveness in firm conditions.
+  - code: E
+    name: E Grind
+    description: >
+      Eye2-inspired sole with mid-sole dishing for soft shots from tight
+      turf and wider back-edge bounce for bunkers and open-face shots,
+      reshaped for a more traditional look at address.
+specs:
+  - loft: 46.0
+    bounce: 12.0
+    grind: S
+    lie: 64.0
+    length: 35.5
+  - loft: 48.0
+    bounce: 12.0
+    grind: S
+    lie: 64.0
+    length: 35.5
+  - loft: 50.0
+    bounce: 12.0
+    grind: S
+    lie: 64.0
+    length: 35.5
+  - loft: 50.0
+    bounce: 14.0
+    grind: W
+    lie: 64.0
+    length: 35.5
+  - loft: 52.0
+    bounce: 12.0
+    grind: S
+    lie: 64.0
+    length: 35.5
+  - loft: 52.0
+    bounce: 14.0
+    grind: W
+    lie: 64.0
+    length: 35.5
+  - loft: 54.0
+    bounce: 10.0
+    grind: H
+    lie: 64.3
+    length: 35.25
+  - loft: 54.0
+    bounce: 12.0
+    grind: S
+    lie: 64.3
+    length: 35.25
+  - loft: 54.0
+    bounce: 14.0
+    grind: W
+    lie: 64.3
+    length: 35.25
+  - loft: 56.0
+    bounce: 10.0
+    grind: H
+    lie: 64.3
+    length: 35.25
+  - loft: 56.0
+    bounce: 12.0
+    grind: S
+    lie: 64.3
+    length: 35.25
+  - loft: 56.0
+    bounce: 14.0
+    grind: W
+    lie: 64.3
+    length: 35.25
+  - loft: 58.0
+    bounce: 6.0
+    grind: T
+    lie: 64.5
+    length: 35.0
+  - loft: 58.0
+    bounce: 8.0
+    grind: B
+    lie: 64.5
+    length: 35.0
+  - loft: 58.0
+    bounce: 8.0
+    grind: E
+    lie: 64.5
+    length: 35.0
+  - loft: 58.0
+    bounce: 8.0
+    grind: H
+    lie: 64.5
+    length: 35.0
+  - loft: 58.0
+    bounce: 10.0
+    grind: S
+    lie: 64.5
+    length: 35.0
+  - loft: 58.0
+    bounce: 14.0
+    grind: W
+    lie: 64.5
+    length: 35.0
+  - loft: 60.0
+    bounce: 6.0
+    grind: T
+    lie: 64.5
+    length: 35.0
+  - loft: 60.0
+    bounce: 8.0
+    grind: B
+    lie: 64.5
+    length: 35.0
+  - loft: 60.0
+    bounce: 8.0
+    grind: E
+    lie: 64.5
+    length: 35.0
+  - loft: 60.0
+    bounce: 8.0
+    grind: H
+    lie: 64.5
+    length: 35.0
+  - loft: 60.0
+    bounce: 10.0
+    grind: S
+    lie: 64.5
+    length: 35.0
+  - loft: 60.0
+    bounce: 14.0
+    grind: W
+    lie: 64.5
+    length: 35.0
+  - loft: 62.0
+    bounce: 6.0
+    grind: T
+    lie: 64.5
+    length: 35.0
+stock_shafts:
+  - name: "Ping Z-Z115"
+    material: steel
+    weight: "111g"
+    flex: ["Wedge"]
+  - name: "Ping ALTA CB Blue"
+    material: graphite
+    flex: ["SR", "R", "S"]
+sources:
+  - "Ping.com s259 wedge spec table (all 25 combinations, lie, length, swing weight, shafts), https://ping.com/en-us/clubs/wedges/s259, accessed October 2026"
+  - "Ping s259 press release (announced January 2026, pre-sell and fitting from 13 January; grind descriptions, 8620 cast head, elastomer insert), via golfbusinessnews.com"
+  - "Golfalot s259 coverage (retail end of January 2026, MicroMax grooves, s159 replacement), golfalot.com, accessed October 2026"
+faq:
+  - q: "What lofts does the Ping s259 come in?"
+    a: "The s259 is sold from 46 to 62 degrees in 2-degree steps — 25 loft, bounce and grind combinations."
+  - q: "What grinds does the Ping s259 offer?"
+    a: "Six, carried over from the s159: S (every loft, 46-60), W (50-60, newly extended to 50 and 52 degrees), H (54-60), and the lob-wedge trio of T (58-62), B (58-60) and the Eye2-inspired E (58-60)."
+  - q: "What do the numbers in Ping s259 model names mean?"
+    a: "Ping stamps the effective bounce into the name — an s259 58 T-6 is the 58-degree T grind with 6 degrees of effective bounce. The bounce column in the chart uses those published figures."
+  - q: "What bounce options does the s259 have at 58 and 60 degrees?"
+    a: "Six at each loft: 6 degrees (T grind), 8 degrees in three different soles (B, E and H grinds), 10 degrees (S) and 14 degrees (W)."
+confidence: high

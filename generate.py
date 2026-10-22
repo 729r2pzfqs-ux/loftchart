@@ -169,6 +169,29 @@ CATEGORY_BLURB = {
                               "maximum perimeter weighting and the strongest lofts.",
 }
 
+# Wedge models use their own category enum — the iron categories describe set
+# design (blade vs cavity), which says nothing about a standalone wedge.
+WEDGE_CATEGORY_LABEL = {
+    "tour": "Tour / Players Wedges",
+    "game-improvement": "Game Improvement Wedges",
+    "specialty": "Specialty Wedges",
+}
+
+WEDGE_CATEGORY_SHORT = {
+    "tour": "tour",
+    "game-improvement": "game improvement",
+    "specialty": "specialty",
+}
+
+
+def category_label(m):
+    """Display label for a model's category, keyed on its club type."""
+    cat = m.get("category")
+    if m.get("club_type") == "wedges":
+        return WEDGE_CATEGORY_LABEL.get(cat, cat or "—")
+    return CATEGORY_LABEL.get(cat, cat or "—")
+
+
 # Ordering used for club rows within a set.
 CLUB_ORDER = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
               "PW", "P", "UW", "GW", "AW", "A", "SW", "S", "LW", "L"]
@@ -378,18 +401,43 @@ def load():
             specs = m.get("specs") or []
             if not specs:
                 errors.append(f"{rel}: no specs rows")
-            for row in specs:
-                row["club"] = str(row.get("club", "")).upper()
-                for key in ("loft", "lie", "length"):
-                    if row.get(key) is None:
-                        errors.append(f"{rel}: club {row['club']} missing {key}")
+            if m.get("club_type") == "wedges":
+                # A wedge model is a loft × bounce × grind option matrix, not a
+                # set: rows carry no club label, lie/length are optional (OEMs
+                # publish them per loft, when at all), and every grind code must
+                # resolve to the model's grind catalogue. Models with no named
+                # grinds (Kirkland, Wilson) omit both sides.
+                if not m.get("grinds") and any(r.get("grind") for r in specs):
+                    errors.append(f"{rel}: spec rows carry grinds but the model "
+                                  "declares no grinds catalogue")
+                grind_codes = {g.get("code") for g in (m.get("grinds") or [])}
+                for row in specs:
+                    row["club"] = str(row.get("club", "")).upper()
+                    for key in ("loft", "bounce"):
+                        if row.get(key) is None:
+                            errors.append(f"{rel}: wedge spec row missing {key}")
+                    if row.get("grind") and row["grind"] not in grind_codes:
+                        errors.append(f"{rel}: grind {row['grind']!r} not in "
+                                      "grinds list")
+                if m.get("category") and m["category"] not in WEDGE_CATEGORY_LABEL:
+                    errors.append(f"{rel}: unknown wedge category "
+                                  f"{m['category']!r}")
+                specs.sort(key=lambda r: (r.get("loft") or 0,
+                                          r.get("bounce") or 0,
+                                          str(r.get("grind") or "")))
+            else:
+                for row in specs:
+                    row["club"] = str(row.get("club", "")).upper()
+                    for key in ("loft", "lie", "length"):
+                        if row.get(key) is None:
+                            errors.append(f"{rel}: club {row['club']} missing {key}")
+                specs.sort(key=lambda r: (r["loft"] if r.get("loft") is not None
+                                          else float("inf"), club_sort_key(r["club"])))
             if not m.get("sources"):
                 errors.append(f"{rel}: no sources listed")
             if len(m.get("faq") or []) < 2:
                 errors.append(f"{rel}: fewer than 2 FAQ entries")
 
-            specs.sort(key=lambda r: (r["loft"] if r.get("loft") is not None
-                                      else float("inf"), club_sort_key(r["club"])))
             m["specs"] = specs
             m["key"] = f"{m['brand_slug']}/{m['slug']}"
             m["url"] = f"/{m['brand_slug']}/{m['slug']}/"
@@ -408,11 +456,31 @@ def load():
 
 
 def seven_iron(m):
+    # A wedge model has no set order and no reference club, so every caller
+    # that summarises a set by its 7-iron (cards, loft spans, brand rows)
+    # skips wedges rather than quoting a meaningless middle row.
+    if m.get("club_type") == "wedges":
+        return None
     for row in m["specs"]:
         if row["club"] == "7":
             return row
     mid = m["specs"][len(m["specs"]) // 2] if m["specs"] else None
     return mid
+
+
+def wedge_reference_loft(m):
+    """The representative row for a wedge model — 56° preferred, else middle loft."""
+    for row in m["specs"]:
+        if row.get("loft") == 56.0:
+            return row
+    if m["specs"]:
+        return m["specs"][len(m["specs"]) // 2]
+    return None
+
+
+def wedge_lofts(m):
+    """Sorted unique lofts a wedge model is sold in."""
+    return sorted({r["loft"] for r in m["specs"] if r.get("loft") is not None})
 
 
 def is_current(m):
@@ -631,6 +699,15 @@ def club_noun(m, club):
 
 
 def model_card(m):
+    if m.get("club_type") == "wedges":
+        lofts = wedge_lofts(m)
+        spec = (f'<span class="card-spec">{num(lofts[0])}°–{num(lofts[-1])}° · '
+                f'{plural(len(m["specs"]), "loft/bounce/grind option")}</span>'
+                if lofts else "")
+        return (f'<a class="card" href="{m["url"]}">'
+                f'<span class="card-title">{esc(m["brand"])} {esc(m["model"])}</span>'
+                f'<span class="card-meta">{esc(m["type_label"])} · {year_range(m)}</span>'
+                f"{spec}</a>")
     s7 = seven_iron(m)
     spec = ""
     if s7:
@@ -671,6 +748,95 @@ def spec_table(m, caption=None):
     return (f'<div class="table-scroll data-table-zone"><table class="specs">{cap}'
             f'<thead><tr><th scope="col">Club</th>{thead}</tr></thead>'
             f'<tbody>{"".join(body)}</tbody></table></div>')
+
+
+def wedge_spec_table(m, caption=None):
+    """Loft × bounce × grind option table for a wedge model.
+
+    One row per combination the maker actually sells, led by the loft, with the
+    lie/length columns only when the model publishes them. Rows at a new loft
+    get a class so the CSS can rule off each loft group.
+    """
+    rows = m["specs"]
+    has_lie = any(r.get("lie") is not None for r in rows)
+    has_length = any(r.get("length") is not None for r in rows)
+
+    hdr = ('<th scope="col">Loft (°)</th><th scope="col">Bounce (°)</th>'
+           '<th scope="col">Grind</th>')
+    if has_lie:
+        hdr += '<th scope="col">Lie (°)</th>'
+    if has_length:
+        hdr += '<th scope="col">Length (in)</th>'
+
+    body = []
+    prev_loft = None
+    for r in rows:
+        cls = ' class="loft-group"' if prev_loft is not None and r["loft"] != prev_loft else ""
+        prev_loft = r["loft"]
+        cells = (f'<th scope="row">{num(r["loft"])}°</th>'
+                 f'<td>{num(r["bounce"])}°</td>'
+                 f'<td>{esc(r["grind"]) if r.get("grind") else "—"}</td>')
+        if has_lie:
+            cells += (f'<td>{num(r["lie"])}</td>' if r.get("lie") is not None
+                      else '<td class="na">—</td>')
+        if has_length:
+            cells += (f'<td>{num(r["length"])}</td>' if r.get("length") is not None
+                      else '<td class="na">—</td>')
+        body.append(f"<tr{cls}>{cells}</tr>")
+
+    cap = f"<caption>{esc(caption)}</caption>" if caption else ""
+    return (f'<div class="table-scroll data-table-zone"><table class="specs">{cap}'
+            f'<thead><tr>{hdr}</tr></thead>'
+            f'<tbody>{"".join(body)}</tbody></table></div>')
+
+
+def grind_guide(m):
+    """The model's grind catalogue, with the lofts each grind is sold at."""
+    grinds = m.get("grinds")
+    if not grinds:
+        return ""
+    grind_lofts = defaultdict(set)
+    for r in m["specs"]:
+        if r.get("grind") and r.get("loft") is not None:
+            grind_lofts[r["grind"]].add(r["loft"])
+    items = []
+    for g in grinds:
+        lofts = sorted(grind_lofts.get(g.get("code"), []))
+        loft_str = ", ".join(f"{num(l)}°" for l in lofts) if lofts else "—"
+        name = g.get("name") or f"{g.get('code', '')} Grind"
+        items.append(
+            f'<div><dt><strong>{esc(name)}</strong>'
+            f'<span class="grind-lofts">{loft_str}</span></dt>'
+            f'<dd>{esc((g.get("description") or "").strip())}</dd></div>')
+    return (f'<h2>Grind options</h2>'
+            f'<p>The sole grinds this model is sold in, with the lofts each one '
+            f'is available at.</p>'
+            f'<dl class="grind-guide">{"".join(items)}</dl>')
+
+
+def wedge_gapping_links(m):
+    """Link the lofts a wedge model covers to the matching wedge-type guides.
+
+    WEDGE_TYPES is defined further down with the guide pages; this only runs at
+    build time, so the forward reference is fine.
+    """
+    lofts = set(wedge_lofts(m))
+    links = []
+    seen_bands = set()
+    for w in WEDGE_TYPES:
+        lo, hi = w["band"]
+        # GW and AW share a band; one link is enough.
+        if (lo, hi) in seen_bands:
+            continue
+        if any(lo <= l <= hi for l in lofts):
+            seen_bands.add((lo, hi))
+            links.append(f'<li><a href="/wedge-lofts/{w["slug"]}/">'
+                         f'{esc(w["name"])} loft guide ({lo}°–{hi}°)</a></li>')
+    if not links:
+        return ""
+    return ('<h2>Wedge loft guides</h2>'
+            '<p>How each loft slot this model covers fits into a gapped bag:</p>'
+            f'<ul class="linklist">{"".join(links)}</ul>')
 
 
 # --------------------------------------------------------------------------
@@ -833,6 +999,77 @@ def loft_angle(m):
             f'<figcaption>{caption}</figcaption></figure>')
 
 
+def wedge_loft_bounce_chart(m):
+    """Loft × bounce matrix chart: one mark per option, grind codes beside it.
+
+    This is the picture wedge buyers actually use — which bounces exist at each
+    degree — so it plots the full option matrix rather than a set progression.
+    """
+    rows = [r for r in m["specs"]
+            if r.get("loft") is not None and r.get("bounce") is not None]
+    if len(rows) < 2:
+        return ""
+    # Group by loft/bounce cell: two grinds can share a bounce at a loft, and
+    # two marks on one spot would hide each other.
+    cells = OrderedDict()
+    for r in rows:
+        cells.setdefault((r["loft"], r["bounce"]), []).append(r.get("grind") or "")
+    lofts = sorted({l for l, _ in cells})
+    bounces = [b for _, b in cells]
+
+    W, H = 320, 232
+    left, right, top, base = 28, 8, 16, 196
+    slot = (W - left - right) / len(lofts)
+    bmin = min(0, int(min(bounces) // 4) * 4)
+    bmax = max(bmin + 8, int(-(-max(bounces) // 4)) * 4)
+    scale = (base - top) / (bmax - bmin)
+    size = 8 if len(lofts) > 7 else 9
+
+    def px(loft):
+        return left + slot * (lofts.index(loft) + 0.5)
+
+    def py(bounce):
+        return base - (bounce - bmin) * scale
+
+    out = [svg_open(
+        W, H, f"{m['brand']} {m['model']} loft and bounce options",
+        "Chart of every loft and bounce combination offered, with the grinds "
+        "available at each: " + "; ".join(
+            f"{num(l)}° loft, {num(b)}° bounce ({', '.join(g for g in gs if g) or 'standard'})"
+            for (l, b), gs in cells.items()) + ".",
+        "wlb", 520)]
+    for tick in range(bmin, bmax + 1, 4):
+        y = py(tick)
+        out.append(f'<line x1="{left}" x2="{W - right}" y1="{xy(y)}" y2="{xy(y)}" '
+                   f'stroke="{FIG_AXIS if tick == bmin else FIG_GRID}"/>')
+        out.append(f'<text x="{left - 5}" y="{xy(y + 3)}" text-anchor="end" '
+                   f'fill="{FIG_MUTED}">{tick}°</text>')
+    for l in lofts:
+        out.append(f'<text x="{xy(px(l))}" y="{base + 14}" text-anchor="middle" '
+                   f'font-size="{size}" font-weight="600">{num(l)}</text>')
+    for (l, b), gs in cells.items():
+        x, y = px(l), py(b)
+        codes = "·".join(g for g in gs if g)
+        out.append(f'<circle cx="{xy(x)}" cy="{xy(y)}" r="4.5" fill="{FIG_GREEN}" '
+                   f'stroke="{FIG_SURFACE}" stroke-width="1.5">'
+                   f'<title>{num(l)}° / {num(b)}° bounce'
+                   f'{" / " + esc(codes) if codes else ""}</title></circle>')
+        if codes:
+            out.append(f'<text x="{xy(x)}" y="{xy(y - 7)}" text-anchor="middle" '
+                       f'font-size="7" font-weight="600" fill="{FIG_MUTED}">'
+                       f'{esc(codes)}</text>')
+    out.append(f'<text x="0" y="8" font-size="8" fill="{FIG_MUTED}">Bounce</text>')
+    out.append(f'<text x="0" y="{base + 14}" font-size="8" fill="{FIG_MUTED}">Loft</text>')
+    out.append("</svg>")
+
+    caption = (f"Every loft and bounce combination the {esc(m['brand'])} "
+               f"{esc(m['model'])} is sold in — {plural(len(rows), 'option')} across "
+               f"{plural(len(lofts), 'loft')}. The letters above each point are the "
+               f"grinds available there.")
+    return (f'<figure class="fig data-table-zone">{"".join(out)}'
+            f'<figcaption>{caption}</figcaption></figure>')
+
+
 def compare_chart(a, b, clubs, aspec, bspec, label_a, label_b):
     """Both sets' lofts on one chart, club by club."""
     pts_a = [(i, aspec[c]["loft"]) for i, c in enumerate(clubs)
@@ -913,6 +1150,74 @@ def compare_chart(a, b, clubs, aspec, bspec, label_a, label_b):
             f'<figcaption>{note}</figcaption></figure>')
 
 
+def wedge_compare_chart(a, b, label_a, label_b):
+    """Paired columns: how many bounce/grind options each model offers per loft."""
+    a_by, b_by = defaultdict(int), defaultdict(int)
+    for r in a["specs"]:
+        if r.get("loft") is not None:
+            a_by[r["loft"]] += 1
+    for r in b["specs"]:
+        if r.get("loft") is not None:
+            b_by[r["loft"]] += 1
+    lofts = sorted(set(a_by) | set(b_by))
+    if len(lofts) < 2:
+        return ""
+
+    W, H = 320, 232
+    left, right, top, base = 28, 8, 18, 196
+    slot = (W - left - right) / len(lofts)
+    bar = min(12, slot / 2 - 2)
+    nmax = max(max(a_by.values(), default=0), max(b_by.values(), default=0))
+    ymax = max(2, nmax)
+    scale = (base - top) / ymax
+    size = 8 if len(lofts) > 7 else 9
+    step = 1 if ymax <= 6 else 2
+
+    out = [svg_open(
+        W, H, f"{label_a} and {label_b} options per loft",
+        f"Column chart of the number of bounce and grind options per loft for the "
+        f"{label_a} and the {label_b}. " + " ".join(
+            f"{num(l)} degrees: {a_by.get(l, 0)} and {b_by.get(l, 0)}."
+            for l in lofts),
+        "wcmp", 520)]
+    for tick in range(0, ymax + 1, step):
+        y = base - tick * scale
+        out.append(f'<line x1="{left}" x2="{W - right}" y1="{xy(y)}" y2="{xy(y)}" '
+                   f'stroke="{FIG_AXIS if tick == 0 else FIG_GRID}"/>')
+        out.append(f'<text x="{left - 5}" y="{xy(y + 3)}" text-anchor="end" '
+                   f'fill="{FIG_MUTED}">{tick}</text>')
+    for i, l in enumerate(lofts):
+        cx = left + slot * (i + 0.5)
+        out.append(f'<text x="{xy(cx)}" y="{base + 14}" text-anchor="middle" '
+                   f'font-size="{size}" font-weight="600">{num(l)}</text>')
+        for off, count, colour, label in ((-bar - 1, a_by.get(l, 0), FIG_A, label_a),
+                                          (1, b_by.get(l, 0), FIG_B, label_b)):
+            if not count:
+                continue
+            h = count * scale
+            x0, y0 = cx + off, base - h
+            out.append(f'<rect x="{xy(x0)}" y="{xy(y0)}" width="{xy(bar)}" '
+                       f'height="{xy(h)}" rx="2" fill="{colour}">'
+                       f'<title>{esc(label)} at {num(l)}°: '
+                       f'{plural(count, "option")}</title></rect>')
+    out.append(f'<text x="0" y="8" font-size="8" fill="{FIG_MUTED}">Options</text>')
+    out.append(f'<text x="0" y="{base + 14}" font-size="8" fill="{FIG_MUTED}">Loft</text>')
+    out.append("</svg>")
+
+    legend = (
+        '<ul class="fig-key">'
+        f'<li><svg viewBox="0 0 12 12" width="12" height="12" aria-hidden="true">'
+        f'<rect width="12" height="12" rx="2" fill="{FIG_A}"/></svg>{esc(label_a)}</li>'
+        f'<li><svg viewBox="0 0 12 12" width="12" height="12" aria-hidden="true">'
+        f'<rect width="12" height="12" rx="2" fill="{FIG_B}"/></svg>{esc(label_b)}</li></ul>')
+    note = (f"Bounce/grind options offered at each loft: "
+            f"{plural(len(a['specs']), 'option')} in all for the {esc(label_a)}, "
+            f"{len(b['specs'])} for the {esc(label_b)}. A missing column means the "
+            f"model is not sold at that degree.")
+    return (f'<figure class="fig data-table-zone">{legend}{"".join(out)}'
+            f'<figcaption>{note}</figcaption></figure>')
+
+
 # --------------------------------------------------------------------------
 # model page
 # --------------------------------------------------------------------------
@@ -922,6 +1227,47 @@ AFFILIATE_DISCLOSURE = (
     'through links on this page at no extra cost to you.</p>')
 
 
+def wedge_availability(m):
+    """Wedge version of availability(): same status logic, wedge-market wording."""
+    brand, model = esc(m["brand"]), esc(m["model"])
+    intro = m.get("year_introduced")
+    pred = m.get("predecessor")
+    succ = m.get("successor")
+    check = ("Check the loft and bounce against the chart above before buying used — "
+             "wedges are routinely bent from standard, and worn grooves cost spin "
+             "long before a wedge looks worn.")
+
+    if m.get("year_discontinued"):
+        return f"""<h2>Finding one used</h2>
+  <p>The {brand} {model} ran from {intro} to {m['year_discontinued']} and is no longer in
+  production, so the used market is the only source. Search eBay, 2nd Swing, Golf Avenue and
+  the PGA Tour Superstore trade-in listings. {check}</p>"""
+
+    if succ:
+        return f"""<h2>Buying one</h2>
+  <p>{brand} has since introduced the {esc(succ)} above it in the range, so the {model} is at
+  the end of its retail life rather than fully retired — closeout stock still turns up at
+  retailers, and it is well represented used on eBay, 2nd Swing and Golf Avenue. {check}</p>"""
+
+    lineage = f" It replaced the {esc(pred)}." if pred else ""
+    intro_txt = f"Introduced in {intro}, t" if intro else "T"
+    if not is_current(m):
+        return f"""<h2>Production status</h2>
+  <p>{intro_txt}he {brand} {model} has no confirmed end date on file.{lineage} LoftChart
+  records a discontinuation year only where a source dates it, and none has been found for
+  this wedge, so it may or may not still be in the {brand} catalogue — check with {brand} or
+  a retailer before counting on a new one. {check}</p>"""
+
+    cat = WEDGE_CATEGORY_SHORT.get(m.get("category"))
+    slot = (f"a current {cat} wedge in the {brand} range" if cat
+            else f"a current wedge model in the {brand} range")
+    return f"""<h2>Where it sits in the lineup</h2>
+  <p>{intro_txt}he {brand} {model} is {slot} as of
+  {long_date(m['current_as_of'])}, with no replacement announced.{lineage} New wedges are
+  built to the loft, bounce and grind options in the chart above; a fitting can bend loft
+  and lie from standard, so confirm the numbers on the order sheet. {check}</p>"""
+
+
 def availability(m):
     """Closing section, written from the production status the data actually records.
 
@@ -929,6 +1275,8 @@ def availability(m):
     55 models have `year_discontinued: null` and are still catalogued, and telling a
     reader to shop the used market for a set that is on the rack is simply wrong.
     """
+    if m.get("club_type") == "wedges":
+        return wedge_availability(m)
     brand, model = esc(m["brand"]), esc(m["model"])
     intro = m.get("year_introduced")
     pred = m.get("predecessor")
@@ -1167,8 +1515,14 @@ def linkify_source(text):
 
 
 def model_page(m, brands, models_by_key, compares_by_key):
+    is_wedge = m.get("club_type") == "wedges"
     s7 = seven_iron(m)
-    title = fit_title(f"{m['title']} Specs", " — Loft & Lie Chart", f" | {SITE_NAME}")
+    if is_wedge:
+        title = fit_title(f"{m['title']} Specs", " — Loft & Bounce Chart",
+                          f" | {SITE_NAME}")
+    else:
+        title = fit_title(f"{m['title']} Specs", " — Loft & Lie Chart",
+                          f" | {SITE_NAME}")
     # Only advertise columns this model actually carries — several sets (the
     # Eye 2 among them) have no published offset or swing weight, and promising
     # data the chart doesn't show costs more in bounces than it gains in clicks.
@@ -1187,7 +1541,35 @@ def model_page(m, brands, models_by_key, compares_by_key):
     else:
         span = "every club"
 
-    if s7:
+    if is_wedge:
+        lofts = wedge_lofts(m)
+        n_combos = len(m["specs"])
+        grind_codes = [g.get("code") for g in (m.get("grinds") or []) if g.get("code")]
+        n_grinds = len(grind_codes)
+        if n_grinds:
+            head_part = (f"{m['brand']} {m['model']} wedge specs: "
+                         f"{num(lofts[0])}°–{num(lofts[-1])}°, "
+                         f"{n_combos} loft/bounce/grind options. ")
+            desc = fit_desc(head_part, [
+                f"Full option chart with {plural(n_grinds, 'grind')} "
+                f"({', '.join(grind_codes)}), bounce angles and availability at "
+                f"every loft.",
+                f"Full option chart with {plural(n_grinds, 'grind')}, bounce angles "
+                f"and availability at every loft.",
+                "Full option chart with bounce and grind at every loft.",
+                "Complete loft, bounce and grind chart.",
+            ])
+        else:
+            head_part = (f"{m['brand']} {m['model']} wedge specs: "
+                         f"{num(lofts[0])}°–{num(lofts[-1])}°, "
+                         f"{plural(n_combos, 'loft/bounce option')}. ")
+            desc = fit_desc(head_part, [
+                "Full factory chart with the bounce, lie and length at every "
+                "loft the model is sold in.",
+                "Full factory chart with the bounce at every loft it is sold in.",
+                "Complete loft and bounce chart.",
+            ])
+    elif s7:
         length_part = (f", {num(s7['length'])}\" length"
                        if s7.get("length") is not None else "")
         lie_part = f", {num(s7['lie'])}° lie" if s7.get("lie") is not None else ""
@@ -1220,15 +1602,25 @@ def model_page(m, brands, models_by_key, compares_by_key):
         years_html = years_html.replace(
             str(intro), f'<a href="/years/{intro}/">{intro}</a>', 1)
     cat = m.get("category")
-    cat_html = esc(CATEGORY_LABEL.get(cat, cat or "—"))
-    if cat in CATEGORY_LABEL:
+    cat_html = esc(category_label(m))
+    if not is_wedge and cat in CATEGORY_LABEL:
         cat_html = f'<a href="/category/{esc(cat)}/">{cat_html}</a>'
-    facts = [("Years produced", years_html),
-             ("Category", cat_html),
-             ("Construction", esc(m.get("construction") or "—")),
-             ("Material", esc(m.get("material") or "—")),
-             ("Set makeup", esc("–".join([m["specs"][0]["club"], m["specs"][-1]["club"]])
-                                if m["specs"] else "—"))]
+    if is_wedge:
+        facts = [("Years produced", years_html),
+                 ("Category", cat_html),
+                 ("Construction", esc(m.get("construction") or "—")),
+                 ("Material", esc(m.get("material") or "—")),
+                 ("Loft range", f"{num(lofts[0])}°–{num(lofts[-1])}°" if lofts else "—"),
+                 ("Options", esc(f"{n_combos} loft/bounce/grind combinations"
+                                 if n_grinds else
+                                 f"{n_combos} loft/bounce combinations"))]
+    else:
+        facts = [("Years produced", years_html),
+                 ("Category", cat_html),
+                 ("Construction", esc(m.get("construction") or "—")),
+                 ("Material", esc(m.get("material") or "—")),
+                 ("Set makeup", esc("–".join([m["specs"][0]["club"], m["specs"][-1]["club"]])
+                                    if m["specs"] else "—"))]
     facts_html = "".join(
         f"<div><dt>{esc(k)}</dt><dd>{v}</dd></div>" for k, v in facts)
 
@@ -1309,16 +1701,25 @@ def model_page(m, brands, models_by_key, compares_by_key):
         # These are reference spec pages, not listings, so describe the subject
         # as a plain Thing instead.
         "about": {"@type": "Thing", "name": m["title"]},
-        "keywords": ", ".join([m["brand"], m["model"], m["type_label"],
-                               "loft", "lie", "length", "specifications"]),
+        "keywords": ", ".join(
+            [m["brand"], m["model"], "wedges", "wedge", "loft", "bounce",
+             "grind", "specifications"] if is_wedge else
+            [m["brand"], m["model"], m["type_label"],
+             "loft", "lie", "length", "specifications"]),
     }
 
-    caption = (f"Standard men's steel-shaft specifications for the "
-               f"{m['brand']} {m['model']} {m['type_label'].lower()}.")
+    if is_wedge:
+        caption = (f"Loft, bounce and grind options for the "
+                   f"{m['brand']} {m['model']} wedges.")
+        lede = (f"Every loft, bounce and grind combination the {m['brand']} "
+                f"{m['model']} wedges are sold in, {year_range(m)}.")
+    else:
+        caption = (f"Standard men's steel-shaft specifications for the "
+                   f"{m['brand']} {m['model']} {m['type_label'].lower()}.")
 
-    # Keep the chart high on the page — the long-form description follows it.
-    lede = (f"Full factory loft, lie and length chart for the {m['brand']} {m['model']} "
-            f"{m['type_label'].lower()}, {year_range(m)}.")
+        # Keep the chart high on the page — the long-form description follows it.
+        lede = (f"Full factory loft, lie and length chart for the {m['brand']} {m['model']} "
+                f"{m['type_label'].lower()}, {year_range(m)}.")
     about = ""
     if m.get("description"):
         about = (f"<h2>About the {esc(m['brand'])} {esc(m['model'])}</h2>"
@@ -1332,9 +1733,30 @@ def model_page(m, brands, models_by_key, compares_by_key):
                    f'{esc(m["length_note"].strip())}</p>'
                    if m.get("length_note") else "")
 
-    chart, angle = loft_chart(m), loft_angle(m)
-    figures = (f'<h2>Loft progression</h2><div class="figs">{chart}{angle}</div>'
-               if chart or angle else "")
+    if is_wedge:
+        chart = wedge_loft_bounce_chart(m)
+        figures = (f'<h2>Loft and bounce options</h2>'
+                   f'<div class="figs figs-one">{chart}</div>' if chart else "")
+        grind_html = grind_guide(m)
+        gapping_html = wedge_gapping_links(m)
+        table_heading = "Loft, bounce &amp; grind chart"
+        table_html = wedge_spec_table(m, caption)
+        table_note = ("<p class=\"table-note\">Each row is one combination the model is "
+                      "sold in, factory standard. Loft and lie on an individual wedge may "
+                      "differ if it has been bent during a fitting.</p>")
+    else:
+        chart, angle = loft_chart(m), loft_angle(m)
+        figures = (f'<h2>Loft progression</h2><div class="figs">{chart}{angle}</div>'
+                   if chart or angle else "")
+        grind_html = ""
+        gapping_html = ""
+        table_heading = "Loft, lie &amp; length chart"
+        table_html = spec_table(m, caption)
+        # Byte-identical to the note this replaced, line break included, so the
+        # 830 built iron pages do not all change over whitespace.
+        table_note = ("<p class=\"table-note\">Lofts and lies are the factory standard "
+                      "build. Individual clubs may\n  differ if they have been bent, "
+                      "re-shafted or re-gripped during their life.</p>")
 
     shop_html = shop_block(m)
     sticky_html = sticky_bar(m)
@@ -1344,8 +1766,8 @@ def model_page(m, brands, models_by_key, compares_by_key):
     # rendering a divider with nothing under it.
     sections_html = "".join(
         f'<section class="model-section">{s}</section>'
-        for s in (about, shafts, related_html, faq_html,
-                  availability_html) if s)
+        for s in (about, grind_html, shafts, related_html, gapping_html,
+                  faq_html, availability_html) if s)
 
     body = f"""{nav}
 <div class="wrap">
@@ -1358,10 +1780,9 @@ def model_page(m, brands, models_by_key, compares_by_key):
 
   {conf_note}
 
-  <h2>Loft, lie &amp; length chart</h2>
-  {spec_table(m, caption)}
-  <p class="table-note">Lofts and lies are the factory standard build. Individual clubs may
-  differ if they have been bent, re-shafted or re-gripped during their life.</p>
+  <h2>{table_heading}</h2>
+  {table_html}
+  {table_note}
   {length_note}
 
   {shop_html}
@@ -1386,11 +1807,16 @@ def brand_page(b, models, brands):
     ms = sorted(models, key=lambda m: (m.get("year_introduced") or 0, m["model"]))
     years = [m["year_introduced"] for m in ms if m.get("year_introduced")]
     names = ", ".join(m["model"] for m in ms[:3])
-    title = fit_title(f"{b['name']} Iron Specs", " — Loft & Lie Charts",
+    # A brand with wedge (or other) models on file is no longer an iron archive,
+    # so its page stops claiming to be one.
+    irons_only = all(m["club_type"] == "irons" for m in ms)
+    noun = "Iron" if irons_only else "Golf Club"
+    title = fit_title(f"{b['name']} {noun} Specs", " — Loft & Lie Charts",
                       f" | {SITE_NAME}")
     # Compact head leaves room for the family list, which is the part that
     # carries the searched terms ("Ping G series").
-    head_part = f"{b['name']} iron specifications, {min(years)}–{max(years)}. "
+    head_part = (f"{b['name']} {noun.lower()} specifications, "
+                 f"{min(years)}–{max(years)}. ")
     # Prefer naming model families over a truncated model list — families are
     # what people actually search ("Ping G series", "Ping i series").
     fam = b.get("families")
@@ -1431,9 +1857,15 @@ def brand_page(b, models, brands):
     for dec in sorted(by_decade):
         lis = []
         for m in by_decade[dec]:
-            s7 = seven_iron(m)
-            spec = (f'<span class="mt">{club_noun(m, s7["club"])} {num(s7["loft"])}° loft · '
-                    f'{CATEGORY_LABEL.get(m.get("category"), "")}</span>') if s7 else ""
+            if m["club_type"] == "wedges":
+                w_lofts = wedge_lofts(m)
+                spec = (f'<span class="mt">{num(w_lofts[0])}°–{num(w_lofts[-1])}° · '
+                        f'{plural(len(m["specs"]), "loft/bounce/grind option")}</span>'
+                        if w_lofts else "")
+            else:
+                s7 = seven_iron(m)
+                spec = (f'<span class="mt">{club_noun(m, s7["club"])} {num(s7["loft"])}° loft · '
+                        f'{CATEGORY_LABEL.get(m.get("category"), "")}</span>') if s7 else ""
             lis.append(f'<li data-club-type="{esc(m["club_type"])}">'
                        f'<span class="yr">{year_range(m)}</span>'
                        f'<span class="nm"><a href="{m["url"]}">{esc(m["model"])} '
@@ -1465,9 +1897,9 @@ def brand_page(b, models, brands):
 def brands_index(brands, by_brand, all_models):
     title = f"All Golf Club Brands — Specification Archive | {SITE_NAME}"
     span = loft_span(all_models)
-    head_part = (f"{plural(len(all_models), 'iron model')} across "
+    head_part = (f"{plural(len(all_models), 'golf club model')} across "
                  f"{plural(len(brands), 'manufacturer')}, {span}. " if span else
-                 f"{plural(len(all_models), 'iron model')} across "
+                 f"{plural(len(all_models), 'golf club model')} across "
                  f"{plural(len(brands), 'manufacturer')}. ")
     desc = fit_desc(head_part, [
         "Loft charts, lie angles and lengths for Ping, Titleist, Callaway, "
@@ -1828,15 +2260,16 @@ INDEX_MIN_YEAR = 2016
 # Model lines with real search demand, matched against the start of the
 # model name. Only these brands' pages are ever indexed.
 POPULAR_LINES = {
-    "titleist": r"(T\d{3}S?|620 (CB|MB)|718 (AP1|AP2|AP3|CB|MB))\b",
-    "taylormade": r"(P7(MB|MC|CB)\b|P7[579]0\b|P760\b|Qi\b|Stealth\b|SIM2? Max|M[2-6]\b)",
-    "ping": r"(G4\d\d|G7\d0|i2\d0|i5\d\d|i59|Blueprint)\b",
-    "callaway": r"(Apex|Paradym|Rogue ST|Mavrik|Elyte)\b",
-    "mizuno": r"(JPX-9\d\d|Pro \d{3}\b|Pro [SM]-\d+|MP-20)",
+    "titleist": r"(T\d{3}S?|620 (CB|MB)|718 (AP1|AP2|AP3|CB|MB)|Vokey SM\d{1,2})\b",
+    "taylormade": r"(P7(MB|MC|CB)\b|P7[579]0\b|P760\b|Qi\b|Stealth\b|SIM2? Max|M[2-6]\b|"
+                  r"MG\d\b|Hi-Toe)",
+    "ping": r"(G4\d\d|G7\d0|i2\d0|i5\d\d|i59|Blueprint|S\d{3}\b|Glide)",
+    "callaway": r"(Apex|Paradym|Rogue ST|Mavrik|Elyte|Opus|JAWS|MD\d)\b",
+    "mizuno": r"(JPX-9\d\d|Pro \d{3}\b|Pro [SMT]-\d+|MP-20)",
     "cobra": r"(KING (Forged )?TEC|LTDx|Aerojet|Darkspeed|DS-ADAPT|KING F[789]\b|"
-             r"KING Speedzone|KING Radspeed)",
+             r"KING Speedzone|KING Radspeed|Snakebite)",
     "srixon": r"(ZXi?\d|Z [579]85)",
-    "cleveland": r"(Launcher XL|ZipCore XL|HALO XL)",
+    "cleveland": r"(Launcher XL|ZipCore XL|HALO XL|RTZ\b|RTX\b|CBX\d?\b)",
 }
 
 # The "which one" decisions people actually search, shown first on /compare/
@@ -1871,6 +2304,12 @@ POPULAR_COMPARES = [
     "srixon-zx5-mkii-vs-zx7-mkii",
     "srixon-zxi5-vs-zxi7",
     "cobra-king-tec-2024-vs-king-tec-x-2024",
+    # Wedges — the generation upgrades and cross-brand pairs people search.
+    "titleist-vokey-sm10-vs-vokey-sm11",
+    "cleveland-rtz-vs-rtz-2",
+    "callaway-opus-sp-vs-opus-sp-plus",
+    "cleveland-rtz-2-vs-titleist-vokey-sm11",
+    "taylormade-mg5-vs-titleist-vokey-sm11",
 ]
 
 
@@ -2227,7 +2666,284 @@ def compare_analysis(a, b, label_a, label_b, aspec, bspec, generation=False):
     return paras, faq
 
 
+# --------------------------------------------------------------------------
+# wedge compare pages
+#
+# Iron comparisons align on club label and ask "which is stronger lofted?".
+# Wedge models share most of their lofts by construction — both offer a 56°,
+# both offer a 60° — so the questions that matter are coverage questions:
+# which degrees each is sold in, and how many bounce/grind options each offers
+# at the degrees they share.
+# --------------------------------------------------------------------------
+
+def _wedge_by_loft(m):
+    by = defaultdict(list)
+    for r in m["specs"]:
+        if r.get("loft") is not None:
+            by[r["loft"]].append(r)
+    return by
+
+
+def _wedge_opts_cell(opts):
+    """'8° F, 10° S, 12° D' for the options at one loft."""
+    return ", ".join(
+        f"{num(r['bounce'])}°{' ' + esc(r['grind']) if r.get('grind') else ''}"
+        for r in sorted(opts, key=lambda r: (r.get("bounce") or 0,
+                                             str(r.get("grind") or ""))))
+
+
+def wedge_compare_table(a, b, label_a, label_b):
+    """Side-by-side wedge comparison: bounce/grind options at each loft."""
+    a_by, b_by = _wedge_by_loft(a), _wedge_by_loft(b)
+    all_lofts = sorted(set(a_by) | set(b_by))
+
+    rows = []
+    for loft in all_lofts:
+        a_opts, b_opts = a_by.get(loft, []), b_by.get(loft, [])
+        diff = ' class="diff"' if len(a_opts) != len(b_opts) else ""
+        a_cell = _wedge_opts_cell(a_opts) or '<span class="na">not offered</span>'
+        b_cell = _wedge_opts_cell(b_opts) or '<span class="na">not offered</span>'
+        rows.append(
+            f'<tr><th scope="row">{num(loft)}°</th>'
+            f'<td>{a_cell}</td><td{diff}>{len(a_opts) or "—"}</td>'
+            f'<td>{b_cell}</td><td{diff}>{len(b_opts) or "—"}</td></tr>')
+
+    return f"""<div class="table-scroll data-table-zone"><table class="specs">
+<caption>Bounce and grind options at each loft: {esc(label_a)} vs {esc(label_b)}.</caption>
+<thead><tr>
+  <th scope="col">Loft</th>
+  <th scope="col">{esc(label_a)} bounce / grind</th>
+  <th scope="col">#</th>
+  <th scope="col">{esc(label_b)} bounce / grind</th>
+  <th scope="col">#</th>
+</tr></thead>
+<tbody>{"".join(rows)}</tbody>
+</table></div>"""
+
+
+def wedge_compare_analysis(a, b, label_a, label_b, generation=False):
+    """(paragraphs, faq) for a wedge compare page, driven by the option matrices."""
+    full_a = f"{a['brand']} {a['model']}"
+    a_by, b_by = _wedge_by_loft(a), _wedge_by_loft(b)
+    a_lofts, b_lofts = sorted(a_by), sorted(b_by)
+    shared = sorted(set(a_by) & set(b_by))
+    a_combos, b_combos = len(a["specs"]), len(b["specs"])
+    a_grinds = [g["code"] for g in (a.get("grinds") or []) if g.get("code")]
+    b_grinds = [g["code"] for g in (b.get("grinds") or []) if g.get("code")]
+    paras, faq = [], []
+
+    # --- total selection ------------------------------------------------------
+    if a_combos == b_combos:
+        text = (f"Both models offer {a_combos} loft/bounce/grind combinations, so "
+                f"neither wins on raw selection.")
+    else:
+        more, less = (label_a, label_b) if a_combos > b_combos else (label_b, label_a)
+        hi, lo = max(a_combos, b_combos), min(a_combos, b_combos)
+        text = (f"The {more} offers the wider selection: {hi} loft/bounce/grind "
+                f"combinations against {lo} for the {less}.")
+    if not a_grinds and not b_grinds:
+        pass  # neither model names its grinds; nothing to compare
+    elif len(a_grinds) == len(b_grinds):
+        text += (f" Each is ground {plural(len(a_grinds), 'way')} — "
+                 f"{comma_list(a_grinds)} for the {label_a}, "
+                 f"{comma_list(b_grinds)} for the {label_b}.")
+    else:
+        gm, gl = (label_a, label_b) if len(a_grinds) > len(b_grinds) else (label_b, label_a)
+        text += (f" The {gm} also has the deeper grind catalogue: "
+                 f"{max(len(a_grinds), len(b_grinds))} sole grinds against "
+                 f"{min(len(a_grinds), len(b_grinds))}.")
+    paras.append(text)
+
+    # --- loft coverage --------------------------------------------------------
+    if a_lofts and b_lofts:
+        a_span = (a_lofts[0], a_lofts[-1])
+        b_span = (b_lofts[0], b_lofts[-1])
+        only_a = sorted(set(a_by) - set(b_by))
+        only_b = sorted(set(b_by) - set(a_by))
+        if not only_a and not only_b:
+            text = (f"Loft coverage is identical: both run {num(a_span[0])}° to "
+                    f"{num(a_span[1])}° and are sold at the same "
+                    f"{plural(len(shared), 'degree')}.")
+        else:
+            text = (f"The {label_a} is sold from {num(a_span[0])}° to {num(a_span[1])}°, "
+                    f"the {label_b} from {num(b_span[0])}° to {num(b_span[1])}°.")
+            if only_a:
+                text += (f" Only the {label_a} comes in "
+                         f"{comma_list(f'{num(l)}°' for l in only_a)}.")
+            if only_b:
+                text += (f" Only the {label_b} comes in "
+                         f"{comma_list(f'{num(l)}°' for l in only_b)}.")
+        paras.append(text)
+
+    # --- options at the scoring lofts -----------------------------------------
+    key_lofts = [l for l in (56.0, 58.0, 60.0) if l in a_by or l in b_by]
+    if key_lofts:
+        bits = []
+        for l in key_lofts:
+            na, nb = len(a_by.get(l, [])), len(b_by.get(l, []))
+            if na == nb:
+                bits.append(f"at {num(l)}° both offer {plural(na, 'option')}")
+            else:
+                lead = label_a if na > nb else label_b
+                bits.append(f"at {num(l)}° the {lead} offers {max(na, nb)} "
+                            f"options to {min(na, nb)}")
+        paras.append(
+            "The scoring lofts are where bounce and grind choice matters most: "
+            + "; ".join(bits) +
+            ". More options at a degree means more ways to match the sole to "
+            "your turf and swing, which is what a wedge fitting actually selects.")
+
+    # --- generation / era -----------------------------------------------------
+    ya, yb = a.get("year_introduced"), b.get("year_introduced")
+    if ya and yb:
+        gap = abs(yb - ya)
+        if gap == 0:
+            paras.append(f"Both lines were introduced in {ya}, so this is a choice "
+                         f"between two current designs rather than an upgrade.")
+        elif generation:
+            paras.append(f"The {label_b} arrived {plural(gap, 'year')} after the "
+                         f"{label_a} as its replacement. Wedge generations usually "
+                         f"carry over the core loft ladder and adjust the grind "
+                         f"catalogue, groove spec and finishes, so the older model "
+                         f"is the value buy while stock lasts — the trade-off is "
+                         f"the newer grooves, which matter more the more you play.")
+        else:
+            paras.append(f"The two lines launched {plural(gap, 'year')} apart "
+                         f"({ya} and {yb}), so they compete head-to-head rather "
+                         f"than one replacing the other.")
+
+    # --- FAQ ------------------------------------------------------------------
+    faq.append((f"Which offers more options, the {full_a} or the {label_b}?",
+                (f"Both offer {a_combos} loft, bounce and grind combinations."
+                 if a_combos == b_combos else
+                 f"The {full_a if a_combos > b_combos else label_b} does: "
+                 f"{max(a_combos, b_combos)} loft, bounce and grind combinations "
+                 f"against {min(a_combos, b_combos)} for the "
+                 f"{label_b if a_combos > b_combos else full_a}.")))
+    if a_lofts and b_lofts:
+        faq.append((f"What lofts do the {full_a} and {label_b} come in?",
+                    f"The {full_a} is sold from {num(a_lofts[0])} to "
+                    f"{num(a_lofts[-1])} degrees and the {label_b} from "
+                    f"{num(b_lofts[0])} to {num(b_lofts[-1])} degrees. "
+                    + (f"They share {plural(len(shared), 'loft')}."
+                       if shared else "They share no loft.")))
+    if 56.0 in a_by and 56.0 in b_by:
+        faq.append((f"Which has more 56 degree options, the {full_a} or the {label_b}?",
+                    (f"Both offer {plural(len(a_by[56.0]), 'bounce/grind option')} "
+                     f"at 56 degrees."
+                     if len(a_by[56.0]) == len(b_by[56.0]) else
+                     f"The {full_a if len(a_by[56.0]) > len(b_by[56.0]) else label_b}: "
+                     f"{max(len(a_by[56.0]), len(b_by[56.0]))} bounce/grind options "
+                     f"at 56 degrees against "
+                     f"{min(len(a_by[56.0]), len(b_by[56.0]))}.")))
+
+    return paras, faq
+
+
+def wedge_compare_page(a, b, brands, indexed=False, generation=False):
+    """Compare page for two wedge models: option matrices side by side."""
+    slug = compare_slug(a, b)
+    same_brand = a["brand"] == b["brand"]
+    label_a = a["model"] if same_brand else f"{a['brand']} {a['model']}"
+    label_b = b["model"] if same_brand else f"{b['brand']} {b['model']}"
+    core = f"{a['brand']} {a['model']} vs {label_b}"
+    if len(core) > TITLE_MAX:
+        core = f"{a['model']} vs {b['model']}"
+    if len(core) > TITLE_MAX:
+        core = core[:TITLE_MAX - 1] + "…"
+    title = fit_title(core, " Wedges — Compared", f" | {SITE_NAME}")
+
+    a_combos, b_combos = len(a["specs"]), len(b["specs"])
+    a_lofts, b_lofts = wedge_lofts(a), wedge_lofts(b)
+    shared = sorted(set(a_lofts) & set(b_lofts))
+    head_part = (f"{a['brand']} {a['model']} vs {label_b} wedges: "
+                 f"{a_combos} loft/bounce/grind options vs {b_combos}. ")
+    desc = fit_desc(head_part, [
+        f"Compare bounce and grind availability at every loft, "
+        f"{plural(len(shared), 'shared degree')} side by side.",
+        f"Compare bounce and grind availability at every shared loft.",
+        "Compare bounce, grind availability and loft range.",
+        "Full wedge spec comparison.",
+    ])
+    url = f"/compare/{slug}/"
+    nav, bc = crumbs([("Home", "/"), ("Compare", "/compare/"),
+                      (f"{a['model']} vs {b['model']}", None)])
+
+    table = wedge_compare_table(a, b, label_a, label_b)
+    chart = wedge_compare_chart(a, b, label_a, label_b)
+    overlay = (f'<h2>Options per loft</h2><div class="figs figs-one">{chart}</div>'
+               if chart else "")
+    paras, faq = wedge_compare_analysis(a, b, label_a, label_b, generation)
+    analysis = "\n  ".join(f"<p>{esc(p)}</p>" for p in paras)
+    faq_html, faq_ld = faq_block(faq) if faq else ("", None)
+
+    # verdict driven by the matrices
+    if generation:
+        verdict = (f"The {label_b} is the newer generation, so it carries the current "
+                   f"groove spec and the fuller retail availability; the {label_a} is "
+                   f"the value buy while closeout and used stock lasts. The option "
+                   f"chart above is the tiebreaker — if the exact loft, bounce and "
+                   f"grind you play is only in one of them, that decides it.")
+    elif a_combos != b_combos:
+        more = label_a if a_combos > b_combos else label_b
+        verdict = (f"Neither is the better wedge outright — both are current tour-style "
+                   f"designs. The {more} offers the wider option matrix, which matters "
+                   f"if you want an unusual bounce or grind at your loft; otherwise "
+                   f"choose on feel, finish and price at the combination you actually "
+                   f"play.")
+    else:
+        verdict = (f"The two lines offer the same number of combinations, so the choice "
+                   f"comes down to the specific bounce and grind characters, feel and "
+                   f"price rather than selection.")
+
+    def col_card(m):
+        c_lofts = wedge_lofts(m)
+        span = (f"{num(c_lofts[0])}°–{num(c_lofts[-1])}°" if c_lofts else "")
+        return (f'<a class="card" href="{m["url"]}">'
+                f'<span class="card-title">{esc(m["brand"])} {esc(m["model"])}</span>'
+                f'<span class="card-meta">{year_range(m)} · '
+                f'{esc(category_label(m))}</span>'
+                f'<span class="card-spec">{span} · '
+                f'{plural(len(m["specs"]), "option")}</span></a>')
+
+    body = f"""{nav}
+<div class="wrap">
+  <div class="page-head">
+    <h1>{esc(a['brand'])} {esc(a['model'])} vs {esc(b['brand'])} {esc(b['model'])} Wedges</h1>
+    <p class="lede">Side-by-side factory option matrices. Lofts where the two lines offer a
+    different number of options are highlighted.</p>
+  </div>
+  <div class="cmp-cols">{col_card(a)}{col_card(b)}</div>
+
+  <h2>Options at each loft</h2>
+  {table}
+  <p class="table-note">Each cell lists the bounce/grind combinations sold at that loft,
+  factory standard. Highlighted counts differ between the two lines.</p>
+
+  {overlay}
+
+  <h2>What the differences mean</h2>
+  {analysis}
+
+  <h2>Which should you choose?</h2>
+  <p>{esc(verdict)}</p>
+  <p>Both option charts are reproduced in full on their own pages:
+  <a href="{a['url']}">{esc(a['brand'])} {esc(a['model'])} specs</a> and
+  <a href="{b['url']}">{esc(b['brand'])} {esc(b['model'])} specs</a>.</p>
+  {faq_html}
+
+  {shop_block(a)}
+</div>
+{sticky_bar(a)}
+"""
+    page(url, title, desc, body, brands, [bc] + ([faq_ld] if faq_ld else []),
+         googlebot_noindex=not indexed)
+    return slug
+
+
 def compare_page(a, b, brands, indexed=False, generation=False):
+    if a.get("club_type") == "wedges":
+        return wedge_compare_page(a, b, brands, indexed, generation)
     slug = compare_slug(a, b)
     # Lead with the two 7-iron lofts: it is the number people are comparing,
     # and it keeps sibling comparisons from reading as near-duplicates.
@@ -2398,21 +3114,31 @@ def compare_page(a, b, brands, indexed=False, generation=False):
 
 def compare_card(slug, a, b):
     """Index card: names with their 7-iron lofts, brands and years, category badges."""
-    aspec = {r["club"]: r for r in a["specs"]}
-    bspec = {r["club"]: r for r in b["specs"]}
-    ref = shared_ref_club(aspec, bspec)
+    is_wedge = a.get("club_type") == "wedges"
     # "T100 (2025)" would read "T100 (2025) (33°)" next to its loft.
     na, nb = (re.sub(r" \((\d{4})\)$", r" \1", m["model"]) for m in (a, b))
-    if ref:
-        la, lb = aspec[ref]["loft"], bspec[ref]["loft"]
-        names = f"{na} ({num(la)}°) vs {nb} ({num(lb)}°)"
-        diff = round(abs(lb - la), 1)
-    else:
+    if is_wedge:
+        # Wedge pairs compare on selection, not a reference loft.
         names = f"{na} vs {nb}"
-        diff = 0
-    ref_note = f" · {club_noun(a, ref)} lofts" if ref and ref != "7" else ""
+        diff = abs(len(a["specs"]) - len(b["specs"]))
+        ref = None
+        ref_note = " · wedge options"
+    else:
+        aspec = {r["club"]: r for r in a["specs"]}
+        bspec = {r["club"]: r for r in b["specs"]}
+        ref = shared_ref_club(aspec, bspec)
+        if ref:
+            la, lb = aspec[ref]["loft"], bspec[ref]["loft"]
+            names = f"{na} ({num(la)}°) vs {nb} ({num(lb)}°)"
+            diff = round(abs(lb - la), 1)
+        else:
+            names = f"{na} vs {nb}"
+            diff = 0
+        ref_note = f" · {club_noun(a, ref)} lofts" if ref and ref != "7" else ""
     cats = [c for c in dict.fromkeys([a.get("category"), b.get("category")]) if c]
-    badges = "".join(f'<span class="badge">{esc(CATEGORY_SHORT.get(c, c))}</span>'
+    short = WEDGE_CATEGORY_SHORT if is_wedge else CATEGORY_SHORT
+    badges = "".join(f'<span class="badge">{esc(short.get(c, c))}'
+                     f'{" wedges" if is_wedge else ""}</span>'
                      for c in cats)
     brands_attr = a["brand"] if a["brand"] == b["brand"] else f"{a['brand']}|{b['brand']}"
     search = " ".join([a["brand"], a["model"], b["brand"], b["model"]]
@@ -2434,11 +3160,11 @@ def compare_card(slug, a, b):
 def compares_index(pairs_built, brands):
     title = f"Golf Club Spec Comparisons | {SITE_NAME}"
     desc = fit_desc(
-        f"{plural(len(pairs_built), 'side-by-side iron comparison')}, generation by "
-        f"generation. ",
-        ["Compare 7-iron loft, lie, length, offset and swing weight for every club "
-         "in each set.",
-         "Compare 7-iron loft, lie, length and swing weight for every club.",
+        f"{plural(len(pairs_built), 'side-by-side iron and wedge comparison')}, "
+        f"generation by generation. ",
+        ["Compare 7-iron loft, lie, length, swing weight and wedge bounce/grind "
+         "options for every club.",
+         "Compare 7-iron loft, lie, length and wedge bounce/grind options.",
          "Compare loft, lie and length for every club."])
     nav, bc = crumbs([("Home", "/"), ("Compare", None)])
 
@@ -2554,12 +3280,17 @@ def compares_index(pairs_built, brands):
 
 def homepage(brands, models, by_brand):
     title = f"{SITE_NAME} — Golf Club Specifications Database"
+    irons = [m for m in models if m["club_type"] == "irons"]
+    wedge_models = [m for m in models if m["club_type"] == "wedges"]
     # Count the real archive rather than claiming "thousands" — the number is
     # the credibility signal, and an inflated one is trivially disproved.
-    span = loft_span(models)
-    head_part = (f"{plural(len(models), 'iron model')}, {span}: source-attributed "
+    span = loft_span(irons)
+    counts = plural(len(irons), "iron model")
+    if wedge_models:
+        counts += f" and {plural(len(wedge_models), 'wedge model')}"
+    head_part = (f"{counts}, {span}: source-attributed "
                  f"loft charts. " if span else
-                 f"{plural(len(models), 'iron model')}: source-attributed loft "
+                 f"{counts}: source-attributed loft "
                  f"charts. ")
     desc = fit_desc(head_part, [
         "Lie angles, lengths and swing weights from Ping, Titleist, Callaway, "
@@ -2577,7 +3308,18 @@ def homepage(brands, models, by_brand):
             if len(featured) == 8:
                 break
 
-    recent = sorted(models, key=lambda m: (-(m.get("year_introduced") or 0), m["brand"]))[:8]
+    recent = sorted(irons, key=lambda m: (-(m.get("year_introduced") or 0), m["brand"]))[:8]
+
+    wedge_recent = sorted(wedge_models,
+                          key=lambda m: (-(m.get("year_introduced") or 0), m["brand"]))[:8]
+    wedge_model_html = ""
+    if wedge_recent:
+        wedge_model_html = f"""
+  <h2>Wedge model specs</h2>
+  <p>Standalone wedge lines with the full factory loft, bounce and grind option chart —
+  every combination each model is actually sold in.</p>
+  <div class="grid">{''.join(model_card(m) for m in wedge_recent)}</div>
+"""
 
     # The "what degree is a sand wedge" family of questions is the highest-volume
     # thing this archive can answer from data it already holds, so the guides get
@@ -2641,7 +3383,7 @@ def homepage(brands, models, by_brand):
 
   <h2>Browse by brand</h2>
   <div class="grid">{brand_cards}</div>
-
+{wedge_model_html}
   <h2>Wedge loft guides</h2>
   <p>What degree each wedge is, what it carries, and how the four slots gap together —
   with the numbers taken from the spec charts on this site. Start with the
@@ -2673,7 +3415,7 @@ def about_page(brands, models):
     title = f"About {SITE_NAME} — Golf Club Specification Archive"
     years = [m["year_introduced"] for m in models if m.get("year_introduced")]
     desc = fit_desc(
-        f"About LoftChart: {plural(len(models), 'iron model')} from "
+        f"About LoftChart: {plural(len(models), 'golf club model')} from "
         f"{len(brands)} brands, {min(years)}–{max(years)}. ",
         ["An independent, source-attributed archive of loft, lie and length specs "
          "for discontinued and current sets.",
@@ -3407,7 +4149,27 @@ def wedge_faq(w, stats, pairs):
     return base + extra.get(w["slug"], [])
 
 
-def wedge_page(w, models, brands):
+def wedge_model_links(w, wedge_models):
+    """Link block: standalone wedge models sold in this wedge type's loft band."""
+    lo, hi = w["band"]
+    relevant = [m for m in wedge_models
+                if any(lo <= l <= hi for l in wedge_lofts(m))]
+    if not relevant:
+        return ""
+    relevant.sort(key=lambda m: (-(m.get("year_introduced") or 0), m["brand"]))
+    items = "".join(
+        f'<li><a href="{m["url"]}">{esc(m["title"])}</a> '
+        f'<span class="mt">{esc(year_range(m))} · '
+        f'{plural(sum(1 for l in wedge_lofts(m) if lo <= l <= hi), "loft")} '
+        f'in this band</span></li>'
+        for m in relevant[:15])
+    return (f'<h2>{esc(w["name"])} models on file</h2>'
+            f'<p>Standalone wedge lines sold in the {lo}°–{hi}° band, newest first — '
+            f'follow a link for the full loft, bounce and grind chart.</p>'
+            f'<ul class="linklist">{items}</ul>')
+
+
+def wedge_page(w, models, brands, wedge_models=()):
     pairs = wedge_sets(models, w["keys"])
     lofts = [l for l, _ in pairs]
     stats = {"n": len(pairs), "mode": wedge_mode(lofts), "span": wedge_span(lofts),
@@ -3520,6 +4282,8 @@ def wedge_page(w, models, brands):
   <p>The newest set from each manufacturer in the archive that carries one — follow a link
   for the full loft, lie and length chart.</p>
   <ul class="linklist">{examples}</ul>
+
+  {wedge_model_links(w, wedge_models)}
 
   <h2>Frequently asked questions</h2>
   <div class="faq">{faq_blocks}</div>
@@ -3746,10 +4510,12 @@ def wedge_index(models, brands):
          [bc, article_ld, list_ld, faq_ld], og_type="article")
 
 
-def wedge_pages(models, brands):
+def wedge_pages(models, brands, wedge_models=()):
+    """Guide hub + per-type pages. `models` is the iron archive the stats are
+    mined from; `wedge_models` are the standalone wedge lines to link out to."""
     wedge_index(models, brands)
     for w in WEDGE_TYPES:
-        wedge_page(w, models, brands)
+        wedge_page(w, models, brands, wedge_models)
 
 
 # --------------------------------------------------------------------------
@@ -4585,7 +5351,8 @@ def webmanifest():
 def search_index(models):
     idx = [{"t": m["title"],
             "u": m["url"].lstrip("/"),
-            "m": f"{year_range(m)} · {CATEGORY_LABEL.get(m.get('category'), '')}"}
+            "m": f"{year_range(m)} · "
+                 f"{category_label(m) if m.get('category') else ''}"}
            for m in sorted(models, key=lambda m: (m["brand"], m["model"]))]
     write("search-index.json", json.dumps(idx, ensure_ascii=False, separators=(",", ":")))
 
@@ -4706,11 +5473,18 @@ def main():
     os.makedirs(OUT)
 
     by_key = {m["key"]: m for m in models}
+    iron_models = [m for m in models if m["club_type"] == "irons"]
+    wedge_models = [m for m in models if m["club_type"] == "wedges"]
     by_brand = defaultdict(list)
     by_year = defaultdict(list)
     by_cat = defaultdict(list)
     for m in models:
         by_brand[m["brand_slug"]].append(m)
+        # The year and category hubs are iron archives: their stats, copy and
+        # category enum are set-specific, and a wedge category like "tour"
+        # would otherwise mint a broken hub page.
+        if m["club_type"] != "irons":
+            continue
         if m.get("year_introduced"):
             by_year[m["year_introduced"]].append(m)
         if m.get("category"):
@@ -4746,13 +5520,15 @@ def main():
 
     for y, ms in by_year.items():
         year_page(y, ms, brands, by_year)
-    years_index(by_year, brands, models)
+    years_index(by_year, brands, iron_models)
 
     for c, ms in by_cat.items():
         category_page(c, ms, brands)
-    categories_index(by_cat, brands, models)
+    categories_index(by_cat, brands, iron_models)
 
-    wedge_pages(models, brands)
+    # Guide stats continue to come from iron-set wedges; the standalone wedge
+    # models are only linked, never mixed into those stats.
+    wedge_pages(iron_models, brands, wedge_models)
     driver_pages(brands)
 
     homepage(brands, models, by_brand)

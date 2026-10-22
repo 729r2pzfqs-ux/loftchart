@@ -1,0 +1,198 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: MG5
+slug: mg5-wedges
+club_type: wedges
+year_introduced: 2025
+year_discontinued: null
+current_as_of: "2026-10"
+category: tour
+construction: fully forged, ultrasoft carbon steel (1025 per launch coverage)
+material: ultrasoft carbon steel, raw face finish
+predecessor: TaylorMade MG4
+successor: null
+description: >
+  The MG5 (Milled Grind 5) is the 2025 generation of TaylorMade's tour wedge
+  line and the first fully forged Milled Grind, announced on 7 August 2025
+  and at retail from 4 September. Designed with Greg Cesario, it pairs
+  aggressive saw-milled grooves with a raw face carrying Spin Tread
+  water-channeling texture, and precision-milled soles. The matrix runs 23
+  loft/bounce/grind combinations from 46 to 60 degrees across six grinds,
+  including the new wide-sole SX and the Tiger Woods grind sold as its own
+  model at 56 and 60 degrees. Finishes are Satin Chrome and, on a subset of
+  combinations, Charcoal.
+grinds:
+  - code: SB
+    name: SB Grind (Standard Bounce)
+    description: >
+      Four-way camber design that suits an array of swing styles and turf
+      conditions for all-around performance — the grind offered at every loft.
+  - code: SC
+    name: SC Grind
+    description: >
+      Built for greenside versatility, with heel and toe relief for
+      manipulating the face in a variety of turf conditions.
+  - code: SX
+    name: SX Grind
+    description: >
+      New for MG5 — a unique combination of sole width and mid-bounce
+      versatility, with a reverse-C trailing edge that keeps the bounce
+      consistent as you manipulate the face.
+  - code: LB
+    name: LB Grind (Low Bounce)
+    description: >
+      For players with shallow swing styles and tight, firm conditions.
+      Built for greenside versatility.
+  - code: HB
+    name: HB Grind (High Bounce)
+    description: >
+      High-bounce sole for steeper swings or soft conditions, with built-in
+      heel relief for versatility.
+  - code: TW
+    name: TW Grind (Tiger Woods)
+    description: >
+      Tiger Woods's dual-sole grind, updated with a new leading-edge blend
+      and increased effective bounce in the heel. A narrow leading edge with
+      heavy heel relief, sold as its own model at 56 and 60 degrees.
+specs:
+  - loft: 46.0
+    bounce: 9.0
+    grind: SB
+    lie: 64.0
+    length: 35.75
+  - loft: 48.0
+    bounce: 9.0
+    grind: SB
+    lie: 64.0
+    length: 35.75
+  - loft: 50.0
+    bounce: 9.0
+    grind: SB
+    lie: 64.0
+    length: 35.5
+  - loft: 52.0
+    bounce: 9.0
+    grind: SB
+    lie: 64.0
+    length: 35.5
+  - loft: 54.0
+    bounce: 10.0
+    grind: SC
+    lie: 64.0
+    length: 35.25
+  - loft: 54.0
+    bounce: 12.0
+    grind: SB
+    lie: 64.0
+    length: 35.25
+  - loft: 54.0
+    bounce: 13.0
+    grind: HB
+    lie: 64.0
+    length: 35.25
+  - loft: 56.0
+    bounce: 8.0
+    grind: LB
+    lie: 64.0
+    length: 35.25
+  - loft: 56.0
+    bounce: 10.0
+    grind: SC
+    lie: 64.0
+    length: 35.25
+  - loft: 56.0
+    bounce: 12.0
+    grind: SB
+    lie: 64.0
+    length: 35.25
+  - loft: 56.0
+    bounce: 12.0
+    grind: TW
+    lie: 64.0
+    length: 35.25
+  - loft: 56.0
+    bounce: 14.0
+    grind: HB
+    lie: 64.0
+    length: 35.25
+  - loft: 58.0
+    bounce: 8.0
+    grind: LB
+    lie: 64.0
+    length: 35.0
+  - loft: 58.0
+    bounce: 9.0
+    grind: SC
+    lie: 64.0
+    length: 35.0
+  - loft: 58.0
+    bounce: 10.0
+    grind: SB
+    lie: 64.0
+    length: 35.0
+  - loft: 58.0
+    bounce: 11.0
+    grind: SX
+    lie: 64.0
+    length: 35.0
+  - loft: 58.0
+    bounce: 12.0
+    grind: HB
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 8.0
+    grind: LB
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 9.0
+    grind: SC
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 10.0
+    grind: SB
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 11.0
+    grind: SX
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 11.0
+    grind: TW
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 12.0
+    grind: HB
+    lie: 64.0
+    length: 35.0
+stock_shafts:
+  - name: "True Temper Dynamic Gold Tour Issue"
+    material: steel
+    flex: ["Wedge"]
+  - name: "UST Recoil DART"
+    material: graphite
+    weight: "80g"
+    flex: ["Wedge"]
+related_models:
+  - slug: "titleist/vokey-sm11-wedges"
+    label: "Rival: Titleist Vokey SM11"
+sources:
+  - "TaylorMade MG5 wedge product page and spec tables, https://www.taylormadegolf.com/MG5-Wedge/DW-TC647.html, accessed October 2026"
+  - "TaylorMade MG5 Tiger Woods Grind product page (56.12 TW and 60.11 TW), https://www.taylormadegolf.com/MG5-Tiger-Woods-Grind-Wedge/DW-TC693.html, accessed October 2026"
+  - "Golf.com MG5 launch coverage (announced 7 August 2025, retail 4 September 2025, fully forged, shafts), https://golf.com/gear/wedges/taylormade-mg5-wedges-4-things-forged/"
+  - "Note: TaylorMade describes the head only as fully forged ultrasoft carbon steel; the 1025 grade is per launch media rather than TaylorMade's own page."
+faq:
+  - q: "What lofts does the TaylorMade MG5 come in?"
+    a: "The MG5 is sold from 46 to 60 degrees in 2-degree steps — 23 loft, bounce and grind combinations including the two Tiger Woods grind models."
+  - q: "What grinds does the TaylorMade MG5 offer?"
+    a: "Six: SB standard bounce (every loft 46-60), SC (54-60), the new wide-sole SX (58-60), LB low bounce (56-60), HB high bounce (54-60) and the Tiger Woods TW grind (56 and 60 degrees)."
+  - q: "Is the TaylorMade MG5 forged?"
+    a: "Yes — it is the first fully forged Milled Grind wedge, forged from ultrasoft carbon steel with precision-milled soles, saw-milled grooves and a raw face finish."
+  - q: "What is the TW grind on the MG5?"
+    a: "Tiger Woods's dual-sole design: a narrow leading edge with heavy heel relief and increased effective bounce in the heel, sold as its own model at 56 degrees (12 bounce) and 60 degrees (11 bounce)."
+confidence: high

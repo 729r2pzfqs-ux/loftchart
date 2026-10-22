@@ -28,6 +28,12 @@ DATA = os.path.join(ROOT, "data")
 CATEGORIES = {"blade", "players", "players-distance",
               "game-improvement", "super-game-improvement"}
 
+# Wedge models use their own enum (WEDGE_CATEGORY_LABEL in generate.py).
+WEDGE_CATEGORIES = {"tour", "game-improvement", "specialty"}
+
+WEDGE_LOFT_MIN, WEDGE_LOFT_MAX = 40.0, 66.0
+WEDGE_BOUNCE_MIN, WEDGE_BOUNCE_MAX = 0.0, 20.0
+
 # Required at the top level of every model file. club_type and slug are not in
 # the brief but are load-bearing in generate.py, so they are checked too.
 REQUIRED = ("model", "brand", "brand_slug", "club_type", "slug",
@@ -59,10 +65,16 @@ def check(path, rel, brand_dir, errors, warnings):
         err("not a YAML mapping")
         return
 
+    is_wedge = m.get("club_type") == "wedges"
+
     # (a) schema completeness
     for key in REQUIRED:
         if not m.get(key):
             err(f"missing required field {key!r}")
+    if (is_wedge and not m.get("grinds")
+            and any(isinstance(r, dict) and r.get("grind")
+                    for r in (m.get("specs") or []))):
+        err("spec rows carry grinds but the model declares no grinds catalogue")
 
     # (f) slug consistency — both the brand slug against its directory and the
     # model slug against its filename, since generate.py builds the URL from
@@ -73,9 +85,12 @@ def check(path, rel, brand_dir, errors, warnings):
     if m.get("slug") and m["slug"] != expected_slug:
         err(f"slug {m['slug']!r} != filename {expected_slug!r}")
 
-    # (d) category
+    # (d) category — wedges use their own enum
     cat = m.get("category")
-    if cat and cat not in CATEGORIES:
+    if is_wedge:
+        if cat and cat not in WEDGE_CATEGORIES:
+            err(f"wedge category {cat!r} not one of {sorted(WEDGE_CATEGORIES)}")
+    elif cat and cat not in CATEGORIES:
         err(f"category {cat!r} not one of {sorted(CATEGORIES)}")
 
     # (e) year
@@ -101,6 +116,44 @@ def check(path, rel, brand_dir, errors, warnings):
 
     specs = m.get("specs") or []
     if not specs:
+        return
+
+    if is_wedge:
+        # (b/c) wedge rows: a loft × bounce × grind matrix rather than a set.
+        grind_codes = {g.get("code") for g in (m.get("grinds") or [])}
+        combos = []
+        for i, row in enumerate(specs):
+            if not isinstance(row, dict):
+                err(f"specs[{i}] is not a mapping")
+                continue
+            loft, bounce = row.get("loft"), row.get("bounce")
+            if loft is None:
+                err(f"specs[{i}] missing loft")
+            elif not WEDGE_LOFT_MIN <= loft <= WEDGE_LOFT_MAX:
+                warn(f"loft {loft}° outside {WEDGE_LOFT_MIN}-{WEDGE_LOFT_MAX}°")
+            if bounce is None:
+                err(f"specs[{i}] ({loft}°) missing bounce")
+            elif not WEDGE_BOUNCE_MIN <= bounce <= WEDGE_BOUNCE_MAX:
+                warn(f"bounce {bounce}° at {loft}° outside "
+                     f"{WEDGE_BOUNCE_MIN}-{WEDGE_BOUNCE_MAX}°")
+            grind = row.get("grind")
+            if grind and grind not in grind_codes:
+                err(f"grind {grind!r} at {loft}° not in grinds list")
+            combos.append((loft, bounce, grind))
+        # No duplicate loft/bounce/grind combination.
+        for combo, n in sorted(Counter(combos).items(), key=lambda kv: str(kv[0])):
+            if n > 1:
+                err(f"duplicate combo {combo} appears {n} times")
+        # Every declared grind should be sold at at least one loft.
+        used = {g for _, _, g in combos if g}
+        for g in sorted(c for c in grind_codes if c):
+            if g not in used:
+                warn(f"grind {g!r} declared but used by no spec row")
+        # Lofts non-decreasing in file order (authored strongest to weakest).
+        lofts = [l for l, _, _ in combos if l is not None]
+        for prev, cur in zip(lofts, lofts[1:]):
+            if cur < prev:
+                err(f"loft not non-decreasing: {prev}° -> {cur}°")
         return
 
     # (b) per-club fields

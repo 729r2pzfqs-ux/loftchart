@@ -1,0 +1,177 @@
+brand: Cleveland
+brand_slug: cleveland
+model: RTZ
+slug: rtz-wedges
+club_type: wedges
+year_introduced: 2025
+year_discontinued: null
+category: tour
+construction: cast Z-Alloy proprietary steel with ZipCore low-density hosel core
+material: Z-Alloy steel (softer, less dense than 8620 carbon steel)
+predecessor: Cleveland RTX 6 ZipCore
+successor: Cleveland RTZ 2
+length_note: >
+  Cleveland re-measured published lengths to the USGA / R&A convention with
+  this generation, so the figures read about a quarter inch longer than
+  earlier Cleveland spec sheets; the clubs themselves did not change.
+description: >
+  The RTZ is the 2025 generation of Cleveland's tour wedge line and the first
+  under the new name — the RTX line ended with the RTX 6 ZipCore. Announced
+  on 8 January 2025 and at US retail from 17 January, it moved the head to
+  Cleveland's proprietary Z-Alloy steel (about ten percent softer-feeling
+  than 8620), kept the low-density ZipCore hosel core, and added HydraZip
+  face blasting with laser-milled lines tuned by loft for wet-condition spin
+  alongside sharper UltiZip grooves. The Tour Satin matrix charted here runs
+  20 loft/bounce/grind combinations from 46 to 64 degrees across four grinds,
+  each grind at a fixed bounce; the Black Satin finish covers a narrower
+  14-combination subset and the raw Tour Rack variant 16. The RTZ 2 succeeded
+  it in September 2026, with the RTZ remaining on sale at a reduced price.
+grinds:
+  - code: LOW
+    name: LOW Grind
+    description: >
+      6 degrees of bounce with heel, toe and trailing-edge relief and the
+      sharpest leading edge in the line. A lob-wedge grind for finesse shots,
+      firmer turf, smaller divots and shallower attack angles.
+  - code: MID
+    name: MID Grind
+    description: >
+      10 degrees of bounce on an all-around V-shaped sole that cuts smoothly
+      through turf. Suits all turf conditions, average divots and neutral
+      attack angles — the grind offered at every loft.
+  - code: FULL
+    name: FULL Grind
+    description: >
+      12 degrees of bounce on a classic high-bounce sole with the most
+      rounded leading edge. Stability on full shots, bunkers and thick rough;
+      for softer turf, bigger divots and steeper attack angles.
+  - code: ADAPT
+    name: ADAPT Grind
+    description: >
+      8 degrees of bounce, new for this generation, with full-face grooves, a
+      higher toe profile, a leading-edge bounce chamfer and heel, toe and
+      trailing-edge relief for open-face shots in all turf.
+specs:
+  - loft: 46.0
+    bounce: 10.0
+    grind: MID
+    lie: 64.0
+    length: 36.0
+  - loft: 48.0
+    bounce: 10.0
+    grind: MID
+    lie: 64.0
+    length: 36.0
+  - loft: 50.0
+    bounce: 10.0
+    grind: MID
+    lie: 64.0
+    length: 35.75
+  - loft: 52.0
+    bounce: 10.0
+    grind: MID
+    lie: 64.0
+    length: 35.75
+  - loft: 54.0
+    bounce: 8.0
+    grind: ADAPT
+    lie: 64.0
+    length: 35.5
+  - loft: 54.0
+    bounce: 10.0
+    grind: MID
+    lie: 64.0
+    length: 35.5
+  - loft: 54.0
+    bounce: 12.0
+    grind: FULL
+    lie: 64.0
+    length: 35.5
+  - loft: 56.0
+    bounce: 8.0
+    grind: ADAPT
+    lie: 64.0
+    length: 35.5
+  - loft: 56.0
+    bounce: 10.0
+    grind: MID
+    lie: 64.0
+    length: 35.5
+  - loft: 56.0
+    bounce: 12.0
+    grind: FULL
+    lie: 64.0
+    length: 35.5
+  - loft: 58.0
+    bounce: 6.0
+    grind: LOW
+    lie: 64.0
+    length: 35.25
+  - loft: 58.0
+    bounce: 8.0
+    grind: ADAPT
+    lie: 64.0
+    length: 35.25
+  - loft: 58.0
+    bounce: 10.0
+    grind: MID
+    lie: 64.0
+    length: 35.25
+  - loft: 58.0
+    bounce: 12.0
+    grind: FULL
+    lie: 64.0
+    length: 35.25
+  - loft: 60.0
+    bounce: 6.0
+    grind: LOW
+    lie: 64.0
+    length: 35.25
+  - loft: 60.0
+    bounce: 8.0
+    grind: ADAPT
+    lie: 64.0
+    length: 35.25
+  - loft: 60.0
+    bounce: 10.0
+    grind: MID
+    lie: 64.0
+    length: 35.25
+  - loft: 60.0
+    bounce: 12.0
+    grind: FULL
+    lie: 64.0
+    length: 35.25
+  - loft: 62.0
+    bounce: 6.0
+    grind: LOW
+    lie: 64.0
+    length: 35.25
+  - loft: 64.0
+    bounce: 8.0
+    grind: ADAPT
+    lie: 64.0
+    length: 35.25
+stock_shafts:
+  - name: "True Temper Dynamic Gold Spinner Tour Issue"
+    material: steel
+    weight: "128g"
+    flex: ["Wedge"]
+related_models:
+  - slug: "cleveland/rtz-2-wedges"
+    label: "Successor: Cleveland RTZ 2"
+sources:
+  - "Cleveland Golf RTZ Tour Satin product page and spec table, https://us.dunlopsports.com/cleveland-golf/clubs/wedges/rtz/rtz-tour-satin-wedge/MRTZTS.html, accessed October 2026"
+  - "Cleveland Golf RTZ Black Satin and Tour Rack product pages (variant matrices), us.dunlopsports.com, accessed October 2026"
+  - "Cleveland Golf RTZ press release (announced 8 January 2025, US retail 17 January 2025), via firstcallgolf.com"
+  - "Golfalot RTZ review (UK launch 15 February 2025), golfalot.com, accessed October 2026"
+faq:
+  - q: "What lofts does the Cleveland RTZ come in?"
+    a: "The RTZ Tour Satin runs from 46 to 64 degrees in 2-degree steps — 20 loft, bounce and grind combinations. The Black Satin finish covers a narrower 48-60 degree subset, and the raw Tour Rack 48-60."
+  - q: "What grinds does the Cleveland RTZ offer?"
+    a: "Four, each at a fixed bounce: LOW (6 degrees, 58-62), MID (10 degrees, every loft 46-60), FULL (12 degrees, 54-60) and the new full-face ADAPT (8 degrees, 54-64)."
+  - q: "Is the Cleveland RTZ still in production?"
+    a: "The RTZ 2 succeeded it in September 2026, but the RTZ remains in Cleveland's catalogue at a reduced price while stock lasts — it carried a 2026 Golf Digest Hot List Gold badge."
+  - q: "What is Z-Alloy in the Cleveland RTZ?"
+    a: "Cleveland's proprietary head steel, introduced with the RTZ. It is softer and less dense than the 8620 carbon steel used before, which Cleveland credits with about a ten percent softer feel than the RTX 6 ZipCore."
+confidence: high

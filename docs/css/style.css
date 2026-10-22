@@ -552,6 +552,38 @@ table.specs td.na { color: #A5A59B; }
 .faq details[open] summary { border-bottom: 1px solid var(--border); }
 .faq .faq-body { padding: .8rem 1rem; margin: 0; color: var(--text-muted); }
 
+/* ---------- wedge model pages ---------- */
+
+/* The wedge spec table groups rows by loft; a heavier rule opens each group so
+   the eye can find a degree without reading every row. */
+table.specs tr.loft-group th,
+table.specs tr.loft-group td { border-top: 2px solid var(--border); }
+
+/* Grind catalogue: definition list rendered as cards, the dt carrying the
+   grind name on the left and its loft availability on the right. */
+.grind-guide { margin: 0; }
+.grind-guide > div {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  padding: .8rem 1rem;
+  margin-bottom: .55rem;
+}
+.grind-guide dt {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  color: var(--green);
+}
+.grind-guide .grind-lofts {
+  color: var(--text-muted);
+  font-size: .85rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.grind-guide dd { margin: .35rem 0 0; color: var(--text-muted); }
+
 /* ---------- callouts ---------- */
 
 /* ---------- model page sections ---------- */

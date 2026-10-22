@@ -1,0 +1,203 @@
+brand: Cleveland
+brand_slug: cleveland
+model: RTZ 2
+slug: rtz-2-wedges
+club_type: wedges
+year_introduced: 2026
+year_discontinued: null
+current_as_of: "2026-10"
+category: tour
+construction: cast second-generation Z-Alloy steel with ZipCore iQ per-model hosel cores
+material: Z-Alloy steel (second generation)
+predecessor: Cleveland RTZ
+successor: null
+length_note: >
+  Lengths follow the USGA / R&A measuring convention Cleveland adopted with
+  the RTZ generation, so they read about a quarter inch longer than pre-2025
+  Cleveland spec sheets; the builds are unchanged.
+description: >
+  The RTZ 2 is the 2026 generation of Cleveland's tour wedge line, announced
+  with presale on 4 August 2026 and at retail from 4 September. It keeps the
+  second-generation Z-Alloy head and adds ZipCore iQ, which tunes the
+  lightweight hosel core individually for every loft and grind combination,
+  alongside loft-specific HydraZip face blasting and UltiZip grooves. The
+  Tour Satin matrix charted here runs 24 loft/bounce/grind combinations from
+  46 to 64 degrees across five grinds — the four carried over from the RTZ
+  plus the reintroduced Roger Cleveland 588 grind at 54 to 60 degrees. The
+  Black Satin finish covers a 17-combination subset and the raw Tour Rack
+  variant 20, with optional Tour Crafted grind customisation.
+grinds:
+  - code: LOW
+    name: LOW Grind
+    description: >
+      6 degrees of bounce with heel, toe and trailing-edge relief and the
+      sharpest leading edge in the line. A lob-wedge grind for finesse shots,
+      firmer turf and shallower attack angles.
+  - code: MID
+    name: MID Grind
+    description: >
+      10 degrees of bounce on an all-around V-shaped sole that cuts smoothly
+      through turf. Suits all conditions, average divots and neutral attack
+      angles — the grind offered at every loft.
+  - code: FULL
+    name: FULL Grind
+    description: >
+      12 degrees of bounce on a classic high-bounce sole with the most
+      rounded leading edge, for stability on full shots, bunkers and thick
+      rough in softer conditions.
+  - code: "588"
+    name: 588 Grind
+    description: >
+      8 degrees of bounce on the reintroduced Roger Cleveland classic 588
+      sole — more bounce toward the toe and less in the heel. Suits moderate
+      to shallow swings.
+  - code: ADAPT
+    name: ADAPT Grind
+    description: >
+      8 degrees of bounce with full-face grooves (ADAPT Full-Face Precision),
+      a higher toe profile, a leading-edge bounce chamfer and heel, toe and
+      trailing-edge relief for open-face shots in all turf.
+specs:
+  - loft: 46.0
+    bounce: 10.0
+    grind: MID
+    lie: 64.0
+    length: 36.0
+  - loft: 48.0
+    bounce: 10.0
+    grind: MID
+    lie: 64.0
+    length: 36.0
+  - loft: 50.0
+    bounce: 10.0
+    grind: MID
+    lie: 64.0
+    length: 35.75
+  - loft: 52.0
+    bounce: 10.0
+    grind: MID
+    lie: 64.0
+    length: 35.75
+  - loft: 54.0
+    bounce: 8.0
+    grind: "588"
+    lie: 64.0
+    length: 35.5
+  - loft: 54.0
+    bounce: 8.0
+    grind: ADAPT
+    lie: 64.0
+    length: 35.5
+  - loft: 54.0
+    bounce: 10.0
+    grind: MID
+    lie: 64.0
+    length: 35.5
+  - loft: 54.0
+    bounce: 12.0
+    grind: FULL
+    lie: 64.0
+    length: 35.5
+  - loft: 56.0
+    bounce: 8.0
+    grind: "588"
+    lie: 64.0
+    length: 35.5
+  - loft: 56.0
+    bounce: 8.0
+    grind: ADAPT
+    lie: 64.0
+    length: 35.5
+  - loft: 56.0
+    bounce: 10.0
+    grind: MID
+    lie: 64.0
+    length: 35.5
+  - loft: 56.0
+    bounce: 12.0
+    grind: FULL
+    lie: 64.0
+    length: 35.5
+  - loft: 58.0
+    bounce: 6.0
+    grind: LOW
+    lie: 64.0
+    length: 35.25
+  - loft: 58.0
+    bounce: 8.0
+    grind: "588"
+    lie: 64.0
+    length: 35.25
+  - loft: 58.0
+    bounce: 8.0
+    grind: ADAPT
+    lie: 64.0
+    length: 35.25
+  - loft: 58.0
+    bounce: 10.0
+    grind: MID
+    lie: 64.0
+    length: 35.25
+  - loft: 58.0
+    bounce: 12.0
+    grind: FULL
+    lie: 64.0
+    length: 35.25
+  - loft: 60.0
+    bounce: 6.0
+    grind: LOW
+    lie: 64.0
+    length: 35.25
+  - loft: 60.0
+    bounce: 8.0
+    grind: "588"
+    lie: 64.0
+    length: 35.25
+  - loft: 60.0
+    bounce: 8.0
+    grind: ADAPT
+    lie: 64.0
+    length: 35.25
+  - loft: 60.0
+    bounce: 10.0
+    grind: MID
+    lie: 64.0
+    length: 35.25
+  - loft: 60.0
+    bounce: 12.0
+    grind: FULL
+    lie: 64.0
+    length: 35.25
+  - loft: 62.0
+    bounce: 6.0
+    grind: LOW
+    lie: 64.0
+    length: 35.25
+  - loft: 64.0
+    bounce: 8.0
+    grind: ADAPT
+    lie: 64.0
+    length: 35.25
+stock_shafts:
+  - name: "True Temper Dynamic Gold Spinner Tour Issue"
+    material: steel
+    weight: "128g"
+    flex: ["Wedge"]
+related_models:
+  - slug: "cleveland/rtz-wedges"
+    label: "Predecessor: Cleveland RTZ"
+sources:
+  - "Cleveland Golf RTZ 2 Tour Satin product page and spec table, https://us.dunlopsports.com/cleveland-golf/clubs/wedges/rtz-2/rtz-2-tour-satin-wedge/MRTZ2TS.html, accessed October 2026"
+  - "Cleveland Golf RTZ 2 Black Satin and Tour Rack product pages (variant matrices), us.dunlopsports.com, accessed October 2026"
+  - "Cleveland Golf RTZ 2 press release (announced and presale 4 August 2026, retail 4 September 2026), news.dunlopsports.com"
+  - "Golfalot RTZ 2 review (five grinds including the reintroduced 588), golfalot.com, accessed October 2026"
+faq:
+  - q: "What lofts does the Cleveland RTZ 2 come in?"
+    a: "The RTZ 2 Tour Satin runs from 46 to 64 degrees in 2-degree steps — 24 loft, bounce and grind combinations. The Black Satin finish covers a 50-60 degree subset and the raw Tour Rack 48-60."
+  - q: "What grinds does the Cleveland RTZ 2 offer?"
+    a: "Five, each at a fixed bounce: LOW (6 degrees, 58-62), MID (10 degrees, every loft 46-60), FULL (12 degrees, 54-60), the reintroduced 588 (8 degrees, 54-60) and the full-face ADAPT (8 degrees, 54-64)."
+  - q: "What changed from the Cleveland RTZ to the RTZ 2?"
+    a: "The 588 grind returned, taking the matrix from 20 to 24 combinations, and the ZipCore hosel core became ZipCore iQ — tuned individually for each loft and grind rather than shared across the line. Z-Alloy, HydraZip and UltiZip carry over in second-generation form."
+  - q: "What is the 588 grind on the RTZ 2?"
+    a: "A reintroduction of Roger Cleveland's classic 588 sole at 8 degrees of bounce, with more bounce toward the toe and less in the heel. It is offered at 54, 56, 58 and 60 degrees and suits moderate to shallow swings."
+confidence: high

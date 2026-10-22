@@ -1,0 +1,230 @@
+brand: Titleist
+brand_slug: titleist
+model: Vokey SM11
+slug: vokey-sm11-wedges
+club_type: wedges
+year_introduced: 2026
+year_discontinued: null
+current_as_of: "2026-10"
+category: tour
+construction: cast carbon steel (8620 per Vokey's statements for the line)
+material: 8620 carbon steel
+predecessor: Titleist Vokey SM10
+successor: null
+description: >
+  The SM11 is the 2026 generation of the Vokey Design wedge line, announced on
+  19 January 2026 and at retail worldwide from 20 February 2026. The matrix
+  runs 27 loft/bounce/grind combinations across 44 to 60 degrees and six
+  grinds (F, S, M, D, K, T), with the low-bounce 06K lob option in the line
+  from launch and a new 44.10F pitching-wedge loft. Against the SM10 the
+  high-bounce K lob models drop from 14 to 12 degrees of bounce, centre of
+  gravity is matched across grinds within each loft, and the faces get three
+  shot-specific groove shapes with around five percent more groove volume and
+  a new directional face texture. Finishes are Tour Chrome, Nickel and a new
+  Jet Black, with Raw available through custom order.
+grinds:
+  - code: F
+    name: F Grind
+    description: >
+      Traditional full sole for full swings and square-face shots — the
+      forgiving, confidence-first grind, and the only option at the strong
+      lofts from 44 to 52 degrees.
+  - code: S
+    name: S Grind
+    description: >
+      Full sole narrowed by a trailing-edge grind so it moves faster through
+      the turf. For players who control loft with their hands ahead of or
+      behind the ball, in neutral to firm conditions.
+  - code: M
+    name: M Grind
+    description: >
+      Bob Vokey's favourite — heel, toe and trailing-edge relief for players
+      who rotate the face open and closed to manufacture greenside shots.
+  - code: D
+    name: D Grind
+    description: >
+      The player's high-bounce wedge. A forward bounce angle protects steeper
+      swings in softer and grainier conditions, and opening the face lowers
+      the leading edge.
+  - code: K
+    name: K Grind
+    description: >
+      Wide full sole with enhanced camber, shaped for forgiveness. The 12K is
+      the bunker club that resists digging in soft sand and turf; the
+      low-bounce 06K brings the same shape to tighter, firmer lies.
+  - code: T
+    name: T Grind
+    description: >
+      Low bounce with maximum heel, toe and trailing-edge relief so the club
+      hugs the ground. For sharper shotmaking in firm conditions.
+specs:
+  - loft: 44.0
+    bounce: 10.0
+    grind: F
+    lie: 64.0
+    length: 35.75
+  - loft: 46.0
+    bounce: 10.0
+    grind: F
+    lie: 64.0
+    length: 35.75
+  - loft: 48.0
+    bounce: 10.0
+    grind: F
+    lie: 64.0
+    length: 35.75
+  - loft: 50.0
+    bounce: 8.0
+    grind: F
+    lie: 64.0
+    length: 35.5
+  - loft: 50.0
+    bounce: 12.0
+    grind: F
+    lie: 64.0
+    length: 35.5
+  - loft: 52.0
+    bounce: 8.0
+    grind: F
+    lie: 64.0
+    length: 35.5
+  - loft: 52.0
+    bounce: 12.0
+    grind: F
+    lie: 64.0
+    length: 35.5
+  - loft: 54.0
+    bounce: 8.0
+    grind: M
+    lie: 64.0
+    length: 35.25
+  - loft: 54.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.25
+  - loft: 54.0
+    bounce: 12.0
+    grind: D
+    lie: 64.0
+    length: 35.25
+  - loft: 54.0
+    bounce: 14.0
+    grind: F
+    lie: 64.0
+    length: 35.25
+  - loft: 56.0
+    bounce: 8.0
+    grind: M
+    lie: 64.0
+    length: 35.25
+  - loft: 56.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.25
+  - loft: 56.0
+    bounce: 12.0
+    grind: D
+    lie: 64.0
+    length: 35.25
+  - loft: 56.0
+    bounce: 14.0
+    grind: F
+    lie: 64.0
+    length: 35.25
+  - loft: 58.0
+    bounce: 4.0
+    grind: T
+    lie: 64.0
+    length: 35.0
+  - loft: 58.0
+    bounce: 6.0
+    grind: K
+    lie: 64.0
+    length: 35.0
+  - loft: 58.0
+    bounce: 8.0
+    grind: M
+    lie: 64.0
+    length: 35.0
+  - loft: 58.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.0
+  - loft: 58.0
+    bounce: 12.0
+    grind: D
+    lie: 64.0
+    length: 35.0
+  - loft: 58.0
+    bounce: 12.0
+    grind: K
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 4.0
+    grind: T
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 6.0
+    grind: K
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 8.0
+    grind: M
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 12.0
+    grind: D
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 12.0
+    grind: K
+    lie: 64.0
+    length: 35.0
+stock_shafts:
+  - name: "True Temper Dynamic Gold S200"
+    material: steel
+    weight: "128g"
+    flex: ["S"]
+  - name: "True Temper Dynamic Gold 105"
+    material: steel
+    weight: "101g"
+    flex: ["Wedge"]
+  - name: "Mitsubishi MMT Red"
+    material: graphite
+    flex: ["R", "L"]
+related_models:
+  - slug: "titleist/vokey-sm10-wedges"
+    label: "Predecessor: Vokey SM10"
+  - slug: "cleveland/rtz-2-wedges"
+    label: "Rival: Cleveland RTZ 2"
+  - slug: "taylormade/mg5-wedges"
+    label: "Rival: TaylorMade MG5"
+sources:
+  - "Vokey.com SM11 spec tables and grind descriptions, https://www.vokey.com/nav/sm11.aspx, accessed October 2026"
+  - "Titleist.com SM11 wedge page (matrix, 64-degree standard lie, shaft and grip tables), https://www.titleist.com/golf-clubs/wedges/sm11, accessed October 2026"
+  - "Titleist Tour Blog SM11 announcement (19 January 2026 — dates, pricing, changes from SM10), https://www.titleist.com/teamtitleist/b/tourblog/posts/titleist-introduces-new-vokey-design-sm11-wedges"
+  - "GolfWRX SM11 launch report (independent cross-check of the full matrix), https://golfwrx.com/771937/golfwrx-launch-report-vokey-sm11-wedges/"
+  - "Note: Titleist does not state the head alloy on current spec pages; cast 8620 carbon steel is per Bob Vokey's published statements for the line."
+faq:
+  - q: "What lofts does the Titleist Vokey SM11 come in?"
+    a: "The Vokey SM11 is sold from 44 to 60 degrees in 2-degree steps — 27 loft, bounce and grind combinations in all. The 44-degree pitching wedge loft is new for SM11."
+  - q: "What grinds does the Vokey SM11 offer?"
+    a: "Six grinds: F (full sole, 44-56 degrees), S (narrowed full sole, 54-60), M (heel and toe relief, 54-60), D (player's high bounce, 54-60), K (wide high-bounce sole at 12 degrees plus the low-bounce 06K, 58-60) and T (low bounce, 58-60)."
+  - q: "What bounce options does the SM11 have at 58 and 60 degrees?"
+    a: "Six at each loft: 4 degrees (T grind), 6 degrees (K grind), 8 degrees (M), 10 degrees (S) and 12 degrees in both the D and K grinds."
+  - q: "What changed from the Vokey SM10 to the SM11?"
+    a: "The low-bounce 06K lob grind joined the standard line, a 44-degree F grind was added, the high-bounce K models moved from 14 to 12 degrees of bounce, centre of gravity was matched across grinds at each loft, and the grooves were recut in three shot-specific shapes with more volume."
+confidence: high

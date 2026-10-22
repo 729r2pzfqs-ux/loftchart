@@ -1,0 +1,107 @@
+brand: Mizuno
+brand_slug: mizuno
+model: Pro T-3
+slug: pro-t-3-wedges
+club_type: wedges
+year_introduced: 2025
+year_discontinued: null
+current_as_of: "2026-10"
+category: tour
+construction: one-piece Grain Flow Forged HD with shallow cavity back, Hiroshima, Japan
+material: 1025E Pure Select mild carbon steel with copper underlay
+predecessor: Mizuno S23
+successor: null
+description: >
+  The Pro T-3 is the cavity-back half of Mizuno's 2025 wedge pair, the
+  successor to the S23, launched alongside the Pro T-1 in February 2025. It
+  shares the T-1's Grain Flow Forged HD 1025E construction, copper underlay
+  and loft-specific Quad Cut+ grooves, but adds a shallow cavity back and a
+  slightly longer blade for stability and forgiveness on off-centre strikes.
+  The matrix runs 11 loft/bounce/grind combinations from 46 to 60 degrees
+  across three grinds. Finishes are Soft White Satin and Black Ion. Club
+  lengths are omitted here because US and UK retailer charts disagree on the
+  measuring basis.
+grinds:
+  - code: S
+    name: S-Type Grind
+    description: >
+      High bounce with limited relief — heel relief and a bevelled trailing
+      edge — for full shots. The grind at the strong lofts from 46 to 54
+      degrees.
+  - code: M
+    name: M-Type Grind
+    description: >
+      Mid bounce with moderate heel and toe relief for gentle face
+      manipulation, replacing the old D grind.
+  - code: C
+    name: C-Type Grind
+    description: >
+      Generous heel, toe and trailing-edge relief for a wide range of
+      players and conditions — the T-3's highest-loft grind.
+specs:
+  - loft: 46.0
+    bounce: 8.0
+    grind: S
+    lie: 63.0
+  - loft: 48.0
+    bounce: 10.0
+    grind: S
+    lie: 63.0
+  - loft: 50.0
+    bounce: 8.0
+    grind: S
+    lie: 63.0
+  - loft: 52.0
+    bounce: 10.0
+    grind: S
+    lie: 63.0
+  - loft: 54.0
+    bounce: 8.0
+    grind: M
+    lie: 63.0
+  - loft: 54.0
+    bounce: 12.0
+    grind: S
+    lie: 63.0
+  - loft: 56.0
+    bounce: 6.0
+    grind: C
+    lie: 63.0
+  - loft: 56.0
+    bounce: 10.0
+    grind: M
+    lie: 63.0
+  - loft: 58.0
+    bounce: 8.0
+    grind: C
+    lie: 63.0
+  - loft: 58.0
+    bounce: 12.0
+    grind: M
+    lie: 63.0
+  - loft: 60.0
+    bounce: 10.0
+    grind: C
+    lie: 63.0
+stock_shafts:
+  - name: "KBS Hi-Rev 2.0 115"
+    material: steel
+    weight: "115g"
+    flex: ["Wedge"]
+related_models:
+  - slug: "mizuno/pro-t-1-wedges"
+    label: "Blade sibling: Mizuno Pro T-1"
+sources:
+  - "Mizuno USA Pro T-3 wedge page (46-60 degree range, S/M/C grind descriptions, 1025E Pure Select, KBS Hi-Rev 2.0 115 stock shaft), https://usa.mizuno.com/golf-mizuno-pro-t3-white-satin-wedge-right-hand/, accessed October 2026"
+  - "Mizuno EMEA Pro T-3 page (confirms a six-combination European subset of the matrix), emea.mizuno.com, accessed October 2026"
+  - "2nd Swing retailer spec chart (the full 11-row matrix and 63-degree lie, matched by Golfio and Plugged In Golf's grind-by-loft mapping), accessed October 2026"
+  - "Golfalot Pro T-3 review (launch early 2025, successor to the S23, cavity-back difference from the T-1), golfalot.com"
+  - "Note: the full matrix is from retailer charts in agreement rather than a Mizuno-hosted table; club lengths are omitted because US and UK charts disagree on the measuring basis."
+faq:
+  - q: "What lofts does the Mizuno Pro T-3 come in?"
+    a: "The Pro T-3 is sold from 46 to 60 degrees — 11 loft, bounce and grind combinations across the S, M and C grinds."
+  - q: "What is the difference between the Mizuno Pro T-1 and Pro T-3?"
+    a: "Both are Grain Flow Forged HD from 1025E steel, but the T-3 adds a shallow cavity back and a slightly longer blade for forgiveness, and trims the grind matrix to three grinds against the T-1's six."
+  - q: "What grinds does the Mizuno Pro T-3 offer?"
+    a: "Three: S-Type at the strong lofts (46-54 degrees), M-Type mid bounce (54-58) and C-Type with generous relief (56-60)."
+confidence: medium

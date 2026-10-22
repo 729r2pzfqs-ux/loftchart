@@ -1,0 +1,144 @@
+brand: Mizuno
+brand_slug: mizuno
+model: Pro T-1
+slug: pro-t-1-wedges
+club_type: wedges
+year_introduced: 2025
+year_discontinued: null
+current_as_of: "2026-10"
+category: tour
+construction: one-piece Grain Flow Forged HD, Hiroshima, Japan
+material: 1025E Pure Select mild carbon steel with copper underlay
+predecessor: Mizuno T24
+successor: null
+description: >
+  The Pro T-1 is Mizuno's 2025 tour wedge, the teardrop-blade successor to
+  the T24, launched in February 2025. It is Grain Flow Forged HD in
+  Hiroshima from 1025E Pure Select mild carbon steel with a copper underlay
+  beneath the finish, and carries loft-specific Quad Cut+ grooves with
+  Hydroflow micro grooves for wet-condition spin. The matrix runs 16
+  loft/bounce/grind combinations from 46 to 60 degrees across six grinds,
+  with the new M-Type replacing the old D grind. It won Today's Golfer's
+  Best Wedge award in 2026 testing. Finishes are Soft White Satin, Black Ion
+  and Blue Ion. Club lengths are omitted here because US and UK retailer
+  charts disagree on the measuring basis.
+grinds:
+  - code: S
+    name: S-Type Grind
+    description: >
+      High bounce with limited relief — heel relief and a bevelled trailing
+      edge — for full shots. The full-swing grind at the strong lofts from
+      46 to 54 degrees.
+  - code: M
+    name: M-Type Grind
+    description: >
+      Mid bounce with moderate heel and toe relief for gentle face
+      manipulation. New for this generation, replacing the T24's D grind.
+  - code: P
+    name: P-Type Grind
+    description: >
+      Plus-bounce — enhanced relief with extra effective bounce, mimicking
+      the old D grind profile with more protection from the turf.
+  - code: C
+    name: C-Type Grind
+    description: >
+      Mid-to-high bounce with generous heel, toe and trailing-edge relief,
+      for a wide range of players and conditions.
+  - code: V
+    name: V-Type Grind
+    description: >
+      High bounce on a V-shaped sole with aggressive trailing-edge relief,
+      for versatility on both square-face and open-face shots.
+  - code: X
+    name: X-Type Grind
+    description: >
+      The lowest bounce in the range with the most aggressive heel, toe and
+      trailing-edge relief, for advanced players — offered only as the
+      60-degree, 6-bounce model.
+specs:
+  - loft: 46.0
+    bounce: 8.0
+    grind: S
+    lie: 63.0
+  - loft: 48.0
+    bounce: 10.0
+    grind: S
+    lie: 63.0
+  - loft: 50.0
+    bounce: 8.0
+    grind: S
+    lie: 63.0
+  - loft: 52.0
+    bounce: 10.0
+    grind: S
+    lie: 63.0
+  - loft: 54.0
+    bounce: 8.0
+    grind: M
+    lie: 63.0
+  - loft: 54.0
+    bounce: 10.0
+    grind: P
+    lie: 63.0
+  - loft: 54.0
+    bounce: 12.0
+    grind: S
+    lie: 63.0
+  - loft: 56.0
+    bounce: 8.0
+    grind: V
+    lie: 63.0
+  - loft: 56.0
+    bounce: 10.0
+    grind: M
+    lie: 63.0
+  - loft: 56.0
+    bounce: 12.0
+    grind: P
+    lie: 63.0
+  - loft: 58.0
+    bounce: 8.0
+    grind: C
+    lie: 63.0
+  - loft: 58.0
+    bounce: 10.0
+    grind: V
+    lie: 63.0
+  - loft: 58.0
+    bounce: 12.0
+    grind: M
+    lie: 63.0
+  - loft: 60.0
+    bounce: 6.0
+    grind: X
+    lie: 63.0
+  - loft: 60.0
+    bounce: 10.0
+    grind: C
+    lie: 63.0
+  - loft: 60.0
+    bounce: 12.0
+    grind: V
+    lie: 63.0
+stock_shafts:
+  - name: "True Temper Dynamic Gold Tour Issue S400"
+    material: steel
+    flex: ["S"]
+related_models:
+  - slug: "mizuno/pro-t-3-wedges"
+    label: "Cavity-back sibling: Mizuno Pro T-3"
+sources:
+  - "Mizuno USA Pro T-1 wedge page (46-60 degree range, all six grind descriptions, Grain Flow Forged HD 1025E construction, stock shaft), https://usa.mizuno.com/golf-mizuno-pro-t1-white-satin-wedge-left-hand/, accessed October 2026"
+  - "2nd Swing and ClickGolf UK retailer spec charts (the full 16-row matrix and 63-degree lie, in exact agreement), accessed October 2026"
+  - "Golfalot Pro T-1 review (launch January-February 2025, finishes, grind lineage from the T24), golfalot.com"
+  - "Note: the full matrix is from three retailer charts in exact agreement rather than a Mizuno-hosted table; club lengths are omitted because the US and UK charts disagree on the measuring basis."
+faq:
+  - q: "What lofts does the Mizuno Pro T-1 come in?"
+    a: "The Pro T-1 is sold from 46 to 60 degrees in 2-degree steps — 16 loft, bounce and grind combinations."
+  - q: "What grinds does the Mizuno Pro T-1 offer?"
+    a: "Six: S-Type (46-54 degrees), M-Type (54-58), P-Type plus-bounce (54-56), C-Type (58-60), V-Type (56-60) and the low-bounce X-Type (60 degrees only)."
+  - q: "Is the Mizuno Pro T-1 forged?"
+    a: "Yes — one-piece Grain Flow Forged HD in Hiroshima, Japan, from 1025E Pure Select mild carbon steel with a copper underlay beneath the finish."
+  - q: "What replaced the D grind on Mizuno wedges?"
+    a: "The M-Type grind, new with the Pro T-1, covers the old D grind's role with mid bounce and moderate heel and toe relief, while the P-Type carries the plus-bounce version of that profile."
+confidence: medium

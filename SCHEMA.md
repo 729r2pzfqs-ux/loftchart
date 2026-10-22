@@ -77,3 +77,34 @@ confidence: high                 # high | medium | low — how well-verified the
 - Every model needs at least loft + lie + length for each club.
 - Cover the real stock set composition for that model (e.g. 3-PW, 4-PW, 4-GW, plus U/SW/LW
   if they were part of the stock set).
+
+## Wedge models (`club_type: wedges`)
+
+A standalone wedge model is a **loft × bounce × grind option matrix**, not a set, at
+`data/<brand-slug>/<model-slug>-wedges.yaml`. Differences from irons:
+
+```yaml
+club_type: wedges                # triggers the wedge code paths in generate.py
+category: tour                   # tour | game-improvement | specialty
+grinds:                          # REQUIRED — the model's grind catalogue
+  - code: F                      # matches the `grind` values in specs
+    name: F Grind
+    description: >
+      Full sole for full swings and square-face shots. (Use the maker's own
+      description, condensed.)
+specs:                           # one row PER COMBINATION SOLD, strongest loft first
+  - loft: 46.0                   # REQUIRED, degrees
+    bounce: 10.0                 # REQUIRED, degrees (effective bounce as published)
+    grind: F                     # cross-referenced against `grinds`; omit only if
+                                 # the model has no named grinds
+    lie: 64.0                    # OPTIONAL — include when the maker publishes it
+    length: 35.75                # OPTIONAL, inches
+```
+
+- `club` is not used — a wedge is identified by its degree.
+- `lie`/`length` are optional per row because OEMs publish them per loft, when at all.
+- Record the **base/widest finish variant's** matrix (e.g. Cleveland Tour Satin); note
+  narrower finish variants in `description` rather than multiplying rows.
+- Author rows grouped by loft, ascending; within a loft order by bounce then grind.
+- Everything else (sources, faq, confidence, predecessor/successor, current_as_of,
+  stock_shafts, related_models) works exactly as for irons.

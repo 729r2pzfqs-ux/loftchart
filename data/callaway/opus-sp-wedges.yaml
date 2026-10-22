@@ -1,0 +1,178 @@
+brand: Callaway
+brand_slug: callaway
+model: Opus SP
+slug: opus-sp-wedges
+club_type: wedges
+year_introduced: 2025
+year_discontinued: null
+current_as_of: "2026-10"
+category: tour
+construction: two-piece Spin Pocket head — cast 8620 carbon steel body with forged 1025 carbon steel face plate
+material: 8620 carbon steel body, forged 1025 carbon steel face
+predecessor: Callaway Opus
+successor: null
+description: >
+  The Opus SP is the 2025 generation of Callaway's Opus wedge line, announced
+  in early August 2025 with US retail from 12 September. The SP stands for
+  Spin Pocket — a hollow cavity under the lower face, carried in the 54 to 60
+  degree heads, that raises the centre of gravity for a lower, spinnier
+  flight — paired with a forged 1025 face plate on a cast 8620 body and the
+  Spin Gen 2.0 face with 17-degree groove angle and tighter pitch. The
+  matrix runs 24 loft/bounce/grind combinations from 48 to 64 degrees across
+  five grinds, including the X grind returned from the Jaws Raw era. The
+  Opus SP+ joined the line in 2026 as a high-loft extension rather than a
+  replacement. Club lengths are omitted here because published retailer
+  charts disagree on the measuring basis.
+grinds:
+  - code: T
+    name: T Grind
+    description: >
+      Tour-inspired for precise shotmaking — the lowest bounce in the line at
+      5 to 6 degrees, for skilled players, firm turf and shallow attack
+      angles. The only grind at 62 and 64 degrees.
+  - code: C
+    name: C Grind
+    description: >
+      Low-to-mid bounce at 8 degrees with heel and toe relief for maximum
+      short-game versatility and shotmaking.
+  - code: S
+    name: S Grind
+    description: >
+      The standard mid-bounce full-swing grind at 10 degrees, offered at
+      every loft from 48 to 60 — for square-face players and a wide variety
+      of swings.
+  - code: W
+    name: W Grind
+    description: >
+      Ultra-wide sole with the highest bounce in the line at 12 to 14
+      degrees — maximum forgiveness for steep swings and soft conditions.
+  - code: X
+    name: X Grind
+    description: >
+      A very narrow sole with extreme heel, toe and trailing-edge relief at
+      12 degrees of bounce — versatility with bounce for steeper swingers in
+      soft conditions, returned from the 2022 Jaws Raw.
+specs:
+  - loft: 48.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+  - loft: 50.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+  - loft: 50.0
+    bounce: 12.0
+    grind: W
+    lie: 64.0
+  - loft: 52.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+  - loft: 52.0
+    bounce: 12.0
+    grind: W
+    lie: 64.0
+  - loft: 54.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+  - loft: 54.0
+    bounce: 12.0
+    grind: W
+    lie: 64.0
+  - loft: 54.0
+    bounce: 12.0
+    grind: X
+    lie: 64.0
+  - loft: 56.0
+    bounce: 8.0
+    grind: C
+    lie: 64.0
+  - loft: 56.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+  - loft: 56.0
+    bounce: 12.0
+    grind: W
+    lie: 64.0
+  - loft: 56.0
+    bounce: 12.0
+    grind: X
+    lie: 64.0
+  - loft: 58.0
+    bounce: 6.0
+    grind: T
+    lie: 64.0
+  - loft: 58.0
+    bounce: 8.0
+    grind: C
+    lie: 64.0
+  - loft: 58.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+  - loft: 58.0
+    bounce: 12.0
+    grind: X
+    lie: 64.0
+  - loft: 58.0
+    bounce: 14.0
+    grind: W
+    lie: 64.0
+  - loft: 60.0
+    bounce: 6.0
+    grind: T
+    lie: 64.0
+  - loft: 60.0
+    bounce: 8.0
+    grind: C
+    lie: 64.0
+  - loft: 60.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+  - loft: 60.0
+    bounce: 12.0
+    grind: X
+    lie: 64.0
+  - loft: 60.0
+    bounce: 14.0
+    grind: W
+    lie: 64.0
+  - loft: 62.0
+    bounce: 5.0
+    grind: T
+    lie: 64.0
+  - loft: 64.0
+    bounce: 5.0
+    grind: T
+    lie: 64.0
+stock_shafts:
+  - name: "True Temper Dynamic Gold S200"
+    material: steel
+    weight: "120g"
+    flex: ["S"]
+  - name: "UST Recoil Dart HDC"
+    material: graphite
+    flex: ["Wedge"]
+related_models:
+  - slug: "callaway/opus-sp-plus-wedges"
+    label: "Line extension: Opus SP+"
+sources:
+  - "Golf.com Opus SP launch coverage (announced 4 August 2025, retail 12 September 2025; 24 combinations, 48-64 degrees, five grinds, shafts), https://golf.com/gear/wedges/callaway-opus-sp-wedges-4-things/"
+  - "Golf Business News Opus SP launch release (dates, two-piece construction, X grind lineage), golfbusinessnews.com, accessed October 2026"
+  - "TGW and Golfio retailer spec charts (full matrix, 64-degree lie; the two agree row for row and match Callaway's announced 24-combination count), accessed October 2026"
+  - "Plugged In Golf Opus SP review (cast 8620 body with forged 1025 face, Spin Pocket in 54-60 degree heads), pluggedingolf.com"
+  - "Note: callawaygolf.com product pages redirect to promotional pages, so the matrix is reconstructed from two independent retailer charts in exact agreement rather than a manufacturer table."
+faq:
+  - q: "What lofts does the Callaway Opus SP come in?"
+    a: "The Opus SP is sold from 48 to 64 degrees — 24 loft, bounce and grind combinations, with the 62 and 64 degree heads offered only in the low-bounce T grind."
+  - q: "What grinds does the Callaway Opus SP offer?"
+    a: "Five: T (5-6 degrees of bounce, 58-64), C (8 degrees, 56-60), S (10 degrees, every loft 48-60), X (12 degrees, 54-60) and W (12-14 degrees, 50-60)."
+  - q: "What does SP stand for in Callaway Opus SP?"
+    a: "Spin Pocket — a hollow cavity under the lower face of the 54 to 60 degree heads that raises the centre of gravity for a lower, more spinning flight."
+  - q: "Did the Opus SP+ replace the Opus SP?"
+    a: "No. Callaway positions the 2026 Opus SP+ as an extension of the line — a tungsten-weighted specialist at 54 to 60 degrees — and the Opus SP remains in the current catalogue alongside it."
+confidence: medium

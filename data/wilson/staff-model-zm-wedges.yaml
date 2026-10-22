@@ -1,0 +1,81 @@
+brand: Wilson
+brand_slug: wilson
+model: Staff Model ZM
+slug: staff-model-zm-wedges
+club_type: wedges
+year_introduced: 2024
+year_discontinued: null
+current_as_of: "2026-10"
+category: tour
+construction: forged soft 8620 carbon steel, precision-milled garnet-blasted face
+material: 8620 carbon steel
+predecessor: Wilson Staff Model
+successor: null
+description: >
+  The Staff Model ZM is Wilson's 2024 tour wedge, announced on 19 March 2024
+  and at retail from 2 April. The forged 8620 head carries deeper ZM grooves
+  cut into a precision-milled, garnet-blasted face for wet-condition spin, a
+  straighter leading edge than the previous Staff Model, and a centre of
+  gravity that rises with loft. Wilson names no grinds — the line is sold by
+  bounce tier instead, low (6 degrees), mid (8 to 10) and high (12) — in 10
+  loft/bounce combinations from 50 to 60 degrees, with 46 and 48 degree
+  heads available by custom order. A high-toe ZM HT variant with full-face
+  grooves is sold alongside and is not charted here.
+specs:
+  - loft: 50.0
+    bounce: 8.0
+    lie: 64.0
+    length: 35.75
+  - loft: 52.0
+    bounce: 8.0
+    lie: 64.0
+    length: 35.75
+  - loft: 54.0
+    bounce: 8.0
+    lie: 64.0
+    length: 35.5
+  - loft: 56.0
+    bounce: 10.0
+    lie: 64.0
+    length: 35.5
+  - loft: 56.0
+    bounce: 12.0
+    lie: 64.0
+    length: 35.5
+  - loft: 58.0
+    bounce: 6.0
+    lie: 64.0
+    length: 35.25
+  - loft: 58.0
+    bounce: 10.0
+    lie: 64.0
+    length: 35.25
+  - loft: 60.0
+    bounce: 6.0
+    lie: 64.0
+    length: 35.25
+  - loft: 60.0
+    bounce: 10.0
+    lie: 64.0
+    length: 35.25
+  - loft: 60.0
+    bounce: 12.0
+    lie: 64.0
+    length: 35.25
+stock_shafts:
+  - name: "True Temper Dynamic Gold Spinner"
+    material: steel
+    weight: "128g"
+    flex: ["Wedge"]
+sources:
+  - "Wilson.com Staff Model ZM per-bounce product pages (6, 8, 10 and 12 degree models with lofts, 64-degree lie, lengths and swing weights), wilson.com, accessed October 2026"
+  - "GolfDiscount Staff Model ZM retailer spec table (the complete 10-row matrix, matching Wilson's pages exactly), golfdiscount.com, accessed October 2026"
+  - "Plugged In Golf launch coverage (announced 19 March 2024, retail 2 April 2024, custom-order 46 and 48 degree lofts, ZM HT variant), pluggedingolf.com"
+faq:
+  - q: "What lofts does the Wilson Staff Model ZM come in?"
+    a: "The standard line runs from 50 to 60 degrees — 10 loft and bounce combinations — with 46 and 48 degree heads available by custom order."
+  - q: "What bounce options does the Wilson Staff Model ZM offer?"
+    a: "Wilson sells it by bounce tier rather than named grinds: low (6 degrees, at 58 and 60), mid (8 degrees at 50-54 and 10 degrees at 56-60) and high (12 degrees, at 56 and 60)."
+  - q: "Is the Wilson Staff Model ZM forged?"
+    a: "Yes — forged from soft 8620 carbon steel, with the ZM grooves cut into a precision-milled, garnet-blasted face."
+confidence: high

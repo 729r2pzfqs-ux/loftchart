@@ -1,0 +1,224 @@
+brand: Titleist
+brand_slug: titleist
+model: Vokey SM10
+slug: vokey-sm10-wedges
+club_type: wedges
+year_introduced: 2024
+year_discontinued: null
+category: tour
+construction: cast carbon steel (8620 per Vokey's statements for the line)
+material: 8620 carbon steel
+predecessor: Titleist Vokey SM9
+successor: Titleist Vokey SM11
+description: >
+  The SM10 is the 2024 generation of the Vokey Design line, announced on
+  22 January 2024 and at retail worldwide from 8 March 2024. It launched with
+  25 loft/bounce/grind combinations across 46 to 62 degrees in six grinds
+  (F, S, M, D, K, T); the low-bounce 58.06K and 60.06K lob models were added
+  in March 2025, bringing the matrix to the 27 combinations charted here.
+  Faces carry TX9 grooves cut individually by loft and finish over a
+  high-frequency heat-treated impact area. Finishes are Tour Chrome, Jet
+  Black and a Nickel finish new for this generation, with Raw available
+  through WedgeWorks custom order. The SM11 replaced it at the top of the
+  Titleist wedge catalogue in early 2026, making the SM10 the value buy
+  while remaining stock lasts.
+grinds:
+  - code: F
+    name: F Grind
+    description: >
+      All-purpose traditional full sole for full swings and square-face
+      shots — the only option at the strong lofts from 46 to 52 degrees.
+  - code: S
+    name: S Grind
+    description: >
+      Full sole narrowed by a trailing-edge grind. For neutral to firm
+      conditions and players who control loft with their hands ahead of or
+      behind the ball.
+  - code: M
+    name: M Grind
+    description: >
+      Bob Vokey's favourite — rotate the face open and closed to manufacture
+      shots. Suits shallower, sweeping swings.
+  - code: D
+    name: D Grind
+    description: >
+      Heel, toe and trailing-edge grind with high measured bounce, for
+      steeper attack angles and varied face positions.
+  - code: K
+    name: K Grind
+    description: >
+      The highest-bounce wedge in the lineup and the ultimate bunker club — a
+      wide full sole with enhanced camber for softer sand and turf. The 06K
+      variant added in 2025 brings a 6-degree effective bounce version for
+      shallow swings and firm turf.
+  - code: T
+    name: T Grind
+    description: >
+      Low bounce with a narrow sole that hugs the ground and maximum heel,
+      toe and trailing-edge relief. The ultimate shotmaking grind.
+specs:
+  - loft: 46.0
+    bounce: 10.0
+    grind: F
+    lie: 64.0
+    length: 35.75
+  - loft: 48.0
+    bounce: 10.0
+    grind: F
+    lie: 64.0
+    length: 35.75
+  - loft: 50.0
+    bounce: 8.0
+    grind: F
+    lie: 64.0
+    length: 35.5
+  - loft: 50.0
+    bounce: 12.0
+    grind: F
+    lie: 64.0
+    length: 35.5
+  - loft: 52.0
+    bounce: 8.0
+    grind: F
+    lie: 64.0
+    length: 35.5
+  - loft: 52.0
+    bounce: 12.0
+    grind: F
+    lie: 64.0
+    length: 35.5
+  - loft: 54.0
+    bounce: 8.0
+    grind: M
+    lie: 64.0
+    length: 35.25
+  - loft: 54.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.25
+  - loft: 54.0
+    bounce: 12.0
+    grind: D
+    lie: 64.0
+    length: 35.25
+  - loft: 54.0
+    bounce: 14.0
+    grind: F
+    lie: 64.0
+    length: 35.25
+  - loft: 56.0
+    bounce: 8.0
+    grind: M
+    lie: 64.0
+    length: 35.25
+  - loft: 56.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.25
+  - loft: 56.0
+    bounce: 12.0
+    grind: D
+    lie: 64.0
+    length: 35.25
+  - loft: 56.0
+    bounce: 14.0
+    grind: F
+    lie: 64.0
+    length: 35.25
+  - loft: 58.0
+    bounce: 4.0
+    grind: T
+    lie: 64.0
+    length: 35.0
+  - loft: 58.0
+    bounce: 6.0
+    grind: K
+    lie: 64.0
+    length: 35.0
+  - loft: 58.0
+    bounce: 8.0
+    grind: M
+    lie: 64.0
+    length: 35.0
+  - loft: 58.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.0
+  - loft: 58.0
+    bounce: 12.0
+    grind: D
+    lie: 64.0
+    length: 35.0
+  - loft: 58.0
+    bounce: 14.0
+    grind: K
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 4.0
+    grind: T
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 6.0
+    grind: K
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 8.0
+    grind: M
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 12.0
+    grind: D
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 14.0
+    grind: K
+    lie: 64.0
+    length: 35.0
+  - loft: 62.0
+    bounce: 8.0
+    grind: M
+    lie: 64.0
+    length: 35.0
+stock_shafts:
+  - name: "True Temper Dynamic Gold S200"
+    material: steel
+    weight: "130g"
+    flex: ["S"]
+  - name: "KBS Tour Lite 95"
+    material: steel
+    weight: "95g"
+    flex: ["Wedge"]
+  - name: "Mitsubishi Tensei AM2 Red"
+    material: graphite
+    flex: ["R", "L"]
+related_models:
+  - slug: "titleist/vokey-sm11-wedges"
+    label: "Successor: Vokey SM11"
+sources:
+  - "Titleist.com SM10 wedge spec table (25 launch combinations, 64-degree standard lie, shafts), https://www.titleist.com/golf-clubs/wedges/sm10, accessed October 2026"
+  - "Titleist Tour Blog SM10 announcement (22 January 2024 — dates, grinds, stock shaft), https://www.titleist.com/teamtitleist/b/tourblog/posts/titleist-introduces-new-vokey-design-sm10-wedges"
+  - "Titleist Tour Blog 58.06K/60.06K line extension (announced 16 January 2025, retail 7 March 2025), https://www.titleist.com/teamtitleist/b/tourblog/posts/titleist-adds-58-06k-60-06k-lob-wedge-models-to-vokey-design-sm10-lineup"
+  - "Note: Titleist's current SM10 spec table omits the two 06K models added in 2025; they are charted here per Titleist's own line-extension announcement. The head alloy (cast 8620 carbon steel) is per Bob Vokey's published statements for the line."
+faq:
+  - q: "What lofts does the Titleist Vokey SM10 come in?"
+    a: "The Vokey SM10 is sold from 46 to 62 degrees — 27 loft, bounce and grind combinations in all, including the low-bounce 58.06K and 60.06K lob models added in March 2025."
+  - q: "What grinds does the Vokey SM10 offer?"
+    a: "Six grinds: F (full sole, 46-56 degrees), S (narrowed full sole, 54-60), M (heel and toe relief, 54-62), D (player's high bounce, 54-60), K (wide high-bounce sole at 14 degrees plus the low-bounce 06K, 58-60) and T (low bounce, 58-60)."
+  - q: "Is the Vokey SM10 still in production?"
+    a: "No — the SM11 replaced it as Titleist's current wedge line in early 2026. The SM10 remains widely available as closeout and used stock, and through the Titleist Certified pre-owned programme."
+  - q: "What is the difference between the SM10 K grind and 06K?"
+    a: "Both use the wide, cambered K sole. The standard K carries 14 degrees of bounce for soft sand and turf; the 06K, added in 2025, carries 6 degrees for shallow swings and firmer conditions."
+confidence: high

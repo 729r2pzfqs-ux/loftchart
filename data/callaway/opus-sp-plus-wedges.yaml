@@ -1,0 +1,107 @@
+brand: Callaway
+brand_slug: callaway
+model: Opus SP+
+slug: opus-sp-plus-wedges
+club_type: wedges
+year_introduced: 2026
+year_discontinued: null
+current_as_of: "2026-10"
+category: tour
+construction: three-piece — cast 8620 carbon steel body, metal-injection-molded face, high tungsten weighting
+material: 8620 carbon steel body, MIM face, tungsten topline weighting
+successor: null
+description: >
+  The Opus SP+ is Callaway's 2026 extension of the Opus SP line, announced
+  with pre-orders on 24 February 2026 and at retail from 6 March. It is a
+  scoring-loft specialist: a three-piece head adds a metal-injection-molded
+  face and tungsten placed high on the topline and flange — exposed on the
+  back of the head — over a Spin Pocket about a quarter larger than the Opus
+  SP's, pushing the centre of gravity higher still for a lower, penetrating
+  flight with more spin. The matrix covers 54 to 60 degrees only, in 11
+  loft/bounce/grind combinations across three grinds, and the standard Opus
+  SP remains in the line for the full 48 to 64 degree range. Club lengths
+  are omitted here because no manufacturer-published length chart could be
+  verified.
+grinds:
+  - code: Z
+    name: Z Grind
+    description: >
+      The friendly low-bounce option at 8 degrees — forgiving for a
+      low-bounce sole, offered at every SP+ loft.
+  - code: S
+    name: S Grind
+    description: >
+      The all-situations mid-bounce grind at 10 degrees, shared with the
+      standard Opus SP and offered at every SP+ loft.
+  - code: X
+    name: X Grind
+    description: >
+      The new 12-degree option for maximum greenside versatility — bounce
+      with a narrow, relieved sole for steeper swings, offered from 56 to 60
+      degrees.
+specs:
+  - loft: 54.0
+    bounce: 8.0
+    grind: Z
+    lie: 64.0
+  - loft: 54.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+  - loft: 56.0
+    bounce: 8.0
+    grind: Z
+    lie: 64.0
+  - loft: 56.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+  - loft: 56.0
+    bounce: 12.0
+    grind: X
+    lie: 64.0
+  - loft: 58.0
+    bounce: 8.0
+    grind: Z
+    lie: 64.0
+  - loft: 58.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+  - loft: 58.0
+    bounce: 12.0
+    grind: X
+    lie: 64.0
+  - loft: 60.0
+    bounce: 8.0
+    grind: Z
+    lie: 64.0
+  - loft: 60.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+  - loft: 60.0
+    bounce: 12.0
+    grind: X
+    lie: 64.0
+stock_shafts:
+  - name: "True Temper Dynamic Gold S200"
+    material: steel
+    weight: "120g"
+    flex: ["S"]
+related_models:
+  - slug: "callaway/opus-sp-wedges"
+    label: "Standard line: Opus SP"
+sources:
+  - "Golf.com Opus SP+ launch coverage (pre-order 24 February 2026, retail 6 March 2026; 54-60 degrees in Z, S and X grinds; 18g topline tungsten, MIM face on cast 8620 body; Callaway R&D interview), https://golf.com/gear/wedges/callaways-opus-sp-plus/"
+  - "Skratch and National Club Golfer launch coverage (SP+ is an extension, not a replacement — the Opus SP stays in the line; Spin Pocket 25 percent larger), accessed October 2026"
+  - "Golfballs.com and Golfio retailer spec charts (the full 11-row matrix, 64-degree lie; the two agree per grind), accessed October 2026"
+  - "Note: callawaygolf.com product pages redirect to promotional pages, so the matrix is reconstructed from retailer charts in agreement with Callaway's announced loft and grind lineup."
+faq:
+  - q: "What lofts does the Callaway Opus SP+ come in?"
+    a: "The Opus SP+ covers the scoring lofts only — 54 to 60 degrees in 2-degree steps, 11 loft, bounce and grind combinations. For 48 to 52 or 62 to 64 degrees, Callaway points buyers to the standard Opus SP."
+  - q: "What grinds does the Callaway Opus SP+ offer?"
+    a: "Three: the low-bounce Z (8 degrees, every loft), the all-round S (10 degrees, every loft) and the new X (12 degrees, 56 to 60 degrees)."
+  - q: "What is the difference between the Opus SP and the Opus SP+?"
+    a: "The SP+ adds a metal-injection-molded face and tungsten high on the topline over a Spin Pocket about a quarter larger, for an even higher centre of gravity, lower flight and more spin. It covers only 54 to 60 degrees and costs more; the SP covers 48 to 64 degrees."
+confidence: medium

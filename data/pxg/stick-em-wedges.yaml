@@ -1,0 +1,101 @@
+brand: PXG
+brand_slug: pxg
+model: Stick'em
+slug: stick-em-wedges
+club_type: wedges
+year_introduced: 2026
+year_discontinued: null
+current_as_of: "2026-10"
+category: tour
+construction: 3X forged (triple-forged) 8620 soft carbon steel, high-toe weighting
+material: 8620 soft carbon steel, chrome or Xtreme Dark DLC finish
+successor: null
+description: >
+  The Stick'em is PXG's fully forged wedge line, announced on 12 March 2026
+  and sold immediately through pxg.com and PXG stores. The triple-forged
+  8620 head carries high-toe weighting with a progressive centre of gravity,
+  and wider, more closely spaced grooves — traditional on the 50 and 52
+  degree heads, full-face from 54 to 60. The matrix runs 10 loft/bounce
+  combinations from 50 to 60 degrees in two grinds. It sits below PXG's
+  milled Sugar Daddy III in price, and the two lines sell alongside each
+  other. PXG builds every order to spec from its shaft catalogue rather than
+  naming a single stock shaft.
+grinds:
+  - code: S
+    name: S Grind
+    description: >
+      A slightly tapered sole with heel and toe relief at 10 degrees of
+      bounce — versatility for square-face and open-face shots and creative
+      short-game play from varied lies. Offered at every loft.
+  - code: BP
+    name: BP Grind
+    description: >
+      A wider, fuller sole delivering 13 degrees of effective bounce that
+      glides through turf and sand — for steeper attack angles and softer
+      conditions, offered from 54 to 60 degrees.
+specs:
+  - loft: 50.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.5
+  - loft: 52.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.5
+  - loft: 54.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.25
+  - loft: 54.0
+    bounce: 13.0
+    grind: BP
+    lie: 64.0
+    length: 35.25
+  - loft: 56.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.25
+  - loft: 56.0
+    bounce: 13.0
+    grind: BP
+    lie: 64.0
+    length: 35.25
+  - loft: 58.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.0
+  - loft: 58.0
+    bounce: 13.0
+    grind: BP
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 10.0
+    grind: S
+    lie: 64.0
+    length: 35.0
+  - loft: 60.0
+    bounce: 13.0
+    grind: BP
+    lie: 64.0
+    length: 35.0
+sources:
+  - "PXG Stick'em wedges product page and spec table (full matrix, 64-degree lie, lengths, offsets, finishes), https://www.pxg.com/products/stick-em-wedges, accessed October 2026"
+  - "PXG Canada Stick'em page (identical spec table, cross-check), ca.pxg.com, accessed October 2026"
+  - "PXG Stick'em press release (announced 12 March 2026), via firstcallgolf.com"
+  - "Note: PXG publishes no single stock shaft — every order is built to spec from the PXG shaft catalogue in steel or graphite, Ladies through X-Stiff."
+faq:
+  - q: "What lofts does the PXG Stick'em come in?"
+    a: "The Stick'em is sold from 50 to 60 degrees in 2-degree steps — 10 loft, bounce and grind combinations."
+  - q: "What grinds does the PXG Stick'em offer?"
+    a: "Two: the S grind at 10 degrees of bounce at every loft, and the wider, higher-bounce BP grind at 13 degrees from 54 to 60 degrees."
+  - q: "Did the PXG Stick'em replace the Sugar Daddy III?"
+    a: "No — PXG still sells the milled Sugar Daddy III above it. The Stick'em is the cheaper, fully forged line that brings PXG wedges to a mainstream price."
+  - q: "Is the PXG Stick'em forged?"
+    a: "Yes — 3X (triple) forged from 8620 soft carbon steel, with high-toe weighting and a progressive centre of gravity across the lofts."
+confidence: high

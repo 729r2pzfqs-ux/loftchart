@@ -1,0 +1,47 @@
+brand: Kirkland Signature
+brand_slug: kirkland-signature
+model: Gen 3 Forged
+slug: gen-3-forged-wedges
+club_type: wedges
+year_introduced: 2026
+year_discontinued: null
+current_as_of: "2026-10"
+category: tour
+construction: forged mild carbon steel with sandblasted raw face
+material: mild carbon steel, Sandblast Face Technology
+predecessor: Kirkland Signature Gen 2
+successor: null
+description: >
+  Costco's third-generation Kirkland Signature wedges, the first forged set
+  in the line, reached the USGA conforming list in April 2026 and went on
+  sale in June 2026 at 199.99 dollars for the three-wedge set. The set is
+  sold only as a trio — 52, 56 and 60 degrees — with a sandblasted raw face
+  replacing the milled face of the first two generations, progressive centre
+  of gravity placement, a Kirkland Signature wedge-flex steel shaft and a
+  Lamkin Crossline 360 grip, right-handed only at retail. Costco publishes
+  only the lofts and construction; the bounce figures charted here are from
+  independent review measurements, and no lie angle or length has been
+  published, so treat those columns as unverified.
+specs:
+  - loft: 52.0
+    bounce: 10.0
+  - loft: 56.0
+    bounce: 10.0
+  - loft: 60.0
+    bounce: 8.0
+stock_shafts:
+  - name: "Kirkland Signature Wedge Flex"
+    material: steel
+    flex: ["Wedge"]
+sources:
+  - "Costco.com Kirkland Signature Forged Wedge Set listing (lofts 52/56/60, forged mild carbon steel, Sandblast Face Technology, shaft and grip, 199.99 dollars), https://www.costco.com/p/-/kirkland-signature-forged-wedge-set/4201019747, accessed October 2026"
+  - "Driving Range Heroes Gen 3 review, July 2026 (bounce 10/10/8 — the only published bounce figures; Costco publishes none), drivingrangeheroes.com"
+  - "MyGolfSpy coverage (USGA conforming list April 2026, on sale June 2026, no official bounce figures, manufacturer SM Global/SM Parker), via search, accessed October 2026"
+faq:
+  - q: "What lofts do the Kirkland Signature Gen 3 wedges come in?"
+    a: "The set is sold only as a trio: a 52-degree gap wedge, a 56-degree sand wedge and a 60-degree lob wedge, for 199.99 dollars. There are no individual lofts, grinds or bounce options."
+  - q: "Are the Kirkland Gen 3 wedges forged?"
+    a: "Yes — the third generation moved to forged mild carbon steel with a sandblasted raw face, where the first two generations were cast with milled faces."
+  - q: "What bounce do the Kirkland Gen 3 wedges have?"
+    a: "Costco does not publish bounce figures. Independent review measurements put them at roughly 10 degrees on the 52 and 56 and 8 degrees on the 60, in line with the Gen 2 set."
+confidence: low
