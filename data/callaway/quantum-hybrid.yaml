@@ -1,0 +1,150 @@
+brand: Callaway
+brand_slug: callaway
+model: Quantum
+slug: quantum-hybrid
+club_type: hybrid
+year_introduced: 2026
+year_discontinued: null
+category: flagship
+current_as_of: "2026-10"
+construction: steel bodies with low-forward Speed Wave 2.0 tungsten weighting and a Step Sole
+material: AI-optimised faces with greater face flex for low-face strikes
+predecessor: Callaway Elyte
+successor: null
+description: >
+  The Quantum hybrids reached retail on 13 February 2026 alongside the
+  Quantum fairway woods, replacing the Elyte hybrids. All three models carry
+  the tungsten Speed Wave 2.0 weight low and forward, the new Step Sole and
+  the multi-cog OptiFit 4 hosel on every head — a deeper adjustable range
+  than the fairways, where only the low lofts are sleeved. The core Quantum
+  Max is the neutral all-rounder in six lofts from 19° to 33°, the Quantum
+  Max OS is the oversized easy-launch head sold one degree stronger at each
+  club number, and the Quantum Max Fast is the ultralight build for moderate
+  swing speeds, one degree weaker at each number.
+variants:
+  - name: Quantum Max
+    description: >
+      The neutral core hybrid in six lofts from 19° to 33°, with head sizes
+      stepping from 105 cc down to 86 cc and the OptiFit 4 hosel on every
+      head.
+  - name: Quantum Max OS
+    description: >
+      The oversized, draw-friendly, easy-launch head — 130 cc at the 18°
+      3-hybrid — sold about one degree stronger than the core Max at each
+      club number. The 3-, 4- and 5-hybrids come in both hands; the rest are
+      right-hand only.
+  - name: Quantum Max Fast
+    description: >
+      The lightest Quantum hybrid, built for moderate swing speeds with a
+      40 g class Vanquish shaft, sold about one degree weaker than the core
+      Max at each club number. Right-hand only.
+specs:
+  - variant: Quantum Max
+    loft: 19.0
+    lie: 58.75
+    length: 40.75
+  - variant: Quantum Max
+    loft: 21.0
+    lie: 59.375
+    length: 40.125
+  - variant: Quantum Max
+    loft: 24.0
+    lie: 60.0
+    length: 39.5
+  - variant: Quantum Max
+    loft: 27.0
+    lie: 60.625
+    length: 38.875
+  - variant: Quantum Max
+    loft: 30.0
+    lie: 61.25
+    length: 38.25
+  - variant: Quantum Max
+    loft: 33.0
+    lie: 61.875
+    length: 37.625
+  - variant: Quantum Max OS
+    loft: 18.0
+    lie: 58.75
+    length: 40.75
+  - variant: Quantum Max OS
+    loft: 20.0
+    lie: 59.375
+    length: 40.125
+  - variant: Quantum Max OS
+    loft: 23.0
+    lie: 60.0
+    length: 39.5
+  - variant: Quantum Max OS
+    loft: 26.0
+    lie: 60.625
+    length: 38.875
+  - variant: Quantum Max OS
+    loft: 29.0
+    lie: 61.25
+    length: 38.25
+  - variant: Quantum Max OS
+    loft: 32.0
+    lie: 61.875
+    length: 37.625
+  - variant: Quantum Max Fast
+    loft: 20.0
+    lie: 58.75
+    length: 40.75
+  - variant: Quantum Max Fast
+    loft: 22.0
+    lie: 59.375
+    length: 40.125
+  - variant: Quantum Max Fast
+    loft: 25.0
+    lie: 60.0
+    length: 39.5
+  - variant: Quantum Max Fast
+    loft: 28.0
+    lie: 60.625
+    length: 38.875
+  - variant: Quantum Max Fast
+    loft: 31.0
+    lie: 61.25
+    length: 38.25
+  - variant: Quantum Max Fast
+    loft: 34.0
+    lie: 61.875
+    length: 37.625
+hosel:
+  system: "OptiFit 4"
+  loft_range: "7 loft/lie configurations"
+  notes: >
+    Every Quantum hybrid head carries the new multi-cog OptiFit 4 hosel: two
+    rotating cogs, each with +, − and neutral settings, give seven unique
+    loft and lie configurations with independent loft and lie movement and
+    up to 2° of upright or flat lie. Callaway publishes the system as +/−
+    markings rather than a degree-by-degree chart, so no settings table is
+    reproduced here. The stated lies are measured at the neutral setting.
+stock_shafts:
+  - name: "Project X Denali Silver 60 IR/HYB (Max, Max OS)"
+    material: graphite
+    flex: ["R", "S", "X"]
+  - name: "Mitsubishi Vanquish 40 IR/HYB (Max Fast)"
+    material: graphite
+related_models:
+  - slug: "callaway/quantum-driver"
+    label: "Same family: Callaway Quantum drivers"
+  - slug: "callaway/quantum-fairway-wood"
+    label: "Same family: Callaway Quantum fairway woods"
+  - slug: "callaway/elyte-hybrid"
+    label: "Predecessor: Callaway Elyte hybrids"
+sources:
+  - "Callaway.com Quantum Max OS and Max Fast hybrid spec pages (Max OS 18/20/23/26/29/32 at 130-107 cc; Max Fast 20/22/25/28/31/34 at 122-100 cc; shared lies 58.75-61.875° and lengths 40.75-37.625 in; all heads adjustable), https://www.callawaygolf.com/golf-clubs/hybrids/hybrids-2026-quantum-max-os.html, accessed October 2026"
+  - "Golf Discount and Austad's Quantum Max hybrid listings (19/21/24/27/30/33 lofts, lies 58.75-61.875°, lengths 40.75-37.625 in, 105-86 cc), https://www.golfdiscount.com/products/callaway-quantum-max-hybrid-2026, accessed October 2026"
+  - "GolfWRX and Today's Golfer Quantum fairway/hybrid launch coverage, February 2026 (retail 13 February, Speed Wave 2.0, Step Sole, OptiFit 4 with seven configurations and 2° upright/flat lie), https://golfwrx.com/771775/callaway-unveils-new-quantum-fairway-woods-and-hybrids/, accessed October 2026"
+faq:
+  - q: "What lofts do the Callaway Quantum hybrids come in?"
+    a: "The Quantum Max comes in 19, 21, 24, 27, 30 and 33 degrees; the Max OS in 18, 20, 23, 26, 29 and 32; and the Max Fast in 20, 22, 25, 28, 31 and 34 — all running from a 3-hybrid to an 8-hybrid."
+  - q: "Are the Callaway Quantum hybrids adjustable?"
+    a: "Yes — unlike the fairway line, every Quantum hybrid head carries the OptiFit 4 hosel, with seven loft and lie configurations and up to 2 degrees of upright or flat lie."
+  - q: "What is the difference between the Quantum Max and Quantum Max OS hybrids?"
+    a: "The Max is the neutral mid-sized core head. The Max OS is noticeably larger — 130 cc against 105 cc at the lowest loft — with easier launch and a touch of draw bias, and each club number sits about one degree stronger."
+  - q: "What replaced the Callaway Elyte hybrids?"
+    a: "These — the Quantum hybrids replaced the Elyte hybrids at retail on 13 February 2026."
+confidence: high

@@ -1,0 +1,85 @@
+brand: Cobra
+brand_slug: cobra
+model: OPTM
+slug: optm-hybrid
+club_type: hybrid
+year_introduced: 2026
+year_discontinued: null
+category: flagship
+current_as_of: "2026-10"
+construction: steel body with a slightly larger, shallower profile and a fixed low back weight
+material: forged high-strength steel face with Cobra's H.O.T. face AI thickness mapping
+predecessor: Cobra DS-ADAPT
+successor: null
+description: >
+  The OPTM hybrid launched in January 2026 with the OPTM drivers and
+  fairways, replacing the DS-ADAPT hybrid. It is a single head design in
+  four lofts from an 18° 3-hybrid to a 28° 6-hybrid, each carrying the
+  FutureFit33 hosel with ±2° of loft and lie adjustment. Cobra stretched the
+  footprint slightly longer and shallower than the DS-ADAPT to push MOI up,
+  with a fixed back weight keeping the centre of gravity low — MyGolfSpy's
+  2026 test rated it the most forgiving hybrid of the year.
+variants:
+  - name: OPTM
+    description: >
+      The single hybrid head in four lofts, around 124 cc, with a shallow
+      high-MOI profile, a fixed low back weight and the FutureFit33
+      adjustable hosel on every loft.
+specs:
+  - variant: OPTM
+    loft: 18.0
+    lie: 58.0
+    length: 40.88
+  - variant: OPTM
+    loft: 21.0
+    lie: 58.5
+    length: 40.25
+  - variant: OPTM
+    loft: 24.0
+    lie: 59.0
+    length: 39.63
+  - variant: OPTM
+    loft: 28.0
+    lie: 59.5
+    length: 39.0
+hosel:
+  system: "FutureFit33"
+  loft_range: "±2°"
+  positions: 33
+  lie_effect: "Lie adjusts ±2° from stock, independently of loft."
+  face_note: >
+    The SmartPad sole keeps the face visually square at address in every
+    setting.
+  notes: >
+    The same two-dial FutureFit33 system as the OPTM drivers and fairways:
+    33 unique loft/lie settings with A1 the neutral stock position. Cobra
+    publishes the code-by-code degree chart only as a graphic reached from a
+    QR code on the hosel, so none is reproduced here. Each loft covers ±2° —
+    the 18° head plays 16-20°, the 28° head 26-30° — with lie ranges two
+    degrees either side of the stated figures.
+stock_shafts:
+  - name: "KBS PGH 85/75"
+    material: graphite
+    flex: ["S", "R"]
+  - name: "KBS PGH 65 (4H and 5H)"
+    material: graphite
+    flex: ["A"]
+related_models:
+  - slug: "cobra/optm-driver"
+    label: "Same family: Cobra OPTM drivers"
+  - slug: "cobra/optm-fairway-wood"
+    label: "Same family: Cobra OPTM fairway woods"
+  - slug: "cobra/ds-adapt-hybrid"
+    label: "Predecessor: Cobra DS-ADAPT hybrids"
+sources:
+  - "Scheels and Fairway Golf OPTM hybrid spec tables (18/21/24/28 lofts with 16-20° to 26-30° FF33 ranges, lies 58-59.5°, 124-122 cc, lengths 40.88-39 in, KBS PGH shafts), https://www.scheels.com/p/cobra-optm-hybrid/15313-H0E01RGS3, accessed October 2026"
+  - "MyGolfSpy OPTM hybrid review, 2026 (8.9 overall, rated the most forgiving hybrid of 2026; longer, shallower profile vs DS-ADAPT), https://mygolfspy.com/reviews/hybrids/cobra-optm-hybrid/, accessed October 2026"
+  - "Golf Digest OPTM fairway and hybrid equipment rundown, January 2026 (single-model hybrid line, FutureFit33 across drivers, fairways and hybrids), https://www.golfdigest.com/story/cobra-optm-fairway-wood-hybrid-2026-equipment, accessed October 2026"
+faq:
+  - q: "What lofts does the Cobra OPTM hybrid come in?"
+    a: "Four lofts: 18, 21, 24 and 28 degrees — the 3-hybrid through 6-hybrid."
+  - q: "Is the Cobra OPTM hybrid adjustable?"
+    a: "Yes — every loft carries the FutureFit33 hosel with 33 settings covering plus or minus 2 degrees of loft and lie, and the SmartPad sole keeps the face square in every setting."
+  - q: "What replaced the Cobra DS-ADAPT hybrid?"
+    a: "This one — the OPTM hybrid replaced the DS-ADAPT hybrid in January 2026, with a slightly longer and shallower head for more forgiveness."
+confidence: high

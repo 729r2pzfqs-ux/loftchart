@@ -1,0 +1,116 @@
+brand: PXG
+brand_slug: pxg
+model: Lightning
+slug: lightning-fairway-wood
+club_type: fairway_wood
+year_introduced: 2025
+year_discontinued: null
+category: flagship
+current_as_of: "2026-10"
+construction: carbon-crown over steel body with three interchangeable sole weight ports (two on the Tour)
+material: high-strength steel face; low-forward face weighting for flight control
+predecessor: PXG Black Ops
+successor: null
+description: >
+  The Lightning fairway woods launched on 2 December 2025 with the Lightning
+  drivers and hybrids, replacing the Black Ops woods as PXG's 2026 flagship
+  line. The standard head stretches the ladder to six lofts — adding 9- and
+  11-woods above the Black Ops range — with head volumes from 200 cc at the
+  3-wood down to 160 cc, three weight ports (one 12.5 g and two 2.5 g) for up
+  to 17.5 g of movable mass, and PXG's adjustable shaft adapter on every
+  head. The compact Lightning Tour comes in 15° and 18° with flatter lies,
+  smaller 180/170 cc heads and a two-port weight setup.
+variants:
+  - name: Lightning
+    description: >
+      The standard head in six lofts from a 200 cc 15° 3-wood to a 160 cc
+      27° 11-wood, including a 17° 4-wood, with head weights stepping from
+      215 g to 235 g and three sole weight ports. All lofts in both hands.
+  - name: Lightning Tour
+    description: >
+      The compact tour head in 15° (180 cc) and 18° (170 cc) with lies half
+      a degree flatter than standard and a two-port sole (10 g plus 2.5 g)
+      favouring a lower, workable flight.
+specs:
+  - variant: Lightning
+    loft: 15.0
+    lie: 58.5
+    length: 43.0
+  - variant: Lightning
+    loft: 17.0
+    lie: 58.5
+    length: 43.0
+  - variant: Lightning
+    loft: 18.0
+    lie: 59.0
+    length: 42.5
+  - variant: Lightning
+    loft: 21.0
+    lie: 59.5
+    length: 42.0
+  - variant: Lightning
+    loft: 24.0
+    lie: 60.0
+    length: 41.5
+  - variant: Lightning
+    loft: 27.0
+    lie: 60.5
+    length: 41.0
+  - variant: Lightning Tour
+    loft: 15.0
+    lie: 58.0
+    length: 43.0
+  - variant: Lightning Tour
+    loft: 18.0
+    lie: 58.5
+    length: 42.5
+hosel:
+  system: "PXG adjustable shaft adapter"
+  loft_range: "±1.5°"
+  positions: 8
+  lie_effect: >
+    The Standard "Dot" is the most upright position; every other setting
+    flattens lie by 0.5° to 3° relative to it. There is no
+    upright-beyond-Dot setting.
+  face_note: >
+    PXG markets the upright Dot setting for draw bias and the flattest "PXG
+    Standard" setting for fade bias; loft changes shift effective face angle
+    at address as on any adapter.
+  notes: >
+    PXG uses the same universal driver/fairway adapter across generations;
+    the chart is PXG's published one. The stated lie in the chart above is
+    measured at the Standard "Dot" position.
+  settings:
+    - { setting: "Standard (Dot)", loft: "std", lie: "std (most upright)" }
+    - { setting: "Small Plus", loft: "+1°", lie: "0.5° flat" }
+    - { setting: "Big Plus", loft: "+1.5°", lie: "1.5° flat" }
+    - { setting: "Flat Plus", loft: "+1°", lie: "2.5° flat" }
+    - { setting: "PXG Standard", loft: "std", lie: "3° flat" }
+    - { setting: "Flat Minus", loft: "−1°", lie: "2.5° flat" }
+    - { setting: "Big Minus", loft: "−1.5°", lie: "1.5° flat" }
+    - { setting: "Small Minus", loft: "−1°", lie: "0.5° flat" }
+stock_shafts:
+  - name: "Project X Denali Frost Blue 50"
+    material: graphite
+related_models:
+  - slug: "pxg/lightning-driver"
+    label: "Same family: PXG Lightning drivers"
+  - slug: "pxg/lightning-hybrid"
+    label: "Same family: PXG Lightning hybrids"
+  - slug: "pxg/black-ops-fairway-wood"
+    label: "Predecessor: PXG Black Ops fairway woods"
+sources:
+  - "PXG official Lightning fairway spec page (standard 15/17/18/21/24/27 with lies 58.5-60.5°, lengths 43-41 in, 200-160 cc, 215-235 g heads, three weight ports; Tour 15/18 at 58/58.5°, 180/170 cc, two ports; all RH/LH), https://www.pxg.com/products/lightning-fairways, accessed October 2026"
+  - "GolfWRX PXG Lightning fairway and hybrid launch coverage, December 2025 ($380 per fairway at launch, line positioning vs Black Ops), https://golfwrx.com/770049/pxg-launches-lightning-fairway-woods-hybrids/, accessed October 2026"
+  - "Carl's Golfland and Golfio Lightning fairway listings (Project X Denali Frost Blue 50 stock shaft, ~1.5° adjustable hosel), https://www.golfio.com/products/pxg-lightning-custom-fairway-wood-26, accessed October 2026"
+  - "Skratch 2026 PXG Lightning line coverage (release 2 December 2025), https://www.skratch.golf/gear-equipment/gear-equipment/2026-pxg-lightning-driver-fairway-hybrids, accessed October 2026"
+faq:
+  - q: "What lofts do the PXG Lightning fairway woods come in?"
+    a: "The standard Lightning comes in 15, 17, 18, 21, 24 and 27 degrees — a 3-wood through 11-wood including a 17 degree 4-wood — and the compact Lightning Tour in 15 and 18."
+  - q: "Are the PXG Lightning fairway woods adjustable?"
+    a: "Yes — every head carries PXG's eight-position shaft adapter (plus or minus 1.5 degrees of loft, lie to 3 degrees flat) plus movable sole weights: three ports with 17.5 grams of mass on the standard head, two ports on the Tour."
+  - q: "What is the difference between the Lightning and Lightning Tour fairway woods?"
+    a: "The Tour is a smaller head — 180 cc against 200 cc in the 3-wood — with lies half a degree flatter, a two-port weight setup and a lower, more workable flight for faster players. It comes only in 15 and 18 degrees."
+  - q: "What replaced the PXG Black Ops fairway woods?"
+    a: "These — the Lightning fairways replaced the Black Ops line on 2 December 2025 as PXG's 2026 flagship, adding 9- and 11-wood lofts the Black Ops never offered."
+confidence: high

@@ -1,0 +1,104 @@
+brand: PXG
+brand_slug: pxg
+model: Lightning
+slug: lightning-hybrid
+club_type: hybrid
+year_introduced: 2025
+year_discontinued: null
+category: flagship
+current_as_of: "2026-10"
+construction: carbon-crown over steel body with three interchangeable sole weight ports and improved turf interaction
+material: high-strength steel face with low face weighting
+predecessor: PXG Black Ops
+successor: null
+description: >
+  The Lightning hybrids launched on 2 December 2025 with the Lightning
+  drivers and fairways, replacing the Black Ops hybrids. The single head
+  design runs a seven-loft ladder from a 17° 2-hybrid all the way to a 34°
+  8-hybrid — the widest hybrid range PXG has offered — with head weights
+  stepping from 230 g to 260 g, three sole weight ports (one 12.5 g and two
+  2.5 g) and PXG's adjustable shaft adapter on every head. Launch pricing
+  was $330 per club.
+variants:
+  - name: Lightning
+    description: >
+      The single hybrid head in seven lofts, with lower face weighting and
+      reworked sole camber for turf interaction, three weight ports and the
+      adjustable adapter. Every loft except the right-hand-only 17° head
+      comes in both hands.
+specs:
+  - variant: Lightning
+    loft: 17.0
+    lie: 58.0
+    length: 40.75
+  - variant: Lightning
+    loft: 19.0
+    lie: 58.5
+    length: 40.25
+  - variant: Lightning
+    loft: 22.0
+    lie: 59.0
+    length: 39.75
+  - variant: Lightning
+    loft: 25.0
+    lie: 59.5
+    length: 39.25
+  - variant: Lightning
+    loft: 28.0
+    lie: 60.0
+    length: 38.75
+  - variant: Lightning
+    loft: 31.0
+    lie: 60.5
+    length: 38.25
+  - variant: Lightning
+    loft: 34.0
+    lie: 61.0
+    length: 37.75
+hosel:
+  system: "PXG adjustable shaft adapter"
+  loft_range: "±1.5°"
+  positions: 8
+  lie_effect: >
+    The Standard "Dot" is the most upright position; every other setting
+    flattens lie by 0.5° to 3° relative to it. There is no
+    upright-beyond-Dot setting.
+  face_note: >
+    PXG markets the upright Dot setting for draw bias and the flattest "PXG
+    Standard" setting for fade bias; loft changes shift effective face angle
+    at address as on any adapter.
+  notes: >
+    PXG uses the same universal adapter across its metalwoods; the chart is
+    PXG's published one. The stated lie in the chart above is measured at
+    the Standard "Dot" position.
+  settings:
+    - { setting: "Standard (Dot)", loft: "std", lie: "std (most upright)" }
+    - { setting: "Small Plus", loft: "+1°", lie: "0.5° flat" }
+    - { setting: "Big Plus", loft: "+1.5°", lie: "1.5° flat" }
+    - { setting: "Flat Plus", loft: "+1°", lie: "2.5° flat" }
+    - { setting: "PXG Standard", loft: "std", lie: "3° flat" }
+    - { setting: "Flat Minus", loft: "−1°", lie: "2.5° flat" }
+    - { setting: "Big Minus", loft: "−1.5°", lie: "1.5° flat" }
+    - { setting: "Small Minus", loft: "−1°", lie: "0.5° flat" }
+stock_shafts:
+  - name: "Project X Denali Frost Blue Hybrid 70"
+    material: graphite
+related_models:
+  - slug: "pxg/lightning-driver"
+    label: "Same family: PXG Lightning drivers"
+  - slug: "pxg/lightning-fairway-wood"
+    label: "Same family: PXG Lightning fairway woods"
+  - slug: "pxg/black-ops-hybrid"
+    label: "Predecessor: PXG Black Ops hybrids"
+sources:
+  - "PXG official Lightning hybrid spec page (17/19/22/25/28/31/34 lofts, lies 58-61°, lengths 40.75-37.75 in, 230-260 g heads, three weight ports, 17° RH only), https://www.pxg.com/products/lightning-hybrids, accessed October 2026"
+  - "GolfWRX PXG Lightning fairway and hybrid launch coverage, December 2025 ($330 per hybrid at launch, 17-34° the widest PXG hybrid range), https://golfwrx.com/770049/pxg-launches-lightning-fairway-woods-hybrids/, accessed October 2026"
+  - "Skratch 2026 PXG Lightning line coverage (release 2 December 2025), https://www.skratch.golf/gear-equipment/gear-equipment/2026-pxg-lightning-driver-fairway-hybrids, accessed October 2026"
+faq:
+  - q: "What lofts does the PXG Lightning hybrid come in?"
+    a: "Seven lofts: 17, 19, 22, 25, 28, 31 and 34 degrees — a 2-hybrid through 8-hybrid, the widest hybrid range PXG has offered. Only the 17 degree head is right-hand only."
+  - q: "Is the PXG Lightning hybrid adjustable?"
+    a: "Yes — every loft carries PXG's eight-position shaft adapter (plus or minus 1.5 degrees of loft, lie to 3 degrees flat) plus three sole weight ports with 17.5 grams of movable mass for bias and swing weight tuning."
+  - q: "What replaced the PXG Black Ops hybrid?"
+    a: "This one — the Lightning hybrids replaced the Black Ops hybrids on 2 December 2025, with lower face weighting, better turf interaction and two extra lofts at the top of the ladder."
+confidence: high

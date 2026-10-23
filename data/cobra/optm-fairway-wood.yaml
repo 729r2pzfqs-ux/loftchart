@@ -1,0 +1,136 @@
+brand: Cobra
+brand_slug: cobra
+model: OPTM
+slug: optm-fairway-wood
+club_type: fairway_wood
+year_introduced: 2026
+year_discontinued: null
+category: flagship
+current_as_of: "2026-10"
+construction: steel bodies with carbon crowns and adjustable sole weighting; full titanium body with tungsten on the LS
+material: forged high-strength steel faces with Cobra's H.O.T. face AI thickness mapping; titanium face on the LS
+predecessor: Cobra DS-ADAPT
+successor: null
+description: >
+  The OPTM metalwoods launched in January 2026, replacing the DS-ADAPT line
+  after one season and carrying over Cobra's FutureFit33 hosel — 33 loft and
+  lie settings within ±2° — on every head. Three fairway models mirror the
+  driver lineup: the compact titanium OPTM LS Ti for low spin and workability
+  at $469, the core OPTM X in five lofts from a 15° 3-wood to a 24° 9-wood at
+  $369, and the larger game-improvement OPTM MAX with two movable sole
+  weights at $329.
+variants:
+  - name: OPTM LS Ti
+    description: >
+      The premium low-spin head with a full titanium body and tungsten
+      weighting, in three strong lofts (14.5° 3-wood, 16° 3HF, 17° 5-wood)
+      with flat 56-56.5° lies at a D3.5 swing weight and a heavier Kai'li
+      Dark Waves White 60 shaft.
+  - name: OPTM X
+    description: >
+      The core all-round head in five lofts from 15° to 24°, around 180 cc in
+      the 3-wood, balancing speed and forgiveness with a back weight for
+      stability.
+  - name: OPTM MAX
+    description: >
+      The most forgiving, game-improvement model with two movable sole
+      weights (14 g and 3 g, back or heel) for trajectory and draw tuning,
+      in four half-degree-weaker lofts from 15.5° on a lighter Kai'li Dark
+      Waves Red 50 shaft.
+specs:
+  - variant: OPTM LS Ti
+    loft: 14.5
+    lie: 56.0
+    length: 43.25
+  - variant: OPTM LS Ti
+    loft: 16.0
+    lie: 56.0
+    length: 43.25
+  - variant: OPTM LS Ti
+    loft: 17.0
+    lie: 56.5
+    length: 42.5
+  - variant: OPTM X
+    loft: 15.0
+    lie: 58.0
+    length: 43.25
+  - variant: OPTM X
+    loft: 16.5
+    lie: 58.0
+    length: 43.25
+  - variant: OPTM X
+    loft: 18.0
+    lie: 58.8
+    length: 42.5
+  - variant: OPTM X
+    loft: 21.0
+    lie: 58.8
+    length: 42.0
+  - variant: OPTM X
+    loft: 24.0
+    lie: 58.8
+    length: 41.5
+  - variant: OPTM MAX
+    loft: 15.5
+    lie: 58.5
+    length: 43.25
+  - variant: OPTM MAX
+    loft: 18.5
+    length: 42.5
+  - variant: OPTM MAX
+    loft: 21.5
+    length: 42.0
+  - variant: OPTM MAX
+    loft: 24.5
+    length: 41.5
+hosel:
+  system: "FutureFit33"
+  loft_range: "±2°"
+  positions: 33
+  lie_effect: "Lie adjusts ±2° from stock, independently of loft."
+  face_note: >
+    The SmartPad sole keeps the face visually square at address in every
+    setting.
+  notes: >
+    FutureFit33 works through two dials — an A-H ring and a 1-8 ring — whose
+    combinations collapse to 33 unique loft/lie settings, with A1 the
+    neutral stock position; the system is identical on the OPTM drivers,
+    fairways and hybrids. Cobra publishes the code-by-code degree chart only
+    as a graphic reached from a QR code on the hosel, so none is reproduced
+    here. Each stock loft covers roughly ±2°: the 15° OPTM X 3-wood plays
+    13-17°, the 14.5° LS Ti plays 12.5-16.5°. Retailer-published lies for
+    the OPTM MAX's higher lofts disagree (60-62° in one listing, about
+    61-61.8° in another), so only the consistently reported 3-wood lie is
+    charted.
+stock_shafts:
+  - name: "Mitsubishi Kai'li Dark Waves White 60 (LS Ti)"
+    material: graphite
+    flex: ["X", "S"]
+  - name: "Mitsubishi Kai'li Dark Waves Blue 60 (X)"
+    material: graphite
+    flex: ["X", "S", "R"]
+  - name: "Mitsubishi Kai'li Dark Waves Red 50 (MAX)"
+    material: graphite
+    flex: ["S", "R", "A"]
+related_models:
+  - slug: "cobra/optm-driver"
+    label: "Same family: Cobra OPTM drivers"
+  - slug: "cobra/optm-hybrid"
+    label: "Same family: Cobra OPTM hybrids"
+  - slug: "cobra/ds-adapt-fairway-wood"
+    label: "Predecessor: Cobra DS-ADAPT fairway woods"
+sources:
+  - "Cobra Golf OPTM X fairway page and Austad's listing (15/16.5/18/21 lofts with 58-58.8° lies, lengths 43.25-42 in, 180-163 cc, D2-D4, Kai'li Dark Waves Blue 60; Golf Galaxy adds the 24° 9-wood at 58.8°/41.5 in), https://www.cobragolf.com/products/optm-x-fairway, accessed October 2026"
+  - "Cobra Golf OPTM LS Titanium fairway specs via Golfio, Golfbox and Fairway Golf (14.5/16/17 lofts, 56-56.5° lies, 184/183/171 cc, 43.25/43.25/42.5 in, D3.5, Kai'li Dark Waves White 60, $469), https://www.cobragolf.com/products/optm-ls-titanium-fairway, accessed October 2026"
+  - "Carl's Golfland and Golf Galaxy OPTM MAX fairway listings (15.5/18.5/21.5/24.5 lofts, 43.25-41.5 in, ~180/167/164/163 cc, Kai'li Dark Waves Red 50, two movable weights 14 g and 3 g, $369), https://www.golfgalaxy.com/p/cobra-optm-max-fairway-wood-25cobmgolfptmmxfwyfmu/25cobmgolfptmmxfwyfmu, accessed October 2026"
+  - "Golf Digest OPTM fairway and hybrid equipment rundown, January 2026 (model positioning and pricing; FutureFit33 across the line), https://www.golfdigest.com/story/cobra-optm-fairway-wood-hybrid-2026-equipment, accessed October 2026"
+faq:
+  - q: "What lofts do the Cobra OPTM fairway woods come in?"
+    a: "The OPTM X comes in 15, 16.5, 18, 21 and 24 degrees; the OPTM MAX in 15.5, 18.5, 21.5 and 24.5; and the titanium OPTM LS Ti in 14.5, 16 and 17."
+  - q: "Are the Cobra OPTM fairway woods adjustable?"
+    a: "Yes — every head carries Cobra's FutureFit33 hosel with 33 loft and lie settings covering plus or minus 2 degrees each way, and the SmartPad sole keeps the face square in every setting. The OPTM MAX adds two movable sole weights."
+  - q: "What is the difference between the OPTM X and OPTM MAX fairway woods?"
+    a: "The X is the core all-round head with 58-58.8 degree lies in five lofts. The MAX is the larger game-improvement head sold half a degree weaker per loft, with more upright lies, a lighter 50 gram stock shaft and two movable weights for draw or trajectory bias."
+  - q: "What replaced the Cobra DS-ADAPT fairway woods?"
+    a: "These — the OPTM fairways replaced the DS-ADAPT line in January 2026."
+confidence: high

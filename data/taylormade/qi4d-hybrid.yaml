@@ -1,0 +1,118 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: Qi4D
+slug: qi4d-hybrid
+club_type: hybrid
+year_introduced: 2026
+year_discontinued: null
+category: flagship
+current_as_of: "2026-10"
+construction: 450 stainless steel body with an ultra-light carbon fibre crown; bonded hosels on the Max heads, loft sleeve on the core Rescue
+material: multi-material head with TaylorMade's Twist Face bulge-and-roll hybrid face
+predecessor: TaylorMade Qi35
+successor: null
+description: >
+  The Qi4D Rescue family launched with the Qi4D woods — pre-orders from
+  8 January 2026, retail from 29 January — at $299.99 per head across all
+  three models. The core Qi4D Rescue is the adjustable head with a 3° loft
+  sleeve and an 8 g Trajectory Adjustment System (TAS) sole weight, in
+  17-25°. The Qi4D Max Rescue is the bonded high-MOI head, numbered like a
+  wood set from a 20° 3-Rescue to a 34° 7-Rescue, and the Qi4D Max Lite
+  Rescue repeats the Max shape in a lighter build without the 20° head.
+variants:
+  - name: Qi4D Rescue
+    description: >
+      The core adjustable Rescue with the 3° loft sleeve and 8 g TAS weight,
+      in four lofts from 17° to 25°. The 17° 2-Rescue is right-hand only.
+  - name: Qi4D Max Rescue
+    description: >
+      The bonded forgiveness head, sold one club number weaker than the core
+      Rescue at each loft and out to a 34° 7-Rescue. The 30° and 34° heads
+      are right-hand only.
+  - name: Qi4D Max Lite Rescue
+    description: >
+      The Max geometry in a lighter head, shaft and grip build for moderate
+      swing speeds, in four bonded lofts from 23°; the 30° and 34° heads are
+      right-hand only.
+specs:
+  - variant: Qi4D Rescue
+    loft: 17.0
+    length: 41.25
+  - variant: Qi4D Rescue
+    loft: 19.0
+    length: 40.75
+  - variant: Qi4D Rescue
+    loft: 22.0
+    length: 40.25
+  - variant: Qi4D Rescue
+    loft: 25.0
+    length: 39.75
+  - variant: Qi4D Max Rescue
+    loft: 20.0
+    lie: 59.0
+    length: 40.75
+  - variant: Qi4D Max Rescue
+    loft: 23.0
+    lie: 59.5
+    length: 40.25
+  - variant: Qi4D Max Rescue
+    loft: 26.0
+    lie: 60.0
+    length: 39.75
+  - variant: Qi4D Max Rescue
+    loft: 30.0
+    lie: 60.5
+    length: 39.25
+  - variant: Qi4D Max Rescue
+    loft: 34.0
+    lie: 61.0
+    length: 38.75
+  - variant: Qi4D Max Lite Rescue
+    loft: 23.0
+  - variant: Qi4D Max Lite Rescue
+    loft: 26.0
+  - variant: Qi4D Max Lite Rescue
+    loft: 30.0
+  - variant: Qi4D Max Lite Rescue
+    loft: 34.0
+hosel:
+  system: "3° Loft Sleeve (Qi4D Rescue only)"
+  loft_range: "±1.5°"
+  positions: 12
+  lie_effect: >
+    As on the fairway sleeve, lie only moves upright from standard.
+  face_note: >
+    Lowering loft opens the face slightly and raising it closes it.
+  notes: >
+    Only the core Qi4D Rescue carries the sleeve — the Max and Max Lite
+    Rescues are bonded and play at their stamped loft. TaylorMade publishes
+    the Rescue sleeve's range (1.5° each way) rather than a Rescue-specific
+    position-by-position chart, so no settings table is reproduced here. On
+    the sleeved core heads lie is published as a range (56-60° on the 17°
+    head, rising with loft), so those rows carry no lie column.
+stock_shafts:
+  - name: "TaylorMade REAX 85/75/65/55 (Qi4D Rescue)"
+    material: graphite
+    flex: ["X", "S", "R", "A"]
+  - name: "KBS REAX HL 50 (Max Rescue)"
+    material: graphite
+related_models:
+  - slug: "taylormade/qi4d-driver"
+    label: "Same family: TaylorMade Qi4D drivers"
+  - slug: "taylormade/qi4d-fairway-wood"
+    label: "Same family: TaylorMade Qi4D fairway woods"
+  - slug: "taylormade/qi35-hybrid"
+    label: "Predecessor: TaylorMade Qi35 Rescues"
+sources:
+  - "TGW Qi4D Rescue listing (17 RH-only/19/22/25 lofts, lengths 41.25-39.75 in, D2, 3° sleeve plus 8 g TAS weight, REAX 85/75/65/55 shafts), https://www.tgw.com/p/taylormade-qi4d-rescue/-/YT0xMDEzMzQ3, accessed October 2026"
+  - "GlobalGolf Qi4D Max Rescue listing (20/23/26 RH-LH and 30/34 RH lofts, lies 59-61°, lengths 40.75-38.75 in, D2, KBS REAX HL 50, TAS weight only), https://www.globalgolf.com/golf-clubs/1088669-taylormade-qi4d-max-rescue-hybrid/, accessed October 2026"
+  - "Golf Digest Qi4D fairway and hybrid equipment rundown (all three Rescue models $299.99, Max Lite Rescue 23/26/30/34 with 30 and 34 RH-only, pre-order 8 January and retail 29 January 2026), https://www.golfdigest.com/story/taylormade-qi4d-fairway-wood-hybrids-equipment-rundown, accessed October 2026"
+  - "Irish Golfer Qi4D hybrid first look (450 steel body with carbon crown, line-up and gapping positioning), https://irishgolfer.ie/gear/2026/01/09/first-look-at-the-new-line-of-taylormade-qi4d-hybrids-a-gapping-option-not-to-be-forgtten, accessed October 2026"
+faq:
+  - q: "What lofts do the TaylorMade Qi4D Rescues come in?"
+    a: "The core Qi4D Rescue comes in 17, 19, 22 and 25 degrees; the Qi4D Max Rescue in 20, 23, 26, 30 and 34; and the Qi4D Max Lite Rescue in 23, 26, 30 and 34."
+  - q: "Is the TaylorMade Qi4D Rescue adjustable?"
+    a: "The core Qi4D Rescue is — it carries a 3 degree loft sleeve (1.5 degrees each way) plus an 8 gram TAS sole weight. The Max and Max Lite Rescues are bonded and adjust only through the TAS weight."
+  - q: "What is the difference between the Qi4D Rescue and the Qi4D Max Rescue?"
+    a: "The core Rescue is the more compact, adjustable head in 17-25 degrees. The Max is the bonded high-MOI head sold about one club number weaker at each loft and extending to a 34 degree 7-Rescue, with the Max Lite repeating that shape in a lighter build."
+confidence: high

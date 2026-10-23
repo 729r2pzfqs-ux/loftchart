@@ -1,0 +1,97 @@
+brand: Mizuno
+brand_slug: mizuno
+model: JPX One
+slug: jpx-one-fairway-wood
+club_type: fairway_wood
+year_introduced: 2026
+year_discontinued: null
+category: flagship
+current_as_of: "2026-10"
+construction: steel body with carbon crown and Mizuno's CORTECH Chamber sole weighting
+material: high-strength steel face with a thin, consistent-thickness design
+predecessor: Mizuno ST-MAX 230
+successor: null
+description: >
+  The JPX One fairway woods launched in early 2026 with the JPX One drivers
+  and hybrids, retiring the ST metalwood naming and folding Mizuno's woods
+  back under the JPX banner. The line is a single head design in five
+  fittings — a compact 3T tour 3-wood with a flatter lie alongside the
+  standard 15°, 18°, 21° and 24° heads — each carrying Mizuno's Quick Switch
+  adjustable hosel with ±2° of loft movement. US pricing sits at $350 per
+  club with Tensei 1K and Project X Denali Blue Frost stock shaft options.
+variants:
+  - name: JPX One
+    description: >
+      The standard fairway head in four lofts from a 15° 3-wood to a 24°
+      9-wood, each with the Quick Switch hosel.
+  - name: JPX One 3T
+    description: >
+      The compact tour fitting of the 3-wood: the same 15° loft in a smaller
+      head with a lie a full degree flatter than the standard 3-wood.
+specs:
+  - variant: JPX One 3T
+    loft: 15.0
+    lie: 58.5
+    length: 43.25
+  - variant: JPX One
+    loft: 15.0
+    lie: 59.5
+    length: 43.25
+  - variant: JPX One
+    loft: 18.0
+    lie: 60.0
+    length: 42.75
+  - variant: JPX One
+    loft: 21.0
+    lie: 60.5
+    length: 42.25
+  - variant: JPX One
+    loft: 24.0
+    lie: 61.0
+    length: 41.75
+hosel:
+  system: "Quick Switch"
+  loft_range: "±2°"
+  lie_effect: >
+    Mizuno's published ranges run from the stated lie upward — the upright
+    positions add up to 3° of lie.
+  face_note: >
+    Lowering loft opens the face and raising it closes it, as on any
+    hosel-based adjuster.
+  notes: >
+    Mizuno publishes the Quick Switch range per head — a 15° head plays
+    13-17°, an 18° head 16-20°, and so on — but does not publish a
+    position-by-position chart online, so none is reproduced here. The two
+    15° rows are the 3T (58.5° lie, the compact tour fitting) and the
+    standard 3-wood (59.5° lie); both play the same stamped loft.
+stock_shafts:
+  - name: "Mitsubishi Tensei 1K Blue 65"
+    material: graphite
+    flex: ["R", "S"]
+  - name: "Project X Denali Blue Frost 60"
+    material: graphite
+    flex: ["R", "S"]
+  - name: "Mitsubishi Tensei 1K Black 75"
+    material: graphite
+    flex: ["S"]
+related_models:
+  - slug: "mizuno/jpx-one-driver"
+    label: "Same family: Mizuno JPX One drivers"
+  - slug: "mizuno/jpx-one-hybrid"
+    label: "Same family: Mizuno JPX One hybrids"
+  - slug: "mizuno/st-max-230-fairway-wood"
+    label: "Predecessor: Mizuno ST-MAX 230 fairway woods"
+sources:
+  - "GolfBox JPX One fairway spec table (3T 15/58.5, 3 15/59.5, 5 18/60, 7 21/60.5, 9 24/61, lengths 43.25-41.75 in, Tensei 1K Blue 65 / Denali Blue Frost 60 / Tensei 1K Black 75), https://www.golfbox.com.au/clubs/mizuno-jpx-one-fairway-wood/, accessed October 2026"
+  - "Golf Digest JPX One fairway and hybrid what-you-need-to-know (five fairway fittings including the 3T, eight-way adjustable hosel at ±2°, $350), https://www.golfdigest.com/story/mizuno-jpx-one-fairway-woods--hybrids--what-you-need-to-know, accessed October 2026"
+  - "GolfWRX JPX One metalwoods launch coverage, early 2026 (JPX One replaces the ST-MAX 230 era woods), https://golfwrx.com/771022/mizuno-unveils-new-jpx-one-drivers-fairway-woods-and-hybrids/, accessed October 2026"
+faq:
+  - q: "What lofts do the Mizuno JPX One fairway woods come in?"
+    a: "Five fittings: a compact 15 degree 3T, a standard 15 degree 3-wood, an 18 degree 5-wood, a 21 degree 7-wood and a 24 degree 9-wood."
+  - q: "Is the Mizuno JPX One fairway wood adjustable?"
+    a: "Yes — every head carries Mizuno's Quick Switch hosel with plus or minus 2 degrees of loft and upright lie settings to 3 degrees. Mizuno publishes the range per head rather than a position-by-position chart."
+  - q: "What is the difference between the JPX One 3T and the standard 3-wood?"
+    a: "Both are 15 degrees, but the 3T is the compact tour fitting with a lie a full degree flatter (58.5 versus 59.5 degrees) for players who want a smaller, more workable head."
+  - q: "What replaced the Mizuno ST-MAX 230 fairway woods?"
+    a: "These — the JPX One fairways replaced the ST-MAX 230 line in early 2026 as Mizuno moved its metalwoods under the JPX One name."
+confidence: high

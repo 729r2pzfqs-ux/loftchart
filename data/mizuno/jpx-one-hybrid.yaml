@@ -1,0 +1,82 @@
+brand: Mizuno
+brand_slug: mizuno
+model: JPX One
+slug: jpx-one-hybrid
+club_type: hybrid
+year_introduced: 2026
+year_discontinued: null
+category: flagship
+current_as_of: "2026-10"
+construction: compact iron-replacement steel body with low sole weighting
+material: high-strength steel face at a constant 1.8 mm thickness
+predecessor: Mizuno ST-MAX 230
+successor: null
+description: >
+  The JPX One hybrids launched in early 2026 with the JPX One drivers and
+  fairways, replacing the ST-MAX 230 hybrids as Mizuno folded its metalwoods
+  back under the JPX name. The single head is a compact, iron-replacement
+  shape with a constant 1.8 mm face thickness, in four lofts from a 19°
+  3-hybrid to a 28° 6-hybrid, each carrying the Quick Switch adjustable
+  hosel with ±2° of loft movement. US pricing sits at $280 per club.
+variants:
+  - name: JPX One
+    description: >
+      The single compact hybrid head in four lofts, built as an iron
+      replacement with more upright, iron-like lies and the Quick Switch
+      hosel on every head. The 19° and 28° heads are right-hand only.
+specs:
+  - variant: JPX One
+    loft: 19.0
+    lie: 60.0
+    length: 40.75
+  - variant: JPX One
+    loft: 22.0
+    lie: 60.5
+    length: 40.25
+  - variant: JPX One
+    loft: 25.0
+    lie: 61.0
+    length: 39.75
+  - variant: JPX One
+    loft: 28.0
+    lie: 61.5
+    length: 39.25
+hosel:
+  system: "Quick Switch"
+  loft_range: "±2°"
+  lie_effect: >
+    Mizuno's published ranges run from the stated lie upward — the upright
+    positions add up to 3° of lie.
+  face_note: >
+    Lowering loft opens the face and raising it closes it, as on any
+    hosel-based adjuster.
+  notes: >
+    Mizuno publishes the Quick Switch range per head — the 19° head plays
+    17-21°, the 28° head 26-30° — but does not publish a
+    position-by-position chart online, so none is reproduced here.
+stock_shafts:
+  - name: "Mitsubishi Tensei 1K Blue"
+    material: graphite
+    flex: ["R", "S"]
+  - name: "Project X Denali Blue Frost"
+    material: graphite
+    flex: ["R", "S"]
+related_models:
+  - slug: "mizuno/jpx-one-driver"
+    label: "Same family: Mizuno JPX One drivers"
+  - slug: "mizuno/jpx-one-fairway-wood"
+    label: "Same family: Mizuno JPX One fairway woods"
+  - slug: "mizuno/st-max-230-hybrid"
+    label: "Predecessor: Mizuno ST-MAX 230 hybrids"
+sources:
+  - "Dormy JPX One hybrid spec table (19/22/25/28 lofts, lies 60-61.5°, lengths 40.75-39.25 in, hand availability, Tensei 1K Blue and Denali Blue Frost stock shafts), https://www.dormy.com/en/brands/mizuno/jpx-one-02001a0a6, accessed October 2026"
+  - "Golf Digest JPX One fairway and hybrid what-you-need-to-know (compact iron-replacement shape, 1.8 mm constant face thickness, ±2° adjustable hosel, $280), https://www.golfdigest.com/story/mizuno-jpx-one-fairway-woods--hybrids--what-you-need-to-know, accessed October 2026"
+  - "GolfWRX JPX One metalwoods launch coverage, early 2026 (JPX One replaces the ST-MAX 230 era woods), https://golfwrx.com/771022/mizuno-unveils-new-jpx-one-drivers-fairway-woods-and-hybrids/, accessed October 2026"
+faq:
+  - q: "What lofts does the Mizuno JPX One hybrid come in?"
+    a: "Four lofts: 19, 22, 25 and 28 degrees — the 3-hybrid through 6-hybrid. The 22 and 25 degree heads come in both hands."
+  - q: "Is the Mizuno JPX One hybrid adjustable?"
+    a: "Yes — every loft carries Mizuno's Quick Switch hosel with plus or minus 2 degrees of loft and upright lie settings to 3 degrees. Mizuno publishes the range per head rather than a position-by-position chart."
+  - q: "What replaced the Mizuno ST-MAX 230 hybrid?"
+    a: "This one — the JPX One hybrid replaced the ST-MAX 230 hybrid in early 2026, moving to a more compact, iron-replacement shape with iron-like lies."
+confidence: high

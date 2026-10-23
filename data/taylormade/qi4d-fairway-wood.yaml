@@ -1,0 +1,167 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: Qi4D
+slug: qi4d-fairway-wood
+club_type: fairway_wood
+year_introduced: 2026
+year_discontinued: null
+category: flagship
+current_as_of: "2026-10"
+construction: multi-material chassis with carbon crown over a steel body and an 8 g front TAS weight (tri-weight sole on the Tour)
+material: 4D Carbon Face-era construction carried over from the Qi4D drivers, with steel fairway faces
+predecessor: TaylorMade Qi35
+successor: null
+description: >
+  The Qi4D fairway woods launched with the Qi4D drivers — pre-orders opened
+  on 8 January 2026 and retail followed on 29 January — replacing the Qi35
+  line after one season. The loft sleeve spreads even further than on the
+  Qi35: every loft of the core Qi4D and the Qi4D Tour carries the 4° sleeve,
+  including the 24° 9-wood, and every head adds an 8 g Trajectory Adjustment
+  System (TAS) sole weight. The core Qi4D is the mid-launch all-rounder in
+  five lofts, the compact Qi4D Tour adds a tri-weight sole for shape tuning,
+  and the oversize Qi4D Max and lighter-built Qi4D Max Lite keep the sleeve
+  on their 3- and 5-woods with bonded 7- and 9-woods. A women's Max Lite
+  build rounds out the family.
+variants:
+  - name: Qi4D
+    description: >
+      The core head for most players: mid-high launch, a fairly compact 185 cc
+      3-wood stepping down to 155 cc at the 9-wood, the 4° loft sleeve on all
+      five lofts and the 8 g TAS front weight. The 16.5° 3HL and 24° 9-wood
+      are right-hand only.
+  - name: Qi4D Tour
+    description: >
+      The compact precision head — 170 cc in the 3-wood, 150 cc in the 5- and
+      7-woods — with a tri-weight sole for flight and bias tuning, the loft
+      sleeve on all three lofts and heavier REAX FW 75/65 stock shafts. The
+      21° 7-wood is right-hand only.
+  - name: Qi4D Max
+    description: >
+      The oversize high-MOI head — about 200 cc in the 3-wood — for easy
+      launch and stability, at a lighter D2 swing weight. The 3- and 5-woods
+      carry the loft sleeve; the 21° and 24° heads are bonded, and the 9-wood
+      is right-hand only.
+  - name: Qi4D Max Lite
+    description: >
+      The Max geometry in a build up to 21 g lighter — lighter head, 45 g
+      class REAX FW 45 shaft and a 44 g grip at a D0 swing weight — for
+      moderate swing speeds, in the same four lofts with the sleeve on the
+      3- and 5-woods. A women's version is also offered.
+specs:
+  - variant: Qi4D
+    loft: 15.0
+    length: 43.25
+  - variant: Qi4D
+    loft: 16.5
+    length: 43.25
+  - variant: Qi4D
+    loft: 18.0
+    length: 42.25
+  - variant: Qi4D
+    loft: 21.0
+    length: 41.75
+  - variant: Qi4D
+    loft: 24.0
+    length: 41.25
+  - variant: Qi4D Tour
+    loft: 15.0
+    length: 43.25
+  - variant: Qi4D Tour
+    loft: 18.0
+    length: 42.25
+  - variant: Qi4D Tour
+    loft: 21.0
+    length: 41.75
+  - variant: Qi4D Max
+    loft: 15.0
+    length: 43.25
+  - variant: Qi4D Max
+    loft: 18.0
+    length: 42.25
+  - variant: Qi4D Max
+    loft: 21.0
+    lie: 60.0
+    length: 41.75
+  - variant: Qi4D Max
+    loft: 24.0
+    lie: 60.5
+    length: 41.25
+  - variant: Qi4D Max Lite
+    loft: 15.0
+    length: 43.25
+  - variant: Qi4D Max Lite
+    loft: 18.0
+    length: 42.25
+  - variant: Qi4D Max Lite
+    loft: 21.0
+    length: 41.75
+  - variant: Qi4D Max Lite
+    loft: 24.0
+    length: 41.25
+hosel:
+  system: "4° Loft Sleeve"
+  loft_range: "±2°"
+  positions: 12
+  lie_effect: >
+    There is no flat setting — lie only moves upright, up to 4° at the UPRT
+    position, and the loft settings themselves add up to 2° of upright lie.
+  face_note: >
+    Lowering loft opens the face and raising it closes it: about 1.5° per
+    0.75° notch, up to 4° at the full ±2° setting.
+  notes: >
+    TaylorMade publishes one sleeve chart for its metalwoods, so the table
+    matches the Qi4D driver chart. The sleeve reaches further down the line
+    than ever: every core Qi4D and Qi4D Tour loft carries it, including the
+    9-woods, while on the Max and Max Lite only the 3- and 5-woods are
+    sleeved and the 21° and 24° heads are bonded. TaylorMade publishes lie
+    on the sleeved heads as an adjustable range (56-60° on the 3-wood,
+    rising by number) rather than a single figure, so those rows carry no
+    lie column.
+  settings:
+    - { setting: "STD LOFT", loft: "std", lie: "std", face: "square" }
+    - { setting: "STD +1 notch", loft: "+0.75°", lie: "0.5° upright", face: "1.5° closed" }
+    - { setting: "STD +2 notches", loft: "+1.5°", lie: "1.25° upright", face: "3° closed" }
+    - { setting: "HIGHER", loft: "+2°", lie: "2° upright", face: "4° closed" }
+    - { setting: "HIGHER / UPRT", loft: "+1.5°", lie: "2.75° upright", face: "3° closed" }
+    - { setting: "UPRT +1 notch", loft: "+0.75°", lie: "3.5° upright", face: "1.5° closed" }
+    - { setting: "UPRT", loft: "std", lie: "4° upright", face: "square" }
+    - { setting: "UPRT −1 notch", loft: "−0.75°", lie: "3.5° upright", face: "1.5° open" }
+    - { setting: "LOWER / UPRT", loft: "−1.5°", lie: "2.75° upright", face: "3° open" }
+    - { setting: "LOWER", loft: "−2°", lie: "2° upright", face: "4° open" }
+    - { setting: "STD −2 notches", loft: "−1.5°", lie: "1.25° upright", face: "3° open" }
+    - { setting: "STD −1 notch", loft: "−0.75°", lie: "0.5° upright", face: "1.5° open" }
+stock_shafts:
+  - name: "TaylorMade REAX FW 65/55 (Qi4D)"
+    material: graphite
+    flex: ["X", "S", "R", "A"]
+  - name: "TaylorMade REAX FW 75/65 (Tour)"
+    material: graphite
+    flex: ["X", "S", "R"]
+  - name: "TaylorMade REAX FW 55 (Max)"
+    material: graphite
+    flex: ["S", "R", "A"]
+  - name: "TaylorMade REAX FW 45 (Max Lite)"
+    material: graphite
+    flex: ["R", "A"]
+related_models:
+  - slug: "taylormade/qi4d-driver"
+    label: "Same family: TaylorMade Qi4D drivers"
+  - slug: "taylormade/qi4d-hybrid"
+    label: "Same family: TaylorMade Qi4D Rescues"
+  - slug: "taylormade/qi35-fairway-wood"
+    label: "Predecessor: TaylorMade Qi35 fairway woods"
+sources:
+  - "Golf Discount Qi4D fairway listings (core 15/16.5/18/21/24 with 185-155 cc, lengths 43.25-41.25 in, D3, REAX FW 65/55, lie ranges 56-61°; Tour 15/18/21 at 170/150/150 cc, D3, REAX FW 75/65; Max 15/18/21/24 at 200-170 cc, D2, REAX FW 55, sleeve on 3W/5W only, 21° lie 60° and 24° lie 60.5°), https://www.golfdiscount.com/products/taylormade-qi4d-fairway-wood-2026, accessed October 2026"
+  - "Golfalot Qi4D fairway wood review (retail 29 January 2026, £319 RRP, 185 cc 3-wood, 4° sleeve down to the 9-wood, 8 g front weight), https://golfalot.com/equipment-review/taylormade-qi4d-fairway-wood-review, accessed October 2026"
+  - "Fairways Golf / Today's Golfer Qi4D launch coverage (sleeve on all core and Tour lofts, Max Lite up to 21 g lighter with REAX FW 45 and 44 g grip at D0, Tour $449.99), https://fairwaysgolf.ca/?p=19365, accessed October 2026"
+  - "Note: TaylorMade publishes lie on sleeved heads as a range (e.g. 56-60° on the 3-wood), so only the bonded Max 21° and 24° heads carry a lie figure."
+faq:
+  - q: "What lofts do the TaylorMade Qi4D fairway woods come in?"
+    a: "The core Qi4D comes in 15, 16.5, 18, 21 and 24 degrees; the Qi4D Tour in 15, 18 and 21; and the Qi4D Max and Max Lite in 15, 18, 21 and 24."
+  - q: "Are the Qi4D fairway woods adjustable?"
+    a: "More than any TaylorMade line before them. Every core Qi4D and Qi4D Tour loft carries the 4 degree loft sleeve — including the 9-woods — and every head has an 8 gram TAS sole weight. On the Max and Max Lite the sleeve is on the 3- and 5-woods, with the 21 and 24 degree heads bonded."
+  - q: "What is the difference between the Qi4D and Qi4D Tour fairway woods?"
+    a: "The Tour is a more compact head with a tri-weight sole for flight and shape tuning and heavier REAX FW 75/65 stock shafts, aimed at faster players. The core Qi4D is the larger-footprint all-rounder with a single 8 gram front weight."
+  - q: "What replaced the TaylorMade Qi35 fairway woods?"
+    a: "These — the Qi4D fairways replaced the Qi35 line in January 2026, with pre-orders from 8 January and retail from 29 January."
+confidence: high

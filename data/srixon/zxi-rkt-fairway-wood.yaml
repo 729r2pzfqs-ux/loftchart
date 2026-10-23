@@ -1,0 +1,98 @@
+brand: Srixon
+brand_slug: srixon
+model: ZXi RKT
+slug: zxi-rkt-fairway-wood
+club_type: fairway_wood
+year_introduced: 2026
+year_discontinued: null
+category: flagship
+current_as_of: "2026-10"
+construction: steel body with Rebound Frame flex zones, an adjustable sole weight and the QTS hosel sleeve
+material: VR-Titanium face with Srixon's i-FLEX variable thickness pattern
+predecessor: Srixon ZXi
+successor: null
+description: >
+  The ZXi RKT fairway woods reached retail on 16 October 2026 with the ZXi
+  RKT drivers and hybrids, replacing the ZXi woods after less than two
+  seasons. The headline change is the face: a new VR-Titanium alloy with the
+  i-FLEX milled pattern, which Srixon pairs with revised acoustics and — new
+  to its fairways — an adjustable sole weight (10 g stock, swappable from
+  2 g to 16 g) alongside the 12-position QTS 1.5 hosel sleeve. Four lofts run
+  from a 13.5° 3+ wood to a 21° 7-wood, with slightly smaller heads than the
+  outgoing ZXi and the Kai'li Dark Waves Blue as the stock shaft.
+variants:
+  - name: ZXi RKT
+    description: >
+      The single fairway head in four lofts, 181 cc in the 3-woods stepping
+      to 142 cc at the 7-wood, each with the QTS sleeve and the adjustable
+      sole weight. The 13.5° 3+ is right-hand only; the 15° and 18° heads
+      come in both hands.
+specs:
+  - variant: ZXi RKT
+    loft: 13.5
+    lie: 58.0
+    length: 43.25
+  - variant: ZXi RKT
+    loft: 15.0
+    lie: 58.0
+    length: 43.25
+  - variant: ZXi RKT
+    loft: 18.0
+    lie: 58.5
+    length: 42.75
+  - variant: ZXi RKT
+    loft: 21.0
+    lie: 59.0
+    length: 42.25
+hosel:
+  system: "QTS 1.5 sleeve"
+  loft_range: "±1.5°"
+  positions: 12
+  lie_effect: >
+    Every position other than standard also flattens lie, from 0.5° to 3°
+    flat; there is no upright setting.
+  face_note: >
+    Face angle moves up to 3° closed on the loft-up side and 3° open on the
+    loft-down side.
+  notes: >
+    The chart is Srixon's official hosel sleeve adjustability guide, shared
+    across the ZXi and ZXi RKT woods. "FL" marks the flat-lie variants of
+    each loft setting. Each head also takes Srixon's screw-in sole weight —
+    10 g stock, with 2/4/6/8/12/14/16 g options via the ZXi weight kit — for
+    swing weight and flight tuning.
+  settings:
+    - { setting: "STD", loft: "std", lie: "std", face: "square" }
+    - { setting: "+0.5°", loft: "+0.5°", lie: "0.5° flat", face: "1° closed" }
+    - { setting: "+1°", loft: "+1°", lie: "1° flat", face: "2° closed" }
+    - { setting: "+1.5°", loft: "+1.5°", lie: "1.5° flat", face: "3° closed" }
+    - { setting: "+1° FL", loft: "+1°", lie: "2° flat", face: "2° closed" }
+    - { setting: "+0.5° FL", loft: "+0.5°", lie: "2.5° flat", face: "1° closed" }
+    - { setting: "STD FL", loft: "std", lie: "3° flat", face: "square" }
+    - { setting: "−0.5° FL", loft: "−0.5°", lie: "2.5° flat", face: "1° open" }
+    - { setting: "−1° FL", loft: "−1°", lie: "2° flat", face: "2° open" }
+    - { setting: "−1.5°", loft: "−1.5°", lie: "1.5° flat", face: "3° open" }
+    - { setting: "−1°", loft: "−1°", lie: "1° flat", face: "2° open" }
+    - { setting: "−0.5°", loft: "−0.5°", lie: "0.5° flat", face: "1° open" }
+stock_shafts:
+  - name: "Mitsubishi Kai'li Dark Waves Blue 60"
+    material: graphite
+    flex: ["X", "S", "R", "R2"]
+related_models:
+  - slug: "srixon/zxi-rkt-driver"
+    label: "Same family: Srixon ZXi RKT drivers"
+  - slug: "srixon/zxi-rkt-hybrid"
+    label: "Same family: Srixon ZXi RKT hybrids"
+  - slug: "srixon/zxi-fairway-wood"
+    label: "Predecessor: Srixon ZXi fairway woods"
+sources:
+  - "Srixon / Dunlop Sports official ZXi RKT fairway spec page (13.5/15/18/21 lofts, lies 58-59°, lengths 43.25-42.25 in, 181-142 cc, D3/D1 by flex, Kai'li Dark Waves Blue 60, hand availability), https://us.dunlopsports.com/srixon/clubs/fairway-woods/zxi-rkt-fairway/zxi-rkt-fairway-woods/MZXIRKTFWY.html, accessed October 2026"
+  - "GolfWRX ZXi RKT woods launch coverage, October 2026 (VR-Titanium i-FLEX face, acoustic work, adjustable sole weight plus QTS sleeve), https://golfwrx.com/786772/srixon-introduces-all-new-zxi-rkt-woods-with-face-and-acoustic-advancements/, accessed October 2026"
+  - "MyGolfSpy ZXi RKT fairways and hybrids launch coverage, October 2026 (retail 16 October 2026), https://mygolfspy.com/news-opinion/can-srixons-new-zxi-rkt-fairways-and-hybrids-get-your-attention/, accessed October 2026"
+faq:
+  - q: "What lofts do the Srixon ZXi RKT fairway woods come in?"
+    a: "Four lofts: a 13.5 degree 3+ wood, a 15 degree 3-wood, an 18 degree 5-wood and a 21 degree 7-wood. The 3+ is right-hand only; the 15 and 18 come in both hands."
+  - q: "Are the Srixon ZXi RKT fairway woods adjustable?"
+    a: "Doubly so — every head carries the 12-position QTS 1.5 sleeve (plus or minus 1.5 degrees of loft with flat-lie options to 3 degrees) and, new for this generation, a screw-in sole weight swappable from 2 to 16 grams around the stock 10 gram weight."
+  - q: "What is new on the ZXi RKT fairway woods versus the ZXi?"
+    a: "A new VR-Titanium face alloy with the i-FLEX milled pattern, revised sound, slightly smaller heads and the adjustable sole weight. They replaced the ZXi fairways at retail on 16 October 2026."
+confidence: high

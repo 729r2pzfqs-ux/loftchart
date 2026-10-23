@@ -1,0 +1,181 @@
+brand: Callaway
+brand_slug: callaway
+model: Quantum
+slug: quantum-fairway-wood
+club_type: fairway_wood
+year_introduced: 2026
+year_discontinued: null
+category: flagship
+current_as_of: "2026-10"
+construction: steel bodies with carbon crowns, a 40 g forward tungsten Speed Wave 2.0 weight and a new Step Sole; full titanium body on the Quantum Ti
+material: AI-optimised forged faces; titanium face and body on the Quantum Ti
+predecessor: Callaway Elyte
+successor: null
+description: >
+  The Quantum fairway woods reached retail on 13 February 2026 with the
+  Quantum hybrids, replacing the Elyte line. Callaway moved its tungsten
+  Speed Wave weight to a heavier 40 g second-generation version, added a
+  Step Sole for turf interaction, and swapped the two-cog OptiFit for the
+  new multi-cog OptiFit 4 hosel on the adjustable heads. Five models cover
+  the range: the core Quantum Max in seven lofts including the 20°
+  Heavenwood, the draw-biased Quantum Max D, the ultralight Quantum Max
+  Fast, the compact Quantum Triple Diamond tour head, and the premium
+  full-titanium Quantum Ti.
+variants:
+  - name: Quantum Max
+    description: >
+      The core head for easy, high launch and forgiveness, in seven lofts
+      from a 160 cc 3-wood to a 125 cc 11-wood, including the 20°
+      Heavenwood. The 3-wood, 3HL and 5-wood carry the OptiFit 4 hosel; the
+      rest are bonded. The 3HL, Heavenwood, 9-wood and 11-wood are
+      right-hand only.
+  - name: Quantum Max D
+    description: >
+      The draw-biased forgiveness head on a larger 190 cc 3-wood footprint
+      with more upright lies. Four lofts, with the OptiFit 4 hosel on all
+      but the bonded 21.5° 7-wood; the 3HL and 7-wood are right-hand only.
+  - name: Quantum Max Fast
+    description: >
+      The lightest build in the line for moderate swing speeds — 40 g class
+      Vanquish stock shaft and a shallow, high-MOI head — in four
+      half-club-weak lofts from 16°, right-hand only, with the hosel on the
+      3- and 5-woods. A women's Eldio-shafted build is also offered.
+  - name: Quantum Triple Diamond
+    description: >
+      The compact tour head with flat 55-56° lies and a deeper face, in
+      three lofts with the hosel on the 15° and 18° heads; the 21° 7-wood is
+      bonded and right-hand only.
+  - name: Quantum Ti
+    description: >
+      The premium full-titanium model with heel-toe weight adjustability on
+      top of the OptiFit 4 hosel, in 15° and 18° (the 5-wood left-handed by
+      custom order only).
+specs:
+  - variant: Quantum Max
+    loft: 15.0
+    lie: 57.0
+    length: 43.25
+  - variant: Quantum Max
+    loft: 16.5
+    lie: 57.0
+    length: 43.25
+  - variant: Quantum Max
+    loft: 18.0
+    lie: 57.5
+    length: 42.75
+  - variant: Quantum Max
+    loft: 20.0
+    lie: 57.5
+    length: 43.0
+  - variant: Quantum Max
+    loft: 21.0
+    lie: 58.0
+    length: 42.25
+  - variant: Quantum Max
+    loft: 24.0
+    lie: 59.0
+    length: 41.75
+  - variant: Quantum Max
+    loft: 27.0
+    lie: 60.0
+    length: 41.25
+  - variant: Quantum Max D
+    loft: 15.0
+    lie: 58.0
+    length: 43.25
+  - variant: Quantum Max D
+    loft: 16.5
+    lie: 58.0
+    length: 43.25
+  - variant: Quantum Max D
+    loft: 18.0
+    lie: 58.5
+    length: 42.75
+  - variant: Quantum Max D
+    loft: 21.5
+    lie: 59.0
+    length: 42.25
+  - variant: Quantum Max Fast
+    loft: 16.0
+    lie: 58.0
+    length: 43.25
+  - variant: Quantum Max Fast
+    loft: 19.0
+    lie: 58.5
+    length: 42.75
+  - variant: Quantum Max Fast
+    loft: 22.0
+    lie: 59.0
+    length: 42.25
+  - variant: Quantum Max Fast
+    loft: 25.0
+    lie: 59.5
+    length: 41.75
+  - variant: Quantum Triple Diamond
+    loft: 15.0
+    lie: 55.0
+    length: 43.25
+  - variant: Quantum Triple Diamond
+    loft: 18.0
+    lie: 55.5
+    length: 42.75
+  - variant: Quantum Triple Diamond
+    loft: 21.0
+    lie: 56.0
+    length: 42.25
+  - variant: Quantum Ti
+    loft: 15.0
+    lie: 56.0
+    length: 43.25
+  - variant: Quantum Ti
+    loft: 18.0
+    lie: 56.5
+    length: 42.75
+hosel:
+  system: "OptiFit 4"
+  loft_range: "7 loft/lie configurations"
+  notes: >
+    OptiFit 4 replaces the long-running two-cog OptiFit on the Quantum
+    woods: a multi-cog system whose two rotating cogs each have three
+    settings (+, − and neutral), giving seven unique loft and lie
+    configurations with independent loft and lie movement — including, for
+    the first time on a Callaway fairway, flat as well as upright lie
+    settings of up to 2°. Callaway publishes the system as +/− markings
+    rather than a degree-by-degree chart, so no settings table is
+    reproduced here. Only the heads marked adjustable carry the hosel
+    (generally the 3-wood, 3HL and 5-wood of each model); higher lofts are
+    bonded.
+stock_shafts:
+  - name: "Project X Denali Frost Silver 50/60 (Max)"
+    material: graphite
+    flex: ["R", "S", "X"]
+  - name: "Project X Denali Frost Silver 60/70 (Max D, Ti)"
+    material: graphite
+    flex: ["R", "S", "X"]
+  - name: "Mitsubishi Vanquish 40 (Max Fast)"
+    material: graphite
+    flex: ["R2"]
+  - name: "Fujikura Ventus Black/Charcoal 70 (Triple Diamond)"
+    material: graphite
+related_models:
+  - slug: "callaway/quantum-driver"
+    label: "Same family: Callaway Quantum drivers"
+  - slug: "callaway/quantum-hybrid"
+    label: "Same family: Callaway Quantum hybrids"
+  - slug: "callaway/elyte-fairway-wood"
+    label: "Predecessor: Callaway Elyte fairway woods"
+sources:
+  - "Callaway Golf Pre-Owned Quantum Max fairway spec table (15/16.5/18/20/21/24/27 lofts, lies 57-60°, lengths 43.25-41.25 in, 160-125 cc, OptiFit 4 on 3W/3HL/5W), https://prodpwa.callawaygolfpreowned.com/fairway-woods/fwoods-2026-quantum-max.html, accessed October 2026"
+  - "Callaway.com Quantum Max D and Quantum Triple Diamond fairway spec pages (Max D 15/16.5/18/21.5 with 58-59° lies and 190-165 cc; Triple Diamond 15/18/21 with 55-56° lies, 160-140 cc, $399.99), https://www.callawaygolf.com/golf-clubs/fairway-woods/fwoods-2026-quantum-triple-diamond.html, accessed October 2026"
+  - "Golf Discount Quantum Ti and Quantum Max Fast listings (Ti 15/18 with 56-56.5° lies, 170/155 cc, Denali Frost Silver 60/70, heel-toe weights; Max Fast 16/19/22/25 with 58-59.5° lies, 170-140 cc, Vanquish 40 R2, RH only), https://www.golfdiscount.com/products/callaway-quantum-ti-fairway-wood-2026, accessed October 2026"
+  - "GolfWRX and Today's Golfer Quantum fairway/hybrid launch coverage, February 2026 (retail 13 February, Speed Wave 2.0 40 g tungsten, Step Sole, OptiFit 4 with seven configurations and 2° upright/flat lie), https://golfwrx.com/771775/callaway-unveils-new-quantum-fairway-woods-and-hybrids/, accessed October 2026"
+faq:
+  - q: "What lofts do the Callaway Quantum fairway woods come in?"
+    a: "The Quantum Max comes in 15, 16.5, 18, 21, 24 and 27 degrees plus the 20 degree Heavenwood; the Max D in 15, 16.5, 18 and 21.5; the Max Fast in 16, 19, 22 and 25; the Triple Diamond in 15, 18 and 21; and the Quantum Ti in 15 and 18."
+  - q: "Are the Callaway Quantum fairway woods adjustable?"
+    a: "The lower lofts are. The 3-wood, 3HL and 5-wood heads carry the new OptiFit 4 hosel — seven loft and lie configurations with up to 2 degrees of upright or flat lie — while the higher lofts are bonded. The Quantum Ti adds heel-toe weight adjustability."
+  - q: "What is the difference between the Quantum Max and Quantum Triple Diamond fairway woods?"
+    a: "The Max is the high-launch forgiveness head in seven lofts with 57-60 degree lies. The Triple Diamond is the compact tour head with a deeper face, much flatter 55-56 degree lies and a Ventus Black stock shaft, in three lofts."
+  - q: "What replaced the Callaway Elyte fairway woods?"
+    a: "These — the Quantum fairway woods replaced the Elyte line at retail on 13 February 2026."
+confidence: high

@@ -1,0 +1,131 @@
+brand: Titleist
+brand_slug: titleist
+model: GTS
+slug: gts-fairway-wood
+club_type: fairway_wood
+year_introduced: 2026
+year_discontinued: null
+category: flagship
+current_as_of: "2026-10"
+construction: steel bodies under a wraparound composite crown, with a dual heel-toe sole weighting system
+material: forged L-Cup face; wraparound thermoform composite crown freeing about 16 g of discretionary weight
+predecessor: Titleist GT
+successor: null
+description: >
+  The GTS fairway metals reached retail on 11 June 2026, replacing the GT
+  fairways about ten months after the GTS drivers' debut cycle began. The
+  crown composite now wraps around the body, and for the first time on a
+  core Titleist fairway both heads carry a dual heel-toe sole weighting
+  system of swappable flat weights for strike and shape bias. The GTS2 is
+  the larger, shallower-faced head for sweepers, in five lofts from a 13.5°
+  strong 3-wood (the one taller-faced head in the line); the GTS3 is the
+  compact, deeper-faced player's head for steeper deliveries, and gains a
+  21° 7-wood the GT3 never had. Every head keeps the 16-setting SureFit
+  hosel. No GTS hybrid exists — the GT hybrids carry on as Titleist's
+  current hybrid line.
+variants:
+  - name: GTS2
+    description: >
+      The core head for most players: a larger profile with a shallower face
+      in every loft except the taller-faced 13.5°, for players who sweep the
+      ball off the turf. Five lofts, right- and left-handed.
+  - name: GTS3
+    description: >
+      The compact player's head with a deeper face for steeper angles of
+      attack, in four lofts including a new 21° 7-wood. Left-handed stock in
+      15° with the other lofts custom-order.
+specs:
+  - variant: GTS2
+    loft: 13.5
+    lie: 56.0
+    length: 43.0
+  - variant: GTS2
+    loft: 15.0
+    lie: 56.0
+    length: 43.0
+  - variant: GTS2
+    loft: 16.5
+    lie: 56.0
+    length: 43.0
+  - variant: GTS2
+    loft: 18.0
+    lie: 57.0
+    length: 42.0
+  - variant: GTS2
+    loft: 21.0
+  - variant: GTS3
+    loft: 15.0
+    lie: 56.0
+    length: 43.0
+  - variant: GTS3
+    loft: 16.5
+    lie: 56.0
+    length: 43.0
+  - variant: GTS3
+    loft: 18.0
+    lie: 57.0
+    length: 42.0
+  - variant: GTS3
+    loft: 21.0
+hosel:
+  system: "SureFit hosel"
+  loft_range: "−0.75° to +1.5°"
+  positions: 16
+  lie_effect: "Lie adjusts independently of loft, from 0.75° flat to 1.5° upright."
+  face_note: >
+    Loft changes open or close the face slightly at address; SureFit's ring
+    and cog adjust loft and lie independently, unlike single-axis sleeves.
+  notes: >
+    The chart below is the right-handed chart; A1 is the standard setting.
+    For left-handed clubs the chart mirrors and D4 is standard. Every GTS
+    fairway carries the SureFit hosel, and the sleeve interchanges with the
+    GT, TSR, TSi and TS generations. Titleist had not published lie and
+    length for the 21° heads at the time of writing, so those rows carry
+    loft only.
+  settings:
+    - { setting: "A1", loft: "std", lie: "std" }
+    - { setting: "A2", loft: "std", lie: "1.5° upright" }
+    - { setting: "A3", loft: "+1.5°", lie: "1.5° upright" }
+    - { setting: "A4", loft: "+1.5°", lie: "std" }
+    - { setting: "B1", loft: "std", lie: "0.75° flat" }
+    - { setting: "B2", loft: "std", lie: "0.75° upright" }
+    - { setting: "B3", loft: "+1.5°", lie: "0.75° upright" }
+    - { setting: "B4", loft: "+1.5°", lie: "0.75° flat" }
+    - { setting: "C1", loft: "−0.75°", lie: "0.75° flat" }
+    - { setting: "C2", loft: "−0.75°", lie: "0.75° upright" }
+    - { setting: "C3", loft: "+0.75°", lie: "0.75° upright" }
+    - { setting: "C4", loft: "+0.75°", lie: "0.75° flat" }
+    - { setting: "D1", loft: "−0.75°", lie: "std" }
+    - { setting: "D2", loft: "−0.75°", lie: "1.5° upright" }
+    - { setting: "D3", loft: "+0.75°", lie: "1.5° upright" }
+    - { setting: "D4", loft: "+0.75°", lie: "std" }
+stock_shafts:
+  - name: "Project X Titan Black 70 (core)"
+    material: graphite
+  - name: "Mitsubishi Tensei 1K White / Blue / Red RIP (core)"
+    material: graphite
+  - name: "Graphite Design Tour AD DI / VF / FI (premium, +$200)"
+    material: graphite
+related_models:
+  - slug: "titleist/gts-driver"
+    label: "Same family: Titleist GTS drivers"
+  - slug: "titleist/gt-hybrid"
+    label: "Still current: Titleist GT hybrids"
+  - slug: "titleist/gt-fairway-wood"
+    label: "Predecessor: Titleist GT fairway woods"
+sources:
+  - "Titleist Team Titleist GTS fairways introduction (GTS2 13.5/15/16.5/18/21, GTS3 15/16.5/18/21 with the new 21° 7-wood; dual heel-toe weighting; wraparound crown), https://www.titleist.com/teamtitleist/b/blog/posts/titleist-introduces-new-gts-fairways, accessed October 2026"
+  - "GolfBox GTS2 and GTS3 fairway listings (lies 56-57° and lengths 43-42 in on the 13.5-18° heads; core shafts Tensei 1K White/Blue/Red RIP and Project X Titan Black), https://www.golfbox.com.au/clubs/gts2-fairway-wood/, accessed October 2026"
+  - "GolfWRX and Skratch GTS fairway launch coverage (retail 11 June 2026; $399 with core shafts, $599 with Graphite Design Tour AD premium options), https://golfwrx.com/778050/titleist-launches-new-gts2-and-gts3-fairways/, accessed October 2026"
+  - "Golfalot GTS2 and GTS3 fairway reviews (launch 11 June 2026, £369 RRP, Tensei 1K Red stock on the GTS2; GTS2 shallower face vs GTS3 deeper face), https://golfalot.com/equipment-review/titleist-gts2-fairway-wood-review, accessed October 2026"
+  - "Note: Titleist publishes the dual-weight masses inconsistently across pages (11 g heel + 5 g toe on the launch blog; 8 g + 5 g on retailer pages), so no weight figures are charted."
+faq:
+  - q: "What lofts do the Titleist GTS fairway woods come in?"
+    a: "The GTS2 comes in 13.5, 15, 16.5, 18 and 21 degrees; the GTS3 in 15, 16.5, 18 and 21 — the 21 degree GTS3 7-wood is new, a loft the GT3 never offered."
+  - q: "What is the Titleist GTS fairway adjustment chart?"
+    a: "Every head uses the 16-setting SureFit hosel: loft from minus 0.75 to plus 1.5 degrees and lie from 0.75 degrees flat to 1.5 degrees upright, adjusted independently. A1 is standard for right-handers. Both heads add a dual heel-toe sole weighting system for strike and shape bias."
+  - q: "What is the difference between the GTS2 and GTS3 fairway woods?"
+    a: "The GTS2 is the larger head with a shallower face for players who sweep the ball; its 13.5 degree head keeps a taller face for spin control. The GTS3 is the compact, deeper-faced player's head for steeper angles of attack."
+  - q: "Is there a Titleist GTS hybrid?"
+    a: "No — as of October 2026 the GTS line covers drivers and fairways only, and the GT hybrids remain Titleist's current hybrid family."
+confidence: high

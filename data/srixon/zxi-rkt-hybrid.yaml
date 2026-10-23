@@ -1,0 +1,100 @@
+brand: Srixon
+brand_slug: srixon
+model: ZXi RKT
+slug: zxi-rkt-hybrid
+club_type: hybrid
+year_introduced: 2026
+year_discontinued: null
+category: flagship
+current_as_of: "2026-10"
+construction: steel body with Rebound Frame flex zones, an adjustable sole weight and the QTS hosel sleeve
+material: high-strength face with Srixon's i-FLEX variable thickness pattern
+predecessor: Srixon ZXi
+successor: null
+description: >
+  The ZXi RKT hybrids reached retail on 16 October 2026 with the ZXi RKT
+  woods, replacing the ZXi hybrids. The five-loft ladder from a 17° 2-hybrid
+  to a 28° 6-hybrid carries over, but each head is slightly larger than its
+  ZXi counterpart, picks up the i-FLEX milled face pattern, and adds the
+  screw-in adjustable sole weight (10 g stock, 2-16 g options) alongside the
+  12-position QTS 1.5 sleeve. The stock shaft moves to the heavier
+  Mitsubishi MMT HY 80 at a D2 swing weight.
+variants:
+  - name: ZXi RKT
+    description: >
+      The single hybrid head in five lofts, 122 cc at the 2-hybrid stepping
+      to 113 cc at the 6-hybrid, each with the QTS sleeve and adjustable
+      sole weight. The 19° and 22° heads come in both hands; the rest are
+      right-hand only.
+specs:
+  - variant: ZXi RKT
+    loft: 17.0
+    lie: 58.5
+    length: 41.0
+  - variant: ZXi RKT
+    loft: 19.0
+    lie: 59.0
+    length: 40.5
+  - variant: ZXi RKT
+    loft: 22.0
+    lie: 59.5
+    length: 40.0
+  - variant: ZXi RKT
+    loft: 25.0
+    lie: 60.0
+    length: 39.5
+  - variant: ZXi RKT
+    loft: 28.0
+    lie: 60.5
+    length: 39.0
+hosel:
+  system: "QTS 1.5 sleeve"
+  loft_range: "±1.5°"
+  positions: 12
+  lie_effect: >
+    Every position other than standard also flattens lie, from 0.5° to 3°
+    flat; there is no upright setting.
+  face_note: >
+    Face angle moves up to 3° closed on the loft-up side and 3° open on the
+    loft-down side.
+  notes: >
+    The chart is Srixon's official hosel sleeve adjustability guide, shared
+    with the ZXi RKT drivers and fairways. "FL" marks the flat-lie variants
+    of each loft setting. Each head also takes the screw-in sole weight —
+    10 g stock, with 2/4/6/8/12/14/16 g options via the ZXi weight kit.
+  settings:
+    - { setting: "STD", loft: "std", lie: "std", face: "square" }
+    - { setting: "+0.5°", loft: "+0.5°", lie: "0.5° flat", face: "1° closed" }
+    - { setting: "+1°", loft: "+1°", lie: "1° flat", face: "2° closed" }
+    - { setting: "+1.5°", loft: "+1.5°", lie: "1.5° flat", face: "3° closed" }
+    - { setting: "+1° FL", loft: "+1°", lie: "2° flat", face: "2° closed" }
+    - { setting: "+0.5° FL", loft: "+0.5°", lie: "2.5° flat", face: "1° closed" }
+    - { setting: "STD FL", loft: "std", lie: "3° flat", face: "square" }
+    - { setting: "−0.5° FL", loft: "−0.5°", lie: "2.5° flat", face: "1° open" }
+    - { setting: "−1° FL", loft: "−1°", lie: "2° flat", face: "2° open" }
+    - { setting: "−1.5°", loft: "−1.5°", lie: "1.5° flat", face: "3° open" }
+    - { setting: "−1°", loft: "−1°", lie: "1° flat", face: "2° open" }
+    - { setting: "−0.5°", loft: "−0.5°", lie: "0.5° flat", face: "1° open" }
+stock_shafts:
+  - name: "Mitsubishi MMT HY 80"
+    material: graphite
+    flex: ["X", "S", "R", "A"]
+related_models:
+  - slug: "srixon/zxi-rkt-driver"
+    label: "Same family: Srixon ZXi RKT drivers"
+  - slug: "srixon/zxi-rkt-fairway-wood"
+    label: "Same family: Srixon ZXi RKT fairway woods"
+  - slug: "srixon/zxi-hybrid"
+    label: "Predecessor: Srixon ZXi hybrids"
+sources:
+  - "Srixon / Dunlop Sports official ZXi RKT hybrid spec page (17/19/22/25/28 lofts, lies 58.5-60.5°, lengths 41-39 in, 122-113 cc, D2, MMT HY 80, 10 g stock sole weight with 2-16 g options, $329.99), https://us.dunlopsports.com/srixon/clubs/hybrids/zxi-rkt-hybrid/zxi-rkt-hybrid/MZXIRKTHYB.html, accessed October 2026"
+  - "GolfWRX ZXi RKT woods launch coverage, October 2026 (i-FLEX face, adjustable sole weight plus hosel sleeve, larger head shaping than the ZXi), https://golfwrx.com/786772/srixon-introduces-all-new-zxi-rkt-woods-with-face-and-acoustic-advancements/, accessed October 2026"
+  - "MyGolfSpy ZXi RKT fairways and hybrids launch coverage, October 2026 (retail 16 October 2026), https://mygolfspy.com/news-opinion/can-srixons-new-zxi-rkt-fairways-and-hybrids-get-your-attention/, accessed October 2026"
+faq:
+  - q: "What lofts does the Srixon ZXi RKT hybrid come in?"
+    a: "Five lofts: 17, 19, 22, 25 and 28 degrees — the 2-hybrid through 6-hybrid. The 19 and 22 degree heads come in both hands."
+  - q: "Is the Srixon ZXi RKT hybrid adjustable?"
+    a: "Yes, twice over — every loft carries the 12-position QTS 1.5 sleeve (plus or minus 1.5 degrees with flat-lie options to 3 degrees) plus a screw-in sole weight swappable from 2 to 16 grams around the stock 10 gram weight."
+  - q: "What is different about the ZXi RKT hybrid versus the ZXi hybrid?"
+    a: "Slightly larger heads, the i-FLEX milled face pattern, the new adjustable sole weight and a heavier Mitsubishi MMT HY 80 stock shaft. It replaced the ZXi hybrid at retail on 16 October 2026."
+confidence: high
