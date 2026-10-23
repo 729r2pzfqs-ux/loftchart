@@ -1,0 +1,146 @@
+brand: Callaway
+brand_slug: callaway
+model: Elyte
+slug: elyte-driver
+club_type: driver
+year_introduced: 2025
+year_discontinued: null
+category: flagship
+construction: Thermoforged Carbon crown over a titanium chassis, with adjustable perimeter weighting on the Elyte and Elyte X
+material: titanium Ai 10x face; Thermoforged carbon crown
+predecessor: Callaway Paradym Ai Smoke
+successor: Callaway Quantum
+description: >
+  The Elyte is Callaway's 2025 driver family, launched in January 2025 as the
+  follow-up to the Paradym Ai Smoke. Its face is the Ai 10x — designed with
+  ten times more AI control points than the Ai Smoke's Smart Face — under a
+  Thermoforged Carbon crown that saves the paint and overlapping-ply weight
+  of a conventional carbon layup. The core Elyte and the Elyte X carry a 13 g
+  movable perimeter weight, the 450 cc Triple Diamond is the low-spin tour
+  head, and the Max Fast is the ultralight build, which this generation got
+  its adjustable OptiFit hosel back. Mid-2025 line extensions added a Triple
+  Diamond Max and a limited Triple Diamond Tour Draw. The Quantum family
+  replaced the Elyte in February 2026, making it the closeout value pick.
+variants:
+  - name: Elyte
+    head_cc: 460
+    description: >
+      The mainline head balancing speed and forgiveness, with a 13 g movable
+      perimeter weight offering draw, neutral and fade settings.
+  - name: Elyte X
+    head_cc: 460
+    description: >
+      The highest-launching, most forgiving head with slight draw bias; its
+      13 g weight offers neutral and draw settings only. The 12° head is
+      right-hand only; a women's build runs one inch shorter with the Eldio
+      40 L shaft.
+  - name: Elyte Triple Diamond
+    head_cc: 450
+    description: >
+      The compact low-spin tour head with neutral-to-fade bias. 8° is
+      right-hand only.
+  - name: Elyte Max Fast
+    head_cc: 460
+    description: >
+      The ultralight high-launch build for slower swing speeds — Vanquish PL
+      40 shaft and a 25 g grip — with the adjustable OptiFit hosel restored
+      after the Ai Smoke generation dropped it.
+specs:
+  - variant: Elyte
+    loft: 9.0
+    lie: 57.0
+    length: 45.75
+  - variant: Elyte
+    loft: 10.5
+    lie: 57.0
+    length: 45.75
+  - variant: Elyte
+    loft: 12.0
+    lie: 57.0
+    length: 45.75
+  - variant: Elyte X
+    loft: 9.0
+    lie: 59.0
+    length: 45.75
+  - variant: Elyte X
+    loft: 10.5
+    lie: 59.0
+    length: 45.75
+  - variant: Elyte X
+    loft: 12.0
+    lie: 59.0
+    length: 45.75
+  - variant: Elyte Triple Diamond
+    loft: 8.0
+    lie: 57.0
+    length: 45.75
+  - variant: Elyte Triple Diamond
+    loft: 9.0
+    lie: 57.0
+    length: 45.75
+  - variant: Elyte Triple Diamond
+    loft: 10.5
+    lie: 57.0
+    length: 45.75
+  - variant: Elyte Max Fast
+    loft: 10.5
+    lie: 59.0
+    length: 45.75
+  - variant: Elyte Max Fast
+    loft: 12.0
+    lie: 59.0
+    length: 45.75
+hosel:
+  system: "OptiFit hosel"
+  loft_range: "−1° to +2°"
+  positions: 8
+  lie_effect: >
+    The lie cog has two positions: N (neutral, the stated lie) and D (draw, a
+    more upright lie — Callaway does not publish the degree change).
+  face_note: >
+    Changing loft re-orients the head on the shaft, so lower settings sit
+    slightly open and higher settings slightly closed at address.
+  notes: >
+    The two-cog OptiFit design is unchanged from the Paradym through the Ai
+    Smoke, Elyte and Quantum. Callaway's own OptiFit instructions illustrate
+    it on a 10.5° head: the four loft positions play 9.5°, 10.5°, 11.5° and
+    12.5°, each at Neutral or Draw lie.
+  settings:
+    - { setting: "−1 / N", loft: "−1°", lie: "neutral" }
+    - { setting: "−1 / D", loft: "−1°", lie: "draw (more upright)" }
+    - { setting: "S / N", loft: "std", lie: "neutral" }
+    - { setting: "S / D", loft: "std", lie: "draw (more upright)" }
+    - { setting: "+1 / N", loft: "+1°", lie: "neutral" }
+    - { setting: "+1 / D", loft: "+1°", lie: "draw (more upright)" }
+    - { setting: "+2 / N", loft: "+2°", lie: "neutral" }
+    - { setting: "+2 / D", loft: "+2°", lie: "draw (more upright)" }
+stock_shafts:
+  - name: "Project X Denali Charcoal 50/60"
+    material: graphite
+    flex: ["R", "S", "X"]
+  - name: "Mitsubishi Vanquish PL 40"
+    material: graphite
+    flex: ["A", "R"]
+  - name: "Mitsubishi Tensei 1K Black 65 (Triple Diamond)"
+    material: graphite
+    flex: ["S", "X"]
+related_models:
+  - slug: "callaway/quantum-driver"
+    label: "Successor: Callaway Quantum drivers"
+  - slug: "callaway/ai-smoke-driver"
+    label: "Predecessor: Callaway Paradym Ai Smoke drivers"
+sources:
+  - "Callaway Elyte Triple Diamond, Elyte X and Elyte Max Fast official product pages (lofts, 57°/59° lie, 450/460 cc, 45.75 inch, hand availability), https://callawaygolf.com/golf-clubs/drivers/drivers-2025-elyte-td.html, accessed October 2026"
+  - "Golfalot Elyte review (January 2025 launch, Ai 10x face, Thermoforged crown, 13 g perimeter weight, Denali Charcoal stock shaft), https://golfalot.com/equipment-review/callaway-elyte-driver-review, accessed October 2026"
+  - "Callaway OptiFit instructions page (two-cog hosel, eight combinations, Neutral/Draw lie positions), https://eu.callawaygolf.com/en/at/optifitinstructions/, accessed October 2026"
+  - "Note: mid-2025 Callaway added an Elyte Triple Diamond Max (9°, 10.5°) and a limited Triple Diamond Tour Draw above the four launch heads charted here."
+faq:
+  - q: "What lofts does the Callaway Elyte come in?"
+    a: "The Elyte and Elyte X come in 9, 10.5 and 12 degrees (X 12 right-hand only), the Elyte Triple Diamond in 8, 9 and 10.5 (8 right-hand only), and the Elyte Max Fast in 10.5 and 12."
+  - q: "What is the Elyte adjustment chart?"
+    a: "The Elyte uses Callaway's two-cog OptiFit hosel: loft positions of −1, stated, +1 and +2 degrees, each combined with a Neutral or Draw lie cog, for eight settings in all. A 10.5 degree head spans 9.5 to 12.5 degrees."
+  - q: "What is the difference between the Elyte and Elyte X?"
+    a: "The Elyte is the neutral all-rounder whose 13 gram perimeter weight reaches draw, neutral and fade settings; the Elyte X is bigger-footprinted, higher launching and slightly draw-biased, with a more upright 59 degree lie and no fade setting."
+  - q: "Is the Callaway Elyte still in production?"
+    a: "Callaway replaced it with the Quantum family in February 2026, so the Elyte is at the end of its retail life — widely available at closeout prices and on the used market, where it is the value pick of the two generations."
+confidence: high

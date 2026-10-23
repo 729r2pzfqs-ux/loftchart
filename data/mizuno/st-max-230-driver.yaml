@@ -1,0 +1,84 @@
+brand: Mizuno
+brand_slug: mizuno
+model: ST-MAX 230
+slug: st-max-230-driver
+club_type: driver
+year_introduced: 2024
+year_discontinued: null
+category: flagship
+construction: 460 cc high-MOI head with deep, low CG and carbon composite crown and sole panels on a titanium chassis
+material: Beta Rich Ti LFS forged titanium face with CORTECH Chamber
+predecessor: Mizuno ST-Z 230
+successor: Mizuno JPX One
+description: >
+  The ST-MAX 230 is Mizuno's 2024 driver — a single 460 cc high-MOI,
+  draw-neutral head that served as the forgiving companion to the 440 cc
+  ST-G 230 tour model. Its face uses the Beta Rich Ti LFS alloy first seen
+  on the ST-G, whose roughly 9% higher tensile strength allows a more
+  aggressive face geometry over the CORTECH Chamber. The deep, low centre of
+  gravity let Mizuno ship it at a longer 45.75-inch stock build. It was
+  Mizuno's mainline driver until the JPX One replaced the ST series in
+  January 2026, and it remains a strong-value used buy.
+variants:
+  - name: ST-MAX 230
+    head_cc: 460
+    description: >
+      The single head of the line: Mizuno's highest-MOI, draw-neutral
+      game-improvement driver of its generation, aimed at the broadest range
+      of players. 10.5° and 12° are right-hand only; a women's build used
+      the UST Helium NanoCore 4F1.
+specs:
+  - variant: ST-MAX 230
+    loft: 9.5
+    lie: 59.0
+    length: 45.75
+  - variant: ST-MAX 230
+    loft: 10.5
+    lie: 59.0
+    length: 45.75
+  - variant: ST-MAX 230
+    loft: 12.0
+    lie: 59.0
+    length: 45.75
+hosel:
+  system: "Quick Switch"
+  loft_range: "±2°"
+  lie_effect: >
+    Mizuno's published range runs from the stated 59° lie to 3° upright
+    (59-62°).
+  face_note: >
+    Lowering loft opens the face and raising it closes it, as on any
+    hosel-based adjuster.
+  notes: >
+    Mizuno publishes the Quick Switch range per head — the 9.5° head plays
+    7.5-11.5°, the 10.5° head 8.5-12.5°, the 12° head 10-14° — but no
+    position-by-position chart, so none is reproduced here. The standard
+    setting plays the stamped loft at 59° lie.
+stock_shafts:
+  - name: "Mitsubishi Kai'li Blue 50"
+    material: graphite
+    flex: ["R", "S"]
+  - name: "Project X HZRDUS Smoke Green RDX 60"
+    material: graphite
+    flex: ["6.0"]
+  - name: "UST Mamiya LIN-Q M40X Red 5"
+    material: graphite
+    flex: ["A", "R", "S"]
+related_models:
+  - slug: "mizuno/jpx-one-driver"
+    label: "Successor: Mizuno JPX One drivers"
+sources:
+  - "2nd Swing ST-MAX 230 spec table (460 cc, 45.75 inch, 59° lie, D4 swing weight, ±2° adjustability, stock shaft matrix), https://www.2ndswing.com/golf-clubs/drivers/mizuno-st-max-230-driver/st-max-230-new-dvr, accessed October 2026"
+  - "Tony Valentine Golf ST-MAX 230 custom-options table (per-loft adjustment ranges 7.5-11.5 / 8.5-12.5 / 10-14, lie range 59-62, hand availability), https://www.tonyvalentine.com/mizuno-st-max-230-driver-custom-options, accessed October 2026"
+  - "Golfalot ST-MAX 230 review (February 2024 retail, Quick Switch 4° adjustability, high-MOI positioning), https://golfalot.com/equipment-review/mizuno-st-max-230-driver-review, accessed October 2026"
+  - "Note: the ST-G 230 (2023) is the separate 440 cc tour model with a dual sliding-weight track — a sibling, not this model's predecessor. Mizuno publishes no position-by-position Quick Switch chart."
+faq:
+  - q: "What lofts does the Mizuno ST-MAX 230 come in?"
+    a: "9.5, 10.5 and 12 degrees, with the 10.5 and 12 right-hand only at stock. The Quick Switch hosel extends each head 2 degrees either way."
+  - q: "What are the ST-MAX 230 loft settings?"
+    a: "The Quick Switch hosel adjusts loft 2 degrees either side of stamped — the 9.5 degree head plays 7.5 to 11.5 degrees — and lie from the standard 59 degrees up to 62. Mizuno publishes the ranges rather than a position-by-position chart."
+  - q: "What is the difference between the ST-MAX 230 and ST-G 230?"
+    a: "The ST-MAX 230 is the 460 cc high-MOI, draw-neutral forgiveness head; the ST-G 230 is the compact 440 cc tour model with a dual sliding-weight track for flight tuning. They shared the Beta Rich Ti LFS face."
+  - q: "Is the Mizuno ST-MAX 230 still in production?"
+    a: "The JPX One replaced Mizuno's ST driver line in January 2026, so the ST-MAX 230 is a closeout and used-market buy — typically at a steep discount for a two-year-old flagship."
+confidence: medium

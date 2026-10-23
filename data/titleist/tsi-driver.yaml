@@ -1,0 +1,159 @@
+brand: Titleist
+brand_slug: titleist
+model: TSi
+slug: tsi-driver
+club_type: driver
+year_introduced: 2020
+year_discontinued: 2022
+category: flagship
+construction: titanium body with improved aerodynamics; first Titleist adjustable CG track on the TSi3, ±4 g headweight kit on the TSi4
+material: ATI 425 aerospace titanium face (about 30% more ductile than 6-4 titanium) on a titanium body
+predecessor: Titleist TS
+successor: Titleist TSR
+description: >
+  The TSi is Titleist's 2020-2022 driver generation, remembered for its ATI
+  425 aerospace-titanium face — an alloy from a single Pittsburgh foundry,
+  roughly 30% more ductile than standard 6-4 titanium, used across all four
+  heads. The TSi2 (high launch, forgiveness-first) and TSi3 (traditional
+  pear shape, and Titleist's first driver with the five-position SureFit CG
+  track) arrived in November 2020; the ultralight TSi1 and the compact
+  low-spin TSi4 followed in early 2021. The TSi3 in particular became one of
+  the most-played drivers on tour of its era. The TSR generation replaced
+  the family in late 2022.
+variants:
+  - name: TSi1
+    head_cc: 460
+    description: >
+      The ultra-lightweight head — about 40 g lighter than a standard build —
+      with high launch and slight draw bias for swing speeds up to roughly
+      90 mph. 9° and 12° are right-hand only; left-hand stock is 10°.
+  - name: TSi2
+    head_cc: 460
+    description: >
+      The high-launch, forgiveness-first distance head. The 8° head had
+      limited availability and was dropped from later catalogues.
+  - name: TSi3
+    head_cc: 460
+    description: >
+      The mid-launch, pear-shaped fitter's head — Titleist's first driver
+      with the five-position SureFit CG track (two heel, neutral, two toe
+      positions).
+  - name: TSi4
+    head_cc: 430
+    description: >
+      The smallest, lowest-spinning head of the family for high-spin fast
+      swingers, with a −4 g to +4 g interchangeable headweight kit. 8° and
+      10° are right-hand only; left-hand stock is 9°.
+specs:
+  - variant: TSi1
+    loft: 9.0
+    lie: 59.0
+    length: 45.75
+  - variant: TSi1
+    loft: 10.0
+    lie: 59.0
+    length: 45.75
+  - variant: TSi1
+    loft: 12.0
+    lie: 59.0
+    length: 45.75
+  - variant: TSi2
+    loft: 8.0
+    lie: 58.5
+    length: 45.5
+  - variant: TSi2
+    loft: 9.0
+    lie: 58.5
+    length: 45.5
+  - variant: TSi2
+    loft: 10.0
+    lie: 58.5
+    length: 45.5
+  - variant: TSi2
+    loft: 11.0
+    lie: 58.5
+    length: 45.5
+  - variant: TSi3
+    loft: 8.0
+    lie: 58.5
+    length: 45.5
+  - variant: TSi3
+    loft: 9.0
+    lie: 58.5
+    length: 45.5
+  - variant: TSi3
+    loft: 10.0
+    lie: 58.5
+    length: 45.5
+  - variant: TSi4
+    loft: 8.0
+    lie: 58.5
+    length: 45.5
+  - variant: TSi4
+    loft: 9.0
+    lie: 58.5
+    length: 45.5
+  - variant: TSi4
+    loft: 10.0
+    lie: 58.5
+    length: 45.5
+hosel:
+  system: "SureFit hosel"
+  loft_range: "−0.75° to +1.5°"
+  positions: 16
+  lie_effect: "Lie adjusts independently of loft, from 0.75° flat to 1.5° upright."
+  face_note: >
+    Loft changes open or close the face slightly at address; SureFit's ring
+    and cog adjust loft and lie independently, unlike single-axis sleeves.
+  notes: >
+    The chart below is the right-handed chart; A1 is the standard setting.
+    For left-handed drivers the chart mirrors and D4 is standard. Every TSi
+    head, the TSi1 included, carries the SureFit hosel, and the sleeve
+    interchanges forward through the TSR, GT and GTS.
+  settings:
+    - { setting: "A1", loft: "std", lie: "std" }
+    - { setting: "A2", loft: "std", lie: "1.5° upright" }
+    - { setting: "A3", loft: "+1.5°", lie: "1.5° upright" }
+    - { setting: "A4", loft: "+1.5°", lie: "std" }
+    - { setting: "B1", loft: "std", lie: "0.75° flat" }
+    - { setting: "B2", loft: "std", lie: "0.75° upright" }
+    - { setting: "B3", loft: "+1.5°", lie: "0.75° upright" }
+    - { setting: "B4", loft: "+1.5°", lie: "0.75° flat" }
+    - { setting: "C1", loft: "−0.75°", lie: "0.75° flat" }
+    - { setting: "C2", loft: "−0.75°", lie: "0.75° upright" }
+    - { setting: "C3", loft: "+0.75°", lie: "0.75° upright" }
+    - { setting: "C4", loft: "+0.75°", lie: "0.75° flat" }
+    - { setting: "D1", loft: "−0.75°", lie: "std" }
+    - { setting: "D2", loft: "−0.75°", lie: "1.5° upright" }
+    - { setting: "D3", loft: "+0.75°", lie: "1.5° upright" }
+    - { setting: "D4", loft: "+0.75°", lie: "std" }
+stock_shafts:
+  - name: "Mitsubishi Kuro Kage Black Dual Core"
+    material: graphite
+  - name: "Mitsubishi Tensei AV Raw Blue"
+    material: graphite
+  - name: "Project X HZRDUS Smoke Black RDX"
+    material: graphite
+  - name: "Mitsubishi Tensei AV Raw White"
+    material: graphite
+  - name: "Aldila Ascent 40 (TSi1)"
+    material: graphite
+    flex: ["L", "R2", "R", "S"]
+related_models:
+  - slug: "titleist/tsr-driver"
+    label: "Successor: Titleist TSR drivers"
+sources:
+  - "2nd Swing TSi1, TSi2, TSi3 and TSi4 spec tables (lofts, lie, lengths, hand availability, ATI 425 face, 16-setting SureFit), https://2ndswing.com/golf-clubs/drivers/titleist-tsi3-driver, accessed October 2026"
+  - "GolfMagic TSi1/TSi4 launch report (17 February 2021 presale, TSi1 ~40 g lighter, TSi4 head volume, ±4 g headweight kit), https://www.golfmagic.com/equipment-news/titleist-adds-new-drivers-2021-line-tsi4-and-tsi1-models, accessed October 2026"
+  - "TGW SureFit hosel guide (full 16-setting right- and left-hand charts, −0.75° to +1.5° loft, 0.75° flat to 1.5° upright lie)"
+  - "Note: Titleist's own US spec table lists the TSi4 at 425 cc while essentially all launch coverage says 430 cc; 430 is charted here. The TSi2's 8° head was available at launch but absent from later catalogues."
+faq:
+  - q: "What lofts does the Titleist TSi come in?"
+    a: "The TSi2 came in 8, 9, 10 and 11 degrees (the 8 was later dropped); the TSi3 and TSi4 in 8, 9 and 10; and the lightweight TSi1 in 9, 10 and 12."
+  - q: "What is the Titleist TSi SureFit chart?"
+    a: "The 16-setting SureFit hosel combines four loft positions (−0.75, standard, +0.75 and +1.5 degrees) with four lie positions (0.75 flat, standard, 0.75 upright and 1.5 upright). A1 is standard for right-handers; the left-hand chart mirrors with D4 as standard."
+  - q: "What was special about the TSi face?"
+    a: "All four TSi heads used ATI 425 aerospace titanium, an alloy about 30% more ductile than the usual 6-4 titanium, which let Titleist push a thinner, faster face while staying within the rules. Titleist stopped naming the face alloy in later generations."
+  - q: "Is the Titleist TSi still in production?"
+    a: "No — it ran from late 2020 to 2022, when the TSR replaced it. It remains common on the used market, and its SureFit sleeve means shafts from any TS through GTS generation fit."
+confidence: high

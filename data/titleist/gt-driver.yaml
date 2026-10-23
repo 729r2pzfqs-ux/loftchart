@@ -1,0 +1,171 @@
+brand: Titleist
+brand_slug: titleist
+model: GT
+slug: gt-driver
+club_type: driver
+year_introduced: 2024
+year_discontinued: null
+category: flagship
+construction: titanium chassis under a Seamless Thermoform Crown wrapped to the sole, with Split Mass Construction moving crown savings low, forward and rearward
+material: Proprietary Matrix Polymer (PMP) thermoform crown; titanium variable-thickness face with Speed Ring
+predecessor: Titleist TSR
+successor: Titleist GTS
+description: >
+  The GT is Titleist's 2024 driver generation and the one that introduced the
+  thermoform crown: 13 grams of Proprietary Matrix Polymer formed into a
+  seamless crown that wraps to the sole, over a titanium chassis whose freed
+  mass is split low-forward and rearward. The GT2 is the high-MOI distance
+  head, the GT3 the fitter's head with a SureFit CG track moved closer to the
+  face than the TSR3's, and the 430 cc GT4 the compact spin-killer with
+  flippable 11 g/3 g weights. The ultralight GT1 joined in February 2025 —
+  about 50 grams lighter all-in for moderate swing speeds — and it remains
+  current even though the GTS generation replaced the GT2, GT3 and GT4 in
+  June 2026, since no GTS1 exists.
+variants:
+  - name: GT1
+    head_cc: 460
+    description: >
+      The ultra-light build, added February 2025: roughly 50 g lighter
+      overall via a lighter head, 35-40 g shafts and a lighter grip, with a
+      9 g interchangeable rear weight. High launch, neutral-to-slight-draw —
+      and still current, as the GTS line has no "1" head.
+  - name: GT2
+    head_cc: 460
+    description: >
+      The high-MOI speed-and-forgiveness head: distance with stability across
+      the face and a fixed (interchangeable for swing weight) sole weight.
+  - name: GT3
+    head_cc: 460
+    description: >
+      The fitting-driven player's head with the five-position SureFit CG
+      track, moved closer to the face than on the TSR3 for a speed-first
+      tune.
+  - name: GT4
+    head_cc: 430
+    description: >
+      The compact low-spin head. Flipping its 11 g front / 3 g aft weights
+      trades maximum spin reduction for a more balanced, slightly
+      higher-spinning profile.
+specs:
+  - variant: GT1
+    loft: 9.0
+    lie: 59.0
+    length: 45.5
+  - variant: GT1
+    loft: 10.0
+    lie: 59.0
+    length: 45.5
+  - variant: GT1
+    loft: 12.0
+    lie: 59.0
+    length: 45.5
+  - variant: GT2
+    loft: 8.0
+    lie: 58.5
+    length: 45.5
+  - variant: GT2
+    loft: 9.0
+    lie: 58.5
+    length: 45.5
+  - variant: GT2
+    loft: 10.0
+    lie: 58.5
+    length: 45.5
+  - variant: GT2
+    loft: 11.0
+    lie: 58.5
+    length: 45.5
+  - variant: GT3
+    loft: 8.0
+    lie: 58.5
+    length: 45.5
+  - variant: GT3
+    loft: 9.0
+    lie: 58.5
+    length: 45.5
+  - variant: GT3
+    loft: 10.0
+    lie: 58.5
+    length: 45.5
+  - variant: GT3
+    loft: 11.0
+    lie: 58.5
+    length: 45.5
+  - variant: GT4
+    loft: 8.0
+    lie: 58.5
+    length: 45.5
+  - variant: GT4
+    loft: 9.0
+    lie: 58.5
+    length: 45.5
+  - variant: GT4
+    loft: 10.0
+    lie: 58.5
+    length: 45.5
+hosel:
+  system: "SureFit hosel"
+  loft_range: "−0.75° to +1.5°"
+  positions: 16
+  lie_effect: "Lie adjusts independently of loft, from 0.75° flat to 1.5° upright."
+  face_note: >
+    Loft changes open or close the face slightly at address; SureFit's ring
+    and cog adjust loft and lie independently, unlike single-axis sleeves.
+  notes: >
+    The chart below is the right-handed chart; A1 is the standard setting.
+    For left-handed drivers the chart mirrors and D4 is standard. Every GT
+    head, the GT1 included, carries the SureFit hosel, and the sleeve
+    interchanges with the TSR, TSi, TS and GTS generations.
+  settings:
+    - { setting: "A1", loft: "std", lie: "std" }
+    - { setting: "A2", loft: "std", lie: "1.5° upright" }
+    - { setting: "A3", loft: "+1.5°", lie: "1.5° upright" }
+    - { setting: "A4", loft: "+1.5°", lie: "std" }
+    - { setting: "B1", loft: "std", lie: "0.75° flat" }
+    - { setting: "B2", loft: "std", lie: "0.75° upright" }
+    - { setting: "B3", loft: "+1.5°", lie: "0.75° upright" }
+    - { setting: "B4", loft: "+1.5°", lie: "0.75° flat" }
+    - { setting: "C1", loft: "−0.75°", lie: "0.75° flat" }
+    - { setting: "C2", loft: "−0.75°", lie: "0.75° upright" }
+    - { setting: "C3", loft: "+0.75°", lie: "0.75° upright" }
+    - { setting: "C4", loft: "+0.75°", lie: "0.75° flat" }
+    - { setting: "D1", loft: "−0.75°", lie: "std" }
+    - { setting: "D2", loft: "−0.75°", lie: "1.5° upright" }
+    - { setting: "D3", loft: "+0.75°", lie: "1.5° upright" }
+    - { setting: "D4", loft: "+0.75°", lie: "std" }
+stock_shafts:
+  - name: "Project X Denali Red 40/50/60"
+    material: graphite
+    flex: ["L", "A", "R", "S"]
+  - name: "Mitsubishi Tensei 1K Blue 55/65/75"
+    material: graphite
+    flex: ["R2", "R", "S", "X", "TX"]
+  - name: "Project X HZRDUS Black 5G 60/70/80"
+    material: graphite
+    flex: ["5.5", "6.0", "6.5", "TX"]
+  - name: "Mitsubishi Tensei 1K Black 65/75"
+    material: graphite
+    flex: ["S", "X", "TX"]
+  - name: "Fujikura Air Speeder Next Gen 35/40 (GT1)"
+    material: graphite
+    flex: ["L", "R2", "R", "S"]
+related_models:
+  - slug: "titleist/gts-driver"
+    label: "Successor: Titleist GTS drivers"
+  - slug: "titleist/tsr-driver"
+    label: "Predecessor: Titleist TSR drivers"
+sources:
+  - "2nd Swing GT1, GT2 and GT4 spec tables (lofts, 58.5°/59° lie, 460/430 cc, 45.5 inch, weights, stock shafts), https://2ndswing.com/golf-clubs/drivers/titleist-gt2-driver, accessed October 2026"
+  - "Titleist specifications grid (GT loft options and standard lie/length; GT1 launch 21 February 2025), https://titleist.ca/golf-clubs/specifications, accessed October 2026"
+  - "TGW SureFit hosel guide (full 16-setting right- and left-hand charts, −0.75° to +1.5° loft, 0.75° flat to 1.5° upright lie)"
+  - "Note: the GT4's 10° loft appears in Titleist's final catalogue but was absent from some launch coverage, so it may have been added after launch. Left-hand loft menus differ from right-hand for several heads."
+faq:
+  - q: "What lofts does the Titleist GT come in?"
+    a: "The GT2 and GT3 come in 8, 9, 10 and 11 degrees, the GT4 in 8, 9 and 10, and the lightweight GT1 in 9, 10 and 12."
+  - q: "What is the Titleist GT SureFit chart?"
+    a: "The 16-setting SureFit hosel combines four loft positions (−0.75, standard, +0.75 and +1.5 degrees) with four lie positions (0.75 flat, standard, 0.75 upright and 1.5 upright). A1 is standard for right-handers; the left-hand chart mirrors with D4 as standard."
+  - q: "Is the Titleist GT still in production?"
+    a: "The GT2, GT3 and GT4 were replaced by the GTS generation in June 2026 and are now closeout and used-market buys. The GT1 is the exception — it stays in the Titleist catalogue because no GTS1 exists."
+  - q: "What is special about the GT1?"
+    a: "It is the moderate-swing-speed build of the family: about 50 grams lighter overall through a lighter head, 35-40 gram shafts and a lighter grip, with a more upright 59 degree lie and lofts up to 12 degrees. It launched in February 2025, a season after the rest of the line."
+confidence: high

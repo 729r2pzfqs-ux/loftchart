@@ -1,0 +1,104 @@
+brand: Mizuno
+brand_slug: mizuno
+model: JPX One
+slug: jpx-one-driver
+club_type: driver
+year_introduced: 2026
+year_discontinued: null
+category: flagship
+current_as_of: "2026-10"
+construction: multi-material 460 cc head with composite crown sections, an 11 g fixed back weight and reduced face progression for stability
+material: NANOALLOY titanium face co-developed with Toray — the first driver face with polymer dispersed in the alloy at microscopic level
+predecessor: Mizuno ST-MAX 230
+successor: null
+description: >
+  The JPX One is Mizuno's 2026 driver line, launched in January 2026 and the
+  first to revive the JPX name for metalwoods. Its claim to a world first is
+  the NANOALLOY face, co-developed with Toray: polymer dispersed through the
+  titanium at microscopic level changes the face's elasticity at impact,
+  paired with a CORTECH face map up to 0.35 mm thinner than the ST-MAX
+  230's and a COR area more than 15% larger. The standard JPX One is the
+  larger-footprint, higher-MOI head built for straight flight; the JPX One
+  Select is the compact, tour-inspired head with a shorter blade length,
+  neutral-to-fade bias and roughly 1,100 rpm less spin in independent
+  testing. A women's 12° build with the UST Helium NanoCore 4 is sold
+  alongside.
+variants:
+  - name: JPX One
+    head_cc: 460
+    description: >
+      The larger-footprint, higher-MOI head of the pair — built for
+      stability and straighter flight. The 9° and 12° heads are right-hand
+      only.
+  - name: JPX One Select
+    head_cc: 460
+    description: >
+      The compact, tour-inspired head: reduced topline and blade length,
+      neutral-to-fade bias, a flatter 56.5° lie and a more penetrating,
+      lower-spinning flight. 10.5° is right-hand only.
+specs:
+  - variant: JPX One
+    loft: 9.0
+    lie: 59.0
+    length: 45.75
+  - variant: JPX One
+    loft: 10.5
+    lie: 59.0
+    length: 45.75
+  - variant: JPX One
+    loft: 12.0
+    lie: 59.0
+    length: 45.75
+  - variant: JPX One Select
+    loft: 9.0
+    lie: 56.5
+    length: 45.75
+  - variant: JPX One Select
+    loft: 10.5
+    lie: 56.5
+    length: 45.75
+hosel:
+  system: "Quick Switch"
+  loft_range: "±2°"
+  lie_effect: >
+    Mizuno's published ranges run from the stated lie to 3° upright (JPX One
+    59-62°, Select 56.5-59.5°).
+  face_note: >
+    Lowering loft opens the face and raising it closes it, as on any
+    hosel-based adjuster.
+  notes: >
+    Mizuno publishes the Quick Switch range per head — a 9° head plays
+    7-11°, a 10.5° head 8.5-12.5°, a 12° head 10-14° — but does not publish
+    a position-by-position chart online, so none is reproduced here. The
+    anchors Mizuno does state: the standard setting plays the stamped loft
+    at the stated lie, the extremes sit 2° either side, and the upright
+    positions add up to 3° of lie.
+stock_shafts:
+  - name: "Mitsubishi Tensei 1K Blue"
+    material: graphite
+    weight: "55-65g"
+    flex: ["R", "S"]
+  - name: "Mitsubishi Tensei 1K Black"
+    material: graphite
+    weight: "65-75g"
+    flex: ["R", "S", "X"]
+  - name: "True Temper Denali Frost Blue 60"
+    material: graphite
+related_models:
+  - slug: "mizuno/st-max-230-driver"
+    label: "Predecessor: Mizuno ST-MAX 230 driver"
+sources:
+  - "Mizuno JPX One official club specification table (lofts, loft and lie adjustment ranges, 460 cc, 45.75 inch, hand availability for both heads), https://mizunogolf.com/us/golf-clubs/jpx-one-series/jpx-one-driver/club-specification/, accessed October 2026"
+  - "Mizuno 'world's first NanoAlloy driver' technology article (Toray co-development, CORTECH 0.35 mm thinner, COR area 15% larger than ST-MAX), https://mizunogolf.com/us/blog/jpx-one-the-worlds-first-nanoalloy-driver/, accessed October 2026"
+  - "Golfalot JPX One and JPX One Select reviews (22 January 2026 UK launch, 11 g back weight, spin comparison, stock shafts), https://golfalot.com/equipment-review/mizuno-jpx-one-driver-review, accessed October 2026"
+  - "Note: Mizuno publishes no position-by-position Quick Switch chart, so only the official ranges are stated here. US retail of the standard head's 12° loft was patchy at launch — it appears on Mizuno's spec table as right-hand only."
+faq:
+  - q: "What lofts does the Mizuno JPX One come in?"
+    a: "The standard JPX One comes in 9, 10.5 and 12 degrees (9 and 12 right-hand only); the JPX One Select in 9 and 10.5 (10.5 right-hand only). The Quick Switch hosel extends each head 2 degrees either way."
+  - q: "What are the JPX One loft settings?"
+    a: "Mizuno's Quick Switch hosel adjusts loft 2 degrees either side of stamped — a 9 degree head plays 7 to 11 degrees, a 10.5 plays 8.5 to 12.5 — and lie from standard up to 3 degrees upright. Mizuno does not publish a position-by-position chart, only these ranges."
+  - q: "What is the NANOALLOY face on the JPX One?"
+    a: "A world-first face material co-developed with Toray: polymer dispersed through the titanium at a microscopic level changes how the face flexes at impact. Combined with a thinner CORTECH face map, Mizuno claims a COR area more than 15% larger than the ST-MAX 230's."
+  - q: "What is the difference between the JPX One and JPX One Select?"
+    a: "The standard head is larger-profiled and higher-MOI for straight flight at a 59 degree lie; the Select is compact and tour-inspired with a flatter 56.5 degree lie, neutral-to-fade bias and roughly 1,100 rpm less spin in independent testing."
+confidence: high

@@ -1,0 +1,136 @@
+brand: Cobra
+brand_slug: cobra
+model: DS-ADAPT
+slug: ds-adapt-driver
+club_type: driver
+year_introduced: 2025
+year_discontinued: null
+category: flagship
+construction: carbon fibre crown and sole over a lightweight titanium frame, with a larger forged face insert and per-model PWR-BRIDGE weighting
+material: titanium frame with carbon crown and sole; forged H.O.T. variable-thickness face insert
+predecessor: Cobra Darkspeed
+successor: Cobra OPTM
+description: >
+  The DS-ADAPT is Cobra's 2025 driver family — on pre-sale from 12 December
+  2024 and at retail from 10 January 2025 — and the debut of the FutureFit33
+  hosel: 33 unique settings that adjust loft and lie up to 2 degrees each,
+  independently, a first for Cobra. The compact 445 cc LS carries three
+  adjustable weight positions for better players; the X is the
+  traditional-profile all-rounder with front/back swappable weights; the
+  Max-K is the oversize highest-MOI model; and the Max-D is the draw head
+  with heel-biased mass. The OPTM replaced the family in January 2026,
+  leaving the DS-ADAPT as a strong closeout buy with the same hosel system
+  as the current line.
+variants:
+  - name: DS-ADAPT LS
+    head_cc: 445
+    description: >
+      The compact 445 cc low-spin head with three adjustable weight
+      positions, for better players and faster swings; also sold in a
+      44.5 inch Tour Length build.
+  - name: DS-ADAPT X
+    head_cc: 460
+    description: >
+      The traditional-profile all-rounder with front/back swappable flush
+      weights to trade spin against forgiveness.
+  - name: DS-ADAPT Max-K
+    head_cc: 460
+    description: >
+      The slightly oversize, perimeter-weighted highest-MOI model of the
+      four; women's and junior 12° builds are offered on this head.
+  - name: DS-ADAPT Max-D
+    head_cc: 460
+    description: >
+      The draw-biased head with a low, heel-biased centre of gravity and the
+      PWR-BRIDGE moved back — the slice fighter of the line.
+specs:
+  - variant: DS-ADAPT LS
+    loft: 9.0
+    lie: 57.0
+    length: 45.5
+  - variant: DS-ADAPT LS
+    loft: 10.5
+    lie: 57.0
+    length: 45.5
+  - variant: DS-ADAPT X
+    loft: 9.0
+    lie: 57.0
+    length: 45.5
+  - variant: DS-ADAPT X
+    loft: 10.5
+    lie: 58.0
+    length: 45.5
+  - variant: DS-ADAPT Max-K
+    loft: 9.0
+    lie: 58.0
+    length: 45.5
+  - variant: DS-ADAPT Max-K
+    loft: 10.5
+    lie: 59.0
+    length: 45.5
+  - variant: DS-ADAPT Max-K
+    loft: 12.0
+    lie: 59.0
+    length: 45.5
+  - variant: DS-ADAPT Max-D
+    loft: 10.5
+    lie: 61.0
+    length: 45.5
+  - variant: DS-ADAPT Max-D
+    loft: 12.0
+    lie: 61.0
+    length: 45.5
+hosel:
+  system: "FutureFit33"
+  loft_range: "±2°"
+  positions: 33
+  lie_effect: "Lie adjusts ±2° from stock, independently of loft — a Cobra first."
+  face_note: >
+    The SmartPad sole keeps the face visually square at address in every
+    setting.
+  notes: >
+    FutureFit33 works through two dials — an A-H ring and a 1-8 ring — whose
+    64 combinations collapse to 33 unique loft/lie settings, with A1 the
+    neutral stock position. The valid codes are A1-A8, B1, B3, B4, B6, B7,
+    C1, C2, C4, C7, C8, D1, D2, D3, D6, D8, E1, F1-F4, G1, G3, G4, H1 and
+    H4. Cobra publishes the code-by-code degree chart only as a graphic
+    reached from a QR code on the hosel: outer-ring codes make the biggest
+    moves, inner codes shift loft and lie by tenths of a degree, and the
+    chart is laid out by the miss it corrects. Each stock loft covers ±2°:
+    a 9° head plays 7-11°, a 10.5° head 8.5-12.5°, a 12° head 10-14°.
+stock_shafts:
+  - name: "Project X Denali Black 60"
+    material: graphite
+    flex: ["S", "X"]
+  - name: "Project X Denali Blue 60"
+    material: graphite
+    flex: ["R", "S", "X"]
+  - name: "Project X Denali Red 50"
+    material: graphite
+    flex: ["A", "R"]
+  - name: "Fujikura Pro Black 60 (LS, X)"
+    material: graphite
+    flex: ["S", "X"]
+  - name: "Mitsubishi Vanquish 40 (Max-D)"
+    material: graphite
+    flex: ["R"]
+related_models:
+  - slug: "cobra/optm-driver"
+    label: "Successor: Cobra OPTM drivers"
+  - slug: "cobra/darkspeed-driver"
+    label: "Predecessor: Cobra Darkspeed drivers"
+sources:
+  - "The Golf Wire DS-ADAPT press release (12 December 2024 pre-sale, 10 January 2025 retail, per-head loft and lie ranges, head sizes, shaft matrix, women's and junior builds), https://thegolfwire.com/cobra-golf-ds-adapt-family-futurefit33-metalwood/, accessed October 2026"
+  - "Cobra FutureFit33 official page (64 combinations collapsing to 33 unique settings, ±2° loft and lie, chart access), https://cobragolf.ca/pages/futurefit33, accessed October 2026"
+  - "Golf.com FutureFit33 explainer (quadrant-based miss-correction layout, A1 baseline, example settings), https://golf.com/gear/drivers/cobras-futurefit33-hosel-33-settings/, accessed October 2026"
+  - "Note: Cobra publishes the per-code degree values only as the QR-linked chart graphic, so the code-by-code table is described rather than reproduced here."
+faq:
+  - q: "What lofts does the Cobra DS-ADAPT come in?"
+    a: "The DS-ADAPT LS and X come in 9 and 10.5 degrees, the Max-K in 9, 10.5 and 12, and the Max-D in 10.5 and 12. The FutureFit33 hosel extends each head 2 degrees either way, so the family covers 7 to 14 degrees in all."
+  - q: "How does the DS-ADAPT's FutureFit33 hosel work?"
+    a: "Two dials — a letter ring A-H and a number ring 1-8 — give 33 unique settings that adjust loft and lie up to 2 degrees each, independently of one another. A1 is the stock neutral setting, and Cobra's chart is organised by the miss you want to correct."
+  - q: "What is the difference between the DS-ADAPT Max-K and Max-D?"
+    a: "The Max-K is the neutral, slightly oversize maximum-forgiveness head; the Max-D moves mass low and into the heel with the PWR-BRIDGE shifted back, producing built-in draw bias for players who fight a slice."
+  - q: "Is the Cobra DS-ADAPT still in production?"
+    a: "The OPTM replaced it in January 2026, so the DS-ADAPT is a closeout and used-market buy — often at steep discounts, with the same FutureFit33 hosel as the current line."
+confidence: high

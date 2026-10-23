@@ -1,0 +1,165 @@
+brand: Titleist
+brand_slug: titleist
+model: TSR
+slug: tsr-driver
+club_type: driver
+year_introduced: 2022
+year_discontinued: 2024
+category: flagship
+construction: all-titanium construction with per-head aerodynamic shaping; SureFit CG track on the TSR3, flippable front/back weights on the TSR4
+material: titanium body and variable-thickness titanium face (Multi-Plateau VFT on the TSR2)
+predecessor: Titleist TSi
+successor: Titleist GT
+description: >
+  The TSR is Titleist's 2022-2024 driver generation — the last all-titanium
+  one before the thermoform-crowned GT. The TSR2 is the straight-distance
+  head with a Multi-Plateau variable-thickness face that keeps speed on
+  off-centre strikes; the TSR3 is the precision head with the five-position
+  SureFit CG track; and the 430 cc TSR4 is the ultra-low-spin head whose
+  front weight can be flipped rearward for a more forgiving profile. The
+  ultralight TSR1 joined in February 2023 for swing speeds under about
+  90 mph. The TSR2, TSR3 and TSR4 reached shops in late September 2022 and
+  the family was replaced by the GT in August 2024, making it a staple of
+  the current used market.
+variants:
+  - name: TSR1
+    head_cc: 460
+    description: >
+      The ultra-lightweight aero head, about 40 g lighter than a standard
+      build, for swing speeds under roughly 90 mph; high launch at a longer
+      45.75 inch build. Left-handed stock is 10° only.
+  - name: TSR2
+    head_cc: 460
+    description: >
+      The straight-distance head: high launch, low spin and maximum
+      forgiveness from the Multi-Plateau VFT face.
+  - name: TSR3
+    head_cc: 460
+    description: >
+      The precision head for consistent strikers — mid launch, low spin, with
+      the five-position SureFit CG track for bias tuning.
+  - name: TSR4
+    head_cc: 430
+    description: >
+      The compact spin-killer. Weight forward is maximum spin reduction;
+      flipped rearward it plays closer to a "TSR3.5". The left-hand model
+      arrived in spring 2023.
+specs:
+  - variant: TSR1
+    loft: 9.0
+    lie: 59.0
+    length: 45.75
+  - variant: TSR1
+    loft: 10.0
+    lie: 59.0
+    length: 45.75
+  - variant: TSR1
+    loft: 12.0
+    lie: 59.0
+    length: 45.75
+  - variant: TSR2
+    loft: 8.0
+    lie: 58.5
+    length: 45.5
+  - variant: TSR2
+    loft: 9.0
+    lie: 58.5
+    length: 45.5
+  - variant: TSR2
+    loft: 10.0
+    lie: 58.5
+    length: 45.5
+  - variant: TSR2
+    loft: 11.0
+    lie: 58.5
+    length: 45.5
+  - variant: TSR3
+    loft: 8.0
+    lie: 58.5
+    length: 45.5
+  - variant: TSR3
+    loft: 9.0
+    lie: 58.5
+    length: 45.5
+  - variant: TSR3
+    loft: 10.0
+    lie: 58.5
+    length: 45.5
+  - variant: TSR4
+    loft: 8.0
+    lie: 58.5
+    length: 45.5
+  - variant: TSR4
+    loft: 9.0
+    lie: 58.5
+    length: 45.5
+  - variant: TSR4
+    loft: 10.0
+    lie: 58.5
+    length: 45.5
+hosel:
+  system: "SureFit hosel"
+  loft_range: "−0.75° to +1.5°"
+  positions: 16
+  lie_effect: "Lie adjusts independently of loft, from 0.75° flat to 1.5° upright."
+  face_note: >
+    Loft changes open or close the face slightly at address; SureFit's ring
+    and cog adjust loft and lie independently, unlike single-axis sleeves.
+  notes: >
+    The chart below is the right-handed chart; A1 is the standard setting.
+    For left-handed drivers the chart mirrors and D4 is standard. Every TSR
+    head, the TSR1 included, carries the SureFit hosel, and the sleeve
+    interchanges with the TSi, TS, GT and GTS generations.
+  settings:
+    - { setting: "A1", loft: "std", lie: "std" }
+    - { setting: "A2", loft: "std", lie: "1.5° upright" }
+    - { setting: "A3", loft: "+1.5°", lie: "1.5° upright" }
+    - { setting: "A4", loft: "+1.5°", lie: "std" }
+    - { setting: "B1", loft: "std", lie: "0.75° flat" }
+    - { setting: "B2", loft: "std", lie: "0.75° upright" }
+    - { setting: "B3", loft: "+1.5°", lie: "0.75° upright" }
+    - { setting: "B4", loft: "+1.5°", lie: "0.75° flat" }
+    - { setting: "C1", loft: "−0.75°", lie: "0.75° flat" }
+    - { setting: "C2", loft: "−0.75°", lie: "0.75° upright" }
+    - { setting: "C3", loft: "+0.75°", lie: "0.75° upright" }
+    - { setting: "C4", loft: "+0.75°", lie: "0.75° flat" }
+    - { setting: "D1", loft: "−0.75°", lie: "std" }
+    - { setting: "D2", loft: "−0.75°", lie: "1.5° upright" }
+    - { setting: "D3", loft: "+0.75°", lie: "1.5° upright" }
+    - { setting: "D4", loft: "+0.75°", lie: "std" }
+stock_shafts:
+  - name: "Project X HZRDUS Red CB 50/60"
+    material: graphite
+    flex: ["5.0", "5.5", "6.0"]
+  - name: "Mitsubishi Tensei AV Blue with XLINK 55/65"
+    material: graphite
+    flex: ["R", "S", "X"]
+  - name: "Project X HZRDUS Black 4G 60/70"
+    material: graphite
+    flex: ["5.5", "6.0", "6.5"]
+  - name: "Mitsubishi Tensei 1K Black 65/75"
+    material: graphite
+    flex: ["S", "X"]
+  - name: "Mitsubishi MMT SpeedMesh 35/40 (TSR1)"
+    material: graphite
+    flex: ["L", "A", "R"]
+related_models:
+  - slug: "titleist/gt-driver"
+    label: "Successor: Titleist GT drivers"
+  - slug: "titleist/tsi-driver"
+    label: "Predecessor: Titleist TSi drivers"
+sources:
+  - "2nd Swing TSR1 spec table (9/10/12 lofts, 59° lie, 45.75 inch, MMT SpeedMesh, left-hand 10° stock), https://2ndswing.com/golf-clubs/drivers/titleist-tsr1-driver, accessed October 2026"
+  - "Titleist TSR launch coverage and archived spec pages (TSR2/3/4 lofts, 58.5° lie, 45.5 inch, 430 cc TSR4, late-September 2022 retail; TSR1 retail 23 February 2023), https://golf.com/gear/drivers/titleist-tsr1-line-first-look/, accessed October 2026"
+  - "TGW SureFit hosel guide (full 16-setting right- and left-hand charts, −0.75° to +1.5° loft, 0.75° flat to 1.5° upright lie)"
+  - "Note: an 11° TSR3 was reportedly available by custom order only, so it is not charted."
+faq:
+  - q: "What lofts does the Titleist TSR come in?"
+    a: "The TSR2 comes in 8, 9, 10 and 11 degrees; the TSR3 and TSR4 in 8, 9 and 10; and the lightweight TSR1 in 9, 10 and 12."
+  - q: "What is the Titleist TSR SureFit chart?"
+    a: "The 16-setting SureFit hosel combines four loft positions (−0.75, standard, +0.75 and +1.5 degrees) with four lie positions (0.75 flat, standard, 0.75 upright and 1.5 upright). A1 is standard for right-handers; the left-hand chart mirrors with D4 as standard."
+  - q: "What is the difference between the TSR2 and TSR3?"
+    a: "The TSR2 is the forgiveness-first distance head with a fixed weight and a Multi-Plateau variable-thickness face; the TSR3 is the smaller precision head with the five-position SureFit CG track for heel-to-toe bias fitting."
+  - q: "Is the Titleist TSR still in production?"
+    a: "No — it ran from 2022 to 2024, when the GT replaced it, so the used market is the main source. Its SureFit sleeve interchanges with both older TSi/TS and newer GT/GTS shafts."
+confidence: high

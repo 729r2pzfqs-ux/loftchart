@@ -1,0 +1,108 @@
+brand: Srixon
+brand_slug: srixon
+model: ZX Mk II
+slug: zx-mkii-driver
+club_type: driver
+year_introduced: 2023
+year_discontinued: null
+category: flagship
+construction: 460 cc heads with the Rebound Frame's alternating rigid and flexible zones, a carbon crown and per-model adjustable sole weighting
+material: titanium face and body with carbon composite crown
+predecessor: Srixon ZX
+successor: Srixon ZXi
+description: >
+  The ZX Mk II is Srixon's 2023 driver generation, refining the original
+  ZX's Rebound Frame — alternating rigid and flexible zones that return more
+  energy to the ball — under a carbon crown. The ZX5 Mk II is the mid-spin,
+  high-MOI volume seller with a single rear weight; the ZX5 LS Mk II moves
+  its sole weight forward near the face to cut spin for faster swings (and
+  adds an 8.5° head); and the ZX7 Mk II is the tour head with two swappable
+  heel/toe weights for draw or fade bias. The ZXi replaced the family in
+  January 2025.
+variants:
+  - name: ZX5 Mk II
+    head_cc: 460
+    description: >
+      The mid-spin, high-MOI all-rounder with a single rear sole weight — the
+      volume seller of the line.
+  - name: ZX5 LS Mk II
+    head_cc: 460
+    description: >
+      The low-spin version, with the sole weight moved forward near the face;
+      right-hand only, and the only head with an 8.5° option.
+  - name: ZX7 Mk II
+    head_cc: 460
+    description: >
+      The tour and workability head, with two swappable heel/toe weights for
+      draw or fade bias.
+specs:
+  - variant: ZX5 Mk II
+    loft: 9.5
+    lie: 58.5
+    length: 45.25
+  - variant: ZX5 Mk II
+    loft: 10.5
+    lie: 58.5
+    length: 45.25
+  - variant: ZX5 LS Mk II
+    loft: 8.5
+    lie: 58.5
+    length: 45.25
+  - variant: ZX5 LS Mk II
+    loft: 9.5
+    lie: 58.5
+    length: 45.25
+  - variant: ZX5 LS Mk II
+    loft: 10.5
+    lie: 58.5
+    length: 45.25
+  - variant: ZX7 Mk II
+    loft: 9.5
+    lie: 58.5
+    length: 45.25
+  - variant: ZX7 Mk II
+    loft: 10.5
+    lie: 58.5
+    length: 45.25
+hosel:
+  system: "Quick Tune System (QTS) sleeve"
+  loft_range: "±1°"
+  positions: 12
+  lie_effect: >
+    The sleeve adjusts lie flatter alongside loft; Srixon's per-position
+    values for this generation are no longer published.
+  face_note: >
+    Face angle moves with the loft setting, opening as loft is removed and
+    closing as it is added.
+  notes: >
+    Srixon's ZX-era QTS offered twelve combinations of loft, lie and face
+    angle across ±1° of loft. The position-by-position chart for this
+    generation is no longer published online, so it is not reproduced here —
+    note that it is not the same chart as the later QTS 1.5 sleeve on the
+    ZXi, whose range is ±1.5°.
+stock_shafts:
+  - name: "Project X HZRDUS Smoke Red RDX 50/60 (ZX5 Mk II)"
+    material: graphite
+    flex: ["R", "S", "X"]
+  - name: "Project X HZRDUS Black 60/70 (ZX7 Mk II)"
+    material: graphite
+    flex: ["R", "S", "X"]
+related_models:
+  - slug: "srixon/zxi-driver"
+    label: "Successor: Srixon ZXi drivers"
+  - slug: "srixon/zx-driver"
+    label: "Predecessor: Srixon ZX drivers"
+sources:
+  - "2nd Swing ZX5 LS Mk II and ZX7 Mk II spec listings (lofts incl. the LS-only 8.5°, 58.5° lie, 45.25 inch, ±1° adjustability, weights), https://www.2ndswing.com/golf-clubs/drivers/srixon-zx5-ls-mk-ii-driver, accessed October 2026"
+  - "Golfstead ZX5 Mk II review (stock HZRDUS Smoke Red RDX, twelve-combination hosel), https://golfstead.com/srixon-zx5-mk-ii-driver-review, accessed October 2026"
+  - "Note: Srixon's official ZX Mk II pages have been removed, so specs are compiled from retailer tables and reviews; the ZX5 LS Mk II stock shaft is not confirmed against Srixon's own listing."
+faq:
+  - q: "What lofts does the Srixon ZX Mk II come in?"
+    a: "The ZX5 Mk II and ZX7 Mk II come in 9.5 and 10.5 degrees; the ZX5 LS Mk II adds an 8.5 alongside 9.5 and 10.5. The QTS sleeve extends each head one degree either way."
+  - q: "How adjustable is the ZX Mk II hosel?"
+    a: "The Quick Tune System sleeve offers twelve combinations of loft, lie and face angle across ±1 degree of loft. Srixon no longer publishes the position-by-position chart for this generation — and it differs from the ±1.5 degree QTS 1.5 chart on the newer ZXi."
+  - q: "What is the difference between the ZX5 Mk II and ZX7 Mk II?"
+    a: "The ZX5 is the higher-MOI, mid-spin distance head with a single rear weight; the ZX7 is the compact tour head whose two heel/toe weights swap to set draw or fade bias."
+  - q: "Is the Srixon ZX Mk II still in production?"
+    a: "No — the ZXi replaced it in January 2025 and Srixon's own product pages for it are gone, so the used market is the source. Check which QTS setting a used head is in before judging its loft."
+confidence: medium

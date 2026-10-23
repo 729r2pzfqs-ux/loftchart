@@ -1,0 +1,156 @@
+brand: Ping
+brand_slug: ping
+model: G440
+slug: g440-driver
+club_type: driver
+year_introduced: 2025
+year_discontinued: null
+category: flagship
+current_as_of: "2026-10"
+construction: titanium body with Carbonfly Wrap composite crown (the K adds a carbon sole), weight-saving "Free Hosel", tungsten backweight and crown turbulators
+material: Ti-811 titanium body; forged T9S+ titanium face with Spinsistency dual-roll radius
+predecessor: Ping G430
+successor: null
+description: >
+  The G440 is Ping's 2025 driver family, at US retail from 30 January 2025.
+  It trims weight with a shallower face, a composite Carbonfly Wrap crown and
+  a new "Free Hosel" design, then spends the savings on a movable tungsten
+  backweight in every head. The Max is the core high-MOI model, the LST a
+  notably larger 450 cc low-spin head than past LSTs, and the SFT the draw
+  model with Draw and Draw+ weight positions worth up to 20 yards of
+  correction. In January 2026 Ping added the G440 K — its highest-MOI
+  adjustable driver yet, a 10K-class head with a 32 g CG-shifter backweight
+  and a dual Carbonfly Wrap crown and sole — effectively the successor to
+  the fixed-weight G430 Max 10K. High-launch (HL) builds of the Max, SFT and
+  K pair lighter backweights with the ALTA Quick 35/45 shafts.
+variants:
+  - name: G440 Max
+    head_cc: 460
+    description: >
+      The core high-MOI head for most players, with a 29 g movable tungsten
+      backweight in Draw, Neutral and Fade positions. Head weight 203 g,
+      swing weight D3.
+  - name: G440 LST
+    head_cc: 450
+    description: >
+      The low-spin head for faster swings — at 450 cc, much larger than
+      earlier LSTs — with the same 29 g three-position backweight. Head
+      weight 205 g, swing weight D4.
+  - name: G440 SFT
+    head_cc: 460
+    description: >
+      The draw-biased slice corrector: a 23 g backweight with Draw (about a
+      13-yard bias) and Draw+ (about 20 yards) positions. Head weight 199 g,
+      swing weight D0.
+  - name: G440 K
+    head_cc: 460
+    description: >
+      Added January 2026: Ping's highest-MOI driver, a 10K-class head that
+      keeps movable weighting — a 32 g tungsten CG shifter in Neutral, Draw
+      and Fade positions — under a dual Carbonfly Wrap carbon crown and sole,
+      on the largest front-to-back profile in the line.
+specs:
+  - variant: G440 Max
+    loft: 9.0
+    lie: 58.5
+    length: 46.0
+  - variant: G440 Max
+    loft: 10.5
+    lie: 58.5
+    length: 46.0
+  - variant: G440 Max
+    loft: 12.0
+    lie: 58.5
+    length: 46.0
+  - variant: G440 LST
+    loft: 9.0
+    lie: 57.0
+    length: 46.0
+  - variant: G440 LST
+    loft: 10.5
+    lie: 57.0
+    length: 46.0
+  - variant: G440 SFT
+    loft: 9.0
+    lie: 58.5
+    length: 46.0
+  - variant: G440 SFT
+    loft: 10.5
+    lie: 58.5
+    length: 46.0
+  - variant: G440 K
+    loft: 9.0
+    lie: 58.5
+    length: 46.0
+  - variant: G440 K
+    loft: 10.5
+    lie: 58.5
+    length: 46.0
+  - variant: G440 K
+    loft: 12.0
+    lie: 58.5
+    length: 46.0
+length_note: >
+  46 inches is the standard build with the stock ALTA CB Blue 50; builds with
+  the Tour 2.0 Chrome/Black, Tensei 1K Black or Denali Red are 45.5 inches.
+  Ping publishes lie as the average across the five neutral-lie hosel
+  positions.
+hosel:
+  system: "Trajectory Tuning 2.0"
+  loft_range: "±1.5°"
+  positions: 8
+  lie_effect: >
+    Three flat positions sit up to 3° flatter than standard; there is no
+    upright setting.
+  face_note: >
+    Lowering loft opens the face slightly and adding loft closes it, as on
+    any hosel-based adjuster.
+  notes: >
+    The same eight-position chart has carried unchanged through the G425,
+    G430 and G440 generations, so sleeves and settings interchange. The
+    ±1.5° "big" settings exist only at the standard lie; the flat positions
+    offer 0 and ±1° of loft.
+  settings:
+    - { setting: "Standard", loft: "std", lie: "std" }
+    - { setting: "+1", loft: "+1°", lie: "std" }
+    - { setting: "Big +", loft: "+1.5°", lie: "std" }
+    - { setting: "−1", loft: "−1°", lie: "std" }
+    - { setting: "Big −", loft: "−1.5°", lie: "std" }
+    - { setting: "Standard Flat", loft: "std", lie: "3° flat" }
+    - { setting: "+1 Flat", loft: "+1°", lie: "3° flat" }
+    - { setting: "−1 Flat", loft: "−1°", lie: "3° flat" }
+stock_shafts:
+  - name: "Ping ALTA CB Blue 50 (counter-balanced)"
+    material: graphite
+    weight: "49-55g"
+    flex: ["SR", "R", "S"]
+  - name: "Ping Tour 2.0 Chrome 65"
+    material: graphite
+    flex: ["R", "S", "X"]
+  - name: "Ping Tour 2.0 Black 65"
+    material: graphite
+    flex: ["S", "X"]
+  - name: "Mitsubishi Tensei 1K Black 65"
+    material: graphite
+    flex: ["S", "X"]
+  - name: "Project X Denali Red 50/60"
+    material: graphite
+    flex: ["5.5", "6.0", "6.5"]
+related_models:
+  - slug: "ping/g430-driver"
+    label: "Predecessor: Ping G430 drivers"
+sources:
+  - "Ping G440 Max, LST, SFT and K official product pages (lofts, lie, head weights, swing weights, backweights, Trajectory Tuning 2.0, stock shafts), https://ping.com/en-us/clubs/drivers/g440-max, accessed October 2026"
+  - "Golf Business News G440 K launch report (13 January 2026 pre-orders, dual Carbonfly Wrap, 32 g CG shifter, K HL build), https://golfbusinessnews.com/news/new-products/ping-expands-g440-driver-lineup/, accessed October 2026"
+  - "Golf.com and MyGolfSpy G440 launch coverage (30 January 2025 US retail), https://golf.com/gear/drivers/ping-g440-drivers-woods-hybrids/, accessed October 2026"
+  - "Note: Ping does not publish a numeric MOI for the G440 K, only that it sets a record for a Ping driver; the 32 g backweight figure comes from launch coverage rather than Ping's own page."
+faq:
+  - q: "What lofts does the Ping G440 come in?"
+    a: "The G440 Max and G440 K come in 9, 10.5 and 12 degrees; the G440 LST and G440 SFT in 9 and 10.5."
+  - q: "What is the G440 adjustment chart?"
+    a: "Ping's Trajectory Tuning 2.0 hosel has eight settings: standard, +1, +1.5, −1 and −1.5 degrees of loft at the standard lie, plus flat versions of standard, +1 and −1 that sit up to 3 degrees flatter. There is no upright setting."
+  - q: "What is the difference between the G440 Max and G440 K?"
+    a: "Both are 460 cc forgiveness heads with movable weights. The K, added in January 2026, is the 10K-MOI model — a larger front-to-back profile, a heavier 32 gram CG shifter and a carbon sole as well as crown — while the Max is the lighter, slightly more conventional core head."
+  - q: "Why is the G440 46 inches long?"
+    a: "Only with the stock counter-balanced ALTA CB Blue 50 shaft, whose balance point lets Ping build longer without the swing weight ballooning. With the Tour 2.0, Tensei 1K or Denali Red shafts the standard build is 45.5 inches."
+confidence: high

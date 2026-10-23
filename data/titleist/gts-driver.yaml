@@ -1,0 +1,149 @@
+brand: Titleist
+brand_slug: titleist
+model: GTS
+slug: gts-driver
+club_type: driver
+year_introduced: 2026
+year_discontinued: null
+category: flagship
+current_as_of: "2026-10"
+construction: full thermoform body — a Split Mass Frame concealed under the crown — with the Speed Sync face and dual front/back weighting
+material: Proprietary Matrix Polymer (PMP) thermoform body over a titanium frame; titanium variable-thickness face
+predecessor: Titleist GT
+successor: null
+description: >
+  The GTS is Titleist's 2026 driver generation, announced on 13 May and in
+  golf shops worldwide from 11 June 2026. It doubles down on the GT's
+  thermoform construction: 26 grams of Proprietary Matrix Polymer — twice the
+  GT's share — covers about 60% of the head's surface at only 13% of its
+  mass, wrapped around a titanium Split Mass Frame and the new Speed Sync
+  face. Every head carries dual front/back weighting, and the GTS3 and GTS4
+  add the five-position SureFit CG track. There is no GTS1: the lightweight
+  GT1 from the previous generation stays in the catalogue as the
+  moderate-swing-speed option. Lofts run on Titleist's whole-degree ladder —
+  8° to 11° — rather than the industry's 9/10.5/12 convention.
+variants:
+  - name: GTS2
+    head_cc: 460
+    description: >
+      The max-stability head for power and consistency across the face: high
+      launch, mid spin, with fixed-position front and back flat weights (11 g
+      forward, 5 g aft as standard — flip them for more MOI and launch).
+  - name: GTS3
+    head_cc: 460
+    description: >
+      The precision head — more compact, deeper-faced, mid launch and low
+      spin — with an 8 g weight in the five-position SureFit CG track plus a
+      5 g aft weight.
+  - name: GTS4
+    head_cc: 460
+    description: >
+      The spin-killer, now grown from the GT4's 430 cc to a full 460 cc for
+      more off-centre forgiveness while keeping the most aggressive spin
+      reduction in the line. 8 g CG-track weight plus 5 g aft.
+specs:
+  - variant: GTS2
+    loft: 8.0
+    lie: 58.5
+    length: 45.5
+  - variant: GTS2
+    loft: 9.0
+    lie: 58.5
+    length: 45.5
+  - variant: GTS2
+    loft: 10.0
+    lie: 58.5
+    length: 45.5
+  - variant: GTS2
+    loft: 11.0
+    lie: 58.5
+    length: 45.5
+  - variant: GTS3
+    loft: 8.0
+    lie: 58.5
+    length: 45.5
+  - variant: GTS3
+    loft: 9.0
+    lie: 58.5
+    length: 45.5
+  - variant: GTS3
+    loft: 10.0
+    lie: 58.5
+    length: 45.5
+  - variant: GTS3
+    loft: 11.0
+    lie: 58.5
+    length: 45.5
+  - variant: GTS4
+    loft: 8.0
+    lie: 58.5
+    length: 45.5
+  - variant: GTS4
+    loft: 9.0
+    lie: 58.5
+    length: 45.5
+  - variant: GTS4
+    loft: 10.0
+    lie: 58.5
+    length: 45.5
+hosel:
+  system: "SureFit hosel"
+  loft_range: "−0.75° to +1.5°"
+  positions: 16
+  lie_effect: "Lie adjusts independently of loft, from 0.75° flat to 1.5° upright."
+  face_note: >
+    Loft changes open or close the face slightly at address; SureFit's ring
+    and cog adjust loft and lie independently, unlike single-axis sleeves.
+  notes: >
+    The chart below is the right-handed chart; A1 is the standard setting.
+    For left-handed drivers the chart mirrors and D4 is standard. The SureFit
+    sleeve is unchanged across the GTS, GT, TSR, TSi and TS generations, so
+    shafts interchange back through 2018.
+  settings:
+    - { setting: "A1", loft: "std", lie: "std" }
+    - { setting: "A2", loft: "std", lie: "1.5° upright" }
+    - { setting: "A3", loft: "+1.5°", lie: "1.5° upright" }
+    - { setting: "A4", loft: "+1.5°", lie: "std" }
+    - { setting: "B1", loft: "std", lie: "0.75° flat" }
+    - { setting: "B2", loft: "std", lie: "0.75° upright" }
+    - { setting: "B3", loft: "+1.5°", lie: "0.75° upright" }
+    - { setting: "B4", loft: "+1.5°", lie: "0.75° flat" }
+    - { setting: "C1", loft: "−0.75°", lie: "0.75° flat" }
+    - { setting: "C2", loft: "−0.75°", lie: "0.75° upright" }
+    - { setting: "C3", loft: "+0.75°", lie: "0.75° upright" }
+    - { setting: "C4", loft: "+0.75°", lie: "0.75° flat" }
+    - { setting: "D1", loft: "−0.75°", lie: "std" }
+    - { setting: "D2", loft: "−0.75°", lie: "1.5° upright" }
+    - { setting: "D3", loft: "+0.75°", lie: "1.5° upright" }
+    - { setting: "D4", loft: "+0.75°", lie: "std" }
+stock_shafts:
+  - name: "Project X Titan Black"
+    material: graphite
+    flex: ["5.5", "6.0", "6.5", "TX"]
+  - name: "Mitsubishi Tensei 1K Blue"
+    material: graphite
+    flex: ["R2", "R", "S", "X"]
+  - name: "Mitsubishi Tensei 1K Red"
+    material: graphite
+    flex: ["R3", "R2", "R", "S"]
+  - name: "Mitsubishi Tensei 1K White"
+    material: graphite
+    flex: ["S", "X", "TX"]
+related_models:
+  - slug: "titleist/gt-driver"
+    label: "Predecessor: Titleist GT drivers"
+sources:
+  - "Titleist media center GTS introduction (lineup GTS2/GTS3/GTS4, lofts, PMP construction, weights, 13 May announcement and 11 June 2026 retail), https://mediacenter.titleist.com/en-CA/265522-titleist-introduces-new-gts-drivers/, accessed October 2026"
+  - "ParWest Golf GTS driver guide (per-model head sizes, 58.5° lie, 45.5 inch length, weight layouts, stock shafts), https://www.parwestgolf.com/blogs/content/titleist-gts-driver-guide, accessed October 2026"
+  - "TGW SureFit hosel guide (full 16-setting right- and left-hand charts, −0.75° to +1.5° loft, 0.75° flat to 1.5° upright lie)"
+  - "Note: Titleist publishes the head volume only for the GTS4; the GTS2 and GTS3 at 460 cc rest on launch coverage, with one retailer guide listing the GTS3 at 450 cc."
+faq:
+  - q: "What lofts does the Titleist GTS come in?"
+    a: "The GTS2 and GTS3 come in 8, 9, 10 and 11 degrees; the GTS4 in 8, 9 and 10. Titleist uses whole-degree lofts rather than the 9/10.5/12 ladder most brands sell."
+  - q: "What is the GTS SureFit chart?"
+    a: "The 16-setting SureFit hosel combines four loft positions (−0.75, standard, +0.75 and +1.5 degrees) with four lie positions (0.75 flat, standard, 0.75 upright and 1.5 upright). A1 is standard for right-handers; the left-hand chart mirrors with D4 as standard."
+  - q: "Is there a GTS1 driver?"
+    a: "No — as of October 2026 Titleist has not released a GTS1. The lightweight GT1 from the 2024-25 generation remains in the catalogue as the moderate-swing-speed option, just as the GT1 itself arrived a season after the GT2-GT4."
+  - q: "What changed from the Titleist GT to the GTS?"
+    a: "The GTS doubles the thermoform polymer share (26 g of PMP versus 13), adds the Speed Sync face with a reinforced perimeter, gives every head dual front/back weights, and grows the GTS4 to 460 cc from the GT4's 430 cc. Lofts, lie and the SureFit chart carry over unchanged."
+confidence: high

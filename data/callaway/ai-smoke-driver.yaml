@@ -1,0 +1,147 @@
+brand: Callaway
+brand_slug: callaway
+model: Paradym Ai Smoke
+slug: ai-smoke-driver
+club_type: driver
+year_introduced: 2024
+year_discontinued: null
+category: flagship
+construction: forged titanium face cup on a carbon-crowned chassis; sliding rear perimeter weight on the Max, front/back weight ports on the Triple Diamond
+material: forged titanium Ai Smart Face; Thermoforged carbon crown
+predecessor: Callaway Paradym
+successor: Callaway Elyte
+description: >
+  The Paradym Ai Smoke is Callaway's 2024 driver family and the first with
+  the Ai Smart Face — a face designed by machine learning against a database
+  of real swings, zoned into "micro deflections" that tune launch and spin by
+  impact location. The Max is the core head, with sliding perimeter weighting
+  claimed to move shot shape up to 19 yards; the 450 cc Triple Diamond is the
+  low-spin tour head with 14 g of swappable front/back weighting; the Max D
+  is the highest-MOI head of the family with fixed draw weighting; and the
+  Max Fast is the ultralight model — notably the one driver of this era that
+  Callaway sold with a glued, non-adjustable hosel to save weight. The Elyte
+  replaced the family in 2025.
+variants:
+  - name: Paradym Ai Smoke Max
+    head_cc: 460
+    description: >
+      The core head with adjustable sliding perimeter weighting — up to about
+      19 yards of shot-shape correction between its draw and fade settings.
+  - name: Paradym Ai Smoke Triple Diamond
+    head_cc: 450
+    description: >
+      The compact low-spin tour head with neutral-to-fade bias; a 14 g weight
+      swaps between a front port (lowest spin) and a back port (more MOI).
+      8° is right-hand only.
+  - name: Paradym Ai Smoke Max D
+    head_cc: 460
+    description: >
+      The highest-MOI head in the family, with fixed rear-heel draw
+      weighting and the most upright lie — built for slicers.
+  - name: Paradym Ai Smoke Max Fast
+    head_cc: 460
+    description: >
+      The ultralight build for slower swing speeds — and the exception in the
+      lineup: its hosel is bonded (non-adjustable) and its rear weight a
+      fixed 4 g, both to save mass. Right-hand only.
+specs:
+  - variant: Paradym Ai Smoke Max
+    loft: 9.0
+    lie: 58.0
+    length: 45.75
+  - variant: Paradym Ai Smoke Max
+    loft: 10.5
+    lie: 58.0
+    length: 45.75
+  - variant: Paradym Ai Smoke Max
+    loft: 12.0
+    lie: 58.0
+    length: 45.75
+  - variant: Paradym Ai Smoke Triple Diamond
+    loft: 8.0
+    lie: 57.0
+    length: 45.75
+  - variant: Paradym Ai Smoke Triple Diamond
+    loft: 9.0
+    lie: 57.0
+    length: 45.75
+  - variant: Paradym Ai Smoke Triple Diamond
+    loft: 10.5
+    lie: 57.0
+    length: 45.75
+  - variant: Paradym Ai Smoke Max D
+    loft: 9.0
+    lie: 60.0
+    length: 45.75
+  - variant: Paradym Ai Smoke Max D
+    loft: 10.5
+    lie: 60.0
+    length: 45.75
+  - variant: Paradym Ai Smoke Max D
+    loft: 12.0
+    lie: 60.0
+    length: 45.75
+  - variant: Paradym Ai Smoke Max Fast
+    loft: 10.5
+    lie: 59.5
+    length: 45.75
+  - variant: Paradym Ai Smoke Max Fast
+    loft: 12.0
+    lie: 59.5
+    length: 45.75
+hosel:
+  system: "OptiFit hosel (Max, Triple Diamond and Max D — the Max Fast is bonded)"
+  loft_range: "−1° to +2°"
+  positions: 8
+  lie_effect: >
+    The lie cog has two positions: N (neutral, the stated lie) and D (draw, a
+    more upright lie — Callaway does not publish the degree change).
+  face_note: >
+    Changing loft re-orients the head on the shaft, so lower settings sit
+    slightly open and higher settings slightly closed at address.
+  notes: >
+    The two-cog OptiFit design is unchanged from the Paradym through the Ai
+    Smoke, Elyte and Quantum. The Max Fast is the one head of this era with
+    no hosel adjustment at all — its loft is fixed as stamped.
+  settings:
+    - { setting: "−1 / N", loft: "−1°", lie: "neutral" }
+    - { setting: "−1 / D", loft: "−1°", lie: "draw (more upright)" }
+    - { setting: "S / N", loft: "std", lie: "neutral" }
+    - { setting: "S / D", loft: "std", lie: "draw (more upright)" }
+    - { setting: "+1 / N", loft: "+1°", lie: "neutral" }
+    - { setting: "+1 / D", loft: "+1°", lie: "draw (more upright)" }
+    - { setting: "+2 / N", loft: "+2°", lie: "neutral" }
+    - { setting: "+2 / D", loft: "+2°", lie: "draw (more upright)" }
+stock_shafts:
+  - name: "Mitsubishi Tensei AV Blue 50/60"
+    material: graphite
+    flex: ["R", "S", "X"]
+  - name: "Project X Cypher 2.0 40 (Max, Max D)"
+    material: graphite
+    flex: ["L"]
+  - name: "Project X Denali Black 60/70 (Triple Diamond)"
+    material: graphite
+    flex: ["S", "X"]
+  - name: "Mitsubishi Tensei AV Blue/Silver 40 (Max Fast)"
+    material: graphite
+    flex: ["A"]
+related_models:
+  - slug: "callaway/elyte-driver"
+    label: "Successor: Callaway Elyte drivers"
+  - slug: "callaway/paradym-driver"
+    label: "Predecessor: Callaway Paradym drivers"
+sources:
+  - "National Club Golfer Paradym Ai Smoke launch guide (lineup, lofts, Max 58° and Max D 60° lie), https://www.nationalclubgolfer.com/us/reviews/callaway-paradym-ai-smoke-everything-you-need-to-know/, accessed October 2026"
+  - "2nd Swing Ai Smoke Max, Triple Diamond and Max Fast spec listings (lie, lengths, shaft matrix, fixed Max Fast hosel), https://www.2ndswing.com/golf-clubs/drivers/callaway-paradym-ai-smoke-max-driver, accessed October 2026"
+  - "Golfstead Ai Smoke Max Fast review (bonded hosel and fixed 4 g rear weight to save mass), https://golfstead.com/callaway-paradym-ai-smoke-max-fast-driver-review, accessed October 2026"
+  - "Note: lie figures rest on retailer spec tables and launch coverage — Callaway's own archived Ai Smoke spec pages were not reachable."
+faq:
+  - q: "What lofts does the Callaway Paradym Ai Smoke come in?"
+    a: "The Ai Smoke Max and Max D come in 9, 10.5 and 12 degrees, the Triple Diamond in 8, 9 and 10.5 (8 right-hand only), and the Max Fast in 10.5 and 12."
+  - q: "What is the Paradym Ai Smoke adjustment chart?"
+    a: "The Max, Triple Diamond and Max D use Callaway's two-cog OptiFit hosel — loft at −1, stated, +1 or +2 degrees, each in a Neutral or Draw lie, eight settings in all. The Max Fast is the exception: its hosel is bonded and not adjustable."
+  - q: "Is the Ai Smoke Max Fast adjustable?"
+    a: "No. To keep the total build ultralight, Callaway glued the Max Fast's hosel, so it plays its stamped loft only. The following Elyte and Quantum Max Fast models restored the adjustable hosel."
+  - q: "Is the Paradym Ai Smoke still in production?"
+    a: "No — the Elyte replaced it in early 2025 and the Quantum followed in 2026, so the Ai Smoke is a used-market and closeout buy, typically at a steep discount to the current line."
+confidence: medium

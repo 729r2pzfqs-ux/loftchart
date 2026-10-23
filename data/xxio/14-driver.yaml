@@ -1,0 +1,98 @@
+brand: XXIO
+brand_slug: xxio
+model: "14"
+slug: 14-driver
+club_type: driver
+year_introduced: 2025
+year_discontinued: null
+category: lightweight
+current_as_of: "2026-10"
+construction: ultralight 460 cc builds with the ULTiFLEX face flex design, ActivWing aerodynamic crown and sole steps and a draw-biased weighting scheme
+material: VR-Titanium (silicon-enhanced titanium) face
+predecessor: XXIO 13
+successor: null
+description: >
+  The XXIO 14 is the 2026 generation of XXIO's ultralight flagship, at US
+  retail from 8 December 2025 — and a first for the brand: after thirteen
+  generations of glued hosels, the 14 and 14+ carry an adjustable
+  "Lightweight Quick Tune" loft sleeve. The standard 14 is a 283-gram total
+  build at 46 inches for swing speeds of roughly 75-90 mph; the 14+ is the
+  slightly heavier (299 g), lower-launching build for 90-100 mph swings,
+  right-hand only. A separate XXIO 14 Ladies line runs rounded ultralight
+  heads at 10.5° to 13.5° with the MP-1400L shaft. Both men's models use the
+  silicon-enhanced VR-Titanium face with XXIO's ULTiFLEX flex design.
+variants:
+  - name: XXIO 14
+    head_cc: 460
+    description: >
+      The flagship ultralight: about 283 g total club weight at 46 inches,
+      built for moderate swing speeds around 75-90 mph. 9.5° is right-hand
+      only.
+  - name: XXIO 14+
+    head_cc: 460
+    description: >
+      The slightly heavier (299 g), lower-launching build for 90-100 mph
+      swings, in a darker matte cosmetic. Right-hand only.
+specs:
+  - variant: XXIO 14
+    loft: 9.5
+    lie: 59.0
+    length: 46.0
+  - variant: XXIO 14
+    loft: 10.5
+    lie: 59.0
+    length: 46.0
+  - variant: XXIO 14
+    loft: 11.5
+    lie: 59.0
+    length: 46.0
+  - variant: XXIO 14+
+    loft: 9.0
+    lie: 59.0
+    length: 45.75
+  - variant: XXIO 14+
+    loft: 10.5
+    lie: 59.0
+    length: 45.75
+hosel:
+  system: "Lightweight Quick Tune System"
+  loft_range: "±1.5°"
+  lie_effect: >
+    XXIO's retail copy describes loft and lie adjustment; per-position lie
+    values are not published.
+  face_note: >
+    Marketed for fine-tuning trajectory; face-angle effects are not
+    published.
+  notes: >
+    This is the first adjustable hosel in XXIO driver history — a
+    weight-trimmed sleeve XXIO says saves about 2 g over a conventional one.
+    XXIO publishes no position-by-position chart, so only the ±1.5° range is
+    stated here. The Ladies models' pages omit the Quick Tune section
+    entirely, suggesting their hosels remain fixed.
+stock_shafts:
+  - name: "XXIO MP1400 (XXIO 14)"
+    material: graphite
+    weight: "~36g"
+    flex: ["R", "SR", "S"]
+  - name: "Fujikura Speeder NX DST for XXIO (14+)"
+    material: graphite
+    weight: "~42g"
+    flex: ["R", "S"]
+  - name: "XXIO MP-1400L (Ladies)"
+    material: graphite
+    weight: "~35g"
+    flex: ["L", "A"]
+sources:
+  - "XXIO 14 and XXIO 14+ official spec pages (lofts, 59° lie, 46/45.75 inch, Lightweight Quick Tune System, stock shafts), https://us.dunlopsports.com/xxio/clubs/drivers/xxio-14-drivers/xxio-14-driver/MX14DRV.html, accessed October 2026"
+  - "Golf.com XXIO 14 launch coverage (first adjustable XXIO driver, 1.5° sleeve, 8 December 2025 availability, $799.99), https://golf.com/gear/xxio-14-pushes-lightweight-tech-first-adjustable-driver/, accessed October 2026"
+  - "Note: all figures are US-market — XXIO's Japan-market specs typically differ in lofts, lengths and shafts. XXIO publishes no position-by-position hosel chart, and the Ladies line (10.5°-13.5°, 44-44.5 inch, MP-1400L) is noted rather than charted."
+faq:
+  - q: "What lofts does the XXIO 14 come in?"
+    a: "The standard XXIO 14 comes in 9.5, 10.5 and 11.5 degrees (9.5 right-hand only); the XXIO 14+ in 9 and 10.5, right-hand only. The Ladies line runs 10.5 to 13.5 degrees."
+  - q: "Is the XXIO 14 adjustable?"
+    a: "Yes — a first for the brand. The 14 and 14+ carry XXIO's Lightweight Quick Tune sleeve with about 1.5 degrees of loft adjustment either way; XXIO publishes the range but not a position-by-position chart. The Ladies models appear to keep a fixed hosel."
+  - q: "What is the difference between the XXIO 14 and XXIO 14+?"
+    a: "Weight and flight. The standard 14 is about 283 grams total at 46 inches for roughly 75-90 mph swings; the 14+ is 299 grams at 45.75 inches with a lower launch for 90-100 mph swings, and comes right-hand only."
+  - q: "Who is the XXIO 14 for?"
+    a: "Golfers with moderate swing speeds who gain more from an ultralight, draw-biased, high-launch build than from tour-style adjustability — the classic XXIO buyer. Faster swingers will find the heads too light and too spinny."
+confidence: high

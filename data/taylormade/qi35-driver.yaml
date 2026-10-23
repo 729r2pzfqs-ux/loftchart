@@ -1,0 +1,145 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: Qi35
+slug: qi35-driver
+club_type: driver
+year_introduced: 2025
+year_discontinued: null
+category: flagship
+construction: multi-material chassis (steel, aluminium, tungsten, titanium) under chromium carbon crown and sole panels
+material: 4th-generation 60X Carbon Twist Face; Infinity Carbon Crown
+predecessor: TaylorMade Qi10
+successor: TaylorMade Qi4D
+description: >
+  The Qi35 is TaylorMade's 2025 driver family, announced on 7 January 2025 as
+  the follow-up to the 10K-MOI Qi10 generation. The chassis blends five
+  materials — chromium carbon panels over steel, aluminium, tungsten and
+  titanium — around the fourth-generation 60X Carbon Twist Face, with a
+  near-zero "CG projection" as the design story. The core Qi35 and the LS
+  carry a two-weight Trajectory Adjustment System for spin and bias tuning,
+  while the Qi35 Max keeps the 10K-class MOI of its predecessor with a 34 g
+  rear tungsten weight and the Max Lite brings the same geometry to a D0,
+  sub-50-gram-shaft build for moderate swing speeds. The Qi4D replaced the
+  line in January 2026, making the Qi35 the value buy while closeout and used
+  stock lasts.
+variants:
+  - name: Qi35
+    head_cc: 460
+    description: >
+      The core head: mid-high launch and high MOI with the two-weight
+      Trajectory Adjustment System for spin and shape control. The 12° head
+      is right-hand only.
+  - name: Qi35 LS
+    head_cc: 460
+    description: >
+      The most compact, lowest-spinning and lowest-launching head in the
+      line, with the most aggressive shaping — for players who deliver
+      serious speed. 8° is right-hand only.
+  - name: Qi35 Max
+    head_cc: 460
+    description: >
+      The 10K-MOI forgiveness flagship with a Symmetric Inertia Generator and
+      34 g rear tungsten weight; high launch with slight draw bias.
+  - name: Qi35 Max Lite
+    head_cc: 460
+    description: >
+      The lightweight Max — about a 24 g rear weight, D0 swing weight and a
+      Mitsubishi Vanquish 40 shaft — built for moderate swing speeds.
+specs:
+  - variant: Qi35
+    loft: 9.0
+    length: 45.75
+  - variant: Qi35
+    loft: 10.5
+    length: 45.75
+  - variant: Qi35
+    loft: 12.0
+    length: 45.75
+  - variant: Qi35 LS
+    loft: 8.0
+    length: 45.75
+  - variant: Qi35 LS
+    loft: 9.0
+    length: 45.75
+  - variant: Qi35 LS
+    loft: 10.5
+    length: 45.75
+  - variant: Qi35 Max
+    loft: 9.0
+    length: 45.75
+  - variant: Qi35 Max
+    loft: 10.5
+    length: 45.75
+  - variant: Qi35 Max
+    loft: 12.0
+    length: 45.75
+  - variant: Qi35 Max Lite
+    loft: 10.5
+    length: 45.75
+  - variant: Qi35 Max Lite
+    loft: 12.0
+    length: 45.75
+hosel:
+  system: "4° Loft Sleeve"
+  loft_range: "±2°"
+  positions: 12
+  lie_effect: >
+    There is no flat setting — lie only moves upright, up to 4° at the UPRT
+    position, and the loft settings themselves add up to 2° of upright lie.
+  face_note: >
+    Lowering loft opens the face and raising it closes it: about 1.5° per
+    0.75° notch, up to 4° at the full ±2° setting.
+  notes: >
+    The sleeve is marked STD LOFT, HIGHER, UPRT and LOWER; the table lists all
+    twelve stops in order around the dial. The sleeve is interchangeable with
+    every TaylorMade driver back to the SIM generation.
+  settings:
+    - { setting: "STD LOFT", loft: "std", lie: "std", face: "square" }
+    - { setting: "STD +1 notch", loft: "+0.75°", lie: "0.5° upright", face: "1.5° closed" }
+    - { setting: "STD +2 notches", loft: "+1.5°", lie: "1.25° upright", face: "3° closed" }
+    - { setting: "HIGHER", loft: "+2°", lie: "2° upright", face: "4° closed" }
+    - { setting: "HIGHER / UPRT", loft: "+1.5°", lie: "2.75° upright", face: "3° closed" }
+    - { setting: "UPRT +1 notch", loft: "+0.75°", lie: "3.5° upright", face: "1.5° closed" }
+    - { setting: "UPRT", loft: "std", lie: "4° upright", face: "square" }
+    - { setting: "UPRT −1 notch", loft: "−0.75°", lie: "3.5° upright", face: "1.5° open" }
+    - { setting: "LOWER / UPRT", loft: "−1.5°", lie: "2.75° upright", face: "3° open" }
+    - { setting: "LOWER", loft: "−2°", lie: "2° upright", face: "4° open" }
+    - { setting: "STD −2 notches", loft: "−1.5°", lie: "1.25° upright", face: "3° open" }
+    - { setting: "STD −1 notch", loft: "−0.75°", lie: "0.5° upright", face: "1.5° open" }
+stock_shafts:
+  - name: "Fujikura Ventus Blue 2025 (Qi35)"
+    material: graphite
+    flex: ["A", "R", "S"]
+  - name: "Mitsubishi Diamana T+ 60 (Qi35, Max)"
+    material: graphite
+    flex: ["S", "X"]
+  - name: "Mitsubishi Kai'li Blue / White DarkWave 60 (LS)"
+    material: graphite
+    flex: ["R", "S", "X"]
+  - name: "Fujikura Air Speeder (Max)"
+    material: graphite
+    flex: ["A", "R", "S"]
+  - name: "Mitsubishi Vanquish 40 (Max Lite)"
+    material: graphite
+    weight: "47-48g"
+    flex: ["A", "R"]
+related_models:
+  - slug: "taylormade/qi4d-driver"
+    label: "Successor: TaylorMade Qi4D drivers"
+  - slug: "taylormade/qi10-driver"
+    label: "Predecessor: TaylorMade Qi10 drivers"
+sources:
+  - "2nd Swing Qi35 and Qi35 Max spec tables (lofts incl. right-hand-only 12°, lie range 56-60°/58-62°, 45.75 inch, swing weights, stock shafts, 34 g tungsten weight), https://www.2ndswing.com/golf-clubs/drivers/taylormade-qi35-driver/, accessed October 2026"
+  - "Golfalot Qi35 Max review (7 January 2025 announcement, five-material construction, 4th-gen Carbon Twist Face), https://golfalot.com/equipment-review/taylormade-qi35-max-driver-review, accessed October 2026"
+  - "Golf Discount Qi35 LS listing (8/9/10.5 with 8° right-hand only, Kai'li DarkWave stock shafts), https://www.golfdiscount.com/products/taylormade-qi35-ls-driver, accessed October 2026"
+  - "Note: TaylorMade publishes lie as an adjustable range per head (Qi35 56-60°, LS 54-58°, Max and Max Lite 58-62°) rather than a single figure, so no static lie column is charted. A women's Qi35 Max Lite build (44 inches, L flex Fujikura Air Speeder 40) is sold alongside the standard builds."
+faq:
+  - q: "What lofts does the TaylorMade Qi35 come in?"
+    a: "The core Qi35 comes in 9, 10.5 and 12 degrees (12 right-hand only); the Qi35 LS in 8, 9 and 10.5 (8 right-hand only); the Qi35 Max in 9, 10.5 and 12; and the Qi35 Max Lite in 10.5 and 12."
+  - q: "What is the Qi35 loft settings chart?"
+    a: "The Qi35 uses TaylorMade's 12-position 4 degree Loft Sleeve: loft moves up to 2 degrees either way in 0.75 degree notches, the face closes up to 4 degrees as loft is added and opens as it is removed, and the UPRT setting keeps the stated loft while setting lie 4 degrees upright."
+  - q: "Is the TaylorMade Qi35 still in production?"
+    a: "No — the Qi4D replaced it in January 2026. The Qi35 remains widely available as closeout and used stock, which makes it the value pick of the two while supplies last."
+  - q: "What is the difference between the Qi35 Max and Qi35 Max Lite?"
+    a: "Both share the high-MOI Max geometry. The Max carries a 34 g rear tungsten weight and standard build weight; the Max Lite drops to roughly a 24 g rear weight, a D0 swing weight and a 47-48 g Vanquish shaft for moderate swing speeds."
+confidence: high

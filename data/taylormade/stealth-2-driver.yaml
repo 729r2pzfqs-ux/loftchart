@@ -1,0 +1,130 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: Stealth 2
+slug: stealth-2-driver
+club_type: driver
+year_introduced: 2023
+year_discontinued: 2024
+category: flagship
+construction: advanced carbon construction — carbon crown, sole and face united by a Carbon Reinforced Composite Ring, with titanium confined to the face collar and the weights
+material: 2nd-generation 60X Carbon Twist Face (~24 g) with Inverted Cone Technology and nanotexture cover
+predecessor: TaylorMade Stealth
+successor: TaylorMade Qi10
+description: >
+  The Stealth 2 is the 2023 refinement of TaylorMade's "carbonwood" project —
+  the red-faced driver that replaced a titanium face with a 24-gram,
+  60-layer carbon one. Where the original Stealth still hung its carbon face
+  on a conventional body, the Stealth 2 pushed carbon through the whole
+  build: crown, sole and a Carbon Reinforced Composite Ring that unites the
+  head, leaving titanium only in the face collar and the weights. The Plus is
+  the tour head with a 15 g sliding track plus a 15 g rear weight, the core
+  Stealth 2 carries a fixed 25 g rear weight for forgiveness, and the HD adds
+  heel weighting and a 30 g rear weight for a high-launching draw. The Qi10
+  replaced the family in 2024.
+variants:
+  - name: Stealth 2 Plus
+    head_cc: 460
+    description: >
+      The low-spin tour head: a 15 g sliding-weight track plus a 15 g rear
+      weight for draw, neutral or fade tuning at the lowest flight in the
+      line.
+  - name: Stealth 2
+    head_cc: 460
+    description: >
+      The core high-MOI head with a fixed 25 g rear weight and neutral bias —
+      the mainstream pick of the family.
+  - name: Stealth 2 HD
+    head_cc: 460
+    description: >
+      The draw-biased, high-launch head with heel weighting via the
+      Asymmetric Inertia Generator and a 30 g rear weight; also the basis of
+      the women's build at a shorter length.
+specs:
+  - variant: Stealth 2 Plus
+    loft: 8.0
+    length: 45.75
+  - variant: Stealth 2 Plus
+    loft: 9.0
+    length: 45.75
+  - variant: Stealth 2 Plus
+    loft: 10.5
+    length: 45.75
+  - variant: Stealth 2
+    loft: 9.0
+    length: 45.75
+  - variant: Stealth 2
+    loft: 10.5
+    length: 45.75
+  - variant: Stealth 2
+    loft: 12.0
+    length: 45.75
+  - variant: Stealth 2 HD
+    loft: 9.0
+    length: 45.5
+  - variant: Stealth 2 HD
+    loft: 10.5
+    length: 45.5
+  - variant: Stealth 2 HD
+    loft: 12.0
+    length: 45.5
+hosel:
+  system: "4° Loft Sleeve"
+  loft_range: "±2°"
+  positions: 12
+  lie_effect: >
+    There is no flat setting — lie only moves upright, up to 4° at the UPRT
+    position, and the loft settings themselves add up to 2° of upright lie.
+  face_note: >
+    Lowering loft opens the face and raising it closes it: about 1.5° per
+    0.75° notch, up to 4° at the full ±2° setting.
+  notes: >
+    The sleeve is marked STD LOFT, HIGHER, UPRT and LOWER; the table lists all
+    twelve stops in order around the dial. The same sleeve carries through to
+    the Qi10, Qi35 and Qi4D, so shafts interchange forward.
+  settings:
+    - { setting: "STD LOFT", loft: "std", lie: "std", face: "square" }
+    - { setting: "STD +1 notch", loft: "+0.75°", lie: "0.5° upright", face: "1.5° closed" }
+    - { setting: "STD +2 notches", loft: "+1.5°", lie: "1.25° upright", face: "3° closed" }
+    - { setting: "HIGHER", loft: "+2°", lie: "2° upright", face: "4° closed" }
+    - { setting: "HIGHER / UPRT", loft: "+1.5°", lie: "2.75° upright", face: "3° closed" }
+    - { setting: "UPRT +1 notch", loft: "+0.75°", lie: "3.5° upright", face: "1.5° closed" }
+    - { setting: "UPRT", loft: "std", lie: "4° upright", face: "square" }
+    - { setting: "UPRT −1 notch", loft: "−0.75°", lie: "3.5° upright", face: "1.5° open" }
+    - { setting: "LOWER / UPRT", loft: "−1.5°", lie: "2.75° upright", face: "3° open" }
+    - { setting: "LOWER", loft: "−2°", lie: "2° upright", face: "4° open" }
+    - { setting: "STD −2 notches", loft: "−1.5°", lie: "1.25° upright", face: "3° open" }
+    - { setting: "STD −1 notch", loft: "−0.75°", lie: "0.5° upright", face: "1.5° open" }
+stock_shafts:
+  - name: "Mitsubishi Kai'li Red 60 (Plus)"
+    material: graphite
+    flex: ["S", "X"]
+  - name: "Project X HZRDUS Smoke Black Gen 4 (Plus)"
+    material: graphite
+    flex: ["S", "X"]
+  - name: "Fujikura Ventus Red TR 5 (Stealth 2)"
+    material: graphite
+    flex: ["A", "R", "S"]
+  - name: "Mitsubishi Diamana S+ 60 (Stealth 2)"
+    material: graphite
+    flex: ["S", "X"]
+  - name: "Fujikura Speeder NX Red (HD)"
+    material: graphite
+    flex: ["A", "R", "S"]
+related_models:
+  - slug: "taylormade/qi10-driver"
+    label: "Successor: TaylorMade Qi10 drivers"
+sources:
+  - "2nd Swing Stealth 2, Stealth 2 Plus and Stealth 2 HD spec tables (lofts, lie ranges, lengths, stock shafts, weight layouts), https://www.2ndswing.com/golf-clubs/drivers/taylormade-stealth-2-driver/, accessed October 2026"
+  - "Golf Today Stealth 2 construction report (carbon share up ~75% in the Plus, titanium confined to the face collar and weights, 24 g face), https://golftoday.co.uk/taylormade-stealth-2-contains-75-more-carbon-than-original-game-changing-driver/, accessed October 2026"
+  - "Carl's Golfland Stealth 2 family listing (cross-check of lofts, lengths and stock shafts for all three heads), https://www.carlsgolfland.com/taylormade-stealth-2, accessed October 2026"
+  - "Note: TaylorMade publishes lie as an adjustable range per head (Plus 54-58°, Stealth 2 56-60°, HD 58-62°) rather than a single figure, so no static lie column is charted."
+faq:
+  - q: "What lofts does the TaylorMade Stealth 2 come in?"
+    a: "The Stealth 2 Plus comes in 8, 9 and 10.5 degrees; the core Stealth 2 in 9, 10.5 and 12; and the Stealth 2 HD in 9, 10.5 and 12."
+  - q: "How do you adjust a Stealth 2 driver?"
+    a: "With TaylorMade's 12-position 4 degree Loft Sleeve: loft moves up to 2 degrees either way in 0.75 degree notches, the face closes as loft is added and opens as it is removed, and the UPRT setting plays the stated loft at 4 degrees upright."
+  - q: "What is the difference between the Stealth 2, Plus and HD?"
+    a: "The Plus is the low-spin tour head with a 15 g sliding weight track; the core Stealth 2 carries a fixed 25 g rear weight for forgiveness with neutral bias; the HD is heel-weighted with a 30 g rear weight for a higher, draw-biased flight."
+  - q: "Is the TaylorMade Stealth 2 still in production?"
+    a: "No — it ran from 2023 to 2024, when the Qi10 replaced it, so the used market is the main source. Its Loft Sleeve is the same one used on current TaylorMade drivers, so replacement shafts are easy to find."
+confidence: high

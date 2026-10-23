@@ -1,0 +1,128 @@
+brand: Srixon
+brand_slug: srixon
+model: ZXi RKT
+slug: zxi-rkt-driver
+club_type: driver
+year_introduced: 2026
+year_discontinued: null
+category: flagship
+current_as_of: "2026-10"
+construction: Acousticore chassis with AI-designed internal ribs and a carbon fibre crown; Rebound Frame with two flex zones and adjustable sole weights
+material: VR-Titanium (silicon-enhanced titanium) RKT face with i-FLEX variable structure and Variable Roll Design
+predecessor: Srixon ZXi
+successor: null
+description: >
+  The ZXi RKT is Srixon's 2026 driver family — announced 22 September and at
+  retail from 16 October 2026 after a summer of tour seeding. The RKT Face
+  system upgrades the i-FLEX variable face structure in a silicon-enhanced
+  VR-Titanium alloy, carried on an "Acousticore" chassis whose AI-designed
+  internal ribs tune both stability and sound under a carbon crown. The core
+  RKT balances speed and workability with heel and toe weights, the LS adds
+  front-to-back weighting for the lowest spin, and the MAX — Srixon's
+  highest-MOI driver ever — runs a single 14 g rear weight. All three use
+  the QTS 1.5 sleeve with twelve loft, lie and face-angle settings.
+variants:
+  - name: ZXi RKT
+    head_cc: 460
+    description: >
+      The core head balancing speed, forgiveness and workability, with
+      adjustable heel (10 g stock) and toe (4 g stock) weights swappable
+      from 2 to 16 g.
+  - name: ZXi RKT LS
+    head_cc: 460
+    description: >
+      The low-spin head with front-to-back adjustable weighting for maximum
+      distance at high swing speeds. 8° is right-hand only.
+  - name: ZXi RKT MAX
+    head_cc: 460
+    description: >
+      Srixon's highest-MOI driver to date, with a single rear sole weight
+      (14 g stock, 2-16 g options). The 9° and 12° heads are right-hand
+      only; a women's MAX build is also sold.
+specs:
+  - variant: ZXi RKT
+    loft: 9.0
+    lie: 59.0
+    length: 45.75
+  - variant: ZXi RKT
+    loft: 10.5
+    lie: 59.0
+    length: 45.75
+  - variant: ZXi RKT LS
+    loft: 8.0
+    lie: 59.0
+    length: 45.75
+  - variant: ZXi RKT LS
+    loft: 9.0
+    lie: 59.0
+    length: 45.75
+  - variant: ZXi RKT LS
+    loft: 10.5
+    lie: 59.0
+    length: 45.75
+  - variant: ZXi RKT MAX
+    loft: 9.0
+    lie: 59.0
+    length: 45.75
+  - variant: ZXi RKT MAX
+    loft: 10.5
+    lie: 59.0
+    length: 45.75
+  - variant: ZXi RKT MAX
+    loft: 12.0
+    lie: 59.0
+    length: 45.75
+hosel:
+  system: "QTS 1.5 sleeve"
+  loft_range: "±1.5°"
+  positions: 12
+  lie_effect: >
+    Every position other than standard also flattens lie, from 0.5° to 3°
+    flat; there is no upright setting.
+  face_note: >
+    Face angle moves up to 3° closed on the loft-up side and 3° open on the
+    loft-down side.
+  notes: >
+    The chart is Srixon's official hosel sleeve adjustability guide,
+    identical for the ZXi and ZXi RKT woods. "FL" marks the flat-lie
+    variants of each loft setting.
+  settings:
+    - { setting: "STD", loft: "std", lie: "std", face: "square" }
+    - { setting: "+0.5°", loft: "+0.5°", lie: "0.5° flat", face: "1° closed" }
+    - { setting: "+1°", loft: "+1°", lie: "1° flat", face: "2° closed" }
+    - { setting: "+1.5°", loft: "+1.5°", lie: "1.5° flat", face: "3° closed" }
+    - { setting: "+1° FL", loft: "+1°", lie: "2° flat", face: "2° closed" }
+    - { setting: "+0.5° FL", loft: "+0.5°", lie: "2.5° flat", face: "1° closed" }
+    - { setting: "STD FL", loft: "std", lie: "3° flat", face: "square" }
+    - { setting: "−0.5° FL", loft: "−0.5°", lie: "2.5° flat", face: "1° open" }
+    - { setting: "−1° FL", loft: "−1°", lie: "2° flat", face: "2° open" }
+    - { setting: "−1.5°", loft: "−1.5°", lie: "1.5° flat", face: "3° open" }
+    - { setting: "−1°", loft: "−1°", lie: "1° flat", face: "2° open" }
+    - { setting: "−0.5°", loft: "−0.5°", lie: "0.5° flat", face: "1° open" }
+stock_shafts:
+  - name: "Mitsubishi Kai'li Dark Waves Blue 60 (RKT)"
+    material: graphite
+    flex: ["R", "S", "X"]
+  - name: "Mitsubishi Kai'li Dark Waves White 60 (LS)"
+    material: graphite
+    flex: ["R", "S", "X"]
+  - name: "Mitsubishi Kai'li Dark Waves Red CB 50 (MAX)"
+    material: graphite
+    flex: ["R2", "R", "S"]
+related_models:
+  - slug: "srixon/zxi-driver"
+    label: "Predecessor: Srixon ZXi drivers"
+sources:
+  - "Srixon ZXi RKT, RKT LS and RKT MAX official spec pages (lofts, 59° lie, 45.75 inch, hosel settings, sole weights, $649.99), https://us.dunlopsports.com/srixon/clubs/drivers/zxi-rkt-driver/zxi-rkt-driver/MZXIRKTDRV.html, accessed October 2026"
+  - "GolfWRX ZXi RKT introduction (22 September 2026 announcement, RKT Face and Acousticore technology), https://golfwrx.com/786772/srixon-introduces-all-new-zxi-rkt-woods-with-face-and-acoustic-advancements/, accessed October 2026"
+  - "Golfalot ZXi RKT review (16 October 2026 retail launch), https://golfalot.com/equipment-review/srixon-zxi-rkt-driver-review, accessed October 2026"
+faq:
+  - q: "What lofts does the Srixon ZXi RKT come in?"
+    a: "The core ZXi RKT comes in 9 and 10.5 degrees, the RKT LS in 8, 9 and 10.5 (8 right-hand only), and the RKT MAX in 9, 10.5 and 12 (9 and 12 right-hand only)."
+  - q: "What is the ZXi RKT adjustment chart?"
+    a: "The QTS 1.5 sleeve has twelve settings covering ±1.5 degrees of loft. Each non-standard position also flattens lie by 0.5 to 3 degrees and moves the face up to 3 degrees closed (loft up) or open (loft down); 'FL' positions are the flat-lie variants."
+  - q: "What is new about the RKT face?"
+    a: "It upgrades Srixon's i-FLEX variable-thickness design in a silicon-enhanced VR-Titanium alloy, paired with a Variable Roll Design and a two-zone Rebound Frame — while the 'Acousticore' rib structure tunes the sound that bulked-up carbon drivers often lose."
+  - q: "Is the ZXi RKT the current Srixon driver?"
+    a: "Yes — it reached retail on 16 October 2026 as the replacement for the 2025 ZXi, which stays on sale alongside it at a reduced price while stock lasts."
+confidence: high

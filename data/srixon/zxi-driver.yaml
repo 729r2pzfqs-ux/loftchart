@@ -1,0 +1,133 @@
+brand: Srixon
+brand_slug: srixon
+model: ZXi
+slug: zxi-driver
+club_type: driver
+year_introduced: 2025
+year_discontinued: null
+category: flagship
+construction: multi-material 460 cc head with a razor-thin titanium crown over an internal "Star Frame" rib structure, Rebound Frame and adjustable sole weights
+material: Ti72S titanium face with Laser Face Milling; titanium crown and body
+predecessor: Srixon ZX Mk II
+successor: Srixon ZXi RKT
+description: >
+  The ZXi is Srixon's 2025 driver family, at retail from 24 January 2025 and
+  the first generation on the QTS 1.5 sleeve with its twelve loft, lie and
+  face-angle settings. A razor-thin titanium crown over the internal Star
+  Frame ribs frees mass for each head's weighting scheme: the core ZXi
+  carries heel and toe weights for bias tuning, the LS runs front and rear
+  weights to manage spin, and the Max — Srixon's highest-MOI driver at
+  launch — uses a single removable rear weight. Laser Face Milling on the
+  Ti72S face keeps spin consistent in the wet. The ZXi RKT replaced the
+  family in October 2026, with the ZXi staying on sale at a reduced price
+  while stock lasts.
+variants:
+  - name: ZXi
+    head_cc: 460
+    description: >
+      The all-around head for most players — mid-high launch, mid-low spin —
+      with heel and toe adjustable weights for draw or fade bias.
+  - name: ZXi LS
+    head_cc: 460
+    description: >
+      The low-spin head for faster swings fighting ballooning flight, with
+      front and rear sole weights to tune spin. 10.5° is right-hand only.
+  - name: ZXi Max
+    head_cc: 460
+    description: >
+      Srixon's highest-MOI driver at launch, built for maximum forgiveness;
+      a single removable rear weight changes swing weight without changing
+      MOI. 9° is right-hand only; a women's 12° build at 44.75 inches is
+      sold alongside.
+specs:
+  - variant: ZXi
+    loft: 9.0
+    lie: 59.0
+    length: 45.75
+  - variant: ZXi
+    loft: 10.5
+    lie: 59.0
+    length: 45.75
+  - variant: ZXi LS
+    loft: 8.0
+    lie: 59.0
+    length: 45.75
+  - variant: ZXi LS
+    loft: 9.0
+    lie: 59.0
+    length: 45.75
+  - variant: ZXi LS
+    loft: 10.5
+    lie: 59.0
+    length: 45.75
+  - variant: ZXi Max
+    loft: 9.0
+    lie: 59.0
+    length: 45.75
+  - variant: ZXi Max
+    loft: 10.5
+    lie: 59.0
+    length: 45.75
+  - variant: ZXi Max
+    loft: 12.0
+    lie: 59.0
+    length: 45.75
+length_note: >
+  Srixon notes the published ZXi lengths grew about half an inch over prior
+  generations because of a change in measurement method only — the physical
+  builds did not get longer.
+hosel:
+  system: "QTS 1.5 sleeve"
+  loft_range: "±1.5°"
+  positions: 12
+  lie_effect: >
+    Every position other than standard also flattens lie, from 0.5° to 3°
+    flat; there is no upright setting.
+  face_note: >
+    Face angle moves up to 3° closed on the loft-up side and 3° open on the
+    loft-down side.
+  notes: >
+    The chart is Srixon's official hosel sleeve adjustability guide for the
+    ZXi woods. "FL" marks the flat-lie variants of each loft setting.
+  settings:
+    - { setting: "STD", loft: "std", lie: "std", face: "square" }
+    - { setting: "+0.5°", loft: "+0.5°", lie: "0.5° flat", face: "1° closed" }
+    - { setting: "+1°", loft: "+1°", lie: "1° flat", face: "2° closed" }
+    - { setting: "+1.5°", loft: "+1.5°", lie: "1.5° flat", face: "3° closed" }
+    - { setting: "+1° FL", loft: "+1°", lie: "2° flat", face: "2° closed" }
+    - { setting: "+0.5° FL", loft: "+0.5°", lie: "2.5° flat", face: "1° closed" }
+    - { setting: "STD FL", loft: "std", lie: "3° flat", face: "square" }
+    - { setting: "−0.5° FL", loft: "−0.5°", lie: "2.5° flat", face: "1° open" }
+    - { setting: "−1° FL", loft: "−1°", lie: "2° flat", face: "2° open" }
+    - { setting: "−1.5°", loft: "−1.5°", lie: "1.5° flat", face: "3° open" }
+    - { setting: "−1°", loft: "−1°", lie: "1° flat", face: "2° open" }
+    - { setting: "−0.5°", loft: "−0.5°", lie: "0.5° flat", face: "1° open" }
+stock_shafts:
+  - name: "Fujikura Ventus TR Blue 6 (ZXi)"
+    material: graphite
+    flex: ["R", "S", "X"]
+  - name: "Project X HZRDUS Black Gen 5 60/70 (LS)"
+    material: graphite
+    flex: ["R", "S", "X"]
+  - name: "Project X Denali Red 5 (Max)"
+    material: graphite
+    flex: ["A", "R", "S"]
+related_models:
+  - slug: "srixon/zxi-rkt-driver"
+    label: "Successor: Srixon ZXi RKT drivers"
+  - slug: "srixon/zx-mkii-driver"
+    label: "Predecessor: Srixon ZX Mk II drivers"
+sources:
+  - "Srixon ZXi, ZXi LS and ZXi Max official spec pages (lofts, 59° lie, 45.75 inch, stock shafts, 1.5° sleeve), https://us.dunlopsports.com/srixon/clubs/drivers/zxi-driver/zxi-driver/MZXIDRV.html, accessed October 2026"
+  - "Srixon ZXi woods hosel sleeve adjustment guide PDF (the official 12-position loft/lie/face chart), https://us.dunlopsports.com/on/demandware.static/-/Sites-masterCatalog_DunlopSports/default/dw4dd165f5/pdf/zxi-woods/Hosel_Sleeve_Adjustment.pdf, accessed October 2026"
+  - "Golf.com ZXi launch coverage (24 January 2025 retail, $549.99, Ti72S face, per-head weighting), https://golf.com/gear/drivers/srixon-zxi-drivers-fairways-hybrids/, accessed October 2026"
+faq:
+  - q: "What lofts does the Srixon ZXi come in?"
+    a: "The core ZXi comes in 9 and 10.5 degrees, the ZXi LS in 8, 9 and 10.5 (10.5 right-hand only), and the ZXi Max in 9, 10.5 and 12 (9 right-hand only)."
+  - q: "What is the ZXi adjustment chart?"
+    a: "The QTS 1.5 sleeve has twelve settings covering ±1.5 degrees of loft. Each non-standard position also flattens lie by 0.5 to 3 degrees and moves the face up to 3 degrees closed (loft up) or open (loft down); 'FL' positions are the flat-lie variants."
+  - q: "What is the difference between the ZXi, ZXi LS and ZXi Max?"
+    a: "The ZXi is the all-rounder with heel/toe bias weights; the LS moves its two weights front-to-back to cut spin for faster swings; the Max is the maximum-forgiveness head whose single rear weight changes swing weight without affecting MOI."
+  - q: "Is the Srixon ZXi still in production?"
+    a: "The ZXi RKT replaced it in October 2026, but the ZXi remains on Srixon's site at a reduced price while stock lasts — making it the value pick of the two generations."
+confidence: high

@@ -1,0 +1,141 @@
+brand: PXG
+brand_slug: pxg
+model: Lightning
+slug: lightning-driver
+club_type: driver
+year_introduced: 2025
+year_discontinued: null
+category: flagship
+current_as_of: "2026-10"
+construction: titanium chassis with expanded thin-wall carbon fibre crown and sole, Spined Sole design and movable sole weights
+material: high-strength titanium alloy Frequency Tuned Face; carbon fibre crown and sole
+predecessor: PXG Black Ops
+successor: null
+description: >
+  Lightning is PXG's flagship driver family, at retail from 2 December 2025
+  and carrying the brand into 2026. Against the Black Ops it strips weight —
+  PXG claims up to 84% more carbon in the body — and zone-tunes the face
+  ("Frequency Tuned Face") for ball speed. Four heads cover the range: the
+  Max 10K+ with combined MOI past 10,000 g·cm², the compact low-spin Tour,
+  the new Tour Mid for players who sat between the old Black Ops and its
+  Tour-1, and the 189-gram Max Lite for moderate swing speeds. All but the
+  Max Lite carry three weight ports with 2.5-20 g swappable weights; PXG
+  sells the line shaft-agnostic, with a large no-upcharge catalogue chosen
+  at fitting rather than one headline stock shaft.
+variants:
+  - name: Lightning Max 10K+
+    head_cc: 460
+    description: >
+      The max-forgiveness flagship with combined MOI over 10,000 g·cm² —
+      higher launch with Tour-Mid-like spin. Three weight ports: two 2.5 g
+      front and a 15 g back weight stock, swappable from 2.5 to 20 g.
+  - name: Lightning Tour
+    head_cc: 460
+    description: >
+      The most compact, lowest-spinning and lowest-launching head for
+      high-speed players, with a shorter front-to-back profile and
+      front-biased stock weighting (two 7.5 g front, 2.5 g back). Left-hand
+      stock is 9° only.
+  - name: Lightning Tour Mid
+    head_cc: 460
+    description: >
+      New for Lightning: the middle head for competitive players who sat
+      between the Black Ops and Black Ops Tour-1 — low spin with added
+      forgiveness from a 15 g back weight.
+  - name: Lightning Max Lite
+    head_cc: 460
+    description: >
+      The lightweight head — 189 g against the others' 203 g — with a single
+      12.5 g rear port, for swing speeds of roughly 70-95 mph.
+specs:
+  - variant: Lightning Max 10K+
+    loft: 9.0
+    lie: 60.0
+    length: 45.5
+  - variant: Lightning Max 10K+
+    loft: 10.5
+    lie: 60.0
+    length: 45.5
+  - variant: Lightning Max 10K+
+    loft: 12.0
+    lie: 60.0
+    length: 45.5
+  - variant: Lightning Tour
+    loft: 8.0
+    lie: 59.0
+    length: 45.5
+  - variant: Lightning Tour
+    loft: 9.0
+    lie: 59.0
+    length: 45.5
+  - variant: Lightning Tour
+    loft: 10.5
+    lie: 59.0
+    length: 45.5
+  - variant: Lightning Tour Mid
+    loft: 8.0
+    lie: 60.0
+    length: 45.5
+  - variant: Lightning Tour Mid
+    loft: 9.0
+    lie: 60.0
+    length: 45.5
+  - variant: Lightning Tour Mid
+    loft: 10.5
+    lie: 60.0
+    length: 45.5
+  - variant: Lightning Max Lite
+    loft: 10.5
+    lie: 60.0
+    length: 45.5
+  - variant: Lightning Max Lite
+    loft: 11.5
+    lie: 60.0
+    length: 45.5
+hosel:
+  system: "PXG adjustable shaft adapter"
+  loft_range: "±1.5°"
+  positions: 8
+  lie_effect: >
+    The Standard "Dot" is the most upright position; every other setting
+    flattens lie by 0.5° to 3° relative to it. There is no
+    upright-beyond-Dot setting.
+  face_note: >
+    PXG markets the upright Dot setting for draw bias and the flattest "PXG
+    Standard" setting for fade bias; loft changes shift effective face angle
+    at address as on any adapter.
+  notes: >
+    PXG has used the same universal driver/fairway adapter across
+    generations; the chart is PXG's published one. The stated lie in the
+    chart above is measured at the Standard "Dot" position.
+  settings:
+    - { setting: "Standard (Dot)", loft: "std", lie: "std (most upright)" }
+    - { setting: "Small Plus", loft: "+1°", lie: "0.5° flat" }
+    - { setting: "Big Plus", loft: "+1.5°", lie: "1.5° flat" }
+    - { setting: "Flat Plus", loft: "+1°", lie: "2.5° flat" }
+    - { setting: "PXG Standard", loft: "std", lie: "3° flat" }
+    - { setting: "Flat Minus", loft: "−1°", lie: "2.5° flat" }
+    - { setting: "Big Minus", loft: "−1.5°", lie: "1.5° flat" }
+    - { setting: "Small Minus", loft: "−1°", lie: "0.5° flat" }
+stock_shafts:
+  - name: "Chosen at fitting from PXG's no-upcharge catalogue (Project X HZRDUS Gen 5 Black 60 is a common retail default; Mitsubishi Kai'li Blue, Denali Frost Blue 50 and LIN-Q Ladies among the options)"
+    material: graphite
+    flex: ["L", "A", "R", "S", "X"]
+related_models:
+  - slug: "pxg/black-ops-driver"
+    label: "Predecessor: PXG Black Ops drivers"
+sources:
+  - "PXG Lightning official spec table (four heads, lofts by hand, lies 59-60°, head weights 203/189 g, weight-port configurations), https://ca.pxg.com/products/lightning-drivers, accessed October 2026"
+  - "PXG hosel adjustment guide (the eight-position adapter chart), https://www.pxg.com/blogs/the-range/how-to-adjust-gen5-driver, accessed October 2026"
+  - "Skratch and GolfWRX Lightning launch coverage (2 December 2025 availability, $649 start price, head positioning), https://www.skratch.golf/gear-equipment/gear-equipment/2026-pxg-lightning-driver-fairway-hybrids, accessed October 2026"
+  - "Note: PXG does not print head volume or stock length on its own Lightning page; the 460 cc and 45.5 inch figures come from retailer and review spec tables. The adapter chart is PXG's universal one rather than a Lightning-specific publication."
+faq:
+  - q: "What lofts does the PXG Lightning come in?"
+    a: "The Lightning Max 10K+ comes in 9, 10.5 and 12 degrees; the Tour and Tour Mid in 8, 9 and 10.5; and the Max Lite in 10.5 and 11.5. The adapter extends each head 1.5 degrees either way."
+  - q: "How do you adjust a PXG Lightning driver?"
+    a: "The eight-position PXG adapter moves loft up to 1.5 degrees either way. Its Standard 'Dot' is the most upright (draw-biased) setting; the other seven settings flatten lie by 0.5 to 3 degrees, with the flattest 'PXG Standard' position serving as the fade-bias option."
+  - q: "What is the difference between the Lightning Tour and Tour Mid?"
+    a: "Both share the 8-10.5 degree loft menu. The Tour is the most compact, lowest-spinning head with front-biased weighting and a flatter 59 degree lie; the Tour Mid keeps low spin but moves 15 grams to the back for more forgiveness — the slot between the old Black Ops and its Tour-1."
+  - q: "Does the PXG Lightning have a stock shaft?"
+    a: "Not in the usual sense — PXG sells shaft-agnostic, with a wide catalogue of no-upcharge shafts in L through X flexes chosen at fitting and premium options at an upcharge, so the 'stock' build varies by retailer."
+confidence: high

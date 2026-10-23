@@ -1,0 +1,130 @@
+brand: Callaway
+brand_slug: callaway
+model: Paradym
+slug: paradym-driver
+club_type: driver
+year_introduced: 2023
+year_discontinued: null
+category: flagship
+construction: industry-first 360° Carbon Chassis — Triaxial Carbon crown and Forged Carbon sole fully replacing the titanium body — with the Jailbreak A.I. system
+material: forged titanium FS2S face; triaxial and forged carbon body
+predecessor: Callaway Rogue ST
+successor: Callaway Paradym Ai Smoke
+description: >
+  The Paradym is Callaway's 2023 driver family and the first with a 360°
+  Carbon Chassis: a Triaxial Carbon crown and Forged Carbon sole replace the
+  titanium body entirely, freeing mass that an A.I.-designed forged titanium
+  FS2S face and Jailbreak A.I. bracing turn into speed and stability. The
+  core Paradym carries a 15 g sliding perimeter weight worth roughly a dozen
+  yards of draw-to-fade correction; the Paradym X is the stretched,
+  higher-launching forgiveness head with a fixed weight; and the 450 cc
+  Triple Diamond is the compact tour head with front/back interchangeable
+  weighting. The Ai Smoke generation replaced it in 2024, and the Paradym is
+  now one of the better value buys on the used premium-driver market.
+variants:
+  - name: Paradym
+    head_cc: 460
+    description: >
+      The core head with a 15 g sliding rear perimeter weight for draw,
+      neutral or fade bias — about 12 yards of shot-shape swing on average.
+  - name: Paradym X
+    head_cc: 460
+    description: >
+      The most forgiving head: a stretched profile, higher launch and slight
+      draw bias with fixed weighting and the most upright lie in the family.
+      Also the basis of the women's build with the Aldila Ascent PL 40.
+  - name: Paradym Triple Diamond
+    head_cc: 450
+    description: >
+      The compact tour head for low spin and low launch with a neutral
+      flight; weighting swaps between front and back ports.
+specs:
+  - variant: Paradym
+    loft: 9.0
+    lie: 57.0
+    length: 45.75
+  - variant: Paradym
+    loft: 10.5
+    lie: 57.0
+    length: 45.75
+  - variant: Paradym
+    loft: 12.0
+    lie: 57.0
+    length: 45.75
+  - variant: Paradym X
+    loft: 9.0
+    lie: 60.0
+    length: 45.75
+  - variant: Paradym X
+    loft: 10.5
+    lie: 60.0
+    length: 45.75
+  - variant: Paradym X
+    loft: 12.0
+    lie: 60.0
+    length: 45.75
+  - variant: Paradym Triple Diamond
+    loft: 8.0
+    lie: 57.0
+    length: 45.75
+  - variant: Paradym Triple Diamond
+    loft: 9.0
+    lie: 57.0
+    length: 45.75
+  - variant: Paradym Triple Diamond
+    loft: 10.5
+    lie: 57.0
+    length: 45.75
+hosel:
+  system: "OptiFit hosel"
+  loft_range: "−1° to +2°"
+  positions: 8
+  lie_effect: >
+    The lie cog has two positions: N (neutral, the stated lie) and D (draw, a
+    more upright lie — Callaway does not publish the degree change).
+  face_note: >
+    Changing loft re-orients the head on the shaft, so lower settings sit
+    slightly open and higher settings slightly closed at address.
+  notes: >
+    The two-cog OptiFit design introduced here carried unchanged into the Ai
+    Smoke, Elyte and Quantum generations. On a 10.5° head the four loft
+    positions play 9.5°, 10.5°, 11.5° and 12.5°.
+  settings:
+    - { setting: "−1 / N", loft: "−1°", lie: "neutral" }
+    - { setting: "−1 / D", loft: "−1°", lie: "draw (more upright)" }
+    - { setting: "S / N", loft: "std", lie: "neutral" }
+    - { setting: "S / D", loft: "std", lie: "draw (more upright)" }
+    - { setting: "+1 / N", loft: "+1°", lie: "neutral" }
+    - { setting: "+1 / D", loft: "+1°", lie: "draw (more upright)" }
+    - { setting: "+2 / N", loft: "+2°", lie: "neutral" }
+    - { setting: "+2 / D", loft: "+2°", lie: "draw (more upright)" }
+stock_shafts:
+  - name: "Project X HZRDUS Silver Gen4 50/60"
+    material: graphite
+    flex: ["R", "S"]
+  - name: "Project X HZRDUS Black Gen4 60"
+    material: graphite
+    flex: ["S", "X"]
+  - name: "Aldila Ascent PL Blue 40"
+    material: graphite
+    flex: ["L"]
+  - name: "Mitsubishi Kai'li White 60/70 (Triple Diamond)"
+    material: graphite
+    flex: ["S", "X"]
+related_models:
+  - slug: "callaway/ai-smoke-driver"
+    label: "Successor: Callaway Paradym Ai Smoke drivers"
+sources:
+  - "2nd Swing Paradym, Paradym X and Paradym Triple Diamond spec listings (lofts, lie, 45.75 inch, 15 g slider, shaft matrix), https://www.2ndswing.com/golf-clubs/drivers/callaway-paradym-driver, accessed October 2026"
+  - "Carl's Golfland and GlobalGolf Paradym listings (cross-checks on head sizes and lie angles), https://www.carlsgolfland.com/callaway-paradym, accessed October 2026"
+  - "Note: retailer tables disagree on the Paradym X lie (57° vs 60°) and the Triple Diamond volume (450 vs 460 cc); the majority figures charted here are 60° and 450 cc. Callaway's own Paradym spec pages are no longer live."
+faq:
+  - q: "What lofts does the Callaway Paradym come in?"
+    a: "The Paradym and Paradym X come in 9, 10.5 and 12 degrees; the Paradym Triple Diamond in 8, 9 and 10.5."
+  - q: "How do you adjust a Callaway Paradym driver?"
+    a: "With the two-cog OptiFit hosel: the loft cog plays −1, stated, +1 or +2 degrees and the lie cog sits in Neutral or Draw, giving eight combinations. A 10.5 degree head spans 9.5 to 12.5 degrees."
+  - q: "What is the difference between the Paradym and Paradym X?"
+    a: "The core Paradym has a 15 gram sliding weight for draw-to-fade tuning at a 57 degree lie; the Paradym X is larger-profiled, higher-launching and slightly draw-biased with fixed weighting and a 60 degree lie."
+  - q: "Is the Callaway Paradym still in production?"
+    a: "No — it was replaced by the Paradym Ai Smoke in 2024. It remains plentiful used, where its 360° Carbon Chassis construction makes it a strong value against newer lines."
+confidence: medium

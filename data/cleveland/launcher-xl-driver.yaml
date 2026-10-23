@@ -1,0 +1,124 @@
+brand: Cleveland
+brand_slug: cleveland
+model: Launcher XL
+slug: launcher-xl-driver
+club_type: driver
+year_introduced: 2021
+year_discontinued: 2024
+category: game-improvement
+construction: oversized 460 cc titanium chassis with Rebound Frame and Action Mass CB — an 8 g counterweight inside the grip end
+material: titanium head and body
+predecessor: Cleveland Launcher HB Turbo
+successor: Cleveland Launcher XL2
+description: >
+  The Launcher XL is Cleveland's 2021 game-improvement driver — an oversized
+  460 cc head with 5,200 g·cm² of MOI, the Rebound Frame shared with sibling
+  brand Srixon, and Action Mass CB, an 8-gram counterweight inside the grip
+  end that steadies the club through impact. The adjustable core model is
+  sold as a single 10.5°-base head whose QTS sleeve configures it from 9° to
+  12°; the XL Lite is a 12-gram-lighter, quarter-inch-longer fixed-hosel
+  version for slower swings, with a Draw variant for slice fighters and a
+  women's build. Every model offered a factory "Accuracy Build" one inch
+  shorter with the counterweight removed. The Launcher XL2 replaced it in
+  2024 — Cleveland's second-to-last driver family before the brand exited
+  metalwoods entirely in early 2026 to focus on wedges and putters.
+variants:
+  - name: Launcher XL
+    head_cc: 460
+    description: >
+      The adjustable max-MOI head: one 10.5°-base head whose QTS sleeve
+      plays it from 9° to 12° — which is why the published lie differs by
+      configured loft (58.5° at the 9° and 12° marks, 60° at 10.5°).
+  - name: Launcher XL Lite
+    head_cc: 460
+    description: >
+      The 12 g lighter, 0.25 inch longer version for slower swings, with a
+      fixed (glued) hosel. The 12° head is right-hand only; a women's 12°
+      build ran 44.25 inches at C7.
+  - name: Launcher XL Lite Draw
+    head_cc: 460
+    description: >
+      The slice-fighting draw-bias version of the Lite — 10.5° only, fixed
+      hosel, right-hand only.
+specs:
+  - variant: Launcher XL
+    loft: 9.0
+    lie: 58.5
+    length: 45.75
+  - variant: Launcher XL
+    loft: 10.5
+    lie: 60.0
+    length: 45.75
+  - variant: Launcher XL
+    loft: 12.0
+    lie: 58.5
+    length: 45.75
+  - variant: Launcher XL Lite
+    loft: 10.5
+    lie: 60.0
+    length: 46.0
+  - variant: Launcher XL Lite
+    loft: 12.0
+    lie: 60.0
+    length: 46.0
+  - variant: Launcher XL Lite Draw
+    loft: 10.5
+    lie: 60.0
+    length: 46.0
+hosel:
+  system: "QTS sleeve"
+  loft_range: "9°–12° on the one 10.5°-base head"
+  positions: 12
+  lie_effect: >
+    Lie runs from the 60° standard down to 3° flat across the settings.
+  face_note: >
+    Face angle shifts slightly closed at the loft-up settings and slightly
+    open at the loft-down settings; the four primary marks sit square.
+  notes: >
+    Unlike most adjustable drivers, the Launcher XL is sold as a single
+    10.5°-base head and the chart below is in absolute lofts: the sleeve's
+    four primary marks are 9°, 10.5°, 12° and 10.5° Flat, with half-degree
+    stops between them. The XL Lite, Lite Draw and women's builds have no
+    hosel adjustment.
+  settings:
+    - { setting: "10.5° (STD)", loft: "10.5°", lie: "std (60°)", face: "square" }
+    - { setting: "11°", loft: "11°", lie: "0.5° flat", face: "square" }
+    - { setting: "11.5°", loft: "11.5°", lie: "1° flat", face: "slightly closed" }
+    - { setting: "12°", loft: "12°", lie: "1.5° flat", face: "slightly closed" }
+    - { setting: "11.5° FL", loft: "11.5°", lie: "2° flat", face: "slightly closed" }
+    - { setting: "11° FL", loft: "11°", lie: "2.5° flat", face: "square" }
+    - { setting: "10.5° FL", loft: "10.5°", lie: "3° flat", face: "square" }
+    - { setting: "10° FL", loft: "10°", lie: "2.5° flat", face: "square" }
+    - { setting: "9.5° FL", loft: "9.5°", lie: "2° flat", face: "slightly open" }
+    - { setting: "9°", loft: "9°", lie: "1.5° flat", face: "slightly open" }
+    - { setting: "9.5°", loft: "9.5°", lie: "1° flat", face: "slightly open" }
+    - { setting: "10°", loft: "10°", lie: "0.5° flat", face: "square" }
+stock_shafts:
+  - name: "Project X Cypher 50 (Launcher XL)"
+    material: graphite
+    weight: "52-56g"
+    flex: ["A", "R", "S"]
+  - name: "Project X Cypher 40 (XL Lite, Lite Draw)"
+    material: graphite
+    weight: "48-50g"
+    flex: ["A", "R", "S"]
+  - name: "Project X Cypher 40 (women's)"
+    material: graphite
+    weight: "50g"
+    flex: ["L"]
+sources:
+  - "Archived clevelandgolf.com Launcher XL, XL Lite and XL Lite Draw spec pages via the Internet Archive, captures from October 2021 (lie 58.5/60/58.5 by configured loft, lengths, swing weights, QTS sleeve range, shafts)"
+  - "Cleveland/Dunlop hosel sleeve adjustability guide PDF (the 12-row absolute-loft chart for this QTS sleeve), https://eu.dunlopsports.com/on/demandware.static/-/Sites-masterCatalog_DunlopSports/default/dw78f16bcc/pdf/hibore-xl/Hosel_Sleeve_Adjustability_Guide.pdf, accessed October 2026"
+  - "GolfWRX Launcher XL introduction (20 August 2021 retail, 5,200 MOI, Action Mass CB, Accuracy Build option), https://golfwrx.com/657851/cleveland-introduces-new-launcher-xl-drivers/, accessed October 2026"
+  - "MyGolfSpy report on Cleveland exiting the woods and irons business to focus on wedges and putters (February 2026), https://mygolfspy.com/news-opinion/its-official-cleveland-golf-is-getting-out-of-the-woods-and-irons-business/, accessed October 2026"
+  - "Note: the per-position chart is Cleveland's official guide as hosted for the later HiBore XL, which uses the same QTS sleeve, marks and range — a one-step-removed source for the Launcher XL itself."
+faq:
+  - q: "What lofts does the Cleveland Launcher XL come in?"
+    a: "The adjustable Launcher XL is one 10.5 degree base head that the QTS sleeve configures anywhere from 9 to 12 degrees in half-degree steps. The fixed-hosel XL Lite comes in 10.5 and 12 degrees and the XL Lite Draw in 10.5."
+  - q: "Why does the Launcher XL's lie differ by loft?"
+    a: "Because the three retail lofts are hosel settings of the same head: at the 10.5 degree standard mark the lie is 60 degrees, while the 9 and 12 degree marks sit 1.5 degrees flatter at 58.5."
+  - q: "Is the Launcher XL Lite adjustable?"
+    a: "No — the Lite, Lite Draw and women's builds all have glued hosels to save weight. Only the standard Launcher XL carries the adjustable QTS sleeve."
+  - q: "Does Cleveland still make drivers?"
+    a: "No. After the Launcher XL2 (2024) and HiBore XL (2025), Cleveland exited the metalwoods and irons business in early 2026 to focus on wedges and putters, so every Cleveland driver is now a used-market buy."
+confidence: medium

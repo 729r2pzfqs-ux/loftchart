@@ -1,0 +1,137 @@
+brand: Cobra
+brand_slug: cobra
+model: OPTM
+slug: optm-driver
+club_type: driver
+year_introduced: 2026
+year_discontinued: null
+category: flagship
+current_as_of: "2026-10"
+construction: lightweight titanium frame with high-carbon-content carbon fibre crown and sole; AI-driven "POI" head shaping to reduce twisting on off-centre hits
+material: titanium chassis with carbon crown and sole; H.O.T. machine-learning variable-thickness titanium face
+predecessor: Cobra DS-ADAPT
+successor: null
+description: >
+  OPTM is Cobra's 2026 driver family, at retail from 20 January 2026. It
+  keeps the FutureFit33 hosel introduced on the DS-ADAPT — 33 unique loft and
+  lie combinations — and adds AI-driven "Product of Inertia" head shaping
+  meant to reduce how much the head twists on off-centre strikes, with the
+  Max-K claimed at around 10K combined MOI. The four heads are the low-spin
+  LS with movable weights, the all-round X, the max-forgiveness Max-K with a
+  fixed 11 g back weight, and the draw-biased Max-D. All run the H.O.T.
+  variable-thickness face with fifteen machine-learned hot zones.
+variants:
+  - name: OPTM LS
+    head_cc: 460
+    description: >
+      The low-spin, low-launch compact-shape head with movable weights, for
+      faster swings (roughly 105 mph and up) that spin the ball too much and
+      want a penetrating, workable flight.
+  - name: OPTM X
+    head_cc: 460
+    description: >
+      The balanced all-rounder — traditional shape with symmetrical
+      perimeter weighting, mixing ball speed and forgiveness for
+      mid-handicappers.
+  - name: OPTM Max-K
+    head_cc: 460
+    description: >
+      Cobra's highest-MOI driver yet (~10K claimed), with a fixed 11 g back
+      weight and neutral bias — the straight-and-stable head with the
+      highest launch and spin in the line.
+  - name: OPTM Max-D
+    head_cc: 460
+    description: >
+      The draw-biased head with internal heel-biased mass and a slightly
+      closed look at address for chronic slicers; a 40 g Vanquish shaft
+      option suits slower swings.
+specs:
+  - variant: OPTM LS
+    loft: 9.0
+    lie: 57.0
+    length: 45.5
+  - variant: OPTM LS
+    loft: 10.5
+    lie: 57.0
+    length: 45.5
+  - variant: OPTM X
+    loft: 9.0
+    lie: 57.0
+    length: 45.5
+  - variant: OPTM X
+    loft: 10.5
+    lie: 58.0
+    length: 45.5
+  - variant: OPTM Max-K
+    loft: 9.0
+    lie: 58.0
+    length: 45.5
+  - variant: OPTM Max-K
+    loft: 10.5
+    lie: 59.0
+    length: 45.5
+  - variant: OPTM Max-K
+    loft: 12.0
+    lie: 59.0
+    length: 45.5
+  - variant: OPTM Max-D
+    loft: 10.5
+    lie: 61.0
+    length: 45.5
+  - variant: OPTM Max-D
+    loft: 12.0
+    lie: 61.0
+    length: 45.5
+hosel:
+  system: "FutureFit33"
+  loft_range: "±2°"
+  positions: 33
+  lie_effect: "Lie adjusts ±2° from stock, independently of loft."
+  face_note: >
+    The SmartPad sole keeps the face visually square at address in every
+    setting.
+  notes: >
+    FutureFit33 works through two dials — an A-H ring and a 1-8 ring — whose
+    64 combinations collapse to 33 unique loft/lie settings, with A1 the
+    neutral stock position. The valid codes are A1-A8, B1, B3, B4, B6, B7,
+    C1, C2, C4, C7, C8, D1, D2, D3, D6, D8, E1, F1-F4, G1, G3, G4, H1 and
+    H4. Cobra publishes the code-by-code degree chart only as a graphic
+    reached from a QR code on the hosel: outer-ring codes make the biggest
+    loft and lie moves, inner codes shift them by tenths of a degree, and
+    the chart is laid out by the miss it corrects (a high-right miss points
+    to B6, whose corrective opposite is F2). Each stock loft covers roughly
+    ±2°: a 9° head plays 7-11°, a 10.5° head 8.5-12.5°, a 12° head 10-14°.
+stock_shafts:
+  - name: "Mitsubishi Kai'li Dark Waves White 60"
+    material: graphite
+    flex: ["S"]
+  - name: "Mitsubishi Kai'li Dark Waves Blue 60"
+    material: graphite
+    flex: ["R", "S", "X"]
+  - name: "Mitsubishi Kai'li Dark Waves Red 50"
+    material: graphite
+    flex: ["A", "R"]
+  - name: "Project X Denali Black / Blue Frost 60"
+    material: graphite
+    flex: ["R", "S", "X"]
+  - name: "Mitsubishi Vanquish 40 (Max-D)"
+    material: graphite
+    flex: ["A", "R"]
+related_models:
+  - slug: "cobra/ds-adapt-driver"
+    label: "Predecessor: Cobra DS-ADAPT drivers"
+sources:
+  - "Cobra OPTM Max-K and OPTM LS official product pages (lofts, FutureFit33 setting codes, flex options, $599 US), https://www.cobragolf.com/products/optm-max-k-driver, accessed October 2026"
+  - "Golf Discount and The Golf Shop Online OPTM spec tables (per-loft lie, lie ranges, 460 cc, 45.5 inch, shaft matrix), https://www.golfdiscount.com/products/cobra-optm-max-k-driver-2026, accessed October 2026"
+  - "GolfMagic OPTM Max-K / Max-D review (20 January 2026 retail, POI design, ~10K MOI claim), https://www.golfmagic.com/equipment/drivers/cobra-optm-max-k-max-d-drivers-review, accessed October 2026"
+  - "Note: Cobra publishes the FutureFit33 code-by-code degree values only as the QR-linked chart graphic, so the per-code table is described rather than reproduced here. The Max-K lie figures follow the US retail spec table where one UK source differed."
+faq:
+  - q: "What lofts does the Cobra OPTM come in?"
+    a: "The OPTM LS and OPTM X come in 9 and 10.5 degrees, the OPTM Max-K in 9, 10.5 and 12, and the OPTM Max-D in 10.5 and 12. With the FutureFit33 hosel each head adjusts a further 2 degrees either way."
+  - q: "How does the OPTM's FutureFit33 hosel work?"
+    a: "Two dials — a letter ring A-H and a number ring 1-8 — give 33 unique settings that move loft and lie up to 2 degrees each, independently. A1 is the neutral stock setting, and Cobra's chart (reached from a QR code on the hosel) is organised by the miss you want to correct."
+  - q: "Which OPTM driver is the most forgiving?"
+    a: "The OPTM Max-K — Cobra claims roughly 10,000 g·cm² of combined MOI from its fixed 11 gram back weight and carbon construction, making it the brand's most stable driver to date. The Max-D trades some of that stability for built-in draw bias."
+  - q: "Does the FutureFit33 hosel keep the face square?"
+    a: "Yes — Cobra's SmartPad sole is designed so the face sits visually square at address in all 33 settings, unlike conventional sleeves where adding loft visibly closes the face."
+confidence: high

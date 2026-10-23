@@ -1,0 +1,88 @@
+brand: Srixon
+brand_slug: srixon
+model: ZX
+slug: zx-driver
+club_type: driver
+year_introduced: 2021
+year_discontinued: null
+category: flagship
+construction: 460 cc heads debuting the Rebound Frame, with a 15% larger carbon crown; single weight port on the ZX5, twin heel/toe ports on the ZX7
+material: HT1770M titanium face; titanium body with carbon composite crown
+predecessor: Srixon Z 785
+successor: Srixon ZX Mk II
+description: >
+  The ZX is Srixon's 2021 driver family and the debut of the Rebound Frame —
+  alternating rigid and flexible rings around the face that act as a double
+  spring at impact. The ZX5 is the higher-MOI, mid-spin head with a single
+  sole weight port; the ZX7 is the compact tour shape, flatter and
+  shallower, with two swappable 4 g and 8 g sole weights for draw or fade
+  bias. Both reached retail in January 2021 and ran until the Mk II
+  generation arrived in 2023 — though Srixon's own product pages for the
+  originals have outlived several successors, still listing clearance stock
+  years later.
+variants:
+  - name: ZX5
+    head_cc: 460
+    description: >
+      The higher-MOI, mid-spin head for distance with forgiveness; a single
+      sole weight port for swing-weight tuning.
+  - name: ZX7
+    head_cc: 460
+    description: >
+      The compact tour shape — flatter and shallower — with two swappable
+      heel/toe sole weights (4 g and 8 g) for draw or fade bias.
+specs:
+  - variant: ZX5
+    loft: 9.5
+    lie: 59.0
+    length: 45.25
+  - variant: ZX5
+    loft: 10.5
+    lie: 59.0
+    length: 45.25
+  - variant: ZX7
+    loft: 9.5
+    lie: 59.0
+    length: 45.25
+  - variant: ZX7
+    loft: 10.5
+    lie: 59.0
+    length: 45.25
+hosel:
+  system: "Quick Tune System (QTS) sleeve"
+  loft_range: "±1°"
+  positions: 12
+  lie_effect: >
+    The sleeve adjusts lie flatter alongside loft; Srixon's per-position
+    values for this generation are not published.
+  face_note: >
+    Face angle adjusts up to ±2° across the settings, opening as loft is
+    removed and closing as it is added.
+  notes: >
+    Srixon's ZX-era QTS offered twelve loft, lie and face-angle combinations
+    across ±1° of loft. The position-by-position chart is not published
+    online, so it is not reproduced here. An 8.5° option appears in Srixon's
+    configurator but not its printed spec tables — likely custom order.
+stock_shafts:
+  - name: "Project X EvenFlow Riptide 50/60 (ZX5)"
+    material: graphite
+    flex: ["R", "S", "X"]
+  - name: "Project X HZRDUS Smoke Black 60"
+    material: graphite
+    flex: ["R", "S", "X"]
+related_models:
+  - slug: "srixon/zx-mkii-driver"
+    label: "Successor: Srixon ZX Mk II drivers"
+sources:
+  - "Srixon ZX5 and ZX7 official spec pages, still live (9.5/10.5 lofts, 59° lie, 45.25 inch, swing weights, shafts), https://us.dunlopsports.com/srixon/clubs/drivers/zx5-driver/zx5-driver/ZX5DRV.html, accessed October 2026"
+  - "Golf Digest Hot List 2022 ZX5/ZX7 entry (12-way hosel, loft ±1°, face angle ±2°), https://www.golfdigest.com/hot-list-2022/golf-clubs/drivers/srixon-zx5-zx7, accessed October 2026"
+faq:
+  - q: "What lofts does the Srixon ZX come in?"
+    a: "Both the ZX5 and ZX7 come in 9.5 and 10.5 degrees, with the QTS sleeve extending each one degree either way. An 8.5 option existed through Srixon's configurator but not as stock retail."
+  - q: "What is the difference between the Srixon ZX5 and ZX7?"
+    a: "The ZX5 is the larger-profiled, higher-MOI mid-spin head with a single weight port; the ZX7 is the compact, flatter tour shape with two swappable 4 and 8 gram heel/toe weights for shot-shape bias."
+  - q: "How adjustable is the Srixon ZX hosel?"
+    a: "The Quick Tune System sleeve offers twelve combinations of loft, lie and face angle: loft moves ±1 degree and face angle up to ±2 degrees. Srixon does not publish the position-by-position values for this generation."
+  - q: "Is the Srixon ZX still in production?"
+    a: "It was superseded by the ZX Mk II in 2023 and then the ZXi, but Srixon's own pages still listed clearance ZX stock as late as 2026 — otherwise it is a used-market buy at bargain prices."
+confidence: high

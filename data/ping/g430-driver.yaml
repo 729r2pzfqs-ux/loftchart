@@ -1,0 +1,150 @@
+brand: Ping
+brand_slug: ping
+model: G430
+slug: g430-driver
+club_type: driver
+year_introduced: 2023
+year_discontinued: null
+category: flagship
+construction: titanium body with internal rib structure, shallower variable-thickness face and tungsten backweight; Carbonfly Wrap composite crown on the LST and Max 10K
+material: titanium body; forged T9S+ titanium face with Spinsistency variable roll radius
+predecessor: Ping G425
+successor: Ping G440
+description: >
+  The G430 is Ping's 2023-2024 driver family. The Max is the mainline
+  high-MOI head with a 25 g movable tungsten backweight; the 440 cc LST
+  introduced Ping's Carbonfly Wrap composite crown and is the low-spin pick
+  for fast swings; and the SFT is the draw model, sold in 10.5° only with
+  Draw and Draw+ weight settings worth up to about 20 yards of right-to-left
+  correction. In January 2024 Ping added the G430 Max 10K — its first driver
+  over 10,000 g·cm² of combined MOI, achieved with a fixed 28 g backweight
+  and the carbon crown. High-launch (HL) builds across the Max, SFT and 10K
+  paired lighter backweights with ALTA Quick shafts at 46 inches. The G440
+  replaced the family in 2025.
+variants:
+  - name: G430 Max
+    head_cc: 460
+    description: >
+      The mainline high-MOI head: a 25 g movable tungsten backweight with
+      Draw, Neutral and Fade positions worth about ±8 yards of shot shape.
+      Head weight 206 g, swing weight D3.
+  - name: G430 LST
+    head_cc: 440
+    description: >
+      The compact low-spin head and the first Ping with the Carbonfly Wrap
+      carbon crown; a 22 g three-position backweight gives about ±7 yards of
+      bias. Head weight 208 g, swing weight D4.
+  - name: G430 SFT
+    head_cc: 460
+    description: >
+      The draw-biased model, 10.5° only, with Draw and Draw+ backweight
+      settings for up to roughly 20 yards of slice correction. Head weight
+      200 g, swing weight C9.
+  - name: G430 Max 10K
+    head_cc: 460
+    description: >
+      Added January 2024: Ping's first driver past 10,000 g·cm² combined MOI,
+      via a fixed 28 g tungsten backweight (no movable positions) and the
+      Carbonfly Wrap crown. Head weight 206 g, swing weight D3.
+specs:
+  - variant: G430 Max
+    loft: 9.0
+    lie: 58.0
+    length: 45.75
+  - variant: G430 Max
+    loft: 10.5
+    lie: 58.0
+    length: 45.75
+  - variant: G430 Max
+    loft: 12.0
+    lie: 58.0
+    length: 45.75
+  - variant: G430 LST
+    loft: 9.0
+    lie: 56.5
+    length: 45.75
+  - variant: G430 LST
+    loft: 10.5
+    lie: 56.5
+    length: 45.75
+  - variant: G430 SFT
+    loft: 10.5
+    lie: 58.5
+    length: 45.75
+  - variant: G430 Max 10K
+    loft: 9.0
+    lie: 58.5
+    length: 45.75
+  - variant: G430 Max 10K
+    loft: 10.5
+    lie: 58.5
+    length: 45.75
+  - variant: G430 Max 10K
+    loft: 12.0
+    lie: 58.5
+    length: 45.75
+length_note: >
+  45.75 inches is the standard build with the stock ALTA CB Black 55; builds
+  with the Tour 2.0, Kai'Li White or HZRDUS shafts are 45.25 inches, and the
+  HL builds run 46 inches. Ping publishes lie as the average across the five
+  neutral-lie hosel positions.
+hosel:
+  system: "Trajectory Tuning 2.0"
+  loft_range: "±1.5°"
+  positions: 8
+  lie_effect: >
+    Three flat positions sit up to 3° flatter than standard; there is no
+    upright setting.
+  face_note: >
+    Lowering loft opens the face slightly and adding loft closes it, as on
+    any hosel-based adjuster.
+  notes: >
+    The same eight-position chart has carried unchanged through the G425,
+    G430 and G440 generations, so sleeves and settings interchange. The
+    ±1.5° "big" settings exist only at the standard lie; the flat positions
+    offer 0 and ±1° of loft.
+  settings:
+    - { setting: "Standard", loft: "std", lie: "std" }
+    - { setting: "+1", loft: "+1°", lie: "std" }
+    - { setting: "Big +", loft: "+1.5°", lie: "std" }
+    - { setting: "−1", loft: "−1°", lie: "std" }
+    - { setting: "Big −", loft: "−1.5°", lie: "std" }
+    - { setting: "Standard Flat", loft: "std", lie: "3° flat" }
+    - { setting: "+1 Flat", loft: "+1°", lie: "3° flat" }
+    - { setting: "−1 Flat", loft: "−1°", lie: "3° flat" }
+stock_shafts:
+  - name: "Ping ALTA CB Black 55 (counter-balanced)"
+    material: graphite
+    weight: "56-60g"
+    flex: ["SR", "R", "S"]
+  - name: "Ping Tour 2.0 Chrome 65"
+    material: graphite
+    flex: ["R", "S", "X"]
+  - name: "Ping Tour 2.0 Black 65"
+    material: graphite
+    flex: ["S", "X"]
+  - name: "Mitsubishi Kai'Li White 60"
+    material: graphite
+    flex: ["S", "X"]
+  - name: "Project X HZRDUS Smoke Red RDX 50/60"
+    material: graphite
+    flex: ["5.5", "6.0", "6.5"]
+related_models:
+  - slug: "ping/g440-driver"
+    label: "Successor: Ping G440 drivers"
+  - slug: "ping/g425-driver"
+    label: "Predecessor: Ping G425 drivers"
+sources:
+  - "Ping G430 Max, LST, SFT and Max 10K official product pages (lofts, lie, head sizes and weights, backweights, Trajectory Tuning 2.0), https://ping.com/en-us/clubs/drivers/g430-max, accessed October 2026"
+  - "First Call Golf G430 Max 10K launch report (9 January 2024, 28 g fixed weight, over 10,000 g·cm² combined MOI), https://www.firstcallgolf.com/industry-news/release/2024-01-09/ping-g430-max-10k-driver-sets-new-moi-and-forgiveness-standards, accessed October 2026"
+  - "Note: Ping does not publish the G430 SFT's backweight mass. Lie varies by model and generation on Ping's own tables (LST 56.5° here against 57° on the G425 and G440) — these are Ping's figures, not normalisation errors."
+faq:
+  - q: "What lofts does the Ping G430 come in?"
+    a: "The G430 Max and Max 10K come in 9, 10.5 and 12 degrees; the G430 LST in 9 and 10.5; and the G430 SFT in 10.5 only."
+  - q: "What is the G430 adjustment chart?"
+    a: "Ping's Trajectory Tuning 2.0 hosel has eight settings: standard, +1, +1.5, −1 and −1.5 degrees of loft at the standard lie, plus flat versions of standard, +1 and −1 that sit up to 3 degrees flatter. There is no upright setting."
+  - q: "What is the difference between the G430 Max and G430 Max 10K?"
+    a: "The Max has a 25 gram movable backweight with Draw, Neutral and Fade positions; the Max 10K trades the movable weight for a fixed 28 gram one and a carbon crown, pushing combined MOI past 10,000 g·cm² — more forgiveness, less adjustability."
+  - q: "Is the Ping G430 still in production?"
+    a: "The G440 replaced it in January 2025, so the G430 is a closeout and used-market buy. Its hosel chart and sleeve are identical to the G425 and G440, so shafts interchange across all three generations."
+confidence: high

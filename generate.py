@@ -183,12 +183,29 @@ WEDGE_CATEGORY_SHORT = {
     "specialty": "specialty",
 }
 
+# Driver models get their own enum too: a driver file is a whole family of head
+# variants (the LS head in it is a players' club, the Max a forgiveness club),
+# so the category describes the family's market position, not a head design.
+DRIVER_CATEGORY_LABEL = {
+    "flagship": "Flagship Driver Line",
+    "lightweight": "Lightweight Driver",
+    "game-improvement": "Game Improvement Driver",
+}
+
+DRIVER_CATEGORY_SHORT = {
+    "flagship": "flagship",
+    "lightweight": "lightweight",
+    "game-improvement": "game improvement",
+}
+
 
 def category_label(m):
     """Display label for a model's category, keyed on its club type."""
     cat = m.get("category")
     if m.get("club_type") == "wedges":
         return WEDGE_CATEGORY_LABEL.get(cat, cat or "—")
+    if m.get("club_type") == "driver":
+        return DRIVER_CATEGORY_LABEL.get(cat, cat or "—")
     return CATEGORY_LABEL.get(cat, cat or "—")
 
 
@@ -425,6 +442,37 @@ def load():
                 specs.sort(key=lambda r: (r.get("loft") or 0,
                                           r.get("bounce") or 0,
                                           str(r.get("grind") or "")))
+            elif m.get("club_type") == "driver":
+                # A driver model is a family of head variants, each sold in a
+                # few stock lofts: rows carry a variant name and a loft,
+                # lie/length are optional (OEMs publish them per head, when at
+                # all), and every variant must resolve to the family's variant
+                # catalogue. The adjustable-hosel chart lives in `hosel`.
+                if not m.get("variants"):
+                    errors.append(f"{rel}: driver model missing variants "
+                                  "catalogue")
+                vorder = {v.get("name"): i
+                          for i, v in enumerate(m.get("variants") or [])}
+                for row in specs:
+                    row["club"] = str(row.get("club", "")).upper()
+                    if row.get("loft") is None:
+                        errors.append(f"{rel}: driver spec row missing loft")
+                    if not row.get("variant"):
+                        errors.append(f"{rel}: driver spec row missing variant")
+                    elif row["variant"] not in vorder:
+                        errors.append(f"{rel}: variant {row['variant']!r} not "
+                                      "in variants list")
+                if m.get("category") and m["category"] not in DRIVER_CATEGORY_LABEL:
+                    errors.append(f"{rel}: unknown driver category "
+                                  f"{m['category']!r}")
+                for s in ((m.get("hosel") or {}).get("settings") or []):
+                    if not s.get("setting"):
+                        errors.append(f"{rel}: hosel setting row missing "
+                                      "'setting' label")
+                # Variants stay in catalogue order (core head first), with
+                # lofts ascending within each head.
+                specs.sort(key=lambda r: (vorder.get(r.get("variant"), len(vorder)),
+                                          r.get("loft") or 0))
             else:
                 for row in specs:
                     row["club"] = str(row.get("club", "")).upper()
@@ -456,10 +504,10 @@ def load():
 
 
 def seven_iron(m):
-    # A wedge model has no set order and no reference club, so every caller
-    # that summarises a set by its 7-iron (cards, loft spans, brand rows)
-    # skips wedges rather than quoting a meaningless middle row.
-    if m.get("club_type") == "wedges":
+    # A wedge or driver model has no set order and no reference club, so every
+    # caller that summarises a set by its 7-iron (cards, loft spans, brand rows)
+    # skips them rather than quoting a meaningless middle row.
+    if m.get("club_type") in ("wedges", "driver"):
         return None
     for row in m["specs"]:
         if row["club"] == "7":
@@ -481,6 +529,32 @@ def wedge_reference_loft(m):
 def wedge_lofts(m):
     """Sorted unique lofts a wedge model is sold in."""
     return sorted({r["loft"] for r in m["specs"] if r.get("loft") is not None})
+
+
+def driver_lofts(m):
+    """Sorted unique stock lofts across every head variant of a driver family."""
+    return sorted({r["loft"] for r in m["specs"] if r.get("loft") is not None})
+
+
+def variant_short(m, name):
+    """Compact head label: the variant name minus the family name it repeats.
+
+    'Qi35 Max Lite' on the Qi35 page reads as 'Max Lite'; the core head that
+    carries the bare family name reads as 'Std'. Numbered heads like the
+    Titleist GT2 keep their full name — stripping 'GT' would leave a bare digit.
+    """
+    name = str(name)
+    if name == m["model"]:
+        return "Std"
+    return re.sub(r"^" + re.escape(m["model"]) + r"\s+", "", name).strip() or name
+
+
+def driver_rows_by_variant(m):
+    """Spec rows grouped by head variant, in catalogue order."""
+    by = OrderedDict((v.get("name"), []) for v in (m.get("variants") or []))
+    for r in m["specs"]:
+        by.setdefault(r.get("variant"), []).append(r)
+    return by
 
 
 def is_current(m):
@@ -699,6 +773,16 @@ def club_noun(m, club):
 
 
 def model_card(m):
+    if m.get("club_type") == "driver":
+        lofts = driver_lofts(m)
+        n_var = len(m.get("variants") or [])
+        spec = (f'<span class="card-spec">{num(lofts[0])}°–{num(lofts[-1])}° · '
+                f'{plural(n_var, "head variant")}</span>'
+                if lofts else "")
+        return (f'<a class="card" href="{m["url"]}">'
+                f'<span class="card-title">{esc(m["brand"])} {esc(m["model"])}</span>'
+                f'<span class="card-meta">{esc(m["type_label"])} · {year_range(m)}</span>'
+                f"{spec}</a>")
     if m.get("club_type") == "wedges":
         lofts = wedge_lofts(m)
         spec = (f'<span class="card-spec">{num(lofts[0])}°–{num(lofts[-1])}° · '
@@ -837,6 +921,168 @@ def wedge_gapping_links(m):
     return ('<h2>Wedge loft guides</h2>'
             '<p>How each loft slot this model covers fits into a gapped bag:</p>'
             f'<ul class="linklist">{"".join(links)}</ul>')
+
+
+def driver_spec_table(m, caption=None):
+    """Stock-loft table for a driver family: one row per head variant.
+
+    Lie, length and head size are shown only when the maker publishes them;
+    where a value varies across the variant's lofts, the distinct values are
+    joined rather than averaged.
+    """
+    by = driver_rows_by_variant(m)
+    vmeta = {v.get("name"): v for v in (m.get("variants") or [])}
+
+    def uniq(rows, key):
+        vals = []
+        for r in rows:
+            v = r.get(key)
+            if v is not None and v not in vals:
+                vals.append(v)
+        return vals
+
+    has_lie = any(uniq(rows, "lie") for rows in by.values())
+    has_length = any(uniq(rows, "length") for rows in by.values())
+    has_cc = any(v.get("head_cc") for v in (m.get("variants") or []))
+
+    hdr = '<th scope="col">Head</th><th scope="col">Stock lofts</th>'
+    if has_cc:
+        hdr += '<th scope="col">Head size</th>'
+    if has_lie:
+        hdr += '<th scope="col">Lie (°)</th>'
+    if has_length:
+        hdr += '<th scope="col">Length (in)</th>'
+
+    body = []
+    for name, rows in by.items():
+        lofts = ", ".join(f"{num(r['loft'])}°" for r in rows
+                          if r.get("loft") is not None)
+        cells = (f'<th scope="row">{esc(name)}</th>'
+                 f'<td>{lofts or "—"}</td>')
+        if has_cc:
+            cc = (vmeta.get(name) or {}).get("head_cc")
+            cells += (f'<td>{num(cc)} cc</td>' if cc else '<td class="na">—</td>')
+        if has_lie:
+            lies = uniq(rows, "lie")
+            cells += (f'<td>{" / ".join(num(v) for v in lies)}</td>' if lies
+                      else '<td class="na">—</td>')
+        if has_length:
+            lengths = uniq(rows, "length")
+            cells += (f'<td>{" / ".join(num(v) for v in lengths)}</td>'
+                      if lengths else '<td class="na">—</td>')
+        body.append(f"<tr>{cells}</tr>")
+
+    cap = f"<caption>{esc(caption)}</caption>" if caption else ""
+    return (f'<div class="table-scroll data-table-zone"><table class="specs">{cap}'
+            f'<thead><tr>{hdr}</tr></thead>'
+            f'<tbody>{"".join(body)}</tbody></table></div>')
+
+
+def variant_guide(m):
+    """The family's head catalogue, with the stock lofts each head is sold in."""
+    variants = m.get("variants")
+    if not variants:
+        return ""
+    by = driver_rows_by_variant(m)
+    items = []
+    for v in variants:
+        rows = by.get(v.get("name"), [])
+        lofts = [r["loft"] for r in rows if r.get("loft") is not None]
+        loft_str = ", ".join(f"{num(l)}°" for l in lofts) if lofts else "—"
+        items.append(
+            f'<div><dt><strong>{esc(v.get("name") or "—")}</strong>'
+            f'<span class="grind-lofts">{loft_str}</span></dt>'
+            f'<dd>{esc((v.get("description") or "").strip())}</dd></div>')
+    return (f'<h2>Head variants</h2>'
+            f'<p>The heads this family is sold in, with each one&rsquo;s stock '
+            f'loft options.</p>'
+            f'<dl class="grind-guide">{"".join(items)}</dl>')
+
+
+def hosel_chart(m):
+    """The adjustable-hosel settings chart — the page's highest-intent section.
+
+    Rendered from the model's own `hosel` block so a TaylorMade sleeve chart, a
+    Ping eight-setting chart and Cobra's 33-combination system all fit the same
+    template. A driver with no hosel block gets an explicit non-adjustable note
+    rather than silence, since "can you adjust it" is itself the question.
+    """
+    h = m.get("hosel")
+    name = f"{esc(m['brand'])} {esc(m['model'])}"
+    if not h:
+        return (f'<h2>Hosel adjustment</h2>'
+                f'<p>The {name} has a glued, non-adjustable hosel — the loft '
+                f'printed on the head is the loft it plays. Loft and lie can '
+                f'only be altered by a clubmaker, so pick the stock loft to '
+                f'match your launch rather than planning to tune it later.</p>')
+
+    bits = []
+    if h.get("system"):
+        bits.append(f"<strong>{esc(h['system'])}</strong>")
+    if h.get("loft_range"):
+        bits.append(f"loft {esc(h['loft_range'])}")
+    if h.get("positions"):
+        bits.append(f"{plural(h['positions'], 'setting')}")
+    intro = " · ".join(bits)
+    notes = []
+    if h.get("lie_effect"):
+        notes.append(esc(str(h["lie_effect"]).strip()))
+    if h.get("face_note"):
+        notes.append(esc(str(h["face_note"]).strip()))
+    notes_html = f'<p>{" ".join(notes)}</p>' if notes else ""
+
+    rows = h.get("settings") or []
+    table = ""
+    if rows:
+        has_lie = any(r.get("lie") for r in rows)
+        has_face = any(r.get("face") for r in rows)
+        hdr = '<th scope="col">Setting</th><th scope="col">Loft</th>'
+        if has_lie:
+            hdr += '<th scope="col">Lie</th>'
+        if has_face:
+            hdr += '<th scope="col">Face angle</th>'
+        body = []
+        for r in rows:
+            cells = (f'<th scope="row">{esc(r.get("setting"))}</th>'
+                     f'<td>{esc(r.get("loft") or "std")}</td>')
+            if has_lie:
+                cells += (f'<td>{esc(r["lie"])}</td>' if r.get("lie")
+                          else '<td class="na">std</td>')
+            if has_face:
+                cells += (f'<td>{esc(r["face"])}</td>' if r.get("face")
+                          else '<td class="na">—</td>')
+            body.append(f"<tr>{cells}</tr>")
+        table = (f'<div class="table-scroll data-table-zone"><table class="specs">'
+                 f'<caption>Hosel adjustment chart for the {name} — what each '
+                 f'setting does to the stated loft.</caption>'
+                 f'<thead><tr>{hdr}</tr></thead>'
+                 f'<tbody>{"".join(body)}</tbody></table></div>')
+
+    extra = (f'<p class="table-note">{esc(str(h["notes"]).strip())}</p>'
+             if h.get("notes") else "")
+    return (f'<h2>Hosel adjustment chart</h2>'
+            f'<p>{intro}.</p>'
+            f'{notes_html}'
+            f'{table}'
+            f'{extra}')
+
+
+def driver_guide_links(m):
+    """Link a driver model page back to the driver loft guide hub."""
+    lofts = driver_lofts(m)
+    if not lofts:
+        return ""
+    return ('<h2>Driver loft guides</h2>'
+            '<p>How to pick between these stock lofts:</p>'
+            '<ul class="linklist">'
+            '<li><a href="/driver-lofts/">Driver loft chart — the overview</a></li>'
+            '<li><a href="/guides/driver-loft-by-swing-speed/">Driver loft by '
+            'swing speed</a></li>'
+            '<li><a href="/guides/9-vs-10-5-degree-driver/">9° vs 10.5° driver'
+            '</a></li>'
+            '<li><a href="/guides/10-5-vs-12-degree-driver/">10.5° vs 12° driver'
+            '</a></li>'
+            '</ul>')
 
 
 # --------------------------------------------------------------------------
@@ -1070,6 +1316,65 @@ def wedge_loft_bounce_chart(m):
             f'<figcaption>{caption}</figcaption></figure>')
 
 
+def driver_loft_matrix(m):
+    """Head × loft matrix chart: one row per variant, one mark per stock loft.
+
+    The question a driver family page answers at a glance is which heads come
+    in which lofts, so the chart is the availability matrix itself rather than
+    a progression.
+    """
+    by = {name: [r["loft"] for r in rows if r.get("loft") is not None]
+          for name, rows in driver_rows_by_variant(m).items()}
+    by = {name: lofts for name, lofts in by.items() if lofts}
+    if not by or sum(len(v) for v in by.values()) < 2:
+        return ""
+    lofts = sorted({l for ls in by.values() for l in ls})
+
+    W = 320
+    left, right, top, rowh = 78, 12, 10, 26
+    base = top + len(by) * rowh
+    H = base + 30
+    lo, hi = lofts[0] - 0.75, lofts[-1] + 0.75
+
+    def px(l):
+        return left + (l - lo) / (hi - lo) * (W - left - right)
+
+    out = [svg_open(
+        W, H, f"{m['brand']} {m['model']} stock lofts by head",
+        "Chart of the stock lofts each head variant is sold in: " + "; ".join(
+            f"{name} at {', '.join(num(l) for l in ls)} degrees"
+            for name, ls in by.items()) + ".",
+        "dlm", 520)]
+    for l in lofts:
+        x = px(l)
+        out.append(f'<line x1="{xy(x)}" x2="{xy(x)}" y1="{top}" y2="{base}" '
+                   f'stroke="{FIG_GRID}"/>')
+        out.append(f'<text x="{xy(x)}" y="{base + 14}" text-anchor="middle" '
+                   f'font-weight="600">{num(l)}°</text>')
+    out.append(f'<line x1="{left}" x2="{W - right}" y1="{base}" y2="{base}" '
+               f'stroke="{FIG_AXIS}"/>')
+    for i, (name, ls) in enumerate(by.items()):
+        y = top + i * rowh + rowh / 2
+        out.append(f'<text x="{left - 6}" y="{xy(y + 3)}" text-anchor="end" '
+                   f'fill="{FIG_MUTED}">{esc(variant_short(m, name))}</text>')
+        for l in ls:
+            out.append(f'<circle cx="{xy(px(l))}" cy="{xy(y)}" r="4.5" '
+                       f'fill="{FIG_GREEN}" stroke="{FIG_SURFACE}" '
+                       f'stroke-width="1.5">'
+                       f'<title>{esc(name)}: {num(l)}°</title></circle>')
+    out.append(f'<text x="0" y="{base + 14}" font-size="8" '
+               f'fill="{FIG_MUTED}">Loft</text>')
+    out.append("</svg>")
+
+    caption = (f"Stock loft options for each {esc(m['brand'])} {esc(m['model'])} "
+               f"head — {plural(len(by), 'variant')} across "
+               f"{plural(len(lofts), 'stock loft')}."
+               + (" The hosel settings extend each head beyond its stamped loft."
+                  if m.get("hosel") else ""))
+    return (f'<figure class="fig data-table-zone">{"".join(out)}'
+            f'<figcaption>{caption}</figcaption></figure>')
+
+
 def compare_chart(a, b, clubs, aspec, bspec, label_a, label_b):
     """Both sets' lofts on one chart, club by club."""
     pts_a = [(i, aspec[c]["loft"]) for i, c in enumerate(clubs)
@@ -1268,6 +1573,52 @@ def wedge_availability(m):
   and lie from standard, so confirm the numbers on the order sheet. {check}</p>"""
 
 
+def driver_availability(m):
+    """Driver version of availability(): same status logic, driver-market wording."""
+    brand, model = esc(m["brand"]), esc(m["model"])
+    intro = m.get("year_introduced")
+    pred = m.get("predecessor")
+    succ = m.get("successor")
+    check = ("Before buying used, check the stamped loft against the chart above "
+             "and ask which hosel setting it is in — an adjustable driver may be "
+             "set a degree or more away from the number on the sole, and sleeve "
+             "adapters are brand- and generation-specific.")
+
+    if m.get("year_discontinued"):
+        return f"""<h2>Finding one used</h2>
+  <p>The {brand} {model} ran from {intro} to {m['year_discontinued']} and is no longer in
+  production, so the used market is the only source. Search eBay, 2nd Swing, Golf Avenue and
+  the PGA Tour Superstore trade-in listings. {check}</p>"""
+
+    if succ:
+        return f"""<h2>Buying one</h2>
+  <p>{brand} has since introduced the {esc(succ)} above it in the range, so the {model} is at
+  the end of its retail life rather than fully retired — closeout stock still turns up at
+  retailers, and drivers one generation back are the sweet spot of the used market. {check}</p>"""
+
+    lineage = f" It replaced the {esc(pred)}." if pred else ""
+    intro_txt = f"Introduced in {intro}, t" if intro else "T"
+    if not is_current(m):
+        return f"""<h2>Production status</h2>
+  <p>{intro_txt}he {brand} {model} has no confirmed end date on file.{lineage} LoftChart
+  records a discontinuation year only where a source dates it, and none has been found for
+  this line, so it may or may not still be in the {brand} catalogue — check with {brand} or
+  a retailer before counting on a new one. {check}</p>"""
+
+    cat = DRIVER_CATEGORY_SHORT.get(m.get("category"))
+    slot = (f"a current {cat} line in the {brand} range" if cat and cat != "flagship"
+            else f"the current {brand} driver line")
+    hosel_txt = (" New heads are sold in the stock lofts charted above; the hosel "
+                 "settings extend each head beyond its stamped loft, so a loft "
+                 "between two stock options is usually reachable from either."
+                 if m.get("hosel") else
+                 " New heads are sold in the stock lofts charted above, and with "
+                 "no adjustable hosel the stock loft is the one to get right.")
+    return f"""<h2>Where it sits in the lineup</h2>
+  <p>{intro_txt}he {brand} {model} is {slot} as of
+  {long_date(m['current_as_of'])}, with no replacement announced.{lineage}{hosel_txt} {check}</p>"""
+
+
 def availability(m):
     """Closing section, written from the production status the data actually records.
 
@@ -1277,6 +1628,8 @@ def availability(m):
     """
     if m.get("club_type") == "wedges":
         return wedge_availability(m)
+    if m.get("club_type") == "driver":
+        return driver_availability(m)
     brand, model = esc(m["brand"]), esc(m["model"])
     intro = m.get("year_introduced")
     pred = m.get("predecessor")
@@ -1350,8 +1703,14 @@ def _globalgolf_url(query):
 
 
 def _shop_links(m):
-    """Return (2ndswing_url, ebay_url, globalgolf_url) for a model."""
+    """Return (2ndswing_url, ebay_url, globalgolf_url) for a model.
+
+    Driver family names are shared with iron lines (G440, Stealth), so the
+    driver queries say so; iron and wedge queries stay as they were.
+    """
     query = f"{m['brand']} {m['model']}"
+    if m.get("club_type") == "driver":
+        query += " driver"
     return (_2ndswing_url(query), _ebay_url(f"{query} golf"),
             _globalgolf_url(query))
 
@@ -1371,9 +1730,10 @@ def shop_block(m):
         f'target="_blank" class="shop-btn shop-{cls}">{label}</a>'
         for url, label, cls in links)
 
+    noun = "drivers" if m.get("club_type") == "driver" else "sets"
     return f"""<div id="shop-block">
   <h2>Shop {brand} {model}</h2>
-  <p class="shop-lede">Search for new and used sets at these retailers:</p>
+  <p class="shop-lede">Search for new and used {noun} at these retailers:</p>
   <div class="shop-links">{buttons}</div>
   {AFFILIATE_DISCLOSURE}
   </div>"""
@@ -1516,9 +1876,15 @@ def linkify_source(text):
 
 def model_page(m, brands, models_by_key, compares_by_key):
     is_wedge = m.get("club_type") == "wedges"
+    is_driver = m.get("club_type") == "driver"
     s7 = seven_iron(m)
     if is_wedge:
         title = fit_title(f"{m['title']} Specs", " — Loft & Bounce Chart",
+                          f" | {SITE_NAME}")
+    elif is_driver:
+        # "Driver" is already in m["title"]; the tail carries the chart terms
+        # people search ("qi35 loft settings", "g440 adjustment chart").
+        title = fit_title(f"{m['title']} Specs", " — Lofts & Settings Chart",
                           f" | {SITE_NAME}")
     else:
         title = fit_title(f"{m['title']} Specs", " — Loft & Lie Chart",
@@ -1569,6 +1935,33 @@ def model_page(m, brands, models_by_key, compares_by_key):
                 "Full factory chart with the bounce at every loft it is sold in.",
                 "Complete loft and bounce chart.",
             ])
+    elif is_driver:
+        d_lofts = driver_lofts(m)
+        variants = m.get("variants") or []
+        n_var = len(variants)
+        hosel = m.get("hosel") or {}
+        head_part = (f"{m['brand']} {m['model']} driver specs: "
+                     f"{plural(n_var, 'head variant')}, lofts "
+                     f"{num(d_lofts[0])}°–{num(d_lofts[-1])}°. " if d_lofts else
+                     f"{m['brand']} {m['model']} driver specifications. ")
+        if hosel:
+            rich = ([f"Stock lofts for every head plus the full "
+                     f"{hosel['system']} adjustment chart, "
+                     f"{hosel['loft_range']} of loft."]
+                    if hosel.get("system") and hosel.get("loft_range") else [])
+            desc = fit_desc(head_part, rich + [
+                "Stock lofts for every head plus the full hosel adjustment "
+                "chart with every setting.",
+                "Stock lofts for every head and the hosel adjustment chart.",
+                "Full loft and hosel settings chart.",
+            ])
+        else:
+            desc = fit_desc(head_part, [
+                "Stock loft options for every head variant, with head sizes "
+                "and stock shafts — a non-adjustable, glued hosel.",
+                "Stock loft options for every head variant on a fixed hosel.",
+                "Full stock loft chart for every head.",
+            ])
     elif s7:
         length_part = (f", {num(s7['length'])}\" length"
                        if s7.get("length") is not None else "")
@@ -1603,9 +1996,29 @@ def model_page(m, brands, models_by_key, compares_by_key):
             str(intro), f'<a href="/years/{intro}/">{intro}</a>', 1)
     cat = m.get("category")
     cat_html = esc(category_label(m))
-    if not is_wedge and cat in CATEGORY_LABEL:
+    if not (is_wedge or is_driver) and cat in CATEGORY_LABEL:
         cat_html = f'<a href="/category/{esc(cat)}/">{cat_html}</a>'
-    if is_wedge:
+    if is_driver:
+        hosel = m.get("hosel") or {}
+        ccs = sorted({v["head_cc"] for v in (m.get("variants") or [])
+                      if v.get("head_cc") is not None})
+        cc_txt = (f"{num(ccs[0])} cc" if len(ccs) == 1 else
+                  f"{num(ccs[0])}–{num(ccs[-1])} cc") if ccs else "—"
+        if hosel:
+            hosel_txt = " · ".join(
+                x for x in (hosel.get("system"), hosel.get("loft_range")) if x) or "Adjustable"
+        else:
+            hosel_txt = "Non-adjustable"
+        facts = [("Years produced", years_html),
+                 ("Category", cat_html),
+                 ("Head variants", esc(", ".join(
+                     variant_short(m, v.get("name"))
+                     for v in (m.get("variants") or [])) or "—")),
+                 ("Loft range", f"{num(d_lofts[0])}°–{num(d_lofts[-1])}°"
+                  if d_lofts else "—"),
+                 ("Head size", esc(cc_txt)),
+                 ("Hosel", esc(hosel_txt))]
+    elif is_wedge:
         facts = [("Years produced", years_html),
                  ("Category", cat_html),
                  ("Construction", esc(m.get("construction") or "—")),
@@ -1704,6 +2117,8 @@ def model_page(m, brands, models_by_key, compares_by_key):
         "keywords": ", ".join(
             [m["brand"], m["model"], "wedges", "wedge", "loft", "bounce",
              "grind", "specifications"] if is_wedge else
+            [m["brand"], m["model"], "driver", "loft", "settings",
+             "adjustment chart", "hosel", "specifications"] if is_driver else
             [m["brand"], m["model"], m["type_label"],
              "loft", "lie", "length", "specifications"]),
     }
@@ -1713,6 +2128,13 @@ def model_page(m, brands, models_by_key, compares_by_key):
                    f"{m['brand']} {m['model']} wedges.")
         lede = (f"Every loft, bounce and grind combination the {m['brand']} "
                 f"{m['model']} wedges are sold in, {year_range(m)}.")
+    elif is_driver:
+        caption = (f"Stock loft options for each {m['brand']} {m['model']} "
+                   f"head variant.")
+        lede = (f"Stock lofts for every {m['brand']} {m['model']} head"
+                + (" and the full hosel adjustment chart" if m.get("hosel")
+                   else "")
+                + f", {year_range(m)}.")
     else:
         caption = (f"Standard men's steel-shaft specifications for the "
                    f"{m['brand']} {m['model']} {m['type_label'].lower()}.")
@@ -1733,6 +2155,9 @@ def model_page(m, brands, models_by_key, compares_by_key):
                    f'{esc(m["length_note"].strip())}</p>'
                    if m.get("length_note") else "")
 
+    # Drivers get the hosel adjustment chart directly under the spec table —
+    # it is the page's highest-intent content and must sit above the fold-ish.
+    extra_top = ""
     if is_wedge:
         chart = wedge_loft_bounce_chart(m)
         figures = (f'<h2>Loft and bounce options</h2>'
@@ -1744,6 +2169,20 @@ def model_page(m, brands, models_by_key, compares_by_key):
         table_note = ("<p class=\"table-note\">Each row is one combination the model is "
                       "sold in, factory standard. Loft and lie on an individual wedge may "
                       "differ if it has been bent during a fitting.</p>")
+    elif is_driver:
+        chart = driver_loft_matrix(m)
+        figures = (f'<h2>Lofts at a glance</h2>'
+                   f'<div class="figs figs-one">{chart}</div>' if chart else "")
+        grind_html = variant_guide(m)
+        gapping_html = driver_guide_links(m)
+        extra_top = hosel_chart(m)
+        table_heading = "Stock lofts by head variant"
+        table_html = driver_spec_table(m, caption)
+        table_note = ("<p class=\"table-note\">Lofts are the stamped stock options for "
+                      "each head, factory standard."
+                      + (" The hosel chart below shows how far each can be "
+                         "adjusted from its stamped loft.</p>" if m.get("hosel")
+                         else "</p>"))
     else:
         chart, angle = loft_chart(m), loft_angle(m)
         figures = (f'<h2>Loft progression</h2><div class="figs">{chart}{angle}</div>'
@@ -1758,7 +2197,8 @@ def model_page(m, brands, models_by_key, compares_by_key):
                       "build. Individual clubs may\n  differ if they have been bent, "
                       "re-shafted or re-gripped during their life.</p>")
 
-    shop_html = shop_block(m)
+    # The hosel chart rides in the shop slot so empty pages stay byte-identical.
+    shop_html = (extra_top + "\n\n  " if extra_top else "") + shop_block(m)
     sticky_html = sticky_bar(m)
 
     # Each block after the chart sits in its own .model-section so the CSS can
@@ -1857,7 +2297,12 @@ def brand_page(b, models, brands):
     for dec in sorted(by_decade):
         lis = []
         for m in by_decade[dec]:
-            if m["club_type"] == "wedges":
+            if m["club_type"] == "driver":
+                d_lofts = driver_lofts(m)
+                spec = (f'<span class="mt">{num(d_lofts[0])}°–{num(d_lofts[-1])}° · '
+                        f'{plural(len(m.get("variants") or []), "head variant")}</span>'
+                        if d_lofts else "")
+            elif m["club_type"] == "wedges":
                 w_lofts = wedge_lofts(m)
                 spec = (f'<span class="mt">{num(w_lofts[0])}°–{num(w_lofts[-1])}° · '
                         f'{plural(len(m["specs"]), "loft/bounce/grind option")}</span>'
@@ -2199,17 +2644,28 @@ TYPE_SUFFIX = re.compile(r"-(irons|driver|fairway-wood|hybrid|wedges|putter)$")
 def compare_slug(a, b):
     ab = TYPE_SUFFIX.sub("", a["slug"])
     bb = TYPE_SUFFIX.sub("", b["slug"])
+    # Iron compares own the bare namespace (those URLs are long since indexed);
+    # driver families reuse iron line names (G430, Paradym, Stealth), so their
+    # compare slugs carry the type to keep g430-vs-g440 irons and drivers apart.
+    suffix = "-drivers" if a.get("club_type") == "driver" else ""
     if a["brand_slug"] == b["brand_slug"]:
-        return f"{a['brand_slug']}-{ab}-vs-{bb}"
-    return f"{a['brand_slug']}-{ab}-vs-{b['brand_slug']}-{bb}"
+        return f"{a['brand_slug']}-{ab}-vs-{bb}{suffix}"
+    return f"{a['brand_slug']}-{ab}-vs-{b['brand_slug']}-{bb}{suffix}"
 
 
 def model_name_index(models):
-    """'brand model' and bare model name -> model, for resolving declared links."""
+    """club_type + name -> model, for resolving declared predecessor/successor.
+
+    Keys carry the club type because driver families share names with iron
+    lines (Ping sells both G440 irons and G440 drivers); a flat name index
+    would resolve a driver's successor to the iron set and silently drop the
+    comparison pair.
+    """
     name_index = {}
     for m in models:
-        name_index[f"{m['brand']} {m['model']}".lower()] = m
-        name_index[m["model"].lower()] = m
+        t = m.get("club_type")
+        name_index[f"{t}:{m['brand']} {m['model']}".lower()] = m
+        name_index[f"{t}:{m['model']}".lower()] = m
     return name_index
 
 
@@ -2226,7 +2682,7 @@ def find_pairs(models, by_key):
     def resolve(m, value):
         if not value:
             return None
-        v = str(value).strip().lower()
+        v = f"{m.get('club_type')}:{str(value).strip().lower()}"
         target = name_index.get(v)
         if target and target["key"] != m["key"]:
             return target
@@ -2260,16 +2716,19 @@ INDEX_MIN_YEAR = 2016
 # Model lines with real search demand, matched against the start of the
 # model name. Only these brands' pages are ever indexed.
 POPULAR_LINES = {
-    "titleist": r"(T\d{3}S?|620 (CB|MB)|718 (AP1|AP2|AP3|CB|MB)|Vokey SM\d{1,2})\b",
-    "taylormade": r"(P7(MB|MC|CB)\b|P7[579]0\b|P760\b|Qi\b|Stealth\b|SIM2? Max|M[2-6]\b|"
-                  r"MG\d\b|Hi-Toe)",
+    "titleist": r"(T\d{3}S?|620 (CB|MB)|718 (AP1|AP2|AP3|CB|MB)|Vokey SM\d{1,2}|"
+                r"GTS?\b|TSR\b|TSi\b)",
+    "taylormade": r"(P7(MB|MC|CB)\b|P7[579]0\b|P760\b|Qi\b|Qi\d|Stealth\b|SIM2? Max|"
+                  r"M[2-6]\b|MG\d\b|Hi-Toe)",
     "ping": r"(G4\d\d|G7\d0|i2\d0|i5\d\d|i59|Blueprint|S\d{3}\b|Glide)",
-    "callaway": r"(Apex|Paradym|Rogue ST|Mavrik|Elyte|Opus|JAWS|MD\d)\b",
-    "mizuno": r"(JPX-9\d\d|Pro \d{3}\b|Pro [SMT]-\d+|MP-20)",
-    "cobra": r"(KING (Forged )?TEC|LTDx|Aerojet|Darkspeed|DS-ADAPT|KING F[789]\b|"
+    "callaway": r"(Apex|Paradym|Rogue ST|Mavrik|Elyte|Quantum|Opus|JAWS|MD\d)\b",
+    "mizuno": r"(JPX-9\d\d|JPX One\b|ST-MAX\b|Pro \d{3}\b|Pro [SMT]-\d+|MP-20)",
+    "cobra": r"(KING (Forged )?TEC|LTDx|Aerojet|Darkspeed|DS-ADAPT|OPTM|KING F[789]\b|"
              r"KING Speedzone|KING Radspeed|Snakebite)",
-    "srixon": r"(ZXi?\d|Z [579]85)",
+    "srixon": r"(ZXi?\d|ZXi?\b|Z [579]85)",
     "cleveland": r"(Launcher XL|ZipCore XL|HALO XL|RTZ\b|RTX\b|CBX\d?\b)",
+    "pxg": r"(Black Ops|Lightning)\b",
+    "wilson": r"(Dynapwr)\b",
 }
 
 # The "which one" decisions people actually search, shown first on /compare/
@@ -2310,6 +2769,18 @@ POPULAR_COMPARES = [
     "callaway-opus-sp-vs-opus-sp-plus",
     "cleveland-rtz-2-vs-titleist-vokey-sm11",
     "taylormade-mg5-vs-titleist-vokey-sm11",
+    # Drivers — the upgrade decisions of the current and previous cycle.
+    "taylormade-qi10-vs-qi35-drivers",
+    "taylormade-qi35-vs-qi4d-drivers",
+    "ping-g430-vs-g440-drivers",
+    "ping-g425-vs-g430-drivers",
+    "titleist-gt-vs-gts-drivers",
+    "titleist-tsr-vs-gt-drivers",
+    "callaway-elyte-vs-quantum-drivers",
+    "callaway-ai-smoke-vs-elyte-drivers",
+    "cobra-ds-adapt-vs-optm-drivers",
+    "pxg-black-ops-vs-lightning-drivers",
+    "srixon-zxi-vs-zxi-rkt-drivers",
 ]
 
 
@@ -2321,7 +2792,9 @@ def on_popular_line(m):
 def is_generation_step(a, b, names):
     """True when b is a's declared successor, or a is b's declared predecessor."""
     def res(v):
-        return names.get(str(v).strip().lower()) if v else None
+        if not v:
+            return None
+        return names.get(f"{a.get('club_type')}:{str(v).strip().lower()}")
     s, p = res(a.get("successor")), res(b.get("predecessor"))
     return bool((s and s["key"] == b["key"]) or (p and p["key"] == a["key"]))
 
@@ -2941,9 +3414,260 @@ def wedge_compare_page(a, b, brands, indexed=False, generation=False):
     return slug
 
 
+def _driver_by_loft(m):
+    """loft -> [variant short names sold at that loft], in catalogue order."""
+    by = OrderedDict()
+    for name, rows in driver_rows_by_variant(m).items():
+        for r in rows:
+            if r.get("loft") is not None:
+                by.setdefault(r["loft"], []).append(variant_short(m, name))
+    return by
+
+
+def driver_compare_table(a, b, label_a, label_b):
+    """Side-by-side driver comparison: which heads offer each stock loft."""
+    a_by, b_by = _driver_by_loft(a), _driver_by_loft(b)
+    all_lofts = sorted(set(a_by) | set(b_by))
+
+    rows = []
+    for loft in all_lofts:
+        a_heads, b_heads = a_by.get(loft, []), b_by.get(loft, [])
+        diff = ' class="diff"' if len(a_heads) != len(b_heads) else ""
+        a_cell = ", ".join(esc(h) for h in a_heads) or '<span class="na">not offered</span>'
+        b_cell = ", ".join(esc(h) for h in b_heads) or '<span class="na">not offered</span>'
+        rows.append(
+            f'<tr><th scope="row">{num(loft)}°</th>'
+            f'<td>{a_cell}</td><td{diff}>{len(a_heads) or "—"}</td>'
+            f'<td>{b_cell}</td><td{diff}>{len(b_heads) or "—"}</td></tr>')
+
+    return f"""<div class="table-scroll data-table-zone"><table class="specs">
+<caption>Heads offered at each stock loft: {esc(label_a)} vs {esc(label_b)}.</caption>
+<thead><tr>
+  <th scope="col">Loft</th>
+  <th scope="col">{esc(label_a)} heads</th>
+  <th scope="col">#</th>
+  <th scope="col">{esc(label_b)} heads</th>
+  <th scope="col">#</th>
+</tr></thead>
+<tbody>{"".join(rows)}</tbody>
+</table></div>"""
+
+
+def _hosel_phrase(m):
+    h = m.get("hosel")
+    if not h:
+        return None
+    bits = [b for b in (h.get("system"),
+                        h.get("loft_range") and f"{h['loft_range']} of loft",
+                        h.get("positions") and plural(h["positions"], "setting"))
+            if b]
+    return ", ".join(str(b) for b in bits)
+
+
+def driver_compare_analysis(a, b, label_a, label_b, generation=False):
+    """(paragraphs, faq) for a driver compare page, driven by the two families."""
+    full_a = f"{a['brand']} {a['model']}"
+    a_by, b_by = _driver_by_loft(a), _driver_by_loft(b)
+    a_lofts, b_lofts = sorted(a_by), sorted(b_by)
+    shared = sorted(set(a_by) & set(b_by))
+    a_heads = [variant_short(a, v.get("name")) for v in (a.get("variants") or [])]
+    b_heads = [variant_short(b, v.get("name")) for v in (b.get("variants") or [])]
+    paras, faq = [], []
+
+    # --- head lineups -----------------------------------------------------
+    if len(a_heads) == len(b_heads):
+        text = (f"Both families are sold in {plural(len(a_heads), 'head')} — "
+                f"{comma_list(a_heads)} for the {label_a}, "
+                f"{comma_list(b_heads)} for the {label_b}.")
+    else:
+        more, less = ((label_a, label_b) if len(a_heads) > len(b_heads)
+                      else (label_b, label_a))
+        text = (f"The {more} family is the broader line: "
+                f"{max(len(a_heads), len(b_heads))} heads against "
+                f"{min(len(a_heads), len(b_heads))} — "
+                f"{comma_list(a_heads)} for the {label_a}, "
+                f"{comma_list(b_heads)} for the {label_b}.")
+    paras.append(text)
+
+    # --- loft coverage ----------------------------------------------------
+    if a_lofts and b_lofts:
+        only_a = sorted(set(a_by) - set(b_by))
+        only_b = sorted(set(b_by) - set(a_by))
+        if not only_a and not only_b:
+            text = (f"Stock loft coverage is identical: both run "
+                    f"{num(a_lofts[0])}° to {num(a_lofts[-1])}° across the same "
+                    f"{plural(len(shared), 'stock loft')}.")
+        else:
+            text = (f"The {label_a} is sold from {num(a_lofts[0])}° to "
+                    f"{num(a_lofts[-1])}°, the {label_b} from {num(b_lofts[0])}° "
+                    f"to {num(b_lofts[-1])}°.")
+            if only_a:
+                text += (f" Only the {label_a} has a stock "
+                         f"{comma_list(f'{num(l)}°' for l in only_a)} option.")
+            if only_b:
+                text += (f" Only the {label_b} has a stock "
+                         f"{comma_list(f'{num(l)}°' for l in only_b)} option.")
+        paras.append(text)
+
+    # --- hosel adjustability ------------------------------------------------
+    ha, hb = _hosel_phrase(a), _hosel_phrase(b)
+    if ha and hb:
+        if (a.get("hosel") or {}).get("system") == (b.get("hosel") or {}).get("system"):
+            paras.append(f"Adjustability is a wash: both use the same hosel "
+                         f"system ({ha}), so a given head reaches the same "
+                         f"effective loft window in either generation.")
+        else:
+            paras.append(f"The hosels differ: the {label_a} uses {ha}; the "
+                         f"{label_b} uses {hb}. The full setting-by-setting "
+                         f"charts are on each model's own page.")
+    elif ha or hb:
+        adj, fixed = (label_a, label_b) if ha else (label_b, label_a)
+        paras.append(f"Only the {adj} has an adjustable hosel ({ha or hb}); "
+                     f"the {fixed} plays at its stamped loft.")
+
+    # --- generation / era ---------------------------------------------------
+    ya, yb = a.get("year_introduced"), b.get("year_introduced")
+    if ya and yb:
+        gap = abs(yb - ya)
+        if gap == 0:
+            paras.append(f"Both lines were introduced in {ya}, so this is a "
+                         f"choice between two current designs rather than an "
+                         f"upgrade.")
+        elif generation:
+            paras.append(f"The {label_b} arrived {plural(gap, 'year')} after "
+                         f"the {label_a} as its replacement. Driver generations "
+                         f"usually carry over the loft ladder and move the "
+                         f"technology — face design, adjustability, head "
+                         f"options — so the older family is the value buy on "
+                         f"the used market while the newer one holds retail "
+                         f"price.")
+        else:
+            paras.append(f"The two lines launched {plural(gap, 'year')} apart "
+                         f"({ya} and {yb}), so they compete head-to-head rather "
+                         f"than one replacing the other.")
+
+    # --- FAQ ------------------------------------------------------------------
+    if a_lofts and b_lofts:
+        faq.append((f"What lofts do the {full_a} and {label_b} drivers come in?",
+                    f"The {full_a} is sold in stock lofts from {num(a_lofts[0])} "
+                    f"to {num(a_lofts[-1])} degrees and the {label_b} from "
+                    f"{num(b_lofts[0])} to {num(b_lofts[-1])} degrees. "
+                    + (f"They share {plural(len(shared), 'stock loft')}."
+                       if shared else "They share no stock loft.")))
+    faq.append((f"Which has more head options, the {full_a} or the {label_b}?",
+                (f"Both families are sold in {plural(len(a_heads), 'head')}."
+                 if len(a_heads) == len(b_heads) else
+                 f"The {full_a if len(a_heads) > len(b_heads) else label_b}: "
+                 f"{max(len(a_heads), len(b_heads))} head variants against "
+                 f"{min(len(a_heads), len(b_heads))}.")))
+    if ha and hb:
+        faq.append((f"Are the {full_a} and {label_b} drivers adjustable?",
+                    f"Yes — the {full_a} uses {ha}, and the {label_b} uses "
+                    f"{hb}. Each model page carries the full "
+                    f"setting-by-setting adjustment chart."))
+
+    return paras, faq
+
+
+def driver_compare_page(a, b, brands, indexed=False, generation=False):
+    """Compare page for two driver families: head lineups and loft coverage."""
+    slug = compare_slug(a, b)
+    same_brand = a["brand"] == b["brand"]
+    label_a = a["model"] if same_brand else f"{a['brand']} {a['model']}"
+    label_b = b["model"] if same_brand else f"{b['brand']} {b['model']}"
+    core = f"{a['brand']} {a['model']} vs {label_b} Drivers"
+    if len(core) > TITLE_MAX:
+        core = f"{a['model']} vs {b['model']} Drivers"
+    if len(core) > TITLE_MAX:
+        core = core[:TITLE_MAX - 1] + "…"
+    title = fit_title(core, " — Compared", f" | {SITE_NAME}")
+
+    a_lofts, b_lofts = driver_lofts(a), driver_lofts(b)
+    n_a = len(a.get("variants") or [])
+    n_b = len(b.get("variants") or [])
+    head_part = (f"{a['brand']} {a['model']} vs {label_b} drivers: "
+                 f"{n_a} head variants vs {n_b}. ")
+    desc = fit_desc(head_part, [
+        "Compare stock lofts head by head, plus each family's hosel "
+        "adjustment range and settings.",
+        "Compare stock lofts head by head and each family's hosel "
+        "adjustability.",
+        "Compare stock lofts, head lineups and adjustability.",
+        "Full driver spec comparison.",
+    ])
+    url = f"/compare/{slug}/"
+    nav, bc = crumbs([("Home", "/"), ("Compare", "/compare/"),
+                      (f"{a['model']} vs {b['model']} Drivers", None)])
+
+    table = driver_compare_table(a, b, label_a, label_b)
+    paras, faq = driver_compare_analysis(a, b, label_a, label_b, generation)
+    analysis = "\n  ".join(f"<p>{esc(p)}</p>" for p in paras)
+    faq_html, faq_ld = faq_block(faq) if faq else ("", None)
+
+    if generation:
+        verdict = (f"The {label_b} is the newer generation, so it carries the "
+                   f"current face technology and full retail availability; the "
+                   f"{label_a} is the value buy used or on closeout. If the "
+                   f"head and loft you want is only in one lineup, that decides "
+                   f"it — otherwise the newer family is the default at equal "
+                   f"prices, and the older one the smarter buy at a real "
+                   f"discount.")
+    else:
+        verdict = (f"Neither family is better outright — match the head to "
+                   f"your shot shape and forgiveness needs first, then pick "
+                   f"the stock loft nearest your launch window and fine-tune "
+                   f"with the hosel. Feel, sound and price at your spec are "
+                   f"the real tiebreakers.")
+
+    def col_card(m):
+        c_lofts = driver_lofts(m)
+        span = (f"{num(c_lofts[0])}°–{num(c_lofts[-1])}°" if c_lofts else "")
+        return (f'<a class="card" href="{m["url"]}">'
+                f'<span class="card-title">{esc(m["brand"])} {esc(m["model"])}</span>'
+                f'<span class="card-meta">{year_range(m)} · '
+                f'{esc(category_label(m))}</span>'
+                f'<span class="card-spec">{span} · '
+                f'{plural(len(m.get("variants") or []), "head")}</span></a>')
+
+    body = f"""{nav}
+<div class="wrap">
+  <div class="page-head">
+    <h1>{esc(a['brand'])} {esc(a['model'])} vs {esc(b['brand'])} {esc(b['model'])} Drivers</h1>
+    <p class="lede">Side-by-side stock loft coverage, head by head. Lofts where the two
+    families offer a different number of heads are highlighted.</p>
+  </div>
+  <div class="cmp-cols">{col_card(a)}{col_card(b)}</div>
+
+  <h2>Stock lofts compared</h2>
+  {table}
+  <p class="table-note">Each cell lists the heads sold at that stock loft, factory
+  standard. Adjustable hosels extend every head beyond its stamped loft — each model
+  page has the full settings chart.</p>
+
+  <h2>What the differences mean</h2>
+  {analysis}
+
+  <h2>Which should you choose?</h2>
+  <p>{esc(verdict)}</p>
+  <p>Both families are charted in full on their own pages:
+  <a href="{a['url']}">{esc(a['brand'])} {esc(a['model'])} driver specs</a> and
+  <a href="{b['url']}">{esc(b['brand'])} {esc(b['model'])} driver specs</a>.</p>
+  {faq_html}
+
+  {shop_block(a)}
+</div>
+{sticky_bar(a)}
+"""
+    page(url, title, desc, body, brands, [bc] + ([faq_ld] if faq_ld else []),
+         googlebot_noindex=not indexed)
+    return slug
+
+
 def compare_page(a, b, brands, indexed=False, generation=False):
     if a.get("club_type") == "wedges":
         return wedge_compare_page(a, b, brands, indexed, generation)
+    if a.get("club_type") == "driver":
+        return driver_compare_page(a, b, brands, indexed, generation)
     slug = compare_slug(a, b)
     # Lead with the two 7-iron lofts: it is the number people are comparing,
     # and it keeps sibling comparisons from reading as near-duplicates.
@@ -3115,9 +3839,16 @@ def compare_page(a, b, brands, indexed=False, generation=False):
 def compare_card(slug, a, b):
     """Index card: names with their 7-iron lofts, brands and years, category badges."""
     is_wedge = a.get("club_type") == "wedges"
+    is_driver = a.get("club_type") == "driver"
     # "T100 (2025)" would read "T100 (2025) (33°)" next to its loft.
     na, nb = (re.sub(r" \((\d{4})\)$", r" \1", m["model"]) for m in (a, b))
-    if is_wedge:
+    if is_driver:
+        # Driver pairs compare head lineups, not a reference loft.
+        names = f"{na} vs {nb} Drivers"
+        diff = abs(len(a.get("variants") or []) - len(b.get("variants") or []))
+        ref = None
+        ref_note = " · driver heads"
+    elif is_wedge:
         # Wedge pairs compare on selection, not a reference loft.
         names = f"{na} vs {nb}"
         diff = abs(len(a["specs"]) - len(b["specs"]))
@@ -3136,9 +3867,10 @@ def compare_card(slug, a, b):
             diff = 0
         ref_note = f" · {club_noun(a, ref)} lofts" if ref and ref != "7" else ""
     cats = [c for c in dict.fromkeys([a.get("category"), b.get("category")]) if c]
-    short = WEDGE_CATEGORY_SHORT if is_wedge else CATEGORY_SHORT
+    short = (WEDGE_CATEGORY_SHORT if is_wedge else
+             DRIVER_CATEGORY_SHORT if is_driver else CATEGORY_SHORT)
     badges = "".join(f'<span class="badge">{esc(short.get(c, c))}'
-                     f'{" wedges" if is_wedge else ""}</span>'
+                     f'{" wedges" if is_wedge else " driver" if is_driver else ""}</span>'
                      for c in cats)
     brands_attr = a["brand"] if a["brand"] == b["brand"] else f"{a['brand']}|{b['brand']}"
     search = " ".join([a["brand"], a["model"], b["brand"], b["model"]]
@@ -3282,12 +4014,13 @@ def homepage(brands, models, by_brand):
     title = f"{SITE_NAME} — Golf Club Specifications Database"
     irons = [m for m in models if m["club_type"] == "irons"]
     wedge_models = [m for m in models if m["club_type"] == "wedges"]
+    driver_models = [m for m in models if m["club_type"] == "driver"]
     # Count the real archive rather than claiming "thousands" — the number is
     # the credibility signal, and an inflated one is trivially disproved.
     span = loft_span(irons)
-    counts = plural(len(irons), "iron model")
-    if wedge_models:
-        counts += f" and {plural(len(wedge_models), 'wedge model')}"
+    extra = [plural(len(ms), noun) for ms, noun in
+             ((wedge_models, "wedge model"), (driver_models, "driver model")) if ms]
+    counts = comma_list([plural(len(irons), "iron model")] + extra)
     head_part = (f"{counts}, {span}: source-attributed "
                  f"loft charts. " if span else
                  f"{counts}: source-attributed loft "
@@ -3296,7 +4029,8 @@ def homepage(brands, models, by_brand):
         "Lie angles, lengths and swing weights from Ping, Titleist, Callaway, "
         "Mizuno and more.",
         "Lie angles, lengths and swing weights from every major brand.",
-        "Lie angles, lengths and swing weights for every club."])
+        "Lie angles, lengths and swing weights for every club.",
+        "Lie angles, lengths and hosel settings included."])
 
     by_key = {m["key"]: m for m in models}
     featured = [by_key[k] for k in FEATURED if k in by_key]
@@ -3319,6 +4053,17 @@ def homepage(brands, models, by_brand):
   <p>Standalone wedge lines with the full factory loft, bounce and grind option chart —
   every combination each model is actually sold in.</p>
   <div class="grid">{''.join(model_card(m) for m in wedge_recent)}</div>
+"""
+
+    driver_recent = sorted(driver_models,
+                           key=lambda m: (-(m.get("year_introduced") or 0), m["brand"]))[:8]
+    driver_model_html = ""
+    if driver_recent:
+        driver_model_html = f"""
+  <h2>Driver model specs</h2>
+  <p>Driver families with the stock lofts for every head variant and the full hosel
+  adjustment chart — the settings the manufacturer sheets bury in a PDF.</p>
+  <div class="grid">{''.join(model_card(m) for m in driver_recent)}</div>
 """
 
     # The "what degree is a sand wedge" family of questions is the highest-volume
@@ -3383,7 +4128,7 @@ def homepage(brands, models, by_brand):
 
   <h2>Browse by brand</h2>
   <div class="grid">{brand_cards}</div>
-{wedge_model_html}
+{wedge_model_html}{driver_model_html}
   <h2>Wedge loft guides</h2>
   <p>What degree each wedge is, what it carries, and how the four slots gap together —
   with the numbers taken from the spec charts on this site. Start with the
@@ -4545,35 +5290,43 @@ DRIVER_LOFT_BANDS = [
 # pages; DRIVER_CHECKED is the month that was last done and is printed with the
 # table, so a stale row reads as dated rather than as current. When a line is
 # replaced, edit its row here and move DRIVER_CHECKED and DRIVER_REVIEWED.
-DRIVER_CHECKED = "2026-09"
-DRIVER_BRAND_ROWS = [
-    ("Callaway", "callaway", "Quantum (2026)",
-     "Max 9°, 10.5°, 12°; Triple Diamond 8°, 9°, 10.5°; Triple Diamond Max 9°, 10.5°; "
-     "Max Fast 10.5°, 12°", "OptiFit, −1° to +2°"),
-    ("Cobra", "cobra", "OPTM (2026)",
-     "LS 9°, 10.5°; X 9°, 10.5°; Max-K 9°, 10.5°, 12°; Max-D 10.5°, 12°",
-     "±2° (FutureFit33)"),
-    ("Mizuno", "mizuno", "JPX One (2026)",
-     "9°, 10.5°, 12°; Select 9°, 10.5°", "±2° (Quick Switch)"),
-    ("Ping", "ping", "G440 (2025)",
-     "Max 9°, 10.5°, 12°; K 9°, 10.5°, 12°; LST 9°, 10.5°; SFT 9°, 10.5°",
-     "±1.5° (Trajectory Tuning)"),
-    ("PXG", "pxg", "Lightning (2026)",
-     "Max 10K+ 9°, 10.5°, 12°; Tour and Tour Mid 8°, 9°, 10.5°; Max Lite 10.5°, 11.5°",
-     "±1.5°"),
-    ("Srixon", "srixon", "ZXi (2025), ZXi RKT (2026)",
-     "9°, 10.5°; LS 8°, 9°, 10.5°; Max 9°, 10.5°, 12°", "±1.5°"),
-    ("TaylorMade", "taylormade", "Qi4D (2026)",
-     "8°, 9°, 10.5°, 12°; LS 8°, 9°, 10.5°; Max 9°, 10.5°, 12°; Max Lite 10.5°, 12°",
-     "±2° (Loft Sleeve)"),
-    ("Titleist", "titleist", "GTS2 / GTS3 / GTS4 (2026)",
-     "GTS2 and GTS3 8°, 9°, 10°, 11°; GTS4 8°, 9°, 10°", "SureFit, −0.75° to +1.5°"),
-    ("Wilson", "wilson", "Dynapwr (2025), Max+ (2026)",
-     "Carbon 8°, 9°, 10.5°; LS 8°, 9°, 10.5°; Max and Max+ 9°, 10.5°, 12°",
-     "−1° to +2° (six-way hosel)"),
-    ("XXIO", "xxio", "XXIO 14 (2026)",
-     "9.5°, 10.5°, 11.5°; XXIO 14+ 9°, 10.5°", "Up to 1.5° (Quick Tune)"),
-]
+DRIVER_CHECKED = "2026-10"
+# The stock-lofts-by-brand table on the hub is generated from the driver model
+# files (data/<brand>/*-driver.yaml), replacing the hand-maintained table that
+# went stale each release cycle: each brand shows its current line(s), or its
+# newest line on file when none is confirmed current.
+def driver_brand_rows(driver_models):
+    by_brand = defaultdict(list)
+    for m in driver_models:
+        by_brand[m["brand_slug"]].append(m)
+    rows = []
+    for slug in sorted(by_brand, key=lambda s: by_brand[s][0]["brand"].lower()):
+        ms = by_brand[slug]
+        current = [m for m in ms if is_current(m)]
+        if not current:
+            newest = max(ms, key=lambda m: m.get("year_introduced") or 0)
+            # A brand whose newest line is itself retired (Cleveland) has no
+            # current driver to chart; its models stay findable via the brand
+            # page and the model list below the table.
+            if newest.get("year_discontinued"):
+                continue
+            current = [newest]
+        current.sort(key=lambda m: -(m.get("year_introduced") or 0))
+        for m in current:
+            lofts_txt = "; ".join(
+                f"{variant_short(m, name)} "
+                + ", ".join(f"{num(r['loft'])}°" for r in rws
+                            if r.get("loft") is not None)
+                for name, rws in driver_rows_by_variant(m).items() if rws)
+            h = m.get("hosel")
+            if h:
+                adj = " ".join(x for x in (
+                    h.get("loft_range"),
+                    f"({h['system']})" if h.get("system") else None) if x)
+            else:
+                adj = "Non-adjustable"
+            rows.append((m, lofts_txt, adj))
+    return rows
 
 # (speed band, recommended loft, typical driver carry, typical player) — the
 # recommendation chart shared conceptually by all four guides but rendered in
@@ -4639,9 +5392,9 @@ DRIVER_SOURCES = f"""<div class="sources"><strong>How these figures were compile
     <li>Loft bands, launch and spin windows, and carry figures are the accepted
     club-fitting conventions for a standard men&rsquo;s build, given as ranges because no
     governing body defines them and strike quality moves every one of them.</li>
-    <li>Brand loft options are compiled by hand from each manufacturer&rsquo;s own driver
-    pages, last checked in {long_date(DRIVER_CHECKED)}. Drivers are not yet part of the LoftChart spec archive
-    itself &mdash; the full club-by-club charts here cover iron sets.</li>
+    <li>Brand loft options come from the LoftChart driver spec archive &mdash; the
+    per-model pages linked above, each compiled from the manufacturer&rsquo;s own spec
+    sheets and source-attributed &mdash; last verified in {long_date(DRIVER_CHECKED)}.</li>
   </ul>
   <p>Last reviewed {long_date(DRIVER_REVIEWED)}. Spot an error? {email_link()}</p></div>"""
 
@@ -4659,7 +5412,7 @@ def driver_guide_cards(exclude=None):
     return f'<div class="grid">{driver_guide_card_items(exclude)}</div>'
 
 
-def driver_index(brands):
+def driver_index(brands, driver_models=()):
     """The /driver-lofts/ hub — the 'driver loft chart' overview page."""
     title = fit_title("Driver Loft Chart — What Degree Is a Driver?",
                       f" | {SITE_NAME}")
@@ -4678,9 +5431,24 @@ def driver_index(brands):
         for loft, speed, who, flight in DRIVER_LOFT_BANDS)
 
     brand_rows = "".join(
-        f'<tr><th scope="row"><a href="/{esc(slug)}/">{esc(name)}</a></th>'
-        f"<td>{esc(line)}</td><td>{esc(lofts)}</td><td>{esc(adj)}</td></tr>"
-        for name, slug, line, lofts, adj in DRIVER_BRAND_ROWS)
+        f'<tr><th scope="row"><a href="/{esc(m["brand_slug"])}/">{esc(m["brand"])}</a></th>'
+        f'<td><a href="{m["url"]}">{esc(m["model"])}</a>'
+        + (f' ({m["year_introduced"]})' if m.get("year_introduced") else "")
+        + f"</td><td>{esc(lofts)}</td><td>{esc(adj)}</td></tr>"
+        for m, lofts, adj in driver_brand_rows(driver_models))
+
+    recent_drivers = sorted(driver_models,
+                            key=lambda m: (-(m.get("year_introduced") or 0),
+                                           m["brand"]))
+    driver_model_html = ""
+    if recent_drivers:
+        driver_model_html = f"""
+  <h2>Driver spec charts on file</h2>
+  <p>Per-model pages with the stock lofts for every head variant and the full
+  hosel adjustment chart — including discontinued lines whose spec pages have
+  left the manufacturer sites.</p>
+  <div class="grid">{''.join(model_card(m) for m in recent_drivers)}</div>
+"""
 
     faq = [
         ("What loft should my driver be?",
@@ -4764,14 +5532,11 @@ def driver_index(brands):
     <thead><tr><th scope="col">Brand</th><th scope="col">Current line</th>
     <th scope="col">Stock lofts</th><th scope="col">Hosel adjustment</th></tr></thead>
     <tbody>{brand_rows}</tbody></table></div>
-  <p class="table-note">Checked against each manufacturer&rsquo;s own driver pages in
-  {long_date(DRIVER_CHECKED)}; the year is the model year of the line. Some lofts are
-  right-hand only, and lightweight builds of the same heads are not listed separately.
-  Srixon&rsquo;s ZXi RKT was announced in September 2026 for sale from 16 October 2026 in
-  the same lofts as the ZXi it replaces. Wilson&rsquo;s figures are taken from launch
-  coverage rather than Wilson&rsquo;s site. Brand links go to each manufacturer&rsquo;s
-  iron spec archive on this site.</p>
-
+  <p class="table-note">Generated from the LoftChart driver spec archive, last verified
+  {long_date(DRIVER_CHECKED)}; the year is the model year of the line and the model link
+  opens its full chart, including the hosel settings. Some lofts are right-hand only, and
+  lightweight builds of the same heads are not listed separately.</p>
+{driver_model_html}
   <h2>How loft turns into carry</h2>
   <p>A driver flies furthest when launch angle and backspin match ball speed. For most
   amateurs that means launching at roughly 12°–16° with 2,000–3,000 rpm of spin. The
@@ -5305,8 +6070,8 @@ def driver_9_vs_10_5(brands):
          [bc, article_ld, faq_ld], og_type="article")
 
 
-def driver_pages(brands):
-    driver_index(brands)
+def driver_pages(brands, driver_models=()):
+    driver_index(brands, driver_models)
     driver_speed_guide(brands)
     driver_beginner_guide(brands)
     driver_10_5_vs_12(brands)
@@ -5475,6 +6240,7 @@ def main():
     by_key = {m["key"]: m for m in models}
     iron_models = [m for m in models if m["club_type"] == "irons"]
     wedge_models = [m for m in models if m["club_type"] == "wedges"]
+    driver_models = [m for m in models if m["club_type"] == "driver"]
     by_brand = defaultdict(list)
     by_year = defaultdict(list)
     by_cat = defaultdict(list)
@@ -5529,7 +6295,7 @@ def main():
     # Guide stats continue to come from iron-set wedges; the standalone wedge
     # models are only linked, never mixed into those stats.
     wedge_pages(iron_models, brands, wedge_models)
-    driver_pages(brands)
+    driver_pages(brands, driver_models)
 
     homepage(brands, models, by_brand)
     about_page(brands, models)

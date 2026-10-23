@@ -1,0 +1,147 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: Qi4D
+slug: qi4d-driver
+club_type: driver
+year_introduced: 2026
+year_discontinued: null
+category: flagship
+current_as_of: "2026-10"
+construction: carbon crown over titanium chassis (Qi4D, LS); forged 7075 aluminium body (Max, Max Lite)
+material: 5th-generation 60X Carbon Twist Face; titanium or 7075 aluminium chassis by head
+predecessor: TaylorMade Qi35
+successor: null
+description: >
+  The Qi4D is TaylorMade's 2026 driver family, on pre-order from 8 January and
+  at retail from 29 January 2026 at $649.99. The headline change is material:
+  the Qi4D Max and Max Lite swap the titanium chassis for a forged, machined
+  7075 aircraft-grade aluminium body — TaylorMade's first modern non-titanium
+  driver — while the core Qi4D and the LS keep a carbon-crowned titanium
+  chassis. All four heads carry the fifth-generation 60X Carbon Twist Face,
+  now with embedded reflective markers so a launch monitor can read the face
+  without stickers, and the line introduces the REAX stock-shaft system
+  co-developed with Mitsubishi, fitted by shaft rotation rate (HR/MR/LR)
+  rather than flex alone. The core Qi4D gains a quad-weight Trajectory
+  Adjustment System, making it the most fittable head TaylorMade has sold.
+variants:
+  - name: Qi4D
+    head_cc: 460
+    description: >
+      The core all-around head and the most adjustable: a quad Trajectory
+      Adjustment System with two 9 g and two 4 g movable weights tunes spin
+      and shot bias. Mid spin, mid-high launch. The 8° and 12° heads are
+      right-hand only.
+  - name: Qi4D LS
+    head_cc: 460
+    description: >
+      The lowest-spinning, most compact head for high swing speeds, with two
+      TAS weights front and back for flight tuning. 8° is right-hand only.
+  - name: Qi4D Max
+    head_cc: 460
+    description: >
+      The first Max-family head with adjustable weighting (13 g and 4 g
+      movable front-back) and the first with the forged 7075 aluminium body.
+      Largest footprint in the line, high launch with a touch of draw bias.
+  - name: Qi4D Max Lite
+    head_cc: 460
+    description: >
+      The Max geometry in a lighter total package — a single 4 g weight, D0
+      swing weight and a ~43 g REAX 40 shaft — for swing speeds under about
+      90 mph.
+specs:
+  - variant: Qi4D
+    loft: 8.0
+    length: 45.75
+  - variant: Qi4D
+    loft: 9.0
+    length: 45.75
+  - variant: Qi4D
+    loft: 10.5
+    length: 45.75
+  - variant: Qi4D
+    loft: 12.0
+    length: 45.75
+  - variant: Qi4D LS
+    loft: 8.0
+    length: 45.75
+  - variant: Qi4D LS
+    loft: 9.0
+    length: 45.75
+  - variant: Qi4D LS
+    loft: 10.5
+    length: 45.75
+  - variant: Qi4D Max
+    loft: 9.0
+    length: 45.75
+  - variant: Qi4D Max
+    loft: 10.5
+    length: 45.75
+  - variant: Qi4D Max
+    loft: 12.0
+    length: 45.75
+  - variant: Qi4D Max Lite
+    loft: 10.5
+    length: 45.75
+  - variant: Qi4D Max Lite
+    loft: 12.0
+    length: 45.75
+hosel:
+  system: "4° Loft Sleeve"
+  loft_range: "±2°"
+  positions: 12
+  lie_effect: >
+    There is no flat setting — lie only moves upright, up to 4° at the UPRT
+    position, and the loft settings themselves add up to 2° of upright lie.
+  face_note: >
+    Lowering loft opens the face and raising it closes it: about 1.5° per
+    0.75° notch, up to 4° at the full ±2° setting.
+  notes: >
+    The sleeve is marked STD LOFT, HIGHER, UPRT and LOWER; the table lists all
+    twelve stops in order around the dial. The same 4° Loft Sleeve has been
+    used unchanged since the SIM generation, so sleeves and shafts
+    interchange across Qi35, Qi10 and Stealth-era drivers.
+  settings:
+    - { setting: "STD LOFT", loft: "std", lie: "std", face: "square" }
+    - { setting: "STD +1 notch", loft: "+0.75°", lie: "0.5° upright", face: "1.5° closed" }
+    - { setting: "STD +2 notches", loft: "+1.5°", lie: "1.25° upright", face: "3° closed" }
+    - { setting: "HIGHER", loft: "+2°", lie: "2° upright", face: "4° closed" }
+    - { setting: "HIGHER / UPRT", loft: "+1.5°", lie: "2.75° upright", face: "3° closed" }
+    - { setting: "UPRT +1 notch", loft: "+0.75°", lie: "3.5° upright", face: "1.5° closed" }
+    - { setting: "UPRT", loft: "std", lie: "4° upright", face: "square" }
+    - { setting: "UPRT −1 notch", loft: "−0.75°", lie: "3.5° upright", face: "1.5° open" }
+    - { setting: "LOWER / UPRT", loft: "−1.5°", lie: "2.75° upright", face: "3° open" }
+    - { setting: "LOWER", loft: "−2°", lie: "2° upright", face: "4° open" }
+    - { setting: "STD −2 notches", loft: "−1.5°", lie: "1.25° upright", face: "3° open" }
+    - { setting: "STD −1 notch", loft: "−0.75°", lie: "0.5° upright", face: "1.5° open" }
+stock_shafts:
+  - name: "Mitsubishi REAX MR50 Blue (mid rotation)"
+    material: graphite
+    flex: ["A", "R", "S", "X"]
+  - name: "Mitsubishi REAX HR50 Red (high rotation)"
+    material: graphite
+    flex: ["R", "S", "X"]
+  - name: "Mitsubishi REAX LR60 White (low rotation)"
+    material: graphite
+    flex: ["R", "S", "X"]
+  - name: "Mitsubishi REAX 40 Blue (Max Lite)"
+    material: graphite
+    weight: "42-44g"
+    flex: ["L", "A", "R"]
+related_models:
+  - slug: "taylormade/qi35-driver"
+    label: "Predecessor: TaylorMade Qi35 drivers"
+sources:
+  - "PGA Tour equipment report on the Qi4D launch (four heads, 8 January 2026 pre-order, 29 January retail, 7075 aluminium Max body, REAX shaft system), https://www.pgatour.com/article/news/equipment-report/2026/01/08/what-to-know-about-taylormade-qi4d-driver-fairway-wood-hybrids-irons-scottie-scheffler-rory-mcilroy-tommy-fleetwood, accessed October 2026"
+  - "GlobalGolf Qi4D and Qi4D LS spec listings (lofts incl. right-hand-only 8° and 12°, 45.75 inch length, 460 cc, TAS weights), https://www.globalgolf.com/golf-clubs/1088656-taylormade-qi4d-driver/, accessed October 2026"
+  - "TGW and Golfio Qi4D Max / Max Lite spec listings (lofts, lie range 58-62°, weights, REAX 40), https://www.tgw.com/p/taylormade-qi4d-max-driver/-/YT0xMDEzMzQy, accessed October 2026"
+  - "TaylorMade 'How to use a Loft Sleeve' guide (±2° in 0.75° notches, up to 4° upright, face angle 1.5°/3°/4°); the full 12-stop table follows the sleeve chart in TaylorMade's Custom Component Booklet. Note: TaylorMade publishes lie as an adjustable range per head (Qi4D 56-60°, LS 54-58°, Max and Max Lite 58-62°) rather than a single figure, so no static lie column is charted."
+faq:
+  - q: "What lofts does the TaylorMade Qi4D come in?"
+    a: "The core Qi4D head comes in 8, 9, 10.5 and 12 degrees; the Qi4D LS in 8, 9 and 10.5; the Qi4D Max in 9, 10.5 and 12; and the Qi4D Max Lite in 10.5 and 12. The 8 degree heads and the core 12 degree head are right-hand only."
+  - q: "How do you adjust the TaylorMade Qi4D driver?"
+    a: "The Qi4D uses TaylorMade's 4 degree Loft Sleeve: twelve positions that move loft up to 2 degrees either way in 0.75 degree notches. Adding loft also closes the face up to 4 degrees and lowering it opens the face; the UPRT setting keeps the stated loft but sets lie 4 degrees upright."
+  - q: "What is different about the Qi4D Max body?"
+    a: "The Qi4D Max and Max Lite use a forged, machined 7075 aircraft-grade aluminium body instead of titanium — TaylorMade's first modern non-titanium driver. The Max is also the first Max head with movable weights, a 13 g and a 4 g port front and back."
+  - q: "Is the Qi4D sleeve compatible with older TaylorMade drivers?"
+    a: "Yes. The 4 degree Loft Sleeve is unchanged from previous generations, so shafts with Qi35, Qi10 or Stealth-era sleeves fit the Qi4D and the settings chart reads the same."
+confidence: high

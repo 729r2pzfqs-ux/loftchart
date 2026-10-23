@@ -1,0 +1,139 @@
+brand: Cobra
+brand_slug: cobra
+model: Darkspeed
+slug: darkspeed-driver
+club_type: driver
+year_introduced: 2024
+year_discontinued: null
+category: flagship
+construction: reinforced titanium frame with a 30%-thinner carbon crown and carbon sole plates, PWR-BRIDGE suspended internal weight and a 13% larger PWRSHELL face
+material: titanium frame with carbon crown and sole; AI-designed H.O.T. PWRSHELL face
+predecessor: Cobra Aerojet
+successor: Cobra DS-ADAPT
+description: >
+  The Darkspeed is Cobra's 2024 driver family — presale 11 January, retail
+  19 January 2024 — and the last generation on the MyFly8 hosel before
+  FutureFit33 arrived. Its PWR-BRIDGE suspends an internal weight bridge to
+  free the sole for a larger, AI-designed H.O.T. face. The LS is the
+  low-spin head with two 3 g front ports and a 12 g back weight; the X is
+  the mainstream speed-and-forgiveness head with swappable 12 g/3 g weights;
+  and the Max is the high-MOI model whose single 12 g weight sets neutral or
+  draw bias, with women's and junior builds on the same head. The DS-ADAPT
+  replaced the family in 2025.
+variants:
+  - name: Darkspeed LS
+    head_cc: 460
+    description: >
+      The low-spin head — most crown curvature, highest rear skirt — with two
+      3 g front weights and a 12 g back weight for high swing speeds. The
+      10.5° head was special order, and a 44.5 inch Tour Length build was
+      sold.
+  - name: Darkspeed X
+    head_cc: 460
+    description: >
+      The mainstream head balancing speed and forgiveness: a 12 g back and
+      3 g front weight swap to raise flight (back) or lower it (front).
+  - name: Darkspeed Max
+    head_cc: 460
+    description: >
+      The most forgiving model, with the lowest skirt and highest MOI; its
+      single 12 g weight sets a neutral (rear) or draw (heel) bias. Women's
+      and 12° junior builds use this head.
+specs:
+  - variant: Darkspeed LS
+    loft: 8.0
+    lie: 54.2
+    length: 45.5
+  - variant: Darkspeed LS
+    loft: 9.0
+    lie: 55.7
+    length: 45.5
+  - variant: Darkspeed LS
+    loft: 10.5
+    lie: 55.7
+    length: 45.5
+  - variant: Darkspeed X
+    loft: 9.0
+    lie: 56.2
+    length: 45.5
+  - variant: Darkspeed X
+    loft: 10.5
+    lie: 57.2
+    length: 45.5
+  - variant: Darkspeed X
+    loft: 12.0
+    lie: 57.2
+    length: 45.5
+  - variant: Darkspeed Max
+    loft: 9.0
+    lie: 58.2
+    length: 45.5
+  - variant: Darkspeed Max
+    loft: 10.5
+    lie: 59.2
+    length: 45.5
+  - variant: Darkspeed Max
+    loft: 12.0
+    lie: 59.2
+    length: 45.5
+hosel:
+  system: "MyFly8 with SmartPad"
+  loft_range: "±1.5°"
+  positions: 8
+  lie_effect: >
+    There is no independent lie adjustment; the three Draw positions add
+    draw bias at their loft instead.
+  face_note: >
+    The SmartPad sole keeps the face visually square at address in all eight
+    settings.
+  notes: >
+    The chart shows the loft each setting plays relative to the stamped
+    loft; "Draw" positions play the same loft with added draw bias (Cobra
+    does not publish the exact face or lie delta of the draw setting). On a
+    9° head the settings run 7.5° to 10.5°; on a 10.5° head, 9° to 12°; on a
+    12° head, 10.5° to 13.5°.
+  settings:
+    - { setting: "−1.5", loft: "−1.5°", face: "neutral" }
+    - { setting: "−1", loft: "−1°", face: "neutral" }
+    - { setting: "−1 Draw", loft: "−1°", face: "draw bias" }
+    - { setting: "STD", loft: "std", face: "neutral" }
+    - { setting: "STD Draw", loft: "std", face: "draw bias" }
+    - { setting: "+1", loft: "+1°", face: "neutral" }
+    - { setting: "+1 Draw", loft: "+1°", face: "draw bias" }
+    - { setting: "+1.5", loft: "+1.5°", face: "neutral" }
+stock_shafts:
+  - name: "UST Mamiya LIN-Q M40X White / Blue (LS, X)"
+    material: graphite
+    flex: ["R", "S", "XS"]
+  - name: "Project X HZRDUS Matte Black Gen 4 (LS, X)"
+    material: graphite
+    flex: ["S"]
+  - name: "Mitsubishi Kai'li Blue (X)"
+    material: graphite
+    flex: ["R", "S"]
+  - name: "Project X HZRDUS CB Red (Max)"
+    material: graphite
+    flex: ["A", "R"]
+  - name: "UST Mamiya LIN-Q M40X Red (Max)"
+    material: graphite
+    flex: ["R", "S"]
+related_models:
+  - slug: "cobra/ds-adapt-driver"
+    label: "Successor: Cobra DS-ADAPT drivers"
+  - slug: "cobra/ltdx-driver"
+    label: "Two generations back: Cobra LTDx drivers"
+sources:
+  - "Driving Range Heroes Darkspeed launch report (full MyFly8 charts per head, shaft matrix, 11/19 January 2024 dates, women's and junior builds), https://drivingrangeheroes.com/cobra-golf-introduces-new-darkspeed-metalwoods/, accessed October 2026"
+  - "National Club Golfer and Today's Golfer Darkspeed spec guides (lofts, lies, 45.5 inch, 460 cc, weights, SmartPad), https://www.nationalclubgolfer.com/gb/reviews/callaway/cobra-darkspeed-everything-you-need-to-know/, accessed October 2026"
+  - "2nd Swing Darkspeed LS listing (54.2°/55.7° lie, 45.5 inch), https://www.2ndswing.com/golf-clubs/drivers/cobra-darkspeed-ls-driver/dark-sp-ls-new-dvr, accessed October 2026"
+  - "Note: the Max's loft-to-lie mapping follows the X's published pattern — its two lie values are published without loft labels. Some launch articles quote the MyFly8 range as ±1°, but the published setting charts span ±1.5°."
+faq:
+  - q: "What lofts does the Cobra Darkspeed come in?"
+    a: "The Darkspeed LS comes in 8, 9 and 10.5 degrees (10.5 was special order), and the Darkspeed X and Max in 9, 10.5 and 12. The MyFly8 hosel extends each head 1.5 degrees down and 1.5 up."
+  - q: "What is the Darkspeed adjustment chart?"
+    a: "MyFly8 has eight settings: −1.5, −1, standard and +1 degrees each in a neutral version, draw versions of −1, standard and +1, and a +1.5 top setting. A 10.5 degree head therefore plays anywhere from 9 to 12 degrees, and the SmartPad sole keeps the face square at address in every setting."
+  - q: "What is the difference between the Darkspeed X and Max?"
+    a: "The X is the mainstream head whose 12 gram and 3 gram weights swap front to back to trade spin against stability; the Max is the highest-MOI head with a more upright lie and a single 12 gram weight that sets neutral or heel-side draw bias."
+  - q: "Is the Cobra Darkspeed still in production?"
+    a: "No — the DS-ADAPT replaced it in January 2025. It remains a common used and closeout buy; note that its MyFly8 sleeve is not the same system as the newer FutureFit33 hosel."
+confidence: high

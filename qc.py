@@ -34,6 +34,11 @@ WEDGE_CATEGORIES = {"tour", "game-improvement", "specialty"}
 WEDGE_LOFT_MIN, WEDGE_LOFT_MAX = 40.0, 66.0
 WEDGE_BOUNCE_MIN, WEDGE_BOUNCE_MAX = 0.0, 20.0
 
+# Driver models use their own enum too (DRIVER_CATEGORY_LABEL in generate.py).
+DRIVER_CATEGORIES = {"flagship", "lightweight", "game-improvement"}
+
+DRIVER_LOFT_MIN, DRIVER_LOFT_MAX = 6.0, 16.0
+
 # Required at the top level of every model file. club_type and slug are not in
 # the brief but are load-bearing in generate.py, so they are checked too.
 REQUIRED = ("model", "brand", "brand_slug", "club_type", "slug",
@@ -67,6 +72,7 @@ def check(path, rel, brand_dir, errors, warnings):
         return
 
     is_wedge = m.get("club_type") == "wedges"
+    is_driver = m.get("club_type") == "driver"
 
     # (a) schema completeness
     for key in REQUIRED:
@@ -76,6 +82,8 @@ def check(path, rel, brand_dir, errors, warnings):
             and any(isinstance(r, dict) and r.get("grind")
                     for r in (m.get("specs") or []))):
         err("spec rows carry grinds but the model declares no grinds catalogue")
+    if is_driver and not m.get("variants"):
+        err("driver model missing variants catalogue")
 
     # (f) slug consistency — both the brand slug against its directory and the
     # model slug against its filename, since generate.py builds the URL from
@@ -86,11 +94,14 @@ def check(path, rel, brand_dir, errors, warnings):
     if m.get("slug") and m["slug"] != expected_slug:
         err(f"slug {m['slug']!r} != filename {expected_slug!r}")
 
-    # (d) category — wedges use their own enum
+    # (d) category — wedges and drivers use their own enums
     cat = m.get("category")
     if is_wedge:
         if cat and cat not in WEDGE_CATEGORIES:
             err(f"wedge category {cat!r} not one of {sorted(WEDGE_CATEGORIES)}")
+    elif is_driver:
+        if cat and cat not in DRIVER_CATEGORIES:
+            err(f"driver category {cat!r} not one of {sorted(DRIVER_CATEGORIES)}")
     elif cat and cat not in CATEGORIES:
         err(f"category {cat!r} not one of {sorted(CATEGORIES)}")
 
@@ -117,6 +128,41 @@ def check(path, rel, brand_dir, errors, warnings):
 
     specs = m.get("specs") or []
     if not specs:
+        return
+
+    if is_driver:
+        # (b/c) driver rows: a head variant × stock loft matrix.
+        variant_names = [v.get("name") for v in (m.get("variants") or [])
+                         if isinstance(v, dict)]
+        combos = []
+        for i, row in enumerate(specs):
+            if not isinstance(row, dict):
+                err(f"specs[{i}] is not a mapping")
+                continue
+            loft, variant = row.get("loft"), row.get("variant")
+            if loft is None:
+                err(f"specs[{i}] missing loft")
+            elif not DRIVER_LOFT_MIN <= loft <= DRIVER_LOFT_MAX:
+                warn(f"driver loft {loft}° outside "
+                     f"{DRIVER_LOFT_MIN}-{DRIVER_LOFT_MAX}°")
+            if not variant:
+                err(f"specs[{i}] missing variant")
+            elif variant not in variant_names:
+                err(f"variant {variant!r} at {loft}° not in variants list")
+            combos.append((variant, loft))
+        # No duplicate variant/loft combination.
+        for combo, n in sorted(Counter(combos).items(), key=lambda kv: str(kv[0])):
+            if n > 1:
+                err(f"duplicate combo {combo} appears {n} times")
+        # Every declared variant should be sold at at least one loft.
+        used = {v for v, _ in combos if v}
+        for v in variant_names:
+            if v and v not in used:
+                warn(f"variant {v!r} declared but used by no spec row")
+        # Hosel settings, when present, each need a label.
+        for i, s in enumerate(((m.get("hosel") or {}).get("settings") or [])):
+            if not isinstance(s, dict) or not s.get("setting"):
+                err(f"hosel settings[{i}] missing 'setting' label")
         return
 
     if is_wedge:

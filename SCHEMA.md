@@ -108,3 +108,49 @@ specs:                           # one row PER COMBINATION SOLD, strongest loft 
 - Author rows grouped by loft, ascending; within a loft order by bounce then grind.
 - Everything else (sources, faq, confidence, predecessor/successor, current_as_of,
   stock_shafts, related_models) works exactly as for irons.
+
+## Driver models (`club_type: driver`)
+
+A driver model is a **family of head variants**, one file per family (not per head), at
+`data/<brand-slug>/<family-slug>-driver.yaml` — e.g. `qi35-driver.yaml` covers the Qi35,
+Qi35 LS, Qi35 Max and Qi35 Max Lite. Differences from irons:
+
+```yaml
+club_type: driver                # triggers the driver code paths in generate.py
+category: flagship               # flagship | lightweight | game-improvement
+variants:                        # REQUIRED — the head catalogue, core head first
+  - name: Qi35 Max               # matches the `variant` values in specs
+    head_cc: 460                 # OPTIONAL, cc
+    description: >
+      Who the head is for and its weighting scheme, condensed from the maker.
+specs:                           # one row PER VARIANT × STOCK LOFT
+  - variant: Qi35 Max            # REQUIRED, cross-referenced against `variants`
+    loft: 9.0                    # REQUIRED, degrees (the stamped stock loft)
+    lie: 58.5                    # OPTIONAL — only when the maker publishes a figure
+    length: 45.75                # OPTIONAL, inches
+hosel:                           # OPTIONAL — omit entirely for a glued hosel
+  system: "4° Loft Sleeve"       # the maker's name for the system
+  loft_range: "±2°"
+  positions: 12                  # OPTIONAL — omit if the count is unverified
+  lie_effect: one line on what it does to lie
+  face_note: one line on what it does to face angle
+  notes: >
+    Context the table cannot carry (sleeve compatibility, how the dials work,
+    why no per-position chart exists). If the maker publishes no
+    position-by-position chart, say so here and OMIT `settings` rather than
+    reproducing a third-party reconstruction.
+  settings:                      # the adjustment chart, one row per position
+    - { setting: "STD LOFT", loft: "std", lie: "std", face: "square" }
+    - { setting: "HIGHER", loft: "+2°", lie: "2° upright", face: "4° closed" }
+```
+
+- `club` is not used — rows are identified by variant + loft.
+- `hosel.settings` values are display strings ("+0.75°", "std", "3° flat"), since
+  systems differ too much for a numeric schema; `lie` and `face` are optional columns.
+- TaylorMade-style makers publish lie only as an adjustable range — omit the `lie`
+  key then and note the ranges in `sources`.
+- Record men's right-handed stock lofts; note right-hand-only lofts in the variant
+  description and women's/HL builds in one line, not as extra rows.
+- Same-name generations get a year suffix in the model name ("Dynapwr (2023)").
+- Everything else (sources, faq, confidence, predecessor/successor, current_as_of,
+  stock_shafts, related_models, length_note) works exactly as for irons.

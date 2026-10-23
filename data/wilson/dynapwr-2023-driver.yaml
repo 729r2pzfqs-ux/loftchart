@@ -1,0 +1,99 @@
+brand: Wilson
+brand_slug: wilson
+model: Dynapwr (2023)
+slug: dynapwr-2023-driver
+club_type: driver
+year_introduced: 2023
+year_discontinued: null
+category: flagship
+construction: two heads reviving the Dynapower name — a high-MOI rear-weighted titanium model and a carbon-panelled low-spin model — both with the six-way adjustable hosel
+material: DYNAPOWER machine-learning-optimised variable-thickness face; titanium body (Titanium) or titanium chassis with carbon crown and sole panels (Carbon)
+predecessor: Wilson D9
+successor: Wilson Dynapwr
+description: >
+  The 2023 Dynapwr revived Wilson's Dynapower name roughly seventy years
+  after the original irons, as a two-head driver family. The Dynapwr
+  Titanium is the forgiveness model — a 16 g rear weight pulls the centre of
+  gravity low and deep for a higher, neutral-to-draw flight, with lofts up
+  to 13 degrees — while the Dynapwr Carbon trades the crown and sole for
+  carbon panels and moves mass forward for lower spin. Both use a
+  machine-learning-optimised variable-thickness face and Wilson's six-way
+  adjustable hosel. The three-head 2025 Dynapwr generation replaced the
+  pair.
+variants:
+  - name: Dynapwr Titanium
+    description: >
+      The high-MOI forgiveness head: a 16 g rear weight, low and deep CG,
+      higher launch with neutral-to-draw bias, and a 13° top loft rare among
+      flagship drivers.
+  - name: Dynapwr Carbon
+    head_cc: 460
+    description: >
+      The lower-spin distance head, with carbon crown and sole panels and a
+      forward CG; D2 swing weight.
+specs:
+  - variant: Dynapwr Titanium
+    loft: 9.0
+    lie: 58.0
+    length: 45.75
+  - variant: Dynapwr Titanium
+    loft: 10.5
+    lie: 58.0
+    length: 45.75
+  - variant: Dynapwr Titanium
+    loft: 13.0
+    lie: 58.0
+    length: 45.75
+  - variant: Dynapwr Carbon
+    loft: 9.0
+    lie: 58.0
+    length: 45.75
+  - variant: Dynapwr Carbon
+    loft: 10.5
+    lie: 58.0
+    length: 45.75
+  - variant: Dynapwr Carbon
+    loft: 12.0
+    lie: 58.0
+    length: 45.75
+hosel:
+  system: "Six-way adjustable hosel"
+  loft_range: "−1° to +2°"
+  positions: 6
+  lie_effect: >
+    None published — Wilson's hosel changes loft and face angle only.
+  face_note: >
+    Face angle shifts with loft: adding loft closes the face, removing it
+    opens it.
+  notes: >
+    The six positions span −1° to +2° in half-degree steps, the same system
+    carried into the 2025 generation. Wilson does not publish the full
+    position-by-position table online, so the exact six labels are not
+    reproduced here.
+stock_shafts:
+  - name: "Fujikura Ventus Blue 6 (Carbon)"
+    material: graphite
+    flex: ["R", "S"]
+  - name: "Project X HZRDUS Smoke RDX Red 50 (Titanium)"
+    material: graphite
+    flex: ["A", "R", "S"]
+  - name: "Project X EvenFlow Riptide 50/60 (Titanium)"
+    material: graphite
+    flex: ["A", "R", "S"]
+related_models:
+  - slug: "wilson/dynapwr-2025-driver"
+    label: "Successor: Wilson Dynapwr (2025) drivers"
+sources:
+  - "2nd Swing Dynapwr Carbon spec table (460 cc, 58° lie, 45.75 inch, D2, Ventus Blue 6), https://2ndswing.com/golf-clubs/drivers/wilson-staff-dynapwr-carbon-driver, accessed October 2026"
+  - "GolfBox and golfballs.com Dynapwr Titanium and Carbon listings (lofts 9/10.5/13 and 9/10.5/12, 16 g rear weight, six-way sleeve, shafts), https://golfbox.com.au/clubs/wilson-dynapwr-ti-driver, accessed October 2026"
+  - "Note: Wilson did not publish the Titanium head's volume; an 8° Carbon head appears on one retailer listing only and is not charted. Specs are retailer-sourced, as Wilson's own 2023 pages are no longer live."
+faq:
+  - q: "What lofts does the 2023 Wilson Dynapwr come in?"
+    a: "The Dynapwr Titanium comes in 9, 10.5 and 13 degrees; the Dynapwr Carbon in 9, 10.5 and 12. The six-way hosel extends each a further minus 1 to plus 2 degrees."
+  - q: "What is the difference between the Dynapwr Titanium and Carbon?"
+    a: "The Titanium is the forgiveness model — a 16 gram rear weight for a low, deep CG and higher flight, up to a 13 degree loft. The Carbon swaps crown and sole for carbon panels and moves mass forward for a lower-spinning, lower flight."
+  - q: "Is the 2023 Wilson Dynapwr adjustable?"
+    a: "Yes — the same six-way hosel as the 2025 generation: minus 1 to plus 2 degrees of loft in half-degree steps, with no lie change at any position."
+  - q: "Is the 2023 Dynapwr still in production?"
+    a: "No — the 2025 Dynapwr generation (Carbon, LS and Max) replaced it. It is a used-market buy, usually at bargain prices for a machine-learning-faced driver."
+confidence: medium

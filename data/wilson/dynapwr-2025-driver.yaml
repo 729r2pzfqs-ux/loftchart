@@ -1,0 +1,146 @@
+brand: Wilson
+brand_slug: wilson
+model: Dynapwr
+slug: dynapwr-2025-driver
+club_type: driver
+year_introduced: 2025
+year_discontinued: null
+category: flagship
+current_as_of: "2026-10"
+construction: six-way adjustable "Open Hosel Construction" (material removed behind the hosel so the face can flex more) with swappable or flippable sole weights per head
+material: PKR-360 AI-optimised variable-thickness face; carbon composite crowns on the Carbon, LS and Max+ (the Max is all-titanium)
+predecessor: Wilson Dynapwr (2023)
+successor: null
+description: >
+  Wilson's 2025 Dynapwr generation reached retail on 12 February 2025 as a
+  three-head family — Carbon, LS and Max — and grew to four on 29 January
+  2026 when the Dynapwr Max+ arrived as Wilson's first driver past 10,000
+  g·cm² of combined MOI. All use the PKR-360 variable-thickness face and
+  Wilson's Open Hosel Construction, which removes material behind the
+  six-way adjustable hosel so the face can flex more freely. The Carbon is
+  the tour-inspired head Wilson says fits the most golfers, the compact
+  445 cc LS carries the heaviest movable weights for the biggest CG shift,
+  the all-titanium Max is the big-footprint forgiveness head, and the Max+
+  sits above it with a carbon crown and the 10K MOI figure. Lite builds at
+  44.75 inches and D0 cover slower swing speeds.
+variants:
+  - name: Dynapwr Carbon
+    head_cc: 460
+    description: >
+      The tour-inspired middle head balancing workability and forgiveness —
+      the one Wilson says fits the most golfers — with swappable 3 g front
+      and 9 g back weights. 8° is right-hand only.
+  - name: Dynapwr LS
+    head_cc: 445
+    description: >
+      The most compact, fade-biased low-spin head, carrying the heaviest
+      movable weights in the family (6 g and 12 g front-back) for the
+      biggest CG shift. 8° is right-hand only.
+  - name: Dynapwr Max
+    head_cc: 460
+    description: >
+      The largest-footprint, highest-MOI head of the 2025 trio —
+      all-titanium, with a 19 g flippable asymmetric rear weight set neutral
+      or heel-side for draw.
+  - name: Dynapwr Max+
+    head_cc: 460
+    description: >
+      Added January 2026: Wilson's first 10K-MOI driver, with a carbon crown,
+      a re-engineered lighter PKR-360 face and an adjustable rear weight. A
+      12° Lite build (44.75 inches, D0, UST Helium NCT 4) serves slower
+      swings.
+specs:
+  - variant: Dynapwr Carbon
+    loft: 8.0
+    lie: 57.0
+    length: 45.75
+  - variant: Dynapwr Carbon
+    loft: 9.0
+    lie: 57.0
+    length: 45.75
+  - variant: Dynapwr Carbon
+    loft: 10.5
+    lie: 57.0
+    length: 45.75
+  - variant: Dynapwr LS
+    loft: 8.0
+    lie: 57.0
+    length: 45.75
+  - variant: Dynapwr LS
+    loft: 9.0
+    lie: 57.0
+    length: 45.75
+  - variant: Dynapwr LS
+    loft: 10.5
+    lie: 57.0
+    length: 45.75
+  - variant: Dynapwr Max
+    loft: 9.0
+    lie: 57.0
+    length: 45.75
+  - variant: Dynapwr Max
+    loft: 10.5
+    lie: 57.0
+    length: 45.75
+  - variant: Dynapwr Max
+    loft: 12.0
+    lie: 57.0
+    length: 45.75
+  - variant: Dynapwr Max+
+    loft: 9.0
+    lie: 57.0
+    length: 45.75
+  - variant: Dynapwr Max+
+    loft: 10.5
+    lie: 57.0
+    length: 45.75
+  - variant: Dynapwr Max+
+    loft: 12.0
+    lie: 57.0
+    length: 45.75
+hosel:
+  system: "Six-way adjustable hosel"
+  loft_range: "−1° to +2°"
+  positions: 6
+  lie_effect: >
+    None — Wilson's hosel changes loft and face angle only, with no lie
+    adjustment at any position.
+  face_note: >
+    Face angle shifts with loft, up to about 2°: adding loft closes the
+    face, so a 9° head set to 11° sits visibly closed at address.
+  notes: >
+    The six positions span −1° to +2° in half-degree steps. Wilson does not
+    publish the full position-by-position table online, so the exact six
+    labels are not reproduced here — the confirmed anchors are the range,
+    the half-degree increments, zero lie change and the face-angle shift.
+stock_shafts:
+  - name: "Fujikura Ventus TR Blue 5 (Carbon)"
+    material: graphite
+    flex: ["R", "S"]
+  - name: "True Temper Denali Black 60 (LS)"
+    material: graphite
+    flex: ["S", "X"]
+  - name: "UST Mamiya LIN-Q M40X Red 5/6 (Max)"
+    material: graphite
+    flex: ["A", "R", "S"]
+  - name: "UST LIN-Q PowerCore Blue (Max+)"
+    material: graphite
+    flex: ["R", "S"]
+related_models:
+  - slug: "wilson/dynapwr-2023-driver"
+    label: "Predecessor: Wilson Dynapwr (2023) drivers"
+sources:
+  - "GolfWRX 2025 Dynapwr launch report (lineup, lofts per head, weights, shafts, 12 February 2025 retail), https://golfwrx.com/753588/wilson-launches-2025-dynapwr-drivers/, accessed October 2026"
+  - "2nd Swing Dynapwr Carbon, LS and Max spec tables (57° lie, 45.75 inch, 445/460 cc, D3.5, hand availability), https://2ndswing.com/golf-clubs/drivers/wilson-staff-2025-dynapwr-carbon-driver, accessed October 2026"
+  - "Golfalot and Irish Golfer Dynapwr Max+ coverage (29 January 2026 launch, first Wilson 10K+ MOI, PKR-360, Lite build specs), https://golfalot.com/equipment-review/wilson-2026-dynapwr-max-driver-review, accessed October 2026"
+  - "Note: Wilson does not publish the hosel's six position labels online; the −1° to +2° range in half-degree steps with no lie change is the confirmed specification. The LS 10.5° head is listed at 450 cc by one retailer against 445 cc for the 8° and 9°."
+faq:
+  - q: "What lofts does the Wilson Dynapwr come in?"
+    a: "The 2025-26 generation: Dynapwr Carbon and LS in 8, 9 and 10.5 degrees (8s right-hand only), and the Dynapwr Max and Max+ in 9, 10.5 and 12."
+  - q: "How adjustable is the Wilson Dynapwr hosel?"
+    a: "Six positions spanning minus 1 to plus 2 degrees of loft in half-degree steps. Unusually, the lie never changes — only loft and, with it, face angle, which closes up to about 2 degrees as loft is added."
+  - q: "What is the difference between the Dynapwr Max and Max+?"
+    a: "The 2025 Max is all-titanium with a 19 gram flippable rear weight; the 2026 Max+ adds a carbon crown and a lighter PKR-360 face to push combined MOI past 10,000 g·cm² — Wilson's first 10K driver — while keeping the same loft menu."
+  - q: "Which Dynapwr suits a slower swing speed?"
+    a: "The 12 degree Max or Max+ in the Lite build — 44.75 inches, D0 swing weight and the lightweight UST Helium NCT 4 shaft — is Wilson's package for swings well under 90 mph."
+confidence: medium

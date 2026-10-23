@@ -1,0 +1,160 @@
+brand: Callaway
+brand_slug: callaway
+model: Quantum
+slug: quantum-driver
+club_type: driver
+year_introduced: 2026
+year_discontinued: null
+category: flagship
+current_as_of: "2026-10"
+construction: Tri-Force Face — an ultra-thin titanium face layer bonded to a carbon-fibre backing by a high-strength Poly Mesh polymer — on a carbon chassis
+material: titanium / Poly Mesh / carbon-fibre composite face; carbon crown and chassis
+predecessor: Callaway Elyte
+successor: null
+description: >
+  Quantum is Callaway's 2026 driver family, on pre-order from 16 January and
+  at retail from 13 February 2026. Its headline is the Tri-Force Face: a
+  titanium striking layer roughly 14% thinner than the Elyte's, bonded to a
+  carbon-fibre backing by Callaway's "Poly Mesh" polymer, with the Triple
+  Diamond heads carried on a 360° carbon chassis. There is no plain
+  "Quantum" head — the family is five variants: the high-MOI Max, the
+  compact 450 cc Triple Diamond, the 460 cc Triple Diamond Max for fast
+  players who need a little more spin and stability, the draw-biased Max D,
+  and the ultralight Max Fast, which unlike its Ai Smoke ancestor keeps the
+  adjustable OptiFit hosel.
+variants:
+  - name: Quantum Max
+    head_cc: 460
+    description: >
+      The core high-MOI head for the broadest range of players, with a 10 g
+      adjustable back weight (neutral or draw) plus a front port. The 12°
+      head is left-hand custom only; a women's build runs 1.25 inches shorter
+      with the Eldio 40 L shaft.
+  - name: Quantum Triple Diamond
+    head_cc: 450
+    description: >
+      The compact tour head for high-speed, high-spin players — more neutral
+      at address than past Triple Diamonds, with a movable rear-heel weight
+      that can shift toward the toe for fade bias. 8° is right-hand only.
+  - name: Quantum Triple Diamond Max
+    head_cc: 460
+    description: >
+      The Triple Diamond shape and weighting scaled up to 460 cc — for fast
+      players who want the TD's flight with slightly more spin and
+      forgiveness.
+  - name: Quantum Max D
+    head_cc: 460
+    description: >
+      The draw-bias head, built with internal heel-rear weighting rather than
+      a movable draw weight. The 12° head is right-hand only.
+  - name: Quantum Max Fast
+    head_cc: 460
+    description: >
+      The ultralight build — 40-gram shaft and light grip — for slower swing
+      speeds, and the first Max Fast generation to keep the adjustable
+      OptiFit hosel. Right-hand only.
+specs:
+  - variant: Quantum Max
+    loft: 9.0
+    lie: 57.0
+    length: 45.75
+  - variant: Quantum Max
+    loft: 10.5
+    lie: 57.0
+    length: 45.75
+  - variant: Quantum Max
+    loft: 12.0
+    lie: 57.0
+    length: 45.75
+  - variant: Quantum Triple Diamond
+    loft: 8.0
+    lie: 57.0
+    length: 45.75
+  - variant: Quantum Triple Diamond
+    loft: 9.0
+    lie: 57.0
+    length: 45.75
+  - variant: Quantum Triple Diamond
+    loft: 10.5
+    lie: 57.0
+    length: 45.75
+  - variant: Quantum Triple Diamond Max
+    loft: 9.0
+    lie: 57.0
+    length: 45.75
+  - variant: Quantum Triple Diamond Max
+    loft: 10.5
+    lie: 57.0
+    length: 45.75
+  - variant: Quantum Max D
+    loft: 9.0
+    lie: 59.0
+    length: 45.75
+  - variant: Quantum Max D
+    loft: 10.5
+    lie: 59.0
+    length: 45.75
+  - variant: Quantum Max D
+    loft: 12.0
+    lie: 59.0
+    length: 45.75
+  - variant: Quantum Max Fast
+    loft: 10.5
+    lie: 59.0
+    length: 45.75
+  - variant: Quantum Max Fast
+    loft: 12.0
+    lie: 59.0
+    length: 45.75
+hosel:
+  system: "OptiFit hosel"
+  loft_range: "−1° to +2°"
+  positions: 8
+  lie_effect: >
+    The lie cog has two positions: N (neutral, the stated lie) and D (draw, a
+    more upright lie — Callaway does not publish the degree change).
+  face_note: >
+    Changing loft re-orients the head on the shaft, so lower settings sit
+    slightly open and higher settings slightly closed at address.
+  notes: >
+    The two-cog OptiFit design is unchanged from the Paradym through the Ai
+    Smoke, Elyte and Quantum, so the chart reads the same across all four
+    generations. On a 10.5° head the four loft positions play 9.5°, 10.5°,
+    11.5° and 12.5°.
+  settings:
+    - { setting: "−1 / N", loft: "−1°", lie: "neutral" }
+    - { setting: "−1 / D", loft: "−1°", lie: "draw (more upright)" }
+    - { setting: "S / N", loft: "std", lie: "neutral" }
+    - { setting: "S / D", loft: "std", lie: "draw (more upright)" }
+    - { setting: "+1 / N", loft: "+1°", lie: "neutral" }
+    - { setting: "+1 / D", loft: "+1°", lie: "draw (more upright)" }
+    - { setting: "+2 / N", loft: "+2°", lie: "neutral" }
+    - { setting: "+2 / D", loft: "+2°", lie: "draw (more upright)" }
+stock_shafts:
+  - name: "Project X Denali Frost Silver 50/60"
+    material: graphite
+    flex: ["R", "S", "X"]
+  - name: "Fujikura Ventus Black 60/70 (Triple Diamond heads)"
+    material: graphite
+    flex: ["S", "X"]
+  - name: "Mitsubishi Vanquish PL 40 (Max Fast)"
+    material: graphite
+    flex: ["L", "A", "R"]
+related_models:
+  - slug: "callaway/elyte-driver"
+    label: "Predecessor: Callaway Elyte drivers"
+sources:
+  - "Callaway Quantum Max and Max D official product pages (lofts, 57°/59° lie, 460 cc, 45.75 inch, stock shafts, hand availability), https://callawaygolf.com/golf-clubs/drivers/drivers-2026-quantum-max.html, accessed October 2026"
+  - "Golf.com Quantum launch report (five-head lineup with no plain Quantum head, Tri-Force Face construction, 13 February 2026 retail), https://golf.com/gear/drivers/callaway-introduces-quantum-drivers-metalwoods/, accessed October 2026"
+  - "2nd Swing Quantum Triple Diamond, Triple Diamond Max and Max Fast spec listings (450/460 cc, lie, lofts, shaft matrix, OptiFit settings), https://www.2ndswing.com/golf-clubs/drivers/callaway-quantum-triple-diamond-driver, accessed October 2026"
+  - "Note: the Triple Diamond and Triple Diamond Max lie figures come from retailer spec tables rather than Callaway's own pages, and early conforming-list entries showed an 8.5° Triple Diamond Max that has not appeared at retail."
+faq:
+  - q: "What lofts does the Callaway Quantum come in?"
+    a: "Quantum Max and Max D come in 9, 10.5 and 12 degrees, the Triple Diamond in 8, 9 and 10.5, the Triple Diamond Max in 9 and 10.5, and the Max Fast in 10.5 and 12. There is no plain 'Quantum' head — those five variants are the family."
+  - q: "What is the Quantum adjustment chart?"
+    a: "Quantum uses Callaway's two-cog OptiFit hosel: four loft positions (−1, stated, +1 and +2 degrees) times two lie positions (Neutral and Draw) for eight settings. On a 10.5 degree head that spans 9.5 to 12.5 degrees."
+  - q: "Which Quantum driver should a slicer buy?"
+    a: "The Quantum Max D is the dedicated draw head, with heel-rear internal weighting and a more upright 59 degree lie. The Quantum Max in its draw weight-and-hosel settings is the milder alternative that keeps more adjustability."
+  - q: "Is the Quantum Max Fast adjustable?"
+    a: "Yes — unlike the 2024 Ai Smoke Max Fast, which had a glued hosel, the Quantum Max Fast keeps the full eight-setting OptiFit hosel while still using a 40 gram shaft and light grip."
+confidence: high

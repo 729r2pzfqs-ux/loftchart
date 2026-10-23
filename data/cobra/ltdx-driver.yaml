@@ -1,0 +1,129 @@
+brand: Cobra
+brand_slug: cobra
+model: LTDx
+slug: ltdx-driver
+club_type: driver
+year_introduced: 2022
+year_discontinued: 2023
+category: flagship
+construction: lighter titanium chassis carrying ~30% more carbon fibre in the crown and sole plate, with PWR-COR low-forward multi-material weighting
+material: titanium chassis with carbon crown and sole; CNC-milled infinity-edge H.O.T. titanium face
+predecessor: Cobra RADSPEED
+successor: Cobra Aerojet
+description: >
+  The LTDx is Cobra's 2022 driver family — announced 19 January and at retail
+  from 11 February 2022 — built around PWR-COR: a 14 g internal steel weight
+  and 5 g external aluminium weight stacked low and forward behind the face,
+  balanced by a 15 g fixed back weight on the core head, chasing "zero CG"
+  bragging rights with near-neutral balance-point numbers. The core LTDx is
+  the distance head, the LS the low-spin model for better players, and the
+  Max the forgiveness/draw head whose movable ~10 g weight plus the MyFly8
+  draw settings stack up to roughly 18 yards of slice correction. The
+  Aerojet replaced the family in 2023.
+variants:
+  - name: LTDx
+    head_cc: 460
+    description: >
+      The core distance head: PWR-COR low-forward weighting plus a 15 g fixed
+      back weight for ball speed with moderate forgiveness.
+  - name: LTDx LS
+    head_cc: 460
+    description: >
+      The low-spin head for better players — no 12° option, flatter flight,
+      and the stiffest stock shaft lineup in the family.
+  - name: LTDx Max
+    head_cc: 460
+    description: >
+      The forgiveness and draw model: a movable ~10 g weight plays back
+      (neutral, about +5 yards of draw) or heel (about +11 yards), and with
+      the hosel's draw setting the correction reaches roughly 18 yards. A
+      women's build was offered in 10.5° and 12°.
+specs:
+  - variant: LTDx
+    loft: 9.0
+    lie: 57.5
+    length: 45.5
+  - variant: LTDx
+    loft: 10.5
+    lie: 58.5
+    length: 45.5
+  - variant: LTDx
+    loft: 12.0
+    lie: 59.5
+    length: 45.5
+  - variant: LTDx LS
+    loft: 9.0
+    lie: 57.5
+    length: 45.5
+  - variant: LTDx LS
+    loft: 10.5
+    lie: 58.5
+    length: 45.5
+  - variant: LTDx Max
+    loft: 9.0
+    lie: 57.5
+    length: 45.5
+  - variant: LTDx Max
+    loft: 10.5
+    lie: 58.5
+    length: 45.5
+  - variant: LTDx Max
+    loft: 12.0
+    lie: 59.5
+    length: 45.5
+hosel:
+  system: "MyFly8 with SmartPad"
+  loft_range: "±1.5°"
+  positions: 8
+  lie_effect: >
+    There is no independent lie adjustment; the three Draw positions add
+    draw bias at their loft instead.
+  face_note: >
+    The SmartPad sole keeps the face visually square at address in all eight
+    settings.
+  notes: >
+    The chart shows the loft each setting plays relative to the stamped
+    loft; "Draw" positions play the same loft with added draw bias — on the
+    Max, Cobra quotes the draw setting as worth about 7 yards. On a 9° head
+    the settings run 7.5° to 10.5°; on a 10.5° head, 9° to 12°; on a 12°
+    head, 10.5° to 13.5°.
+  settings:
+    - { setting: "−1.5", loft: "−1.5°", face: "neutral" }
+    - { setting: "−1", loft: "−1°", face: "neutral" }
+    - { setting: "−1 Draw", loft: "−1°", face: "draw bias" }
+    - { setting: "STD", loft: "std", face: "neutral" }
+    - { setting: "STD Draw", loft: "std", face: "draw bias" }
+    - { setting: "+1", loft: "+1°", face: "neutral" }
+    - { setting: "+1 Draw", loft: "+1°", face: "draw bias" }
+    - { setting: "+1.5", loft: "+1.5°", face: "neutral" }
+stock_shafts:
+  - name: "Project X HZRDUS Smoke iM10 60"
+    material: graphite
+    flex: ["R", "S"]
+  - name: "Project X HZRDUS RDX Blue 60 (LS)"
+    material: graphite
+    flex: ["S", "X"]
+  - name: "Mitsubishi Tensei AV Raw White 65 (9° heads)"
+    material: graphite
+    flex: ["S", "X"]
+  - name: "UST Helium Nanocore 5F3 / 4F2 (10.5°, 12°, women's)"
+    material: graphite
+    flex: ["A", "R", "L"]
+related_models:
+  - slug: "cobra/darkspeed-driver"
+    label: "Two generations on: Cobra Darkspeed drivers"
+sources:
+  - "First Call Golf LTDx launch release (19 January 2022 announcement, 11 February retail, PWR-COR construction), https://www.firstcallgolf.com/industry-news/release/2022-01-19/cobra-golf-unveils-the-new-king-ltdx-lineup-of-metalwoods-that-is-engineered-for-longest-total-distance, accessed October 2026"
+  - "2nd Swing and Golfio LTDx, LTDx LS and LTDx Max spec listings (lofts, 57.5-59.5° lie, 45.5 inch, MyFly8 settings, shaft matrix), https://www.2ndswing.com/golf-clubs/drivers/cobra-ltdx-driver/right-handed-senior-graphite-45dot25in-d-32647699402, accessed October 2026"
+  - "Golf Reviews Guide LTDx Max weighting detail (back/heel weight worth ~5/11/18 yards of draw correction), https://golfreviewsguide.com/cobra-ltdx-drivers/, accessed October 2026"
+  - "Note: the 12° head's MyFly8 row follows the published pattern of the 9° and 10.5° charts; sources differ on whether the Max's movable weight is 10 or 12 grams."
+faq:
+  - q: "What lofts does the Cobra LTDx come in?"
+    a: "The LTDx and LTDx Max come in 9, 10.5 and 12 degrees; the LTDx LS in 9 and 10.5 only. The MyFly8 hosel extends each head 1.5 degrees either way."
+  - q: "What is the LTDx adjustment chart?"
+    a: "MyFly8 has eight settings: −1.5, −1, standard and +1 degrees in neutral versions, draw versions of −1, standard and +1, and a +1.5 top setting. The SmartPad sole keeps the face square at address in every setting."
+  - q: "How much draw correction does the LTDx Max offer?"
+    a: "Cobra quoted about 5 yards with the weight back, 11 yards with it in the heel, and up to roughly 18 yards with the heel weight combined with a Draw hosel setting."
+  - q: "Is the Cobra LTDx still in production?"
+    a: "No — it ran one cycle, from February 2022 until the Aerojet replaced it in 2023, so the used market is the source. Check which MyFly8 setting a used head is in before judging its loft."
+confidence: medium

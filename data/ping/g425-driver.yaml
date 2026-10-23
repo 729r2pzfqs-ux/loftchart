@@ -1,0 +1,126 @@
+brand: Ping
+brand_slug: ping
+model: G425
+slug: g425-driver
+club_type: driver
+year_introduced: 2021
+year_discontinued: 2023
+category: flagship
+construction: cast titanium body with ultra-thin Ti 8-1-1 crown, internal Dragonfly rib structure, crown turbulators and a tungsten backweight (movable on the Max and LST)
+material: cast Ti 8-1-1 titanium body and crown; precision-machined forged T9S+ titanium face
+predecessor: Ping G410
+successor: Ping G430
+description: >
+  The G425 is Ping's 2021-2022 driver family and was the forgiveness
+  benchmark of its day: the G425 Max's combined MOI approached 10,000 g·cm²
+  years before "10K" became a marketing category. The Max carries a 26 g
+  movable tungsten backweight with Neutral, Draw and Fade positions; the
+  445 cc LST cuts several hundred rpm of spin with a 17 g CG shifter; and the
+  SFT is the fixed-weight draw model, sold in 10.5° only. Announced for
+  pre-sale on 11 January 2021, the family ran until the G430 replaced it in
+  2023, and it remains one of the most recommended used drivers for its
+  price-to-forgiveness ratio.
+variants:
+  - name: G425 Max
+    head_cc: 460
+    description: >
+      The MOI flagship of its generation — total MOI near 10,000 g·cm² — with
+      a 26 g movable tungsten backweight in Neutral, Draw and Fade positions.
+      Head weight 206 g, swing weight D3.
+  - name: G425 LST
+    head_cc: 445
+    description: >
+      The low-spin head: about 200 rpm less than the G410 LST and 500-700 rpm
+      less than the G425 Max, with a 17 g three-position CG shifter. Head
+      weight 208 g, swing weight D4.
+  - name: G425 SFT
+    head_cc: 460
+    description: >
+      The draw model, 10.5° only, with a fixed 23 g tungsten heel-side
+      backweight worth roughly 25 yards of right-to-left versus the Max.
+      Head weight 202 g, swing weight D1.
+specs:
+  - variant: G425 Max
+    loft: 9.0
+    lie: 58.5
+    length: 45.75
+  - variant: G425 Max
+    loft: 10.5
+    lie: 58.5
+    length: 45.75
+  - variant: G425 Max
+    loft: 12.0
+    lie: 58.5
+    length: 45.75
+  - variant: G425 LST
+    loft: 9.0
+    lie: 57.0
+    length: 45.75
+  - variant: G425 LST
+    loft: 10.5
+    lie: 57.0
+    length: 45.75
+  - variant: G425 SFT
+    loft: 10.5
+    lie: 58.5
+    length: 45.75
+length_note: >
+  45.75 inches is the standard build with the stock counter-balanced ALTA CB
+  55 Slate; builds with the Ping Tour, Tensei AV Raw or Aldila Rogue shafts
+  are 45.25 inches. Ping publishes lie as the average across the five
+  neutral-lie hosel positions.
+hosel:
+  system: "Trajectory Tuning 2.0"
+  loft_range: "±1.5°"
+  positions: 8
+  lie_effect: >
+    Three flat positions sit 3° flatter than standard; there is no upright
+    setting.
+  face_note: >
+    Lowering loft opens the face slightly and adding loft closes it, as on
+    any hosel-based adjuster.
+  notes: >
+    The chart comes from Ping's own adjustability diagram and carried
+    unchanged into the G430 and G440, so sleeves and settings interchange
+    across the generations.
+  settings:
+    - { setting: "Standard", loft: "std", lie: "std" }
+    - { setting: "+1", loft: "+1°", lie: "std" }
+    - { setting: "Big +", loft: "+1.5°", lie: "std" }
+    - { setting: "−1", loft: "−1°", lie: "std" }
+    - { setting: "Big −", loft: "−1.5°", lie: "std" }
+    - { setting: "Standard Flat", loft: "std", lie: "3° flat" }
+    - { setting: "+1 Flat", loft: "+1°", lie: "3° flat" }
+    - { setting: "−1 Flat", loft: "−1°", lie: "3° flat" }
+stock_shafts:
+  - name: "Ping ALTA CB 55 Slate (counter-balanced)"
+    material: graphite
+    flex: ["SR", "R", "S", "X"]
+  - name: "Ping ALTA Distanza 40 (ultralight)"
+    material: graphite
+  - name: "Ping Tour 65/75"
+    material: graphite
+    flex: ["R", "S", "X"]
+  - name: "Mitsubishi Tensei AV Raw Orange 55/65"
+    material: graphite
+    flex: ["R", "S", "X"]
+  - name: "Aldila Rogue White 130 M.S.I. 70"
+    material: graphite
+    flex: ["R", "S", "X"]
+related_models:
+  - slug: "ping/g430-driver"
+    label: "Successor: Ping G430 drivers"
+sources:
+  - "Archived ping.com G425 Max, LST and SFT spec pages via the Internet Archive, captures from May-June 2021 (lofts, lie, head sizes and weights, swing weights, Dragonfly/T9S+ construction)"
+  - "Ping adjustability chart diagram as served on the archived G425 pages (the exact eight-position loft and lie chart)"
+  - "Haggin Oaks G425 pre-sale guide (11 January 2021 pre-sale, backweight masses 26/17/23 g, shaft lineup), https://www.hagginoaks.com/blog/everything-you-need-to-know-about-the-all-new-ping-g425-line-now-available-for-pre-sale/, accessed October 2026"
+faq:
+  - q: "What lofts does the Ping G425 come in?"
+    a: "The G425 Max comes in 9, 10.5 and 12 degrees; the G425 LST in 9 and 10.5; and the G425 SFT in 10.5 only."
+  - q: "What is the G425 adjustment chart?"
+    a: "Ping's Trajectory Tuning 2.0 hosel has eight settings: standard, +1, +1.5, −1 and −1.5 degrees of loft at the standard lie, plus flat versions of standard, +1 and −1 that sit 3 degrees flatter. There is no upright setting."
+  - q: "Is the Ping G425 Max still worth buying used?"
+    a: "It remains one of the best value used drivers: its near-10K MOI is still competitive with current forgiveness heads, its hosel chart matches the newer G430 and G440, and used prices sit far below either. Check the stamped loft and hosel setting against this chart before buying."
+  - q: "What is the difference between the G425 Max and G425 LST?"
+    a: "The Max is the 460 cc forgiveness head with a 26 gram movable backweight; the LST is a smaller 445 cc head whose 17 gram CG shifter and forward balance cut spin by roughly 500-700 rpm for faster swings."
+confidence: high
