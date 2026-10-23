@@ -1,0 +1,61 @@
+brand: Wilson
+brand_slug: wilson
+model: Dynapwr
+slug: dynapwr-2025-hybrid
+club_type: hybrid
+year_introduced: 2025
+year_discontinued: null
+category: flagship
+current_as_of: "2026-10"
+construction: compact steel body with an extended toe area and glued hosel
+material: variable-thickness high-strength steel face
+predecessor: Wilson Dynapwr (2023)
+successor: null
+description: >
+  Wilson's 2025 Dynapwr hybrid launched in February 2025 with the Dynapwr
+  woods — a single compact head with an extended toe, in five lofts from a
+  17° 2-hybrid to a 28° 6-hybrid, plus lightweight LITE builds of the 4-, 5-
+  and 6-hybrids. The hosel is glued, so each head plays at its stamped loft.
+  As of October 2026 the line is still current, with no replacement
+  announced.
+variants:
+  - name: Dynapwr
+    description: >
+      The single hybrid head in five lofts, with LITE builds (lighter shaft
+      and shorter length) offered in the 22°, 25° and 28° heads.
+specs:
+  - variant: Dynapwr
+    loft: 17.0
+    lie: 58.0
+    length: 41.5
+  - variant: Dynapwr
+    loft: 19.0
+    lie: 58.5
+    length: 41.0
+  - variant: Dynapwr
+    loft: 22.0
+    lie: 59.0
+    length: 40.5
+  - variant: Dynapwr
+    loft: 25.0
+    lie: 59.5
+    length: 40.0
+  - variant: Dynapwr
+    loft: 28.0
+    lie: 60.0
+    length: 39.25
+related_models:
+  - slug: "wilson/dynapwr-2025-fairway-wood"
+    label: "Same family: Wilson Dynapwr fairway woods"
+  - slug: "wilson/dynapwr-2025-driver"
+    label: "Same family: Wilson Dynapwr drivers"
+sources:
+  - "Fairway Jockey 2025 Dynapwr hybrid spec table (17/19/22/25/28 lofts, lies 58-60°, lengths 41.5-39.25 in, LITE builds of the 4-6 hybrids), https://fairwayjockey.com/products/wilson-2025-dynapwr-custom-hybrid, accessed October 2026"
+  - "GolfWRX and Golf.com Dynapwr family launch coverage, January-February 2025 (single hybrid model, 17-28° range, $229), https://golfwrx.com/753667/wilson-introduces-new-dynapwr-drivers-fairways-and-hybrids/, accessed October 2026"
+  - "Note: no adjustable hosel is offered on the hybrid — adjustability in the 2025 Dynapwr family is limited to the drivers and the Carbon fairway."
+faq:
+  - q: "What lofts does the 2025 Wilson Dynapwr hybrid come in?"
+    a: "Five lofts: 17, 19, 22, 25 and 28 degrees — the 2-hybrid through 6-hybrid. LITE builds are offered in the 22, 25 and 28 degree heads."
+  - q: "Is the Wilson Dynapwr hybrid adjustable?"
+    a: "No — the hosel is glued and each head plays at its stamped loft. In the 2025 Dynapwr family only the drivers and the Carbon fairway carry an adjustable hosel."
+confidence: high

@@ -1,0 +1,115 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: Qi35
+slug: qi35-hybrid
+club_type: hybrid
+year_introduced: 2025
+year_discontinued: null
+category: flagship
+construction: steel body with carbon crown; bonded hosels on the Max heads, loft sleeve on the core Rescue
+material: multi-material head with TaylorMade's Twist Face bulge-and-roll hybrid face
+predecessor: TaylorMade Qi10
+successor: TaylorMade Qi4D
+description: >
+  TaylorMade calls its hybrids Rescues, and the Qi35 Rescue family launched on
+  7 January 2025 with the Qi35 fairway woods. The core Qi35 Rescue is the
+  adjustable, slightly compact head with a mild draw bias and a 3° loft
+  sleeve; the Qi35 Max Rescue is the bonded high-MOI head, sold one degree
+  weaker at each club number and all the way out to a 35° 7-Rescue; and the
+  Qi35 Max Lite Rescue is the same Max shape in a lighter head, shaft and grip
+  build without the 20° head. The Qi4D Rescues replaced the family in January
+  2026.
+variants:
+  - name: Qi35 Rescue
+    head_cc: 106
+    description: >
+      The core adjustable Rescue: a 106 cc head with the 3° loft sleeve and a
+      touch of draw bias, in 17-25°. The 17° head is right-hand only.
+  - name: Qi35 Max Rescue
+    description: >
+      The bonded forgiveness head with higher MOI and a slight draw bias,
+      lofted one degree weaker than the core Rescue at each club number and
+      sold in five lofts from 20° to 35°.
+  - name: Qi35 Max Lite Rescue
+    head_cc: 109
+    description: >
+      The Max geometry in a lighter build — lighter head, Vanquish 5 shaft
+      and lighter grip — for moderate swing speeds, in four lofts from 23°.
+specs:
+  - variant: Qi35 Rescue
+    loft: 17.0
+  - variant: Qi35 Rescue
+    loft: 19.0
+  - variant: Qi35 Rescue
+    loft: 22.0
+  - variant: Qi35 Rescue
+    loft: 25.0
+  - variant: Qi35 Max Rescue
+    loft: 20.0
+  - variant: Qi35 Max Rescue
+    loft: 23.0
+  - variant: Qi35 Max Rescue
+    loft: 27.0
+  - variant: Qi35 Max Rescue
+    loft: 31.0
+  - variant: Qi35 Max Rescue
+    loft: 35.0
+  - variant: Qi35 Max Lite Rescue
+    loft: 23.0
+    lie: 59.5
+  - variant: Qi35 Max Lite Rescue
+    loft: 27.0
+    lie: 60.0
+  - variant: Qi35 Max Lite Rescue
+    loft: 31.0
+    lie: 60.5
+  - variant: Qi35 Max Lite Rescue
+    loft: 35.0
+    lie: 61.0
+hosel:
+  system: "3° Loft Sleeve (Qi35 Rescue only)"
+  loft_range: "±1.5°"
+  positions: 12
+  lie_effect: >
+    As on the fairway sleeve, lie only moves upright from standard.
+  face_note: >
+    Lowering loft opens the face slightly and raising it closes it.
+  notes: >
+    Only the core Qi35 Rescue carries the sleeve — the Max and Max Lite
+    Rescues are bonded and play at their stamped loft. TaylorMade publishes
+    the Rescue sleeve's range (1.5° each way, taking the line from 15.5° to
+    26.5° overall) rather than a Rescue-specific position-by-position chart,
+    so no settings table is reproduced here.
+stock_shafts:
+  - name: "Fujikura Ventus Blue HB '25 (Qi35 Rescue)"
+    material: graphite
+    flex: ["A", "R", "S"]
+  - name: "Mitsubishi Kai'li Blue DarkWave HY 95/85 (low-flight option)"
+    material: graphite
+    flex: ["S", "X"]
+  - name: "Fujikura Air Speeder 5 (Max Rescue)"
+    material: graphite
+  - name: "Mitsubishi Vanquish 5 (Max Lite Rescue)"
+    material: graphite
+    flex: ["A", "R"]
+related_models:
+  - slug: "taylormade/qi35-fairway-wood"
+    label: "Same family: TaylorMade Qi35 fairway woods"
+  - slug: "taylormade/qi35-driver"
+    label: "Same family: TaylorMade Qi35 drivers"
+  - slug: "taylormade/qi10-hybrid"
+    label: "Predecessor: TaylorMade Qi10 Rescues"
+sources:
+  - "Golfalot Qi35 hybrid review (core lofts 17/19/22/25, Ventus Blue HB stock shaft, 3° sleeve), https://www.golfalot.com/equipment-review/taylormade-qi35-hybrid-review, accessed October 2026"
+  - "Irish Golfer and GolfMagic Qi35 Rescue launch coverage, 7 January 2025 (three-model family, Max one degree weaker per club number, 15.5-26.5° family span through the sleeve), https://irishgolfer.ie/gear/2025/01/07/first-look-at-taylormade-qi35-qi35-max-and-qi35-max-lite-rescues/, accessed October 2026"
+  - "Golf Digest Qi35 hybrids preview and Hot List entry (Max fixed hosel, lofts 20/23/27/31/35), https://www.golfdigest.com/story/taylormade-qi35-hybrids-preview, accessed October 2026"
+  - "GolfBox and ClickGolf Max Lite Rescue listings (23/27/31/35 lofts, per-loft lies 59.5-61°, 109 cc, Vanquish 5), https://www.golfbox.com.au/clubs/taylormade-qi35-max-lite-rescue, accessed October 2026"
+  - "Note: TaylorMade publishes lie on the sleeved core Rescue as an adjustable range (about 59-61°), so lie is charted only for the bonded Max Lite heads where a single figure is published."
+faq:
+  - q: "What lofts do the TaylorMade Qi35 Rescues come in?"
+    a: "The core Qi35 Rescue comes in 17, 19, 22 and 25 degrees; the Qi35 Max Rescue in 20, 23, 27, 31 and 35; and the Qi35 Max Lite Rescue in 23, 27, 31 and 35."
+  - q: "Are the Qi35 Rescues adjustable?"
+    a: "Only the core Qi35 Rescue, which carries a 3 degree loft sleeve (1.5 degrees each way). The Qi35 Max and Max Lite Rescues are bonded and play at their stamped loft."
+  - q: "What is the difference between the Qi35 Rescue and the Qi35 Max Rescue?"
+    a: "The core Rescue is the slightly more compact, adjustable head with a mild draw bias. The Max is the bonded high-MOI forgiveness head, lofted one degree weaker at each club number and sold in more lofts — out to a 35 degree 7-Rescue."
+confidence: high

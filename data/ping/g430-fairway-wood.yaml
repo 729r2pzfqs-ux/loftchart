@@ -1,0 +1,125 @@
+brand: Ping
+brand_slug: ping
+model: G430
+slug: g430-fairway-wood
+club_type: fairway_wood
+year_introduced: 2023
+year_discontinued: null
+category: flagship
+construction: steel bodies with Carbonfly Wrap on the LST; shallower Facewrap faces with Spinsistency variable roll
+predecessor: Ping G425
+successor: Ping G440
+description: >
+  The G430 fairway woods reached retail in January 2023 with the G430
+  drivers, led by a thinner, shallower Facewrap maraging steel face and
+  Spinsistency variable roll for more ball speed low on the face. The Max is
+  the core four-loft head, the SFT the draw-biased slice corrector, and both
+  are offered in High Launch (HL) builds with an ALTA Quick shaft and lighter
+  head. A titanium G430 LST 3-wood — 2041 beta-titanium face, 80 g tungsten
+  sole plate and Carbonfly Wrap crown — followed in June 2023 after
+  manufacturing delays. The G440 fairways replaced the line in January 2025.
+variants:
+  - name: G430 Max
+    description: >
+      The core head for most players in four lofts, 176 cc (3-wood) down to
+      148 cc (9-wood) at a D1 swing weight. The HL build swaps to a lighter
+      head and the 38-44 g ALTA Quick shaft at C8.
+  - name: G430 LST
+    description: >
+      Added June 2023: a 169 cc titanium 3-wood with a 2041 beta-titanium
+      face, Ti 8-1-1 body, 80 g tungsten sole plate and Carbonfly Wrap crown
+      — Ping's low-spin tour fairway, 15° only, at D2.
+  - name: G430 SFT
+    description: >
+      The draw-biased slice corrector with heel-side CG, in three lofts at a
+      lighter D0 swing weight.
+specs:
+  - variant: G430 Max
+    loft: 15.0
+    lie: 56.0
+    length: 43.0
+  - variant: G430 Max
+    loft: 18.0
+    lie: 56.5
+    length: 42.5
+  - variant: G430 Max
+    loft: 21.0
+    lie: 57.0
+    length: 42.0
+  - variant: G430 Max
+    loft: 24.0
+    lie: 57.5
+    length: 41.5
+  - variant: G430 LST
+    loft: 15.0
+    length: 43.0
+  - variant: G430 SFT
+    loft: 16.0
+    lie: 56.5
+    length: 43.0
+  - variant: G430 SFT
+    loft: 19.0
+    lie: 57.0
+    length: 42.5
+  - variant: G430 SFT
+    loft: 22.0
+    lie: 57.5
+    length: 42.0
+length_note: >
+  Standard lengths are based on the stock ALTA CB Black 65 shaft. Ping
+  publishes lie as the average across the five neutral-lie hosel positions;
+  no average lie was published for the LST 3-wood.
+hosel:
+  system: "Trajectory Tuning 2.0"
+  loft_range: "±1.5°"
+  positions: 8
+  lie_effect: >
+    Three flat positions sit up to 3° flatter than standard; there is no
+    upright setting.
+  face_note: >
+    Lowering loft opens the face slightly and adding loft closes it.
+  notes: >
+    The same eight-position chart as the G430 drivers — unchanged from the
+    G425 generation and carried on into the G440, so sleeves and settings
+    interchange across Ping's woods.
+  settings:
+    - { setting: "Standard", loft: "std", lie: "std" }
+    - { setting: "+1", loft: "+1°", lie: "std" }
+    - { setting: "Big +", loft: "+1.5°", lie: "std" }
+    - { setting: "−1", loft: "−1°", lie: "std" }
+    - { setting: "Big −", loft: "−1.5°", lie: "std" }
+    - { setting: "Standard Flat", loft: "std", lie: "3° flat" }
+    - { setting: "+1 Flat", loft: "+1°", lie: "3° flat" }
+    - { setting: "−1 Flat", loft: "−1°", lie: "3° flat" }
+stock_shafts:
+  - name: "Ping ALTA CB Black 65"
+    material: graphite
+    flex: ["SR", "R", "S"]
+  - name: "Ping Tour 2.0 Chrome 65/75"
+    material: graphite
+    flex: ["R", "S", "X"]
+  - name: "Ping Tour 2.0 Black 65/75"
+    material: graphite
+    flex: ["S", "X"]
+  - name: "Ping ALTA Quick 35/45 (HL builds)"
+    material: graphite
+    weight: "38-44g"
+related_models:
+  - slug: "ping/g430-driver"
+    label: "Same family: Ping G430 drivers"
+  - slug: "ping/g430-hybrid"
+    label: "Same family: Ping G430 hybrids"
+  - slug: "ping/g440-fairway-wood"
+    label: "Successor: Ping G440 fairway woods"
+sources:
+  - "Ping G430 Max fairway official spec page (15° 3-wood: 56° lie, 176 cc, 218 g, 43 in, D1; HL build at C8), https://ping.com/clubs/fairways/g430-max, accessed October 2026"
+  - "GlobalGolf G430 Max and SFT spec tables (Max 15/18/21/24 with 176-148 cc heads, SFT 16/19/22 at D0), https://www.globalgolf.com/golf-clubs/fairway-wood/?tag=714, accessed October 2026"
+  - "GolfWRX and Irish Golfer G430 LST 3-wood launch coverage, June 2023 (15°, 169 cc, 2041 beta-titanium face, 80 g tungsten sole plate, D2, $600), https://golfwrx.com/716758/ping-g430-lst-3-wood-heads-to-retail/, accessed October 2026"
+faq:
+  - q: "What lofts do the Ping G430 fairway woods come in?"
+    a: "The G430 Max comes in 15, 18, 21 and 24 degrees; the G430 SFT in 16, 19 and 22; and the titanium G430 LST in a single 15 degree 3-wood."
+  - q: "Is the Ping G430 fairway wood adjustable?"
+    a: "Yes — every head uses Ping's eight-position Trajectory Tuning 2.0 hosel, with ±1.5 degrees of loft and flat positions up to 3 degrees flatter than standard."
+  - q: "What is special about the G430 LST 3-wood?"
+    a: "It is a titanium fairway: a 2041 beta-titanium face and Ti 8-1-1 body with an 80 gram tungsten sole plate and Carbonfly Wrap crown. Ping claimed about seven yards over the steel Max 3-wood from faster ball speed and less spin, at a 600 dollar premium price."
+confidence: high

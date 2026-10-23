@@ -1,0 +1,64 @@
+brand: XXIO
+brand_slug: xxio
+model: "14"
+slug: 14-hybrid
+club_type: hybrid
+year_introduced: 2025
+year_discontinued: null
+category: lightweight
+current_as_of: "2026-10"
+construction: ultra-lightweight cast construction with glued hosel and Cannon Sole weighting
+material: high-strength steel face with Rebound Frame flex zones
+predecessor: XXIO 13
+successor: null
+description: >
+  The XXIO 14 hybrids launched in early 2025 with the XXIO 14 woods — one
+  lightweight head in five lofts from an 18° 3-hybrid to a 30° 7-hybrid, with
+  head sizes from 131 cc down to 123 cc, every build at a D1 swing weight
+  with XXIO's counterbalanced Weight Plus grip. The hosels are glued. As of
+  October 2026 the line is current, with the next generation expected in
+  2027.
+variants:
+  - name: "XXIO 14"
+    description: >
+      The single hybrid head in five lofts, right- and left-handed, built
+      light and slightly long for moderate swing speeds.
+specs:
+  - variant: "XXIO 14"
+    loft: 18.0
+    lie: 58.5
+    length: 41.0
+  - variant: "XXIO 14"
+    loft: 20.0
+    lie: 59.0
+    length: 40.5
+  - variant: "XXIO 14"
+    loft: 23.0
+    lie: 59.5
+    length: 40.0
+  - variant: "XXIO 14"
+    loft: 26.0
+    lie: 60.0
+    length: 39.5
+  - variant: "XXIO 14"
+    loft: 30.0
+    lie: 60.5
+    length: 39.0
+stock_shafts:
+  - name: "XXIO MP1400 (men's)"
+    material: graphite
+    flex: ["R2", "R", "SR", "S"]
+related_models:
+  - slug: "xxio/14-fairway-wood"
+    label: "Same family: XXIO 14 fairway woods"
+  - slug: "xxio/14-driver"
+    label: "Same family: XXIO 14 drivers"
+sources:
+  - "Dunlop Sports XXIO 14 hybrid spec chart (18/20/23/26/30 lofts, lies 58.5-60.5°, lengths 41-39 in, head volumes 131-123 cc, D1, RH/LH), https://za.dunlopsports.com/MX14HYB.html, accessed October 2026"
+  - "Fairway Jockey XXIO 14 hybrid spec table (matching lofts, lies and lengths), https://fairwayjockey.com/products/xxio-14-hybrid, accessed October 2026"
+faq:
+  - q: "What lofts does the XXIO 14 hybrid come in?"
+    a: "Five lofts: 18, 20, 23, 26 and 30 degrees — the 3-hybrid through 7-hybrid."
+  - q: "Is the XXIO 14 hybrid adjustable?"
+    a: "No — the hosel is glued, as across the XXIO line. The loft printed on the head is the loft it plays."
+confidence: high

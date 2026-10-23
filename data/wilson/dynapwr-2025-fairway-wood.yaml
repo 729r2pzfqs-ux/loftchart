@@ -1,0 +1,96 @@
+brand: Wilson
+brand_slug: wilson
+model: Dynapwr
+slug: dynapwr-2025-fairway-wood
+club_type: fairway_wood
+year_introduced: 2025
+year_discontinued: null
+category: flagship
+current_as_of: "2026-10"
+construction: carbon-crown steel body with 30 g fixed tungsten sole weight (Carbon); thin-cast steel crown with 12 g rear weight (Max)
+material: variable-thickness high-strength steel faces
+predecessor: Wilson Dynapwr (2023)
+successor: null
+description: >
+  Wilson's 2025 Dynapwr fairway woods launched in February 2025 with the
+  second-generation Dynapwr drivers. The Carbon is the player's head — carbon
+  crown, 30 g of low-forward tungsten and a six-way adjustable hosel — in
+  five lofts from a 13.5° 3+ wood; the Max is the bonded, higher-launching
+  forgiveness head with a 12 g rear weight, in three lofts. As of October
+  2026 the line is still current, with no 2027 replacement announced.
+variants:
+  - name: Dynapwr Carbon
+    description: >
+      The adjustable player's head with a carbon crown and 30 g tungsten
+      weight for a penetrating flight, in five lofts; the 3+ (13.5°), 4-wood
+      and 7-wood are right-hand only.
+  - name: Dynapwr Max
+    description: >
+      The bonded forgiveness head with a thin-cast steel crown and 12 g rear
+      weight for high, towering flight, in three lofts; the 7-wood is
+      right-hand only.
+specs:
+  - variant: Dynapwr Carbon
+    loft: 13.5
+    lie: 56.0
+  - variant: Dynapwr Carbon
+    loft: 15.0
+    lie: 56.0
+  - variant: Dynapwr Carbon
+    loft: 16.5
+    lie: 56.0
+  - variant: Dynapwr Carbon
+    loft: 18.0
+    lie: 56.5
+  - variant: Dynapwr Carbon
+    loft: 21.0
+    lie: 57.0
+  - variant: Dynapwr Max
+    loft: 15.0
+    lie: 57.5
+    length: 43.25
+  - variant: Dynapwr Max
+    loft: 18.0
+    lie: 58.0
+    length: 42.5
+  - variant: Dynapwr Max
+    loft: 21.0
+    lie: 58.5
+    length: 42.0
+hosel:
+  system: "Wilson six-way adjustable hosel (Carbon only)"
+  loft_range: "±1°"
+  positions: 6
+  lie_effect: >
+    The six positions trade loft against face angle rather than offering an
+    independent lie setting.
+  notes: >
+    Only the Dynapwr Carbon is adjustable — the Max is bonded and plays at
+    its stamped loft. Wilson publishes the hosel's range but no
+    position-by-position degree chart, so no settings table is reproduced
+    here.
+stock_shafts:
+  - name: "Fujikura Ventus TR Blue (Carbon)"
+    material: graphite
+    flex: ["R", "S"]
+  - name: "UST Mamiya LIN-Q Red (Max)"
+    material: graphite
+    flex: ["A", "R", "S"]
+related_models:
+  - slug: "wilson/dynapwr-2025-driver"
+    label: "Same family: Wilson Dynapwr drivers"
+  - slug: "wilson/dynapwr-2025-hybrid"
+    label: "Same family: Wilson Dynapwr hybrids"
+sources:
+  - "Today's Golfer and MyGolfSpy Dynapwr Carbon fairway coverage (13.5/15/16.5/18/21 lofts, RH-only heads, 30 g tungsten, adjustable hosel, Ventus TR Blue, $329.99), https://www.todays-golfer.com/equipment/golf-clubs/fairway-woods/wilson-dynapwr-carbon-2025/, accessed October 2026"
+  - "Golfio Dynapwr Carbon and Max spec tables (Carbon lies 56-57°; Max 15/18/21 at 57.5-58.5° lie and 43.25-42 in), https://www.golfio.com/products/wilson-dynapwr-carbon-fairway-wood-25-men, accessed October 2026"
+  - "GolfWRX Dynapwr family launch, January 2025 (Carbon adjustable, Max bonded with 12 g rear weight, pricing), https://golfwrx.com/753667/wilson-introduces-new-dynapwr-drivers-fairways-and-hybrids/, accessed October 2026"
+  - "Note: Wilson does not publish standard lengths for the Carbon (retail builds vary by shaft), so lengths are charted only for the Max."
+faq:
+  - q: "What lofts do the 2025 Wilson Dynapwr fairway woods come in?"
+    a: "The Dynapwr Carbon comes in 13.5, 15, 16.5, 18 and 21 degrees; the Dynapwr Max in 15, 18 and 21."
+  - q: "Is the Wilson Dynapwr fairway wood adjustable?"
+    a: "Only the Carbon, which carries Wilson's six-way adjustable hosel. The Max has a bonded hosel and plays at its stamped loft."
+  - q: "What is the difference between the Dynapwr Carbon and Max fairway woods?"
+    a: "The Carbon is the lower-spinning player's head — carbon crown, 30 grams of forward tungsten, adjustable hosel, flatter lies. The Max is the bonded game-improvement head with a rear weight for high launch, at 50 dollars less."
+confidence: high

@@ -1,0 +1,123 @@
+brand: Titleist
+brand_slug: titleist
+model: TSR
+slug: tsr-hybrid
+club_type: hybrid
+year_introduced: 2022
+year_discontinued: 2024
+category: flagship
+construction: steel bodies with high-strength forged faces; adjustable CG track on the TSR3
+material: forged variable-thickness face
+predecessor: Titleist TSi
+successor: Titleist GT
+description: >
+  The TSR2 and TSR3 hybrids launched in November 2022, a few months after the
+  TSR drivers and fairways, and the lightweight TSR1 hybrid followed with the
+  TSR1 line in February 2023. The TSR2 is the larger, easier-launching head
+  in 18°, 21° and 24°; the TSR3 is the compact player's head in 19°, 21° and
+  24° with a sliding CG track for shape bias; and the TSR1 runs 20° to 29° at
+  a lighter overall build for moderate swing speeds. Every head carries the
+  16-setting SureFit hosel. The GT hybrids replaced the line in late 2024.
+variants:
+  - name: TSR1
+    description: >
+      The lightweight high-launch head for moderate swing speeds, in four
+      lofts from 20° to 29° with sub-50-gram stock shafts.
+  - name: TSR2
+    description: >
+      The core head: larger profile, deep CG and high launch, built to
+      replace long irons directly, in 18°, 21° and 24°.
+  - name: TSR3
+    description: >
+      The compact player's head in 19°, 21° and 24°, with a sliding SureFit
+      CG track for fade-to-draw bias tuning and a flatter, more workable
+      flight.
+specs:
+  - variant: TSR1
+    loft: 20.0
+    lie: 57.0
+    length: 40.5
+  - variant: TSR1
+    loft: 23.0
+    lie: 57.5
+    length: 40.0
+  - variant: TSR1
+    loft: 26.0
+    lie: 58.0
+    length: 39.5
+  - variant: TSR1
+    loft: 29.0
+    lie: 58.5
+    length: 39.0
+  - variant: TSR2
+    loft: 18.0
+    lie: 57.0
+    length: 40.5
+  - variant: TSR2
+    loft: 21.0
+    lie: 57.5
+    length: 40.0
+  - variant: TSR2
+    loft: 24.0
+    lie: 58.0
+    length: 39.5
+  - variant: TSR3
+    loft: 19.0
+    lie: 57.0
+    length: 40.5
+  - variant: TSR3
+    loft: 21.0
+    lie: 57.5
+    length: 40.0
+  - variant: TSR3
+    loft: 24.0
+    lie: 58.0
+    length: 39.5
+hosel:
+  system: "SureFit hosel"
+  loft_range: "−0.75° to +1.5°"
+  positions: 16
+  lie_effect: "Lie adjusts independently of loft, from 0.75° flat to 1.5° upright."
+  face_note: >
+    Loft changes open or close the face slightly at address; SureFit's ring
+    and cog adjust loft and lie independently, unlike single-axis sleeves.
+  notes: >
+    The chart below is the right-handed chart; A1 is the standard setting.
+    For left-handed clubs the chart mirrors and D4 is standard. The sleeve
+    interchanges with Titleist's woods back to the TS generation.
+  settings:
+    - { setting: "A1", loft: "std", lie: "std" }
+    - { setting: "A2", loft: "std", lie: "1.5° upright" }
+    - { setting: "A3", loft: "+1.5°", lie: "1.5° upright" }
+    - { setting: "A4", loft: "+1.5°", lie: "std" }
+    - { setting: "B1", loft: "std", lie: "0.75° flat" }
+    - { setting: "B2", loft: "std", lie: "0.75° upright" }
+    - { setting: "B3", loft: "+1.5°", lie: "0.75° upright" }
+    - { setting: "B4", loft: "+1.5°", lie: "0.75° flat" }
+    - { setting: "C1", loft: "−0.75°", lie: "0.75° flat" }
+    - { setting: "C2", loft: "−0.75°", lie: "0.75° upright" }
+    - { setting: "C3", loft: "+0.75°", lie: "0.75° upright" }
+    - { setting: "C4", loft: "+0.75°", lie: "0.75° flat" }
+    - { setting: "D1", loft: "−0.75°", lie: "std" }
+    - { setting: "D2", loft: "−0.75°", lie: "1.5° upright" }
+    - { setting: "D3", loft: "+0.75°", lie: "1.5° upright" }
+    - { setting: "D4", loft: "+0.75°", lie: "std" }
+related_models:
+  - slug: "titleist/tsr-fairway-wood"
+    label: "Same family: Titleist TSR fairway woods"
+  - slug: "titleist/tsr-driver"
+    label: "Same family: Titleist TSR drivers"
+  - slug: "titleist/gt-hybrid"
+    label: "Successor: Titleist GT hybrids"
+sources:
+  - "Golf Business News and GolfMagic TSR2/TSR3 hybrid launch coverage, November 2022 (TSR2 18/21/24, TSR3 19/21/24, SureFit hosel, TSR3 CG track), https://golfbusinessnews.com/news/new-products/titleist-launches-tsr2-and-tsr3-hybrids, accessed October 2026"
+  - "2nd Swing TSR2 hybrid spec listing and Titleist spec grid reproductions (per-loft lies 57-58.5° and lengths 40.5-38.5 in; TSR1 20/23/26/29), https://www.2ndswing.com/golf-clubs/hybrids/titleist-tsr2-hybrid/tsr2-new-hyg, accessed October 2026"
+  - "Note: lie and length figures come from retailer reproductions of Titleist's spec grid rather than a live titleist.com page, which no longer carries the TSR hybrids."
+faq:
+  - q: "What lofts do the Titleist TSR hybrids come in?"
+    a: "The TSR2 comes in 18, 21 and 24 degrees; the TSR3 in 19, 21 and 24; and the lightweight TSR1 in 20, 23, 26 and 29."
+  - q: "Are the Titleist TSR hybrids adjustable?"
+    a: "Yes — every head uses the 16-setting SureFit hosel, with loft from minus 0.75 to plus 1.5 degrees and lie from 0.75 degrees flat to 1.5 degrees upright. The TSR3 also carries a sliding CG track for shape bias."
+  - q: "What is the difference between the TSR2 and TSR3 hybrids?"
+    a: "The TSR2 is the larger, higher-launching head starting at 18 degrees. The TSR3 is the compact player's shape starting at 19 degrees with the adjustable CG track, flighting lower and favouring workability."
+confidence: high

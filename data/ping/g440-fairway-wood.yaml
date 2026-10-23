@@ -1,0 +1,145 @@
+brand: Ping
+brand_slug: ping
+model: G440
+slug: g440-fairway-wood
+club_type: fairway_wood
+year_introduced: 2025
+year_discontinued: null
+category: flagship
+current_as_of: "2026-10"
+construction: steel bodies with Carbonfly Wrap composite crown and weight-saving Free Hosel; the LST is titanium-bodied with a tungsten sole plate
+material: maraging steel faces on the Max and SFT; HST titanium face and Ti 8-1-1 body on the LST
+predecessor: Ping G430
+successor: null
+description: >
+  The G440 fairway woods launched on 30 January 2025 with the G440 drivers,
+  carrying the same Carbonfly Wrap crown and weight-saving Free Hosel. The
+  Max is the core head for most players and adds a new 17° 4-wood to the
+  familiar 3-9-wood ladder; the LST is the compact titanium-bodied low-spin
+  head for faster swings; and the SFT is the draw-biased slice corrector with
+  a taller face for tee use. High Launch (HL) builds of the Max and SFT pair
+  an aluminium backweight with the 38-44 g ALTA Quick shaft at a C7-C8 swing
+  weight.
+variants:
+  - name: G440 Max
+    description: >
+      The core head for most players, in five lofts including a new 17°
+      4-wood. Head sizes run 186 cc (3-wood) down to 157 cc (9-wood), all at
+      a D2 swing weight.
+  - name: G440 LST
+    description: >
+      The low-spin head: HST titanium face, Ti 8-1-1 body, tungsten sole
+      plate and Carbonfly Wrap crown for a penetrating flight. 190 cc 3-wood
+      and 176 cc 5-wood at a D3 swing weight.
+  - name: G440 SFT
+    description: >
+      The draw-biased slice corrector with heel-side CG and a taller face for
+      confidence off the tee. 193-174 cc heads at a lighter D0 swing weight.
+specs:
+  - variant: G440 Max
+    loft: 15.0
+    lie: 56.0
+    length: 43.0
+  - variant: G440 Max
+    loft: 17.0
+    lie: 56.0
+    length: 43.0
+  - variant: G440 Max
+    loft: 19.0
+    lie: 56.5
+    length: 42.5
+  - variant: G440 Max
+    loft: 21.0
+    lie: 57.0
+    length: 42.0
+  - variant: G440 Max
+    loft: 24.0
+    lie: 57.5
+    length: 41.5
+  - variant: G440 LST
+    loft: 15.0
+    lie: 56.0
+    length: 43.0
+  - variant: G440 LST
+    loft: 19.0
+    lie: 56.5
+    length: 42.5
+  - variant: G440 SFT
+    loft: 16.0
+    lie: 56.5
+    length: 43.0
+  - variant: G440 SFT
+    loft: 19.0
+    lie: 57.0
+    length: 42.5
+  - variant: G440 SFT
+    loft: 22.0
+    lie: 57.5
+    length: 42.0
+length_note: >
+  Standard lengths are based on the stock ALTA CB Blue 65 shaft. Ping
+  publishes lie as the average across the five neutral-lie hosel positions.
+hosel:
+  system: "Trajectory Tuning 2.0"
+  loft_range: "±1.5°"
+  positions: 8
+  lie_effect: >
+    Three flat positions sit up to 3° flatter than standard; there is no
+    upright setting.
+  face_note: >
+    Lowering loft opens the face slightly and adding loft closes it, as on
+    any hosel-based adjuster.
+  notes: >
+    The same eight-position chart as the G440 drivers, carried unchanged from
+    the G425 and G430 generations, so sleeves and settings interchange across
+    Ping's woods. The ±1.5° "big" settings exist only at the standard lie;
+    the flat positions offer 0 and ±1° of loft.
+  settings:
+    - { setting: "Standard", loft: "std", lie: "std" }
+    - { setting: "+1", loft: "+1°", lie: "std" }
+    - { setting: "Big +", loft: "+1.5°", lie: "std" }
+    - { setting: "−1", loft: "−1°", lie: "std" }
+    - { setting: "Big −", loft: "−1.5°", lie: "std" }
+    - { setting: "Standard Flat", loft: "std", lie: "3° flat" }
+    - { setting: "+1 Flat", loft: "+1°", lie: "3° flat" }
+    - { setting: "−1 Flat", loft: "−1°", lie: "3° flat" }
+stock_shafts:
+  - name: "Ping ALTA CB Blue 65"
+    material: graphite
+    weight: "56-62g"
+    flex: ["SR", "R", "S"]
+  - name: "Ping Tour 2.0 Chrome 65/75"
+    material: graphite
+    flex: ["R", "S", "X"]
+  - name: "Ping Tour 2.0 Black 65/75"
+    material: graphite
+    flex: ["S", "X"]
+  - name: "Mitsubishi Tensei 1K Black 75"
+    material: graphite
+    flex: ["S", "X"]
+  - name: "Project X Denali Red 60/70"
+    material: graphite
+    flex: ["5.5", "6.0", "6.5"]
+  - name: "Ping ALTA Quick 35/45 (HL builds)"
+    material: graphite
+    weight: "38-44g"
+related_models:
+  - slug: "ping/g440-driver"
+    label: "Same family: Ping G440 drivers"
+  - slug: "ping/g440-hybrid"
+    label: "Same family: Ping G440 hybrids"
+  - slug: "ping/g430-fairway-wood"
+    label: "Predecessor: Ping G430 fairway woods"
+sources:
+  - "Ping G440 Max fairway official spec page (lofts 15-24°, lies 56-57.5°, head sizes 186-157 cc, lengths 43-41.5 in, D2, stock shafts, Trajectory Tuning 2.0), https://ping.com/en-us/clubs/fairways/g440-max, accessed October 2026"
+  - "Ping G440 LST fairway official spec page (15° 190 cc and 19° 176 cc titanium heads, D3), https://ping.com/en-us/clubs/fairways/g440-lst, accessed October 2026"
+  - "Ping G440 SFT fairway official spec page (16/19/22° heads at D0, SFT HL build at C7-C8), https://ping.com/en-us/clubs/fairways/g440-sft, accessed October 2026"
+  - "GolfWRX G440 fairway and hybrid announcement (launch timing, new 4-wood), https://golfwrx.com/752612/ping-announces-g440-fairway-woods-hybrids/, accessed October 2026"
+faq:
+  - q: "What lofts do the Ping G440 fairway woods come in?"
+    a: "The G440 Max comes in 15, 17, 19, 21 and 24 degrees — including a new 17 degree 4-wood; the G440 LST in 15 and 19; and the G440 SFT in 16, 19 and 22."
+  - q: "Is the Ping G440 fairway wood adjustable?"
+    a: "Yes — every head uses Ping's eight-position Trajectory Tuning 2.0 hosel, with ±1.5 degrees of loft and flat positions up to 3 degrees flatter than standard. There is no upright setting."
+  - q: "What is the difference between the G440 Max and G440 LST fairway woods?"
+    a: "The Max is the steel-faced core head in five lofts at D2. The LST is a titanium head with an HST titanium face and tungsten sole plate, built for faster swings that need less spin, in 15 and 19 degrees at D3."
+confidence: high

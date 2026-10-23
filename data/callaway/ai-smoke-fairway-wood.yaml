@@ -1,0 +1,141 @@
+brand: Callaway
+brand_slug: callaway
+model: Paradym Ai Smoke
+slug: ai-smoke-fairway-wood
+club_type: fairway_wood
+year_introduced: 2024
+year_discontinued: null
+category: flagship
+construction: steel bodies with carbon crown and tungsten speed cartridge; bonded lightweight build on the MAX Fast
+material: Ai Smart Face — face thickness patterns machine-learned from player data
+predecessor: Callaway Paradym
+successor: Callaway Elyte
+description: >
+  The Paradym Ai Smoke fairway woods launched in January 2024 with the Ai
+  Smoke drivers, led by the machine-learned "Ai Smart Face". The MAX is the
+  core head, carrying the full seven-loft ladder from the 15° 3-wood to the
+  27° 11-wood including the 20° Heavenwood; the Triple Diamond is the compact
+  low-spin tour head; and the MAX Fast is the lightweight, draw-biased bonded
+  build for slower swings. Only the 15° and 16.5° heads of the MAX and Triple
+  Diamond are adjustable. The Elyte fairways replaced the line in early 2025.
+variants:
+  - name: Paradym Ai Smoke MAX
+    description: >
+      The core head for most players in seven lofts, 171 cc (3-wood) down to
+      128 cc (11-wood), including the 20° Heavenwood. The 3-wood and 3HL carry
+      the OptiFit hosel; the rest are bonded. The 3HL, Heavenwood, 9-wood and
+      11-wood are right-hand only.
+  - name: Paradym Ai Smoke Triple Diamond
+    description: >
+      The compact tour head with a 172 cc 3-wood, flatter flight and the
+      lowest spin in the family. 15, 18 and 21 degrees right-handed; 15 and
+      18 left-handed. The 15° head is adjustable.
+  - name: Paradym Ai Smoke MAX Fast
+    description: >
+      The lightweight draw-biased build for slower-to-moderate swings: bonded
+      hosels, lighter components and more upright lies, in four right-hand
+      only lofts from 175 cc down to 133 cc.
+specs:
+  - variant: Paradym Ai Smoke MAX
+    loft: 15.0
+    lie: 56.0
+    length: 43.25
+  - variant: Paradym Ai Smoke MAX
+    loft: 16.5
+    lie: 56.0
+    length: 43.25
+  - variant: Paradym Ai Smoke MAX
+    loft: 18.0
+    lie: 56.5
+    length: 42.75
+  - variant: Paradym Ai Smoke MAX
+    loft: 20.0
+    lie: 57.0
+    length: 43.0
+  - variant: Paradym Ai Smoke MAX
+    loft: 21.0
+    lie: 57.0
+    length: 42.25
+  - variant: Paradym Ai Smoke MAX
+    loft: 24.0
+    lie: 58.0
+    length: 41.75
+  - variant: Paradym Ai Smoke MAX
+    loft: 27.0
+    lie: 59.0
+    length: 41.25
+  - variant: Paradym Ai Smoke Triple Diamond
+    loft: 15.0
+    lie: 56.0
+    length: 43.25
+  - variant: Paradym Ai Smoke Triple Diamond
+    loft: 18.0
+    length: 42.75
+  - variant: Paradym Ai Smoke Triple Diamond
+    loft: 21.0
+    length: 42.25
+  - variant: Paradym Ai Smoke MAX Fast
+    loft: 16.0
+    lie: 58.0
+    length: 43.25
+  - variant: Paradym Ai Smoke MAX Fast
+    loft: 19.0
+    lie: 58.5
+    length: 42.75
+  - variant: Paradym Ai Smoke MAX Fast
+    loft: 22.0
+    lie: 59.0
+    length: 42.25
+  - variant: Paradym Ai Smoke MAX Fast
+    loft: 25.0
+    lie: 59.5
+    length: 41.75
+hosel:
+  system: "OptiFit hosel (3-wood and 3HL heads of the MAX and Triple Diamond)"
+  loft_range: "−1° to +2°"
+  positions: 8
+  lie_effect: >
+    The lie cog has two positions: N (neutral, the stated lie) and D (draw, a
+    more upright lie — Callaway does not publish the degree change).
+  face_note: >
+    Changing loft re-orients the head on the shaft, so lower settings sit
+    slightly open and higher settings slightly closed at address.
+  notes: >
+    Callaway fitted the OptiFit hosel only to the 15° and 16.5° heads of the
+    MAX and Triple Diamond; every other loft, and the whole MAX Fast line, is
+    bonded. The two-cog design is the same one used on the Ai Smoke drivers.
+  settings:
+    - { setting: "−1 / N", loft: "−1°", lie: "neutral" }
+    - { setting: "−1 / D", loft: "−1°", lie: "draw (more upright)" }
+    - { setting: "S / N", loft: "std", lie: "neutral" }
+    - { setting: "S / D", loft: "std", lie: "draw (more upright)" }
+    - { setting: "+1 / N", loft: "+1°", lie: "neutral" }
+    - { setting: "+1 / D", loft: "+1°", lie: "draw (more upright)" }
+    - { setting: "+2 / N", loft: "+2°", lie: "neutral" }
+    - { setting: "+2 / D", loft: "+2°", lie: "draw (more upright)" }
+stock_shafts:
+  - name: "Mitsubishi Tensei AV Blue 65 (MAX)"
+    material: graphite
+  - name: "Mitsubishi Tensei Blue/Silver 40 (MAX Fast)"
+    material: graphite
+    flex: ["R2", "R"]
+related_models:
+  - slug: "callaway/ai-smoke-driver"
+    label: "Same family: Callaway Paradym Ai Smoke drivers"
+  - slug: "callaway/ai-smoke-hybrid"
+    label: "Same family: Callaway Paradym Ai Smoke hybrids"
+  - slug: "callaway/elyte-fairway-wood"
+    label: "Successor: Callaway Elyte fairway woods"
+sources:
+  - "Callaway Ai Smoke MAX fairway spec table (seven lofts 15-27° incl. 20° Heavenwood, lies 56-59°, lengths 43.25-41.25 in, 171-128 cc, adjustable 3W/3HL), https://www.callawaygolf.com/golf-clubs/fairway-woods/fwoods-2024-paradym-ai-smoke-max.html, accessed October 2026"
+  - "Today's Golfer Ai Smoke Triple Diamond fairway review (15/18/21 RH and 15/18 LH, 172 cc, 56° lie 3-wood), https://www.todays-golfer.com/equipment/golf-clubs/fairway-woods/callaway/paradym/callaway-ai-smoke-triple-diamond-fairway-wood/, accessed October 2026"
+  - "Callaway Golf Pre-Owned Ai Smoke MAX Fast fairway spec table (16/19/22/25 RH only, lies 58-59.5°, 175-133 cc, bonded hosel), https://prodpwa.callawaygolfpreowned.com/fairway-woods/fwoods-2024-paradym-ai-smoke-max-fast.html, accessed October 2026"
+  - "National Club Golfer Ai Smoke family overview (adjustability limited to the Max, Max D and Triple Diamond 15° and 16.5° heads), https://www.nationalclubgolfer.com/us/reviews/callaway-paradym-ai-smoke-everything-you-need-to-know/, accessed October 2026"
+faq:
+  - q: "What lofts do the Callaway Paradym Ai Smoke fairway woods come in?"
+    a: "The Ai Smoke MAX comes in 15, 16.5, 18, 20 (Heavenwood), 21, 24 and 27 degrees; the Triple Diamond in 15, 18 and 21; and the MAX Fast in 16, 19, 22 and 25."
+  - q: "Is the Callaway Ai Smoke fairway wood adjustable?"
+    a: "Only the 15 degree 3-woods and the 16.5 degree 3HL carry the OptiFit hosel (minus 1 to plus 2 degrees with a neutral or draw lie cog). Every other loft, and the whole MAX Fast line, is bonded."
+  - q: "What is the difference between the Ai Smoke MAX and MAX Fast fairway woods?"
+    a: "The MAX is the standard-weight core head in seven lofts. The MAX Fast is the lightweight package — bonded hosel, lighter head, shaft and grip, draw bias and more upright lies — in four lofts a degree weaker, built for slower swing speeds."
+confidence: high

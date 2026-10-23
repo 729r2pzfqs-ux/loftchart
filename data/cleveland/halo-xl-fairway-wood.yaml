@@ -1,0 +1,75 @@
+brand: Cleveland
+brand_slug: cleveland
+model: HALO XL
+slug: halo-xl-fairway-wood
+club_type: fairway_wood
+year_introduced: 2024
+year_discontinued: 2026
+category: game-improvement
+construction: oversized cast steel bodies with glued hosels and deep, low weighting
+material: MainFrame XL variable-thickness steel face
+predecessor: Cleveland Launcher XL Halo
+successor: null
+description: >
+  The HALO XL fairway woods launched in January 2024 as Cleveland's
+  game-improvement wood line, alongside the HALO XL hybrids, Hy-Wood and
+  full-face irons. The standard head runs four lofts on an oversized,
+  high-MOI footprint, and the HALO XL Lite is the lightweight build in
+  high-launch lofts for slower swing speeds. The hosels are glued — Cleveland
+  does not do adjustable woods — and the line was Cleveland's last fairway
+  wood: the brand wound down its metalwood range in early 2026 to focus on
+  wedges and putters.
+variants:
+  - name: HALO XL
+    description: >
+      The standard oversized head in four lofts — 185 cc in the 3-wood — with
+      a glued hosel and a draw-friendly, high-launch build; the 21° and 24°
+      heads are right-hand only.
+  - name: HALO XL Lite
+    description: >
+      The lightweight build for slower swing speeds, in high-launch 16.5°,
+      19.5° and 22.5° lofts with lighter shafts and grips.
+specs:
+  - variant: HALO XL
+    loft: 15.0
+    lie: 57.5
+    length: 43.125
+  - variant: HALO XL
+    loft: 18.0
+    lie: 58.0
+    length: 42.625
+  - variant: HALO XL
+    loft: 21.0
+  - variant: HALO XL
+    loft: 24.0
+  - variant: HALO XL Lite
+    loft: 16.5
+  - variant: HALO XL Lite
+    loft: 19.5
+  - variant: HALO XL Lite
+    loft: 22.5
+stock_shafts:
+  - name: "Mitsubishi Tensei AV Blue 55"
+    material: graphite
+    flex: ["R", "S"]
+  - name: "Aldila Ascent PL 40 (A flex and women's builds)"
+    material: graphite
+    flex: ["A", "L"]
+related_models:
+  - slug: "cleveland/halo-xl-hybrid"
+    label: "Same family: Cleveland HALO XL hybrids"
+  - slug: "cleveland/launcher-xl-driver"
+    label: "Related: Cleveland Launcher XL drivers"
+sources:
+  - "Golf Discount HALO XL fairway spec table (15/18/21/24 lofts, 3-wood 57.5° lie, 185 cc, 43.125 in, D1; 21° and 24° right-hand only; Tensei AV Blue 55 and Ascent PL 40 stock shafts), https://www.golfdiscount.com/collections/golf-clubs-brands-cleveland/products/cleveland-halo-xl-fairway-wood-2024, accessed October 2026"
+  - "GolfWRX HALO XL Lite fairway launch (lightweight line in 16.5/19.5/22.5), https://golfwrx.com/749851/cleveland-golf-launches-all-new-halo-xl-lite-fairway-woods/, accessed October 2026"
+  - "MyGolfSpy coverage of Cleveland's exit from metalwoods, February 2026, https://mygolfspy.com/news-opinion/, accessed October 2026"
+  - "Note: Cleveland published lie and length only for the 15° and 18° heads at retail; the 21° and 24° cells are left blank rather than estimated. Lite lofts are as published for the Lite builds."
+faq:
+  - q: "What lofts does the Cleveland HALO XL fairway wood come in?"
+    a: "The standard HALO XL comes in 15, 18, 21 and 24 degrees (21 and 24 right-hand only); the lightweight HALO XL Lite in 16.5, 19.5 and 22.5."
+  - q: "Is the Cleveland HALO XL fairway wood adjustable?"
+    a: "No — the hosel is glued, as on all of Cleveland's woods. The loft printed on the head is the loft it plays."
+  - q: "Is Cleveland still making fairway woods?"
+    a: "No. Cleveland wound down its metalwood line in early 2026 to concentrate on wedges and putters, so the HALO XL generation was its last — the used market and closeout stock are the only sources."
+confidence: high

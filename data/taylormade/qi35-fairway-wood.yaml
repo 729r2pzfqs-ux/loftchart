@@ -1,0 +1,137 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: Qi35
+slug: qi35-fairway-wood
+club_type: fairway_wood
+year_introduced: 2025
+year_discontinued: null
+category: flagship
+construction: multi-material chassis with chromium carbon crown over a steel body (full titanium body on the Tour)
+material: 3D Carbon Twist Face-era steel faces with a titanium-bodied Tour head; Infinity Carbon Crown styling carried over from the drivers
+predecessor: TaylorMade Qi10
+successor: TaylorMade Qi4D
+description: >
+  The Qi35 fairway woods launched on 7 January 2025 alongside the Qi35
+  drivers, and for the first time TaylorMade put its 4° loft sleeve on every
+  3-wood and 5-wood in the line rather than reserving adjustability for the
+  Tour head. The core Qi35 is the all-round head, the titanium-bodied Qi35
+  Tour adds a 50 g sliding sole weight and a sleeved 7-wood for the most
+  adjustable fairway TaylorMade had built, the Qi35 Max is the large-footprint
+  high-MOI head sold down to a 9-wood, and the Qi35 Max Lite is the same Max
+  geometry in a lighter head, shaft and grip build. The Qi4D fairways replaced
+  the line in January 2026.
+variants:
+  - name: Qi35
+    description: >
+      The core head for most players: mid launch, the full chromium carbon
+      cosmetic of the driver line, and the 4° loft sleeve on the 3- and
+      5-woods. Sold in four lofts including a 16.5° 3HL.
+  - name: Qi35 Tour
+    description: >
+      The compact tour head with a titanium body, a 50 g sliding sole weight
+      for flight tuning, and — unusually — a loft sleeve on the 7-wood as
+      well as the 3- and 5-woods.
+  - name: Qi35 Max
+    description: >
+      The high-MOI forgiveness head on the largest footprint in the line
+      (about 190 cc in the 3-wood, stepping down through the set), sold in
+      half-degree-weaker lofts than the core head and down to a 9-wood. The
+      3- and 5-woods carry the loft sleeve; the 7- and 9-woods are bonded.
+  - name: Qi35 Max Lite
+    description: >
+      The Max geometry in a lighter build — lighter head, sub-50-gram shaft
+      and lighter grip — for moderate swing speeds. Three lofts, with the
+      7-wood bonded.
+specs:
+  - variant: Qi35
+    loft: 15.0
+  - variant: Qi35
+    loft: 16.5
+  - variant: Qi35
+    loft: 18.0
+  - variant: Qi35
+    loft: 21.0
+  - variant: Qi35 Tour
+    loft: 15.0
+  - variant: Qi35 Tour
+    loft: 18.0
+  - variant: Qi35 Tour
+    loft: 21.0
+  - variant: Qi35 Max
+    loft: 15.5
+    length: 43.25
+  - variant: Qi35 Max
+    loft: 18.5
+    length: 42.25
+  - variant: Qi35 Max
+    loft: 21.5
+    length: 41.75
+  - variant: Qi35 Max
+    loft: 24.5
+    length: 41.5
+  - variant: Qi35 Max Lite
+    loft: 15.5
+  - variant: Qi35 Max Lite
+    loft: 18.5
+  - variant: Qi35 Max Lite
+    loft: 21.5
+hosel:
+  system: "4° Loft Sleeve"
+  loft_range: "±2°"
+  positions: 12
+  lie_effect: >
+    There is no flat setting — lie only moves upright, up to 4° at the UPRT
+    position, and the loft settings themselves add up to 2° of upright lie.
+  face_note: >
+    Lowering loft opens the face and raising it closes it: about 1.5° per
+    0.75° notch, up to 4° at the full ±2° setting.
+  notes: >
+    TaylorMade publishes one sleeve chart for its metalwoods, so the table
+    matches the Qi35 driver chart. Every 3- and 5-wood in the line carries the
+    sleeve, as does the Qi35 Tour 7-wood; the Max 7- and 9-woods, the Max Lite
+    7-wood and the core 21° head are bonded and play at their stamped loft.
+  settings:
+    - { setting: "STD LOFT", loft: "std", lie: "std", face: "square" }
+    - { setting: "STD +1 notch", loft: "+0.75°", lie: "0.5° upright", face: "1.5° closed" }
+    - { setting: "STD +2 notches", loft: "+1.5°", lie: "1.25° upright", face: "3° closed" }
+    - { setting: "HIGHER", loft: "+2°", lie: "2° upright", face: "4° closed" }
+    - { setting: "HIGHER / UPRT", loft: "+1.5°", lie: "2.75° upright", face: "3° closed" }
+    - { setting: "UPRT +1 notch", loft: "+0.75°", lie: "3.5° upright", face: "1.5° closed" }
+    - { setting: "UPRT", loft: "std", lie: "4° upright", face: "square" }
+    - { setting: "UPRT −1 notch", loft: "−0.75°", lie: "3.5° upright", face: "1.5° open" }
+    - { setting: "LOWER / UPRT", loft: "−1.5°", lie: "2.75° upright", face: "3° open" }
+    - { setting: "LOWER", loft: "−2°", lie: "2° upright", face: "4° open" }
+    - { setting: "STD −2 notches", loft: "−1.5°", lie: "1.25° upright", face: "3° open" }
+    - { setting: "STD −1 notch", loft: "−0.75°", lie: "0.5° upright", face: "1.5° open" }
+stock_shafts:
+  - name: "Fujikura Air Speeder '25 (Qi35, Max)"
+    material: graphite
+  - name: "Mitsubishi Kai'li Blue DarkWave FW 75/65 (Tour)"
+    material: graphite
+    flex: ["R", "S", "X"]
+  - name: "Mitsubishi Vanquish 4 (Max Lite)"
+    material: graphite
+    flex: ["A", "R"]
+related_models:
+  - slug: "taylormade/qi35-driver"
+    label: "Same family: TaylorMade Qi35 drivers"
+  - slug: "taylormade/qi35-hybrid"
+    label: "Same family: TaylorMade Qi35 Rescues"
+  - slug: "taylormade/qi10-fairway-wood"
+    label: "Predecessor: TaylorMade Qi10 fairway woods"
+sources:
+  - "Golfalot Qi35 fairway wood review (core lofts 15/16.5/18/21, Air Speeder stock shaft, 4° loft sleeve), https://golfalot.com/equipment-review/taylormade-qi35-fairway-wood-review, accessed October 2026"
+  - "GolfWRX and GolfMagic Qi35 fairway/hybrid launch coverage, 7 January 2025 (Tour 15/18/21 with sliding weight, Max Lite 15.5/18.5/21.5, sleeve on all 3- and 5-woods, stock shafts), https://golfwrx.com/?p=752149, accessed October 2026"
+  - "Golf Discount Qi35 Max fairway listing (15.5/18.5/21.5/24.5 lofts, lengths 43.25-41.5 in, per-loft head volumes 190-165 cc, D1 swing weight), https://www.golfdiscount.com/products/taylormade-qi35-max-fairway-wood, accessed October 2026"
+  - "Golf.com Qi35 fairway five-things article (Tour 7-wood sleeve, Max ~200 cc footprint claim, pricing), https://golf.com/gear/fairway-woods/taylormade-qi35-fairway-woods-hybrids-5-things/, accessed October 2026"
+  - "Note: TaylorMade publishes lie on the sleeved heads as an adjustable range (e.g. 57-61° on the Max 3-wood) rather than a single figure, so no lie column is charted. The 24.5° Max 9-wood is right-hand only."
+faq:
+  - q: "What lofts do the TaylorMade Qi35 fairway woods come in?"
+    a: "The core Qi35 comes in 15, 16.5, 18 and 21 degrees; the Qi35 Tour in 15, 18 and 21; the Qi35 Max in 15.5, 18.5, 21.5 and 24.5; and the Qi35 Max Lite in 15.5, 18.5 and 21.5."
+  - q: "Are the Qi35 fairway woods adjustable?"
+    a: "Mostly. For the first time TaylorMade fitted its 4 degree loft sleeve to every 3-wood and 5-wood in the line, and to the Qi35 Tour 7-wood. The Max 7- and 9-woods, the Max Lite 7-wood and the core 21 degree head are bonded and play at their stamped loft."
+  - q: "What is the difference between the Qi35 and Qi35 Tour fairway woods?"
+    a: "The Tour is a compact titanium-bodied head with a 50 gram sliding sole weight for flight tuning and a loft sleeve on all three lofts, aimed at faster players. The core Qi35 is the larger steel-bodied all-rounder at 100 dollars less."
+  - q: "Is the Qi35 fairway wood still current?"
+    a: "No — the Qi4D fairway woods replaced the line in January 2026, which makes the Qi35 the value buy as closeout and used stock while it lasts."
+confidence: high

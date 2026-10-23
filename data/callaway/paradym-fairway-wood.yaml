@@ -1,0 +1,142 @@
+brand: Callaway
+brand_slug: callaway
+model: Paradym
+slug: paradym-fairway-wood
+club_type: fairway_wood
+year_introduced: 2023
+year_discontinued: null
+category: flagship
+construction: 455 steel face cup on a steel body with carbon crown; forged titanium face on the Triple Diamond
+material: C300 maraging steel face cups with Jailbreak batwing frame; tungsten speed cartridge in the Triple Diamond
+predecessor: Callaway Rogue ST
+successor: Callaway Paradym Ai Smoke
+description: >
+  The Paradym fairway woods launched in early 2023 with the Paradym drivers.
+  The core Paradym runs a seven-loft ladder from the 15° 3-wood to a 27°
+  11-wood, including the 20° Heavenwood, with an adjustable hosel on the
+  3-wood and 3HL only; the Paradym X is the larger, more upright draw head in
+  four lofts; and the Triple Diamond is the compact tour head, sold down to a
+  13.5° 3+ wood with every loft adjustable. The Paradym Ai Smoke line
+  replaced it in January 2024.
+variants:
+  - name: Paradym
+    description: >
+      The core head for most players in seven lofts, 171 cc (3-wood) down to
+      133 cc (11-wood), including the 20° Heavenwood. The 3-wood and 3HL carry
+      the OptiFit hosel; the rest are bonded. The 3HL, Heavenwood, 9-wood and
+      11-wood are right-hand only.
+  - name: Paradym X
+    description: >
+      The larger, more upright-lied head with a higher flight and draw bias —
+      177 cc in the 3-wood. Four lofts; only the 3-wood is adjustable, and
+      the 3HL and 7-wood are right-hand only.
+  - name: Paradym Triple Diamond
+    description: >
+      The compact low-spin tour head with a deeper face, in three lofts
+      including a 13.5° 3+ wood (right-hand only). All three are adjustable,
+      at a heavier D4 swing weight with Kai'li White stock shafts.
+specs:
+  - variant: Paradym
+    loft: 15.0
+    lie: 56.0
+    length: 43.25
+  - variant: Paradym
+    loft: 16.5
+    lie: 56.0
+    length: 43.25
+  - variant: Paradym
+    loft: 18.0
+    lie: 56.5
+    length: 42.75
+  - variant: Paradym
+    loft: 20.0
+    lie: 57.0
+    length: 43.0
+  - variant: Paradym
+    loft: 21.0
+    lie: 57.0
+    length: 42.25
+  - variant: Paradym
+    loft: 24.0
+    lie: 58.0
+    length: 41.75
+  - variant: Paradym
+    loft: 27.0
+    lie: 59.0
+    length: 41.25
+  - variant: Paradym X
+    loft: 15.0
+    lie: 58.0
+    length: 43.25
+  - variant: Paradym X
+    loft: 16.5
+    lie: 58.0
+    length: 43.25
+  - variant: Paradym X
+    loft: 18.0
+    lie: 58.5
+    length: 42.75
+  - variant: Paradym X
+    loft: 21.0
+    lie: 59.0
+    length: 42.25
+  - variant: Paradym Triple Diamond
+    loft: 13.5
+    length: 43.25
+  - variant: Paradym Triple Diamond
+    loft: 15.0
+    length: 43.25
+  - variant: Paradym Triple Diamond
+    loft: 18.0
+    length: 42.75
+hosel:
+  system: "OptiFit hosel (3-wood heads; all Triple Diamond lofts)"
+  loft_range: "−1° to +2°"
+  positions: 8
+  lie_effect: >
+    The lie cog has two positions: N (neutral, the stated lie) and D (draw, a
+    more upright lie — Callaway does not publish the degree change).
+  face_note: >
+    Changing loft re-orients the head on the shaft, so lower settings sit
+    slightly open and higher settings slightly closed at address.
+  notes: >
+    Callaway's spec sheet marks the core Paradym 3-wood and 3HL, the Paradym X
+    3-wood, and every Triple Diamond loft as adjustable; the other lofts are
+    bonded. The two-cog OptiFit design is the same one used on the Paradym
+    drivers.
+  settings:
+    - { setting: "−1 / N", loft: "−1°", lie: "neutral" }
+    - { setting: "−1 / D", loft: "−1°", lie: "draw (more upright)" }
+    - { setting: "S / N", loft: "std", lie: "neutral" }
+    - { setting: "S / D", loft: "std", lie: "draw (more upright)" }
+    - { setting: "+1 / N", loft: "+1°", lie: "neutral" }
+    - { setting: "+1 / D", loft: "+1°", lie: "draw (more upright)" }
+    - { setting: "+2 / N", loft: "+2°", lie: "neutral" }
+    - { setting: "+2 / D", loft: "+2°", lie: "draw (more upright)" }
+stock_shafts:
+  - name: "Mitsubishi Kai'li White 70/80 (Triple Diamond)"
+    material: graphite
+    flex: ["S", "X"]
+  - name: "Project X HZRDUS Black 70 (Triple Diamond option)"
+    material: graphite
+    flex: ["R"]
+related_models:
+  - slug: "callaway/paradym-driver"
+    label: "Same family: Callaway Paradym drivers"
+  - slug: "callaway/paradym-hybrid"
+    label: "Same family: Callaway Paradym hybrids"
+  - slug: "callaway/ai-smoke-fairway-wood"
+    label: "Successor: Callaway Paradym Ai Smoke fairway woods"
+sources:
+  - "Callaway Golf Pre-Owned Paradym fairway spec table (seven lofts 15-27° incl. 20° Heavenwood, lies 56-59°, lengths 43.25-41.25 in, 171-133 cc, adjustable marks on 3W/3HL), https://www.callawaygolfpreowned.com/golf-clubs/fairway-woods/fwoods-2023-paradym.html, accessed October 2026"
+  - "Callaway Golf Pre-Owned Paradym X fairway spec table (15/16.5/18/21 at 58-59° lie, 177-140 cc), https://www.callawaygolfpreowned.com/golf-clubs/fairway-woods/fwoods-2023-paradym-x.html, accessed October 2026"
+  - "Scottsdale Golf, GolfBox and Golf Galaxy Paradym Triple Diamond listings (13.5/15/18 lofts, 174/174/154 cc, D4, Kai'li White stock shafts), https://golfbox.com.au/clubs/callaway-paradym-triple-diamond-fairway-wood, accessed October 2026"
+  - "Note: retailers disagree on the Triple Diamond's lie (56° at 2nd Swing, 58° at Scottsdale/GolfBox), so no lie is charted for that head."
+faq:
+  - q: "What lofts do the Callaway Paradym fairway woods come in?"
+    a: "The core Paradym comes in 15, 16.5, 18, 20 (Heavenwood), 21, 24 and 27 degrees; the Paradym X in 15, 16.5, 18 and 21; and the Triple Diamond in 13.5, 15 and 18."
+  - q: "Is the Callaway Paradym fairway wood adjustable?"
+    a: "Partly. The core Paradym 3-wood and 3HL, the Paradym X 3-wood and every Triple Diamond loft carry the OptiFit hosel (minus 1 to plus 2 degrees with a neutral or draw lie cog); the other lofts are bonded."
+  - q: "What is the Paradym 3+ wood?"
+    a: "The 13.5 degree Triple Diamond head — a strong-lofted, deep-faced 3-wood built as a tee club for fast swings, right-hand only, playable down to 12.5 or up to 15.5 degrees through the hosel."
+confidence: high

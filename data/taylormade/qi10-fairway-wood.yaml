@@ -1,0 +1,126 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: Qi10
+slug: qi10-fairway-wood
+club_type: fairway_wood
+year_introduced: 2024
+year_discontinued: null
+category: flagship
+construction: steel body with Infinity Carbon Crown; titanium-bodied Tour head with a 50 g sliding sole weight
+material: C300 steel faces with Twist Face bulge and roll; carbon crown across the line
+predecessor: TaylorMade Stealth 2
+successor: TaylorMade Qi35
+description: >
+  The Qi10 fairway woods launched on 9 January 2024 with the Qi10 drivers. The
+  core Qi10 is a bonded five-loft line including a 16.5° 3HL, with the
+  wraparound Infinity Carbon Crown of the drivers; the Qi10 Max is the bonded
+  high-MOI head in weaker lofts on a 200 cc 3-wood footprint; and the Qi10
+  Tour is the compact titanium head with a 50 g sliding sole weight and the
+  only loft sleeve in the family. The Qi35 fairways replaced the line in
+  January 2025, which then put a sleeve on every 3- and 5-wood.
+variants:
+  - name: Qi10
+    description: >
+      The core bonded head for most players, sold in five lofts including the
+      high-launch 16.5° 3HL (195 cc, matching the 3-wood). Mid-high launch
+      with mid-low spin and a neutral bias.
+  - name: Qi10 Tour
+    description: >
+      The compact titanium-bodied tour head — 170 cc 3-wood, 150 cc 5-wood —
+      with a 50 g sliding sole weight for spin and launch tuning and the
+      family's only 4° loft sleeve.
+  - name: Qi10 Max
+    description: >
+      The bonded high-MOI forgiveness head, a degree or so weaker at each slot
+      — 200 cc 3-wood, 180 cc 5-wood, 165 cc 7-wood — with a shallow face and
+      low CG for easy launch. Swing weight D2.
+specs:
+  - variant: Qi10
+    loft: 15.0
+    length: 43.25
+  - variant: Qi10
+    loft: 16.5
+    lie: 59.0
+    length: 43.25
+  - variant: Qi10
+    loft: 18.0
+    length: 42.25
+  - variant: Qi10
+    loft: 21.0
+    length: 41.75
+  - variant: Qi10
+    loft: 24.0
+    length: 41.5
+  - variant: Qi10 Tour
+    loft: 15.0
+    length: 43.25
+  - variant: Qi10 Tour
+    loft: 18.0
+    length: 42.25
+  - variant: Qi10 Max
+    loft: 16.0
+    lie: 59.0
+    length: 43.25
+  - variant: Qi10 Max
+    loft: 19.0
+    lie: 59.5
+    length: 42.25
+  - variant: Qi10 Max
+    loft: 22.0
+    lie: 60.0
+    length: 41.75
+hosel:
+  system: "4° Loft Sleeve (Qi10 Tour only)"
+  loft_range: "±2°"
+  positions: 12
+  lie_effect: >
+    Lie only moves upright from standard, as on the driver sleeve.
+  face_note: >
+    Lowering loft opens the face and raising it closes it.
+  notes: >
+    Only the Qi10 Tour carries the sleeve — the core Qi10 and Qi10 Max are
+    bonded and play at their stamped loft. The chart is TaylorMade's standard
+    metalwood sleeve chart, shared with the Qi10 drivers.
+  settings:
+    - { setting: "STD LOFT", loft: "std", lie: "std", face: "square" }
+    - { setting: "STD +1 notch", loft: "+0.75°", lie: "0.5° upright", face: "1.5° closed" }
+    - { setting: "STD +2 notches", loft: "+1.5°", lie: "1.25° upright", face: "3° closed" }
+    - { setting: "HIGHER", loft: "+2°", lie: "2° upright", face: "4° closed" }
+    - { setting: "HIGHER / UPRT", loft: "+1.5°", lie: "2.75° upright", face: "3° closed" }
+    - { setting: "UPRT +1 notch", loft: "+0.75°", lie: "3.5° upright", face: "1.5° closed" }
+    - { setting: "UPRT", loft: "std", lie: "4° upright", face: "square" }
+    - { setting: "UPRT −1 notch", loft: "−0.75°", lie: "3.5° upright", face: "1.5° open" }
+    - { setting: "LOWER / UPRT", loft: "−1.5°", lie: "2.75° upright", face: "3° open" }
+    - { setting: "LOWER", loft: "−2°", lie: "2° upright", face: "4° open" }
+    - { setting: "STD −2 notches", loft: "−1.5°", lie: "1.25° upright", face: "3° open" }
+    - { setting: "STD −1 notch", loft: "−0.75°", lie: "0.5° upright", face: "1.5° open" }
+stock_shafts:
+  - name: "Fujikura Ventus TR Blue FW (Qi10)"
+    material: graphite
+    flex: ["A", "R", "S"]
+  - name: "Mitsubishi Tensei AV Blue 65/75 (Tour)"
+    material: graphite
+    flex: ["R", "S", "X"]
+  - name: "Fujikura Speeder NX TCS 50 (Max)"
+    material: graphite
+    flex: ["A", "R", "S"]
+related_models:
+  - slug: "taylormade/qi10-driver"
+    label: "Same family: TaylorMade Qi10 drivers"
+  - slug: "taylormade/qi10-hybrid"
+    label: "Same family: TaylorMade Qi10 Rescues"
+  - slug: "taylormade/qi35-fairway-wood"
+    label: "Successor: TaylorMade Qi35 fairway woods"
+sources:
+  - "2nd Swing Qi10 fairway spec listing (core lofts 15/16.5/18/21/24, 195 cc 3W/3HL, Ventus TR Blue FW stock shaft, bonded hosel), https://www.2ndswing.com/golf-clubs/fairway-woods/taylormade-qi10-fairway-wood/qi10-new-fwg, accessed October 2026"
+  - "National Club Golfer Qi10 Max fairway review (16/19/22 lofts, lies 59-60°, lengths 43.25/42.25/41.75 in, 200/180/165 cc, D2, Speeder NX TCS 50), https://www.nationalclubgolfer.com/reviews/fairway-woods/taylormade-qi10-max-fairway-wood-review/, accessed October 2026"
+  - "Today's Golfer and Plugged In Golf Qi10 Tour fairway reviews (15° 170 cc and 18° 150 cc heads, 50 g sliding weight, 4° loft sleeve, Tensei AV Blue stock shafts), https://www.todays-golfer.com/equipment/golf-clubs/fairway-woods/taylormade/qi10/taylormade-qi10-tour-fairway-wood, accessed October 2026"
+  - "Note: lengths on the core Qi10 follow TaylorMade's standard fairway build (43.25-41.5 in); the sleeved Tour heads list lie as an adjustable range (57-61° on the 3-wood), so lie is charted only where a single figure is published."
+faq:
+  - q: "What lofts do the TaylorMade Qi10 fairway woods come in?"
+    a: "The core Qi10 comes in 15, 16.5, 18, 21 and 24 degrees; the Qi10 Tour in 15 and 18; and the Qi10 Max in 16, 19 and 22."
+  - q: "Is the TaylorMade Qi10 fairway wood adjustable?"
+    a: "Only the Qi10 Tour, which carries TaylorMade's 4 degree loft sleeve and a 50 gram sliding sole weight. The core Qi10 and the Qi10 Max have bonded hosels and play at their stamped loft."
+  - q: "What is the difference between the Qi10 and Qi10 Max fairway woods?"
+    a: "The Max is the forgiveness head: a larger 200 cc 3-wood footprint, a shallower face, a lower and deeper centre of gravity, and lofts about a degree weaker at each slot (16/19/22 against 15/18/21)."
+confidence: high

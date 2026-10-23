@@ -1,0 +1,123 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: Stealth 2
+slug: stealth-2-fairway-wood
+club_type: fairway_wood
+year_introduced: 2023
+year_discontinued: 2024
+category: flagship
+construction: steel body with carbon crown; titanium-bodied Plus head with a 50 g sliding sole weight
+material: 3D carbon crown over a steel face and body; advanced V Steel sole across the line
+predecessor: TaylorMade Stealth
+successor: TaylorMade Qi10
+description: >
+  The Stealth 2 fairway woods launched in January 2023 with the Stealth 2
+  drivers, carrying the carbon-crown "Fargiveness" story of that generation.
+  The core Stealth 2 is a bonded five-loft line including a 16.5° 3HL; the
+  Stealth 2 HD is the draw-biased high-launch head in three weaker lofts; and
+  the Stealth 2 Plus is the compact titanium head with a 50 g sliding sole
+  weight, the family's only loft sleeve, and a 13.5° "Rocket 3" at the strong
+  end. The Qi10 fairways replaced the line in January 2024.
+variants:
+  - name: Stealth 2
+    description: >
+      The core bonded head for most players, in five lofts including the
+      high-launch 16.5° 3HL. Mid launch with a neutral bias and a D3 swing
+      weight.
+  - name: Stealth 2 Plus
+    description: >
+      The compact tour head with a titanium body, a 50 g sliding sole weight
+      for shape and spin tuning, and the family's only 4° loft sleeve — sold
+      down to a 13.5° Rocket 3-wood.
+  - name: Stealth 2 HD
+    description: >
+      The draw-biased high-launch head in three lofts about a degree weaker
+      than the core line, with heel weighting to fight a right miss. Swing
+      weight D2.
+specs:
+  - variant: Stealth 2
+    loft: 15.0
+    lie: 59.0
+    length: 43.25
+  - variant: Stealth 2
+    loft: 16.5
+    lie: 59.0
+    length: 43.25
+  - variant: Stealth 2
+    loft: 18.0
+    lie: 59.5
+    length: 42.25
+  - variant: Stealth 2
+    loft: 21.0
+    lie: 60.0
+    length: 41.75
+  - variant: Stealth 2
+    loft: 24.0
+    lie: 60.5
+    length: 41.25
+  - variant: Stealth 2 Plus
+    loft: 13.5
+    length: 43.25
+  - variant: Stealth 2 Plus
+    loft: 15.0
+    length: 43.25
+  - variant: Stealth 2 Plus
+    loft: 18.0
+    length: 42.25
+  - variant: Stealth 2 HD
+    loft: 16.0
+    lie: 59.0
+    length: 43.25
+  - variant: Stealth 2 HD
+    loft: 19.0
+    lie: 59.5
+    length: 42.25
+  - variant: Stealth 2 HD
+    loft: 22.0
+    lie: 60.0
+    length: 41.75
+hosel:
+  system: "4° Loft Sleeve (Stealth 2 Plus only)"
+  loft_range: "±2°"
+  positions: 12
+  lie_effect: >
+    Lie only moves upright from standard, as on the driver sleeve.
+  face_note: >
+    Lowering loft opens the face and raising it closes it.
+  notes: >
+    Only the Stealth 2 Plus carries the sleeve — the core Stealth 2 and the
+    HD are bonded and play at their stamped loft. The chart is TaylorMade's
+    standard metalwood sleeve chart, shared with the Stealth 2 drivers.
+  settings:
+    - { setting: "STD LOFT", loft: "std", lie: "std", face: "square" }
+    - { setting: "STD +1 notch", loft: "+0.75°", lie: "0.5° upright", face: "1.5° closed" }
+    - { setting: "STD +2 notches", loft: "+1.5°", lie: "1.25° upright", face: "3° closed" }
+    - { setting: "HIGHER", loft: "+2°", lie: "2° upright", face: "4° closed" }
+    - { setting: "HIGHER / UPRT", loft: "+1.5°", lie: "2.75° upright", face: "3° closed" }
+    - { setting: "UPRT +1 notch", loft: "+0.75°", lie: "3.5° upright", face: "1.5° closed" }
+    - { setting: "UPRT", loft: "std", lie: "4° upright", face: "square" }
+    - { setting: "UPRT −1 notch", loft: "−0.75°", lie: "3.5° upright", face: "1.5° open" }
+    - { setting: "LOWER / UPRT", loft: "−1.5°", lie: "2.75° upright", face: "3° open" }
+    - { setting: "LOWER", loft: "−2°", lie: "2° upright", face: "4° open" }
+    - { setting: "STD −2 notches", loft: "−1.5°", lie: "1.25° upright", face: "3° open" }
+    - { setting: "STD −1 notch", loft: "−0.75°", lie: "0.5° upright", face: "1.5° open" }
+related_models:
+  - slug: "taylormade/stealth-2-driver"
+    label: "Same family: TaylorMade Stealth 2 drivers"
+  - slug: "taylormade/stealth-2-hybrid"
+    label: "Same family: TaylorMade Stealth 2 Rescues"
+  - slug: "taylormade/qi10-fairway-wood"
+    label: "Successor: TaylorMade Qi10 fairway woods"
+sources:
+  - "GlobalGolf Stealth 2 fairway spec tables (core 15/16.5/18/21/24 with lies 59-60.5° and lengths 43.25-41.25 in, HD 16/19/22 with lies 59-60° and D2), https://www.globalgolf.com/articles/taylormade-stealth-2/, accessed October 2026"
+  - "GolfBox and 2nd Swing Stealth 2 Plus listings (13.5° Rocket 3, 15° and 18° heads, 50 g sliding weight, adjustable lie ranges 57-61.5°), https://www.golfbox.com.au/clubs/taylormade-stealth-2-plus-fairway-wood/, accessed October 2026"
+  - "Golf.com Stealth 2 fairway and hybrid launch coverage, January 2023, https://golf.com/gear/taylormade-stealth2-fairway-woods-hybrids/, accessed October 2026"
+  - "Note: the sleeved Plus heads list lie only as an adjustable range, so lie is charted for the bonded heads only. Stock shafts varied through the run (Fujikura Ventus TR Red FW on the core head at launch) and are not charted."
+faq:
+  - q: "What lofts do the TaylorMade Stealth 2 fairway woods come in?"
+    a: "The core Stealth 2 comes in 15, 16.5, 18, 21 and 24 degrees; the Stealth 2 Plus in 13.5, 15 and 18; and the Stealth 2 HD in 16, 19 and 22."
+  - q: "Is the TaylorMade Stealth 2 fairway wood adjustable?"
+    a: "Only the Stealth 2 Plus, which carries TaylorMade's 4 degree loft sleeve plus a 50 gram sliding sole weight. The core Stealth 2 and the HD are bonded and play at their stamped loft."
+  - q: "What is the Stealth 2 Rocket 3 fairway wood?"
+    a: "The 13.5 degree Stealth 2 Plus head — a strong-lofted 3-wood built for distance off the tee and firm turf, playable because the sleeve can add loft back when needed."
+confidence: high

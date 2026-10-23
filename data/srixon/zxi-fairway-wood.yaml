@@ -1,0 +1,93 @@
+brand: Srixon
+brand_slug: srixon
+model: ZXi
+slug: zxi-fairway-wood
+club_type: fairway_wood
+year_introduced: 2025
+year_discontinued: null
+category: flagship
+construction: steel body with carbon crown; Rebound Frame flex zones behind the face
+material: HT1770M high-strength steel face
+predecessor: Srixon ZX Mk II
+successor: Srixon ZXi RKT
+description: >
+  The ZXi fairway woods launched in January 2025 with the ZXi drivers, on a
+  single head design in four lofts — including a 13.5° 3+ wood — rather than
+  a multi-model lineup. Srixon's Rebound Frame alternates stiff and flexible
+  zones behind the HT1770M steel face for ball speed, and every loft carries
+  the 12-position QTS 1.5 sleeve. The ZXi RKT woods replaced the line in
+  October 2026.
+variants:
+  - name: ZXi
+    description: >
+      The single fairway head: 187 cc in the 3+ and 3-wood, stepping down to
+      142 cc in the 7-wood, at a D3 swing weight with the Ventus TR Blue as
+      the stock shaft. The 3+ and 7-wood are right-hand only.
+specs:
+  - variant: ZXi
+    loft: 13.5
+    lie: 58.0
+    length: 43.25
+  - variant: ZXi
+    loft: 15.0
+    lie: 58.0
+    length: 43.25
+  - variant: ZXi
+    loft: 18.0
+    lie: 58.5
+    length: 42.75
+  - variant: ZXi
+    loft: 21.0
+    lie: 59.0
+    length: 42.25
+length_note: >
+  Srixon's published ZXi lengths are about a quarter inch longer than prior
+  generations because of a change to the USGA / R&A measurement method only —
+  the physical builds did not get longer.
+hosel:
+  system: "QTS 1.5 sleeve"
+  loft_range: "±1.5°"
+  positions: 12
+  lie_effect: >
+    Every position other than standard also flattens lie, from 0.5° to 3°
+    flat; there is no upright setting.
+  face_note: >
+    Face angle moves up to 3° closed on the loft-up side and 3° open on the
+    loft-down side.
+  notes: >
+    The chart is Srixon's official hosel sleeve adjustability guide for the
+    ZXi woods, shared with the ZXi drivers. "FL" marks the flat-lie variants
+    of each loft setting.
+  settings:
+    - { setting: "STD", loft: "std", lie: "std", face: "square" }
+    - { setting: "+0.5°", loft: "+0.5°", lie: "0.5° flat", face: "1° closed" }
+    - { setting: "+1°", loft: "+1°", lie: "1° flat", face: "2° closed" }
+    - { setting: "+1.5°", loft: "+1.5°", lie: "1.5° flat", face: "3° closed" }
+    - { setting: "+1° FL", loft: "+1°", lie: "2° flat", face: "2° closed" }
+    - { setting: "+0.5° FL", loft: "+0.5°", lie: "2.5° flat", face: "1° closed" }
+    - { setting: "STD FL", loft: "std", lie: "3° flat", face: "square" }
+    - { setting: "−0.5° FL", loft: "−0.5°", lie: "2.5° flat", face: "1° open" }
+    - { setting: "−1° FL", loft: "−1°", lie: "2° flat", face: "2° open" }
+    - { setting: "−1.5°", loft: "−1.5°", lie: "1.5° flat", face: "3° open" }
+    - { setting: "−1°", loft: "−1°", lie: "1° flat", face: "2° open" }
+    - { setting: "−0.5°", loft: "−0.5°", lie: "0.5° flat", face: "1° open" }
+stock_shafts:
+  - name: "Fujikura Ventus TR Blue FW 5/6"
+    material: graphite
+    flex: ["R", "S", "X"]
+related_models:
+  - slug: "srixon/zxi-driver"
+    label: "Same family: Srixon ZXi drivers"
+  - slug: "srixon/zxi-hybrid"
+    label: "Same family: Srixon ZXi hybrids"
+sources:
+  - "Srixon / Dunlop Sports official ZXi fairway spec page (13.5/15/18/21 lofts, lies 58-59°, lengths 43.25-42.25 in, 187-142 cc, D3, Ventus TR Blue, measurement-method note), https://us.dunlopsports.com/srixon/clubs/fairway-woods/zxi-fairway/zxi-fairway-woods/MZXIFWY.html, accessed October 2026"
+  - "Golfalot and MyGolfSpy ZXi RKT woods launch coverage, October 2026 (ZXi fairway's replacement), https://mygolfspy.com/news-opinion/can-srixons-new-zxi-rkt-fairways-and-hybrids-get-your-attention/, accessed October 2026"
+faq:
+  - q: "What lofts does the Srixon ZXi fairway wood come in?"
+    a: "Four lofts: a 13.5 degree 3+ wood, 15 degree 3-wood, 18 degree 5-wood and 21 degree 7-wood. The 3+ and 7-wood are right-hand only."
+  - q: "Is the Srixon ZXi fairway wood adjustable?"
+    a: "Yes — every loft carries Srixon's 12-position QTS 1.5 sleeve: loft moves ±1.5 degrees, every non-standard position also flattens lie by up to 3 degrees, and face angle moves up to 3 degrees either way."
+  - q: "Is the Srixon ZXi fairway wood still current?"
+    a: "No — the ZXi RKT woods replaced the line in October 2026, making the ZXi the value buy on closeout while stock lasts."
+confidence: high

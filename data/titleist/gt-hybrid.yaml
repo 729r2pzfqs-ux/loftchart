@@ -1,0 +1,129 @@
+brand: Titleist
+brand_slug: titleist
+model: GT
+slug: gt-hybrid
+club_type: hybrid
+year_introduced: 2024
+year_discontinued: null
+category: flagship
+current_as_of: "2026-10"
+construction: steel bodies with high-strength forged faces; two-position sole weighting on the GT3
+material: forged variable-thickness face
+predecessor: Titleist TSR
+successor: null
+description: >
+  The GT hybrids followed the GT woods to retail in late 2024, with the
+  lightweight GT1 joining in February 2025. The GT2 is the larger,
+  easier-launching head in 18°, 21° and 24°; the GT3 is the compact player's
+  head in 19°, 21° and 24° with an 11 g aft / 3 g forward interchangeable
+  weight pair for flight tuning; and the GT1 is the lightweight high-launch
+  model running 20° to 29° for moderate swing speeds. Every head carries the
+  16-setting SureFit hosel. The GTS generation has so far covered drivers and
+  fairways only, so the GT hybrids remain Titleist's current line.
+variants:
+  - name: GT1
+    description: >
+      The lightweight high-launch head for moderate swing speeds, in four
+      lofts from 20° to 29°, built with sub-50-gram stock shafts.
+  - name: GT2
+    description: >
+      The core head: a touch larger, higher-launching, built to replace long
+      irons directly, in 18°, 21° and 24°.
+  - name: GT3
+    description: >
+      The compact player's head in 19°, 21° and 24° (108, 109 and 106 cc),
+      with interchangeable 11 g aft and 3 g forward weights to move flight
+      and spin.
+specs:
+  - variant: GT1
+    loft: 20.0
+    lie: 57.5
+    length: 40.5
+  - variant: GT1
+    loft: 23.0
+    lie: 58.0
+    length: 40.0
+  - variant: GT1
+    loft: 26.0
+    lie: 58.5
+    length: 39.5
+  - variant: GT1
+    loft: 29.0
+    lie: 59.0
+    length: 39.0
+  - variant: GT2
+    loft: 18.0
+    lie: 57.0
+    length: 40.5
+  - variant: GT2
+    loft: 21.0
+    lie: 57.5
+    length: 40.0
+  - variant: GT2
+    loft: 24.0
+    lie: 58.0
+    length: 39.5
+  - variant: GT3
+    loft: 19.0
+    lie: 57.0
+    length: 40.5
+  - variant: GT3
+    loft: 21.0
+    lie: 57.5
+    length: 40.0
+  - variant: GT3
+    loft: 24.0
+    lie: 58.0
+    length: 39.5
+length_note: >
+  Hybrids configured with the Mitsubishi MMT SpeedMesh shaft are built half
+  an inch longer than the standard lengths charted.
+hosel:
+  system: "SureFit hosel"
+  loft_range: "−0.75° to +1.5°"
+  positions: 16
+  lie_effect: "Lie adjusts independently of loft, from 0.75° flat to 1.5° upright."
+  face_note: >
+    Loft changes open or close the face slightly at address; SureFit's ring
+    and cog adjust loft and lie independently, unlike single-axis sleeves.
+  notes: >
+    The chart below is the right-handed chart; A1 is the standard setting.
+    For left-handed clubs the chart mirrors and D4 is standard. The sleeve
+    interchanges with Titleist's woods back to the TS generation.
+  settings:
+    - { setting: "A1", loft: "std", lie: "std" }
+    - { setting: "A2", loft: "std", lie: "1.5° upright" }
+    - { setting: "A3", loft: "+1.5°", lie: "1.5° upright" }
+    - { setting: "A4", loft: "+1.5°", lie: "std" }
+    - { setting: "B1", loft: "std", lie: "0.75° flat" }
+    - { setting: "B2", loft: "std", lie: "0.75° upright" }
+    - { setting: "B3", loft: "+1.5°", lie: "0.75° upright" }
+    - { setting: "B4", loft: "+1.5°", lie: "0.75° flat" }
+    - { setting: "C1", loft: "−0.75°", lie: "0.75° flat" }
+    - { setting: "C2", loft: "−0.75°", lie: "0.75° upright" }
+    - { setting: "C3", loft: "+0.75°", lie: "0.75° upright" }
+    - { setting: "C4", loft: "+0.75°", lie: "0.75° flat" }
+    - { setting: "D1", loft: "−0.75°", lie: "std" }
+    - { setting: "D2", loft: "−0.75°", lie: "1.5° upright" }
+    - { setting: "D3", loft: "+0.75°", lie: "1.5° upright" }
+    - { setting: "D4", loft: "+0.75°", lie: "std" }
+related_models:
+  - slug: "titleist/gt-fairway-wood"
+    label: "Same family: Titleist GT fairway woods"
+  - slug: "titleist/gt-driver"
+    label: "Same family: Titleist GT drivers"
+  - slug: "titleist/tsr-hybrid"
+    label: "Predecessor: Titleist TSR hybrids"
+sources:
+  - "Titleist official GT hybrid spec chart (GT1 20/23/26/29, GT2 18/21/24, GT3 19/21/24; per-loft lies 57-59° and lengths 40.5-39 in; MMT SpeedMesh +0.5 in note), https://titleist.com.au/golf-clubs/specifications, accessed October 2026"
+  - "GlobalGolf GT3 hybrid listing (head volumes 108/109/106 cc, 11 g aft / 3 g forward weights), https://www.globalgolf.com/golf-clubs/1083982-titleist-gt3-hybrid/, accessed October 2026"
+  - "GolfWRX GT1 family launch coverage, February 2025, https://golfwrx.com/752680/gt1-driver-fairway-woods-hybrid-join-the-titleist-gt-family/, accessed October 2026"
+  - "Note: the 2026 GTS release covers drivers and fairway metals; no GTS hybrid had been announced as of October 2026, so the GT hybrids remain current."
+faq:
+  - q: "What lofts do the Titleist GT hybrids come in?"
+    a: "The GT2 comes in 18, 21 and 24 degrees; the GT3 in 19, 21 and 24; and the lightweight GT1 in 20, 23, 26 and 29."
+  - q: "Are the Titleist GT hybrids adjustable?"
+    a: "Yes — every head uses the 16-setting SureFit hosel, with loft from minus 0.75 to plus 1.5 degrees and lie from 0.75 degrees flat to 1.5 degrees upright, adjusted independently. The GT3 also swaps an 11 gram aft weight and 3 gram forward weight to tune flight."
+  - q: "What is the difference between the GT2 and GT3 hybrids?"
+    a: "The GT2 is the larger, higher-launching head starting at 18 degrees. The GT3 is the compact player's shape starting at 19 degrees, flighting lower, with the interchangeable sole weights the GT2 does not have."
+confidence: high

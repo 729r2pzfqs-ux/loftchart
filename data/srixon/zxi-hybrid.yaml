@@ -1,0 +1,97 @@
+brand: Srixon
+brand_slug: srixon
+model: ZXi
+slug: zxi-hybrid
+club_type: hybrid
+year_introduced: 2025
+year_discontinued: null
+category: flagship
+construction: steel body with Rebound Frame flex zones and a rails-free cambered sole
+material: HT1770M high-strength steel face
+predecessor: Srixon ZX Mk II
+successor: Srixon ZXi RKT
+description: >
+  The ZXi hybrid launched in January 2025 with the ZXi woods — one head
+  design in five lofts from a 17° 2-hybrid to a 28° 6-hybrid, each carrying
+  the 12-position QTS 1.5 sleeve where the previous ZX generations were
+  bonded. Head sizes run 121 cc down to 112 cc at a D2-D3 swing weight with
+  the Ventus TR Blue HB as the stock shaft. The ZXi RKT hybrids replaced the
+  line in October 2026.
+variants:
+  - name: ZXi
+    description: >
+      The single hybrid head in five lofts, iron-like in address footprint
+      with Srixon's Rebound Frame for ball speed and the QTS adjustable
+      sleeve.
+specs:
+  - variant: ZXi
+    loft: 17.0
+    lie: 58.5
+    length: 41.0
+  - variant: ZXi
+    loft: 19.0
+    lie: 59.0
+    length: 40.5
+  - variant: ZXi
+    loft: 22.0
+    lie: 59.5
+    length: 40.0
+  - variant: ZXi
+    loft: 25.0
+    lie: 60.0
+    length: 39.5
+  - variant: ZXi
+    loft: 28.0
+    lie: 60.5
+    length: 39.0
+length_note: >
+  Srixon's published ZXi hybrid lengths are about a quarter inch longer than
+  prior generations because of a change to the USGA / R&A measurement method
+  only — the physical builds did not get longer.
+hosel:
+  system: "QTS 1.5 sleeve"
+  loft_range: "±1.5°"
+  positions: 12
+  lie_effect: >
+    Every position other than standard also flattens lie, from 0.5° to 3°
+    flat; there is no upright setting.
+  face_note: >
+    Face angle moves up to 3° closed on the loft-up side and 3° open on the
+    loft-down side.
+  notes: >
+    The chart is Srixon's official hosel sleeve adjustability guide for the
+    ZXi woods, shared with the ZXi drivers and fairways. "FL" marks the
+    flat-lie variants of each loft setting.
+  settings:
+    - { setting: "STD", loft: "std", lie: "std", face: "square" }
+    - { setting: "+0.5°", loft: "+0.5°", lie: "0.5° flat", face: "1° closed" }
+    - { setting: "+1°", loft: "+1°", lie: "1° flat", face: "2° closed" }
+    - { setting: "+1.5°", loft: "+1.5°", lie: "1.5° flat", face: "3° closed" }
+    - { setting: "+1° FL", loft: "+1°", lie: "2° flat", face: "2° closed" }
+    - { setting: "+0.5° FL", loft: "+0.5°", lie: "2.5° flat", face: "1° closed" }
+    - { setting: "STD FL", loft: "std", lie: "3° flat", face: "square" }
+    - { setting: "−0.5° FL", loft: "−0.5°", lie: "2.5° flat", face: "1° open" }
+    - { setting: "−1° FL", loft: "−1°", lie: "2° flat", face: "2° open" }
+    - { setting: "−1.5°", loft: "−1.5°", lie: "1.5° flat", face: "3° open" }
+    - { setting: "−1°", loft: "−1°", lie: "1° flat", face: "2° open" }
+    - { setting: "−0.5°", loft: "−0.5°", lie: "0.5° flat", face: "1° open" }
+stock_shafts:
+  - name: "Fujikura Ventus TR Blue HB"
+    material: graphite
+    flex: ["R", "S", "X"]
+related_models:
+  - slug: "srixon/zxi-fairway-wood"
+    label: "Same family: Srixon ZXi fairway woods"
+  - slug: "srixon/zxi-driver"
+    label: "Same family: Srixon ZXi drivers"
+sources:
+  - "Srixon / Dunlop Sports official ZXi hybrid spec page (17/19/22/25/28 lofts, lies 58.5-60.5°, lengths 41-39 in, 121-112 cc, Ventus TR Blue HB, measurement-method note), https://us.dunlopsports.com/srixon/clubs/hybrids/zxi-hybrid/zxi-hybrid/MZXIHYB.html, accessed October 2026"
+  - "MyGolfSpy ZXi RKT fairways and hybrids launch coverage, October 2026 (ZXi hybrid's replacement), https://mygolfspy.com/news-opinion/can-srixons-new-zxi-rkt-fairways-and-hybrids-get-your-attention/, accessed October 2026"
+faq:
+  - q: "What lofts does the Srixon ZXi hybrid come in?"
+    a: "Five lofts: 17, 19, 22, 25 and 28 degrees — the 2-hybrid through 6-hybrid."
+  - q: "Is the Srixon ZXi hybrid adjustable?"
+    a: "Yes — every loft carries the 12-position QTS 1.5 sleeve (±1.5 degrees of loft, flat-lie options to 3 degrees), where previous ZX-generation hybrids were bonded."
+  - q: "What replaced the Srixon ZXi hybrid?"
+    a: "The ZXi RKT hybrids, which reached retail on 16 October 2026 with a new VR-Titanium face alloy and an adjustable sole weight."
+confidence: high

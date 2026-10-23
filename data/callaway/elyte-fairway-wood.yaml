@@ -1,0 +1,163 @@
+brand: Callaway
+brand_slug: callaway
+model: Elyte
+slug: elyte-fairway-wood
+club_type: fairway_wood
+year_introduced: 2025
+year_discontinued: null
+category: flagship
+construction: steel bodies with thermoforged carbon crown; forward tungsten Speed Wave sole weight low in the face
+material: forged C300 maraging steel faces with Ai10x smart face design
+predecessor: Callaway Paradym Ai Smoke
+successor: Callaway Quantum
+description: >
+  The Elyte fairway woods launched in early 2025 with the Elyte drivers,
+  built around a tungsten "Speed Wave" weight set low and forward to protect
+  ball speed on low-face strikes. The core Elyte runs a seven-loft ladder
+  from a 15° 3-wood to a 27° 11-wood, including Callaway's 20° Heavenwood;
+  the Elyte X is the larger, higher-launching forgiveness head; the Triple
+  Diamond is the compact low-spin tour head with flatter lies; and the Max
+  Fast is the lightweight build for moderate swing speeds. The Quantum
+  fairways replaced the line in 2026.
+variants:
+  - name: Elyte
+    description: >
+      The core head for most players, in seven lofts from 169 cc (3-wood)
+      down to 123 cc (11-wood), including the 20° Heavenwood. The 3-wood and
+      3HL carry the OptiFit hosel; the rest are bonded. The 3HL, Heavenwood,
+      9-wood and 11-wood are right-hand only.
+  - name: Elyte X
+    description: >
+      The larger, more upright-lied forgiveness head — 175 cc in the 3-wood —
+      with a higher flight and a touch of draw bias. Four lofts; the 3HL and
+      7-wood are right-hand only.
+  - name: Elyte Triple Diamond
+    description: >
+      The compact tour head with flatter 55-56° lies and a neutral-to-fade
+      bias, in three lofts; the adjustable 15° 3-wood is 169 cc and the
+      7-wood is right-hand only.
+  - name: Elyte Max Fast
+    description: >
+      The lightweight build for moderate swing speeds — lighter head, 40 g
+      class Vanquish 4 shaft and lighter grip — in four bonded lofts with
+      more upright lies; the 22° and 25° heads are right-hand only.
+specs:
+  - variant: Elyte
+    loft: 15.0
+    lie: 56.0
+    length: 43.25
+  - variant: Elyte
+    loft: 16.5
+    lie: 56.0
+    length: 43.25
+  - variant: Elyte
+    loft: 18.0
+    lie: 56.5
+    length: 42.75
+  - variant: Elyte
+    loft: 20.0
+    lie: 57.0
+    length: 43.0
+  - variant: Elyte
+    loft: 21.0
+    lie: 57.0
+    length: 42.25
+  - variant: Elyte
+    loft: 24.0
+    lie: 58.0
+    length: 41.75
+  - variant: Elyte
+    loft: 27.0
+    lie: 59.0
+    length: 41.25
+  - variant: Elyte X
+    loft: 15.0
+    lie: 58.0
+    length: 43.25
+  - variant: Elyte X
+    loft: 16.5
+    lie: 58.0
+    length: 43.25
+  - variant: Elyte X
+    loft: 18.0
+    lie: 58.5
+    length: 42.75
+  - variant: Elyte X
+    loft: 21.0
+    lie: 59.0
+    length: 42.25
+  - variant: Elyte Triple Diamond
+    loft: 15.0
+    lie: 55.0
+    length: 43.25
+  - variant: Elyte Triple Diamond
+    loft: 18.0
+    lie: 55.5
+    length: 42.75
+  - variant: Elyte Triple Diamond
+    loft: 21.0
+    lie: 56.0
+    length: 42.25
+  - variant: Elyte Max Fast
+    loft: 16.0
+    lie: 58.0
+    length: 43.25
+  - variant: Elyte Max Fast
+    loft: 19.0
+    lie: 58.5
+    length: 42.75
+  - variant: Elyte Max Fast
+    loft: 22.0
+    lie: 59.0
+    length: 42.25
+  - variant: Elyte Max Fast
+    loft: 25.0
+    lie: 59.5
+    length: 41.75
+hosel:
+  system: "OptiFit hosel (3-wood and 3HL heads)"
+  loft_range: "−1° to +2°"
+  positions: 8
+  lie_effect: >
+    The lie cog has two positions: N (neutral, the stated lie) and D (draw, a
+    more upright lie — Callaway does not publish the degree change).
+  face_note: >
+    Changing loft re-orients the head on the shaft, so lower settings sit
+    slightly open and higher settings slightly closed at address.
+  notes: >
+    Callaway's spec sheet marks only the 15° and 16.5° heads of the Elyte,
+    Elyte X and Triple Diamond as adjustable; every other loft, and the whole
+    Max Fast fairway line, is bonded. The two-cog OptiFit design is the same
+    one used on the Elyte drivers.
+  settings:
+    - { setting: "−1 / N", loft: "−1°", lie: "neutral" }
+    - { setting: "−1 / D", loft: "−1°", lie: "draw (more upright)" }
+    - { setting: "S / N", loft: "std", lie: "neutral" }
+    - { setting: "S / D", loft: "std", lie: "draw (more upright)" }
+    - { setting: "+1 / N", loft: "+1°", lie: "neutral" }
+    - { setting: "+1 / D", loft: "+1°", lie: "draw (more upright)" }
+    - { setting: "+2 / N", loft: "+2°", lie: "neutral" }
+    - { setting: "+2 / D", loft: "+2°", lie: "draw (more upright)" }
+stock_shafts:
+  - name: "Mitsubishi Vanquish 4 (Max Fast)"
+    material: graphite
+    flex: ["A", "R"]
+related_models:
+  - slug: "callaway/elyte-driver"
+    label: "Same family: Callaway Elyte drivers"
+  - slug: "callaway/elyte-hybrid"
+    label: "Same family: Callaway Elyte hybrids"
+  - slug: "callaway/ai-smoke-fairway-wood"
+    label: "Predecessor: Callaway Paradym Ai Smoke fairway woods"
+sources:
+  - "Callaway Elyte fairway official spec table (seven lofts 15-27° incl. 20° Heavenwood, lies 56-59°, lengths 43.25-41.25 in, head volumes 169-123 cc, adjustable marks on 3W/3HL), https://callawaygolf.com/golf-clubs/woods/fwoods-2025-elyte.html, accessed October 2026"
+  - "Callaway Elyte Triple Diamond fairway official page (15° 169 cc at 55° lie, 18° 151 cc, 21° 142 cc RH only), https://callawaygolf.com/golf-clubs/fairway-woods/fwoods-2025-elyte-td.html, accessed October 2026"
+  - "Callaway Golf Pre-Owned and Fairway Jockey Elyte X and Max Fast spec tables (X 15/16.5/18/21 at 58-59° lie and 175-148 cc; Max Fast 16/19/22/25 at 180-139 cc with Vanquish 4), https://www.callawaygolfpreowned.com/golf-clubs/fairway-woods/fwoods-2025-elyte-x.html, accessed October 2026"
+faq:
+  - q: "What lofts do the Callaway Elyte fairway woods come in?"
+    a: "The core Elyte comes in 15, 16.5, 18, 20 (Heavenwood), 21, 24 and 27 degrees; the Elyte X in 15, 16.5, 18 and 21; the Triple Diamond in 15, 18 and 21; and the Max Fast in 16, 19, 22 and 25."
+  - q: "Is the Callaway Elyte fairway wood adjustable?"
+    a: "Only the 15 degree 3-woods and 16.5 degree 3HL heads carry the OptiFit hosel (minus 1 to plus 2 degrees with a neutral or draw lie cog). Every other loft, and the whole Max Fast line, is bonded."
+  - q: "What is the Callaway Heavenwood?"
+    a: "The 20 degree, 43 inch head in the core Elyte line — Callaway's long-running name for a high-launch 7-wood-loft club built to 4-wood length, designed as an easy long-iron replacement."
+confidence: high

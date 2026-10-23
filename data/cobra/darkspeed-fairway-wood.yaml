@@ -1,0 +1,118 @@
+brand: Cobra
+brand_slug: cobra
+model: Darkspeed
+slug: darkspeed-fairway-wood
+club_type: fairway_wood
+year_introduced: 2024
+year_discontinued: null
+category: flagship
+construction: steel bodies with carbon crowns and baffler-style sole rails; titanium LS with heel/toe tungsten
+material: H.O.T. Face — AI-optimised variable face thickness
+predecessor: Cobra Aerojet
+successor: Cobra DS-ADAPT
+description: >
+  The Darkspeed fairway woods launched in January 2024 with the Darkspeed
+  drivers. The X is the core all-round head in four lofts including a 16.5°
+  high-flight 3HF; the titanium LS is the low-spin tour model, sold down to a
+  13° 3+ wood; and the MAX is the forgiveness head with adjustable back and
+  heel weights for draw bias. All three carry Cobra's eight-position MyFly8
+  hosel with SmartPad. The DS-ADAPT fairways replaced the line in January
+  2025.
+variants:
+  - name: Darkspeed X
+    description: >
+      The core all-round head in four lofts with a baffler-rail sole and
+      neutral flight.
+  - name: Darkspeed LS
+    description: >
+      The titanium low-spin tour head on flatter 55.7° lies, in 13° (3+),
+      14.5° and 17.5° lofts for faster swings.
+  - name: Darkspeed MAX
+    description: >
+      The forgiveness head with interchangeable back and heel sole weights
+      for draw-bias tuning, in three lofts a half degree weaker than the X.
+specs:
+  - variant: Darkspeed X
+    loft: 15.0
+    lie: 56.7
+    length: 43.0
+  - variant: Darkspeed X
+    loft: 16.5
+    lie: 56.7
+    length: 43.0
+  - variant: Darkspeed X
+    loft: 18.0
+    lie: 57.5
+    length: 42.5
+  - variant: Darkspeed X
+    loft: 21.0
+    lie: 58.2
+    length: 42.0
+  - variant: Darkspeed LS
+    loft: 13.0
+    lie: 55.7
+    length: 43.0
+  - variant: Darkspeed LS
+    loft: 14.5
+    lie: 55.7
+    length: 43.0
+  - variant: Darkspeed LS
+    loft: 17.5
+    length: 42.5
+  - variant: Darkspeed MAX
+    loft: 15.5
+    length: 43.0
+  - variant: Darkspeed MAX
+    loft: 18.5
+    length: 42.5
+  - variant: Darkspeed MAX
+    loft: 21.5
+    length: 42.0
+hosel:
+  system: "MyFly8 with SmartPad"
+  loft_range: "±1.5°"
+  positions: 8
+  lie_effect: >
+    There is no independent lie adjustment; the three Draw positions add
+    draw bias at their loft instead.
+  face_note: >
+    The SmartPad sole keeps the face visually square at address in all eight
+    settings.
+  notes: >
+    The same chart as the Darkspeed drivers. "Draw" positions play the same
+    loft with added draw bias (Cobra does not publish the exact face or lie
+    delta). On the X 3-wood the settings run 13.5° to 16.5°; on the LS 3+,
+    11.5° to 14.5°; on the MAX 3-wood, 14° to 17°.
+  settings:
+    - { setting: "−1.5", loft: "−1.5°", face: "neutral" }
+    - { setting: "−1", loft: "−1°", face: "neutral" }
+    - { setting: "−1 Draw", loft: "−1°", face: "draw bias" }
+    - { setting: "STD", loft: "std", face: "neutral" }
+    - { setting: "STD Draw", loft: "std", face: "draw bias" }
+    - { setting: "+1", loft: "+1°", face: "neutral" }
+    - { setting: "+1 Draw", loft: "+1°", face: "draw bias" }
+    - { setting: "+1.5", loft: "+1.5°", face: "neutral" }
+stock_shafts:
+  - name: "Mitsubishi Kai'li Blue 70 (LS)"
+    material: graphite
+    flex: ["S", "X"]
+related_models:
+  - slug: "cobra/darkspeed-driver"
+    label: "Same family: Cobra Darkspeed drivers"
+  - slug: "cobra/darkspeed-hybrid"
+    label: "Same family: Cobra Darkspeed hybrids"
+  - slug: "cobra/ds-adapt-fairway-wood"
+    label: "Successor: Cobra DS-ADAPT fairway woods"
+sources:
+  - "2nd Swing Darkspeed X and LS fairway spec listings (X 15/16.5/18/21 with lies 56.7-58.2°; LS 13/14.5/17.5 at 55.7° lie; lengths 43-42 in), https://www.2ndswing.com/golf-clubs/fairway-woods/cobra-darkspeed-x-fairway-wood/dark-sp-x-new-fwg, accessed October 2026"
+  - "Golf.com Darkspeed fairway launch coverage (per-head MyFly ranges: X 3W 13.5-16.5°, LS 3+ 11.5-14.5°, MAX 14-17/17-20/20-23°; $329/$429 pricing), https://golf.com/gear/cobra-darkspeed-fairway-woods-everything-know/, accessed October 2026"
+  - "Irish Golfer Darkspeed fairways and hybrids launch, 12 January 2024, https://irishgolfer.ie/gear/2024/01/12/cobra-darkspeed-fairways-and-hybrids/, accessed October 2026"
+  - "Note: no reliable standard lie was published for the LS 17.5° or the MAX heads, so those cells are blank; lie figures are retailer-reported rather than from a Cobra spec sheet."
+faq:
+  - q: "What lofts do the Cobra Darkspeed fairway woods come in?"
+    a: "The Darkspeed X comes in 15, 16.5, 18 and 21 degrees; the titanium LS in 13 (3+), 14.5 and 17.5; and the MAX in 15.5, 18.5 and 21.5."
+  - q: "Is the Cobra Darkspeed fairway wood adjustable?"
+    a: "Yes — all three heads use Cobra's eight-position MyFly8 hosel with SmartPad, moving loft 1.5 degrees down to 1.5 up, with three draw positions. The MAX also has interchangeable back and heel weights."
+  - q: "What is the Darkspeed 3+ wood?"
+    a: "The 13 degree titanium LS head — a strong-lofted, low-spin 3-wood built as a tee club for fast swings, adjustable from 11.5 to 14.5 degrees."
+confidence: high

@@ -198,14 +198,45 @@ DRIVER_CATEGORY_SHORT = {
     "game-improvement": "game improvement",
 }
 
+# Fairway woods and hybrids are families of head variants exactly like
+# drivers — same variants/specs/hosel schema, same page layout — so they share
+# the driver code paths. WOOD_TYPES is the switch; everything driver-specific
+# in wording goes through WOOD_NOUN / WOOD_PLURAL instead of the literal.
+WOOD_TYPES = ("driver", "fairway_wood", "hybrid")
+
+WOOD_NOUN = {"driver": "driver", "fairway_wood": "fairway wood",
+             "hybrid": "hybrid"}
+WOOD_PLURAL = {"driver": "Drivers", "fairway_wood": "Fairway Woods",
+               "hybrid": "Hybrids"}
+
+# All three wood types share the driver category enum; only the display label
+# changes so a fairway line does not read as a "Flagship Driver Line".
+WOOD_CATEGORY_LABEL = {
+    "driver": DRIVER_CATEGORY_LABEL,
+    "fairway_wood": {
+        "flagship": "Flagship Fairway Wood Line",
+        "lightweight": "Lightweight Fairway Wood",
+        "game-improvement": "Game Improvement Fairway Wood",
+    },
+    "hybrid": {
+        "flagship": "Flagship Hybrid Line",
+        "lightweight": "Lightweight Hybrid",
+        "game-improvement": "Game Improvement Hybrid",
+    },
+}
+
+
+def is_wood(m):
+    return m.get("club_type") in WOOD_TYPES
+
 
 def category_label(m):
     """Display label for a model's category, keyed on its club type."""
     cat = m.get("category")
     if m.get("club_type") == "wedges":
         return WEDGE_CATEGORY_LABEL.get(cat, cat or "—")
-    if m.get("club_type") == "driver":
-        return DRIVER_CATEGORY_LABEL.get(cat, cat or "—")
+    if is_wood(m):
+        return WOOD_CATEGORY_LABEL[m["club_type"]].get(cat, cat or "—")
     return CATEGORY_LABEL.get(cat, cat or "—")
 
 
@@ -442,14 +473,15 @@ def load():
                 specs.sort(key=lambda r: (r.get("loft") or 0,
                                           r.get("bounce") or 0,
                                           str(r.get("grind") or "")))
-            elif m.get("club_type") == "driver":
-                # A driver model is a family of head variants, each sold in a
-                # few stock lofts: rows carry a variant name and a loft,
-                # lie/length are optional (OEMs publish them per head, when at
-                # all), and every variant must resolve to the family's variant
-                # catalogue. The adjustable-hosel chart lives in `hosel`.
+            elif m.get("club_type") in WOOD_TYPES:
+                # A wood model (driver, fairway wood, hybrid) is a family of
+                # head variants, each sold in a few stock lofts: rows carry a
+                # variant name and a loft, lie/length are optional (OEMs
+                # publish them per head, when at all), and every variant must
+                # resolve to the family's variant catalogue. The
+                # adjustable-hosel chart lives in `hosel`.
                 if not m.get("variants"):
-                    errors.append(f"{rel}: driver model missing variants "
+                    errors.append(f"{rel}: wood model missing variants "
                                   "catalogue")
                 vorder = {v.get("name"): i
                           for i, v in enumerate(m.get("variants") or [])}
@@ -504,10 +536,10 @@ def load():
 
 
 def seven_iron(m):
-    # A wedge or driver model has no set order and no reference club, so every
+    # A wedge or wood model has no set order and no reference club, so every
     # caller that summarises a set by its 7-iron (cards, loft spans, brand rows)
     # skips them rather than quoting a meaningless middle row.
-    if m.get("club_type") in ("wedges", "driver"):
+    if m.get("club_type") == "wedges" or is_wood(m):
         return None
     for row in m["specs"]:
         if row["club"] == "7":
@@ -773,7 +805,7 @@ def club_noun(m, club):
 
 
 def model_card(m):
-    if m.get("club_type") == "driver":
+    if is_wood(m):
         lofts = driver_lofts(m)
         n_var = len(m.get("variants") or [])
         spec = (f'<span class="card-spec">{num(lofts[0])}°–{num(lofts[-1])}° · '
@@ -1068,7 +1100,14 @@ def hosel_chart(m):
 
 
 def driver_guide_links(m):
-    """Link a driver model page back to the driver loft guide hub."""
+    """Link a driver model page back to the driver loft guide hub.
+
+    The guides are driver-specific (swing-speed bands, 9° vs 10.5°), so
+    fairway and hybrid pages get nothing rather than advice about a
+    different club.
+    """
+    if m.get("club_type") != "driver":
+        return ""
     lofts = driver_lofts(m)
     if not lofts:
         return ""
@@ -1574,13 +1613,14 @@ def wedge_availability(m):
 
 
 def driver_availability(m):
-    """Driver version of availability(): same status logic, driver-market wording."""
+    """Wood version of availability(): same status logic, wood-market wording."""
     brand, model = esc(m["brand"]), esc(m["model"])
+    noun = WOOD_NOUN[m["club_type"]]
     intro = m.get("year_introduced")
     pred = m.get("predecessor")
     succ = m.get("successor")
     check = ("Before buying used, check the stamped loft against the chart above "
-             "and ask which hosel setting it is in — an adjustable driver may be "
+             f"and ask which hosel setting it is in — an adjustable {noun} may be "
              "set a degree or more away from the number on the sole, and sleeve "
              "adapters are brand- and generation-specific.")
 
@@ -1594,7 +1634,7 @@ def driver_availability(m):
         return f"""<h2>Buying one</h2>
   <p>{brand} has since introduced the {esc(succ)} above it in the range, so the {model} is at
   the end of its retail life rather than fully retired — closeout stock still turns up at
-  retailers, and drivers one generation back are the sweet spot of the used market. {check}</p>"""
+  retailers, and {noun}s one generation back are the sweet spot of the used market. {check}</p>"""
 
     lineage = f" It replaced the {esc(pred)}." if pred else ""
     intro_txt = f"Introduced in {intro}, t" if intro else "T"
@@ -1607,7 +1647,7 @@ def driver_availability(m):
 
     cat = DRIVER_CATEGORY_SHORT.get(m.get("category"))
     slot = (f"a current {cat} line in the {brand} range" if cat and cat != "flagship"
-            else f"the current {brand} driver line")
+            else f"the current {brand} {noun} line")
     hosel_txt = (" New heads are sold in the stock lofts charted above; the hosel "
                  "settings extend each head beyond its stamped loft, so a loft "
                  "between two stock options is usually reachable from either."
@@ -1628,7 +1668,7 @@ def availability(m):
     """
     if m.get("club_type") == "wedges":
         return wedge_availability(m)
-    if m.get("club_type") == "driver":
+    if is_wood(m):
         return driver_availability(m)
     brand, model = esc(m["brand"]), esc(m["model"])
     intro = m.get("year_introduced")
@@ -1705,12 +1745,13 @@ def _globalgolf_url(query):
 def _shop_links(m):
     """Return (2ndswing_url, ebay_url, globalgolf_url) for a model.
 
-    Driver family names are shared with iron lines (G440, Stealth), so the
-    driver queries say so; iron and wedge queries stay as they were.
+    Wood family names are shared with iron lines (G440, Stealth), so the
+    wood queries say which club they mean; iron and wedge queries stay as they
+    were.
     """
     query = f"{m['brand']} {m['model']}"
-    if m.get("club_type") == "driver":
-        query += " driver"
+    if is_wood(m):
+        query += f" {WOOD_NOUN[m['club_type']]}"
     return (_2ndswing_url(query), _ebay_url(f"{query} golf"),
             _globalgolf_url(query))
 
@@ -1730,7 +1771,7 @@ def shop_block(m):
         f'target="_blank" class="shop-btn shop-{cls}">{label}</a>'
         for url, label, cls in links)
 
-    noun = "drivers" if m.get("club_type") == "driver" else "sets"
+    noun = f"{WOOD_NOUN[m['club_type']]}s" if is_wood(m) else "sets"
     return f"""<div id="shop-block">
   <h2>Shop {brand} {model}</h2>
   <p class="shop-lede">Search for new and used {noun} at these retailers:</p>
@@ -1876,14 +1917,17 @@ def linkify_source(text):
 
 def model_page(m, brands, models_by_key, compares_by_key):
     is_wedge = m.get("club_type") == "wedges"
-    is_driver = m.get("club_type") == "driver"
+    # is_driver gates the wood family code path — drivers, fairway woods and
+    # hybrids all render the same page; wood_noun carries the per-type word.
+    is_driver = is_wood(m)
+    wood_noun = WOOD_NOUN.get(m.get("club_type"))
     s7 = seven_iron(m)
     if is_wedge:
         title = fit_title(f"{m['title']} Specs", " — Loft & Bounce Chart",
                           f" | {SITE_NAME}")
     elif is_driver:
-        # "Driver" is already in m["title"]; the tail carries the chart terms
-        # people search ("qi35 loft settings", "g440 adjustment chart").
+        # The club type is already in m["title"]; the tail carries the chart
+        # terms people search ("qi35 loft settings", "g440 adjustment chart").
         title = fit_title(f"{m['title']} Specs", " — Lofts & Settings Chart",
                           f" | {SITE_NAME}")
     else:
@@ -1940,10 +1984,10 @@ def model_page(m, brands, models_by_key, compares_by_key):
         variants = m.get("variants") or []
         n_var = len(variants)
         hosel = m.get("hosel") or {}
-        head_part = (f"{m['brand']} {m['model']} driver specs: "
+        head_part = (f"{m['brand']} {m['model']} {wood_noun} specs: "
                      f"{plural(n_var, 'head variant')}, lofts "
                      f"{num(d_lofts[0])}°–{num(d_lofts[-1])}°. " if d_lofts else
-                     f"{m['brand']} {m['model']} driver specifications. ")
+                     f"{m['brand']} {m['model']} {wood_noun} specifications. ")
         if hosel:
             rich = ([f"Stock lofts for every head plus the full "
                      f"{hosel['system']} adjustment chart, "
@@ -1959,6 +2003,8 @@ def model_page(m, brands, models_by_key, compares_by_key):
             desc = fit_desc(head_part, [
                 "Stock loft options for every head variant, with head sizes "
                 "and stock shafts — a non-adjustable, glued hosel.",
+                "Stock loft options for every head, with lies and lengths — "
+                "a non-adjustable, glued hosel.",
                 "Stock loft options for every head variant on a fixed hosel.",
                 "Full stock loft chart for every head.",
             ])
@@ -2117,7 +2163,7 @@ def model_page(m, brands, models_by_key, compares_by_key):
         "keywords": ", ".join(
             [m["brand"], m["model"], "wedges", "wedge", "loft", "bounce",
              "grind", "specifications"] if is_wedge else
-            [m["brand"], m["model"], "driver", "loft", "settings",
+            [m["brand"], m["model"], wood_noun, "loft", "settings",
              "adjustment chart", "hosel", "specifications"] if is_driver else
             [m["brand"], m["model"], m["type_label"],
              "loft", "lie", "length", "specifications"]),
@@ -2297,7 +2343,7 @@ def brand_page(b, models, brands):
     for dec in sorted(by_decade):
         lis = []
         for m in by_decade[dec]:
-            if m["club_type"] == "driver":
+            if is_wood(m):
                 d_lofts = driver_lofts(m)
                 spec = (f'<span class="mt">{num(d_lofts[0])}°–{num(d_lofts[-1])}° · '
                         f'{plural(len(m.get("variants") or []), "head variant")}</span>'
@@ -2645,9 +2691,11 @@ def compare_slug(a, b):
     ab = TYPE_SUFFIX.sub("", a["slug"])
     bb = TYPE_SUFFIX.sub("", b["slug"])
     # Iron compares own the bare namespace (those URLs are long since indexed);
-    # driver families reuse iron line names (G430, Paradym, Stealth), so their
-    # compare slugs carry the type to keep g430-vs-g440 irons and drivers apart.
-    suffix = "-drivers" if a.get("club_type") == "driver" else ""
+    # wood families reuse iron line names (G430, Paradym, Stealth), so their
+    # compare slugs carry the type to keep g430-vs-g440 irons, drivers,
+    # fairways and hybrids apart.
+    suffix = {"driver": "-drivers", "fairway_wood": "-fairway-woods",
+              "hybrid": "-hybrids"}.get(a.get("club_type"), "")
     if a["brand_slug"] == b["brand_slug"]:
         return f"{a['brand_slug']}-{ab}-vs-{bb}{suffix}"
     return f"{a['brand_slug']}-{ab}-vs-{b['brand_slug']}-{bb}{suffix}"
@@ -3535,7 +3583,8 @@ def driver_compare_analysis(a, b, label_a, label_b, generation=False):
                          f"upgrade.")
         elif generation:
             paras.append(f"The {label_b} arrived {plural(gap, 'year')} after "
-                         f"the {label_a} as its replacement. Driver generations "
+                         f"the {label_a} as its replacement. "
+                         f"{WOOD_NOUN[a['club_type']].capitalize()} generations "
                          f"usually carry over the loft ladder and move the "
                          f"technology — face design, adjustability, head "
                          f"options — so the older family is the value buy on "
@@ -3547,8 +3596,9 @@ def driver_compare_analysis(a, b, label_a, label_b, generation=False):
                          f"than one replacing the other.")
 
     # --- FAQ ------------------------------------------------------------------
+    nounp = f"{WOOD_NOUN[a['club_type']]}s"
     if a_lofts and b_lofts:
-        faq.append((f"What lofts do the {full_a} and {label_b} drivers come in?",
+        faq.append((f"What lofts do the {full_a} and {label_b} {nounp} come in?",
                     f"The {full_a} is sold in stock lofts from {num(a_lofts[0])} "
                     f"to {num(a_lofts[-1])} degrees and the {label_b} from "
                     f"{num(b_lofts[0])} to {num(b_lofts[-1])} degrees. "
@@ -3561,7 +3611,7 @@ def driver_compare_analysis(a, b, label_a, label_b, generation=False):
                  f"{max(len(a_heads), len(b_heads))} head variants against "
                  f"{min(len(a_heads), len(b_heads))}.")))
     if ha and hb:
-        faq.append((f"Are the {full_a} and {label_b} drivers adjustable?",
+        faq.append((f"Are the {full_a} and {label_b} {nounp} adjustable?",
                     f"Yes — the {full_a} uses {ha}, and the {label_b} uses "
                     f"{hb}. Each model page carries the full "
                     f"setting-by-setting adjustment chart."))
@@ -3570,14 +3620,16 @@ def driver_compare_analysis(a, b, label_a, label_b, generation=False):
 
 
 def driver_compare_page(a, b, brands, indexed=False, generation=False):
-    """Compare page for two driver families: head lineups and loft coverage."""
+    """Compare page for two wood families: head lineups and loft coverage."""
     slug = compare_slug(a, b)
+    type_word = WOOD_PLURAL[a["club_type"]]
+    nounp = f"{WOOD_NOUN[a['club_type']]}s"
     same_brand = a["brand"] == b["brand"]
     label_a = a["model"] if same_brand else f"{a['brand']} {a['model']}"
     label_b = b["model"] if same_brand else f"{b['brand']} {b['model']}"
-    core = f"{a['brand']} {a['model']} vs {label_b} Drivers"
+    core = f"{a['brand']} {a['model']} vs {label_b} {type_word}"
     if len(core) > TITLE_MAX:
-        core = f"{a['model']} vs {b['model']} Drivers"
+        core = f"{a['model']} vs {b['model']} {type_word}"
     if len(core) > TITLE_MAX:
         core = core[:TITLE_MAX - 1] + "…"
     title = fit_title(core, " — Compared", f" | {SITE_NAME}")
@@ -3585,7 +3637,7 @@ def driver_compare_page(a, b, brands, indexed=False, generation=False):
     a_lofts, b_lofts = driver_lofts(a), driver_lofts(b)
     n_a = len(a.get("variants") or [])
     n_b = len(b.get("variants") or [])
-    head_part = (f"{a['brand']} {a['model']} vs {label_b} drivers: "
+    head_part = (f"{a['brand']} {a['model']} vs {label_b} {nounp}: "
                  f"{n_a} head variants vs {n_b}. ")
     desc = fit_desc(head_part, [
         "Compare stock lofts head by head, plus each family's hosel "
@@ -3593,11 +3645,11 @@ def driver_compare_page(a, b, brands, indexed=False, generation=False):
         "Compare stock lofts head by head and each family's hosel "
         "adjustability.",
         "Compare stock lofts, head lineups and adjustability.",
-        "Full driver spec comparison.",
+        f"Full {WOOD_NOUN[a['club_type']]} spec comparison.",
     ])
     url = f"/compare/{slug}/"
     nav, bc = crumbs([("Home", "/"), ("Compare", "/compare/"),
-                      (f"{a['model']} vs {b['model']} Drivers", None)])
+                      (f"{a['model']} vs {b['model']} {type_word}", None)])
 
     table = driver_compare_table(a, b, label_a, label_b)
     paras, faq = driver_compare_analysis(a, b, label_a, label_b, generation)
@@ -3632,7 +3684,7 @@ def driver_compare_page(a, b, brands, indexed=False, generation=False):
     body = f"""{nav}
 <div class="wrap">
   <div class="page-head">
-    <h1>{esc(a['brand'])} {esc(a['model'])} vs {esc(b['brand'])} {esc(b['model'])} Drivers</h1>
+    <h1>{esc(a['brand'])} {esc(a['model'])} vs {esc(b['brand'])} {esc(b['model'])} {type_word}</h1>
     <p class="lede">Side-by-side stock loft coverage, head by head. Lofts where the two
     families offer a different number of heads are highlighted.</p>
   </div>
@@ -3650,8 +3702,8 @@ def driver_compare_page(a, b, brands, indexed=False, generation=False):
   <h2>Which should you choose?</h2>
   <p>{esc(verdict)}</p>
   <p>Both families are charted in full on their own pages:
-  <a href="{a['url']}">{esc(a['brand'])} {esc(a['model'])} driver specs</a> and
-  <a href="{b['url']}">{esc(b['brand'])} {esc(b['model'])} driver specs</a>.</p>
+  <a href="{a['url']}">{esc(a['brand'])} {esc(a['model'])} {WOOD_NOUN[a['club_type']]} specs</a> and
+  <a href="{b['url']}">{esc(b['brand'])} {esc(b['model'])} {WOOD_NOUN[b['club_type']]} specs</a>.</p>
   {faq_html}
 
   {shop_block(a)}
@@ -3666,7 +3718,7 @@ def driver_compare_page(a, b, brands, indexed=False, generation=False):
 def compare_page(a, b, brands, indexed=False, generation=False):
     if a.get("club_type") == "wedges":
         return wedge_compare_page(a, b, brands, indexed, generation)
-    if a.get("club_type") == "driver":
+    if is_wood(a):
         return driver_compare_page(a, b, brands, indexed, generation)
     slug = compare_slug(a, b)
     # Lead with the two 7-iron lofts: it is the number people are comparing,
@@ -3839,15 +3891,15 @@ def compare_page(a, b, brands, indexed=False, generation=False):
 def compare_card(slug, a, b):
     """Index card: names with their 7-iron lofts, brands and years, category badges."""
     is_wedge = a.get("club_type") == "wedges"
-    is_driver = a.get("club_type") == "driver"
+    is_driver = is_wood(a)
     # "T100 (2025)" would read "T100 (2025) (33°)" next to its loft.
     na, nb = (re.sub(r" \((\d{4})\)$", r" \1", m["model"]) for m in (a, b))
     if is_driver:
-        # Driver pairs compare head lineups, not a reference loft.
-        names = f"{na} vs {nb} Drivers"
+        # Wood pairs compare head lineups, not a reference loft.
+        names = f"{na} vs {nb} {WOOD_PLURAL[a['club_type']]}"
         diff = abs(len(a.get("variants") or []) - len(b.get("variants") or []))
         ref = None
-        ref_note = " · driver heads"
+        ref_note = f" · {WOOD_NOUN[a['club_type']]} heads"
     elif is_wedge:
         # Wedge pairs compare on selection, not a reference loft.
         names = f"{na} vs {nb}"
@@ -3869,8 +3921,10 @@ def compare_card(slug, a, b):
     cats = [c for c in dict.fromkeys([a.get("category"), b.get("category")]) if c]
     short = (WEDGE_CATEGORY_SHORT if is_wedge else
              DRIVER_CATEGORY_SHORT if is_driver else CATEGORY_SHORT)
+    badge_tail = (" wedges" if is_wedge
+                  else f" {WOOD_NOUN[a['club_type']]}" if is_driver else "")
     badges = "".join(f'<span class="badge">{esc(short.get(c, c))}'
-                     f'{" wedges" if is_wedge else " driver" if is_driver else ""}</span>'
+                     f'{badge_tail}</span>'
                      for c in cats)
     brands_attr = a["brand"] if a["brand"] == b["brand"] else f"{a['brand']}|{b['brand']}"
     search = " ".join([a["brand"], a["model"], b["brand"], b["model"]]
@@ -4066,6 +4120,20 @@ def homepage(brands, models, by_brand):
   <div class="grid">{''.join(model_card(m) for m in driver_recent)}</div>
 """
 
+    fairway_hybrid = [m for m in models
+                      if m["club_type"] in ("fairway_wood", "hybrid")]
+    fw_recent = sorted(fairway_hybrid,
+                       key=lambda m: (-(m.get("year_introduced") or 0),
+                                      m["brand"], m["club_type"]))[:8]
+    fw_model_html = ""
+    if fw_recent:
+        fw_model_html = f"""
+  <h2>Fairway wood &amp; hybrid specs</h2>
+  <p>Fairway and hybrid families from the same lines as the drivers — stock lofts for
+  every head, and the hosel adjustment chart where the family shares one.</p>
+  <div class="grid">{''.join(model_card(m) for m in fw_recent)}</div>
+"""
+
     # The "what degree is a sand wedge" family of questions is the highest-volume
     # thing this archive can answer from data it already holds, so the guides get
     # a slot on the homepage rather than living only in the nav.
@@ -4128,7 +4196,7 @@ def homepage(brands, models, by_brand):
 
   <h2>Browse by brand</h2>
   <div class="grid">{brand_cards}</div>
-{wedge_model_html}{driver_model_html}
+{wedge_model_html}{driver_model_html}{fw_model_html}
   <h2>Wedge loft guides</h2>
   <p>What degree each wedge is, what it carries, and how the four slots gap together —
   with the numbers taken from the spec charts on this site. Start with the

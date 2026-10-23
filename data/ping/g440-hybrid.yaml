@@ -1,0 +1,115 @@
+brand: Ping
+brand_slug: ping
+model: G440
+slug: g440-hybrid
+club_type: hybrid
+year_introduced: 2025
+year_discontinued: null
+category: flagship
+current_as_of: "2026-10"
+construction: steel body with Carbonfly Wrap crown and a new shallower, thinner face; internal Free Hosel
+material: maraging steel face
+predecessor: Ping G430
+successor: null
+description: >
+  The G440 hybrids launched on 30 January 2025 with the G440 woods, on a
+  single six-loft head that runs from a 17° 2-hybrid to a 34° 7-hybrid —
+  Ping's chart maps them to the 2-iron through 7-iron slots. A shallower,
+  thinner face and the internal Free Hosel lower the CG for easier launch,
+  and every head takes the eight-position Trajectory Tuning 2.0 hosel. A High
+  Launch (HL) build pairs an aluminium backweight with the ALTA Quick shaft
+  at a C7 swing weight, offered in the 3H through 7H.
+variants:
+  - name: G440
+    description: >
+      The single hybrid head, in six lofts from 17° to 34° at a D1 swing
+      weight. Ping's own gapping chart pairs the 2H with a 5-wood and 2-iron,
+      the 3H with a 7-wood and 3-iron, and the 4H with a 9-wood and 4-iron.
+specs:
+  - variant: G440
+    loft: 17.0
+    lie: 57.0
+    length: 40.75
+  - variant: G440
+    loft: 20.0
+    lie: 57.5
+    length: 40.25
+  - variant: G440
+    loft: 23.0
+    lie: 58.0
+    length: 39.75
+  - variant: G440
+    loft: 26.0
+    lie: 58.5
+    length: 39.25
+  - variant: G440
+    loft: 30.0
+    lie: 59.0
+    length: 38.75
+  - variant: G440
+    loft: 34.0
+    lie: 59.5
+    length: 38.25
+length_note: >
+  Standard lengths are based on the stock ALTA CB Blue 70 shaft. Ping
+  publishes lie as the average across the five neutral-lie hosel positions.
+hosel:
+  system: "Trajectory Tuning 2.0"
+  loft_range: "±1.5°"
+  positions: 8
+  lie_effect: >
+    Three flat positions sit up to 3° flatter than standard; there is no
+    upright setting.
+  face_note: >
+    Lowering loft opens the face slightly and adding loft closes it.
+  notes: >
+    The same eight-position chart as the G440 drivers and fairways. The
+    ±1.5° "big" settings exist only at the standard lie; the flat positions
+    offer 0 and ±1° of loft.
+  settings:
+    - { setting: "Standard", loft: "std", lie: "std" }
+    - { setting: "+1", loft: "+1°", lie: "std" }
+    - { setting: "Big +", loft: "+1.5°", lie: "std" }
+    - { setting: "−1", loft: "−1°", lie: "std" }
+    - { setting: "Big −", loft: "−1.5°", lie: "std" }
+    - { setting: "Standard Flat", loft: "std", lie: "3° flat" }
+    - { setting: "+1 Flat", loft: "+1°", lie: "3° flat" }
+    - { setting: "−1 Flat", loft: "−1°", lie: "3° flat" }
+stock_shafts:
+  - name: "Ping ALTA CB Blue 70"
+    material: graphite
+    weight: "69-76g"
+    flex: ["SR", "R", "S"]
+  - name: "Ping Tour 2.0 Chrome 85"
+    material: graphite
+    flex: ["R", "S", "X"]
+  - name: "Ping Tour 2.0 Black 90"
+    material: graphite
+    flex: ["S", "X"]
+  - name: "Mitsubishi Tensei 1K Black 85"
+    material: graphite
+    flex: ["S", "X"]
+  - name: "Project X Denali Red 70/80"
+    material: graphite
+    flex: ["5.5", "6.0", "6.5"]
+  - name: "Ping ALTA Quick 35/45 (HL build)"
+    material: graphite
+    weight: "38-42g"
+related_models:
+  - slug: "ping/g440-fairway-wood"
+    label: "Same family: Ping G440 fairway woods"
+  - slug: "ping/g440-driver"
+    label: "Same family: Ping G440 drivers"
+  - slug: "ping/g430-hybrid"
+    label: "Predecessor: Ping G430 hybrids"
+sources:
+  - "Ping G440 hybrid official spec page (lofts 17-34°, lies 57-59.5°, lengths 40.75-38.25 in, D1, stock shafts, Trajectory Tuning 2.0, HL build at C7), https://ping.com/Clubs/Hybrids/G440, accessed October 2026"
+  - "GolfWRX G440 fairway and hybrid announcement, January 2025, https://golfwrx.com/752612/ping-announces-g440-fairway-woods-hybrids/, accessed October 2026"
+faq:
+  - q: "What lofts does the Ping G440 hybrid come in?"
+    a: "Six lofts: 17, 20, 23, 26, 30 and 34 degrees — the 2-hybrid through 7-hybrid. Ping maps them to the 2-iron through 7-iron slots."
+  - q: "Is the Ping G440 hybrid adjustable?"
+    a: "Yes — every loft uses Ping's eight-position Trajectory Tuning 2.0 hosel, with ±1.5 degrees of loft and flat positions up to 3 degrees flatter than standard."
+  - q: "Which G440 hybrid replaces which iron?"
+    a: "Ping's own chart pairs the 17 degree 2H with a 2-iron, 20 degree 3H with a 3-iron, 23 degree 4H with a 4-iron, 26 degree 5H with a 5-iron, 30 degree 6H with a 6-iron and 34 degree 7H with a 7-iron — though hybrids fly further than the iron they replace for most players."
+confidence: high

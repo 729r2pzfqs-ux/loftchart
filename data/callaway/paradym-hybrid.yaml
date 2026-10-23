@@ -1,0 +1,105 @@
+brand: Callaway
+brand_slug: callaway
+model: Paradym
+slug: paradym-hybrid
+club_type: hybrid
+year_introduced: 2023
+year_discontinued: null
+category: flagship
+construction: steel body with carbon crown and Jailbreak batwing frame; Cutwave sole for turf interaction
+material: forged 455 face cup
+predecessor: Callaway Rogue ST
+successor: Callaway Paradym Ai Smoke
+description: >
+  The Paradym hybrids launched in early 2023 with the Paradym woods, both
+  carrying Callaway's +2°/−1° adjustable hosel — unusual at the time, when
+  most hybrid lines were bonded. The core Paradym is the mid-sized head in
+  four lofts at D2; the Paradym X is slightly larger and runs a loft deeper
+  to a 30° 7-hybrid at a lighter D1, with a higher, more draw-biased flight.
+  The Paradym Ai Smoke line replaced it in January 2024.
+variants:
+  - name: Paradym
+    description: >
+      The core hybrid in four lofts at a D2 swing weight; the 27° head is
+      right-hand only.
+  - name: Paradym X
+    description: >
+      The larger, higher-launching head in five lofts at D1, with the 27° and
+      30° heads right-hand only.
+specs:
+  - variant: Paradym
+    loft: 18.0
+    lie: 57.5
+    length: 40.5
+  - variant: Paradym
+    loft: 21.0
+    lie: 58.0
+    length: 40.0
+  - variant: Paradym
+    loft: 24.0
+    lie: 58.5
+    length: 39.5
+  - variant: Paradym
+    loft: 27.0
+    lie: 59.0
+    length: 39.0
+  - variant: Paradym X
+    loft: 18.0
+    lie: 57.5
+    length: 40.5
+  - variant: Paradym X
+    loft: 21.0
+    lie: 58.0
+    length: 40.0
+  - variant: Paradym X
+    loft: 24.0
+    lie: 58.5
+    length: 39.5
+  - variant: Paradym X
+    loft: 27.0
+    lie: 59.0
+    length: 39.0
+  - variant: Paradym X
+    loft: 30.0
+    lie: 59.5
+    length: 38.5
+hosel:
+  system: "OptiFit hosel"
+  loft_range: "−1° to +2°"
+  positions: 8
+  lie_effect: >
+    The lie cog has two positions: N (neutral, the stated lie) and D (draw, a
+    more upright lie — Callaway does not publish the degree change).
+  face_note: >
+    Changing loft re-orients the head on the shaft, so lower settings sit
+    slightly open and higher settings slightly closed at address.
+  notes: >
+    Every loft in both heads is adjustable — the same two-cog OptiFit design
+    as the Paradym drivers and 3-woods.
+  settings:
+    - { setting: "−1 / N", loft: "−1°", lie: "neutral" }
+    - { setting: "−1 / D", loft: "−1°", lie: "draw (more upright)" }
+    - { setting: "S / N", loft: "std", lie: "neutral" }
+    - { setting: "S / D", loft: "std", lie: "draw (more upright)" }
+    - { setting: "+1 / N", loft: "+1°", lie: "neutral" }
+    - { setting: "+1 / D", loft: "+1°", lie: "draw (more upright)" }
+    - { setting: "+2 / N", loft: "+2°", lie: "neutral" }
+    - { setting: "+2 / D", loft: "+2°", lie: "draw (more upright)" }
+related_models:
+  - slug: "callaway/paradym-fairway-wood"
+    label: "Same family: Callaway Paradym fairway woods"
+  - slug: "callaway/paradym-driver"
+    label: "Same family: Callaway Paradym drivers"
+  - slug: "callaway/elyte-hybrid"
+    label: "Two generations on: Callaway Elyte hybrids"
+sources:
+  - "Callaway Golf Pre-Owned Paradym hybrid spec table (18/21/24/27, lies 57.5-59°, lengths 40.5-39 in, D2, +2°/−1° hosel), https://www.callawaygolfpreowned.com/golf-clubs/hybrids/hybrids-2023-paradym.html, accessed October 2026"
+  - "Callaway Golf Pre-Owned Paradym X hybrid spec table (18/21/24/27/30 all adjustable, D1), https://www.callawaygolfpreowned.com/golf-clubs/hybrids/hybrids-2023-paradym-x.html, accessed October 2026"
+faq:
+  - q: "What lofts do the Callaway Paradym hybrids come in?"
+    a: "The core Paradym comes in 18, 21, 24 and 27 degrees; the Paradym X in 18, 21, 24, 27 and 30."
+  - q: "Are the Callaway Paradym hybrids adjustable?"
+    a: "Yes — every loft in both heads carries the OptiFit hosel, with minus 1 to plus 2 degrees of loft and a neutral or draw lie cog."
+  - q: "What is the difference between the Paradym and Paradym X hybrids?"
+    a: "Same lofts at the strong end, different character: the X is slightly larger, launches higher with more draw bias, builds to a lighter D1 swing weight and adds a 30 degree 7-hybrid the core head does not offer."
+confidence: high

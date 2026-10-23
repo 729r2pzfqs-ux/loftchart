@@ -109,11 +109,15 @@ specs:                           # one row PER COMBINATION SOLD, strongest loft 
 - Everything else (sources, faq, confidence, predecessor/successor, current_as_of,
   stock_shafts, related_models) works exactly as for irons.
 
-## Driver models (`club_type: driver`)
+## Wood models (`club_type: driver | fairway_wood | hybrid`)
 
-A driver model is a **family of head variants**, one file per family (not per head), at
+A wood model is a **family of head variants**, one file per family (not per head), at
 `data/<brand-slug>/<family-slug>-driver.yaml` — e.g. `qi35-driver.yaml` covers the Qi35,
-Qi35 LS, Qi35 Max and Qi35 Max Lite. Differences from irons:
+Qi35 LS, Qi35 Max and Qi35 Max Lite. Fairway woods and hybrids use exactly the same
+schema with `club_type: fairway_wood` / `club_type: hybrid` and the file suffixes
+`-fairway-wood.yaml` / `-hybrid.yaml` (`g440-fairway-wood.yaml`, `g440-hybrid.yaml`);
+where a family shares its driver's hosel system, repeat the `hosel` block with the
+system as published for that club. Differences from irons:
 
 ```yaml
 club_type: driver                # triggers the driver code paths in generate.py

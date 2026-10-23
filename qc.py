@@ -34,10 +34,16 @@ WEDGE_CATEGORIES = {"tour", "game-improvement", "specialty"}
 WEDGE_LOFT_MIN, WEDGE_LOFT_MAX = 40.0, 66.0
 WEDGE_BOUNCE_MIN, WEDGE_BOUNCE_MAX = 0.0, 20.0
 
-# Driver models use their own enum too (DRIVER_CATEGORY_LABEL in generate.py).
+# Wood models (driver, fairway wood, hybrid) share an enum
+# (WOOD_CATEGORY_LABEL in generate.py) and the family/variants schema; only
+# the plausible loft band differs per type.
 DRIVER_CATEGORIES = {"flagship", "lightweight", "game-improvement"}
 
-DRIVER_LOFT_MIN, DRIVER_LOFT_MAX = 6.0, 16.0
+WOOD_LOFT_RANGE = {
+    "driver": (6.0, 16.0),
+    "fairway_wood": (12.0, 28.0),
+    "hybrid": (14.0, 40.0),
+}
 
 # Required at the top level of every model file. club_type and slug are not in
 # the brief but are load-bearing in generate.py, so they are checked too.
@@ -72,7 +78,8 @@ def check(path, rel, brand_dir, errors, warnings):
         return
 
     is_wedge = m.get("club_type") == "wedges"
-    is_driver = m.get("club_type") == "driver"
+    # Drivers, fairway woods and hybrids share the family/variants schema.
+    is_driver = m.get("club_type") in WOOD_LOFT_RANGE
 
     # (a) schema completeness
     for key in REQUIRED:
@@ -83,7 +90,7 @@ def check(path, rel, brand_dir, errors, warnings):
                     for r in (m.get("specs") or []))):
         err("spec rows carry grinds but the model declares no grinds catalogue")
     if is_driver and not m.get("variants"):
-        err("driver model missing variants catalogue")
+        err("wood model missing variants catalogue")
 
     # (f) slug consistency — both the brand slug against its directory and the
     # model slug against its filename, since generate.py builds the URL from
@@ -101,7 +108,7 @@ def check(path, rel, brand_dir, errors, warnings):
             err(f"wedge category {cat!r} not one of {sorted(WEDGE_CATEGORIES)}")
     elif is_driver:
         if cat and cat not in DRIVER_CATEGORIES:
-            err(f"driver category {cat!r} not one of {sorted(DRIVER_CATEGORIES)}")
+            err(f"wood category {cat!r} not one of {sorted(DRIVER_CATEGORIES)}")
     elif cat and cat not in CATEGORIES:
         err(f"category {cat!r} not one of {sorted(CATEGORIES)}")
 
@@ -131,7 +138,8 @@ def check(path, rel, brand_dir, errors, warnings):
         return
 
     if is_driver:
-        # (b/c) driver rows: a head variant × stock loft matrix.
+        # (b/c) wood rows: a head variant × stock loft matrix.
+        loft_min, loft_max = WOOD_LOFT_RANGE[m["club_type"]]
         variant_names = [v.get("name") for v in (m.get("variants") or [])
                          if isinstance(v, dict)]
         combos = []
@@ -142,9 +150,9 @@ def check(path, rel, brand_dir, errors, warnings):
             loft, variant = row.get("loft"), row.get("variant")
             if loft is None:
                 err(f"specs[{i}] missing loft")
-            elif not DRIVER_LOFT_MIN <= loft <= DRIVER_LOFT_MAX:
-                warn(f"driver loft {loft}° outside "
-                     f"{DRIVER_LOFT_MIN}-{DRIVER_LOFT_MAX}°")
+            elif not loft_min <= loft <= loft_max:
+                warn(f"{m['club_type']} loft {loft}° outside "
+                     f"{loft_min}-{loft_max}°")
             if not variant:
                 err(f"specs[{i}] missing variant")
             elif variant not in variant_names:

@@ -1,0 +1,107 @@
+brand: Ping
+brand_slug: ping
+model: G430
+slug: g430-hybrid
+club_type: hybrid
+year_introduced: 2023
+year_discontinued: null
+category: flagship
+construction: steel body with Carbonfly Wrap crown on a compact hybrid profile
+material: maraging steel Facewrap face with Spinsistency variable roll
+predecessor: Ping G425
+successor: Ping G440
+description: >
+  The G430 hybrid reached retail in January 2023 with the G430 woods, the
+  first Ping hybrid with a Carbonfly Wrap composite crown — the saved weight
+  moved the CG lower for more ball speed and a shallower landing flight. One
+  head covers six lofts from a 17° 2-hybrid to a 34° 7-hybrid, every loft
+  takes the eight-position Trajectory Tuning 2.0 hosel, and a High Launch
+  (HL) build pairs a lighter head with the ALTA Quick shaft in the 3H-7H. The
+  G440 hybrids replaced the line in January 2025.
+variants:
+  - name: G430
+    description: >
+      The single hybrid head, in six lofts from 17° to 34° at a D1 swing
+      weight, with head weights stepping from 235 g to 260 g down the set.
+specs:
+  - variant: G430
+    loft: 17.0
+    lie: 57.0
+    length: 40.75
+  - variant: G430
+    loft: 19.0
+    lie: 57.5
+    length: 40.25
+  - variant: G430
+    loft: 22.0
+    lie: 58.0
+    length: 39.75
+  - variant: G430
+    loft: 26.0
+    lie: 58.5
+    length: 39.25
+  - variant: G430
+    loft: 30.0
+    lie: 59.0
+    length: 38.75
+  - variant: G430
+    loft: 34.0
+    lie: 59.5
+    length: 38.25
+length_note: >
+  Standard lengths are based on the stock ALTA CB Black 70 shaft. Ping
+  publishes lie as the average across the five neutral-lie hosel positions.
+hosel:
+  system: "Trajectory Tuning 2.0"
+  loft_range: "±1.5°"
+  positions: 8
+  lie_effect: >
+    Three flat positions sit up to 3° flatter than standard; there is no
+    upright setting.
+  face_note: >
+    Lowering loft opens the face slightly and adding loft closes it.
+  notes: >
+    The same eight-position chart as the G430 drivers and fairways. The
+    ±1.5° "big" settings exist only at the standard lie; the flat positions
+    offer 0 and ±1° of loft.
+  settings:
+    - { setting: "Standard", loft: "std", lie: "std" }
+    - { setting: "+1", loft: "+1°", lie: "std" }
+    - { setting: "Big +", loft: "+1.5°", lie: "std" }
+    - { setting: "−1", loft: "−1°", lie: "std" }
+    - { setting: "Big −", loft: "−1.5°", lie: "std" }
+    - { setting: "Standard Flat", loft: "std", lie: "3° flat" }
+    - { setting: "+1 Flat", loft: "+1°", lie: "3° flat" }
+    - { setting: "−1 Flat", loft: "−1°", lie: "3° flat" }
+stock_shafts:
+  - name: "Ping ALTA CB Black 70"
+    material: graphite
+    flex: ["SR", "R", "S"]
+  - name: "Ping Tour 2.0 Chrome 85"
+    material: graphite
+    flex: ["R", "S", "X"]
+  - name: "Ping Tour 2.0 Black 90"
+    material: graphite
+    flex: ["S", "X"]
+  - name: "Ping ALTA Quick 35/45 (HL build)"
+    material: graphite
+    weight: "38-44g"
+related_models:
+  - slug: "ping/g430-fairway-wood"
+    label: "Same family: Ping G430 fairway woods"
+  - slug: "ping/g430-driver"
+    label: "Same family: Ping G430 drivers"
+  - slug: "ping/g440-hybrid"
+    label: "Successor: Ping G440 hybrids"
+sources:
+  - "Ping G430 hybrid official spec page (2H: 17°, 57° lie, 40.75 in, D1, ±1.5° adjustability; HL build in 3H-7H), https://ping.com/clubs/hybrids/g430, accessed October 2026"
+  - "Fairway Golf USA G430 hybrid spec table (full 2H-7H lofts 17/19/22/26/30/34, lies 57-59.5°, lengths 40.75-38.25 in, head weights 235-260 g), https://www.fairwaygolfusa.com/category/select/pid/620311, accessed October 2026"
+  - "Golf Business News G430 range launch coverage, January 2023, https://golfbusinessnews.com/news/new-products/ping-launches-g430-range-of-drivers-fairways-hybrids-and-irons/, accessed October 2026"
+faq:
+  - q: "What lofts does the Ping G430 hybrid come in?"
+    a: "Six lofts: 17, 19, 22, 26, 30 and 34 degrees — the 2-hybrid through 7-hybrid. Note the 3H is 19 degrees, a degree stronger than the G440 generation's 20 degree 3H."
+  - q: "Is the Ping G430 hybrid adjustable?"
+    a: "Yes — every loft uses Ping's eight-position Trajectory Tuning 2.0 hosel, with ±1.5 degrees of loft and flat positions up to 3 degrees flatter than standard."
+  - q: "What changed from the G430 hybrid to the G440 hybrid?"
+    a: "The G440 moved to a shallower, thinner face with an internal Free Hosel and re-spaced the strong end of the ladder: the 19 degree 3H and 22 degree 4H became 20 and 23 degrees. The adjustment chart is unchanged."
+confidence: high

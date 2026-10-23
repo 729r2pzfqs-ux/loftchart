@@ -1,0 +1,136 @@
+brand: Callaway
+brand_slug: callaway
+model: Paradym Ai Smoke
+slug: ai-smoke-hybrid
+club_type: hybrid
+year_introduced: 2024
+year_discontinued: null
+category: flagship
+construction: steel body with carbon crown and tungsten speed cartridge; bonded lightweight build on the MAX Fast
+material: Ai Smart Face hybrid face
+predecessor: Callaway Paradym
+successor: Callaway Elyte
+description: >
+  The Paradym Ai Smoke hybrids launched in January 2024 with the Ai Smoke
+  woods. The core Ai Smoke is the adjustable iron-replacement head in 18° to
+  27°; the Ai Smoke HL is the higher-launching, slightly longer-built
+  adjustable head that extends the ladder to 30° and 33°; and the MAX Fast is
+  the lightweight bonded model for slower swings, in 21° to 33°. The Elyte
+  hybrids replaced the line in early 2025.
+variants:
+  - name: Paradym Ai Smoke
+    description: >
+      The core adjustable hybrid in four lofts at a D2 swing weight, with the
+      tungsten speed cartridge keeping launch and spin down; the 27° head is
+      right-hand only.
+  - name: Paradym Ai Smoke HL
+    description: >
+      The high-launch adjustable head in six lofts from 18° to 33°, built
+      slightly longer (41.25 inches at 3H) at a D1 swing weight with flatter
+      lies — a half-fairway, half-hybrid for average swing speeds.
+  - name: Paradym Ai Smoke MAX Fast
+    description: >
+      The lightweight model for slower-to-moderate swings: bonded hosel,
+      lighter components and the highest launch in the family, in five lofts
+      from 21° to 33°.
+specs:
+  - variant: Paradym Ai Smoke
+    loft: 18.0
+    lie: 57.375
+    length: 40.625
+  - variant: Paradym Ai Smoke
+    loft: 21.0
+    lie: 58.0
+    length: 40.0
+  - variant: Paradym Ai Smoke
+    loft: 24.0
+    lie: 58.625
+    length: 39.375
+  - variant: Paradym Ai Smoke
+    loft: 27.0
+    lie: 59.25
+    length: 38.75
+  - variant: Paradym Ai Smoke HL
+    loft: 18.0
+    lie: 56.75
+    length: 41.25
+  - variant: Paradym Ai Smoke HL
+    loft: 21.0
+    lie: 57.5
+    length: 40.5
+  - variant: Paradym Ai Smoke HL
+    loft: 24.0
+    lie: 58.25
+    length: 39.75
+  - variant: Paradym Ai Smoke HL
+    loft: 27.0
+    lie: 59.0
+    length: 39.0
+  - variant: Paradym Ai Smoke HL
+    loft: 30.0
+    lie: 59.75
+    length: 38.25
+  - variant: Paradym Ai Smoke HL
+    loft: 33.0
+    lie: 60.5
+    length: 37.5
+  - variant: Paradym Ai Smoke MAX Fast
+    loft: 21.0
+  - variant: Paradym Ai Smoke MAX Fast
+    loft: 24.0
+  - variant: Paradym Ai Smoke MAX Fast
+    loft: 27.0
+  - variant: Paradym Ai Smoke MAX Fast
+    loft: 30.0
+  - variant: Paradym Ai Smoke MAX Fast
+    loft: 33.0
+hosel:
+  system: "OptiFit hosel (Ai Smoke and HL)"
+  loft_range: "−1° to +2°"
+  positions: 8
+  lie_effect: >
+    The lie cog has two positions: N (neutral, the stated lie) and D (draw, a
+    more upright lie — Callaway does not publish the degree change).
+  face_note: >
+    Changing loft re-orients the head on the shaft, so lower settings sit
+    slightly open and higher settings slightly closed at address.
+  notes: >
+    The core Ai Smoke and the HL are adjustable at every loft; the MAX Fast
+    replaces the hosel with a bonded one to save weight. The two-cog OptiFit
+    design is the same one used on the Ai Smoke drivers and 3-woods.
+  settings:
+    - { setting: "−1 / N", loft: "−1°", lie: "neutral" }
+    - { setting: "−1 / D", loft: "−1°", lie: "draw (more upright)" }
+    - { setting: "S / N", loft: "std", lie: "neutral" }
+    - { setting: "S / D", loft: "std", lie: "draw (more upright)" }
+    - { setting: "+1 / N", loft: "+1°", lie: "neutral" }
+    - { setting: "+1 / D", loft: "+1°", lie: "draw (more upright)" }
+    - { setting: "+2 / N", loft: "+2°", lie: "neutral" }
+    - { setting: "+2 / D", loft: "+2°", lie: "draw (more upright)" }
+stock_shafts:
+  - name: "Project X Cypher 2.0 50/60/70 (HL)"
+    material: graphite
+    flex: ["L", "R", "S"]
+  - name: "Mitsubishi Tensei Blue/Silver 40 (MAX Fast)"
+    material: graphite
+    flex: ["R2", "R"]
+related_models:
+  - slug: "callaway/ai-smoke-fairway-wood"
+    label: "Same family: Callaway Paradym Ai Smoke fairway woods"
+  - slug: "callaway/ai-smoke-driver"
+    label: "Same family: Callaway Paradym Ai Smoke drivers"
+  - slug: "callaway/elyte-hybrid"
+    label: "Successor: Callaway Elyte hybrids"
+sources:
+  - "Callaway Golf Pre-Owned Ai Smoke hybrid spec table (18/21/24/27, lies 57.375-59.25°, lengths 40.625-38.75 in, D2), https://www.callawaygolfpreowned.com/golf-clubs/hybrids/hybrids-2024-paradym-ai-smoke.html, accessed October 2026"
+  - "2nd Swing and Decathlon Ai Smoke HL hybrid listings (18-33° across 3H-8H, lies 56.75-60.5°, lengths 41.25-37.5 in, D1, Project X Cypher 2.0), https://apps.2ndswing.com/golf-clubs/hybrids/callaway-paradym-ai-smoke-hl-hybrid, accessed October 2026"
+  - "National Club Golfer and Golf Reviews Guide Ai Smoke hybrid coverage (core and HL fully adjustable, MAX Fast bonded to save weight, MAX Fast 21-33°), https://golfreviewsguide.com/callaway-paradym-ai-smoke-hybrids/, accessed October 2026"
+  - "Note: Callaway did not publish per-loft lies or lengths for the MAX Fast hybrid at launch, so those columns are left blank for that head."
+faq:
+  - q: "What lofts do the Callaway Paradym Ai Smoke hybrids come in?"
+    a: "The core Ai Smoke comes in 18, 21, 24 and 27 degrees; the Ai Smoke HL in 18, 21, 24, 27, 30 and 33; and the MAX Fast in 21, 24, 27, 30 and 33."
+  - q: "Are the Callaway Ai Smoke hybrids adjustable?"
+    a: "The core Ai Smoke and the HL are adjustable at every loft through the OptiFit hosel (minus 1 to plus 2 degrees with a neutral or draw lie cog). The MAX Fast uses a bonded hosel to save weight."
+  - q: "What is the difference between the Ai Smoke and Ai Smoke HL hybrids?"
+    a: "The HL is built a half inch or so longer at each loft with flatter lies and a shallower, higher-launching head — closer to a small fairway wood — and extends the ladder to 30 and 33 degrees. The core head is the more compact iron replacement."
+confidence: high

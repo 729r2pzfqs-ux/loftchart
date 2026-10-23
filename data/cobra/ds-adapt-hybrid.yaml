@@ -1,0 +1,79 @@
+brand: Cobra
+brand_slug: cobra
+model: DS-ADAPT
+slug: ds-adapt-hybrid
+club_type: hybrid
+year_introduced: 2025
+year_discontinued: null
+category: flagship
+construction: steel body with a hollow baffler-rail sole and mid-back weighting
+material: H.O.T. Face — AI-designed variable-thickness face
+predecessor: Cobra Darkspeed
+successor: Cobra OPTM
+description: >
+  The DS-ADAPT hybrid launched in January 2025 with the DS-ADAPT woods and
+  was the first Cobra hybrid with the FutureFit33 hosel, which moves loft and
+  lie independently up to 2° each way. One roughly 125 cc head covers five
+  lofts from a 17° 2-hybrid to a 28° 6-hybrid. The OPTM hybrids replaced the
+  line in January 2026.
+variants:
+  - name: DS-ADAPT
+    description: >
+      The single hybrid head, about 125 cc, in five lofts with high launch
+      and a touch of draw support.
+specs:
+  - variant: DS-ADAPT
+    loft: 17.0
+    lie: 57.5
+    length: 41.5
+  - variant: DS-ADAPT
+    loft: 19.0
+    lie: 58.0
+    length: 40.88
+  - variant: DS-ADAPT
+    loft: 21.0
+    lie: 58.5
+    length: 40.25
+  - variant: DS-ADAPT
+    loft: 24.0
+    lie: 59.0
+    length: 39.63
+  - variant: DS-ADAPT
+    loft: 28.0
+    lie: 59.5
+    length: 39.0
+length_note: >
+  Lie figures are the standard (neutral) FutureFit33 setting; every head can
+  be set up to 2° flatter or more upright.
+hosel:
+  system: "FutureFit33"
+  loft_range: "±2°"
+  positions: 33
+  lie_effect: "Lie adjusts ±2° from stock, independently of loft."
+  face_note: >
+    The SmartPad sole keeps the face visually square at address in every
+    setting.
+  notes: >
+    The same two-dial system as the DS-ADAPT drivers and fairways: 33 unique
+    loft/lie settings with A1 the neutral stock position. Cobra publishes the
+    code-by-code degree chart only as a graphic reached from a QR code on the
+    hosel, so no position-by-position table is reproduced here. Each stock
+    loft covers ±2°: the 19° 3-hybrid plays 17-21°, the 24° 5-hybrid 22-26°.
+related_models:
+  - slug: "cobra/ds-adapt-fairway-wood"
+    label: "Same family: Cobra DS-ADAPT fairway woods"
+  - slug: "cobra/ds-adapt-driver"
+    label: "Same family: Cobra DS-ADAPT drivers"
+  - slug: "cobra/darkspeed-hybrid"
+    label: "Predecessor: Cobra Darkspeed hybrids"
+sources:
+  - "Cobra official DS-ADAPT hybrid spec table (17/19/21/24/28 lofts, standard lies 57.5-59.5° with ±2° ranges, lengths 41.5-39 in, 124-125 cc), https://cobragolf.com/en-eu/products/ds-adapt-hybrid, accessed October 2026"
+  - "NordicaGolf and ClickGolf DS-ADAPT hybrid listings (men's and women's builds, KBS PGH women's shafts), https://www.nordicagolf.co.uk/cobra-ds-adapt-hybrid, accessed October 2026"
+faq:
+  - q: "What lofts does the Cobra DS-ADAPT hybrid come in?"
+    a: "Five lofts: 17, 19, 21, 24 and 28 degrees — the 2-hybrid through 6-hybrid."
+  - q: "Is the Cobra DS-ADAPT hybrid adjustable?"
+    a: "Yes — it was Cobra's first hybrid with the FutureFit33 hosel, which moves loft and lie independently up to 2 degrees each way across 33 settings, so each head covers a 4 degree loft window."
+  - q: "What replaced the DS-ADAPT hybrid?"
+    a: "The Cobra OPTM hybrids, launched in January 2026, which carry the same 33-setting hosel system."
+confidence: high

@@ -1,0 +1,87 @@
+brand: PXG
+brand_slug: pxg
+model: Black Ops
+slug: black-ops-fairway-wood
+club_type: fairway_wood
+year_introduced: 2024
+year_discontinued: null
+category: flagship
+construction: hybrid-crown construction — carbon fibre over a steel body — with three interchangeable sole weights
+material: high-strength steel face with PXG's AMF (Adaptive Material Flow) design
+predecessor: PXG 0311 GEN6
+successor: PXG Lightning
+description: >
+  The 0311 Black Ops fairway woods launched in 2024 with the Black Ops
+  drivers — a single five-loft head rather than a multi-model lineup, running
+  from a 15° 3-wood to a 24° 9-wood with a 17° 4-wood in between. Each head
+  carries PXG's adjustable shaft adapter and three interchangeable sole
+  weights for flight and bias tuning. The Lightning woods replaced the line
+  for 2026.
+variants:
+  - name: Black Ops
+    description: >
+      The single fairway head in five lofts, with head weights stepping from
+      215 g (3- and 4-wood) to 230 g (9-wood) and three sole weight ports for
+      precision fitting.
+specs:
+  - variant: Black Ops
+    loft: 15.0
+    lie: 58.5
+    length: 43.0
+  - variant: Black Ops
+    loft: 17.0
+    lie: 58.5
+    length: 43.0
+  - variant: Black Ops
+    loft: 18.0
+    lie: 59.0
+    length: 42.5
+  - variant: Black Ops
+    loft: 21.0
+    lie: 59.5
+    length: 42.0
+  - variant: Black Ops
+    loft: 24.0
+    lie: 60.0
+    length: 41.5
+hosel:
+  system: "PXG adjustable shaft adapter"
+  loft_range: "±1.5°"
+  positions: 8
+  lie_effect: >
+    The Standard "Dot" is the most upright position; every other setting
+    flattens lie by 0.5° to 3° relative to it. There is no
+    upright-beyond-Dot setting.
+  face_note: >
+    PXG markets the upright Dot setting for draw bias and the flattest "PXG
+    Standard" setting for fade bias.
+  notes: >
+    The same universal PXG adapter as the Black Ops drivers, so shafts
+    interchange across generations. The stated lie in the chart above is
+    measured at the Standard "Dot" position.
+  settings:
+    - { setting: "Standard (Dot)", loft: "std", lie: "std (most upright)" }
+    - { setting: "Small Plus", loft: "+1°", lie: "0.5° flat" }
+    - { setting: "Big Plus", loft: "+1.5°", lie: "1.5° flat" }
+    - { setting: "Flat Plus", loft: "+1°", lie: "2.5° flat" }
+    - { setting: "PXG Standard", loft: "std", lie: "3° flat" }
+    - { setting: "Flat Minus", loft: "−1°", lie: "2.5° flat" }
+    - { setting: "Big Minus", loft: "−1.5°", lie: "1.5° flat" }
+    - { setting: "Small Minus", loft: "−1°", lie: "0.5° flat" }
+related_models:
+  - slug: "pxg/black-ops-driver"
+    label: "Same family: PXG Black Ops drivers"
+  - slug: "pxg/black-ops-hybrid"
+    label: "Same family: PXG Black Ops hybrids"
+sources:
+  - "PXG official Black Ops fairway spec table (15/17/18/21/24 lofts, lies 58.5-60°, lengths 43-41.5 in, head weights 215-230 g), https://pxg.com/products/black-ops-fairways, accessed October 2026"
+  - "Today's Golfer and Golf.com Black Ops fairway coverage (single-model lineup, adjustable hosel and three sole weights), https://www.todays-golfer.com/equipment/golf-clubs/fairway-woods/pxg/pxg-0311-black-ops-fairway-woods, accessed October 2026"
+  - "GolfWRX PXG Lightning fairway/hybrid launch (Black Ops replacement for 2026), https://golfwrx.com/770049/pxg-launches-lightning-fairway-woods-hybrids/, accessed October 2026"
+faq:
+  - q: "What lofts does the PXG Black Ops fairway wood come in?"
+    a: "Five lofts: 15 (3-wood), 17 (4-wood), 18 (5-wood), 21 (7-wood) and 24 degrees (9-wood)."
+  - q: "Is the PXG Black Ops fairway wood adjustable?"
+    a: "Yes, twice over: the eight-position PXG shaft adapter moves loft ±1.5 degrees (with flat-lie options to 3 degrees), and three interchangeable sole weights tune swing weight and shot bias."
+  - q: "What replaced the PXG Black Ops fairway woods?"
+    a: "The PXG Lightning fairway woods and hybrids, announced in December 2025 as the first release of PXG's 2026 line."
+confidence: high

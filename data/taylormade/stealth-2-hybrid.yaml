@@ -1,0 +1,98 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: Stealth 2
+slug: stealth-2-hybrid
+club_type: hybrid
+year_introduced: 2023
+year_discontinued: 2024
+category: flagship
+construction: steel body with carbon crown; bonded hosels on the core and HD, loft sleeve on the Plus
+material: Twist Face hybrid face over a V Steel sole
+predecessor: TaylorMade Stealth
+successor: TaylorMade Qi10
+description: >
+  The Stealth 2 Rescue family launched in January 2023 alongside the Stealth 2
+  woods. The core Stealth 2 Rescue is a bonded five-loft line from 19° to 31°;
+  the Stealth 2 HD Rescue is the draw-biased version in four lofts for players
+  fighting a right miss; and the compact Stealth 2 Plus Rescue is the
+  adjustable player's head in 17°, 19.5° and 22°, built to flight down like a
+  long iron. The Qi10 Rescues replaced the family in January 2024.
+variants:
+  - name: Stealth 2 Rescue
+    description: >
+      The core bonded Rescue in five lofts from 19° to 31°; the 28° and 31°
+      heads are right-hand only.
+  - name: Stealth 2 Plus Rescue
+    description: >
+      The compact tour head with the family's only 3° loft sleeve, in 17°,
+      19.5° and 22° — lower flight, more workability, iron-like address look.
+  - name: Stealth 2 HD Rescue
+    description: >
+      The draw-biased forgiveness head in four lofts, with heel weighting and
+      a higher flight to straighten a fade. Swing weight D3; the 28° head is
+      right-hand only.
+specs:
+  - variant: Stealth 2 Rescue
+    loft: 19.0
+  - variant: Stealth 2 Rescue
+    loft: 22.0
+  - variant: Stealth 2 Rescue
+    loft: 25.0
+  - variant: Stealth 2 Rescue
+    loft: 28.0
+  - variant: Stealth 2 Rescue
+    loft: 31.0
+  - variant: Stealth 2 Plus Rescue
+    loft: 17.0
+  - variant: Stealth 2 Plus Rescue
+    loft: 19.5
+  - variant: Stealth 2 Plus Rescue
+    loft: 22.0
+  - variant: Stealth 2 HD Rescue
+    loft: 19.0
+  - variant: Stealth 2 HD Rescue
+    loft: 22.0
+  - variant: Stealth 2 HD Rescue
+    loft: 25.0
+  - variant: Stealth 2 HD Rescue
+    loft: 28.0
+hosel:
+  system: "3° Loft Sleeve (Stealth 2 Plus Rescue only)"
+  loft_range: "±1.5°"
+  positions: 12
+  lie_effect: >
+    Lie only moves upright from standard, as on the fairway sleeve.
+  face_note: >
+    Lowering loft opens the face slightly and raising it closes it.
+  notes: >
+    Only the Stealth 2 Plus Rescue carries the sleeve — the core and HD
+    Rescues are bonded and play at their stamped loft. TaylorMade publishes
+    the Rescue sleeve's 1.5°-each-way range rather than a position-by-position
+    chart for hybrids, so no settings table is reproduced here.
+stock_shafts:
+  - name: "Fujikura Ventus TR Red HB (Stealth 2 Rescue)"
+    material: graphite
+    flex: ["A", "R", "S"]
+  - name: "Mitsubishi Kai'li Red HY (Plus Rescue)"
+    material: graphite
+    flex: ["S", "X"]
+related_models:
+  - slug: "taylormade/stealth-2-fairway-wood"
+    label: "Same family: TaylorMade Stealth 2 fairway woods"
+  - slug: "taylormade/stealth-2-driver"
+    label: "Same family: TaylorMade Stealth 2 drivers"
+  - slug: "taylormade/qi10-hybrid"
+    label: "Successor: TaylorMade Qi10 Rescues"
+sources:
+  - "Golf.com Stealth 2 Rescue launch coverage (core 19/22/25/28/31 with 28° and 31° right-hand only, HD 19/22/25/28), https://golf.com/gear/taylormade-stealth2-fairway-woods-hybrids/, accessed October 2026"
+  - "Today's Golfer Stealth 2 Rescue trio review (Plus 17/19.5/22 with ±1.5° adjustable hosel, Kai'li Red stock shaft), https://todays-golfer.com/equipment/golf-clubs/rescue-clubs/taylormade/taylormade-stealth-2-rescue-hybrid, accessed October 2026"
+  - "2nd Swing Stealth 2 HD Rescue listing (19/22/25/28 lofts, draw flight bias, D3), https://2ndswing.com/golf-clubs/hybrids/taylormade-stealth-2-hd-rescue-hybrid/left-handed-stiff-graphite-41dot0in-d-12435936203, accessed October 2026"
+  - "Note: TaylorMade did not publish single-figure lies for this family (adjustable heads list a range, bonded heads were published inconsistently at retail), so no lie or length columns are charted."
+faq:
+  - q: "What lofts do the TaylorMade Stealth 2 Rescues come in?"
+    a: "The core Stealth 2 Rescue comes in 19, 22, 25, 28 and 31 degrees (28 and 31 right-hand only); the Stealth 2 Plus Rescue in 17, 19.5 and 22; and the Stealth 2 HD Rescue in 19, 22, 25 and 28."
+  - q: "Is the TaylorMade Stealth 2 Rescue adjustable?"
+    a: "Only the Stealth 2 Plus Rescue, which carries a 3 degree loft sleeve (1.5 degrees each way). The core and HD Rescues are bonded and play at their stamped loft."
+  - q: "What is the difference between the Stealth 2 Rescue and the HD Rescue?"
+    a: "The HD is the draw-biased model: heel weighting and a higher flight to fight a right miss, in four lofts. The core Rescue is neutral and adds a fifth loft at 31 degrees."
+confidence: high

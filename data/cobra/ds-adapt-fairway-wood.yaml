@@ -1,0 +1,122 @@
+brand: Cobra
+brand_slug: cobra
+model: DS-ADAPT
+slug: ds-adapt-fairway-wood
+club_type: fairway_wood
+year_introduced: 2025
+year_discontinued: null
+category: flagship
+construction: steel bodies with carbon crowns; titanium body with heel/toe tungsten on the LS
+material: H.O.T. Face — AI-designed variable-thickness forged faces
+predecessor: Cobra Darkspeed
+successor: Cobra OPTM
+description: >
+  The DS-ADAPT fairway woods launched in January 2025 with the DS-ADAPT
+  drivers, and brought Cobra's FutureFit33 hosel — 33 settings with loft and
+  lie independently adjustable ±2° — to the whole fairway line. The X is the
+  all-round core head, the titanium LS the low-spin tour model with 60 g of
+  heel and toe tungsten, and the MAX the draw-biased forgiveness model in
+  half-degree-weaker lofts out to a 24.5° 9-wood. The OPTM fairways replaced
+  the line in January 2026.
+variants:
+  - name: DS-ADAPT X
+    description: >
+      The core all-round head — 177 cc in the 3-wood — in four lofts
+      including a 16.5° high-flight 3HF. Balanced speed and forgiveness with
+      a baffler-style sole.
+  - name: DS-ADAPT LS
+    description: >
+      The titanium low-spin tour head with a carbon crown and a combined
+      60 g of tungsten in heel and toe, in 14.5°, 16° (3HF) and 17° lofts on
+      flatter 56° lies.
+  - name: DS-ADAPT MAX
+    description: >
+      The draw-biased forgiveness head with an internal back/heel weight pad,
+      in four lofts from 15.5° to a 24.5° 9-wood on more upright lies.
+specs:
+  - variant: DS-ADAPT X
+    loft: 15.0
+    lie: 58.0
+    length: 43.25
+  - variant: DS-ADAPT X
+    loft: 16.5
+    lie: 58.0
+    length: 43.25
+  - variant: DS-ADAPT X
+    loft: 18.0
+    lie: 58.75
+    length: 42.5
+  - variant: DS-ADAPT X
+    loft: 21.0
+    lie: 59.5
+    length: 42.0
+  - variant: DS-ADAPT LS
+    loft: 14.5
+    lie: 56.0
+    length: 43.25
+  - variant: DS-ADAPT LS
+    loft: 16.0
+    lie: 56.0
+    length: 43.25
+  - variant: DS-ADAPT LS
+    loft: 17.0
+    lie: 56.5
+    length: 42.5
+  - variant: DS-ADAPT MAX
+    loft: 15.5
+    lie: 58.5
+    length: 43.25
+  - variant: DS-ADAPT MAX
+    loft: 18.5
+    lie: 60.25
+    length: 42.5
+  - variant: DS-ADAPT MAX
+    loft: 21.5
+    lie: 61.0
+    length: 42.0
+  - variant: DS-ADAPT MAX
+    loft: 24.5
+    lie: 61.75
+    length: 41.5
+length_note: >
+  Lie figures are the standard (neutral) FutureFit33 setting; every head can
+  be set up to 2° flatter or more upright.
+hosel:
+  system: "FutureFit33"
+  loft_range: "±2°"
+  positions: 33
+  lie_effect: "Lie adjusts ±2° from stock, independently of loft — a Cobra first."
+  face_note: >
+    The SmartPad sole keeps the face visually square at address in every
+    setting.
+  notes: >
+    FutureFit33 works through two dials — an A-H ring and a 1-8 ring — whose
+    64 combinations collapse to 33 unique loft/lie settings, with A1 the
+    neutral stock position. Cobra publishes the code-by-code degree chart
+    only as a graphic reached from a QR code on the hosel, so no
+    position-by-position table is reproduced here. Each stock loft covers
+    ±2°: the X 3-wood plays 13-17°, the 5-wood 16-20°, the 7-wood 19-23°.
+stock_shafts:
+  - name: "Project X Denali Red (X, MAX)"
+    material: graphite
+  - name: "Project X Denali Blue (X)"
+    material: graphite
+related_models:
+  - slug: "cobra/ds-adapt-driver"
+    label: "Same family: Cobra DS-ADAPT drivers"
+  - slug: "cobra/ds-adapt-hybrid"
+    label: "Same family: Cobra DS-ADAPT hybrids"
+  - slug: "cobra/darkspeed-fairway-wood"
+    label: "Predecessor: Cobra Darkspeed fairway woods"
+sources:
+  - "Carl's Golfland DS-ADAPT X and MAX fairway spec tables (X 15/16.5/18/21 with 58-59.5° standard lies and 177 cc 3-wood; MAX 15.5/18.5/21.5/24.5 with 58.5-61.75° lies; per-loft ±2° ranges), https://www.carlsgolfland.com/cobra-ds-adapt-x-fairway-woods, accessed October 2026"
+  - "Golfio DS-ADAPT LS Ti fairway listing (14.5/16/17 lofts, 56-56.5° lies, titanium body, 60 g tungsten), https://www.golfio.com/products/cobra-dark-speed-adapt-ls-titanium-fairway-wood-25-men, accessed October 2026"
+  - "Cobra DS-ADAPT launch coverage, January 2025 (FutureFit33 across drivers, fairways and hybrids), https://golfreviewsguide.com/?p=83479, accessed October 2026"
+faq:
+  - q: "What lofts do the Cobra DS-ADAPT fairway woods come in?"
+    a: "The DS-ADAPT X comes in 15, 16.5, 18 and 21 degrees; the titanium LS in 14.5, 16 and 17; and the MAX in 15.5, 18.5, 21.5 and 24.5."
+  - q: "How does the DS-ADAPT fairway adjustment work?"
+    a: "Every head uses Cobra's FutureFit33 hosel: 33 settings that move loft and lie independently up to 2 degrees each way, so a 15 degree 3-wood plays anywhere from 13 to 17 degrees. Cobra publishes the code-by-code chart via a QR code on the hosel."
+  - q: "What is the difference between the DS-ADAPT X and LS fairway woods?"
+    a: "The X is the steel all-rounder on upright 58 degree lies. The LS is a titanium, low-spin tour head with 60 grams of heel and toe tungsten, stronger lofts (14.5 to 17 degrees) and much flatter 56 degree lies."
+confidence: high

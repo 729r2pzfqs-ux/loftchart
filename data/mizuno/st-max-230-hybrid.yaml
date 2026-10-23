@@ -1,0 +1,65 @@
+brand: Mizuno
+brand_slug: mizuno
+model: ST-MAX 230
+slug: st-max-230-hybrid
+club_type: hybrid
+year_introduced: 2024
+year_discontinued: null
+category: flagship
+construction: steel body with CORTECH Chamber behind the face
+material: MAS1C high-strength steel face
+predecessor: Mizuno ST-Z 230
+successor: Mizuno JPX One
+description: >
+  The ST-MAX 230 hybrids launched in early 2024 with the ST-MAX 230 woods —
+  one high-MOI head in four lofts from a 19° 3-hybrid to a 28° 6-hybrid, each
+  carrying Mizuno's Quick Switch adjustable hosel with a 4° window. Head
+  sizes run 122 cc down to 109 cc. The JPX One hybrids replaced the line in
+  2026.
+variants:
+  - name: ST-MAX 230
+    description: >
+      The single hybrid head in four lofts; the 19° 3HB and 28° 6HB are
+      right-hand only, the 22° and 25° heads come in both hands.
+specs:
+  - variant: ST-MAX 230
+    loft: 19.0
+    length: 40.75
+  - variant: ST-MAX 230
+    loft: 22.0
+    length: 40.25
+  - variant: ST-MAX 230
+    loft: 25.0
+    length: 39.75
+  - variant: ST-MAX 230
+    loft: 28.0
+    length: 39.25
+length_note: >
+  Mizuno publishes lengths to the USGA / R&A measurement method, which reads
+  about a quarter inch longer than its older charts without the builds
+  changing. Lie is published only as a per-loft adjustable range (58.5-61.5°
+  on the 3HB), so no lie column is charted.
+hosel:
+  system: "Quick Switch"
+  loft_range: "±2°"
+  notes: >
+    Each loft adjusts across a 4° window (the 19° 3HB plays 17-21°), with lie
+    moving within a 3° band as loft changes. Mizuno publishes the ranges but
+    no position-by-position chart for the Quick Switch, so no settings table
+    is reproduced here.
+related_models:
+  - slug: "mizuno/st-max-230-fairway-wood"
+    label: "Same family: Mizuno ST-MAX 230 fairway woods"
+  - slug: "mizuno/st-max-230-driver"
+    label: "Same family: Mizuno ST-MAX 230 drivers"
+sources:
+  - "Mizuno ST-MAX 230 hybrid spec table via GolfBox and Fairway Jockey (19/22/25/28 lofts with 17-21 through 26-30° ranges, lie ranges 58.5-63°, 122/116/113/109 cc, USGA/R&A lengths 40.75-39.25 in, Quick Switch), https://www.golfbox.com.au/clubs/mizuno-st-max-230-hybrid/, accessed October 2026"
+  - "GolfWRX ST-MAX 230 family launch coverage, 2024, https://golfwrx.com/?p=732018, accessed October 2026"
+faq:
+  - q: "What lofts does the Mizuno ST-MAX 230 hybrid come in?"
+    a: "Four lofts: 19, 22, 25 and 28 degrees. The 19 and 28 degree heads are right-hand only."
+  - q: "Is the Mizuno ST-MAX 230 hybrid adjustable?"
+    a: "Yes — every loft uses Mizuno's Quick Switch hosel with a 4 degree window, so the 19 degree head plays from 17 to 21 degrees. Mizuno publishes the ranges rather than a position-by-position chart."
+  - q: "What replaced the Mizuno ST-MAX 230 hybrid?"
+    a: "The Mizuno JPX One hybrids, launched for 2026."
+confidence: high

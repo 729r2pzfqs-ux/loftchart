@@ -1,0 +1,68 @@
+brand: Cobra
+brand_slug: cobra
+model: Darkspeed
+slug: darkspeed-hybrid
+club_type: hybrid
+year_introduced: 2024
+year_discontinued: null
+category: flagship
+construction: steel body with hollow rails sole and a 12 g mid-back sole weight
+material: H.O.T. Face — AI-designed variable-thickness face
+predecessor: Cobra Aerojet
+successor: Cobra DS-ADAPT
+description: >
+  The Darkspeed hybrid launched in January 2024 with the Darkspeed woods —
+  one head in five lofts with a 12 g mid-back weight for high launch and a
+  fixed, glued hosel, unlike the MyFly-equipped drivers and fairways of the
+  same family. Right-handed lofts run 17° to 28° (the 28° by custom order);
+  left-handers get 19°, 21° and 24°. The DS-ADAPT hybrid replaced it in
+  January 2025 and added hosel adjustability.
+variants:
+  - name: Darkspeed
+    description: >
+      The single hybrid head in five lofts, with the H.O.T. AI face and a
+      12 g mid-back sole weight; the 28° head is custom order only, and
+      left-handed heads come in 19°, 21° and 24°.
+specs:
+  - variant: Darkspeed
+    loft: 17.0
+    lie: 57.5
+    length: 41.5
+  - variant: Darkspeed
+    loft: 19.0
+    lie: 58.0
+    length: 40.75
+  - variant: Darkspeed
+    loft: 21.0
+    lie: 58.5
+    length: 40.0
+  - variant: Darkspeed
+    loft: 24.0
+    lie: 59.0
+    length: 39.25
+  - variant: Darkspeed
+    loft: 28.0
+    lie: 59.5
+    length: 38.5
+stock_shafts:
+  - name: "KBS PGI graphite (65/75/85)"
+    material: graphite
+    flex: ["A", "R", "S"]
+related_models:
+  - slug: "cobra/darkspeed-fairway-wood"
+    label: "Same family: Cobra Darkspeed fairway woods"
+  - slug: "cobra/darkspeed-driver"
+    label: "Same family: Cobra Darkspeed drivers"
+  - slug: "cobra/ds-adapt-hybrid"
+    label: "Successor: Cobra DS-ADAPT hybrids"
+sources:
+  - "Cobra official Darkspeed hybrid spec table (17/19/21/24/28 lofts, lies 57.5-59.5°, lengths 41.5-38.5 in, KBS PGI stock shafts), https://cobragolf.ca/products/darkspeed-hybrid, accessed October 2026"
+  - "National Club Golfer Darkspeed overview (28° custom order only, LH lofts 19/21/24, fixed hosel on the hybrid), https://www.nationalclubgolfer.com/gb/reviews/callaway/cobra-darkspeed-everything-you-need-to-know/, accessed October 2026"
+faq:
+  - q: "What lofts does the Cobra Darkspeed hybrid come in?"
+    a: "Five lofts: 17, 19, 21, 24 and 28 degrees, with the 28 available by custom order only. Left-handed heads come in 19, 21 and 24."
+  - q: "Is the Cobra Darkspeed hybrid adjustable?"
+    a: "No — unlike the Darkspeed drivers and fairways with their MyFly8 hosels, the hybrid has a glued, fixed hosel and plays at its stamped loft. Adjustability arrived with the DS-ADAPT hybrid a year later."
+  - q: "What is the difference between the Darkspeed and DS-ADAPT hybrids?"
+    a: "The lofts are nearly identical (the DS-ADAPT 6-hybrid stays at 28 degrees), but the DS-ADAPT added Cobra's FutureFit33 hosel with 2 degrees of independent loft and lie adjustment, where the Darkspeed is fixed."
+confidence: high

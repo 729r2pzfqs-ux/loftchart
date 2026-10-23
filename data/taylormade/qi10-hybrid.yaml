@@ -1,0 +1,123 @@
+brand: TaylorMade
+brand_slug: taylormade
+model: Qi10
+slug: qi10-hybrid
+club_type: hybrid
+year_introduced: 2024
+year_discontinued: null
+category: flagship
+construction: steel body with carbon crown; bonded hosels on the core and Max, loft sleeve on the Tour
+material: Twist Face hybrid face with TaylorMade's V Steel-derived sole
+predecessor: TaylorMade Stealth 2
+successor: TaylorMade Qi35
+description: >
+  The Qi10 Rescue family launched on 9 January 2024 alongside the Qi10 woods.
+  The core Qi10 Rescue is a bonded five-loft line from 19° to 33° built to
+  flight like an iron replacement; the Qi10 Max Rescue is the bonded high-MOI
+  head, a degree weaker at each club number and out to a 35° 7-Rescue; and the
+  compact Qi10 Tour Rescue is the player's head with the family's only
+  adjustable loft sleeve, sold in 17°, 19.5° and 22°. The Qi35 Rescues
+  replaced the family in January 2025.
+variants:
+  - name: Qi10 Rescue
+    description: >
+      The core bonded Rescue in five lofts, with a D3 swing weight and
+      lengths from 40.75 to 38.75 inches. Mid flight with a neutral-to-slight
+      draw bias.
+  - name: Qi10 Max Rescue
+    description: >
+      The bonded forgiveness head with the highest MOI in the family, lofted
+      one degree weaker than the core Rescue at each club number and sold out
+      to a 35° 7-Rescue. Lies run 59-61°, lengths 40.75-38.75 inches.
+  - name: Qi10 Tour Rescue
+    description: >
+      The compact tour head with the family's only 3° loft sleeve, in 17°,
+      19.5° and 22° at a D2 swing weight — built to be flighted down and
+      shaped like a long iron.
+specs:
+  - variant: Qi10 Rescue
+    loft: 19.0
+    length: 40.75
+  - variant: Qi10 Rescue
+    loft: 22.0
+    length: 40.25
+  - variant: Qi10 Rescue
+    loft: 25.0
+    length: 39.75
+  - variant: Qi10 Rescue
+    loft: 29.0
+    length: 39.25
+  - variant: Qi10 Rescue
+    loft: 33.0
+    length: 38.75
+  - variant: Qi10 Max Rescue
+    loft: 20.0
+    lie: 59.0
+    length: 40.75
+  - variant: Qi10 Max Rescue
+    loft: 23.0
+    lie: 59.5
+    length: 40.25
+  - variant: Qi10 Max Rescue
+    loft: 27.0
+    lie: 60.0
+    length: 39.75
+  - variant: Qi10 Max Rescue
+    loft: 31.0
+    lie: 60.5
+    length: 39.25
+  - variant: Qi10 Max Rescue
+    loft: 35.0
+    lie: 61.0
+    length: 38.75
+  - variant: Qi10 Tour Rescue
+    loft: 17.0
+  - variant: Qi10 Tour Rescue
+    loft: 19.5
+  - variant: Qi10 Tour Rescue
+    loft: 22.0
+hosel:
+  system: "3° Loft Sleeve (Qi10 Tour Rescue only)"
+  loft_range: "±1.5°"
+  positions: 12
+  lie_effect: >
+    Lie only moves upright from standard, as on the fairway sleeve.
+  face_note: >
+    Lowering loft opens the face slightly and raising it closes it.
+  notes: >
+    Only the Qi10 Tour Rescue carries the sleeve — the core Qi10 Rescue and
+    Qi10 Max Rescue are bonded and play at their stamped loft. TaylorMade
+    publishes the Rescue sleeve's 1.5°-each-way range rather than a
+    Rescue-specific position-by-position chart, so no settings table is
+    reproduced here.
+stock_shafts:
+  - name: "Fujikura Ventus TR Blue HB (Qi10 Rescue)"
+    material: graphite
+    flex: ["A", "R", "S"]
+  - name: "Fujikura Speeder NX TCS (Max Rescue)"
+    material: graphite
+    flex: ["A", "R", "S"]
+  - name: "Mitsubishi Tensei AV Limited Blue HY (Tour Rescue)"
+    material: graphite
+    flex: ["S", "X"]
+related_models:
+  - slug: "taylormade/qi10-fairway-wood"
+    label: "Same family: TaylorMade Qi10 fairway woods"
+  - slug: "taylormade/qi10-driver"
+    label: "Same family: TaylorMade Qi10 drivers"
+  - slug: "taylormade/qi35-hybrid"
+    label: "Successor: TaylorMade Qi35 Rescues"
+sources:
+  - "2nd Swing Qi10 hybrid spec listing (19/22/25/29/33 lofts, D3, lengths 40.75-38.75 in, Ventus TR Blue HB, non-adjustable), https://www.2ndswing.com/golf-clubs/hybrids/taylormade-qi10-hybrid/qi10-new-hyg, accessed October 2026"
+  - "Carl's Golfland Qi10 Max Rescue spec table (20/23/27/31/35 lofts, lies 59-61°, lengths 40.75-38.75 in, Speeder NX TCS), https://www.carlsgolfland.com/taylormade-qi10-max-rescue-hybrids, accessed October 2026"
+  - "Carl's Golfland Qi10 Tour Rescue listing (17/19.5/22 lofts, D2, 3° loft sleeve, Tensei AV Limited Blue HY), https://www.carlsgolfland.com/taylormade-qi10-tour-rescue-hybrids, accessed October 2026"
+  - "Irish Golfer Qi10 Rescue family launch coverage, 9 January 2024, https://irishgolfer.ie/gear/2024/01/09/taylormade-qi10-rescue-family/, accessed October 2026"
+  - "Note: lie on the core Qi10 Rescue is published only as a range, so the lie column is charted for the bonded Max heads where per-loft figures are published; Tour Rescue lengths are not consistently published."
+faq:
+  - q: "What lofts do the TaylorMade Qi10 Rescues come in?"
+    a: "The core Qi10 Rescue comes in 19, 22, 25, 29 and 33 degrees; the Qi10 Max Rescue in 20, 23, 27, 31 and 35; and the Qi10 Tour Rescue in 17, 19.5 and 22."
+  - q: "Is the TaylorMade Qi10 Rescue adjustable?"
+    a: "Only the Qi10 Tour Rescue, which has a 3 degree loft sleeve (1.5 degrees each way). The core Qi10 Rescue and the Qi10 Max Rescue are bonded and play at their stamped loft."
+  - q: "What is the difference between the Qi10 Rescue and Qi10 Max Rescue?"
+    a: "The Max is the forgiveness model: higher MOI, a touch more draw bias, lofts one degree weaker at each club number, and an extra loft at the weak end — a 35 degree 7-Rescue the core line does not offer."
+confidence: high

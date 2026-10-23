@@ -1,0 +1,68 @@
+brand: XXIO
+brand_slug: xxio
+model: "14"
+slug: 14-fairway-wood
+club_type: fairway_wood
+year_introduced: 2025
+year_discontinued: null
+category: lightweight
+current_as_of: "2026-10"
+construction: ultra-lightweight cast titanium-crown construction with glued hosel and Cannon Sole weighting
+material: high-strength steel face with Rebound Frame flex zones
+predecessor: XXIO 13
+successor: null
+description: >
+  The XXIO 14 fairway woods launched in early 2025 with the XXIO 14 driver,
+  continuing XXIO's ultra-lightweight formula for moderate swing speeds:
+  total club weights well under 300 g, counterbalanced Weight Plus grips, and
+  high-launch builds at longer-than-standard lengths. Five lofts run from a
+  15° 3-wood to a 23° 9-wood on glued hosels. As of October 2026 the line is
+  current — XXIO refreshes its core line every two years, so a 15th
+  generation is expected in 2027.
+variants:
+  - name: "XXIO 14"
+    description: >
+      The single fairway head in five lofts, built light (around 42 g class
+      stock shaft) and slightly long for clubhead speed at moderate tempos.
+specs:
+  - variant: "XXIO 14"
+    loft: 15.0
+    lie: 57.0
+    length: 43.5
+  - variant: "XXIO 14"
+    loft: 16.5
+    lie: 57.5
+    length: 43.25
+  - variant: "XXIO 14"
+    loft: 18.0
+    lie: 58.0
+    length: 43.0
+  - variant: "XXIO 14"
+    loft: 20.0
+    lie: 58.5
+    length: 42.5
+  - variant: "XXIO 14"
+    loft: 23.0
+    lie: 59.0
+    length: 42.0
+stock_shafts:
+  - name: "XXIO MP1400 (men's)"
+    material: graphite
+    weight: "~42g"
+    flex: ["R2", "R", "SR", "S"]
+related_models:
+  - slug: "xxio/14-driver"
+    label: "Same family: XXIO 14 drivers"
+  - slug: "xxio/14-hybrid"
+    label: "Same family: XXIO 14 hybrids"
+sources:
+  - "Fairway Jockey XXIO 14 fairway spec table (15/16.5/18/20/23 lofts, lies 57-59°, lengths 43.5-42 in), https://fairwayjockey.com/products/xxio-14-fairway-wood, accessed October 2026"
+  - "Dunlop Sports XXIO 14 line pages (lightweight build, MP1400 stock shaft, Weight Plus counterbalancing), https://us.dunlopsports.com/xxio/, accessed October 2026"
+faq:
+  - q: "What lofts does the XXIO 14 fairway wood come in?"
+    a: "Five lofts: 15, 16.5, 18, 20 and 23 degrees — a 3-wood through 9-wood ladder."
+  - q: "Is the XXIO 14 fairway wood adjustable?"
+    a: "No — XXIO builds glued hosels throughout, keeping weight out of the hosel for its ultra-light builds. The loft printed on the head is the loft it plays."
+  - q: "Who is the XXIO 14 fairway wood for?"
+    a: "Golfers with moderate swing speeds — the whole XXIO formula is sub-300-gram club weights, counterbalanced grips and slightly longer builds that add clubhead speed without extra effort."
+confidence: medium

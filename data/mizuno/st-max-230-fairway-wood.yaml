@@ -1,0 +1,70 @@
+brand: Mizuno
+brand_slug: mizuno
+model: ST-MAX 230
+slug: st-max-230-fairway-wood
+club_type: fairway_wood
+year_introduced: 2024
+year_discontinued: null
+category: flagship
+construction: steel body with carbon crown and Mizuno's CORTECH Chamber behind the face
+material: MAS1C high-strength steel face
+predecessor: Mizuno ST-Z 230
+successor: Mizuno JPX One
+description: >
+  The ST-MAX 230 fairway woods launched in early 2024 with the ST-MAX 230
+  driver — a single high-stability head in three lofts, with Mizuno's
+  CORTECH Chamber (an internal stainless-weighted elastomer slot) feeding
+  face flex for ball speed. Every loft carries the Quick Switch adjustable
+  hosel with a 4° total range. The JPX One woods replaced the line in 2026.
+variants:
+  - name: ST-MAX 230
+    description: >
+      The single fairway head in three lofts — 182 cc (3-wood), 172 cc
+      (5-wood) and 162 cc (7-wood, right-hand only) — tuned for high MOI and
+      a straight, high flight.
+specs:
+  - variant: ST-MAX 230
+    loft: 15.0
+    length: 43.25
+  - variant: ST-MAX 230
+    loft: 18.0
+    length: 42.75
+  - variant: ST-MAX 230
+    loft: 21.0
+    length: 42.25
+length_note: >
+  Mizuno publishes lengths to the USGA / R&A measurement method, which reads
+  about a quarter inch longer than its older charts without the builds
+  changing. Lie is published only as a per-loft adjustable range (58-61° on
+  the 3-wood), so no lie column is charted.
+hosel:
+  system: "Quick Switch"
+  loft_range: "±2°"
+  notes: >
+    Each loft adjusts across a 4° window (the 15° 3-wood plays 13-17°), with
+    lie moving within a 3° band as loft changes. Mizuno publishes the ranges
+    but no position-by-position chart for the Quick Switch, so no settings
+    table is reproduced here.
+stock_shafts:
+  - name: "Mitsubishi Kai'li Blue 60"
+    material: graphite
+  - name: "Mitsubishi Tensei 1K Blue 65 / Black 75"
+    material: graphite
+  - name: "True Temper Denali Red 60"
+    material: graphite
+related_models:
+  - slug: "mizuno/st-max-230-driver"
+    label: "Same family: Mizuno ST-MAX 230 drivers"
+  - slug: "mizuno/st-max-230-hybrid"
+    label: "Same family: Mizuno ST-MAX 230 hybrids"
+sources:
+  - "Mizuno ST-MAX 230 fairway spec table via GolfBox and All4Golf (15/18/21 lofts with 13-17/16-20/19-23° ranges, lie ranges 58-62°, 182/172/162 cc, USGA/R&A lengths 43.25-42.25 in, Quick Switch, stock shaft options), https://www.golfbox.com.au/clubs/mizuno-st-max-230-fairway-wood/, accessed October 2026"
+  - "GolfWRX ST-MAX 230 family launch coverage, 2024, https://golfwrx.com/?p=732018, accessed October 2026"
+faq:
+  - q: "What lofts does the Mizuno ST-MAX 230 fairway wood come in?"
+    a: "Three lofts: 15, 18 and 21 degrees. The 21 degree 7-wood is right-hand only."
+  - q: "Is the Mizuno ST-MAX 230 fairway wood adjustable?"
+    a: "Yes — every loft uses Mizuno's Quick Switch hosel with a 4 degree window, so the 15 degree 3-wood plays anywhere from 13 to 17 degrees. Mizuno publishes the ranges rather than a position-by-position chart."
+  - q: "What replaced the Mizuno ST-MAX 230 fairway wood?"
+    a: "The Mizuno JPX One fairway woods, launched for 2026 with a re-engineered CORTECH Chamber."
+confidence: high

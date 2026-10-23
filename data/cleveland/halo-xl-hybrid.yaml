@@ -1,0 +1,79 @@
+brand: Cleveland
+brand_slug: cleveland
+model: HALO XL
+slug: halo-xl-hybrid
+club_type: hybrid
+year_introduced: 2024
+year_discontinued: 2026
+category: game-improvement
+construction: oversized cast steel bodies with glued hosels; the Hy-Wood splits the difference between fairway and hybrid
+material: MainFrame XL variable-thickness steel face
+predecessor: Cleveland Launcher XL Halo
+successor: null
+description: >
+  The HALO XL hybrids launched in January 2024 with the HALO XL woods. The
+  standard hybrid runs five lofts in three-degree steps from 18° to 30° on a
+  136 cc, very upright head built to be swung like an iron; the HALO XL
+  Hy-Wood is Cleveland's half-fairway, half-hybrid — a 162 cc 17° "3+" and
+  147 cc 20° "4+" built to fairway-style lengths with an 8 g counterweight in
+  the grip end. Cleveland wound down its metalwood range in early 2026, so
+  the line was its last hybrid.
+variants:
+  - name: HALO XL
+    description: >
+      The standard oversized hybrid in five lofts at a D1 swing weight, with
+      very upright lies for an iron-like delivery; left-handed heads come in
+      18° and 21° only.
+  - name: HALO XL Hy-Wood
+    description: >
+      The in-between club: a 17° (3+) and 20° (4+) head sized and shafted
+      between a fairway wood and a hybrid, with an 8 g grip-end counterweight
+      for control at its longer build.
+specs:
+  - variant: HALO XL
+    loft: 18.0
+    lie: 60.5
+    length: 40.5
+  - variant: HALO XL
+    loft: 21.0
+    lie: 61.0
+    length: 40.0
+  - variant: HALO XL
+    loft: 24.0
+    lie: 61.5
+    length: 39.5
+  - variant: HALO XL
+    loft: 27.0
+    lie: 62.0
+    length: 39.0
+  - variant: HALO XL
+    loft: 30.0
+    lie: 62.5
+    length: 38.5
+  - variant: HALO XL Hy-Wood
+    loft: 17.0
+    length: 42.0
+  - variant: HALO XL Hy-Wood
+    loft: 20.0
+    length: 41.5
+stock_shafts:
+  - name: "Mitsubishi Tensei AV Blue 65"
+    material: graphite
+    flex: ["A", "R", "S"]
+related_models:
+  - slug: "cleveland/halo-xl-fairway-wood"
+    label: "Same family: Cleveland HALO XL fairway woods"
+  - slug: "cleveland/launcher-xl-driver"
+    label: "Related: Cleveland Launcher XL drivers"
+sources:
+  - "Dunlop Sports / Cleveland HALO XL hybrid spec pages and retailer tables (18/21/24/27/30 lofts, lies 60.5-62.5°, lengths 40.5-38.5 in, 136 cc 3H, D1, LH in 18° and 21° only), https://eu.dunlopsports.com/cleveland-golf/clubs/hybrids-%26-hy-woods/launcher-halo-xl-hybrids/halo-xl-hybrids/MLHXLH.html, accessed October 2026"
+  - "2nd Swing and golfballs.com HALO XL Hy-Wood listings (17° 3+ at 162 cc and 42 in, 20° 4+ at 147 cc and 41.5 in, D1, 8 g counterweight), https://www.2ndswing.com/golf-clubs/hybrids/cleveland-halo-xl-hy-wood-hybrid, accessed October 2026"
+  - "Note: Cleveland did not publish a lie for the Hy-Wood heads, so those cells are left blank. Cleveland exited metalwoods in early 2026."
+faq:
+  - q: "What lofts does the Cleveland HALO XL hybrid come in?"
+    a: "The standard hybrid comes in 18, 21, 24, 27 and 30 degrees; the HALO XL Hy-Wood adds a 17 degree 3+ and 20 degree 4+ built to fairway-style lengths."
+  - q: "What is the Cleveland Hy-Wood?"
+    a: "Cleveland's half-fairway, half-hybrid: a head sized between the two, built about an inch and a half longer than the matching hybrid with an 8 gram counterweight in the grip end — an easy-launch alternative to both a 5-wood and a 2-hybrid."
+  - q: "Why are the HALO XL hybrid lies so upright?"
+    a: "Deliberately — at 60.5 to 62.5 degrees they are several degrees more upright than most hybrids, because Cleveland built the HALO XL to be delivered like an iron rather than swept like a wood."
+confidence: high
