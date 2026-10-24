@@ -35,9 +35,8 @@ GA_ENABLED = bool(GA_ID) and GA_ID != "G-XXXXXXXXXX"
 ADSENSE_CLIENT = "ca-pub-5861928596436289"
 
 # Affiliate programme IDs. Set an ID to enable tracked links for that
-# partner; leave empty to use plain search links instead.
-AWIN_PUBLISHER_ID = "3121068"
-AWIN_PROGRAM_ID = "95935"        # 2nd Swing Golf
+# partner; leave empty to use plain search links instead. eBay is the only
+# affiliate partner — do not add retailer links without a signed programme.
 EBAY_CAMPAIGN_ID = "5339221177"  # eBay Partner Network
 
 # Consent mode regions that default to denied: the EU27 plus the rest of the
@@ -685,7 +684,7 @@ def head(title, desc, path, ld=None, og_type="website", noindex=False,
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="/css/style.css?v=3">
+<link rel="stylesheet" href="/css/style.css?v=4">
 {ldblocks}
 {consent}
 {adsense}
@@ -1590,14 +1589,14 @@ def wedge_availability(m):
     if m.get("year_discontinued"):
         return f"""<h2>Finding one used</h2>
   <p>The {brand} {model} ran from {intro} to {m['year_discontinued']} and is no longer in
-  production, so the used market is the only source. Search eBay, 2nd Swing, Golf Avenue and
-  the PGA Tour Superstore trade-in listings. {check}</p>"""
+  production, so the used market is the only source. Search the used listings on eBay.
+  {check}</p>"""
 
     if succ:
         return f"""<h2>Buying one</h2>
   <p>{brand} has since introduced the {esc(succ)} above it in the range, so the {model} is at
   the end of its retail life rather than fully retired — closeout stock still turns up at
-  retailers, and it is well represented used on eBay, 2nd Swing and Golf Avenue. {check}</p>"""
+  retailers, and it is well represented in the used listings on eBay. {check}</p>"""
 
     lineage = f" It replaced the {esc(pred)}." if pred else ""
     intro_txt = f"Introduced in {intro}, t" if intro else "T"
@@ -1633,8 +1632,8 @@ def driver_availability(m):
     if m.get("year_discontinued"):
         return f"""<h2>Finding one used</h2>
   <p>The {brand} {model} ran from {intro} to {m['year_discontinued']} and is no longer in
-  production, so the used market is the only source. Search eBay, 2nd Swing, Golf Avenue and
-  the PGA Tour Superstore trade-in listings. {check}</p>"""
+  production, so the used market is the only source. Search the used listings on eBay.
+  {check}</p>"""
 
     if succ:
         return f"""<h2>Buying one</h2>
@@ -1666,19 +1665,14 @@ def driver_availability(m):
 
 
 def _link_retailers(section, m):
-    """Link retailer names in availability prose to the model's shop searches.
+    """Link the eBay mention in availability prose to the model's shop search.
 
     The buying-advice paragraphs are where purchase intent peaks, and a bare
-    retailer name there is a dead end. Only the tracked partners get anchors;
-    Golf Avenue and PGA Tour Superstore stay plain text. "eBay" is replaced
-    after "2nd Swing" and never matches inside an href — URLs carry the
+    retailer name there is a dead end. Only eBay — the one tracked partner —
+    gets an anchor. The replace never matches inside an href: URLs carry the
     lowercase "ebay".
     """
-    swing_url, ebay_url, _ = _shop_links(m)
-    section = section.replace(
-        "2nd Swing",
-        f'<a href="{esc(swing_url)}" rel="sponsored nofollow noopener" '
-        f'target="_blank">2nd Swing</a>')
+    ebay_url = _shop_links(m)
     section = section.replace(
         "eBay",
         f'<a href="{esc(ebay_url)}" rel="sponsored nofollow noopener" '
@@ -1706,9 +1700,9 @@ def availability(m):
     if m.get("year_discontinued"):
         section = f"""<h2>Finding a used set</h2>
   <p>The {brand} {model} ran from {intro} to {m['year_discontinued']} and is no longer in
-  production, so the used market is the only source. Search eBay, 2nd Swing, Golf Avenue and
-  the PGA Tour Superstore trade-in listings, and check the loft and lie against the chart
-  above before buying — sets this age have often been bent from standard.</p>"""
+  production, so the used market is the only source. Search the used listings on eBay, and
+  check the loft and lie against the chart above before buying — sets this age have often
+  been bent from standard.</p>"""
 
     elif succ:
         # Superseded, but no retirement year is recorded — say that plainly rather
@@ -1716,8 +1710,8 @@ def availability(m):
         section = f"""<h2>Buying a set</h2>
   <p>{brand} has since introduced the {esc(succ)} above it in the range, so the {model} is at
   the end of its retail life rather than fully retired — closeout sets still turn up at
-  retailers while stock lasts, and it is well represented used on eBay, 2nd Swing and Golf
-  Avenue. Check the loft and lie against the chart above before buying a used set: irons are
+  retailers while stock lasts, and it is well represented in the used listings on eBay.
+  Check the loft and lie against the chart above before buying a used set: irons are
   routinely bent from standard during a fitting.</p>"""
 
     else:
@@ -1730,9 +1724,8 @@ def availability(m):
   <p>{intro_txt}he {brand} {model} has no confirmed end date on file.{lineage} LoftChart
   records a discontinuation year only where a source dates it, and none has been found for
   this set, so it may or may not still be in the {brand} catalogue — check with {brand} or a
-  retailer before counting on a new set. Used sets appear on eBay, 2nd Swing and Golf Avenue,
-  and should be measured against the chart above before buying, since irons are routinely
-  bent from standard.</p>"""
+  retailer before counting on a new set. Used sets appear on eBay, and should be measured
+  against the chart above before buying, since irons are routinely bent from standard.</p>"""
         else:
             # "a current ... " not "the current ...": several brands catalogue more than
             # one live set in the same category.
@@ -1743,18 +1736,9 @@ def availability(m):
   replacement announced.{lineage} New sets
   are built to the standard lofts, lies and lengths in the chart above, though a fitting can
   move any of them — so confirm the numbers on the order sheet. Used sets appear on eBay,
-  2nd Swing and Golf Avenue, and should be measured against this chart before buying.</p>"""
+  and should be measured against this chart before buying.</p>"""
 
     return _link_retailers(section, m)
-
-
-def _2ndswing_url(query):
-    base = f"https://www.2ndswing.com/search/?SearchTerm={quote_plus(query)}"
-    if AWIN_PUBLISHER_ID and AWIN_PROGRAM_ID:
-        encoded = quote_plus(base)
-        return (f"https://www.awin1.com/cread.php?awinmid={AWIN_PROGRAM_ID}"
-                f"&awinaffid={AWIN_PUBLISHER_ID}&ued={encoded}")
-    return base
 
 
 def _ebay_url(query):
@@ -1765,12 +1749,8 @@ def _ebay_url(query):
     return base
 
 
-def _globalgolf_url(query):
-    return f"https://www.globalgolf.com/search/?q={quote_plus(query)}"
-
-
 def _shop_links(m):
-    """Return (2ndswing_url, ebay_url, globalgolf_url) for a model.
+    """Return the eBay shop URL for a model.
 
     Wood family names are shared with iron lines (G440, Stealth), so the
     wood queries say which club they mean; iron and wedge queries stay as they
@@ -1779,57 +1759,47 @@ def _shop_links(m):
     query = f"{m['brand']} {m['model']}"
     if is_wood(m):
         query += f" {WOOD_NOUN[m['club_type']]}"
-    return (_2ndswing_url(query), _ebay_url(f"{query} golf"),
-            _globalgolf_url(query))
+    return _ebay_url(f"{query} golf")
 
 
-def _shop_buttons(swing_url, ebay_url, gg_url):
-    """Retailer buttons shared by the model and guide shop blocks.
+def _shop_buttons(ebay_url):
+    """The eBay button shared by the model and guide shop blocks.
 
-    The 2nd Swing button is the primary CTA (solid, highest-contrast): it is
-    the tracked partner with the deepest used-club inventory, so it earns the
-    visual weight. Labels carry a verb — a retailer name alone reads as a
-    citation, not something to click.
+    eBay is the sole affiliate partner, so it gets the one button and the
+    primary (solid, highest-contrast) treatment. The label carries a verb —
+    a retailer name alone reads as a citation, not something to click.
     """
-    links = [
-        (swing_url, "Check price at 2nd Swing", "2ndswing", " shop-btn-primary"),
-        (ebay_url, "See eBay listings", "ebay", ""),
-        (gg_url, "Browse GlobalGolf", "globalgolf", ""),
-    ]
-    return "".join(
-        f'<a href="{esc(url)}" rel="sponsored nofollow noopener" '
-        f'target="_blank" class="shop-btn shop-{cls}{extra}">{label}</a>'
-        for url, label, cls, extra in links)
+    return (f'<a href="{esc(ebay_url)}" rel="sponsored nofollow noopener" '
+            f'target="_blank" class="shop-btn shop-ebay shop-btn-primary">'
+            f'See eBay listings</a>')
 
 
 def top_cta(m):
     """Compact price-check CTA under the page head, above the spec table.
 
     The main shop block sits below the spec table, which puts it under the
-    fold on every page; this strip is the above-the-fold entry point. Two
-    buttons only — the full three-retailer block follows the table.
+    fold on every page; this strip is the above-the-fold entry point. One
+    button — eBay is the sole affiliate partner.
     """
-    swing_url, ebay_url, _ = _shop_links(m)
+    ebay_url = _shop_links(m)
     brand, model = esc(m["brand"]), esc(m["model"])
     return f"""<div class="top-cta">
-    <a href="{esc(swing_url)}" rel="sponsored nofollow noopener"
-       target="_blank" class="cta-btn cta-primary">Check {brand} {model} price at 2nd Swing</a>
     <a href="{esc(ebay_url)}" rel="sponsored nofollow noopener"
-       target="_blank" class="cta-btn cta-secondary">See eBay listings</a>
-    <span class="cta-disc" title="We may earn a commission from purchases made through these links at no extra cost to you.">Affiliate links</span>
+       target="_blank" class="cta-btn cta-primary">Check {brand} {model} prices on eBay</a>
+    <span class="cta-disc" title="We may earn a commission from purchases made through this link at no extra cost to you.">Affiliate link</span>
   </div>"""
 
 
 def shop_block(m):
     """Affiliate shop links for a model page."""
-    swing_url, ebay_url, gg_url = _shop_links(m)
+    ebay_url = _shop_links(m)
     brand, model = esc(m["brand"]), esc(m["model"])
-    buttons = _shop_buttons(swing_url, ebay_url, gg_url)
+    buttons = _shop_buttons(ebay_url)
 
     noun = f"{WOOD_NOUN[m['club_type']]}s" if is_wood(m) else "sets"
     return f"""<div id="shop-block">
   <h2>Shop {brand} {model}</h2>
-  <p class="shop-lede">Compare prices for new and used {noun} at these retailers:</p>
+  <p class="shop-lede">Compare prices for new and used {noun} on eBay:</p>
   <div class="shop-links">{buttons}</div>
   {AFFILIATE_DISCLOSURE}
   </div>"""
@@ -1837,18 +1807,16 @@ def shop_block(m):
 
 def sticky_bar(m):
     """Floating bottom bar that appears once the main shop block scrolls away."""
-    swing_url, ebay_url, _ = _shop_links(m)
+    ebay_url = _shop_links(m)
     brand, model = esc(m["brand"]), esc(m["model"])
     return f"""<div id="sticky-bar" class="sticky-bar" hidden>
   <div class="sticky-bar-inner">
     <span class="sticky-bar-label">Shop {brand} {model}</span>
     <div class="sticky-bar-links">
-      <a href="{esc(swing_url)}" rel="sponsored nofollow noopener"
-         target="_blank" class="sticky-btn">2nd Swing</a>
       <a href="{esc(ebay_url)}" rel="sponsored nofollow noopener"
-         target="_blank" class="sticky-btn">eBay</a>
+         target="_blank" class="sticky-btn">See eBay listings</a>
     </div>
-    <span class="sticky-bar-disc" title="We may earn a commission from purchases made through these links at no extra cost to you.">Affiliate links</span>
+    <span class="sticky-bar-disc" title="We may earn a commission from purchases made through this link at no extra cost to you.">Affiliate link</span>
     <button class="sticky-bar-close" aria-label="Dismiss">&times;</button>
   </div>
 </div>
@@ -1873,10 +1841,8 @@ def sticky_bar(m):
 
 def guide_shop_block(heading, query, lede):
     """Affiliate shop block for guide/aggregation pages (drivers, wedges)."""
-    swing_url = _2ndswing_url(query)
     ebay_url = _ebay_url(query)
-    gg_url = _globalgolf_url(query)
-    buttons = _shop_buttons(swing_url, ebay_url, gg_url)
+    buttons = _shop_buttons(ebay_url)
     return f"""<div id="shop-block">
   <h2>{esc(heading)}</h2>
   <p class="shop-lede">{esc(lede)}</p>
@@ -1887,18 +1853,15 @@ def guide_shop_block(heading, query, lede):
 
 def guide_sticky_bar(label, query):
     """Floating bottom bar for guide/aggregation pages."""
-    swing_url = _2ndswing_url(query)
     ebay_url = _ebay_url(query)
     return f"""<div id="sticky-bar" class="sticky-bar" hidden>
   <div class="sticky-bar-inner">
     <span class="sticky-bar-label">{esc(label)}</span>
     <div class="sticky-bar-links">
-      <a href="{esc(swing_url)}" rel="sponsored nofollow noopener"
-         target="_blank" class="sticky-btn">2nd Swing</a>
       <a href="{esc(ebay_url)}" rel="sponsored nofollow noopener"
-         target="_blank" class="sticky-btn">eBay</a>
+         target="_blank" class="sticky-btn">See eBay listings</a>
     </div>
-    <span class="sticky-bar-disc" title="We may earn a commission from purchases made through these links at no extra cost to you.">Affiliate links</span>
+    <span class="sticky-bar-disc" title="We may earn a commission from purchases made through this link at no extra cost to you.">Affiliate link</span>
     <button class="sticky-bar-close" aria-label="Dismiss">&times;</button>
   </div>
 </div>
@@ -1931,14 +1894,16 @@ WAYBACK_RE = re.compile(
     r'https?://web\.archive\.org/web/(\d{4})[^/]*/(?:https?:/{1,2})?(?:www\.)?([^/\s]+)')
 
 
-RETAILER_DOMAINS = {"2ndswing.com", "ebay.com", "globalgolf.com",
-                    "golfavenue.com", "pgatoursuperstore.com"}
+# Only the affiliate partner's domain carries rel="sponsored": other retailer
+# citations (2ndswing.com, globalgolf.com, ...) are plain spec references with
+# no commercial relationship, so "sponsored" would misdescribe them.
+SPONSORED_DOMAINS = {"ebay.com"}
 
 
-def _is_retailer_url(url):
+def _is_sponsored_url(url):
     host = url.split('/')[2].split(':')[0].lower()
     host = re.sub(r'^www\.', '', host)
-    return host in RETAILER_DOMAINS
+    return host in SPONSORED_DOMAINS
 
 
 def source_link(url):
@@ -1947,7 +1912,7 @@ def source_link(url):
         label = f"{m.group(2).split(':')[0]}, archived {m.group(1)}"
     else:
         label = re.sub(r'^www\.', '', url.split('/')[2].split(':')[0])
-    rel = "sponsored nofollow noopener" if _is_retailer_url(url) else "nofollow noopener"
+    rel = "sponsored nofollow noopener" if _is_sponsored_url(url) else "nofollow noopener"
     return f'<a href="{esc(url)}" rel="{rel}">{esc(label)}</a>'
 
 
@@ -4321,9 +4286,8 @@ def about_page(brands, models):
   chart and credit it.</p>
 
   <h2 id="affiliate-disclosure">Affiliate disclosure</h2>
-  <p>LoftChart is a participant in affiliate programmes including the 2nd Swing Golf
-  affiliate programme (via Awin) and the eBay Partner Network. When a page links to a
-  retailer, the link may be an affiliate link, which means LoftChart earns a small
+  <p>LoftChart is a participant in the eBay Partner Network. When a page links to
+  eBay, the link may be an affiliate link, which means LoftChart earns a small
   commission if you make a purchase — at no extra cost to you. This income helps cover the
   hosting and research costs of maintaining the archive.</p>
   <p>Affiliate relationships have no influence on which models are listed, which
@@ -4418,12 +4382,12 @@ def privacy_page(brands):
 
   <h2>Outbound links and affiliate programmes</h2>
   <p>Pages may link to retailers, auction sites and archived sources. Some of these links are
-  affiliate links: LoftChart participates in the 2nd Swing Golf affiliate programme (via
-  Awin) and the eBay Partner Network. When you click an affiliate link, the partner may set
+  affiliate links: LoftChart participates in the eBay Partner Network. When you click an
+  affiliate link, the partner may set
   cookies or collect information in accordance with its own privacy policy in order to
   attribute a referral. LoftChart receives only aggregate reporting (such as the number of
   clicks and any resulting commissions) and does not receive personally identifiable
-  information about you from these programmes.</p>
+  information about you from the programme.</p>
   <p>Once you follow any outbound link you are subject to that site&rsquo;s privacy policy,
   not ours. See our <a href="/about/#affiliate-disclosure">affiliate disclosure</a> for more
   detail on these relationships.</p>
