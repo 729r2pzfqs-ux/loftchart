@@ -80,6 +80,11 @@ WEDGE_PUBLISHED = "2026-08-27"
 WEDGE_REVIEWED = "2026-09-29"
 DRIVER_PUBLISHED = "2026-08-28"
 DRIVER_REVIEWED = "2026-09-29"
+# The iron, fairway wood and hybrid hubs, added when the nav moved to one
+# landing page per club type. HUB_REVIEWED moves only when someone re-checks
+# their figures, same contract as WEDGE_REVIEWED / DRIVER_REVIEWED above.
+HUB_PUBLISHED = "2026-10-24"
+HUB_REVIEWED = "2026-10-24"
 PRIVACY_UPDATED = "2026-10-11"
 
 # A model with no discontinuation year is only described as current when its
@@ -698,13 +703,11 @@ def head(title, desc, path, ld=None, og_type="website", noindex=False,
       <span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span>
     </button>
     <nav class="site-nav" id="site-nav">
-      <a href="/brands/">Brands</a>
-      <a href="/years/">Years</a>
-      <a href="/category/">Categories</a>
-      <a href="/wedge-lofts/">Wedge Lofts</a>
-      <a href="/driver-lofts/">Driver Lofts</a>
-      <a href="/compare/">Compare</a>
-      <a href="/about/">About</a>
+      <a href="/iron-lofts/">Irons</a>
+      <a href="/wedge-lofts/">Wedges</a>
+      <a href="/driver-lofts/">Drivers</a>
+      <a href="/fairway-wood-lofts/">Fairways</a>
+      <a href="/hybrid-lofts/">Hybrids</a>
     </nav>
   </div>
 </header>
@@ -727,8 +730,11 @@ def foot(brands):
         <ul>
           <li><a href="/years/">By year</a></li>
           <li><a href="/category/">By category</a></li>
+          <li><a href="/iron-lofts/">Iron loft chart</a></li>
           <li><a href="/wedge-lofts/">Wedge loft chart</a></li>
           <li><a href="/driver-lofts/">Driver loft chart</a></li>
+          <li><a href="/fairway-wood-lofts/">Fairway wood loft chart</a></li>
+          <li><a href="/hybrid-lofts/">Hybrid loft chart</a></li>
           <li><a href="/compare/">Comparisons</a></li>
         </ul>
       </div>
@@ -5638,8 +5644,10 @@ def driver_index(brands, driver_models=()):
   {guide_shop_block("Shop drivers", "golf driver",
                      "Search for new and used drivers at these retailers:")}
 
-  <p>Looking for the other end of the bag? The <a href="/wedge-lofts/">wedge loft
-  chart</a> covers pitching, gap, sand and lob wedge degrees the same way.</p>
+  <p>Next clubs down the bag: the <a href="/fairway-wood-lofts/">fairway wood loft
+  chart</a> and <a href="/hybrid-lofts/">hybrid loft chart</a> cover the rest of the
+  long game, and the <a href="/wedge-lofts/">wedge loft chart</a> handles pitching,
+  gap, sand and lob wedge degrees the same way.</p>
 
   {DRIVER_SOURCES}
 </div>
@@ -6147,6 +6155,490 @@ def driver_pages(brands, driver_models=()):
 
 
 # --------------------------------------------------------------------------
+# club-type hub pages — /iron-lofts/, /fairway-wood-lofts/, /hybrid-lofts/
+#
+# The wedge and driver hubs (wedge_index, driver_index) predate these; the
+# three below complete the set so the nav can offer one landing page per club
+# type. Same contract as the older hubs: an answer-first lede, a reference
+# chart, the brand table generated from the spec archive, and the model cards.
+# --------------------------------------------------------------------------
+
+# Month the fairway wood and hybrid brand tables were last checked against the
+# archive — the wood files all carry current_as_of from the October 2026 pass.
+WOOD_CHECKED = "2026-10"
+
+
+def hub_article_ld(headline, desc, path, keywords, about):
+    return {
+        "@context": "https://schema.org", "@type": "TechArticle",
+        "headline": headline,
+        "description": desc,
+        "datePublished": HUB_PUBLISHED, "dateModified": HUB_REVIEWED,
+        "mainEntityOfPage": {"@type": "WebPage", "@id": SITE + path},
+        "author": {"@type": "Organization", "name": SITE_NAME, "url": SITE},
+        "publisher": {"@type": "Organization", "name": SITE_NAME, "url": SITE},
+        "about": {"@type": "Thing", "name": about},
+        "keywords": keywords,
+    }
+
+
+def hub_sources(first_bullet, checked):
+    return f"""<div class="sources"><strong>How these figures were compiled:</strong>
+  <ul>
+    <li>{first_bullet}</li>
+    <li>Brand and model figures come from the LoftChart spec archive &mdash; the
+    per-model pages linked above, each compiled from the manufacturer&rsquo;s own spec
+    sheets and source-attributed &mdash; last verified in {long_date(checked)}.</li>
+  </ul>
+  <p>Last reviewed {long_date(HUB_REVIEWED)}. Spot an error? {email_link()}</p></div>"""
+
+
+def iron_index(brands, iron_models, by_cat):
+    """The /iron-lofts/ hub — the 'iron loft chart' overview page."""
+    title = fit_title("Iron Loft Chart — Lofts by Club, Category & Era",
+                      f" | {SITE_NAME}")
+    n_brands = len({m["brand_slug"] for m in iron_models})
+    desc = fit_desc(
+        "A modern 7-iron runs 28°–35° — about 34° on blades, 29° on game "
+        "improvement irons. ",
+        [f"Iron loft charts for {plural(len(iron_models), 'set')} across "
+         f"{plural(n_brands, 'brand')}, 1960s to today.",
+         f"Iron loft charts for {plural(len(iron_models), 'set')}, "
+         "1960s to today.",
+         "Iron loft charts by brand, year and category."])
+
+    nav, bc = crumbs([("Home", "/"), ("Iron Lofts", None)])
+
+    club_rows = "".join(
+        f'<tr><th scope="row">{club}</th><td>{trad}</td><td>{players}</td>'
+        f"<td>{gi}</td></tr>"
+        for club, trad, players, gi in (
+            ("3-iron", "20°–21°", "19°–21°", "18°–19°"),
+            ("4-iron", "23°–24°", "22°–24°", "20.5°–22°"),
+            ("5-iron", "26°–28°", "25°–27°", "23°–25°"),
+            ("6-iron", "30°–31°", "28°–30°", "26°–28°"),
+            ("7-iron", "34°–35°", "32°–34°", "28°–31°"),
+            ("8-iron", "38°–39°", "36°–38°", "32°–35.5°"),
+            ("9-iron", "42°–43°", "40°–42°", "37°–40.5°"),
+            ("PW", "46°–48°", "44°–46°", "41°–45°"),
+        ))
+
+    # 7-iron loft by category, computed from the archive: every set on file
+    # for the count, confirmed-current sets only for the loft figures.
+    order = ["blade", "players", "players-distance", "game-improvement",
+             "super-game-improvement"]
+    cats = [c for c in order if c in by_cat] + [c for c in by_cat if c not in order]
+    cat_rows = []
+    for c in cats:
+        ms = by_cat[c]
+        cur = [s7["loft"] for s7 in (seven_iron(m) for m in ms if is_current(m))
+               if s7 and s7.get("loft") is not None and str(s7.get("club")) == "7"]
+        med = f"{num(median(cur))}°" if cur else "—"
+        span = (f"{num(min(cur))}°–{num(max(cur))}°"
+                if len(cur) > 1 and min(cur) != max(cur) else med)
+        cat_rows.append(
+            f'<tr><th scope="row"><a href="/category/{esc(c)}/">'
+            f'{esc(CATEGORY_LABEL.get(c, c))}</a></th>'
+            f"<td>{len(ms)}</td><td>{med}</td><td>{span}</td></tr>")
+
+    recent = sorted(iron_models,
+                    key=lambda m: (-(m.get("year_introduced") or 0), m["brand"]))[:8]
+
+    faq = [
+        ("What loft is a 7-iron?",
+         "Between about 28° and 35° depending on the set. Traditional and blade "
+         "irons sit at 34°–35°, modern players irons around 32°–34°, and "
+         "distance-oriented game improvement sets as low as 28°. That spread is "
+         "why two golfers' 7-irons can fly a club and a half apart."),
+        ("Why do iron lofts vary so much between sets?",
+         "Lofts have been strengthened steadily since the 1980s. Perimeter "
+         "weighting and thin faces launch the ball higher from the same loft, so "
+         "manufacturers took loft off each head to turn the extra height into "
+         "distance — and the club numbers stayed where they were."),
+        ("Are stronger lofts actually longer?",
+         "Only when the head design restores the launch the loft took away. A "
+         "28° game improvement 7-iron with a low centre of gravity flies like a "
+         "well-struck traditional 6-iron; the same loft on a blade would launch "
+         "too low to hold a green. Compare sets by loft and carry, not number."),
+        ("What loft is a pitching wedge?",
+         "Between 41° and 48°, matched to the set it comes with: strong-lofted "
+         "distance sets ship 41°–44° pitching wedges, traditional sets 46°–48°. "
+         "The full breakdown is on the wedge loft chart."),
+    ]
+    faq_html, faq_ld = faq_block(faq)
+
+    article_ld = hub_article_ld(
+        "Iron Loft Chart", desc, "/iron-lofts/",
+        "iron loft chart, 7 iron loft, iron lofts by brand, standard iron lofts, "
+        "strong lofted irons", "Golf iron loft")
+
+    body = f"""{nav}
+<div class="wrap">
+  <div class="page-head">
+    <h1>Iron Loft Chart</h1>
+    <p class="lede">What degree each iron is, how lofts differ by set category, and why
+    the same club number can vary by six degrees between brands.</p>
+  </div>
+
+  <p><strong>There is no single standard iron loft.</strong> A modern 7-iron runs from
+  about 34°–35° in blades and traditional sets down to 28°–31° in distance-oriented game
+  improvement sets. Lofts have been strengthened steadily since the 1980s, which is why
+  comparing sets by club number alone is misleading — and why every chart in this archive
+  records the year the set was introduced.</p>
+
+  <dl class="facts">
+    <div><dt>Blade 7-iron</dt><dd>~34°</dd></div>
+    <div><dt>Players 7-iron</dt><dd>32°–34°</dd></div>
+    <div><dt>Game improvement 7-iron</dt><dd>28°–31°</dd></div>
+    <div><dt>Set pitching wedge</dt><dd>41°–48°</dd></div>
+    <div><dt>Loft gap between clubs</dt><dd>3°–4°</dd></div>
+  </dl>
+
+  <h2>Typical iron lofts by club</h2>
+  <div class="table-scroll data-table-zone"><table class="specs">
+    <caption>Typical loft bands by club number — traditional sets against the two main
+    modern categories.</caption>
+    <thead><tr><th scope="col">Club</th><th scope="col">Traditional (pre-1990s)</th>
+    <th scope="col">Modern players</th><th scope="col">Modern game improvement</th></tr></thead>
+    <tbody>{club_rows}</tbody></table></div>
+  <p class="table-note">Bands, not standards: no governing body defines iron lofts, and
+  individual sets sit outside these ranges. Look up the exact chart for any set via the
+  <a href="/brands/">brand index</a> or <a href="/years/">by year</a>.</p>
+
+  <h2>7-iron loft by category</h2>
+  <div class="table-scroll data-table-zone"><table class="specs">
+    <caption>7-iron lofts across the LoftChart archive; loft figures are from sets
+    confirmed current as of {long_date(HUB_REVIEWED)}.</caption>
+    <thead><tr><th scope="col">Category</th><th scope="col">Sets on file</th>
+    <th scope="col">Current median</th><th scope="col">Current range</th></tr></thead>
+    <tbody>{''.join(cat_rows)}</tbody></table></div>
+  <p class="table-note">The category link opens every set on file, current and
+  discontinued. The <a href="/category/">category guide</a> explains what separates a
+  blade from a players iron.</p>
+
+  <h2>Why iron lofts got stronger</h2>
+  <p>Perimeter weighting, thin fast faces and low centres of gravity launch the ball
+  higher from the same loft. Manufacturers spent that extra height on distance by taking
+  loft off each head — roughly a degree per decade in the game improvement category —
+  while the numbers stamped on the soles stayed put. The result: a 1985 game improvement
+  7-iron at 36° and a 2025 one at 28° are, by loft, two different clubs.</p>
+  <p>Neither is wrong. The strong-lofted head still flies high because the design
+  launches it; the traditional head still carries its distance on spin and control. What
+  matters when switching sets is the loft and carry of each slot, not the number — and
+  that the gap to your wedges stays even, which is where the
+  <a href="/wedge-lofts/">wedge loft chart</a> takes over.</p>
+
+  <h2>Recently released iron sets on file</h2>
+  <div class="grid">{''.join(model_card(m) for m in recent)}</div>
+  <p>The archive holds {plural(len(iron_models), 'iron set')} across
+  {plural(n_brands, 'brand')}, from current lines to 1960s vintage sets whose spec sheets
+  have left the manufacturer sites. Browse the <a href="/brands/">brand index</a>,
+  <a href="/years/">by year</a> or <a href="/category/">by category</a>.</p>
+
+  {faq_html}
+
+  {hub_sources("Loft bands are drawn from the archive itself and from accepted "
+               "club-fitting conventions, given as ranges because no governing body "
+               "defines iron lofts.", HUB_REVIEWED)}
+</div>
+"""
+    page("/iron-lofts/", title, desc, body, brands,
+         [bc, article_ld, faq_ld], og_type="article")
+
+
+def fairway_index(brands, fw_models):
+    """The /fairway-wood-lofts/ hub — the 'fairway wood loft chart' page."""
+    title = fit_title("Fairway Wood Loft Chart — 3, 5 & 7 Wood Degrees",
+                      f" | {SITE_NAME}")
+    desc = fit_desc(
+        "A 3-wood is 15°, a 5-wood 18°–19° and a 7-wood 21°–22°. ",
+        [f"Stock fairway wood lofts by brand, which wood replaces which iron, "
+         f"and charts for {plural(len(fw_models), 'family')}.",
+         "Stock fairway wood lofts by brand, plus which wood replaces which iron.",
+         "Stock fairway wood lofts for every major brand."])
+
+    nav, bc = crumbs([("Home", "/"), ("Fairway Wood Lofts", None)])
+
+    band_rows = "".join(
+        f'<tr><th scope="row">{wood}</th><td>{loft}</td><td>{replaces}</td>'
+        f"<td>{role}</td></tr>"
+        for wood, loft, replaces, role in (
+            ("3-wood", "13.5°–16.5°", "—",
+             "Distance off the tee and long par 5s; 15° is the standard"),
+            ("4-wood", "16°–17.5°", "2-iron",
+             "The 3/5-wood tweener, easier to flight than a 3-wood"),
+            ("5-wood", "17.5°–19.5°", "2–3 iron / 3-hybrid",
+             "The most versatile fairway loft for most golfers"),
+            ("7-wood", "20.5°–22.5°", "3–4 iron / 4-hybrid",
+             "High, soft-landing long approach club"),
+            ("9-wood", "23.5°–26.5°", "4–5 iron",
+             "Maximum height; increasingly common even on tour"),
+        ))
+
+    brand_rows = "".join(
+        f'<tr><th scope="row"><a href="/{esc(m["brand_slug"])}/">{esc(m["brand"])}</a></th>'
+        f'<td><a href="{m["url"]}">{esc(m["model"])}</a>'
+        + (f' ({m["year_introduced"]})' if m.get("year_introduced") else "")
+        + f"</td><td>{esc(lofts)}</td><td>{esc(adj)}</td></tr>"
+        for m, lofts, adj in driver_brand_rows(fw_models))
+
+    recent = sorted(fw_models,
+                    key=lambda m: (-(m.get("year_introduced") or 0), m["brand"]))
+
+    faq = [
+        ("What loft is a 3-wood?",
+         "15° is the standard, with stock options running from about 13.5° on "
+         "low-spin tour heads to 16.5° on high-launch builds. Most adjustable "
+         "hosels move that by a degree or so in each direction."),
+        ("Should I carry a 3-wood or a 5-wood?",
+         "Most amateurs get more out of a 5-wood. A 3-wood's 15° face needs "
+         "clubhead speed to launch from the turf, so it often becomes a "
+         "tee-only club; an 18°–19° 5-wood flies almost as far, launches far "
+         "more easily and holds greens. Carry both only if the gap to the "
+         "driver justifies it."),
+        ("What fairway wood is easiest to hit?",
+         "The highest-lofted one that fills the gap. Loft adds launch and "
+         "backspin, which keeps mis-hits airborne and reduces curve — a 7-wood "
+         "or 9-wood is markedly easier from the fairway and rough than a "
+         "3-wood, which is why high-lofted woods are back in fashion."),
+        ("Can a fairway wood replace a driver?",
+         "Off the tee, yes — a 13.5°–16.5° 3-wood costs distance against a "
+         "driver but its shorter shaft and extra loft make it straighter. "
+         "Players who fight the driver often tee off with a 3-wood and give "
+         "up less than they think."),
+    ]
+    faq_html, faq_ld = faq_block(faq)
+
+    article_ld = hub_article_ld(
+        "Fairway Wood Loft Chart", desc, "/fairway-wood-lofts/",
+        "fairway wood loft chart, 3 wood loft, 5 wood loft, 7 wood loft, "
+        "fairway wood degrees", "Golf fairway wood loft")
+
+    body = f"""{nav}
+<div class="wrap">
+  <div class="page-head">
+    <h1>Fairway Wood Loft Chart</h1>
+    <p class="lede">What degree each fairway wood is, which long iron or hybrid it
+    replaces, and the stock lofts every major manufacturer currently builds.</p>
+  </div>
+
+  <p><strong>A standard 3-wood is 15°, a 5-wood 18°–19° and a 7-wood 21°–22°.</strong>
+  The retail range runs from 13.5° low-spin 3-woods to 9-woods at 26° and beyond, and
+  most current families add an adjustable hosel worth a degree or two in each direction.
+  Unlike irons, fairway woods are usually bought one slot at a time — which makes the
+  loft, not the number on the sole, the thing to gap by.</p>
+
+  <dl class="facts">
+    <div><dt>3-wood</dt><dd>15° standard</dd></div>
+    <div><dt>5-wood</dt><dd>18°–19°</dd></div>
+    <div><dt>7-wood</dt><dd>21°–22°</dd></div>
+    <div><dt>9-wood</dt><dd>24°–26°</dd></div>
+    <div><dt>Typical hosel adjustment</dt><dd>±1°–2°</dd></div>
+  </dl>
+
+  <h2>Fairway wood lofts at a glance</h2>
+  <div class="table-scroll data-table-zone"><table class="specs">
+    <caption>Typical loft bands by wood number, and the long clubs each one replaces.</caption>
+    <thead><tr><th scope="col">Wood</th><th scope="col">Typical loft</th>
+    <th scope="col">Replaces</th><th scope="col">Role</th></tr></thead>
+    <tbody>{band_rows}</tbody></table></div>
+  <p class="table-note">Bands overlap on purpose — a strong 5-wood and a weak 4-wood are
+  the same club. Gap fairway woods by loft and carry against the driver above them and
+  the <a href="/hybrid-lofts/">hybrids</a> or irons below.</p>
+
+  <h2>Stock fairway wood lofts by brand</h2>
+  <div class="table-scroll data-table-zone"><table class="specs">
+    <caption>Stock loft options for each manufacturer&rsquo;s current fairway wood line,
+    as of {long_date(WOOD_CHECKED)}.</caption>
+    <thead><tr><th scope="col">Brand</th><th scope="col">Current line</th>
+    <th scope="col">Stock lofts</th><th scope="col">Hosel adjustment</th></tr></thead>
+    <tbody>{brand_rows}</tbody></table></div>
+  <p class="table-note">Generated from the LoftChart spec archive, last verified
+  {long_date(WOOD_CHECKED)}; the model link opens the family&rsquo;s full chart with
+  every head variant and hosel setting. Some lofts are right-hand only.</p>
+
+  <h2>Fairway wood spec charts on file</h2>
+  <p>Per-family pages with the stock lofts for every head variant and the hosel
+  adjustment chart where the family shares one — including discontinued lines whose
+  spec pages have left the manufacturer sites.</p>
+  <div class="grid">{''.join(model_card(m) for m in recent)}</div>
+
+  <h2>Loft decides the job, not the number</h2>
+  <p>The number on a fairway wood's sole is a naming convention; the loft is what sets
+  launch, carry and landing angle. A 15° 3-wood is a distance club that needs speed to
+  fly from the turf. From about 18° upward the equation flips: the ball climbs easily,
+  lands steeply and stops — which is why a 7-wood from light rough is one of the easiest
+  long shots in golf, and why the highest-lofted woods have returned to tour bags.</p>
+  <p>When gapping, work downward from the driver in roughly 3°–4° steps of loft and
+  make each slot either a fairway wood or a <a href="/hybrid-lofts/">hybrid</a>, not
+  both. The same loft in a wood flies higher and further; in a hybrid it is shorter,
+  more iron-like and easier to control.</p>
+
+  {faq_html}
+
+  {guide_shop_block("Shop fairway woods", "fairway wood",
+                     "Search for new and used fairway woods at these retailers:")}
+
+  <p>Working on the rest of the long game? The <a href="/driver-lofts/">driver loft
+  chart</a> covers the tee shot and the <a href="/hybrid-lofts/">hybrid loft chart</a>
+  maps each hybrid to the iron it replaces.</p>
+
+  {hub_sources("Loft bands and the iron equivalences are the accepted club-fitting "
+               "conventions, given as ranges because no governing body defines them "
+               "and shaft length and head design move every one of them.",
+               WOOD_CHECKED)}
+</div>
+{guide_sticky_bar("Shop fairway woods", "fairway wood")}
+"""
+    page("/fairway-wood-lofts/", title, desc, body, brands,
+         [bc, article_ld, faq_ld], og_type="article")
+
+
+def hybrid_index(brands, hy_models):
+    """The /hybrid-lofts/ hub — the 'hybrid loft chart' page."""
+    title = fit_title("Hybrid Loft Chart — Degrees & Iron Equivalents",
+                      f" | {SITE_NAME}")
+    desc = fit_desc(
+        "A 19° hybrid replaces a 3-iron, 22° a 4-iron and 25° a 5-iron. ",
+        [f"Hybrid lofts by brand with iron equivalents, and spec charts for "
+         f"{plural(len(hy_models), 'family')} of head variants.",
+         "Hybrid lofts by brand, with the iron each loft replaces.",
+         "Hybrid loft chart with iron equivalents."])
+
+    nav, bc = crumbs([("Home", "/"), ("Hybrid Lofts", None)])
+
+    band_rows = "".join(
+        f'<tr><th scope="row">{h}</th><td>{loft}</td><td>{iron}</td>'
+        f"<td>{wood}</td></tr>"
+        for h, loft, iron, wood in (
+            ("2-hybrid", "16°–18°", "2-iron", "4-wood"),
+            ("3-hybrid", "19°–21°", "3-iron", "5-wood / 7-wood"),
+            ("4-hybrid", "22°–24°", "4-iron", "7-wood / 9-wood"),
+            ("5-hybrid", "25°–27°", "5-iron", "9-wood"),
+            ("6-hybrid", "28°–31°", "6-iron", "—"),
+        ))
+
+    brand_rows = "".join(
+        f'<tr><th scope="row"><a href="/{esc(m["brand_slug"])}/">{esc(m["brand"])}</a></th>'
+        f'<td><a href="{m["url"]}">{esc(m["model"])}</a>'
+        + (f' ({m["year_introduced"]})' if m.get("year_introduced") else "")
+        + f"</td><td>{esc(lofts)}</td><td>{esc(adj)}</td></tr>"
+        for m, lofts, adj in driver_brand_rows(hy_models))
+
+    recent = sorted(hy_models,
+                    key=lambda m: (-(m.get("year_introduced") or 0), m["brand"]))
+
+    faq = [
+        ("What loft hybrid replaces a 3-iron?",
+         "19°–21°. Match the lofts rather than the numbers: a modern 3-iron is "
+         "19°–21° and so is a 3-hybrid. But expect the hybrid to carry half a "
+         "club further at the same loft — its longer shaft and lower, deeper "
+         "centre of gravity add ball speed and launch — so some players take "
+         "one degree more loft in the hybrid."),
+        ("Do hybrids go further than irons of the same loft?",
+         "Usually, by roughly 5–10 yards. The hybrid's shaft is longer and its "
+         "centre of gravity sits further back, which adds ball speed and "
+         "launch. That is a feature when replacing a long iron and a problem "
+         "when it stacks on top of a full set — check the gap to your longest "
+         "iron rather than assuming the numbers line up."),
+        ("What hybrid should a beginner carry?",
+         "More loft than instinct suggests: a 22°–25° hybrid in place of the "
+         "4- and 5-irons is the single easiest upgrade. Low-lofted 17°–19° "
+         "hybrids need nearly as much speed as the long irons they replace."),
+        ("Hybrid or fairway wood for the same slot?",
+         "The same loft flies higher and further in a fairway wood, shorter "
+         "and more controlled in a hybrid. Pick the wood for distance slots "
+         "and par-5 seconds, the hybrid where you want an iron's trajectory "
+         "with more forgiveness — and hold each slot with only one of them."),
+    ]
+    faq_html, faq_ld = faq_block(faq)
+
+    article_ld = hub_article_ld(
+        "Hybrid Loft Chart", desc, "/hybrid-lofts/",
+        "hybrid loft chart, hybrid degrees, 3 hybrid loft, hybrid iron "
+        "equivalent, what hybrid replaces a 4 iron", "Golf hybrid loft")
+
+    body = f"""{nav}
+<div class="wrap">
+  <div class="page-head">
+    <h1>Hybrid Loft Chart</h1>
+    <p class="lede">What degree each hybrid is, which iron each loft replaces, and the
+    stock lofts every major manufacturer currently builds.</p>
+  </div>
+
+  <p><strong>Hybrids run from about 17° to 28°, and the loft maps directly onto the
+  long iron it replaces:</strong> 19°–21° stands in for a 3-iron, 22°–24° for a 4-iron,
+  25°–27° for a 5-iron. The number stamped on the head follows the same convention as
+  the iron, but lofts vary by a degree or two between brands — so gap by loft, and
+  expect a hybrid to carry slightly further than the iron it replaces.</p>
+
+  <dl class="facts">
+    <div><dt>Common range</dt><dd>17°–28°</dd></div>
+    <div><dt>3-iron replacement</dt><dd>19°–21°</dd></div>
+    <div><dt>4-iron replacement</dt><dd>22°–24°</dd></div>
+    <div><dt>5-iron replacement</dt><dd>25°–27°</dd></div>
+    <div><dt>Typical hosel adjustment</dt><dd>±1°–2°</dd></div>
+  </dl>
+
+  <h2>Hybrid lofts at a glance</h2>
+  <div class="table-scroll data-table-zone"><table class="specs">
+    <caption>Typical loft bands by hybrid number, with the iron and fairway wood
+    equivalents.</caption>
+    <thead><tr><th scope="col">Hybrid</th><th scope="col">Typical loft</th>
+    <th scope="col">Replaces</th><th scope="col">Fairway wood equivalent</th></tr></thead>
+    <tbody>{band_rows}</tbody></table></div>
+  <p class="table-note">Equivalences assume modern iron lofts; against a traditional or
+  blade set (see the <a href="/iron-lofts/">iron loft chart</a>) shift everything about
+  one club weaker. The same loft carries further in a hybrid than in the iron.</p>
+
+  <h2>Stock hybrid lofts by brand</h2>
+  <div class="table-scroll data-table-zone"><table class="specs">
+    <caption>Stock loft options for each manufacturer&rsquo;s current hybrid line, as of
+    {long_date(WOOD_CHECKED)}.</caption>
+    <thead><tr><th scope="col">Brand</th><th scope="col">Current line</th>
+    <th scope="col">Stock lofts</th><th scope="col">Hosel adjustment</th></tr></thead>
+    <tbody>{brand_rows}</tbody></table></div>
+  <p class="table-note">Generated from the LoftChart spec archive, last verified
+  {long_date(WOOD_CHECKED)}; the model link opens the family&rsquo;s full chart with
+  every head variant and hosel setting. Some lofts are right-hand only.</p>
+
+  <h2>Hybrid spec charts on file</h2>
+  <p>Per-family pages with the stock lofts for every head variant and the hosel
+  adjustment chart where the family shares one — including discontinued lines whose
+  spec pages have left the manufacturer sites.</p>
+  <div class="grid">{''.join(model_card(m) for m in recent)}</div>
+
+  <h2>Match the loft, then check the carry</h2>
+  <p>A hybrid is a long-iron replacement, so the fitting logic starts from the iron it
+  displaces: find the loft of the iron coming out of the bag and buy the hybrid within a
+  degree of it. Then check the gap on the course. The hybrid's longer shaft and deeper
+  centre of gravity usually add half a club of carry at the same loft, which is welcome
+  at the top of the bag and a problem if it opens a hole above your 5-iron.</p>
+  <p>Adjustable hosels, where fitted, move most current hybrids a degree or two either
+  way — enough to close a gap without reordering the set. The per-model pages above
+  chart each family's settings.</p>
+
+  {faq_html}
+
+  {guide_shop_block("Shop hybrids", "golf hybrid",
+                     "Search for new and used hybrids at these retailers:")}
+
+  <p>Filling the slots around them? The <a href="/fairway-wood-lofts/">fairway wood
+  loft chart</a> covers the woods above and the <a href="/iron-lofts/">iron loft
+  chart</a> the set below.</p>
+
+  {hub_sources("Loft bands and the iron equivalences are the accepted club-fitting "
+               "conventions, given as ranges because no governing body defines them "
+               "and shaft length and head design move every one of them.",
+               WOOD_CHECKED)}
+</div>
+{guide_sticky_bar("Shop hybrids", "golf hybrid")}
+"""
+    page("/hybrid-lofts/", title, desc, body, brands,
+         [bc, article_ld, faq_ld], og_type="article")
+
+
+# --------------------------------------------------------------------------
 # feeds
 # --------------------------------------------------------------------------
 
@@ -6309,6 +6801,8 @@ def main():
     iron_models = [m for m in models if m["club_type"] == "irons"]
     wedge_models = [m for m in models if m["club_type"] == "wedges"]
     driver_models = [m for m in models if m["club_type"] == "driver"]
+    fairway_models = [m for m in models if m["club_type"] == "fairway_wood"]
+    hybrid_models = [m for m in models if m["club_type"] == "hybrid"]
     by_brand = defaultdict(list)
     by_year = defaultdict(list)
     by_cat = defaultdict(list)
@@ -6364,6 +6858,9 @@ def main():
     # models are only linked, never mixed into those stats.
     wedge_pages(iron_models, brands, wedge_models)
     driver_pages(brands, driver_models)
+    iron_index(brands, iron_models, by_cat)
+    fairway_index(brands, fairway_models)
+    hybrid_index(brands, hybrid_models)
 
     homepage(brands, models, by_brand)
     about_page(brands, models)
@@ -6391,6 +6888,10 @@ def main():
             ("/years/", "0.6", site_mod), ("/category/", "0.6", site_mod),
             ("/wedge-lofts/", "0.9", WEDGE_REVIEWED),
             ("/driver-lofts/", "0.9", DRIVER_REVIEWED),
+            ("/iron-lofts/", "0.9", max(HUB_REVIEWED, newest(iron_models))),
+            ("/fairway-wood-lofts/", "0.9",
+             max(HUB_REVIEWED, newest(fairway_models))),
+            ("/hybrid-lofts/", "0.9", max(HUB_REVIEWED, newest(hybrid_models))),
             ("/about/", "0.4", site_mod), ("/privacy/", "0.2", PRIVACY_UPDATED)]
     urls += [(f"/wedge-lofts/{w['slug']}/", "0.8", WEDGE_REVIEWED) for w in WEDGE_TYPES]
     urls += [(f"/guides/{g['slug']}/", "0.8", DRIVER_REVIEWED) for g in DRIVER_GUIDES]
