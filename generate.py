@@ -685,7 +685,7 @@ def head(title, desc, path, ld=None, og_type="website", noindex=False,
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="/css/style.css?v=2">
+<link rel="stylesheet" href="/css/style.css?v=3">
 {ldblocks}
 {consent}
 {adsense}
@@ -1665,6 +1665,27 @@ def driver_availability(m):
   {long_date(m['current_as_of'])}, with no replacement announced.{lineage}{hosel_txt} {check}</p>"""
 
 
+def _link_retailers(section, m):
+    """Link retailer names in availability prose to the model's shop searches.
+
+    The buying-advice paragraphs are where purchase intent peaks, and a bare
+    retailer name there is a dead end. Only the tracked partners get anchors;
+    Golf Avenue and PGA Tour Superstore stay plain text. "eBay" is replaced
+    after "2nd Swing" and never matches inside an href — URLs carry the
+    lowercase "ebay".
+    """
+    swing_url, ebay_url, _ = _shop_links(m)
+    section = section.replace(
+        "2nd Swing",
+        f'<a href="{esc(swing_url)}" rel="sponsored nofollow noopener" '
+        f'target="_blank">2nd Swing</a>')
+    section = section.replace(
+        "eBay",
+        f'<a href="{esc(ebay_url)}" rel="sponsored nofollow noopener" '
+        f'target="_blank">eBay</a>')
+    return section
+
+
 def availability(m):
     """Closing section, written from the production status the data actually records.
 
@@ -1673,9 +1694,9 @@ def availability(m):
     reader to shop the used market for a set that is on the rack is simply wrong.
     """
     if m.get("club_type") == "wedges":
-        return wedge_availability(m)
+        return _link_retailers(wedge_availability(m), m)
     if is_wood(m):
-        return driver_availability(m)
+        return _link_retailers(driver_availability(m), m)
     brand, model = esc(m["brand"]), esc(m["model"])
     intro = m.get("year_introduced")
     pred = m.get("predecessor")
@@ -1724,7 +1745,7 @@ def availability(m):
   move any of them — so confirm the numbers on the order sheet. Used sets appear on eBay,
   2nd Swing and Golf Avenue, and should be measured against this chart before buying.</p>"""
 
-    return section
+    return _link_retailers(section, m)
 
 
 def _2ndswing_url(query):
@@ -1762,25 +1783,53 @@ def _shop_links(m):
             _globalgolf_url(query))
 
 
+def _shop_buttons(swing_url, ebay_url, gg_url):
+    """Retailer buttons shared by the model and guide shop blocks.
+
+    The 2nd Swing button is the primary CTA (solid, highest-contrast): it is
+    the tracked partner with the deepest used-club inventory, so it earns the
+    visual weight. Labels carry a verb — a retailer name alone reads as a
+    citation, not something to click.
+    """
+    links = [
+        (swing_url, "Check price at 2nd Swing", "2ndswing", " shop-btn-primary"),
+        (ebay_url, "See eBay listings", "ebay", ""),
+        (gg_url, "Browse GlobalGolf", "globalgolf", ""),
+    ]
+    return "".join(
+        f'<a href="{esc(url)}" rel="sponsored nofollow noopener" '
+        f'target="_blank" class="shop-btn shop-{cls}{extra}">{label}</a>'
+        for url, label, cls, extra in links)
+
+
+def top_cta(m):
+    """Compact price-check CTA under the page head, above the spec table.
+
+    The main shop block sits below the spec table, which puts it under the
+    fold on every page; this strip is the above-the-fold entry point. Two
+    buttons only — the full three-retailer block follows the table.
+    """
+    swing_url, ebay_url, _ = _shop_links(m)
+    brand, model = esc(m["brand"]), esc(m["model"])
+    return f"""<div class="top-cta">
+    <a href="{esc(swing_url)}" rel="sponsored nofollow noopener"
+       target="_blank" class="cta-btn cta-primary">Check {brand} {model} price at 2nd Swing</a>
+    <a href="{esc(ebay_url)}" rel="sponsored nofollow noopener"
+       target="_blank" class="cta-btn cta-secondary">See eBay listings</a>
+    <span class="cta-disc" title="We may earn a commission from purchases made through these links at no extra cost to you.">Affiliate links</span>
+  </div>"""
+
+
 def shop_block(m):
     """Affiliate shop links for a model page."""
     swing_url, ebay_url, gg_url = _shop_links(m)
     brand, model = esc(m["brand"]), esc(m["model"])
-
-    links = [
-        (swing_url, "2nd Swing", "2ndswing"),
-        (ebay_url, "eBay", "ebay"),
-        (gg_url, "GlobalGolf", "globalgolf"),
-    ]
-    buttons = "".join(
-        f'<a href="{esc(url)}" rel="sponsored nofollow noopener" '
-        f'target="_blank" class="shop-btn shop-{cls}">{label}</a>'
-        for url, label, cls in links)
+    buttons = _shop_buttons(swing_url, ebay_url, gg_url)
 
     noun = f"{WOOD_NOUN[m['club_type']]}s" if is_wood(m) else "sets"
     return f"""<div id="shop-block">
   <h2>Shop {brand} {model}</h2>
-  <p class="shop-lede">Search for new and used {noun} at these retailers:</p>
+  <p class="shop-lede">Compare prices for new and used {noun} at these retailers:</p>
   <div class="shop-links">{buttons}</div>
   {AFFILIATE_DISCLOSURE}
   </div>"""
@@ -1827,15 +1876,7 @@ def guide_shop_block(heading, query, lede):
     swing_url = _2ndswing_url(query)
     ebay_url = _ebay_url(query)
     gg_url = _globalgolf_url(query)
-    links = [
-        (swing_url, "2nd Swing", "2ndswing"),
-        (ebay_url, "eBay", "ebay"),
-        (gg_url, "GlobalGolf", "globalgolf"),
-    ]
-    buttons = "".join(
-        f'<a href="{esc(url)}" rel="sponsored nofollow noopener" '
-        f'target="_blank" class="shop-btn shop-{cls}">{label}</a>'
-        for url, label, cls in links)
+    buttons = _shop_buttons(swing_url, ebay_url, gg_url)
     return f"""<div id="shop-block">
   <h2>{esc(heading)}</h2>
   <p class="shop-lede">{esc(lede)}</p>
@@ -2267,6 +2308,8 @@ def model_page(m, brands, models_by_key, compares_by_key):
     <h1>{esc(m['title'])} Specifications</h1>
     <p class="lede">{esc(lede)}</p>
   </div>
+
+  {top_cta(m)}
 
   <dl class="facts">{facts_html}</dl>
 

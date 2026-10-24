@@ -613,6 +613,69 @@ table.specs tr.loft-group td { border-top: 2px solid var(--border); }
   margin-top: .6rem;
 }
 
+/* ---------- top price-check CTA ---------- */
+
+.top-cta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .6rem;
+  margin: 0 0 1.6rem;
+}
+.cta-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .4rem;
+  padding: .65rem 1.3rem;
+  font-size: .94rem;
+  font-weight: 600;
+  border-radius: var(--radius);
+  white-space: nowrap;
+  transition: background .12s ease, transform .12s ease, box-shadow .12s ease;
+}
+.cta-btn::after { content: "\2192"; font-weight: 400; }
+.cta-primary {
+  background: var(--green);
+  color: #fff;
+  box-shadow: var(--shadow);
+}
+.cta-primary:hover {
+  background: var(--green-light);
+  color: #fff;
+  text-decoration: none;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(27,67,50,.22);
+}
+.cta-secondary {
+  background: var(--surface);
+  color: var(--green);
+  border: 1px solid var(--border);
+}
+.cta-secondary:hover {
+  color: var(--green);
+  text-decoration: none;
+  border-color: var(--green-light);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(27,67,50,.12);
+}
+.cta-disc {
+  font-size: .72rem;
+  color: var(--text-muted);
+  cursor: help;
+  border-bottom: 1px dotted var(--border);
+}
+@media (max-width: 640px) {
+  .cta-btn {
+    flex: 1 1 100%;
+    white-space: normal;
+    text-align: center;
+  }
+  /* The title-attribute tooltip never shows on touch, so the cursor:help
+     affordance (the dotted rule) has nothing to reveal — plain muted text. */
+  .cta-disc { flex-basis: 100%; width: 100%; border-bottom: 0; }
+}
+
 /* ---------- shop block ---------- */
 
 .shop-lede {
@@ -664,6 +727,22 @@ table.specs tr.loft-group td { border-top: 2px solid var(--border); }
 .shop-ebay::before {
   mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M2.5 4A2.5 2.5 0 0 0 0 6.5v3A2.5 2.5 0 0 0 2.5 12h2a2.5 2.5 0 0 0 2.12-1.18L8 8.5l1.38 2.32A2.5 2.5 0 0 0 11.5 12h2a2.5 2.5 0 0 0 2.5-2.5v-3A2.5 2.5 0 0 0 13.5 4h-2a2.5 2.5 0 0 0-2.12 1.18L8 7.5 6.62 5.18A2.5 2.5 0 0 0 4.5 4z'/%3E%3C/svg%3E");
   -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M2.5 4A2.5 2.5 0 0 0 0 6.5v3A2.5 2.5 0 0 0 2.5 12h2a2.5 2.5 0 0 0 2.12-1.18L8 8.5l1.38 2.32A2.5 2.5 0 0 0 11.5 12h2a2.5 2.5 0 0 0 2.5-2.5v-3A2.5 2.5 0 0 0 13.5 4h-2a2.5 2.5 0 0 0-2.12 1.18L8 7.5 6.62 5.18A2.5 2.5 0 0 0 4.5 4z'/%3E%3C/svg%3E");
+}
+.shop-btn-primary {
+  background: var(--green);
+  border-color: var(--green);
+  color: #fff;
+}
+.shop-btn-primary:hover {
+  background: var(--green-light);
+  border-color: var(--green-light);
+  color: #fff;
+  box-shadow: 0 4px 14px rgba(27,67,50,.22);
+}
+.shop-btn-primary::before { background: var(--gold); }
+@media (max-width: 640px) {
+  .shop-links { flex-direction: column; }
+  .shop-btn { justify-content: center; }
 }
 .shop-globalgolf::before {
   mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='7' fill='none' stroke='currentColor' stroke-width='1.5'/%3E%3Cellipse cx='8' cy='8' rx='3' ry='7' fill='none' stroke='currentColor' stroke-width='1.5'/%3E%3Cpath d='M1.5 8h13' stroke='currentColor' stroke-width='1.5'/%3E%3C/svg%3E");
@@ -742,7 +821,7 @@ table.specs tr.loft-group td { border-top: 2px solid var(--border); }
   .sticky-bar-label { font-size: .82rem; }
   .sticky-bar-disc { display: none; }
 }
-@media print { .sticky-bar, #shop-block { display: none; } }
+@media print { .sticky-bar, #shop-block, .top-cta { display: none; } }
 
 .sources {
   border-top: 1px solid var(--border);
