@@ -684,7 +684,7 @@ def head(title, desc, path, ld=None, og_type="website", noindex=False,
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="/css/style.css?v=4">
+<link rel="stylesheet" href="/css/style.css?v=5">
 {ldblocks}
 {consent}
 {adsense}
@@ -707,6 +707,15 @@ def head(title, desc, path, ld=None, og_type="website", noindex=False,
       <a href="/driver-lofts/">Drivers</a>
       <a href="/fairway-wood-lofts/">Fairways</a>
       <a href="/hybrid-lofts/">Hybrids</a>
+      <div class="nav-more">
+        <button class="nav-more-btn" type="button" aria-haspopup="true" aria-expanded="false">More</button>
+        <div class="nav-more-menu">
+          <a href="/brands/">Brands</a>
+          <a href="/compare/">Compare</a>
+          <a href="/years/">Years</a>
+          <a href="/about/">About</a>
+        </div>
+      </div>
     </nav>
   </div>
 </header>

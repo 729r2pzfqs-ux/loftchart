@@ -88,6 +88,59 @@ a:hover { color: var(--green); text-decoration: underline; text-underline-offset
 }
 .site-nav a:hover { color: var(--gold); text-decoration: none; }
 
+/* "More" dropdown — CSS-only (hover / focus-within) on desktop, with a JS
+   click toggle (.open) as enhancement; flattened into the hamburger list
+   below 768px */
+.nav-more-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: 0;
+  color: rgba(255,255,255,.88);
+  font: inherit;
+  font-size: .92rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+.nav-more-btn::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 5px solid currentColor;
+}
+.nav-more-btn:hover { color: var(--gold); }
+
+@media (min-width: 768px) {
+  .nav-more { position: relative; }
+  .nav-more-menu {
+    display: none;
+    position: absolute;
+    z-index: 60;
+    top: 100%;
+    right: 0;
+    min-width: 9.5rem;
+    padding: .4rem 0;
+    background: var(--green);
+    border-top: 1px solid rgba(255,255,255,.14);
+    border-bottom: 3px solid var(--gold);
+    border-radius: 0 0 var(--radius) var(--radius);
+    box-shadow: 0 12px 28px rgba(0,0,0,.25);
+  }
+  .nav-more:hover .nav-more-menu,
+  .nav-more:focus-within .nav-more-menu,
+  .nav-more.open .nav-more-menu { display: block; }
+  .nav-more-menu a {
+    display: block;
+    padding: .55rem 1.1rem;
+    white-space: nowrap;
+  }
+}
+
 /* hamburger — hidden on desktop, replaces the inline nav below 768px */
 .nav-toggle {
   display: none;
@@ -141,6 +194,9 @@ a:hover { color: var(--green); text-decoration: underline; text-underline-offset
     border-bottom: 1px solid rgba(255,255,255,.08);
   }
   .site-nav a:last-child { border-bottom: 0; }
+  /* flatten the "More" group into plain menu items */
+  .nav-more, .nav-more-menu { display: contents; }
+  .nav-more-btn { display: none; }
 }
 
 /* ---------- breadcrumbs ---------- */

@@ -30,6 +30,33 @@
   });
 })();
 
+/* "More" dropdown — click toggle on top of the CSS hover/focus-within */
+(function () {
+  "use strict";
+
+  var more = document.querySelector(".nav-more");
+  if (!more) return;
+  var btn = more.querySelector(".nav-more-btn");
+
+  function setOpen(open) {
+    more.classList.toggle("open", open);
+    btn.setAttribute("aria-expanded", open ? "true" : "false");
+    if (!open) btn.blur();
+  }
+
+  btn.addEventListener("click", function () {
+    setOpen(!more.classList.contains("open"));
+  });
+
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && more.classList.contains("open")) setOpen(false);
+  });
+
+  document.addEventListener("click", function (e) {
+    if (more.classList.contains("open") && !more.contains(e.target)) setOpen(false);
+  });
+})();
+
 /* model search */
 (function () {
   "use strict";
