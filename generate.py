@@ -2423,10 +2423,12 @@ def brands_index(brands, by_brand, all_models):
     nav, bc = crumbs([("Home", "/"), ("Brands", None)])
 
     cards = []
+    listed = []
     for b in brands:
         ms = by_brand.get(b["slug"], [])
         if not ms:
             continue
+        listed.append({"url": f"/{b['slug']}/", "title": b["name"]})
         years = [m["year_introduced"] for m in ms if m.get("year_introduced")]
         cards.append(
             f'<a class="card brand-card" href="/{b["slug"]}/" '
@@ -2446,7 +2448,7 @@ def brands_index(brands, by_brand, all_models):
 </div>
 """
     page("/brands/", title, desc, body, brands,
-         [bc, item_list(all_models, "Golf club brands")])
+         [bc, item_list(listed, "Golf club brands")])
 
 
 # --------------------------------------------------------------------------
@@ -2619,7 +2621,9 @@ def years_index(by_year, brands, all_models):
   <div class="grid">{cards}</div>
 </div>
 """
-    page("/years/", title, desc, body, brands, [bc, item_list(all_models, "Release years")])
+    listed = [{"url": f"/years/{y}/", "title": str(y)}
+              for y in sorted(by_year, reverse=True)]
+    page("/years/", title, desc, body, brands, [bc, item_list(listed, "Release years")])
 
 
 def category_page(cat, ms, brands):
@@ -2700,7 +2704,9 @@ def categories_index(by_cat, brands, all_models):
   <div class="grid">{cards}</div>
 </div>
 """
-    page("/category/", title, desc, body, brands, [bc, item_list(all_models, "Iron categories")])
+    listed = [{"url": f"/category/{c}/", "title": CATEGORY_LABEL.get(c, c)}
+              for c in cats]
+    page("/category/", title, desc, body, brands, [bc, item_list(listed, "Iron categories")])
 
 
 # --------------------------------------------------------------------------
