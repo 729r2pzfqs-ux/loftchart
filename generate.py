@@ -230,6 +230,56 @@ WOOD_CATEGORY_LABEL = {
 }
 
 
+# Order and heading for the per-club-type sections on year and category hubs.
+CLUB_SECTION_ORDER = ("irons", "wedges", "driver", "fairway_wood", "hybrid")
+CLUB_SECTION_LABEL = {"irons": "Irons", "wedges": "Wedges", **WOOD_PLURAL}
+
+# /category/ hubs are keyed on the raw category slug, and the iron, wedge and
+# wood enums overlap ("game-improvement" exists in all three), so one hub can
+# hold several club types. These page-level labels, nouns and blurbs describe
+# the hub as a whole; the per-type enums above still label each section.
+CATEGORY_PAGE_LABEL = {
+    "blade": CATEGORY_LABEL["blade"],
+    "players": CATEGORY_LABEL["players"],
+    "players-distance": CATEGORY_LABEL["players-distance"],
+    "game-improvement": "Game Improvement Clubs",
+    "super-game-improvement": CATEGORY_LABEL["super-game-improvement"],
+    "tour": WEDGE_CATEGORY_LABEL["tour"],
+    "specialty": WEDGE_CATEGORY_LABEL["specialty"],
+    "flagship": "Flagship Lines",
+    "lightweight": "Lightweight Clubs",
+}
+
+# Mid-sentence plural noun for the hub, doubling as the shop search query.
+CATEGORY_PAGE_NOUN = {
+    "blade": "blade irons",
+    "players": "players irons",
+    "players-distance": "players distance irons",
+    "game-improvement": "game improvement clubs",
+    "super-game-improvement": "super game improvement irons",
+    "tour": "tour wedges",
+    "specialty": "specialty wedges",
+    "flagship": "flagship drivers",
+    "lightweight": "lightweight drivers",
+}
+
+CATEGORY_PAGE_BLURB = {
+    **CATEGORY_BLURB,
+    "game-improvement": "Forgiveness-first designs across irons, wedges, "
+                        "drivers and woods — perimeter weighting, wider soles "
+                        "and higher launch, aimed at mid and high handicaps.",
+    "tour": "Compact wedge heads with multiple sole grinds and tight loft "
+            "gapping — the short-game profile most OEMs put in play on tour.",
+    "specialty": "Wedges built around a specific short-game fix — extra-wide "
+                 "soles, full-face grooves and very high lofts.",
+    "flagship": "Each brand's headline driver, fairway wood and hybrid "
+                "families — several head variants per line, led by the newest "
+                "face technology.",
+    "lightweight": "Reduced-weight heads and builds that help moderate swing "
+                   "speeds launch the ball higher with more speed.",
+}
+
+
 def is_wood(m):
     return m.get("club_type") in WOOD_TYPES
 
@@ -2083,7 +2133,10 @@ def model_page(m, brands, models_by_key, compares_by_key):
             str(intro), f'<a href="/years/{intro}/">{intro}</a>', 1)
     cat = m.get("category")
     cat_html = esc(category_label(m))
-    if not (is_wedge or is_driver) and cat in CATEGORY_LABEL:
+    # Every validated category has a hub page — iron, wedge and wood models
+    # all feed /category/ — so the label links for every club type.
+    if (cat in CATEGORY_LABEL or cat in WEDGE_CATEGORY_LABEL
+            or cat in DRIVER_CATEGORY_LABEL):
         cat_html = f'<a href="/category/{esc(cat)}/">{cat_html}</a>'
     if is_driver:
         hosel = m.get("hosel") or {}
@@ -2564,7 +2617,7 @@ def year_summary(year, ms, by_year):
         f'<td>{cell(club_row(m, "7"), "length")}</td>'
         f'<td>{cell(club_row(m, "PW"), "loft")}</td></tr>'
         for _, m in sevens)
-    return f"""<h2>{year} lofts compared</h2>
+    return f"""<h2>{year} iron lofts compared</h2>
   <p>{text}</p>
   {mix_html}
   <div class="table-scroll data-table-zone"><table class="specs">
@@ -2578,6 +2631,13 @@ def year_summary(year, ms, by_year):
 
 def year_page(year, ms, brands, by_year):
     ms = sorted(ms, key=lambda m: (m["brand"], m["model"]))
+    by_type = defaultdict(list)
+    for m in ms:
+        by_type[m["club_type"]].append(m)
+    types = ([t for t in CLUB_SECTION_ORDER if by_type[t]]
+             + sorted(t for t in by_type if t not in CLUB_SECTION_ORDER))
+    types_txt = comma_list(CLUB_SECTION_LABEL.get(t, t).lower() for t in types)
+    irons = by_type.get("irons", [])
     years = sorted(by_year)
     at = years.index(year)
     around = []
@@ -2590,8 +2650,15 @@ def year_page(year, ms, brands, by_year):
     title = f"{year} Golf Club Releases — Specifications | {SITE_NAME}"
     brand_names = sorted({m["brand"] for m in ms})
     blist = comma_list(brand_names)
-    span = loft_span(ms)
-    head = f"{year} golf club releases: {plural(len(ms), 'iron model')}"
+    span = loft_span(irons)
+    if len(types) == 1:
+        noun = {"irons": "iron model", "wedges": "wedge model",
+                "driver": "driver family", "fairway_wood": "fairway wood family",
+                "hybrid": "hybrid family"}.get(types[0], "model")
+        head = f"{year} golf club releases: {plural(len(ms), noun)}"
+    else:
+        head = (f"{year} golf club releases: {plural(len(ms), 'model')} across "
+                f"{types_txt}")
     head_part = f"{head}, {span}. " if span else f"{head}. "
     desc = fit_desc(head_part, [
         f"Full specifications from {blist}. Compare loft, lie and length across "
@@ -2600,18 +2667,29 @@ def year_page(year, ms, brands, by_year):
         f"Specifications from {plural(len(brand_names), 'brand')}. Compare loft, "
         f"lie and length across every {year} release.",
         f"Compare loft, lie and length across every {year} release.",
+        f"Specifications from {plural(len(brand_names), 'brand')}.",
     ])
     nav, bc = crumbs([("Home", "/"), ("Years", "/years/"), (str(year), None)])
+    if len(types) == 1:
+        lede = (f"{len(ms)} model{'s' if len(ms) != 1 else ''} on file introduced in "
+                f"{year}. Every entry links to its full loft, lie and length chart.")
+        sections = (f"<h2>Every {year} model</h2>"
+                    f'<div class="grid">{"".join(model_card(m) for m in ms)}</div>')
+    else:
+        lede = (f"{len(ms)} models on file introduced in {year}, spanning "
+                f"{types_txt}. Every entry links to its full specification chart.")
+        sections = "".join(
+            f'<h2>{year} {esc(CLUB_SECTION_LABEL.get(t, t).lower())}</h2>'
+            f'<div class="grid">{"".join(model_card(m) for m in by_type[t])}</div>'
+            for t in types)
     body = f"""{nav}
 <div class="wrap">
   <div class="page-head">
     <h1>Golf Clubs Released in {year}</h1>
-    <p class="lede">{len(ms)} model{'s' if len(ms) != 1 else ''} on file introduced in
-    {year}. Every entry links to its full loft, lie and length chart.</p>
+    <p class="lede">{lede}</p>
   </div>
-  {year_summary(year, ms, by_year)}
-  <h2>Every {year} model</h2>
-  <div class="grid">{''.join(model_card(m) for m in ms)}</div>
+  {year_summary(year, irons, by_year)}
+  {sections}
   {around_html}
 
   {guide_shop_block(f"Shop {year} clubs", f"{year} golf clubs",
@@ -2630,7 +2708,7 @@ def years_index(by_year, brands, all_models):
     yrs = sorted(by_year)
     desc = fit_desc(
         f"Golf club specifications by release year, {yrs[0]} to {yrs[-1]}: "
-        f"{plural(len(all_models), 'iron model')} across {plural(len(yrs), 'year')}. ",
+        f"{plural(len(all_models), 'model')} across {plural(len(yrs), 'year')}. ",
         ["Full loft, lie and length charts for every model.",
          "Full loft and lie charts.",
          ""])
@@ -2655,90 +2733,127 @@ def years_index(by_year, brands, all_models):
 
 
 def category_page(cat, ms, brands):
-    label = CATEGORY_LABEL.get(cat, cat)
+    label = CATEGORY_PAGE_LABEL.get(cat) or CATEGORY_LABEL.get(cat, cat)
+    noun = CATEGORY_PAGE_NOUN.get(cat, "clubs")
     ms = sorted(ms, key=lambda m: (m.get("year_introduced") or 0, m["brand"]))
-    short = CATEGORY_SHORT.get(cat, label.replace(" Irons", "").lower())
+    by_type = defaultdict(list)
+    for m in ms:
+        by_type[m["club_type"]].append(m)
+    types = ([t for t in CLUB_SECTION_ORDER if by_type[t]]
+             + sorted(t for t in by_type if t not in CLUB_SECTION_ORDER))
+    irons = by_type.get("irons", [])
+    multi = len(types) > 1
     title = fit_title(label, " — Loft Charts & Specs", f" | {SITE_NAME}")
-    span = loft_span(ms)
+    span = loft_span(irons)
     # Lead with the loft figure — it is the number that distinguishes one
     # category from the next, and the reason someone clicks a category page.
-    if span:
-        head_part = f"{label}: {span} across {plural(len(ms), f'{short} iron')}. "
+    if not multi and irons:
+        short = CATEGORY_SHORT.get(cat, label.replace(" Irons", "").lower())
+        if span:
+            head_part = f"{label}: {span} across {plural(len(ms), f'{short} iron')}. "
+        else:
+            head_part = (f"{label}: specifications for "
+                         f"{plural(len(ms), f'{short} iron')}. ")
+        desc = fit_desc(head_part, [
+            "Compare loft, lie, length and swing weight for every club, from every "
+            "major brand.",
+            "Compare loft, lie and length for every club from every major brand.",
+            "Compare loft, lie and length for every club.",
+        ])
     else:
-        head_part = f"{label}: specifications for {plural(len(ms), f'{short} iron')}. "
-    desc = fit_desc(head_part, [
-        "Compare loft, lie, length and swing weight for every club, from every "
-        "major brand.",
-        "Compare loft, lie and length for every club from every major brand.",
-        "Compare loft, lie and length for every club.",
-    ])
+        types_txt = comma_list(CLUB_SECTION_LABEL.get(t, t).lower() for t in types)
+        head_part = (f"{label}: specifications for {plural(len(ms), 'model')} "
+                     f"across {types_txt}. " if multi else
+                     f"{label}: specifications for {plural(len(ms), 'model')}. ")
+        desc = fit_desc(head_part, [
+            f"Compare lofts, specifications and model options for every line of "
+            f"{noun} from the major brands.",
+            "Compare lofts and specifications across every model, from every "
+            "major brand.",
+            "Compare lofts and specifications across every model.",
+            "Full spec charts for every model.",
+        ])
     nav, bc = crumbs([("Home", "/"), ("Categories", "/category/"), (label, None)])
 
-    rows = "".join(
-        f'<tr><th scope="row"><a href="{m["url"]}">{esc(m["brand"])} {esc(m["model"])}</a></th>'
-        f'<td>{esc(year_range(m))}</td>'
-        f'<td>{num(seven_iron(m)["loft"]) if seven_iron(m) else "—"}</td>'
-        f'<td>{num(seven_iron(m)["lie"]) if seven_iron(m) and seven_iron(m).get("lie") is not None else "—"}</td>'
-        f'<td>{num(seven_iron(m)["length"]) if seven_iron(m) and seven_iron(m).get("length") is not None else "—"}</td></tr>'
-        for m in ms)
-
-    body = f"""{nav}
-<div class="wrap">
-  <div class="page-head">
-    <h1>{esc(label)}</h1>
-    <p class="lede">{esc(CATEGORY_BLURB.get(cat, ''))}</p>
-  </div>
-  <h2>7-iron specifications compared</h2>
+    sections = []
+    for t in types:
+        tms = by_type[t]
+        if t == "irons":
+            rows = "".join(
+                f'<tr><th scope="row"><a href="{m["url"]}">{esc(m["brand"])} {esc(m["model"])}</a></th>'
+                f'<td>{esc(year_range(m))}</td>'
+                f'<td>{num(seven_iron(m)["loft"]) if seven_iron(m) else "—"}</td>'
+                f'<td>{num(seven_iron(m)["lie"]) if seven_iron(m) and seven_iron(m).get("lie") is not None else "—"}</td>'
+                f'<td>{num(seven_iron(m)["length"]) if seven_iron(m) and seven_iron(m).get("length") is not None else "—"}</td></tr>'
+                for m in tms)
+            h2 = ("Irons — 7-iron specifications compared" if multi
+                  else "7-iron specifications compared")
+            sections.append(f"""<h2>{h2}</h2>
   <div class="table-scroll data-table-zone"><table class="specs">
     <thead><tr><th scope="col">Model</th><th scope="col">Years</th><th scope="col">Loft (°)</th>
     <th scope="col">Lie (°)</th><th scope="col">Length (in)</th></tr></thead>
     <tbody>{rows}</tbody></table></div>
   <p class="table-note">Figures shown are the 7-iron from each set (or the nearest middle
-  iron where a 7-iron is not on file). Follow a model link for the full set chart.</p>
+  iron where a 7-iron is not on file). Follow a model link for the full set chart.</p>""")
+        else:
+            h2 = CLUB_SECTION_LABEL.get(t, t) if multi else "Every model on file"
+            sections.append(
+                f"<h2>{esc(h2)}</h2>"
+                f'<div class="grid">{"".join(model_card(m) for m in tms)}</div>')
 
-  {guide_shop_block(f"Shop {short} irons", f"{short} irons golf",
-                     f"Search new and used {short} iron sets on eBay:")}
+    body = f"""{nav}
+<div class="wrap">
+  <div class="page-head">
+    <h1>{esc(label)}</h1>
+    <p class="lede">{esc(CATEGORY_PAGE_BLURB.get(cat, ''))}</p>
+  </div>
+  {''.join(sections)}
+
+  {guide_shop_block(f"Shop {noun}", f"{noun} golf",
+                     f"Search new and used {noun} on eBay:")}
 </div>
-{guide_sticky_bar(f"Shop {short} irons", f"{short} irons golf")}
+{guide_sticky_bar(f"Shop {noun}", f"{noun} golf")}
 """
     page(f"/category/{cat}/", title, desc, body, brands, [bc, item_list(ms, label)])
 
 
 def categories_index(by_cat, brands, all_models):
-    title = fit_title("Iron Categories — Blade, Players & Game Improvement",
+    title = fit_title("Golf Club Categories — Blade, Players & Game Improvement",
                       f" | {SITE_NAME}")
-    span = loft_span(all_models)
-    head_part = (f"Golf iron categories compared: {plural(len(all_models), 'model')} "
-                 f"across {plural(len(by_cat), 'category')}, {span}. " if span else
-                 f"Golf iron categories compared: {plural(len(all_models), 'model')} "
+    head_part = (f"Golf club categories compared: {plural(len(all_models), 'model')} "
                  f"across {plural(len(by_cat), 'category')}. ")
     desc = fit_desc(head_part, [
-        "Blades, players, players distance and game improvement irons.",
-        "Blades, players and game improvement irons.",
-        ""])
+        "Blade, players and game improvement irons, tour and specialty wedges, "
+        "flagship and lightweight driver and wood lines.",
+        "Blade, players and game improvement irons, plus wedge, driver and "
+        "wood categories.",
+        "Iron, wedge, driver and wood categories compared.",
+    ])
     nav, bc = crumbs([("Home", "/"), ("Categories", None)])
     order = ["blade", "players", "players-distance", "game-improvement",
-             "super-game-improvement"]
+             "super-game-improvement", "tour", "specialty", "flagship",
+             "lightweight"]
     cats = [c for c in order if c in by_cat] + [c for c in by_cat if c not in order]
     cards = "".join(
         f'<a class="card" href="/category/{esc(c)}/">'
-        f'<span class="card-title">{esc(CATEGORY_LABEL.get(c, c))}</span>'
+        f'<span class="card-title">{esc(CATEGORY_PAGE_LABEL.get(c, c))}</span>'
         f'<span class="card-meta">{plural(len(by_cat[c]), "model")}</span>'
-        f'<span class="card-spec">{esc(CATEGORY_BLURB.get(c, "")[:88])}…</span></a>'
+        f'<span class="card-spec">{esc(CATEGORY_PAGE_BLURB.get(c, "")[:88])}…</span></a>'
         for c in cats)
     body = f"""{nav}
 <div class="wrap">
   <div class="page-head">
-    <h1>Iron Categories</h1>
-    <p class="lede">Irons are grouped by head design and intended player. The categories
-    below run from the most compact and least forgiving to the most forgiving.</p>
+    <h1>Golf Club Categories</h1>
+    <p class="lede">Clubs are grouped by design and intended player. The iron categories
+    run from the most compact and least forgiving to the most forgiving; wedges, drivers
+    and woods carry their own groupings.</p>
   </div>
   <div class="grid">{cards}</div>
 </div>
 """
-    listed = [{"url": f"/category/{c}/", "title": CATEGORY_LABEL.get(c, c)}
+    listed = [{"url": f"/category/{c}/", "title": CATEGORY_PAGE_LABEL.get(c, c)}
               for c in cats]
-    page("/category/", title, desc, body, brands, [bc, item_list(listed, "Iron categories")])
+    page("/category/", title, desc, body, brands, [bc, item_list(listed, "Club categories")])
 
 
 # --------------------------------------------------------------------------
@@ -6282,6 +6397,10 @@ def iron_index(brands, iron_models, by_cat):
 
     # 7-iron loft by category, computed from the archive: every set on file
     # for the count, confirmed-current sets only for the loft figures.
+    # by_cat now spans every club type; this table is the iron story only.
+    by_cat = {c: [m for m in ms_ if m["club_type"] == "irons"]
+              for c, ms_ in by_cat.items()}
+    by_cat = {c: ms_ for c, ms_ in by_cat.items() if ms_}
     order = ["blade", "players", "players-distance", "game-improvement",
              "super-game-improvement"]
     cats = [c for c in order if c in by_cat] + [c for c in by_cat if c not in order]
@@ -6869,11 +6988,9 @@ def main():
     by_cat = defaultdict(list)
     for m in models:
         by_brand[m["brand_slug"]].append(m)
-        # The year and category hubs are iron archives: their stats, copy and
-        # category enum are set-specific, and a wedge category like "tour"
-        # would otherwise mint a broken hub page.
-        if m["club_type"] != "irons":
-            continue
+        # Year and category hubs span every club type, sectioned by type on
+        # the page. Overlapping category slugs (the iron, wedge and wood enums
+        # all use "game-improvement") merge into one hub page.
         if m.get("year_introduced"):
             by_year[m["year_introduced"]].append(m)
         if m.get("category"):
@@ -6909,11 +7026,11 @@ def main():
 
     for y, ms in by_year.items():
         year_page(y, ms, brands, by_year)
-    years_index(by_year, brands, iron_models)
+    years_index(by_year, brands, models)
 
     for c, ms in by_cat.items():
         category_page(c, ms, brands)
-    categories_index(by_cat, brands, iron_models)
+    categories_index(by_cat, brands, models)
 
     # Guide stats continue to come from iron-set wedges; the standalone wedge
     # models are only linked, never mixed into those stats.
