@@ -737,10 +737,8 @@ def head(title, desc, path, ld=None, og_type="website", noindex=False,
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="/css/style.css?v=7">
+<link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/css/style.css?v=8">
 {ldblocks}
 {consent}
 {adsense}
@@ -822,7 +820,7 @@ def foot(brands):
     </div>
   </div>
 </footer>
-<script src="/js/search.js?v=2" defer></script>
+<script src="/js/search.js?v=3" defer></script>
 </body>
 </html>
 """
@@ -4155,8 +4153,15 @@ def compares_index(pairs_built, brands):
         _s, a, b, _i = p
         ys = [a.get("year_introduced") or 0, b.get("year_introduced") or 0]
         return (-max(ys), -min(ys), a["brand"], a["model"], b["model"])
-    cards = "".join(compare_card(s, a, b)
-                    for s, a, b, _i in sorted(pairs_built, key=newest_key))
+    ordered = sorted(pairs_built, key=newest_key)
+    # The full grid is ~900 KB of HTML, so only the newest cards ship in the
+    # page itself; the rest go to cards.json and load the first time the
+    # visitor filters, sorts, or scrolls to the end of the static cards.
+    static_count = 60
+    cards = "".join(compare_card(s, a, b) for s, a, b, _i in ordered[:static_count])
+    write("compare/cards.json",
+          json.dumps([compare_card(s, a, b) for s, a, b, _i in ordered[static_count:]],
+                     ensure_ascii=False, separators=(",", ":")))
     body = f"""{nav}
 <div class="wrap">
   <div class="page-head">
@@ -4187,6 +4192,7 @@ def compares_index(pairs_built, brands):
   </div>
   <div class="chips" id="cmp-cats" role="group" aria-label="Filter by category">{cat_chips}</div>
   <div class="grid" id="cmp-grid">{cards or '<p>No comparisons available yet.</p>'}</div>
+  <div id="cmp-sentinel" aria-hidden="true"></div>
   <p id="cmp-empty" class="cmp-empty" style="display:none">No comparisons match your filters.</p>
 </div>
 <script>
@@ -4199,7 +4205,23 @@ def compares_index(pairs_built, brands):
       count=document.getElementById('cmp-count'),
       empty=document.getElementById('cmp-empty'),
       cards=Array.prototype.slice.call(grid.querySelectorAll('.card')),
-      cat='';
+      cat='',loaded=false,loading=false;
+  /* Only the newest cards are in the HTML; the rest load once from
+     cards.json on first filter/sort interaction or on scrolling past
+     the static cards, then the current sort and filters re-apply. */
+  function loadRest(){{
+    if(loaded||loading)return;
+    loading=true;
+    fetch('/compare/cards.json')
+      .then(function(r){{return r.json();}})
+      .then(function(rest){{
+        grid.insertAdjacentHTML('beforeend',rest.join(''));
+        cards=Array.prototype.slice.call(grid.querySelectorAll('.card'));
+        loaded=true;
+        order();filter();
+      }})
+      .catch(function(){{loading=false;}});
+  }}
   function filter(){{
     var q=search.value.toLowerCase().trim(),
         b=brand.value,
@@ -4230,12 +4252,20 @@ def compares_index(pairs_built, brands):
     chips[i].addEventListener('click',function(){{
       cat=this.getAttribute('data-cat');
       for(var j=0;j<chips.length;j++)chips[j].setAttribute('aria-pressed',chips[j]===this?'true':'false');
-      filter();
+      filter();loadRest();
     }});
   }}
-  search.addEventListener('input',filter);
-  brand.addEventListener('change',filter);
-  sort.addEventListener('change',order);
+  search.addEventListener('input',function(){{filter();loadRest();}});
+  brand.addEventListener('change',function(){{filter();loadRest();}});
+  sort.addEventListener('change',function(){{order();loadRest();}});
+  if('IntersectionObserver' in window){{
+    var io=new IntersectionObserver(function(entries){{
+      if(entries[0].isIntersecting){{io.disconnect();loadRest();}}
+    }},{{rootMargin:'800px'}});
+    io.observe(document.getElementById('cmp-sentinel'));
+  }}else{{
+    loadRest();
+  }}
 }})();
 </script>
 """
@@ -4346,6 +4376,16 @@ def homepage(brands, models, by_brand):
         "name": SITE_NAME,
         "url": SITE + "/",
         "description": desc,
+        # Sitelinks search box: the homepage search prefills and runs from ?q=
+        # (see search.js), which is the URL pattern declared here.
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": SITE + "/?q={search_term_string}",
+            },
+            "query-input": "required name=search_term_string",
+        },
     }
     org_ld = {
         "@context": "https://schema.org", "@type": "Organization",

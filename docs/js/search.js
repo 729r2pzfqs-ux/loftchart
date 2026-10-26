@@ -167,6 +167,18 @@
       setExpanded(false);
     }
   });
+
+  /* ?q= deep link — the URL pattern the WebSite SearchAction schema declares */
+  var m = /[?&]q=([^&]+)/.exec(window.location.search);
+  if (m) {
+    try {
+      input.value = decodeURIComponent(m[1].replace(/\+/g, " "));
+    } catch (e) {
+      input.value = m[1];
+    }
+    input.focus();
+    search();
+  }
 })();
 
 /* club-type filter chips on brand pages — previously bound after the search
