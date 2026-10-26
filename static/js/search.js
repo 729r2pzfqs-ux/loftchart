@@ -94,19 +94,29 @@
     return 2;
   }
 
+  function setExpanded(open) {
+    input.setAttribute("aria-expanded", open ? "true" : "false");
+    if (!open) input.removeAttribute("aria-activedescendant");
+  }
+
   function render(list, q) {
     current = list;
     active = -1;
-    if (!q) { box.innerHTML = ""; return; }
+    input.removeAttribute("aria-activedescendant");
+    if (!q) { box.innerHTML = ""; setExpanded(false); return; }
     if (!list.length) {
-      box.innerHTML = '<div class="sr-none">No models match &ldquo;' +
+      box.innerHTML = '<div class="sr-none" role="option" id="lc-opt-none" ' +
+        'aria-disabled="true">No models match &ldquo;' +
         q.replace(/[&<>"]/g, "") + '&rdquo;.</div>';
+      setExpanded(true);
       return;
     }
-    box.innerHTML = list.map(function (m) {
-      return '<a href="' + base + m.u + '"><strong>' + m.t + '</strong>' +
+    box.innerHTML = list.map(function (m, i) {
+      return '<a role="option" id="lc-opt-' + i + '" aria-selected="false" ' +
+        'href="' + base + m.u + '"><strong>' + m.t + '</strong>' +
         '<span class="sr-meta">' + m.m + '</span></a>';
     }).join("");
+    setExpanded(true);
   }
 
   function search() {
@@ -127,9 +137,14 @@
   function move(delta) {
     var links = box.querySelectorAll("a");
     if (!links.length) return;
-    if (active >= 0) links[active].classList.remove("active");
+    if (active >= 0) {
+      links[active].classList.remove("active");
+      links[active].setAttribute("aria-selected", "false");
+    }
     active = (active + delta + links.length) % links.length;
     links[active].classList.add("active");
+    links[active].setAttribute("aria-selected", "true");
+    input.setAttribute("aria-activedescendant", links[active].id);
     links[active].scrollIntoView({ block: "nearest" });
   }
 
@@ -147,7 +162,10 @@
   });
 
   document.addEventListener("click", function (e) {
-    if (!box.contains(e.target) && e.target !== input) box.innerHTML = "";
+    if (!box.contains(e.target) && e.target !== input) {
+      box.innerHTML = "";
+      setExpanded(false);
+    }
   });
 })();
 

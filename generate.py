@@ -684,7 +684,7 @@ def head(title, desc, path, ld=None, og_type="website", noindex=False,
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="/css/style.css?v=6">
+<link rel="stylesheet" href="/css/style.css?v=7">
 {ldblocks}
 {consent}
 {adsense}
@@ -692,6 +692,7 @@ def head(title, desc, path, ld=None, og_type="website", noindex=False,
 <script src="https://analytics.ahrefs.com/analytics.js" data-key="Q1ltvzQDnlsCUSrZfvGd0g" async></script>
 </head>
 <body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
 <header class="site-header">
   <div class="wrap">
     <a class="brand" href="/">
@@ -719,7 +720,7 @@ def head(title, desc, path, ld=None, og_type="website", noindex=False,
     </nav>
   </div>
 </header>
-<main>
+<main id="main-content" tabindex="-1">
 """
 
 
@@ -765,7 +766,7 @@ def foot(brands):
     </div>
   </div>
 </footer>
-<script src="/js/search.js" defer></script>
+<script src="/js/search.js?v=2" defer></script>
 </body>
 </html>
 """
@@ -1795,7 +1796,7 @@ def top_cta(m):
     return f"""<div class="top-cta">
     <a href="{esc(ebay_url)}" rel="sponsored nofollow noopener"
        target="_blank" class="cta-btn cta-primary">Check {brand} {model} prices on eBay</a>
-    <span class="cta-disc" title="We may earn a commission from purchases made through this link at no extra cost to you.">Affiliate link</span>
+    <span class="cta-disc">Affiliate link &mdash; we may earn a commission at no extra cost to you.</span>
   </div>"""
 
 
@@ -1839,12 +1840,11 @@ def _sticky_bar_shell(label, links, extra_class="", two_links=False):
     """The sticky bar chrome around any set of links."""
     cls = f" {extra_class}" if extra_class else ""
     noun = "links" if two_links else "link"
-    pron = "these links" if two_links else "this link"
     return f"""<div id="sticky-bar" class="sticky-bar{cls}" hidden>
   <div class="sticky-bar-inner">
     <span class="sticky-bar-label">{esc(label)}</span>
     <div class="sticky-bar-links">{links}</div>
-    <span class="sticky-bar-disc" title="We may earn a commission from purchases made through {pron} at no extra cost to you.">Affiliate {noun}</span>
+    <a class="sticky-bar-disc" href="/about/#affiliate-disclosure">Affiliate {noun}</a>
     <button class="sticky-bar-close" aria-label="Dismiss">&times;</button>
   </div>
 </div>
@@ -4239,8 +4239,9 @@ def homepage(brands, models, by_brand):
     <div class="search">
       <input id="lc-search" type="search" autocomplete="off" data-base="/"
              placeholder="Search a model — try &ldquo;Ping Eye 2&rdquo;"
-             aria-label="Search golf club models">
-      <div id="lc-results" class="search-results" role="listbox"></div>
+             aria-label="Search golf club models" role="combobox"
+             aria-expanded="false" aria-autocomplete="list" aria-controls="lc-results">
+      <div id="lc-results" class="search-results" role="listbox" aria-label="Search results"></div>
     </div>
     <p class="counter"><strong>{len(models)}</strong> models across
     <strong>{len([b for b in brands if by_brand.get(b['slug'])])}</strong> brands</p>
@@ -4463,8 +4464,10 @@ def not_found(brands):
   </div>
   <div class="search">
     <input id="lc-search" type="search" autocomplete="off" data-base="/"
-           placeholder="Search for a model" aria-label="Search golf club models">
-    <div id="lc-results" class="search-results" role="listbox"></div>
+           placeholder="Search for a model" aria-label="Search golf club models"
+           role="combobox" aria-expanded="false" aria-autocomplete="list"
+           aria-controls="lc-results">
+    <div id="lc-results" class="search-results" role="listbox" aria-label="Search results"></div>
   </div>
   <p style="margin-top:1.5rem"><a href="/brands/">Browse all brands</a> ·
   <a href="/years/">Browse by year</a> · <a href="/">Go to the homepage</a></p>

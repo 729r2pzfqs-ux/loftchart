@@ -24,7 +24,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="/css/style.css?v=6">
+<link rel="stylesheet" href="/css/style.css?v=7">
 
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{'analytics_storage':'denied','ad_storage':'denied','ad_user_data':'denied','ad_personalization':'denied','wait_for_update':500,'region':['BE','BG','CZ','DK','DE','EE','IE','GR','ES','FR','HR','IT','CY','LV','LT','LU','HU','MT','NL','AT','PL','PT','RO','SI','SK','FI','SE','GB','CH','IS','LI','NO']});gtag('consent','default',{'analytics_storage':'granted','ad_storage':'granted','ad_user_data':'granted','ad_personalization':'granted'});</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5861928596436289" crossorigin="anonymous"></script>
@@ -33,6 +33,7 @@
 <script src="https://analytics.ahrefs.com/analytics.js" data-key="Q1ltvzQDnlsCUSrZfvGd0g" async></script>
 </head>
 <body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
 <header class="site-header">
   <div class="wrap">
     <a class="brand" href="/">
@@ -60,7 +61,7 @@
     </nav>
   </div>
 </header>
-<main>
+<main id="main-content" tabindex="-1">
 <div class="wrap narrow">
   <div class="page-head">
     <h1>Page not found</h1>
@@ -69,8 +70,10 @@
   </div>
   <div class="search">
     <input id="lc-search" type="search" autocomplete="off" data-base="/"
-           placeholder="Search for a model" aria-label="Search golf club models">
-    <div id="lc-results" class="search-results" role="listbox"></div>
+           placeholder="Search for a model" aria-label="Search golf club models"
+           role="combobox" aria-expanded="false" aria-autocomplete="list"
+           aria-controls="lc-results">
+    <div id="lc-results" class="search-results" role="listbox" aria-label="Search results"></div>
   </div>
   <p style="margin-top:1.5rem"><a href="/brands/">Browse all brands</a> ·
   <a href="/years/">Browse by year</a> · <a href="/">Go to the homepage</a></p>
@@ -115,6 +118,6 @@
     </div>
   </div>
 </footer>
-<script src="/js/search.js" defer></script>
+<script src="/js/search.js?v=2" defer></script>
 </body>
 </html>
