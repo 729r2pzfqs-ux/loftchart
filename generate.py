@@ -84,6 +84,12 @@ DRIVER_REVIEWED = "2026-09-29"
 # their figures, same contract as WEDGE_REVIEWED / DRIVER_REVIEWED above.
 HUB_PUBLISHED = "2026-10-24"
 HUB_REVIEWED = "2026-10-24"
+# The cross-cutting knowledge guides (/guides/iron-number-equivalents/ and
+# friends). Their tables are computed from data/ at build time, so the figures
+# track the archive on their own; KNOWLEDGE_REVIEWED moves only when someone
+# re-checks the prose claims and curated bands around those tables.
+KNOWLEDGE_PUBLISHED = "2026-10-26"
+KNOWLEDGE_REVIEWED = "2026-10-26"
 PRIVACY_UPDATED = "2026-10-11"
 
 # A model with no discontinuation year is only described as current when its
@@ -4386,6 +4392,12 @@ def homepage(brands, models, by_brand):
   <a href="/driver-lofts/">driver loft chart</a>.</p>
   <div class="grid">{driver_home_cards}</div>
 
+  <h2>Loft &amp; spec knowledge guides</h2>
+  <p>The questions behind the charts: how iron lofts drifted two club numbers in forty
+  years, which hybrid replaces which iron, and what lie angle does to your aim — every
+  table computed from the spec archive itself.</p>
+  <div class="grid">{knowledge_guide_card_items()}</div>
+
   <h2>What is a loft chart?</h2>
   <p>A loft chart lists the factory loft of every club in a set, usually alongside lie angle,
   club length, offset and swing weight. It is the reference you need when you are gapping a
@@ -6327,6 +6339,1075 @@ def driver_pages(brands, driver_models=()):
 
 
 # --------------------------------------------------------------------------
+# club knowledge guides — /guides/iron-number-equivalents/ and friends
+#
+# Cross-cutting questions the archive can answer with its own numbers: how
+# iron lofts drifted era by era, which hybrid stands in for which iron, what
+# lie angle does, what loft itself is, and the strong-versus-traditional
+# divide. Unlike the driver guides, the tables here are computed from data/
+# at build time, so the figures move when the archive does; only the fitting
+# conventions around them are curated, and the sources block says which is
+# which.
+# --------------------------------------------------------------------------
+
+IRON_CLUB_ORDER = ["2", "3", "4", "5", "6", "7", "8", "9", "PW"]
+
+# Card metadata for the cross-links between guides, the homepage section and
+# the sitemap — same contract as DRIVER_GUIDES.
+KNOWLEDGE_GUIDES = [
+    {"slug": "iron-number-equivalents",
+     "card_title": "What Replaced the 3-Iron?",
+     "card_meta": "Iron loft history",
+     "card_spec": "A modern GI 7-iron carries a 1980s 5-iron's loft"},
+    {"slug": "hybrid-to-iron-conversion",
+     "card_title": "Hybrid to Iron Conversion",
+     "card_meta": "Replacement chart",
+     "card_spec": "19°–21° = 3-iron · 22°–24° = 4-iron · 25°–27° = 5-iron"},
+    {"slug": "strong-vs-traditional-lofts",
+     "card_title": "Strong vs Traditional Lofts",
+     "card_meta": "The loft creep debate",
+     "card_spec": "29° vs 34° 7-irons — what the numbers hide"},
+    {"slug": "lie-angle",
+     "card_title": "Lie Angle Explained",
+     "card_meta": "Fitting guide",
+     "card_spec": "Standard lies by iron, and how 1° aims you offline"},
+    {"slug": "golf-club-loft-explained",
+     "card_title": "Golf Club Loft Explained",
+     "card_meta": "Beginner guide",
+     "card_spec": "From 9° drivers to 60° lob wedges — what loft does"},
+]
+
+
+def knowledge_article_ld(headline, desc, path, keywords, about):
+    return {
+        "@context": "https://schema.org", "@type": "TechArticle",
+        "headline": headline,
+        "description": desc,
+        "datePublished": KNOWLEDGE_PUBLISHED, "dateModified": KNOWLEDGE_REVIEWED,
+        "mainEntityOfPage": {"@type": "WebPage", "@id": SITE + path},
+        "author": {"@type": "Organization", "name": SITE_NAME, "url": SITE},
+        "publisher": {"@type": "Organization", "name": SITE_NAME, "url": SITE},
+        "about": {"@type": "Thing", "name": about},
+        "keywords": keywords,
+    }
+
+
+def knowledge_sources(first_bullet):
+    return f"""<div class="sources"><strong>How these figures were compiled:</strong>
+  <ul>
+    <li>{first_bullet}</li>
+    <li>Every table marked &ldquo;generated from the archive&rdquo; is computed at build
+    time from the LoftChart spec archive &mdash; the per-model pages linked on this site,
+    each compiled from the manufacturer&rsquo;s own spec sheets and source-attributed
+    &mdash; so the figures update whenever a model is added or corrected.</li>
+  </ul>
+  <p>Last reviewed {long_date(KNOWLEDGE_REVIEWED)}. Spot an error? {email_link()}</p></div>"""
+
+
+def knowledge_guide_card_items(exclude=None, only=None):
+    return "".join(
+        f'<a class="card" href="/guides/{g["slug"]}/">'
+        f'<span class="card-title">{esc(g["card_title"])}</span>'
+        f'<span class="card-meta">{esc(g["card_meta"])}</span>'
+        f'<span class="card-spec">{esc(g["card_spec"])}</span></a>'
+        for g in KNOWLEDGE_GUIDES
+        if g["slug"] != exclude and (only is None or g["slug"] in only))
+
+
+def knowledge_guide_cards(exclude=None, only=None):
+    return f'<div class="grid">{knowledge_guide_card_items(exclude, only)}</div>'
+
+
+def iron_ladder(ms, clubs=None):
+    """club -> median loft (to the nearest 0.5°) over the sets that carry it."""
+    out = {}
+    for c in clubs or IRON_CLUB_ORDER:
+        lofts = [row["loft"] for row in (club_row(m, c) for m in ms)
+                 if row and row.get("loft") is not None]
+        if lofts:
+            out[c] = round(median(lofts) * 2) / 2
+    return out
+
+
+def sets_of_decade(iron_models, dec):
+    return [m for m in iron_models
+            if dec <= (m.get("year_introduced") or 0) < dec + 10]
+
+
+def current_irons_of(iron_models, category=None):
+    return [m for m in iron_models if is_current(m)
+            and (category is None or m.get("category") == category)]
+
+
+def nearest_club(ladder, loft, tolerance=2.5):
+    """(club, loft) in the ladder closest to the target, or None beyond tolerance."""
+    cands = [(c, l) for c, l in ladder.items() if abs(l - loft) <= tolerance]
+    return min(cands, key=lambda cl: abs(cl[1] - loft)) if cands else None
+
+
+def clubs_in_band(ladder, lo, hi):
+    """The clubs whose median loft falls inside [lo, hi], formatted for a cell."""
+    hits = [f"{club_label_long(c)} ({num(ladder[c])}°)"
+            for c in IRON_CLUB_ORDER if c in ladder and lo <= ladder[c] <= hi]
+    return " / ".join(hits) if hits else "—"
+
+
+def club_label_long(c):
+    return "pitching wedge" if c == "PW" else f"{c}-iron"
+
+
+def _model_by_key(ms, key):
+    for m in ms:
+        if m["key"] == key:
+            return m
+    return None
+
+
+def iron_equivalents_guide(brands, iron_models):
+    """/guides/iron-number-equivalents/ — what replaced the 3-iron, and what a
+    modern 7-iron would have been called in earlier decades."""
+    slug = "iron-number-equivalents"
+    title = fit_title("What Replaced the 3-Iron? Iron Loft Equivalents",
+                      f" | {SITE_NAME}")
+    desc = fit_desc(
+        "A modern game-improvement 7-iron carries the loft of a 1980s 5-iron — "
+        "about 29°. ",
+        ["Decade-by-decade iron loft charts show what each club number used to "
+         "mean.",
+         "Decade charts show what each iron number used to mean.",
+         "Decade-by-decade iron loft charts."])
+
+    nav, bc = crumbs([("Home", "/"), ("Iron Lofts", "/iron-lofts/"),
+                      ("Iron Number Equivalents", None)])
+
+    # Median loft per club per decade, computed over every set on file.
+    decades = [(dec, sets_of_decade(iron_models, dec))
+               for dec in (1980, 1990, 2000, 2010, 2020)]
+    show_clubs = IRON_CLUB_ORDER[1:]  # 3-iron through PW
+    dec_rows = "".join(
+        f'<tr><th scope="row">{dec}s</th>'
+        + "".join(f"<td>{num(ladder[c]) + '°' if c in ladder else '—'}</td>"
+                  for c in show_clubs)
+        + f"<td>{len(ms)}</td></tr>"
+        for dec, ms, ladder in ((d, ms, iron_ladder(ms)) for d, ms in decades))
+
+    eighties = iron_ladder(sets_of_decade(iron_models, 1980))
+    gi_cur = iron_ladder(current_irons_of(iron_models, "game-improvement"))
+    n_gi = len(current_irons_of(iron_models, "game-improvement"))
+
+    # For each club of a current game improvement set, the 1980s club that
+    # carried the same loft — the "what would this have been called" mapping.
+    equiv_rows = []
+    for c in ["4", "5", "6", "7", "8", "9", "PW"]:
+        if c not in gi_cur:
+            continue
+        old = nearest_club(eighties, gi_cur[c])
+        old_txt = (f"{club_label_long(old[0])} ({num(old[1])}°)" if old
+                   else "between clubs")
+        equiv_rows.append(
+            f'<tr><th scope="row">{club_label_long(c).capitalize()}</th>'
+            f"<td>{num(gi_cur[c])}°</td><td>{old_txt}</td></tr>")
+
+    # Who still sells a 3-iron, computed from the confirmed-current sets.
+    cur = [m for m in iron_models if is_current(m)]
+    with3 = [m for m in cur if club_row(m, "3")]
+    start4 = [m for m in cur if club_row(m, "4") and not club_row(m, "3")]
+    start5 = [m for m in cur
+              if club_row(m, "5") and not club_row(m, "4") and not club_row(m, "3")]
+    n_player3 = len([m for m in with3
+                     if m.get("category") in ("blade", "players",
+                                              "players-distance")])
+
+    eye2 = _model_by_key(iron_models, "ping/eye-2-irons")
+    g440 = _model_by_key(iron_models, "ping/g440-irons")
+    example_html = ""
+    if eye2 and g440:
+        ex_clubs = ["3", "4", "5", "6", "7", "8", "9", "PW"]
+        def _cell(m, c):
+            row = club_row(m, c)
+            return f"{num(row['loft'])}°" if row and row.get("loft") is not None else "—"
+        ex_rows = "".join(
+            f'<tr><th scope="row">{club_label_long(c).capitalize()}</th>'
+            f"<td>{_cell(eye2, c)}</td><td>{_cell(g440, c)}</td></tr>"
+            for c in ex_clubs)
+        example_html = f"""
+  <h2>One brand, 43 years apart</h2>
+  <p>The cleanest way to see the shift is two game improvement sets from the same
+  maker: the <a href="{eye2['url']}">Ping Eye 2</a> ({eye2['year_introduced']}) against
+  the <a href="{g440['url']}">Ping G440</a> ({g440['year_introduced']}).</p>
+  <div class="table-scroll data-table-zone"><table class="specs">
+    <caption>Ping Eye 2 (1982) and Ping G440 (2025) lofts by club — generated from the
+    archive.</caption>
+    <thead><tr><th scope="col">Club</th><th scope="col">Eye 2 (1982)</th>
+    <th scope="col">G440 (2025)</th></tr></thead>
+    <tbody>{ex_rows}</tbody></table></div>
+  <p class="table-note">The G440's 29° 7-iron sits within half a degree of the Eye 2's
+  28.5° 5-iron, and its 42° pitching wedge is two degrees stronger than the Eye 2's
+  8-iron. The G440 does not have a 3-iron slot at all: its set starts at a 19° 4-iron —
+  two degrees <em>stronger</em> than the Eye 2's 3-iron.</p>
+"""
+
+    faq = [
+        ("What replaced the 3-iron?",
+         "Three things at once. Hybrids took over the slot directly — a 19 to 21 "
+         "degree hybrid carries the classic 3-iron loft with far more forgiveness. "
+         "Strong-lofted sets quietly renumbered it: many modern 4-irons are 19 to "
+         "21 degrees, which is the old 3-iron. And high-lofted fairway woods (7- "
+         "and 9-woods) cover the same distances from the turf."),
+        ("What loft was a 7-iron 20 years ago?",
+         "Around 34 degrees in the mid-2000s, against roughly 29 to 31 degrees in "
+         "a current distance set. Go back 40 years and it was 36 to 37 degrees — "
+         "the loft now stamped on many 9-irons."),
+        ("Is a modern 7-iron really a 5-iron?",
+         "By loft, in distance-oriented sets, close to it: a 29 degree modern game "
+         "improvement 7-iron matches the 1980s 5-iron almost exactly. But it is "
+         "not simply a relabelled blade — the low, deep centre of gravity launches "
+         "that loft much higher, so it flies like a 7-iron and carries like a "
+         "5-iron. Blades and players irons have moved far less."),
+        ("Why did manufacturers keep the same club numbers?",
+         "Because numbers sell on comparison. Golfers demo a new 7-iron against "
+         "their old 7-iron, and the set that flies ten yards further wins the "
+         "sale. Renumbering honestly — calling a 29 degree head a 5-iron — would "
+         "erase the headline gain, so the numbers stayed and the lofts moved."),
+        ("Do any current sets still use traditional lofts?",
+         "Yes — blades and players irons. Current blades still run 34 to 35 "
+         "degree 7-irons, essentially the 1990s spec, and most of them still "
+         "offer a 3-iron. Loft creep is concentrated in the distance categories."),
+    ]
+    faq_html, faq_ld = faq_block(faq)
+
+    article_ld = knowledge_article_ld(
+        "What Replaced the 3-Iron? Iron Number Equivalents", desc,
+        f"/guides/{slug}/",
+        "what replaced the 3 iron, iron loft changes over time, modern 7 iron "
+        "loft vs old, iron number equivalents, loft creep",
+        "Golf iron loft history")
+
+    body = f"""{nav}
+<div class="wrap">
+  <div class="page-head">
+    <h1>What Replaced the 3-Iron? Iron Number Equivalents by Era</h1>
+    <p class="lede">Iron lofts have strengthened by roughly two club numbers since the
+    1980s. Here is what each number used to mean — computed from the spec archive, not
+    from folklore.</p>
+  </div>
+
+  <p><strong>A modern game-improvement 7-iron (about 29°) carries the loft a 5-iron
+  carried in the 1980s, and today's 4-irons are stamped with yesterday's 3-iron
+  loft.</strong> The 3-iron did not disappear because golfers stopped needing a 20°
+  club — it disappeared because that loft is now sold as a 4-iron, a
+  <a href="/hybrid-lofts/">hybrid</a> or a high-lofted
+  <a href="/fairway-wood-lofts/">fairway wood</a> instead.</p>
+
+  <dl class="facts">
+    <div><dt>1980s 7-iron</dt><dd>{num(eighties.get("7", 37))}°</dd></div>
+    <div><dt>Current GI 7-iron</dt><dd>{num(gi_cur.get("7", 29))}°</dd></div>
+    <div><dt>Shift since the 1980s</dt><dd>~{num(round((eighties.get("7", 37) - gi_cur.get("7", 29)) * 2) / 2)}°</dd></div>
+    <div><dt>Current sets with a 3-iron</dt><dd>{len(with3)} of {len(cur)}</dd></div>
+    <div><dt>Classic 3-iron loft</dt><dd>20°–21°</dd></div>
+  </dl>
+
+  <h2>Iron lofts by decade</h2>
+  <div class="table-scroll data-table-zone"><table class="specs">
+    <caption>Median loft by club number for the iron sets introduced in each decade —
+    generated from the archive.</caption>
+    <thead><tr><th scope="col">Decade</th><th scope="col">3</th><th scope="col">4</th>
+    <th scope="col">5</th><th scope="col">6</th><th scope="col">7</th>
+    <th scope="col">8</th><th scope="col">9</th><th scope="col">PW</th>
+    <th scope="col">Sets on file</th></tr></thead>
+    <tbody>{dec_rows}</tbody></table></div>
+  <p class="table-note">Medians across every set on file for that decade, blades and
+  distance sets together — which is why the drift looks gradual; the split by category
+  is in the <a href="/guides/strong-vs-traditional-lofts/">strong vs traditional lofts
+  guide</a>. Read a column downwards: the 36°–37° that was a 7-iron in the 1980s is a
+  9-iron now. Browse the sets behind any decade <a href="/years/">by year</a>.</p>
+
+  <h2>What a modern club was called in the 1980s</h2>
+  <div class="table-scroll data-table-zone"><table class="specs">
+    <caption>Current game improvement medians ({plural(n_gi, 'confirmed-current set')})
+    against the 1980s club with the same loft — generated from the archive.</caption>
+    <thead><tr><th scope="col">Club today (GI set)</th><th scope="col">Median loft</th>
+    <th scope="col">Closest 1980s equivalent</th></tr></thead>
+    <tbody>{''.join(equiv_rows)}</tbody></table></div>
+  <p class="table-note">Loft equivalence, not playing equivalence: the modern head
+  launches the same loft noticeably higher, so it holds greens the old club with that
+  number could not. See every current distance set on the
+  <a href="/category/game-improvement/">game improvement category page</a>.</p>
+
+  <h2>Where the 3-iron actually went</h2>
+  <p>Of the {plural(len(cur), 'set')} in this archive confirmed as currently sold,
+  only {len(with3)} offer a 3-iron at all — and {n_player3} of those are
+  <a href="/category/blade/">blade</a>, <a href="/category/players/">players</a> or
+  players distance models aimed at strong ball-strikers.
+  {plural(len(start4), 'set')} now start at the 4-iron and
+  {len(start5)} start at the 5-iron. The stock answer for the top of the bag is a
+  <a href="/guides/hybrid-to-iron-conversion/">hybrid in the 19°–24° window</a> or a
+  7-wood, both of which fly the old 3-iron distance with a fraction of the difficulty.</p>
+  <p>The irony of loft creep is that many modern &ldquo;4-irons&rdquo; <em>are</em>
+  3-irons: a 19° game improvement 4-iron is a degree stronger than the 3-iron in a 1982
+  set. The number on the sole changed; the loft did not.</p>
+{example_html}
+  <h2>How to use this when switching sets</h2>
+  <p>Compare lofts, not numbers. Moving from a players set to a distance set — or from
+  a 1990s set to a current one — slot by slot on the number alone builds in a one- to
+  two-club distance jump and, more importantly, a gap at the wedge end: a 42°
+  set pitching wedge needs another wedge before your 54°. Pull the loft chart for both
+  sets (every model page on this site has one), line the lofts up, and gap from there —
+  the <a href="/wedge-lofts/">wedge loft chart</a> covers the bottom of the bag.</p>
+
+  <h2>Related guides</h2>
+  {knowledge_guide_cards(exclude=slug)}
+
+  {faq_html}
+
+  {guide_shop_block("Shop irons", "golf irons",
+                     "Search for new and used iron sets on eBay:")}
+
+  {knowledge_sources("The decade and equivalence tables are computed from the "
+                     "archive at build time; the 3-iron availability counts use only "
+                     "sets confirmed current in the maker's catalogue.")}
+</div>
+{guide_sticky_bar("Shop irons", "golf irons")}
+"""
+    page(f"/guides/{slug}/", title, desc, body, brands,
+         [bc, article_ld, faq_ld], og_type="article")
+
+
+# (hybrid number, curated stock-loft band, band midpoint) — the conversion
+# chart rows. The iron equivalents per category are computed from the archive.
+HYBRID_BANDS = [
+    ("2-hybrid", 16, 18, 17),
+    ("3-hybrid", 19, 21, 20),
+    ("4-hybrid", 22, 24, 23),
+    ("5-hybrid", 25, 27, 26),
+    ("6-hybrid", 28, 30, 29),
+    ("7-hybrid", 31, 34, 32.5),
+]
+
+
+def hybrid_iron_guide(brands, hybrid_models, iron_models):
+    """/guides/hybrid-to-iron-conversion/ — which hybrid replaces which iron."""
+    slug = "hybrid-to-iron-conversion"
+    title = fit_title("Hybrid to Iron Conversion Chart — Which Replaces Which",
+                      f" | {SITE_NAME}")
+    desc = fit_desc(
+        "A 19°–21° hybrid replaces a 3-iron, 22°–24° a 4-iron and 25°–27° a "
+        "5-iron. ",
+        ["Full conversion chart, loft equivalents by set type, and when to make "
+         "the switch.",
+         "Full conversion chart and when to make the switch.",
+         "Conversion chart and switching advice."])
+
+    nav, bc = crumbs([("Home", "/"), ("Hybrid Lofts", "/hybrid-lofts/"),
+                      ("Hybrid to Iron Conversion", None)])
+
+    players_l = iron_ladder(current_irons_of(iron_models, "players"))
+    gi_l = iron_ladder(current_irons_of(iron_models, "game-improvement"))
+    n_players = len(current_irons_of(iron_models, "players"))
+    n_gi = len(current_irons_of(iron_models, "game-improvement"))
+
+    conv_rows = "".join(
+        f'<tr><th scope="row">{name}</th><td>{lo}°–{hi}°</td>'
+        f"<td>{clubs_in_band(players_l, lo, hi)}</td>"
+        f"<td>{clubs_in_band(gi_l, lo, hi)}</td></tr>"
+        for name, lo, hi, _mid in HYBRID_BANDS)
+
+    # Stock lofts of the confirmed-current hybrid families, so the chart above
+    # is backed by what is actually on the rack.
+    cur_hy = sorted((m for m in hybrid_models if is_current(m)),
+                    key=lambda m: (m["brand"], m["model"]))
+    hy_rows = "".join(
+        f'<tr><th scope="row"><a href="{m["url"]}">{esc(m["brand"])} '
+        f'{esc(m["model"])}</a></th>'
+        f'<td>{", ".join(num(l) + "°" for l in driver_lofts(m))}</td></tr>'
+        for m in cur_hy)
+
+    g440h = _model_by_key(hybrid_models, "ping/g440-hybrid")
+    g440_note = ""
+    if g440h:
+        g440_note = (f'<p>Manufacturers publish the same mapping. Ping&rsquo;s own '
+                     f'gapping chart for the <a href="{g440h["url"]}">G440 hybrid</a> '
+                     f"pairs its 17° head with the 2-iron slot, 20° with the 3-iron, "
+                     f"23° with the 4-iron, 26° with the 5-iron, 30° with the 6-iron "
+                     f"and 34° with the 7-iron — one degree or so weaker than the "
+                     f"matching iron at each slot, to cover the hybrid&rsquo;s longer "
+                     f"carry.</p>")
+
+    faq = [
+        ("What hybrid replaces a 4-iron?",
+         "A 22 to 24 degree hybrid for a modern players set, where the 4-iron is "
+         "about 23 degrees. If your set is a strong-lofted distance model, check "
+         "its chart first: many current game improvement 4-irons are 19 to 21 "
+         "degrees, which calls for a 3-hybrid instead."),
+        ("What hybrid replaces a 5-iron?",
+         "25 to 27 degrees against a players set's 26 degree 5-iron; 22 to 24 "
+         "degrees against a distance set's 22 degree 5-iron. Match the loft "
+         "printed on your set's spec chart, not the number on the sole."),
+        ("Do hybrids go further than the irons they replace?",
+         "Usually half a club to a full club further at the same loft. The "
+         "hybrid's longer shaft adds clubhead speed and its deeper centre of "
+         "gravity adds launch and ball speed. That is why fitters often put you "
+         "in a hybrid one or two degrees weaker than the iron coming out."),
+        ("When should I switch from irons to hybrids?",
+         "When a long iron stops flying high enough to be useful — for most "
+         "amateurs that is any iron below about 25 degrees, and at moderate swing "
+         "speeds the 5-iron too. A practical test: if your 4-iron and 5-iron "
+         "carry within a few yards of each other, the longer one is not earning "
+         "its slot and a hybrid will."),
+        ("Can I carry both the iron and the matching hybrid?",
+         "Only if their lofts differ enough to create a real carry gap — three to "
+         "four degrees, like an iron set's 23 degree 4-iron alongside a 19 to 20 "
+         "degree hybrid. Two 23 degree clubs is one slot wasted, however "
+         "different they look."),
+    ]
+    faq_html, faq_ld = faq_block(faq)
+
+    article_ld = knowledge_article_ld(
+        "Hybrid to Iron Conversion Chart", desc, f"/guides/{slug}/",
+        "hybrid to iron conversion chart, what hybrid replaces a 4 iron, "
+        "hybrid iron equivalent, hybrid loft chart, when to switch to hybrids",
+        "Golf hybrid and iron loft equivalence")
+
+    body = f"""{nav}
+<div class="wrap">
+  <div class="page-head">
+    <h1>Hybrid to Iron Conversion Chart</h1>
+    <p class="lede">Which hybrid replaces which iron, why the answer depends on your
+    iron set, and when the switch is worth making.</p>
+  </div>
+
+  <p><strong>Match the hybrid's loft to the loft of the iron it replaces — not the
+  number on the sole.</strong> Against a modern players set that means 19°–21° for the
+  3-iron, 22°–24° for the 4-iron and 25°–27° for the 5-iron. Against a strong-lofted
+  distance set every slot shifts one club: its 4-iron is the old 3-iron. Expect the
+  hybrid to carry about half a club further at the same loft.</p>
+
+  <dl class="facts">
+    <div><dt>3-iron slot</dt><dd>19°–21° hybrid</dd></div>
+    <div><dt>4-iron slot</dt><dd>22°–24° hybrid</dd></div>
+    <div><dt>5-iron slot</dt><dd>25°–27° hybrid</dd></div>
+    <div><dt>Same-loft carry bonus</dt><dd>+5–10 yd</dd></div>
+    <div><dt>Current hybrid range</dt><dd>17°–34°</dd></div>
+  </dl>
+
+  <h2>Hybrid to iron conversion chart</h2>
+  <div class="table-scroll data-table-zone"><table class="specs">
+    <caption>Which current iron each hybrid loft band replaces — iron figures are the
+    medians of confirmed-current sets, generated from the archive
+    ({plural(n_players, 'players set')}, {plural(n_gi, 'game improvement set')}).</caption>
+    <thead><tr><th scope="col">Hybrid</th><th scope="col">Typical loft</th>
+    <th scope="col">Replaces in a players set</th>
+    <th scope="col">Replaces in a game improvement set</th></tr></thead>
+    <tbody>{conv_rows}</tbody></table></div>
+  <p class="table-note">A dash means no club in those sets carries that loft — current
+  game improvement sets simply have no 16°–18° iron to replace. The two columns are one
+  club apart all the way down: that is <a href="/guides/strong-vs-traditional-lofts/">
+  loft creep</a>, and it is why &ldquo;a 4-hybrid replaces a 4-iron&rdquo; is only true
+  for some bags.</p>
+{g440_note}
+  <h2>Stock lofts of current hybrid families</h2>
+  <div class="table-scroll data-table-zone"><table class="specs">
+    <caption>Stock lofts of every hybrid family on file confirmed current — generated
+    from the archive.</caption>
+    <thead><tr><th scope="col">Family</th><th scope="col">Stock lofts</th></tr></thead>
+    <tbody>{hy_rows}</tbody></table></div>
+  <p class="table-note">The model link opens the family&rsquo;s full chart, including
+  lies, lengths and hosel settings; the <a href="/hybrid-lofts/">hybrid loft chart</a>
+  adds the discontinued lines and the by-brand adjustability table.</p>
+
+  <h2>Why the hybrid flies further, and what to do about it</h2>
+  <p>A hybrid is built on a longer shaft than the matching iron — typically half an
+  inch to an inch and a half — and its head puts the centre of gravity lower and
+  further back. Both add ball speed and launch, which is the whole point when a long
+  iron has stopped flying, but it means a same-loft swap adds carry at the top of the
+  bag. Fitters handle it one of two ways: take the hybrid a degree or two weaker than
+  the iron it replaces, or take the matching loft and accept that each club above the
+  swap point moves up half a slot.</p>
+  <p>Either way, verify the result on the course or a launch monitor: the number that
+  matters is the carry gap to the longest iron you kept, which should look like every
+  other gap in the set — about 10–15 yards.</p>
+
+  <h2>When to make the switch</h2>
+  <p>The switch point is where an iron's loft can no longer buy you height. Mis-hit
+  tolerance aside, an iron below about 25° needs real clubhead speed to fly its full
+  carry and stop on a green; below 21° that is true even for strong players, which is
+  why <a href="/guides/iron-number-equivalents/">the 3-iron disappeared from most
+  sets</a>. Moderate swing speeds get more from hybrids from the 5-iron up; faster
+  players often keep irons to the 4 and carry one 19°–21° hybrid. There is no penalty
+  for mixing — most current sets are sold 5–PW precisely because buyers fill the top
+  with hybrids.</p>
+
+  <h2>Related guides</h2>
+  {knowledge_guide_cards(exclude=slug)}
+
+  {faq_html}
+
+  {guide_shop_block("Shop hybrids", "golf hybrid",
+                     "Search for new and used hybrids on eBay:")}
+
+  {knowledge_sources("The hybrid loft bands are the stock-loft conventions of "
+                     "current manufacturer lines; the iron equivalents and the "
+                     "current-family table are computed from the archive at build "
+                     "time.")}
+</div>
+{guide_sticky_bar("Shop hybrids", "golf hybrid")}
+"""
+    page(f"/guides/{slug}/", title, desc, body, brands,
+         [bc, article_ld, faq_ld], og_type="article")
+
+
+def lie_angle_guide(brands, iron_models):
+    """/guides/lie-angle/ — what lie angle is and the standard lies by iron."""
+    slug = "lie-angle"
+    title = fit_title("Golf Club Lie Angle Explained", " — Chart & Fitting",
+                      f" | {SITE_NAME}")
+    desc = fit_desc(
+        "Lie angle is the angle between shaft and sole: one degree off sends a "
+        "7-iron shot about four yards offline. ",
+        ["Standard lie chart by iron, and the signs yours is wrong.",
+         "Standard lie chart and fitting signs.",
+         "Lie chart by iron number."])
+
+    nav, bc = crumbs([("Home", "/"), ("Iron Lofts", "/iron-lofts/"),
+                      ("Lie Angle", None)])
+
+    cur = [m for m in iron_models if is_current(m)]
+    lie_rows = []
+    for c in IRON_CLUB_ORDER[1:]:  # 3-iron through PW
+        lies = [row["lie"] for row in (club_row(m, c) for m in cur)
+                if row and row.get("lie") is not None]
+        if len(lies) < 5:
+            continue
+        lie_rows.append(
+            f'<tr><th scope="row">{club_label_long(c).capitalize()}</th>'
+            f"<td>{num(round(median(lies) * 2) / 2)}°</td>"
+            f"<td>{num(min(lies))}°–{num(max(lies))}°</td>"
+            f"<td>{len(lies)}</td></tr>")
+
+    # A few current sets' 7-iron lies, to show how much "standard" varies.
+    example_keys = ["taylormade/p7tw-irons", "mizuno/jpx-925-hot-metal-irons",
+                    "ping/g440-irons", "titleist/t100-2025-irons",
+                    "taylormade/qi-irons"]
+    ex_rows = []
+    for key in example_keys:
+        m = _model_by_key(iron_models, key)
+        if not m:
+            continue
+        cells = []
+        for c in ("5", "7", "9", "PW"):
+            row = club_row(m, c)
+            cells.append(f"{num(row['lie'])}°"
+                         if row and row.get("lie") is not None else "—")
+        ex_rows.append(
+            f'<tr><th scope="row"><a href="{m["url"]}">{esc(m["brand"])} '
+            f'{esc(m["model"])}</a></th>'
+            + "".join(f"<td>{v}</td>" for v in cells) + "</tr>")
+
+    faq = [
+        ("What is the standard lie angle for irons?",
+         "There is no single standard — each maker sets its own — but current "
+         "sets cluster tightly: about 61 degrees at the 4-iron, 62 at the 7-iron "
+         "and 64 at the pitching wedge, flattening or steepening in half-degree "
+         "steps per club. The chart above gives the medians and ranges across "
+         "every confirmed-current set in this archive."),
+        ("What does an upright lie angle do to ball flight?",
+         "Too upright for your build and delivery, the toe sits up at impact and "
+         "the face points left of the target (for a right-hander); too flat and "
+         "it points right. The error scales with loft, so it shows up most in "
+         "short irons and wedges — the clubs you aim with."),
+        ("How do I tell if my lie angles are wrong?",
+         "Three signs. A persistent one-way miss with the short irons that your "
+         "swing does not explain. Divots deeper on one side than the other. And "
+         "the classic test: a strip of impact tape on the sole (or marker ink on "
+         "the ball) and a few shots off a lie board — a scuff towards the heel "
+         "means too upright, towards the toe means too flat."),
+        ("Can lie angle be adjusted after purchase?",
+         "Usually, by one to two degrees. Forged heads bend easily and most cast "
+         "heads will take a degree or so at a fitter's loft-and-lie machine, "
+         "though some hard cast alloys are brittle and resist bending. Many "
+         "makers also build to order — Ping's colour-coded dots, for instance, "
+         "span several degrees either side of standard."),
+        ("Does lie angle matter for drivers and woods?",
+         "Far less. The driver's low loft converts a lie error into very little "
+         "face misdirection, and the ball is swept off a tee rather than struck "
+         "down into the turf. Fitting attention belongs on the irons and "
+         "wedges, where loft is high and the sole meets the ground."),
+    ]
+    faq_html, faq_ld = faq_block(faq)
+
+    article_ld = knowledge_article_ld(
+        "Golf Club Lie Angle Explained", desc, f"/guides/{slug}/",
+        "lie angle golf, what is lie angle, standard lie angle irons, "
+        "upright vs flat lie, lie angle chart",
+        "Golf club lie angle")
+
+    body = f"""{nav}
+<div class="wrap">
+  <div class="page-head">
+    <h1>Golf Club Lie Angle Explained</h1>
+    <p class="lede">The spec that aims your irons. What lie angle is, the standard lies
+    by club computed from current sets, and how to tell if yours fit.</p>
+  </div>
+
+  <p><strong>Lie angle is the angle between the shaft and the ground when the club
+  sits on its sole.</strong> If it matches your posture and delivery, the face points
+  where you aimed; if it is off, the face points offline at impact even on a perfect
+  swing — roughly four yards per degree with a 7-iron at normal distances, and more as
+  loft goes up. It is the quietest cause of a one-way miss in golf, which is why a lie
+  check is the first station of any iron fitting.</p>
+
+  <dl class="facts">
+    <div><dt>4-iron (median)</dt><dd>~60.5°</dd></div>
+    <div><dt>7-iron (median)</dt><dd>~62°</dd></div>
+    <div><dt>PW (median)</dt><dd>~64°</dd></div>
+    <div><dt>Step per club</dt><dd>~0.5°</dd></div>
+    <div><dt>Miss per 1° error (7-iron)</dt><dd>~4 yd</dd></div>
+  </dl>
+
+  <h2>Standard iron lie angles</h2>
+  <div class="table-scroll data-table-zone"><table class="specs">
+    <caption>Lie angle by club across the {plural(len(cur), 'confirmed-current iron set')}
+    in the archive — generated from the archive.</caption>
+    <thead><tr><th scope="col">Club</th><th scope="col">Median lie</th>
+    <th scope="col">Range on file</th><th scope="col">Sets</th></tr></thead>
+    <tbody>{''.join(lie_rows)}</tbody></table></div>
+  <p class="table-note">Lie climbs about half a degree per club because shafts get
+  shorter down the set — a shorter club stands more upright by geometry. The
+  three-degree spread at any one club is each maker&rsquo;s own standard, which is why
+  switching brands can change your lie without anyone deciding to.</p>
+
+  <h2>&ldquo;Standard&rdquo; differs by maker</h2>
+  <div class="table-scroll data-table-zone"><table class="specs">
+    <caption>Stock lie angles of a few current sets, by club — generated from the
+    archive.</caption>
+    <thead><tr><th scope="col">Set</th><th scope="col">5-iron</th>
+    <th scope="col">7-iron</th><th scope="col">9-iron</th><th scope="col">PW</th></tr></thead>
+    <tbody>{''.join(ex_rows)}</tbody></table></div>
+  <p class="table-note">A degree and a half separates the flattest and most upright
+  stock 7-irons here — as much as many fitters would ever bend a club. Every model page
+  in this archive lists lie alongside loft, so you can check a prospective set against
+  your current one before buying.</p>
+
+  <h2>Upright or flat: which do you need?</h2>
+  <p>At address the sole should sit flush. At <em>impact</em> is what matters, and
+  impact dynamics droop the toe as the shaft bows, so static eyeballing misleads.
+  The reliable evidence: where the sole scuffs a lie board, where your divots are
+  deepest, and which way your well-struck short irons start. Heel contact and shots
+  starting left of your path mean too upright — you need flatter. Toe contact and
+  shots leaking right mean too flat — you need more upright. (Reverse both for
+  left-handers.)</p>
+  <p>Taller players and those with very upright postures tend to need upright lies;
+  shorter players and flat-swingers the opposite — but hand position at impact matters
+  more than height, so test rather than assume. One to two degrees of bend covers
+  almost everyone, and a fitter does it in minutes on forged heads.</p>
+
+  <h2>Lie and loft travel together</h2>
+  <p>Lie only aims the face because loft tilts it: the higher the loft, the more a lie
+  error rotates the face off target, which is why a mis-fit lob wedge misses greens a
+  mis-fit 4-iron would hit. It is also why lie angles have barely moved while
+  <a href="/guides/strong-vs-traditional-lofts/">lofts strengthened dramatically</a> —
+  a 1972 Ben Hogan Apex 7-iron stood at 61.5°, within a degree of today's median. Loft
+  is fashion; lie is geometry. The full spec chart for any set — loft, lie and length
+  per club — is on its model page, starting from the
+  <a href="/iron-lofts/">iron loft chart</a>.</p>
+
+  <h2>Related guides</h2>
+  {knowledge_guide_cards(exclude=slug)}
+
+  {faq_html}
+
+  {knowledge_sources("The lie tables are computed from the archive at build time, "
+                     "over sets confirmed current in the maker's catalogue; the "
+                     "yards-per-degree figure is the standard club-fitting "
+                     "approximation for a mid iron at typical amateur distances.")}
+</div>
+"""
+    page(f"/guides/{slug}/", title, desc, body, brands,
+         [bc, article_ld, faq_ld], og_type="article")
+
+
+def loft_explained_guide(brands, models):
+    """/guides/golf-club-loft-explained/ — the beginner's what-is-loft page."""
+    slug = "golf-club-loft-explained"
+    title = fit_title("What Is Loft in Golf? Golf Club Loft Explained",
+                      f" | {SITE_NAME}")
+    desc = fit_desc(
+        "Loft is the clubface angle that sets launch, spin and distance — from "
+        "9° drivers to 60° lob wedges. ",
+        ["A beginner's guide with real lofts for every club type.",
+         "A beginner's guide with real examples.",
+         "Beginner guide with real lofts."])
+
+    nav, bc = crumbs([("Home", "/"), ("Golf Club Loft Explained", None)])
+
+    # Loft span per club type across the confirmed-current models on file.
+    def wood_span(t):
+        lofts = [l for m in models if m["club_type"] == t and is_current(m)
+                 for l in driver_lofts(m)]
+        return (num(min(lofts)), num(max(lofts))) if lofts else None
+
+    iron_cur = [m for m in models if m["club_type"] == "irons" and is_current(m)]
+    # 4-iron through PW: the clubs every set shares. 2- and 3-irons exist (down
+    # to a 14° driving iron) but would stretch a beginner's table misleadingly.
+    iron_lofts_all = [row["loft"] for m in iron_cur for c in IRON_CLUB_ORDER[2:]
+                      for row in [club_row(m, c)] if row and row.get("loft")]
+    wedge_cur = [m for m in models if m["club_type"] == "wedges" and is_current(m)]
+    wedge_lofts_all = [l for m in wedge_cur for l in wedge_lofts(m)]
+
+    spans = []
+    for label, url, span, role in (
+        ("Driver", "/driver-lofts/", wood_span("driver"),
+         "Maximum distance off the tee; lowest loft in the bag"),
+        ("Fairway woods", "/fairway-wood-lofts/", wood_span("fairway_wood"),
+         "Long shots from tee and turf"),
+        ("Hybrids", "/hybrid-lofts/", wood_span("hybrid"),
+         "Long-iron replacements, easier to launch"),
+        ("Irons (4-iron to PW)", "/iron-lofts/",
+         (num(min(iron_lofts_all)), num(max(iron_lofts_all)))
+         if iron_lofts_all else None,
+         "The scoring ladder — one loft step per club"),
+        ("Wedges", "/wedge-lofts/",
+         (num(min(wedge_lofts_all)), num(max(wedge_lofts_all)))
+         if wedge_lofts_all else None,
+         "Short game: height and stopping power over distance"),
+    ):
+        if span:
+            spans.append(f'<tr><th scope="row"><a href="{url}">{label}</a></th>'
+                         f"<td>{span[0]}°–{span[1]}°</td><td>{role}</td></tr>")
+
+    mb = _model_by_key(models, "titleist/620-mb-irons")
+    gt = _model_by_key(models, "yonex/ezone-gt-irons")
+    brand_example = ""
+    if mb and gt:
+        mb7, gt7 = club_row(mb, "7"), club_row(gt, "7")
+        if mb7 and gt7:
+            brand_example = (
+                f'<p>The spread is real, not rounding. The '
+                f'<a href="{mb["url"]}">Titleist 620 MB</a>, a current blade, stamps '
+                f"&ldquo;7&rdquo; on a {num(mb7['loft'])}° head; the "
+                f'<a href="{gt["url"]}">Yonex EZONE GT</a>, a current '
+                f"super-game-improvement set, stamps the same number on a "
+                f"{num(gt7['loft'])}° head. Ten degrees — nearly three clubs&rsquo; "
+                f"worth of loft — under one label. Both are honest designs for "
+                f"different golfers; the label is just not the spec.</p>")
+
+    faq = [
+        ("What does loft mean on a golf club?",
+         "The angle between the clubface and the shaft axis — effectively how "
+         "far the face tilts back from vertical. More loft sends the ball "
+         "higher with more backspin and less distance; less loft sends it "
+         "lower, further and with more roll."),
+        ("How much does loft affect distance?",
+         "It is the main reason clubs go different distances. Within an iron "
+         "set, each club is about 3 to 4 degrees apart, which works out to "
+         "roughly 10 to 15 yards of carry per club for most golfers. Shaft "
+         "length adds a little speed club to club, but loft does most of the "
+         "work."),
+        ("Is lower loft always longer?",
+         "Only when your swing is fast enough to launch it. A low-lofted club "
+         "needs clubhead speed to get the ball up and carrying; without it, the "
+         "ball flies low and dies. That is why beginners usually hit a 5-wood "
+         "past a 3-wood and a hybrid past the long iron it replaced."),
+        ("Why do lofts vary between brands?",
+         "No governing body sets lofts, so each maker chooses its own — and "
+         "distance-oriented designs use stronger (lower) lofts because their "
+         "low centre of gravity restores the launch. The same club number can "
+         "differ by six degrees or more between two current sets, which is why "
+         "this site charts the actual lofts per model."),
+        ("What is dynamic loft?",
+         "The loft the face actually presents at impact, after shaft lean and "
+         "shaft bend have added or removed a few degrees from the number "
+         "stamped on the club. Good iron players deloft the face slightly; a "
+         "scooping release adds loft. Launch monitors measure it directly."),
+    ]
+    faq_html, faq_ld = faq_block(faq)
+
+    article_ld = knowledge_article_ld(
+        "Golf Club Loft Explained", desc, f"/guides/{slug}/",
+        "what is loft in golf, golf club loft explained, loft meaning golf, "
+        "golf club degrees chart, loft and distance",
+        "Golf club loft")
+
+    body = f"""{nav}
+<div class="wrap">
+  <div class="page-head">
+    <h1>Golf Club Loft Explained</h1>
+    <p class="lede">What loft is, how it shapes trajectory and distance, and the real
+    loft ranges for every club type — the beginner&rsquo;s page the rest of this site
+    builds on.</p>
+  </div>
+
+  <p><strong>Loft is the backward tilt of the clubface, measured in degrees from
+  vertical.</strong> It is the single spec that most decides what a club does: a 9°
+  driver face sends the ball out low and fast; a 60° lob wedge sends the same swing
+  almost straight up. Every other club in the bag sits on the ladder between them,
+  spaced a few degrees apart so each one carries a different distance.</p>
+
+  <dl class="facts">
+    <div><dt>Driver</dt><dd>8°–12°</dd></div>
+    <div><dt>7-iron</dt><dd>28°–35°</dd></div>
+    <div><dt>Pitching wedge</dt><dd>41°–48°</dd></div>
+    <div><dt>Lob wedge</dt><dd>58°–60°</dd></div>
+    <div><dt>Gap between clubs</dt><dd>3°–4°</dd></div>
+  </dl>
+
+  <h2>Loft ranges across the bag</h2>
+  <div class="table-scroll data-table-zone"><table class="specs">
+    <caption>Stock loft ranges by club type across the confirmed-current models in the
+    archive — generated from the archive.</caption>
+    <thead><tr><th scope="col">Club type</th><th scope="col">Lofts on file</th>
+    <th scope="col">What it is for</th></tr></thead>
+    <tbody>{''.join(spans)}</tbody></table></div>
+  <p class="table-note">Each club-type link opens the full chart: typical lofts by club
+  number, the stock lofts per brand, and the per-model spec pages behind them.</p>
+
+  <h2>What loft actually does</h2>
+  <p>At impact, loft splits the clubhead&rsquo;s speed between forward ball speed and
+  upward launch with backspin. Low loft keeps most of the energy going forward — fast,
+  flat and long, but hard to get airborne without clubhead speed. High loft trades ball
+  speed for height and spin — shorter, but easy to launch, quick to stop on a green and
+  far more tolerant of an imperfect strike. That trade is the architecture of the
+  whole bag: distance clubs at the low-loft end, scoring clubs at the high-loft end.</p>
+  <p>Loft also shrinks your misses. The more loft on the face, the more backspin
+  dominates sidespin, so curved shots curve less — one reason beginners' slices are
+  worst with the driver and vanish with the 9-iron, and why the standard advice for a
+  new golfer is <a href="/guides/best-driver-loft-for-beginners/">more driver loft, not
+  less</a>.</p>
+
+  <h2>Why the same number means different lofts</h2>
+  <p>Club numbers are labels, not measurements. No rule defines what a 7-iron is, and
+  manufacturers have strengthened lofts steadily for forty years as low-CG designs made
+  stronger lofts launchable — the full story is in the
+  <a href="/guides/strong-vs-traditional-lofts/">strong vs traditional lofts guide</a>
+  and the <a href="/guides/iron-number-equivalents/">iron number equivalents chart</a>.</p>
+  {brand_example}
+  <h2>Using loft when you buy</h2>
+  <p>Compare clubs by loft, not by number or by marketing category. When a new set
+  claims an extra ten yards, check its loft chart first — most of the gain is usually
+  a stronger loft, which you could also get by hitting one more club. When gapping a
+  bag, write down the loft of every club from driver to lob wedge and look for even
+  3°–5° steps; holes and bunches in that ladder are where your distance gaps come from.
+  Every model page on this site lists the full chart, and the
+  <a href="/compare/">compare pages</a> put two sets side by side.</p>
+
+  <h2>Related guides</h2>
+  {knowledge_guide_cards(exclude=slug)}
+
+  {faq_html}
+
+  {guide_shop_block("Shop golf clubs", "golf clubs",
+                     "Search for new and used clubs on eBay:")}
+
+  {knowledge_sources("The loft-range table is computed from the archive at build "
+                     "time over confirmed-current models; the facts panel uses the "
+                     "accepted retail conventions for each club type.")}
+</div>
+{guide_sticky_bar("Shop golf clubs", "golf clubs")}
+"""
+    page(f"/guides/{slug}/", title, desc, body, brands,
+         [bc, article_ld, faq_ld], og_type="article")
+
+
+def strong_vs_traditional_guide(brands, iron_models):
+    """/guides/strong-vs-traditional-lofts/ — the loft creep debate, with the
+    archive's own numbers on both sides."""
+    slug = "strong-vs-traditional-lofts"
+    title = fit_title("Strong vs Traditional Iron Lofts — Loft Creep",
+                      f" | {SITE_NAME}")
+    desc = fit_desc(
+        "Strong lofts run 3°–5° lower than traditional: a 29° game-improvement "
+        "7-iron against 34°–35° on a blade. ",
+        ["What loft creep means for distance, gapping and set makeup.",
+         "What loft creep means for distance and gapping.",
+         "The loft creep debate with real data."])
+
+    nav, bc = crumbs([("Home", "/"), ("Iron Lofts", "/iron-lofts/"),
+                      ("Strong vs Traditional Lofts", None)])
+
+    cats = ["blade", "players", "players-distance", "game-improvement",
+            "super-game-improvement"]
+    show_clubs = ["4", "5", "6", "7", "8", "9", "PW"]
+    cat_rows = []
+    for c in cats:
+        ms = current_irons_of(iron_models, c)
+        if not ms:
+            continue
+        ladder = iron_ladder(ms, show_clubs)
+        cat_rows.append(
+            f'<tr><th scope="row"><a href="/category/{esc(c)}/">'
+            f"{esc(CATEGORY_LABEL.get(c, c))}</a></th>"
+            + "".join(f"<td>{num(ladder[cl]) + '°' if cl in ladder else '—'}</td>"
+                      for cl in show_clubs)
+            + f"<td>{len(ms)}</td></tr>")
+
+    # 7-iron creep by decade — median and range over every set on file.
+    creep_rows = []
+    for dec in (1980, 1990, 2000, 2010, 2020):
+        ms = sets_of_decade(iron_models, dec)
+        sevens = [row["loft"] for row in (club_row(m, "7") for m in ms)
+                  if row and row.get("loft") is not None]
+        if not sevens:
+            continue
+        creep_rows.append(
+            f'<tr><th scope="row">{dec}s</th>'
+            f"<td>{num(round(median(sevens) * 2) / 2)}°</td>"
+            f"<td>{num(min(sevens))}°–{num(max(sevens))}°</td>"
+            f"<td>{len(sevens)}</td></tr>")
+
+    blade_l = iron_ladder(current_irons_of(iron_models, "blade"))
+    gi_l = iron_ladder(current_irons_of(iron_models, "game-improvement"))
+
+    faq = [
+        ("What are strong lofts in golf?",
+         "Lofts set several degrees lower than the traditional number for that "
+         "club — a 7-iron at 28 to 31 degrees instead of 34 to 35. Manufacturers "
+         "pair them with low-CG heads that restore the launch height, so the club "
+         "flies as high as the old loft did but carries further."),
+        ("Are strong lofts cheating?",
+         "No — but they complicate comparisons. Nothing in the rules defines "
+         "club numbers, and a strong-lofted head genuinely launches its loft "
+         "higher than an older design could. The honest criticism is about "
+         "marketing: a distance gain that comes mostly from loft looks like a "
+         "technology gain when the club numbers hide it."),
+        ("Do strong lofted irons actually go further?",
+         "Yes, by roughly one club per 3 to 4 degrees — that part is simple "
+         "geometry. The questions worth asking are whether the ball still flies "
+         "high enough to hold greens (in a well-designed head, usually yes) and "
+         "what happens at the wedge end of the set, where a 42 degree pitching "
+         "wedge leaves a bigger gap to your sand wedge."),
+        ("Should I play strong or traditional lofts?",
+         "Match the design to your launch, not to the distance claim. Slower "
+         "swings and low-ball hitters benefit from strong-lofted heads because "
+         "the design adds the height they lack. Faster swings that already "
+         "launch high lose nothing with traditional lofts and keep tighter "
+         "wedge gapping and more consistent spin. A launch monitor settles it "
+         "in ten shots."),
+        ("Why does my new 7-iron go further than my old one?",
+         "Check both loft charts before crediting the face technology. If the "
+         "new 7-iron is 29 degrees and the old one was 33, you are comparing "
+         "different clubs with the same label — most of the gain is loft. Every "
+         "model page on this site lists the chart, and the compare pages put "
+         "two sets side by side."),
+    ]
+    faq_html, faq_ld = faq_block(faq)
+
+    article_ld = knowledge_article_ld(
+        "Strong vs Traditional Iron Lofts", desc, f"/guides/{slug}/",
+        "strong lofts vs traditional lofts, loft creep golf, jacked lofts, "
+        "strong lofted irons, game improvement vs blade lofts",
+        "Golf iron loft design")
+
+    body = f"""{nav}
+<div class="wrap">
+  <div class="page-head">
+    <h1>Strong vs Traditional Iron Lofts</h1>
+    <p class="lede">What &ldquo;strong lofts&rdquo; means, how far loft creep has
+    actually gone, and how to compare sets honestly — with the numbers computed from
+    the spec archive.</p>
+  </div>
+
+  <p><strong>Strong lofts are club lofts set 3°–6° lower than the traditional number
+  for that club.</strong> Across the sets in this archive confirmed as currently sold,
+  the median blade 7-iron is {num(blade_l.get("7", 34))}° and the median game
+  improvement 7-iron is {num(gi_l.get("7", 29))}° — about a club and a half apart under
+  the same stamped number. Neither is wrong; they are different designs for different
+  launch needs. The problems start when sets are compared by number as if the numbers
+  meant the same thing.</p>
+
+  <dl class="facts">
+    <div><dt>Blade 7-iron (median)</dt><dd>{num(blade_l.get("7", 34))}°</dd></div>
+    <div><dt>GI 7-iron (median)</dt><dd>{num(gi_l.get("7", 29))}°</dd></div>
+    <div><dt>Blade PW (median)</dt><dd>{num(blade_l.get("PW", 46))}°</dd></div>
+    <div><dt>GI PW (median)</dt><dd>{num(gi_l.get("PW", 42.5))}°</dd></div>
+    <div><dt>1980s → 2020s 7-iron</dt><dd>37° → 30.5°</dd></div>
+  </dl>
+
+  <h2>Current lofts by category</h2>
+  <div class="table-scroll data-table-zone"><table class="specs">
+    <caption>Median loft by club for the confirmed-current sets in each category —
+    generated from the archive.</caption>
+    <thead><tr><th scope="col">Category</th><th scope="col">4</th><th scope="col">5</th>
+    <th scope="col">6</th><th scope="col">7</th><th scope="col">8</th>
+    <th scope="col">9</th><th scope="col">PW</th><th scope="col">Sets</th></tr></thead>
+    <tbody>{''.join(cat_rows)}</tbody></table></div>
+  <p class="table-note">Read any row against the blade row: the game improvement ladder
+  sits one full club ahead all the way down. The category links open every set on file,
+  and the <a href="/category/">category guide</a> explains what separates the
+  designs.</p>
+
+  <h2>Loft creep, decade by decade</h2>
+  <div class="table-scroll data-table-zone"><table class="specs">
+    <caption>7-iron lofts of the sets introduced in each decade — generated from the
+    archive.</caption>
+    <thead><tr><th scope="col">Decade</th><th scope="col">Median 7-iron</th>
+    <th scope="col">Range</th><th scope="col">Sets on file</th></tr></thead>
+    <tbody>{''.join(creep_rows)}</tbody></table></div>
+  <p class="table-note">The medians mix blades and distance sets, so the creep is
+  steeper than it looks: the traditional end of each range has barely moved since the
+  1990s, while the strong end dropped from 32° to 25°. The club-by-club version is in
+  the <a href="/guides/iron-number-equivalents/">iron number equivalents guide</a>.</p>
+
+  <h2>The case for strong lofts</h2>
+  <p>Modern distance heads earn their lofts. Thin faces flex and add ball speed; low,
+  deep centres of gravity and wide soles launch the ball several degrees higher from
+  the same loft than a blade can. Give that head a traditional 34° and it balloons —
+  so designers take the extra launch back as loft and sell the difference as carry.
+  For the golfer who hits the ball low, that trade is real help: a 29° 7-iron they can
+  launch beats a 34° one they cannot.</p>
+
+  <h2>The case against</h2>
+  <p>Three honest costs. First, comparison becomes meaningless: &ldquo;this 7-iron
+  goes further than that one&rdquo; says nothing when the lofts differ by five degrees.
+  Second, gapping: a set whose pitching wedge is {num(gi_l.get("PW", 42.5))}° leaves a
+  wide hole to a 54°–56° sand wedge, which is why strong-lofted sets ship with gap
+  wedges and why the <a href="/wedge-lofts/gap-wedge/">gap wedge</a> exists at all.
+  Third, the short irons: strong lofts mean less spin on approach shots, and at some
+  point a 9-iron that flies like an 8-iron stops checking like a 9-iron.</p>
+
+  <h2>See it in real sets</h2>
+  <p>The cleanest live comparisons are same-brand pairs sold side by side:
+  <a href="/compare/mizuno-jpx-925-forged-vs-jpx-925-hot-metal/">Mizuno JPX-925 Forged
+  vs Hot Metal</a> (30° vs 28° 7-irons from one catalogue) and
+  <a href="/compare/titleist-620-cb-vs-t100/">Titleist 620 CB vs T100</a> (35° vs 33°).
+  For the full spread, put any <a href="/category/blade/">blade</a> next to any
+  <a href="/category/game-improvement/">game improvement set</a> on their model pages —
+  every chart lists loft, lie and length per club.</p>
+
+  <h2>How to compare sets honestly</h2>
+  <p>Ignore the numbers on the soles. Line up both loft charts, match clubs by loft,
+  and compare carry and height loft-for-loft on a launch monitor. Then check the wedge
+  end: count the degrees from the set&rsquo;s pitching wedge to your sand wedge and
+  make sure a <a href="/wedge-lofts/">wedge ladder</a> of 4°–6° steps fits in between.
+  A set that wins loft-for-loft is genuinely better for you; a set that only wins
+  number-for-number is a relabelling.</p>
+
+  <h2>Related guides</h2>
+  {knowledge_guide_cards(exclude=slug)}
+
+  {faq_html}
+
+  {guide_shop_block("Shop iron sets", "golf iron set",
+                     "Search for new and used iron sets on eBay:")}
+
+  {knowledge_sources("The category and decade tables are computed from the archive "
+                     "at build time; the launch and spin mechanics are the accepted "
+                     "club-design conventions and hold for well-struck shots.")}
+</div>
+{guide_sticky_bar("Shop iron sets", "golf iron set")}
+"""
+    page(f"/guides/{slug}/", title, desc, body, brands,
+         [bc, article_ld, faq_ld], og_type="article")
+
+
+def knowledge_pages(brands, models, iron_models, hybrid_models):
+    iron_equivalents_guide(brands, iron_models)
+    hybrid_iron_guide(brands, hybrid_models, iron_models)
+    strong_vs_traditional_guide(brands, iron_models)
+    lie_angle_guide(brands, iron_models)
+    loft_explained_guide(brands, models)
+
+
+# --------------------------------------------------------------------------
 # club-type hub pages — /iron-lofts/, /fairway-wood-lofts/, /hybrid-lofts/
 #
 # The wedge and driver hubs (wedge_index, driver_index) predate these; the
@@ -6510,6 +7591,11 @@ def iron_index(brands, iron_models, by_cat):
   {plural(n_brands, 'brand')}, from current lines to 1960s vintage sets whose spec sheets
   have left the manufacturer sites. Browse the <a href="/brands/">brand index</a>,
   <a href="/years/">by year</a> or <a href="/category/">by category</a>.</p>
+
+  <h2>Iron loft guides</h2>
+  {knowledge_guide_cards(only=("iron-number-equivalents",
+                               "strong-vs-traditional-lofts", "lie-angle",
+                               "golf-club-loft-explained"))}
 
   {faq_html}
 
@@ -6798,6 +7884,11 @@ def hybrid_index(brands, hy_models):
   way — enough to close a gap without reordering the set. The per-model pages above
   chart each family's settings.</p>
 
+  <h2>Hybrid guides</h2>
+  {knowledge_guide_cards(only=("hybrid-to-iron-conversion",
+                               "iron-number-equivalents",
+                               "golf-club-loft-explained"))}
+
   {faq_html}
 
   {guide_shop_block("Shop hybrids", "golf hybrid",
@@ -7036,6 +8127,7 @@ def main():
     # models are only linked, never mixed into those stats.
     wedge_pages(iron_models, brands, wedge_models)
     driver_pages(brands, driver_models)
+    knowledge_pages(brands, models, iron_models, hybrid_models)
     iron_index(brands, iron_models, by_cat)
     fairway_index(brands, fairway_models)
     hybrid_index(brands, hybrid_models)
@@ -7073,6 +8165,11 @@ def main():
             ("/about/", "0.4", site_mod), ("/privacy/", "0.2", PRIVACY_UPDATED)]
     urls += [(f"/wedge-lofts/{w['slug']}/", "0.8", WEDGE_REVIEWED) for w in WEDGE_TYPES]
     urls += [(f"/guides/{g['slug']}/", "0.8", DRIVER_REVIEWED) for g in DRIVER_GUIDES]
+    # The knowledge guides' tables are generated from the archive, so a data
+    # change is a content change: lastmod is the newer of the review date and
+    # the newest model file feeding the tables.
+    urls += [(f"/guides/{g['slug']}/", "0.8", max(KNOWLEDGE_REVIEWED, site_mod))
+             for g in KNOWLEDGE_GUIDES]
     urls += [(m["url"], "0.9", m["modified"]) for m in models]
     urls += [(f"/{b['slug']}/", "0.8", newest(by_brand[b["slug"]]))
              for b in brands if by_brand.get(b["slug"])]
