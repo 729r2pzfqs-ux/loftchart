@@ -815,6 +815,7 @@ table.specs tr.loft-group td { border-top: 2px solid var(--border); }
 }
 .sticky-bar-links {
   display: flex;
+  flex-wrap: wrap;
   gap: .45rem;
 }
 .sticky-btn {
@@ -856,6 +857,8 @@ table.specs tr.loft-group td { border-top: 2px solid var(--border); }
   .sticky-bar-inner { gap: .5rem; }
   .sticky-bar-label { font-size: .82rem; }
   .sticky-bar-disc { display: none; }
+  /* Compare pages carry two model buttons; the label is what gives way. */
+  .sticky-bar-two .sticky-bar-label { display: none; }
 }
 @media print { .sticky-bar, #shop-block, .top-cta { display: none; } }
 

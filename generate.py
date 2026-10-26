@@ -684,7 +684,7 @@ def head(title, desc, path, ld=None, og_type="website", noindex=False,
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="/css/style.css?v=5">
+<link rel="stylesheet" href="/css/style.css?v=6">
 {ldblocks}
 {consent}
 {adsense}
@@ -1814,38 +1814,52 @@ def shop_block(m):
   </div>"""
 
 
-def sticky_bar(m):
-    """Floating bottom bar that appears once the main shop block scrolls away."""
-    ebay_url = _shop_links(m)
-    brand, model = esc(m["brand"]), esc(m["model"])
-    return f"""<div id="sticky-bar" class="sticky-bar" hidden>
-  <div class="sticky-bar-inner">
-    <span class="sticky-bar-label">Shop {brand} {model}</span>
-    <div class="sticky-bar-links">
-      <a href="{esc(ebay_url)}" rel="sponsored nofollow noopener"
-         target="_blank" class="sticky-btn">See eBay listings</a>
-    </div>
-    <span class="sticky-bar-disc" title="We may earn a commission from purchases made through this link at no extra cost to you.">Affiliate link</span>
-    <button class="sticky-bar-close" aria-label="Dismiss">&times;</button>
-  </div>
-</div>
-<script>
-(function(){{
+# Shown/hidden against the main shop block's visibility; shared by every
+# sticky bar variant, so it lives outside the f-strings.
+STICKY_SCRIPT = """<script>
+(function(){
   var bar=document.getElementById('sticky-bar'),
       block=document.getElementById('shop-block'),
       closed=false;
   if(!bar||!block) return;
-  bar.querySelector('.sticky-bar-close').addEventListener('click',function(){{
+  bar.querySelector('.sticky-bar-close').addEventListener('click',function(){
     bar.hidden=true; closed=true;
-  }});
-  if('IntersectionObserver' in window){{
-    new IntersectionObserver(function(entries){{
+  });
+  if('IntersectionObserver' in window){
+    new IntersectionObserver(function(entries){
       if(closed) return;
       bar.hidden=entries[0].isIntersecting;
-    }},{{threshold:0}}).observe(block);
-  }}
-}})();
+    },{threshold:0}).observe(block);
+  }
+})();
 </script>"""
+
+
+def _sticky_bar_shell(label, links, extra_class="", two_links=False):
+    """The sticky bar chrome around any set of links."""
+    cls = f" {extra_class}" if extra_class else ""
+    noun = "links" if two_links else "link"
+    pron = "these links" if two_links else "this link"
+    return f"""<div id="sticky-bar" class="sticky-bar{cls}" hidden>
+  <div class="sticky-bar-inner">
+    <span class="sticky-bar-label">{esc(label)}</span>
+    <div class="sticky-bar-links">{links}</div>
+    <span class="sticky-bar-disc" title="We may earn a commission from purchases made through {pron} at no extra cost to you.">Affiliate {noun}</span>
+    <button class="sticky-bar-close" aria-label="Dismiss">&times;</button>
+  </div>
+</div>
+{STICKY_SCRIPT}"""
+
+
+def _sticky_link(ebay_url, text="See eBay listings"):
+    return (f'<a href="{esc(ebay_url)}" rel="sponsored nofollow noopener"\n'
+            f'         target="_blank" class="sticky-btn">{esc(text)}</a>')
+
+
+def sticky_bar(m):
+    """Floating bottom bar that appears once the main shop block scrolls away."""
+    return _sticky_bar_shell(f"Shop {m['brand']} {m['model']}",
+                             _sticky_link(_shop_links(m)))
 
 
 def guide_shop_block(heading, query, lede):
@@ -1862,35 +1876,41 @@ def guide_shop_block(heading, query, lede):
 
 def guide_sticky_bar(label, query):
     """Floating bottom bar for guide/aggregation pages."""
-    ebay_url = _ebay_url(query)
-    return f"""<div id="sticky-bar" class="sticky-bar" hidden>
-  <div class="sticky-bar-inner">
-    <span class="sticky-bar-label">{esc(label)}</span>
-    <div class="sticky-bar-links">
-      <a href="{esc(ebay_url)}" rel="sponsored nofollow noopener"
-         target="_blank" class="sticky-btn">See eBay listings</a>
-    </div>
-    <span class="sticky-bar-disc" title="We may earn a commission from purchases made through this link at no extra cost to you.">Affiliate link</span>
-    <button class="sticky-bar-close" aria-label="Dismiss">&times;</button>
-  </div>
-</div>
-<script>
-(function(){{
-  var bar=document.getElementById('sticky-bar'),
-      block=document.getElementById('shop-block'),
-      closed=false;
-  if(!bar||!block) return;
-  bar.querySelector('.sticky-bar-close').addEventListener('click',function(){{
-    bar.hidden=true; closed=true;
-  }});
-  if('IntersectionObserver' in window){{
-    new IntersectionObserver(function(entries){{
-      if(closed) return;
-      bar.hidden=entries[0].isIntersecting;
-    }},{{threshold:0}}).observe(block);
-  }}
-}})();
-</script>"""
+    return _sticky_bar_shell(label, _sticky_link(_ebay_url(query)))
+
+
+def compare_shop_block(a, b):
+    """Dual-model shop block for compare pages.
+
+    A compare reader is weighing both models, and intent usually leans to the
+    newer one (b) — so each model gets its own primary button rather than
+    model A getting the only link on the page.
+    """
+    noun = f"{WOOD_NOUN[a['club_type']]}s" if is_wood(a) else "sets"
+    buttons = "".join(
+        f'<a href="{esc(_shop_links(m))}" rel="sponsored nofollow noopener" '
+        f'target="_blank" class="shop-btn shop-ebay shop-btn-primary">'
+        f'Shop {esc(m["brand"])} {esc(m["model"])}</a>'
+        for m in (a, b))
+    return f"""<div id="shop-block">
+  <h2>Shop both models</h2>
+  <p class="shop-lede">Compare prices for new and used {noun} on eBay:</p>
+  <div class="shop-links">{buttons}</div>
+  {AFFILIATE_DISCLOSURE}
+  </div>"""
+
+
+def compare_sticky_bar(a, b):
+    """Floating bottom bar for compare pages — one eBay link per model.
+
+    Model names alone keep the two buttons short enough to sit side by side;
+    the sticky-bar-two class drops the label on narrow screens so neither
+    button is pushed off the bar.
+    """
+    links = "".join(_sticky_link(_shop_links(m), f"{m['model']} on eBay")
+                    for m in (a, b))
+    return _sticky_bar_shell("Shop these models", links,
+                             extra_class="sticky-bar-two", two_links=True)
 
 
 # Source citations are prose with the raw URL embedded ("retrieved from
@@ -2402,7 +2422,11 @@ def brand_page(b, models, brands):
   </dl>
   {chips}
   {''.join(sections)}
+
+  {guide_shop_block(f"Shop {b['name']} clubs", f"{b['name']} golf clubs",
+                     f"Search new and used {b['name']} clubs on eBay:")}
 </div>
+{guide_sticky_bar(f"Shop {b['name']} clubs", f"{b['name']} golf clubs")}
 """
     page(f"/{b['slug']}/", title, desc, body, brands,
          [bc, item_list(ms, f"{b['name']} club models")])
@@ -2589,7 +2613,11 @@ def year_page(year, ms, brands, by_year):
   <h2>Every {year} model</h2>
   <div class="grid">{''.join(model_card(m) for m in ms)}</div>
   {around_html}
+
+  {guide_shop_block(f"Shop {year} clubs", f"{year} golf clubs",
+                     f"Search new and used clubs from the {year} release year on eBay:")}
 </div>
+{guide_sticky_bar(f"Shop {year} clubs", f"{year} golf clubs")}
 """
     # A year page listing one or two models is a thin duplicate of the cards it
     # holds. Keep it as a crawl path from /years/, but out of the index.
@@ -2667,7 +2695,11 @@ def category_page(cat, ms, brands):
     <tbody>{rows}</tbody></table></div>
   <p class="table-note">Figures shown are the 7-iron from each set (or the nearest middle
   iron where a 7-iron is not on file). Follow a model link for the full set chart.</p>
+
+  {guide_shop_block(f"Shop {short} irons", f"{short} irons golf",
+                     f"Search new and used {short} iron sets on eBay:")}
 </div>
+{guide_sticky_bar(f"Shop {short} irons", f"{short} irons golf")}
 """
     page(f"/category/{cat}/", title, desc, body, brands, [bc, item_list(ms, label)])
 
@@ -3482,9 +3514,9 @@ def wedge_compare_page(a, b, brands, indexed=False, generation=False):
   <a href="{b['url']}">{esc(b['brand'])} {esc(b['model'])} specs</a>.</p>
   {faq_html}
 
-  {shop_block(a)}
+  {compare_shop_block(a, b)}
 </div>
-{sticky_bar(a)}
+{compare_sticky_bar(a, b)}
 """
     page(url, title, desc, body, brands, [bc] + ([faq_ld] if faq_ld else []),
          googlebot_noindex=not indexed)
@@ -3735,9 +3767,9 @@ def driver_compare_page(a, b, brands, indexed=False, generation=False):
   <a href="{b['url']}">{esc(b['brand'])} {esc(b['model'])} {WOOD_NOUN[b['club_type']]} specs</a>.</p>
   {faq_html}
 
-  {shop_block(a)}
+  {compare_shop_block(a, b)}
 </div>
-{sticky_bar(a)}
+{compare_sticky_bar(a, b)}
 """
     page(url, title, desc, body, brands, [bc] + ([faq_ld] if faq_ld else []),
          googlebot_noindex=not indexed)
@@ -3908,9 +3940,9 @@ def compare_page(a, b, brands, indexed=False, generation=False):
   <a href="{b['url']}">{esc(b['brand'])} {esc(b['model'])} specs</a>.</p>
   {faq_html}
 
-  {shop_block(a)}
+  {compare_shop_block(a, b)}
 </div>
-{sticky_bar(a)}
+{compare_sticky_bar(a, b)}
 """
     page(url, title, desc, body, brands, [bc] + ([faq_ld] if faq_ld else []),
          googlebot_noindex=not indexed)
@@ -6359,10 +6391,14 @@ def iron_index(brands, iron_models, by_cat):
 
   {faq_html}
 
+  {guide_shop_block("Shop irons", "golf irons",
+                     "Search for new and used iron sets on eBay:")}
+
   {hub_sources("Loft bands are drawn from the archive itself and from accepted "
                "club-fitting conventions, given as ranges because no governing body "
                "defines iron lofts.", HUB_REVIEWED)}
 </div>
+{guide_sticky_bar("Shop irons", "golf irons")}
 """
     page("/iron-lofts/", title, desc, body, brands,
          [bc, article_ld, faq_ld], og_type="article")
