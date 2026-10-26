@@ -17,6 +17,7 @@ import os
 import re
 import sys
 from collections import Counter
+from datetime import datetime
 
 import yaml
 
@@ -51,7 +52,8 @@ REQUIRED = ("model", "brand", "brand_slug", "club_type", "slug",
             "year_introduced", "category", "description", "specs", "sources")
 
 # YEAR_MIN is 1969 because the Ping Karsten I (1969) is the oldest model on file.
-YEAR_MIN, YEAR_MAX = 1969, 2026
+# YEAR_MAX allows next year's models, which are typically announced in the fall.
+YEAR_MIN, YEAR_MAX = 1969, datetime.now().year + 1
 SEVEN_IRON_MIN, SEVEN_IRON_MAX = 26.0, 38.0
 DESC_MIN_CHARS = 50
 
